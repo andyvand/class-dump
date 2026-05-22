@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioPlaylistStore
 {
-    MISSING_TYPE *playlistUpdatedSignal;
-    MISSING_TYPE *audioPlaylist;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *headlineCache;
+    id playlistUpdatedSignal;
+    id audioPlaylist;
+    id headlineService;
+    id headlineCache;
 }
 
 - (void);

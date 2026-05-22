@@ -6,11 +6,9 @@
 
 #import <JetEngine/JETreatmentAction.h>
 
-@class MISSING_TYPE;
-
 @interface JetEngine.ArrayFilterTreatmentAction : JETreatmentAction
 {
-    MISSING_TYPE *filtersPredicate;
+    id filtersPredicate;
 }
 
 - (id);

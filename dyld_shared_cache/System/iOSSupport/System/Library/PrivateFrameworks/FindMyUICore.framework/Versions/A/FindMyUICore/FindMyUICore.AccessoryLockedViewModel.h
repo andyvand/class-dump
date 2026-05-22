@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.AccessoryLockedViewModel
 {
-    MISSING_TYPE *_alertMessage;
-    MISSING_TYPE *_shouldShowAlert;
-    MISSING_TYPE *onboardingSession;
-    MISSING_TYPE *accessory;
-    MISSING_TYPE *lostModeInfo;
-    MISSING_TYPE *_processCompletedHandler;
-    MISSING_TYPE *_$observationRegistrar;
+    id _alertMessage;
+    id _shouldShowAlert;
+    id onboardingSession;
+    id accessory;
+    id lostModeInfo;
+    id _processCompletedHandler;
+    id _$observationRegistrar;
 }
 
 @end

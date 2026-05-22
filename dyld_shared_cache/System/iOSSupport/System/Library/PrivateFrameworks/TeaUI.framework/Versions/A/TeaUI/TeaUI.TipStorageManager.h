@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.TipStorageManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *fileManager;
-    MISSING_TYPE *loadState;
-    MISSING_TYPE *migrationTasks;
-    MISSING_TYPE *groupLastPresentedDate;
+    id $defaultActor;
+    id fileManager;
+    id loadState;
+    id migrationTasks;
+    id groupLastPresentedDate;
 }
 
 @end

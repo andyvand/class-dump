@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 __attribute__((visibility("hidden")))
 @interface WFActivityProgressViewController
 {
-    MISSING_TYPE *activityView;
-    MISSING_TYPE *successView;
-    MISSING_TYPE *_contentView;
-    MISSING_TYPE *_state;
+    id activityView;
+    id successView;
+    id _contentView;
+    id _state;
 }
 
 - (id);

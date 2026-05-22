@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsletterManagementTrackingObserver
 {
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *tracker;
+    id newsletterManager;
+    id tracker;
 }
 
 @end

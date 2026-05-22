@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewShellKit.CanvasUIViewController
 {
-    MISSING_TYPE *sceneIdentifier;
-    MISSING_TYPE *active;
-    MISSING_TYPE *activating;
-    MISSING_TYPE *forcedOrientation;
-    MISSING_TYPE *debugOverlay;
+    id sceneIdentifier;
+    id active;
+    id activating;
+    id forcedOrientation;
+    id debugOverlay;
 }
 
 - (id);

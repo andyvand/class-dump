@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingSettingsButtonViewRenderer
 {
-    MISSING_TYPE *styler;
+    id styler;
 }
 
 @end

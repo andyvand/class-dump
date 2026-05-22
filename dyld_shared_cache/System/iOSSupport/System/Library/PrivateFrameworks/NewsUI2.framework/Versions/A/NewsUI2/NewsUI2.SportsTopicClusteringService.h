@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsTopicClusteringService
 {
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *subscriptionController;
+    id headlineService;
+    id tagService;
+    id personalizationService;
+    id subscriptionController;
 }
 
 @end

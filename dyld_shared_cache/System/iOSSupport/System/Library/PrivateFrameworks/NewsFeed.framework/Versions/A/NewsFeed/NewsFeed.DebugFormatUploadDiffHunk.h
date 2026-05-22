@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadDiffHunk
 {
-    MISSING_TYPE *lines;
-    MISSING_TYPE *range;
+    id lines;
+    id range;
 }
 
 @end

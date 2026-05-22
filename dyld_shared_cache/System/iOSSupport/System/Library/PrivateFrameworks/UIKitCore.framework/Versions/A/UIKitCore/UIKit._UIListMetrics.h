@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIListMetrics
 {
-    MISSING_TYPE *core;
-    MISSING_TYPE *settings;
-    MISSING_TYPE *colors;
-    MISSING_TYPE *fonts;
+    id core;
+    id settings;
+    id colors;
+    id fonts;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.InsertAdvertisementPageBlueprintModifier
 {
-    MISSING_TYPE *advertisementModel;
-    MISSING_TYPE *articlePage;
-    MISSING_TYPE *tracker;
+    id advertisementModel;
+    id articlePage;
+    id tracker;
 }
 
 @end

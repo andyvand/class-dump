@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SectionViewController
 {
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *_selectedSectionIndex;
-    MISSING_TYPE *presentation;
-    MISSING_TYPE *currentSection;
-    MISSING_TYPE *scrollViewProxyManager;
-    MISSING_TYPE *$__lazy_storage_$_sectionsBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_sectionsSegmentedControl;
+    id dataSource;
+    id delegate;
+    id _selectedSectionIndex;
+    id presentation;
+    id currentSection;
+    id scrollViewProxyManager;
+    id $__lazy_storage_$_sectionsBarButtonItem;
+    id $__lazy_storage_$_sectionsSegmentedControl;
 }
 
 - (void);

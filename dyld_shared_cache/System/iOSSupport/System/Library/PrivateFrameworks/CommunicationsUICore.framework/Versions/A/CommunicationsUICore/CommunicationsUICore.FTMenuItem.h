@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.FTMenuItem
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *_title;
-    MISSING_TYPE *_titleBadge;
-    MISSING_TYPE *_subtitle;
-    MISSING_TYPE *_icon;
-    MISSING_TYPE *bottomDivider;
-    MISSING_TYPE *_isSessionActive;
-    MISSING_TYPE *_dismissOnTap;
-    MISSING_TYPE *performActionAfterDismiss;
-    MISSING_TYPE *_rowAction;
-    MISSING_TYPE *_stopAction;
-    MISSING_TYPE *_wantsToDismiss;
-    MISSING_TYPE *_stopTitle;
-    MISSING_TYPE *_stopTint;
-    MISSING_TYPE *_isPresentingSecondaryView;
-    MISSING_TYPE *_primaryViewProvider;
-    MISSING_TYPE *_secondaryView;
-    MISSING_TYPE *_$observationRegistrar;
+    id id;
+    id _title;
+    id _titleBadge;
+    id _subtitle;
+    id _icon;
+    id bottomDivider;
+    id _isSessionActive;
+    id _dismissOnTap;
+    id performActionAfterDismiss;
+    id _rowAction;
+    id _stopAction;
+    id _wantsToDismiss;
+    id _stopTitle;
+    id _stopTint;
+    id _isPresentingSecondaryView;
+    id _primaryViewProvider;
+    id _secondaryView;
+    id _$observationRegistrar;
 }
 
 @end

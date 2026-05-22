@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SharedWithYouFeedViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *sharingActivityProviderFactory;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *commandContainer;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id sharingActivityProviderFactory;
+    id newsActivityManager;
+    id userInfo;
+    id commandContainer;
 }
 
 - (id);

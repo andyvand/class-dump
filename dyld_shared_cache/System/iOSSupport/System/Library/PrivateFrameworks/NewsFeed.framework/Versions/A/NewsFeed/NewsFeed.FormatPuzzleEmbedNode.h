@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatPuzzleEmbedNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *contentFrameIdentifier;
-    MISSING_TYPE *_size;
-    MISSING_TYPE *resize;
-    MISSING_TYPE *_adjustments;
-    MISSING_TYPE *content;
-    MISSING_TYPE *config;
-    MISSING_TYPE *_zIndex;
-    MISSING_TYPE *style;
-    MISSING_TYPE *_visibility;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *accessibilityRole;
-    MISSING_TYPE *name;
-    MISSING_TYPE *location;
-    MISSING_TYPE *flex;
+    id _identifier;
+    id contentFrameIdentifier;
+    id _size;
+    id resize;
+    id _adjustments;
+    id content;
+    id config;
+    id _zIndex;
+    id style;
+    id _visibility;
+    id _selectors;
+    id accessibilityRole;
+    id name;
+    id location;
+    id flex;
 }
 
 @end

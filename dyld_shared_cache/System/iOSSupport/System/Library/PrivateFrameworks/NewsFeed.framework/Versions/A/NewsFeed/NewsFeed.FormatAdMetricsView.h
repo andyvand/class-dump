@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatAdMetricsView
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *metricsView;
-    MISSING_TYPE *privacyMarker;
-    MISSING_TYPE *onCollapse;
+    id identifier;
+    id contentView;
+    id metricsView;
+    id privacyMarker;
+    id onCollapse;
 }
 
 - (void);

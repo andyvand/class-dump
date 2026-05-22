@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FeedPuzzleProgressCommandHandler
 {
-    MISSING_TYPE *puzzleHistory;
-    MISSING_TYPE *commandCenter;
+    id puzzleHistory;
+    id commandCenter;
 }
 
 - (id);

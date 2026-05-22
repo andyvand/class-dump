@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDOMElement
 {
-    MISSING_TYPE *tag;
-    MISSING_TYPE *nodes;
+    id tag;
+    id nodes;
 }
 
 @end

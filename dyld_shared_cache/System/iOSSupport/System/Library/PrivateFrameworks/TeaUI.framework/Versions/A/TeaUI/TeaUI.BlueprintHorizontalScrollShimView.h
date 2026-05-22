@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintHorizontalScrollShimView
 {
-    MISSING_TYPE *collectionView;
-    MISSING_TYPE *layoutOptionsProvider;
-    MISSING_TYPE *shimMaskView;
-    MISSING_TYPE *keyValueObservers;
-    MISSING_TYPE *hoverGestureRecognizers;
-    MISSING_TYPE *nextButton;
-    MISSING_TYPE *previousButton;
-    MISSING_TYPE *hoveringState;
+    id collectionView;
+    id layoutOptionsProvider;
+    id shimMaskView;
+    id keyValueObservers;
+    id hoverGestureRecognizers;
+    id nextButton;
+    id previousButton;
+    id hoveringState;
 }
 
 - (void);

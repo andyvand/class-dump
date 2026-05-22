@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NUPaywallEventData
 {
-    MISSING_TYPE *viewData;
-    MISSING_TYPE *articleData;
-    MISSING_TYPE *channel;
-    MISSING_TYPE *feedData;
-    MISSING_TYPE *groupData;
-    MISSING_TYPE *referral;
-    MISSING_TYPE *qToken;
+    id viewData;
+    id articleData;
+    id channel;
+    id feedData;
+    id groupData;
+    id referral;
+    id qToken;
 }
 
 - (id);

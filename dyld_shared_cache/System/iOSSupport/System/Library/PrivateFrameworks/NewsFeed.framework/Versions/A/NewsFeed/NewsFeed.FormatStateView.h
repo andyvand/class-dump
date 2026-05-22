@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatStateView
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *formatLayoutView;
-    MISSING_TYPE *viewportDisplayState;
-    MISSING_TYPE *state;
-    MISSING_TYPE *stateAccessibilityRenderer;
-    MISSING_TYPE *renderBlock;
-    MISSING_TYPE *shouldMonitorScroll;
-    MISSING_TYPE *lastRenderedState;
+    id identifier;
+    id formatLayoutView;
+    id viewportDisplayState;
+    id state;
+    id stateAccessibilityRenderer;
+    id renderBlock;
+    id shouldMonitorScroll;
+    id lastRenderedState;
 }
 
 - (id);

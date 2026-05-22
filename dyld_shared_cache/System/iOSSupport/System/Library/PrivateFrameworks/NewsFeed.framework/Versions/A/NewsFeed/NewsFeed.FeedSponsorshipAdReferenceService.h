@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedSponsorshipAdReferenceService
 {
-    MISSING_TYPE *feedSponsorshipAdService;
-    MISSING_TYPE *tagService;
+    id feedSponsorshipAdService;
+    id tagService;
 }
 
 @end

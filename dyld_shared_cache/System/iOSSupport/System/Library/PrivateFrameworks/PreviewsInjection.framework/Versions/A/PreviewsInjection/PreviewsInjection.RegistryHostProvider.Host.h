@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.RegistryHostProvider.Host
 {
-    MISSING_TYPE *preview;
-    MISSING_TYPE *modifiers;
-    MISSING_TYPE *_seed;
+    id preview;
+    id modifiers;
+    id _seed;
 }
 
 @end

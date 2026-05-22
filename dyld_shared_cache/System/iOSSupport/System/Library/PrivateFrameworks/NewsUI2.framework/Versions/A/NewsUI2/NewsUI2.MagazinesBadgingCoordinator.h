@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazinesBadgingCoordinator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *tabBarItemViewController;
-    MISSING_TYPE *store;
-    MISSING_TYPE *issueReadingHistory;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id delegate;
+    id tabBarItemViewController;
+    id store;
+    id issueReadingHistory;
+    id bundleSubscriptionManager;
 }
 
 - (id);

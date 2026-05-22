@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.DebugViewController
 {
-    MISSING_TYPE *settingsPresenter;
-    MISSING_TYPE *debugApp;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *tableViewSource;
+    id settingsPresenter;
+    id debugApp;
+    id tableView;
+    id tableViewSource;
 }
 
 - (void);

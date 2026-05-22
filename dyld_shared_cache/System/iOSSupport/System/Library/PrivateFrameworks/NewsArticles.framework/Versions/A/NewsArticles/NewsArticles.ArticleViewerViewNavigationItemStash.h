@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleViewerViewNavigationItemStash
 {
-    MISSING_TYPE *leftBarButtonItems;
-    MISSING_TYPE *rightBarButtonItems;
-    MISSING_TYPE *additionalOverflowItems;
-    MISSING_TYPE *hidesBackButton;
+    id leftBarButtonItems;
+    id rightBarButtonItems;
+    id additionalOverflowItems;
+    id hidesBackButton;
 }
 
 @end

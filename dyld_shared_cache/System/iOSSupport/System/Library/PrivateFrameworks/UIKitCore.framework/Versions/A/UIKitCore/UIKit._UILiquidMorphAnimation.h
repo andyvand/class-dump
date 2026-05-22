@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UILiquidMorphAnimation
 {
-    MISSING_TYPE *morphAnimations;
-    MISSING_TYPE *clientContainerView;
-    MISSING_TYPE *inferGlassGroupFromContainer;
-    MISSING_TYPE *sharedAnimationContainer;
-    MISSING_TYPE *sharedGroupCompletion;
-    MISSING_TYPE *currentMorphables;
-    MISSING_TYPE *reparentingViews;
-    MISSING_TYPE *$__lazy_storage_$_traitObserver;
-    MISSING_TYPE *viewsToRemove;
-    MISSING_TYPE *_overrideReduceMotion;
-    MISSING_TYPE *prevReparentingReferenceView;
-    MISSING_TYPE *hidingAssertions;
-    MISSING_TYPE *$__lazy_storage_$_morphTimeline;
-    MISSING_TYPE *$__lazy_storage_$_lensingSDFView;
-    MISSING_TYPE *$__lazy_storage_$_pivotView;
-    MISSING_TYPE *$__lazy_storage_$_lensingView;
-    MISSING_TYPE *$__lazy_storage_$_lensingPortalContainer;
-    MISSING_TYPE *$__lazy_storage_$_lensingPortals;
-    MISSING_TYPE *minLensingDimension;
+    id morphAnimations;
+    id clientContainerView;
+    id inferGlassGroupFromContainer;
+    id sharedAnimationContainer;
+    id sharedGroupCompletion;
+    id currentMorphables;
+    id reparentingViews;
+    id $__lazy_storage_$_traitObserver;
+    id viewsToRemove;
+    id _overrideReduceMotion;
+    id prevReparentingReferenceView;
+    id hidingAssertions;
+    id $__lazy_storage_$_morphTimeline;
+    id $__lazy_storage_$_lensingSDFView;
+    id $__lazy_storage_$_pivotView;
+    id $__lazy_storage_$_lensingView;
+    id $__lazy_storage_$_lensingPortalContainer;
+    id $__lazy_storage_$_lensingPortals;
+    id minLensingDimension;
 }
 
 - (id);

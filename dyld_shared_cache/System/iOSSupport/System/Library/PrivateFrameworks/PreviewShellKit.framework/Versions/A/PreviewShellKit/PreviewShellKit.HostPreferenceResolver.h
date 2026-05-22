@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewShellKit.HostPreferenceResolver
 {
-    MISSING_TYPE *sceneMessenger;
-    MISSING_TYPE *promises;
+    id sceneMessenger;
+    id promises;
 }
 
 @end

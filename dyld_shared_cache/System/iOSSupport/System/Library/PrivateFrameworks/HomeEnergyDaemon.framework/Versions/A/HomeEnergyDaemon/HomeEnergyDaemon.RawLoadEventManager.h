@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.RawLoadEventManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *sharedContext;
-    MISSING_TYPE *rawLoadEventModel;
+    id $defaultActor;
+    id sharedContext;
+    id rawLoadEventModel;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _MPCPodcastsPlaybackRateHelper
 {
-    MISSING_TYPE *currentRate;
-    MISSING_TYPE *playerState;
-    MISSING_TYPE *defaults;
-    MISSING_TYPE *rateMigrator;
+    id currentRate;
+    id playerState;
+    id defaults;
+    id rateMigrator;
 }
 
 + (id);

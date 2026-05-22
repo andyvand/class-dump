@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingLayoutBuilder
 {
-    MISSING_TYPE *titleViewLayoutAttributesFactory;
-    MISSING_TYPE *followingFooterViewLayoutAttributesFactory;
-    MISSING_TYPE *browseButtonViewLayoutAttributesFactory;
-    MISSING_TYPE *settingsButtonViewLayoutAttributesFactory;
-    MISSING_TYPE *tagViewLayoutAttributesFactory;
-    MISSING_TYPE *followingEngagementViewLayoutAttributesFactory;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id titleViewLayoutAttributesFactory;
+    id followingFooterViewLayoutAttributesFactory;
+    id browseButtonViewLayoutAttributesFactory;
+    id settingsButtonViewLayoutAttributesFactory;
+    id tagViewLayoutAttributesFactory;
+    id followingEngagementViewLayoutAttributesFactory;
+    id bundleSubscriptionManager;
 }
 
 @end

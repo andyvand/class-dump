@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.ToolbarModel.Item
 {
-    MISSING_TYPE *barButtonItem;
-    MISSING_TYPE *_contentSeed;
-    MISSING_TYPE *_requiresOwnSection;
-    MISSING_TYPE *_isHidden;
-    MISSING_TYPE *_model;
-    MISSING_TYPE *_$observationRegistrar;
+    id barButtonItem;
+    id _contentSeed;
+    id _requiresOwnSection;
+    id _isHidden;
+    id _model;
+    id _$observationRegistrar;
 }
 
 - (void);

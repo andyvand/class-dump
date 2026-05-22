@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MainTabManager
 {
-    MISSING_TYPE *sidebarDelegate;
-    MISSING_TYPE *todayTabElement;
-    MISSING_TYPE *magazineTabElement;
-    MISSING_TYPE *audioTabElement;
-    MISSING_TYPE *searchTabElement;
-    MISSING_TYPE *followingTabGroup;
-    MISSING_TYPE *libraryTabGroup;
-    MISSING_TYPE *featureAvailability;
+    id sidebarDelegate;
+    id todayTabElement;
+    id magazineTabElement;
+    id audioTabElement;
+    id searchTabElement;
+    id followingTabGroup;
+    id libraryTabGroup;
+    id featureAvailability;
 }
 
 @end

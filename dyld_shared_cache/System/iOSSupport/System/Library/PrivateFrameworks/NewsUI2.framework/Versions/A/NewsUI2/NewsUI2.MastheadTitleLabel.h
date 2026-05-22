@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsUI2.MastheadTitleLabel
 {
-    MISSING_TYPE *model;
-    MISSING_TYPE *cachedAccessibilityLabel;
+    id model;
+    id cachedAccessibilityLabel;
 }
 
 - (void);

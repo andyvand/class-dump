@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.RadialGradientSectionDecorationView
 {
-    MISSING_TYPE *gradientView;
-    MISSING_TYPE *gradientSize;
-    MISSING_TYPE *overscrollPinPosition;
+    id gradientView;
+    id gradientSize;
+    id overscrollPinPosition;
 }
 
 - (id);

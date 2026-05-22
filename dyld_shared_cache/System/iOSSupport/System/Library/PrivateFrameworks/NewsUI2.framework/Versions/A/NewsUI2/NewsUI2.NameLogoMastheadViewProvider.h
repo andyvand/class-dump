@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NameLogoMastheadViewProvider
 {
-    MISSING_TYPE *mastheadView;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *layoutAttributesFactory;
-    MISSING_TYPE *margins;
-    MISSING_TYPE *model;
+    id mastheadView;
+    id renderer;
+    id layoutAttributesFactory;
+    id margins;
+    id model;
 }
 
 - (id);

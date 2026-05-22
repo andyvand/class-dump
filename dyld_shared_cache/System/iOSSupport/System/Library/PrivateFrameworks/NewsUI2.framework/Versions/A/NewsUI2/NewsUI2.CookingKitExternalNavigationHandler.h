@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.CookingKitExternalNavigationHandler
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *cookingKitTrackerManager;
+    id navigator;
+    id cookingKitTrackerManager;
 }
 
 @end

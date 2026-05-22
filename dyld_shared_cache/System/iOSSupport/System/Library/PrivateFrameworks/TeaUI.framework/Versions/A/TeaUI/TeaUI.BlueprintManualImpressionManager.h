@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintManualImpressionManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *viewProvider;
-    MISSING_TYPE *app;
-    MISSING_TYPE *impressionManager;
-    MISSING_TYPE *manualImpressionUpdateProvider;
+    id delegate;
+    id viewProvider;
+    id app;
+    id impressionManager;
+    id manualImpressionUpdateProvider;
 }
 
 @end

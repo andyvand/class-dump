@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.LegacyArtworkLoaderConfig
 {
-    MISSING_TYPE *template;
-    MISSING_TYPE *size;
-    MISSING_TYPE *format;
-    MISSING_TYPE *crop;
-    MISSING_TYPE *scale;
-    MISSING_TYPE *retainAspectRatio;
+    id template;
+    id size;
+    id format;
+    id crop;
+    id scale;
+    id retainAspectRatio;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeFilterTagCapsuleViewModel
 {
-    MISSING_TYPE *tagID;
-    MISSING_TYPE *title;
-    MISSING_TYPE *_selectionState;
-    MISSING_TYPE *_$observationRegistrar;
+    id tagID;
+    id title;
+    id _selectionState;
+    id _$observationRegistrar;
 }
 
 @end

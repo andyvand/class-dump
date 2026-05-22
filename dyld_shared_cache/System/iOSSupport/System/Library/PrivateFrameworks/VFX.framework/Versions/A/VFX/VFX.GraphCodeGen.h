@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphCodeGen
 {
-    MISSING_TYPE *mangleString;
-    MISSING_TYPE *liveValuesNodes;
-    MISSING_TYPE *enableScriptDiagnosticsTracing;
-    MISSING_TYPE *traceAllScriptDiagnostics;
-    MISSING_TYPE *graph;
-    MISSING_TYPE *language;
-    MISSING_TYPE *formatting;
-    MISSING_TYPE *subGraphsToEmit;
-    MISSING_TYPE *subGraphsDecls;
-    MISSING_TYPE *infoByScriptLocation;
-    MISSING_TYPE *nextLocationIndex;
-    MISSING_TYPE *processedGraphs;
-    MISSING_TYPE *intrinsicNodes;
-    MISSING_TYPE *atomByNode;
-    MISSING_TYPE *bumpedIndexByVariableName;
+    id mangleString;
+    id liveValuesNodes;
+    id enableScriptDiagnosticsTracing;
+    id traceAllScriptDiagnostics;
+    id graph;
+    id language;
+    id formatting;
+    id subGraphsToEmit;
+    id subGraphsDecls;
+    id infoByScriptLocation;
+    id nextLocationIndex;
+    id processedGraphs;
+    id intrinsicNodes;
+    id atomByNode;
+    id bumpedIndexByVariableName;
 }
 
 @end

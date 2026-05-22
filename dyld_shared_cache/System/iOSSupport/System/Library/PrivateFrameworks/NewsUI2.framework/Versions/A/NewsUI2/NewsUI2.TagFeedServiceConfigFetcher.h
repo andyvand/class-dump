@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedServiceConfigFetcher
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *configManager;
-    MISSING_TYPE *paidBundleConfigManager;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *puzzleArchiveFilterOptionsManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *sportsDataService;
+    id name;
+    id appConfigManager;
+    id configManager;
+    id paidBundleConfigManager;
+    id sportsOnboardingManager;
+    id puzzleArchiveFilterOptionsManager;
+    id featureAvailability;
+    id subscriptionController;
+    id sportsDataService;
 }
 
 @end

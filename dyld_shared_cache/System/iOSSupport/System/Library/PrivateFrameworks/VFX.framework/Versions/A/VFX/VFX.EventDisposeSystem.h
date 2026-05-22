@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.EventDisposeSystem
 {
-    MISSING_TYPE *destroyEvents;
-    MISSING_TYPE *newEvents;
+    id destroyEvents;
+    id newEvents;
 }
 
 @end

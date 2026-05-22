@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.TagFeedHeadlineService
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *eslInventory;
+    id cloudContext;
+    id feedPersonalizer;
+    id eslInventory;
 }
 
 @end

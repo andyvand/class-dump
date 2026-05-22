@@ -6,12 +6,10 @@
 
 #import <swiftCore/Swift._SwiftObject.h>
 
-@class MISSING_TYPE;
-
 @interface Swift._StringBreadcrumbs : Swift._SwiftObject
 {
-    MISSING_TYPE *utf16Length;
-    MISSING_TYPE *crumbs;
+    id utf16Length;
+    id crumbs;
 }
 
 @end

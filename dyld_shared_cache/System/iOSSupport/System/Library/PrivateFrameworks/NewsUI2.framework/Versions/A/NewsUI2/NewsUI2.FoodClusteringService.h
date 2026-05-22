@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FoodClusteringService
 {
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *feedRecipeClusteringService;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *recipeAccessProvider;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *recipeAutofavoritesProvider;
-    MISSING_TYPE *recipeHistory;
+    id personalizationService;
+    id feedRecipeClusteringService;
+    id subscriptionController;
+    id recipeAccessProvider;
+    id feedPersonalizer;
+    id headlineService;
+    id recipeService;
+    id recipeAutofavoritesProvider;
+    id recipeHistory;
 }
 
 @end

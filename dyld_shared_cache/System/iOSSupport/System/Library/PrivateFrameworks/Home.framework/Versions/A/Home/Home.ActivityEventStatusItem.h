@@ -6,13 +6,13 @@
 
 #import <Home/HFStatusItem.h>
 
-@class HFActivityLogCoordinator_Swift, MISSING_TYPE;
+@class HFActivityLogCoordinator_Swift;
 
 @interface Home.ActivityEventStatusItem : HFStatusItem
 {
     HFActivityLogCoordinator_Swift *activityLogCoordinator;
-    MISSING_TYPE *midnightToday;
-    MISSING_TYPE *targetKind;
+    id midnightToday;
+    id targetKind;
 }
 
 - (id);

@@ -6,13 +6,11 @@
 
 #import <swiftAccelerate/Accelerate.BNNS.Layer.h>
 
-@class MISSING_TYPE;
-
 @interface Accelerate.BNNS.PoolingLayer : Accelerate.BNNS.Layer
 {
-    MISSING_TYPE *indices;
-    MISSING_TYPE *indicesDescriptor;
-    MISSING_TYPE *indicesBatchStride;
+    id indices;
+    id indicesDescriptor;
+    id indicesBatchStride;
 }
 
 @end

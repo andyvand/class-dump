@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.UserNotificationModifierEventProcessor
 {
-    MISSING_TYPE *modifier;
-    MISSING_TYPE *jsonDecoder;
-    MISSING_TYPE *headlineService;
+    id modifier;
+    id jsonDecoder;
+    id headlineService;
 }
 
 @end

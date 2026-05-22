@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SmartShortcutPickerAppShortcutDataSource
 {
-    MISSING_TYPE *_sections;
-    MISSING_TYPE *options;
-    MISSING_TYPE *provider;
-    MISSING_TYPE *denyListEnvironment;
+    id _sections;
+    id options;
+    id provider;
+    id denyListEnvironment;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.UIPointerHoverStyleDriver
 {
-    MISSING_TYPE *_effect;
-    MISSING_TYPE *_shape;
-    MISSING_TYPE *pointerStyle;
-    MISSING_TYPE *host;
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *pointerInteraction;
+    id _effect;
+    id _shape;
+    id pointerStyle;
+    id host;
+    id isEnabled;
+    id pointerInteraction;
 }
 
 - (id);

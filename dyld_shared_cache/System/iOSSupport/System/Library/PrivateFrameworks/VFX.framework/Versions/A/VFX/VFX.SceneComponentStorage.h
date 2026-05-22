@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.SceneComponentStorage
 {
-    MISSING_TYPE *data;
-    MISSING_TYPE *componentLocks;
-    MISSING_TYPE *layout;
-    MISSING_TYPE *isInitializedBitset;
-    MISSING_TYPE *storageLock;
+    id data;
+    id componentLocks;
+    id layout;
+    id isInitializedBitset;
+    id storageLock;
 }
 
 @end

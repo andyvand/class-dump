@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedGroupRegion
 {
-    MISSING_TYPE *feedGroupIdentifier;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *namespace;
-    MISSING_TYPE *feedItems;
-    MISSING_TYPE *feedGroupItems;
-    MISSING_TYPE *feedGroupKind;
-    MISSING_TYPE *feedGroupContextIdentifier;
-    MISSING_TYPE *feedSlots;
-    MISSING_TYPE *layoutOrder;
-    MISSING_TYPE *feedGroupDebug;
-    MISSING_TYPE *feedGroupBindingOptions;
-    MISSING_TYPE *feedSelectors;
+    id feedGroupIdentifier;
+    id identifier;
+    id namespace;
+    id feedItems;
+    id feedGroupItems;
+    id feedGroupKind;
+    id feedGroupContextIdentifier;
+    id feedSlots;
+    id layoutOrder;
+    id feedGroupDebug;
+    id feedGroupBindingOptions;
+    id feedSelectors;
 }
 
 @end

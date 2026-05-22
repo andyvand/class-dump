@@ -48,8 +48,8 @@
     unsigned long long _originalToFirstDeindexedTableBufferIndexSize;
     VFXMTLRenderContext *_currentInitRenderContext;
     id <MTLBlitCommandEncoder> _currentInitResourceBlitEncoder;
-    CDStruct_c6fc9200 _currentUpdateTransforms;
-    CDStruct_4c2781bd _currentUpdateFrustumInfo;
+    CDStruct_f3b280c4 _currentUpdateTransforms;
+    CDStruct_6c538f60 _currentUpdateFrustumInfo;
     VFXMTLRenderContext *_currentUpdateRenderContext;
     RGCachedComputeCommandEncoder *_currentUpdateComputeCommandEncoder;
     CDStruct_afe1dd20 _currentUpdateBuffers;
@@ -78,11 +78,11 @@
 - (id);
 - (id);
 - (Class);
-- (CDStruct_c6fc9200);
+- (CDStruct_f3b280c4);
 - (unsigned long long);
 - (id);
 - (id);
-- (CDStruct_4c2781bd);
+- (CDStruct_6c538f60);
 - (struct __CFString *);
 - (void);
 - (id);
@@ -92,7 +92,7 @@
 @property(readonly, nonatomic) struct __CFXBufferAllocatorPerFrame *currentBufferAllocatorPerFrame;
 @property(readonly, nonatomic) RGCachedComputeCommandEncoder *currentComputeEncoder;
 @property(readonly, nonatomic) unsigned long long currentFrameHash;
-@property(readonly, nonatomic) CDStruct_c6fc9200 currentTransforms;
+@property(readonly, nonatomic) CDStruct_f3b280c4 currentTransforms;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

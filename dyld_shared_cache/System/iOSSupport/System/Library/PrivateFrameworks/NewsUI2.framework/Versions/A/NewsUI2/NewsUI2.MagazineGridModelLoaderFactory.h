@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineGridModelLoaderFactory
 {
-    MISSING_TYPE *assetHandleFactory;
-    MISSING_TYPE *offlineIssueManager;
-    MISSING_TYPE *issueModelFactory;
-    MISSING_TYPE *issueService;
-    MISSING_TYPE *magazineCategoryConfigService;
-    MISSING_TYPE *magazineCategoryService;
-    MISSING_TYPE *paidBundleConfigManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *myMagazineStore;
+    id assetHandleFactory;
+    id offlineIssueManager;
+    id issueModelFactory;
+    id issueService;
+    id magazineCategoryConfigService;
+    id magazineCategoryService;
+    id paidBundleConfigManager;
+    id tagService;
+    id myMagazineStore;
 }
 
 @end

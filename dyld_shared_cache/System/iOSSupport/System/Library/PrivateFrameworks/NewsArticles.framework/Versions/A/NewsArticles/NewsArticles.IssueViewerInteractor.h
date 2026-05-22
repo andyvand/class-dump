@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.IssueViewerInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *adContextBuilder;
-    MISSING_TYPE *coordinator;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *issue;
-    MISSING_TYPE *session;
+    id delegate;
+    id dataManager;
+    id adContextBuilder;
+    id coordinator;
+    id eventManager;
+    id issue;
+    id session;
 }
 
 @end

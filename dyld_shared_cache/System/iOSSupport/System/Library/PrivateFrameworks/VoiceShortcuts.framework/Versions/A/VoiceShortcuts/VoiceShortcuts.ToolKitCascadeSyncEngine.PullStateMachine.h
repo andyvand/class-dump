@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.ToolKitCascadeSyncEngine.PullStateMachine
 {
-    MISSING_TYPE *transaction;
-    MISSING_TYPE *transactionState;
-    MISSING_TYPE *set;
-    MISSING_TYPE *registry;
+    id transaction;
+    id transactionState;
+    id set;
+    id registry;
 }
 
 @end

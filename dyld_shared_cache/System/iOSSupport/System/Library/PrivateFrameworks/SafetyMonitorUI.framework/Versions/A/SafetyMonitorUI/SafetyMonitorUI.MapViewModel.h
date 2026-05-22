@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.MapViewModel
 {
-    MISSING_TYPE *locationManager;
-    MISSING_TYPE *_safetyCache;
-    MISSING_TYPE *locationDegreeBuffer;
-    MISSING_TYPE *_mapRegion;
-    MISSING_TYPE *_annotations;
+    id locationManager;
+    id _safetyCache;
+    id locationDegreeBuffer;
+    id _mapRegion;
+    id _annotations;
 }
 
 @end

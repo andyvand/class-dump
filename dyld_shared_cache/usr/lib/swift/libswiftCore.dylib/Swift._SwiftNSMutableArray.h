@@ -6,11 +6,9 @@
 
 #import <swiftCore/Swift._SwiftNativeNSMutableArray.h>
 
-@class MISSING_TYPE;
-
 @interface Swift._SwiftNSMutableArray : Swift._SwiftNativeNSMutableArray
 {
-    MISSING_TYPE *contents;
+    id contents;
 }
 
 - (long long);

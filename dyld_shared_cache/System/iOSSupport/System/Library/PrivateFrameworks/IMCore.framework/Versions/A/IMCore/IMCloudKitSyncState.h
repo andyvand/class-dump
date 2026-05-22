@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitSyncStatistics, MISSING_TYPE, NSArray, NSDate, NSString;
+@class IMCloudKitSyncStatistics, NSArray, NSDate, NSString;
 
 @interface IMCloudKitSyncState
 {
@@ -22,13 +22,13 @@
     unsigned long long syncJobState;
     IMCloudKitSyncStatistics *statistics;
     double lastDownloadProgress;
-    MISSING_TYPE *_exitDate;
-    MISSING_TYPE *_lastFullSyncDate;
-    MISSING_TYPE *_lastFullPartialSyncDate;
-    MISSING_TYPE *_lastSyncDate;
-    MISSING_TYPE *_isBetweenInitialAndFullSync;
-    MISSING_TYPE *accountEnabled;
-    MISSING_TYPE *syncState;
+    id _exitDate;
+    id _lastFullSyncDate;
+    id _lastFullPartialSyncDate;
+    id _lastSyncDate;
+    id _isBetweenInitialAndFullSync;
+    id accountEnabled;
+    id syncState;
 }
 
 - (_Bool);

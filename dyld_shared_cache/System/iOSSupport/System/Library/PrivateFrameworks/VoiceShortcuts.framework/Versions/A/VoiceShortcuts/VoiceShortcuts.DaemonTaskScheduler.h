@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.DaemonTaskScheduler
 {
-    MISSING_TYPE *executor;
-    MISSING_TYPE *eventObserversByDescriptor;
-    MISSING_TYPE *state;
-    MISSING_TYPE *$__lazy_storage_$_sources;
-    MISSING_TYPE *activeTransactions;
+    id executor;
+    id eventObserversByDescriptor;
+    id state;
+    id $__lazy_storage_$_sources;
+    id activeTransactions;
 }
 
 - (void);

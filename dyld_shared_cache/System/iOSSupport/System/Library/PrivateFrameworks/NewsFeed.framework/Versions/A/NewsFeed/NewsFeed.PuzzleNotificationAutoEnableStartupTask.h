@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleNotificationAutoEnableStartupTask
 {
-    MISSING_TYPE *executionPhase;
-    MISSING_TYPE *notificationController;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *puzzleHistoryService;
+    id executionPhase;
+    id notificationController;
+    id bundleSubscriptionManager;
+    id userInfo;
+    id featureAvailability;
+    id appConfigurationManager;
+    id puzzleHistoryService;
 }
 
 - (void);

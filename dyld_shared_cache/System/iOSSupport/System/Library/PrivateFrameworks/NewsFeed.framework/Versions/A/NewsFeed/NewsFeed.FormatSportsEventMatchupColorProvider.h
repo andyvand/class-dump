@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSportsEventMatchupColorProvider
 {
-    MISSING_TYPE *leftColor;
-    MISSING_TYPE *rightColor;
-    MISSING_TYPE *colors;
+    id leftColor;
+    id rightColor;
+    id colors;
 }
 
 @end

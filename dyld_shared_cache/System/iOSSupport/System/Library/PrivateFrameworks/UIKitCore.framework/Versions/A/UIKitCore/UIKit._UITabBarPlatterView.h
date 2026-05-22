@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UITabBarPlatterView : UIView
 {
-    MISSING_TYPE *contentView;
+    id contentView;
 }
 
 - (id);

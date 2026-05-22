@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.TwoLabelButton
 {
-    MISSING_TYPE *highlightMask;
-    MISSING_TYPE *animationState;
-    MISSING_TYPE *buttonState;
-    MISSING_TYPE *animationTrigger;
-    MISSING_TYPE *titleLabelNormal;
-    MISSING_TYPE *titleLabelHighlighted;
-    MISSING_TYPE *labelNormal;
-    MISSING_TYPE *labelHighlighted;
-    MISSING_TYPE *borderColor;
-    MISSING_TYPE *backgroundColorNormal;
-    MISSING_TYPE *backgroundColorHighlighted;
-    MISSING_TYPE *onTap;
-    MISSING_TYPE *currentBorderColor;
-    MISSING_TYPE *currentBackgroundColorNormal;
-    MISSING_TYPE *currentBackgroundColorHighlighted;
+    id highlightMask;
+    id animationState;
+    id buttonState;
+    id animationTrigger;
+    id titleLabelNormal;
+    id titleLabelHighlighted;
+    id labelNormal;
+    id labelHighlighted;
+    id borderColor;
+    id backgroundColorNormal;
+    id backgroundColorHighlighted;
+    id onTap;
+    id currentBorderColor;
+    id currentBackgroundColorNormal;
+    id currentBackgroundColorHighlighted;
 }
 
 - (id);

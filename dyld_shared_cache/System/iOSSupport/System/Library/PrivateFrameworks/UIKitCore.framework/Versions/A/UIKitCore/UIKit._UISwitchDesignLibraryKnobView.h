@@ -6,15 +6,13 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UISwitchDesignLibraryKnobView : UIView
 {
-    MISSING_TYPE *knobView;
-    MISSING_TYPE *liquidLensKnobView;
-    MISSING_TYPE *shouldLift;
-    MISSING_TYPE *state;
-    MISSING_TYPE *isAnimating;
+    id knobView;
+    id liquidLensKnobView;
+    id shouldLift;
+    id state;
+    id isAnimating;
 }
 
 - (id);

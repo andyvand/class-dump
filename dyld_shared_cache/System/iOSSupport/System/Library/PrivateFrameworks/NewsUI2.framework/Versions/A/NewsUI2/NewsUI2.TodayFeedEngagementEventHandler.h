@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayFeedEngagementEventHandler
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *engagementEventHandler;
+    id delegate;
+    id engagementEventHandler;
 }
 
 @end

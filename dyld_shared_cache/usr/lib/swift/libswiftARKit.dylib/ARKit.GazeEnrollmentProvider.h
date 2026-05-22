@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.GazeEnrollmentProvider
 {
-    MISSING_TYPE *_cGazeEnrollmentProvider;
-    MISSING_TYPE *_cGazeEnrollmentConfiguration;
-    MISSING_TYPE *updateQueue;
-    MISSING_TYPE *fixationCandidateResultContinuations;
-    MISSING_TYPE *gazeValidationPointResultContinuations;
-    MISSING_TYPE *pointResultContinuations;
-    MISSING_TYPE *feedbackResultContinuations;
+    id _cGazeEnrollmentProvider;
+    id _cGazeEnrollmentConfiguration;
+    id updateQueue;
+    id fixationCandidateResultContinuations;
+    id gazeValidationPointResultContinuations;
+    id pointResultContinuations;
+    id feedbackResultContinuations;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatButtonNodeRenderer
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *activityItemsConfigurationFactory;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *feedDismissingManager;
+    id commandCenter;
+    id tracker;
+    id activityItemsConfigurationFactory;
+    id tipManager;
+    id feedDismissingManager;
 }
 
 @end

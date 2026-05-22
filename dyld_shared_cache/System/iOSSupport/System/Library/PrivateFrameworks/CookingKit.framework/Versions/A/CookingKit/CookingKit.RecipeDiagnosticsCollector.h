@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeDiagnosticsCollector
 {
-    MISSING_TYPE *recipeStore;
-    MISSING_TYPE *recipeUserDataManager;
-    MISSING_TYPE *unitManager;
+    id recipeStore;
+    id recipeUserDataManager;
+    id unitManager;
 }
 
 @end

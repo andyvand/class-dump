@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.ObjectTrackingProvider
 {
-    MISSING_TYPE *_cObjectTrackingProvider;
-    MISSING_TYPE *anchorUpdateIterators;
-    MISSING_TYPE *anchorQueue;
-    MISSING_TYPE *referenceObjects;
+    id _cObjectTrackingProvider;
+    id anchorUpdateIterators;
+    id anchorQueue;
+    id referenceObjects;
 }
 
 @end

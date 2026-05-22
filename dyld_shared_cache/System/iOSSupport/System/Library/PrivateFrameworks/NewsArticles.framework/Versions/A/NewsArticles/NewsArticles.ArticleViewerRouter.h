@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleViewerRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *router;
-    MISSING_TYPE *offlineManager;
+    id controller;
+    id resolver;
+    id tracker;
+    id router;
+    id offlineManager;
 }
 
 @end

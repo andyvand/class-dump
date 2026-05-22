@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeArticleDrawerModule
 {
-    MISSING_TYPE *baseStyler;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *router;
-    MISSING_TYPE *paidAccessChecker;
+    id baseStyler;
+    id tracker;
+    id router;
+    id paidAccessChecker;
 }
 
 @end

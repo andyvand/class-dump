@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.MapView.Coordinator
 {
-    MISSING_TYPE *geocoder;
-    MISSING_TYPE *parent;
+    id geocoder;
+    id parent;
 }
 
 - (void);

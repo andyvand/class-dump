@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.MessageAttachmentDownloader
 {
-    MISSING_TYPE *downloadableAttachmentBatchIterator;
-    MISSING_TYPE *message;
-    MISSING_TYPE *attachment;
+    id downloadableAttachmentBatchIterator;
+    id message;
+    id attachment;
 }
 
 @end

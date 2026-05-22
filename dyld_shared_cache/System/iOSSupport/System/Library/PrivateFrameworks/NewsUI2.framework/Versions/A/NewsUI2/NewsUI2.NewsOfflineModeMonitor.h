@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsOfflineModeMonitor
 {
-    MISSING_TYPE *offlineModeMonitor;
-    MISSING_TYPE *offlineReason;
-    MISSING_TYPE *poorConnectionThrottler;
-    MISSING_TYPE *observers;
+    id offlineModeMonitor;
+    id offlineReason;
+    id poorConnectionThrottler;
+    id observers;
 }
 
 - (id);

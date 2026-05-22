@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC5UIKit35_UINavigationBarTitleTransitionSpec;
+@class UIKit._UINavigationBarTitleTransitionSpec;
 
 @interface UIKit._UINavigationBarSpec
 {
-    _TtC5UIKit35_UINavigationBarTitleTransitionSpec *titleTransition;
+    UIKit._UINavigationBarTitleTransitionSpec *titleTransition;
 }
 
 + (id);
@@ -19,7 +19,7 @@
 - (void)¸&ÿ¥A;
 
 // Remaining properties
-@property(nonatomic, retain) _TtC5UIKit35_UINavigationBarTitleTransitionSpec *titleTransition; // @synthesize titleTransition;
+@property(nonatomic, retain) UIKit._UINavigationBarTitleTransitionSpec *titleTransition; // @synthesize titleTransition;
 
 @end
 

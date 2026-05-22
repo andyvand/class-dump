@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeViewerBarButtonItemFactory
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *recipeViewerStyler;
-    MISSING_TYPE *recipeCoordinator;
-    MISSING_TYPE *radarReporter;
-    MISSING_TYPE *recipeFeaturesConfiguration;
-    MISSING_TYPE *recipeFactory;
+    id commandCenter;
+    id recipeViewerStyler;
+    id recipeCoordinator;
+    id radarReporter;
+    id recipeFeaturesConfiguration;
+    id recipeFactory;
 }
 
 @end

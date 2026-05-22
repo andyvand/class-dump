@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.IssueCoverViewButton
 {
-    MISSING_TYPE *onTap;
-    MISSING_TYPE *coverView;
+    id onTap;
+    id coverView;
 }
 
 - (id);

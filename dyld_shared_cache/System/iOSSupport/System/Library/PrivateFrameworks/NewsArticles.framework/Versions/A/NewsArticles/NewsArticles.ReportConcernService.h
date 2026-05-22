@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ReportConcernService
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *recipeBox;
+    id cloudContext;
+    id subscriptionController;
+    id recipeBox;
 }
 
 @end

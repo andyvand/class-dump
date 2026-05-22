@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.ProvisioningExistingCardAuthorizationCoordinator
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *credentials;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *currentStep;
-    MISSING_TYPE *isRunning;
-    MISSING_TYPE *isValid;
-    MISSING_TYPE *providerManager;
-    MISSING_TYPE *preflightedEligibleDevices;
-    MISSING_TYPE *multiCardCoordinator;
+    id context;
+    id credentials;
+    id renderer;
+    id delegate;
+    id currentStep;
+    id isRunning;
+    id isValid;
+    id providerManager;
+    id preflightedEligibleDevices;
+    id multiCardCoordinator;
 }
 
 @end

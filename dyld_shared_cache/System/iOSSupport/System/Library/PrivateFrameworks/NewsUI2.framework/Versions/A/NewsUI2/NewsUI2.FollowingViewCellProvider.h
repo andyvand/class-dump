@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingViewCellProvider
 {
-    MISSING_TYPE *browseButtonViewRenderer;
-    MISSING_TYPE *settingsButtonViewRenderer;
-    MISSING_TYPE *tagViewRenderer;
-    MISSING_TYPE *engagementViewManager;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *renderer;
+    id browseButtonViewRenderer;
+    id settingsButtonViewRenderer;
+    id tagViewRenderer;
+    id engagementViewManager;
+    id delegate;
+    id featureAvailability;
+    id renderer;
 }
 
 @end

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphTypeResolver
 {
-    MISSING_TYPE *graph;
-    MISSING_TYPE *diagnostics;
-    MISSING_TYPE *resolvedNodes;
-    MISSING_TYPE *tagsByNode;
-    MISSING_TYPE *subGraphEnterInputTypes;
-    MISSING_TYPE *typeByVariableName;
-    MISSING_TYPE *insertTypeConversions;
+    id graph;
+    id diagnostics;
+    id resolvedNodes;
+    id tagsByNode;
+    id subGraphEnterInputTypes;
+    id typeByVariableName;
+    id insertTypeConversions;
 }
 
 @end

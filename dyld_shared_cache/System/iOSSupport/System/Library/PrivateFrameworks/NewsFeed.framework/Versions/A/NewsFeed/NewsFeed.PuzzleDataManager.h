@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *puzzleTypeSettings;
-    MISSING_TYPE *puzzleNotificationAutoEnableManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *puzzleGameCenterService;
-    MISSING_TYPE *puzzle;
+    id delegate;
+    id configuration;
+    id appConfigurationManager;
+    id puzzleService;
+    id puzzleHistoryService;
+    id puzzleTypeSettings;
+    id puzzleNotificationAutoEnableManager;
+    id bundleSubscriptionManager;
+    id puzzleStatsService;
+    id puzzleGameCenterService;
+    id puzzle;
 }
 
 - (id);

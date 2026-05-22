@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface PodcastsUI.Legacy.JSUserObject
 {
-    MISSING_TYPE *accountStore;
-    MISSING_TYPE *isPersonalizationEnabled;
+    id accountStore;
+    id isPersonalizationEnabled;
 }
 
 - (id);

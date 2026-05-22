@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RemoteNotificationArrivalHandler
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *offlineContentManager;
-    MISSING_TYPE *amsNotificationChecker;
+    id cloudContext;
+    id offlineProvider;
+    id offlineContentManager;
+    id amsNotificationChecker;
 }
 
 @end

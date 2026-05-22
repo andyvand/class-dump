@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString, VFXBtShapeWrapper, VFXModel, VFXNode;
+@class NSArray, NSString, VFXBtShapeWrapper, VFXModel, VFXNode;
 
 @interface VFXPhysicsShape
 {
     id _referenceObject;
     NSArray *_transforms;
-    MISSING_TYPE *_scale;
-    MISSING_TYPE *_nodeScale;
+    id _scale;
+    id _nodeScale;
     float _margin;
     long long _type;
     _Bool _flattened;
@@ -52,7 +52,7 @@
 - (id);
 - (id);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (long long);
 - (void);
@@ -77,7 +77,7 @@
 @property(readonly) unsigned long long hash;
 @property(nonatomic) float margin;
 @property(retain, nonatomic) VFXModel *model;
-@property(nonatomic) MISSING_TYPE *scale;
+@property(nonatomic) id scale;
 @property(retain, nonatomic) VFXNode *shapeNode;
 @property(retain, nonatomic) NSArray *shapes;
 @property(readonly) Class superclass;

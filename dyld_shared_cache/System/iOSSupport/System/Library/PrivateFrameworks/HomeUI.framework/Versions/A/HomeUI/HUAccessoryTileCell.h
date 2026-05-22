@@ -6,18 +6,18 @@
 
 #import <HomeUI/HUTileCell.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 @protocol HUAccessoryTileCellDelegate;
 
 @interface HUAccessoryTileCell : HUTileCell
 {
     void delegate;
-    MISSING_TYPE *sizeChangeButton;
+    id sizeChangeButton;
     _Bool showsSizeChangeButton;
-    MISSING_TYPE *showUpdatingAfterDelayWorkItem;
-    MISSING_TYPE *showingUpdating;
-    MISSING_TYPE *showingActivity;
-    MISSING_TYPE *showActivityAfterDelayWorkItem;
+    id showUpdatingAfterDelayWorkItem;
+    id showingUpdating;
+    id showingActivity;
+    id showActivityAfterDelayWorkItem;
 }
 
 - (void);

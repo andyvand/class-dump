@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.AccountDebugModel
 {
-    MISSING_TYPE *account;
-    MISSING_TYPE *transactionSource;
-    MISSING_TYPE *paymentDataProvider;
-    MISSING_TYPE *_cardAccount;
-    MISSING_TYPE *_inProgress;
-    MISSING_TYPE *_status;
-    MISSING_TYPE *_transactionGroups;
-    MISSING_TYPE *_runningBalance;
-    MISSING_TYPE *_statements;
-    MISSING_TYPE *_ckTransactions;
-    MISSING_TYPE *_ckRewards;
-    MISSING_TYPE *_cardTransactions;
-    MISSING_TYPE *_invalidBalanceIncrements;
-    MISSING_TYPE *transactionFetcher;
-    MISSING_TYPE *accountService;
+    id account;
+    id transactionSource;
+    id paymentDataProvider;
+    id _cardAccount;
+    id _inProgress;
+    id _status;
+    id _transactionGroups;
+    id _runningBalance;
+    id _statements;
+    id _ckTransactions;
+    id _ckRewards;
+    id _cardTransactions;
+    id _invalidBalanceIncrements;
+    id transactionFetcher;
+    id accountService;
 }
 
 - (void);

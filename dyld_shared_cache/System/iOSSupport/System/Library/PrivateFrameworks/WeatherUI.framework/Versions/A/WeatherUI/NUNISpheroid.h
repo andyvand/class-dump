@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, NUNIScene;
+@class NSString, NUNIScene;
 
 @interface NUNISpheroid
 {
@@ -15,7 +15,7 @@
         float angle;
         float equatorRotation;
         struct {
-            MISSING_TYPE *vector;
+            id vector;
         } orientation;
         float opacity;
         float cloudOpacity;
@@ -50,22 +50,22 @@
 - (float);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (void);
 - (float);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (const struct NUNISpheroidStructure *);
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (float);
 - (struct);
@@ -85,7 +85,7 @@
 @property(readonly, nonatomic) float blend; // @dynamic blend;
 @property(nonatomic) struct CLLocationCoordinate2D centerCoordinate; // @dynamic centerCoordinate;
 @property(nonatomic) float cloudOpacity; // @dynamic cloudOpacity;
-@property(nonatomic) MISSING_TYPE *colorize; // @dynamic colorize;
+@property(nonatomic) id colorize; // @dynamic colorize;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
@@ -97,11 +97,11 @@
 @property(nonatomic, getter=isFacing) _Bool facing; // @dynamic facing;
 @property(readonly) unsigned long long hash;
 @property(nonatomic) struct CLLocationCoordinate2D homeCoordinate; // @dynamic homeCoordinate;
-@property(readonly, nonatomic) MISSING_TYPE *light; // @dynamic light;
+@property(readonly, nonatomic) id light; // @dynamic light;
 @property(nonatomic) float opacity; // @dynamic opacity;
 @property(nonatomic) struct orientation; // @dynamic orientation;
 @property(readonly, nonatomic) NUNISpheroid *parent; // @synthesize parent=_parent;
-@property(readonly, nonatomic) MISSING_TYPE *position; // @dynamic position;
+@property(readonly, nonatomic) id position; // @dynamic position;
 @property(readonly, nonatomic) unsigned long long programType; // @dynamic programType;
 @property(readonly, nonatomic) float radius; // @dynamic radius;
 @property(nonatomic) float radiusScale; // @dynamic radiusScale;

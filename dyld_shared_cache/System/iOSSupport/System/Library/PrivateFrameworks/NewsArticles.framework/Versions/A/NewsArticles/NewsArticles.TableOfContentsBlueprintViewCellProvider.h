@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.TableOfContentsBlueprintViewCellProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *headerViewRenderer;
-    MISSING_TYPE *pdfCellRenderer;
+    id delegate;
+    id headerViewRenderer;
+    id pdfCellRenderer;
 }
 
 @end

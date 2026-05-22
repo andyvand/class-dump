@@ -6,18 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE, _UIScrollPocketCollectorInteraction;
+@class _UIScrollPocketCollectorInteraction;
 @protocol _UIFloatingBarContainerDelegate;
 
 @interface _UIFloatingBarContainerView : UIView
 {
     void delegate;
-    MISSING_TYPE *model;
-    MISSING_TYPE *hostingView;
-    MISSING_TYPE *pointerAssistant;
-    MISSING_TYPE *axHUDAssistant;
-    MISSING_TYPE *keyboardAssistant;
-    MISSING_TYPE *scrollPocketContainerInteraction;
+    id model;
+    id hostingView;
+    id pointerAssistant;
+    id axHUDAssistant;
+    id keyboardAssistant;
+    id scrollPocketContainerInteraction;
     unsigned long long _edgesRequiringContentMargin;
     unsigned long long _adjacentBarEdges;
 }

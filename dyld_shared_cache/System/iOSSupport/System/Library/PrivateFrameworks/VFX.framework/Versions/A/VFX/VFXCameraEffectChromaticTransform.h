@@ -6,23 +6,21 @@
 
 #import <VFX/VFXCameraEffect.h>
 
-@class MISSING_TYPE;
-
 @interface VFXCameraEffectChromaticTransform : VFXCameraEffect
 {
     long long _sampleCount;
     float _intensity;
-    MISSING_TYPE *_center;
+    id _center;
     float _fromZ;
     float _fromAngle;
-    MISSING_TYPE *_fromShift;
+    id _fromShift;
     float _toZ;
     float _toAngle;
-    MISSING_TYPE *_toShift;
-    MISSING_TYPE *_color1;
-    MISSING_TYPE *_color2;
-    MISSING_TYPE *_color3;
-    MISSING_TYPE *_maskCenter;
+    id _toShift;
+    id _color1;
+    id _color2;
+    id _color3;
+    id _maskCenter;
     float _maskRadius;
     _Bool _maskEnabled;
     float _unMultBlending;
@@ -43,9 +41,9 @@
 - (_Bool);
 - (float);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (struct __CFXCameraEffectChromaticTransform *);
 - (void);
@@ -53,19 +51,19 @@
 - (void);
 - (void *);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
-- (void);
-- (void);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (void);
-- (MISSING_TYPE *);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (float);
 - (void);
 - (id);
@@ -75,20 +73,20 @@
 - (void)?çh½{¤¡=~Å~?ÓÚl?->E½[=ë?j?±"½â±_=e?L¨h?C;
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *center;
-@property(nonatomic) MISSING_TYPE *color1;
-@property(nonatomic) MISSING_TYPE *color2;
-@property(nonatomic) MISSING_TYPE *color3;
+@property(nonatomic) id center;
+@property(nonatomic) id color1;
+@property(nonatomic) id color2;
+@property(nonatomic) id color3;
 @property(nonatomic) float fromAngle;
-@property(nonatomic) MISSING_TYPE *fromShift;
+@property(nonatomic) id fromShift;
 @property(nonatomic) float fromZ;
 @property(nonatomic) float intensity;
-@property(nonatomic) MISSING_TYPE *maskCenter;
+@property(nonatomic) id maskCenter;
 @property(nonatomic) _Bool maskEnabled;
 @property(nonatomic) float maskRadius;
 @property(nonatomic) long long sampleCount;
 @property(nonatomic) float toAngle;
-@property(nonatomic) MISSING_TYPE *toShift;
+@property(nonatomic) id toShift;
 @property(nonatomic) float toZ;
 @property(nonatomic) float unMultBlending;
 

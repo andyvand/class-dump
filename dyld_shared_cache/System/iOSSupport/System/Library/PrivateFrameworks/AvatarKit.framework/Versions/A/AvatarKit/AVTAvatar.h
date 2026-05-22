@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTEyeSkinningDescriptor, AVTPhysicsController, AVTPresentationConfiguration, AVTPupilReflectionCorrectionDescriptor, CAAnimation, MISSING_TYPE, NSDictionary, NSMutableArray, NSString, VFXAnimationPlayer, VFXNode;
+@class AVTEyeSkinningDescriptor, AVTPhysicsController, AVTPresentationConfiguration, AVTPupilReflectionCorrectionDescriptor, CAAnimation, NSDictionary, NSMutableArray, NSString, VFXAnimationPlayer, VFXNode;
 
 @interface AVTAvatar
 {
@@ -31,7 +31,7 @@
     NSMutableArray *_morpherDrivenMaterialDescriptors;
     AVTPupilReflectionCorrectionDescriptor *_pupilReflectionCorrectionDescriptor;
     AVTEyeSkinningDescriptor *_eyeSkinningDescriptor;
-    MISSING_TYPE *_arOffset;
+    id _arOffset;
     float _arScale;
     double _physicsScaleFactor;
     double _lastRenderTime;
@@ -121,7 +121,7 @@
 - (Class);
 - (id);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (_Bool);
 - (void);
 - (void);

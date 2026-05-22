@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIColor;
+@class UIColor;
 
 @interface PosterBoard.PBFCircleView
 {
-    MISSING_TYPE *_strokeWidth;
-    MISSING_TYPE *_strokeColor;
-    MISSING_TYPE *_fillColor;
+    id _strokeWidth;
+    id _strokeColor;
+    id _fillColor;
 }
 
 + (Class);

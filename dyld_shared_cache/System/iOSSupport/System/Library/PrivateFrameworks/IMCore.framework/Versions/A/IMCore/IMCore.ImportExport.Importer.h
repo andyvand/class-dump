@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.Importer
 {
-    MISSING_TYPE *importStatistics;
-    MISSING_TYPE *hasStarted;
+    id importStatistics;
+    id hasStarted;
 }
 
 @end

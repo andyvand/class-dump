@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ReportConcernCommand
 {
-    MISSING_TYPE *concernContext;
-    MISSING_TYPE *concern;
-    MISSING_TYPE *selectedSubConcern;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *recipeBox;
+    id concernContext;
+    id concern;
+    id selectedSubConcern;
+    id subscriptionController;
+    id recipeBox;
 }
 
 - (id);

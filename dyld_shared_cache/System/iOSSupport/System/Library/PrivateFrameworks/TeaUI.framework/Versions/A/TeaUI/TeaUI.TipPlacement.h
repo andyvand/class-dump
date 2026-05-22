@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.TipPlacement
 {
-    MISSING_TYPE *sourceIdentifier;
-    MISSING_TYPE *sourceItem;
-    MISSING_TYPE *sourceViewController;
-    MISSING_TYPE *source;
-    MISSING_TYPE *isSourceViewControllerPresented;
-    MISSING_TYPE *traits;
-    MISSING_TYPE *permittedArrowDirections;
+    id sourceIdentifier;
+    id sourceItem;
+    id sourceViewController;
+    id source;
+    id isSourceViewControllerPresented;
+    id traits;
+    id permittedArrowDirections;
 }
 
 @end

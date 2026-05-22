@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.KeyCommandBlock
 {
-    MISSING_TYPE *key;
-    MISSING_TYPE *flags;
-    MISSING_TYPE *title;
-    MISSING_TYPE *block;
+    id key;
+    id flags;
+    id title;
+    id block;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.DashboardFilterBarItemManager
 {
-    MISSING_TYPE *categoryItemProvider;
-    MISSING_TYPE *actionSetItemProvider;
+    id categoryItemProvider;
+    id actionSetItemProvider;
 }
 
 - (id);

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ShaderLibrary
 {
-    MISSING_TYPE *device;
-    MISSING_TYPE *libraryURL;
-    MISSING_TYPE *label;
-    MISSING_TYPE *library;
-    MISSING_TYPE *lastModificationDate;
-    MISSING_TYPE *reloadedNotificationBlock;
+    id device;
+    id libraryURL;
+    id label;
+    id library;
+    id lastModificationDate;
+    id reloadedNotificationBlock;
 }
 
 - (id);

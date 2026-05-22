@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItem, MISSING_TYPE;
+@class CSSearchableItem;
 
 @interface VoiceShortcuts.WFAppEntityContextualAction
 {
-    MISSING_TYPE *entityTypeIdentifier;
-    MISSING_TYPE *typeDisplayName;
+    id entityTypeIdentifier;
+    id typeDisplayName;
 }
 
 + (id);

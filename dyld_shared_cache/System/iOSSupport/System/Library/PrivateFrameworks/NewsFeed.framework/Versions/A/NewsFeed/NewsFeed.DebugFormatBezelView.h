@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatBezelView
 {
-    MISSING_TYPE *scale;
-    MISSING_TYPE *bezelLayer;
-    MISSING_TYPE *layerDelegate;
+    id scale;
+    id bezelLayer;
+    id layerDelegate;
 }
 
 - (id);

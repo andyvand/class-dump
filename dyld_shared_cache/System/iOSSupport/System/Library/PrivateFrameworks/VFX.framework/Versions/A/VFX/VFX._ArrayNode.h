@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.BuiltinNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX._ArrayNode : VFX.BuiltinNode
 {
-    MISSING_TYPE *count;
+    id count;
 }
 
 @end

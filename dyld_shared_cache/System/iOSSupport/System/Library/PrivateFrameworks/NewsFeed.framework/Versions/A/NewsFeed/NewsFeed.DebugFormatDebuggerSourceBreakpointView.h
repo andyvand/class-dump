@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDebuggerSourceBreakpointView
 {
-    MISSING_TYPE *sourceFile;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *breakpointSize;
+    id sourceFile;
+    id editor;
+    id breakpointSize;
 }
 
 - (id);

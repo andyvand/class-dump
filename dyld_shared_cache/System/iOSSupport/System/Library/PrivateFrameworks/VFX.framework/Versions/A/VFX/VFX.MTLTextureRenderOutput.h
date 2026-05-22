@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.MTLTextureRenderOutput
 {
-    MISSING_TYPE *colorTexture;
-    MISSING_TYPE *depthTexture;
-    MISSING_TYPE *loadAction;
-    MISSING_TYPE *clearColor;
-    MISSING_TYPE *scope;
-    MISSING_TYPE *viewpoint;
-    MISSING_TYPE *materialOverride;
-    MISSING_TYPE *stereoMode;
-    MISSING_TYPE *frameCompletion;
-    MISSING_TYPE *postRenderCallback;
-    MISSING_TYPE *frameCount;
-    MISSING_TYPE *shouldWaitForCommandBufferCompletion;
+    id colorTexture;
+    id depthTexture;
+    id loadAction;
+    id clearColor;
+    id scope;
+    id viewpoint;
+    id materialOverride;
+    id stereoMode;
+    id frameCompletion;
+    id postRenderCallback;
+    id frameCount;
+    id shouldWaitForCommandBufferCompletion;
 }
 
 @end

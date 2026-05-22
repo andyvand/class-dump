@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactCardViewModel
 {
-    MISSING_TYPE *widgetViewModels;
-    MISSING_TYPE *contact;
+    id widgetViewModels;
+    id contact;
 }
 
 @end

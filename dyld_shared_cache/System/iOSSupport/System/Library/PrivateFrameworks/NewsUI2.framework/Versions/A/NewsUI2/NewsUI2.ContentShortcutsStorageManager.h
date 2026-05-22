@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContentShortcutsStorageManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *fileManager;
-    MISSING_TYPE *loadState;
-    MISSING_TYPE *feedModelFactory;
-    MISSING_TYPE *feedContextFactory;
-    MISSING_TYPE *tagService;
+    id $defaultActor;
+    id fileManager;
+    id loadState;
+    id feedModelFactory;
+    id feedContextFactory;
+    id tagService;
 }
 
 @end

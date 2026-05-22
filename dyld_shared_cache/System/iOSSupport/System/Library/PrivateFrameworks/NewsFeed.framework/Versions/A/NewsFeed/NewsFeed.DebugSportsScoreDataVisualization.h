@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugSportsScoreDataVisualization
 {
-    MISSING_TYPE *selection;
-    MISSING_TYPE *following;
-    MISSING_TYPE *favored;
+    id selection;
+    id following;
+    id favored;
 }
 
 @end

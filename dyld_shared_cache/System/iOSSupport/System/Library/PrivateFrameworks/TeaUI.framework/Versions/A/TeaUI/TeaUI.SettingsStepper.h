@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SettingsStepper
 {
-    MISSING_TYPE *valueChanged;
-    MISSING_TYPE *value;
-    MISSING_TYPE *stepValue;
-    MISSING_TYPE *minimumValue;
-    MISSING_TYPE *maximumValue;
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *minusButton;
-    MISSING_TYPE *plusButton;
-    MISSING_TYPE *$__lazy_storage_$_minusImage;
-    MISSING_TYPE *$__lazy_storage_$_plusImage;
-    MISSING_TYPE *$__lazy_storage_$_minusButtonSize;
-    MISSING_TYPE *$__lazy_storage_$_plusButtonSize;
+    id valueChanged;
+    id value;
+    id stepValue;
+    id minimumValue;
+    id maximumValue;
+    id isEnabled;
+    id minusButton;
+    id plusButton;
+    id $__lazy_storage_$_minusImage;
+    id $__lazy_storage_$_plusImage;
+    id $__lazy_storage_$_minusButtonSize;
+    id $__lazy_storage_$_plusButtonSize;
 }
 
 - (void);

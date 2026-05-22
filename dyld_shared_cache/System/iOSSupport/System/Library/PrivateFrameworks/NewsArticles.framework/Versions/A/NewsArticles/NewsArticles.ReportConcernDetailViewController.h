@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ReportConcernDetailViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *selectedItemIndexPath;
-    MISSING_TYPE *$__lazy_storage_$_sendButton;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id selectedItemIndexPath;
+    id $__lazy_storage_$_sendButton;
 }
 
 - (id);

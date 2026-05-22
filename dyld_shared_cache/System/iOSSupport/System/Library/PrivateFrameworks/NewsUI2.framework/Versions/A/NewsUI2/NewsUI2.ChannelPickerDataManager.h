@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelPickerDataManager
 {
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *configManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *recommendationService;
-    MISSING_TYPE *magazineConfigurationService;
-    MISSING_TYPE *assetHandleFactory;
-    MISSING_TYPE *engagementInlineViewManager;
-    MISSING_TYPE *localDataManager;
-    MISSING_TYPE *suggestedTagModelsArrayByID;
-    MISSING_TYPE *allLocationsSection;
-    MISSING_TYPE *cachedConfigSectionsByIdentifier;
-    MISSING_TYPE *contentVerticalTagIDs;
+    id appConfigManager;
+    id delegate;
+    id configManager;
+    id tagService;
+    id recommendationService;
+    id magazineConfigurationService;
+    id assetHandleFactory;
+    id engagementInlineViewManager;
+    id localDataManager;
+    id suggestedTagModelsArrayByID;
+    id allLocationsSection;
+    id cachedConfigSectionsByIdentifier;
+    id contentVerticalTagIDs;
 }
 
 @end

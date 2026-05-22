@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.CookingModeTipState
 {
-    MISSING_TYPE *_canShowTip;
-    MISSING_TYPE *_$observationRegistrar;
+    id _canShowTip;
+    id _$observationRegistrar;
 }
 
 @end

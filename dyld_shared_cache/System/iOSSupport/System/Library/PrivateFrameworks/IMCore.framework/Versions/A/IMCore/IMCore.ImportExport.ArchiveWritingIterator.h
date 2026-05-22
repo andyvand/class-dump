@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ArchiveWritingIterator
 {
-    MISSING_TYPE *archivingOptions;
-    MISSING_TYPE *archiver;
-    MISSING_TYPE *conversations;
-    MISSING_TYPE *exportIterator;
-    MISSING_TYPE *conversationDirectories;
+    id archivingOptions;
+    id archiver;
+    id conversations;
+    id exportIterator;
+    id conversationDirectories;
 }
 
 @end

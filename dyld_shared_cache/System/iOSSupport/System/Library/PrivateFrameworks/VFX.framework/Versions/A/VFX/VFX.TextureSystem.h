@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.TextureSystem
 {
-    MISSING_TYPE *compileQueue;
-    MISSING_TYPE *maxRetryCount;
-    MISSING_TYPE *retryCount;
-    MISSING_TYPE *dirtyTextureLoadingOptions;
-    MISSING_TYPE *allTextureFilesWithoutWatcher;
-    MISSING_TYPE *allTextureFilesWithoutOptions;
-    MISSING_TYPE *allTextureFiles;
-    MISSING_TYPE *allTextureFilesWithoutDoNotUpload;
-    MISSING_TYPE *allTextureFilesWithoutDoNotDownload;
-    MISSING_TYPE *allTextureArrayFiles;
-    MISSING_TYPE *readTextureFile;
-    MISSING_TYPE *readTextureArrayFile;
-    MISSING_TYPE *allTextureFileWithCPURuntime;
-    MISSING_TYPE *readTextureDataCPUQuery;
-    MISSING_TYPE *readTextureCGImageQuery;
-    MISSING_TYPE *updateGPURuntime;
-    MISSING_TYPE *shaderAssetQueryAdd;
-    MISSING_TYPE *shaderAssetQueryGen;
-    MISSING_TYPE *convertToEquirectangularQuery;
-    MISSING_TYPE *uploadCPUToGPUQuery;
+    id compileQueue;
+    id maxRetryCount;
+    id retryCount;
+    id dirtyTextureLoadingOptions;
+    id allTextureFilesWithoutWatcher;
+    id allTextureFilesWithoutOptions;
+    id allTextureFiles;
+    id allTextureFilesWithoutDoNotUpload;
+    id allTextureFilesWithoutDoNotDownload;
+    id allTextureArrayFiles;
+    id readTextureFile;
+    id readTextureArrayFile;
+    id allTextureFileWithCPURuntime;
+    id readTextureDataCPUQuery;
+    id readTextureCGImageQuery;
+    id updateGPURuntime;
+    id shaderAssetQueryAdd;
+    id shaderAssetQueryGen;
+    id convertToEquirectangularQuery;
+    id uploadCPUToGPUQuery;
 }
 
 @end

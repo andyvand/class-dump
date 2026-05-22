@@ -6,15 +6,13 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.State.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.ErrorResolutionState : MediaPlaybackCore.State
 {
-    MISSING_TYPE *triggerEvent;
-    MISSING_TYPE *playerItem;
-    MISSING_TYPE *initialLoadFailure;
-    MISSING_TYPE *initialLoadShouldPlay;
-    MISSING_TYPE *steps;
+    id triggerEvent;
+    id playerItem;
+    id initialLoadFailure;
+    id initialLoadShouldPlay;
+    id steps;
 }
 
 @end

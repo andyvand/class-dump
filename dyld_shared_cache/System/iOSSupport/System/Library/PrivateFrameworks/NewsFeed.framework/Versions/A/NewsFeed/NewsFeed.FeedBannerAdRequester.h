@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedBannerAdRequester
 {
-    MISSING_TYPE *integrator;
-    MISSING_TYPE *requestManager;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *scheduledRequestIdentifiers;
-    MISSING_TYPE *scheduledRequests;
-    MISSING_TYPE *screenfulsToPrefetch;
-    MISSING_TYPE *lastRequestBounds;
-    MISSING_TYPE *_scrollBasedRequestsEnabled;
+    id integrator;
+    id requestManager;
+    id queue;
+    id scheduledRequestIdentifiers;
+    id scheduledRequests;
+    id screenfulsToPrefetch;
+    id lastRequestBounds;
+    id _scrollBasedRequestsEnabled;
 }
 
 @end

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.MoveToFolderViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *newFolderSection;
-    MISSING_TYPE *myFoldersSection;
-    MISSING_TYPE *rendererIdentifier;
-    MISSING_TYPE *shortcutsToMove;
-    MISSING_TYPE *$__lazy_storage_$_layout;
-    MISSING_TYPE *$__lazy_storage_$_collectionView;
-    MISSING_TYPE *$__lazy_storage_$_dataSource;
-    MISSING_TYPE *iconImage;
+    id delegate;
+    id newFolderSection;
+    id myFoldersSection;
+    id rendererIdentifier;
+    id shortcutsToMove;
+    id $__lazy_storage_$_layout;
+    id $__lazy_storage_$_collectionView;
+    id $__lazy_storage_$_dataSource;
+    id iconImage;
 }
 
 - (id);

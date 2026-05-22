@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedLoadingGate
 {
-    MISSING_TYPE *deferredPromise;
-    MISSING_TYPE *seal;
-    MISSING_TYPE *waitingForLift;
-    MISSING_TYPE *waitingForPopDepth;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *log;
+    id deferredPromise;
+    id seal;
+    id waitingForLift;
+    id waitingForPopDepth;
+    id lock;
+    id log;
 }
 
 @end

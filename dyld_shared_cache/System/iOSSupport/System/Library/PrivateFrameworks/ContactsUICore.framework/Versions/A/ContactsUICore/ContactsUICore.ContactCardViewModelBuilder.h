@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactCardViewModelBuilder
 {
-    MISSING_TYPE *widgetViewModels;
-    MISSING_TYPE *contact;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *actionProvider;
-    MISSING_TYPE *widgetModelFactory;
-    MISSING_TYPE *cardGroupFactory;
-    MISSING_TYPE *rowItemProvider;
-    MISSING_TYPE *rowItemFactory;
+    id widgetViewModels;
+    id contact;
+    id configuration;
+    id actionProvider;
+    id widgetModelFactory;
+    id cardGroupFactory;
+    id rowItemProvider;
+    id rowItemFactory;
 }
 
 @end

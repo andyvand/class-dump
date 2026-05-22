@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatVideoPlayerNodeLayoutAttributes
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *layoutIdentifier;
-    MISSING_TYPE *nodeIdentifier;
-    MISSING_TYPE *frame;
-    MISSING_TYPE *resizing;
-    MISSING_TYPE *zIndex;
-    MISSING_TYPE *visibility;
-    MISSING_TYPE *isUserInteractionEnabled;
-    MISSING_TYPE *accessibilityRole;
-    MISSING_TYPE *style;
-    MISSING_TYPE *reuseIdentifier;
-    MISSING_TYPE *posterLayoutAttributes;
-    MISSING_TYPE *auxViewRequirements;
-    MISSING_TYPE *logoLayoutAttributes;
+    id identifier;
+    id layoutIdentifier;
+    id nodeIdentifier;
+    id frame;
+    id resizing;
+    id zIndex;
+    id visibility;
+    id isUserInteractionEnabled;
+    id accessibilityRole;
+    id style;
+    id reuseIdentifier;
+    id posterLayoutAttributes;
+    id auxViewRequirements;
+    id logoLayoutAttributes;
 }
 
 @end

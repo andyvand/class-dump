@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, PREditingSceneViewController;
+@class PREditingSceneViewController;
 @protocol PBFPosterEditingIngestionManagerDelegate;
 
 @interface PBFPosterEditingIngestionManager
 {
-    MISSING_TYPE *posterStore;
-    MISSING_TYPE *editingConfirmationViewController;
-    MISSING_TYPE *ingestedConfiguration;
+    id posterStore;
+    id editingConfirmationViewController;
+    id ingestedConfiguration;
     void delegate;
     void editingViewController;
-    MISSING_TYPE *galleryViewController;
+    id galleryViewController;
 }
 
 - (void);

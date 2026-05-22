@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayOfflineFeedPrimer
 {
-    MISSING_TYPE *offlineContentManager;
-    MISSING_TYPE *offlineFeedsSupervisor;
-    MISSING_TYPE *contentContext;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *workQueue;
+    id offlineContentManager;
+    id offlineFeedsSupervisor;
+    id contentContext;
+    id appConfigManager;
+    id resolver;
+    id workQueue;
 }
 
 @end

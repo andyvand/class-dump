@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedGroupDebugCandidates
 {
-    MISSING_TYPE *candidateItems;
-    MISSING_TYPE *candidateItemsByIdentifier;
-    MISSING_TYPE *deduplicateItemIdentifiers;
-    MISSING_TYPE *filterJournals;
+    id candidateItems;
+    id candidateItemsByIdentifier;
+    id deduplicateItemIdentifiers;
+    id filterJournals;
 }
 
 @end

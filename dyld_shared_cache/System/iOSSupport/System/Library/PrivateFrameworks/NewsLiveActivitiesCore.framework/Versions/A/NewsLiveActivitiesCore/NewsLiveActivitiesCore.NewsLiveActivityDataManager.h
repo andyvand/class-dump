@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsLiveActivitiesCore.NewsLiveActivityDataManager
 {
-    MISSING_TYPE *pollingTasks;
-    MISSING_TYPE *activityDownloader;
-    MISSING_TYPE *liveActivityController;
-    MISSING_TYPE *liveActivityManager;
-    MISSING_TYPE *isDataPollingEnabled;
+    id pollingTasks;
+    id activityDownloader;
+    id liveActivityController;
+    id liveActivityManager;
+    id isDataPollingEnabled;
 }
 
 @end

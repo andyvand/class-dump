@@ -6,11 +6,9 @@
 
 #import <UIKitCore/(extension in UIKit):__C.UIView.InProcessAnimationState.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.PropertyCollectingAnimationState : (extension in UIKit):__C.UIView.InProcessAnimationState
 {
-    MISSING_TYPE *capturedProperties;
+    id capturedProperties;
 }
 
 - (id);

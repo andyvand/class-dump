@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsLiveActivitiesCore.NewsLiveActivityManager
 {
-    MISSING_TYPE *liveActivityController;
-    MISSING_TYPE *activityDefinitionLoader;
-    MISSING_TYPE *liveActivitiesEnabled;
-    MISSING_TYPE *scheduledLiveActivityFactory;
-    MISSING_TYPE *staleActivityTaskScheduler;
-    MISSING_TYPE *observerManager;
-    MISSING_TYPE *activities;
-    MISSING_TYPE *activityReconciler;
-    MISSING_TYPE *loadActivities;
+    id liveActivityController;
+    id activityDefinitionLoader;
+    id liveActivitiesEnabled;
+    id scheduledLiveActivityFactory;
+    id staleActivityTaskScheduler;
+    id observerManager;
+    id activities;
+    id activityReconciler;
+    id loadActivities;
 }
 
 @end

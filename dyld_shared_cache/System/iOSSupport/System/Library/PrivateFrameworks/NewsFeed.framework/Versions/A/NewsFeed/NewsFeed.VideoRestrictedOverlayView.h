@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.VideoRestrictedOverlayView
 {
-    MISSING_TYPE *liveIcon;
-    MISSING_TYPE *label;
-    MISSING_TYPE *blurEffectView;
-    MISSING_TYPE *vibrancyEffectView;
+    id liveIcon;
+    id label;
+    id blurEffectView;
+    id vibrancyEffectView;
 }
 
 - (id);

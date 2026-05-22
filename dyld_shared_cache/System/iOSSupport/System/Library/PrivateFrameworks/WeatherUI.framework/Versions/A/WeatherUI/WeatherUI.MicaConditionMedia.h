@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.MicaConditionMedia
 {
-    MISSING_TYPE *layer;
-    MISSING_TYPE *timeScale;
-    MISSING_TYPE *isFrozen;
+    id layer;
+    id timeScale;
+    id isFrozen;
 }
 
 @end

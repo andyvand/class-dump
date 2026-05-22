@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface GenerativePartnerServiceUI.BillingInfo
 {
-    MISSING_TYPE *viewModel;
-    MISSING_TYPE *continuouslyPoll;
-    MISSING_TYPE *allowPlanUpdatePolling;
-    MISSING_TYPE *isPollingForBillingChanges;
+    id viewModel;
+    id continuouslyPoll;
+    id allowPlanUpdatePolling;
+    id isPollingForBillingChanges;
 }
 
 @end

@@ -32,7 +32,7 @@
     float _intensity;
     NSString *_customMaterialPropertyName;
     struct __CFXMaterialProperty *_customMaterialProperty;
-    CDStruct_4ed99b4e *_contentTransform;
+    CDStruct_b5c1b465 *_contentTransform;
     id _runtimeResolvedURL;
 }
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTRendererViewTransitionTechnique, AVTStickerConfiguration, AVTStickerConfigurationReversionContext, AVTView, MISSING_TYPE;
+@class AVTRendererViewTransitionTechnique, AVTStickerConfiguration, AVTStickerConfigurationReversionContext, AVTView;
 
 __attribute__((visibility("hidden")))
 @interface AVTViewTransitionHelper
@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (id);
 - (void);

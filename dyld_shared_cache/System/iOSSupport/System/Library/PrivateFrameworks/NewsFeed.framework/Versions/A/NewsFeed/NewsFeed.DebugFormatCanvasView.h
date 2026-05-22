@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatCanvasView
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *label;
-    MISSING_TYPE *feedView;
-    MISSING_TYPE *canvasView;
-    MISSING_TYPE *priorityView;
-    MISSING_TYPE *bindLabel;
-    MISSING_TYPE *errorLabel;
-    MISSING_TYPE *chinView;
-    MISSING_TYPE *renderKey;
-    MISSING_TYPE *bezelView;
-    MISSING_TYPE *activityIndicatorView;
-    MISSING_TYPE *state;
+    id identifier;
+    id label;
+    id feedView;
+    id canvasView;
+    id priorityView;
+    id bindLabel;
+    id errorLabel;
+    id chinView;
+    id renderKey;
+    id bezelView;
+    id activityIndicatorView;
+    id state;
 }
 
 - (id);

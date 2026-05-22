@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.HeroImageColorAnalysisStep
 {
-    MISSING_TYPE *imageLoader;
-    MISSING_TYPE *imageColorAnalyzer;
+    id imageLoader;
+    id imageColorAnalyzer;
 }
 
 @end

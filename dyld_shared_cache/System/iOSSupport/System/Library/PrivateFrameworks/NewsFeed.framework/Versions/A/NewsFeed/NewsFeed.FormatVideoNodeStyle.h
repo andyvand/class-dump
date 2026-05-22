@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatVideoNodeStyle
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *class;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *alpha;
-    MISSING_TYPE *background;
-    MISSING_TYPE *borders;
-    MISSING_TYPE *cornerRadius;
-    MISSING_TYPE *shadow;
-    MISSING_TYPE *tintColor;
-    MISSING_TYPE *ignoresSmartInvertColors;
+    id _identifier;
+    id class;
+    id _selectors;
+    id alpha;
+    id background;
+    id borders;
+    id cornerRadius;
+    id shadow;
+    id tintColor;
+    id ignoresSmartInvertColors;
 }
 
 @end

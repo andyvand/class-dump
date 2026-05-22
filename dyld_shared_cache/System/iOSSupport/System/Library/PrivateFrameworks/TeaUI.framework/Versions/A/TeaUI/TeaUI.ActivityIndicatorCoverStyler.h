@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ActivityIndicatorCoverStyler
 {
-    MISSING_TYPE *style;
+    id style;
 }
 
 @end

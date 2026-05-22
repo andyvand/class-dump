@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *pipeline;
-    MISSING_TYPE *modifierFactory;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *audioDataManager;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *playbackState;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *offlineArticleManager;
-    MISSING_TYPE *featureAvailability;
+    id delegate;
+    id pipeline;
+    id modifierFactory;
+    id dataManager;
+    id audioDataManager;
+    id commandCenter;
+    id playbackState;
+    id bundleSubscriptionManager;
+    id offlineArticleManager;
+    id featureAvailability;
 }
 
 - (void);

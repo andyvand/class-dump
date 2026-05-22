@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.SubscriptionStatusProvider
 {
-    MISSING_TYPE *headline;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *observers;
+    id headline;
+    id paidAccessChecker;
+    id bundleSubscriptionManager;
+    id offerManager;
+    id observers;
     long long bundleSubscriptionStatus;
     long long channelSubscriptionStatus;
 }

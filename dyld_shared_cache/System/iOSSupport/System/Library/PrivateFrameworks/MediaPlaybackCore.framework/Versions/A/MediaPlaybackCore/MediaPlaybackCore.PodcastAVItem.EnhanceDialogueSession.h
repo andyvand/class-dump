@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.PodcastAVItem.EnhanceDialogueSession
 {
-    MISSING_TYPE *item;
-    MISSING_TYPE *subscription;
+    id item;
+    id subscription;
 }
 
 @end

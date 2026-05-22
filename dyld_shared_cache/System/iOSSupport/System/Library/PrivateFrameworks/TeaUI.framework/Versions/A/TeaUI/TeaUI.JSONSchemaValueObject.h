@@ -6,13 +6,11 @@
 
 #import <TeaUI/TeaUI.JSONSchemaValue.h>
 
-@class MISSING_TYPE;
-
 @interface TeaUI.JSONSchemaValueObject : TeaUI.JSONSchemaValue
 {
-    MISSING_TYPE *object;
-    MISSING_TYPE *_value;
-    MISSING_TYPE *_$observationRegistrar;
+    id object;
+    id _value;
+    id _$observationRegistrar;
 }
 
 @end

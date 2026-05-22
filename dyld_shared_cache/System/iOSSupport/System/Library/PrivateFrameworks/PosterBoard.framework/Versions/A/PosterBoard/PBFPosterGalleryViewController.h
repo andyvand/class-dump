@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSSet, NSString, PBFApplicationStateMonitor;
+@class NSSet, NSString, PBFApplicationStateMonitor;
 @protocol PBFPosterGalleryViewControllerDelegate, PREditingSceneViewControllerDelegate;
 
 @interface PBFPosterGalleryViewController
 {
-    MISSING_TYPE *dataProvider;
-    MISSING_TYPE *model;
-    MISSING_TYPE *assetProvider;
-    MISSING_TYPE *state;
-    MISSING_TYPE *lastInterfaceOrientation;
-    MISSING_TYPE *rotationAssertion;
-    MISSING_TYPE *presentEditorHandler;
+    id dataProvider;
+    id model;
+    id assetProvider;
+    id state;
+    id lastInterfaceOrientation;
+    id rotationAssertion;
+    id presentEditorHandler;
     void delegate;
     void editingSceneDelegate;
     PBFApplicationStateMonitor *applicationStateMonitor;

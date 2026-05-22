@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.LocationSharingView.Model
 {
-    MISSING_TYPE *contact;
-    MISSING_TYPE *controller;
-    MISSING_TYPE *_isSharingLocation;
-    MISSING_TYPE *_blockingViewModel;
+    id contact;
+    id controller;
+    id _isSharingLocation;
+    id _blockingViewModel;
 }
 
 @end

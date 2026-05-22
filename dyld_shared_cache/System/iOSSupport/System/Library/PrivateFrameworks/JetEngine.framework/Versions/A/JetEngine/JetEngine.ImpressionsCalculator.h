@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.ImpressionsCalculator
 {
-    MISSING_TYPE *parent;
-    MISSING_TYPE *itemsByElementID;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *parentItemID;
-    MISSING_TYPE *dateProvider;
-    MISSING_TYPE *context;
-    MISSING_TYPE *isVisible;
-    MISSING_TYPE *viewBounds;
+    id parent;
+    id itemsByElementID;
+    id configuration;
+    id tracker;
+    id parentItemID;
+    id dateProvider;
+    id context;
+    id isVisible;
+    id viewBounds;
 }
 
 @end

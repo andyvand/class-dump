@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.PassportSceneView.PhoneNode
 {
-    MISSING_TYPE *phoneBodyNode;
-    MISSING_TYPE *shadowContentNode;
-    MISSING_TYPE *shadowNode;
-    MISSING_TYPE *chipPulsingEffectNode;
-    MISSING_TYPE *loadTask;
+    id phoneBodyNode;
+    id shadowContentNode;
+    id shadowNode;
+    id chipPulsingEffectNode;
+    id loadTask;
 }
 
 - (void);

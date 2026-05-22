@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleArchiveFilterCommandHandler
 {
-    MISSING_TYPE *puzzleArchiveFilterOptionManager;
-    MISSING_TYPE *networkReachability;
+    id puzzleArchiveFilterOptionManager;
+    id networkReachability;
 }
 
 - (id);

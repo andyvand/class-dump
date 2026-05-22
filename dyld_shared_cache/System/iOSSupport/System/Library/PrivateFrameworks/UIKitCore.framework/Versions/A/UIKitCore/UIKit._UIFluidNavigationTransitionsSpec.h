@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC5UIKit34_UIFluidParallaxTransitionSettings;
+@class UIKit._UIFluidParallaxTransitionSettings;
 
 @interface UIKit._UIFluidNavigationTransitionsSpec
 {
-    _TtC5UIKit34_UIFluidParallaxTransitionSettings *parallaxSettings;
+    UIKit._UIFluidParallaxTransitionSettings *parallaxSettings;
 }
 
 + (id);
@@ -19,7 +19,7 @@
 - (void)°Êªl;
 
 // Remaining properties
-@property(nonatomic, retain) _TtC5UIKit34_UIFluidParallaxTransitionSettings *parallaxSettings; // @synthesize parallaxSettings;
+@property(nonatomic, retain) UIKit._UIFluidParallaxTransitionSettings *parallaxSettings; // @synthesize parallaxSettings;
 
 @end
 

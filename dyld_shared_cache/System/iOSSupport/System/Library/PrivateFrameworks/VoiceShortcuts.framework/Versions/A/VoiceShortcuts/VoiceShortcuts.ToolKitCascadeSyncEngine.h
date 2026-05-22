@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.ToolKitCascadeSyncEngine
 {
-    MISSING_TYPE *syncingQueue;
-    MISSING_TYPE *cascadeQueue;
-    MISSING_TYPE *setChangeListener;
+    id syncingQueue;
+    id cascadeQueue;
+    id setChangeListener;
 }
 
 - (void);

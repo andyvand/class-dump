@@ -6,12 +6,10 @@
 
 #import <HomeRecommendationEngine/HREActionMap.h>
 
-@class MISSING_TYPE;
-
 @interface HREMatterCommandActionMap : HREActionMap
 {
-    MISSING_TYPE *commandTemplates;
-    MISSING_TYPE *enforceExecutionOrder;
+    id commandTemplates;
+    id enforceExecutionOrder;
 }
 
 + (id);

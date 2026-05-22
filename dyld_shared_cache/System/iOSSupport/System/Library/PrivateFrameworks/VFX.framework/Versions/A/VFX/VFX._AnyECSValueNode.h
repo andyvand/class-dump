@@ -6,11 +6,9 @@
 
 #import <VFX/VFX._ECSValueNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX._AnyECSValueNode : VFX._ECSValueNode
 {
-    MISSING_TYPE *scriptKeyPath;
+    id scriptKeyPath;
 }
 
 @end

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LocalDraftsDeviceListener
 {
-    MISSING_TYPE *localFiles;
-    MISSING_TYPE *deviceInfo;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *previewServiceType;
-    MISSING_TYPE *myPeerId;
-    MISSING_TYPE *serviceBrowser;
-    MISSING_TYPE *$__lazy_storage_$_session;
+    id localFiles;
+    id deviceInfo;
+    id delegate;
+    id previewServiceType;
+    id myPeerId;
+    id serviceBrowser;
+    id $__lazy_storage_$_session;
 }
 
 - (void);

@@ -6,18 +6,16 @@
 
 #import <TeaUI/TeaUI.MotionContainerView.h>
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ShineView : TeaUI.MotionContainerView
 {
-    MISSING_TYPE *cornerRadius;
-    MISSING_TYPE *maskedCorners;
-    MISSING_TYPE *cornerCurve;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *$__lazy_storage_$_shineMotionLayer;
-    MISSING_TYPE *shineImageRequest;
-    MISSING_TYPE *shineOptions;
+    id cornerRadius;
+    id maskedCorners;
+    id cornerCurve;
+    id identifier;
+    id imageView;
+    id $__lazy_storage_$_shineMotionLayer;
+    id shineImageRequest;
+    id shineOptions;
 }
 
 - (id);

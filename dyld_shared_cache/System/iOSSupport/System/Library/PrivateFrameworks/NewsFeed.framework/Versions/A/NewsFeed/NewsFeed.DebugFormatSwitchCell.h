@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatSwitchCell
 {
-    MISSING_TYPE *switchControl;
-    MISSING_TYPE *onChangeBlock;
+    id switchControl;
+    id onChangeBlock;
 }
 
 - (void);

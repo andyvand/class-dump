@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.CameraSelectionService
 {
-    MISSING_TYPE *logger;
-    MISSING_TYPE *notificationCenter;
-    MISSING_TYPE *videoDeviceController;
+    id logger;
+    id notificationCenter;
+    id videoDeviceController;
 }
 
 @end

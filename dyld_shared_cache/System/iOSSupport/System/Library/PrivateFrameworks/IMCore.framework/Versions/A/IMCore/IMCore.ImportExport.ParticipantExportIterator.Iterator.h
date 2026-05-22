@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ParticipantExportIterator.Iterator
 {
-    MISSING_TYPE *exportOptions;
-    MISSING_TYPE *exportStatistics;
-    MISSING_TYPE *iterationState;
-    MISSING_TYPE *exportConfiguration;
-    MISSING_TYPE *hasExportedEmptyAccountParticipant;
-    MISSING_TYPE *lastExportedURI;
-    MISSING_TYPE *exportedAccountAddresses;
+    id exportOptions;
+    id exportStatistics;
+    id iterationState;
+    id exportConfiguration;
+    id hasExportedEmptyAccountParticipant;
+    id lastExportedURI;
+    id exportedAccountAddresses;
 }
 
 @end

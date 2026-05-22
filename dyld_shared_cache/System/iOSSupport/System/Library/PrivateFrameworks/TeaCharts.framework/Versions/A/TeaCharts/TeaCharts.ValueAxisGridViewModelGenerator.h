@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.ValueAxisGridViewModelGenerator
 {
-    MISSING_TYPE *valueCoordinateCalculator;
+    id valueCoordinateCalculator;
 }
 
 @end

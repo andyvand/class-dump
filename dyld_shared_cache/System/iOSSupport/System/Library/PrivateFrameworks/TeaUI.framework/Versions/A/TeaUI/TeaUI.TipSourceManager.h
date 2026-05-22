@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.TipSourceManager
 {
-    MISSING_TYPE *sourceViewController;
-    MISSING_TYPE *tipManager;
+    id sourceViewController;
+    id tipManager;
 }
 
 @end

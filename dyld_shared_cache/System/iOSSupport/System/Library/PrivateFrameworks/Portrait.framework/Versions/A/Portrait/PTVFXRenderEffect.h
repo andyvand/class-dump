@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, MTLRenderPassDescriptor, NSMutableDictionary, NSString, PTColorConversion, PTEffectReactionBackgroundDimming, PTHumanDetections, PTMetalContext, PTUtil, PTVFXResources, PTVFXSoftAlphaMask, VFXTextureAttachmentDescriptor;
+@class MTLRenderPassDescriptor, NSMutableDictionary, NSString, PTColorConversion, PTEffectReactionBackgroundDimming, PTHumanDetections, PTMetalContext, PTUtil, PTVFXResources, PTVFXSoftAlphaMask, VFXTextureAttachmentDescriptor;
 @protocol MTLComputePipelineState, MTLTexture;
 
 @interface PTVFXRenderEffect
@@ -26,7 +26,7 @@
     id <MTLTexture> _depthTexture;
     unsigned int _cameraRotationDegrees;
     unsigned long long _aspectRatio;
-    CDStruct_14d5dc5e _inverseCameraProjection;
+    CDStruct_95fa7c00 _inverseCameraProjection;
     float _emitZValue;
     _Bool _emitNewReaction;
     NSMutableDictionary *_effectBindings;
@@ -35,11 +35,11 @@
     _Bool reverseZ;
     unsigned long long rgbaOutputPixelFormat;
     unsigned long long depthOutputPixelFormat;
-    MISSING_TYPE *depthNearFar;
+    id depthNearFar;
 }
 
-+ (MISSING_TYPE *);
-+ (MISSING_TYPE *);
++ (id);
++ (id);
 + (void);
 - (_Bool);
 - (_Bool);
@@ -60,7 +60,7 @@
 - (id);
 - (float);
 - (unsigned long long);
-- (MISSING_TYPE *);
+- (id);
 - (int);
 - (_Bool);
 - (_Bool);
@@ -75,7 +75,7 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
 
-@property MISSING_TYPE *depthNearFar; // @synthesize depthNearFar;
+@property id depthNearFar; // @synthesize depthNearFar;
 @property(readonly) unsigned long long depthOutputPixelFormat; // @synthesize depthOutputPixelFormat;
 @property(readonly, copy) NSString *description;
 @property(readonly, retain, nonatomic) VFXTextureAttachmentDescriptor *finalColorDescriptor;

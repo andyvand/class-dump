@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.DebugJournalCodableViewController
 {
-    MISSING_TYPE *codable;
-    MISSING_TYPE *textView;
+    id codable;
+    id textView;
 }
 
 - (id);

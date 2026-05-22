@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.BrandBarToolbarCompressionAnimation
 {
     _Bool shouldCompressAtTop;
     double topOffset;
     _Bool shouldCloseGapOnScroll;
-    MISSING_TYPE *brandBar;
+    id brandBar;
 }
 
 - (void);

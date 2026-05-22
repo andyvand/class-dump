@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIViewController;
+@class UIViewController;
 
 @interface TUDebugWindow
 {
-    MISSING_TYPE *debugDelegate;
-    MISSING_TYPE *isAllowed;
-    MISSING_TYPE *isPresenting;
-    MISSING_TYPE *_observableRootViewController;
+    id debugDelegate;
+    id isAllowed;
+    id isPresenting;
+    id _observableRootViewController;
 }
 
 - (void);

@@ -6,11 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE, UIBezierPath, UIPopoverPresentationController, UITraitCollection;
+@class UIBezierPath, UIPopoverPresentationController, UITraitCollection;
 
 @interface _UIPopoverGlassBackground : UIView
 {
-    MISSING_TYPE *$__lazy_storage_$_hostingView;
+    id $__lazy_storage_$_hostingView;
     UIBezierPath *shapePath;
     UITraitCollection *_traitCollectionForGlassContent;
     void presentationController;

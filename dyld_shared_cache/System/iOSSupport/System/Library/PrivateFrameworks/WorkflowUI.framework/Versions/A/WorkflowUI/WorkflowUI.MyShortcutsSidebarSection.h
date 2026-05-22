@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.MyShortcutsSidebarSection
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *destinations;
-    MISSING_TYPE *allDestinations;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *observeChanges;
-    MISSING_TYPE *shouldDisplay;
-    MISSING_TYPE *healthFeatureProvider;
-    MISSING_TYPE *sidebarPreferencesObserver;
-    MISSING_TYPE *id;
+    id name;
+    id destinations;
+    id allDestinations;
+    id delegate;
+    id observeChanges;
+    id shouldDisplay;
+    id healthFeatureProvider;
+    id sidebarPreferencesObserver;
+    id id;
 }
 
 - (void);

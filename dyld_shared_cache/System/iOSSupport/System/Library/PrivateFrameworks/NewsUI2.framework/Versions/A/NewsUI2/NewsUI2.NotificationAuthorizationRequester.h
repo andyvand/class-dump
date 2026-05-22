@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NotificationAuthorizationRequester
 {
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *uid;
+    id notificationService;
+    id uid;
 }
 
 - (id);

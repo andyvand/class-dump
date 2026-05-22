@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.Bindings.Value
 {
-    MISSING_TYPE *buffer;
-    MISSING_TYPE *type;
-    MISSING_TYPE *id;
-    MISSING_TYPE *visibility;
-    MISSING_TYPE *semantic;
-    MISSING_TYPE *min;
-    MISSING_TYPE *max;
-    MISSING_TYPE *step;
-    MISSING_TYPE *userManual;
-    MISSING_TYPE *enumInfo;
+    id buffer;
+    id type;
+    id id;
+    id visibility;
+    id semantic;
+    id min;
+    id max;
+    id step;
+    id userManual;
+    id enumInfo;
 }
 
 @end

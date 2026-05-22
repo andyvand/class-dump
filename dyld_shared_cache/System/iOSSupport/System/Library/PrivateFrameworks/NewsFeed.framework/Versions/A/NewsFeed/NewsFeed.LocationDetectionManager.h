@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, MISSING_TYPE;
+@class CLLocation;
 
 @interface NewsFeed.LocationDetectionManager
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *locationManager;
-    MISSING_TYPE *statusFetchQueue;
+    id observers;
+    id locationManager;
+    id statusFetchQueue;
     id observableMostFrequentLocation;
-    MISSING_TYPE *_mostFrequentLocation;
-    MISSING_TYPE *_currentLocation;
-    MISSING_TYPE *onUserInteractedWithLocationAuthorizationTCC;
+    id _mostFrequentLocation;
+    id _currentLocation;
+    id onUserInteractedWithLocationAuthorizationTCC;
 }
 
 - (void);

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.PageMetricsPresenter
 {
-    MISSING_TYPE *appMetrics;
-    MISSING_TYPE *pipeline;
-    MISSING_TYPE *appStateEventSubscription;
-    MISSING_TYPE *isViewAppeared;
-    MISSING_TYPE *hasAppExitedWhileAppeared;
-    MISSING_TYPE *dataStorage;
-    MISSING_TYPE *context;
+    id appMetrics;
+    id pipeline;
+    id appStateEventSubscription;
+    id isViewAppeared;
+    id hasAppExitedWhileAppeared;
+    id dataStorage;
+    id context;
 }
 
 @end

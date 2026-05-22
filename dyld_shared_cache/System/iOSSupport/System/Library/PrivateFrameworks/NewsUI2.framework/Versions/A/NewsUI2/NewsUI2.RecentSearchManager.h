@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecentSearchManager
 {
-    MISSING_TYPE *searchRecentsDataSource;
-    MISSING_TYPE *observers;
+    id searchRecentsDataSource;
+    id observers;
 }
 
 - (void);

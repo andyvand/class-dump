@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagViewStyler
 {
-    MISSING_TYPE *headlineFontMetrics;
-    MISSING_TYPE *subtitleFontMetrics;
+    id headlineFontMetrics;
+    id subtitleFontMetrics;
 }
 
 @end

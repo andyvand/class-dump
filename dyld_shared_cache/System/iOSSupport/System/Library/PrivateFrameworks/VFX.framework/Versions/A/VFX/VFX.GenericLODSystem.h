@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GenericLODSystem
 {
-    MISSING_TYPE *pointOfCullingQuery;
-    MISSING_TYPE *lodQuery;
+    id pointOfCullingQuery;
+    id lodQuery;
 }
 
 @end

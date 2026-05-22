@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedLayoutContext
 {
-    MISSING_TYPE *stylerFactory;
-    MISSING_TYPE *layoutAttributesFactoryProvider;
+    id stylerFactory;
+    id layoutAttributesFactoryProvider;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.HeadlineViewRendererPipelineProcessor
 {
-    MISSING_TYPE *thumbnailImageCache;
-    MISSING_TYPE *publisherLogoImageCache;
-    MISSING_TYPE *rendererEnvironment;
+    id thumbnailImageCache;
+    id publisherLogoImageCache;
+    id rendererEnvironment;
 }
 
 @end

@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.ClickLocationTracker
 {
-    MISSING_TYPE *elements;
+    id elements;
 }
 
 @end

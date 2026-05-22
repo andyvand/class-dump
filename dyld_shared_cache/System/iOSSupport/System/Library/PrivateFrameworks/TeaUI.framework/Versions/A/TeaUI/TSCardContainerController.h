@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIViewController;
+@class UIViewController;
 
 @interface TSCardContainerController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *transitionManager;
-    MISSING_TYPE *cardViewLayoutOptions;
-    MISSING_TYPE *rootViewController;
-    MISSING_TYPE *dimmingColor;
-    MISSING_TYPE *dimmingAlpha;
-    MISSING_TYPE *cardItemStack;
-    MISSING_TYPE *dimmingView;
-    MISSING_TYPE *eventManager;
+    id delegate;
+    id transitionManager;
+    id cardViewLayoutOptions;
+    id rootViewController;
+    id dimmingColor;
+    id dimmingAlpha;
+    id cardItemStack;
+    id dimmingView;
+    id eventManager;
 }
 
 - (void);

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface PosterBoard.PosterSectionHeaderView
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *posterPair;
+    id delegate;
+    id posterPair;
     void title;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *titleLabelSpacingFromBottomEdge;
+    id titleLabel;
+    id titleLabelSpacingFromBottomEdge;
 }
 
 - (void);

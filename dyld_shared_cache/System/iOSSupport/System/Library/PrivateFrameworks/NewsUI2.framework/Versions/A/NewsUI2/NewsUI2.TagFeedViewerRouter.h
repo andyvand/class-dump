@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedViewerRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *contextBuilder;
+    id controller;
+    id resolver;
+    id navigator;
+    id tracker;
+    id contextBuilder;
 }
 
 @end

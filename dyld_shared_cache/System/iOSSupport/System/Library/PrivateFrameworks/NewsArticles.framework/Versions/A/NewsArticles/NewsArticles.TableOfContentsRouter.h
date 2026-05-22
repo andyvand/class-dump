@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.TableOfContentsRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *actionHandler;
+    id controller;
+    id resolver;
+    id actionHandler;
 }
 
 @end

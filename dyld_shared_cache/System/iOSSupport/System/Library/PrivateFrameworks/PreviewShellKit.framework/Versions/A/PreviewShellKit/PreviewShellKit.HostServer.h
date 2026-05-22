@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewShellKit.HostServer
 {
-    MISSING_TYPE *service;
-    MISSING_TYPE *activeListener;
+    id service;
+    id activeListener;
 }
 
 @end

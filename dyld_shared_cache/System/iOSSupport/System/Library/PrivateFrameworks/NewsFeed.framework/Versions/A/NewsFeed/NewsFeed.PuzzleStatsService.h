@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleStatsService
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *puzzleStatsProcessor;
-    MISSING_TYPE *puzzleGameCenterService;
-    MISSING_TYPE *store;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *updatingStatsState;
-    MISSING_TYPE *discardAccumulatedStats;
-    MISSING_TYPE *$__lazy_storage_$_contentEnvironment;
+    id $defaultActor;
+    id puzzleHistoryService;
+    id configurationManager;
+    id puzzleService;
+    id puzzleStatsProcessor;
+    id puzzleGameCenterService;
+    id store;
+    id userInfo;
+    id updatingStatsState;
+    id discardAccumulatedStats;
+    id $__lazy_storage_$_contentEnvironment;
 }
 
 - (void);

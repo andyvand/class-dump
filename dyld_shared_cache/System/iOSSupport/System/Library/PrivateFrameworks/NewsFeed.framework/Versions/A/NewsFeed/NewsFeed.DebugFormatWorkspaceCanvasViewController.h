@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceCanvasViewController
 {
-    MISSING_TYPE *$__lazy_storage_$_navigationItemManager;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *$__lazy_storage_$_generator;
-    MISSING_TYPE *$__lazy_storage_$_exporter;
-    MISSING_TYPE *$__lazy_storage_$_sorter;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *collectionView;
-    MISSING_TYPE *$__lazy_storage_$_devicesBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_userInterfaceBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_interfaceLayoutDirectionBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_activateBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_snapshotExportBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_dimissBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_statusView;
-    MISSING_TYPE *prewarmTask;
-    MISSING_TYPE *exportTask;
-    MISSING_TYPE *_selection;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *workspace;
+    id $__lazy_storage_$_navigationItemManager;
+    id editor;
+    id $__lazy_storage_$_generator;
+    id $__lazy_storage_$_exporter;
+    id $__lazy_storage_$_sorter;
+    id styler;
+    id collectionView;
+    id $__lazy_storage_$_devicesBarButtonItem;
+    id $__lazy_storage_$_userInterfaceBarButtonItem;
+    id $__lazy_storage_$_interfaceLayoutDirectionBarButtonItem;
+    id $__lazy_storage_$_activateBarButtonItem;
+    id $__lazy_storage_$_snapshotExportBarButtonItem;
+    id $__lazy_storage_$_dimissBarButtonItem;
+    id $__lazy_storage_$_statusView;
+    id prewarmTask;
+    id exportTask;
+    id _selection;
+    id sections;
+    id workspace;
 }
 
 - (void);

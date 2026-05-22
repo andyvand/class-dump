@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchHomeBlueprintViewSupplementaryViewProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *sectionTitleViewRenderer;
+    id delegate;
+    id sectionTitleViewRenderer;
 }
 
 @end

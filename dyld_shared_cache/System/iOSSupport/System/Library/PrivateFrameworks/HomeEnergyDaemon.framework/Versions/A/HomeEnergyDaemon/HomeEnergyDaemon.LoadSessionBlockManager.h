@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.LoadSessionBlockManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *sharedContext;
-    MISSING_TYPE *loadSessionBlockModel;
+    id $defaultActor;
+    id sharedContext;
+    id loadSessionBlockModel;
 }
 
 @end

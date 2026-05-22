@@ -6,26 +6,24 @@
 
 #import <CoreIDVUI/CoreIDVUI.IdentityProofingViewController.h>
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.PassportMRZReaderViewController : CoreIDVUI.IdentityProofingViewController
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *passportScanResult;
-    MISSING_TYPE *documentsRepository;
-    MISSING_TYPE *imageQualityManager;
-    MISSING_TYPE *mrzParser;
-    MISSING_TYPE *passportSceneViewLoader;
-    MISSING_TYPE *hasCompletedExitTransition;
-    MISSING_TYPE *hasCompletedProofingRequest;
-    MISSING_TYPE *lastSpokenAlertMessage;
-    MISSING_TYPE *networkTask;
-    MISSING_TYPE *checkGetPendingCommandsReadinessAttempts;
-    MISSING_TYPE *$__lazy_storage_$_previewView;
-    MISSING_TYPE *$__lazy_storage_$_backgroundView;
-    MISSING_TYPE *$__lazy_storage_$_guidanceContainer;
-    MISSING_TYPE *$__lazy_storage_$_guidancePrompt;
+    id configuration;
+    id proofingFlowManager;
+    id passportScanResult;
+    id documentsRepository;
+    id imageQualityManager;
+    id mrzParser;
+    id passportSceneViewLoader;
+    id hasCompletedExitTransition;
+    id hasCompletedProofingRequest;
+    id lastSpokenAlertMessage;
+    id networkTask;
+    id checkGetPendingCommandsReadinessAttempts;
+    id $__lazy_storage_$_previewView;
+    id $__lazy_storage_$_backgroundView;
+    id $__lazy_storage_$_guidanceContainer;
+    id $__lazy_storage_$_guidancePrompt;
 }
 
 - (id);

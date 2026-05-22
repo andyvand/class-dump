@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsFeedOfflineFeedBuilder
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *feedAvailabilityService;
-    MISSING_TYPE *offlineFeedDatabase;
+    id resolver;
+    id appConfigManager;
+    id feedAvailabilityService;
+    id offlineFeedDatabase;
 }
 
 @end

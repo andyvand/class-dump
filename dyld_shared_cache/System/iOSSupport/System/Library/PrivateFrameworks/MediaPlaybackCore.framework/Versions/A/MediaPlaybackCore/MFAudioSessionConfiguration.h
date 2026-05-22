@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MFAudioSessionConfiguration
 {
-    MISSING_TYPE *category;
-    MISSING_TYPE *routeSharingPolicy;
-    MISSING_TYPE *options;
-    MISSING_TYPE *audioSessionMXProperties;
-    MISSING_TYPE *allowEnhanceDialogue;
+    id category;
+    id routeSharingPolicy;
+    id options;
+    id audioSessionMXProperties;
+    id allowEnhanceDialogue;
 }
 
 - (void);

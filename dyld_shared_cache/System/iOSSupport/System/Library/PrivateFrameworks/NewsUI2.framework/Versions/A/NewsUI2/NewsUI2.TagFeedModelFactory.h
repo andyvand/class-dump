@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedModelFactory
 {
-    MISSING_TYPE *feedModelFactory;
-    MISSING_TYPE *feedDescriptor;
+    id feedModelFactory;
+    id feedDescriptor;
 }
 
 @end

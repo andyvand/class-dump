@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AutomationMyMagazinesStore
 {
-    MISSING_TYPE *state;
-    MISSING_TYPE *badgeIssueIDs;
-    MISSING_TYPE *testDataLoader;
-    MISSING_TYPE *issueService;
+    id state;
+    id badgeIssueIDs;
+    id testDataLoader;
+    id issueService;
 }
 
 @end

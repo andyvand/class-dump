@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.IssueCoverViewRenderer
 {
-    MISSING_TYPE *rendererEnvironment;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *coverImageImageCache;
-    MISSING_TYPE *layeredCoverViewProvider;
-    MISSING_TYPE *layeredCoverLayerProviderFactory;
-    MISSING_TYPE *layeredCoverViewRenderer;
+    id rendererEnvironment;
+    id styler;
+    id coverImageImageCache;
+    id layeredCoverViewProvider;
+    id layeredCoverLayerProviderFactory;
+    id layeredCoverViewRenderer;
 }
 
 @end

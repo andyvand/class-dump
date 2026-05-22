@@ -6,40 +6,39 @@
 
 #import <UIKitCore/_UITabBarVisualProvider.h>
 
-@class MISSING_TYPE;
 @protocol _UIBarAppearanceChangeObserver;
 
 @interface UIKit._UITabBarVisualProvider_Floating : _UITabBarVisualProvider
 {
-    MISSING_TYPE *$__lazy_storage_$_configuration;
-    MISSING_TYPE *platterView;
-    MISSING_TYPE *lensView;
-    MISSING_TYPE *lensViewTargetPosition;
-    MISSING_TYPE *lensViewFrame;
-    MISSING_TYPE *isLensViewHidden;
-    MISSING_TYPE *selectedContentView;
-    MISSING_TYPE *auxiliaryView;
-    MISSING_TYPE *suppressAuxiliarySearch;
-    MISSING_TYPE *accessoryView;
-    MISSING_TYPE *collapsePlatterView;
-    MISSING_TYPE *collapseButton;
-    MISSING_TYPE *scrollAwayInteraction;
-    MISSING_TYPE *scrollPocketInteraction;
-    MISSING_TYPE *itemForCollapseButton;
-    MISSING_TYPE *tabBarButtons;
-    MISSING_TYPE *tabBarButtonsForItem;
-    MISSING_TYPE *isAnimatingCollapsedState;
-    MISSING_TYPE *selectionGestureRecognizer;
-    MISSING_TYPE *pointerInteraction;
-    MISSING_TYPE *isCustomizingTabBar;
-    MISSING_TYPE *_backgroundTransitionProgress;
-    MISSING_TYPE *_useModernAppearance;
-    MISSING_TYPE *highlightedItem;
-    MISSING_TYPE *highlightedItemIndex;
-    MISSING_TYPE *highlightAnchorPoint;
-    MISSING_TYPE *shouldReselectHighlightedItemOnLift;
-    MISSING_TYPE *selectionGestureInitialLocation;
-    MISSING_TYPE *shouldFailSelectionOnLiftOutside;
+    id $__lazy_storage_$_configuration;
+    id platterView;
+    id lensView;
+    id lensViewTargetPosition;
+    id lensViewFrame;
+    id isLensViewHidden;
+    id selectedContentView;
+    id auxiliaryView;
+    id suppressAuxiliarySearch;
+    id accessoryView;
+    id collapsePlatterView;
+    id collapseButton;
+    id scrollAwayInteraction;
+    id scrollPocketInteraction;
+    id itemForCollapseButton;
+    id tabBarButtons;
+    id tabBarButtonsForItem;
+    id isAnimatingCollapsedState;
+    id selectionGestureRecognizer;
+    id pointerInteraction;
+    id isCustomizingTabBar;
+    id _backgroundTransitionProgress;
+    id _useModernAppearance;
+    id highlightedItem;
+    id highlightedItemIndex;
+    id highlightAnchorPoint;
+    id shouldReselectHighlightedItemOnLift;
+    id selectionGestureInitialLocation;
+    id shouldFailSelectionOnLiftOutside;
 }
 
 + (_Bool);

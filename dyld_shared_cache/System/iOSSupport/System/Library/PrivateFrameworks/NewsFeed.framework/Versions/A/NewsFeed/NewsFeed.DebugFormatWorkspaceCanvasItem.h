@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceCanvasItem
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *workspace;
-    MISSING_TYPE *group;
-    MISSING_TYPE *canvas;
-    MISSING_TYPE *device;
-    MISSING_TYPE *state;
+    id identifier;
+    id workspace;
+    id group;
+    id canvas;
+    id device;
+    id state;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsLiveActivitiesCore.AppBackgroundTaskProvider
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *backgroundTasks;
+    id $defaultActor;
+    id backgroundTasks;
 }
 
 @end

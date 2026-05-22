@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.PDFReplicaViewerViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *sessionManager;
-    MISSING_TYPE *issue;
-    MISSING_TYPE *pageViewController;
-    MISSING_TYPE *pageBlueprintProvider;
-    MISSING_TYPE *paywallFactory;
-    MISSING_TYPE *paywall;
-    MISSING_TYPE *paywallViewController;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *issueCoverView;
-    MISSING_TYPE *barVisibilityAnimator;
-    MISSING_TYPE *pageSheetPresentationObserver;
-    MISSING_TYPE *menuProvider;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *commands;
-    MISSING_TYPE *_windowTitle;
+    id styler;
+    id eventHandler;
+    id sessionManager;
+    id issue;
+    id pageViewController;
+    id pageBlueprintProvider;
+    id paywallFactory;
+    id paywall;
+    id paywallViewController;
+    id eventManager;
+    id issueCoverView;
+    id barVisibilityAnimator;
+    id pageSheetPresentationObserver;
+    id menuProvider;
+    id tracker;
+    id commands;
+    id _windowTitle;
 }
 
 - (void);

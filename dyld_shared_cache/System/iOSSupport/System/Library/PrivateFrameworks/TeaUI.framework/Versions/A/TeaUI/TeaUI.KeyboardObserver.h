@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.KeyboardObserver
 {
-    MISSING_TYPE *onWillShowBlock;
-    MISSING_TYPE *onShowBlock;
-    MISSING_TYPE *onDidShowBlock;
-    MISSING_TYPE *onWillHideBlock;
-    MISSING_TYPE *onHideBlock;
-    MISSING_TYPE *onDidHideBlock;
-    MISSING_TYPE *keyboardInfo;
+    id onWillShowBlock;
+    id onShowBlock;
+    id onDidShowBlock;
+    id onWillHideBlock;
+    id onHideBlock;
+    id onDidHideBlock;
+    id keyboardInfo;
 }
 
 - (void);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleStatsInfo
 {
-    MISSING_TYPE *statValue;
-    MISSING_TYPE *difficultyStatValue;
+    id statValue;
+    id difficultyStatValue;
 }
 
 @end

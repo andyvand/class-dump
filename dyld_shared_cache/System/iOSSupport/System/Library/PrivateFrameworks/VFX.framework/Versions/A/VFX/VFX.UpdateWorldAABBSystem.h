@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.UpdateWorldAABBSystem
 {
-    MISSING_TYPE *onlyLocal;
-    MISSING_TYPE *updateWorldFromLocal;
+    id onlyLocal;
+    id updateWorldFromLocal;
 }
 
 @end

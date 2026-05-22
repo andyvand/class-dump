@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsSyncingConfigResource
 {
-    MISSING_TYPE *sportsFavoritesSyncMap;
-    MISSING_TYPE *$__lazy_storage_$_umcIDs;
-    MISSING_TYPE *$__lazy_storage_$_tagIDs;
-    MISSING_TYPE *$__lazy_storage_$_teamUMCIDToTagIDMap;
-    MISSING_TYPE *$__lazy_storage_$_leagueUMCIDToTagIDMap;
-    MISSING_TYPE *$__lazy_storage_$_teamUMCIDs;
-    MISSING_TYPE *$__lazy_storage_$_teamTagIDs;
-    MISSING_TYPE *$__lazy_storage_$_leagueUMCIDs;
-    MISSING_TYPE *$__lazy_storage_$_leagueTagIDs;
+    id sportsFavoritesSyncMap;
+    id $__lazy_storage_$_umcIDs;
+    id $__lazy_storage_$_tagIDs;
+    id $__lazy_storage_$_teamUMCIDToTagIDMap;
+    id $__lazy_storage_$_leagueUMCIDToTagIDMap;
+    id $__lazy_storage_$_teamUMCIDs;
+    id $__lazy_storage_$_teamTagIDs;
+    id $__lazy_storage_$_leagueUMCIDs;
+    id $__lazy_storage_$_leagueTagIDs;
 }
 
 @end

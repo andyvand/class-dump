@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.BookmarkingConsumer
 {
-    MISSING_TYPE *playbackEngine;
-    MISSING_TYPE *subscription;
+    id playbackEngine;
+    id subscription;
 }
 
 + (unsigned int);

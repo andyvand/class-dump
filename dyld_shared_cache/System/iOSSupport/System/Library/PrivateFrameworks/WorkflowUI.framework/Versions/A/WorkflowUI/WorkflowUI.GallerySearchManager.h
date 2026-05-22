@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.GallerySearchManager
 {
-    MISSING_TYPE *_state;
-    MISSING_TYPE *currentTask;
-    MISSING_TYPE *_isActive;
-    MISSING_TYPE *searchTerm;
+    id _state;
+    id currentTask;
+    id _isActive;
+    id searchTerm;
 }
 
 @end

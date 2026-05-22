@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.LiveCoverageState
 {
-    MISSING_TYPE *status;
-    MISSING_TYPE *postCount;
-    MISSING_TYPE *lastModifiedDate;
-    MISSING_TYPE *isCompleted;
-    MISSING_TYPE *activeWindow;
-    MISSING_TYPE *inactiveWindow;
+    id status;
+    id postCount;
+    id lastModifiedDate;
+    id isCompleted;
+    id activeWindow;
+    id inactiveWindow;
 }
 
 @end

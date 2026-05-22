@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FamilySharingFeaturePromotionEligibilityProvider
 {
-    MISSING_TYPE *familySharing;
-    MISSING_TYPE *familySharingStatusManager;
+    id familySharing;
+    id familySharingStatusManager;
 }
 
 @end

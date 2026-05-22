@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineCategoriesPickerBlueprintViewCellProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *categoryViewRenderer;
-    MISSING_TYPE *feedItemRenderer;
-    MISSING_TYPE *selectedCategory;
+    id delegate;
+    id categoryViewRenderer;
+    id feedItemRenderer;
+    id selectedCategory;
 }
 
 @end

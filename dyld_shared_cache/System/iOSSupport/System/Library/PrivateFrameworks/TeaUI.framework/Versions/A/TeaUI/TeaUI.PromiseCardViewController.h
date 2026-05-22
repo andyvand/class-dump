@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PromiseCardViewController
 {
-    MISSING_TYPE *viewControllerState;
-    MISSING_TYPE *defaultCardViewBehavior;
-    MISSING_TYPE *defaultCardSplitViewPresentationForState;
-    MISSING_TYPE *activityIndicatorView;
-    MISSING_TYPE *activityIndicatorOffset;
+    id viewControllerState;
+    id defaultCardViewBehavior;
+    id defaultCardSplitViewPresentationForState;
+    id activityIndicatorView;
+    id activityIndicatorOffset;
 }
 
 - (id);

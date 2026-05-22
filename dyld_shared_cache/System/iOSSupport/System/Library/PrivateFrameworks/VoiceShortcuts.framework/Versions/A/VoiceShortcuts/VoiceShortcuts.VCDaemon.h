@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.VCDaemon
 {
-    MISSING_TYPE *userNotificationManager;
-    MISSING_TYPE *databaseProvider;
-    MISSING_TYPE *xpcEventHandler;
-    MISSING_TYPE *syncDataEndpoint;
-    MISSING_TYPE *runCoordinator;
-    MISSING_TYPE *shortcutSyncCoordinator;
-    MISSING_TYPE *triggerRegistrar;
-    MISSING_TYPE *xpcServer;
-    MISSING_TYPE *daemonServer;
-    MISSING_TYPE *backgroundTaskScheduler;
-    MISSING_TYPE *spotlightLibrarySyncService;
-    MISSING_TYPE *contextualActionSpotlightSyncService;
-    MISSING_TYPE *remoteExecutionCoordinator;
-    MISSING_TYPE *topHitsAppShortcutsUpdater;
-    MISSING_TYPE *toolkitIndexingScheduler;
-    MISSING_TYPE *toolkitCascadeSyncEngine;
-    MISSING_TYPE *shortcutSpotlightCoordinator;
-    MISSING_TYPE *baseSpotlightToolCoordinator;
-    MISSING_TYPE *daemonTaskScheduler;
+    id userNotificationManager;
+    id databaseProvider;
+    id xpcEventHandler;
+    id syncDataEndpoint;
+    id runCoordinator;
+    id shortcutSyncCoordinator;
+    id triggerRegistrar;
+    id xpcServer;
+    id daemonServer;
+    id backgroundTaskScheduler;
+    id spotlightLibrarySyncService;
+    id contextualActionSpotlightSyncService;
+    id remoteExecutionCoordinator;
+    id topHitsAppShortcutsUpdater;
+    id toolkitIndexingScheduler;
+    id toolkitCascadeSyncEngine;
+    id shortcutSpotlightCoordinator;
+    id baseSpotlightToolCoordinator;
+    id daemonTaskScheduler;
 }
 
 @end

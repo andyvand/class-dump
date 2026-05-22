@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *headlineProviderFactory;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *commandCenter;
+    id patterns;
+    id navigator;
+    id headlineProviderFactory;
+    id bundleSubscriptionManager;
+    id featureAvailability;
+    id commandCenter;
 }
 
 @end

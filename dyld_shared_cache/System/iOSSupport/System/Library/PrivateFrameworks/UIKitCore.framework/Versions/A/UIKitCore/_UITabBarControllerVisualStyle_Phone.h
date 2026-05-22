@@ -6,13 +6,11 @@
 
 #import <UIKitCore/_UITabBarControllerVisualStyle.h>
 
-@class MISSING_TYPE;
-
 @interface _UITabBarControllerVisualStyle_Phone : _UITabBarControllerVisualStyle
 {
-    MISSING_TYPE *scrollPocketContainerInteraction;
-    MISSING_TYPE *containerWrapperView;
-    MISSING_TYPE *$__lazy_storage_$_containerView;
+    id scrollPocketContainerInteraction;
+    id containerWrapperView;
+    id $__lazy_storage_$_containerView;
 }
 
 - (_Bool);

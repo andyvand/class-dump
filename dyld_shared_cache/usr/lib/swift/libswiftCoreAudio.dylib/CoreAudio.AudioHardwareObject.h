@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreAudio.AudioHardwareObject
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *delegatesMutex;
-    MISSING_TYPE *registeredPropertiesMutex;
-    MISSING_TYPE *asyncSetterDelegate;
+    id id;
+    id delegatesMutex;
+    id registeredPropertiesMutex;
+    id asyncSetterDelegate;
 }
 
 @end

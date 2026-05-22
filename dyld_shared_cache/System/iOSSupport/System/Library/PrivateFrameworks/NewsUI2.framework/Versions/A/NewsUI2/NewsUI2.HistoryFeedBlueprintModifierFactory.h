@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.HistoryFeedBlueprintModifierFactory
 {
-    MISSING_TYPE *headlineModelFactory;
-    MISSING_TYPE *sectionFactory;
-    MISSING_TYPE *feedContextFactory;
+    id headlineModelFactory;
+    id sectionFactory;
+    id feedContextFactory;
 }
 
 @end

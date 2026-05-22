@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FormItem
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *title;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *_isSelected;
-    MISSING_TYPE *_selectedPickerFilter;
-    MISSING_TYPE *_$observationRegistrar;
+    id id;
+    id title;
+    id configuration;
+    id _isSelected;
+    id _selectedPickerFilter;
+    id _$observationRegistrar;
 }
 
 @end

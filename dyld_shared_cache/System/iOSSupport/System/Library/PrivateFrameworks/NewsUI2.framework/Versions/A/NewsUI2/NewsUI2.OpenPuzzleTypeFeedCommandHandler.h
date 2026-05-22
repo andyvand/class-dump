@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OpenPuzzleTypeFeedCommandHandler
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *tagService;
+    id navigator;
+    id tracker;
+    id tagService;
 }
 
 @end

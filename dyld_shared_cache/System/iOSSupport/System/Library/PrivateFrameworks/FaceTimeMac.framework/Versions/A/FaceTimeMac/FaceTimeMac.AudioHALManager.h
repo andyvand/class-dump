@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.AudioHALManager
 {
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *featureFlags;
-    MISSING_TYPE *bluetoothAudioFormatState;
-    MISSING_TYPE *lastRequestedBluetoothAudioFormat;
-    MISSING_TYPE *bluetoothAudioFormatManager;
-    MISSING_TYPE *appKitHelper;
+    id callCenter;
+    id logger;
+    id featureFlags;
+    id bluetoothAudioFormatState;
+    id lastRequestedBluetoothAudioFormat;
+    id bluetoothAudioFormatManager;
+    id appKitHelper;
 }
 
 - (void);

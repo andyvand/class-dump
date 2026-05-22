@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDate, NSString;
+@class NSDate, NSString;
 
 @interface JetEngine.ProxyBag
 {
-    MISSING_TYPE *bag;
+    id bag;
 }
 
 - (id);

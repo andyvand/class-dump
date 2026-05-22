@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.PosterCoupledTitlesView
 {
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *lockFooterLabel;
-    MISSING_TYPE *homeFooterLabel;
-    MISSING_TYPE *titleLabelSpacingFromTopEdge;
-    MISSING_TYPE *footerLabelSpacingFromBottomEdge;
+    id titleLabel;
+    id lockFooterLabel;
+    id homeFooterLabel;
+    id titleLabelSpacingFromTopEdge;
+    id footerLabelSpacingFromBottomEdge;
 }
 
 - (id);

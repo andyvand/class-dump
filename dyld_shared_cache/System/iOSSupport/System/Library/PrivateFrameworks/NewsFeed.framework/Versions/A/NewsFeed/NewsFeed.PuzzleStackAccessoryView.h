@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleStackAccessoryView
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *height;
-    MISSING_TYPE *containerView;
-    MISSING_TYPE *stackViews;
+    id identifier;
+    id height;
+    id containerView;
+    id stackViews;
 }
 
 - (id);

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.AccessoryLockedToMeViewModel
 {
-    MISSING_TYPE *_subtitle;
-    MISSING_TYPE *_alertMessage;
-    MISSING_TYPE *_shouldShowAlert;
-    MISSING_TYPE *onboardingSession;
-    MISSING_TYPE *accessory;
-    MISSING_TYPE *_processCompletedHandler;
-    MISSING_TYPE *_$observationRegistrar;
+    id _subtitle;
+    id _alertMessage;
+    id _shouldShowAlert;
+    id onboardingSession;
+    id accessory;
+    id _processCompletedHandler;
+    id _$observationRegistrar;
 }
 
 @end

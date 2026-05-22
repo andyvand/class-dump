@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeArticleViewerFeatureProvider
 {
-    MISSING_TYPE *excludeFromOverflowMenu;
-    MISSING_TYPE *tipSourceManager;
-    MISSING_TYPE *actionHandler;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *readingList;
+    id excludeFromOverflowMenu;
+    id tipSourceManager;
+    id actionHandler;
+    id featureAvailability;
+    id paidAccessChecker;
+    id readingList;
 }
 
 @end

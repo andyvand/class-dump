@@ -4,46 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.PosterRackStackedLayout
 {
-    MISSING_TYPE *layoutMode;
-    MISSING_TYPE *selectedSectionIndex;
-    MISSING_TYPE *sectionRevealProgressProvider;
-    MISSING_TYPE *hidesHomeCardsInAlongsideLayout;
-    MISSING_TYPE *alongsideCompactLayoutShouldScaleFurtherBack;
-    MISSING_TYPE *layoutModeTransitioningTo;
-    MISSING_TYPE *itemSize;
-    MISSING_TYPE *minimumLineSpacing;
-    MISSING_TYPE *sectionInset;
-    MISSING_TYPE *scrollDirection;
-    MISSING_TYPE *zoomCardSizeMultiplier;
-    MISSING_TYPE *cardSizeMultiplier;
-    MISSING_TYPE *peekingCardSizeMultiplier;
-    MISSING_TYPE *alongsideCardUpscale;
-    MISSING_TYPE *alongsideCardLesserUpscale;
-    MISSING_TYPE *maximumVerticalRevealFraction;
-    MISSING_TYPE *overhangMultiplier;
-    MISSING_TYPE *zoomCardSizeOverlapMultiplier;
-    MISSING_TYPE *selectedFrontBaseOffset;
-    MISSING_TYPE *unselectedFrontBaseOffset;
-    MISSING_TYPE *unselectedFrontShovedMultiplier;
-    MISSING_TYPE *unselectedFrontShovedMultiplierPad;
-    MISSING_TYPE *unselectedFrontParallaxLeadingMultiplier;
-    MISSING_TYPE *unselectedFrontParallaxTrailingMultiplier;
-    MISSING_TYPE *backBaseOffset;
-    MISSING_TYPE *backParallaxMultiplier;
-    MISSING_TYPE *backParallaxMultiplierPad;
-    MISSING_TYPE *coupledContentEdgeMargin;
-    MISSING_TYPE *contentBounds;
-    MISSING_TYPE *cachedAttributes;
-    MISSING_TYPE *cachedSupplementaryHeaderAttributes;
-    MISSING_TYPE *cachedSupplementaryFooterAttributes;
-    MISSING_TYPE *cachedSupplementaryDecorationAttributes;
-    MISSING_TYPE *sectionRevealProgresses;
-    MISSING_TYPE *sectionIndexPathsToDelete;
-    MISSING_TYPE *indexPathToMaintainForTransition;
+    id layoutMode;
+    id selectedSectionIndex;
+    id sectionRevealProgressProvider;
+    id hidesHomeCardsInAlongsideLayout;
+    id alongsideCompactLayoutShouldScaleFurtherBack;
+    id layoutModeTransitioningTo;
+    id itemSize;
+    id minimumLineSpacing;
+    id sectionInset;
+    id scrollDirection;
+    id zoomCardSizeMultiplier;
+    id cardSizeMultiplier;
+    id peekingCardSizeMultiplier;
+    id alongsideCardUpscale;
+    id alongsideCardLesserUpscale;
+    id maximumVerticalRevealFraction;
+    id overhangMultiplier;
+    id zoomCardSizeOverlapMultiplier;
+    id selectedFrontBaseOffset;
+    id unselectedFrontBaseOffset;
+    id unselectedFrontShovedMultiplier;
+    id unselectedFrontShovedMultiplierPad;
+    id unselectedFrontParallaxLeadingMultiplier;
+    id unselectedFrontParallaxTrailingMultiplier;
+    id backBaseOffset;
+    id backParallaxMultiplier;
+    id backParallaxMultiplierPad;
+    id coupledContentEdgeMargin;
+    id contentBounds;
+    id cachedAttributes;
+    id cachedSupplementaryHeaderAttributes;
+    id cachedSupplementaryFooterAttributes;
+    id cachedSupplementaryDecorationAttributes;
+    id sectionRevealProgresses;
+    id sectionIndexPathsToDelete;
+    id indexPathToMaintainForTransition;
 }
 
 - (_Bool);

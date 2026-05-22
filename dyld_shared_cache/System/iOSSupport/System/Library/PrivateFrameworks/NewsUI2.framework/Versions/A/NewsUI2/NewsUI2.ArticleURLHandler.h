@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ArticleURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *articleContextFactory;
-    MISSING_TYPE *audioPlaybackOptionsPresenter;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *contextBuilder;
-    MISSING_TYPE *prefetchedArticlesService;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *articleLinkBehaviorConfigManager;
-    MISSING_TYPE *feedViewContextFactory;
-    MISSING_TYPE *appURLHandler;
-    MISSING_TYPE *articleURLHandlerPatternProvider;
-    MISSING_TYPE *articleURLHandlerMatchIDProvider;
+    id patterns;
+    id navigator;
+    id articleContextFactory;
+    id audioPlaybackOptionsPresenter;
+    id featureAvailability;
+    id sceneProvider;
+    id contextBuilder;
+    id prefetchedArticlesService;
+    id tracker;
+    id articleLinkBehaviorConfigManager;
+    id feedViewContextFactory;
+    id appURLHandler;
+    id articleURLHandlerPatternProvider;
+    id articleURLHandlerMatchIDProvider;
 }
 
 @end

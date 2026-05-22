@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.StaticSidebarSection
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *destinations;
-    MISSING_TYPE *allDestinations;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *observeChanges;
-    MISSING_TYPE *id;
-    MISSING_TYPE *shouldDisplay;
+    id name;
+    id destinations;
+    id allDestinations;
+    id delegate;
+    id observeChanges;
+    id id;
+    id shouldDisplay;
 }
 
 @end

@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIColor, UIScrollEdgeEffectStyle, UIView;
+@class UIColor, UIScrollEdgeEffectStyle, UIView;
 
 @interface UIScrollEdgeEffect
 {
-    MISSING_TYPE *state;
-    MISSING_TYPE *pocket;
-    MISSING_TYPE *color;
+    id state;
+    id pocket;
+    id color;
 }
 
 - (void);

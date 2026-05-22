@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagNotificationStatusChangeNotifier
 {
-    MISSING_TYPE *channelSupportThreadIdentifier;
-    MISSING_TYPE *notifyOfEnabledTagsDelay;
-    MISSING_TYPE *notifyOfAvailableTagsDelay;
-    MISSING_TYPE *notificationConfiguration;
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *subscriptionService;
+    id channelSupportThreadIdentifier;
+    id notifyOfEnabledTagsDelay;
+    id notifyOfAvailableTagsDelay;
+    id notificationConfiguration;
+    id notificationService;
+    id subscriptionService;
 }
 
 @end

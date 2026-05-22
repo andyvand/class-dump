@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.InspectorViewContext
 {
-    MISSING_TYPE *_isContainerHCompact;
-    MISSING_TYPE *_hasLeadingTitle;
-    MISSING_TYPE *_confirmationButtonSystemItem;
-    MISSING_TYPE *_$observationRegistrar;
+    id _isContainerHCompact;
+    id _hasLeadingTitle;
+    id _confirmationButtonSystemItem;
+    id _$observationRegistrar;
 }
 
 @end

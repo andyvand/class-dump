@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VFXMotionTracker
 {
-    MISSING_TYPE *world;
-    MISSING_TYPE *motionManager;
-    MISSING_TYPE *motionUpdateTimer;
+    id world;
+    id motionManager;
+    id motionUpdateTimer;
 }
 
 - (id);

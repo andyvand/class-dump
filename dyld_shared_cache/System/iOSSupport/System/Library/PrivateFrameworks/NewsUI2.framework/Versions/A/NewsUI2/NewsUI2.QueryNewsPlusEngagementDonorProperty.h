@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.QueryNewsPlusEngagementDonorProperty
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *lastMagazineOpenDate;
-    MISSING_TYPE *churnPropensityLevel;
-    MISSING_TYPE *followedNewsPlusChannelIDs;
-    MISSING_TYPE *trialEligibility;
-    MISSING_TYPE *familySharingSetupStatus;
-    MISSING_TYPE *isFamilySharingEligible;
-    MISSING_TYPE *isFamilySharingOrganizer;
-    MISSING_TYPE *lastPuzzlePlayedDate;
-    MISSING_TYPE *tagController;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *familySharingStatusManager;
+    id id;
+    id configuration;
+    id lastMagazineOpenDate;
+    id churnPropensityLevel;
+    id followedNewsPlusChannelIDs;
+    id trialEligibility;
+    id familySharingSetupStatus;
+    id isFamilySharingEligible;
+    id isFamilySharingOrganizer;
+    id lastPuzzlePlayedDate;
+    id tagController;
+    id paidAccessChecker;
+    id configurationManager;
+    id offerManager;
+    id familySharingStatusManager;
 }
 
 @end

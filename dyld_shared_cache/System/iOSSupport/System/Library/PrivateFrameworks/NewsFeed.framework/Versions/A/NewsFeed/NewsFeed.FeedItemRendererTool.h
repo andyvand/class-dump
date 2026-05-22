@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedItemRendererTool
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *rendererEnvironment;
-    MISSING_TYPE *debugEnabled;
-    MISSING_TYPE *debugColors;
-    MISSING_TYPE *shineImageFactory;
-    MISSING_TYPE *tracker;
+    id commandCenter;
+    id rendererEnvironment;
+    id debugEnabled;
+    id debugColors;
+    id shineImageFactory;
+    id tracker;
 }
 
 @end

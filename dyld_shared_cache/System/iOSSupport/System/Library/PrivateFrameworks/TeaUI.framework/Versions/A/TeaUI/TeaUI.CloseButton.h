@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CloseButton
 {
-    MISSING_TYPE *style;
-    MISSING_TYPE *$__lazy_storage_$_backing;
+    id style;
+    id $__lazy_storage_$_backing;
 }
 
 - (_Bool);

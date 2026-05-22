@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerShaderStrokeGenerator
 {
-    MISSING_TYPE *device;
-    MISSING_TYPE *library;
-    MISSING_TYPE *vertexCoordsBuffer;
-    MISSING_TYPE *textureCoordsBuffer;
-    MISSING_TYPE *strokeRadius;
-    MISSING_TYPE *strokeBlurRadius;
-    MISSING_TYPE *maskTexture;
-    MISSING_TYPE *inputScale;
-    MISSING_TYPE *outputTextureSize;
-    MISSING_TYPE *distanceTexture;
-    MISSING_TYPE *strokeTexture;
-    MISSING_TYPE *strokePipelineState;
-    MISSING_TYPE *pixelFormat;
-    MISSING_TYPE *pixelFormatForDistance;
+    id device;
+    id library;
+    id vertexCoordsBuffer;
+    id textureCoordsBuffer;
+    id strokeRadius;
+    id strokeBlurRadius;
+    id maskTexture;
+    id inputScale;
+    id outputTextureSize;
+    id distanceTexture;
+    id strokeTexture;
+    id strokePipelineState;
+    id pixelFormat;
+    id pixelFormatForDistance;
 }
 
 @end

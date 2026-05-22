@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IDScanCameraReader
 {
-    MISSING_TYPE *timer;
-    MISSING_TYPE *fallBackTimeInSeconds;
-    MISSING_TYPE *didCaptureImage;
-    MISSING_TYPE *shouldReturnImage;
-    MISSING_TYPE *detectIDCardCorners;
-    MISSING_TYPE *onError;
+    id timer;
+    id fallBackTimeInSeconds;
+    id didCaptureImage;
+    id shouldReturnImage;
+    id detectIDCardCorners;
+    id onError;
 }
 
 - (void);

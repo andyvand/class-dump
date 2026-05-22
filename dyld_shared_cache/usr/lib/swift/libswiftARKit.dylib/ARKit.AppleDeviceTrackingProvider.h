@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.AppleDeviceTrackingProvider
 {
-    MISSING_TYPE *_cAppleDeviceTrackingProvider;
-    MISSING_TYPE *_cAppleDeviceTrackingConfiguration;
-    MISSING_TYPE *anchorUpdateIterators;
-    MISSING_TYPE *unsupportedDevicesContinuations;
-    MISSING_TYPE *anchorQueue;
+    id _cAppleDeviceTrackingProvider;
+    id _cAppleDeviceTrackingConfiguration;
+    id anchorUpdateIterators;
+    id unsupportedDevicesContinuations;
+    id anchorQueue;
 }
 
 @end

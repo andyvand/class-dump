@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFCollectionIconPreview
 {
-    MISSING_TYPE *model;
-    MISSING_TYPE *$__lazy_storage_$_iconView;
+    id model;
+    id $__lazy_storage_$_iconView;
 }
 
 - (id);

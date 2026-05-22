@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioTrackDetailsViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *trackView;
-    MISSING_TYPE *track;
-    MISSING_TYPE *playbackState;
-    MISSING_TYPE *listeningProgressManager;
-    MISSING_TYPE *logoCache;
-    MISSING_TYPE *artworkCache;
+    id styler;
+    id eventHandler;
+    id trackView;
+    id track;
+    id playbackState;
+    id listeningProgressManager;
+    id logoCache;
+    id artworkCache;
 }
 
 - (void);

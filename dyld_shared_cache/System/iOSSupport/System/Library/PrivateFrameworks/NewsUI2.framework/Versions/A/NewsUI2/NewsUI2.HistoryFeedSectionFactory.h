@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.HistoryFeedSectionFactory
 {
-    MISSING_TYPE *headlineModelFactory;
-    MISSING_TYPE *tagService;
+    id headlineModelFactory;
+    id tagService;
 }
 
 @end

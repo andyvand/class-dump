@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerShaderNormalGenerator
 {
-    MISSING_TYPE *device;
-    MISSING_TYPE *library;
-    MISSING_TYPE *vertexCoordsBuffer;
-    MISSING_TYPE *textureCoordsBuffer;
-    MISSING_TYPE *blurRadius;
-    MISSING_TYPE *maskTexture;
-    MISSING_TYPE *intermediateTexture;
-    MISSING_TYPE *resultTexture;
-    MISSING_TYPE *finalTexture;
-    MISSING_TYPE *normalsPipelineState;
-    MISSING_TYPE *normalsPixelFormat;
+    id device;
+    id library;
+    id vertexCoordsBuffer;
+    id textureCoordsBuffer;
+    id blurRadius;
+    id maskTexture;
+    id intermediateTexture;
+    id resultTexture;
+    id finalTexture;
+    id normalsPipelineState;
+    id normalsPixelFormat;
 }
 
 @end

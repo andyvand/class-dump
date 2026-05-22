@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineTodayFeedGroupEmitterCursor
 {
-    MISSING_TYPE *location;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *historyService;
+    id location;
+    id cloudContext;
+    id historyService;
 }
 
 @end

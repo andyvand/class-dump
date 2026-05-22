@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerEffectMotionManager
 {
-    MISSING_TYPE *motion;
-    MISSING_TYPE *isAppBackground;
-    MISSING_TYPE *restingQuaternion;
-    MISSING_TYPE *restingQuaternionTransitionStartAngle;
-    MISSING_TYPE *restingQuaternionTransitionStartTime;
-    MISSING_TYPE *restingQuaternionAnimation;
-    MISSING_TYPE *outOfPoseDuration;
-    MISSING_TYPE *outOfPoseStartTime;
-    MISSING_TYPE *observers;
+    id motion;
+    id isAppBackground;
+    id restingQuaternion;
+    id restingQuaternionTransitionStartAngle;
+    id restingQuaternionTransitionStartTime;
+    id restingQuaternionAnimation;
+    id outOfPoseDuration;
+    id outOfPoseStartTime;
+    id observers;
 }
 
 - (void);

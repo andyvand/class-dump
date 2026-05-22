@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MastheadViewProvider
 {
-    MISSING_TYPE *mastheadView;
-    MISSING_TYPE *titleViewStyler;
-    MISSING_TYPE *layoutAttributesFactory;
-    MISSING_TYPE *margins;
-    MISSING_TYPE *model;
-    MISSING_TYPE *animationManager;
-    MISSING_TYPE *engagementBanner;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *lastLayoutOptions;
-    MISSING_TYPE *mastheadable;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id mastheadView;
+    id titleViewStyler;
+    id layoutAttributesFactory;
+    id margins;
+    id model;
+    id animationManager;
+    id engagementBanner;
+    id eventManager;
+    id lastLayoutOptions;
+    id mastheadable;
+    id featureAvailability;
+    id bundleSubscriptionManager;
 }
 
 - (void);

@@ -6,14 +6,12 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.NavigationBarLargeTitleView : _UITouchPassthroughView
 {
-    MISSING_TYPE *largeTitleView;
-    MISSING_TYPE *reparentingHelper;
-    MISSING_TYPE *preferredHeight;
-    MISSING_TYPE *recipientScrollViewRemovedFromWindowHandler;
+    id largeTitleView;
+    id reparentingHelper;
+    id preferredHeight;
+    id recipientScrollViewRemovedFromWindowHandler;
 }
 
 - (id);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.ModalSheet
 {
-    MISSING_TYPE *standardEdgeSpacing;
-    MISSING_TYPE *standardControlSpacing;
-    MISSING_TYPE *actions;
-    MISSING_TYPE *buttonToAction;
-    MISSING_TYPE *$__lazy_storage_$_marginGuide;
+    id standardEdgeSpacing;
+    id standardControlSpacing;
+    id actions;
+    id buttonToAction;
+    id $__lazy_storage_$_marginGuide;
 }
 
 - (void);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceCanvasStatusProgress
 {
-    MISSING_TYPE *total;
-    MISSING_TYPE *completed;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *message;
-    MISSING_TYPE *identifier;
+    id total;
+    id completed;
+    id editor;
+    id message;
+    id identifier;
 }
 
 @end

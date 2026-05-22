@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.CoreDataCloudKitStack
 {
-    MISSING_TYPE *_tokenName;
-    MISSING_TYPE *_transactionAuthor;
-    MISSING_TYPE *_storeName;
-    MISSING_TYPE *_fetchCompleteNotification;
-    MISSING_TYPE *_modelIdentifier;
-    MISSING_TYPE *context;
-    MISSING_TYPE *supportsEncryption;
-    MISSING_TYPE *_privatePersistentStore;
-    MISSING_TYPE *_sharedPersistentStore;
-    MISSING_TYPE *sharedServer;
-    MISSING_TYPE *privateServer;
-    MISSING_TYPE *$__lazy_storage_$_persistentContainer;
-    MISSING_TYPE *lastHistoryToken;
-    MISSING_TYPE *$__lazy_storage_$_tokenFile;
-    MISSING_TYPE *$__lazy_storage_$_historyQueue;
+    id _tokenName;
+    id _transactionAuthor;
+    id _storeName;
+    id _fetchCompleteNotification;
+    id _modelIdentifier;
+    id context;
+    id supportsEncryption;
+    id _privatePersistentStore;
+    id _sharedPersistentStore;
+    id sharedServer;
+    id privateServer;
+    id $__lazy_storage_$_persistentContainer;
+    id lastHistoryToken;
+    id $__lazy_storage_$_tokenFile;
+    id $__lazy_storage_$_historyQueue;
 }
 
 - (void);

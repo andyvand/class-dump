@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactCardLabeledPropertyViewModel
 {
-    MISSING_TYPE *_label;
-    MISSING_TYPE *_value;
-    MISSING_TYPE *_hideValue;
-    MISSING_TYPE *_originAppLabel;
-    MISSING_TYPE *_isSuggestion;
-    MISSING_TYPE *_trailingImage;
-    MISSING_TYPE *_shouldBeVerbatim;
-    MISSING_TYPE *_useCaseSensitivePunctuation;
-    MISSING_TYPE *shouldStar;
-    MISSING_TYPE *badgeText;
-    MISSING_TYPE *highlightedColor;
-    MISSING_TYPE *_isVerified;
-    MISSING_TYPE *symbolName;
-    MISSING_TYPE *_mapTile;
-    MISSING_TYPE *allowsAction;
-    MISSING_TYPE *_$observationRegistrar;
+    id _label;
+    id _value;
+    id _hideValue;
+    id _originAppLabel;
+    id _isSuggestion;
+    id _trailingImage;
+    id _shouldBeVerbatim;
+    id _useCaseSensitivePunctuation;
+    id shouldStar;
+    id badgeText;
+    id highlightedColor;
+    id _isVerified;
+    id symbolName;
+    id _mapTile;
+    id allowsAction;
+    id _$observationRegistrar;
 }
 
 @end

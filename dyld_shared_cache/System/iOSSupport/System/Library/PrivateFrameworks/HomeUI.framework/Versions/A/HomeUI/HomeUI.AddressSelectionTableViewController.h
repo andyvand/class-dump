@@ -6,11 +6,9 @@
 
 #import <HomeUI/HUItemTableViewController.h>
 
-@class MISSING_TYPE;
-
 @interface HomeUI.AddressSelectionTableViewController : HUItemTableViewController
 {
-    MISSING_TYPE *delegate;
+    id delegate;
 }
 
 - (id);

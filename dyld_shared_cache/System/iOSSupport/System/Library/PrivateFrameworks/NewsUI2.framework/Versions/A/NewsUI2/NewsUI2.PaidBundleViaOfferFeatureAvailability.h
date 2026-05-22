@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PaidBundleViaOfferFeatureAvailability
 {
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *offerManager;
+    id featureAvailability;
+    id bundleSubscriptionManager;
+    id offerManager;
 }
 
 @end

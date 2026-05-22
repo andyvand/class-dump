@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.MonogramCache
 {
-    MISSING_TYPE *fontCache;
-    MISSING_TYPE *pathCache;
+    id fontCache;
+    id pathCache;
 }
 
 @end

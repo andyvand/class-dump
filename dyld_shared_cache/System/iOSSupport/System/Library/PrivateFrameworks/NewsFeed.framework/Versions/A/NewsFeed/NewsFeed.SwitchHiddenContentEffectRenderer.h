@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SwitchHiddenContentEffectRenderer
 {
-    MISSING_TYPE *blockedRenderer;
-    MISSING_TYPE *removedRenderer;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *unavailableItemAlpha;
+    id blockedRenderer;
+    id removedRenderer;
+    id featureAvailability;
+    id unavailableItemAlpha;
 }
 
 @end

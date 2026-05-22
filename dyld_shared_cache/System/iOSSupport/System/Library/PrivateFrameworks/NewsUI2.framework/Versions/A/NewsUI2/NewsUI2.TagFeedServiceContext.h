@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedServiceContext
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *feedDescriptor;
-    MISSING_TYPE *purpose;
-    MISSING_TYPE *log;
-    MISSING_TYPE *kind;
-    MISSING_TYPE *serviceOptions;
+    id identifier;
+    id feedDescriptor;
+    id purpose;
+    id log;
+    id kind;
+    id serviceOptions;
 }
 
 @end

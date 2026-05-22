@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.IngredientsSubHeaderViewModel
 {
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_subHeader;
-    MISSING_TYPE *_$observationRegistrar;
+    id _$scope;
+    id _subHeader;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.CoverChannelView
 {
-    MISSING_TYPE *moreActionsButton;
-    MISSING_TYPE *followButton;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *coverImage;
-    MISSING_TYPE *accessoryLabel;
-    MISSING_TYPE *debugButton;
+    id moreActionsButton;
+    id followButton;
+    id titleLabel;
+    id coverImage;
+    id accessoryLabel;
+    id debugButton;
 }
 
 - (id);

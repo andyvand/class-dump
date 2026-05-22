@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.CoreIDVUIButton
 {
-    MISSING_TYPE *originalButtonText;
-    MISSING_TYPE *$__lazy_storage_$_activityIndicator;
-    MISSING_TYPE *style;
-    MISSING_TYPE *useWatchScheme;
-    MISSING_TYPE *isNeutralButtonColorScheme;
+    id originalButtonText;
+    id $__lazy_storage_$_activityIndicator;
+    id style;
+    id useWatchScheme;
+    id isNeutralButtonColorScheme;
 }
 
 - (void);

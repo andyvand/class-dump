@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SharingIssueURLActivityItemSource
 {
-    MISSING_TYPE *issueURL;
-    MISSING_TYPE *issueTitle;
-    MISSING_TYPE *issueDescription;
-    MISSING_TYPE *issueCoverDate;
-    MISSING_TYPE *linkPresentationSource;
+    id issueURL;
+    id issueTitle;
+    id issueDescription;
+    id issueCoverDate;
+    id linkPresentationSource;
 }
 
 - (id);

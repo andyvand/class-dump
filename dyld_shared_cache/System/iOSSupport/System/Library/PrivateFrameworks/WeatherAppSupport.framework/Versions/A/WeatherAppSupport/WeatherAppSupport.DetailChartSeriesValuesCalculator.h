@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherAppSupport.DetailChartSeriesValuesCalculator
 {
-    MISSING_TYPE *detailChartDataPointValueCalculator;
-    MISSING_TYPE *extremaInterpolator;
+    id detailChartDataPointValueCalculator;
+    id extremaInterpolator;
 }
 
 @end

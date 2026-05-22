@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewShellKit.PreviewsJITLinker
 {
-    MISSING_TYPE *pid;
-    MISSING_TYPE *agent;
-    MISSING_TYPE *logIdentifier;
-    MISSING_TYPE *serialQueue;
-    MISSING_TYPE *state;
-    MISSING_TYPE *sandboxExtension;
-    MISSING_TYPE *accumulatedLinkingErrors;
-    MISSING_TYPE *jitExecutionQueue;
+    id pid;
+    id agent;
+    id logIdentifier;
+    id serialQueue;
+    id state;
+    id sandboxExtension;
+    id accumulatedLinkingErrors;
+    id jitExecutionQueue;
 }
 
 @end

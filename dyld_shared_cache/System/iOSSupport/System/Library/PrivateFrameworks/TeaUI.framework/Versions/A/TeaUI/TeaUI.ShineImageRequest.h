@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ShineImageRequest
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *shineOptions;
-    MISSING_TYPE *shineColor;
-    MISSING_TYPE *bounds;
-    MISSING_TYPE *offset;
-    MISSING_TYPE *staticModel;
-    MISSING_TYPE *context;
+    id identifier;
+    id shineOptions;
+    id shineColor;
+    id bounds;
+    id offset;
+    id staticModel;
+    id context;
 }
 
 @end

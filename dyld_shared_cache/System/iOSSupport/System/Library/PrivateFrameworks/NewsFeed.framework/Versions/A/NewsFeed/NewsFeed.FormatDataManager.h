@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *pluginData;
-    MISSING_TYPE *subscriptionController;
+    id delegate;
+    id pluginData;
+    id subscriptionController;
 }
 
 - (void);

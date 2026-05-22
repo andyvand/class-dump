@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface Distributed.LocalTestingDistributedActorSystem
 {
-    MISSING_TYPE *activeActors;
-    MISSING_TYPE *activeActorsLock;
-    MISSING_TYPE *idProvider;
-    MISSING_TYPE *assignedIDs;
-    MISSING_TYPE *assignedIDsLock;
+    id activeActors;
+    id activeActorsLock;
+    id idProvider;
+    id assignedIDs;
+    id assignedIDsLock;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.QuiescenceIntervalFeaturePromotionEligibilityProvider
 {
-    MISSING_TYPE *requiredQuiescenceInterval;
-    MISSING_TYPE *presentationArchive;
+    id requiredQuiescenceInterval;
+    id presentationArchive;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.ShortcutChiclet.EditButton.Model
 {
-    MISSING_TYPE *buttonType;
-    MISSING_TYPE *insets;
-    MISSING_TYPE *_pointSize;
-    MISSING_TYPE *_editing;
-    MISSING_TYPE *_selected;
-    MISSING_TYPE *action;
+    id buttonType;
+    id insets;
+    id _pointSize;
+    id _editing;
+    id _selected;
+    id action;
 }
 
 @end

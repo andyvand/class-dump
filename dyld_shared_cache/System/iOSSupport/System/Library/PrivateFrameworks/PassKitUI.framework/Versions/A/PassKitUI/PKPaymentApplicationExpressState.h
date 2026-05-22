@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, PKPaymentApplication;
+@class PKPaymentApplication;
 
 @interface PKPaymentApplicationExpressState
 {
     PKPaymentApplication *paymentApplication;
-    MISSING_TYPE *_isExpressEnabled;
-    MISSING_TYPE *_isPending;
+    id _isExpressEnabled;
+    id _isPending;
 }
 
 - (void);

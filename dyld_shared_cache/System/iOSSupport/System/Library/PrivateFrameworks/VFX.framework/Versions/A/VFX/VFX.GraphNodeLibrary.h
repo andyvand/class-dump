@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphNodeLibrary
 {
-    MISSING_TYPE *defaultInstanceByType;
-    MISSING_TYPE *typeByCodingID;
-    MISSING_TYPE *migrationPlaceholders;
-    MISSING_TYPE *entries;
-    MISSING_TYPE *subGraphs;
-    MISSING_TYPE *entriesByCategory;
+    id defaultInstanceByType;
+    id typeByCodingID;
+    id migrationPlaceholders;
+    id entries;
+    id subGraphs;
+    id entriesByCategory;
 }
 
 @end

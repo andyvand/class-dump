@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.JetPackageFormatParser
 {
-    MISSING_TYPE *inputStream;
-    MISSING_TYPE *state;
+    id inputStream;
+    id state;
 }
 
 @end

@@ -23,19 +23,19 @@
     id <MTLComputePipelineState> _rotateTexture;
 }
 
-+ (CDStruct_14d5dc5e);
++ (CDStruct_95fa7c00);
 + (id);
-+ (CDStruct_14d5dc5e);
-+ (CDStruct_14d5dc5e);
-+ (CDStruct_14d5dc5e);
++ (CDStruct_95fa7c00);
++ (CDStruct_95fa7c00);
++ (CDStruct_95fa7c00);
 + (unsigned int);
 + (unsigned int);
 + (int);
-+ (CDStruct_14d5dc5e);
++ (CDStruct_95fa7c00);
 + (int);
 + (id);
 + (id);
-+ (CDStruct_8e0628e6);
++ (CDStruct_1fe29af2);
 - (int);
 - (int);
 - (void);

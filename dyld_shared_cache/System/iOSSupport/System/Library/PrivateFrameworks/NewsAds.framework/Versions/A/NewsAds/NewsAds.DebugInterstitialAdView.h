@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.DebugInterstitialAdView
 {
-    MISSING_TYPE *contentIdentifier;
-    MISSING_TYPE *onLongPress;
-    MISSING_TYPE *onCollapse;
-    MISSING_TYPE *label;
-    MISSING_TYPE *moreButton;
+    id contentIdentifier;
+    id onLongPress;
+    id onCollapse;
+    id label;
+    id moreButton;
 }
 
 - (id);

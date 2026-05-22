@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.InProcessAnimationManager.TickEntry
 {
-    MISSING_TYPE *preferredFrameRateRange;
-    MISSING_TYPE *updateReason;
-    MISSING_TYPE *velocityUsableForVFD;
-    MISSING_TYPE *flushesWithTransaction;
-    MISSING_TYPE *callback;
+    id preferredFrameRateRange;
+    id updateReason;
+    id velocityUsableForVFD;
+    id flushesWithTransaction;
+    id callback;
 }
 
 @end

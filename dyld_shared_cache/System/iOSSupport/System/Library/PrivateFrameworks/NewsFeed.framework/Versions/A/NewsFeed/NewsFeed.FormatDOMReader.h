@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDOMReader
 {
-    MISSING_TYPE *scalars;
-    MISSING_TYPE *index;
-    MISSING_TYPE *source;
+    id scalars;
+    id index;
+    id source;
 }
 
 @end

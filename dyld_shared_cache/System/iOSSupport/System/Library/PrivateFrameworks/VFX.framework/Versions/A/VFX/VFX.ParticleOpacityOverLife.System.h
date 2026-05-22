@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleOpacityOverLife.System
 {
-    MISSING_TYPE *colorAgeQuery;
+    id colorAgeQuery;
 }
 
 @end

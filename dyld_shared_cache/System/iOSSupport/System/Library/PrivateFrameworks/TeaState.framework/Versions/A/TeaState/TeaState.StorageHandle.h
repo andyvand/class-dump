@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaState.StorageHandle
 {
-    MISSING_TYPE *storage;
-    MISSING_TYPE *scope;
+    id storage;
+    id scope;
 }
 
 @end

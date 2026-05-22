@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UISharedTextureViewport : UIView
 {
-    MISSING_TYPE *_texture;
-    MISSING_TYPE *_portal;
-    MISSING_TYPE *_connection;
+    id _texture;
+    id _portal;
+    id _connection;
 }
 
 - (void);

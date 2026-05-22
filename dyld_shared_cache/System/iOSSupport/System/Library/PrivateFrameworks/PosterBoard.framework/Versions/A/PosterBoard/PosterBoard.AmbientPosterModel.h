@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.AmbientPosterModel
 {
-    MISSING_TYPE *posterConfiguration;
-    MISSING_TYPE *ambientConfiguration;
-    MISSING_TYPE *posterPath;
-    MISSING_TYPE *symbolName;
-    MISSING_TYPE *localizedTitle;
+    id posterConfiguration;
+    id ambientConfiguration;
+    id posterPath;
+    id symbolName;
+    id localizedTitle;
 }
 
 - (id);

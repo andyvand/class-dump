@@ -6,22 +6,20 @@
 
 #import <CoreIDVUI/CoreIDVUI.IdentityProofingViewController.h>
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingReviewSubmissionViewController : CoreIDVUI.IdentityProofingViewController
 {
-    MISSING_TYPE *tableViewCellIdentifier;
-    MISSING_TYPE *documentsToBeReviewed;
-    MISSING_TYPE *viewConfiguration;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *documentsRepository;
-    MISSING_TYPE *analyticsReporter;
-    MISSING_TYPE *biometricBindingEnrollmentProvider;
-    MISSING_TYPE *context;
-    MISSING_TYPE *eligibilityHelper;
-    MISSING_TYPE *hasAttemptedToShowLivenessAlert;
-    MISSING_TYPE *proofingRequestTimeout;
-    MISSING_TYPE *$__lazy_storage_$_tableView;
+    id tableViewCellIdentifier;
+    id documentsToBeReviewed;
+    id viewConfiguration;
+    id proofingFlowManager;
+    id documentsRepository;
+    id analyticsReporter;
+    id biometricBindingEnrollmentProvider;
+    id context;
+    id eligibilityHelper;
+    id hasAttemptedToShowLivenessAlert;
+    id proofingRequestTimeout;
+    id $__lazy_storage_$_tableView;
 }
 
 - (void);

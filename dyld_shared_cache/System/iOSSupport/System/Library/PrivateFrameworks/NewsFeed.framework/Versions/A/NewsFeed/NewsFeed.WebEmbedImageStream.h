@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedImageStream
 {
-    MISSING_TYPE *stream;
-    MISSING_TYPE *continuation;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *requeueBlock;
-    MISSING_TYPE *_isTerminated;
-    MISSING_TYPE *_operation;
+    id stream;
+    id continuation;
+    id identifier;
+    id requeueBlock;
+    id _isTerminated;
+    id _operation;
 }
 
 @end

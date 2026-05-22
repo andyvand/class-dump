@@ -6,7 +6,7 @@
 
 #import <VFX/VFXCameraEffect.h>
 
-@class MISSING_TYPE, VFXMaterialProperty;
+@class VFXMaterialProperty;
 
 @interface VFXCameraEffectColorGrading : VFXCameraEffect
 {
@@ -14,11 +14,11 @@
     float _contrast;
     float _whiteBalanceTemperature;
     float _whiteBalanceTint;
-    MISSING_TYPE *_liftColor;
+    id _liftColor;
     float _liftOffset;
-    MISSING_TYPE *_gammaColor;
+    id _gammaColor;
     float _gammaOffset;
-    MISSING_TYPE *_gainColor;
+    id _gainColor;
     float _gainOffset;
     VFXMaterialProperty *_lookupTable;
 }
@@ -32,9 +32,9 @@
 - (void);
 - (_Bool);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (void);
 - (struct __CFXCameraEffectColorGrading *);
@@ -42,7 +42,7 @@
 - (void);
 - (void *);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (float);
 - (void);
@@ -62,11 +62,11 @@
 
 // Remaining properties
 @property(nonatomic) float contrast;
-@property(nonatomic) MISSING_TYPE *gainColor;
+@property(nonatomic) id gainColor;
 @property(nonatomic) float gainOffset;
-@property(nonatomic) MISSING_TYPE *gammaColor;
+@property(nonatomic) id gammaColor;
 @property(nonatomic) float gammaOffset;
-@property(nonatomic) MISSING_TYPE *liftColor;
+@property(nonatomic) id liftColor;
 @property(nonatomic) float liftOffset;
 @property(nonatomic) float saturation;
 @property(nonatomic) float whiteBalanceTemperature;

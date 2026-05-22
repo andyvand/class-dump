@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsRecommendationManager
 {
-    MISSING_TYPE *recommendationService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *fetchDeduper;
-    MISSING_TYPE *refreshIfNeededDeduper;
-    MISSING_TYPE *_cachedResult;
-    MISSING_TYPE *lazyStore;
+    id recommendationService;
+    id tagService;
+    id appConfigurationManager;
+    id fetchDeduper;
+    id refreshIfNeededDeduper;
+    id _cachedResult;
+    id lazyStore;
 }
 
 @end

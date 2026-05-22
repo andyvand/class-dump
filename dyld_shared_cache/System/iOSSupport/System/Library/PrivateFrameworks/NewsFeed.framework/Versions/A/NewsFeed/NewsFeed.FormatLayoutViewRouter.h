@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatLayoutViewRouter
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *router;
+    id commandCenter;
+    id tracker;
+    id router;
 }
 
 @end

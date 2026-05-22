@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ThumbnailImageProcessorRequest
 {
-    MISSING_TYPE *assetHandles;
-    MISSING_TYPE *assetHandle;
-    MISSING_TYPE *imageSize;
-    MISSING_TYPE *cacheIdentifier;
-    MISSING_TYPE *uniqueIdentifier;
+    id assetHandles;
+    id assetHandle;
+    id imageSize;
+    id cacheIdentifier;
+    id uniqueIdentifier;
 }
 
 @end

@@ -6,16 +6,16 @@
 
 #import <HomeUI/HUItemCollectionViewController.h>
 
-@class HFMediaSystemBuilder, MISSING_TYPE, UIViewController;
+@class HFMediaSystemBuilder, UIViewController;
 @protocol HUMediaSystemEditorViewControllerDelegate, HUPresentationDelegate;
 
 @interface HUMediaSystemEditorViewController : HUItemCollectionViewController
 {
     void presentationDelegate;
     void delegate;
-    MISSING_TYPE *accessoryModule;
-    MISSING_TYPE *selectionController;
-    MISSING_TYPE *$__lazy_storage_$_helper;
+    id accessoryModule;
+    id selectionController;
+    id $__lazy_storage_$_helper;
 }
 
 - (id);

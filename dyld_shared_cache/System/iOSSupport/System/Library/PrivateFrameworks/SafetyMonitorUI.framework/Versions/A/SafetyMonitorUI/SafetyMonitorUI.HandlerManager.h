@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.HandlerManager
 {
-    MISSING_TYPE *initiatorEndSessionHandler;
-    MISSING_TYPE *stageMessageHandler;
-    MISSING_TYPE *safeResponseToTriggerPrompt;
-    MISSING_TYPE *resizeViewHandler;
-    MISSING_TYPE *startSession;
-    MISSING_TYPE *sendMessage;
-    MISSING_TYPE *dismissHandler;
-    MISSING_TYPE *presentContactPicker;
-    MISSING_TYPE *startInactivityTimer;
-    MISSING_TYPE *stopInactivityTimer;
+    id initiatorEndSessionHandler;
+    id stageMessageHandler;
+    id safeResponseToTriggerPrompt;
+    id resizeViewHandler;
+    id startSession;
+    id sendMessage;
+    id dismissHandler;
+    id presentContactPicker;
+    id startInactivityTimer;
+    id stopInactivityTimer;
 }
 
 @end

@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, UIViewController;
+@class NSArray, UIViewController;
 
 @interface TeaUI.BootstrapperViewController
 {
-    MISSING_TYPE *mainViewController;
-    MISSING_TYPE *onboardingViewController;
-    MISSING_TYPE *originalToolbar;
-    MISSING_TYPE *hasSaveToolbar;
-    MISSING_TYPE *shouldHideToolbar;
+    id mainViewController;
+    id onboardingViewController;
+    id originalToolbar;
+    id hasSaveToolbar;
+    id shouldHideToolbar;
 }
 
 - (id);

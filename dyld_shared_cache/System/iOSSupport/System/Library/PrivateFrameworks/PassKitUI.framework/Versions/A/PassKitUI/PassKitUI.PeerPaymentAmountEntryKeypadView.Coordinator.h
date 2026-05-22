@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.PeerPaymentAmountEntryKeypadView.Coordinator
 {
-    MISSING_TYPE *peerPaymentAccount;
-    MISSING_TYPE *_amount;
-    MISSING_TYPE *_memo;
+    id peerPaymentAccount;
+    id _amount;
+    id _memo;
 }
 
 - (id);

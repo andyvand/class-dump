@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleTagConverter
 {
-    MISSING_TYPE *openingTag;
-    MISSING_TYPE *$__lazy_storage_$_tagEscapingMappings;
-    MISSING_TYPE *$__lazy_storage_$_tagTranslationMappings;
-    MISSING_TYPE *$__lazy_storage_$_tagDecodingMappings;
+    id openingTag;
+    id $__lazy_storage_$_tagEscapingMappings;
+    id $__lazy_storage_$_tagTranslationMappings;
+    id $__lazy_storage_$_tagDecodingMappings;
 }
 
 @end

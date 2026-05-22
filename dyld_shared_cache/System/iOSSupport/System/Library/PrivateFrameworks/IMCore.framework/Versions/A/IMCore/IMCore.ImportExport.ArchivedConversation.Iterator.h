@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ArchivedConversation.Iterator
 {
-    MISSING_TYPE *currentIndex;
-    MISSING_TYPE *archivedConversation;
-    MISSING_TYPE *archivedConversationFileURL;
+    id currentIndex;
+    id archivedConversation;
+    id archivedConversationFileURL;
 }
 
 @end

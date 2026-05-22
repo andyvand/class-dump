@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsArticles.ArticleThumbnailComponentViewFactory
 {
-    MISSING_TYPE *renderingView;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *linkedContentProvider;
+    id renderingView;
+    id resolver;
+    id linkedContentProvider;
 }
 
 - (id);

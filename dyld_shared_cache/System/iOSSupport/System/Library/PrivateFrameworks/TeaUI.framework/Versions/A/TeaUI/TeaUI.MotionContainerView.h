@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.MotionContainerView
 {
-    MISSING_TYPE *motionTransforms;
-    MISSING_TYPE *isMotionEnabled;
+    id motionTransforms;
+    id isMotionEnabled;
 }
 
 - (id);

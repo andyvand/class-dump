@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.ThumbnailProcessorRequest
 {
-    MISSING_TYPE *assetHandles;
-    MISSING_TYPE *assetHandle;
-    MISSING_TYPE *cacheIdentifier;
-    MISSING_TYPE *thumbnailFrame;
-    MISSING_TYPE *focalFrame;
-    MISSING_TYPE *scale;
-    MISSING_TYPE *roundedCorners;
-    MISSING_TYPE *cornerRadius;
-    MISSING_TYPE *border;
+    id assetHandles;
+    id assetHandle;
+    id cacheIdentifier;
+    id thumbnailFrame;
+    id focalFrame;
+    id scale;
+    id roundedCorners;
+    id cornerRadius;
+    id border;
 }
 
 @end

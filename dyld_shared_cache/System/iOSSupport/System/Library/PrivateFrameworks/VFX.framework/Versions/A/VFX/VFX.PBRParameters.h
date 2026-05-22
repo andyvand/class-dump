@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.PBRParameters
 {
-    MISSING_TYPE *albedo;
-    MISSING_TYPE *emissive;
-    MISSING_TYPE *roughness;
-    MISSING_TYPE *metalness;
-    MISSING_TYPE *occlusion;
-    MISSING_TYPE *normal;
-    MISSING_TYPE *isRoughnessMetalnessPacked;
-    MISSING_TYPE *isDoubleSided;
+    id albedo;
+    id emissive;
+    id roughness;
+    id metalness;
+    id occlusion;
+    id normal;
+    id isRoughnessMetalnessPacked;
+    id isDoubleSided;
 }
 
 @end

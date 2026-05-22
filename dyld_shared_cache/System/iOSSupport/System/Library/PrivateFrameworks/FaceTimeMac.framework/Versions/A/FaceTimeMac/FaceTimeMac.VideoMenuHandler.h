@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.VideoMenuHandler
 {
-    MISSING_TYPE *videoCancellables;
-    MISSING_TYPE *needsToSetupObservation;
-    MISSING_TYPE *audioHALManager;
-    MISSING_TYPE *audioDeviceController;
-    MISSING_TYPE *cameraSelectionService;
-    MISSING_TYPE *menuStateProvider;
-    MISSING_TYPE *features;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *darkWakeHelper;
-    MISSING_TYPE *currentSystem;
-    MISSING_TYPE *windowMonitor;
-    MISSING_TYPE *windowTask;
-    MISSING_TYPE *$__lazy_storage_$_audioHandler;
-    MISSING_TYPE *$__lazy_storage_$_cameraHandler;
+    id videoCancellables;
+    id needsToSetupObservation;
+    id audioHALManager;
+    id audioDeviceController;
+    id cameraSelectionService;
+    id menuStateProvider;
+    id features;
+    id logger;
+    id darkWakeHelper;
+    id currentSystem;
+    id windowMonitor;
+    id windowTask;
+    id $__lazy_storage_$_audioHandler;
+    id $__lazy_storage_$_cameraHandler;
 }
 
 - (void);

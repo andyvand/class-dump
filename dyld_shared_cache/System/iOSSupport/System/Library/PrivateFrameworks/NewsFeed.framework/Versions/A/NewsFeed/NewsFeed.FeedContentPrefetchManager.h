@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedContentPrefetchManager
 {
-    MISSING_TYPE *contentContext;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *assetHandleFactory;
-    MISSING_TYPE *interestTokens;
+    id contentContext;
+    id formatService;
+    id assetHandleFactory;
+    id interestTokens;
 }
 
 @end

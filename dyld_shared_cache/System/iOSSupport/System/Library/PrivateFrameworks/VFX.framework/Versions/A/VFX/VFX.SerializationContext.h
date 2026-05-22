@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.SerializationContext
 {
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *encodedVersion;
-    MISSING_TYPE *scope;
-    MISSING_TYPE *codingEntity;
-    MISSING_TYPE *codingComponent;
-    MISSING_TYPE *componentsToAdd;
-    MISSING_TYPE *isLoadingForAuthoring;
-    MISSING_TYPE *codeBindingsMetadata;
-    MISSING_TYPE *autoRecoverFromDecodingFailure;
-    MISSING_TYPE *silentlySkipComponentOnEncodingFailure;
-    MISSING_TYPE *logComponentCoding;
-    MISSING_TYPE *codeEntitiesWithTable;
-    MISSING_TYPE *codeComponentTypesWithTable;
-    MISSING_TYPE *codePropertiesWithTable;
-    MISSING_TYPE *allowEncodingUnknownType;
-    MISSING_TYPE *onDeinit;
-    MISSING_TYPE *entityTableByIndex;
-    MISSING_TYPE *entityTable;
-    MISSING_TYPE *reversedEntityTable;
-    MISSING_TYPE *encodedComponentTypes;
-    MISSING_TYPE *encodedProperties;
+    id entityManager;
+    id encodedVersion;
+    id scope;
+    id codingEntity;
+    id codingComponent;
+    id componentsToAdd;
+    id isLoadingForAuthoring;
+    id codeBindingsMetadata;
+    id autoRecoverFromDecodingFailure;
+    id silentlySkipComponentOnEncodingFailure;
+    id logComponentCoding;
+    id codeEntitiesWithTable;
+    id codeComponentTypesWithTable;
+    id codePropertiesWithTable;
+    id allowEncodingUnknownType;
+    id onDeinit;
+    id entityTableByIndex;
+    id entityTable;
+    id reversedEntityTable;
+    id encodedComponentTypes;
+    id encodedProperties;
 }
 
 @end

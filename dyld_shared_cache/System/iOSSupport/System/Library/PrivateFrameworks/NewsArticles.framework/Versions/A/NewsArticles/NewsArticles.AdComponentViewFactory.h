@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsArticles.AdComponentViewFactory
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *bannerAdFactory;
-    MISSING_TYPE *viewManager;
-    MISSING_TYPE *requestManager;
-    MISSING_TYPE *bannerAdRenderer;
-    MISSING_TYPE *integrator;
-    MISSING_TYPE *exposureMonitor;
-    MISSING_TYPE *journal;
+    id resolver;
+    id bannerAdFactory;
+    id viewManager;
+    id requestManager;
+    id bannerAdRenderer;
+    id integrator;
+    id exposureMonitor;
+    id journal;
 }
 
 - (id);

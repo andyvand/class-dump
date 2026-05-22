@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.HistoricalGuidanceCacheManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *historicalGuidanceCache;
+    id $defaultActor;
+    id historicalGuidanceCache;
 }
 
 @end

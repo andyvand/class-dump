@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactCardHeaderSwiftUIViewModel
 {
-    MISSING_TYPE *_contact;
-    MISSING_TYPE *_actionsProvider;
-    MISSING_TYPE *_isEmergencyContact;
-    MISSING_TYPE *_isBlocked;
-    MISSING_TYPE *_isDowntimeWhitelisted;
-    MISSING_TYPE *$__lazy_storage_$_contactFormatter;
-    MISSING_TYPE *$__lazy_storage_$_personNameFormatter;
-    MISSING_TYPE *$__lazy_storage_$_handleNameFormatter;
-    MISSING_TYPE *blockedHeader;
-    MISSING_TYPE *emergencyHeader;
-    MISSING_TYPE *downtimeHeader;
-    MISSING_TYPE *_$observationRegistrar;
+    id _contact;
+    id _actionsProvider;
+    id _isEmergencyContact;
+    id _isBlocked;
+    id _isDowntimeWhitelisted;
+    id $__lazy_storage_$_contactFormatter;
+    id $__lazy_storage_$_personNameFormatter;
+    id $__lazy_storage_$_handleNameFormatter;
+    id blockedHeader;
+    id emergencyHeader;
+    id downtimeHeader;
+    id _$observationRegistrar;
 }
 
 - (void);

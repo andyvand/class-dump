@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.VCDaemonXPCServer
 {
-    MISSING_TYPE *xpcListener;
-    MISSING_TYPE *databaseProvider;
-    MISSING_TYPE *toolkitSyncEngine;
-    MISSING_TYPE *shortcutsSpotlightCoordinator;
-    MISSING_TYPE *baseSpotlightToolCoordinator;
-    MISSING_TYPE *contextualActionSpotlightSyncService;
-    MISSING_TYPE *$__lazy_storage_$_triggerService;
-    MISSING_TYPE *$__lazy_storage_$_indexingQueue;
+    id xpcListener;
+    id databaseProvider;
+    id toolkitSyncEngine;
+    id shortcutsSpotlightCoordinator;
+    id baseSpotlightToolCoordinator;
+    id contextualActionSpotlightSyncService;
+    id $__lazy_storage_$_triggerService;
+    id $__lazy_storage_$_indexingQueue;
 }
 
 @end

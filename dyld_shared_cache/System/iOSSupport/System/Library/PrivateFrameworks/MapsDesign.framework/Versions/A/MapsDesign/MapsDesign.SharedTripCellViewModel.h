@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.SharedTripCellViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_imageProvider;
-    MISSING_TYPE *_appIconProvider;
-    MISSING_TYPE *_title;
-    MISSING_TYPE *_sharingSubtitle;
-    MISSING_TYPE *_handleSubtitle;
-    MISSING_TYPE *_stopSubtitle;
-    MISSING_TYPE *_trailingLabel;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _state;
+    id _imageProvider;
+    id _appIconProvider;
+    id _title;
+    id _sharingSubtitle;
+    id _handleSubtitle;
+    id _stopSubtitle;
+    id _trailingLabel;
+    id _$observationRegistrar;
 }
 
 @end

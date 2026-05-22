@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIShape;
+@class NSString, UIShape;
 @protocol UIHoverEffect;
 
 @interface UIHoverStyle
 {
-    MISSING_TYPE *_cachedBridgedEffect;
-    MISSING_TYPE *_effect;
-    MISSING_TYPE *_cachedBridgedShape;
-    MISSING_TYPE *_shape;
-    MISSING_TYPE *_isEnabled;
-    MISSING_TYPE *host;
-    MISSING_TYPE *driverCoordinator;
-    MISSING_TYPE *driverCoordinatorAccessLocked;
-    MISSING_TYPE *driverCoordinatorQueuedActions;
+    id _cachedBridgedEffect;
+    id _effect;
+    id _cachedBridgedShape;
+    id _shape;
+    id _isEnabled;
+    id host;
+    id driverCoordinator;
+    id driverCoordinatorAccessLocked;
+    id driverCoordinatorQueuedActions;
 }
 
 - (id);

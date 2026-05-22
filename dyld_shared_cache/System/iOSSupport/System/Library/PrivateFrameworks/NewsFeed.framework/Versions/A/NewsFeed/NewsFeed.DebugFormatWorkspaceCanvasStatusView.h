@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceCanvasStatusView
 {
-    MISSING_TYPE *onServerTap;
-    MISSING_TYPE *serverButton;
-    MISSING_TYPE *maxWidth;
-    MISSING_TYPE *statusLabel;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *progressView;
-    MISSING_TYPE *serverReloadQueueLabel;
+    id onServerTap;
+    id serverButton;
+    id maxWidth;
+    id statusLabel;
+    id editor;
+    id progressView;
+    id serverReloadQueueLabel;
 }
 
 - (struct CGSize);

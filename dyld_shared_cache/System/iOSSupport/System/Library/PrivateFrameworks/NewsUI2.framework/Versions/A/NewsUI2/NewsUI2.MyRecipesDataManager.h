@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyRecipesDataManager
 {
-    MISSING_TYPE *recipeHistory;
-    MISSING_TYPE *recipeBox;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *config;
-    MISSING_TYPE *recipeAccessProvider;
-    MISSING_TYPE *delegate;
+    id recipeHistory;
+    id recipeBox;
+    id recipeService;
+    id subscriptionService;
+    id config;
+    id recipeAccessProvider;
+    id delegate;
 }
 
 @end

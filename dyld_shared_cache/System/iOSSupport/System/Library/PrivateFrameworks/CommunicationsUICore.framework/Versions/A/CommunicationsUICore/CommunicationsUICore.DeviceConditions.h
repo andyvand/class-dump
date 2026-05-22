@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.DeviceConditions
 {
-    MISSING_TYPE *$__lazy_storage_$_isScreenLockedSubject;
+    id $__lazy_storage_$_isScreenLockedSubject;
 }
 
 @end

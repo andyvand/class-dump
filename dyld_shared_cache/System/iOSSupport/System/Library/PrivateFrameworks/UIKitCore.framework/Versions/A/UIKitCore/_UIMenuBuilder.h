@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, UIMenuSystem;
+@class NSArray, UIMenuSystem;
 
 @interface _UIMenuBuilder
 {
     UIMenuSystem *_system;
     long long _changeCountStorage;
     long long _actualChangeCountStorage;
-    MISSING_TYPE *_currentBookkeeping;
-    MISSING_TYPE *_cachedKeyboardShortcutLeaves;
+    id _currentBookkeeping;
+    id _cachedKeyboardShortcutLeaves;
 }
 
 - (void);

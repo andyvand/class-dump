@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface StocksPersonalization.GroupIDStockMessageTranslator
 {
-    MISSING_TYPE *stockEntityService;
-    MISSING_TYPE *stockMetadataServiceType;
+    id stockEntityService;
+    id stockMetadataServiceType;
 }
 
 @end

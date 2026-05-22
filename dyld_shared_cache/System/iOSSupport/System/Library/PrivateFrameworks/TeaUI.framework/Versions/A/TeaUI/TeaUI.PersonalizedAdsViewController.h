@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PersonalizedAdsViewController
 {
-    MISSING_TYPE *adPrivacyHeaderIconView;
-    MISSING_TYPE *buttonStyle;
-    MISSING_TYPE *turnOnCallback;
-    MISSING_TYPE *turnOffCallback;
-    MISSING_TYPE *onboardingFlowDelegate;
+    id adPrivacyHeaderIconView;
+    id buttonStyle;
+    id turnOnCallback;
+    id turnOffCallback;
+    id onboardingFlowDelegate;
 }
 
 - (void);

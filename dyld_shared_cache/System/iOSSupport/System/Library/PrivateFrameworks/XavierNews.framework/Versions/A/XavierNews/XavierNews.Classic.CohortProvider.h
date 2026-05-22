@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface XavierNews.Classic.CohortProvider
 {
-    MISSING_TYPE *originalCohorts;
-    MISSING_TYPE *derivedCohorts;
-    MISSING_TYPE *type;
-    MISSING_TYPE *publisherID;
-    MISSING_TYPE *evaluationConfig;
-    MISSING_TYPE *isANF;
-    MISSING_TYPE *isFeatured;
-    MISSING_TYPE *isFeatureCandidate;
-    MISSING_TYPE *shouldReduceVisibility;
-    MISSING_TYPE *tagQuality;
-    MISSING_TYPE *logClientServerClickMismatch;
+    id originalCohorts;
+    id derivedCohorts;
+    id type;
+    id publisherID;
+    id evaluationConfig;
+    id isANF;
+    id isFeatured;
+    id isFeatureCandidate;
+    id shouldReduceVisibility;
+    id tagQuality;
+    id logClientServerClickMismatch;
 }
 
 @end

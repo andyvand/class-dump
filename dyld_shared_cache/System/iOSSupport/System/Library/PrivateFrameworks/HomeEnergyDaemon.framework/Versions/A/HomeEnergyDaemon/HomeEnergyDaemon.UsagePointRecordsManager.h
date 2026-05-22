@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.UsagePointRecordsManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *usagePoint;
-    MISSING_TYPE *sharedContext;
+    id $defaultActor;
+    id usagePoint;
+    id sharedContext;
 }
 
 @end

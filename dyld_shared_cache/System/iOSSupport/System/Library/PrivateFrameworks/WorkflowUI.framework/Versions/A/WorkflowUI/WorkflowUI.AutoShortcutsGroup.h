@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.AutoShortcutsGroup
 {
-    MISSING_TYPE *shouldUpdate;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *app;
-    MISSING_TYPE *cancellables;
+    id shouldUpdate;
+    id delegate;
+    id app;
+    id cancellables;
 }
 
 - (id);

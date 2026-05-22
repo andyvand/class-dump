@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 @protocol VFXStatisticsProvider;
 
 @interface VFXRemotePreviewPlayerPeer
 {
-    MISSING_TYPE *timer;
+    id timer;
     void rendererStatisticsProvider;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *browser;
-    MISSING_TYPE *connection;
+    id delegate;
+    id browser;
+    id connection;
 }
 
 + (id);

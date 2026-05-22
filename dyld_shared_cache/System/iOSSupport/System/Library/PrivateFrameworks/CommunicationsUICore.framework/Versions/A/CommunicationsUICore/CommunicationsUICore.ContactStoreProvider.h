@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.ContactStoreProvider
 {
-    MISSING_TYPE *defaultAssumedIdentity;
-    MISSING_TYPE *cachedIdentityToContactStore;
+    id defaultAssumedIdentity;
+    id cachedIdentityToContactStore;
 }
 
 @end

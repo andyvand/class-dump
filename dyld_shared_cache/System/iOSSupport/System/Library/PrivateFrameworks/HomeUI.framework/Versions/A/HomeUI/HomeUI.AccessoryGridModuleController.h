@@ -6,13 +6,11 @@
 
 #import <HomeUI/HUItemModuleController.h>
 
-@class MISSING_TYPE;
-
 @interface HomeUI.AccessoryGridModuleController : HUItemModuleController
 {
-    MISSING_TYPE *cellSettings;
-    MISSING_TYPE *layoutStyle;
-    MISSING_TYPE *$__lazy_storage_$_collectionLayoutManager;
+    id cellSettings;
+    id layoutStyle;
+    id $__lazy_storage_$_collectionLayoutManager;
 }
 
 - (_Bool);

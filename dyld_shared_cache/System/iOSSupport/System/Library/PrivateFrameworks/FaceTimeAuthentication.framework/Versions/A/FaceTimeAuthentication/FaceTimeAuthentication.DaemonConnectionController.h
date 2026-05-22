@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeAuthentication.DaemonConnectionController
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *connected;
-    MISSING_TYPE *connectedContinuation;
-    MISSING_TYPE *connectionTimeout;
-    MISSING_TYPE *daemonController;
-    MISSING_TYPE *daemonConnection;
-    MISSING_TYPE *$__lazy_storage_$__accountManager;
+    id $defaultActor;
+    id logger;
+    id connected;
+    id connectedContinuation;
+    id connectionTimeout;
+    id daemonController;
+    id daemonConnection;
+    id $__lazy_storage_$__accountManager;
 }
 
 - (void);

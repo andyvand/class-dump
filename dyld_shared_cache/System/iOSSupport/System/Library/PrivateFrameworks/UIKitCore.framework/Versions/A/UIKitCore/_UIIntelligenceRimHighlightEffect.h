@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIVisualEffect.h>
 
-@class MISSING_TYPE;
-
 @interface _UIIntelligenceRimHighlightEffect : UIVisualEffect
 {
-    MISSING_TYPE *config;
+    id config;
     unsigned long long activationTransitionDirection;
     unsigned long long deactivationTransitionDirection;
 }

@@ -6,28 +6,26 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.ScrollEdgeEffectView.LuminanceAdjustment : UIView
 {
-    MISSING_TYPE *preferredUserInterfaceStyle;
-    MISSING_TYPE *backgroundGroupName;
-    MISSING_TYPE *backgroundScale;
-    MISSING_TYPE *backgroundReplay;
-    MISSING_TYPE *darkeningView;
-    MISSING_TYPE *parameters;
-    MISSING_TYPE *lumaStyle;
-    MISSING_TYPE *useHardEdges;
-    MISSING_TYPE *useHeavyReplay;
-    MISSING_TYPE *enableDimming;
-    MISSING_TYPE *prefersSolidColorHardPocket;
-    MISSING_TYPE *captureColor;
-    MISSING_TYPE *captureColorLuminance;
-    MISSING_TYPE *pocketMaskPortal;
-    MISSING_TYPE *showingBackgroundReplay;
-    MISSING_TYPE *scrollVelocity;
-    MISSING_TYPE *hasFloatingElements;
-    MISSING_TYPE *alphaValues;
+    id preferredUserInterfaceStyle;
+    id backgroundGroupName;
+    id backgroundScale;
+    id backgroundReplay;
+    id darkeningView;
+    id parameters;
+    id lumaStyle;
+    id useHardEdges;
+    id useHeavyReplay;
+    id enableDimming;
+    id prefersSolidColorHardPocket;
+    id captureColor;
+    id captureColorLuminance;
+    id pocketMaskPortal;
+    id showingBackgroundReplay;
+    id scrollVelocity;
+    id hasFloatingElements;
+    id alphaValues;
 }
 
 - (id);

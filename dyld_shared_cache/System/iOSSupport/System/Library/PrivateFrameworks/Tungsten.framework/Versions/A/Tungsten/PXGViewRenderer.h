@@ -18,7 +18,7 @@
     CDStruct_d16cbd38 *_textureInfos;
     struct CGPoint _renderedVisibleOrigin;
     struct UIEdgeInsets _loadInsets;
-    PXGCameraConfiguration_f6f8b209 _cameraConfiguration;
+    PXGCameraConfiguration_dfedfa9e _cameraConfiguration;
     PXGSpriteDataStore *_lastPresentationDataStore;
     _Bool _spritesNeedUpate;
     _Bool _lowMemoryMode;
@@ -89,7 +89,7 @@
 - (void)ü(;
 
 // Remaining properties
-@property(nonatomic) PXGCameraConfiguration_474424ad cameraConfiguration; // @synthesize cameraConfiguration=_cameraConfiguration;
+@property(nonatomic) PXGCameraConfiguration_60775728 cameraConfiguration; // @synthesize cameraConfiguration=_cameraConfiguration;
 @property(retain, nonatomic) Class customAssetImageViewClass; // @synthesize customAssetImageViewClass=_customAssetImageViewClass;
 @property(copy, nonatomic) CDUnknownBlockType customAssetImageViewClassConfigurator; // @synthesize customAssetImageViewClassConfigurator=_customAssetImageViewClassConfigurator;
 @property(readonly, copy) NSString *debugDescription;

@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIScrollView, UIView;
+@class UIScrollView, UIView;
 
 @interface UIScrollEdgeElementContainerInteraction
 {
-    MISSING_TYPE *implementation;
+    id implementation;
 }
 
 - (void);

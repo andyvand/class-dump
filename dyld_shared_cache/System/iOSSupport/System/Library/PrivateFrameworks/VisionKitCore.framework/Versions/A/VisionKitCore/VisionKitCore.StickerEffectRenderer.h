@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerEffectRenderer
 {
-    MISSING_TYPE *device;
-    MISSING_TYPE *library;
-    MISSING_TYPE *parameters;
-    MISSING_TYPE *vertexCount;
-    MISSING_TYPE *vertexCoordsBuffer;
-    MISSING_TYPE *textureCoordsBuffer;
-    MISSING_TYPE *pipelineState;
-    MISSING_TYPE *depthStencilState;
-    MISSING_TYPE *depthTexture;
-    MISSING_TYPE *diffuseTexture;
-    MISSING_TYPE *comicTexture;
-    MISSING_TYPE *maskTexture;
-    MISSING_TYPE *strokeTexture;
-    MISSING_TYPE *normalsTexture;
-    MISSING_TYPE *shadowTexture;
-    MISSING_TYPE *alphaToLumaGenerator;
-    MISSING_TYPE *strokeGenerator;
-    MISSING_TYPE *normalGenerator;
-    MISSING_TYPE *shadowGenerator;
-    MISSING_TYPE *toonDreamRenderer;
+    id device;
+    id library;
+    id parameters;
+    id vertexCount;
+    id vertexCoordsBuffer;
+    id textureCoordsBuffer;
+    id pipelineState;
+    id depthStencilState;
+    id depthTexture;
+    id diffuseTexture;
+    id comicTexture;
+    id maskTexture;
+    id strokeTexture;
+    id normalsTexture;
+    id shadowTexture;
+    id alphaToLumaGenerator;
+    id strokeGenerator;
+    id normalGenerator;
+    id shadowGenerator;
+    id toonDreamRenderer;
 }
 
 @end

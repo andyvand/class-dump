@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.OverlayAlertManager
 {
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *layoutAttributesFactory;
-    MISSING_TYPE *accessibilityAnnouncer;
-    MISSING_TYPE *window;
-    MISSING_TYPE *alertView;
+    id renderer;
+    id layoutAttributesFactory;
+    id accessibilityAnnouncer;
+    id window;
+    id alertView;
 }
 
 @end

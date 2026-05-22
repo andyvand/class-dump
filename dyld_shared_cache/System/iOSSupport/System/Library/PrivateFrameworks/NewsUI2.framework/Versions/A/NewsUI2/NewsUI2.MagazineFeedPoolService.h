@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedPoolService
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *historyService;
-    MISSING_TYPE *issueService;
-    MISSING_TYPE *eslInventory;
+    id context;
+    id personalizationService;
+    id historyService;
+    id issueService;
+    id eslInventory;
 }
 
 @end

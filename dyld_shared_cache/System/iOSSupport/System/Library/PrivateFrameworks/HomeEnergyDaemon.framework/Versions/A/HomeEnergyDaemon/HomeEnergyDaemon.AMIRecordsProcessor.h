@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.AMIRecordsProcessor
 {
-    MISSING_TYPE *isResendEnabled;
-    MISSING_TYPE *isMockEnabled;
-    MISSING_TYPE *resendDateLimit;
-    MISSING_TYPE *newestUsageSummaryLimit;
-    MISSING_TYPE *kvsRequestKey;
-    MISSING_TYPE *sharedEKSignPoster;
+    id isResendEnabled;
+    id isMockEnabled;
+    id resendDateLimit;
+    id newestUsageSummaryLimit;
+    id kvsRequestKey;
+    id sharedEKSignPoster;
 }
 
 @end

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.ShortcutDetailsViewModel
 {
-    MISSING_TYPE *workflow;
-    MISSING_TYPE *healthFeatureAvailability;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *_workflowTypes;
-    MISSING_TYPE *_importQuestions;
-    MISSING_TYPE *_inputTypes;
-    MISSING_TYPE *_customizingShortcut;
-    MISSING_TYPE *_selectingParameter;
-    MISSING_TYPE *_navigationPath;
+    id workflow;
+    id healthFeatureAvailability;
+    id observers;
+    id _workflowTypes;
+    id _importQuestions;
+    id _inputTypes;
+    id _customizingShortcut;
+    id _selectingParameter;
+    id _navigationPath;
 }
 
 - (void);

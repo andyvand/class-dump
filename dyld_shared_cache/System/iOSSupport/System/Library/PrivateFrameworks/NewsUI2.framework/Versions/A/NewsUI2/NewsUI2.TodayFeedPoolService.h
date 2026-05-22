@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayFeedPoolService
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *eslInventory;
-    MISSING_TYPE *peopleAlsoReadInventory;
-    MISSING_TYPE *autoFavoritesPreparer;
-    MISSING_TYPE *magazineFeedServiceConfigFetcher;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *topicClusteringService;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *sportsGraphManager;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *localNewsChannelService;
-    MISSING_TYPE *myArticlesRequestFactory;
-    MISSING_TYPE *myArticlesService;
+    id cloudContext;
+    id feedPersonalizer;
+    id eslInventory;
+    id peopleAlsoReadInventory;
+    id autoFavoritesPreparer;
+    id magazineFeedServiceConfigFetcher;
+    id personalizationService;
+    id topicClusteringService;
+    id headlineService;
+    id sportsGraphManager;
+    id sportsOnboardingManager;
+    id tracker;
+    id localNewsChannelService;
+    id myArticlesRequestFactory;
+    id myArticlesService;
 }
 
 @end

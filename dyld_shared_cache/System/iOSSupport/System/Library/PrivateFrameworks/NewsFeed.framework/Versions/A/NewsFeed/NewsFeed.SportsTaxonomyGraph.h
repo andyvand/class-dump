@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsTaxonomyGraph
 {
-    MISSING_TYPE *rootNode;
-    MISSING_TYPE *nodesByTagId;
-    MISSING_TYPE *nodesByUmcId;
-    MISSING_TYPE *allTagIDs;
+    id rootNode;
+    id nodesByTagId;
+    id nodesByUmcId;
+    id allTagIDs;
 }
 
 @end

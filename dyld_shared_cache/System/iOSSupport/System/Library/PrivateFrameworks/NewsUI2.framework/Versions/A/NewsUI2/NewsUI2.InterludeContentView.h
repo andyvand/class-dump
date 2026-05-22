@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.InterludeContentView
 {
-    MISSING_TYPE *image;
-    MISSING_TYPE *$__lazy_storage_$_iconImageView;
-    MISSING_TYPE *iconContainer;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *subtitleLabel;
-    MISSING_TYPE *$__lazy_storage_$_maskImageView;
+    id image;
+    id $__lazy_storage_$_iconImageView;
+    id iconContainer;
+    id titleLabel;
+    id subtitleLabel;
+    id $__lazy_storage_$_maskImageView;
 }
 
 - (id);

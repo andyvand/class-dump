@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.DaemonTaskExecutor
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *highPriorityQueue;
-    MISSING_TYPE *mediumPriorityQueue;
-    MISSING_TYPE *lowPriorityQueue;
-    MISSING_TYPE *registeredTasks;
-    MISSING_TYPE *completedTaskHistory;
-    MISSING_TYPE *activeTaskDescriptions;
+    id $defaultActor;
+    id highPriorityQueue;
+    id mediumPriorityQueue;
+    id lowPriorityQueue;
+    id registeredTasks;
+    id completedTaskHistory;
+    id activeTaskDescriptions;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMetalDisplayLinkUpdate, CAMetalLayer, CFXVFXRenderTargetInfo, MISSING_TYPE, MTLRenderPassDescriptor, NSMutableArray, NSMutableDictionary, NSObject, NSString, RGCachedComputeCommandEncoder, VFXMTLMesh, VFXMTLMeshElement, VFXMTLREContext, VFXMTLRenderPipeline, VFXMTLResourceManager, VFXMTLShadable, VFXRendererRayMap;
+@class CAMetalDisplayLinkUpdate, CAMetalLayer, CFXVFXRenderTargetInfo, MTLRenderPassDescriptor, NSMutableArray, NSMutableDictionary, NSObject, NSString, RGCachedComputeCommandEncoder, VFXMTLMesh, VFXMTLMeshElement, VFXMTLREContext, VFXMTLRenderPipeline, VFXMTLResourceManager, VFXMTLShadable, VFXRendererRayMap;
 @protocol MTLArgumentEncoder, MTLBuffer, MTLCommandBuffer, MTLCommandQueue, MTLDevice, MTLRasterizationRateMap, MTLRenderCommandEncoder, MTLSamplerState, MTLTexture, OS_dispatch_queue, OS_dispatch_semaphore, VFXDrawCallContext, VFXMTLRenderContextCommandBufferStatusMonitor, VFXMTLRenderContextResourceManagerMonitor, VFXTextureAttachmentProvider;
 
 @interface VFXMTLRenderContext
@@ -12,7 +12,7 @@
     unsigned long long _currentFrameIndex;
     struct __CFXEngineStats *__engineStats;
     float _superSamplingFactor;
-    CDStruct_14d5dc5e _screenTransform;
+    CDStruct_95fa7c00 _screenTransform;
     long long _sampleCount;
     _Bool _needSuperSampling;
     VFXMTLResourceManager *_resourceManager;
@@ -32,7 +32,7 @@
     _Bool _shouldPresentWithTransaction;
     CDStruct_8f3d16ac _currentRenderPassDesc;
     CDStruct_8f3d16ac _originalRenderPassDesc;
-    MISSING_TYPE *_currentRenderSize;
+    id _currentRenderSize;
     struct {
         double red;
         double green;
@@ -97,8 +97,8 @@
             struct __CFXLight *lights[8];
             struct __CFXLightRuntimeData *lightsData[8];
         } currentLightingDesc;
-        CDStruct_14d5dc5e currentLightingSpace;
-        CDStruct_14d5dc5e currentLightingSpaceShadow;
+        CDStruct_95fa7c00 currentLightingSpace;
+        CDStruct_95fa7c00 currentLightingSpaceShadow;
         _Bool needLightingSpaceTransformation;
         struct VFXMTLClusterSystem clusterSystem;
         struct Info clusterInfo;
@@ -122,8 +122,8 @@
         struct __CFXNode *node;
         struct __CFXNode *pointOfView;
         struct __CFXDeformerStack *deformerStack;
-        CDStruct_14d5dc5e viewTransform;
-        CDStruct_14d5dc5e proj;
+        CDStruct_95fa7c00 viewTransform;
+        CDStruct_95fa7c00 proj;
         unsigned long long vertexDescriptorHash;
         unsigned char tessellationPipelineStateHash;
         VFXMTLRenderPipeline *renderPipeline;
@@ -179,7 +179,7 @@
     unsigned long long _depthPixelFormat;
     id <VFXDrawCallContext> _currentExternalDrawCallContext;
     VFXMTLREContext *_reContext;
-    VFX_RE_C_ViewConstants_s_9f3d4270 _currentExternalViewConstants;
+    VFX_RE_C_ViewConstants_s_2da9cedc _currentExternalViewConstants;
     unsigned long long _renderGraphParticleMaterialOverride;
     unsigned char _currentWorldBufferIndex;
     _Bool _enableARMode;
@@ -198,9 +198,9 @@
 + (void);
 + (void);
 - (_Bool);
-- (MISSING_TYPE *);
-- (CDStruct_14d5dc5e);
-- (CDStruct_14d5dc5e);
+- (id);
+- (CDStruct_95fa7c00);
+- (CDStruct_95fa7c00);
 - (CDStruct_ff2722dc);
 - (struct VFXWorldBuffer *);
 - (void);
@@ -251,18 +251,18 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (void);
 - (id);
-- (CDStruct_14d5dc5e);
-- (CDStruct_14d5dc5e);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
+- (CDStruct_95fa7c00);
+- (CDStruct_95fa7c00);
 - (id);
 - (struct __CFXMaterial *);
 - (unsigned long long);
@@ -282,7 +282,7 @@
 - (id);
 - (unsigned char);
 - (id);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (unsigned long long);
 - (struct __CFXMeshElement *);
 - (id);
@@ -333,7 +333,7 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (void);
 - (void);
 - (id);
@@ -382,7 +382,7 @@
 - (id);
 - (id);
 - (void);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (id);
 - (id);
 - (void);
@@ -391,7 +391,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (struct __CFXEngineStats *);
 - (void);
 - (id);
@@ -464,7 +464,7 @@
 @property(nonatomic) __weak id <VFXMTLRenderContextResourceManagerMonitor> resourceManagerMonitor; // @synthesize resourceManagerMonitor=_resourceManagerMonitor;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *resourceQueue;
 @property(nonatomic) long long sampleCount;
-@property(nonatomic) CDStruct_14d5dc5e screenTransform;
+@property(nonatomic) CDStruct_95fa7c00 screenTransform;
 @property(nonatomic) _Bool shouldDelegateARCompositing; // @synthesize shouldDelegateARCompositing=_shouldDelegateARCompositing;
 @property(nonatomic) _Bool showsAuthoringEnvironment;
 @property(nonatomic) _Bool simulateCommandBufferFailure; // @synthesize simulateCommandBufferFailure=_simulateCommandBufferFailure;

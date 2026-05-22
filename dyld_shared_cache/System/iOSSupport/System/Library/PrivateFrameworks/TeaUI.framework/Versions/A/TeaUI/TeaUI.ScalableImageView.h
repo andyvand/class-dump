@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ScalableImageView
 {
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *scalability;
+    id imageView;
+    id scalability;
 }
 
 - (id);

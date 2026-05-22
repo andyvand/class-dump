@@ -6,21 +6,19 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTLayer.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTParameterCurveLayer : CoreHapticsTools.CHTLayer
 {
-    MISSING_TYPE *paramType;
-    MISSING_TYPE *threadsafePointsToDraw;
-    MISSING_TYPE *contextSizedPointForControlPoints;
-    MISSING_TYPE *timePointsProcessingQueue;
-    MISSING_TYPE *contextSizedPointsProcessingQueue;
-    MISSING_TYPE *pointDrawingMode;
-    MISSING_TYPE *selectionDrawingMode;
-    MISSING_TYPE *lineDrawingMode;
-    MISSING_TYPE *controlPointRadius;
-    MISSING_TYPE *paramCurveLineWidth;
-    MISSING_TYPE *controlPointHighlightWidth;
+    id paramType;
+    id threadsafePointsToDraw;
+    id contextSizedPointForControlPoints;
+    id timePointsProcessingQueue;
+    id contextSizedPointsProcessingQueue;
+    id pointDrawingMode;
+    id selectionDrawingMode;
+    id lineDrawingMode;
+    id controlPointRadius;
+    id paramCurveLineWidth;
+    id controlPointHighlightWidth;
 }
 
 - (id);

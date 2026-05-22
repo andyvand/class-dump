@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PegasusQueryContextManager
 {
-    MISSING_TYPE *currentFetch;
-    MISSING_TYPE *fetchDeduper;
+    id currentFetch;
+    id fetchDeduper;
 }
 
 @end

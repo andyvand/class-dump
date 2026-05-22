@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeAdViewModel
 {
-    MISSING_TYPE *adViewControllerProvider;
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_adPlacement;
-    MISSING_TYPE *_$observationRegistrar;
+    id adViewControllerProvider;
+    id _recipeID;
+    id _adPlacement;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContinueReadingPromptPresenter
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *presentationOperationManager;
-    MISSING_TYPE *eligibleContent;
+    id navigator;
+    id presentationOperationManager;
+    id eligibleContent;
 }
 
 @end

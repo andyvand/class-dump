@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedPersonalizationService
 {
-    MISSING_TYPE *feedPersonalizingEngine;
-    MISSING_TYPE *groupingPersonalizer;
+    id feedPersonalizingEngine;
+    id groupingPersonalizer;
 }
 
 @end

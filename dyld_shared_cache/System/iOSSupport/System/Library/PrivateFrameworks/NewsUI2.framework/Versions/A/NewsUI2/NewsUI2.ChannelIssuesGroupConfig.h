@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelIssuesGroupConfig
 {
-    MISSING_TYPE *issueIDs;
-    MISSING_TYPE *tag;
-    MISSING_TYPE *title;
+    id issueIDs;
+    id tag;
+    id title;
 }
 
 - (id);

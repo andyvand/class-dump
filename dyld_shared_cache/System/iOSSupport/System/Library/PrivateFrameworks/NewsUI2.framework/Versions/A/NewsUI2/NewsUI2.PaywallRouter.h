@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PaywallRouter
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *paywallType;
+    id resolver;
+    id navigator;
+    id configurationManager;
+    id paywallType;
 }
 
 @end

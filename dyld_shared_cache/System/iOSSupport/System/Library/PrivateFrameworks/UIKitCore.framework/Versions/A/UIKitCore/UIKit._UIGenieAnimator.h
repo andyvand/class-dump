@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIGenieAnimator
 {
-    MISSING_TYPE *view;
-    MISSING_TYPE *vertices;
-    MISSING_TYPE *faces;
-    MISSING_TYPE *padding;
-    MISSING_TYPE *debugView;
+    id view;
+    id vertices;
+    id faces;
+    id padding;
+    id debugView;
 }
 
 @end

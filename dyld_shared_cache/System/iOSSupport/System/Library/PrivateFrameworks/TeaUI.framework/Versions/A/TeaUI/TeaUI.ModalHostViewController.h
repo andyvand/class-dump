@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface TeaUI.ModalHostViewController
 {
-    MISSING_TYPE *modalHostDelegate;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *$__lazy_storage_$_closeButton;
-    MISSING_TYPE *transitionEffectView;
-    MISSING_TYPE *session;
+    id modalHostDelegate;
+    id styler;
+    id viewController;
+    id $__lazy_storage_$_closeButton;
+    id transitionEffectView;
+    id session;
 }
 
 - (void);

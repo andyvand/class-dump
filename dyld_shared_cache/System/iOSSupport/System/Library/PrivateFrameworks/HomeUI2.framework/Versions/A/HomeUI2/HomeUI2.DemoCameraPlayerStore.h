@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI2.DemoCameraPlayerStore
 {
-    MISSING_TYPE *cameras;
-    MISSING_TYPE *snapshots;
-    MISSING_TYPE *hasSetupAudioSession;
+    id cameras;
+    id snapshots;
+    id hasSetupAudioSession;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDerivedDataCompiler
 {
-    MISSING_TYPE *languages;
-    MISSING_TYPE *settings;
-    MISSING_TYPE *system;
+    id languages;
+    id settings;
+    id system;
 }
 
 @end

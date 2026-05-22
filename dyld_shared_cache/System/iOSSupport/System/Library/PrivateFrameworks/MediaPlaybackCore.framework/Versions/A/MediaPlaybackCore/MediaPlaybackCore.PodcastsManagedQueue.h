@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.PodcastsManagedQueue
 {
-    MISSING_TYPE *queue;
-    MISSING_TYPE *currentEpisodeContentItemID;
+    id queue;
+    id currentEpisodeContentItemID;
 }
 
 @end

@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.RemotePosterClientView.Model
 {
-    MISSING_TYPE *_configuration;
+    id _configuration;
 }
 
 @end

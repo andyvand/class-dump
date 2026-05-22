@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.HeadlineFeaturePromotionEligibilityProvider
 {
-    MISSING_TYPE *headlineEligibility;
-    MISSING_TYPE *paidAccessChecker;
+    id headlineEligibility;
+    id paidAccessChecker;
 }
 
 @end

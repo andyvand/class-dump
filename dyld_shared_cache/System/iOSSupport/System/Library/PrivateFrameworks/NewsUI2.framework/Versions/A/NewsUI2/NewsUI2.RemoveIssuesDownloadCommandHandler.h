@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RemoveIssuesDownloadCommandHandler
 {
-    MISSING_TYPE *offlineIssueManager;
-    MISSING_TYPE *offlineIssueList;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *channelDataFactory;
+    id offlineIssueManager;
+    id offlineIssueList;
+    id tracker;
+    id channelDataFactory;
 }
 
 @end

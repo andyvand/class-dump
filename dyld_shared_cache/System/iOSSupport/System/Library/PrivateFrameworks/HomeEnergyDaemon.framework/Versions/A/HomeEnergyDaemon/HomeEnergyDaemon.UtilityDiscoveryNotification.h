@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.UtilityDiscoveryNotification
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *_discoveryInProgress;
+    id $defaultActor;
+    id _discoveryInProgress;
 }
 
 @end

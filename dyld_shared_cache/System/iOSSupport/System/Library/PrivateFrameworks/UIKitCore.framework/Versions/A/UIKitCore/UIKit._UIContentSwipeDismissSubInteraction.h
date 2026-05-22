@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 @interface UIKit._UIContentSwipeDismissSubInteraction
 {
-    MISSING_TYPE *parent;
+    id parent;
     void view;
-    MISSING_TYPE *gesture;
-    MISSING_TYPE *conflictingScrollViews;
+    id gesture;
+    id conflictingScrollViews;
 }
 
 - (_Bool);

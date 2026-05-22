@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HFActivityLogCoordinator_Swift
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *home;
-    MISSING_TYPE *targetKind;
-    MISSING_TYPE *_eventsByDate;
-    MISSING_TYPE *_lastError;
-    MISSING_TYPE *_activelyFetching;
-    MISSING_TYPE *queryController;
-    MISSING_TYPE *oneMonthAgo;
-    MISSING_TYPE *fetchCount;
-    MISSING_TYPE *oldestFetchStartDate;
-    MISSING_TYPE *updateTimer;
+    id $defaultActor;
+    id home;
+    id targetKind;
+    id _eventsByDate;
+    id _lastError;
+    id _activelyFetching;
+    id queryController;
+    id oneMonthAgo;
+    id fetchCount;
+    id oldestFetchStartDate;
+    id updateTimer;
 }
 
 - (id);

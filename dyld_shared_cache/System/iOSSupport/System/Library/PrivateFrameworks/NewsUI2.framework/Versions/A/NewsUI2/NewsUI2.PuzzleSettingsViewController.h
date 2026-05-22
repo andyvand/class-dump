@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleSettingsViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *viewProvider;
-    MISSING_TYPE *$__lazy_storage_$_dataSource;
-    MISSING_TYPE *$__lazy_storage_$_collectionView;
+    id styler;
+    id eventHandler;
+    id viewProvider;
+    id $__lazy_storage_$_dataSource;
+    id $__lazy_storage_$_collectionView;
 }
 
 - (id);

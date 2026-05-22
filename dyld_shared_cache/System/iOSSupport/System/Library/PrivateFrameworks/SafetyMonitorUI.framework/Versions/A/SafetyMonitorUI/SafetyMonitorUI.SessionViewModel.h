@@ -4,56 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.SessionViewModel
 {
-    MISSING_TYPE *sessionManager;
-    MISSING_TYPE *dateComponentsFormatter;
-    MISSING_TYPE *contactsManager;
-    MISSING_TYPE *cancellableSet;
-    MISSING_TYPE *selfContact;
-    MISSING_TYPE *fetchMostLikelySessionDestinationsID;
-    MISSING_TYPE *mostLikelySessionDestinationSource;
-    MISSING_TYPE *fetchInitiatorEligibilityLatency;
-    MISSING_TYPE *fetchReceiverEligibilityLatency;
-    MISSING_TYPE *fetchLikelyReceiverHandlesLatency;
-    MISSING_TYPE *fetchLikelyReceiverHandlesStatus;
-    MISSING_TYPE *fetchMostLikelyReceiverHandlesLatency;
-    MISSING_TYPE *fetchMostLikelyReceiverHandlesStatus;
-    MISSING_TYPE *fetchMostLikelySessionDestinationsLatency;
-    MISSING_TYPE *fetchMostLikelySessionDestinationsStatus;
-    MISSING_TYPE *fetchInitiatorEligibilityStartTime;
-    MISSING_TYPE *fetchReceiverEligibilityStartTime;
-    MISSING_TYPE *fetchLikelyReceiverHandlesStartTime;
-    MISSING_TYPE *fetchMostLikelyReceiverHandlesStartTime;
-    MISSING_TYPE *fetchMostLikelySessionDestinationsStartTime;
-    MISSING_TYPE *lastSuggestionConversionEventTime;
-    MISSING_TYPE *sessionStartEntryType;
-    MISSING_TYPE *isCellularActivated;
-    MISSING_TYPE *isPairedDeviceNearby;
-    MISSING_TYPE *suggestedSessionConfiguration;
-    MISSING_TYPE *workoutSessionConfiguration;
-    MISSING_TYPE *_localSessionState;
-    MISSING_TYPE *_sessionState;
-    MISSING_TYPE *_recipientHandles;
-    MISSING_TYPE *_groupID;
-    MISSING_TYPE *_sessionInitializationInfo;
-    MISSING_TYPE *_isInitializing;
-    MISSING_TYPE *_refreshingEligibility;
-    MISSING_TYPE *_refreshingInitiatorEligibility;
-    MISSING_TYPE *_refreshingReceiverEligibility;
-    MISSING_TYPE *_showContactPicker;
-    MISSING_TYPE *isCancelling;
-    MISSING_TYPE *_endLocation;
-    MISSING_TYPE *_candidateSessionDestinations;
-    MISSING_TYPE *_mostLikelyReceiverHandles;
-    MISSING_TYPE *_expectedTravelTime;
-    MISSING_TYPE *_deviceClass;
-    MISSING_TYPE *_isActiveDevice;
-    MISSING_TYPE *_isProcessingRemoteCommand;
-    MISSING_TYPE *_userSessionConfiguration;
-    MISSING_TYPE *_fetchedMostLikelySessionDestinations;
+    id sessionManager;
+    id dateComponentsFormatter;
+    id contactsManager;
+    id cancellableSet;
+    id selfContact;
+    id fetchMostLikelySessionDestinationsID;
+    id mostLikelySessionDestinationSource;
+    id fetchInitiatorEligibilityLatency;
+    id fetchReceiverEligibilityLatency;
+    id fetchLikelyReceiverHandlesLatency;
+    id fetchLikelyReceiverHandlesStatus;
+    id fetchMostLikelyReceiverHandlesLatency;
+    id fetchMostLikelyReceiverHandlesStatus;
+    id fetchMostLikelySessionDestinationsLatency;
+    id fetchMostLikelySessionDestinationsStatus;
+    id fetchInitiatorEligibilityStartTime;
+    id fetchReceiverEligibilityStartTime;
+    id fetchLikelyReceiverHandlesStartTime;
+    id fetchMostLikelyReceiverHandlesStartTime;
+    id fetchMostLikelySessionDestinationsStartTime;
+    id lastSuggestionConversionEventTime;
+    id sessionStartEntryType;
+    id isCellularActivated;
+    id isPairedDeviceNearby;
+    id suggestedSessionConfiguration;
+    id workoutSessionConfiguration;
+    id _localSessionState;
+    id _sessionState;
+    id _recipientHandles;
+    id _groupID;
+    id _sessionInitializationInfo;
+    id _isInitializing;
+    id _refreshingEligibility;
+    id _refreshingInitiatorEligibility;
+    id _refreshingReceiverEligibility;
+    id _showContactPicker;
+    id isCancelling;
+    id _endLocation;
+    id _candidateSessionDestinations;
+    id _mostLikelyReceiverHandles;
+    id _expectedTravelTime;
+    id _deviceClass;
+    id _isActiveDevice;
+    id _isProcessingRemoteCommand;
+    id _userSessionConfiguration;
+    id _fetchedMostLikelySessionDestinations;
 }
 
 @end

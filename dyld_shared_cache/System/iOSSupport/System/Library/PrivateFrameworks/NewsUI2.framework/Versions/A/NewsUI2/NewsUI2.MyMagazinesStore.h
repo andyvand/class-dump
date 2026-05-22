@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyMagazinesStore
 {
-    MISSING_TYPE *state;
-    MISSING_TYPE *badgeIssueIDs;
-    MISSING_TYPE *currentIssues;
-    MISSING_TYPE *recentlyReadIssues;
-    MISSING_TYPE *downloadedIssues;
-    MISSING_TYPE *currentIssuesChecker;
-    MISSING_TYPE *issueService;
-    MISSING_TYPE *issueReadingHistory;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *offlineIssueList;
-    MISSING_TYPE *offlineIssueManager;
-    MISSING_TYPE *paidBundleConfigManager;
-    MISSING_TYPE *myMagazinesPersonalizationService;
-    MISSING_TYPE *lazyPersistentStore;
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *$__lazy_storage_$_lazyInitializingPromise;
-    MISSING_TYPE *firstFullRefresh;
+    id state;
+    id badgeIssueIDs;
+    id currentIssues;
+    id recentlyReadIssues;
+    id downloadedIssues;
+    id currentIssuesChecker;
+    id issueService;
+    id issueReadingHistory;
+    id subscriptionController;
+    id offlineIssueList;
+    id offlineIssueManager;
+    id paidBundleConfigManager;
+    id myMagazinesPersonalizationService;
+    id lazyPersistentStore;
+    id accessQueue;
+    id $__lazy_storage_$_lazyInitializingPromise;
+    id firstFullRefresh;
 }
 
 - (void);

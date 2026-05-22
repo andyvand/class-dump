@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SharingRecipeTextActivityItemSource
 {
-    MISSING_TYPE *shareURL;
-    MISSING_TYPE *title;
-    MISSING_TYPE *publisherName;
-    MISSING_TYPE *shortExcerpt;
+    id shareURL;
+    id title;
+    id publisherName;
+    id shortExcerpt;
 }
 
 - (id);

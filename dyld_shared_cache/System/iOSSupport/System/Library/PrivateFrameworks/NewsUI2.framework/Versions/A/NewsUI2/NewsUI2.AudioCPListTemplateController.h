@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioCPListTemplateController
 {
-    MISSING_TYPE *template;
-    MISSING_TYPE *sectionProvider;
-    MISSING_TYPE *audioDataManager;
+    id template;
+    id sectionProvider;
+    id audioDataManager;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SocialLayer.CloudKitCollaborationInitiationRequest
 {
-    MISSING_TYPE *recipients;
-    MISSING_TYPE *shareOptions;
-    MISSING_TYPE *share;
-    MISSING_TYPE *containerSetupInfo;
+    id recipients;
+    id shareOptions;
+    id share;
+    id containerSetupInfo;
 }
 
 @end

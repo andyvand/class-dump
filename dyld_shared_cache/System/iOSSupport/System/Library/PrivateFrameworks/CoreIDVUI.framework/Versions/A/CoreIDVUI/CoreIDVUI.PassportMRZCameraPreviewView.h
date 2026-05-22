@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.PassportMRZCameraPreviewView
 {
-    MISSING_TYPE *mrzCaptureSessionManager;
-    MISSING_TYPE *captureRegionOfInterest;
-    MISSING_TYPE *passportOverlayView;
-    MISSING_TYPE *previewLayer;
-    MISSING_TYPE *finalFrameLayer;
-    MISSING_TYPE *mrzWrapperLayer;
-    MISSING_TYPE *mrzLayer;
-    MISSING_TYPE *previewDetectionBox;
-    MISSING_TYPE *onMRZFound;
-    MISSING_TYPE *onCompleteTransitionOut;
+    id mrzCaptureSessionManager;
+    id captureRegionOfInterest;
+    id passportOverlayView;
+    id previewLayer;
+    id finalFrameLayer;
+    id mrzWrapperLayer;
+    id mrzLayer;
+    id previewDetectionBox;
+    id onMRZFound;
+    id onCompleteTransitionOut;
 }
 
 - (id);

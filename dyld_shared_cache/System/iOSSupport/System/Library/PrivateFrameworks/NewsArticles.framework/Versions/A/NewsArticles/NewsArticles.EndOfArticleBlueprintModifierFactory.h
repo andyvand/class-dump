@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfArticleBlueprintModifierFactory
 {
-    MISSING_TYPE *presentationOptions;
-    MISSING_TYPE *sectionFactory;
-    MISSING_TYPE *feedContextFactory;
-    MISSING_TYPE *nativeAdManager;
-    MISSING_TYPE *policyValidator;
-    MISSING_TYPE *layoutCollectionProvider;
-    MISSING_TYPE *subscriptionList;
+    id presentationOptions;
+    id sectionFactory;
+    id feedContextFactory;
+    id nativeAdManager;
+    id policyValidator;
+    id layoutCollectionProvider;
+    id subscriptionList;
 }
 
 @end

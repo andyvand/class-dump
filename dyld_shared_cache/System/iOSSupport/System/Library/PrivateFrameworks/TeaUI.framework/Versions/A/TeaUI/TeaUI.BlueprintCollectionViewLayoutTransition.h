@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintCollectionViewLayoutTransition
 {
-    MISSING_TYPE *state;
-    MISSING_TYPE *completionBlocks;
+    id state;
+    id completionBlocks;
 }
 
 @end

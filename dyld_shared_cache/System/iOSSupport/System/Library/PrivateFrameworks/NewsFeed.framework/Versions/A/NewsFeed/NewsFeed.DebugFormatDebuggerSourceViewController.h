@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDebuggerSourceViewController
 {
-    MISSING_TYPE *sourceFile;
-    MISSING_TYPE *sourceMetrics;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *textView;
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *$__lazy_storage_$_highlightView;
-    MISSING_TYPE *lineNumberLabel;
-    MISSING_TYPE *edgeView;
-    MISSING_TYPE *edgeViewPadding;
-    MISSING_TYPE *lineAndHighlightSize;
-    MISSING_TYPE *$__lazy_storage_$_charSize;
-    MISSING_TYPE *$__lazy_storage_$_breakpointView;
+    id sourceFile;
+    id sourceMetrics;
+    id editor;
+    id textView;
+    id scrollView;
+    id $__lazy_storage_$_highlightView;
+    id lineNumberLabel;
+    id edgeView;
+    id edgeViewPadding;
+    id lineAndHighlightSize;
+    id $__lazy_storage_$_charSize;
+    id $__lazy_storage_$_breakpointView;
 }
 
 - (id);

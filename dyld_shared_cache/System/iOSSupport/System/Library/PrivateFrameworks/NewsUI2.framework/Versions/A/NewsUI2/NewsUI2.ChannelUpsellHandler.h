@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelUpsellHandler
 {
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *purchaseController;
-    MISSING_TYPE *pptContext;
-    MISSING_TYPE *internalTriggerRecord;
-    MISSING_TYPE *dateProvider;
-    MISSING_TYPE *localTracker;
-    MISSING_TYPE *postActionHandlerManager;
-    MISSING_TYPE *upsellShareClosure;
-    MISSING_TYPE *upsellCancellationClosure;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *router;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *lazyKeyValueStore;
-    MISSING_TYPE *didLoadTriggerRecord;
-    MISSING_TYPE *lastEOAArticleID;
-    MISSING_TYPE *lastAnyChannelEOAArticleID;
-    MISSING_TYPE *_pendingTriggerConditions;
-    MISSING_TYPE *$__lazy_storage_$_anyChannelChannelIDs;
+    id configurationManager;
+    id paidAccessChecker;
+    id purchaseController;
+    id pptContext;
+    id internalTriggerRecord;
+    id dateProvider;
+    id localTracker;
+    id postActionHandlerManager;
+    id upsellShareClosure;
+    id upsellCancellationClosure;
+    id sceneProvider;
+    id offlineProvider;
+    id router;
+    id bundleSubscriptionManager;
+    id lazyKeyValueStore;
+    id didLoadTriggerRecord;
+    id lastEOAArticleID;
+    id lastAnyChannelEOAArticleID;
+    id _pendingTriggerConditions;
+    id $__lazy_storage_$_anyChannelChannelIDs;
 }
 
 - (void);

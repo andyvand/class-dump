@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 @interface UIKit.NavigationBarLargeTitleReparentingHelper.TemporaryDonatedTitle
 {
     UIView *view;
     struct CGRect frameInGlobalCoordinateSpace;
-    MISSING_TYPE *parentID;
+    id parentID;
     _Bool contributesToPocketContentRect;
 }
 

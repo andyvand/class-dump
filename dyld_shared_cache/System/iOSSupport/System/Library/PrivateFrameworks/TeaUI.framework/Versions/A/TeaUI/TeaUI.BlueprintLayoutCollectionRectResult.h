@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintLayoutCollectionRectResult
 {
-    MISSING_TYPE *layoutAttributes;
-    MISSING_TYPE *offset;
-    MISSING_TYPE *insets;
-    MISSING_TYPE *cachable;
+    id layoutAttributes;
+    id offset;
+    id insets;
+    id cachable;
 }
 
 @end

@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedItemRenderer
 {
-    MISSING_TYPE *presentingViewController;
-    MISSING_TYPE *disableFormatLayoutViewCellDequeueing;
-    MISSING_TYPE *colorPaletteProvider;
-    MISSING_TYPE *cellSelectionRenderer;
-    MISSING_TYPE *imageHeadlineViewRenderer;
-    MISSING_TYPE *gapViewRenderer;
-    MISSING_TYPE *gapOfflineViewRenderer;
-    MISSING_TYPE *bannerAdViewRenderer;
-    MISSING_TYPE *coverIssueViewRenderer;
-    MISSING_TYPE *coverChannelViewRenderer;
-    MISSING_TYPE *formatLayoutViewRenderer;
-    MISSING_TYPE *bannerAdViewManager;
-    MISSING_TYPE *hiddenContentEffectRenderer;
-    MISSING_TYPE *categoryViewRenderer;
-    MISSING_TYPE *engagementBannerViewRenderer;
-    MISSING_TYPE *engagementInlineViewManager;
-    MISSING_TYPE *feedItemDimmingEvaluator;
-    MISSING_TYPE *invalidator;
-    MISSING_TYPE *formatRegistrationIdentifiers;
-    MISSING_TYPE *debugEnabled;
-    MISSING_TYPE *transition;
+    id presentingViewController;
+    id disableFormatLayoutViewCellDequeueing;
+    id colorPaletteProvider;
+    id cellSelectionRenderer;
+    id imageHeadlineViewRenderer;
+    id gapViewRenderer;
+    id gapOfflineViewRenderer;
+    id bannerAdViewRenderer;
+    id coverIssueViewRenderer;
+    id coverChannelViewRenderer;
+    id formatLayoutViewRenderer;
+    id bannerAdViewManager;
+    id hiddenContentEffectRenderer;
+    id categoryViewRenderer;
+    id engagementBannerViewRenderer;
+    id engagementInlineViewManager;
+    id feedItemDimmingEvaluator;
+    id invalidator;
+    id formatRegistrationIdentifiers;
+    id debugEnabled;
+    id transition;
 }
 
 @end

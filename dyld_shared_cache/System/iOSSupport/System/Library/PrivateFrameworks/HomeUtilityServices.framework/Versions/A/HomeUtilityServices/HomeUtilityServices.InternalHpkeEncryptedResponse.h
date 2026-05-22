@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUtilityServices.InternalHpkeEncryptedResponse
 {
-    MISSING_TYPE *cipherText;
-    MISSING_TYPE *enc;
-    MISSING_TYPE *hpkeMode;
+    id cipherText;
+    id enc;
+    id hpkeMode;
 }
 
 @end

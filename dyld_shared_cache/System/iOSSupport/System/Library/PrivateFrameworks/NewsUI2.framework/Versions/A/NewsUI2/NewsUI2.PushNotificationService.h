@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PushNotificationService
 {
-    MISSING_TYPE *notificationController;
-    MISSING_TYPE *configurationManager;
+    id notificationController;
+    id configurationManager;
 }
 
 @end

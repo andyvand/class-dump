@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAnalytics.ChannelDataFactory
 {
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *purchaseController;
-    MISSING_TYPE *subscriptionController;
+    id bundleSubscriptionManager;
+    id purchaseController;
+    id subscriptionController;
 }
 
 @end

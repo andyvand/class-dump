@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.TransformBucket
 {
-    MISSING_TYPE *transforms;
-    MISSING_TYPE *colors;
+    id transforms;
+    id colors;
 }
 
 @end

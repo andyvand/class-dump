@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _MPCSleepTimerController
 {
-    MISSING_TYPE *playbackEngine;
-    MISSING_TYPE *fadeOutDuration;
-    MISSING_TYPE *timer;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *mode;
-    MISSING_TYPE *engineObserver;
-    MISSING_TYPE *observedChapter;
+    id playbackEngine;
+    id fadeOutDuration;
+    id timer;
+    id identifier;
+    id mode;
+    id engineObserver;
+    id observedChapter;
 }
 
 - (void);

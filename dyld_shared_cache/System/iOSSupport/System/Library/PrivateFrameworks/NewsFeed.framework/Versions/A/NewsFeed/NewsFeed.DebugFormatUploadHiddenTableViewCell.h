@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadHiddenTableViewCell
 {
-    MISSING_TYPE *button;
-    MISSING_TYPE *onTap;
+    id button;
+    id onTap;
 }
 
 - (id);

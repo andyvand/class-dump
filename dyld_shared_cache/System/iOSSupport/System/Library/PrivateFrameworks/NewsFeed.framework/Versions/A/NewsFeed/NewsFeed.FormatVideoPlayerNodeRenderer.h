@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatVideoPlayerNodeRenderer
 {
-    MISSING_TYPE *imageRenderer;
-    MISSING_TYPE *reuseManager;
+    id imageRenderer;
+    id reuseManager;
 }
 
 @end

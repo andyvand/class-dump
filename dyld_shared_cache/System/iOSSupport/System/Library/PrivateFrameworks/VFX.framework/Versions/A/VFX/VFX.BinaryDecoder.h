@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.BinaryDecoder
 {
-    MISSING_TYPE *options;
-    MISSING_TYPE *userInfo;
+    id options;
+    id userInfo;
 }
 
 @end

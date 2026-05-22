@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.AuthoringNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.AuthoringSubGraphNode : VFX.AuthoringNode
 {
-    MISSING_TYPE *graph;
+    id graph;
 }
 
 @end

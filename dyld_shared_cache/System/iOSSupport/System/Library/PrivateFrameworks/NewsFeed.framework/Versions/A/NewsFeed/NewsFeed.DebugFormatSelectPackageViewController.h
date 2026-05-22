@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatSelectPackageViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *editorURL;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *debugFormatService;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *templates;
-    MISSING_TYPE *selectedTemplate;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *$__lazy_storage_$_nextBarButtonItem;
+    id editor;
+    id editorURL;
+    id styler;
+    id debugFormatService;
+    id coverViewManager;
+    id templates;
+    id selectedTemplate;
+    id tableView;
+    id $__lazy_storage_$_nextBarButtonItem;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UILightEffectTransitionController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *targetVisibility;
-    MISSING_TYPE *states;
+    id delegate;
+    id targetVisibility;
+    id states;
 }
 
 @end

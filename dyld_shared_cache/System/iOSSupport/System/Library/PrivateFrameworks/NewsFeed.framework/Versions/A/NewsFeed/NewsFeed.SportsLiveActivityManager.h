@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsLiveActivityManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *availability;
-    MISSING_TYPE *cachedAvailability;
-    MISSING_TYPE *subscriptionUpdatesMulticaster;
-    MISSING_TYPE *availabilityUpdatesMulticaster;
-    MISSING_TYPE *task;
+    id $defaultActor;
+    id availability;
+    id cachedAvailability;
+    id subscriptionUpdatesMulticaster;
+    id availabilityUpdatesMulticaster;
+    id task;
 }
 
 @end

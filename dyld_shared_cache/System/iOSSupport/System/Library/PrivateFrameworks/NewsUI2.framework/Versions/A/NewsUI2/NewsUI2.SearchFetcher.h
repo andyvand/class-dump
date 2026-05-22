@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchFetcher
 {
-    MISSING_TYPE *connection;
-    MISSING_TYPE *configManager;
-    MISSING_TYPE *configPromise;
-    MISSING_TYPE *searchEndpointConfigs;
-    MISSING_TYPE *searchEndpointConfigManager;
-    MISSING_TYPE *purchaseProvider;
-    MISSING_TYPE *bundleSubscriptionProvider;
-    MISSING_TYPE *userInterfaceIdiom;
-    MISSING_TYPE *storefrontID;
-    MISSING_TYPE *queryContextManager;
-    MISSING_TYPE *locationRegionManager;
-    MISSING_TYPE *queryContext;
-    MISSING_TYPE *localAreas;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *featureAvailability;
+    id connection;
+    id configManager;
+    id configPromise;
+    id searchEndpointConfigs;
+    id searchEndpointConfigManager;
+    id purchaseProvider;
+    id bundleSubscriptionProvider;
+    id userInterfaceIdiom;
+    id storefrontID;
+    id queryContextManager;
+    id locationRegionManager;
+    id queryContext;
+    id localAreas;
+    id logger;
+    id featureAvailability;
 }
 
 - (id);

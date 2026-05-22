@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI2.DemoCameraState
 {
-    MISSING_TYPE *_player;
-    MISSING_TYPE *_shouldOverrideWithSnapshots;
-    MISSING_TYPE *_overrideVisibility;
-    MISSING_TYPE *_$observationRegistrar;
+    id _player;
+    id _shouldOverrideWithSnapshots;
+    id _overrideVisibility;
+    id _$observationRegistrar;
 }
 
 @end

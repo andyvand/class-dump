@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioPlaybackCommandHandler
 {
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *playbackConductor;
-    MISSING_TYPE *audioPlaybackTracker;
-    MISSING_TYPE *playbackQueue;
-    MISSING_TYPE *resumeSlot;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *offlineArticleManager;
-    MISSING_TYPE *offlineAlertControllerFactory;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *sceneProvider;
+    id dataManager;
+    id playbackConductor;
+    id audioPlaybackTracker;
+    id playbackQueue;
+    id resumeSlot;
+    id bundleSubscriptionManager;
+    id offlineManager;
+    id offlineArticleManager;
+    id offlineAlertControllerFactory;
+    id commandCenter;
+    id sceneProvider;
 }
 
 - (void);

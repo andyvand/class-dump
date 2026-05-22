@@ -6,17 +6,15 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.TransportableState.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.PlayingState : MediaPlaybackCore.TransportableState
 {
-    MISSING_TYPE *resumeOnEnter;
-    MISSING_TYPE *isStalled;
-    MISSING_TYPE *lastPlayingItemID;
-    MISSING_TYPE *recentItemChangeEvent;
-    MISSING_TYPE *playbackStopReason;
-    MISSING_TYPE *playbackStopRecoveryTimer;
-    MISSING_TYPE *playbackStopRecoveryDelay;
+    id resumeOnEnter;
+    id isStalled;
+    id lastPlayingItemID;
+    id recentItemChangeEvent;
+    id playbackStopReason;
+    id playbackStopRecoveryTimer;
+    id playbackStopRecoveryDelay;
 }
 
 @end

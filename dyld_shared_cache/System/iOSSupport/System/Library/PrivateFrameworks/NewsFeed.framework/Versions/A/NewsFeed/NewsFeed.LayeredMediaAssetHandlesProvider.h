@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.LayeredMediaAssetHandlesProvider
 {
-    MISSING_TYPE *variantFactory;
-    MISSING_TYPE *imageVariantSelector;
-    MISSING_TYPE *videoVariantSelector;
-    MISSING_TYPE *options;
+    id variantFactory;
+    id imageVariantSelector;
+    id videoVariantSelector;
+    id options;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContentShortcutsBlueprintViewCellProvider
 {
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *tipSourceManager;
-    MISSING_TYPE *unavailableItemAlpha;
+    id renderer;
+    id tipSourceManager;
+    id unavailableItemAlpha;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.FrameAllocator
 {
-    MISSING_TYPE *data;
-    MISSING_TYPE *dataAllocated;
-    MISSING_TYPE *extraDatas;
+    id data;
+    id dataAllocated;
+    id extraDatas;
 }
 
 @end

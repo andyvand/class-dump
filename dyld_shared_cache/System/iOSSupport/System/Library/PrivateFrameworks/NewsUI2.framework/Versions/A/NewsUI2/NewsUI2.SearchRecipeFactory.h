@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchRecipeFactory
 {
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *tagFactory;
-    MISSING_TYPE *recipeAccessProvider;
+    id assetManager;
+    id tagFactory;
+    id recipeAccessProvider;
 }
 
 @end

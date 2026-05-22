@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.JSPlatformObject
 {
-    MISSING_TYPE *bag;
-    MISSING_TYPE *process;
+    id bag;
+    id process;
 }
 
 - (id);

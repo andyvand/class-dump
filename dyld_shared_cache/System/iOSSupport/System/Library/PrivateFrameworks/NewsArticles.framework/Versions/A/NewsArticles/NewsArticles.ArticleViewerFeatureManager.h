@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleViewerFeatureManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *currentPage;
-    MISSING_TYPE *providers;
-    MISSING_TYPE *providerState;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *tipSourceManager;
+    id delegate;
+    id currentPage;
+    id providers;
+    id providerState;
+    id featureAvailability;
+    id tipSourceManager;
 }
 
 @end

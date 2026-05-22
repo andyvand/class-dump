@@ -6,13 +6,11 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class MISSING_TYPE;
-
 @interface _UINavigationBarHostedViewWrapper : _UITouchPassthroughView
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *itemView;
-    MISSING_TYPE *model;
+    id id;
+    id itemView;
+    id model;
 }
 
 - (id);

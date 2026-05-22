@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedPrerollAdRequester
 {
-    MISSING_TYPE *scheduledRequestIdentifiers;
-    MISSING_TYPE *scheduledRequests;
-    MISSING_TYPE *requestManager;
-    MISSING_TYPE *requestStore;
-    MISSING_TYPE *journal;
-    MISSING_TYPE *lock;
+    id scheduledRequestIdentifiers;
+    id scheduledRequests;
+    id requestManager;
+    id requestStore;
+    id journal;
+    id lock;
 }
 
 @end

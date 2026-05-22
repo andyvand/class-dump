@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.BiometricBindingController
 {
-    MISSING_TYPE *biometricsHelper;
-    MISSING_TYPE *eligibilityHelper;
-    MISSING_TYPE *proofingFlowManager;
+    id biometricsHelper;
+    id eligibilityHelper;
+    id proofingFlowManager;
 }
 
 @end

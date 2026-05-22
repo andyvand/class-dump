@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfArticleModelFactory
 {
-    MISSING_TYPE *feedModelFactory;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *allowFollowing;
+    id feedModelFactory;
+    id paidAccessChecker;
+    id readingList;
+    id allowFollowing;
 }
 
 @end

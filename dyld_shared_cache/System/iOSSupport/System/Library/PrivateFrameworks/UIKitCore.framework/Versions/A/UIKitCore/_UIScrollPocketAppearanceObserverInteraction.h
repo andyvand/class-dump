@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIView, _UIScrollPocketCollectorInteraction;
+@class NSString, UIView, _UIScrollPocketCollectorInteraction;
 @protocol _UIScrollPocketAppearanceObserver;
 
 @interface _UIScrollPocketAppearanceObserverInteraction
 {
-    MISSING_TYPE *glassFrostValues;
+    id glassFrostValues;
     _UIScrollPocketCollectorInteraction *collectorInteraction;
     void observer;
     void _view;

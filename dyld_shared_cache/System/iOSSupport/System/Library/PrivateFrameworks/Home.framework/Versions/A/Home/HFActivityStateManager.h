@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HFActivityStateManager
 {
-    MISSING_TYPE *home;
-    MISSING_TYPE *currentHomeActivityState;
-    MISSING_TYPE *holdState;
-    MISSING_TYPE *isHomeActivityStateAvailable;
+    id home;
+    id currentHomeActivityState;
+    id holdState;
+    id isHomeActivityStateAvailable;
 }
 
 - (void);

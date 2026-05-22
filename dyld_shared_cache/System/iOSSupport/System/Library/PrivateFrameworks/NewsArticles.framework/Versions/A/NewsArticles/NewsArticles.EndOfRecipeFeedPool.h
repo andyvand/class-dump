@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfRecipeFeedPool
 {
-    MISSING_TYPE *sourceRecipe;
-    MISSING_TYPE *fetchTask;
+    id sourceRecipe;
+    id fetchTask;
 }
 
 @end

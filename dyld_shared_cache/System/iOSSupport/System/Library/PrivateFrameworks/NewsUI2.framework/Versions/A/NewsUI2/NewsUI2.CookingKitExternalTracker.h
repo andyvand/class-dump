@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.CookingKitExternalTracker
 {
-    MISSING_TYPE *_baseTrackers;
-    MISSING_TYPE *_cookingSessions;
-    MISSING_TYPE *_groceryListSessions;
-    MISSING_TYPE *_cookingRecipes;
-    MISSING_TYPE *_groceryListRecipes;
-    MISSING_TYPE *recipeService;
+    id _baseTrackers;
+    id _cookingSessions;
+    id _groceryListSessions;
+    id _cookingRecipes;
+    id _groceryListRecipes;
+    id recipeService;
 }
 
 @end

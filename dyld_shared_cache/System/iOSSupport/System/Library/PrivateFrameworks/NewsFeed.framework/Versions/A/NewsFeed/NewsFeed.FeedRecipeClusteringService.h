@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedRecipeClusteringService
 {
-    MISSING_TYPE *clusteringService;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *recipeService;
+    id clusteringService;
+    id personalizationService;
+    id recipeService;
 }
 
 @end

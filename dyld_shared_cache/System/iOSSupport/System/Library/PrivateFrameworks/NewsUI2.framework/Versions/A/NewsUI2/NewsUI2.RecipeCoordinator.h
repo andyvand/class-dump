@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeCoordinator
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *context;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *recipeCoordinatorContainer;
+    id tracker;
+    id channelDataFactory;
+    id scienceDataFactory;
+    id context;
+    id newsActivityManager;
+    id recipeCoordinatorContainer;
 }
 
 @end

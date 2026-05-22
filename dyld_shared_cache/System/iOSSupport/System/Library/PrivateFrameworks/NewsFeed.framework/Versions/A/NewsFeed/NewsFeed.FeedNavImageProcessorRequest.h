@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedNavImageProcessorRequest
 {
-    MISSING_TYPE *assetHandles;
-    MISSING_TYPE *assetHandle;
-    MISSING_TYPE *feedNavImageSize;
-    MISSING_TYPE *scale;
-    MISSING_TYPE *cornerRadius;
-    MISSING_TYPE *continuousCurve;
-    MISSING_TYPE *userInterfaceStyle;
-    MISSING_TYPE *fillColor;
-    MISSING_TYPE *cacheIdentifier;
-    MISSING_TYPE *uniqueIdentifier;
-    MISSING_TYPE *imageScaleFactor;
-    MISSING_TYPE *maintainTargetSize;
+    id assetHandles;
+    id assetHandle;
+    id feedNavImageSize;
+    id scale;
+    id cornerRadius;
+    id continuousCurve;
+    id userInterfaceStyle;
+    id fillColor;
+    id cacheIdentifier;
+    id uniqueIdentifier;
+    id imageScaleFactor;
+    id maintainTargetSize;
 }
 
 @end

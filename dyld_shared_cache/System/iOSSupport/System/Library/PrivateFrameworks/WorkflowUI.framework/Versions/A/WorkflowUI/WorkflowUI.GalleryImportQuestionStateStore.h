@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.GalleryImportQuestionStateStore
 {
-    MISSING_TYPE *question;
-    MISSING_TYPE *hasSetValue;
+    id question;
+    id hasSetValue;
 }
 
 @end

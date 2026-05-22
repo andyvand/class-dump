@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.DebugSchedule
 {
-    MISSING_TYPE *seconds;
-    MISSING_TYPE *block;
-    MISSING_TYPE *label;
-    MISSING_TYPE *timer;
+    id seconds;
+    id block;
+    id label;
+    id timer;
 }
 
 - (id);

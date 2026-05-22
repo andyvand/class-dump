@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NAArticleFooterContext
 {
-    MISSING_TYPE *headline;
-    MISSING_TYPE *viewingSessionID;
-    MISSING_TYPE *articleGroupData;
+    id headline;
+    id viewingSessionID;
+    id articleGroupData;
 }
 
 - (id);

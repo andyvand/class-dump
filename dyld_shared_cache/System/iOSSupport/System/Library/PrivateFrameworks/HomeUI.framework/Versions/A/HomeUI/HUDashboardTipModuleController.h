@@ -6,11 +6,9 @@
 
 #import <HomeUI/HUItemModuleController.h>
 
-@class MISSING_TYPE;
-
 @interface HUDashboardTipModuleController : HUItemModuleController
 {
-    MISSING_TYPE *tipView;
+    id tipView;
 }
 
 - (id);

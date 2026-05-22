@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *offlineAlertControllerFactory;
-    MISSING_TYPE *featureAvailability;
+    id patterns;
+    id navigator;
+    id puzzleService;
+    id offlineManager;
+    id contentAvailabilityValidator;
+    id offlineAlertControllerFactory;
+    id featureAvailability;
 }
 
 @end

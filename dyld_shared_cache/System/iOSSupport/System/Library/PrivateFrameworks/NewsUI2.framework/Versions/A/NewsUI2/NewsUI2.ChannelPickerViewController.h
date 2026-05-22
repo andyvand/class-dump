@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelPickerViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *searchModule;
-    MISSING_TYPE *searchController;
-    MISSING_TYPE *searchResultsProcessor;
-    MISSING_TYPE *pickerType;
-    MISSING_TYPE *useAlternateTitle;
-    MISSING_TYPE *searchBar;
-    MISSING_TYPE *selectionProvider;
-    MISSING_TYPE *postPurchaseOnboardingTransitionDelegate;
-    MISSING_TYPE *$__lazy_storage_$_closeBarButtonItem;
-    MISSING_TYPE *didAppearOnce;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id searchModule;
+    id searchController;
+    id searchResultsProcessor;
+    id pickerType;
+    id useAlternateTitle;
+    id searchBar;
+    id selectionProvider;
+    id postPurchaseOnboardingTransitionDelegate;
+    id $__lazy_storage_$_closeBarButtonItem;
+    id didAppearOnce;
 }
 
 - (void);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface StocksAnalytics.HeartbeatEventService
 {
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *identificationService;
-    MISSING_TYPE *agreedToTermsAndConditionsProvider;
-    MISSING_TYPE *queue;
+    id appConfigManager;
+    id identificationService;
+    id agreedToTermsAndConditionsProvider;
+    id queue;
 }
 
 @end

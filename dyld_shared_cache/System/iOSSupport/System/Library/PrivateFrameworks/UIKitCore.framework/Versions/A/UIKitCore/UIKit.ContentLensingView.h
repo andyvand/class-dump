@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIKit._UIMaterialDefinitionView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.ContentLensingView : UIKit._UIMaterialDefinitionView
 {
-    MISSING_TYPE *portals;
+    id portals;
 }
 
 - (void);

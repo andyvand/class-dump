@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PlayerViewControllerBehavior
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *onGoingJumpToTimeInfo;
-    MISSING_TYPE *reporter;
+    id delegate;
+    id onGoingJumpToTimeInfo;
+    id reporter;
 }
 
 - (void);

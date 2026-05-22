@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatGeometryNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *scope;
-    MISSING_TYPE *_references;
-    MISSING_TYPE *_children;
-    MISSING_TYPE *flex;
+    id _identifier;
+    id scope;
+    id _references;
+    id _children;
+    id flex;
 }
 
 @end

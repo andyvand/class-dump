@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeBoxStyler
 {
-    MISSING_TYPE *baseStyler;
-    MISSING_TYPE *headlineFontMetrics;
-    MISSING_TYPE *subheadlineFontMetrics;
+    id baseStyler;
+    id headlineFontMetrics;
+    id subheadlineFontMetrics;
 }
 
 @end

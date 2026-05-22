@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.StackContainer
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *factory;
-    MISSING_TYPE *stack;
+    id $defaultActor;
+    id factory;
+    id stack;
 }
 
 @end

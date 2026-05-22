@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineCatalogSectionHeaderView
 {
-    MISSING_TYPE *showingPrefixLabel;
-    MISSING_TYPE *selectCategoryButton;
-    MISSING_TYPE *onSelectCategoryButtonTap;
-    MISSING_TYPE *sortByButton;
+    id showingPrefixLabel;
+    id selectCategoryButton;
+    id onSelectCategoryButtonTap;
+    id sortByButton;
 }
 
 - (id);

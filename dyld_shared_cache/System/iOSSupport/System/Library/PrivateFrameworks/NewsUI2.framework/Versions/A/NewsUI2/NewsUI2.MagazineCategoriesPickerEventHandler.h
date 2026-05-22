@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineCategoriesPickerEventHandler
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *interactor;
-    MISSING_TYPE *router;
-    MISSING_TYPE *tracker;
+    id delegate;
+    id interactor;
+    id router;
+    id tracker;
 }
 
 @end

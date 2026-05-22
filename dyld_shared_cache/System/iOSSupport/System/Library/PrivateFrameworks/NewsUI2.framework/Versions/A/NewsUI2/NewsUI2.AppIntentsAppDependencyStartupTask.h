@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AppIntentsAppDependencyStartupTask
 {
-    MISSING_TYPE *executionPhase;
-    MISSING_TYPE *appDependencyManager;
-    MISSING_TYPE *resolver;
+    id executionPhase;
+    id appDependencyManager;
+    id resolver;
 }
 
 @end

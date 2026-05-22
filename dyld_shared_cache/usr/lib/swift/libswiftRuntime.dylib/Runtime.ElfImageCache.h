@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface Runtime.ElfImageCache
 {
-    MISSING_TYPE *elf32;
-    MISSING_TYPE *elf64;
+    id elf32;
+    id elf64;
 }
 
 @end

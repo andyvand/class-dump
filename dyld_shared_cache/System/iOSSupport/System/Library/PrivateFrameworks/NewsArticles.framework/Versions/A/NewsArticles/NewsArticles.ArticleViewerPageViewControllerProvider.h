@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleViewerPageViewControllerProvider
 {
-    MISSING_TYPE *articleModule;
-    MISSING_TYPE *replicaModule;
-    MISSING_TYPE *interstitialAdModule;
-    MISSING_TYPE *paidAccessChecker;
+    id articleModule;
+    id replicaModule;
+    id interstitialAdModule;
+    id paidAccessChecker;
 }
 
 @end

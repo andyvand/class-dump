@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.AudioCallPunchOutMoreMenuViewModel
 {
-    MISSING_TYPE *call;
-    MISSING_TYPE *action;
-    MISSING_TYPE *menuItem;
+    id call;
+    id action;
+    id menuItem;
 }
 
 @end

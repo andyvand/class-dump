@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.AssetSlidingQueue.Position
 {
-    MISSING_TYPE *contentItemID;
-    MISSING_TYPE *queueItem;
-    MISSING_TYPE *assetTaskFinished;
-    MISSING_TYPE *error;
-    MISSING_TYPE *isSkippable;
-    MISSING_TYPE *hasBegunPlayback;
-    MISSING_TYPE *firstAudioFrameRendered;
-    MISSING_TYPE *isFullyDownloaded;
+    id contentItemID;
+    id queueItem;
+    id assetTaskFinished;
+    id error;
+    id isSkippable;
+    id hasBegunPlayback;
+    id firstAudioFrameRendered;
+    id isFullyDownloaded;
 }
 
 @end

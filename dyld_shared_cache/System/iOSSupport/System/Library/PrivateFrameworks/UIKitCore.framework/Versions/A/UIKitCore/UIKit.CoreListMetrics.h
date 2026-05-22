@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.CoreListMetrics
 {
-    MISSING_TYPE *temporaryConstants;
-    MISSING_TYPE *temporaryProvider;
+    id temporaryConstants;
+    id temporaryProvider;
 }
 
 @end

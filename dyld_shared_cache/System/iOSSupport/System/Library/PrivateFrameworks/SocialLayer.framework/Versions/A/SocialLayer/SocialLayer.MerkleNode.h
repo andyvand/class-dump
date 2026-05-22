@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SocialLayer.MerkleNode
 {
-    MISSING_TYPE *node;
-    MISSING_TYPE *parent;
-    MISSING_TYPE *left;
-    MISSING_TYPE *right;
+    id node;
+    id parent;
+    id left;
+    id right;
 }
 
 @end

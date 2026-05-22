@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface HFCameraRecordingEventManagerObserver
 {
-    MISSING_TYPE *recordingEventsByUUID;
+    id recordingEventsByUUID;
 }
 
 - (id);

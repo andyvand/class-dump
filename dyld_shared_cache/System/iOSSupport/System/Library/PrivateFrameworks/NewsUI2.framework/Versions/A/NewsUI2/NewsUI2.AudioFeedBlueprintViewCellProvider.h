@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedBlueprintViewCellProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *baseStyler;
-    MISSING_TYPE *feedItemRenderer;
-    MISSING_TYPE *blueprintProvider;
+    id delegate;
+    id baseStyler;
+    id feedItemRenderer;
+    id blueprintProvider;
 }
 
 @end

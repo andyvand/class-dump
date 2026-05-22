@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAnalytics.PrivacyValidationProvider
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *_privacyValidation;
+    id appConfigurationManager;
+    id _privacyValidation;
 }
 
 - (void);

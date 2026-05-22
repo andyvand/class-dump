@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ResetSportsLiveActivityStartCountTask
 {
-    MISSING_TYPE *executionPhase;
-    MISSING_TYPE *sportsLiveActivityManager;
+    id executionPhase;
+    id sportsLiveActivityManager;
 }
 
 @end

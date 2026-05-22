@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioHScrollBlueprintAnimator
 {
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *viewProvider;
+    id blueprintProvider;
+    id viewProvider;
 }
 
 @end

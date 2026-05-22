@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleViewerInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *coordinator;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *pageBlueprintManager;
-    MISSING_TYPE *pageBlueprintFactory;
-    MISSING_TYPE *insertAdvertisementBlueprintModifier;
-    MISSING_TYPE *pageTracker;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *historyService;
-    MISSING_TYPE *offlineManager;
+    id delegate;
+    id coordinator;
+    id dataManager;
+    id blueprintProvider;
+    id pageBlueprintManager;
+    id pageBlueprintFactory;
+    id insertAdvertisementBlueprintModifier;
+    id pageTracker;
+    id paidAccessChecker;
+    id commandCenter;
+    id historyService;
+    id offlineManager;
 }
 
 - (void);

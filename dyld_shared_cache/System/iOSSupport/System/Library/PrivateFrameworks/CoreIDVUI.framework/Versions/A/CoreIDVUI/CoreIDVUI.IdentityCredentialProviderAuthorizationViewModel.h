@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityCredentialProviderAuthorizationViewModel
 {
-    MISSING_TYPE *presentmentRequest;
-    MISSING_TYPE *connection;
-    MISSING_TYPE *onDismissed;
-    MISSING_TYPE *_presentmentContext;
-    MISSING_TYPE *_$observationRegistrar;
+    id presentmentRequest;
+    id connection;
+    id onDismissed;
+    id _presentmentContext;
+    id _$observationRegistrar;
 }
 
 @end

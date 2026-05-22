@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PatternSectionDecorationView
 {
-    MISSING_TYPE *patternView;
-    MISSING_TYPE *model;
-    MISSING_TYPE *token;
+    id patternView;
+    id model;
+    id token;
 }
 
 - (id);

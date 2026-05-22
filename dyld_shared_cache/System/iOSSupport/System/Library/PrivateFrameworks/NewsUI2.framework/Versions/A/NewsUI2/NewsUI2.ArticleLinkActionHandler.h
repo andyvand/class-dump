@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ArticleLinkActionHandler
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *urlHandler;
-    MISSING_TYPE *contextBuilder;
-    MISSING_TYPE *featureAvailability;
+    id navigator;
+    id urlHandler;
+    id contextBuilder;
+    id featureAvailability;
 }
 
 @end

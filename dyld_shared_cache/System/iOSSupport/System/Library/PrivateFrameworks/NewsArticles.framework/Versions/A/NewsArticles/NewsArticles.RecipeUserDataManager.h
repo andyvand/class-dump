@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeUserDataManager
 {
-    MISSING_TYPE *recipeUserDataStore;
-    MISSING_TYPE *_multicaster;
-    MISSING_TYPE *_task;
-    MISSING_TYPE *taskQueueStream;
-    MISSING_TYPE *taskQueueContinuation;
-    MISSING_TYPE *taskQueueWorkTask;
+    id recipeUserDataStore;
+    id _multicaster;
+    id _task;
+    id taskQueueStream;
+    id taskQueueContinuation;
+    id taskQueueWorkTask;
 }
 
 @end

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SharedItemManager
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *sharedItemCenter;
-    MISSING_TYPE *sortedArticleIDs;
-    MISSING_TYPE *itemsByArticleID;
-    MISSING_TYPE *modificationDate;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *viewContextsByArticleID;
-    MISSING_TYPE *$__lazy_storage_$_initializingTask;
+    id lock;
+    id sharedItemCenter;
+    id sortedArticleIDs;
+    id itemsByArticleID;
+    id modificationDate;
+    id observers;
+    id viewContextsByArticleID;
+    id $__lazy_storage_$_initializingTask;
 }
 
 - (id);

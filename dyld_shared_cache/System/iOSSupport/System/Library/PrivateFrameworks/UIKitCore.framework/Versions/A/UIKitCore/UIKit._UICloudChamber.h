@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UICloudChamber : UIView
 {
-    MISSING_TYPE *emitterCell;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *appliedSpriteHash;
+    id emitterCell;
+    id configuration;
+    id appliedSpriteHash;
 }
 
 + (Class);

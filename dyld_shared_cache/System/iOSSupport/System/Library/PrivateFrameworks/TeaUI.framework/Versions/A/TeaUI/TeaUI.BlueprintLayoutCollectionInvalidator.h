@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintLayoutCollectionInvalidator
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *resizingItemSizes;
-    MISSING_TYPE *resizingGroupItemIdentifiers;
-    MISSING_TYPE *layoutCollectionProvider;
-    MISSING_TYPE *impressionTracking;
-    MISSING_TYPE *animationQueue;
-    MISSING_TYPE *animationGroup;
+    id lock;
+    id resizingItemSizes;
+    id resizingGroupItemIdentifiers;
+    id layoutCollectionProvider;
+    id impressionTracking;
+    id animationQueue;
+    id animationGroup;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.SpatialSceneClassificationProvider
 {
-    MISSING_TYPE *_cSpatialSceneClassificationProvider;
-    MISSING_TYPE *_cSpatialSceneClassificationConfiguration;
-    MISSING_TYPE *updateQueue;
-    MISSING_TYPE *updateContinuations;
+    id _cSpatialSceneClassificationProvider;
+    id _cSpatialSceneClassificationConfiguration;
+    id updateQueue;
+    id updateContinuations;
 }
 
 @end

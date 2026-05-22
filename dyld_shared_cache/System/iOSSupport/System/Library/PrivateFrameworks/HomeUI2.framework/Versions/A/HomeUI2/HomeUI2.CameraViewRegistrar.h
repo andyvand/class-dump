@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI2.CameraViewRegistrar
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *actions;
-    MISSING_TYPE *batchManager;
-    MISSING_TYPE *deactivatedScenes;
-    MISSING_TYPE *_registrations;
+    id $defaultActor;
+    id actions;
+    id batchManager;
+    id deactivatedScenes;
+    id _registrations;
 }
 
 @end

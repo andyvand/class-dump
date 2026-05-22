@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.UnpackJetpackPhase
 {
-    MISSING_TYPE *keyURLs;
-    MISSING_TYPE *artifactStoreURL;
-    MISSING_TYPE *bundleOutputURL;
-    MISSING_TYPE *verifySignature;
+    id keyURLs;
+    id artifactStoreURL;
+    id bundleOutputURL;
+    id verifySignature;
 }
 
 @end

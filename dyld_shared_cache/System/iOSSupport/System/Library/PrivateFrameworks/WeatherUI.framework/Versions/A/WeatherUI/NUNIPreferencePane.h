@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC9WeatherUI14PreferencePane;
+@class WeatherUI.PreferencePane;
 @protocol NUNIPreferencePaneDelegate;
 
 @interface NUNIPreferencePane
 {
-    _TtC9WeatherUI14PreferencePane *_preference;
+    WeatherUI.PreferencePane *_preference;
     id <NUNIPreferencePaneDelegate> _delegate;
 }
 

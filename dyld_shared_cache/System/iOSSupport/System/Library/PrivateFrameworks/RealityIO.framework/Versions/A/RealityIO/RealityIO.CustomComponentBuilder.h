@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.CustomComponentBuilder
 {
-    MISSING_TYPE *didRun;
-    MISSING_TYPE *registeredComponentTypeName;
-    MISSING_TYPE *registeredComponentRef;
-    MISSING_TYPE *infoID;
-    MISSING_TYPE *buildOrder;
-    MISSING_TYPE *session;
+    id didRun;
+    id registeredComponentTypeName;
+    id registeredComponentRef;
+    id infoID;
+    id buildOrder;
+    id session;
 }
 
 @end

@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC5UIKit33_UIFlexInteractionMenuVariantSpec, _TtC5UIKit34_UIFlexInteractionLargeVariantSpec, _TtC5UIKit34_UIFlexInteractionLoupeVariantSpec, _TtC5UIKit34_UIFlexInteractionSmallVariantSpec, _TtC5UIKit39_UIFlexInteractionSmallLoupeVariantSpec, _TtC5UIKit39_UIFlexInteractionUltraSmallVariantSpec;
+@class UIKit._UIFlexInteractionLargeVariantSpec, UIKit._UIFlexInteractionLoupeVariantSpec, UIKit._UIFlexInteractionMenuVariantSpec, UIKit._UIFlexInteractionSmallLoupeVariantSpec, UIKit._UIFlexInteractionSmallVariantSpec, UIKit._UIFlexInteractionUltraSmallVariantSpec;
 
 @interface UIKit._UIFlexInteractionSpec
 {
-    _TtC5UIKit39_UIFlexInteractionUltraSmallVariantSpec *ultraSmall;
-    _TtC5UIKit34_UIFlexInteractionSmallVariantSpec *small;
-    _TtC5UIKit34_UIFlexInteractionLargeVariantSpec *large;
-    _TtC5UIKit34_UIFlexInteractionLoupeVariantSpec *loupe;
-    _TtC5UIKit39_UIFlexInteractionSmallLoupeVariantSpec *smallLoupe;
-    _TtC5UIKit33_UIFlexInteractionMenuVariantSpec *menu;
+    UIKit._UIFlexInteractionUltraSmallVariantSpec *ultraSmall;
+    UIKit._UIFlexInteractionSmallVariantSpec *small;
+    UIKit._UIFlexInteractionLargeVariantSpec *large;
+    UIKit._UIFlexInteractionLoupeVariantSpec *loupe;
+    UIKit._UIFlexInteractionSmallLoupeVariantSpec *smallLoupe;
+    UIKit._UIFlexInteractionMenuVariantSpec *menu;
 }
 
 + (id);
@@ -35,12 +35,12 @@
 - (id)aÿ;
 
 // Remaining properties
-@property(nonatomic, retain) _TtC5UIKit34_UIFlexInteractionLargeVariantSpec *large; // @synthesize large;
-@property(nonatomic, retain) _TtC5UIKit34_UIFlexInteractionLoupeVariantSpec *loupe; // @synthesize loupe;
-@property(nonatomic, retain) _TtC5UIKit33_UIFlexInteractionMenuVariantSpec *menu; // @synthesize menu;
-@property(nonatomic, retain) _TtC5UIKit34_UIFlexInteractionSmallVariantSpec *small; // @synthesize small;
-@property(nonatomic, retain) _TtC5UIKit39_UIFlexInteractionSmallLoupeVariantSpec *smallLoupe; // @synthesize smallLoupe;
-@property(nonatomic, retain) _TtC5UIKit39_UIFlexInteractionUltraSmallVariantSpec *ultraSmall; // @synthesize ultraSmall;
+@property(nonatomic, retain) UIKit._UIFlexInteractionLargeVariantSpec *large; // @synthesize large;
+@property(nonatomic, retain) UIKit._UIFlexInteractionLoupeVariantSpec *loupe; // @synthesize loupe;
+@property(nonatomic, retain) UIKit._UIFlexInteractionMenuVariantSpec *menu; // @synthesize menu;
+@property(nonatomic, retain) UIKit._UIFlexInteractionSmallVariantSpec *small; // @synthesize small;
+@property(nonatomic, retain) UIKit._UIFlexInteractionSmallLoupeVariantSpec *smallLoupe; // @synthesize smallLoupe;
+@property(nonatomic, retain) UIKit._UIFlexInteractionUltraSmallVariantSpec *ultraSmall; // @synthesize ultraSmall;
 
 @end
 

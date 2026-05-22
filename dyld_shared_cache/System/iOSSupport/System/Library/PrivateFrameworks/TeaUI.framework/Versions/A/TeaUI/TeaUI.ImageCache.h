@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ImageCache
 {
-    MISSING_TYPE *operationQueue;
-    MISSING_TYPE *underlyingCache;
-    MISSING_TYPE *fetchDeduper;
-    MISSING_TYPE *mainLRU;
+    id operationQueue;
+    id underlyingCache;
+    id fetchDeduper;
+    id mainLRU;
 }
 
 - (void);

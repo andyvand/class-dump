@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeSharingHandler
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *recipeCache;
-    MISSING_TYPE *tracker;
+    id commandCenter;
+    id recipeCache;
+    id tracker;
 }
 
 @end

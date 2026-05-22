@@ -6,13 +6,11 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.State.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.ChangingQueueState : MediaPlaybackCore.State
 {
-    MISSING_TYPE *delayedActionWhenReady;
-    MISSING_TYPE *initialLoadFailure;
-    MISSING_TYPE *initialLoadShouldPlay;
+    id delayedActionWhenReady;
+    id initialLoadFailure;
+    id initialLoadShouldPlay;
 }
 
 @end

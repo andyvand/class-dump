@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfRecipeEventHandler
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *interactor;
-    MISSING_TYPE *router;
-    MISSING_TYPE *coordinator;
+    id delegate;
+    id interactor;
+    id router;
+    id coordinator;
 }
 
 @end

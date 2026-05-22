@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, PTUtil;
+@class PTUtil;
 
 @interface PTHumanDetections
 {
     struct PTHumanDetection _detectionsRaw[4];
     struct PTHumanDetection _detectionsFiltered[4];
-    MISSING_TYPE *_faceDetectionsRaw[4];
+    id _faceDetectionsRaw[4];
     PTUtil *_util;
     float _deadzone;
     float _deadzoneMax;
     float _faceRectOverlapThreshold;
-    MISSING_TYPE *_faceDetectionsFiltered[4];
+    id _faceDetectionsFiltered[4];
     int _faceDetectionsFilteredState[4];
     int _detectionsRawCount;
 }
@@ -23,9 +23,9 @@
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE **);
+- (id *);
 - (int *);
-- (MISSING_TYPE **);
+- (id *);
 - (int);
 - (struct PTHumanDetection *);
 - (struct PTHumanDetection *);
@@ -39,8 +39,8 @@
 @property(readonly) struct PTHumanDetection *detectionsFiltered;
 @property(readonly) struct PTHumanDetection *detectionsRaw;
 @property(readonly) int detectionsRawCount; // @synthesize detectionsRawCount=_detectionsRawCount;
-@property(readonly) MISSING_TYPE **faceDetectionsFiltered;
-@property(readonly) MISSING_TYPE **faceDetectionsRaw;
+@property(readonly) id *faceDetectionsFiltered;
+@property(readonly) id *faceDetectionsRaw;
 
 @end
 

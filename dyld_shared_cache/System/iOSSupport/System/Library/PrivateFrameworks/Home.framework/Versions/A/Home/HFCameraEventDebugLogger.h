@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HFCameraEventDebugLogger
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *cameraProfile;
-    MISSING_TYPE *fetchCounter;
-    MISSING_TYPE *updateCounter;
-    MISSING_TYPE *previousViewModelEventsByUUID;
-    MISSING_TYPE *previousViewModelDateInterval;
+    id $defaultActor;
+    id cameraProfile;
+    id fetchCounter;
+    id updateCounter;
+    id previousViewModelEventsByUUID;
+    id previousViewModelDateInterval;
 }
 
 + (id);

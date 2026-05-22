@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SwipeActionContainerView
 {
-    MISSING_TYPE *swipeActionViews;
-    MISSING_TYPE *isAutoActionEnabled;
-    MISSING_TYPE *isAutoActionActivated;
-    MISSING_TYPE *presentation;
-    MISSING_TYPE *autoActionThreshold;
-    MISSING_TYPE *pinningEdge;
-    MISSING_TYPE *feedbackGenerator;
-    MISSING_TYPE *swipeActionViewWidth;
-    MISSING_TYPE *minimumSwipeActionAreaWidth;
+    id swipeActionViews;
+    id isAutoActionEnabled;
+    id isAutoActionActivated;
+    id presentation;
+    id autoActionThreshold;
+    id pinningEdge;
+    id feedbackGenerator;
+    id swipeActionViewWidth;
+    id minimumSwipeActionAreaWidth;
 }
 
 - (id);

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.VisualDepthProvider
 {
-    MISSING_TYPE *_cVisualDepthProvider;
-    MISSING_TYPE *_cVisualDepthConfiguration;
-    MISSING_TYPE *leftDepthSurfacePoolsContinuations;
-    MISSING_TYPE *rightDepthSurfacePoolsContinuations;
-    MISSING_TYPE *leftConfidenceSurfacePoolsContinuations;
-    MISSING_TYPE *rightConfidenceSurfacePoolsContinuations;
-    MISSING_TYPE *leftOcclusionSurfacePoolsContinuations;
-    MISSING_TYPE *rightOcclusionSurfacePoolsContinuations;
-    MISSING_TYPE *updateQueue;
+    id _cVisualDepthProvider;
+    id _cVisualDepthConfiguration;
+    id leftDepthSurfacePoolsContinuations;
+    id rightDepthSurfacePoolsContinuations;
+    id leftConfidenceSurfacePoolsContinuations;
+    id rightConfidenceSurfacePoolsContinuations;
+    id leftOcclusionSurfacePoolsContinuations;
+    id rightOcclusionSurfacePoolsContinuations;
+    id updateQueue;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface hvf.PartRenderer.PartParameters
 {
-    MISSING_TYPE *base;
-    MISSING_TYPE *basePartIndex;
-    MISSING_TYPE *partIndex;
-    MISSING_TYPE *treeSubpartOffset;
-    MISSING_TYPE *treeAxisOffset;
+    id base;
+    id basePartIndex;
+    id partIndex;
+    id treeSubpartOffset;
+    id treeAxisOffset;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.TableOfContentsHeaderView
 {
-    MISSING_TYPE *coverViewButton;
-    MISSING_TYPE *subscribeButton;
-    MISSING_TYPE *dateLabel;
-    MISSING_TYPE *descriptionLabel;
+    id coverViewButton;
+    id subscribeButton;
+    id dateLabel;
+    id descriptionLabel;
 }
 
 - (id);

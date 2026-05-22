@@ -6,18 +6,16 @@
 
 #import <Portrait/PTTimedStabilizationMetadata.h>
 
-@class MISSING_TYPE;
-
 @interface PTTimedStabilizationMetadataVersion1 : PTTimedStabilizationMetadata
 {
-    CDStruct_8e0628e6 _stabilizationHomography;
+    CDStruct_1fe29af2 _stabilizationHomography;
     _Bool _hasStabilizationHomography;
-    MISSING_TYPE *_estimatedMotionBlur;
+    id _estimatedMotionBlur;
     _Bool _hasEstimatedMotionBlur;
 }
 
 - (_Bool);
-- (CDStruct_8e0628e6);
+- (CDStruct_1fe29af2);
 - (unsigned int);
 - (void);
 - (id);
@@ -25,13 +23,13 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *estimatedMotionBlur;
+@property(nonatomic) id estimatedMotionBlur;
 @property(readonly) _Bool hasEstimatedMotionBlur; // @synthesize hasEstimatedMotionBlur=_hasEstimatedMotionBlur;
 @property(readonly) _Bool hasStabilizationHomography; // @synthesize hasStabilizationHomography=_hasStabilizationHomography;
-@property(nonatomic) CDStruct_8e0628e6 stabilizationHomography;
+@property(nonatomic) CDStruct_1fe29af2 stabilizationHomography;
 
 @end
 

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelHeroResult
 {
-    MISSING_TYPE *headlines;
-    MISSING_TYPE *selectionStrategy;
+    id headlines;
+    id selectionStrategy;
 }
 
 @end

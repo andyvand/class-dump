@@ -4,27 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsArticles.SliderView
 {
-    MISSING_TYPE *stackView;
-    MISSING_TYPE *elapsedTrack;
-    MISSING_TYPE *remainingTrack;
-    MISSING_TYPE *$__lazy_storage_$_elapsedTrackWidthConstraint;
-    MISSING_TYPE *$__lazy_storage_$_trackHeightConstraint;
-    MISSING_TYPE *feedbackGenerator;
-    MISSING_TYPE *startingWidth;
-    MISSING_TYPE *lastSeenBounds;
-    MISSING_TYPE *$__lazy_storage_$_panRecognizer;
-    MISSING_TYPE *trackLayoutGuide;
-    MISSING_TYPE *elapsedTrackColor;
-    MISSING_TYPE *remainingTrackColor;
-    MISSING_TYPE *trackingColor;
-    MISSING_TYPE *value;
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *isTracking;
-    MISSING_TYPE *valueChangedHandler;
+    id stackView;
+    id elapsedTrack;
+    id remainingTrack;
+    id $__lazy_storage_$_elapsedTrackWidthConstraint;
+    id $__lazy_storage_$_trackHeightConstraint;
+    id feedbackGenerator;
+    id startingWidth;
+    id lastSeenBounds;
+    id $__lazy_storage_$_panRecognizer;
+    id trackLayoutGuide;
+    id elapsedTrackColor;
+    id remainingTrackColor;
+    id trackingColor;
+    id value;
+    id isEnabled;
+    id isTracking;
+    id valueChangedHandler;
 }
 
 - (void);

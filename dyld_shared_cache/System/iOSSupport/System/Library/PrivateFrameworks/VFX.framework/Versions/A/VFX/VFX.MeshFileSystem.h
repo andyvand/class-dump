@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.MeshFileSystem
 {
-    MISSING_TYPE *addFileRuntime;
-    MISSING_TYPE *meshParticleRendererQuery;
-    MISSING_TYPE *modelRenderersQuery;
-    MISSING_TYPE *allMeshParticleRendererWithoutCollectionQuery;
-    MISSING_TYPE *allMaterialsWithoutCollectionQuery;
-    MISSING_TYPE *allMaterialsWithCollectionQuery;
+    id addFileRuntime;
+    id meshParticleRendererQuery;
+    id modelRenderersQuery;
+    id allMeshParticleRendererWithoutCollectionQuery;
+    id allMaterialsWithoutCollectionQuery;
+    id allMaterialsWithCollectionQuery;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.MotionManager
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *$__lazy_storage_$_displayLinkAnimator;
+    id observers;
+    id $__lazy_storage_$_displayLinkAnimator;
 }
 
 - (void);

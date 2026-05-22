@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineCatalogBlueprintViewCellProvider
 {
-    MISSING_TYPE *feedItemRenderer;
-    MISSING_TYPE *offlineIssueManager;
+    id feedItemRenderer;
+    id offlineIssueManager;
 }
 
 @end

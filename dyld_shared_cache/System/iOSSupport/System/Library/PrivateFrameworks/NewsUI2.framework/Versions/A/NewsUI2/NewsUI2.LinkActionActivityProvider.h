@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LinkActionActivityProvider
 {
-    MISSING_TYPE *router;
-    MISSING_TYPE *qualifier;
-    MISSING_TYPE *handler;
-    MISSING_TYPE *linkedContentProvider;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
+    id router;
+    id qualifier;
+    id handler;
+    id linkedContentProvider;
+    id commandCenter;
+    id tracker;
 }
 
 - (id);

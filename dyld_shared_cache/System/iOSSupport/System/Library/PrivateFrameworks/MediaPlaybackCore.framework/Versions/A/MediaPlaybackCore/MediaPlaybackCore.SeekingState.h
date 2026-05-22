@@ -6,12 +6,10 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.State.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.SeekingState : MediaPlaybackCore.State
 {
-    MISSING_TYPE *startTime;
-    MISSING_TYPE *metadata;
+    id startTime;
+    id metadata;
 }
 
 @end

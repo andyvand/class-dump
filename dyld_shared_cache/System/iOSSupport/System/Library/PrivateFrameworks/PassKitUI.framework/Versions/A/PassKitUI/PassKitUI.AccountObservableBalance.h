@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.AccountObservableBalance
 {
-    MISSING_TYPE *_balance;
-    MISSING_TYPE *_currencyCode;
+    id _balance;
+    id _currencyCode;
 }
 
 @end

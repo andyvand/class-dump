@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.SceneKitAssetSystem
 {
-    MISSING_TYPE *scenesToUpdate;
-    MISSING_TYPE *newNcenesToLoad;
+    id scenesToUpdate;
+    id newNcenesToLoad;
 }
 
 @end

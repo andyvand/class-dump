@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface UISliderTrackConfiguration
 {
-    MISSING_TYPE *_configuration;
+    id _configuration;
 }
 
 + (id);

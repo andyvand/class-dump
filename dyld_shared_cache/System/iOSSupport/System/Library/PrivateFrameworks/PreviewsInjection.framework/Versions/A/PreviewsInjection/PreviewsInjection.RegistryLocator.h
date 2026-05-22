@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.RegistryLocator
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *previewCache;
-    MISSING_TYPE *typeErasedCaches;
-    MISSING_TYPE *entryTypes;
+    id $defaultActor;
+    id previewCache;
+    id typeErasedCaches;
+    id entryTypes;
 }
 
 @end

@@ -6,11 +6,11 @@
 
 #import <UIKitCore/_UIContextMenuPresentationAnimation.h>
 
-@class NSArray, UITargetedPreview, UIViewFloatAnimatableProperty, _TtC5UIKit23_UILiquidMorphAnimation, _UIContentPlatterView, _UIContextMenuLayoutArbiterOutput, _UIContextMenuPlatformMetrics;
+@class NSArray, UIKit._UILiquidMorphAnimation, UITargetedPreview, UIViewFloatAnimatableProperty, _UIContentPlatterView, _UIContextMenuLayoutArbiterOutput, _UIContextMenuPlatformMetrics;
 
 @interface _UIContextMenuLiquidMorphPresentationAnimation : _UIContextMenuPresentationAnimation
 {
-    _TtC5UIKit23_UILiquidMorphAnimation *morphAnimation;
+    UIKit._UILiquidMorphAnimation *morphAnimation;
     UITargetedPreview *outgoingAnimationPreview;
     _UIContextMenuLayoutArbiterOutput *presentedLayout;
     UIViewFloatAnimatableProperty *animationProgress;
@@ -70,7 +70,7 @@
 @property(nonatomic, readonly) UIViewFloatAnimatableProperty *animationProgress; // @synthesize animationProgress;
 @property(nonatomic, readonly) _UIContentPlatterView *contentPlatterView;
 @property(nonatomic, readonly) _Bool isCompactMenu;
-@property(nonatomic, retain) _TtC5UIKit23_UILiquidMorphAnimation *morphAnimation; // @synthesize morphAnimation;
+@property(nonatomic, retain) UIKit._UILiquidMorphAnimation *morphAnimation; // @synthesize morphAnimation;
 @property(nonatomic, readonly) UITargetedPreview *morphPreviewFromAttachmentPoint;
 @property(nonatomic, retain) UITargetedPreview *outgoingAnimationPreview; // @synthesize outgoingAnimationPreview;
 @property(nonatomic, retain) _UIContextMenuLayoutArbiterOutput *presentedLayout; // @synthesize presentedLayout;

@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol IMSPICollaborationMessageListenerDelegate;
 
 @interface IMSPICollaborationMessageListener
 {
     void delegate;
-    MISSING_TYPE *listenerID;
-    MISSING_TYPE *connection;
+    id listenerID;
+    id connection;
 }
 
 - (id);

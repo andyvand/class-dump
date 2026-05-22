@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface os.OSSignpostIntervalState
 {
-    MISSING_TYPE *signpostID;
-    MISSING_TYPE *isOpen;
+    id signpostID;
+    id isOpen;
 }
 
 @end

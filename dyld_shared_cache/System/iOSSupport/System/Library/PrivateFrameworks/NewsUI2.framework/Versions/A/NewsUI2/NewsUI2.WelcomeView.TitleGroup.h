@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsUI2.WelcomeView.TitleGroup
 {
-    MISSING_TYPE *appIcon;
-    MISSING_TYPE *welcomeTitleLabel;
-    MISSING_TYPE *welcomeSubTitleLabel;
+    id appIcon;
+    id welcomeTitleLabel;
+    id welcomeSubTitleLabel;
 }
 
 - (void);

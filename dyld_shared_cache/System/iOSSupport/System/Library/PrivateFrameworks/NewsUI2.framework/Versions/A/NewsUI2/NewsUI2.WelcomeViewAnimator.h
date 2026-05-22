@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WelcomeViewAnimator
 {
-    MISSING_TYPE *view;
-    MISSING_TYPE *model;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *layoutAttributesFactory;
+    id view;
+    id model;
+    id renderer;
+    id layoutAttributesFactory;
 }
 
 @end

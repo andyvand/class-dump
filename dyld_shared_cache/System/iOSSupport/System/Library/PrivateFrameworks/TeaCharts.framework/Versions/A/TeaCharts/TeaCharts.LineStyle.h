@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.LineStyle
 {
-    MISSING_TYPE *stroke;
-    MISSING_TYPE *fill;
-    MISSING_TYPE *zoneStyles;
+    id stroke;
+    id fill;
+    id zoneStyles;
 }
 
 @end

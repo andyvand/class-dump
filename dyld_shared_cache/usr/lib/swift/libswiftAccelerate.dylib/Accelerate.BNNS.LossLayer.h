@@ -6,11 +6,9 @@
 
 #import <swiftAccelerate/Accelerate.BNNS.Layer.h>
 
-@class MISSING_TYPE;
-
 @interface Accelerate.BNNS.LossLayer : Accelerate.BNNS.Layer
 {
-    MISSING_TYPE *lossFunction;
+    id lossFunction;
 }
 
 @end

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedTracker
 {
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *blueprintLayoutProvider;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *issueModelFactory;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *supplementaryDataProvider;
-    MISSING_TYPE *articleViewingSession;
-    MISSING_TYPE *recipeViewingSession;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *feedDismissingManager;
+    id blueprintProvider;
+    id blueprintLayoutProvider;
+    id tracker;
+    id issueModelFactory;
+    id scienceDataFactory;
+    id channelDataFactory;
+    id articleDataFactory;
+    id supplementaryDataProvider;
+    id articleViewingSession;
+    id recipeViewingSession;
+    id puzzleHistoryService;
+    id contentAvailabilityValidator;
+    id feedDismissingManager;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeaturePromotionResolvedDataSourceFactory
 {
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *feedPersonalizationService;
-    MISSING_TYPE *subscriptionController;
+    id tagService;
+    id feedPersonalizationService;
+    id subscriptionController;
 }
 
 @end

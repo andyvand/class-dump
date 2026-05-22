@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatAnimationData
 {
-    MISSING_TYPE *style;
-    MISSING_TYPE *anchorPoint;
-    MISSING_TYPE *animations;
+    id style;
+    id anchorPoint;
+    id animations;
 }
 
 @end

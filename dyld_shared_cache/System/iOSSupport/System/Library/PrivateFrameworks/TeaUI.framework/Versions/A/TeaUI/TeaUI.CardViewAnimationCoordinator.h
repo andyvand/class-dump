@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CardViewAnimationCoordinator
 {
-    MISSING_TYPE *layoutOptions;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *parentDelegate;
-    MISSING_TYPE *behavior;
-    MISSING_TYPE *presentationState;
-    MISSING_TYPE *coordinatingCoordinators;
-    MISSING_TYPE *initialCoordinatingPresentationState;
-    MISSING_TYPE *dimmingAlpha;
-    MISSING_TYPE *animatingPresentationState;
-    MISSING_TYPE *coordinatingPresentationState;
-    MISSING_TYPE *rootView;
-    MISSING_TYPE *panView;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *dimmingView;
-    MISSING_TYPE *panGestureRecoginzer;
-    MISSING_TYPE *panLockState;
-    MISSING_TYPE *state;
-    MISSING_TYPE *session;
+    id layoutOptions;
+    id delegate;
+    id parentDelegate;
+    id behavior;
+    id presentationState;
+    id coordinatingCoordinators;
+    id initialCoordinatingPresentationState;
+    id dimmingAlpha;
+    id animatingPresentationState;
+    id coordinatingPresentationState;
+    id rootView;
+    id panView;
+    id contentView;
+    id dimmingView;
+    id panGestureRecoginzer;
+    id panLockState;
+    id state;
+    id session;
 }
 
 - (void);

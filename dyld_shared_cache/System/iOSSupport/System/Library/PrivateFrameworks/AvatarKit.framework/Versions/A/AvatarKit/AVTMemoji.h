@@ -6,7 +6,7 @@
 
 #import <AvatarKit/AVTAvatar.h>
 
-@class AVTAssetResourceCache, AVTAvatarBodyPose, AVTColorPreset, AVTComponent, AVTComponentInstance, AVTCompositor, AVTMemojiWrapDeformerDriverInfo, AVTPreset, AVTPresetStore, MISSING_TYPE, NSDictionary, VFXMaterial, VFXNode;
+@class AVTAssetResourceCache, AVTAvatarBodyPose, AVTColorPreset, AVTComponent, AVTComponentInstance, AVTCompositor, AVTMemojiWrapDeformerDriverInfo, AVTPreset, AVTPresetStore, NSDictionary, VFXMaterial, VFXNode;
 
 @interface AVTMemoji : AVTAvatar
 {
@@ -108,7 +108,7 @@
 - (id);
 - (id);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (id);
 - (id);

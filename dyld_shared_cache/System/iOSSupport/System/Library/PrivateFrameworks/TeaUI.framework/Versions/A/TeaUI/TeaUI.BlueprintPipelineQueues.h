@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintPipelineQueues
 {
-    MISSING_TYPE *operationQueue;
-    MISSING_TYPE *sidecarOperationQueue;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *sidecarQueue;
+    id operationQueue;
+    id sidecarOperationQueue;
+    id queue;
+    id sidecarQueue;
 }
 
 @end

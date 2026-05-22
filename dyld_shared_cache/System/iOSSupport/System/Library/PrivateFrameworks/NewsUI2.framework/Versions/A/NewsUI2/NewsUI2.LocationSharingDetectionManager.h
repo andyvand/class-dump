@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LocationSharingDetectionManager
 {
-    MISSING_TYPE *router;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *locationDetectionManager;
-    MISSING_TYPE *completionEventManager;
+    id router;
+    id configurationManager;
+    id locationDetectionManager;
+    id completionEventManager;
 }
 
 @end

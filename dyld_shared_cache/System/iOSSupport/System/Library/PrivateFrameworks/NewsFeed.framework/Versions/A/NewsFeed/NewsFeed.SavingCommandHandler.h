@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SavingCommandHandler
 {
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *recipeBox;
-    MISSING_TYPE *recipeAccessProvider;
+    id readingList;
+    id paidAccessChecker;
+    id featureAvailability;
+    id recipeBox;
+    id recipeAccessProvider;
 }
 
 @end

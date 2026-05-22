@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ScriptTrampolineCodeGen
 {
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *userProjectName;
-    MISSING_TYPE *mangledProjectName;
+    id entityManager;
+    id userProjectName;
+    id mangledProjectName;
 }
 
 @end

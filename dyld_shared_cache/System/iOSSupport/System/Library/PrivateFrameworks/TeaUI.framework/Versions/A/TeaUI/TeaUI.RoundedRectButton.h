@@ -6,11 +6,9 @@
 
 #import <TeaUI/TeaUI.PaddedShapeButton.h>
 
-@class MISSING_TYPE;
-
 @interface TeaUI.RoundedRectButton : TeaUI.PaddedShapeButton
 {
-    MISSING_TYPE *cornerRadius;
+    id cornerRadius;
 }
 
 - (id);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatAuxiliaryBindingsNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *_children;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *_options;
-    MISSING_TYPE *_throws;
+    id _identifier;
+    id _children;
+    id _selectors;
+    id _options;
+    id _throws;
 }
 
 @end

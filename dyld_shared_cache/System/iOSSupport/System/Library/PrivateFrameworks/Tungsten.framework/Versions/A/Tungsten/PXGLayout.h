@@ -99,7 +99,7 @@
     struct CGRect _visibleRect;
     struct UIEdgeInsets _safeAreaInsets;
     struct CGRect _clippingRect;
-    PXGCameraConfiguration_f6f8b209 _cameraConfiguration;
+    PXGCameraConfiguration_dfedfa9e _cameraConfiguration;
 }
 
 + (unsigned long long);

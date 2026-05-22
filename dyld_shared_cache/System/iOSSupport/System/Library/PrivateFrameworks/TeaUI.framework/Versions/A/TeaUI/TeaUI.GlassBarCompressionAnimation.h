@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.GlassBarCompressionAnimation
 {
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *floatingTabBarContainerView;
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *topCompression;
-    MISSING_TYPE *bottomCompression;
-    MISSING_TYPE *shadowPocketView;
+    id viewController;
+    id floatingTabBarContainerView;
+    id scrollView;
+    id topCompression;
+    id bottomCompression;
+    id shadowPocketView;
 }
 
 - (void);

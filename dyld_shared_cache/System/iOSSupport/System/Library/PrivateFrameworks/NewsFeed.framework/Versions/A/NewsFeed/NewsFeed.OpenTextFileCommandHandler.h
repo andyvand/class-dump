@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.OpenTextFileCommandHandler
 {
-    MISSING_TYPE *attachmentResolver;
-    MISSING_TYPE *sceneProvider;
+    id attachmentResolver;
+    id sceneProvider;
 }
 
 @end

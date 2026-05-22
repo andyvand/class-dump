@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.AdPlacementPolicyValidator
 {
-    MISSING_TYPE *layoutEnvironmentProvider;
-    MISSING_TYPE *viewportEnvironmentProvider;
-    MISSING_TYPE *policies;
-    MISSING_TYPE *_queue;
-    MISSING_TYPE *validationQueue;
+    id layoutEnvironmentProvider;
+    id viewportEnvironmentProvider;
+    id policies;
+    id _queue;
+    id validationQueue;
 }
 
 @end

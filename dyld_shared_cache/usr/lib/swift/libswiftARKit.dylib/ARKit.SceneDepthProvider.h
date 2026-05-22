@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.SceneDepthProvider
 {
-    MISSING_TYPE *_cSceneDepthProvider;
-    MISSING_TYPE *_cSceneDepthConfiguration;
-    MISSING_TYPE *depthSensorsStateContinuations;
-    MISSING_TYPE *depthDataContinuations;
-    MISSING_TYPE *updateQueue;
+    id _cSceneDepthProvider;
+    id _cSceneDepthConfiguration;
+    id depthSensorsStateContinuations;
+    id depthDataContinuations;
+    id updateQueue;
 }
 
 @end

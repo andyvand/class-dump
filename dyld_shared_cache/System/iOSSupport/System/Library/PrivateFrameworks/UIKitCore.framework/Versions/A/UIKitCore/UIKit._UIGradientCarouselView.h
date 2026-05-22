@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIGradientCarouselView : UIView
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *gradientLayer;
-    MISSING_TYPE *animationKey;
+    id configuration;
+    id gradientLayer;
+    id animationKey;
 }
 
 - (id);

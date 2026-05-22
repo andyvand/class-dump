@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadDiff
 {
-    MISSING_TYPE *localData;
-    MISSING_TYPE *localVersion;
-    MISSING_TYPE *remoteData;
-    MISSING_TYPE *remoteError;
-    MISSING_TYPE *remoteVersion;
-    MISSING_TYPE *remoteVersions;
-    MISSING_TYPE *package;
-    MISSING_TYPE *remotePackage;
-    MISSING_TYPE *localOffsets;
-    MISSING_TYPE *localNumberOfLines;
-    MISSING_TYPE *localHunkRanges;
-    MISSING_TYPE *remoteNumberOfLines;
-    MISSING_TYPE *remoteOffsets;
-    MISSING_TYPE *remoteHunkRanges;
+    id localData;
+    id localVersion;
+    id remoteData;
+    id remoteError;
+    id remoteVersion;
+    id remoteVersions;
+    id package;
+    id remotePackage;
+    id localOffsets;
+    id localNumberOfLines;
+    id localHunkRanges;
+    id remoteNumberOfLines;
+    id remoteOffsets;
+    id remoteHunkRanges;
 }
 
 @end

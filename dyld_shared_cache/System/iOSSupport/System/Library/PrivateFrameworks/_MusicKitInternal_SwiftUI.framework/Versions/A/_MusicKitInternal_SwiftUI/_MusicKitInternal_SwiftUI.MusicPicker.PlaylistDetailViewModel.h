@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _MusicKitInternal_SwiftUI.MusicPicker.PlaylistDetailViewModel
 {
-    MISSING_TYPE *_playlist;
-    MISSING_TYPE *_loadingState;
-    MISSING_TYPE *_entries;
-    MISSING_TYPE *_totalEntriesCount;
-    MISSING_TYPE *reason;
-    MISSING_TYPE *source;
-    MISSING_TYPE *maximumBatchLimit;
+    id _playlist;
+    id _loadingState;
+    id _entries;
+    id _totalEntriesCount;
+    id reason;
+    id source;
+    id maximumBatchLimit;
 }
 
 @end

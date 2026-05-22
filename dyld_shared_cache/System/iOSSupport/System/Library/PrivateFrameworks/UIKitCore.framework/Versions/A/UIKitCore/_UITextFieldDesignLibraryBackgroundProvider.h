@@ -6,12 +6,12 @@
 
 #import <UIKitCore/_UITextFieldViewBackgroundProvider.h>
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UITextFieldDesignLibraryBackgroundProvider : _UITextFieldViewBackgroundProvider
 {
-    MISSING_TYPE *hostingView;
+    id hostingView;
 }
 
 - (void);

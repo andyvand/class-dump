@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingImageAssetProvider
 {
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *identityProofingCardArtResolutionHelper;
-    MISSING_TYPE *config;
+    id proofingFlowManager;
+    id identityProofingCardArtResolutionHelper;
+    id config;
 }
 
 @end

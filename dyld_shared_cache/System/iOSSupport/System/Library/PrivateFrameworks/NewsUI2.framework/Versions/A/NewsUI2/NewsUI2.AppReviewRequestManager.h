@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AppReviewRequestManager
 {
-    MISSING_TYPE *store;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *appleAccount;
-    MISSING_TYPE *_started;
-    MISSING_TYPE *_userIsAuthenticatedToAppStore;
-    MISSING_TYPE *useAppReviewRequest;
-    MISSING_TYPE *$__lazy_storage_$_appReviewRequestConfig;
+    id store;
+    id userInfo;
+    id configurationManager;
+    id tracker;
+    id appleAccount;
+    id _started;
+    id _userIsAuthenticatedToAppStore;
+    id useAppReviewRequest;
+    id $__lazy_storage_$_appReviewRequestConfig;
 }
 
 - (id);

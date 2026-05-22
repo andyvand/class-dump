@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingNotificationsDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *sportsOnboardingManager;
+    id delegate;
+    id subscriptionService;
+    id tagService;
+    id notificationService;
+    id configurationManager;
+    id sportsOnboardingManager;
 }
 
 - (void);

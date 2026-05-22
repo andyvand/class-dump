@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatCanvasViewResult
 {
-    MISSING_TYPE *bindResult;
-    MISSING_TYPE *debugView;
-    MISSING_TYPE *viewMap;
+    id bindResult;
+    id debugView;
+    id viewMap;
 }
 
 @end

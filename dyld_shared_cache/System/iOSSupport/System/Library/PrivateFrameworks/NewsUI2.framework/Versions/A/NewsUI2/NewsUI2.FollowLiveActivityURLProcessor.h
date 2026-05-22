@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowLiveActivityURLProcessor
 {
-    MISSING_TYPE *liveActivityManager;
-    MISSING_TYPE *patterns;
+    id liveActivityManager;
+    id patterns;
 }
 
 @end

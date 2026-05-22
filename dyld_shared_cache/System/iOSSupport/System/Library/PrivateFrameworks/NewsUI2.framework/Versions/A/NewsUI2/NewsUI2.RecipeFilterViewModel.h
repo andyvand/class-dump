@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeFilterViewModel
 {
-    MISSING_TYPE *_sections;
-    MISSING_TYPE *_selection;
-    MISSING_TYPE *_numberOfMatches;
-    MISSING_TYPE *_horizontalSizeClass;
-    MISSING_TYPE *_delegate;
-    MISSING_TYPE *_$observationRegistrar;
+    id _sections;
+    id _selection;
+    id _numberOfMatches;
+    id _horizontalSizeClass;
+    id _delegate;
+    id _$observationRegistrar;
 }
 
 @end

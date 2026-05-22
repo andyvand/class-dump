@@ -4,27 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsAnalytics.SessionObserver
 {
-    MISSING_TYPE *sessionManager;
-    MISSING_TYPE *aggregateStateModeProvider;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *client;
-    MISSING_TYPE *fsidProvider;
-    MISSING_TYPE *onboardingVersion;
-    MISSING_TYPE *appExtensionCommunicator;
-    MISSING_TYPE *kind;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *sessionStartSource;
-    MISSING_TYPE *tabiDataProvider;
-    MISSING_TYPE *liveActivityCountDataProvider;
-    MISSING_TYPE *userEmbeddingDataProvider;
-    MISSING_TYPE *sessionURLManager;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *locationDetectionManager;
-    MISSING_TYPE *window;
+    id sessionManager;
+    id aggregateStateModeProvider;
+    id cloudContext;
+    id client;
+    id fsidProvider;
+    id onboardingVersion;
+    id appExtensionCommunicator;
+    id kind;
+    id tracker;
+    id sessionStartSource;
+    id tabiDataProvider;
+    id liveActivityCountDataProvider;
+    id userEmbeddingDataProvider;
+    id sessionURLManager;
+    id subscriptionController;
+    id locationDetectionManager;
+    id window;
     void sceneSessionIdentifier;
 }
 

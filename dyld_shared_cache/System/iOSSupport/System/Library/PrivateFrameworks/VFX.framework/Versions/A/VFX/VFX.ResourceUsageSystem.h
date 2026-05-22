@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ResourceUsageSystem
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *pointCacheGeneratorQuery;
-    MISSING_TYPE *emitterQuery;
-    MISSING_TYPE *sdfGeneratorQuery;
-    MISSING_TYPE *textureShaderAssetQuery;
-    MISSING_TYPE *initScriptQuery;
-    MISSING_TYPE *updateScriptQuery;
-    MISSING_TYPE *graphScriptQuery;
-    MISSING_TYPE *allTexturesQuery;
-    MISSING_TYPE *animatedTextureQuery;
-    MISSING_TYPE *allEmitterQuery;
-    MISSING_TYPE *allNonDirtyMaterialsQuery;
-    MISSING_TYPE *meshParticleRendererQuery;
-    MISSING_TYPE *preCreateDefaultMaterialDone;
+    id name;
+    id pointCacheGeneratorQuery;
+    id emitterQuery;
+    id sdfGeneratorQuery;
+    id textureShaderAssetQuery;
+    id initScriptQuery;
+    id updateScriptQuery;
+    id graphScriptQuery;
+    id allTexturesQuery;
+    id animatedTextureQuery;
+    id allEmitterQuery;
+    id allNonDirtyMaterialsQuery;
+    id meshParticleRendererQuery;
+    id preCreateDefaultMaterialDone;
 }
 
 @end

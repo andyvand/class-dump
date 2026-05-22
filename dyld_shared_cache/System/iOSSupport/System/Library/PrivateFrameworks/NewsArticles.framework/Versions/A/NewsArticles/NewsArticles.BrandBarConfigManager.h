@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.BrandBarConfigManager
 {
-    MISSING_TYPE *configManager;
-    MISSING_TYPE *appLaunchMethodChecker;
+    id configManager;
+    id appLaunchMethodChecker;
 }
 
 @end

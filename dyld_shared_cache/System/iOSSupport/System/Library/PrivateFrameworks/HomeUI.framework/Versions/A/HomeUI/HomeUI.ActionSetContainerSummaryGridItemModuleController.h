@@ -6,12 +6,10 @@
 
 #import <HomeUI/HUItemModuleController.h>
 
-@class MISSING_TYPE;
-
 @interface HomeUI.ActionSetContainerSummaryGridItemModuleController : HUItemModuleController
 {
-    MISSING_TYPE *$__lazy_storage_$_collectionLayoutManager;
-    MISSING_TYPE *sceneEditorDelegate;
+    id $__lazy_storage_$_collectionLayoutManager;
+    id sceneEditorDelegate;
 }
 
 - (_Bool);

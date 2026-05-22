@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatFileTreeModel
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *allowSelection;
-    MISSING_TYPE *_items;
-    MISSING_TYPE *_selection;
-    MISSING_TYPE *_metrics;
+    id editor;
+    id allowSelection;
+    id _items;
+    id _selection;
+    id _metrics;
 }
 
 @end

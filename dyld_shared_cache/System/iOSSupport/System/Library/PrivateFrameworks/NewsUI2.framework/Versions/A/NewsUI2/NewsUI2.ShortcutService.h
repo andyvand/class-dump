@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ShortcutService
 {
-    MISSING_TYPE *lockedObservers;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *shortcutList;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *unsafeOrderedShortcuts;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *lock;
+    id lockedObservers;
+    id featureAvailability;
+    id shortcutList;
+    id subscriptionController;
+    id configurationManager;
+    id unsafeOrderedShortcuts;
+    id tagService;
+    id lock;
 }
 
 - (void);

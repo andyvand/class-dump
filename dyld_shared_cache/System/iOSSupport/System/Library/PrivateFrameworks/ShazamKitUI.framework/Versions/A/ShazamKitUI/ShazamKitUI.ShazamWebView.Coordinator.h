@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ShazamKitUI.ShazamWebView.Coordinator
 {
-    MISSING_TYPE *parent;
-    MISSING_TYPE *webView;
+    id parent;
+    id webView;
 }
 
 - (void);

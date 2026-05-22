@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.LanguageSelectionViewModel
 {
-    MISSING_TYPE *_availableLanguages;
-    MISSING_TYPE *_suggestedLanguages;
-    MISSING_TYPE *_isReady;
-    MISSING_TYPE *currentTranslateTo;
-    MISSING_TYPE *currentSelected;
-    MISSING_TYPE *taskHint;
-    MISSING_TYPE *defaultTranslateToLocale;
-    MISSING_TYPE *currentTranslateToLocale;
-    MISSING_TYPE *suggestedLocales;
-    MISSING_TYPE *preferredLanguages;
-    MISSING_TYPE *useDedicatedMachPort;
-    MISSING_TYPE *modelMap;
-    MISSING_TYPE *observer;
-    MISSING_TYPE *initialUpdateTask;
-    MISSING_TYPE *observationTask;
-    MISSING_TYPE *_$observationRegistrar;
+    id _availableLanguages;
+    id _suggestedLanguages;
+    id _isReady;
+    id currentTranslateTo;
+    id currentSelected;
+    id taskHint;
+    id defaultTranslateToLocale;
+    id currentTranslateToLocale;
+    id suggestedLocales;
+    id preferredLanguages;
+    id useDedicatedMachPort;
+    id modelMap;
+    id observer;
+    id initialUpdateTask;
+    id observationTask;
+    id _$observationRegistrar;
 }
 
 @end

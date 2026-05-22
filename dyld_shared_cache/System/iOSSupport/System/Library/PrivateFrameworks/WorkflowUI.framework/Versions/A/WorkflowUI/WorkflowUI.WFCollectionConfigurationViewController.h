@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView, WFPreviewNavigationController;
+@class UIView, WFPreviewNavigationController;
 
 @interface WorkflowUI.WFCollectionConfigurationViewController
 {
-    MISSING_TYPE *editMode;
+    id editMode;
     void previewNavigationController;
     UIView *iconPreview;
     double previewPadding;
-    MISSING_TYPE *$__lazy_storage_$_previewDimension;
-    MISSING_TYPE *collectionConfiguration;
-    MISSING_TYPE *folderNameCancellable;
-    MISSING_TYPE *database;
-    MISSING_TYPE *$__lazy_storage_$_dataSource;
-    MISSING_TYPE *gridView;
+    id $__lazy_storage_$_previewDimension;
+    id collectionConfiguration;
+    id folderNameCancellable;
+    id database;
+    id $__lazy_storage_$_dataSource;
+    id gridView;
 }
 
 - (void);

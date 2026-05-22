@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatImageCache
 {
-    MISSING_TYPE *naImage;
-    MISSING_TYPE *placeholderImage;
-    MISSING_TYPE *$__lazy_storage_$_disabledPlaceholderImage;
-    MISSING_TYPE *images;
+    id naImage;
+    id placeholderImage;
+    id $__lazy_storage_$_disabledPlaceholderImage;
+    id images;
 }
 
 @end

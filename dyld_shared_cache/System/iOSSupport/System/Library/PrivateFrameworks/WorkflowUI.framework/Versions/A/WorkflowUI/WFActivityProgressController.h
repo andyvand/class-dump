@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WFActivityProgressController
 {
-    MISSING_TYPE *title;
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *alertController;
+    id title;
+    id viewController;
+    id alertController;
 }
 
 - (void);

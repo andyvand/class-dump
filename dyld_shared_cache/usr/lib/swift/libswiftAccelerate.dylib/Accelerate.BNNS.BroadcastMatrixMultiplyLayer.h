@@ -6,12 +6,10 @@
 
 #import <swiftAccelerate/Accelerate.BNNS.Layer.h>
 
-@class MISSING_TYPE;
-
 @interface Accelerate.BNNS.BroadcastMatrixMultiplyLayer : Accelerate.BNNS.Layer
 {
-    MISSING_TYPE *aIsWeights;
-    MISSING_TYPE *bIsWeights;
+    id aIsWeights;
+    id bIsWeights;
 }
 
 @end

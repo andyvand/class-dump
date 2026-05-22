@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface AXCameraManager
 {
-    MISSING_TYPE *queue;
-    MISSING_TYPE *shouldPublish;
-    MISSING_TYPE *isInitialized;
-    MISSING_TYPE *frameHandler;
-    MISSING_TYPE *session;
+    id queue;
+    id shouldPublish;
+    id isInitialized;
+    id frameHandler;
+    id session;
 }
 
 - (void);

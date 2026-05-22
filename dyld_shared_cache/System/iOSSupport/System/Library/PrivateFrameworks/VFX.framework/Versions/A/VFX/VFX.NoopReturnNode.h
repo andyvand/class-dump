@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.NoopTestNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.NoopReturnNode : VFX.NoopTestNode
 {
-    MISSING_TYPE *type;
+    id type;
 }
 
 @end

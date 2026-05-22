@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TitleViewStyler
 {
-    MISSING_TYPE *headlineFontMetrics;
-    MISSING_TYPE *actionButtonFontMetrics;
-    MISSING_TYPE *baseTitleFont;
+    id headlineFontMetrics;
+    id actionButtonFontMetrics;
+    id baseTitleFont;
 }
 
 @end

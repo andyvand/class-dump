@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSMutableArray, NSString, PTMetalContext, PTUtil;
+@class NSMutableArray, NSString, PTMetalContext, PTUtil;
 @protocol MTLComputePipelineState;
 
 @interface PTGraphRenderer
 {
     PTMetalContext *_metalContext;
     int _samples;
-    MISSING_TYPE *_range;
+    id _range;
     PTUtil *_util;
     id <MTLComputePipelineState> _renderGraphToRegion;
     id <MTLComputePipelineState> _updateGraphSequenceWithBuffer;

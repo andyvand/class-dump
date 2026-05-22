@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsFavoritesDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *tagService;
+    id delegate;
+    id subscriptionService;
+    id tagService;
 }
 
 @end

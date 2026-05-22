@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.SensitiveContentSettings
 {
-    MISSING_TYPE *_isCommunicationSafetyEnabled;
-    MISSING_TYPE *_isVideoVoiceMailAnalysisEnabled;
-    MISSING_TYPE *_isContactAnalysisEnabled;
-    MISSING_TYPE *analyzer;
-    MISSING_TYPE *observer;
-    MISSING_TYPE *_$observationRegistrar;
+    id _isCommunicationSafetyEnabled;
+    id _isVideoVoiceMailAnalysisEnabled;
+    id _isContactAnalysisEnabled;
+    id analyzer;
+    id observer;
+    id _$observationRegistrar;
 }
 
 @end

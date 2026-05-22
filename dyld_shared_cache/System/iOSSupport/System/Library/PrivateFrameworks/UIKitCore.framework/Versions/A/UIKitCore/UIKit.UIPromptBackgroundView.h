@@ -6,16 +6,14 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.UIPromptBackgroundView : UIView
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *intrinsicHeight;
-    MISSING_TYPE *effectView;
-    MISSING_TYPE *fresnelView;
-    MISSING_TYPE *latencyEffectView;
-    MISSING_TYPE *focusChangesEffect;
+    id configuration;
+    id intrinsicHeight;
+    id effectView;
+    id fresnelView;
+    id latencyEffectView;
+    id focusChangesEffect;
 }
 
 - (void);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AppDiscardedStateRestorationActivityHandler
 {
-    MISSING_TYPE *continueReadingEligibilityProcessor;
-    MISSING_TYPE *continueReadingPromptPresenter;
+    id continueReadingEligibilityProcessor;
+    id continueReadingPromptPresenter;
 }
 
 @end

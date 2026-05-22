@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ModernMastheadViewLayoutAttributesFactory
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *baseMastheadHeight;
-    MISSING_TYPE *baseMastheadHeightSafeAreaPadding;
-    MISSING_TYPE *engagementBannerContentSpacing;
+    id styler;
+    id featureAvailability;
+    id baseMastheadHeight;
+    id baseMastheadHeightSafeAreaPadding;
+    id engagementBannerContentSpacing;
 }
 
 @end

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol MTLDevice;
 
 @interface VFXREREnderer
 {
     id <MTLDevice> device;
-    MISSING_TYPE *commandQueue;
+    id commandQueue;
 }
 
 - (id);

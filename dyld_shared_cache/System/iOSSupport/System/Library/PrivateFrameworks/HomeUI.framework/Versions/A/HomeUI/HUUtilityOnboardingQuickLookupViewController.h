@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol HUConfigurationViewControllerDelegate;
 
 @interface HUUtilityOnboardingQuickLookupViewController
 {
     id <HUConfigurationViewControllerDelegate> delegate;
-    MISSING_TYPE *context;
-    MISSING_TYPE *hideBackButton;
-    MISSING_TYPE *utilityName;
-    MISSING_TYPE *continueButton;
-    MISSING_TYPE *legacyAccountDetails;
+    id context;
+    id hideBackButton;
+    id utilityName;
+    id continueButton;
+    id legacyAccountDetails;
 }
 
 - (void);

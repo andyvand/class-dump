@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OfflineDownloadMonitor
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *state;
-    MISSING_TYPE *progress;
+    id identifier;
+    id state;
+    id progress;
 }
 
 @end

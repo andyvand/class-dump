@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatLayeredMediaNodeStyle
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *class;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *alpha;
-    MISSING_TYPE *background;
-    MISSING_TYPE *borders;
-    MISSING_TYPE *cornerRadius;
-    MISSING_TYPE *shadow;
-    MISSING_TYPE *video;
-    MISSING_TYPE *motion;
-    MISSING_TYPE *ignoresSmartInvertColors;
-    MISSING_TYPE *filters;
+    id _identifier;
+    id class;
+    id _selectors;
+    id alpha;
+    id background;
+    id borders;
+    id cornerRadius;
+    id shadow;
+    id video;
+    id motion;
+    id ignoresSmartInvertColors;
+    id filters;
 }
 
 @end

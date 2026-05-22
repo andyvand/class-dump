@@ -6,8 +6,6 @@
 
 #import <Portrait/PTGlobalRenderingMetadata.h>
 
-@class MISSING_TYPE;
-
 @interface PTGlobalRenderingMetadataVersion1 : PTGlobalRenderingMetadata
 {
     unsigned int _renderingVersion;
@@ -27,13 +25,13 @@
     float _noiseScaleFactor;
     unsigned int _hwModelID;
     CDStruct_79c71658 _rawSensorSize;
-    MISSING_TYPE *_visCropFactor;
+    id _visCropFactor;
     struct CGRect _sensorCropRect;
-    CDStruct_14d5dc5e _extrinsicsMatrix;
+    CDStruct_95fa7c00 _extrinsicsMatrix;
 }
 
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (unsigned int);
 - (unsigned int);
 - (void);
@@ -58,7 +56,7 @@
 - (id);
 - (float);
 - (float);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (_Bool);
 - (void);
 - (void);
@@ -83,7 +81,7 @@
 // Remaining properties
 @property(nonatomic) unsigned int conversionGain; // @synthesize conversionGain=_conversionGain;
 @property(nonatomic) float defaultAperture; // @synthesize defaultAperture=_defaultAperture;
-@property(nonatomic) CDStruct_14d5dc5e extrinsicsMatrix; // @synthesize extrinsicsMatrix=_extrinsicsMatrix;
+@property(nonatomic) CDStruct_95fa7c00 extrinsicsMatrix; // @synthesize extrinsicsMatrix=_extrinsicsMatrix;
 @property(nonatomic) float focalLength35mm; // @synthesize focalLength35mm=_focalLength35mm;
 @property(nonatomic) float highlightBoostFactor; // @synthesize highlightBoostFactor=_highlightBoostFactor;
 @property(nonatomic) float highlightChromaFactor; // @synthesize highlightChromaFactor=_highlightChromaFactor;
@@ -98,7 +96,7 @@
 @property(nonatomic) struct CGRect sensorCropRect; // @synthesize sensorCropRect=_sensorCropRect;
 @property(nonatomic) unsigned int sensorID; // @synthesize sensorID=_sensorID;
 @property(nonatomic) unsigned int sourceColorBitDepth; // @synthesize sourceColorBitDepth=_sourceColorBitDepth;
-@property(nonatomic) MISSING_TYPE *visCropFactor; // @synthesize visCropFactor=_visCropFactor;
+@property(nonatomic) id visCropFactor; // @synthesize visCropFactor=_visCropFactor;
 
 @end
 

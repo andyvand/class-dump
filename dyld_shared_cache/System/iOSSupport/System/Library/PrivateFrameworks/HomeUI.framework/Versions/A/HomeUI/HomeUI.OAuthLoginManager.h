@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.OAuthLoginManager
 {
-    MISSING_TYPE *authURL;
-    MISSING_TYPE *presentingContext;
-    MISSING_TYPE *authSession;
-    MISSING_TYPE *uuid;
+    id authURL;
+    id presentingContext;
+    id authSession;
+    id uuid;
 }
 
 - (void);

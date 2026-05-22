@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, PTMetalContext, PTOpticalFlow;
+@class NSString, PTMetalContext, PTOpticalFlow;
 @protocol MTLComputePipelineState;
 
 @interface PTDisparityFilterExponentialMovingAverageLKT
@@ -13,7 +13,7 @@
     id <MTLComputePipelineState> _temporalFilterExponentialMovingAverageLKT;
     id <MTLComputePipelineState> _copyDisparityWithBias;
     int _frameCount;
-    MISSING_TYPE *_iirUpdateCoefficient;
+    id _iirUpdateCoefficient;
     PTOpticalFlow *_opticalFlow;
     NSString *_dumpInputOutputFolder;
     CDStruct_da2e99ad _disparitySize;

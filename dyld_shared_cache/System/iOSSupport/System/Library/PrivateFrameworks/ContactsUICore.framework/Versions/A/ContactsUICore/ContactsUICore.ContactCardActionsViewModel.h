@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactCardActionsViewModel
 {
-    MISSING_TYPE *_actionsProvider;
-    MISSING_TYPE *_sendMessageMenuItems;
-    MISSING_TYPE *_addToFavoritesMenuItems;
-    MISSING_TYPE *_gameCenterAddFriendMenuItems;
-    MISSING_TYPE *_addToEmergencyContactsMenuItems;
-    MISSING_TYPE *placement;
-    MISSING_TYPE *_viewControllerToPresent;
-    MISSING_TYPE *$__lazy_storage_$_contactFormatter;
-    MISSING_TYPE *$__lazy_storage_$_basicContactFormatter;
-    MISSING_TYPE *_supportedSections;
-    MISSING_TYPE *_sections;
-    MISSING_TYPE *contact;
-    MISSING_TYPE *_$observationRegistrar;
+    id _actionsProvider;
+    id _sendMessageMenuItems;
+    id _addToFavoritesMenuItems;
+    id _gameCenterAddFriendMenuItems;
+    id _addToEmergencyContactsMenuItems;
+    id placement;
+    id _viewControllerToPresent;
+    id $__lazy_storage_$_contactFormatter;
+    id $__lazy_storage_$_basicContactFormatter;
+    id _supportedSections;
+    id _sections;
+    id contact;
+    id _$observationRegistrar;
 }
 
 - (void);

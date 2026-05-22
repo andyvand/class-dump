@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingLivenessVideoPreviewViewController
 {
-    MISSING_TYPE *player;
-    MISSING_TYPE *playerLayer;
-    MISSING_TYPE *playerItem;
-    MISSING_TYPE *controlsVisible;
-    MISSING_TYPE *timeObserverToken;
-    MISSING_TYPE *autoHideWorkItem;
-    MISSING_TYPE *controlTimeOutInterval;
-    MISSING_TYPE *animationDuration;
-    MISSING_TYPE *playPauseImageSize;
-    MISSING_TYPE *playPauseButtonSize;
-    MISSING_TYPE *centerPlayPauseButton;
+    id player;
+    id playerLayer;
+    id playerItem;
+    id controlsVisible;
+    id timeObserverToken;
+    id autoHideWorkItem;
+    id controlTimeOutInterval;
+    id animationDuration;
+    id playPauseImageSize;
+    id playPauseButtonSize;
+    id centerPlayPauseButton;
 }
 
 - (void);

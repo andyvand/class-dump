@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.EducationalMessageAnimationView
 {
-    MISSING_TYPE *animationFactory;
-    MISSING_TYPE *animationPackage;
-    MISSING_TYPE *rootLayer;
+    id animationFactory;
+    id animationPackage;
+    id rootLayer;
 }
 
 - (struct CGSize);

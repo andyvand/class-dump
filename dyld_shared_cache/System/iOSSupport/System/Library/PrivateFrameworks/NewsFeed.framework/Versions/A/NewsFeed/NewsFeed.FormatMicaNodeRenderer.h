@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatMicaNodeRenderer
 {
-    MISSING_TYPE *micaRenderer;
-    MISSING_TYPE *runModeRunner;
+    id micaRenderer;
+    id runModeRunner;
 }
 
 @end

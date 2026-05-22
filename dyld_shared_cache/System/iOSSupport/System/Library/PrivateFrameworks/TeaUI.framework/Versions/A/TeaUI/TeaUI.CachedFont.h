@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CachedFont
 {
-    MISSING_TYPE *fontBlock;
-    MISSING_TYPE *cachedFont;
+    id fontBlock;
+    id cachedFont;
 }
 
 - (void);

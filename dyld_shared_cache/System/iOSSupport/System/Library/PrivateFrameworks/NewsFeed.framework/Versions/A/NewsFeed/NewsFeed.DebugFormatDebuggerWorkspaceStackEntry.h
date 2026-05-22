@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDebuggerWorkspaceStackEntry
 {
-    MISSING_TYPE *workspaceFrame;
-    MISSING_TYPE *selectedWorkspaceFrame;
+    id workspaceFrame;
+    id selectedWorkspaceFrame;
 }
 
 @end

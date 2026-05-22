@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayConfigData
 {
-    MISSING_TYPE *recordID;
-    MISSING_TYPE *source;
-    MISSING_TYPE *fetchInterval;
-    MISSING_TYPE *headlines;
-    MISSING_TYPE *tags;
-    MISSING_TYPE *localNewsArticles;
+    id recordID;
+    id source;
+    id fetchInterval;
+    id headlines;
+    id tags;
+    id localNewsArticles;
 }
 
 @end

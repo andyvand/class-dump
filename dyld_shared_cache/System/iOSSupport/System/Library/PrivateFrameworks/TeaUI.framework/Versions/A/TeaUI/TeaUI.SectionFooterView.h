@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SectionFooterView
 {
-    MISSING_TYPE *separator;
-    MISSING_TYPE *button;
-    MISSING_TYPE *onButtonTap;
+    id separator;
+    id button;
+    id onButtonTap;
 }
 
 - (id);

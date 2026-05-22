@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SharingActivityProviderFactory
 {
-    MISSING_TYPE *sharingActivityItemFactory;
-    MISSING_TYPE *activityTypeProvider;
-    MISSING_TYPE *issueActivityTypeProvider;
-    MISSING_TYPE *recipeActivityTypeProvider;
-    MISSING_TYPE *puzzleActivityTypeProvider;
-    MISSING_TYPE *puzzleTypeActivityTypeProvider;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *subscriptionController;
+    id sharingActivityItemFactory;
+    id activityTypeProvider;
+    id issueActivityTypeProvider;
+    id recipeActivityTypeProvider;
+    id puzzleActivityTypeProvider;
+    id puzzleTypeActivityTypeProvider;
+    id paidAccessChecker;
+    id subscriptionController;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.AdComponentIntegrator
 {
-    MISSING_TYPE *layoutInvalidator;
-    MISSING_TYPE *policyValidator;
-    MISSING_TYPE *layoutEnvironmentProvider;
-    MISSING_TYPE *layoutStore;
-    MISSING_TYPE *integrationQueue;
-    MISSING_TYPE *lock;
+    id layoutInvalidator;
+    id policyValidator;
+    id layoutEnvironmentProvider;
+    id layoutStore;
+    id integrationQueue;
+    id lock;
 }
 
 - (id);

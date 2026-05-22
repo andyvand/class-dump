@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.LazyJSStack
 {
-    MISSING_TYPE *bag;
-    MISSING_TYPE *stack;
+    id bag;
+    id stack;
 }
 
 @end

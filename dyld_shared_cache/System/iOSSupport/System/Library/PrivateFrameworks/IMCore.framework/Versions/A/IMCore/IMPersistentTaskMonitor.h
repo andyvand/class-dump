@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMPersistentTaskMonitor
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *state;
-    MISSING_TYPE *derivedState;
-    MISSING_TYPE *changeHandler;
-    MISSING_TYPE *notificationObserver;
+    id id;
+    id state;
+    id derivedState;
+    id changeHandler;
+    id notificationObserver;
 }
 
 - (long long);

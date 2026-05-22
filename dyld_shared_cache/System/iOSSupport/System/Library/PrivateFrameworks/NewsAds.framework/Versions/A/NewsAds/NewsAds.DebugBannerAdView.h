@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.DebugBannerAdView
 {
-    MISSING_TYPE *contentIdentifier;
-    MISSING_TYPE *contentInfo;
-    MISSING_TYPE *state;
-    MISSING_TYPE *onLongPress;
-    MISSING_TYPE *additionalEdgeInsets;
-    MISSING_TYPE *moreButton;
-    MISSING_TYPE *label;
+    id contentIdentifier;
+    id contentInfo;
+    id state;
+    id onLongPress;
+    id additionalEdgeInsets;
+    id moreButton;
+    id label;
 }
 
 - (id);

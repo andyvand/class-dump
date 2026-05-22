@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyRecipesViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *isBeingUsedAsPlugin;
-    MISSING_TYPE *pluggableDelegate;
-    MISSING_TYPE *blueprintHorizontalShimView;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id isBeingUsedAsPlugin;
+    id pluggableDelegate;
+    id blueprintHorizontalShimView;
 }
 
 - (id);

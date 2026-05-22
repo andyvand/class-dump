@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSponsoredBanner
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *adIdentifier;
+    id identifier;
+    id adIdentifier;
 }
 
 - (id);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.MessageExportIterator
 {
-    MISSING_TYPE *exportOptions;
-    MISSING_TYPE *exportStatistics;
-    MISSING_TYPE *filteredCounts;
-    MISSING_TYPE *chatRowIDs;
-    MISSING_TYPE *databaseOnly;
+    id exportOptions;
+    id exportStatistics;
+    id filteredCounts;
+    id chatRowIDs;
+    id databaseOnly;
 }
 
 @end

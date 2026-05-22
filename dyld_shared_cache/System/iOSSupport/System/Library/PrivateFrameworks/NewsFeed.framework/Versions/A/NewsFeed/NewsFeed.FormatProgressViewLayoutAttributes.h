@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatProgressViewLayoutAttributes
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *layoutIdentifier;
-    MISSING_TYPE *nodeIdentifier;
-    MISSING_TYPE *frame;
-    MISSING_TYPE *style;
-    MISSING_TYPE *resizing;
-    MISSING_TYPE *kind;
-    MISSING_TYPE *zIndex;
-    MISSING_TYPE *visibility;
-    MISSING_TYPE *accessibilityRole;
-    MISSING_TYPE *auxViewRequirements;
+    id identifier;
+    id layoutIdentifier;
+    id nodeIdentifier;
+    id frame;
+    id style;
+    id resizing;
+    id kind;
+    id zIndex;
+    id visibility;
+    id accessibilityRole;
+    id auxViewRequirements;
 }
 
 @end

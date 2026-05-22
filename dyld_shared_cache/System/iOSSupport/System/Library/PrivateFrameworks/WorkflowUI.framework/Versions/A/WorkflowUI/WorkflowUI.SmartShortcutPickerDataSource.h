@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SmartShortcutPickerDataSource
 {
-    MISSING_TYPE *_sections;
-    MISSING_TYPE *_selection;
-    MISSING_TYPE *cancellables;
-    MISSING_TYPE *dataSources;
-    MISSING_TYPE *appAvailabilityContext;
-    MISSING_TYPE *appAvailabilityStrategy;
-    MISSING_TYPE *isFullyLoaded;
-    MISSING_TYPE *isCurrentlyLoading;
-    MISSING_TYPE *searchText;
+    id _sections;
+    id _selection;
+    id cancellables;
+    id dataSources;
+    id appAvailabilityContext;
+    id appAvailabilityStrategy;
+    id isFullyLoaded;
+    id isCurrentlyLoading;
+    id searchText;
 }
 
 @end

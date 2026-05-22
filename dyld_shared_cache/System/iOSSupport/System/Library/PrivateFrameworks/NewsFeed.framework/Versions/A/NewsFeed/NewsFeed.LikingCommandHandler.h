@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.LikingCommandHandler
 {
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *allLikedArticleIDs;
-    MISSING_TYPE *allDislikedArticleIDs;
+    id readingHistory;
+    id bundleSubscriptionManager;
+    id paidAccessChecker;
+    id allLikedArticleIDs;
+    id allDislikedArticleIDs;
 }
 
 - (void);

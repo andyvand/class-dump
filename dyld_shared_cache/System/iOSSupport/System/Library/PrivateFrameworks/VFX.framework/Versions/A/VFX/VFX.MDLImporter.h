@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.MDLImporter
 {
-    MISSING_TYPE *options;
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *animations;
-    MISSING_TYPE *skeletons;
-    MISSING_TYPE *meshes;
+    id options;
+    id entityManager;
+    id renderer;
+    id animations;
+    id skeletons;
+    id meshes;
 }
 
 @end

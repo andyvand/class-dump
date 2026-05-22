@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PTBrightSceneDetector
 {
     float _brightScene;
     float _filteredLuxLevel;
     _Bool _brightSceneState;
     float _emaFilterCoefficient;
-    MISSING_TYPE *_luxLevelThreshold;
+    id _luxLevelThreshold;
     float _transitionTime;
 }
 
@@ -20,7 +18,7 @@
 - (id);
 - (float);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 
 @end
 

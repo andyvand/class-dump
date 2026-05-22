@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FeedHeadlineProgressCommandHandler
 {
-    MISSING_TYPE *playbackConductor;
-    MISSING_TYPE *listeningProgressManager;
+    id playbackConductor;
+    id listeningProgressManager;
 }
 
 @end

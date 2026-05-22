@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.LazyPosterSnapshot
 {
-    MISSING_TYPE *_snapshotGenerator;
-    MISSING_TYPE *_snapshotTask;
-    MISSING_TYPE *__snapshot;
-    MISSING_TYPE *_$observationRegistrar;
+    id _snapshotGenerator;
+    id _snapshotTask;
+    id __snapshot;
+    id _$observationRegistrar;
 }
 
 @end

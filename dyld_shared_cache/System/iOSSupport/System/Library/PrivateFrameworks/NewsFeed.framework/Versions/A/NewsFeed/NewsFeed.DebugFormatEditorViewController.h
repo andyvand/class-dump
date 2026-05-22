@@ -4,41 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatEditorViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *toolbarBackgroundView;
-    MISSING_TYPE *$__lazy_storage_$_navigationItemManager;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *formatManager;
-    MISSING_TYPE *canvasViewController;
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *rulerView;
-    MISSING_TYPE *$__lazy_storage_$_overlayView;
-    MISSING_TYPE *$__lazy_storage_$_contentView;
-    MISSING_TYPE *snapshotCanvasView;
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *statusView;
-    MISSING_TYPE *$__lazy_storage_$_zoomBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_canvasInteractionBarButtonItem;
-    MISSING_TYPE *lastLayoutBounds;
-    MISSING_TYPE *lastSafeAreaInsets;
-    MISSING_TYPE *lastRenderKey;
-    MISSING_TYPE *$__lazy_storage_$_editorPathView;
-    MISSING_TYPE *editorToolbarItems;
-    MISSING_TYPE *debuggerToolbarItems;
-    MISSING_TYPE *$__lazy_storage_$_debuggerRunBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_debuggerNextBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_debuggerStepInBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_debuggerStepOverBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_debuggerStepOutBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_snapshotBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_workspacesBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_devicesBarButtonItem;
-    MISSING_TYPE *sourceViewController;
+    id delegate;
+    id toolbarBackgroundView;
+    id $__lazy_storage_$_navigationItemManager;
+    id editor;
+    id styler;
+    id formatManager;
+    id canvasViewController;
+    id scrollView;
+    id rulerView;
+    id $__lazy_storage_$_overlayView;
+    id $__lazy_storage_$_contentView;
+    id snapshotCanvasView;
+    id backgroundView;
+    id statusView;
+    id $__lazy_storage_$_zoomBarButtonItem;
+    id $__lazy_storage_$_canvasInteractionBarButtonItem;
+    id lastLayoutBounds;
+    id lastSafeAreaInsets;
+    id lastRenderKey;
+    id $__lazy_storage_$_editorPathView;
+    id editorToolbarItems;
+    id debuggerToolbarItems;
+    id $__lazy_storage_$_debuggerRunBarButtonItem;
+    id $__lazy_storage_$_debuggerNextBarButtonItem;
+    id $__lazy_storage_$_debuggerStepInBarButtonItem;
+    id $__lazy_storage_$_debuggerStepOverBarButtonItem;
+    id $__lazy_storage_$_debuggerStepOutBarButtonItem;
+    id $__lazy_storage_$_snapshotBarButtonItem;
+    id $__lazy_storage_$_workspacesBarButtonItem;
+    id $__lazy_storage_$_devicesBarButtonItem;
+    id sourceViewController;
 }
 
 - (void);

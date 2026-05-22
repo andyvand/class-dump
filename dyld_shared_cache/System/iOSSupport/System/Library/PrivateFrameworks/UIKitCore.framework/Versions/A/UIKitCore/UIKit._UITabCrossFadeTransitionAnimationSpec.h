@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC5UIKit30_UIDurationBounceAnimationSpec;
+@class UIKit._UIDurationBounceAnimationSpec;
 
 @interface UIKit._UITabCrossFadeTransitionAnimationSpec
 {
     double fadedOutScale;
-    _TtC5UIKit30_UIDurationBounceAnimationSpec *fadeOut;
-    _TtC5UIKit30_UIDurationBounceAnimationSpec *scaleOut;
-    _TtC5UIKit30_UIDurationBounceAnimationSpec *fadeIn;
-    _TtC5UIKit30_UIDurationBounceAnimationSpec *scaleIn;
+    UIKit._UIDurationBounceAnimationSpec *fadeOut;
+    UIKit._UIDurationBounceAnimationSpec *scaleOut;
+    UIKit._UIDurationBounceAnimationSpec *fadeIn;
+    UIKit._UIDurationBounceAnimationSpec *scaleIn;
 }
 
 + (id);
@@ -30,11 +30,11 @@
 - (void)ÒÏ\l;
 
 // Remaining properties
-@property(nonatomic, retain) _TtC5UIKit30_UIDurationBounceAnimationSpec *fadeIn; // @synthesize fadeIn;
-@property(nonatomic, retain) _TtC5UIKit30_UIDurationBounceAnimationSpec *fadeOut; // @synthesize fadeOut;
+@property(nonatomic, retain) UIKit._UIDurationBounceAnimationSpec *fadeIn; // @synthesize fadeIn;
+@property(nonatomic, retain) UIKit._UIDurationBounceAnimationSpec *fadeOut; // @synthesize fadeOut;
 @property(nonatomic) double fadedOutScale; // @synthesize fadedOutScale;
-@property(nonatomic, retain) _TtC5UIKit30_UIDurationBounceAnimationSpec *scaleIn; // @synthesize scaleIn;
-@property(nonatomic, retain) _TtC5UIKit30_UIDurationBounceAnimationSpec *scaleOut; // @synthesize scaleOut;
+@property(nonatomic, retain) UIKit._UIDurationBounceAnimationSpec *scaleIn; // @synthesize scaleIn;
+@property(nonatomic, retain) UIKit._UIDurationBounceAnimationSpec *scaleOut; // @synthesize scaleOut;
 
 @end
 

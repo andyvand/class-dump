@@ -6,17 +6,15 @@
 
 #import <VisionKitCore/VisionKitCore.StickerComicOneInputShader.h>
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerComicVignetteAndQuantizeShader : VisionKitCore.StickerComicOneInputShader
 {
-    MISSING_TYPE *mode;
-    MISSING_TYPE *vignetteCenter;
-    MISSING_TYPE *vignetteColor;
-    MISSING_TYPE *vignetteStart;
-    MISSING_TYPE *vignetteEnd;
-    MISSING_TYPE *numLevels;
-    MISSING_TYPE *numLevelsRecip;
+    id mode;
+    id vignetteCenter;
+    id vignetteColor;
+    id vignetteStart;
+    id vignetteEnd;
+    id numLevels;
+    id numLevelsRecip;
 }
 
 @end

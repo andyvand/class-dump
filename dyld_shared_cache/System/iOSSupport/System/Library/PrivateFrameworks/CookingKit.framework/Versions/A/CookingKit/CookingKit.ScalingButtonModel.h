@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.ScalingButtonModel
 {
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_isScalingEnabled;
-    MISSING_TYPE *_isScaled;
-    MISSING_TYPE *_scaleFactor;
-    MISSING_TYPE *_popover;
-    MISSING_TYPE *_$observationRegistrar;
+    id _$scope;
+    id _recipeID;
+    id _isScalingEnabled;
+    id _isScaled;
+    id _scaleFactor;
+    id _popover;
+    id _$observationRegistrar;
 }
 
 @end

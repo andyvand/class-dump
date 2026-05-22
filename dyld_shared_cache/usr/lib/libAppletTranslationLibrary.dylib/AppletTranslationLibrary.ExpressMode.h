@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface AppletTranslationLibrary.ExpressMode
 {
-    MISSING_TYPE *modulesRequiringSlowPath;
-    MISSING_TYPE *reservedTCIs;
-    MISSING_TYPE *internalBuild;
-    MISSING_TYPE *userDefaults;
+    id modulesRequiringSlowPath;
+    id reservedTCIs;
+    id internalBuild;
+    id userDefaults;
 }
 
 + (_Bool);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, VFXNode, VFXPhysicsBody, VFXPhysicsConeTwistJoint;
+@class VFXNode, VFXPhysicsBody, VFXPhysicsConeTwistJoint;
 
 __attribute__((visibility("hidden")))
 @interface AVTPhysicsRig
@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
     VFXPhysicsBody *_physicsBody;
     VFXPhysicsConeTwistJoint *_physicsBehavior;
     double _downForceFactor;
-    MISSING_TYPE *_restPosition_chainRoot;
-    MISSING_TYPE *_restGravityVector_chainRoot;
-    CDStruct_8e0628e6 _coneConstraintBasis_chainParent;
-    CDStruct_14d5dc5e _coneConstraintAnchorB;
+    id _restPosition_chainRoot;
+    id _restGravityVector_chainRoot;
+    CDStruct_1fe29af2 _coneConstraintBasis_chainParent;
+    CDStruct_95fa7c00 _coneConstraintAnchorB;
 }
 
 - (void);

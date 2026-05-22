@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 @interface TeaUI.JSONTextViewController
 {
-    MISSING_TYPE *textView;
-    MISSING_TYPE *textParser;
-    MISSING_TYPE *_textSize;
-    MISSING_TYPE *$__lazy_storage_$_searchToolbar;
-    MISSING_TYPE *$__lazy_storage_$_resultsBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_nextTokenBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_previousTokenBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_doneBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_textResizeBarButtonItem;
+    id textView;
+    id textParser;
+    id _textSize;
+    id $__lazy_storage_$_searchToolbar;
+    id $__lazy_storage_$_resultsBarButtonItem;
+    id $__lazy_storage_$_nextTokenBarButtonItem;
+    id $__lazy_storage_$_previousTokenBarButtonItem;
+    id $__lazy_storage_$_doneBarButtonItem;
+    id $__lazy_storage_$_textResizeBarButtonItem;
 }
 
 - (void);

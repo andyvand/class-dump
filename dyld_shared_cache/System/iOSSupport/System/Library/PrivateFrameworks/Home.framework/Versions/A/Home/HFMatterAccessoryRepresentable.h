@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HFAccessoryType, HFServiceNameComponents, HMRoom, MISSING_TYPE, NSSet, NSString;
+@class HFAccessoryType, HFServiceNameComponents, HMRoom, NSSet, NSString;
 @protocol HFHomeContainedObject;
 
 @interface HFMatterAccessoryRepresentable
 {
-    MISSING_TYPE *accessory;
-    MISSING_TYPE *tilePath;
-    MISSING_TYPE *staticMatterDevice;
-    MISSING_TYPE *_tileInfo;
+    id accessory;
+    id tilePath;
+    id staticMatterDevice;
+    id _tileInfo;
 }
 
 - (id);

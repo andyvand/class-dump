@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VerifierRemapContext
 {
-    MISSING_TYPE *operation;
-    MISSING_TYPE *oldGeneration;
-    MISSING_TYPE *hasBadReference;
+    id operation;
+    id oldGeneration;
+    id hasBadReference;
 }
 
 @end

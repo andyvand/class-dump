@@ -6,17 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._GlassGroupView : UIView
 {
-    MISSING_TYPE *groupLayers;
-    MISSING_TYPE *addBackdropCaptureGroup;
-    MISSING_TYPE *usesForeground;
-    MISSING_TYPE *pendingBackdropContext;
-    MISSING_TYPE *quantizedLuma;
-    MISSING_TYPE *smoothness;
-    MISSING_TYPE *applySmoothnessViaGaussianRadius;
+    id groupLayers;
+    id addBackdropCaptureGroup;
+    id usesForeground;
+    id pendingBackdropContext;
+    id quantizedLuma;
+    id smoothness;
+    id applySmoothnessViaGaussianRadius;
 }
 
 - (void);

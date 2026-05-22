@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.HUBlurButton
 {
-    MISSING_TYPE *horizontalPadding;
-    MISSING_TYPE *verticalPadding;
-    MISSING_TYPE *cornerRadius;
-    MISSING_TYPE *blurBackgroundView;
+    id horizontalPadding;
+    id verticalPadding;
+    id cornerRadius;
+    id blurBackgroundView;
 }
 
 - (id);

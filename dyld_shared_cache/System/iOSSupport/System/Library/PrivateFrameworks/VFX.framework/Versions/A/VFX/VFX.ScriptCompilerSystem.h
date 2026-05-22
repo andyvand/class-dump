@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ScriptCompilerSystem
 {
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *gpuDevice;
-    MISSING_TYPE *compileQueue;
-    MISSING_TYPE *compileOperationQueue;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *pendingCompilationStatuses;
-    MISSING_TYPE *cachedBuildResults;
-    MISSING_TYPE *builderEmitterScript;
-    MISSING_TYPE *builderGraphScript;
-    MISSING_TYPE *builderSimpleScript;
-    MISSING_TYPE *builderKernelScript;
-    MISSING_TYPE *builderShaderScript;
-    MISSING_TYPE *builderHeaderScript;
-    MISSING_TYPE *builderParticleInitScript;
-    MISSING_TYPE *builderParticleUpdateScript;
-    MISSING_TYPE *builderTriggerScript;
-    MISSING_TYPE *isCompilationDisabledByUserDefault;
+    id entityManager;
+    id gpuDevice;
+    id compileQueue;
+    id compileOperationQueue;
+    id lock;
+    id pendingCompilationStatuses;
+    id cachedBuildResults;
+    id builderEmitterScript;
+    id builderGraphScript;
+    id builderSimpleScript;
+    id builderKernelScript;
+    id builderShaderScript;
+    id builderHeaderScript;
+    id builderParticleInitScript;
+    id builderParticleUpdateScript;
+    id builderTriggerScript;
+    id isCompilationDisabledByUserDefault;
 }
 
 @end

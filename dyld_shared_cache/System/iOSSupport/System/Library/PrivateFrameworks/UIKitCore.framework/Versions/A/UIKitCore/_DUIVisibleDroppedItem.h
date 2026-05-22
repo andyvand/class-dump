@@ -9,8 +9,8 @@
 @interface _DUIVisibleDroppedItem
 {
     struct CAPoint3D _center;
-    CDUnion_5898235e _velocity3D;
-    CDUnion_5898235e _targetVelocity3D;
+    CDUnion_84fc7ef9 _velocity3D;
+    CDUnion_84fc7ef9 _targetVelocity3D;
     _Bool _constrainSize;
     _Bool _flipped;
     _Bool _precisionMode;

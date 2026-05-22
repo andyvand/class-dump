@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _PKPeerPaymentMessagesRecipientPickerViewController
 {
-    MISSING_TYPE *hostingVC;
-    MISSING_TYPE *model;
+    id hostingVC;
+    id model;
 }
 
 - (_Bool);

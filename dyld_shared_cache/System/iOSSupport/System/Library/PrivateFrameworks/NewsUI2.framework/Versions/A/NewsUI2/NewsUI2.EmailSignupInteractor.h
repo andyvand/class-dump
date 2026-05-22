@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EmailSignupInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *onComplete;
-    MISSING_TYPE *model;
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *signupAutomaticPresentor;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *interacted;
+    id delegate;
+    id onComplete;
+    id model;
+    id newsletterManager;
+    id signupAutomaticPresentor;
+    id tracker;
+    id interacted;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.ScrollEdgeEffectView.PocketElementModel
 {
-    MISSING_TYPE *alignment;
-    MISSING_TYPE *hardEdges;
-    MISSING_TYPE *disableFloatingElements;
-    MISSING_TYPE *elementDescriptors;
-    MISSING_TYPE *cachedRegion;
+    id alignment;
+    id hardEdges;
+    id disableFloatingElements;
+    id elementDescriptors;
+    id cachedRegion;
 }
 
 @end

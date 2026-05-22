@@ -4,26 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface NewsUI2.TagView
 {
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *subtitleLabel;
-    MISSING_TYPE *badgeView;
-    MISSING_TYPE *countLabel;
-    MISSING_TYPE *accessoryView;
-    MISSING_TYPE *isSelectable;
-    MISSING_TYPE *isSelected;
-    MISSING_TYPE *isHighlightable;
-    MISSING_TYPE *isHighlighted;
-    MISSING_TYPE *isEditing;
-    MISSING_TYPE *$__lazy_storage_$_contentAccessibilityElement;
-    MISSING_TYPE *_notificationSwitch;
-    MISSING_TYPE *_likeButton;
-    MISSING_TYPE *_shortcutButton;
-    MISSING_TYPE *keyCommandBlocks;
+    id titleLabel;
+    id imageView;
+    id subtitleLabel;
+    id badgeView;
+    id countLabel;
+    id accessoryView;
+    id isSelectable;
+    id isSelected;
+    id isHighlightable;
+    id isHighlighted;
+    id isEditing;
+    id $__lazy_storage_$_contentAccessibilityElement;
+    id _notificationSwitch;
+    id _likeButton;
+    id _shortcutButton;
+    id keyCommandBlocks;
     void tsaxAccessibilityLabelForReordering;
 }
 

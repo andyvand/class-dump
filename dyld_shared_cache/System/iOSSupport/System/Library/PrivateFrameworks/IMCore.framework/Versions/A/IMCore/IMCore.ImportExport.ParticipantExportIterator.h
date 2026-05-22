@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ParticipantExportIterator
 {
-    MISSING_TYPE *exportOptions;
-    MISSING_TYPE *exportStatistics;
+    id exportOptions;
+    id exportStatistics;
 }
 
 @end

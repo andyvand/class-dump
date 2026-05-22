@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.ColumnChartCoordinateProvider
 {
-    MISSING_TYPE *valueCoordinateCalculator;
-    MISSING_TYPE *coordinateSpace;
-    MISSING_TYPE *size;
-    MISSING_TYPE *options;
-    MISSING_TYPE *seriesDictionary;
-    MISSING_TYPE *lock;
+    id valueCoordinateCalculator;
+    id coordinateSpace;
+    id size;
+    id options;
+    id seriesDictionary;
+    id lock;
 }
 
 @end

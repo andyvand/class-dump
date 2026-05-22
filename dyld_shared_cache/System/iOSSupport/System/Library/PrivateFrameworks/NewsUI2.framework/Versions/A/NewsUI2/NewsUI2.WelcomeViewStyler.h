@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WelcomeViewStyler
 {
-    MISSING_TYPE *colorStyler;
-    MISSING_TYPE *parameters;
+    id colorStyler;
+    id parameters;
 }
 
 @end

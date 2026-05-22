@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.TableOfContentsURLHandler
 {
-    MISSING_TYPE *issue;
-    MISSING_TYPE *actionHandler;
-    MISSING_TYPE *viewController;
+    id issue;
+    id actionHandler;
+    id viewController;
 }
 
 - (id);

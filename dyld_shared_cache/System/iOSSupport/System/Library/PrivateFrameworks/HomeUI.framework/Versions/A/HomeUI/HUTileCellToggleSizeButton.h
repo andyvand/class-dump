@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIImageSymbolConfiguration;
+@class UIImageSymbolConfiguration;
 
 @interface HUTileCellToggleSizeButton
 {
-    MISSING_TYPE *arrowImageView;
+    id arrowImageView;
     _Bool isExpanding;
     UIImageSymbolConfiguration *symbolConfiguration;
 }

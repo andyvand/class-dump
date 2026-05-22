@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.Mesh
 {
-    MISSING_TYPE *layout;
-    MISSING_TYPE *buffers;
-    MISSING_TYPE *parts;
-    MISSING_TYPE *vertexCount;
-    MISSING_TYPE *meshIdentifier;
+    id layout;
+    id buffers;
+    id parts;
+    id vertexCount;
+    id meshIdentifier;
 }
 
 @end

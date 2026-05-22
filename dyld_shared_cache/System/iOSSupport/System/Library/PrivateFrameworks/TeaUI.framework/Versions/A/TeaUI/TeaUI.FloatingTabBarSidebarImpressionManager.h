@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.FloatingTabBarSidebarImpressionManager
 {
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *activeSession;
-    MISSING_TYPE *activeImpressions;
-    MISSING_TYPE *options;
+    id isEnabled;
+    id delegate;
+    id activeSession;
+    id activeImpressions;
+    id options;
 }
 
 @end

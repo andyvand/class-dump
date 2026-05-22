@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatAccessibilityViewController
 {
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *contentSizeObserver;
+    id tableView;
+    id editor;
+    id sections;
+    id contentSizeObserver;
 }
 
 - (id);

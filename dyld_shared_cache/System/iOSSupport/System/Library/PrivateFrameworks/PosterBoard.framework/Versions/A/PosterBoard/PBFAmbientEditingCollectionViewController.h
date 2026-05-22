@@ -4,38 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSDisplayConfiguration, MISSING_TYPE, UIView;
+@class FBSDisplayConfiguration, UIView;
 @protocol PBFAmbientEditingCollectionViewControllerDelegate;
 
 @interface PBFAmbientEditingCollectionViewController
 {
-    MISSING_TYPE *_displayConfiguration;
+    id _displayConfiguration;
     void ambientEditingDelegate;
     UIView *transitionOverlayView;
-    MISSING_TYPE *layout;
-    MISSING_TYPE *hasScrolledToActivePosterForInitialViewLayout;
-    MISSING_TYPE *desiredSpacingFromCardToPageControl;
-    MISSING_TYPE *buttonDistanceFromScreenTop;
-    MISSING_TYPE *buttonDistanceFromScreenEdge;
-    MISSING_TYPE *buttonWidth;
-    MISSING_TYPE *buttonHeight;
-    MISSING_TYPE *dataStore;
-    MISSING_TYPE *posters;
-    MISSING_TYPE *activePosterConfiguration;
-    MISSING_TYPE *activePosterProvider;
-    MISSING_TYPE *doneButton;
-    MISSING_TYPE *addButton;
-    MISSING_TYPE *finishDismiss;
-    MISSING_TYPE *pageControl;
-    MISSING_TYPE *pageControlPreferredNumberOfVisibleIndicators;
-    MISSING_TYPE *availableInstanceIdentifiers;
-    MISSING_TYPE *$__lazy_storage_$_snapshotController;
-    MISSING_TYPE *editingSceneHiddenWindow;
-    MISSING_TYPE *editingSceneViewController;
-    MISSING_TYPE *presentedEditingRemoteViewController;
-    MISSING_TYPE *presentedEditingRemoteViewContentScreenRect;
-    MISSING_TYPE *isScrollingOrSettling;
-    MISSING_TYPE *observers;
+    id layout;
+    id hasScrolledToActivePosterForInitialViewLayout;
+    id desiredSpacingFromCardToPageControl;
+    id buttonDistanceFromScreenTop;
+    id buttonDistanceFromScreenEdge;
+    id buttonWidth;
+    id buttonHeight;
+    id dataStore;
+    id posters;
+    id activePosterConfiguration;
+    id activePosterProvider;
+    id doneButton;
+    id addButton;
+    id finishDismiss;
+    id pageControl;
+    id pageControlPreferredNumberOfVisibleIndicators;
+    id availableInstanceIdentifiers;
+    id $__lazy_storage_$_snapshotController;
+    id editingSceneHiddenWindow;
+    id editingSceneViewController;
+    id presentedEditingRemoteViewController;
+    id presentedEditingRemoteViewContentScreenRect;
+    id isScrollingOrSettling;
+    id observers;
 }
 
 - (void);

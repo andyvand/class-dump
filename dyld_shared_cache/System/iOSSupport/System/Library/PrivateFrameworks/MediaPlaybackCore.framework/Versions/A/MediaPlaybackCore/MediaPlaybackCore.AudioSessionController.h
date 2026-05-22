@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.AudioSessionController
 {
-    MISSING_TYPE *_audioSession;
-    MISSING_TYPE *isManagedSession;
-    MISSING_TYPE *lastAudioSessionMode;
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *wasPreviouslyActivated;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *activationNumber;
+    id _audioSession;
+    id isManagedSession;
+    id lastAudioSessionMode;
+    id reporter;
+    id wasPreviouslyActivated;
+    id queue;
+    id activationNumber;
 }
 
 @end

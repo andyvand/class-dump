@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeBoxFeedPoolService
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *recipeService;
+    id context;
+    id recipeService;
 }
 
 @end

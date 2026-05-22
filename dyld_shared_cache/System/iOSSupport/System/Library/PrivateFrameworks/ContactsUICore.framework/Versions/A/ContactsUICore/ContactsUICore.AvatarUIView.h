@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.AvatarUIView
 {
-    MISSING_TYPE *borderStyle;
-    MISSING_TYPE *contactStore;
-    MISSING_TYPE *personaIdentifier;
-    MISSING_TYPE *listener;
-    MISSING_TYPE *model;
-    MISSING_TYPE *avatarHash;
-    MISSING_TYPE *contact;
+    id borderStyle;
+    id contactStore;
+    id personaIdentifier;
+    id listener;
+    id model;
+    id avatarHash;
+    id contact;
 }
 
 + (Class);

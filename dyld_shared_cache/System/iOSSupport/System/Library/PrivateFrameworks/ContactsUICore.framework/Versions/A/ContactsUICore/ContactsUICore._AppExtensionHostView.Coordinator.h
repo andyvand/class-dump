@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore._AppExtensionHostView.Coordinator
 {
-    MISSING_TYPE *hostViewController;
-    MISSING_TYPE *connection;
-    MISSING_TYPE *salientRect;
-    MISSING_TYPE *configuration;
+    id hostViewController;
+    id connection;
+    id salientRect;
+    id configuration;
 }
 
 - (void);

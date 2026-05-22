@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FeedPerformanceCommandHandler
 {
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *networkBehaviorMonitor;
-    MISSING_TYPE *pptContext;
-    MISSING_TYPE *haveShownAlert;
+    id sceneProvider;
+    id appConfigManager;
+    id networkBehaviorMonitor;
+    id pptContext;
+    id haveShownAlert;
 }
 
 @end

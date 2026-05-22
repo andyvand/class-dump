@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.JSDebugObject
 {
-    MISSING_TYPE *isDebugPointsEnabled;
-    MISSING_TYPE *newPoints;
-    MISSING_TYPE *encoder;
+    id isDebugPointsEnabled;
+    id newPoints;
+    id encoder;
 }
 
 - (id);

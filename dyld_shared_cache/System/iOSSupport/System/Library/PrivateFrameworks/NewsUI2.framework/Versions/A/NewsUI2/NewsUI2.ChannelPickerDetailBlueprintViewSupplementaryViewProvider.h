@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelPickerDetailBlueprintViewSupplementaryViewProvider
 {
-    MISSING_TYPE *titleViewRenderer;
-    MISSING_TYPE *channelPickerFooterViewRenderer;
+    id titleViewRenderer;
+    id channelPickerFooterViewRenderer;
 }
 
 @end

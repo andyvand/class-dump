@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioTrackDetailsStyler
 {
-    MISSING_TYPE *baseStyler;
-    MISSING_TYPE *fontBookFactory;
-    MISSING_TYPE *fontBookProviding;
+    id baseStyler;
+    id fontBookFactory;
+    id fontBookProviding;
 }
 
 @end

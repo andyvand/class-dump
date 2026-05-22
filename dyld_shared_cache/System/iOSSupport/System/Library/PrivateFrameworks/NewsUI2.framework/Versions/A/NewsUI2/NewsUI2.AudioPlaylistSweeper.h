@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioPlaylistSweeper
 {
-    MISSING_TYPE *audioPlaylist;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *listeningProgressManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *appConfigurationManager;
+    id audioPlaylist;
+    id readingHistory;
+    id headlineService;
+    id listeningProgressManager;
+    id bundleSubscriptionManager;
+    id appConfigurationManager;
 }
 
 @end

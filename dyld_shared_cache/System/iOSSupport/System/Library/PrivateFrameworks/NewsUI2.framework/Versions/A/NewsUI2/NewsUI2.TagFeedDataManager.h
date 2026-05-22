@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *feedDescriptor;
-    MISSING_TYPE *feedServiceContextFactory;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *feedManager;
-    MISSING_TYPE *feedPluginManager;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *historyService;
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *sportsSyncManager;
-    MISSING_TYPE *sportsSyncToken;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *offlineFeedPrimer;
-    MISSING_TYPE *offlineFeatures;
-    MISSING_TYPE *lastRefreshDateSetting;
-    MISSING_TYPE *channelPickerReloadState;
-    MISSING_TYPE *$__lazy_storage_$_ensurePrewarmPromise;
+    id delegate;
+    id feedDescriptor;
+    id feedServiceContextFactory;
+    id feedServiceConfigFetcher;
+    id feedManager;
+    id feedPluginManager;
+    id headlineService;
+    id accessQueue;
+    id appConfigManager;
+    id tagService;
+    id subscriptionService;
+    id historyService;
+    id puzzleStatsService;
+    id puzzleHistoryService;
+    id sportsSyncManager;
+    id sportsSyncToken;
+    id sportsOnboardingManager;
+    id offlineManager;
+    id offlineFeedPrimer;
+    id offlineFeatures;
+    id lastRefreshDateSetting;
+    id channelPickerReloadState;
+    id $__lazy_storage_$_ensurePrewarmPromise;
 }
 
 - (void);

@@ -11,7 +11,7 @@
     struct __CFXBezierCurveGeometry *_geometry;
     unsigned int _isPresentationObject:1;
     struct CGPath *_cgPath;
-    CDStruct_14d5dc5e _curveToGeometryTransform;
+    CDStruct_95fa7c00 _curveToGeometryTransform;
     NSString *_name;
 }
 
@@ -30,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (CDStruct_a7a0fb92);
+- (CDStruct_8666bb01);
 - (void);
 - (void);
 - (id);
@@ -39,7 +39,7 @@
 
 // Remaining properties
 @property(readonly) struct CGPath *CGPath;
-@property(nonatomic) CDStruct_a7a0fb92 boundingBox;
+@property(nonatomic) CDStruct_8666bb01 boundingBox;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

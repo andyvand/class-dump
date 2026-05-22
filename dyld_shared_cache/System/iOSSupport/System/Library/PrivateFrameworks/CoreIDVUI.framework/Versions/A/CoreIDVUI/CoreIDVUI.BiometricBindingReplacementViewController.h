@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.BiometricBindingReplacementViewController
 {
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *textLabel;
-    MISSING_TYPE *primaryButton;
-    MISSING_TYPE *target;
-    MISSING_TYPE *biometricBindingController;
-    MISSING_TYPE *context;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *$__lazy_storage_$_cancelButton;
-    MISSING_TYPE *$__lazy_storage_$_activityIndicator;
-    MISSING_TYPE *$__lazy_storage_$_activityIndicatorBarButtonItem;
+    id titleLabel;
+    id textLabel;
+    id primaryButton;
+    id target;
+    id biometricBindingController;
+    id context;
+    id delegate;
+    id $__lazy_storage_$_cancelButton;
+    id $__lazy_storage_$_activityIndicator;
+    id $__lazy_storage_$_activityIndicatorBarButtonItem;
 }
 
 - (void);

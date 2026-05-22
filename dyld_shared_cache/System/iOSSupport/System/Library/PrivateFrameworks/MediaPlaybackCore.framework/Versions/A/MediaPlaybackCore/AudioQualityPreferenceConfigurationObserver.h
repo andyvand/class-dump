@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface AudioQualityPreferenceConfigurationObserver
 {
-    MISSING_TYPE *preferenceChangeSubscription;
-    MISSING_TYPE *preferenceSnapshot;
+    id preferenceChangeSubscription;
+    id preferenceSnapshot;
     void preferenceChangeClosure;
 }
 

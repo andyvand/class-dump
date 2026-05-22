@@ -6,12 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIReparentingView : UIView
 {
-    MISSING_TYPE *portal;
-    MISSING_TYPE *OpacityPairInputAmount;
+    id portal;
+    id OpacityPairInputAmount;
 }
 
 - (id);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedLayoutStylerFactory
 {
-    MISSING_TYPE *fontBookProvider;
-    MISSING_TYPE *colorPaletteProvider;
-    MISSING_TYPE *scaleFactor;
+    id fontBookProvider;
+    id colorPaletteProvider;
+    id scaleFactor;
 }
 
 @end

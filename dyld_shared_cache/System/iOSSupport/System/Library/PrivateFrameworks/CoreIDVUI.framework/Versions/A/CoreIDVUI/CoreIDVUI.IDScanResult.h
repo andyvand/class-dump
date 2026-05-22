@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IDScanResult
 {
-    MISSING_TYPE *scannedImage;
-    MISSING_TYPE *iqCode;
-    MISSING_TYPE *captureTime;
-    MISSING_TYPE *rescanCount;
+    id scannedImage;
+    id iqCode;
+    id captureTime;
+    id rescanCount;
 }
 
 @end

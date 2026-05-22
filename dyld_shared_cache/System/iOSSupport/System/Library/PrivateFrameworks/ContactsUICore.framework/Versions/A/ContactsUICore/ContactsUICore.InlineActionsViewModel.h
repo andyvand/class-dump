@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.InlineActionsViewModel
 {
-    MISSING_TYPE *_actionsProvider;
-    MISSING_TYPE *contact;
-    MISSING_TYPE *_actionItems;
-    MISSING_TYPE *_defaultActions;
-    MISSING_TYPE *_actionTypes;
-    MISSING_TYPE *_groupActions;
-    MISSING_TYPE *_contactIdentifier;
-    MISSING_TYPE *_isBlocked;
-    MISSING_TYPE *_$observationRegistrar;
+    id _actionsProvider;
+    id contact;
+    id _actionItems;
+    id _defaultActions;
+    id _actionTypes;
+    id _groupActions;
+    id _contactIdentifier;
+    id _isBlocked;
+    id _$observationRegistrar;
 }
 
 - (void);

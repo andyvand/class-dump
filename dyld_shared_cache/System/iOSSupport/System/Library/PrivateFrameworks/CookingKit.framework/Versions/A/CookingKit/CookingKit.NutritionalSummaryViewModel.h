@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.NutritionalSummaryViewModel
 {
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_calories;
-    MISSING_TYPE *_primaryNutrients;
-    MISSING_TYPE *_allNutrients;
-    MISSING_TYPE *_$observationRegistrar;
+    id _$scope;
+    id _calories;
+    id _primaryNutrients;
+    id _allNutrients;
+    id _$observationRegistrar;
 }
 
 @end

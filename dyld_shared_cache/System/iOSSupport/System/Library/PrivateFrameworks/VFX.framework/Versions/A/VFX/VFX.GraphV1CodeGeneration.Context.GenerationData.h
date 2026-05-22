@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphV1CodeGeneration.Context.GenerationData
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *settings;
-    MISSING_TYPE *domain;
-    MISSING_TYPE *libFunctionsToInclude;
-    MISSING_TYPE *inArgs;
-    MISSING_TYPE *inOutArgs;
-    MISSING_TYPE *code;
-    MISSING_TYPE *templatesAlreadyDefined;
-    MISSING_TYPE *errorInfos;
-    MISSING_TYPE *allSwitchCases;
-    MISSING_TYPE *hasTimeDependentSnippet;
-    MISSING_TYPE *addAllInputsAndOutputs;
-    MISSING_TYPE *cleanupCodeArr;
-    MISSING_TYPE *baseObjectUidsAlreadyDeclaredDuringCodeGeneration;
+    id context;
+    id settings;
+    id domain;
+    id libFunctionsToInclude;
+    id inArgs;
+    id inOutArgs;
+    id code;
+    id templatesAlreadyDefined;
+    id errorInfos;
+    id allSwitchCases;
+    id hasTimeDependentSnippet;
+    id addAllInputsAndOutputs;
+    id cleanupCodeArr;
+    id baseObjectUidsAlreadyDeclaredDuringCodeGeneration;
 }
 
 @end

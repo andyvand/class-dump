@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioHeroStore
 {
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *headlineCache;
+    id headlineService;
+    id cloudContext;
+    id headlineCache;
 }
 
 @end

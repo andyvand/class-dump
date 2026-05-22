@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.FullAlignmentTaskV2
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *transcriptProvider;
-    MISSING_TYPE *elapsedTimeProvider;
-    MISSING_TYPE *task;
-    MISSING_TYPE *state;
-    MISSING_TYPE *assetReaderOutput;
+    id $defaultActor;
+    id transcriptProvider;
+    id elapsedTimeProvider;
+    id task;
+    id state;
+    id assetReaderOutput;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.LineChartRenderer
 {
-    MISSING_TYPE *imageLoader;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *zoneMaskProvider;
-    MISSING_TYPE *animationSynchronizer;
-    MISSING_TYPE *reuseProtector;
-    MISSING_TYPE *accessibilityElementProvider;
+    id imageLoader;
+    id styler;
+    id zoneMaskProvider;
+    id animationSynchronizer;
+    id reuseProtector;
+    id accessibilityElementProvider;
 }
 
 @end

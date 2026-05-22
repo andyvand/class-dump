@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.Unstable.Accounts
 {
-    MISSING_TYPE *backingStore;
-    MISSING_TYPE *_activeiTunesAccount;
+    id backingStore;
+    id _activeiTunesAccount;
 }
 
 - (void);

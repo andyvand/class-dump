@@ -4,41 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIImageView, UIView, _TtC9CoreIDVUI25IDVTrailingAccessoryLabel;
+@class CoreIDVUI.IDVTrailingAccessoryLabel, UIImageView, UIView;
 
 @interface CoreIDVUI.IdentityProofingViewController
 {
-    MISSING_TYPE *primaryButtonTargetAction;
-    MISSING_TYPE *secondaryButtonTargetAction;
-    MISSING_TYPE *cancelButtonTargetAction;
-    MISSING_TYPE *backButtonTargetAction;
-    MISSING_TYPE *tertiaryButtonTargetAction;
-    MISSING_TYPE *linkButtonTargetAction;
-    MISSING_TYPE *privacyLinkButtonTargetAction;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *$__lazy_storage_$_bottomTrayBackground;
-    MISSING_TYPE *$__lazy_storage_$_bottomTray;
-    MISSING_TYPE *$__lazy_storage_$_textContainerStackView;
-    MISSING_TYPE *$__lazy_storage_$_titleLabel;
-    MISSING_TYPE *$__lazy_storage_$_subtitleLabel;
-    MISSING_TYPE *$__lazy_storage_$_scrollView;
-    MISSING_TYPE *$__lazy_storage_$_mainStackView;
-    MISSING_TYPE *$__lazy_storage_$_linkButton;
-    MISSING_TYPE *$__lazy_storage_$_privacyLinkButton;
-    MISSING_TYPE *$__lazy_storage_$_primaryButton;
-    MISSING_TYPE *$__lazy_storage_$_secondaryButton;
-    MISSING_TYPE *$__lazy_storage_$_tertiaryButton;
-    MISSING_TYPE *$__lazy_storage_$_footerCaption;
-    MISSING_TYPE *$__lazy_storage_$_footerCaptionWithLink;
-    MISSING_TYPE *$__lazy_storage_$_privacyLinkButtonSpacer;
-    MISSING_TYPE *$__lazy_storage_$_activityIndicator;
-    MISSING_TYPE *checkmarkView;
-    MISSING_TYPE *cancelButton;
-    MISSING_TYPE *backButton;
-    MISSING_TYPE *$__lazy_storage_$_headerView;
-    MISSING_TYPE *$__lazy_storage_$_backgroundContainerView;
-    MISSING_TYPE *cardContainerView;
-    MISSING_TYPE *$__lazy_storage_$_imageView;
+    id primaryButtonTargetAction;
+    id secondaryButtonTargetAction;
+    id cancelButtonTargetAction;
+    id backButtonTargetAction;
+    id tertiaryButtonTargetAction;
+    id linkButtonTargetAction;
+    id privacyLinkButtonTargetAction;
+    id configuration;
+    id $__lazy_storage_$_bottomTrayBackground;
+    id $__lazy_storage_$_bottomTray;
+    id $__lazy_storage_$_textContainerStackView;
+    id $__lazy_storage_$_titleLabel;
+    id $__lazy_storage_$_subtitleLabel;
+    id $__lazy_storage_$_scrollView;
+    id $__lazy_storage_$_mainStackView;
+    id $__lazy_storage_$_linkButton;
+    id $__lazy_storage_$_privacyLinkButton;
+    id $__lazy_storage_$_primaryButton;
+    id $__lazy_storage_$_secondaryButton;
+    id $__lazy_storage_$_tertiaryButton;
+    id $__lazy_storage_$_footerCaption;
+    id $__lazy_storage_$_footerCaptionWithLink;
+    id $__lazy_storage_$_privacyLinkButtonSpacer;
+    id $__lazy_storage_$_activityIndicator;
+    id checkmarkView;
+    id cancelButton;
+    id backButton;
+    id $__lazy_storage_$_headerView;
+    id $__lazy_storage_$_backgroundContainerView;
+    id cardContainerView;
+    id $__lazy_storage_$_imageView;
 }
 
 - (void);
@@ -67,7 +67,7 @@
 // Remaining properties
 @property(nonatomic, retain) UIView *backgroundContainerView;
 @property(nonatomic, retain) UIImageView *imageView;
-@property(nonatomic, retain) _TtC9CoreIDVUI25IDVTrailingAccessoryLabel *titleLabel;
+@property(nonatomic, retain) CoreIDVUI.IDVTrailingAccessoryLabel *titleLabel;
 
 @end
 

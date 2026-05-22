@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSnippet
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *_name;
-    MISSING_TYPE *_description;
-    MISSING_TYPE *_children;
-    MISSING_TYPE *_options;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *_types;
+    id identifier;
+    id _name;
+    id _description;
+    id _children;
+    id _options;
+    id _selectors;
+    id _types;
 }
 
 @end

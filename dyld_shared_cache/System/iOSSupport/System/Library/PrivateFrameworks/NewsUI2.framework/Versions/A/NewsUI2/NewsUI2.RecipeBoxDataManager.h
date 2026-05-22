@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeBoxDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *recipeBox;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *recipeBoxSearchDatabase;
-    MISSING_TYPE *feedServiceContextFactory;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *feedService;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *recipeAccessProvider;
-    MISSING_TYPE *recipeUserDataManager;
-    MISSING_TYPE *ratingObservationTask;
+    id delegate;
+    id recipeBox;
+    id recipeService;
+    id recipeBoxSearchDatabase;
+    id feedServiceContextFactory;
+    id feedServiceConfigFetcher;
+    id feedService;
+    id subscriptionService;
+    id recipeAccessProvider;
+    id recipeUserDataManager;
+    id ratingObservationTask;
 }
 
 - (void);

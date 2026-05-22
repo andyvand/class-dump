@@ -6,15 +6,13 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.ScrollEdgeEffectView.PocketMask : UIView
 {
-    MISSING_TYPE *layout;
-    MISSING_TYPE *elementStyle;
-    MISSING_TYPE *containerView;
-    MISSING_TYPE *layerPool;
-    MISSING_TYPE *previousBarFrame;
+    id layout;
+    id elementStyle;
+    id containerView;
+    id layerPool;
+    id previousBarFrame;
 }
 
 - (id);

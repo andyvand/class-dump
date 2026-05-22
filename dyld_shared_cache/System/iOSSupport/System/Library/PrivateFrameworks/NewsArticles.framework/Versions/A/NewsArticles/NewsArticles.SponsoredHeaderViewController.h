@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.SponsoredHeaderViewController
 {
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *label;
-    MISSING_TYPE *headerDelegate;
+    id renderer;
+    id label;
+    id headerDelegate;
 }
 
 - (id);

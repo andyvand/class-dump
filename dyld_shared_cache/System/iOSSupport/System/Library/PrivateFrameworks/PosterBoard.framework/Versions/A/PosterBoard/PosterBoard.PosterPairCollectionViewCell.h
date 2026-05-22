@@ -6,17 +6,15 @@
 
 #import <PosterBoard/PosterBoard.PosterCollectionViewCell.h>
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.PosterPairCollectionViewCell : PosterBoard.PosterCollectionViewCell
 {
-    MISSING_TYPE *snapshotProvider;
-    MISSING_TYPE *posterPair;
-    MISSING_TYPE *lockPosterSnapshotView;
-    MISSING_TYPE *keyLineView;
-    MISSING_TYPE *snapshotBundle;
-    MISSING_TYPE *isReloadingLockPosterSnapshot;
-    MISSING_TYPE *lockPosterSnapshotImage;
+    id snapshotProvider;
+    id posterPair;
+    id lockPosterSnapshotView;
+    id keyLineView;
+    id snapshotBundle;
+    id isReloadingLockPosterSnapshot;
+    id lockPosterSnapshotImage;
 }
 
 - (void);

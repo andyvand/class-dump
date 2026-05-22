@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.ToolKitIndexingScheduler.DebouncedReason
 {
-    MISSING_TYPE *finished;
-    MISSING_TYPE *continuation;
-    MISSING_TYPE *reason;
+    id finished;
+    id continuation;
+    id reason;
 }
 
 @end

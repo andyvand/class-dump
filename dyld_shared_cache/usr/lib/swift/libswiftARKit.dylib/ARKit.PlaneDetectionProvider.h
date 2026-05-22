@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.PlaneDetectionProvider
 {
-    MISSING_TYPE *_cPlaneDetectionProvider;
-    MISSING_TYPE *_cPlaneDetectionConfiguration;
-    MISSING_TYPE *anchorUpdateIterators;
-    MISSING_TYPE *anchorQueue;
-    MISSING_TYPE *_cPlaneAlignment;
+    id _cPlaneDetectionProvider;
+    id _cPlaneDetectionConfiguration;
+    id anchorUpdateIterators;
+    id anchorQueue;
+    id _cPlaneAlignment;
 }
 
 @end

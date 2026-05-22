@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeContentPrefetcher
 {
-    MISSING_TYPE *interest;
-    MISSING_TYPE *cache;
-    MISSING_TYPE *operationQueue;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *recipeFactory;
+    id interest;
+    id cache;
+    id operationQueue;
+    id recipeService;
+    id recipeFactory;
 }
 
 - (void);

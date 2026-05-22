@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, WKUserScript;
+@class NSString, WKUserScript;
 
 @interface NewsFeed.PuzzleEmbedScript
 {
     void identifier;
-    MISSING_TYPE *eventName;
-    MISSING_TYPE *eventDetail;
+    id eventName;
+    id eventDetail;
     _Bool queueable;
 }
 

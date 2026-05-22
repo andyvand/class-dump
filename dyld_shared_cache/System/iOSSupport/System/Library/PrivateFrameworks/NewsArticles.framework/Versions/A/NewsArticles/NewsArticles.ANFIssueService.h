@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ANFIssueService
 {
-    MISSING_TYPE *issueArticleService;
-    MISSING_TYPE *personalizationService;
+    id issueArticleService;
+    id personalizationService;
 }
 
 @end

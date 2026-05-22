@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface hvf.PartRenderer.AxisValues
 {
-    MISSING_TYPE *base;
-    MISSING_TYPE *basePartIndex;
-    MISSING_TYPE *treeAxisOffset;
-    MISSING_TYPE *axisCount;
-    MISSING_TYPE *isNested;
-    MISSING_TYPE *startIndex;
+    id base;
+    id basePartIndex;
+    id treeAxisOffset;
+    id axisCount;
+    id isNested;
+    id startIndex;
 }
 
 @end

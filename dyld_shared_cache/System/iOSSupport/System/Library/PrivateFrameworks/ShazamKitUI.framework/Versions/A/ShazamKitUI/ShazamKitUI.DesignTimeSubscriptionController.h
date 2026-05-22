@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ShazamKitUI.DesignTimeSubscriptionController
 {
-    MISSING_TYPE *status;
-    MISSING_TYPE *hasActiveSubscription;
+    id status;
+    id hasActiveSubscription;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @protocol PTRenderState
 
 // Remaining properties
-@property(readonly) CDStruct_8e0628e6 cameraIntrinsicMatrix;
+@property(readonly) CDStruct_1fe29af2 cameraIntrinsicMatrix;
 @property(nonatomic) int conversionGain;
 @property(nonatomic) float focalLenIn35mmFilm;
 @property(nonatomic) int hwModelID;
@@ -24,6 +22,6 @@
 @property(nonatomic) int sensorID;
 @property(nonatomic) int sourceColorBitDepth;
 @property(nonatomic) struct CGRect totalSensorCrop;
-@property(nonatomic) MISSING_TYPE *visCropFactor;
+@property(nonatomic) id visCropFactor;
 @end
 

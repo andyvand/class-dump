@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.LocationSearchViewModel
 {
-    MISSING_TYPE *_locationSearchText;
-    MISSING_TYPE *_searchedLocations;
-    MISSING_TYPE *_selectedLocation;
-    MISSING_TYPE *_selectedLocationValidity;
-    MISSING_TYPE *_destinationType;
-    MISSING_TYPE *_selectedFenceSize;
-    MISSING_TYPE *_annotations;
-    MISSING_TYPE *_selectedLocationReverseGeocodeStatus;
-    MISSING_TYPE *cancellableSet;
-    MISSING_TYPE *safetyMonitorManager;
-    MISSING_TYPE *mkLocalSearchCompleter;
-    MISSING_TYPE *locationManager;
-    MISSING_TYPE *_endLocation;
+    id _locationSearchText;
+    id _searchedLocations;
+    id _selectedLocation;
+    id _selectedLocationValidity;
+    id _destinationType;
+    id _selectedFenceSize;
+    id _annotations;
+    id _selectedLocationReverseGeocodeStatus;
+    id cancellableSet;
+    id safetyMonitorManager;
+    id mkLocalSearchCompleter;
+    id locationManager;
+    id _endLocation;
 }
 
 - (void);

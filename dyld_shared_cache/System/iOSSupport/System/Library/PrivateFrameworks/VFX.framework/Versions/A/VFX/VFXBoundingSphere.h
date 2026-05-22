@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFXBoundingSphere
 {
-    MISSING_TYPE *center;
+    id center;
     float radius;
 }
 
@@ -16,12 +14,12 @@
 - (void);
 - (id);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (void);
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *center; // @synthesize center;
+@property(nonatomic) id center; // @synthesize center;
 @property(nonatomic) float radius; // @synthesize radius;
 
 @end

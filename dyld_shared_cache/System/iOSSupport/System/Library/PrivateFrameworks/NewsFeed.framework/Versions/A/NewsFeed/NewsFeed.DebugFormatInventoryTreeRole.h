@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatInventoryTreeRole
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *kind;
-    MISSING_TYPE *_debugPackages;
-    MISSING_TYPE *unfilteredDebugPackages;
+    id id;
+    id kind;
+    id _debugPackages;
+    id unfilteredDebugPackages;
 }
 
 @end

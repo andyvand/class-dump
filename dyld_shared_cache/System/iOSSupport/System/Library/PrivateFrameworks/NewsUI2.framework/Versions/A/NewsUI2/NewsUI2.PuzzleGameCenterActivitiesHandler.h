@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleGameCenterActivitiesHandler
 {
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *puzzleGameCenterService;
-    MISSING_TYPE *urlHandler;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *welcomeStatus;
-    MISSING_TYPE *welcomeStatusTask;
+    id appConfigManager;
+    id puzzleGameCenterService;
+    id urlHandler;
+    id puzzleService;
+    id resolver;
+    id welcomeStatus;
+    id welcomeStatusTask;
 }
 
 @end

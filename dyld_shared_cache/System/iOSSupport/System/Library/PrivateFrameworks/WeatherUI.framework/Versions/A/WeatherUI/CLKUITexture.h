@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLKUIAtlas, MISSING_TYPE, NSString;
+@class CLKUIAtlas, NSString;
 
 @interface CLKUITexture
 {
     _Bool _null;
     CLKUIAtlas *_atlas;
-    MISSING_TYPE *_rect;
+    id _rect;
 }
 
 + (id);
@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
@@ -31,7 +31,7 @@
 // Remaining properties
 @property(readonly, nonatomic) CLKUIAtlas *atlas; // @synthesize atlas=_atlas;
 @property(readonly, nonatomic, getter=isNull) _Bool null; // @synthesize null=_null;
-@property(readonly, nonatomic) MISSING_TYPE *rect; // @synthesize rect=_rect;
+@property(readonly, nonatomic) id rect; // @synthesize rect=_rect;
 @property(readonly, nonatomic) unsigned long long status;
 @property(readonly, nonatomic) NSString *uuid;
 

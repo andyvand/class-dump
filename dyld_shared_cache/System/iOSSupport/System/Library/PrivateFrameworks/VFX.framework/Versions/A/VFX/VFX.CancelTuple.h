@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.CancelTuple
 {
-    MISSING_TYPE *isCancelled;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *tuple;
+    id isCancelled;
+    id lock;
+    id tuple;
 }
 
 @end

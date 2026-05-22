@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.GradientView
 {
-    MISSING_TYPE *gradientDescriptor;
-    MISSING_TYPE *dynamicGradientDescriptor;
+    id gradientDescriptor;
+    id dynamicGradientDescriptor;
 }
 
 + (Class);

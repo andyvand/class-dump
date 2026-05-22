@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleButtonsAccessoryView
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *height;
-    MISSING_TYPE *spacing;
+    id identifier;
+    id height;
+    id spacing;
 }
 
 - (id);

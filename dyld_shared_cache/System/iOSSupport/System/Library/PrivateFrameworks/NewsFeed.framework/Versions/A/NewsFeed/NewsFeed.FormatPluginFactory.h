@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatPluginFactory
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *pluginContainerController;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *formatModelFactory;
-    MISSING_TYPE *formatTracker;
-    MISSING_TYPE *animatorFactory;
-    MISSING_TYPE *webEmbedManager;
-    MISSING_TYPE *preparedIdentifiers;
+    id delegate;
+    id pluginContainerController;
+    id resolver;
+    id formatModelFactory;
+    id formatTracker;
+    id animatorFactory;
+    id webEmbedManager;
+    id preparedIdentifiers;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.PaymentAuthorizationServiceDelegate
 {
-    MISSING_TYPE *stateMachine;
-    MISSING_TYPE *context;
+    id stateMachine;
+    id context;
 }
 
 - (void);

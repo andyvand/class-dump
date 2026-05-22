@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.CaptionsClientDelegate
 {
-    MISSING_TYPE *source;
-    MISSING_TYPE *target;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *sourceClient;
-    MISSING_TYPE *targetClient;
-    MISSING_TYPE *updateTranscript;
+    id source;
+    id target;
+    id logger;
+    id sourceClient;
+    id targetClient;
+    id updateTranscript;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedCache
 {
-    MISSING_TYPE *ownerCache;
-    MISSING_TYPE *prepareSize;
-    MISSING_TYPE *count;
+    id ownerCache;
+    id prepareSize;
+    id count;
 }
 
 @end

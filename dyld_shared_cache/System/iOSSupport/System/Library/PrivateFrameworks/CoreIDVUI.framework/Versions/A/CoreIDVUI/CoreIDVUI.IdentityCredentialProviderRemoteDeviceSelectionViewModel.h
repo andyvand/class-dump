@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityCredentialProviderRemoteDeviceSelectionViewModel
 {
-    MISSING_TYPE *_onDisappeared;
-    MISSING_TYPE *_onDismissed;
-    MISSING_TYPE *_onShowScannableCode;
-    MISSING_TYPE *_onEnableBluetooth;
-    MISSING_TYPE *_viewState;
-    MISSING_TYPE *_$observationRegistrar;
+    id _onDisappeared;
+    id _onDismissed;
+    id _onShowScannableCode;
+    id _onEnableBluetooth;
+    id _viewState;
+    id _$observationRegistrar;
 }
 
 @end

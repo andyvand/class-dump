@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphV1CodeGeneration.Resources
 {
-    MISSING_TYPE *customTypes;
-    MISSING_TYPE *customTypesPerType;
-    MISSING_TYPE *libraries;
-    MISSING_TYPE *userTemplateLibraries;
-    MISSING_TYPE *conversionSnippets;
-    MISSING_TYPE *compositionSnippets;
-    MISSING_TYPE *decompositionSnippets;
-    MISSING_TYPE *initialized;
-    MISSING_TYPE *vfxGraphTemplatesDir;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *onUserTemplatesChanged;
-    MISSING_TYPE *bundle;
-    MISSING_TYPE *codeSourceSnippetRemapping;
-    MISSING_TYPE *codeSourceSnippetRemappingWithValueTransfer;
+    id customTypes;
+    id customTypesPerType;
+    id libraries;
+    id userTemplateLibraries;
+    id conversionSnippets;
+    id compositionSnippets;
+    id decompositionSnippets;
+    id initialized;
+    id vfxGraphTemplatesDir;
+    id lock;
+    id onUserTemplatesChanged;
+    id bundle;
+    id codeSourceSnippetRemapping;
+    id codeSourceSnippetRemappingWithValueTransfer;
 }
 
 @end

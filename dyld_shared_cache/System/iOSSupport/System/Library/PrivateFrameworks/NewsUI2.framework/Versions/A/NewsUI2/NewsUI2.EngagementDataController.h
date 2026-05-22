@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EngagementDataController
 {
-    MISSING_TYPE *manager;
-    MISSING_TYPE *triggerDataProviders;
-    MISSING_TYPE *controllerQueue;
+    id manager;
+    id triggerDataProviders;
+    id controllerQueue;
 }
 
 @end

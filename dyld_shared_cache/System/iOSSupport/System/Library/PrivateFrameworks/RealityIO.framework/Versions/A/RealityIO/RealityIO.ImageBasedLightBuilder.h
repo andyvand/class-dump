@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.ImageBasedLightBuilder
 {
-    MISSING_TYPE *currentMode;
-    MISSING_TYPE *currentIBLAssetPath;
-    MISSING_TYPE *currentBlendIBLAssetPath;
-    MISSING_TYPE *buildOrder;
-    MISSING_TYPE *didBuild;
+    id currentMode;
+    id currentIBLAssetPath;
+    id currentBlendIBLAssetPath;
+    id buildOrder;
+    id didBuild;
 }
 
 @end

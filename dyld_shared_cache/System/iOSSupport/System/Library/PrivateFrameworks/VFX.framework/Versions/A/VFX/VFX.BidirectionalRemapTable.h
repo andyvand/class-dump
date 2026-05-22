@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.BidirectionalRemapTable
 {
-    MISSING_TYPE *mappingTablesLock;
-    MISSING_TYPE *entityMapTable;
-    MISSING_TYPE *reversedEntityMapTable;
+    id mappingTablesLock;
+    id entityMapTable;
+    id reversedEntityMapTable;
 }
 
 @end

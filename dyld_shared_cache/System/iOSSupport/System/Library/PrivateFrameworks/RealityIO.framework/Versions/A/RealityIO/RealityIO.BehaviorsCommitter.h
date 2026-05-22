@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.BehaviorsCommitter
 {
-    MISSING_TYPE *rootEntity;
-    MISSING_TYPE *interactionSpecificationByPrimPath;
-    MISSING_TYPE *pathToEntity;
+    id rootEntity;
+    id interactionSpecificationByPrimPath;
+    id pathToEntity;
 }
 
 @end

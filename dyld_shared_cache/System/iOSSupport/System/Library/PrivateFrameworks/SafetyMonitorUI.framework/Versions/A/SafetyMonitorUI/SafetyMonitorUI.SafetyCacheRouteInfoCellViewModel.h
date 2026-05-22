@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.SafetyCacheRouteInfoCellViewModel
 {
-    MISSING_TYPE *_placemark;
-    MISSING_TYPE *_subtitle;
-    MISSING_TYPE *coordinateProvider;
+    id _placemark;
+    id _subtitle;
+    id coordinateProvider;
 }
 
 - (id);

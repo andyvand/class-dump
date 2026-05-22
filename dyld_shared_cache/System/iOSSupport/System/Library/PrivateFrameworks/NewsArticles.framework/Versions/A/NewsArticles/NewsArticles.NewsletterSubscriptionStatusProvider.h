@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.NewsletterSubscriptionStatusProvider
 {
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *observers;
+    id newsletterManager;
+    id observers;
 }
 
 - (unsigned long long);

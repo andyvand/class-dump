@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleDatastore
 {
-    MISSING_TYPE *datastore;
-    MISSING_TYPE *debugDescription;
+    id datastore;
+    id debugDescription;
 }
 
 @end

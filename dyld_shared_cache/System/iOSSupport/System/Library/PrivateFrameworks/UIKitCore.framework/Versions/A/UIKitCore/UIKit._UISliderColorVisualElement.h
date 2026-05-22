@@ -6,13 +6,13 @@
 
 #import <UIKitCore/UIKit._UISliderGlassVisualElement.h>
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface UIKit._UISliderColorVisualElement : UIKit._UISliderGlassVisualElement
 {
-    MISSING_TYPE *colorKnobView;
-    MISSING_TYPE *checkerboardView;
-    MISSING_TYPE *gradientView;
+    id colorKnobView;
+    id checkerboardView;
+    id gradientView;
 }
 
 - (id);

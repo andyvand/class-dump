@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeaturePromotionConfigFetcher
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *resourceService;
-    MISSING_TYPE *_lastConfigFetchDate;
-    MISSING_TYPE *_lastConfigResourceID;
-    MISSING_TYPE *featurePromotionConfiguration;
+    id $defaultActor;
+    id appConfigurationManager;
+    id resourceService;
+    id _lastConfigFetchDate;
+    id _lastConfigResourceID;
+    id featurePromotionConfiguration;
 }
 
 @end

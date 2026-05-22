@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UINavigationItem;
+@class UINavigationItem;
 @protocol FMUILocationDetailViewControllerDelegate;
 
 @interface FMUILocationDetailViewController
 {
-    MISSING_TYPE *viewModel;
-    MISSING_TYPE *hostingViewController;
+    id viewModel;
+    id hostingViewController;
     void delegate;
-    MISSING_TYPE *viewOptions;
+    id viewOptions;
 }
 
 - (void);

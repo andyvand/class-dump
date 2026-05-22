@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.FindMyAccountOverviewViewModel
 {
-    MISSING_TYPE *dependencies;
-    MISSING_TYPE *subscriber;
-    MISSING_TYPE *_alert;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *_settingsState;
-    MISSING_TYPE *_peopleController;
-    MISSING_TYPE *_internalShareMyLocationEnabled;
-    MISSING_TYPE *_$observationRegistrar;
+    id dependencies;
+    id subscriber;
+    id _alert;
+    id logger;
+    id _settingsState;
+    id _peopleController;
+    id _internalShareMyLocationEnabled;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.PostalAddressEditingModel
 {
-    MISSING_TYPE *_locale;
-    MISSING_TYPE *_originalAddress;
-    MISSING_TYPE *_invalidKeys;
-    MISSING_TYPE *_requiredKeys;
-    MISSING_TYPE *_excludedKeys;
-    MISSING_TYPE *_contactFormatValidator;
-    MISSING_TYPE *_formattingSpecification;
-    MISSING_TYPE *__draftAddress;
-    MISSING_TYPE *_draftAddressSource;
-    MISSING_TYPE *_draftAddressFormattingConstrained;
-    MISSING_TYPE *subscribers;
-    MISSING_TYPE *_countryCodeDidChangePublisher;
+    id _locale;
+    id _originalAddress;
+    id _invalidKeys;
+    id _requiredKeys;
+    id _excludedKeys;
+    id _contactFormatValidator;
+    id _formattingSpecification;
+    id __draftAddress;
+    id _draftAddressSource;
+    id _draftAddressFormattingConstrained;
+    id subscribers;
+    id _countryCodeDidChangePublisher;
 }
 
 @end

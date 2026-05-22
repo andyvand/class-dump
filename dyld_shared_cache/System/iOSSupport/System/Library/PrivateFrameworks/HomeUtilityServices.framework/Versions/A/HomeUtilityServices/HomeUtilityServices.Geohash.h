@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUtilityServices.Geohash
 {
-    MISSING_TYPE *$__lazy_storage_$_bitCodeByCharacter;
-    MISSING_TYPE *$__lazy_storage_$_characterByBitCode;
+    id $__lazy_storage_$_bitCodeByCharacter;
+    id $__lazy_storage_$_characterByBitCode;
 }
 
 @end

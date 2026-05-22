@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface UIKit._UICustomContentConfiguration
 {
-    MISSING_TYPE *wrappedConfiguration;
-    MISSING_TYPE *$__lazy_storage_$_wrappedConfigurationIdentifier;
+    id wrappedConfiguration;
+    id $__lazy_storage_$_wrappedConfigurationIdentifier;
 }
 
 - (id);

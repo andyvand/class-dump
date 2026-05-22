@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.DockMenuBuilder
 {
-    MISSING_TYPE *logger;
-    MISSING_TYPE *$__lazy_storage_$_menuItemsProvider;
-    MISSING_TYPE *$__lazy_storage_$_dockHelper;
+    id logger;
+    id $__lazy_storage_$_menuItemsProvider;
+    id $__lazy_storage_$_dockHelper;
 }
 
 - (void);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.AppMetricsPresenter
 {
-    MISSING_TYPE *pipeline;
-    MISSING_TYPE *canSendEnter;
-    MISSING_TYPE *flushedEvents;
-    MISSING_TYPE *onAppStateEvent;
-    MISSING_TYPE *topic;
+    id pipeline;
+    id canSendEnter;
+    id flushedEvents;
+    id onAppStateEvent;
+    id topic;
 }
 
 @end

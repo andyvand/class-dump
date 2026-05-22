@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ArticleNotificationResponseHandler
 {
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *commandContainer;
-    MISSING_TYPE *tagController;
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *paidAccessChecker;
+    id featureAvailability;
+    id commandContainer;
+    id tagController;
+    id assetManager;
+    id appConfigManager;
+    id paidAccessChecker;
 }
 
 @end

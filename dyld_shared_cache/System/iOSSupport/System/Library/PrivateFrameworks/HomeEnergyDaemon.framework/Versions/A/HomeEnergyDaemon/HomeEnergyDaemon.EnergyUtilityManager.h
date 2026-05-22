@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.EnergyUtilityManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *defaults;
-    MISSING_TYPE *utilityEKSitesKey;
-    MISSING_TYPE *utilityEKSites;
+    id $defaultActor;
+    id defaults;
+    id utilityEKSitesKey;
+    id utilityEKSites;
 }
 
 @end

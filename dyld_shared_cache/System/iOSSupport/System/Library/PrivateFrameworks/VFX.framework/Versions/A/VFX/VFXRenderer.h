@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioEngine, AVAudioEnvironmentNode, MISSING_TYPE, MTLRenderPassDescriptor, NSArray, NSObject, NSString, UIColor, VFXAuthoringEnvironment, VFXMTLRenderContext, VFXNode, VFXRecursiveLock, VFXRenderGraph, VFXWorld, _TtC3VFX17VFXRendererLegacy, _TtC3VFX8VFXScene, _TtC3VFX9VFXEffect;
+@class AVAudioEngine, AVAudioEnvironmentNode, MTLRenderPassDescriptor, NSArray, NSObject, NSString, UIColor, VFX.VFXEffect, VFX.VFXRendererLegacy, VFX.VFXScene, VFXAuthoringEnvironment, VFXMTLRenderContext, VFXNode, VFXRecursiveLock, VFXRenderGraph, VFXWorld;
 @protocol MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder, MTLTexture, OS_dispatch_queue, VFXWorldRenderer, VFXWorldRendererDelegate, _VFXWorldCommandBufferStatusMonitor, _VFXWorldRendererResourceManagerMonitor;
 
 @interface VFXRenderer
@@ -32,8 +32,8 @@
     id _delegate;
     struct __CFXEngineContext *_engineContext;
     id _coreShaderCache;
-    MISSING_TYPE *__viewport;
-    MISSING_TYPE *__drawableSafeAreaInsets;
+    id __viewport;
+    id __drawableSafeAreaInsets;
     struct CGSize __drawableSize;
     unsigned long long _lastOptionsHash;
     VFXMTLRenderContext *_renderContext;
@@ -53,11 +53,11 @@
         union {
             float rgba[4];
             CDStruct_83984b6f ;
-            MISSING_TYPE *simd;
+            id simd;
         } ;
     } _cfxBackgroundColor;
     id <VFXWorldRenderer> _privateRendererOwner;
-    _TtC3VFX17VFXRendererLegacy *_legacyRenderer;
+    VFX.VFXRendererLegacy *_legacyRenderer;
     float _contentScaleFactor;
     VFXAuthoringEnvironment *_authoringEnvironment;
     unsigned long long _debugOptions;
@@ -111,7 +111,7 @@
 @property(retain, nonatomic) id <MTLTexture> depthTexture;
 @property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <MTLDevice> device;
-@property(retain, nonatomic) _TtC3VFX9VFXEffect *effect;
+@property(retain, nonatomic) VFX.VFXEffect *effect;
 @property(nonatomic) _Bool enableDeferredRendering;
 @property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isJitteringEnabled) _Bool jitteringEnabled;
@@ -120,7 +120,7 @@
 @property(copy, nonatomic) CDUnknownBlockType postRenderCallback;
 @property(retain, nonatomic) VFXRenderGraph *renderGraph;
 @property(nonatomic) unsigned long long rendererKind;
-@property(retain, nonatomic) _TtC3VFX8VFXScene *scene;
+@property(retain, nonatomic) VFX.VFXScene *scene;
 @property(nonatomic) _Bool showsStatistics;
 @property(readonly) Class superclass;
 @property(nonatomic, getter=isTemporalAntialiasingEnabled) _Bool temporalAntialiasingEnabled;

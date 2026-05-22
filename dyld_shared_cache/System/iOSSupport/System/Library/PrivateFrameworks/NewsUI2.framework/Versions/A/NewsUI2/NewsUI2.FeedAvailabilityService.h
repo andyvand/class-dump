@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FeedAvailabilityService
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *tagController;
-    MISSING_TYPE *sportsEventController;
-    MISSING_TYPE *puzzleTypeController;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *sponsorshipAdProvider;
-    MISSING_TYPE *featureAvailability;
+    id cloudContext;
+    id tagController;
+    id sportsEventController;
+    id puzzleTypeController;
+    id appConfigurationManager;
+    id sponsorshipAdProvider;
+    id featureAvailability;
 }
 
 @end

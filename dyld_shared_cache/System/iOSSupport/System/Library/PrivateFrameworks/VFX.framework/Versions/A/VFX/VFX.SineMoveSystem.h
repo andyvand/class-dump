@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.SineMoveSystem
 {
-    MISSING_TYPE *elapsedTime;
-    MISSING_TYPE *query;
+    id elapsedTime;
+    id query;
 }
 
 @end

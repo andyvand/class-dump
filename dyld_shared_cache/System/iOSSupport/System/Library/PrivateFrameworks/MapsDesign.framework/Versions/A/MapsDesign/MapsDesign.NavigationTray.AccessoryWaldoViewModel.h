@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.NavigationTray.AccessoryWaldoViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_sharedTripCell;
-    MISSING_TYPE *_footer;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _sharedTripCell;
+    id _footer;
+    id _$observationRegistrar;
 }
 
 @end

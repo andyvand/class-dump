@@ -6,52 +6,52 @@
 
 #import <UIKitCore/_UINavigationBarVisualProvider.h>
 
-@class MISSING_TYPE, UIBarButtonItem, _UINavigationControllerRefreshControlHost, _UITabContainerView;
+@class UIBarButtonItem, _UINavigationControllerRefreshControlHost, _UITabContainerView;
 @protocol _UIBarAppearanceChangeObserver;
 
 @interface UIKit._UINavigationBarVisualProviderModernIOSSwift : _UINavigationBarVisualProvider
 {
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *largeTitleView;
-    MISSING_TYPE *promptView;
-    MISSING_TYPE *weeTitleLabel;
-    MISSING_TYPE *transitionContext;
-    MISSING_TYPE *previousBarSize;
-    MISSING_TYPE *shadowAlpha;
-    MISSING_TYPE *contentFocusContainerGuide;
-    MISSING_TYPE *assistant;
-    MISSING_TYPE *toolbarProxy;
-    MISSING_TYPE *customizer;
-    MISSING_TYPE *currentCustomizationSession;
-    MISSING_TYPE *customizationContainerView;
-    MISSING_TYPE *titleRenamer;
-    MISSING_TYPE *titleRenamerSession;
-    MISSING_TYPE *windowDragClientInteraction;
-    MISSING_TYPE *hiddenFilter;
-    MISSING_TYPE *hasIdiom;
-    MISSING_TYPE *runningPaletteBasedSearchPresentation;
-    MISSING_TYPE *backgroundTransparentWhenNotCollapsed;
-    MISSING_TYPE *providesExtraSpaceForExcessiveLineHeights;
-    MISSING_TYPE *isObservingDidEncounterFirstTitleWithExcessiveHeightChanged;
-    MISSING_TYPE *useModernAppearanceAPI;
-    MISSING_TYPE *usesBarBackground;
-    MISSING_TYPE *isHidden;
-    MISSING_TYPE *isSuppressingTabBar;
-    MISSING_TYPE *_useInlineBackgroundHeightWhenLarge;
-    MISSING_TYPE *_backgroundAlpha;
-    MISSING_TYPE *_titleAlpha;
-    MISSING_TYPE *_appearanceAPIVersion;
-    MISSING_TYPE *_forceScrollEdgeAppearance;
-    MISSING_TYPE *toolbarLocation;
-    MISSING_TYPE *_preferredBehavioralStyle;
-    MISSING_TYPE *_refreshControlHost;
-    MISSING_TYPE *_tabBarHostedView;
-    MISSING_TYPE *_isActiveTabBarHost;
-    MISSING_TYPE *_staticNavBarButtonItem;
-    MISSING_TYPE *_emptyLayout;
-    MISSING_TYPE *didExecuteAnimationBlock;
-    MISSING_TYPE *didExecuteCompletionBlock;
+    id backgroundView;
+    id contentView;
+    id largeTitleView;
+    id promptView;
+    id weeTitleLabel;
+    id transitionContext;
+    id previousBarSize;
+    id shadowAlpha;
+    id contentFocusContainerGuide;
+    id assistant;
+    id toolbarProxy;
+    id customizer;
+    id currentCustomizationSession;
+    id customizationContainerView;
+    id titleRenamer;
+    id titleRenamerSession;
+    id windowDragClientInteraction;
+    id hiddenFilter;
+    id hasIdiom;
+    id runningPaletteBasedSearchPresentation;
+    id backgroundTransparentWhenNotCollapsed;
+    id providesExtraSpaceForExcessiveLineHeights;
+    id isObservingDidEncounterFirstTitleWithExcessiveHeightChanged;
+    id useModernAppearanceAPI;
+    id usesBarBackground;
+    id isHidden;
+    id isSuppressingTabBar;
+    id _useInlineBackgroundHeightWhenLarge;
+    id _backgroundAlpha;
+    id _titleAlpha;
+    id _appearanceAPIVersion;
+    id _forceScrollEdgeAppearance;
+    id toolbarLocation;
+    id _preferredBehavioralStyle;
+    id _refreshControlHost;
+    id _tabBarHostedView;
+    id _isActiveTabBarHost;
+    id _staticNavBarButtonItem;
+    id _emptyLayout;
+    id didExecuteAnimationBlock;
+    id didExecuteCompletionBlock;
 }
 
 + (id);

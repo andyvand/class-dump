@@ -6,12 +6,10 @@
 
 #import <UIKitCore/UISubstituteKeyboardSession.h>
 
-@class MISSING_TYPE;
-
 __attribute__((visibility("hidden")))
 @interface UITextFormattingKeyboardSession : UISubstituteKeyboardSession
 {
-    MISSING_TYPE *textFormattingViewController;
+    id textFormattingViewController;
 }
 
 - (id);

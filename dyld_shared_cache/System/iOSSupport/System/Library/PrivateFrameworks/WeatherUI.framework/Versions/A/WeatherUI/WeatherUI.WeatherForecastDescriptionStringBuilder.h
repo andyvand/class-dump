@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.WeatherForecastDescriptionStringBuilder
 {
-    MISSING_TYPE *changeInConditionBuilder;
-    MISSING_TYPE *severeStormStringBuilder;
-    MISSING_TYPE *constantConditionsStringBuilder;
-    MISSING_TYPE *changingForecastStringBuilder;
-    MISSING_TYPE *feelsLikeStringBuilder;
-    MISSING_TYPE *historicalFactDescriptionBuilder;
+    id changeInConditionBuilder;
+    id severeStormStringBuilder;
+    id constantConditionsStringBuilder;
+    id changingForecastStringBuilder;
+    id feelsLikeStringBuilder;
+    id historicalFactDescriptionBuilder;
 }
 
 @end

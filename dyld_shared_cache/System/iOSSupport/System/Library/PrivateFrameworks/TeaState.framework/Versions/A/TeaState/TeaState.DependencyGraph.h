@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaState.DependencyGraph
 {
-    MISSING_TYPE *rootScope;
-    MISSING_TYPE *graph;
-    MISSING_TYPE *scopeVertices;
-    MISSING_TYPE *scopeParents;
-    MISSING_TYPE *scopeTags;
-    MISSING_TYPE *commandActions;
-    MISSING_TYPE *eventSubscriptions;
-    MISSING_TYPE *rulesPendingUpdate;
-    MISSING_TYPE *currentState;
-    MISSING_TYPE *graphLock;
-    MISSING_TYPE *updateSignalHandler;
+    id rootScope;
+    id graph;
+    id scopeVertices;
+    id scopeParents;
+    id scopeTags;
+    id commandActions;
+    id eventSubscriptions;
+    id rulesPendingUpdate;
+    id currentState;
+    id graphLock;
+    id updateSignalHandler;
 }
 
 @end

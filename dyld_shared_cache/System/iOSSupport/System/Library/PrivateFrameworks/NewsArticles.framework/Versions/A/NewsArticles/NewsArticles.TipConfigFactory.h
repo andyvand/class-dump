@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.TipConfigFactory
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id appConfigurationManager;
+    id bundleSubscriptionManager;
 }
 
 @end

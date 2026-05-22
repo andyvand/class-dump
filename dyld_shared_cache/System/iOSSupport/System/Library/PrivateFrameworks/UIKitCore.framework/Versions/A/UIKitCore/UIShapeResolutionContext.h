@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIResolvedShape;
+@class UIResolvedShape;
 
 @interface UIShapeResolutionContext
 {
-    MISSING_TYPE *value;
-    MISSING_TYPE *cachedContentShape;
+    id value;
+    id cachedContentShape;
 }
 
 - (id);

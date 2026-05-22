@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.AuthoringNode
 {
-    MISSING_TYPE *authoringID;
-    MISSING_TYPE *raw;
-    MISSING_TYPE *inputs;
-    MISSING_TYPE *position;
-    MISSING_TYPE *size;
-    MISSING_TYPE *zIndex;
-    MISSING_TYPE *authoringName;
+    id authoringID;
+    id raw;
+    id inputs;
+    id position;
+    id size;
+    id zIndex;
+    id authoringName;
 }
 
 @end

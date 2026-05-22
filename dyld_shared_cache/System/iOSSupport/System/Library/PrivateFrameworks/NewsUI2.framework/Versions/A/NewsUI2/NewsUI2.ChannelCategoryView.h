@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsUI2.ChannelCategoryView
 {
-    MISSING_TYPE *iconImageView;
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *nameLabel;
-    MISSING_TYPE *separatorView;
-    MISSING_TYPE *token;
+    id iconImageView;
+    id backgroundView;
+    id nameLabel;
+    id separatorView;
+    id token;
 }
 
 - (void);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.SceneReconstructionProvider
 {
-    MISSING_TYPE *_cSceneReconstructionProvider;
-    MISSING_TYPE *_cSceneReconstructionConfiguration;
-    MISSING_TYPE *anchorUpdateIterators;
-    MISSING_TYPE *anchorQueue;
-    MISSING_TYPE *modes;
+    id _cSceneReconstructionProvider;
+    id _cSceneReconstructionConfiguration;
+    id anchorUpdateIterators;
+    id anchorQueue;
+    id modes;
 }
 
 @end

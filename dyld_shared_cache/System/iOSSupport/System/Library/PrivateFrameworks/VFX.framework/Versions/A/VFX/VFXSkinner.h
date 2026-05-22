@@ -21,7 +21,7 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <VFXGeometry> baseGeometry;
-@property(nonatomic) CDStruct_14d5dc5e baseGeometryBindTransform;
+@property(nonatomic) CDStruct_95fa7c00 baseGeometryBindTransform;
 @property(readonly, nonatomic) VFXMeshSource *boneIndices;
 @property(readonly, nonatomic) NSArray *boneInverseBindTransforms;
 @property(readonly, nonatomic) VFXMeshSource *boneWeights;

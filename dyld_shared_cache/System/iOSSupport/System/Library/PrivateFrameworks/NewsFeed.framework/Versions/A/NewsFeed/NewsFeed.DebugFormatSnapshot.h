@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatSnapshot
 {
-    MISSING_TYPE *view;
-    MISSING_TYPE *depth;
+    id view;
+    id depth;
 }
 
 @end

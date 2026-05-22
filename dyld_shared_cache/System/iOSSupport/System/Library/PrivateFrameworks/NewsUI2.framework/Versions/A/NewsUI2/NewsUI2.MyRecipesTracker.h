@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyRecipesTracker
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *sectionPositionProvider;
-    MISSING_TYPE *trackerObserver;
-    MISSING_TYPE *dataSource;
+    id tracker;
+    id scienceDataFactory;
+    id channelDataFactory;
+    id contentAvailabilityValidator;
+    id sectionPositionProvider;
+    id trackerObserver;
+    id dataSource;
 }
 
 @end

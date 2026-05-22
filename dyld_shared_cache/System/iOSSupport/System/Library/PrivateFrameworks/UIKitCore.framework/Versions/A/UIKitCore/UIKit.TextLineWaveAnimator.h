@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.TextLineWaveAnimator
 {
-    MISSING_TYPE *targetedPreview;
-    MISSING_TYPE *view;
-    MISSING_TYPE *progress;
-    MISSING_TYPE *waveProgressProperty;
-    MISSING_TYPE *animationLineRadius;
-    MISSING_TYPE *animationLineOffsetY;
-    MISSING_TYPE *animationEasingFunc;
+    id targetedPreview;
+    id view;
+    id progress;
+    id waveProgressProperty;
+    id animationLineRadius;
+    id animationLineOffsetY;
+    id animationEasingFunc;
 }
 
 @end

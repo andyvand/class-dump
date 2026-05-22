@@ -17,11 +17,11 @@ __attribute__((visibility("hidden")))
     VFXNode *_rightHand;
     VFXNode *_leftHandModel;
     VFXNode *_rightHandModel;
-    CDStruct_0e8a9a91 spine0_originalOrientation;
-    CDStruct_0e8a9a91 r_shoulderNeutralSrcInv;
-    CDStruct_0e8a9a91 l_shoulderNeutralSrcInv;
-    CDStruct_0e8a9a91 r_shoulderNeutralDst;
-    CDStruct_0e8a9a91 l_shoulderNeutralDst;
+    CDStruct_da14d750 spine0_originalOrientation;
+    CDStruct_da14d750 r_shoulderNeutralSrcInv;
+    CDStruct_da14d750 l_shoulderNeutralSrcInv;
+    CDStruct_da14d750 r_shoulderNeutralDst;
+    CDStruct_da14d750 l_shoulderNeutralDst;
 }
 
 - (void);

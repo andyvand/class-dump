@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE, NSTimer, UIColor, _TtC5UIKit28_UIDebouncingAnimatableFloat, _TtC5UIKit28_UILiquidLensViewVariantSpec, _TtCE5UIKitCSo17_UILiquidLensViewP33_4C400BD973F5E4E0B779D1A21A7AEB2711DestOutView, _TtCE5UIKitCSo17_UILiquidLensViewP33_4C400BD973F5E4E0B779D1A21A7AEB2712BackdropView, _TtCE5UIKitCSo17_UILiquidLensViewP33_4C400BD973F5E4E0B779D1A21A7AEB2714ClearGlassView, _UIFlexInteraction, _UIGroupCompletion, _UIPortalView, _UIShadowProperties;
+@class (extension in UIKit):__C._UILiquidLensView.BackdropView__priv_4C400BD973F5E4E0B779D1A21A7AEB27, (extension in UIKit):__C._UILiquidLensView.ClearGlassView__priv_4C400BD973F5E4E0B779D1A21A7AEB27, (extension in UIKit):__C._UILiquidLensView.DestOutView__priv_4C400BD973F5E4E0B779D1A21A7AEB27, NSTimer, UIColor, UIKit._UIDebouncingAnimatableFloat, UIKit._UILiquidLensViewVariantSpec, _UIFlexInteraction, _UIGroupCompletion, _UIPortalView, _UIShadowProperties;
 
 @interface _UILiquidLensView : UIView
 {
@@ -19,16 +19,16 @@
     UIColor *restingBackgroundColor;
     _UIShadowProperties *restingShadowProperties;
     _UIFlexInteraction *flexInteraction;
-    MISSING_TYPE *$__lazy_storage_$_liftPortal;
-    _TtCE5UIKitCSo17_UILiquidLensViewP33_4C400BD973F5E4E0B779D1A21A7AEB2712BackdropView *belowGlassWarpBackdrop;
-    _TtCE5UIKitCSo17_UILiquidLensViewP33_4C400BD973F5E4E0B779D1A21A7AEB2711DestOutView *liftedContentPunchout;
+    id $__lazy_storage_$_liftPortal;
+    (extension in UIKit):__C._UILiquidLensView.BackdropView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *belowGlassWarpBackdrop;
+    (extension in UIKit):__C._UILiquidLensView.DestOutView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *liftedContentPunchout;
     _Bool hasCustomRestingBackground;
     UIView *restingBackground;
     UIView *contentWrapper;
-    _TtCE5UIKitCSo17_UILiquidLensViewP33_4C400BD973F5E4E0B779D1A21A7AEB2714ClearGlassView *glass;
-    _TtC5UIKit28_UIDebouncingAnimatableFloat *liftProgress;
+    (extension in UIKit):__C._UILiquidLensView.ClearGlassView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *glass;
+    UIKit._UIDebouncingAnimatableFloat *liftProgress;
     NSTimer *unliftDelayTimer;
-    MISSING_TYPE *liftTimestamp;
+    id liftTimestamp;
     _Bool forceUnliftTimerWithoutAnimations;
     _UIGroupCompletion *groupCompletion;
 }
@@ -96,28 +96,28 @@
 // Remaining properties
 @property(nonatomic) _Bool _lifted; // @synthesize _lifted;
 @property(nonatomic) double alpha;
-@property(nonatomic, retain) _TtCE5UIKitCSo17_UILiquidLensViewP33_4C400BD973F5E4E0B779D1A21A7AEB2712BackdropView *belowGlassWarpBackdrop; // @synthesize belowGlassWarpBackdrop;
+@property(nonatomic, retain) (extension in UIKit):__C._UILiquidLensView.BackdropView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *belowGlassWarpBackdrop; // @synthesize belowGlassWarpBackdrop;
 @property(nonatomic) struct CGRect bounds;
 @property(nonatomic, readonly) UIView *contentWrapper; // @synthesize contentWrapper;
 @property(nonatomic, readonly) _UIFlexInteraction *flexInteraction; // @synthesize flexInteraction;
 @property(nonatomic) _Bool forceUnliftTimerWithoutAnimations; // @synthesize forceUnliftTimerWithoutAnimations;
 @property(nonatomic) struct CGRect frame;
-@property(nonatomic, readonly) _TtCE5UIKitCSo17_UILiquidLensViewP33_4C400BD973F5E4E0B779D1A21A7AEB2714ClearGlassView *glass; // @synthesize glass;
+@property(nonatomic, readonly) (extension in UIKit):__C._UILiquidLensView.ClearGlassView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *glass; // @synthesize glass;
 @property(nonatomic, readonly) _UIGroupCompletion *groupCompletion; // @synthesize groupCompletion;
 @property(nonatomic, readonly) _Bool hasCustomRestingBackground; // @synthesize hasCustomRestingBackground;
 @property(nonatomic, retain) _UIPortalView *liftPortal;
-@property(nonatomic, readonly) _TtC5UIKit28_UIDebouncingAnimatableFloat *liftProgress; // @synthesize liftProgress;
+@property(nonatomic, readonly) UIKit._UIDebouncingAnimatableFloat *liftProgress; // @synthesize liftProgress;
 @property(nonatomic, readonly) _Bool lifted;
 @property(nonatomic) __weak UIView *liftedContainerView; // @synthesize liftedContainerView;
 @property(nonatomic) long long liftedContentMode; // @synthesize liftedContentMode;
-@property(nonatomic, retain) _TtCE5UIKitCSo17_UILiquidLensViewP33_4C400BD973F5E4E0B779D1A21A7AEB2711DestOutView *liftedContentPunchout; // @synthesize liftedContentPunchout;
+@property(nonatomic, retain) (extension in UIKit):__C._UILiquidLensView.DestOutView__priv_4C400BD973F5E4E0B779D1A21A7AEB27 *liftedContentPunchout; // @synthesize liftedContentPunchout;
 @property(nonatomic) __weak UIView *liftedContentView; // @synthesize liftedContentView;
 @property(nonatomic) __weak UIView *overridePunchoutView; // @synthesize overridePunchoutView;
 @property(nonatomic, readonly) UIView *restingBackground; // @synthesize restingBackground;
 @property(nonatomic, retain) UIColor *restingBackgroundColor; // @synthesize restingBackgroundColor;
 @property(nonatomic, readonly) UIView *restingBackgroundView;
 @property(nonatomic, retain) _UIShadowProperties *restingShadowProperties; // @synthesize restingShadowProperties;
-@property(nonatomic, readonly) _TtC5UIKit28_UILiquidLensViewVariantSpec *spec;
+@property(nonatomic, readonly) UIKit._UILiquidLensViewVariantSpec *spec;
 @property(nonatomic) long long style;
 @property(nonatomic, retain) NSTimer *unliftDelayTimer; // @synthesize unliftDelayTimer;
 @property(nonatomic) _Bool warpsContentBelow; // @synthesize warpsContentBelow;

@@ -4,27 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIColor;
+@class UIColor;
 
 @interface VFX.VFXCoreView
 {
-    MISSING_TYPE *isDragging;
-    MISSING_TYPE *lastTouch;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *renderOutput;
-    MISSING_TYPE *metalLayer;
-    MISSING_TYPE *sampleCount;
-    MISSING_TYPE *preferredFramesPerSecond;
-    MISSING_TYPE *scaleFactor;
-    MISSING_TYPE *postRenderCallback;
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *stereoMode;
-    MISSING_TYPE *paused;
-    MISSING_TYPE *effectID;
-    MISSING_TYPE *sizeDirty;
-    MISSING_TYPE *drawableSize;
-    MISSING_TYPE *resizingMode;
+    id isDragging;
+    id lastTouch;
+    id delegate;
+    id renderOutput;
+    id metalLayer;
+    id sampleCount;
+    id preferredFramesPerSecond;
+    id scaleFactor;
+    id postRenderCallback;
+    id entityManager;
+    id renderer;
+    id stereoMode;
+    id paused;
+    id effectID;
+    id sizeDirty;
+    id drawableSize;
+    id resizingMode;
 }
 
 + (Class);

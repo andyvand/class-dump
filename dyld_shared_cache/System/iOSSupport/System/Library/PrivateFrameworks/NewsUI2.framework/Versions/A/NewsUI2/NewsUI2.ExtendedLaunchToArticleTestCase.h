@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsUI2.ExtendedLaunchToArticleTestCase
 {
     void testName;
     double timeoutInSeconds;
     unsigned long long aggregate;
-    MISSING_TYPE *articleLoadingStateMachine;
+    id articleLoadingStateMachine;
 }
 
 - (id);

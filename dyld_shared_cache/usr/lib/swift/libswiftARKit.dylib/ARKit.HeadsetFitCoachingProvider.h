@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.HeadsetFitCoachingProvider
 {
-    MISSING_TYPE *_cHeadsetFitCoachingProvider;
-    MISSING_TYPE *updateQueue;
-    MISSING_TYPE *headsetFitCoachingDataContinuations;
+    id _cHeadsetFitCoachingProvider;
+    id updateQueue;
+    id headsetFitCoachingDataContinuations;
 }
 
 @end

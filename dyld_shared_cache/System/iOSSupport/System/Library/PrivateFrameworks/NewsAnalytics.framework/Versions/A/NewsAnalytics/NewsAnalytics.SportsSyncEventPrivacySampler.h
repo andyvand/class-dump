@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAnalytics.SportsSyncEventPrivacySampler
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *privacySampler;
+    id appConfigurationManager;
+    id privacySampler;
 }
 
 @end

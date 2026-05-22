@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.StoreReviewPromptController
 {
-    MISSING_TYPE *enterForegroundSubscription;
-    MISSING_TYPE *shouldPromptOnReachingTopOfTab;
+    id enterForegroundSubscription;
+    id shouldPromptOnReachingTopOfTab;
 }
 
 @end

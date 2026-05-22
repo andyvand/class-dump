@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.CompoundMetricsEventRecorder
 {
-    MISSING_TYPE *recorders;
-    MISSING_TYPE *queue;
+    id recorders;
+    id queue;
 }
 
 @end

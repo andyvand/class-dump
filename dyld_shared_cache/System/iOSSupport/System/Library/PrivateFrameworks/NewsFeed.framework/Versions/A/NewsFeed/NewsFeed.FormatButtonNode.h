@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatButtonNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *_size;
-    MISSING_TYPE *resize;
-    MISSING_TYPE *_adjustments;
-    MISSING_TYPE *_zIndex;
-    MISSING_TYPE *_visibility;
-    MISSING_TYPE *_isUserInteractionEnabled;
-    MISSING_TYPE *_children;
-    MISSING_TYPE *_stateMasks;
-    MISSING_TYPE *action;
-    MISSING_TYPE *actionName;
-    MISSING_TYPE *longPressAction;
-    MISSING_TYPE *longPressActionName;
-    MISSING_TYPE *accessibilityRole;
-    MISSING_TYPE *animation;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *name;
-    MISSING_TYPE *_behaviors;
-    MISSING_TYPE *_sourceItems;
-    MISSING_TYPE *flex;
+    id _identifier;
+    id _size;
+    id resize;
+    id _adjustments;
+    id _zIndex;
+    id _visibility;
+    id _isUserInteractionEnabled;
+    id _children;
+    id _stateMasks;
+    id action;
+    id actionName;
+    id longPressAction;
+    id longPressActionName;
+    id accessibilityRole;
+    id animation;
+    id _selectors;
+    id name;
+    id _behaviors;
+    id _sourceItems;
+    id flex;
 }
 
 @end

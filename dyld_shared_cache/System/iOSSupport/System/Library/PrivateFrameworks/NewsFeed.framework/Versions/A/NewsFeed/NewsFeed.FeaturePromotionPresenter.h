@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeaturePromotionPresenter
 {
-    MISSING_TYPE *viewFactory;
-    MISSING_TYPE *tabBarAccessoryManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *presentationArchive;
-    MISSING_TYPE *presentationTask;
-    MISSING_TYPE *hostSessionRecord;
+    id viewFactory;
+    id tabBarAccessoryManager;
+    id featureAvailability;
+    id presentationArchive;
+    id presentationTask;
+    id hostSessionRecord;
 }
 
 @end

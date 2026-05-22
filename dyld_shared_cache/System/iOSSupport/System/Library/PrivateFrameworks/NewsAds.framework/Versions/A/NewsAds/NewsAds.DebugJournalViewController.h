@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.DebugJournalViewController
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *journal;
-    MISSING_TYPE *presentationOptions;
-    MISSING_TYPE *tableView;
+    id identifier;
+    id commandCenter;
+    id journal;
+    id presentationOptions;
+    id tableView;
 }
 
 - (void);

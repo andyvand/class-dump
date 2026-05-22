@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIColor, _TtC3VFX13VFXCoreCamera, _TtC3VFX8VFXScene, _TtC3VFX9VFXEffect;
+@class UIColor, VFX.VFXCoreCamera, VFX.VFXEffect, VFX.VFXScene;
 @protocol MTLCommandQueue;
 
 @interface VFX.VFXViewLegacy
 {
-    MISSING_TYPE *delegateImpl;
-    MISSING_TYPE *coreView;
-    _TtC3VFX8VFXScene *scene;
-    _TtC3VFX9VFXEffect *effect;
-    _TtC3VFX13VFXCoreCamera *pointOfView;
+    id delegateImpl;
+    id coreView;
+    VFX.VFXScene *scene;
+    VFX.VFXEffect *effect;
+    VFX.VFXCoreCamera *pointOfView;
 }
 
 - (void);
@@ -90,17 +90,17 @@
 // Remaining properties
 @property(nonatomic, retain) UIColor *backgroundColor;
 @property(nonatomic, readonly) id <MTLCommandQueue> commandQueue;
-@property(nonatomic, retain) _TtC3VFX9VFXEffect *effect; // @synthesize effect;
+@property(nonatomic, retain) VFX.VFXEffect *effect; // @synthesize effect;
 @property(nonatomic) _Bool framebufferOnly;
 @property(nonatomic) _Bool hidden;
 @property(nonatomic) _Bool lowLatency;
 @property(nonatomic) unsigned long long pixelFormat;
-@property(nonatomic, retain) _TtC3VFX13VFXCoreCamera *pointOfView; // @synthesize pointOfView;
+@property(nonatomic, retain) VFX.VFXCoreCamera *pointOfView; // @synthesize pointOfView;
 @property(nonatomic, copy) CDUnknownBlockType postRenderCallback;
 @property(nonatomic) long long preferredFramesPerSecond;
 @property(nonatomic) unsigned char resizingMode;
 @property(nonatomic) double scaleFactor;
-@property(nonatomic, retain) _TtC3VFX8VFXScene *scene; // @synthesize scene;
+@property(nonatomic, retain) VFX.VFXScene *scene; // @synthesize scene;
 
 @end
 

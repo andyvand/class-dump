@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC14CloudSharingUI21AddressingViewFactory;
+@class CloudSharingUI.AddressingViewFactory;
 
 @interface CSAddressingViewController
 {
-    _TtC14CloudSharingUI21AddressingViewFactory *_addressingViewFactory;
+    CloudSharingUI.AddressingViewFactory *_addressingViewFactory;
 }
 
 - (void);

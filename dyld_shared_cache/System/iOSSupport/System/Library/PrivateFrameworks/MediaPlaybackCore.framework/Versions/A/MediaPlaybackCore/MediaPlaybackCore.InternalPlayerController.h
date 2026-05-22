@@ -4,26 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary;
+@class NSDictionary;
 
 @interface MediaPlaybackCore.InternalPlayerController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *targetRate;
-    MISSING_TYPE *targetStartTime;
-    MISSING_TYPE *timeOfPreviousRewindOnInterruption;
-    MISSING_TYPE *player;
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *scanningSubscription;
-    MISSING_TYPE *lastFullyDownloadedPlayerItem;
-    MISSING_TYPE *reportedResumePlaybackTime;
-    MISSING_TYPE *preSetQueueItem;
-    MISSING_TYPE *pendingSeek;
-    MISSING_TYPE *preferredRate;
-    MISSING_TYPE *hasPrerolled;
-    MISSING_TYPE *actionAtQueueEnd;
-    MISSING_TYPE *contentItemIDAtQueueEnd;
+    id delegate;
+    id targetRate;
+    id targetStartTime;
+    id timeOfPreviousRewindOnInterruption;
+    id player;
+    id reporter;
+    id queue;
+    id scanningSubscription;
+    id lastFullyDownloadedPlayerItem;
+    id reportedResumePlaybackTime;
+    id preSetQueueItem;
+    id pendingSeek;
+    id preferredRate;
+    id hasPrerolled;
+    id actionAtQueueEnd;
+    id contentItemIDAtQueueEnd;
 }
 
 - (void);

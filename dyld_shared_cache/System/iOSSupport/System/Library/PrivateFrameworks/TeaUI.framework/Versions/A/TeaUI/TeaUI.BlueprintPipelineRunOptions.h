@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintPipelineRunOptions
 {
-    MISSING_TYPE *process;
-    MISSING_TYPE *recorder;
-    MISSING_TYPE *traits;
-    MISSING_TYPE *sidecarOperationQueue;
+    id process;
+    id recorder;
+    id traits;
+    id sidecarOperationQueue;
 }
 
 @end

@@ -6,14 +6,14 @@
 
 #import <HomeUI/HUItemCollectionViewController.h>
 
-@class HUTriggerActionFlow, MISSING_TYPE;
+@class HUTriggerActionFlow;
 @protocol HUTriggerEditorDelegate;
 
 @interface HUTriggerActionPickerViewController : HUItemCollectionViewController
 {
-    MISSING_TYPE *actionSetModule;
-    MISSING_TYPE *accessoryModule;
-    MISSING_TYPE *selectionController;
+    id actionSetModule;
+    id accessoryModule;
+    id selectionController;
     id triggerBuilder;
     HUTriggerActionFlow *flow;
     id <HUTriggerEditorDelegate> delegate;

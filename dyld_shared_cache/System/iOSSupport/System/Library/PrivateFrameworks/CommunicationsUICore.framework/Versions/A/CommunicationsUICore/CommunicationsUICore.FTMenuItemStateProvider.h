@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.FTMenuItemStateProvider
 {
-    MISSING_TYPE *features;
-    MISSING_TYPE *call;
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *$__lazy_storage_$_waitOnHoldController;
+    id features;
+    id call;
+    id callCenter;
+    id $__lazy_storage_$_waitOnHoldController;
 }
 
 @end

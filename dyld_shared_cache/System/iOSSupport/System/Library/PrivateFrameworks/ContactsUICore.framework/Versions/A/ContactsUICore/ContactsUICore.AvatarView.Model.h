@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.AvatarView.Model
 {
-    MISSING_TYPE *contactID;
-    MISSING_TYPE *recipe;
-    MISSING_TYPE *_representation;
-    MISSING_TYPE *subscriptions;
-    MISSING_TYPE *contactFetchingTask;
-    MISSING_TYPE *contactType;
-    MISSING_TYPE *listener;
-    MISSING_TYPE *isObservationEnabled;
+    id contactID;
+    id recipe;
+    id _representation;
+    id subscriptions;
+    id contactFetchingTask;
+    id contactType;
+    id listener;
+    id isObservationEnabled;
 }
 
 @end

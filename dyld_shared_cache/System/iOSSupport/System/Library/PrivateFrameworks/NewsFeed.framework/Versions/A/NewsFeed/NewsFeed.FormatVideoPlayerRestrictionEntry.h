@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatVideoPlayerRestrictionEntry
 {
-    MISSING_TYPE *manifestEntry;
-    MISSING_TYPE *timer;
+    id manifestEntry;
+    id timer;
 }
 
 @end

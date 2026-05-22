@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.WFSpotlightSyncService
 {
-    MISSING_TYPE *index;
-    MISSING_TYPE *databaseProvider;
-    MISSING_TYPE *syncHashAttribute;
+    id index;
+    id databaseProvider;
+    id syncHashAttribute;
 }
 
 @end

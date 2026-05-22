@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedModalAdService
 {
-    MISSING_TYPE *adManager;
-    MISSING_TYPE *adRequestManager;
-    MISSING_TYPE *adRequestStore;
-    MISSING_TYPE *contextBuilder;
-    MISSING_TYPE *tracker;
+    id adManager;
+    id adRequestManager;
+    id adRequestStore;
+    id contextBuilder;
+    id tracker;
 }
 
 @end

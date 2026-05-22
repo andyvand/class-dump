@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.HandTrackingProvider
 {
-    MISSING_TYPE *_cHandTrackingProvider;
-    MISSING_TYPE *_cHandTrackingConfiguration;
-    MISSING_TYPE *anchorUpdateIterators;
-    MISSING_TYPE *anchorQueue;
+    id _cHandTrackingProvider;
+    id _cHandTrackingConfiguration;
+    id anchorUpdateIterators;
+    id anchorQueue;
 }
 
 @end

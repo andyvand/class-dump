@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AdContext
 {
-    MISSING_TYPE *qToken;
-    MISSING_TYPE *previewID;
-    MISSING_TYPE *previewSessionID;
-    MISSING_TYPE *maximumAdRequestsForCurrentAdPreviewID;
+    id qToken;
+    id previewID;
+    id previewSessionID;
+    id maximumAdRequestsForCurrentAdPreviewID;
 }
 
 - (id);

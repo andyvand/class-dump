@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.LabelMetrics
 {
-    MISSING_TYPE *_lineHeight;
-    MISSING_TYPE *_$observationRegistrar;
+    id _lineHeight;
+    id _$observationRegistrar;
 }
 
 @end

@@ -6,12 +6,10 @@
 
 #import <TeaUI/TeaUI.TouchInsetsButton.h>
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ShowHideButton : TeaUI.TouchInsetsButton
 {
-    MISSING_TYPE *onTap;
-    MISSING_TYPE *toggleState;
+    id onTap;
+    id toggleState;
 }
 
 - (id);

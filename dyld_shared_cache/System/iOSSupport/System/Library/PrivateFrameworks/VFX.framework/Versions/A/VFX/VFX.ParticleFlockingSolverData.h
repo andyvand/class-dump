@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleFlockingSolverData
 {
-    MISSING_TYPE *data;
-    MISSING_TYPE *grid;
+    id data;
+    id grid;
 }
 
 @end

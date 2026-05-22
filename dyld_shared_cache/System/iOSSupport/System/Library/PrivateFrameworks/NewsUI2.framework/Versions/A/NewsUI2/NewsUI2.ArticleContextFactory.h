@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ArticleContextFactory
 {
-    MISSING_TYPE *analyticsReferralFactory;
-    MISSING_TYPE *adContextFactory;
+    id analyticsReferralFactory;
+    id adContextFactory;
 }
 
 @end

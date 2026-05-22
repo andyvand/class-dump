@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSProcessInfo, MISSING_TYPE, NSDate, NSString;
+@class AMSProcessInfo, NSDate, NSString;
 
 @interface JetEngine.AMSKitAMSBag
 {
-    MISSING_TYPE *amsKitBag;
+    id amsKitBag;
     void profile;
     void profileVersion;
     AMSProcessInfo *processInfo;
-    MISSING_TYPE *$__lazy_storage_$_amsBag;
+    id $__lazy_storage_$_amsBag;
 }
 
 - (id);

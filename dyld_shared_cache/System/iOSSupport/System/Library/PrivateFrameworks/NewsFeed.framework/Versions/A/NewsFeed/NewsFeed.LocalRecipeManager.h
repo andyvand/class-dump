@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.LocalRecipeManager
 {
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *recipeEntries;
+    id assetManager;
+    id recipeEntries;
 }
 
 @end

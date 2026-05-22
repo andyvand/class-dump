@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchService
 {
-    MISSING_TYPE *searchFetcher;
-    MISSING_TYPE *searchModelFactory;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *recipeBoxSearchDatabase;
-    MISSING_TYPE *feedContextFactory;
-    MISSING_TYPE *inflaterFactory;
-    MISSING_TYPE *tagFactory;
-    MISSING_TYPE *articleFactory;
-    MISSING_TYPE *recipeFactory;
-    MISSING_TYPE *headlineModelFactory;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *recipeAccessProvider;
-    MISSING_TYPE *logger;
+    id searchFetcher;
+    id searchModelFactory;
+    id tagService;
+    id headlineService;
+    id recipeService;
+    id recipeBoxSearchDatabase;
+    id feedContextFactory;
+    id inflaterFactory;
+    id tagFactory;
+    id articleFactory;
+    id recipeFactory;
+    id headlineModelFactory;
+    id featureAvailability;
+    id recipeAccessProvider;
+    id logger;
 }
 
 @end

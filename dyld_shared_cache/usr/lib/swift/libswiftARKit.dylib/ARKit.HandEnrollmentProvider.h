@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.HandEnrollmentProvider
 {
-    MISSING_TYPE *_cHandEnrollmentProvider;
-    MISSING_TYPE *_cHandEnrollmentConfiguration;
-    MISSING_TYPE *enrollmentStatusContinuations;
-    MISSING_TYPE *anchorQueue;
+    id _cHandEnrollmentProvider;
+    id _cHandEnrollmentConfiguration;
+    id enrollmentStatusContinuations;
+    id anchorQueue;
 }
 
 @end

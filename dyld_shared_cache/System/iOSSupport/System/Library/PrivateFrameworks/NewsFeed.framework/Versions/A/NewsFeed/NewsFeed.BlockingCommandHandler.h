@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.BlockingCommandHandler
 {
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *featureAvailability;
+    id subscriptionController;
+    id commandCenter;
+    id sceneProvider;
+    id appConfigManager;
+    id featureAvailability;
 }
 
 - (void);

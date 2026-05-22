@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WFShazamMediaActionView
 {
-    MISSING_TYPE *listeningView;
-    MISSING_TYPE *label;
+    id listeningView;
+    id label;
 }
 
 - (id);

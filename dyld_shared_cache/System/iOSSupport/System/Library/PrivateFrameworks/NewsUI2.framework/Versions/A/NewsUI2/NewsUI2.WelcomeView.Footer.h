@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WelcomeView.Footer
 {
-    MISSING_TYPE *continueButton;
-    MISSING_TYPE *activityIndicator;
-    MISSING_TYPE *offlineMessage;
-    MISSING_TYPE *privacyIcon;
-    MISSING_TYPE *privacyLink;
+    id continueButton;
+    id activityIndicator;
+    id offlineMessage;
+    id privacyIcon;
+    id privacyLink;
 }
 
 - (id);

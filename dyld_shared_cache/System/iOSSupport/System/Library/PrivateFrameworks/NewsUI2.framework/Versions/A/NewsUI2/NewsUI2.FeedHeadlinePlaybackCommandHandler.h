@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FeedHeadlinePlaybackCommandHandler
 {
-    MISSING_TYPE *playbackConductor;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *audioPlaybackContext;
-    MISSING_TYPE *navigator;
+    id playbackConductor;
+    id readingHistory;
+    id commandCenter;
+    id audioPlaybackContext;
+    id navigator;
 }
 
 - (void);

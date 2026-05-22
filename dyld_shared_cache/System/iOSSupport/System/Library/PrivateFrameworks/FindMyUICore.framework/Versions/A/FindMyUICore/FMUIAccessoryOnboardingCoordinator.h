@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol FMUIAccessoryOnboardingCoordinatorDelegate;
 
 @interface FMUIAccessoryOnboardingCoordinator
 {
     void delegate;
-    MISSING_TYPE *inlinePresenter;
-    MISSING_TYPE *presenter;
-    MISSING_TYPE *accessory;
-    MISSING_TYPE *viewModel;
-    MISSING_TYPE *state;
-    MISSING_TYPE *pairingStatusTask;
-    MISSING_TYPE *onboardingSession;
-    MISSING_TYPE *logger;
+    id inlinePresenter;
+    id presenter;
+    id accessory;
+    id viewModel;
+    id state;
+    id pairingStatusTask;
+    id onboardingSession;
+    id logger;
 }
 
 - (_Bool);

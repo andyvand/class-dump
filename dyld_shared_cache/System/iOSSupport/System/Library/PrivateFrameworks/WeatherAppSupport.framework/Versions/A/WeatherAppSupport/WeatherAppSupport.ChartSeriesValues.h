@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherAppSupport.ChartSeriesValues
 {
-    MISSING_TYPE *interpolationElements;
-    MISSING_TYPE *seriesMinValue;
-    MISSING_TYPE *seriesMaxValue;
-    MISSING_TYPE *seriesMinSecondValue;
-    MISSING_TYPE *seriesMaxSecondValue;
-    MISSING_TYPE *seriesMinThirdValue;
-    MISSING_TYPE *seriesMaxThirdValue;
+    id interpolationElements;
+    id seriesMinValue;
+    id seriesMaxValue;
+    id seriesMinSecondValue;
+    id seriesMaxSecondValue;
+    id seriesMinThirdValue;
+    id seriesMaxThirdValue;
 }
 
 @end

@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface Dispatch._DispatchWorkItem
 {
-    MISSING_TYPE *_block;
+    id _block;
 }
 
 @end

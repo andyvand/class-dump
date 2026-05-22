@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CrossFadeNavigationBarCompressionAnimation
 {
-    MISSING_TYPE *navigationItem;
-    MISSING_TYPE *navigationBar;
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *backgroundColor;
-    MISSING_TYPE *appliedPercentage;
+    id navigationItem;
+    id navigationBar;
+    id scrollView;
+    id backgroundColor;
+    id appliedPercentage;
 }
 
 - (void);

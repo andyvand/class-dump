@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleAdLayoutProcessor
 {
-    MISSING_TYPE *layoutEnvironmentProvider;
-    MISSING_TYPE *bannerAdRequesterFactory;
-    MISSING_TYPE *layoutEnvironment;
+    id layoutEnvironmentProvider;
+    id bannerAdRequesterFactory;
+    id layoutEnvironment;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface BusinessServicesUI.BrandCardCopyMenu
 {
-    MISSING_TYPE *editMenuInteraction;
-    MISSING_TYPE *name;
-    MISSING_TYPE *sip;
+    id editMenuInteraction;
+    id name;
+    id sip;
 }
 
 - (void);

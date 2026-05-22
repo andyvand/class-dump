@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioHistoryFeedPoolService
 {
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *headlineService;
+    id readingHistory;
+    id headlineService;
 }
 
 @end

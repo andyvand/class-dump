@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleViewerPageBlueprintFactory
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *contextBuilder;
-    MISSING_TYPE *articleAccessMap;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *localRecipeManager;
-    MISSING_TYPE *cache;
+    id tracker;
+    id contextBuilder;
+    id articleAccessMap;
+    id recipeService;
+    id localRecipeManager;
+    id cache;
 }
 
 @end

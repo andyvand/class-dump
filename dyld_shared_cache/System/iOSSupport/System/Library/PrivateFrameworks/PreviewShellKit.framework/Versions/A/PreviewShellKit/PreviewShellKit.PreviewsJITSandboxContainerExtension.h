@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewShellKit.PreviewsJITSandboxContainerExtension
 {
-    MISSING_TYPE *containerIdentifier;
-    MISSING_TYPE *containerClass;
-    MISSING_TYPE *containerURL;
-    MISSING_TYPE *sandboxExtensionHandle;
+    id containerIdentifier;
+    id containerClass;
+    id containerURL;
+    id sandboxExtensionHandle;
 }
 
 @end

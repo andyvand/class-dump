@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.DataGroup1
 {
-    MISSING_TYPE *hashID;
-    MISSING_TYPE *fileID;
-    MISSING_TYPE *fileName;
-    MISSING_TYPE *dg1Data;
+    id hashID;
+    id fileID;
+    id fileName;
+    id dg1Data;
 }
 
 @end

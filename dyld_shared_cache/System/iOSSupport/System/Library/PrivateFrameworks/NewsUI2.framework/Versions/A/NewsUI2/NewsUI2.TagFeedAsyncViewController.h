@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedAsyncViewController
 {
-    MISSING_TYPE *scrollViewProxyManager;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *viewControllerFactory;
-    MISSING_TYPE *promiseViewController;
-    MISSING_TYPE *config;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *offlineBannerCoordinator;
+    id scrollViewProxyManager;
+    id coverViewManager;
+    id offlineManager;
+    id viewControllerFactory;
+    id promiseViewController;
+    id config;
+    id logger;
+    id offlineBannerCoordinator;
 }
 
 - (id);

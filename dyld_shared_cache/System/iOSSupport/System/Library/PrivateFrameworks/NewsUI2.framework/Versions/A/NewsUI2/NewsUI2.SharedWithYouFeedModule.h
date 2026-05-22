@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SharedWithYouFeedModule
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *contextBuilder;
+    id resolver;
+    id tracker;
+    id contextBuilder;
 }
 
 @end

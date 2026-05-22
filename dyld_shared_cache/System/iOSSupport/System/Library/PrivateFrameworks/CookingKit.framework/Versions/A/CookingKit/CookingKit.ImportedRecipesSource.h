@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.ImportedRecipesSource
 {
-    MISSING_TYPE *_recipeFeaturesConfiguration;
-    MISSING_TYPE *state;
-    MISSING_TYPE *recipeStore;
-    MISSING_TYPE *measurementParser;
-    MISSING_TYPE *updateTask;
-    MISSING_TYPE *_$scope;
+    id _recipeFeaturesConfiguration;
+    id state;
+    id recipeStore;
+    id measurementParser;
+    id updateTask;
+    id _$scope;
 }
 
 @end

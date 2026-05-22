@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.CredentialCenterModel
 {
-    MISSING_TYPE *_navigationPath;
-    MISSING_TYPE *financeStore;
-    MISSING_TYPE *_credentials;
-    MISSING_TYPE *_credentialsWithMissingKey;
-    MISSING_TYPE *_credentialsWithInvalidData;
-    MISSING_TYPE *_usersDefaultCredential;
+    id _navigationPath;
+    id financeStore;
+    id _credentials;
+    id _credentialsWithMissingKey;
+    id _credentialsWithInvalidData;
+    id _usersDefaultCredential;
 }
 
 @end

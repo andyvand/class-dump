@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CoverContainerView
 {
-    MISSING_TYPE *view;
-    MISSING_TYPE *keyboardInfo;
+    id view;
+    id keyboardInfo;
 }
 
 - (id);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VFXBridgingRemapAndResolveContext
 {
-    MISSING_TYPE *clearIfMissing;
-    MISSING_TYPE *world;
-    MISSING_TYPE *table;
+    id clearIfMissing;
+    id world;
+    id table;
 }
 
 @end

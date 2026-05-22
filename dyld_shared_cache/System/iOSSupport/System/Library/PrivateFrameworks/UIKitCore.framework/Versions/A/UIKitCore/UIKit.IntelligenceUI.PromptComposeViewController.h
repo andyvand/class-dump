@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.IntelligenceUI.PromptComposeViewController : UIViewController
 {
-    MISSING_TYPE *promptComposeView;
+    id promptComposeView;
 }
 
 - (id);

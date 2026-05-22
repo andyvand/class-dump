@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCoreHelloWorldClass_Impl
 {
-    MISSING_TYPE *sharedUtilitiesHelloWorld;
-    MISSING_TYPE *persistenceHelloWorld;
+    id sharedUtilitiesHelloWorld;
+    id persistenceHelloWorld;
 }
 
 - (void);

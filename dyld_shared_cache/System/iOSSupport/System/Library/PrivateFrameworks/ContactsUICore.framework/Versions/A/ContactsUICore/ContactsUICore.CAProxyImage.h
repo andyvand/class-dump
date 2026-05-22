@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.CAProxyImage
 {
-    MISSING_TYPE *image;
-    MISSING_TYPE *colorSpace;
-    MISSING_TYPE *state;
+    id image;
+    id colorSpace;
+    id state;
 }
 
 - (void *);

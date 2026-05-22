@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleContinuePlayingDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *puzzleImageShareAttributeProvider;
-    MISSING_TYPE *puzzleRankProvider;
-    MISSING_TYPE *puzzleDifficultyDescriptionProvider;
+    id delegate;
+    id puzzleHistoryService;
+    id puzzleService;
+    id configurationManager;
+    id paidAccessChecker;
+    id puzzleImageShareAttributeProvider;
+    id puzzleRankProvider;
+    id puzzleDifficultyDescriptionProvider;
 }
 
 @end

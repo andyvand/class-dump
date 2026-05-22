@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.EngagementThresholdTracker
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *_status;
-    MISSING_TYPE *_provider;
-    MISSING_TYPE *_accountProvider;
-    MISSING_TYPE *_subscription;
-    MISSING_TYPE *_onStatusChange;
+    id $defaultActor;
+    id _status;
+    id _provider;
+    id _accountProvider;
+    id _subscription;
+    id _onStatusChange;
 }
 
 @end

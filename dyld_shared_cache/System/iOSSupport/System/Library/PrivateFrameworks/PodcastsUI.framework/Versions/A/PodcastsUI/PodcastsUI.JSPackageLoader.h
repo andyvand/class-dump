@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.JSPackageLoader
 {
-    MISSING_TYPE *bag;
-    MISSING_TYPE *loader;
-    MISSING_TYPE *process;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *userDefaults;
+    id bag;
+    id loader;
+    id process;
+    id tracker;
+    id userDefaults;
 }
 
 @end

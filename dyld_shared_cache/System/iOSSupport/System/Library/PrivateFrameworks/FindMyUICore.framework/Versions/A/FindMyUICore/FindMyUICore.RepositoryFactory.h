@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.RepositoryFactory
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *barrier;
-    MISSING_TYPE *sessionFactory;
-    MISSING_TYPE *repositoryByBundleId;
+    id $defaultActor;
+    id barrier;
+    id sessionFactory;
+    id repositoryByBundleId;
 }
 
 @end

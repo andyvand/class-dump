@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CommandExecutionSource
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *sourceView;
-    MISSING_TYPE *sourceRect;
-    MISSING_TYPE *sourceItem;
-    MISSING_TYPE *location;
-    MISSING_TYPE *commandTracker;
-    MISSING_TYPE *onExecuteBlock;
+    id identifier;
+    id sourceView;
+    id sourceRect;
+    id sourceItem;
+    id location;
+    id commandTracker;
+    id onExecuteBlock;
 }
 
 @end

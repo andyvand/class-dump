@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.CookingSessionsSource
 {
-    MISSING_TYPE *state;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_importedRecipes;
-    MISSING_TYPE *cookingSessionsManager;
+    id state;
+    id _$scope;
+    id _importedRecipes;
+    id cookingSessionsManager;
 }
 
 @end

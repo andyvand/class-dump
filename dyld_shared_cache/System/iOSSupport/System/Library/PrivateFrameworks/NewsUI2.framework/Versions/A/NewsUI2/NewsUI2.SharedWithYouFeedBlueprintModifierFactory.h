@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SharedWithYouFeedBlueprintModifierFactory
 {
-    MISSING_TYPE *headlineModelFactory;
-    MISSING_TYPE *sectionFactory;
+    id headlineModelFactory;
+    id sectionFactory;
 }
 
 @end

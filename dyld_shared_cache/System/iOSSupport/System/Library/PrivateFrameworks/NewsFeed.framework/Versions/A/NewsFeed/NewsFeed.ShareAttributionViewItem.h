@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.ShareAttributionViewItem
 {
-    MISSING_TYPE *shareAttributionView;
-    MISSING_TYPE *reuseIdentifier;
-    MISSING_TYPE *onReuse;
+    id shareAttributionView;
+    id reuseIdentifier;
+    id onReuse;
 }
 
 @end

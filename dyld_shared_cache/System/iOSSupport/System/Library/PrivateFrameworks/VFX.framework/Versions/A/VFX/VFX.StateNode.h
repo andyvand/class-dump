@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.StateNode : VFX.Node
 {
-    MISSING_TYPE *stateRef;
+    id stateRef;
 }
 
 @end

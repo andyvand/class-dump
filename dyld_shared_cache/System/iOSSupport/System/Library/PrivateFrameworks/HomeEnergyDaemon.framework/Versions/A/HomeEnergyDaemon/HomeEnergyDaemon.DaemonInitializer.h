@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.DaemonInitializer
 {
-    MISSING_TYPE *signalsDispatchQueue;
-    MISSING_TYPE *sigtermSource;
+    id signalsDispatchQueue;
+    id sigtermSource;
 }
 
 @end

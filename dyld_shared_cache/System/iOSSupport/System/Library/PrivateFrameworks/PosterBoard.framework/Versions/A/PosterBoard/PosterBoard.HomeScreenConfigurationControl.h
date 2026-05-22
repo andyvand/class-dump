@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 @interface PosterBoard.HomeScreenConfigurationControl
 {
     UIView *previewContentView;
-    MISSING_TYPE *title;
-    MISSING_TYPE *showsSymbolWhenSelected;
-    MISSING_TYPE *maximumHorizontalTitleOutset;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *symbolImageView;
+    id title;
+    id showsSymbolWhenSelected;
+    id maximumHorizontalTitleOutset;
+    id titleLabel;
+    id symbolImageView;
 }
 
 - (void);

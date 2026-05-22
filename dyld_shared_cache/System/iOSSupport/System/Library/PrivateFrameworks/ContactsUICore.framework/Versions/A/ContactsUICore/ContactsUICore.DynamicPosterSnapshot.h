@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.DynamicPosterSnapshot
 {
-    MISSING_TYPE *_snapshot;
-    MISSING_TYPE *_$observationRegistrar;
+    id _snapshot;
+    id _$observationRegistrar;
 }
 
 @end

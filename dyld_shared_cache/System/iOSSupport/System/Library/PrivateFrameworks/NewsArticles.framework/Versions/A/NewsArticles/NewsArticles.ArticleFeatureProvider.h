@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleFeatureProvider
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *defaultFeatures;
+    id config;
+    id defaultFeatures;
 }
 
 @end

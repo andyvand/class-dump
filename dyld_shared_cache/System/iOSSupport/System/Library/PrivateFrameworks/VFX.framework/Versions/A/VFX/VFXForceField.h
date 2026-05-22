@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSMutableDictionary, NSString, VFXOrderedDictionary, VFXWorld;
+@class NSArray, NSMutableDictionary, NSString, VFXOrderedDictionary, VFXWorld;
 
 @interface VFXForceField
 {
@@ -79,7 +79,7 @@
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -132,7 +132,7 @@
 - (void);
 - (void)s resized from ;
 - (id)+í;
-- (MISSING_TYPE *)ÜWÿ;
+- (id)ÜWÿ;
 - (void);
 
 // Remaining properties
@@ -147,9 +147,9 @@
 @property(readonly, copy) NSString *description;
 @property(nonatomic) float falloffExponent;
 @property(nonatomic) long long fieldType;
-@property(nonatomic) MISSING_TYPE *halfExtent;
+@property(nonatomic) id halfExtent;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) MISSING_TYPE *offset;
+@property(nonatomic) id offset;
 @property(readonly) id presentationObject;
 @property(nonatomic) long long scope;
 @property(nonatomic) long long shape;

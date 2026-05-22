@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.StoreLibraryMultiplexingImageProvider
 {
-    MISSING_TYPE *storeProvider;
-    MISSING_TYPE *libraryProvider;
-    MISSING_TYPE *artworkLoaderProvider;
-    MISSING_TYPE *compositeProvider;
-    MISSING_TYPE *sizeBucketingStrategy;
-    MISSING_TYPE *assetCaches;
-    MISSING_TYPE *signposter;
+    id storeProvider;
+    id libraryProvider;
+    id artworkLoaderProvider;
+    id compositeProvider;
+    id sizeBucketingStrategy;
+    id assetCaches;
+    id signposter;
 }
 
 @end

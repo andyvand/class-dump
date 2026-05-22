@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface IMCloudKitSyncStatistics
 {
-    MISSING_TYPE *statistics;
+    id statistics;
 }
 
 + (id);

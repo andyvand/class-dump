@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.SavedRecipeService
 {
-    MISSING_TYPE *recipeBox;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *recipeCoordinatorContainer;
+    id recipeBox;
+    id commandCenter;
+    id recipeService;
+    id tracker;
+    id recipeCoordinatorContainer;
 }
 
 @end

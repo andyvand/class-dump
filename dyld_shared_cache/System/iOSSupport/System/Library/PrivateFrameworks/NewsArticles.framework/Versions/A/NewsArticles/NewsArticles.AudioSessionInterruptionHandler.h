@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.AudioSessionInterruptionHandler
 {
-    MISSING_TYPE *currentlyPlayingObservable;
-    MISSING_TYPE *commandCenter;
+    id currentlyPlayingObservable;
+    id commandCenter;
 }
 
 - (void);

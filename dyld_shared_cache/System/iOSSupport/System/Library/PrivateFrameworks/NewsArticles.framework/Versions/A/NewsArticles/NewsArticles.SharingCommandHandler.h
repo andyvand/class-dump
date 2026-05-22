@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.SharingCommandHandler
 {
-    MISSING_TYPE *defaultSharingActivityProviderFactory;
-    MISSING_TYPE *audioSharingActivityProviderFactory;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *recipeAccessProvider;
-    MISSING_TYPE *fallbackTracker;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *recipeCoordinator;
+    id defaultSharingActivityProviderFactory;
+    id audioSharingActivityProviderFactory;
+    id paidAccessChecker;
+    id recipeAccessProvider;
+    id fallbackTracker;
+    id sceneProvider;
+    id recipeCoordinator;
 }
 
 @end

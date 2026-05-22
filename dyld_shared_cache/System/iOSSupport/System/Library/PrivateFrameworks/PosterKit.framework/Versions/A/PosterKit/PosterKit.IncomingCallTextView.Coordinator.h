@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterKit.IncomingCallTextView.Coordinator
 {
-    MISSING_TYPE *_status;
-    MISSING_TYPE *__nameStyle;
-    MISSING_TYPE *_preferredTextAlignment;
-    MISSING_TYPE *_preferredWritingMode;
-    MISSING_TYPE *_overrideWritingMode;
-    MISSING_TYPE *_callState;
-    MISSING_TYPE *_animationsEnabled;
-    MISSING_TYPE *_marqueeRunning;
-    MISSING_TYPE *_maximumTextWidth;
-    MISSING_TYPE *contact;
+    id _status;
+    id __nameStyle;
+    id _preferredTextAlignment;
+    id _preferredWritingMode;
+    id _overrideWritingMode;
+    id _callState;
+    id _animationsEnabled;
+    id _marqueeRunning;
+    id _maximumTextWidth;
+    id contact;
 }
 
 @end

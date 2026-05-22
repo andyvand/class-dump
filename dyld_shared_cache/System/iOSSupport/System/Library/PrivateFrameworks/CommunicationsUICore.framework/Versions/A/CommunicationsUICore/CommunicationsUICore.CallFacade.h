@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.CallFacade
 {
-    MISSING_TYPE *call;
-    MISSING_TYPE *uniqueProxyIdentifier;
+    id call;
+    id uniqueProxyIdentifier;
 }
 
 @end

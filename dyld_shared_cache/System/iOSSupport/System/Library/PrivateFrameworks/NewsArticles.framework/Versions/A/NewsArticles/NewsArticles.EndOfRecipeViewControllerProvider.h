@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfRecipeViewControllerProvider
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *coordinatorContainer;
+    id resolver;
+    id tracker;
+    id coordinatorContainer;
 }
 
 @end

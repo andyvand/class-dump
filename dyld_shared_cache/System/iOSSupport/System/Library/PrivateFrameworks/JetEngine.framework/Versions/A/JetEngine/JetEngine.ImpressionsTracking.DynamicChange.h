@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.ImpressionsTracking.DynamicChange
 {
-    MISSING_TYPE *changeTimeStamp;
-    MISSING_TYPE *impressionMetrics;
-    MISSING_TYPE *kindStorage;
-    MISSING_TYPE *additionalMetricsFields;
+    id changeTimeStamp;
+    id impressionMetrics;
+    id kindStorage;
+    id additionalMetricsFields;
 }
 
 @end

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.NameIconComposeViewController
 {
-    MISSING_TYPE *mode;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *glyphCharacter;
-    MISSING_TYPE *viewDidAppear;
-    MISSING_TYPE *textFieldMinHeight;
-    MISSING_TYPE *$__lazy_storage_$_scrollViewBottomConstraint;
-    MISSING_TYPE *$__lazy_storage_$_glyphPickerHeightConstraint;
-    MISSING_TYPE *$__lazy_storage_$_contentViewScrollViewEqualHeightConstraint;
-    MISSING_TYPE *$__lazy_storage_$_contentViewViewEqualHeightConstraint;
-    MISSING_TYPE *$__lazy_storage_$_scrollView;
-    MISSING_TYPE *$__lazy_storage_$_contentView;
-    MISSING_TYPE *$__lazy_storage_$_iconTextFieldOuterContainer;
-    MISSING_TYPE *$__lazy_storage_$_iconTextFieldInnerContainer;
-    MISSING_TYPE *$__lazy_storage_$_iconView;
-    MISSING_TYPE *$__lazy_storage_$_textField;
-    MISSING_TYPE *$__lazy_storage_$_glyphPicker;
-    MISSING_TYPE *isIPad;
+    id mode;
+    id delegate;
+    id glyphCharacter;
+    id viewDidAppear;
+    id textFieldMinHeight;
+    id $__lazy_storage_$_scrollViewBottomConstraint;
+    id $__lazy_storage_$_glyphPickerHeightConstraint;
+    id $__lazy_storage_$_contentViewScrollViewEqualHeightConstraint;
+    id $__lazy_storage_$_contentViewViewEqualHeightConstraint;
+    id $__lazy_storage_$_scrollView;
+    id $__lazy_storage_$_contentView;
+    id $__lazy_storage_$_iconTextFieldOuterContainer;
+    id $__lazy_storage_$_iconTextFieldInnerContainer;
+    id $__lazy_storage_$_iconView;
+    id $__lazy_storage_$_textField;
+    id $__lazy_storage_$_glyphPicker;
+    id isIPad;
 }
 
 - (void);

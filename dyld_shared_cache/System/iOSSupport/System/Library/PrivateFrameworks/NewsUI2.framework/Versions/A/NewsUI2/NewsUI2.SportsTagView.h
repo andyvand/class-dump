@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface NewsUI2.SportsTagView
 {
-    MISSING_TYPE *iconImageView;
-    MISSING_TYPE *nameLabel;
-    MISSING_TYPE *secondaryNameLabel;
-    MISSING_TYPE *accessoryButton;
-    MISSING_TYPE *token;
+    id iconImageView;
+    id nameLabel;
+    id secondaryNameLabel;
+    id accessoryButton;
+    id token;
 }
 
 - (id);

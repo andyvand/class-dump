@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol TypographyPanelDelegate, __TFTypographySettingsContentViewControllerDelegate;
 
 @interface _TFTypographySettingsContentViewController
 {
-    MISSING_TYPE *_typographyPanel;
+    id _typographyPanel;
     id <TypographyPanelDelegate> delegate;
     id <__TFTypographySettingsContentViewControllerDelegate> _delegate;
 }

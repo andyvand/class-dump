@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.ECSNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.ECSStorageNode : VFX.ECSNode
 {
-    MISSING_TYPE *entity;
+    id entity;
 }
 
 @end

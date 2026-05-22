@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WFSpotlightDomainsCleaner
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *index;
-    MISSING_TYPE *daemonTaskScheduler;
+    id observers;
+    id index;
+    id daemonTaskScheduler;
 }
 
 + (id);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleEmitterTransport
 {
-    MISSING_TYPE *query;
-    MISSING_TYPE *restoreAABBQuery;
+    id query;
+    id restoreAABBQuery;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TSAppMonitor
 {
     _Bool isActive;
     _Bool isTracking;
-    MISSING_TYPE *onWindowDidBecomeBackgroundBlock;
-    MISSING_TYPE *onWindowWillBecomeForegroundBlock;
+    id onWindowDidBecomeBackgroundBlock;
+    id onWindowWillBecomeForegroundBlock;
 }
 
 - (void);

@@ -6,23 +6,21 @@
 
 #import <VFX/VFX.GraphV1CodeGeneration.MetadataSet.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphV1CodeGeneration.BaseObject : VFX.GraphV1CodeGeneration.MetadataSet
 {
-    MISSING_TYPE *uid;
-    MISSING_TYPE *inParameterNames;
-    MISSING_TYPE *inParameterTypes;
-    MISSING_TYPE *inParameters;
-    MISSING_TYPE *orgInParameterNames;
-    MISSING_TYPE *orgInParameterTypes;
-    MISSING_TYPE *outParameterNames;
-    MISSING_TYPE *outParameterTypes;
-    MISSING_TYPE *outParameters;
-    MISSING_TYPE *orgOutParameterNames;
-    MISSING_TYPE *orgOutParameterTypes;
-    MISSING_TYPE *embeddedParameters;
-    MISSING_TYPE *domains;
+    id uid;
+    id inParameterNames;
+    id inParameterTypes;
+    id inParameters;
+    id orgInParameterNames;
+    id orgInParameterTypes;
+    id outParameterNames;
+    id outParameterTypes;
+    id outParameters;
+    id orgOutParameterNames;
+    id orgOutParameterTypes;
+    id embeddedParameters;
+    id domains;
 }
 
 @end

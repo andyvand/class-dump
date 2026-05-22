@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineSectionsViewController
 {
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *sectionViewControllerFactory;
-    MISSING_TYPE *scrollViewProxyManager;
-    MISSING_TYPE *viewControllerCache;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *currentSection;
-    MISSING_TYPE *currentViewController;
-    MISSING_TYPE *presentation;
-    MISSING_TYPE *sectionSelection;
-    MISSING_TYPE *offlineBannerCoordinator;
+    id coverViewManager;
+    id styler;
+    id eventHandler;
+    id sectionViewControllerFactory;
+    id scrollViewProxyManager;
+    id viewControllerCache;
+    id eventManager;
+    id currentSection;
+    id currentViewController;
+    id presentation;
+    id sectionSelection;
+    id offlineBannerCoordinator;
 }
 
 - (id);

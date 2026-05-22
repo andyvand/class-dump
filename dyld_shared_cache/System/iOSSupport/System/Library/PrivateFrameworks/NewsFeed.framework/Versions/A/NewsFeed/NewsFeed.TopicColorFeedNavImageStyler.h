@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.TopicColorFeedNavImageStyler
 {
-    MISSING_TYPE *tagColor;
-    MISSING_TYPE *feedNavImageStyler;
+    id tagColor;
+    id feedNavImageStyler;
 }
 
 @end

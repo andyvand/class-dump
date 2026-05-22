@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewSpringAnimationBehaviorSettings, _TtC5UIKit21_UIMorphAnimationSpec;
+@class UIKit._UIMorphAnimationSpec, UIViewSpringAnimationBehaviorSettings;
 
 @interface UIKit._UIMorphAnimationSettings
 {
-    _TtC5UIKit21_UIMorphAnimationSpec *liquidMorph;
-    _TtC5UIKit21_UIMorphAnimationSpec *liquidMorphShrink;
-    _TtC5UIKit21_UIMorphAnimationSpec *liquidMorphReduceMotion;
+    UIKit._UIMorphAnimationSpec *liquidMorph;
+    UIKit._UIMorphAnimationSpec *liquidMorphShrink;
+    UIKit._UIMorphAnimationSpec *liquidMorphReduceMotion;
     double secondStepDelay;
     double growingIntermediateShapeRatio;
     double shrinkingIntermediateShapeRatio;
@@ -101,9 +101,9 @@
 @property(nonatomic) double jHeightRatio; // @synthesize jHeightRatio;
 @property(nonatomic) double jWidthRatio; // @synthesize jWidthRatio;
 @property(nonatomic) _Bool lensingEnabled; // @synthesize lensingEnabled;
-@property(nonatomic, retain) _TtC5UIKit21_UIMorphAnimationSpec *liquidMorph; // @synthesize liquidMorph;
-@property(nonatomic, retain) _TtC5UIKit21_UIMorphAnimationSpec *liquidMorphReduceMotion; // @synthesize liquidMorphReduceMotion;
-@property(nonatomic, retain) _TtC5UIKit21_UIMorphAnimationSpec *liquidMorphShrink; // @synthesize liquidMorphShrink;
+@property(nonatomic, retain) UIKit._UIMorphAnimationSpec *liquidMorph; // @synthesize liquidMorph;
+@property(nonatomic, retain) UIKit._UIMorphAnimationSpec *liquidMorphReduceMotion; // @synthesize liquidMorphReduceMotion;
+@property(nonatomic, retain) UIKit._UIMorphAnimationSpec *liquidMorphShrink; // @synthesize liquidMorphShrink;
 @property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *mainAbsorbSpring; // @synthesize mainAbsorbSpring;
 @property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *mainEjectSpring; // @synthesize mainEjectSpring;
 @property(nonatomic) double maxJHeight; // @synthesize maxJHeight;

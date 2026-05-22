@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIScene;
+@class NSString, UIScene;
 
 @interface _UISuperlayerSecurityAnalysisSceneComponent
 {
-    MISSING_TYPE *__hostBundleIdentifier;
-    MISSING_TYPE *__hostSDKVersion;
-    MISSING_TYPE *__hostIsInternal;
-    MISSING_TYPE *__scene;
+    id __hostBundleIdentifier;
+    id __hostSDKVersion;
+    id __hostIsInternal;
+    id __scene;
 }
 
 - (id);

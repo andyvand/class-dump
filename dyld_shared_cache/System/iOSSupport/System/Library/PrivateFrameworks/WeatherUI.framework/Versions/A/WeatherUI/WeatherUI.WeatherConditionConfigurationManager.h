@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.WeatherConditionConfigurationManager
 {
-    MISSING_TYPE *minimumElevationForSunAppearance;
-    MISSING_TYPE *minimumElevationForMoonAppearance;
+    id minimumElevationForSunAppearance;
+    id minimumElevationForMoonAppearance;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleArchiveFilterOptionsManager
 {
-    MISSING_TYPE *_filterOptions;
-    MISSING_TYPE *filterOptionsObservers;
-    MISSING_TYPE *filterOptionPredicates;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *cachedDefaultFilterOptions;
+    id _filterOptions;
+    id filterOptionsObservers;
+    id filterOptionPredicates;
+    id commandCenter;
+    id configurationManager;
+    id cachedDefaultFilterOptions;
 }
 
 @end

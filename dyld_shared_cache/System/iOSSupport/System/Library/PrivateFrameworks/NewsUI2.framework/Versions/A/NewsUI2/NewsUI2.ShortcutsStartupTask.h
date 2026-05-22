@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ShortcutsStartupTask
 {
-    MISSING_TYPE *executionPhase;
-    MISSING_TYPE *shortcutService;
-    MISSING_TYPE *shortcutList;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *shortcutsOnboardingManager;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *feedPersonalizing;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id executionPhase;
+    id shortcutService;
+    id shortcutList;
+    id subscriptionController;
+    id shortcutsOnboardingManager;
+    id configurationManager;
+    id feedPersonalizing;
+    id bundleSubscriptionManager;
 }
 
 @end

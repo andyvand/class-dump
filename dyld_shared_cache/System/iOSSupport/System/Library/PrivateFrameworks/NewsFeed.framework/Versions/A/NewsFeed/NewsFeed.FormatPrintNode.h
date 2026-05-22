@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatPrintNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *message;
-    MISSING_TYPE *_values;
+    id _identifier;
+    id message;
+    id _values;
 }
 
 @end

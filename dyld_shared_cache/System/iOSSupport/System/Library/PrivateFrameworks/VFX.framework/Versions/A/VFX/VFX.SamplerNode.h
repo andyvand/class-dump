@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.TextureNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.SamplerNode : VFX.TextureNode
 {
-    MISSING_TYPE *textureType;
+    id textureType;
 }
 
 @end

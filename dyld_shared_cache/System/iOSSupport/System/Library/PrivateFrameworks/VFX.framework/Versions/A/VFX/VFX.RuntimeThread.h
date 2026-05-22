@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.RuntimeThread
 {
-    MISSING_TYPE *wakeupEvent;
-    MISSING_TYPE *didSwapQueueEvent;
-    MISSING_TYPE *runtimeThreadId;
-    MISSING_TYPE *runtimeUpdateHandler;
-    MISSING_TYPE *__startupShutdownEvent;
-    MISSING_TYPE *ownsLock;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *clientEventQueue;
-    MISSING_TYPE *serverEventQueue;
-    MISSING_TYPE *qlock;
-    MISSING_TYPE *requestStop;
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *threadLogger;
-    MISSING_TYPE *threadid;
-    MISSING_TYPE *_isSuspended;
+    id wakeupEvent;
+    id didSwapQueueEvent;
+    id runtimeThreadId;
+    id runtimeUpdateHandler;
+    id __startupShutdownEvent;
+    id ownsLock;
+    id lock;
+    id clientEventQueue;
+    id serverEventQueue;
+    id qlock;
+    id requestStop;
+    id entityManager;
+    id threadLogger;
+    id threadid;
+    id _isSuspended;
 }
 
 @end

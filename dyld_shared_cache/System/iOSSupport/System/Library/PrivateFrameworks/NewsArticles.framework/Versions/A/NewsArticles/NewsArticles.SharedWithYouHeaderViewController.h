@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.SharedWithYouHeaderViewController
 {
-    MISSING_TYPE *attributionView;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *sharedItem;
-    MISSING_TYPE *sharedItemManager;
-    MISSING_TYPE *headerDelegate;
+    id attributionView;
+    id renderer;
+    id sharedItem;
+    id sharedItemManager;
+    id headerDelegate;
 }
 
 - (id);

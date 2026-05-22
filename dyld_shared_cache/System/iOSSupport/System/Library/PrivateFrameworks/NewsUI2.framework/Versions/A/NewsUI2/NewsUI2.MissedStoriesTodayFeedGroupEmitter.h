@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MissedStoriesTodayFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *knobs;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *sportsGraphManager;
-    MISSING_TYPE *name;
+    id config;
+    id knobs;
+    id formatService;
+    id paidAccessChecker;
+    id personalizationService;
+    id headlineService;
+    id feedPersonalizer;
+    id cloudContext;
+    id sportsGraphManager;
+    id name;
 }
 
 @end

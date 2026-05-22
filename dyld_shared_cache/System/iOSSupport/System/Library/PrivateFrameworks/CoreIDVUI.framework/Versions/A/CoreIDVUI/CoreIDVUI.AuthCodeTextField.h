@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.AuthCodeTextField
 {
-    MISSING_TYPE *textFieldLabel;
-    MISSING_TYPE *textField;
-    MISSING_TYPE *$__lazy_storage_$_stackView;
+    id textFieldLabel;
+    id textField;
+    id $__lazy_storage_$_stackView;
 }
 
 - (void);

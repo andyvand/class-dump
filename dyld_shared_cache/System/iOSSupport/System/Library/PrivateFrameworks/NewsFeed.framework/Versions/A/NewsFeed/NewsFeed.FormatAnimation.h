@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatAnimation
 {
-    MISSING_TYPE *animation;
-    MISSING_TYPE *keyPath;
-    MISSING_TYPE *beginTime;
-    MISSING_TYPE *prepareBlock;
-    MISSING_TYPE *commitBlock;
+    id animation;
+    id keyPath;
+    id beginTime;
+    id prepareBlock;
+    id commitBlock;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelPickerDetailBlueprintModifierFactory
 {
-    MISSING_TYPE *sectionFactory;
-    MISSING_TYPE *tagService;
+    id sectionFactory;
+    id tagService;
 }
 
 @end

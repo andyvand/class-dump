@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleHistoryService
 {
-    MISSING_TYPE *puzzleHistory;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *puzzleHistoryObservers;
+    id puzzleHistory;
+    id configurationManager;
+    id puzzleService;
+    id puzzleHistoryObservers;
 }
 
 - (void);

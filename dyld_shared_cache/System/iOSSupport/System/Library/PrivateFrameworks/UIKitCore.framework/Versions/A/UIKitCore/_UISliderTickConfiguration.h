@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface _UISliderTickConfiguration
 {
-    MISSING_TYPE *_behavior;
-    MISSING_TYPE *_ticks;
-    MISSING_TYPE *_ticksAreEvenlySpaced;
+    id _behavior;
+    id _ticks;
+    id _ticksAreEvenlySpaced;
     long long tickStyle;
     double neutralPosition;
     float snappingDistance;

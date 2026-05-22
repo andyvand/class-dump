@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UITimeline
 {
-    MISSING_TYPE *actions;
-    MISSING_TYPE *timer;
-    MISSING_TYPE *startTime;
-    MISSING_TYPE *speed;
-    MISSING_TYPE *amplifyDelays;
+    id actions;
+    id timer;
+    id startTime;
+    id speed;
+    id amplifyDelays;
 }
 
 @end

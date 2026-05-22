@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.ShortcutSpotlightCoordinator
 {
-    MISSING_TYPE *indexer;
-    MISSING_TYPE *databaseProvider;
-    MISSING_TYPE *differ;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *cleaner;
-    MISSING_TYPE *cachedRunWorkflowToolDefinition;
+    id indexer;
+    id databaseProvider;
+    id differ;
+    id queue;
+    id cleaner;
+    id cachedRunWorkflowToolDefinition;
 }
 
 @end

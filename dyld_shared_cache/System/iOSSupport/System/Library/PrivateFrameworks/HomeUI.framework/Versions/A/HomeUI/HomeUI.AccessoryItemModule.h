@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.AccessoryItemModule
 {
-    MISSING_TYPE *home;
-    MISSING_TYPE *itemProviderBlock;
-    MISSING_TYPE *sectionGroupingType;
+    id home;
+    id itemProviderBlock;
+    id sectionGroupingType;
 }
 
 - (id);

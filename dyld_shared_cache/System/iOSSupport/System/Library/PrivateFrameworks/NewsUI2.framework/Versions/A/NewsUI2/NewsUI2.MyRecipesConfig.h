@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyRecipesConfig
 {
-    MISSING_TYPE *feedContext;
-    MISSING_TYPE *formatContent;
-    MISSING_TYPE *layoutOptionsProvider;
-    MISSING_TYPE *trackerObserver;
-    MISSING_TYPE *log;
-    MISSING_TYPE *maxNumberOfItems;
-    MISSING_TYPE *maxAge;
-    MISSING_TYPE *feedKind;
-    MISSING_TYPE *dataSource;
+    id feedContext;
+    id formatContent;
+    id layoutOptionsProvider;
+    id trackerObserver;
+    id log;
+    id maxNumberOfItems;
+    id maxAge;
+    id feedKind;
+    id dataSource;
 }
 
 @end

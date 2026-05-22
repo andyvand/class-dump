@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsFavoritesSyncInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *sportsSyncManager;
-    MISSING_TYPE *appConfigManager;
+    id delegate;
+    id dataManager;
+    id sportsSyncManager;
+    id appConfigManager;
 }
 
 @end

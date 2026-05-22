@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleLoadingIndicatorProvider
 {
-    MISSING_TYPE *article;
+    id article;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.CommonNetworkObservation
 {
-    MISSING_TYPE *scheduler;
-    MISSING_TYPE *body;
+    id scheduler;
+    id body;
 }
 
 - (void);

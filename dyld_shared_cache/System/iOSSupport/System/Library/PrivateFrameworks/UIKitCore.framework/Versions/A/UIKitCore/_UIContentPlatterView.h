@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UIMorphPlatterViewBase.h>
 
-@class MISSING_TYPE, UITargetedPreview, _UIMagicMorphView, _UIPortalView, _UIShadowProperties;
+@class UITargetedPreview, _UIMagicMorphView, _UIPortalView, _UIShadowProperties;
 @protocol _UIAssertion;
 
 @interface _UIContentPlatterView : _UIMorphPlatterViewBase
@@ -16,7 +16,7 @@
     id <_UIAssertion> collapsedPreviewBackgroundSuppression;
     _Bool isFrozen;
     _Bool didTearOffPreviewForDrag;
-    MISSING_TYPE *backgroundCapture;
+    id backgroundCapture;
     _UIShadowProperties *_shadowProperties;
 }
 

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.AccessoryDetailsHelper.LinkedApplicationViewRepresentable.Coordinator
 {
-    MISSING_TYPE *_viewHeight;
-    MISSING_TYPE *_shouldShowView;
-    MISSING_TYPE *_requestUpdate;
-    MISSING_TYPE *_parentChangeObservation;
-    MISSING_TYPE *_navigationItemTitleObservation;
-    MISSING_TYPE *_$observationRegistrar;
+    id _viewHeight;
+    id _shouldShowView;
+    id _requestUpdate;
+    id _parentChangeObservation;
+    id _navigationItemTitleObservation;
+    id _$observationRegistrar;
 }
 
 - (id);

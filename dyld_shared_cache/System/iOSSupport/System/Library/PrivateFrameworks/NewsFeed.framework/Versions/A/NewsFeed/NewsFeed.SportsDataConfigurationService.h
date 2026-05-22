@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsDataConfigurationService
 {
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *resourceService;
-    MISSING_TYPE *jsonDecoder;
+    id appConfigManager;
+    id resourceService;
+    id jsonDecoder;
 }
 
 @end

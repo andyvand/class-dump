@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.BrandBar
 {
-    MISSING_TYPE *iconView;
-    MISSING_TYPE *ctaButton;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *bodyLabel;
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *pinstripe;
-    MISSING_TYPE *renderer;
+    id iconView;
+    id ctaButton;
+    id titleLabel;
+    id bodyLabel;
+    id backgroundView;
+    id pinstripe;
+    id renderer;
 }
 
 - (void);

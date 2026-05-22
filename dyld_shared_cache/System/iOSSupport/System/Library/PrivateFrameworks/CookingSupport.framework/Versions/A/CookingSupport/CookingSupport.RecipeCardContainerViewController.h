@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingSupport.RecipeCardContainerViewController
 {
-    MISSING_TYPE *recipeID;
-    MISSING_TYPE *recipeCardID;
-    MISSING_TYPE *observableRecipeCardViewSessionID;
-    MISSING_TYPE *paywallStatus;
-    MISSING_TYPE *isPreviewing;
-    MISSING_TYPE *observableIsPrimaryRecipe;
-    MISSING_TYPE *observableHorizontalParallaxModel;
-    MISSING_TYPE *appleAccountInfo;
-    MISSING_TYPE *hostingViewController;
-    MISSING_TYPE *didSetupRecipeCardHostingController;
+    id recipeID;
+    id recipeCardID;
+    id observableRecipeCardViewSessionID;
+    id paywallStatus;
+    id isPreviewing;
+    id observableIsPrimaryRecipe;
+    id observableHorizontalParallaxModel;
+    id appleAccountInfo;
+    id hostingViewController;
+    id didSetupRecipeCardHostingController;
 }
 
 - (id);

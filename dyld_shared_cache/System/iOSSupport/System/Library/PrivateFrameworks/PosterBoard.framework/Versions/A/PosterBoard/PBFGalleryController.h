@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSAtomicFlag, NSDate, NSDictionary, NSFileManager, NSHashTable, NSString, NSURL, PRSPosterGalleryLayout, _PBFGalleryEnqueuedPushToProactiveRequest, _PBFGalleryEnqueuedRefreshGalleryRequest, _TtC11PosterBoard25PBFGalleryControllerState;
+@class BSAtomicFlag, NSDate, NSDictionary, NSFileManager, NSHashTable, NSString, NSURL, PRSPosterGalleryLayout, PosterBoard.PBFGalleryControllerState, _PBFGalleryEnqueuedPushToProactiveRequest, _PBFGalleryEnqueuedRefreshGalleryRequest;
 @protocol PBFPosterGalleryLayoutProviding, PBFRuntimeAssertionProviding;
 
 @interface PBFGalleryController
@@ -21,7 +21,7 @@
     _PBFGalleryEnqueuedRefreshGalleryRequest *_stateLock_activeRefreshGalleryRequest;
     NSHashTable *_stateLock_observers;
     NSDate *_stateLock_timestampOfLastGalleryPushRequestFromProactive;
-    _TtC11PosterBoard25PBFGalleryControllerState *_state;
+    PosterBoard.PBFGalleryControllerState *_state;
     id <PBFRuntimeAssertionProviding> _runtimeAssertionProvider;
     id <PBFPosterGalleryLayoutProviding> _galleryLayoutProvider;
 }
@@ -71,7 +71,7 @@
 
 @property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSURL *galleryCacheURL; // @synthesize galleryCacheURL=_galleryCacheURL;
-@property(readonly, nonatomic) _TtC11PosterBoard25PBFGalleryControllerState *galleryControllerState;
+@property(readonly, nonatomic) PosterBoard.PBFGalleryControllerState *galleryControllerState;
 @property(readonly, nonatomic) id <PBFPosterGalleryLayoutProviding> galleryLayoutProvider; // @synthesize galleryLayoutProvider=_galleryLayoutProvider;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSDate *lastUpdateDate;

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.CacheMapViewModel
 {
-    MISSING_TYPE *cache;
-    MISSING_TYPE *geocoder;
-    MISSING_TYPE *_mapRegion;
-    MISSING_TYPE *_mapAnnotations;
-    MISSING_TYPE *_mostRecentLocationName;
-    MISSING_TYPE *_mostRecentLocationAddress;
+    id cache;
+    id geocoder;
+    id _mapRegion;
+    id _mapAnnotations;
+    id _mostRecentLocationName;
+    id _mostRecentLocationAddress;
 }
 
 @end

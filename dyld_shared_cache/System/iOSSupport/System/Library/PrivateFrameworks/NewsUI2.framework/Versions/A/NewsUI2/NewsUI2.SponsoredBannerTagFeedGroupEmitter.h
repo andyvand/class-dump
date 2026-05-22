@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SponsoredBannerTagFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *knobs;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *sponsoredAdService;
-    MISSING_TYPE *name;
+    id config;
+    id knobs;
+    id formatService;
+    id sponsoredAdService;
+    id name;
 }
 
 @end

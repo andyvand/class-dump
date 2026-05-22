@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FeedItemDimmingEvaluator
 {
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *contentAvailabilityValidator;
+    id bundleSubscriptionManager;
+    id offlineProvider;
+    id featureAvailability;
+    id contentAvailabilityValidator;
 }
 
 @end

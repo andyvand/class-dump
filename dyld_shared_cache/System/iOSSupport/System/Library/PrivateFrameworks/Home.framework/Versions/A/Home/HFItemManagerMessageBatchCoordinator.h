@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HFItemManager, HFItemManagerBatchedDelegateAdapter, MISSING_TYPE;
+@class HFItemManager, HFItemManagerBatchedDelegateAdapter;
 
 @interface HFItemManagerMessageBatchCoordinator
 {
     void itemManager;
     void delegateAdapter;
-    MISSING_TYPE *batcher;
-    MISSING_TYPE *discardsDelegatesReason;
+    id batcher;
+    id discardsDelegatesReason;
 }
 
 - (void);

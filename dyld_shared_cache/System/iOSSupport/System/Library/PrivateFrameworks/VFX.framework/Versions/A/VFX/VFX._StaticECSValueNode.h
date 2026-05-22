@@ -6,11 +6,9 @@
 
 #import <VFX/VFX._ECSValueNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX._StaticECSValueNode : VFX._ECSValueNode
 {
-    MISSING_TYPE *entityKeyPath;
+    id entityKeyPath;
 }
 
 @end

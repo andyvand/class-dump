@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.UserSegmentFeaturePromotionEligibilityProvider
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *userSegmentSetIDs;
+    id appConfigurationManager;
+    id userSegmentSetIDs;
 }
 
 @end

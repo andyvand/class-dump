@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.ForegroundEffectCoordinator
 {
-    MISSING_TYPE *effect;
-    MISSING_TYPE *time;
-    MISSING_TYPE *timeScale;
-    MISSING_TYPE *isFrozen;
-    MISSING_TYPE *wasPlayingWhenPaused;
-    MISSING_TYPE *renderers;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *device;
-    MISSING_TYPE *backgroundViewMetrics;
-    MISSING_TYPE *commandQueue;
-    MISSING_TYPE *backgroundTextureDescriptor;
-    MISSING_TYPE *backgroundBlurTextureDescriptor;
-    MISSING_TYPE *context;
-    MISSING_TYPE *blurStrength;
-    MISSING_TYPE *blur;
-    MISSING_TYPE *displayLink;
-    MISSING_TYPE *renderQueue;
-    MISSING_TYPE *_isAbleToRender;
-    MISSING_TYPE *isUnfocusedRenderingEnabled;
+    id effect;
+    id time;
+    id timeScale;
+    id isFrozen;
+    id wasPlayingWhenPaused;
+    id renderers;
+    id lock;
+    id device;
+    id backgroundViewMetrics;
+    id commandQueue;
+    id backgroundTextureDescriptor;
+    id backgroundBlurTextureDescriptor;
+    id context;
+    id blurStrength;
+    id blur;
+    id displayLink;
+    id renderQueue;
+    id _isAbleToRender;
+    id isUnfocusedRenderingEnabled;
 }
 
 @end

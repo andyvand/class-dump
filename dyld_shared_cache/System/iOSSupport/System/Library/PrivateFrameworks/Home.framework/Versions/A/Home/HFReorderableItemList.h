@@ -6,12 +6,10 @@
 
 #import <Home/HFReorderableItemListAbstractBase.h>
 
-@class MISSING_TYPE;
-
 @interface HFReorderableItemList : HFReorderableItemListAbstractBase
 {
-    MISSING_TYPE *sortedIdentifiers;
-    MISSING_TYPE *applicationDataKey;
+    id sortedIdentifiers;
+    id applicationDataKey;
 }
 
 - (_Bool);

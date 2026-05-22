@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsTaxonomyGraphSectionNode
 {
-    MISSING_TYPE *isHidden;
-    MISSING_TYPE *isChildrenOrderCurated;
-    MISSING_TYPE *header;
-    MISSING_TYPE *privateChildren;
-    MISSING_TYPE *weakParents;
+    id isHidden;
+    id isChildrenOrderCurated;
+    id header;
+    id privateChildren;
+    id weakParents;
 }
 
 @end

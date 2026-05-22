@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.UICoreSafeAreaHelper
 {
-    MISSING_TYPE *pendingSafeAreaInsets;
-    MISSING_TYPE *lastParentSafeAreaInsets;
+    id pendingSafeAreaInsets;
+    id lastParentSafeAreaInsets;
 }
 
 @end

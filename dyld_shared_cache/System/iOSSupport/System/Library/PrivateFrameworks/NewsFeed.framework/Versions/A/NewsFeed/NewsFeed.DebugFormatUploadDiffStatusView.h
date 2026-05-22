@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadDiffStatusView
 {
-    MISSING_TYPE *onTargetTap;
-    MISSING_TYPE *targetButton;
-    MISSING_TYPE *maxWidth;
-    MISSING_TYPE *statusLabel;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *progressView;
+    id onTargetTap;
+    id targetButton;
+    id maxWidth;
+    id statusLabel;
+    id editor;
+    id progressView;
 }
 
 - (struct CGSize);

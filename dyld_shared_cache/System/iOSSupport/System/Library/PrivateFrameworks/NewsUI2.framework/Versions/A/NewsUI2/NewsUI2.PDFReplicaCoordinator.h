@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PDFReplicaCoordinator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *pages;
-    MISSING_TYPE *issue;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *newsActivityManager;
+    id delegate;
+    id pages;
+    id issue;
+    id tracker;
+    id newsActivityManager;
 }
 
 @end

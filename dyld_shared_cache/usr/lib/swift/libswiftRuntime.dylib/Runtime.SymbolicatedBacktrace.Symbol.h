@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface Runtime.SymbolicatedBacktrace.Symbol
 {
-    MISSING_TYPE *imageIndex;
-    MISSING_TYPE *imageName;
-    MISSING_TYPE *rawName;
-    MISSING_TYPE *$__lazy_storage_$_name;
-    MISSING_TYPE *offset;
-    MISSING_TYPE *sourceLocation;
+    id imageIndex;
+    id imageName;
+    id rawName;
+    id $__lazy_storage_$_name;
+    id offset;
+    id sourceLocation;
 }
 
 @end

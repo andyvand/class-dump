@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ActionKitUI.InstapaperLoginSession
 {
-    MISSING_TYPE *engine;
-    MISSING_TYPE *username;
-    MISSING_TYPE *password;
-    MISSING_TYPE *continuation;
+    id engine;
+    id username;
+    id password;
+    id continuation;
 }
 
 - (void);

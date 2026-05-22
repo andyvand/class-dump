@@ -6,11 +6,9 @@
 
 #import <swiftCore/Swift._SwiftObject.h>
 
-@class MISSING_TYPE;
-
 @interface Swift.__stdlib_AtomicInt : Swift._SwiftObject
 {
-    MISSING_TYPE *_value;
+    id _value;
 }
 
 @end

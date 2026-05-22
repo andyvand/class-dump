@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.TipManager
 {
-    MISSING_TYPE *presentationOperationManager;
-    MISSING_TYPE *configs;
-    MISSING_TYPE *placements;
-    MISSING_TYPE *presentations;
-    MISSING_TYPE *viewControllerFactory;
-    MISSING_TYPE *keyboardObserver;
-    MISSING_TYPE *isKeyboardVisible;
-    MISSING_TYPE *tipStorageManager;
+    id presentationOperationManager;
+    id configs;
+    id placements;
+    id presentations;
+    id viewControllerFactory;
+    id keyboardObserver;
+    id isKeyboardVisible;
+    id tipStorageManager;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface GenerativePartnerServiceUI.SettingsObserver
 {
-    MISSING_TYPE *activeProviderListener;
-    MISSING_TYPE *useConfirmationPromptsListener;
-    MISSING_TYPE *subscribers;
+    id activeProviderListener;
+    id useConfirmationPromptsListener;
+    id subscribers;
 }
 
 - (id);

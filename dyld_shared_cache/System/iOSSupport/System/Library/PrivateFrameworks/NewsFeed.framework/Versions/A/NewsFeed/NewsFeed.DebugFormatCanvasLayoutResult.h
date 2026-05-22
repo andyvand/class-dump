@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatCanvasLayoutResult
 {
-    MISSING_TYPE *group;
-    MISSING_TYPE *workspaceGroup;
-    MISSING_TYPE *inventory;
-    MISSING_TYPE *debugGroupLayoutAttributes;
-    MISSING_TYPE *groupLayoutContext;
-    MISSING_TYPE *groupLayoutBindings;
-    MISSING_TYPE *boundLayoutFactory;
+    id group;
+    id workspaceGroup;
+    id inventory;
+    id debugGroupLayoutAttributes;
+    id groupLayoutContext;
+    id groupLayoutBindings;
+    id boundLayoutFactory;
 }
 
 @end

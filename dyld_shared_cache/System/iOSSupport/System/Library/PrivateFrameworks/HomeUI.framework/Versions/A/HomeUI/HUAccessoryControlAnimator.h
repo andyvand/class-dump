@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HUAccessoryControlAnimator
 {
-    MISSING_TYPE *currentTransitionType;
-    MISSING_TYPE *sourceViewController;
+    id currentTransitionType;
+    id sourceViewController;
 }
 
 - (double);

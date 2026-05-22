@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _MPCMediaRemotePublisher_Swift
 {
-    MISSING_TYPE *publisher;
-    MISSING_TYPE *dialogHandler;
-    MISSING_TYPE *_migrationRequirements;
+    id publisher;
+    id dialogHandler;
+    id _migrationRequirements;
 }
 
 - (void);

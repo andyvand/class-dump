@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.RunLoopWorkerThread
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *stateLock;
-    MISSING_TYPE *runLoop;
-    MISSING_TYPE *source;
-    MISSING_TYPE *tasks;
+    id name;
+    id stateLock;
+    id runLoop;
+    id source;
+    id tasks;
 }
 
 @end

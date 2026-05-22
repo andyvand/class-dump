@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MainInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *followingSelection;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *tabBarEngagementModifier;
-    MISSING_TYPE *engagementEventHandler;
-    MISSING_TYPE *engagementViewControllerFactory;
-    MISSING_TYPE *engagementUpsellTriggerStateManager;
-    MISSING_TYPE *metricsBuilder;
-    MISSING_TYPE *purchaseObserver;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *bootstrapper;
-    MISSING_TYPE *appLaunchMethodChecker;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *paidBundleViaOfferUIHandler;
+    id delegate;
+    id dataManager;
+    id followingSelection;
+    id offerManager;
+    id tabBarEngagementModifier;
+    id engagementEventHandler;
+    id engagementViewControllerFactory;
+    id engagementUpsellTriggerStateManager;
+    id metricsBuilder;
+    id purchaseObserver;
+    id tipManager;
+    id bootstrapper;
+    id appLaunchMethodChecker;
+    id featureAvailability;
+    id paidBundleViaOfferUIHandler;
 }
 
 @end

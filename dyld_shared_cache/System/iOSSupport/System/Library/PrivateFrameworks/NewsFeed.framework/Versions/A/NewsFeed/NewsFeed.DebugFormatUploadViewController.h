@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *request;
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *diffViewController;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *$__lazy_storage_$_nextBarButtonItem;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *filter;
-    MISSING_TYPE *filteredSections;
-    MISSING_TYPE *selection;
+    id editor;
+    id request;
+    id dataSource;
+    id diffViewController;
+    id tableView;
+    id coverViewManager;
+    id $__lazy_storage_$_nextBarButtonItem;
+    id sections;
+    id filter;
+    id filteredSections;
+    id selection;
 }
 
 - (void);

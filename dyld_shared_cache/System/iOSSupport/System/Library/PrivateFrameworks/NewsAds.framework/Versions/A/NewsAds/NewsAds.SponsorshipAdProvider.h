@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.SponsorshipAdProvider
 {
-    MISSING_TYPE *contextWrapper;
-    MISSING_TYPE *$__lazy_storage_$_debugAdProvider;
+    id contextWrapper;
+    id $__lazy_storage_$_debugAdProvider;
 }
 
 @end

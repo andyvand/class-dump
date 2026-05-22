@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PPTTagFeedServiceConfigFetcher
 {
-    MISSING_TYPE *contentConfigData;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *subscriptionController;
+    id contentConfigData;
+    id cloudContext;
+    id configurationManager;
+    id subscriptionController;
 }
 
 @end

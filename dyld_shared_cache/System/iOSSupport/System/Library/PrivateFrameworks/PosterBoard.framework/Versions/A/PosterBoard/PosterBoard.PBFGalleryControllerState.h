@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDate;
+@class NSDate;
 
 @interface PosterBoard.PBFGalleryControllerState
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *_lock_lastUsefulGalleryConfigurationPersistDate;
-    MISSING_TYPE *_lock_minimumIntervalBetweenProactivePush;
-    MISSING_TYPE *_lock_maximumIntervalBetweenProactivePush;
-    MISSING_TYPE *_lock_proactiveInfractionCount;
-    MISSING_TYPE *_$observationRegistrar;
+    id lock;
+    id _lock_lastUsefulGalleryConfigurationPersistDate;
+    id _lock_minimumIntervalBetweenProactivePush;
+    id _lock_maximumIntervalBetweenProactivePush;
+    id _lock_proactiveInfractionCount;
+    id _$observationRegistrar;
 }
 
 - (void);

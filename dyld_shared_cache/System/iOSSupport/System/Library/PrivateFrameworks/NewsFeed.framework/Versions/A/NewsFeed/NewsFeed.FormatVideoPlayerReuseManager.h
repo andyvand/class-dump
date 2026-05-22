@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatVideoPlayerReuseManager
 {
-    MISSING_TYPE *analyticsDataProvider;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *videoAdProviderFactory;
-    MISSING_TYPE *pictureInPictureState;
-    MISSING_TYPE *sceneStateManager;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *managerCache;
+    id analyticsDataProvider;
+    id resolver;
+    id videoAdProviderFactory;
+    id pictureInPictureState;
+    id sceneStateManager;
+    id sceneProvider;
+    id managerCache;
 }
 
 @end

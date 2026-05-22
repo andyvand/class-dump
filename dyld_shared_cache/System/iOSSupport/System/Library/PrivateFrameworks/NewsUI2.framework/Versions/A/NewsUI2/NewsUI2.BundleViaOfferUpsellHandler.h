@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.BundleViaOfferUpsellHandler
 {
-    MISSING_TYPE *paidBundleViaOfferHandler;
-    MISSING_TYPE *appLaunchMethodChecker;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *router;
+    id paidBundleViaOfferHandler;
+    id appLaunchMethodChecker;
+    id featureAvailability;
+    id router;
 }
 
 - (id);

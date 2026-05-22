@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.DataGroup2
 {
-    MISSING_TYPE *fileID;
-    MISSING_TYPE *hashID;
-    MISSING_TYPE *fileName;
-    MISSING_TYPE *dg2Data;
-    MISSING_TYPE *facialHeaderSize;
-    MISSING_TYPE *facialDataInfoSize;
-    MISSING_TYPE *featuresSize;
-    MISSING_TYPE *facialDataImageInfoSize;
+    id fileID;
+    id hashID;
+    id fileName;
+    id dg2Data;
+    id facialHeaderSize;
+    id facialDataInfoSize;
+    id featuresSize;
+    id facialDataImageInfoSize;
 }
 
 @end

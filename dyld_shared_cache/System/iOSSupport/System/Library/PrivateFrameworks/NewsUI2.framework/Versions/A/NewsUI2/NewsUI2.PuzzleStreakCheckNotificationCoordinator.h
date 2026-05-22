@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleStreakCheckNotificationCoordinator
 {
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *notificationScheduler;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *userInfo;
+    id puzzleStatsService;
+    id puzzleService;
+    id puzzleHistoryService;
+    id notificationScheduler;
+    id configurationManager;
+    id userInfo;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedRoutingEvaluator
 {
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *offlineArticleManager;
-    MISSING_TYPE *featureAvailability;
+    id offlineProvider;
+    id offlineArticleManager;
+    id featureAvailability;
 }
 
 @end

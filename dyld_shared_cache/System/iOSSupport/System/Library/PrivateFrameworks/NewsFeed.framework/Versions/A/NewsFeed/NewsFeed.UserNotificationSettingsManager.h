@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.UserNotificationSettingsManager
 {
-    MISSING_TYPE *_cachedSettings;
-    MISSING_TYPE *debouncer;
+    id _cachedSettings;
+    id debouncer;
 }
 
 @end

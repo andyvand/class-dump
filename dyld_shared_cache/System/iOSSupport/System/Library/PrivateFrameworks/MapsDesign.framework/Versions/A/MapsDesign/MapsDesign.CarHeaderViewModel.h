@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.CarHeaderViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_title;
-    MISSING_TYPE *_leadingButtons;
-    MISSING_TYPE *_trailingButtons;
-    MISSING_TYPE *_leadingImage;
-    MISSING_TYPE *_titleVisible;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _title;
+    id _leadingButtons;
+    id _trailingButtons;
+    id _leadingImage;
+    id _titleVisible;
+    id _$observationRegistrar;
 }
 
 @end

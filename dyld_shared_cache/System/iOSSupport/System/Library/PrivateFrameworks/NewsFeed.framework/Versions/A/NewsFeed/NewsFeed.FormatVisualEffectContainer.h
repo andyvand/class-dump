@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatVisualEffectContainer
 {
-    MISSING_TYPE *blurEffectView;
-    MISSING_TYPE *vibrancyEffectView;
+    id blurEffectView;
+    id vibrancyEffectView;
 }
 
 @end

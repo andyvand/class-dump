@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.ColumnChartRenderer
 {
-    MISSING_TYPE *imageLoader;
-    MISSING_TYPE *animationSynchronizer;
-    MISSING_TYPE *reuseProtector;
+    id imageLoader;
+    id animationSynchronizer;
+    id reuseProtector;
 }
 
 @end

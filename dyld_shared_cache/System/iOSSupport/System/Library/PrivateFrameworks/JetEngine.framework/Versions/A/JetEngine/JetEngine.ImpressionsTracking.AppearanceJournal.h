@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.ImpressionsTracking.AppearanceJournal
 {
-    MISSING_TYPE *elementID;
-    MISSING_TYPE *metricsFields;
-    MISSING_TYPE *times;
-    MISSING_TYPE *parentContextID;
-    MISSING_TYPE *uniqueImpressionID;
-    MISSING_TYPE *uniqueParentID;
-    MISSING_TYPE *position;
+    id elementID;
+    id metricsFields;
+    id times;
+    id parentContextID;
+    id uniqueImpressionID;
+    id uniqueParentID;
+    id position;
 }
 
 @end

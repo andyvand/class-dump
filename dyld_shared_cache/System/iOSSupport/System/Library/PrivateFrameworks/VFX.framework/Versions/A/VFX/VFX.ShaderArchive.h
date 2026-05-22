@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ShaderArchive
 {
-    MISSING_TYPE *family;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *libraries;
-    MISSING_TYPE *specializedFunctions;
-    MISSING_TYPE *functions;
-    MISSING_TYPE *renderPipelines;
-    MISSING_TYPE *meshRenderPipelines;
-    MISSING_TYPE *computePipelines;
+    id family;
+    id lock;
+    id libraries;
+    id specializedFunctions;
+    id functions;
+    id renderPipelines;
+    id meshRenderPipelines;
+    id computePipelines;
 }
 
 - (void);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface GenerativePartnerServiceUI.OBKSheetsManager
 {
-    MISSING_TYPE *selection;
-    MISSING_TYPE *viewModel;
-    MISSING_TYPE *forceShowNotNowButton;
-    MISSING_TYPE *hideBackButton;
-    MISSING_TYPE *hasExplicitlyPreselectedProvider;
+    id selection;
+    id viewModel;
+    id forceShowNotNowButton;
+    id hideBackButton;
+    id hasExplicitlyPreselectedProvider;
 }
 
 - (void);

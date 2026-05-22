@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatVideoPlayerRestrictionManager
 {
-    MISSING_TYPE *entries;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *writerTask;
+    id entries;
+    id observers;
+    id accessQueue;
+    id writerTask;
 }
 
 @end

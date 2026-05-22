@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelMagazineGridModelLoader
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *channel;
-    MISSING_TYPE *contentContext;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *issueModelFactory;
-    MISSING_TYPE *magazineGridKind;
+    id delegate;
+    id channel;
+    id contentContext;
+    id tagService;
+    id issueModelFactory;
+    id magazineGridKind;
 }
 
 @end

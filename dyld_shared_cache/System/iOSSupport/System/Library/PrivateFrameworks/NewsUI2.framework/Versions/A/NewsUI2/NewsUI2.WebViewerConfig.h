@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WebViewerConfig
 {
-    MISSING_TYPE *url;
-    MISSING_TYPE *title;
-    MISSING_TYPE *dismissButtonText;
-    MISSING_TYPE *errorTitle;
-    MISSING_TYPE *errorDescription;
-    MISSING_TYPE *forceInitialError;
-    MISSING_TYPE *hideBarShadow;
-    MISSING_TYPE *errorIfOffline;
-    MISSING_TYPE *preventResizing;
-    MISSING_TYPE *disableZoom;
-    MISSING_TYPE *webConfiguration;
+    id url;
+    id title;
+    id dismissButtonText;
+    id errorTitle;
+    id errorDescription;
+    id forceInitialError;
+    id hideBarShadow;
+    id errorIfOffline;
+    id preventResizing;
+    id disableZoom;
+    id webConfiguration;
 }
 
 @end

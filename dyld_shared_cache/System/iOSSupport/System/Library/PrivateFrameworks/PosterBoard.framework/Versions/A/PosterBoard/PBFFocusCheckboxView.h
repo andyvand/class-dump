@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImageView, _TtC11PosterBoard13PBFCircleView;
+@class NSString, PosterBoard.PBFCircleView, UIImageView;
 
 @interface PBFFocusCheckboxView
 {
-    _TtC11PosterBoard13PBFCircleView *_circleView;
+    PosterBoard.PBFCircleView *_circleView;
     UIImageView *_imageView;
     _Bool _on;
     NSString *_associatedPosterIdentifier;

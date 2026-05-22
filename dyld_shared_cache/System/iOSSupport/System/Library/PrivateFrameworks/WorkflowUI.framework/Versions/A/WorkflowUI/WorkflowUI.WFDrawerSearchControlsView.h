@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFDrawerSearchControlsView
 {
-    MISSING_TYPE *searchBar;
-    MISSING_TYPE *cancelButton;
-    MISSING_TYPE *showsCancelButton;
-    MISSING_TYPE *searchBarHorizontalEdgeInsets;
-    MISSING_TYPE *searchBarCancelButtonHorizontalSpacing;
-    MISSING_TYPE *searchBarTopInset;
-    MISSING_TYPE *searchBarHeight;
-    MISSING_TYPE *cancelButtonTrailingInset;
+    id searchBar;
+    id cancelButton;
+    id showsCancelButton;
+    id searchBarHorizontalEdgeInsets;
+    id searchBarCancelButtonHorizontalSpacing;
+    id searchBarTopInset;
+    id searchBarHeight;
+    id cancelButtonTrailingInset;
 }
 
 - (struct CGSize);

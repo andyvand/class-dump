@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SuggestionTodayFeedGroupEmitterCursor
 {
-    MISSING_TYPE *suggestions;
-    MISSING_TYPE *ignoredTagIDs;
+    id suggestions;
+    id ignoredTagIDs;
 }
 
 @end

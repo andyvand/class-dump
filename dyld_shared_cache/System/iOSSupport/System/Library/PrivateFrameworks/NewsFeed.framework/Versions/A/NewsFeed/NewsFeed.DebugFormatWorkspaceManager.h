@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceManager
 {
-    MISSING_TYPE *_selectedWorkspace;
-    MISSING_TYPE *_selectedDevice;
-    MISSING_TYPE *_message;
-    MISSING_TYPE *_progress;
-    MISSING_TYPE *progressIdentifier;
-    MISSING_TYPE *_workspaceCanvasSort;
-    MISSING_TYPE *_userData;
-    MISSING_TYPE *_sharedWorkspaces;
-    MISSING_TYPE *_configFile;
-    MISSING_TYPE *_workspaces;
-    MISSING_TYPE *workspaceMap;
-    MISSING_TYPE *categoryWorkspaces;
-    MISSING_TYPE *bindingService;
-    MISSING_TYPE *serverService;
-    MISSING_TYPE *groupWorkspace;
-    MISSING_TYPE *feedWorkspaces;
+    id _selectedWorkspace;
+    id _selectedDevice;
+    id _message;
+    id _progress;
+    id progressIdentifier;
+    id _workspaceCanvasSort;
+    id _userData;
+    id _sharedWorkspaces;
+    id _configFile;
+    id _workspaces;
+    id workspaceMap;
+    id categoryWorkspaces;
+    id bindingService;
+    id serverService;
+    id groupWorkspace;
+    id feedWorkspaces;
 }
 
 @end

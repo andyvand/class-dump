@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.TypeRegistry
 {
-    MISSING_TYPE *typeInfoByName;
-    MISSING_TYPE *componentInfoByNameForFuzzyLookup;
-    MISSING_TYPE *metadata;
+    id typeInfoByName;
+    id componentInfoByNameForFuzzyLookup;
+    id metadata;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SLKeyQueryController
 {
-    MISSING_TYPE *service;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *queryController;
-    MISSING_TYPE *idsService;
-    MISSING_TYPE *$__lazy_storage_$_pushTokenForSelf;
-    MISSING_TYPE *$__lazy_storage_$_localAccountHandles;
+    id service;
+    id queue;
+    id queryController;
+    id idsService;
+    id $__lazy_storage_$_pushTokenForSelf;
+    id $__lazy_storage_$_localAccountHandles;
 }
 
 - (id);

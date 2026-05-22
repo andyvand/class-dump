@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadDiffGutterView
 {
-    MISSING_TYPE *contentSize;
-    MISSING_TYPE *contentInsets;
-    MISSING_TYPE *numberOfLines;
-    MISSING_TYPE *changedHunkRanges;
-    MISSING_TYPE *source;
+    id contentSize;
+    id contentInsets;
+    id numberOfLines;
+    id changedHunkRanges;
+    id source;
 }
 
 - (id);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.PrimDirtyState
 {
-    MISSING_TYPE *primMetadataContainsAnyOf;
-    MISSING_TYPE *propertiesContainAnyOf;
-    MISSING_TYPE *core;
+    id primMetadataContainsAnyOf;
+    id propertiesContainAnyOf;
+    id core;
 }
 
 @end

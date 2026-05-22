@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchFilterBarViewModel
 {
-    MISSING_TYPE *_delegate;
-    MISSING_TYPE *_filterItems;
-    MISSING_TYPE *_$observationRegistrar;
+    id _delegate;
+    id _filterItems;
+    id _$observationRegistrar;
 }
 
 @end

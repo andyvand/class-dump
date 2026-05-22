@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.DaemonSessionImplementation
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *requestSizeLimit;
-    MISSING_TYPE *timeout;
-    MISSING_TYPE *xpcServiceName;
-    MISSING_TYPE *signposter;
-    MISSING_TYPE *sessionIfValid;
-    MISSING_TYPE *workQueue;
-    MISSING_TYPE *xpcSessionProviderFactory;
+    id $defaultActor;
+    id requestSizeLimit;
+    id timeout;
+    id xpcServiceName;
+    id signposter;
+    id sessionIfValid;
+    id workQueue;
+    id xpcSessionProviderFactory;
 }
 
 @end

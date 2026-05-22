@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphV1CodeGeneration.ParameterBase
 {
-    MISSING_TYPE *owner;
-    MISSING_TYPE *name;
-    MISSING_TYPE *uid;
-    MISSING_TYPE *type;
+    id owner;
+    id name;
+    id uid;
+    id type;
 }
 
 @end

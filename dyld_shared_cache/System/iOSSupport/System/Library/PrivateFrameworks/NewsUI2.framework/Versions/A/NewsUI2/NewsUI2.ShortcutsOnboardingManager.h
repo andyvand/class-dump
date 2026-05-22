@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ShortcutsOnboardingManager
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *featureAvailability;
+    id observers;
+    id userInfo;
+    id featureAvailability;
 }
 
 - (void);

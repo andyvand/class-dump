@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerComicRenderer
 {
-    MISSING_TYPE *device;
-    MISSING_TYPE *shaders;
-    MISSING_TYPE *largeTextures;
-    MISSING_TYPE *smallTextures;
-    MISSING_TYPE *smallTextureSize;
-    MISSING_TYPE *largeTextureSize;
+    id device;
+    id shaders;
+    id largeTextures;
+    id smallTextures;
+    id smallTextureSize;
+    id largeTextureSize;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.NotificationWindowsManager
 {
-    MISSING_TYPE *appKitHelper;
-    MISSING_TYPE *windows;
-    MISSING_TYPE *reservedSpace;
+    id appKitHelper;
+    id windows;
+    id reservedSpace;
 }
 
 @end

@@ -6,11 +6,9 @@
 
 #import <UIKitCore/_UIIntelligenceSystemView.h>
 
-@class MISSING_TYPE;
-
 @interface _UIIntelligenceSystemNoiseView : _UIIntelligenceSystemView
 {
-    MISSING_TYPE *preferAudioReactivity;
+    id preferAudioReactivity;
 }
 
 - (id);

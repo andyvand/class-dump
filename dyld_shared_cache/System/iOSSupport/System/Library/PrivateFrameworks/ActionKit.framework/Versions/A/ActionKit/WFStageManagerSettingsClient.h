@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 __attribute__((visibility("hidden")))
 @interface WFStageManagerSettingsClient
 {
-    MISSING_TYPE *$__lazy_storage_$_manager;
+    id $__lazy_storage_$_manager;
 }
 
 + (void);

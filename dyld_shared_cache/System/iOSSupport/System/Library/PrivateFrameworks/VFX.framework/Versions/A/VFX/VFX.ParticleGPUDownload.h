@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleGPUDownload
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *onReadyToCopy;
+    id name;
+    id onReadyToCopy;
 }
 
 @end

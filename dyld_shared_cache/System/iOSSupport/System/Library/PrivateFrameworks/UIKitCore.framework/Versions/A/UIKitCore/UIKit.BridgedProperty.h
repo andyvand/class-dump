@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 @interface UIKit.BridgedProperty
 {
-    MISSING_TYPE *property;
+    id property;
 }
 
 - (void);

@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIPanGestureRecognizer;
+@class UIPanGestureRecognizer;
 
 @interface TeaUI.SwipeActionCollectionView
 {
-    MISSING_TYPE *swipeActionManager;
-    MISSING_TYPE *dependencyCleanupBlocks;
-    MISSING_TYPE *coordinatingResetBlocks;
-    MISSING_TYPE *coordinatingCancelBlocks;
-    MISSING_TYPE *updateGroup;
-    MISSING_TYPE *swipeActionRestoreState;
-    MISSING_TYPE *isBottomRubberBanding;
+    id swipeActionManager;
+    id dependencyCleanupBlocks;
+    id coordinatingResetBlocks;
+    id coordinatingCancelBlocks;
+    id updateGroup;
+    id swipeActionRestoreState;
+    id isBottomRubberBanding;
 }
 
 - (void);

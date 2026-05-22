@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.KernelScriptReflectionSystem
 {
-    MISSING_TYPE *compileQueue;
-    MISSING_TYPE *dirtyScript;
-    MISSING_TYPE *dirtyKernelReflection;
-    MISSING_TYPE *shaderAssetQuery;
-    MISSING_TYPE *reflectionQuery;
+    id compileQueue;
+    id dirtyScript;
+    id dirtyKernelReflection;
+    id shaderAssetQuery;
+    id reflectionQuery;
 }
 
 @end

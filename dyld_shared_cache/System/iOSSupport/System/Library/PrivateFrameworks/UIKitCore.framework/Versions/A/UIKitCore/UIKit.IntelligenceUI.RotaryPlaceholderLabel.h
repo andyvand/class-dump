@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.IntelligenceUI.RotaryPlaceholderLabel : UIView
 {
-    MISSING_TYPE *segmentLayout;
-    MISSING_TYPE *_attributedText;
-    MISSING_TYPE *_textSegmentsCovered;
+    id segmentLayout;
+    id _attributedText;
+    id _textSegmentsCovered;
 }
 
 - (struct CGSize);

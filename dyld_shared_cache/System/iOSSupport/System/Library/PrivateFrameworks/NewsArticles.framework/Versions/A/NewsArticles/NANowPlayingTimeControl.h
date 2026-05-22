@@ -4,31 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIColor;
+@class NSString, UIColor;
 
 __attribute__((visibility("hidden")))
 @interface NANowPlayingTimeControl
 {
-    MISSING_TYPE *slider;
-    MISSING_TYPE *elapsedTimeLabel;
-    MISSING_TYPE *remainingTimeLabel;
-    MISSING_TYPE *scrubbingDidChangeHandler;
+    id slider;
+    id elapsedTimeLabel;
+    id remainingTimeLabel;
+    id scrubbingDidChangeHandler;
     void timeDidChangeHandler;
     UIColor *elapsedTrackColor;
     UIColor *remainingTrackColor;
     UIColor *trackingTrackColor;
     UIColor *timeLabelTextColor;
     UIColor *timeLabelTrackingTextColor;
-    MISSING_TYPE *_tracking;
-    MISSING_TYPE *durationSnapshot;
-    MISSING_TYPE *backgroundObserver;
-    MISSING_TYPE *foregroundObserver;
-    MISSING_TYPE *displayLink;
-    MISSING_TYPE *isBackgrounded;
-    MISSING_TYPE *timeFormatter;
-    MISSING_TYPE *accessibilityTimeFormatter;
-    MISSING_TYPE *$__lazy_storage_$_elapsedTimeLabelBaselineConstraint;
-    MISSING_TYPE *$__lazy_storage_$_remainingTimeLabelBaselineConstraint;
+    id _tracking;
+    id durationSnapshot;
+    id backgroundObserver;
+    id foregroundObserver;
+    id displayLink;
+    id isBackgrounded;
+    id timeFormatter;
+    id accessibilityTimeFormatter;
+    id $__lazy_storage_$_elapsedTimeLabelBaselineConstraint;
+    id $__lazy_storage_$_remainingTimeLabelBaselineConstraint;
 }
 
 - (id);

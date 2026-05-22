@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.LensBlurPassSystem
 {
-    MISSING_TYPE *allCamerasQuery;
+    id allCamerasQuery;
 }
 
 @end

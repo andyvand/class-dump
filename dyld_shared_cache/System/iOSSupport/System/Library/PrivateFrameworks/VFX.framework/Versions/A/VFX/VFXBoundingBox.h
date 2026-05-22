@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFXBoundingBox
 {
-    MISSING_TYPE *min;
-    MISSING_TYPE *max;
+    id min;
+    id max;
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (id);
 - (void);
 - (void);
-- (MISSING_TYPE *)static inline bool renderOptionsIsNearfieldVignettingEnabled(uint16_t flags) {
+- (id)static inline bool renderOptionsIsNearfieldVignettingEnabled(uint16_t flags) {
     return false;
     return (flags & vfx_render_option_enable_nearfield_vignetting) != 0;
 }
@@ -98,7 +96,7 @@ struct render_options_override {
 
 #endif 
 ;
-- (MISSING_TYPE *)3 v = surface.view;
+- (id)3 v = surface.view;
         pbr.NoV = abs(dot(n, v));
         
         float roughness = surface.roughness;
@@ -1209,8 +1207,8 @@ float4x4 getFaceRotation(ushort face) {
 - (id);
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *max; // @synthesize max;
-@property(nonatomic) MISSING_TYPE *min; // @synthesize min;
+@property(nonatomic) id max; // @synthesize max;
+@property(nonatomic) id min; // @synthesize min;
 
 @end
 

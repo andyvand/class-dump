@@ -6,15 +6,13 @@
 
 #import <TeaUI/TUNonAnimatingLayer.h>
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ShineImageLayer : TUNonAnimatingLayer
 {
-    MISSING_TYPE *shineOptions;
-    MISSING_TYPE *shineImage;
-    MISSING_TYPE *shineOffset;
-    MISSING_TYPE *shineScale;
-    MISSING_TYPE *shineImageLayer;
+    id shineOptions;
+    id shineImage;
+    id shineOffset;
+    id shineScale;
+    id shineImageLayer;
 }
 
 + (_Bool);

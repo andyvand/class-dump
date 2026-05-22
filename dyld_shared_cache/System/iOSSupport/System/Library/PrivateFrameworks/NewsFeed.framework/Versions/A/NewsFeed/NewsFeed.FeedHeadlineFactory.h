@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedHeadlineFactory
 {
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *subscriptionList;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *sharedItemManager;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *appConfigManager;
+    id readingHistory;
+    id readingList;
+    id subscriptionList;
+    id paidAccessChecker;
+    id sharedItemManager;
+    id headlineService;
+    id appConfigManager;
 }
 
 @end

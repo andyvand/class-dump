@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SharedWithYouFeedBlueprintViewCellProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *baseStyler;
-    MISSING_TYPE *feedItemRenderer;
+    id delegate;
+    id baseStyler;
+    id feedItemRenderer;
 }
 
 @end

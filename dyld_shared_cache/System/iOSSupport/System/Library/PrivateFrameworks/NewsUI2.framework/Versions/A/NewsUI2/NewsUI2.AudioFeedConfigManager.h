@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedConfigManager
 {
-    MISSING_TYPE *observableConfiguration;
-    MISSING_TYPE *service;
-    MISSING_TYPE *fetchDeduper;
+    id observableConfiguration;
+    id service;
+    id fetchDeduper;
 }
 
 @end

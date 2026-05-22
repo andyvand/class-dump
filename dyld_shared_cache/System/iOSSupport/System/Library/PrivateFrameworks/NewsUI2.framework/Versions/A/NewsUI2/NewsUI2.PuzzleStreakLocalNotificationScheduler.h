@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleStreakLocalNotificationScheduler
 {
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *calendar;
-    MISSING_TYPE *secondsPastMidnightToDeliverNotification;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *puzzleStreakThreadIdentifier;
+    id notificationService;
+    id calendar;
+    id secondsPastMidnightToDeliverNotification;
+    id puzzleHistoryService;
+    id configurationManager;
+    id puzzleStreakThreadIdentifier;
 }
 
 - (id);

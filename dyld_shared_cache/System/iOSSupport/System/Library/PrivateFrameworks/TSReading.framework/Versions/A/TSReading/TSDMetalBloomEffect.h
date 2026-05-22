@@ -20,7 +20,7 @@
     TSDMetalShader *_bloomShader;
     TSDMetalShader *_fboTransferShader;
     struct {
-        CDStruct_14d5dc5e MVPMatrix;
+        CDStruct_95fa7c00 MVPMatrix;
     } _blurVertexUniforms;
     struct {
         _Bool TextureSize__IsHorizontal;

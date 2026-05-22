@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TitleView
 {
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *subtitleLabel;
-    MISSING_TYPE *chevron;
-    MISSING_TYPE *seeMoreButton;
-    MISSING_TYPE *action;
+    id backgroundView;
+    id titleLabel;
+    id subtitleLabel;
+    id chevron;
+    id seeMoreButton;
+    id action;
 }
 
 - (void);

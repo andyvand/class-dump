@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HUBaseIconView, MISSING_TYPE, NSArray;
+@class HUBaseIconView, NSArray;
 
 @interface HomeUI.TileCellContentView
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *prefixLabel;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *activeLayoutConstraints;
-    MISSING_TYPE *statusGlyph;
-    MISSING_TYPE *descriptionLabel;
-    MISSING_TYPE *badgeLabel;
-    MISSING_TYPE *activityIndicator;
+    id configuration;
+    id prefixLabel;
+    id titleLabel;
+    id activeLayoutConstraints;
+    id statusGlyph;
+    id descriptionLabel;
+    id badgeLabel;
+    id activityIndicator;
     HUBaseIconView *iconView;
 }
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioQueueCommandHandler
 {
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *playbackConductor;
-    MISSING_TYPE *ephemeralQueue;
-    MISSING_TYPE *headlineConverter;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *offlineArticleManager;
-    MISSING_TYPE *offlineAlertControllerFactory;
-    MISSING_TYPE *audioPlaybackTracker;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *audioPlaylist;
+    id dataManager;
+    id playbackConductor;
+    id ephemeralQueue;
+    id headlineConverter;
+    id offlineManager;
+    id offlineArticleManager;
+    id offlineAlertControllerFactory;
+    id audioPlaybackTracker;
+    id bundleSubscriptionManager;
+    id sceneProvider;
+    id readingHistory;
+    id audioPlaylist;
 }
 
 @end

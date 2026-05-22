@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IDScanInteractor
 {
-    MISSING_TYPE *documentsRepository;
-    MISSING_TYPE *imageQualityManager;
-    MISSING_TYPE *proofingFlowManager;
+    id documentsRepository;
+    id imageQualityManager;
+    id proofingFlowManager;
 }
 
 @end

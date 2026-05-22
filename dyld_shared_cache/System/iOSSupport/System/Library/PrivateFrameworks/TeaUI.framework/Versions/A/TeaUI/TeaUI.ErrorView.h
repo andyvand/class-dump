@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface TeaUI.ErrorView
 {
-    MISSING_TYPE *errorPosition;
-    MISSING_TYPE *model;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *label;
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *visualEffectView;
-    MISSING_TYPE *keyboardObserver;
+    id errorPosition;
+    id model;
+    id styler;
+    id label;
+    id scrollView;
+    id visualEffectView;
+    id keyboardObserver;
 }
 
 - (void);

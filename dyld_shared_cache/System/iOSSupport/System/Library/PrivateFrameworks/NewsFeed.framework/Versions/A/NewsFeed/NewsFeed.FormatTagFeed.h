@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatTagFeed
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *fetchWindow;
-    MISSING_TYPE *fetchCount;
-    MISSING_TYPE *_fetchRequirements;
-    MISSING_TYPE *_fetchFilterOptions;
+    id identifier;
+    id fetchWindow;
+    id fetchCount;
+    id _fetchRequirements;
+    id _fetchFilterOptions;
 }
 
 @end

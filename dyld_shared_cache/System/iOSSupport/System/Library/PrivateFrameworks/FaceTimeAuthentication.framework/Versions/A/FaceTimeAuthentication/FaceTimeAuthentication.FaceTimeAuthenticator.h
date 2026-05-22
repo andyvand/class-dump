@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeAuthentication.FaceTimeAuthenticator
 {
-    MISSING_TYPE *status;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *authenticationUIController;
-    MISSING_TYPE *daemonConnectionController;
-    MISSING_TYPE *onUserSignOut;
-    MISSING_TYPE *onAuthenticationUpdate;
-    MISSING_TYPE *delayedStatusUpdate;
+    id status;
+    id logger;
+    id authenticationUIController;
+    id daemonConnectionController;
+    id onUserSignOut;
+    id onAuthenticationUpdate;
+    id delayedStatusUpdate;
 }
 
 @end

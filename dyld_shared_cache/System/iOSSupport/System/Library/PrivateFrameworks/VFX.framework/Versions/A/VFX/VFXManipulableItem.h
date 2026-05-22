@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, VFXNode;
+@class VFXNode;
 
 @interface VFXManipulableItem
 {
@@ -12,18 +12,18 @@
     VFXNode *node;
     id component;
     unsigned long long elementIndex;
-    CDStruct_14d5dc5e _draggedTransform;
+    CDStruct_95fa7c00 _draggedTransform;
 }
 
 + (void);
 + (void);
 - (void);
 - (void);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (void);
 - (id);
-- (MISSING_TYPE *);
-- (CDStruct_14d5dc5e);
+- (id);
+- (CDStruct_95fa7c00);
 - (void);
 - (void);
 - (void);
@@ -32,10 +32,10 @@
 - (void);
 - (id);
 - (void);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (id);
 - (unsigned long long);
-- (MISSING_TYPE *);
+- (id);
 - (_Bool);
 - (float);
 - (void);
@@ -43,9 +43,9 @@
 
 // Remaining properties
 @property(retain, nonatomic) id component; // @synthesize component;
-@property(nonatomic) CDStruct_14d5dc5e draggedTransform; // @synthesize draggedTransform=_draggedTransform;
+@property(nonatomic) CDStruct_95fa7c00 draggedTransform; // @synthesize draggedTransform=_draggedTransform;
 @property(nonatomic) unsigned long long elementIndex; // @synthesize elementIndex;
-@property(readonly, nonatomic) MISSING_TYPE *elementPosition;
+@property(readonly, nonatomic) id elementPosition;
 @property(retain, nonatomic) VFXNode *node; // @synthesize node;
 
 @end

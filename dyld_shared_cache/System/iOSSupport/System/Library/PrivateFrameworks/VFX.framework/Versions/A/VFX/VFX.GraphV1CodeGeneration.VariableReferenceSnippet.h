@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.GraphV1CodeGeneration.CustomCodeSnippet.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphV1CodeGeneration.VariableReferenceSnippet : VFX.GraphV1CodeGeneration.CustomCodeSnippet
 {
-    MISSING_TYPE *type;
+    id type;
 }
 
 @end

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyUI.EKAppConfigurationModel
 {
-    MISSING_TYPE *_isOptimizingForCleanliness;
-    MISSING_TYPE *_isOptimizingForCost;
-    MISSING_TYPE *_hasHomeUtilitySubscription;
-    MISSING_TYPE *homeID;
-    MISSING_TYPE *appBundleID;
-    MISSING_TYPE *isHomeOwner;
-    MISSING_TYPE *_$observationRegistrar;
+    id _isOptimizingForCleanliness;
+    id _isOptimizingForCost;
+    id _hasHomeUtilitySubscription;
+    id homeID;
+    id appBundleID;
+    id isHomeOwner;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, PTHumanDetections, PTMSRResize, PTMetalContext, PTPersonSemanticsNetwork;
+@class PTHumanDetections, PTMSRResize, PTMetalContext, PTPersonSemanticsNetwork;
 @protocol MTLBuffer, MTLComputePipelineState, MTLTexture;
 
 @interface PTEffectFaceLuxEstimation
@@ -32,7 +32,7 @@
 - (float);
 - (float);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 
 @end

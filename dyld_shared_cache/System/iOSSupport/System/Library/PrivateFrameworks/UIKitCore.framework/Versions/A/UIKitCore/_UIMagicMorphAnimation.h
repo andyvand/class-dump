@@ -4,28 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView, _TtC5UIKit28_UIDebouncingAnimatableFloat;
+@class UIKit._UIDebouncingAnimatableFloat, UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIMagicMorphAnimation
 {
-    MISSING_TYPE *animationItems;
-    MISSING_TYPE *currentItem;
-    MISSING_TYPE *currentReparentingItem;
-    MISSING_TYPE *groupCompletion;
-    MISSING_TYPE *$__lazy_storage_$_geometryTrackingDisplayLink;
-    MISSING_TYPE *morphView;
-    MISSING_TYPE *animationContainerView;
-    MISSING_TYPE *intermediateStepHidingAssertion;
-    MISSING_TYPE *animationSettings;
-    MISSING_TYPE *intermediateStepDelayTimer;
-    MISSING_TYPE *genieAnimator;
+    id animationItems;
+    id currentItem;
+    id currentReparentingItem;
+    id groupCompletion;
+    id $__lazy_storage_$_geometryTrackingDisplayLink;
+    id morphView;
+    id animationContainerView;
+    id intermediateStepHidingAssertion;
+    id animationSettings;
+    id intermediateStepDelayTimer;
+    id genieAnimator;
     void clientContainerView;
     _Bool cleansUpAutomatically;
     _Bool reparentsDuringMorph;
     _Bool didSetUpKickTransformer;
-    MISSING_TYPE *$__lazy_storage_$_kickAmountProperty;
-    MISSING_TYPE *$__lazy_storage_$_kickScaleProperty;
+    id $__lazy_storage_$_kickAmountProperty;
+    id $__lazy_storage_$_kickScaleProperty;
 }
 
 - (void);
@@ -60,8 +60,8 @@ __attribute__((visibility("hidden")))
 @property(nonatomic) __weak UIView *clientContainerView; // @synthesize clientContainerView;
 @property(nonatomic) _Bool didSetUpKickTransformer; // @synthesize didSetUpKickTransformer;
 @property(nonatomic, readonly) _Bool hasAnimationItems;
-@property(nonatomic, retain) _TtC5UIKit28_UIDebouncingAnimatableFloat *kickAmountProperty;
-@property(nonatomic, retain) _TtC5UIKit28_UIDebouncingAnimatableFloat *kickScaleProperty;
+@property(nonatomic, retain) UIKit._UIDebouncingAnimatableFloat *kickAmountProperty;
+@property(nonatomic, retain) UIKit._UIDebouncingAnimatableFloat *kickScaleProperty;
 @property(nonatomic, readonly) UIView *morphContainer;
 @property(nonatomic) _Bool reparentsDuringMorph; // @synthesize reparentsDuringMorph;
 

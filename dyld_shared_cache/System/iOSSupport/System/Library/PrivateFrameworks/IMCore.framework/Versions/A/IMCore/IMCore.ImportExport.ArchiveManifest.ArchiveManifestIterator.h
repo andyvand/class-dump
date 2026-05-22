@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ArchiveManifest.ArchiveManifestIterator
 {
-    MISSING_TYPE *currentIndex;
-    MISSING_TYPE *archiveManifest;
+    id currentIndex;
+    id archiveManifest;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.GroceryExportState
 {
-    MISSING_TYPE *_isExported;
-    MISSING_TYPE *_remindersListDetails;
-    MISSING_TYPE *_presentingViewController;
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_$observationRegistrar;
+    id _isExported;
+    id _remindersListDetails;
+    id _presentingViewController;
+    id _recipeID;
+    id _$observationRegistrar;
 }
 
 @end

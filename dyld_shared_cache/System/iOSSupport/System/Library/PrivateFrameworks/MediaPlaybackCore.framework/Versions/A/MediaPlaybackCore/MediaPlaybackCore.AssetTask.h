@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.AssetTask
 {
-    MISSING_TYPE *contentItemID;
-    MISSING_TYPE *queueItem;
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *completion;
-    MISSING_TYPE *state;
-    MISSING_TYPE *task;
+    id contentItemID;
+    id queueItem;
+    id dataSource;
+    id reporter;
+    id completion;
+    id state;
+    id task;
 }
 
 - (_Bool)ager",N,R;

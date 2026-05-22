@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.SavedRecipesSource
 {
-    MISSING_TYPE *service;
-    MISSING_TYPE *state;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *task;
+    id service;
+    id state;
+    id _$scope;
+    id task;
 }
 
 @end

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.UITextEffectView.PonderingEffect
 {
-    MISSING_TYPE *chunk;
-    MISSING_TYPE *view;
-    MISSING_TYPE *id;
-    MISSING_TYPE *lightConfiguration;
-    MISSING_TYPE *animateFromColor;
-    MISSING_TYPE *onAnimateToBaseColorCompletion;
-    MISSING_TYPE *effectViewHandle;
-    MISSING_TYPE *trackedTargetedPreview;
+    id chunk;
+    id view;
+    id id;
+    id lightConfiguration;
+    id animateFromColor;
+    id onAnimateToBaseColorCompletion;
+    id effectViewHandle;
+    id trackedTargetedPreview;
 }
 
 @end

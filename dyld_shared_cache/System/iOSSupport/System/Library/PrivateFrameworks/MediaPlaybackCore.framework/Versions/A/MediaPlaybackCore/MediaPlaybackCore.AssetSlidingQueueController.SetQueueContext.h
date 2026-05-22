@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.AssetSlidingQueueController.SetQueueContext
 {
-    MISSING_TYPE *initialItem;
-    MISSING_TYPE *shouldPlay;
-    MISSING_TYPE *wasInterrupted;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *completion;
-    MISSING_TYPE *assetErrors;
-    MISSING_TYPE *sentToPlayer;
+    id initialItem;
+    id shouldPlay;
+    id wasInterrupted;
+    id identifier;
+    id completion;
+    id assetErrors;
+    id sentToPlayer;
 }
 
 @end

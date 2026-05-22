@@ -6,19 +6,17 @@
 
 #import <swiftCore/Swift.__SwiftNativeNSDictionary.h>
 
-@class MISSING_TYPE;
-
 @interface Swift.__RawDictionaryStorage : Swift.__SwiftNativeNSDictionary
 {
-    MISSING_TYPE *_count;
-    MISSING_TYPE *_capacity;
-    MISSING_TYPE *_scale;
-    MISSING_TYPE *_reservedScale;
-    MISSING_TYPE *_extra;
-    MISSING_TYPE *_age;
-    MISSING_TYPE *_seed;
-    MISSING_TYPE *_rawKeys;
-    MISSING_TYPE *_rawValues;
+    id _count;
+    id _capacity;
+    id _scale;
+    id _reservedScale;
+    id _extra;
+    id _age;
+    id _seed;
+    id _rawKeys;
+    id _rawValues;
 }
 
 - (id);

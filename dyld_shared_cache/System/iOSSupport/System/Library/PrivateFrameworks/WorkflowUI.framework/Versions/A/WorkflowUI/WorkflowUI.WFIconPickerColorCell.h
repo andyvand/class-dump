@@ -6,15 +6,13 @@
 
 #import <WorkflowUI/WorkflowUI.WFGridViewCell.h>
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFIconPickerColorCell : WorkflowUI.WFGridViewCell
 {
-    MISSING_TYPE *colorViewDimension;
-    MISSING_TYPE *gradientLayer;
-    MISSING_TYPE *baseColorView;
-    MISSING_TYPE *borderLayer;
-    MISSING_TYPE *gestureRecognizer;
+    id colorViewDimension;
+    id gradientLayer;
+    id baseColorView;
+    id borderLayer;
+    id gestureRecognizer;
 }
 
 - (void);

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface GridZero.PhotosViewPreviewHeaderVisibilityController
 {
-    MISSING_TYPE *_isPreviewHeaderVisible;
-    MISSING_TYPE *collectionKind;
-    MISSING_TYPE *userDefaults;
-    MISSING_TYPE *userDefaultsObservation;
-    MISSING_TYPE *observations;
-    MISSING_TYPE *_$observationRegistrar;
+    id _isPreviewHeaderVisible;
+    id collectionKind;
+    id userDefaults;
+    id userDefaultsObservation;
+    id observations;
+    id _$observationRegistrar;
 }
 
 @end

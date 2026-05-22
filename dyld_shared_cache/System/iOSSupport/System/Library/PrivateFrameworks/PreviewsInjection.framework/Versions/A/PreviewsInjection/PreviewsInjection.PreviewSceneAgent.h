@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.PreviewSceneAgent
 {
-    MISSING_TYPE *sceneServices;
-    MISSING_TYPE *sceneBehavior;
-    MISSING_TYPE *sceneMessenger;
-    MISSING_TYPE *services;
-    MISSING_TYPE *currentUpdateResult;
+    id sceneServices;
+    id sceneBehavior;
+    id sceneMessenger;
+    id services;
+    id currentUpdateResult;
 }
 
 @end

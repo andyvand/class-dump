@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedAsyncFeedFactory
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *feedAvailabilityService;
+    id appConfigurationManager;
+    id feedAvailabilityService;
 }
 
 @end

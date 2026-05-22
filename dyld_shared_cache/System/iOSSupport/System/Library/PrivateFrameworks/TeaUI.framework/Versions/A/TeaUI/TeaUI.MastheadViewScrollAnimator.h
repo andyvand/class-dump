@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.MastheadViewScrollAnimator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *isPinned;
-    MISSING_TYPE *isPluginPinningEnabled;
+    id delegate;
+    id isPinned;
+    id isPluginPinningEnabled;
 }
 
 @end

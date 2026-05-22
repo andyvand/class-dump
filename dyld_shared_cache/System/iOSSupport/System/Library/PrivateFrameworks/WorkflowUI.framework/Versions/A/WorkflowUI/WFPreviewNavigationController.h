@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WFPreviewNavigationController
 {
-    MISSING_TYPE *previewPadding;
-    MISSING_TYPE *grabberWithTopPaddingHeight;
-    MISSING_TYPE *iconTitleSpacing;
-    MISSING_TYPE *$__lazy_storage_$_previewScale;
-    MISSING_TYPE *iconPreview;
-    MISSING_TYPE *rootViewController;
-    MISSING_TYPE *additionContainedScrollViewTopInset;
-    MISSING_TYPE *navigationBarHeight;
-    MISSING_TYPE *navigationBarBackgroundView;
-    MISSING_TYPE *navigationButtons;
-    MISSING_TYPE *visualEffectView;
-    MISSING_TYPE *isInSheetView;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *grabberView;
+    id previewPadding;
+    id grabberWithTopPaddingHeight;
+    id iconTitleSpacing;
+    id $__lazy_storage_$_previewScale;
+    id iconPreview;
+    id rootViewController;
+    id additionContainedScrollViewTopInset;
+    id navigationBarHeight;
+    id navigationBarBackgroundView;
+    id navigationButtons;
+    id visualEffectView;
+    id isInSheetView;
+    id titleLabel;
+    id grabberView;
 }
 
 - (id);

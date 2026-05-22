@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.LikeDislikeArticleViewerFeatureProvider
 {
-    MISSING_TYPE *visibilityProvider;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *tipSourceManager;
+    id visibilityProvider;
+    id commandCenter;
+    id tracker;
+    id tipSourceManager;
 }
 
 @end

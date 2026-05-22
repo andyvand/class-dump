@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.KeyCommandManager
 {
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *traverser;
-    MISSING_TYPE *registries;
-    MISSING_TYPE *controller;
-    MISSING_TYPE *selector;
+    id isEnabled;
+    id traverser;
+    id registries;
+    id controller;
+    id selector;
 }
 
 @end

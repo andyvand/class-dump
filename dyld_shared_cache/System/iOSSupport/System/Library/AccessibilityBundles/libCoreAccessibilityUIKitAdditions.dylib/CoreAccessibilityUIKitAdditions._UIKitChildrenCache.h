@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreAccessibilityUIKitAdditions._UIKitChildrenCache
 {
-    MISSING_TYPE *cache;
-    MISSING_TYPE *enabled;
+    id cache;
+    id enabled;
 }
 
 @end

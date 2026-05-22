@@ -6,12 +6,10 @@
 
 #import <UIKitCore/UIVisualEffect.h>
 
-@class MISSING_TYPE;
-
 @interface _UIIntelligenceContentLightEffect : UIVisualEffect
 {
-    MISSING_TYPE *lightSource;
-    MISSING_TYPE *material;
+    id lightSource;
+    id material;
     unsigned long long activationTransitionDirection;
     unsigned long long deactivationTransitionDirection;
 }

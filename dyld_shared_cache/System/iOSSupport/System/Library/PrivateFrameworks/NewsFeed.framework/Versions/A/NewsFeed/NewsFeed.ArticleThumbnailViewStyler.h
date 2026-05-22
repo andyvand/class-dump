@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.ArticleThumbnailViewStyler
 {
-    MISSING_TYPE *issueCoverColorPalette;
-    MISSING_TYPE *colorPaletteProvider;
+    id issueCoverColorPalette;
+    id colorPaletteProvider;
 }
 
 @end

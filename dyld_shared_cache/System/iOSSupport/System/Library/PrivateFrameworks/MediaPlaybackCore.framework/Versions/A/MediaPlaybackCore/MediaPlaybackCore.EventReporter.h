@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.EventReporter
 {
-    MISSING_TYPE *stream;
-    MISSING_TYPE *activeSubsystems;
-    MISSING_TYPE *mode;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *identifier;
+    id stream;
+    id activeSubsystems;
+    id mode;
+    id queue;
+    id identifier;
 }
 
 @end

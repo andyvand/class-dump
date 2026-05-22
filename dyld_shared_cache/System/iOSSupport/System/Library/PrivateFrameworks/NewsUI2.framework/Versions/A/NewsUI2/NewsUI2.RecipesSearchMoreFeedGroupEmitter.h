@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipesSearchMoreFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *formatService;
+    id config;
+    id formatService;
 }
 
 @end

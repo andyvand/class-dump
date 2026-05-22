@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.ShortcutsEmptyStateContent
 {
-    MISSING_TYPE *_title;
-    MISSING_TYPE *_subtitle;
-    MISSING_TYPE *_symbolName;
-    MISSING_TYPE *_actionName;
-    MISSING_TYPE *_actionURL;
-    MISSING_TYPE *_actionHandler;
-    MISSING_TYPE *_$observationRegistrar;
+    id _title;
+    id _subtitle;
+    id _symbolName;
+    id _actionName;
+    id _actionURL;
+    id _actionHandler;
+    id _$observationRegistrar;
 }
 
 @end

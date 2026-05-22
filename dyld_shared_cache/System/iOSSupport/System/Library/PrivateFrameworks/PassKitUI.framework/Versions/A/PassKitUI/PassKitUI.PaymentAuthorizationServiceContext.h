@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.PaymentAuthorizationServiceContext
 {
-    MISSING_TYPE *presenter;
-    MISSING_TYPE *hostDelegate;
-    MISSING_TYPE *needsAuthorizationDidFinishCallback;
+    id presenter;
+    id hostDelegate;
+    id needsAuthorizationDidFinishCallback;
 }
 
 @end

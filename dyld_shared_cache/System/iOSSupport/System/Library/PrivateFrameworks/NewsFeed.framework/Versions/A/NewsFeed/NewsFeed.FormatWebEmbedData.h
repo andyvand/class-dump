@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatWebEmbedData
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *feedItem;
-    MISSING_TYPE *url;
-    MISSING_TYPE *indexFileURLPromise;
-    MISSING_TYPE *dataURLPromise;
-    MISSING_TYPE *dataVisualization;
-    MISSING_TYPE *config;
-    MISSING_TYPE *routeOptions;
+    id identifier;
+    id feedItem;
+    id url;
+    id indexFileURLPromise;
+    id dataURLPromise;
+    id dataVisualization;
+    id config;
+    id routeOptions;
 }
 
 @end

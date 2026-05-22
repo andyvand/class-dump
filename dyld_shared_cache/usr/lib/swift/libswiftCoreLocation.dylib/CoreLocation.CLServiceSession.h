@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreLocation.CLServiceSession
 {
-    MISSING_TYPE *serviceSession;
-    MISSING_TYPE *currentDiagnostics;
-    MISSING_TYPE *_sessionType;
-    MISSING_TYPE *_sessionMode;
-    MISSING_TYPE *_connectionSequence;
+    id serviceSession;
+    id currentDiagnostics;
+    id _sessionType;
+    id _sessionMode;
+    id _connectionSequence;
 }
 
 @end

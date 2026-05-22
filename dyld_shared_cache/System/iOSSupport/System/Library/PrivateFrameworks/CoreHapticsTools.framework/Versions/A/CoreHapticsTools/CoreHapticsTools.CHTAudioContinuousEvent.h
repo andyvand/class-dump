@@ -6,19 +6,17 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTEvent.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTAudioContinuousEvent : CoreHapticsTools.CHTEvent
 {
-    MISSING_TYPE *_duration;
-    MISSING_TYPE *_volume;
-    MISSING_TYPE *_pitch;
-    MISSING_TYPE *_brightness;
-    MISSING_TYPE *_pan;
-    MISSING_TYPE *_attackTime;
-    MISSING_TYPE *_decayTime;
-    MISSING_TYPE *_sustained;
-    MISSING_TYPE *_releaseTime;
+    id _duration;
+    id _volume;
+    id _pitch;
+    id _brightness;
+    id _pan;
+    id _attackTime;
+    id _decayTime;
+    id _sustained;
+    id _releaseTime;
 }
 
 - (CDStruct_5fe7aead);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatOptionElement
 {
-    MISSING_TYPE *mergeOption;
-    MISSING_TYPE *selector;
-    MISSING_TYPE *isEmptySelector;
-    MISSING_TYPE *existsSelector;
+    id mergeOption;
+    id selector;
+    id isEmptySelector;
+    id existsSelector;
 }
 
 @end

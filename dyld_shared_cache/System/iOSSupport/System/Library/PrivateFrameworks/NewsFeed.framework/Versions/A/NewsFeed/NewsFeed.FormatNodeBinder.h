@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatNodeBinder
 {
-    MISSING_TYPE *debugger;
-    MISSING_TYPE *nodeBindings;
-    MISSING_TYPE *bindingContext;
-    MISSING_TYPE *auxiliaryBinders;
-    MISSING_TYPE *slots;
-    MISSING_TYPE *wildcardSlotFallback;
-    MISSING_TYPE *sortBy;
+    id debugger;
+    id nodeBindings;
+    id bindingContext;
+    id auxiliaryBinders;
+    id slots;
+    id wildcardSlotFallback;
+    id sortBy;
 }
 
 @end

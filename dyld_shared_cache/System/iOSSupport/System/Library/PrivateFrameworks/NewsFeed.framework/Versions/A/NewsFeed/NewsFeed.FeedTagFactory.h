@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedTagFactory
 {
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *tagController;
-    MISSING_TYPE *puzzleTypeController;
+    id subscriptionController;
+    id tagController;
+    id puzzleTypeController;
 }
 
 @end

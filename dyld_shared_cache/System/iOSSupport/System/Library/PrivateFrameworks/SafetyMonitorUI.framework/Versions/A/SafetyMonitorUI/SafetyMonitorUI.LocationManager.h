@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.LocationManager
 {
-    MISSING_TYPE *geocoder;
+    id geocoder;
 }
 
 @end

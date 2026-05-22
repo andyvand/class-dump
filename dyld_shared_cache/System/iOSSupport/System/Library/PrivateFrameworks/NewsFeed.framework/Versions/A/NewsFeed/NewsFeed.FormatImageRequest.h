@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatImageRequest
 {
-    MISSING_TYPE *size;
-    MISSING_TYPE *scale;
-    MISSING_TYPE *style;
-    MISSING_TYPE *inventory;
-    MISSING_TYPE *focalFrame;
-    MISSING_TYPE *renderingMode;
-    MISSING_TYPE *traitCollection;
-    MISSING_TYPE *assetHandles;
-    MISSING_TYPE *assetHandle;
-    MISSING_TYPE *cacheIdentifier;
-    MISSING_TYPE *requestData;
+    id size;
+    id scale;
+    id style;
+    id inventory;
+    id focalFrame;
+    id renderingMode;
+    id traitCollection;
+    id assetHandles;
+    id assetHandle;
+    id cacheIdentifier;
+    id requestData;
 }
 
 @end

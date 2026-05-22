@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsUI2.PersonalizationScriptTestCase
 {
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *aggregateStoreProvider;
-    MISSING_TYPE *$__lazy_storage_$_dataStore;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
+    id tagService;
+    id aggregateStoreProvider;
+    id $__lazy_storage_$_dataStore;
+    id commandCenter;
+    id tracker;
     void testName;
     double timeoutInSeconds;
     unsigned long long aggregate;

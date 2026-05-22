@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, MTLFunctionConstantValues, PTBoxFilter, PTBrightSceneDetector, PTMSRResize, PTMetalContext, PTSingleColorCubeCorrectionStage, PTStudioLightColorCorrectionAndConversion, PTSyntheticLight, PTUtil;
+@class MTLFunctionConstantValues, PTBoxFilter, PTBrightSceneDetector, PTMSRResize, PTMetalContext, PTSingleColorCubeCorrectionStage, PTStudioLightColorCorrectionAndConversion, PTSyntheticLight, PTUtil;
 @protocol MTLComputePipelineState, MTLTexture;
 
 @interface PTEffectRelighting
@@ -22,10 +22,10 @@
     struct RelightingParam _parameters;
     struct SmoothFaceRectData _smoothFaceRects;
     int _frameIndex;
-    MISSING_TYPE *_weightHeadEye;
+    id _weightHeadEye;
     float _eyeRadiusFactor;
     id <MTLTexture> _lightMasks;
-    MISSING_TYPE *_bgVignetteLightIntensity;
+    id _bgVignetteLightIntensity;
     float _lightGainMapScale;
     id <MTLTexture> _lightGainMapLowRes;
     id <MTLTexture> _lightGainMapLowResFiltered;

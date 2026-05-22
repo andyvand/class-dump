@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SavedService
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *headlineStreamingResults;
-    MISSING_TYPE *articleController;
-    MISSING_TYPE *headlineModelFactory;
-    MISSING_TYPE *headlineService;
+    id observers;
+    id readingList;
+    id headlineStreamingResults;
+    id articleController;
+    id headlineModelFactory;
+    id headlineService;
 }
 
 - (void);

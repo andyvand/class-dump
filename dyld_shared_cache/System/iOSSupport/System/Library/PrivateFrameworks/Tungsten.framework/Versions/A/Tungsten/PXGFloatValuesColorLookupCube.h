@@ -6,7 +6,7 @@
 
 #import <Tungsten/PXGColorLookupCube.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface PXGFloatValuesColorLookupCube : PXGColorLookupCube
 {
@@ -29,7 +29,7 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (MISSING_TYPE *);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);

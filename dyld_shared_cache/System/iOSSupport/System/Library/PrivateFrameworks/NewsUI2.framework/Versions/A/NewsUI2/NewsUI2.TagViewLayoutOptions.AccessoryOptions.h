@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagViewLayoutOptions.AccessoryOptions
 {
-    MISSING_TYPE *items;
-    MISSING_TYPE *shouldLayoutForLargeText;
-    MISSING_TYPE *compactItemSize;
-    MISSING_TYPE *axCompactItemSize;
-    MISSING_TYPE *largeItemSize;
+    id items;
+    id shouldLayoutForLargeText;
+    id compactItemSize;
+    id axCompactItemSize;
+    id largeItemSize;
 }
 
 @end

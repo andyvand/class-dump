@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, SXTagSubscriptionStatus;
+@class SXTagSubscriptionStatus;
 
 @interface NewsArticles.TagSubscriptionStatusProvider
 {
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *headline;
-    MISSING_TYPE *observers;
+    id subscriptionController;
+    id headline;
+    id observers;
     SXTagSubscriptionStatus *tagSubscriptionStatus;
 }
 

@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.Scheduler
 {
-    MISSING_TYPE *enableRecording;
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *currentJobID;
-    MISSING_TYPE *currentJobName;
-    MISSING_TYPE *recurrentJobs;
-    MISSING_TYPE *orderedRecurrentJobs;
-    MISSING_TYPE *jobQueueForThisFrame;
-    MISSING_TYPE *pendingJobsToEnqueueForThisFrame;
-    MISSING_TYPE *pendingJobsToEnqueueForThisFrameOnly;
-    MISSING_TYPE *groupsToUnregister;
-    MISSING_TYPE *liveQueryCountByJobID;
-    MISSING_TYPE *needsRescheduling;
-    MISSING_TYPE *needsReschedulingForThisFrame;
-    MISSING_TYPE *dependenciesByJob;
-    MISSING_TYPE *schedulerEventsRecordedDuringLastFrame;
-    MISSING_TYPE *queriesRecordedDuringLastFrame;
-    MISSING_TYPE *schedulerEventsRecordedDuringThisFrame;
-    MISSING_TYPE *queriesRecordedDuringThisFrame;
-    MISSING_TYPE *simulationTimeScale;
+    id enableRecording;
+    id entityManager;
+    id lock;
+    id currentJobID;
+    id currentJobName;
+    id recurrentJobs;
+    id orderedRecurrentJobs;
+    id jobQueueForThisFrame;
+    id pendingJobsToEnqueueForThisFrame;
+    id pendingJobsToEnqueueForThisFrameOnly;
+    id groupsToUnregister;
+    id liveQueryCountByJobID;
+    id needsRescheduling;
+    id needsReschedulingForThisFrame;
+    id dependenciesByJob;
+    id schedulerEventsRecordedDuringLastFrame;
+    id queriesRecordedDuringLastFrame;
+    id schedulerEventsRecordedDuringThisFrame;
+    id queriesRecordedDuringThisFrame;
+    id simulationTimeScale;
 }
 
 @end

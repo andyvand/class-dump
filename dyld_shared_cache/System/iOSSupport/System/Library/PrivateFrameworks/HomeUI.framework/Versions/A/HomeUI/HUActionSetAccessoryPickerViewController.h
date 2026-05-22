@@ -6,13 +6,13 @@
 
 #import <HomeUI/HUItemCollectionViewController.h>
 
-@class HFActionSetBuilder, MISSING_TYPE;
+@class HFActionSetBuilder;
 
 @interface HUActionSetAccessoryPickerViewController : HUItemCollectionViewController
 {
-    MISSING_TYPE *accessoryElementModule;
-    MISSING_TYPE *selectionController;
-    MISSING_TYPE *delegate;
+    id accessoryElementModule;
+    id selectionController;
+    id delegate;
     HFActionSetBuilder *actionSetBuilder;
 }
 

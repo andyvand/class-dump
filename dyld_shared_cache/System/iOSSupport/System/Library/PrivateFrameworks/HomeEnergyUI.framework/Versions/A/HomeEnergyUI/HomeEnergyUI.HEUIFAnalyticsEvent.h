@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyUI.HEUIFAnalyticsEvent
 {
-    MISSING_TYPE *type;
-    MISSING_TYPE *data;
+    id type;
+    id data;
 }
 
 @end

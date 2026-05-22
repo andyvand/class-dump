@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingFedStatsOptinViewController
 {
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *consentResult;
-    MISSING_TYPE *uiConfigFactory;
-    MISSING_TYPE *viewModels;
-    MISSING_TYPE *uiConfig;
-    MISSING_TYPE *learnMoreURL;
-    MISSING_TYPE *primaryStackView;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *subtitleLabel;
-    MISSING_TYPE *confirmButton;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *learnMoreButton;
+    id proofingFlowManager;
+    id consentResult;
+    id uiConfigFactory;
+    id viewModels;
+    id uiConfig;
+    id learnMoreURL;
+    id primaryStackView;
+    id titleLabel;
+    id subtitleLabel;
+    id confirmButton;
+    id tableView;
+    id learnMoreButton;
 }
 
 - (void);

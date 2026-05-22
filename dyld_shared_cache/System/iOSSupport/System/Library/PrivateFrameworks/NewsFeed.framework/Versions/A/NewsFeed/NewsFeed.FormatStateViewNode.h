@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatStateViewNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *_size;
-    MISSING_TYPE *resize;
-    MISSING_TYPE *_adjustments;
-    MISSING_TYPE *stateMachineName;
-    MISSING_TYPE *states;
-    MISSING_TYPE *_zIndex;
-    MISSING_TYPE *_visibility;
-    MISSING_TYPE *_isUserInteractionEnabled;
-    MISSING_TYPE *animation;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *flex;
+    id _identifier;
+    id _size;
+    id resize;
+    id _adjustments;
+    id stateMachineName;
+    id states;
+    id _zIndex;
+    id _visibility;
+    id _isUserInteractionEnabled;
+    id animation;
+    id _selectors;
+    id flex;
 }
 
 @end

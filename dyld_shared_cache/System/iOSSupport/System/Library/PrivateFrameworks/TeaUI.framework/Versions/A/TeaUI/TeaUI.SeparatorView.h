@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIColor;
+@class UIColor;
 
 @interface TeaUI.SeparatorView
 {
-    MISSING_TYPE *layoutStyle;
-    MISSING_TYPE *visibilityStyle;
-    MISSING_TYPE *isHighlighted;
-    MISSING_TYPE *isSelected;
-    MISSING_TYPE *hidesOnSelection;
-    MISSING_TYPE *_backgroundColor;
-    MISSING_TYPE *thickness;
+    id layoutStyle;
+    id visibilityStyle;
+    id isHighlighted;
+    id isSelected;
+    id hidesOnSelection;
+    id _backgroundColor;
+    id thickness;
 }
 
 - (id);

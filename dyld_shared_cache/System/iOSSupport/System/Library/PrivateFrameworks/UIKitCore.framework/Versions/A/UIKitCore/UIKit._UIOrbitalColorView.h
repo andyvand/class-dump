@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIOrbitalColorView : UIView
 {
-    MISSING_TYPE *palette;
+    id palette;
 }
 
 + (Class);

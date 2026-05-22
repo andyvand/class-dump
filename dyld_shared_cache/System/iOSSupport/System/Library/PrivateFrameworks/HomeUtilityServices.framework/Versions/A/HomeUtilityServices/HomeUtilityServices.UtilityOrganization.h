@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUtilityServices.UtilityOrganization
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *website;
-    MISSING_TYPE *artwork;
-    MISSING_TYPE *support;
+    id name;
+    id website;
+    id artwork;
+    id support;
 }
 
 - (id);

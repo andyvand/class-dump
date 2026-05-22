@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.FindingUIProvider
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *subscriptionsStorage;
-    MISSING_TYPE *dataStorage;
-    MISSING_TYPE *taskQueue;
-    MISSING_TYPE *dependencies;
-    MISSING_TYPE *findingStateUpdatesObservationTask;
+    id $defaultActor;
+    id subscriptionsStorage;
+    id dataStorage;
+    id taskQueue;
+    id dependencies;
+    id findingStateUpdatesObservationTask;
 }
 
 @end

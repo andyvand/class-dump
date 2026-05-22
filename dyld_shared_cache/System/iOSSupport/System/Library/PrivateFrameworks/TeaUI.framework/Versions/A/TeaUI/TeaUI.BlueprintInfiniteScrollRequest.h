@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintInfiniteScrollRequest
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *isCompleted;
-    MISSING_TYPE *onCompleteBlock;
+    id identifier;
+    id isCompleted;
+    id onCompleteBlock;
 }
 
 @end

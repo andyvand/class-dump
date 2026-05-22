@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, PXGColorProgram, PXGShader;
+@class PXGColorProgram, PXGShader;
 
 #pragma mark Blocks
 
@@ -185,17 +185,17 @@ struct unordered_map<int, unsigned int, std::hash<int>, std::equal_to<int>, std:
 #if 0
 // Names with conflicting types:
 typedef struct {
-    CDStruct_14d5dc5e viewMatrix;
-    CDStruct_14d5dc5e projectionMatrix;
-    CDStruct_14d5dc5e billboardMatrix;
-    MISSING_TYPE *renderOrigin;
-} PXGCameraConfiguration_f6f8b209;
+    CDStruct_95fa7c00 viewMatrix;
+    CDStruct_95fa7c00 projectionMatrix;
+    CDStruct_95fa7c00 billboardMatrix;
+    id renderOrigin;
+} PXGCameraConfiguration_dfedfa9e;
 
 typedef struct {
-    CDStruct_14d5dc5e _field1;
-    CDStruct_14d5dc5e _field2;
-    CDStruct_14d5dc5e _field3;
-} PXGCameraConfiguration_474424ad;
+    CDStruct_95fa7c00 _field1;
+    CDStruct_95fa7c00 _field2;
+    CDStruct_95fa7c00 _field3;
+} PXGCameraConfiguration_60775728;
 
 #endif
 
@@ -267,8 +267,8 @@ typedef struct {
 } CDStruct_a7186859;
 
 typedef struct {
-    MISSING_TYPE *columns[4];
-} CDStruct_14d5dc5e;
+    id columns[4];
+} CDStruct_95fa7c00;
 
 typedef struct {
     double _field1[6];
@@ -407,17 +407,17 @@ typedef struct {
 } CDStruct_caaed6bc;
 
 typedef struct {
-    CDStruct_14d5dc5e viewMatrix;
-    CDStruct_14d5dc5e projectionMatrix;
-    CDStruct_14d5dc5e viewProjectionMatrix;
-    CDStruct_14d5dc5e billboardMatrix;
+    CDStruct_95fa7c00 viewMatrix;
+    CDStruct_95fa7c00 projectionMatrix;
+    CDStruct_95fa7c00 viewProjectionMatrix;
+    CDStruct_95fa7c00 billboardMatrix;
     float renderOrigin__screenScale;
-} CDStruct_b1513b2e;
+} CDStruct_f75fd28f;
 
 typedef struct {
     CDStruct_31142d93 center;
-    MISSING_TYPE *size;
-} CDStruct_d1b913ca;
+    id size;
+} CDStruct_fe19fe8c;
 
 typedef struct {
     CDStruct_31142d93 _field1;
@@ -530,12 +530,12 @@ typedef struct {
     unsigned short resizableCapInsetsIndex;
     unsigned char contentsGravity;
     float anchorPoint__translationZ;
-    CDStruct_14d5dc5e focusTransform;
-} CDStruct_44913231;
+    CDStruct_95fa7c00 focusTransform;
+} CDStruct_8243137c;
 
 typedef struct {
     CDStruct_16a2be32 _field1;
-    CDStruct_44913231 _field2;
+    CDStruct_8243137c _field2;
     CDStruct_2c073aed _field3;
-} CDStruct_ad4d6326;
+} CDStruct_b9f62067;
 

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EmailSignupAutomaticPresentor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *appleAccount;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *_cachedModel;
-    MISSING_TYPE *emailSignupModelFactory;
-    MISSING_TYPE *fineGrainedNewslettersHandler;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *appLaunchMethodChecker;
+    id delegate;
+    id appConfigurationManager;
+    id appleAccount;
+    id userInfo;
+    id newsletterManager;
+    id bundleSubscriptionManager;
+    id sportsOnboardingManager;
+    id _cachedModel;
+    id emailSignupModelFactory;
+    id fineGrainedNewslettersHandler;
+    id featureAvailability;
+    id appLaunchMethodChecker;
 }
 
 - (void);

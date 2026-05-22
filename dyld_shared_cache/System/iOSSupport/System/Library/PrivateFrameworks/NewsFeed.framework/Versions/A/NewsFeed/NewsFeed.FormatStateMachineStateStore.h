@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatStateMachineStateStore
 {
-    MISSING_TYPE *states;
-    MISSING_TYPE *lock;
+    id states;
+    id lock;
 }
 
 @end

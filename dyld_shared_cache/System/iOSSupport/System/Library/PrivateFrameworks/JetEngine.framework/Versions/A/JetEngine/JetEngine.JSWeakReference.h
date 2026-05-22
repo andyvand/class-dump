@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.JSWeakReference
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *weakValue;
+    id context;
+    id weakValue;
 }
 
 @end

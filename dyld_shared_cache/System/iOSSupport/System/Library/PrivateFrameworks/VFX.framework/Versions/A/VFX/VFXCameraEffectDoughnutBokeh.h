@@ -6,12 +6,10 @@
 
 #import <VFX/VFXCameraEffect.h>
 
-@class MISSING_TYPE;
-
 @interface VFXCameraEffectDoughnutBokeh : VFXCameraEffect
 {
     float _radius;
-    MISSING_TYPE *_maskCenter;
+    id _maskCenter;
     float _maskRadius;
     _Bool _maskEnabled;
 }
@@ -23,7 +21,7 @@
 - (_Bool);
 - (float);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (struct __CFXCameraEffectDoughnutBokeh *);
 - (void);
 - (void);
@@ -38,7 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *maskCenter;
+@property(nonatomic) id maskCenter;
 @property(nonatomic) _Bool maskEnabled;
 @property(nonatomic) float maskRadius;
 @property(nonatomic) float radius;

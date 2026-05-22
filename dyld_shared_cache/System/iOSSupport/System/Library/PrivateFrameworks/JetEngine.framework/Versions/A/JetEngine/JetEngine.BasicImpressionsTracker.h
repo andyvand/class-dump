@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.BasicImpressionsTracker
 {
-    MISSING_TYPE *journalsByElementID;
-    MISSING_TYPE *impressionTimeThreshold;
-    MISSING_TYPE *queueName;
-    MISSING_TYPE *onDataSerialized;
+    id journalsByElementID;
+    id impressionTimeThreshold;
+    id queueName;
+    id onDataSerialized;
 }
 
 @end

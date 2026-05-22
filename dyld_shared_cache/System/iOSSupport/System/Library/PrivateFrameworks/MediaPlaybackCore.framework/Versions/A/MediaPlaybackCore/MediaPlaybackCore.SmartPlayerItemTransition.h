@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.SmartPlayerItemTransition
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *condensedIdentifier;
-    MISSING_TYPE *startQueueItem;
-    MISSING_TYPE *startItem;
-    MISSING_TYPE *endQueueItem;
-    MISSING_TYPE *endItem;
-    MISSING_TYPE *isStartItemSpatialized;
-    MISSING_TYPE *isEndItemSpatialized;
-    MISSING_TYPE *expectedDurationAtStart;
-    MISSING_TYPE *previousTransitionOffsetData;
-    MISSING_TYPE *currentTransitionResultingOffsetData;
-    MISSING_TYPE *transitionDidBegin;
-    MISSING_TYPE *hasReachedPivotPoint;
-    MISSING_TYPE *hasCompletedSuccessfully;
-    MISSING_TYPE *complexity;
-    MISSING_TYPE *setupFailureReason;
-    MISSING_TYPE *cachedSmartTransitionData;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *transitionProvider;
-    MISSING_TYPE *transitionProvided;
-    MISSING_TYPE *transitionStrategy;
-    MISSING_TYPE *outgoingParameters;
-    MISSING_TYPE *incomingParameters;
+    id identifier;
+    id condensedIdentifier;
+    id startQueueItem;
+    id startItem;
+    id endQueueItem;
+    id endItem;
+    id isStartItemSpatialized;
+    id isEndItemSpatialized;
+    id expectedDurationAtStart;
+    id previousTransitionOffsetData;
+    id currentTransitionResultingOffsetData;
+    id transitionDidBegin;
+    id hasReachedPivotPoint;
+    id hasCompletedSuccessfully;
+    id complexity;
+    id setupFailureReason;
+    id cachedSmartTransitionData;
+    id delegate;
+    id transitionProvider;
+    id transitionProvided;
+    id transitionStrategy;
+    id outgoingParameters;
+    id incomingParameters;
 }
 
 @end

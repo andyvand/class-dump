@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsEngagement.EngagementEventProvider
 {
-    MISSING_TYPE *observersStore;
-    MISSING_TYPE *engagement;
+    id observersStore;
+    id engagement;
 }
 
 - (void);

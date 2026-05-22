@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTMassSpringDamperSystem, MISSING_TYPE, NSString, VFXNode;
+@class AVTMassSpringDamperSystem, NSString, VFXNode;
 
 __attribute__((visibility("hidden")))
 @interface AVTSpringDynamic
@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     VFXNode *_dynamicParentPresentationNode;
     VFXNode *_targetPresentationNode;
     _Bool _hasMaxOffsets;
-    MISSING_TYPE *_maxOffsets;
+    id _maxOffsets;
     AVTMassSpringDamperSystem *_system;
     double _beginTime;
-    MISSING_TYPE *_beginVelocity;
-    MISSING_TYPE *_beginWorldPosition;
-    MISSING_TYPE *_endWorldPosition;
+    id _beginVelocity;
+    id _beginWorldPosition;
+    id _endWorldPosition;
     double _lastEvaluationTime;
-    MISSING_TYPE *_lastWorldPosition;
+    id _lastWorldPosition;
     _Bool _shouldReset;
 }
 

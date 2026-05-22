@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.RadiantAvatarLayer
 {
-    MISSING_TYPE *avatarLayer;
-    MISSING_TYPE *portalLayer;
+    id avatarLayer;
+    id portalLayer;
 }
 
 - (id);

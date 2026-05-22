@@ -11,6 +11,6 @@
 // Remaining properties
 @property(readonly, nonatomic) NSData *jointBindTransforms;
 @property(readonly, nonatomic) NSArray *jointPaths;
-@property(readonly, nonatomic) CDStruct_14d5dc5e meshBindTransform;
+@property(readonly, nonatomic) CDStruct_95fa7c00 meshBindTransform;
 @end
 

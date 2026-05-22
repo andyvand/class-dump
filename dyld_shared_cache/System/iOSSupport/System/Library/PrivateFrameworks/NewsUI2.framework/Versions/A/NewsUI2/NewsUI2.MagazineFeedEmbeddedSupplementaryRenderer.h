@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedEmbeddedSupplementaryRenderer
 {
-    MISSING_TYPE *groupTitleViewRenderer;
-    MISSING_TYPE *sectionFooterViewRenderer;
-    MISSING_TYPE *transition;
+    id groupTitleViewRenderer;
+    id sectionFooterViewRenderer;
+    id transition;
 }
 
 @end

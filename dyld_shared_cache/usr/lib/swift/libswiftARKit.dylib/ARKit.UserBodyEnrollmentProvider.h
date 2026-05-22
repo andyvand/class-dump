@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.UserBodyEnrollmentProvider
 {
-    MISSING_TYPE *_cUserBodyEnrollmentProvider;
-    MISSING_TYPE *_cUserBodyEnrollmentConfiguration;
-    MISSING_TYPE *armsEnrollmentResultContinuations;
-    MISSING_TYPE *updateQueue;
+    id _cUserBodyEnrollmentProvider;
+    id _cUserBodyEnrollmentConfiguration;
+    id armsEnrollmentResultContinuations;
+    id updateQueue;
 }
 
 @end

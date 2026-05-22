@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PromotedArticleListTagFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *knobs;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *promotedHeadlineService;
+    id config;
+    id knobs;
+    id formatService;
+    id promotedHeadlineService;
 }
 
 @end

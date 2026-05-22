@@ -6,11 +6,9 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.PausedState.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.MediaServicesResumingState : MediaPlaybackCore.PausedState
 {
-    MISSING_TYPE *event;
+    id event;
 }
 
 @end

@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIViewController;
+@class NSString, UIViewController;
 
 @interface TeaUI.PromiseViewController
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *indicatorLoadingCoverStyler;
-    MISSING_TYPE *parentingCompleteClosure;
-    MISSING_TYPE *parentingErrorClosure;
-    MISSING_TYPE *promise;
-    MISSING_TYPE *contentViewController;
-    MISSING_TYPE *coverViewManager;
+    id identifier;
+    id indicatorLoadingCoverStyler;
+    id parentingCompleteClosure;
+    id parentingErrorClosure;
+    id promise;
+    id contentViewController;
+    id coverViewManager;
 }
 
 - (id);

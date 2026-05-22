@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.ToolbarPointerInteractionAssistant
 {
-    MISSING_TYPE *view;
-    MISSING_TYPE *pointerAssistant;
+    id view;
+    id pointerAssistant;
 }
 
 - (id);

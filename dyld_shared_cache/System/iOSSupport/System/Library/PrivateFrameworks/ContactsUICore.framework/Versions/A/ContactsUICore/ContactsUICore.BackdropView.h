@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.BackdropView
 {
-    MISSING_TYPE *lightModeEffects;
-    MISSING_TYPE *darkModeEffects;
+    id lightModeEffects;
+    id darkModeEffects;
 }
 
 + (Class);

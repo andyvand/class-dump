@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedServiceConfigPrefetcher
 {
-    MISSING_TYPE *configFetcher;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *operationQueue;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *assetHandleFactory;
-    MISSING_TYPE *cache;
-    MISSING_TYPE *interest;
-    MISSING_TYPE *$__lazy_storage_$_isEnabled;
+    id configFetcher;
+    id cloudContext;
+    id operationQueue;
+    id formatService;
+    id sportsDataService;
+    id assetHandleFactory;
+    id cache;
+    id interest;
+    id $__lazy_storage_$_isEnabled;
 }
 
 - (void);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.MailPresenter
 {
-    MISSING_TYPE *host;
-    MISSING_TYPE *viewControllerPresenting;
+    id host;
+    id viewControllerPresenting;
 }
 
 - (void);

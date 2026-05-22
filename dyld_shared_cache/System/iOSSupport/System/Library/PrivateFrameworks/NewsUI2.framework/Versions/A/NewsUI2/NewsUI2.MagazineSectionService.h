@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineSectionService
 {
-    MISSING_TYPE *assetHandleFactory;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *magazineConfigurationService;
-    MISSING_TYPE *feedAvailabilityService;
-    MISSING_TYPE *$__lazy_storage_$_appVersion;
+    id assetHandleFactory;
+    id bundleSubscriptionManager;
+    id magazineConfigurationService;
+    id feedAvailabilityService;
+    id $__lazy_storage_$_appVersion;
 }
 
 @end

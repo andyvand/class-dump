@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SavedFeedServiceConfigFetcher
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *configManager;
+    id name;
+    id appConfigManager;
+    id configManager;
 }
 
 @end

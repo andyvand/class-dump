@@ -6,13 +6,11 @@
 
 #import <HomeUI/HUItemModuleController.h>
 
-@class MISSING_TYPE;
-
 @interface HUEnergyDashboardItemModuleController : HUItemModuleController
 {
-    MISSING_TYPE *layoutManager;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *hasSentHomeEnergyAnalytics;
+    id layoutManager;
+    id delegate;
+    id hasSentHomeEnergyAnalytics;
 }
 
 - (id);

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.SettingsPeopleListController
 {
-    MISSING_TYPE *subscriber;
-    MISSING_TYPE *dependencies;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_sort;
-    MISSING_TYPE *_search;
-    MISSING_TYPE *_filterStorage;
-    MISSING_TYPE *_familyFilterStorage;
-    MISSING_TYPE *isAutomaticLocationsSubscriptionEnabled;
-    MISSING_TYPE *_$observationRegistrar;
+    id subscriber;
+    id dependencies;
+    id logger;
+    id _state;
+    id _sort;
+    id _search;
+    id _filterStorage;
+    id _familyFilterStorage;
+    id isAutomaticLocationsSubscriptionEnabled;
+    id _$observationRegistrar;
 }
 
 @end

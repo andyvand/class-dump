@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, WKUserScript;
+@class NSString, WKUserScript;
 
 @interface NewsFeed.LiveActivityEmbedScript
 {
-    MISSING_TYPE *newDatastore;
+    id newDatastore;
     void identifier;
     _Bool queueable;
 }

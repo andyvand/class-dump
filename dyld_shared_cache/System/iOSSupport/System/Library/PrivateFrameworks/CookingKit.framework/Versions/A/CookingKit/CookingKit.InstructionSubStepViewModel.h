@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.InstructionSubStepViewModel
 {
-    MISSING_TYPE *_attributedStringSegments;
-    MISSING_TYPE *_image;
-    MISSING_TYPE *_recipe;
-    MISSING_TYPE *_stepIndex;
-    MISSING_TYPE *_ingredientsText;
-    MISSING_TYPE *_timers;
-    MISSING_TYPE *_countdownTimers;
-    MISSING_TYPE *_popOver;
-    MISSING_TYPE *_startingTimers;
-    MISSING_TYPE *_viewPlacement;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_$observationRegistrar;
+    id _attributedStringSegments;
+    id _image;
+    id _recipe;
+    id _stepIndex;
+    id _ingredientsText;
+    id _timers;
+    id _countdownTimers;
+    id _popOver;
+    id _startingTimers;
+    id _viewPlacement;
+    id _$scope;
+    id _$observationRegistrar;
 }
 
 @end

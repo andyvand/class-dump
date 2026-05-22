@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactCardCustomActionsViewModel
 {
-    MISSING_TYPE *_customActionSections;
-    MISSING_TYPE *contact;
-    MISSING_TYPE *_actionsProvider;
-    MISSING_TYPE *placement;
-    MISSING_TYPE *_$observationRegistrar;
+    id _customActionSections;
+    id contact;
+    id _actionsProvider;
+    id placement;
+    id _$observationRegistrar;
 }
 
 - (void);

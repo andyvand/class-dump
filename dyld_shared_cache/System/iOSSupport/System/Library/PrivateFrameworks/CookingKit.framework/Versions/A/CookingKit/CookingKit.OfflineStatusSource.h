@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.OfflineStatusSource
 {
-    MISSING_TYPE *state;
-    MISSING_TYPE *offlineStatusProvider;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *task;
+    id state;
+    id offlineStatusProvider;
+    id _$scope;
+    id task;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface Accelerate.BNNS.RandomGenerator
 {
-    MISSING_TYPE *bnnsRandomGenerator;
-    MISSING_TYPE *seed;
+    id bnnsRandomGenerator;
+    id seed;
 }
 
 @end

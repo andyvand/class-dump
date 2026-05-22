@@ -6,11 +6,9 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTAudioLayer.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTAudioCustomLayer : CoreHapticsTools.CHTAudioLayer
 {
-    MISSING_TYPE *_event;
+    id _event;
 }
 
 - (id);

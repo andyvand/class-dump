@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeBannerAdViewControllerProvider
 {
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *bannerAdFactory;
-    MISSING_TYPE *bannerAdJournal;
-    MISSING_TYPE *bannerAdViewManager;
-    MISSING_TYPE *recipeDataManager;
-    MISSING_TYPE *requestManager;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *recipeTheme;
+    id appConfigManager;
+    id bannerAdFactory;
+    id bannerAdJournal;
+    id bannerAdViewManager;
+    id recipeDataManager;
+    id requestManager;
+    id paidAccessChecker;
+    id recipeTheme;
 }
 
 @end

@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIHoverStyle, UIView;
+@class UIHoverStyle, UIView;
 
 @interface UIHoverEffectLayer
 {
-    MISSING_TYPE *_hoverStyle;
-    MISSING_TYPE *backgroundSublayers;
-    MISSING_TYPE *overlaySublayers;
-    MISSING_TYPE *shape;
+    id _hoverStyle;
+    id backgroundSublayers;
+    id overlaySublayers;
+    id shape;
     void containerView;
 }
 

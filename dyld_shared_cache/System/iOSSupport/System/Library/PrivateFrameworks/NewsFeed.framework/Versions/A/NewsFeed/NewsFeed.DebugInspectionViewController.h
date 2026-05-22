@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugInspectionViewController
 {
-    MISSING_TYPE *inspector;
-    MISSING_TYPE *feedItem;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *radarAttachmentProvider;
+    id inspector;
+    id feedItem;
+    id commandCenter;
+    id tableView;
+    id sections;
+    id coverViewManager;
+    id cloudContext;
+    id radarAttachmentProvider;
 }
 
 - (void);

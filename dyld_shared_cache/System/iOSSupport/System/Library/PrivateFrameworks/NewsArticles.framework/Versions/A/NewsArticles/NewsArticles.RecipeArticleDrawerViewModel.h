@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeArticleDrawerViewModel
 {
-    MISSING_TYPE *_recipeDrawerState;
-    MISSING_TYPE *_onSelection;
-    MISSING_TYPE *_recipeDict;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *_$observationRegistrar;
+    id _recipeDrawerState;
+    id _onSelection;
+    id _recipeDict;
+    id paidAccessChecker;
+    id _$observationRegistrar;
 }
 
 @end

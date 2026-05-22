@@ -4,56 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface XavierNews.Classic.HeadlineScoreProfile
 {
-    MISSING_TYPE *articleCohorts;
-    MISSING_TYPE *audioMultiplier;
-    MISSING_TYPE *autofavoritedScore;
-    MISSING_TYPE *bundleFreeMultiplier;
-    MISSING_TYPE *bundlePaidMultiplier;
-    MISSING_TYPE *conversionCoefficient;
-    MISSING_TYPE *conversionCohorts;
-    MISSING_TYPE *conversionMultiplier;
-    MISSING_TYPE *conversionScore;
-    MISSING_TYPE *dampenedStaticMultiplier;
-    MISSING_TYPE *serverScoreDemocratizationFactor;
-    MISSING_TYPE *evergreenMultiplier;
-    MISSING_TYPE *featuredMultiplier;
-    MISSING_TYPE *halfLifeCoefficient;
-    MISSING_TYPE *multiplierDampener;
-    MISSING_TYPE *mutedVoteDampener;
-    MISSING_TYPE *contentTriggerDampener;
-    MISSING_TYPE *nicheContentScores;
-    MISSING_TYPE *personalizedScore;
-    MISSING_TYPE *qualitativeMultiplier;
-    MISSING_TYPE *rawPersonalizedScore;
-    MISSING_TYPE *readPenalty;
-    MISSING_TYPE *listenedPenalty;
-    MISSING_TYPE *seenPenalty;
-    MISSING_TYPE *serverScore;
-    MISSING_TYPE *rawServerScore;
-    MISSING_TYPE *serverScoreCoefficient;
-    MISSING_TYPE *sparseTagsPenalty;
-    MISSING_TYPE *staticMultiplier;
-    MISSING_TYPE *subscribedChannelScore;
-    MISSING_TYPE *subscribedTopicScore;
-    MISSING_TYPE *timeDecayPenalty;
-    MISSING_TYPE *userFeedbackTimeDecayPenalty;
-    MISSING_TYPE *timeDecayedScore;
-    MISSING_TYPE *userCohortMemberships;
-    MISSING_TYPE *publisherDampener;
-    MISSING_TYPE *tabiScore;
-    MISSING_TYPE *publisherFavorability;
-    MISSING_TYPE *autofavoritedScoreCoefficient;
-    MISSING_TYPE *subscribedTopicScoreCoefficient;
-    MISSING_TYPE *subscribedChannelScoreCoefficent;
-    MISSING_TYPE *tabiScoreCoefficient;
-    MISSING_TYPE *multiplier;
-    MISSING_TYPE *dampener;
-    MISSING_TYPE *shadowTabiScore;
-    MISSING_TYPE *shadowTimeDecayedScore;
+    id articleCohorts;
+    id audioMultiplier;
+    id autofavoritedScore;
+    id bundleFreeMultiplier;
+    id bundlePaidMultiplier;
+    id conversionCoefficient;
+    id conversionCohorts;
+    id conversionMultiplier;
+    id conversionScore;
+    id dampenedStaticMultiplier;
+    id serverScoreDemocratizationFactor;
+    id evergreenMultiplier;
+    id featuredMultiplier;
+    id halfLifeCoefficient;
+    id multiplierDampener;
+    id mutedVoteDampener;
+    id contentTriggerDampener;
+    id nicheContentScores;
+    id personalizedScore;
+    id qualitativeMultiplier;
+    id rawPersonalizedScore;
+    id readPenalty;
+    id listenedPenalty;
+    id seenPenalty;
+    id serverScore;
+    id rawServerScore;
+    id serverScoreCoefficient;
+    id sparseTagsPenalty;
+    id staticMultiplier;
+    id subscribedChannelScore;
+    id subscribedTopicScore;
+    id timeDecayPenalty;
+    id userFeedbackTimeDecayPenalty;
+    id timeDecayedScore;
+    id userCohortMemberships;
+    id publisherDampener;
+    id tabiScore;
+    id publisherFavorability;
+    id autofavoritedScoreCoefficient;
+    id subscribedTopicScoreCoefficient;
+    id subscribedChannelScoreCoefficent;
+    id tabiScoreCoefficient;
+    id multiplier;
+    id dampener;
+    id shadowTabiScore;
+    id shadowTimeDecayedScore;
 }
 
 @end

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyUI.UtilityRateInfoSnapshotManager
 {
-    MISSING_TYPE *_type;
-    MISSING_TYPE *_siteID;
-    MISSING_TYPE *_infoSnapshot;
-    MISSING_TYPE *_utilityArtworkURL;
-    MISSING_TYPE *_utilityName;
-    MISSING_TYPE *_lastReloadDate;
-    MISSING_TYPE *_tileRefreshPeriod;
-    MISSING_TYPE *_$observationRegistrar;
+    id _type;
+    id _siteID;
+    id _infoSnapshot;
+    id _utilityArtworkURL;
+    id _utilityName;
+    id _lastReloadDate;
+    id _tileRefreshPeriod;
+    id _$observationRegistrar;
 }
 
 @end

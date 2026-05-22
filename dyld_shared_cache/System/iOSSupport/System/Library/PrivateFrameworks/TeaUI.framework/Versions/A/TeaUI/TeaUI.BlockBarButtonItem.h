@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface TeaUI.BlockBarButtonItem
 {
-    MISSING_TYPE *barButtonItemIdentifier;
-    MISSING_TYPE *shouldRecolor;
-    MISSING_TYPE *actionHandler;
-    MISSING_TYPE *customContentView;
+    id barButtonItemIdentifier;
+    id shouldRecolor;
+    id actionHandler;
+    id customContentView;
 }
 
 - (void);

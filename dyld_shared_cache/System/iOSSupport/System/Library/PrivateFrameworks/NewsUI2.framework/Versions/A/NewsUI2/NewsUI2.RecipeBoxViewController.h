@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeBoxViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *titleViewProvider;
-    MISSING_TYPE *recipeFilterSelectionManager;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *filterBarHostingController;
-    MISSING_TYPE *filterBarViewModel;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *searchBarInsetsController;
-    MISSING_TYPE *searchAction;
-    MISSING_TYPE *$__lazy_storage_$_filterButton;
-    MISSING_TYPE *$__lazy_storage_$_filterBarButtonItem;
-    MISSING_TYPE *isFilterConfigLoaded;
-    MISSING_TYPE *$__lazy_storage_$_rightBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_searchController;
-    MISSING_TYPE *$__lazy_storage_$_cancelSearchBarButtonItem;
-    MISSING_TYPE *showCancelButton;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id titleViewProvider;
+    id recipeFilterSelectionManager;
+    id newsActivityManager;
+    id filterBarHostingController;
+    id filterBarViewModel;
+    id commandCenter;
+    id tracker;
+    id searchBarInsetsController;
+    id searchAction;
+    id $__lazy_storage_$_filterButton;
+    id $__lazy_storage_$_filterBarButtonItem;
+    id isFilterConfigLoaded;
+    id $__lazy_storage_$_rightBarButtonItem;
+    id $__lazy_storage_$_searchController;
+    id $__lazy_storage_$_cancelSearchBarButtonItem;
+    id showCancelButton;
 }
 
 - (void);

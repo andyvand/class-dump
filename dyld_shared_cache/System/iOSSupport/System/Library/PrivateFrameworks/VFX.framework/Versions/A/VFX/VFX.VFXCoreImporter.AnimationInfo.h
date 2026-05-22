@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VFXCoreImporter.AnimationInfo
 {
-    MISSING_TYPE *node;
-    MISSING_TYPE *entity;
-    MISSING_TYPE *animationPlayer;
+    id node;
+    id entity;
+    id animationPlayer;
 }
 
 @end

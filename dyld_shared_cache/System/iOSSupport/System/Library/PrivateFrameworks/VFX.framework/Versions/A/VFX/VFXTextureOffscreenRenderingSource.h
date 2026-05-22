@@ -6,8 +6,6 @@
 
 #import <VFX/VFXTextureSource.h>
 
-@class MISSING_TYPE;
-
 @interface VFXTextureOffscreenRenderingSource : VFXTextureSource
 {
     _Bool _usesIOSurface;
@@ -15,7 +13,7 @@
 }
 
 - (void);
-- (MISSING_TYPE *);
+- (id);
 
 @end
 

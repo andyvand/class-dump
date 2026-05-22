@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingErrorViewConfiguration
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *titleText;
-    MISSING_TYPE *subtitleText;
-    MISSING_TYPE *showLinkButton;
-    MISSING_TYPE *linkButtonTitleText;
-    MISSING_TYPE *showPrimaryButton;
-    MISSING_TYPE *primaryButtonTitleText;
-    MISSING_TYPE *headerViewImageDisplayMode;
-    MISSING_TYPE *useThinSideMargins;
-    MISSING_TYPE *inWatchModeOnly;
+    id delegate;
+    id titleText;
+    id subtitleText;
+    id showLinkButton;
+    id linkButtonTitleText;
+    id showPrimaryButton;
+    id primaryButtonTitleText;
+    id headerViewImageDisplayMode;
+    id useThinSideMargins;
+    id inWatchModeOnly;
 }
 
 @end

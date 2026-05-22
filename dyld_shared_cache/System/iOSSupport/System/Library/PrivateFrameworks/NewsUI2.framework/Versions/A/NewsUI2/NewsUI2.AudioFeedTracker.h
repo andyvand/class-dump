@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedTracker
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *audioPlaybackContext;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *suggestionsTracker;
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *feedDismissingManager;
+    id tracker;
+    id audioPlaybackContext;
+    id readingHistory;
+    id suggestionsTracker;
+    id blueprintProvider;
+    id channelDataFactory;
+    id scienceDataFactory;
+    id articleDataFactory;
+    id newsActivityManager;
+    id contentAvailabilityValidator;
+    id feedDismissingManager;
 }
 
 @end

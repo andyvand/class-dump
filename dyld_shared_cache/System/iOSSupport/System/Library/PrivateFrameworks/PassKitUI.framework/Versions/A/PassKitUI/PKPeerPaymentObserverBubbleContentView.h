@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, PKCurrencyAmount;
+@class NSString, PKCurrencyAmount;
 
 @interface PKPeerPaymentObserverBubbleContentView
 {
@@ -13,8 +13,8 @@
     void sender;
     void signature;
     _Bool outOfTranscript;
-    MISSING_TYPE *observerBubbleModel;
-    MISSING_TYPE *contentView;
+    id observerBubbleModel;
+    id contentView;
 }
 
 - (void);

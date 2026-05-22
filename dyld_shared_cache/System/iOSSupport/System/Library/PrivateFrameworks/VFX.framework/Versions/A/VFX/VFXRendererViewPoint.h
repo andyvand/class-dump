@@ -10,16 +10,16 @@
 {
     MTLRenderPassDescriptor *_passDescriptor;
     CDStruct_4b2885c7 _viewport;
-    CDStruct_14d5dc5e _viewMatrix;
-    CDStruct_14d5dc5e _projectionMatrix;
+    CDStruct_95fa7c00 _viewMatrix;
+    CDStruct_95fa7c00 _projectionMatrix;
 }
 
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (void);
 - (void);
 - (id);
 - (void);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (void);
 - (void);
 - (CDStruct_4b2885c7);
@@ -27,8 +27,8 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) CDStruct_14d5dc5e projectionMatrix; // @synthesize projectionMatrix=_projectionMatrix;
-@property(nonatomic) CDStruct_14d5dc5e viewMatrix; // @synthesize viewMatrix=_viewMatrix;
+@property(nonatomic) CDStruct_95fa7c00 projectionMatrix; // @synthesize projectionMatrix=_projectionMatrix;
+@property(nonatomic) CDStruct_95fa7c00 viewMatrix; // @synthesize viewMatrix=_viewMatrix;
 @property(nonatomic) CDStruct_4b2885c7 viewport;
 
 @end

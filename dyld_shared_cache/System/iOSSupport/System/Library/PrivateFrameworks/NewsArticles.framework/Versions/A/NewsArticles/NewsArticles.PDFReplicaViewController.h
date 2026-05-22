@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.PDFReplicaViewController
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *contentBackgroundColor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *pdfView;
-    MISSING_TYPE *focusableView;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *keyCommandManager;
-    MISSING_TYPE *commands;
-    MISSING_TYPE *loadingIndicatorProvider;
-    MISSING_TYPE *pinchRecognizer;
-    MISSING_TYPE *loadingStateMachine;
-    MISSING_TYPE *paywallPreparationEventManager;
-    MISSING_TYPE *parallaxX;
-    MISSING_TYPE *lastSafeAreaInsets;
+    id identifier;
+    id delegate;
+    id contentBackgroundColor;
+    id styler;
+    id eventHandler;
+    id pdfView;
+    id focusableView;
+    id coverViewManager;
+    id keyCommandManager;
+    id commands;
+    id loadingIndicatorProvider;
+    id pinchRecognizer;
+    id loadingStateMachine;
+    id paywallPreparationEventManager;
+    id parallaxX;
+    id lastSafeAreaInsets;
 }
 
 - (void);

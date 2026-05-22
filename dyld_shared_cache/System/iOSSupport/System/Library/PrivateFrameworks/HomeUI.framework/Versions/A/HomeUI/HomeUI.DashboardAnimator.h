@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.DashboardAnimator
 {
-    MISSING_TYPE *style;
-    MISSING_TYPE *blurView;
-    MISSING_TYPE *targetCollectionViewFrame;
-    MISSING_TYPE *targetCollectionViewLayout;
-    MISSING_TYPE *targetContentInset;
-    MISSING_TYPE *targetNavigationBarAppearance;
+    id style;
+    id blurView;
+    id targetCollectionViewFrame;
+    id targetCollectionViewLayout;
+    id targetContentInset;
+    id targetNavigationBarAppearance;
 }
 
 - (double);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.MoonDataProvider
 {
-    MISSING_TYPE *moonEphemerisCache;
-    MISSING_TYPE *lunarCalculatorCache;
-    MISSING_TYPE *lunarEventsCache;
-    MISSING_TYPE *dayMoonPhaseCache;
-    MISSING_TYPE *backgroundMoonDataCache;
+    id moonEphemerisCache;
+    id lunarCalculatorCache;
+    id lunarEventsCache;
+    id dayMoonPhaseCache;
+    id backgroundMoonDataCache;
 }
 
 @end

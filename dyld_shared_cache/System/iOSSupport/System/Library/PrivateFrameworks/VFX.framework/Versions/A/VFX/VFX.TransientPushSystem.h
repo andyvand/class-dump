@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.TransientPushSystem
 {
-    MISSING_TYPE *colorQuery;
-    MISSING_TYPE *scaleQuery;
-    MISSING_TYPE *scale1Save;
-    MISSING_TYPE *scale1Restore;
-    MISSING_TYPE *scale2Save;
-    MISSING_TYPE *scale2Restore;
-    MISSING_TYPE *scale3Save;
-    MISSING_TYPE *scale3Restore;
+    id colorQuery;
+    id scaleQuery;
+    id scale1Save;
+    id scale1Restore;
+    id scale2Save;
+    id scale2Restore;
+    id scale3Save;
+    id scale3Restore;
 }
 
 @end

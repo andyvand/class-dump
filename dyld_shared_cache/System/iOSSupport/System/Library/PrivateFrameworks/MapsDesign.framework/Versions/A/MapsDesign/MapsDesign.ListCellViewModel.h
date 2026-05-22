@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.ListCellViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_imageProvider;
-    MISSING_TYPE *_imageOverlayProvider;
-    MISSING_TYPE *_imagePlaceholder;
-    MISSING_TYPE *_title;
-    MISSING_TYPE *_richTextViews;
-    MISSING_TYPE *_query;
-    MISSING_TYPE *_leadingAccessory;
-    MISSING_TYPE *_trailingAccessory;
-    MISSING_TYPE *_contextLineAccessory;
-    MISSING_TYPE *_bottomAccessory;
-    MISSING_TYPE *_active;
-    MISSING_TYPE *_isSelected;
-    MISSING_TYPE *_leadingSwipeActions;
-    MISSING_TYPE *_trailingSwipeActions;
-    MISSING_TYPE *_menuActions;
-    MISSING_TYPE *_allowsFullSwipe;
-    MISSING_TYPE *_accessibilityLabelOverride;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _imageProvider;
+    id _imageOverlayProvider;
+    id _imagePlaceholder;
+    id _title;
+    id _richTextViews;
+    id _query;
+    id _leadingAccessory;
+    id _trailingAccessory;
+    id _contextLineAccessory;
+    id _bottomAccessory;
+    id _active;
+    id _isSelected;
+    id _leadingSwipeActions;
+    id _trailingSwipeActions;
+    id _menuActions;
+    id _allowsFullSwipe;
+    id _accessibilityLabelOverride;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.Transition
 {
-    MISSING_TYPE *interactiveTransition;
-    MISSING_TYPE *presentationTransitionFactory;
-    MISSING_TYPE *dismissalTransitionFactory;
-    MISSING_TYPE *presentationControllerFactory;
+    id interactiveTransition;
+    id presentationTransitionFactory;
+    id dismissalTransitionFactory;
+    id presentationControllerFactory;
 }
 
 - (id);

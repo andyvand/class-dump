@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAnalytics.PrivacySaltProvider
 {
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *salt;
+    id userInfo;
+    id salt;
 }
 
 @end

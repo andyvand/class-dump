@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedConfig
 {
-    MISSING_TYPE *publishDate;
-    MISSING_TYPE *placements;
-    MISSING_TYPE *background;
-    MISSING_TYPE *theme;
-    MISSING_TYPE *metadata;
+    id publishDate;
+    id placements;
+    id background;
+    id theme;
+    id metadata;
 }
 
 @end

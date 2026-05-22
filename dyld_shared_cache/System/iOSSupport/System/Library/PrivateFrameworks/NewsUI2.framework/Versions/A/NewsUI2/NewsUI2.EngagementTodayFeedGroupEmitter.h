@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EngagementTodayFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *knobs;
-    MISSING_TYPE *engagementInlineViewManager;
+    id config;
+    id knobs;
+    id engagementInlineViewManager;
 }
 
 @end

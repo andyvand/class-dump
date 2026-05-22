@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SharingActivity
 {
-    MISSING_TYPE *type;
-    MISSING_TYPE *category;
-    MISSING_TYPE *titleBlock;
-    MISSING_TYPE *imageBlock;
-    MISSING_TYPE *canExecuteBlock;
-    MISSING_TYPE *executeBlock;
+    id type;
+    id category;
+    id titleBlock;
+    id imageBlock;
+    id canExecuteBlock;
+    id executeBlock;
 }
 
 @end

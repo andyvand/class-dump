@@ -6,11 +6,9 @@
 
 #import <HomeUI/HUItemModuleController.h>
 
-@class MISSING_TYPE;
-
 @interface HomeUI.TriggerActionPickerViewController.ConvertToShortcutModuleController : HUItemModuleController
 {
-    MISSING_TYPE *$__lazy_storage_$_collectionLayoutManager;
+    id $__lazy_storage_$_collectionLayoutManager;
 }
 
 - (_Bool);

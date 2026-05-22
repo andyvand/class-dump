@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface mis.LaunchWarningMark
 {
-    MISSING_TYPE *version;
-    MISSING_TYPE *warningID;
+    id version;
+    id warningID;
 }
 
 @end

@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _TtC19HomeUtilityServices22UtilityServiceLocation;
+@class HomeUtilityServices.UtilityServiceLocation, NSArray, NSString;
 
 @interface HomeUtilityServices.UtilitySubscriptionInformation
 {
     void subscriptionID;
     void state;
     void startDate;
-    _TtC19HomeUtilityServices22UtilityServiceLocation *serviceLocation;
+    HomeUtilityServices.UtilityServiceLocation *serviceLocation;
     void customerAgreements;
 }
 
@@ -26,7 +26,7 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *customerAgreements;
-@property(nonatomic, readonly) _TtC19HomeUtilityServices22UtilityServiceLocation *serviceLocation; // @synthesize serviceLocation;
+@property(nonatomic, readonly) HomeUtilityServices.UtilityServiceLocation *serviceLocation; // @synthesize serviceLocation;
 @property(nonatomic, readonly) NSString *startDate;
 @property(nonatomic, readonly) NSString *state;
 @property(nonatomic, readonly) NSString *subscriptionID;

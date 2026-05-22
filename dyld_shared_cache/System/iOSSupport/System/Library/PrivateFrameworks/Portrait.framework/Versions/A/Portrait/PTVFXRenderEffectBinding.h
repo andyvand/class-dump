@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSData, NSMutableArray, NSNumber, PTHumanDetections, VFXAssetNode, VFXClientTextureAsset, VFXNode;
+@class NSData, NSMutableArray, NSNumber, PTHumanDetections, VFXAssetNode, VFXClientTextureAsset, VFXNode;
 @protocol VFXGraphBinding;
 
 @interface PTVFXRenderEffectBinding
@@ -29,7 +29,7 @@
     id <VFXGraphBinding> _durationBinding;
     double _creationTimeSeconds;
     unsigned long long _effectType;
-    CDStruct_14d5dc5e _inverseCameraProjection;
+    CDStruct_95fa7c00 _inverseCameraProjection;
 }
 
 + (void);
@@ -51,10 +51,10 @@
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
 - (id);
 - (id);
-- (CDStruct_14d5dc5e);
+- (id);
+- (CDStruct_95fa7c00);
 - (id);
 - (id);
 - (void);
@@ -86,7 +86,7 @@
 @property unsigned long long effectType; // @synthesize effectType=_effectType;
 @property float emitZValue; // @synthesize emitZValue=_emitZValue;
 @property(retain, nonatomic) id <VFXGraphBinding> headPositionBinding; // @synthesize headPositionBinding=_headPositionBinding;
-@property CDStruct_14d5dc5e inverseCameraProjection; // @synthesize inverseCameraProjection=_inverseCameraProjection;
+@property CDStruct_95fa7c00 inverseCameraProjection; // @synthesize inverseCameraProjection=_inverseCameraProjection;
 @property(retain, nonatomic) NSMutableArray *opacityBindings; // @synthesize opacityBindings=_opacityBindings;
 @property(retain, nonatomic) NSData *opacityValue; // @synthesize opacityValue=_opacityValue;
 @property(retain, nonatomic) id <VFXGraphBinding> positionBinding; // @synthesize positionBinding=_positionBinding;

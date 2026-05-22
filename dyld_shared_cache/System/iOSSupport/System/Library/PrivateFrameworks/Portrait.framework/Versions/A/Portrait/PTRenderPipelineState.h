@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, PTMetalContext, PTRenderPipelineDescriptor, PTTexture, PTUtil;
+@class NSString, PTMetalContext, PTRenderPipelineDescriptor, PTTexture, PTUtil;
 @protocol RenderingIntegration;
 
 @interface PTRenderPipelineState
@@ -33,12 +33,12 @@
     int sensorID;
     float networkBias;
     NSString *description;
-    MISSING_TYPE *visCropFactor;
+    id visCropFactor;
     struct CGRect totalSensorCrop;
 }
 
 + (Class);
-- (MISSING_TYPE *);
+- (id);
 - (int);
 - (void);
 - (void);
@@ -57,7 +57,7 @@
 - (float);
 - (float);
 - (id);
-- (CDStruct_8e0628e6);
+- (CDStruct_1fe29af2);
 - (void);
 - (struct CGRect);
 - (void);
@@ -77,7 +77,7 @@
 - (int);
 
 // Remaining properties
-@property(readonly) CDStruct_8e0628e6 cameraIntrinsicMatrix;
+@property(readonly) CDStruct_1fe29af2 cameraIntrinsicMatrix;
 @property(nonatomic) int conversionGain; // @synthesize conversionGain;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
@@ -99,7 +99,7 @@
 @property(nonatomic) int sourceColorBitDepth; // @synthesize sourceColorBitDepth;
 @property(readonly) Class superclass;
 @property(nonatomic) struct CGRect totalSensorCrop; // @synthesize totalSensorCrop;
-@property(nonatomic) MISSING_TYPE *visCropFactor; // @synthesize visCropFactor;
+@property(nonatomic) id visCropFactor; // @synthesize visCropFactor;
 
 @end
 

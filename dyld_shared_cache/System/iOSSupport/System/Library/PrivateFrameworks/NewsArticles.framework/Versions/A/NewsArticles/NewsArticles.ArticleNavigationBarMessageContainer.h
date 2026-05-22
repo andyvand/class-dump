@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleNavigationBarMessageContainer
 {
-    MISSING_TYPE *textForArticleMessage;
-    MISSING_TYPE *defaultView;
-    MISSING_TYPE *messageLabel;
-    MISSING_TYPE *clipView;
-    MISSING_TYPE *state;
+    id textForArticleMessage;
+    id defaultView;
+    id messageLabel;
+    id clipView;
+    id state;
 }
 
 - (id);

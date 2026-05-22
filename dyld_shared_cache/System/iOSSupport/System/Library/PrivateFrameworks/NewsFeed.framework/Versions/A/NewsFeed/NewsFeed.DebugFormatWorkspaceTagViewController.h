@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceTagViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *tag;
+    id editor;
+    id tableView;
+    id sections;
+    id tag;
 }
 
 - (id);

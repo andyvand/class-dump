@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugPersonalizationInspectViewController
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *targetGroupData;
-    MISSING_TYPE *extraDebugKeys;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *submitView;
-    MISSING_TYPE *submitContainerView;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *radarAttachmentProvider;
-    MISSING_TYPE *webEmbedDataSourceService;
-    MISSING_TYPE *submitButton;
-    MISSING_TYPE *header;
-    MISSING_TYPE *titleView;
+    id cloudContext;
+    id feedPersonalizer;
+    id targetGroupData;
+    id extraDebugKeys;
+    id commandCenter;
+    id tableView;
+    id submitView;
+    id submitContainerView;
+    id headlineService;
+    id tagService;
+    id radarAttachmentProvider;
+    id webEmbedDataSourceService;
+    id submitButton;
+    id header;
+    id titleView;
 }
 
 - (void);

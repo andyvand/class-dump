@@ -6,11 +6,9 @@
 
 #import <VFX/VFX._OnNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.OnParticleStageNode : VFX._OnNode
 {
-    MISSING_TYPE *stage;
+    id stage;
 }
 
 @end

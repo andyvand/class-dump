@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.PosterImageView
 {
-    MISSING_TYPE *$__lazy_storage_$_imageView;
-    MISSING_TYPE *$__lazy_storage_$_portalView;
-    MISSING_TYPE *contentOffset;
+    id $__lazy_storage_$_imageView;
+    id $__lazy_storage_$_portalView;
+    id contentOffset;
 }
 
 - (id);

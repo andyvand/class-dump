@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.CoverPhotoCardOrnamentViewModel
 {
-    MISSING_TYPE *imageProvider;
-    MISSING_TYPE *placeholderColor;
-    MISSING_TYPE *editing;
-    MISSING_TYPE *_$observationRegistrar;
+    id imageProvider;
+    id placeholderColor;
+    id editing;
+    id _$observationRegistrar;
 }
 
 @end

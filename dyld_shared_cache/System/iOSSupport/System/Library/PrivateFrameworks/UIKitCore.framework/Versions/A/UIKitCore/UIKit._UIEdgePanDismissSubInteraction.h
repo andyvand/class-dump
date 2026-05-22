@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 @interface UIKit._UIEdgePanDismissSubInteraction
 {
-    MISSING_TYPE *parent;
+    id parent;
     void view;
-    MISSING_TYPE *axis;
-    MISSING_TYPE *gesture;
+    id axis;
+    id gesture;
 }
 
 - (_Bool);

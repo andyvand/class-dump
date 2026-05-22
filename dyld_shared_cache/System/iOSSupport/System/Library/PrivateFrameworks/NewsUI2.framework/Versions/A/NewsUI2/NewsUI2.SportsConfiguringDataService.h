@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsConfiguringDataService
 {
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *sportsEmbedConfigurationManager;
+    id sportsDataService;
+    id sportsEmbedConfigurationManager;
 }
 
 @end

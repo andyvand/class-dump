@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.MarkAsCookedCommandHandler
 {
-    MISSING_TYPE *recipeUserDataManager;
-    MISSING_TYPE *recipeUserFeedDataRepository;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *recipeAccessProvider;
+    id recipeUserDataManager;
+    id recipeUserFeedDataRepository;
+    id featureAvailability;
+    id sceneProvider;
+    id commandCenter;
+    id recipeAccessProvider;
 }
 
 @end

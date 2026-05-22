@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSupplementaryNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *supplementaryIdentifier;
-    MISSING_TYPE *size;
-    MISSING_TYPE *resize;
-    MISSING_TYPE *_adjustments;
-    MISSING_TYPE *_styles;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *_options;
-    MISSING_TYPE *_blocks;
-    MISSING_TYPE *zIndex;
-    MISSING_TYPE *flex;
+    id _identifier;
+    id supplementaryIdentifier;
+    id size;
+    id resize;
+    id _adjustments;
+    id _styles;
+    id _selectors;
+    id _options;
+    id _blocks;
+    id zIndex;
+    id flex;
 }
 
 @end

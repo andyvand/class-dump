@@ -6,11 +6,9 @@
 
 #import <VFX/VFX._VariableNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX._ResolvedVariableNode : VFX._VariableNode
 {
-    MISSING_TYPE *type;
+    id type;
 }
 
 @end

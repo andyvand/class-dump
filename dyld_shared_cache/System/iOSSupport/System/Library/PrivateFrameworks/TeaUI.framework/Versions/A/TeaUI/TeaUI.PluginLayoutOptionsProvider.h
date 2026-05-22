@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PluginLayoutOptionsProvider
 {
-    MISSING_TYPE *layoutOptionsCommit;
-    MISSING_TYPE *blueprintLayoutOptionsProvider;
-    MISSING_TYPE *useWindowSizeViewportAdjustment;
+    id layoutOptionsCommit;
+    id blueprintLayoutOptionsProvider;
+    id useWindowSizeViewportAdjustment;
 }
 
 - (id);

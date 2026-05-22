@@ -6,7 +6,7 @@
 
 @interface PRRotationBuffer
 {
-    CDUnion_a1316d75 _buffers[2];
+    CDUnion_803ab9d6 _buffers[2];
     _Atomic int _activeIndex;
 }
 

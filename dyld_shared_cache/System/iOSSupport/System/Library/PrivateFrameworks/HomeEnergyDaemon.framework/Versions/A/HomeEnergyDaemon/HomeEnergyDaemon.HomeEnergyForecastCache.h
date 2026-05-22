@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.HomeEnergyForecastCache
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *pollingLocations;
-    MISSING_TYPE *pollingGuidanceIdentifiers;
-    MISSING_TYPE *urlSession;
-    MISSING_TYPE *defaults;
-    MISSING_TYPE *energyConfig;
-    MISSING_TYPE *pendingGuidanceRequests;
+    id $defaultActor;
+    id pollingLocations;
+    id pollingGuidanceIdentifiers;
+    id urlSession;
+    id defaults;
+    id energyConfig;
+    id pendingGuidanceRequests;
 }
 
 @end

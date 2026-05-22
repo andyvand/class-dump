@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.AppClipCodeTrackingProvider
 {
-    MISSING_TYPE *_cAppClipCodeTrackingProvider;
-    MISSING_TYPE *_cAppClipCodeTrackingConfiguration;
-    MISSING_TYPE *anchorUpdateIterators;
-    MISSING_TYPE *anchorQueue;
-    MISSING_TYPE *powerMode;
+    id _cAppClipCodeTrackingProvider;
+    id _cAppClipCodeTrackingConfiguration;
+    id anchorUpdateIterators;
+    id anchorQueue;
+    id powerMode;
 }
 
 @end

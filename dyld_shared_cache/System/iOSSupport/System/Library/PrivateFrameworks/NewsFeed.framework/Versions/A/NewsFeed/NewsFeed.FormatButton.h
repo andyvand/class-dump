@@ -4,22 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface NewsFeed.FormatButton
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *onTap;
-    MISSING_TYPE *onLongPress;
-    MISSING_TYPE *isLongPressEnabled;
-    MISSING_TYPE *formatLayoutView;
-    MISSING_TYPE *accessibilityRenderer;
-    MISSING_TYPE *longPressGesture;
-    MISSING_TYPE *createMenuElementsBlock;
-    MISSING_TYPE *overriddenStateMask;
-    MISSING_TYPE *renderBlock;
-    MISSING_TYPE *lastRenderStateMask;
-    MISSING_TYPE *viewportDisplayState;
+    id identifier;
+    id onTap;
+    id onLongPress;
+    id isLongPressEnabled;
+    id formatLayoutView;
+    id accessibilityRenderer;
+    id longPressGesture;
+    id createMenuElementsBlock;
+    id overriddenStateMask;
+    id renderBlock;
+    id lastRenderStateMask;
+    id viewportDisplayState;
 }
 
 - (id);

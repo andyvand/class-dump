@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface Accelerate.BNNS.RandomGeneratorState
 {
-    MISSING_TYPE *stateSize;
-    MISSING_TYPE *state;
+    id stateSize;
+    id state;
 }
 
 @end

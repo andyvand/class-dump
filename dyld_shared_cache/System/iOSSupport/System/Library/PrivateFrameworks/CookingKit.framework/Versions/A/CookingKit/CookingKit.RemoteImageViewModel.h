@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RemoteImageViewModel
 {
-    MISSING_TYPE *_phase;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_$observationRegistrar;
+    id _phase;
+    id _$scope;
+    id _$observationRegistrar;
 }
 
 @end

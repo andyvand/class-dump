@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.ShortcutCommandHandler
 {
-    MISSING_TYPE *shortcutManager;
-    MISSING_TYPE *shortcutList;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *commandCenter;
+    id shortcutManager;
+    id shortcutList;
+    id featureAvailability;
+    id bundleSubscriptionManager;
+    id commandCenter;
 }
 
 - (void);

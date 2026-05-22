@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.SponsorshipAdContentInfo
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *metricsHelper;
-    MISSING_TYPE *metricsView;
-    MISSING_TYPE *promotedContentInfo;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *placementIdentifier;
-    MISSING_TYPE *adFrame;
+    id identifier;
+    id metricsHelper;
+    id metricsView;
+    id promotedContentInfo;
+    id tracker;
+    id placementIdentifier;
+    id adFrame;
 }
 
 @end

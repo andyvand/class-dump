@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.UnitsExplainerViewModel
 {
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_conversionState;
-    MISSING_TYPE *_sheet;
-    MISSING_TYPE *_$observationRegistrar;
+    id _$scope;
+    id _conversionState;
+    id _sheet;
+    id _$observationRegistrar;
 }
 
 @end

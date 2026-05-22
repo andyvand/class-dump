@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsBracketDataVisualization
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *competitorTags;
-    MISSING_TYPE *umcCanonicalId;
-    MISSING_TYPE *leagueTag;
-    MISSING_TYPE *championshipTag;
-    MISSING_TYPE *embedUrl;
-    MISSING_TYPE *urlDataSources;
-    MISSING_TYPE *events;
-    MISSING_TYPE *metadata;
-    MISSING_TYPE *config;
-    MISSING_TYPE *configuredEmbedUrl;
+    id identifier;
+    id competitorTags;
+    id umcCanonicalId;
+    id leagueTag;
+    id championshipTag;
+    id embedUrl;
+    id urlDataSources;
+    id events;
+    id metadata;
+    id config;
+    id configuredEmbedUrl;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PushNotificationDataManager
 {
-    MISSING_TYPE *pushNotificationService;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *debounceTasks;
+    id pushNotificationService;
+    id subscriptionController;
+    id featureAvailability;
+    id userInfo;
+    id debounceTasks;
 }
 
 - (void);

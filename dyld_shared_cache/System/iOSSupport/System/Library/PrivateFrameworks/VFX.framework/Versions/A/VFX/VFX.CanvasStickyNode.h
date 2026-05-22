@@ -6,12 +6,10 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.CanvasStickyNode : VFX.Node
 {
-    MISSING_TYPE *text;
-    MISSING_TYPE *colorScheme;
+    id text;
+    id colorScheme;
 }
 
 @end

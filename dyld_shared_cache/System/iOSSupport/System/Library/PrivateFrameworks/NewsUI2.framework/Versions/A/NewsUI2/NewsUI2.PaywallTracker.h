@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PaywallTracker
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *paywallTrackerObserver;
-    MISSING_TYPE *feedData;
-    MISSING_TYPE *channelData;
-    MISSING_TYPE *groupData;
-    MISSING_TYPE *sectionData;
-    MISSING_TYPE *articleData;
-    MISSING_TYPE *articleExposureContextData;
-    MISSING_TYPE *campaignData;
-    MISSING_TYPE *adReferralData;
-    MISSING_TYPE *puzzleData;
-    MISSING_TYPE *recipeData;
+    id tracker;
+    id paywallTrackerObserver;
+    id feedData;
+    id channelData;
+    id groupData;
+    id sectionData;
+    id articleData;
+    id articleExposureContextData;
+    id campaignData;
+    id adReferralData;
+    id puzzleData;
+    id recipeData;
 }
 
 @end

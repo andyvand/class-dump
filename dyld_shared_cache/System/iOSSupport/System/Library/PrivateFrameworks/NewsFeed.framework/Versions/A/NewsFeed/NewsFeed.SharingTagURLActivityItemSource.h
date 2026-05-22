@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SharingTagURLActivityItemSource
 {
-    MISSING_TYPE *model;
-    MISSING_TYPE *linkPresentationSource;
+    id model;
+    id linkPresentationSource;
 }
 
 - (id);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingBlueprintEngagementModifier
 {
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *isCollapsed;
-    MISSING_TYPE *isVisible;
-    MISSING_TYPE *overlayToIconSpacing;
+    id blueprintViewController;
+    id isCollapsed;
+    id isVisible;
+    id overlayToIconSpacing;
 }
 
 @end

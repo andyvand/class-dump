@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString;
+@class NSArray, NSString;
 @protocol MTLBuffer, MTLTexture;
 
 @interface VFX.EntityPropertyHelper
 {
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *entity;
+    id entityManager;
+    id entity;
 }
 
 - (void);
@@ -39,12 +39,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (_Bool);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (CDStruct_183601bc);
 - (void);
@@ -127,10 +127,10 @@ struct render_options_override {
 @property(nonatomic, readonly) long long particleDataBufferOffset;
 @property(nonatomic, readonly) id <MTLBuffer> particleHeaderBuffer;
 @property(nonatomic, readonly) long long particleHeaderBufferOffset;
-@property(nonatomic) MISSING_TYPE *position;
-@property(nonatomic) MISSING_TYPE *scale;
+@property(nonatomic) id position;
+@property(nonatomic) id scale;
 @property(nonatomic, retain) struct __CFXNode *simulationAnchor;
-@property(nonatomic) CDStruct_14d5dc5e transform;
+@property(nonatomic) CDStruct_95fa7c00 transform;
 
 @end
 

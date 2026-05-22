@@ -6,11 +6,11 @@
 
 #import <TeaUI/TeaUI.TouchInsetsLabel.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface TeaUI.TappableLabel : TeaUI.TouchInsetsLabel
 {
-    MISSING_TYPE *onTap;
+    id onTap;
 }
 
 - (void);

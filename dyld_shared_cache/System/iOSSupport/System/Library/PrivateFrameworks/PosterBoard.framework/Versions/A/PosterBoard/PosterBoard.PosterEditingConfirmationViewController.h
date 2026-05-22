@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.PosterEditingConfirmationViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *posterID;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *previewStackView;
-    MISSING_TYPE *lockPreviewImageView;
-    MISSING_TYPE *homePreviewContainerView;
-    MISSING_TYPE *homePreviewContentView;
-    MISSING_TYPE *lockPreviewWidthConstraint;
-    MISSING_TYPE *homePreviewWidthConstraint;
-    MISSING_TYPE *lockPreviewHeightConstraint;
-    MISSING_TYPE *homePreviewHeightConstraint;
-    MISSING_TYPE *lockPreviewLoadingIndicator;
-    MISSING_TYPE *homePreviewLoadingIndicator;
-    MISSING_TYPE *continueButton;
-    MISSING_TYPE *customizeHomeButton;
-    MISSING_TYPE *buttonFont;
-    MISSING_TYPE *lockPreviewImage;
-    MISSING_TYPE *homePreviewView;
+    id delegate;
+    id userInfo;
+    id posterID;
+    id contentView;
+    id backgroundView;
+    id previewStackView;
+    id lockPreviewImageView;
+    id homePreviewContainerView;
+    id homePreviewContentView;
+    id lockPreviewWidthConstraint;
+    id homePreviewWidthConstraint;
+    id lockPreviewHeightConstraint;
+    id homePreviewHeightConstraint;
+    id lockPreviewLoadingIndicator;
+    id homePreviewLoadingIndicator;
+    id continueButton;
+    id customizeHomeButton;
+    id buttonFont;
+    id lockPreviewImage;
+    id homePreviewView;
 }
 
 - (void);

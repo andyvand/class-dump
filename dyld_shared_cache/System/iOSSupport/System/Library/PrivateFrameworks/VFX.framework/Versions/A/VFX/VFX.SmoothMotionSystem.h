@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.SmoothMotionSystem
 {
-    MISSING_TYPE *query;
-    MISSING_TYPE *patchQuery;
+    id query;
+    id patchQuery;
 }
 
 @end

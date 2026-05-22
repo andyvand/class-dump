@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeAnalyticsSnapshot
 {
-    MISSING_TYPE *recipeID;
-    MISSING_TYPE *_conversionEnabled;
-    MISSING_TYPE *_scaleFactor;
-    MISSING_TYPE *observationTask;
+    id recipeID;
+    id _conversionEnabled;
+    id _scaleFactor;
+    id observationTask;
 }
 
 @end

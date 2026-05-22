@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsTaxonomyGraphManager
 {
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *fetchDeduper;
-    MISSING_TYPE *_taxonomyGraph;
+    id sportsDataService;
+    id fetchDeduper;
+    id _taxonomyGraph;
 }
 
 @end

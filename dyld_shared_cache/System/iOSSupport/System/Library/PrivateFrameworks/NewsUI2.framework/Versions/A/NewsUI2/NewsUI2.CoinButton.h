@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsUI2.CoinButton
 {
-    MISSING_TYPE *linkedToggle;
-    MISSING_TYPE *toggleState;
-    MISSING_TYPE *isBouncingEnabled;
-    MISSING_TYPE *onTap;
+    id linkedToggle;
+    id toggleState;
+    id isBouncingEnabled;
+    id onTap;
 }
 
 - (id);

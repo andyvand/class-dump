@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioBuddyTrackQueueScheduler
 {
-    MISSING_TYPE *completedListeningProcessor;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *headlineConverter;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *playbackState;
-    MISSING_TYPE *ephemeralQueue;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *currentTrack;
-    MISSING_TYPE *scheduleDeduper;
+    id completedListeningProcessor;
+    id headlineService;
+    id headlineConverter;
+    id commandCenter;
+    id playbackState;
+    id ephemeralQueue;
+    id bundleSubscriptionManager;
+    id currentTrack;
+    id scheduleDeduper;
 }
 
 @end

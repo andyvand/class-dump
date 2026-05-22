@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUtilityServices.TAFAuthorizationField
 {
-    MISSING_TYPE *formKey;
-    MISSING_TYPE *value;
+    id formKey;
+    id value;
 }
 
 - (id);

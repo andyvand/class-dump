@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WeatherKitService
 {
-    MISSING_TYPE *weatherServiceProvider;
-    MISSING_TYPE *stringBuilder;
-    MISSING_TYPE *_requestTimeout;
+    id weatherServiceProvider;
+    id stringBuilder;
+    id _requestTimeout;
 }
 
 @end

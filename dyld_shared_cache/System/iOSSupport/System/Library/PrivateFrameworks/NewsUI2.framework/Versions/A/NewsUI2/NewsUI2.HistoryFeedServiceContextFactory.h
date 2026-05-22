@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.HistoryFeedServiceContextFactory
 {
-    MISSING_TYPE *dataProvider;
-    MISSING_TYPE *appConfigManager;
+    id dataProvider;
+    id appConfigManager;
 }
 
 @end

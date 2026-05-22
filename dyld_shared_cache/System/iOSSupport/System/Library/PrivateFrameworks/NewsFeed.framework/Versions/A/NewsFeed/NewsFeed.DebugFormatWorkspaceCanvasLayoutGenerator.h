@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceCanvasLayoutGenerator
 {
-    MISSING_TYPE *generator;
-    MISSING_TYPE *bindTasks;
-    MISSING_TYPE *viewTasks;
+    id generator;
+    id bindTasks;
+    id viewTasks;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.TagMastheadSupplementalWeatherView
 {
-    MISSING_TYPE *onTap;
-    MISSING_TYPE *locationLabel;
-    MISSING_TYPE *temperatureLabel;
-    MISSING_TYPE *conditionsIcon;
-    MISSING_TYPE *weatherURL;
-    MISSING_TYPE *delegate;
+    id onTap;
+    id locationLabel;
+    id temperatureLabel;
+    id conditionsIcon;
+    id weatherURL;
+    id delegate;
 }
 
 - (id);

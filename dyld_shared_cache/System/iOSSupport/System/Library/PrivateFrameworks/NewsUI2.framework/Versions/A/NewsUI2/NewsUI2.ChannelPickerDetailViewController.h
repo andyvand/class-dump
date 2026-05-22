@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelPickerDetailViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *model;
-    MISSING_TYPE *pickerType;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id model;
+    id pickerType;
 }
 
 - (void);

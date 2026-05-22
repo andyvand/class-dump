@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.BarcodeDetectionProvider
 {
-    MISSING_TYPE *_cBarcodeDetectionProvider;
-    MISSING_TYPE *_cBarcodeDetectionConfiguration;
-    MISSING_TYPE *anchorUpdateIterators;
-    MISSING_TYPE *anchorQueue;
-    MISSING_TYPE *symbologies;
+    id _cBarcodeDetectionProvider;
+    id _cBarcodeDetectionConfiguration;
+    id anchorUpdateIterators;
+    id anchorQueue;
+    id symbologies;
 }
 
 @end

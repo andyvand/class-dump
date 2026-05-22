@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WorkflowConflictViewController
 {
-    MISSING_TYPE *hostingViewController;
-    MISSING_TYPE *conflict;
-    MISSING_TYPE *delegate;
+    id hostingViewController;
+    id conflict;
+    id delegate;
 }
 
 - (id);

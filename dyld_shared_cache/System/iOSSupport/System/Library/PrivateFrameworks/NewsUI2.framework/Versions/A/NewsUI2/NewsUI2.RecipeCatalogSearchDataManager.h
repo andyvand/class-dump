@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeCatalogSearchDataManager
 {
-    MISSING_TYPE *searchService;
-    MISSING_TYPE *filterResultsProvider;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *delegate;
+    id searchService;
+    id filterResultsProvider;
+    id tagService;
+    id delegate;
 }
 
 @end

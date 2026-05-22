@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.MicaContentView
 {
-    MISSING_TYPE *rootLayer;
-    MISSING_TYPE *animation;
+    id rootLayer;
+    id animation;
 }
 
 - (id);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsNavigationDataManager
 {
-    MISSING_TYPE *backingTag;
-    MISSING_TYPE *sportsGraphManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *sportsNavigationTitleStringBuilder;
+    id backingTag;
+    id sportsGraphManager;
+    id tagService;
+    id sportsNavigationTitleStringBuilder;
 }
 
 @end

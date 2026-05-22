@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerViewController, AVQueuePlayer, MISSING_TYPE, NSArray, NSDictionary, NSNumber, NSString;
+@class AVPlayerViewController, AVQueuePlayer, NSArray, NSDictionary, NSNumber, NSString;
 @protocol MFExternalPlaybackConfigurable, MFPlaybackStackControllerDelegate, MFQueuePlayerItem;
 
 @interface MFPlaybackStackControllerImplementation
 {
     void delegate;
-    MISSING_TYPE *signpostSubscription;
-    MISSING_TYPE *internalStack;
+    id signpostSubscription;
+    id internalStack;
 }
 
 - (void);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedItemPrefetcher
 {
-    MISSING_TYPE *bannerAdViewManager;
-    MISSING_TYPE *bannerAdRequester;
-    MISSING_TYPE *formatImageCache;
-    MISSING_TYPE *boostedImageInterestTokens;
+    id bannerAdViewManager;
+    id bannerAdRequester;
+    id formatImageCache;
+    id boostedImageInterestTokens;
 }
 
 @end

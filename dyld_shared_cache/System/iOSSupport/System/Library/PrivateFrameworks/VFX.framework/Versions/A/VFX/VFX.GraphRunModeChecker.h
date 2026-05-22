@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphRunModeChecker
 {
-    MISSING_TYPE *graph;
-    MISSING_TYPE *diagnostics;
+    id graph;
+    id diagnostics;
 }
 
 @end

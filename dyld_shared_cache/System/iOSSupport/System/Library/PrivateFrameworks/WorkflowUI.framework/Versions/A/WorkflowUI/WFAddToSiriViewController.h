@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WFDatabase, WFWorkflow, _TtC10WorkflowUI35AddToSiriSwiftHostingViewController;
+@class WFDatabase, WFWorkflow, WorkflowUI.AddToSiriSwiftHostingViewController;
 @protocol WFAddToSiriViewControllerDelegate;
 
 @interface WFAddToSiriViewController
@@ -12,7 +12,7 @@
     id <WFAddToSiriViewControllerDelegate> _delegate;
     WFWorkflow *_workflow;
     WFDatabase *_database;
-    _TtC10WorkflowUI35AddToSiriSwiftHostingViewController *_hostedAddToSiriController;
+    WorkflowUI.AddToSiriSwiftHostingViewController *_hostedAddToSiriController;
 }
 
 - (void);
@@ -33,7 +33,7 @@
 // Remaining properties
 @property(retain, nonatomic) WFDatabase *database; // @synthesize database=_database;
 @property(nonatomic) __weak id <WFAddToSiriViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) _TtC10WorkflowUI35AddToSiriSwiftHostingViewController *hostedAddToSiriController; // @synthesize hostedAddToSiriController=_hostedAddToSiriController;
+@property(retain, nonatomic) WorkflowUI.AddToSiriSwiftHostingViewController *hostedAddToSiriController; // @synthesize hostedAddToSiriController=_hostedAddToSiriController;
 @property(readonly, nonatomic) WFWorkflow *workflow; // @synthesize workflow=_workflow;
 
 @end

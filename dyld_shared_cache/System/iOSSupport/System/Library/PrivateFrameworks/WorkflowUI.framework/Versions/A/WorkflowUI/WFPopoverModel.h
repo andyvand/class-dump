@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WFPopoverModel
 {
-    MISSING_TYPE *database;
-    MISSING_TYPE *_iconEditorViewModel;
-    MISSING_TYPE *_sharingPromptModel;
-    MISSING_TYPE *_fileActivityModel;
+    id database;
+    id _iconEditorViewModel;
+    id _sharingPromptModel;
+    id _fileActivityModel;
 }
 
 - (void);

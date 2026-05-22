@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatAttributedString
 {
-    MISSING_TYPE *attributedString;
-    MISSING_TYPE *styles;
-    MISSING_TYPE *baseStyle;
-    MISSING_TYPE *buildType;
+    id attributedString;
+    id styles;
+    id baseStyle;
+    id buildType;
 }
 
 @end

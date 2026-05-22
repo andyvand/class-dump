@@ -6,12 +6,10 @@
 
 #import <VFX/VFX.GraphDiagnostics.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.RenderGraphDiagnostics : VFX.GraphDiagnostics
 {
-    MISSING_TYPE *rendererInfo;
-    MISSING_TYPE *texturePreviewsByNodeID;
+    id rendererInfo;
+    id texturePreviewsByNodeID;
 }
 
 - (void);

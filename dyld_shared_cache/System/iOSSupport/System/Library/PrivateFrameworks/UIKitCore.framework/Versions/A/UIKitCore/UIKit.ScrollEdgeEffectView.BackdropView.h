@@ -6,12 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface UIKit.ScrollEdgeEffectView.BackdropView : UIView
 {
-    MISSING_TYPE *lumaDidChangeHandler;
-    MISSING_TYPE *currentLuma;
+    id lumaDidChangeHandler;
+    id currentLuma;
 }
 
 + (Class);

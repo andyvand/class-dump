@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayFeedServiceConfigFetcher
 {
-    MISSING_TYPE *logName;
-    MISSING_TYPE *configManager;
-    MISSING_TYPE *configTransformer;
-    MISSING_TYPE *paidBundleConfigManager;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *prefetchedTodayConfigFetchResult;
-    MISSING_TYPE *featureAvailability;
+    id logName;
+    id configManager;
+    id configTransformer;
+    id paidBundleConfigManager;
+    id subscriptionController;
+    id sportsOnboardingManager;
+    id prefetchedTodayConfigFetchResult;
+    id featureAvailability;
 }
 
 @end

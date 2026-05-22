@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.WeatherConditionBackgroundModelFactory
 {
-    MISSING_TYPE *gradientManager;
-    MISSING_TYPE *automationEnabled;
-    MISSING_TYPE *isDemoPresetActive;
-    MISSING_TYPE *$__lazy_storage_$_overrideConditionBackground;
+    id gradientManager;
+    id automationEnabled;
+    id isDemoPresetActive;
+    id $__lazy_storage_$_overrideConditionBackground;
 }
 
 @end

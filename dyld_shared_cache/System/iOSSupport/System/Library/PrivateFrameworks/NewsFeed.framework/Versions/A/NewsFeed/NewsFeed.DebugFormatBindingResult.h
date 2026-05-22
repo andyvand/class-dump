@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatBindingResult
 {
-    MISSING_TYPE *content;
-    MISSING_TYPE *bindings;
+    id content;
+    id bindings;
 }
 
 @end

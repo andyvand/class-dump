@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PTImageblockConfig
 {
-    MISSING_TYPE *_scissorRectOffset;
+    id _scissorRectOffset;
     struct ImageBlkOutputOffset _outOffset;
     unsigned long long _imageblockSize;
     CDStruct_da2e99ad _threads;
@@ -16,7 +14,7 @@
 }
 
 + (CDStruct_5f3a0cd7);
-- (MISSING_TYPE *);
+- (id);
 - (struct ImageBlkOutputOffset);
 - (id);
 - (id);
@@ -30,7 +28,7 @@
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long imageblockSize; // @synthesize imageblockSize=_imageblockSize;
 @property(readonly, nonatomic) struct ImageBlkOutputOffset outOffset; // @synthesize outOffset=_outOffset;
-@property(readonly, nonatomic) MISSING_TYPE *scissorRectOffset; // @synthesize scissorRectOffset=_scissorRectOffset;
+@property(readonly, nonatomic) id scissorRectOffset; // @synthesize scissorRectOffset=_scissorRectOffset;
 @property(readonly, nonatomic) CDStruct_da2e99ad threads; // @synthesize threads=_threads;
 @property(readonly, nonatomic) CDStruct_da2e99ad threadsPerGroup; // @synthesize threadsPerGroup=_threadsPerGroup;
 

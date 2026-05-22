@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.SettingsFamilyRelationshipsProvider
 {
-    MISSING_TYPE *dependencies;
-    MISSING_TYPE *_storage;
-    MISSING_TYPE *_data;
-    MISSING_TYPE *_isLoading;
-    MISSING_TYPE *taskQueue;
-    MISSING_TYPE *_valuePublisher;
-    MISSING_TYPE *_$observationRegistrar;
+    id dependencies;
+    id _storage;
+    id _data;
+    id _isLoading;
+    id taskQueue;
+    id _valuePublisher;
+    id _$observationRegistrar;
 }
 
 @end

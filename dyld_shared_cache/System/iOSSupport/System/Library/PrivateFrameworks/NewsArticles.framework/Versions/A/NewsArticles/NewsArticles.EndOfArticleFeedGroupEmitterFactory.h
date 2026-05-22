@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfArticleFeedGroupEmitterFactory
 {
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *issueManager;
-    MISSING_TYPE *historyService;
+    id formatService;
+    id issueManager;
+    id historyService;
 }
 
 @end

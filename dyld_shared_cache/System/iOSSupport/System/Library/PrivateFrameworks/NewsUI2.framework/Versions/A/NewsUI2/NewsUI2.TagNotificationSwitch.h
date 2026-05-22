@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagNotificationSwitch
 {
-    MISSING_TYPE *onValueChanged;
-    MISSING_TYPE *toggleState;
+    id onValueChanged;
+    id toggleState;
 }
 
 - (_Bool);

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.PeerPaymentGroupRecipientPickerModel
 {
-    MISSING_TYPE *validRecipients;
-    MISSING_TYPE *invalidRecipients;
-    MISSING_TYPE *amount;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *controller;
-    MISSING_TYPE *_contentDelegate;
-    MISSING_TYPE *_selectedRecipient;
-    MISSING_TYPE *_$observationRegistrar;
+    id validRecipients;
+    id invalidRecipients;
+    id amount;
+    id _state;
+    id controller;
+    id _contentDelegate;
+    id _selectedRecipient;
+    id _$observationRegistrar;
 }
 
 @end

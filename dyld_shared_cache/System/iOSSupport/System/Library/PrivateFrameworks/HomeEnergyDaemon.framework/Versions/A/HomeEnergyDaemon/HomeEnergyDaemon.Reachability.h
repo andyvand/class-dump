@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.Reachability
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *monitor;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *monitoringTask;
-    MISSING_TYPE *isStopped;
+    id $defaultActor;
+    id monitor;
+    id queue;
+    id delegate;
+    id monitoringTask;
+    id isStopped;
 }
 
 @end

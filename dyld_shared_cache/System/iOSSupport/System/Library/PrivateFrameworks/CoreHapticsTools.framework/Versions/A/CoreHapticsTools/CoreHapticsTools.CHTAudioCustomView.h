@@ -6,11 +6,9 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTBaseView.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTAudioCustomView : CoreHapticsTools.CHTBaseView
 {
-    MISSING_TYPE *event;
+    id event;
 }
 
 - (id);

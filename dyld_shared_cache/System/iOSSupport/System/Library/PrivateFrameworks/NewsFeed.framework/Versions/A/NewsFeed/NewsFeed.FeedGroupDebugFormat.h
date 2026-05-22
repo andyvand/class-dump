@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedGroupDebugFormat
 {
-    MISSING_TYPE *subgroup;
-    MISSING_TYPE *themes;
-    MISSING_TYPE *content;
+    id subgroup;
+    id themes;
+    id content;
 }
 
 @end

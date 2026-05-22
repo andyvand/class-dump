@@ -4,23 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, _TtC3VFX8VFXScene;
-@protocol _TtP3VFX17VFXEffectDelegate_;
+@class NSArray, VFX.VFXScene;
+@protocol VFX.VFXEffectDelegate;
 
 @interface VFX.VFXEffect
 {
-    MISSING_TYPE *effectID;
-    MISSING_TYPE *url;
-    MISSING_TYPE *rootEntity;
-    MISSING_TYPE *entityObject;
+    id effectID;
+    id url;
+    id rootEntity;
+    id entityObject;
     void scene;
-    id <_TtP3VFX17VFXEffectDelegate_> delegate;
-    MISSING_TYPE *name;
+    id <VFX.VFXEffectDelegate> delegate;
+    id name;
     long long version;
-    MISSING_TYPE *onEffectRestartSubject;
-    MISSING_TYPE *cancellables;
-    MISSING_TYPE *_enabled;
-    MISSING_TYPE *_tombstoned;
+    id onEffectRestartSubject;
+    id cancellables;
+    id _enabled;
+    id _tombstoned;
 }
 
 - (void);
@@ -63,12 +63,12 @@
 @property(nonatomic) _Bool allowRemoteEdition;
 @property(nonatomic, readonly) NSArray *bindings;
 @property(nonatomic, readonly) NSArray *cameras;
-@property(nonatomic, retain) id <_TtP3VFX17VFXEffectDelegate_> delegate; // @synthesize delegate;
+@property(nonatomic, retain) id <VFX.VFXEffectDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, readonly) long long identifier;
 @property(nonatomic) _Bool isEnabled;
 @property(nonatomic) _Bool isTombstoned;
 @property(nonatomic, readonly) long long rootObjectID;
-@property(nonatomic) __weak _TtC3VFX8VFXScene *scene; // @synthesize scene;
+@property(nonatomic) __weak VFX.VFXScene *scene; // @synthesize scene;
 @property(nonatomic) long long version; // @synthesize version;
 
 @end

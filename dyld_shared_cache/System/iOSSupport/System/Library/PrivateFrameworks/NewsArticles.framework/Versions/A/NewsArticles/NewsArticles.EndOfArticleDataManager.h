@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfArticleDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *feedService;
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *feedContextFactory;
+    id delegate;
+    id feedServiceConfigFetcher;
+    id feedService;
+    id accessQueue;
+    id feedContextFactory;
 }
 
 - (id);

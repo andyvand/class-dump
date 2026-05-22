@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.MacPresentationManager
 {
-    MISSING_TYPE *logger;
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *coordinator;
-    MISSING_TYPE *mode;
-    MISSING_TYPE *callFilter;
-    MISSING_TYPE *gameOverlayController;
-    MISSING_TYPE *requestedCall;
-    MISSING_TYPE *callsWithAssertion;
-    MISSING_TYPE *callAnsweredAsAudioId;
-    MISSING_TYPE *draggedCallsByID;
-    MISSING_TYPE *showingAddPeople;
-    MISSING_TYPE *authenticated;
-    MISSING_TYPE *wasExplicitlyLaunched;
-    MISSING_TYPE *wantsRecentsWindow;
-    MISSING_TYPE *alerts;
+    id logger;
+    id callCenter;
+    id coordinator;
+    id mode;
+    id callFilter;
+    id gameOverlayController;
+    id requestedCall;
+    id callsWithAssertion;
+    id callAnsweredAsAudioId;
+    id draggedCallsByID;
+    id showingAddPeople;
+    id authenticated;
+    id wasExplicitlyLaunched;
+    id wantsRecentsWindow;
+    id alerts;
 }
 
 - (void);

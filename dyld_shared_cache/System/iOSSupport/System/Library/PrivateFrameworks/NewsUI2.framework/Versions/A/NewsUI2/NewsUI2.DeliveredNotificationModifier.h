@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.DeliveredNotificationModifier
 {
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *articleIdentifiersToRemove;
-    MISSING_TYPE *clusterIdentifiersToRemove;
-    MISSING_TYPE *articleIdentifiersToPenalize;
+    id notificationService;
+    id articleIdentifiersToRemove;
+    id clusterIdentifiersToRemove;
+    id articleIdentifiersToPenalize;
 }
 
 @end

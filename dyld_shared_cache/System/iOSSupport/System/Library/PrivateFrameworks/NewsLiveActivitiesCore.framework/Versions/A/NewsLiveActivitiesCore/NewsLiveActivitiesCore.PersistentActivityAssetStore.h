@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsLiveActivitiesCore.PersistentActivityAssetStore
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *fileSystem;
+    id $defaultActor;
+    id fileSystem;
 }
 
 @end

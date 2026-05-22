@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SharedWithYouTodayFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *knobs;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *sharedItemManager;
-    MISSING_TYPE *name;
+    id config;
+    id knobs;
+    id formatService;
+    id cloudContext;
+    id headlineService;
+    id sharedItemManager;
+    id name;
 }
 
 @end

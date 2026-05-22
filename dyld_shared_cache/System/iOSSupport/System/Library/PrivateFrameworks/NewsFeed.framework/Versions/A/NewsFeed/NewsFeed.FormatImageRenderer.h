@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatImageRenderer
 {
-    MISSING_TYPE *imageCache;
-    MISSING_TYPE *rendererTool;
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *commandCenter;
+    id imageCache;
+    id rendererTool;
+    id assetManager;
+    id commandCenter;
 }
 
 @end

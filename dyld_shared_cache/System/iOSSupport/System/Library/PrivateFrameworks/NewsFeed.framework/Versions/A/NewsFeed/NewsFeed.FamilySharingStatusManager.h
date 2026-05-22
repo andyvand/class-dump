@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FamilySharingStatusManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *cachedFamilyStatus;
-    MISSING_TYPE *lazyStore;
-    MISSING_TYPE *familyStatusStoreKey;
-    MISSING_TYPE *familyEigibilityProvider;
-    MISSING_TYPE *deduper;
-    MISSING_TYPE *dedeuperToken;
+    id delegate;
+    id cachedFamilyStatus;
+    id lazyStore;
+    id familyStatusStoreKey;
+    id familyEigibilityProvider;
+    id deduper;
+    id dedeuperToken;
 }
 
 @end

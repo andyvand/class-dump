@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineSectionsInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *magazinesBadgingCoordinator;
-    MISSING_TYPE *offlineManager;
+    id delegate;
+    id dataManager;
+    id magazinesBadgingCoordinator;
+    id offlineManager;
 }
 
 - (void);

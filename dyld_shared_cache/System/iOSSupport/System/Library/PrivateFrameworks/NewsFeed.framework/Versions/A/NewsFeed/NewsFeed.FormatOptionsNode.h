@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatOptionsNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *_statements;
-    MISSING_TYPE *_children;
-    MISSING_TYPE *flex;
+    id _identifier;
+    id _statements;
+    id _children;
+    id flex;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.GoodMorningStringBuilder
 {
-    MISSING_TYPE *maxWindChillTemperature;
-    MISSING_TYPE *minHeatIndexTemperature;
-    MISSING_TYPE *windChillThreshold;
-    MISSING_TYPE *heatIndexThreshold;
-    MISSING_TYPE *visibilityThreshold;
-    MISSING_TYPE *windSpeedThreshold;
+    id maxWindChillTemperature;
+    id minHeatIndexTemperature;
+    id windChillThreshold;
+    id heatIndexThreshold;
+    id visibilityThreshold;
+    id windSpeedThreshold;
 }
 
 @end

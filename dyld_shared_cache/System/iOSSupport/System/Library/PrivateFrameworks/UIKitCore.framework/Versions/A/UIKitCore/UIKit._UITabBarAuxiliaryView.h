@@ -6,17 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UITabBarAuxiliaryView : UIView
 {
-    MISSING_TYPE *tabBarButton;
-    MISSING_TYPE *minimizedTabButton;
-    MISSING_TYPE *displayState;
-    MISSING_TYPE *minimizedItemSize;
-    MISSING_TYPE *minimizedItemInset;
-    MISSING_TYPE *primaryPlatterView;
-    MISSING_TYPE *minimizedPlatterView;
+    id tabBarButton;
+    id minimizedTabButton;
+    id displayState;
+    id minimizedItemSize;
+    id minimizedItemInset;
+    id primaryPlatterView;
+    id minimizedPlatterView;
 }
 
 - (id);

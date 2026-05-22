@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeRadarReporter
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *recipeCoordinator;
-    MISSING_TYPE *recipeDiagnosticsCollector;
-    MISSING_TYPE *collectEmbedData;
+    id commandCenter;
+    id recipeCoordinator;
+    id recipeDiagnosticsCollector;
+    id collectEmbedData;
 }
 
 - (id);

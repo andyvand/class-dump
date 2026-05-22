@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingSupport.InspectorMetrics
 {
-    MISSING_TYPE *_height;
-    MISSING_TYPE *_$observationRegistrar;
+    id _height;
+    id _$observationRegistrar;
 }
 
 @end

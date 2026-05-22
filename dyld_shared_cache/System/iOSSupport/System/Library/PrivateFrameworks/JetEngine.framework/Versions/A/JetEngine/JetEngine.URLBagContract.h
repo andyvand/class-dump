@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol AMSMescalBagContract, AMSMetricsBagContract;
 
 @interface JetEngine.URLBagContract
 {
-    MISSING_TYPE *backing;
+    id backing;
     id <AMSMescalBagContract> mescalContract;
 }
 

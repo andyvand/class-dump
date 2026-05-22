@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingNotificationsViewSupplementaryViewProvider
 {
-    MISSING_TYPE *followingHeaderViewRenderer;
-    MISSING_TYPE *followingFooterViewRenderer;
-    MISSING_TYPE *followingNotificationsDisabledViewRenderer;
-    MISSING_TYPE *messageHeaderRenderer;
-    MISSING_TYPE *delegate;
+    id followingHeaderViewRenderer;
+    id followingFooterViewRenderer;
+    id followingNotificationsDisabledViewRenderer;
+    id messageHeaderRenderer;
+    id delegate;
 }
 
 @end

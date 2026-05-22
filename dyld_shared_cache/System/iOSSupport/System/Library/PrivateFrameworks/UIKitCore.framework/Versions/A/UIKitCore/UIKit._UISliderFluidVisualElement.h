@@ -6,35 +6,35 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE, UISlider, UISliderDataModel;
+@class UISlider, UISliderDataModel;
 
 @interface UIKit._UISliderFluidVisualElement : UIView
 {
     void slider;
     UISliderDataModel *data;
-    MISSING_TYPE *clipView;
-    MISSING_TYPE *barView;
-    MISSING_TYPE *trackView;
-    MISSING_TYPE *tickViews;
-    MISSING_TYPE *tickView;
-    MISSING_TYPE *barEffectView;
-    MISSING_TYPE *leftTrackEffectView;
-    MISSING_TYPE *rightTrackEffectView;
-    MISSING_TYPE *minimumView;
-    MISSING_TYPE *maximumView;
-    MISSING_TYPE *usingSliderStyling;
-    MISSING_TYPE *lastUpdate;
-    MISSING_TYPE *hasPlayedBounceForCurrentValue;
+    id clipView;
+    id barView;
+    id trackView;
+    id tickViews;
+    id tickView;
+    id barEffectView;
+    id leftTrackEffectView;
+    id rightTrackEffectView;
+    id minimumView;
+    id maximumView;
+    id usingSliderStyling;
+    id lastUpdate;
+    id hasPlayedBounceForCurrentValue;
     _Bool changeWithVolumeButtons;
-    MISSING_TYPE *fluidInteraction;
-    MISSING_TYPE *expansionGesture;
-    MISSING_TYPE *isInteractivelyChanging;
-    MISSING_TYPE *interactiveChangeState;
-    MISSING_TYPE *paddingAroundImage;
-    MISSING_TYPE *defaultExpansionFactor;
-    MISSING_TYPE *defaultHorizontalExpansionFactor;
-    MISSING_TYPE *disabledAlpha;
-    MISSING_TYPE *acceleratedThumbFillRange;
+    id fluidInteraction;
+    id expansionGesture;
+    id isInteractivelyChanging;
+    id interactiveChangeState;
+    id paddingAroundImage;
+    id defaultExpansionFactor;
+    id defaultHorizontalExpansionFactor;
+    id disabledAlpha;
+    id acceleratedThumbFillRange;
     unsigned long long fluidUpdateSource;
 }
 

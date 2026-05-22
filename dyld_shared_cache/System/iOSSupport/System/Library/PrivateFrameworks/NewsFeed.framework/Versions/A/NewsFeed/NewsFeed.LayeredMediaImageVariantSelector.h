@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.LayeredMediaImageVariantSelector
 {
-    MISSING_TYPE *layeredMediaSelector;
+    id layeredMediaSelector;
 }
 
 @end

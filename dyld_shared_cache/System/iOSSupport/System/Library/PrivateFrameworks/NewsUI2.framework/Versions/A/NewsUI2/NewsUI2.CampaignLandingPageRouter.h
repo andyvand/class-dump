@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.CampaignLandingPageRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *linkHandler;
-    MISSING_TYPE *actionHandler;
+    id controller;
+    id resolver;
+    id tracker;
+    id linkHandler;
+    id actionHandler;
 }
 
 @end

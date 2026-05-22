@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.XcodeCommandBuilder
 {
-    MISSING_TYPE *xcinfo;
-    MISSING_TYPE *target;
-    MISSING_TYPE *debug;
-    MISSING_TYPE *frameworksToLink;
-    MISSING_TYPE *librariesToLink;
-    MISSING_TYPE *includePaths;
-    MISSING_TYPE *swiftFlags;
-    MISSING_TYPE *cFlags;
+    id xcinfo;
+    id target;
+    id debug;
+    id frameworksToLink;
+    id librariesToLink;
+    id includePaths;
+    id swiftFlags;
+    id cFlags;
 }
 
 @end

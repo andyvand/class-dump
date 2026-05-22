@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.UIFlowNode
 {
-    MISSING_TYPE *flowItem;
-    MISSING_TYPE *state;
-    MISSING_TYPE *environment;
-    MISSING_TYPE *view;
-    MISSING_TYPE *isShowingLoadingUI;
-    MISSING_TYPE *wasDynamicallyInserted;
-    MISSING_TYPE *parent;
-    MISSING_TYPE *knownChildren;
-    MISSING_TYPE *originator;
-    MISSING_TYPE *isValid;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *$__lazy_storage_$_presentationConfiguration;
-    MISSING_TYPE *$__lazy_storage_$_dismissalConfiguration;
-    MISSING_TYPE *modifierConfiguration;
+    id flowItem;
+    id state;
+    id environment;
+    id view;
+    id isShowingLoadingUI;
+    id wasDynamicallyInserted;
+    id parent;
+    id knownChildren;
+    id originator;
+    id isValid;
+    id renderer;
+    id $__lazy_storage_$_presentationConfiguration;
+    id $__lazy_storage_$_dismissalConfiguration;
+    id modifierConfiguration;
 }
 
 @end

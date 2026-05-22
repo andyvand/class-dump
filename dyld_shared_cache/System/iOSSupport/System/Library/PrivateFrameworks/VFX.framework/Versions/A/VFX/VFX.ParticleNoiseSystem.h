@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleNoiseSystem
 {
-    MISSING_TYPE *velQuery;
-    MISSING_TYPE *posVelQuery;
+    id velQuery;
+    id posVelQuery;
 }
 
 @end

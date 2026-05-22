@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.RemoteJetpackFetcher
 {
-    MISSING_TYPE *remoteFetcher;
-    MISSING_TYPE *artifactStoreURL;
+    id remoteFetcher;
+    id artifactStoreURL;
 }
 
 @end

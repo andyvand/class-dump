@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UISceneHostGeometryHandle
 {
-    MISSING_TYPE *isHandleValid;
-    MISSING_TYPE *frame;
-    MISSING_TYPE *safeAreaInsets;
-    MISSING_TYPE *cornerRadiusConfiguration;
-    MISSING_TYPE *interfaceOrientation;
-    MISSING_TYPE *orientationMode;
-    MISSING_TYPE *orientationMapResolver;
-    MISSING_TYPE *targetScene;
-    MISSING_TYPE *isBatchingUpdates;
+    id isHandleValid;
+    id frame;
+    id safeAreaInsets;
+    id cornerRadiusConfiguration;
+    id interfaceOrientation;
+    id orientationMode;
+    id orientationMapResolver;
+    id targetScene;
+    id isBatchingUpdates;
 }
 
 @end

@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleHintAccessoryView
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *externalHorizontalPadding;
-    MISSING_TYPE *height;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *puzzleComponentsStyler;
-    MISSING_TYPE *leftButton;
-    MISSING_TYPE *rightButton;
-    MISSING_TYPE *hintButton;
-    MISSING_TYPE *keyboardButton;
-    MISSING_TYPE *colorTheme;
-    MISSING_TYPE *hintConfig;
-    MISSING_TYPE *lastUsedWidth;
-    MISSING_TYPE *lastUsedContentSizeCategory;
-    MISSING_TYPE *buttonLength;
-    MISSING_TYPE *minHeight;
-    MISSING_TYPE *horizOuterPadding;
-    MISSING_TYPE *hintPadding;
-    MISSING_TYPE *arrowsSpacing;
+    id identifier;
+    id externalHorizontalPadding;
+    id height;
+    id sceneProvider;
+    id puzzleComponentsStyler;
+    id leftButton;
+    id rightButton;
+    id hintButton;
+    id keyboardButton;
+    id colorTheme;
+    id hintConfig;
+    id lastUsedWidth;
+    id lastUsedContentSizeCategory;
+    id buttonLength;
+    id minHeight;
+    id horizOuterPadding;
+    id hintPadding;
+    id arrowsSpacing;
 }
 
 - (id);

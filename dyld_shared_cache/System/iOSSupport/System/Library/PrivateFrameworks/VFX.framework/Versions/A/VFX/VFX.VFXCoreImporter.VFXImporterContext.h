@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VFXCoreImporter.VFXImporterContext
 {
-    MISSING_TYPE *meshCache;
-    MISSING_TYPE *materialCache;
-    MISSING_TYPE *dataCache;
-    MISSING_TYPE *textureCache;
-    MISSING_TYPE *animations;
-    MISSING_TYPE *modelCount;
-    MISSING_TYPE *topLevelObjects;
+    id meshCache;
+    id materialCache;
+    id dataCache;
+    id textureCache;
+    id animations;
+    id modelCount;
+    id topLevelObjects;
 }
 
 @end

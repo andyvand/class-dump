@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSMutableDictionary, NSString, VFXCameraEffectBloom, VFXCameraEffectChromaticTransform, VFXCameraEffectColorFringe, VFXCameraEffectColorGrading, VFXCameraEffectDepthOfField, VFXCameraEffectDoughnutBokeh, VFXCameraEffectExposure, VFXCameraEffectGrain, VFXCameraEffectLensBlur, VFXCameraEffectMotionBlur, VFXCameraEffectToneMapping, VFXCameraEffectVignetting, VFXOrderedDictionary, VFXWorld;
+@class NSMutableDictionary, NSString, VFXCameraEffectBloom, VFXCameraEffectChromaticTransform, VFXCameraEffectColorFringe, VFXCameraEffectColorGrading, VFXCameraEffectDepthOfField, VFXCameraEffectDoughnutBokeh, VFXCameraEffectExposure, VFXCameraEffectGrain, VFXCameraEffectLensBlur, VFXCameraEffectMotionBlur, VFXCameraEffectToneMapping, VFXCameraEffectVignetting, VFXOrderedDictionary, VFXWorld;
 
 @interface VFXCamera
 {
@@ -26,12 +26,12 @@
     float _fieldOfView;
     float _focalLength;
     float _sensorSize;
-    MISSING_TYPE *_filmOffset;
-    MISSING_TYPE *_postProjectionTransformTranslation;
-    MISSING_TYPE *_postProjectionTransformScale;
+    id _filmOffset;
+    id _postProjectionTransformTranslation;
+    id _postProjectionTransformScale;
     float _focusDistance;
     unsigned long long _categoryBitMask;
-    CDStruct_14d5dc5e _projectionTransform;
+    CDStruct_95fa7c00 _projectionTransform;
     VFXCameraEffectDepthOfField *_depthOfField;
     VFXCameraEffectMotionBlur *_motionBlur;
     VFXCameraEffectGrain *_grain;

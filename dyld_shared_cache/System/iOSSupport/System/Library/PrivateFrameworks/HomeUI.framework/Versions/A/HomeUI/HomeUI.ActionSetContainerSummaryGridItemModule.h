@@ -6,12 +6,10 @@
 
 #import <HomeUI/HUActionSetItemModule.h>
 
-@class MISSING_TYPE;
-
 @interface HomeUI.ActionSetContainerSummaryGridItemModule : HUActionSetItemModule
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *actionSetBuilderContainer;
+    id config;
+    id actionSetBuilderContainer;
 }
 
 - (id);

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzlePrewarmer
 {
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *networkReachability;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *featureAvailability;
+    id configurationManager;
+    id networkReachability;
+    id bundleSubscriptionManager;
+    id puzzleService;
+    id puzzleHistoryService;
+    id puzzleStatsService;
+    id featureAvailability;
 }
 
 - (id);

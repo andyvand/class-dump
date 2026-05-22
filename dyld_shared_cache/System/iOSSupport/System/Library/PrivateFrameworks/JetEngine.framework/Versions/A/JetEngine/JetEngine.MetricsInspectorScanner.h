@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.MetricsInspectorScanner
 {
-    MISSING_TYPE *serviceBrowser;
-    MISSING_TYPE *stateLock;
-    MISSING_TYPE *foundServices;
+    id serviceBrowser;
+    id stateLock;
+    id foundServices;
 }
 
 - (void);

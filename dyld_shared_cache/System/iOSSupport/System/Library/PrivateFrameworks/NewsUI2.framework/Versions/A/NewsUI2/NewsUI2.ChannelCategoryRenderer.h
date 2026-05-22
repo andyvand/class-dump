@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelCategoryRenderer
 {
-    MISSING_TYPE *imageApplier;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *iconImageCache;
+    id imageApplier;
+    id styler;
+    id iconImageCache;
 }
 
 @end

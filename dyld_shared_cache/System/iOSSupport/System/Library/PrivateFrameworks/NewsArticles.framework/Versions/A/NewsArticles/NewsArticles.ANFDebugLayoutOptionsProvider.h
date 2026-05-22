@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ANFDebugLayoutOptionsProvider
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *anfOverrides;
+    id observers;
+    id anfOverrides;
 }
 
 - (struct CGSize);

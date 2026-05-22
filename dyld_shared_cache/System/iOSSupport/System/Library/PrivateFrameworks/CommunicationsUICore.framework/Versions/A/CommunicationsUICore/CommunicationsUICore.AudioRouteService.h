@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.AudioRouteService
 {
-    MISSING_TYPE *logger;
-    MISSING_TYPE *pickedRouteSubject;
-    MISSING_TYPE *routesSubject;
-    MISSING_TYPE *cancellables;
-    MISSING_TYPE *modelIconCache;
-    MISSING_TYPE *routeController;
-    MISSING_TYPE *$__lazy_storage_$_routeDelegate;
+    id logger;
+    id pickedRouteSubject;
+    id routesSubject;
+    id cancellables;
+    id modelIconCache;
+    id routeController;
+    id $__lazy_storage_$_routeDelegate;
 }
 
 - (id);

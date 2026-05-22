@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.InputEvent
 {
-    MISSING_TYPE *type;
-    MISSING_TYPE *state;
-    MISSING_TYPE *phase;
-    MISSING_TYPE *momentumPhase;
-    MISSING_TYPE *sourceIdentifier;
-    MISSING_TYPE *locationInWindow;
-    MISSING_TYPE *locationInView;
-    MISSING_TYPE *isMouseInView;
-    MISSING_TYPE *buttonNumber;
-    MISSING_TYPE *characters;
-    MISSING_TYPE *delta;
-    MISSING_TYPE *keyCode;
-    MISSING_TYPE *isRepeat;
-    MISSING_TYPE *keyModifiers;
-    MISSING_TYPE *isDirectionInvertedFromDevice;
-    MISSING_TYPE *touchCount;
+    id type;
+    id state;
+    id phase;
+    id momentumPhase;
+    id sourceIdentifier;
+    id locationInWindow;
+    id locationInView;
+    id isMouseInView;
+    id buttonNumber;
+    id characters;
+    id delta;
+    id keyCode;
+    id isRepeat;
+    id keyModifiers;
+    id isDirectionInvertedFromDevice;
+    id touchCount;
 }
 
 @end

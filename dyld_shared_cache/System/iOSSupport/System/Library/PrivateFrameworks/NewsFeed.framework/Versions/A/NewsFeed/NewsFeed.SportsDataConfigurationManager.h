@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsDataConfigurationManager
 {
-    MISSING_TYPE *configService;
-    MISSING_TYPE *_configuration;
-    MISSING_TYPE *_previousConfiguration;
-    MISSING_TYPE *fetchDeduper;
+    id configService;
+    id _configuration;
+    id _previousConfiguration;
+    id fetchDeduper;
 }
 
 @end

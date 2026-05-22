@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.IconRoundButtonView
 {
-    MISSING_TYPE *iconConstraints;
-    MISSING_TYPE *iconDescriptor;
-    MISSING_TYPE *useIntrinsicContentSizeFromAsset;
-    MISSING_TYPE *dimension;
-    MISSING_TYPE *iconView;
-    MISSING_TYPE *backgroundView;
+    id iconConstraints;
+    id iconDescriptor;
+    id useIntrinsicContentSizeFromAsset;
+    id dimension;
+    id iconView;
+    id backgroundView;
 }
 
 - (id);

@@ -6,22 +6,20 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTLayer.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTAudioLayer : CoreHapticsTools.CHTLayer
 {
-    MISSING_TYPE *timeDomainParameterPointsForAudioEvents;
-    MISSING_TYPE *contextSizedPathsForAudioEvents;
-    MISSING_TYPE *timeAudioEventsProcessingQueue;
-    MISSING_TYPE *audioEventPathProcessingQueue;
-    MISSING_TYPE *containerPathLookup;
-    MISSING_TYPE *paramTypeForLayer;
-    MISSING_TYPE *pathDrawingMode;
-    MISSING_TYPE *audioDrawingMode;
-    MISSING_TYPE *drawingSampleWidth;
-    MISSING_TYPE *binFill;
-    MISSING_TYPE *minAudioHeight;
-    MISSING_TYPE *eventHitTolerance;
+    id timeDomainParameterPointsForAudioEvents;
+    id contextSizedPathsForAudioEvents;
+    id timeAudioEventsProcessingQueue;
+    id audioEventPathProcessingQueue;
+    id containerPathLookup;
+    id paramTypeForLayer;
+    id pathDrawingMode;
+    id audioDrawingMode;
+    id drawingSampleWidth;
+    id binFill;
+    id minAudioHeight;
+    id eventHitTolerance;
 }
 
 - (id);

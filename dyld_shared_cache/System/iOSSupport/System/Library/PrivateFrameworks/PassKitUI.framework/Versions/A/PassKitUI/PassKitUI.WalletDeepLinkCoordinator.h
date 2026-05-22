@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.WalletDeepLinkCoordinator
 {
-    MISSING_TYPE *_shouldNavigateToAddPass;
-    MISSING_TYPE *_passUniqueIDToDisplay;
-    MISSING_TYPE *_shouldNavigateToFPANImportConsent;
-    MISSING_TYPE *_shouldNavigateToAutoFillPane;
-    MISSING_TYPE *_shouldNavigateToVirtualCardUpgrade;
+    id _shouldNavigateToAddPass;
+    id _passUniqueIDToDisplay;
+    id _shouldNavigateToFPANImportConsent;
+    id _shouldNavigateToAutoFillPane;
+    id _shouldNavigateToVirtualCardUpgrade;
 }
 
 @end

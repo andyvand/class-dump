@@ -17,7 +17,7 @@
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (CDStruct_8e0628e6);
+- (CDStruct_1fe29af2);
 - (id);
 - (void);
 - (unsigned int);

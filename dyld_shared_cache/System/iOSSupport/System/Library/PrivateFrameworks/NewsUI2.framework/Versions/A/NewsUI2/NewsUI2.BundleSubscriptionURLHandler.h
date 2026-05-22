@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.BundleSubscriptionURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *magazineActivityNavigator;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *landingPageDecider;
-    MISSING_TYPE *offerManager;
+    id patterns;
+    id magazineActivityNavigator;
+    id configurationManager;
+    id landingPageDecider;
+    id offerManager;
 }
 
 @end

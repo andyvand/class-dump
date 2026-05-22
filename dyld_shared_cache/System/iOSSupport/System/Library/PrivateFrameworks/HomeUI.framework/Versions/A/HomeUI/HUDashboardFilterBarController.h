@@ -6,18 +6,18 @@
 
 #import <HomeUI/HUControllableItemCollectionViewController.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 @protocol HUDashboardFilterBarDelegate;
 
 @interface HUDashboardFilterBarController : HUControllableItemCollectionViewController
 {
     void delegate;
     void contextTypeDescriptionForAnalytics;
-    MISSING_TYPE *layoutConstraints;
-    MISSING_TYPE *$__lazy_storage_$_heightConstraint;
-    MISSING_TYPE *preferredHeight;
-    MISSING_TYPE *$__lazy_storage_$_blurGroupingEffectView;
-    MISSING_TYPE *_layoutOptions;
+    id layoutConstraints;
+    id $__lazy_storage_$_heightConstraint;
+    id preferredHeight;
+    id $__lazy_storage_$_blurGroupingEffectView;
+    id _layoutOptions;
 }
 
 - (void);

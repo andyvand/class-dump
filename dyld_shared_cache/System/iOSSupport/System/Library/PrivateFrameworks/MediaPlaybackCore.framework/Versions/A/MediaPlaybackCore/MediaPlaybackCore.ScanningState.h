@@ -6,15 +6,13 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.State.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.ScanningState : MediaPlaybackCore.State
 {
-    MISSING_TYPE *direction;
-    MISSING_TYPE *resumeRate;
-    MISSING_TYPE *metadata;
-    MISSING_TYPE *isStalled;
-    MISSING_TYPE *supportsRateChange;
+    id direction;
+    id resumeRate;
+    id metadata;
+    id isStalled;
+    id supportsRateChange;
 }
 
 @end

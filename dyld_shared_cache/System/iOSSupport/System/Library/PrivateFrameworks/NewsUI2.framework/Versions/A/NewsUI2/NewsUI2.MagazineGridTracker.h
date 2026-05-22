@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineGridTracker
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *magazineGridModelLoader;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *contentAvailabilityValidator;
+    id tracker;
+    id channelDataFactory;
+    id magazineGridModelLoader;
+    id newsActivityManager;
+    id contentAvailabilityValidator;
 }
 
 @end

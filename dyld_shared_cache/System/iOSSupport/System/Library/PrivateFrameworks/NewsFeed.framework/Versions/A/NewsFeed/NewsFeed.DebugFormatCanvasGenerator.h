@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatCanvasGenerator
 {
-    MISSING_TYPE *canvasRenderQueue;
-    MISSING_TYPE *editor;
+    id canvasRenderQueue;
+    id editor;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsDataVisualizationAllRequest
 {
-    MISSING_TYPE *content;
-    MISSING_TYPE *includeFeaturedEvents;
-    MISSING_TYPE *affinityTagIds;
-    MISSING_TYPE *traits;
+    id content;
+    id includeFeaturedEvents;
+    id affinityTagIds;
+    id traits;
 }
 
 @end

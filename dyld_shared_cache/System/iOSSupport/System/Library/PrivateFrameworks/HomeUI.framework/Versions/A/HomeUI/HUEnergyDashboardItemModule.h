@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HUEnergyDashboardItemModule
 {
-    MISSING_TYPE *dashboardContext;
-    MISSING_TYPE *home;
+    id dashboardContext;
+    id home;
 }
 
 - (id);

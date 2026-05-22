@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.ShortcutMoveService
 {
-    MISSING_TYPE *database;
-    MISSING_TYPE *undoManager;
+    id database;
+    id undoManager;
 }
 
 @end

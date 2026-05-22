@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface MediaPlaybackCore._MPCSessionMigrationTimeContinuity
 {
-    MISSING_TYPE *playbackRate;
-    MISSING_TYPE *referencePosition;
-    MISSING_TYPE *referenceTime;
-    MISSING_TYPE *scheduledRateChangeTime;
-    MISSING_TYPE *isLive;
+    id playbackRate;
+    id referencePosition;
+    id referenceTime;
+    id scheduledRateChangeTime;
+    id isLive;
 }
 
 - (id);

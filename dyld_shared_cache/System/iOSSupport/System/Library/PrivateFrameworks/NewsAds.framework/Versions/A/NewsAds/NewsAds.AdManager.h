@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.AdManager
 {
-    MISSING_TYPE *_adsEnabled;
-    MISSING_TYPE *previewQueue;
-    MISSING_TYPE *promotedContentContextFactory;
-    MISSING_TYPE *adProviderFactories;
-    MISSING_TYPE *reusableContexts;
-    MISSING_TYPE *prewarmingContexts;
+    id _adsEnabled;
+    id previewQueue;
+    id promotedContentContextFactory;
+    id adProviderFactories;
+    id reusableContexts;
+    id prewarmingContexts;
 }
 
 @end

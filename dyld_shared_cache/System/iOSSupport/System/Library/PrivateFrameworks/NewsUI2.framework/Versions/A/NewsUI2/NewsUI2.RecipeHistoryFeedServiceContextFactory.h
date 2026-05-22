@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeHistoryFeedServiceContextFactory
 {
-    MISSING_TYPE *recipeHistory;
-    MISSING_TYPE *appConfigManager;
+    id recipeHistory;
+    id appConfigManager;
 }
 
 @end

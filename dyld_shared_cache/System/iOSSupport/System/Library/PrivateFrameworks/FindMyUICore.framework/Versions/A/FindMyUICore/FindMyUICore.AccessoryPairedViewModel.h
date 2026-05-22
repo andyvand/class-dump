@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.AccessoryPairedViewModel
 {
-    MISSING_TYPE *_subtitle;
-    MISSING_TYPE *_description;
-    MISSING_TYPE *_icon;
-    MISSING_TYPE *onboardingSession;
-    MISSING_TYPE *accessory;
-    MISSING_TYPE *pairingLocation;
-    MISSING_TYPE *_processCompletedHandler;
-    MISSING_TYPE *_shouldShowAlert;
-    MISSING_TYPE *_$observationRegistrar;
+    id _subtitle;
+    id _description;
+    id _icon;
+    id onboardingSession;
+    id accessory;
+    id pairingLocation;
+    id _processCompletedHandler;
+    id _shouldShowAlert;
+    id _$observationRegistrar;
 }
 
 - (void);

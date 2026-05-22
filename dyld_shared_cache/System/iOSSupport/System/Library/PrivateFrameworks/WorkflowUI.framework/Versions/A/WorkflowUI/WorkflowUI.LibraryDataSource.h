@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.LibraryDataSource
 {
-    MISSING_TYPE *observedResults;
-    MISSING_TYPE *database;
-    MISSING_TYPE *libraryDelegate;
-    MISSING_TYPE *searchPredicate;
-    MISSING_TYPE *_selectedWorkflowIds;
-    MISSING_TYPE *canChangeLayoutModes;
-    MISSING_TYPE *_layoutMode;
-    MISSING_TYPE *_isEditing;
-    MISSING_TYPE *shortcutMoveService;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *_sortedSections;
-    MISSING_TYPE *sortOrderComparators;
-    MISSING_TYPE *onSortComparatorChanged;
-    MISSING_TYPE *observeChanges;
+    id observedResults;
+    id database;
+    id libraryDelegate;
+    id searchPredicate;
+    id _selectedWorkflowIds;
+    id canChangeLayoutModes;
+    id _layoutMode;
+    id _isEditing;
+    id shortcutMoveService;
+    id sections;
+    id _sortedSections;
+    id sortOrderComparators;
+    id onSortComparatorChanged;
+    id observeChanges;
 }
 
 - (void);

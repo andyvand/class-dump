@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.NavigationBarPlatterContainer.AnimationScheduler
 {
-    MISSING_TYPE *nextID;
-    MISSING_TYPE *pendingTasks;
+    id nextID;
+    id pendingTasks;
 }
 
 @end

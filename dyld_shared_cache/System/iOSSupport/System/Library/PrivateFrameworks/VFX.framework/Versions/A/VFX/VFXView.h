@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioEngine, AVAudioEnvironmentNode, CAMetalLayer, MTLRenderPassDescriptor, NSArray, NSString, UIColor, VFXCameraController, VFXDisplayLink, VFXJitterer, VFXNode, VFXRecursiveLock, VFXRenderGraph, VFXRenderer, VFXWorld, _TtC3VFX13VFXViewLegacy;
+@class AVAudioEngine, AVAudioEnvironmentNode, CAMetalLayer, MTLRenderPassDescriptor, NSArray, NSString, UIColor, VFX.VFXViewLegacy, VFXCameraController, VFXDisplayLink, VFXJitterer, VFXNode, VFXRecursiveLock, VFXRenderGraph, VFXRenderer, VFXWorld;
 @protocol MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder, VFXCameraControlConfiguration, VFXEventHandler, VFXWorldRendererDelegate;
 
 @interface VFXView
@@ -47,7 +47,7 @@
     _Bool _imguiHandleMouseDown;
     id <MTLDevice> _device;
     NSArray *_controllerGestureRecognizers;
-    _TtC3VFX13VFXViewLegacy *_legacyView;
+    VFX.VFXViewLegacy *_legacyView;
 }
 
 + (_Bool);

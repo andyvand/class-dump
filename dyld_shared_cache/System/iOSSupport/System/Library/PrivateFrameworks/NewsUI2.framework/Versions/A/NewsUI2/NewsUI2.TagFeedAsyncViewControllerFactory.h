@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedAsyncViewControllerFactory
 {
-    MISSING_TYPE *tagFeedViewerViewControllerFactory;
-    MISSING_TYPE *tagFeedViewControllerFactory;
+    id tagFeedViewerViewControllerFactory;
+    id tagFeedViewControllerFactory;
 }
 
 @end

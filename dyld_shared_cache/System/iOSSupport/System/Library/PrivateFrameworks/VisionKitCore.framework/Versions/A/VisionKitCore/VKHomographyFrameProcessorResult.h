@@ -8,14 +8,14 @@
 
 @interface VKHomographyFrameProcessorResult : VKFrameProcessorResult
 {
-    CDStruct_8e0628e6 _warpTransform;
+    CDStruct_1fe29af2 _warpTransform;
 }
 
-- (CDStruct_8e0628e6);
+- (CDStruct_1fe29af2);
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_8e0628e6 warpTransform; // @synthesize warpTransform=_warpTransform;
+@property(nonatomic) CDStruct_1fe29af2 warpTransform; // @synthesize warpTransform=_warpTransform;
 
 @end
 

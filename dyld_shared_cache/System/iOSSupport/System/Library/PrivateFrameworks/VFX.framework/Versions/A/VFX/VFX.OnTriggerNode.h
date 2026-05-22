@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.OnTriggerNode : VFX.Node
 {
-    MISSING_TYPE *eventType;
+    id eventType;
 }
 
 @end

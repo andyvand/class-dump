@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString;
+@class NSArray, NSString;
 @protocol MPCQueueControllerBehaviorHost;
 
 @interface _MPCQueueControllerBehaviorPodcasts
 {
-    MISSING_TYPE *managedQueue;
-    MISSING_TYPE *podcastsMediaLibrary;
-    MISSING_TYPE *nextRequest;
-    MISSING_TYPE *contentItemIDsMap;
-    MISSING_TYPE *lastEmittedBehaviorMetadata;
-    MISSING_TYPE *queueRestorationSnapshot;
-    MISSING_TYPE *restorationTrackIdentifiers;
-    MISSING_TYPE *restorationTailInsertionContentIdentifier;
-    MISSING_TYPE *activePlaybackContext;
+    id managedQueue;
+    id podcastsMediaLibrary;
+    id nextRequest;
+    id contentItemIDsMap;
+    id lastEmittedBehaviorMetadata;
+    id queueRestorationSnapshot;
+    id restorationTrackIdentifiers;
+    id restorationTailInsertionContentIdentifier;
+    id activePlaybackContext;
     _Bool hasUserMutations;
     _Bool allowsQueueModifications;
     void sessionID;

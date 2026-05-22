@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagHighlightsService
 {
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *sportsEventController;
-    MISSING_TYPE *subscriptionsController;
-    MISSING_TYPE *sportsHeadlinesSorter;
-    MISSING_TYPE *cloudContext;
+    id headlineService;
+    id tagService;
+    id sportsEventController;
+    id subscriptionsController;
+    id sportsHeadlinesSorter;
+    id cloudContext;
 }
 
 @end

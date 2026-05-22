@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ProxyAuthenticationKeyManager
 {
-    MISSING_TYPE *endpointConnection;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *deduper;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *key;
-    MISSING_TYPE *session;
+    id endpointConnection;
+    id configurationManager;
+    id deduper;
+    id lock;
+    id key;
+    id session;
 }
 
 - (void);

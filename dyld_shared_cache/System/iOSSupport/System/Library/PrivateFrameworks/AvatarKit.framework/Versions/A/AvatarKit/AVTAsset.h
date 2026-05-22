@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
     NSDictionary *_layers;
     NSDictionary *_wrapDeformerDriverNames;
     NSDictionary *_perAssetMain;
-    CDStruct_10883d13 _uvRemappingInfo;
+    CDStruct_ccff9734 _uvRemappingInfo;
 }
 
 - (id);
@@ -41,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (id);
-- (CDStruct_10883d13);
+- (CDStruct_ccff9734);
 - (id);
 - (void);
 - (id);
@@ -59,7 +59,7 @@ __attribute__((visibility("hidden")))
 @property(readonly) _Bool is3DAsset;
 @property(readonly) NSDictionary *layers; // @synthesize layers=_layers;
 @property(readonly) NSDictionary *specializationSettings; // @synthesize specializationSettings=_specializationSettings;
-@property(readonly) CDStruct_10883d13 uvRemappingInfo; // @synthesize uvRemappingInfo=_uvRemappingInfo;
+@property(readonly) CDStruct_ccff9734 uvRemappingInfo; // @synthesize uvRemappingInfo=_uvRemappingInfo;
 
 @end
 

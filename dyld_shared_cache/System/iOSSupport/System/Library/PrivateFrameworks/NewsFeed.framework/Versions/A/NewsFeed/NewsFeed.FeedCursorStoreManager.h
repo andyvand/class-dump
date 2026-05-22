@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedCursorStoreManager
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *cursorStores;
+    id lock;
+    id cursorStores;
 }
 
 @end

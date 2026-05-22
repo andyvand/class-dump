@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.FindMyLocateSession
 {
     void meDeviceUpdateCallback;
-    MISSING_TYPE *session;
-    MISSING_TYPE *preferenceChangesTask;
+    id session;
+    id preferenceChangesTask;
 }
 
 - (void);

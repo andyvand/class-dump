@@ -4,28 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSLock, NSMutableArray, NSMutableIndexSet, NSOrderedSet, VFXAuthoringEnvironment, VFXBillboardConstraint, VFXNode;
+@class NSLock, NSMutableArray, NSMutableIndexSet, NSOrderedSet, VFXAuthoringEnvironment, VFXBillboardConstraint, VFXNode;
 
 @interface VFXManipulator
 {
     VFXAuthoringEnvironment *_authoringEnvironment;
     NSOrderedSet *_targets;
     VFXNode *_node;
-    CDStruct_14d5dc5e _xAxisToZAxisTransform;
-    CDStruct_14d5dc5e _yAxisToZAxisTransform;
-    CDStruct_14d5dc5e _xyPlaneToYZPlaneTransform;
-    CDStruct_14d5dc5e _xyPlaneToXZPlaneTransform;
+    CDStruct_95fa7c00 _xAxisToZAxisTransform;
+    CDStruct_95fa7c00 _yAxisToZAxisTransform;
+    CDStruct_95fa7c00 _xyPlaneToYZPlaneTransform;
+    CDStruct_95fa7c00 _xyPlaneToXZPlaneTransform;
     unsigned short _selectedAxis;
     union {
         struct {
-            MISSING_TYPE *originalPosition__axisDirection__mouseDeltaVector;
+            id originalPosition__axisDirection__mouseDeltaVector;
         } axisMove;
         struct {
-            MISSING_TYPE *originalPosition__planeNormal__pointInPlane__mouseDeltaVector;
+            id originalPosition__planeNormal__pointInPlane__mouseDeltaVector;
         } planeMove;
         struct {
             float rotationSign;
-            MISSING_TYPE *originalRotation;
+            id originalRotation;
         } axisRotate;
     } _actionData;
     _Bool _isMouseDown;
@@ -39,8 +39,8 @@
         void *scales;
     } _originalData;
     unsigned int _originalDataCount;
-    CDStruct_14d5dc5e _worldInitialMatrix;
-    CDStruct_14d5dc5e _worldMatrix;
+    CDStruct_95fa7c00 _worldInitialMatrix;
+    CDStruct_95fa7c00 _worldMatrix;
     long long _snapToAlignCount;
     CDStruct_962da47d *_snapToAlignOnX;
     CDStruct_962da47d *_snapToAlignOnY;
@@ -67,7 +67,7 @@
     VFXNode *_scaleNodeZ;
     VFXNode *_screenSpaceRotation;
     VFXNode *_highlightNode;
-    MISSING_TYPE *_planarTranslationLayout;
+    id _planarTranslationLayout;
     _Bool _layoutLocked;
     VFXNode *_zArrow;
     VFXNode *_rotationHandles;
@@ -118,7 +118,7 @@
 - (id);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -131,7 +131,7 @@
 - (id);
 - (id);
 - (void);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (_Bool);
 - (id);
 - (void);
@@ -568,7 +568,7 @@
 @property(nonatomic) _Bool readonly; // @synthesize readonly=_readonly;
 @property(retain, nonatomic) VFXNode *target;
 @property(retain, nonatomic) NSOrderedSet *targets;
-@property(readonly) CDStruct_14d5dc5e transform;
+@property(readonly) CDStruct_95fa7c00 transform;
 @property(nonatomic) long long xAlignment; // @synthesize xAlignment=_xAlignment;
 @property(nonatomic) long long yAlignment; // @synthesize yAlignment=_yAlignment;
 @property(nonatomic) long long zAlignment; // @synthesize zAlignment=_zAlignment;

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingBrowseButton
 {
-    MISSING_TYPE *onTap;
-    MISSING_TYPE *isEditing;
-    MISSING_TYPE *deviceOffline;
-    MISSING_TYPE *button;
+    id onTap;
+    id isEditing;
+    id deviceOffline;
+    id button;
 }
 
 - (id);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WebEmbedCoordinator
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *articleDataFactory;
+    id tracker;
+    id articleDataFactory;
 }
 
 @end

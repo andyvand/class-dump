@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeModule
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *cookingKitTrackerManager;
+    id resolver;
+    id tracker;
+    id cookingKitTrackerManager;
 }
 
 @end

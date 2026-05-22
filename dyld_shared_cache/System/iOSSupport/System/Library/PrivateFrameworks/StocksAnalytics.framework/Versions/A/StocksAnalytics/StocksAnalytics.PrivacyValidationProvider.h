@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface StocksAnalytics.PrivacyValidationProvider
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *privacyValidation;
+    id appConfigurationManager;
+    id privacyValidation;
 }
 
 @end

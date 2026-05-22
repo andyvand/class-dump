@@ -6,17 +6,16 @@
 
 #import <SocialLayer/SLRemoteView.h>
 
-@class MISSING_TYPE;
 @protocol SLCollaborationAttributionViewDelegate;
 
 @interface SLCollaborationAttributionView : SLRemoteView
 {
     void delegate;
-    MISSING_TYPE *remoteContentDidLoad;
-    MISSING_TYPE *highlight;
-    MISSING_TYPE *placeholderGlyphConfiguration;
-    MISSING_TYPE *title;
-    MISSING_TYPE *variant;
+    id remoteContentDidLoad;
+    id highlight;
+    id placeholderGlyphConfiguration;
+    id title;
+    id variant;
     _Bool automaticallyAdjustsMaxWidthToFitBounds;
 }
 

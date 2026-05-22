@@ -12,7 +12,7 @@
     unsigned int _count;
     CDStruct_e4cb95de *_entities;
     CDStruct_16a2be32 *_geometries;
-    CDStruct_44913231 *_styles;
+    CDStruct_8243137c *_styles;
     CDStruct_2c073aed *_infos;
 }
 
@@ -41,7 +41,7 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_44913231 *);
+- (CDStruct_8243137c *);
 - (void);
 - (unsigned int);
 - (id);
@@ -61,7 +61,7 @@
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CDStruct_2c073aed *infos; // @synthesize infos=_infos;
 @property(nonatomic) CDStruct_d5f63e8f sprites;
-@property(readonly, nonatomic) CDStruct_44913231 *styles; // @synthesize styles=_styles;
+@property(readonly, nonatomic) CDStruct_8243137c *styles; // @synthesize styles=_styles;
 @property(readonly) Class superclass;
 
 @end

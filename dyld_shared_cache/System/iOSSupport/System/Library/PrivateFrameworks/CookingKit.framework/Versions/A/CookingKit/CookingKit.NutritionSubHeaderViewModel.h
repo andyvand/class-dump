@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.NutritionSubHeaderViewModel
 {
-    MISSING_TYPE *_subHeader;
-    MISSING_TYPE *_$observationRegistrar;
+    id _subHeader;
+    id _$observationRegistrar;
 }
 
 @end

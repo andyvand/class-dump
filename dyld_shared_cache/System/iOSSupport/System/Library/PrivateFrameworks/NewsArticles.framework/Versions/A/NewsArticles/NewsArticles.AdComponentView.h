@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.AdComponentView
 {
-    MISSING_TYPE *bannerView;
-    MISSING_TYPE *$__lazy_storage_$_debugView;
-    MISSING_TYPE *bannerAdFactory;
-    MISSING_TYPE *viewManager;
-    MISSING_TYPE *requestManager;
-    MISSING_TYPE *bannerAdRenderer;
-    MISSING_TYPE *integrator;
-    MISSING_TYPE *exposureMonitor;
-    MISSING_TYPE *journal;
-    MISSING_TYPE *layoutAttributes;
-    MISSING_TYPE *componentImpressionVisibilityPercentage;
+    id bannerView;
+    id $__lazy_storage_$_debugView;
+    id bannerAdFactory;
+    id viewManager;
+    id requestManager;
+    id bannerAdRenderer;
+    id integrator;
+    id exposureMonitor;
+    id journal;
+    id layoutAttributes;
+    id componentImpressionVisibilityPercentage;
 }
 
 - (void);

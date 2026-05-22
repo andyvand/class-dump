@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ScreenScaleImageRequest
 {
-    MISSING_TYPE *assetHandles;
-    MISSING_TYPE *cacheIdentifier;
-    MISSING_TYPE *screenScale;
-    MISSING_TYPE *assetScale;
+    id assetHandles;
+    id cacheIdentifier;
+    id screenScale;
+    id assetScale;
 }
 
 @end

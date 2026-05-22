@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatFileTreeItem
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *cacheFile;
-    MISSING_TYPE *name;
-    MISSING_TYPE *children;
-    MISSING_TYPE *_isExpanded;
+    id id;
+    id cacheFile;
+    id name;
+    id children;
+    id _isExpanded;
 }
 
 @end

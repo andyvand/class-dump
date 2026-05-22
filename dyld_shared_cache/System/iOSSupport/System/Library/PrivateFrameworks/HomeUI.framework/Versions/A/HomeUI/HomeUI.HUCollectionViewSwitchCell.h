@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HFItem, MISSING_TYPE;
-@protocol _TtP6HomeUI34HUCollectionViewSwitchCellDelegate_;
+@class HFItem;
+@protocol HomeUI.HUCollectionViewSwitchCellDelegate;
 
 @interface HomeUI.HUCollectionViewSwitchCell
 {
     HFItem *item;
-    MISSING_TYPE *_disabled;
-    MISSING_TYPE *switchView;
-    id <_TtP6HomeUI34HUCollectionViewSwitchCellDelegate_> delegate;
+    id _disabled;
+    id switchView;
+    id <HomeUI.HUCollectionViewSwitchCellDelegate> delegate;
 }
 
 - (void);
@@ -35,7 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) id <_TtP6HomeUI34HUCollectionViewSwitchCellDelegate_> delegate; // @synthesize delegate;
+@property(nonatomic, retain) id <HomeUI.HUCollectionViewSwitchCellDelegate> delegate; // @synthesize delegate;
 @property(nonatomic) _Bool disabled;
 @property(nonatomic) _Bool highlighted;
 @property(nonatomic, retain) HFItem *item; // @synthesize item;

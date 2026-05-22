@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface GenerativePartnerServiceUI.ExternalAIAuthenticatorHelper
 {
-    MISSING_TYPE *_authenticationSession;
-    MISSING_TYPE *modelBundle;
+    id _authenticationSession;
+    id modelBundle;
 }
 
 @end

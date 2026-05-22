@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.PresentationCoordinator
 {
-    MISSING_TYPE *_currentPresentation;
-    MISSING_TYPE *presenters;
-    MISSING_TYPE *modifiers;
-    MISSING_TYPE *windowPreferenceProvider;
-    MISSING_TYPE *transitionQueue;
-    MISSING_TYPE *workQueue;
-    MISSING_TYPE *logger;
+    id _currentPresentation;
+    id presenters;
+    id modifiers;
+    id windowPreferenceProvider;
+    id transitionQueue;
+    id workQueue;
+    id logger;
 }
 
 @end

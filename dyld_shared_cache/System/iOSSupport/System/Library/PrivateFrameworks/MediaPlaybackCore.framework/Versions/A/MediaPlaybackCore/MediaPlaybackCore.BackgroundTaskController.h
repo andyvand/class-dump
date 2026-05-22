@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary;
+@class NSDictionary;
 
 @interface MediaPlaybackCore.BackgroundTaskController
 {
-    MISSING_TYPE *provider;
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *tasks;
+    id provider;
+    id reporter;
+    id tasks;
 }
 
 - (void);

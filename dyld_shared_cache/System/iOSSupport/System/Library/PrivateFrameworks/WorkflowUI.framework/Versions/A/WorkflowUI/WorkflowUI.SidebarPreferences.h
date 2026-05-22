@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SidebarPreferences
 {
-    MISSING_TYPE *defaults;
-    MISSING_TYPE *hiddenWorkflowTypesKey;
-    MISSING_TYPE *menuBarMigrationCompletedKey;
-    MISSING_TYPE *additionalDestinationsKey;
+    id defaults;
+    id hiddenWorkflowTypesKey;
+    id menuBarMigrationCompletedKey;
+    id additionalDestinationsKey;
 }
 
 @end

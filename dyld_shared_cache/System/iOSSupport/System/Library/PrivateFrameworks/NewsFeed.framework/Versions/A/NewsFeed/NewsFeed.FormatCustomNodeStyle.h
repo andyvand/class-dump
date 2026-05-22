@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatCustomNodeStyle
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *class;
-    MISSING_TYPE *ignoresSmartInvertColors;
-    MISSING_TYPE *options;
-    MISSING_TYPE *_selectors;
+    id _identifier;
+    id class;
+    id ignoresSmartInvertColors;
+    id options;
+    id _selectors;
 }
 
 @end

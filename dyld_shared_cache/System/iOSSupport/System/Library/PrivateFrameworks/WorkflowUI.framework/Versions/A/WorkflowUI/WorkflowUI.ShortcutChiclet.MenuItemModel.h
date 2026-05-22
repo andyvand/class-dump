@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.ShortcutChiclet.MenuItemModel
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *symbol;
-    MISSING_TYPE *role;
-    MISSING_TYPE *_variant;
-    MISSING_TYPE *id;
+    id name;
+    id symbol;
+    id role;
+    id _variant;
+    id id;
 }
 
 @end

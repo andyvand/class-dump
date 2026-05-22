@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.ForegroundEffectRenderer
 {
-    MISSING_TYPE *_metalLayer;
-    MISSING_TYPE *_isAbleToRender;
-    MISSING_TYPE *configuredEffect;
-    MISSING_TYPE *hasCapturedInitialFrame;
-    MISSING_TYPE *pixelFormat;
-    MISSING_TYPE *metalLibrary;
-    MISSING_TYPE *rainDropRenderPipelineState;
-    MISSING_TYPE *frostRenderPipelineState;
-    MISSING_TYPE *weatherMaterialRenderPipelineState;
-    MISSING_TYPE *vertexBuffer;
-    MISSING_TYPE *renderPassDescriptor;
-    MISSING_TYPE *_frame;
-    MISSING_TYPE *frameInContainer;
-    MISSING_TYPE *fragmentParameters;
+    id _metalLayer;
+    id _isAbleToRender;
+    id configuredEffect;
+    id hasCapturedInitialFrame;
+    id pixelFormat;
+    id metalLibrary;
+    id rainDropRenderPipelineState;
+    id frostRenderPipelineState;
+    id weatherMaterialRenderPipelineState;
+    id vertexBuffer;
+    id renderPassDescriptor;
+    id _frame;
+    id frameInContainer;
+    id fragmentParameters;
 }
 
 @end

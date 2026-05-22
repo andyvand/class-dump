@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.AmbientCollectionViewLayout
 {
-    MISSING_TYPE *cardSizeMultiplier;
-    MISSING_TYPE *spacingBetweenCards;
-    MISSING_TYPE *contentBounds;
-    MISSING_TYPE *cachedAttributes;
-    MISSING_TYPE *cachedSupplementaryFooterAttributes;
+    id cardSizeMultiplier;
+    id spacingBetweenCards;
+    id contentBounds;
+    id cachedAttributes;
+    id cachedSupplementaryFooterAttributes;
 }
 
 - (struct CGPoint);

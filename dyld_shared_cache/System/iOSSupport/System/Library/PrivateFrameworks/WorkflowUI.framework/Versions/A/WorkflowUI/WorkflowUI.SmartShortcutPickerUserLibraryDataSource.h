@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SmartShortcutPickerUserLibraryDataSource
 {
-    MISSING_TYPE *_sections;
-    MISSING_TYPE *database;
+    id _sections;
+    id database;
 }
 
 - (void);

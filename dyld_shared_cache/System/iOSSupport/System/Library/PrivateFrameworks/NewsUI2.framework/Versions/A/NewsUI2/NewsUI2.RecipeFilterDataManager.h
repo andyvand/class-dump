@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeFilterDataManager
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *recipeFilterConfigManager;
-    MISSING_TYPE *recipeFilterResultProvider;
-    MISSING_TYPE *recipeFilterSelectionManager;
-    MISSING_TYPE *recipeFeaturesConfiguration;
-    MISSING_TYPE *delegate;
+    id context;
+    id recipeFilterConfigManager;
+    id recipeFilterResultProvider;
+    id recipeFilterSelectionManager;
+    id recipeFeaturesConfiguration;
+    id delegate;
 }
 
 @end

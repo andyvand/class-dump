@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingTabGroupManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *mainTabManager;
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *tagImageApplier;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *followingSelection;
-    MISSING_TYPE *placeholderImage;
-    MISSING_TYPE *shortcutService;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *hiddenTabElement;
-    MISSING_TYPE *hiddenTab;
-    MISSING_TYPE *completionCoordinators;
+    id delegate;
+    id mainTabManager;
+    id blueprintProvider;
+    id tagImageApplier;
+    id tracker;
+    id commandCenter;
+    id followingSelection;
+    id placeholderImage;
+    id shortcutService;
+    id featureAvailability;
+    id bundleSubscriptionManager;
+    id subscriptionController;
+    id offlineProvider;
+    id contentAvailabilityValidator;
+    id offlineManager;
+    id tipManager;
+    id hiddenTabElement;
+    id hiddenTab;
+    id completionCoordinators;
 }
 
 - (id);

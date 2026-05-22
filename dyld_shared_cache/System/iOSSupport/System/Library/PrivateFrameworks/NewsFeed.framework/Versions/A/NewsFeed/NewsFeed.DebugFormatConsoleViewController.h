@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatConsoleViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *editorNavigationController;
-    MISSING_TYPE *editorViewController;
-    MISSING_TYPE *consoleContainerController;
-    MISSING_TYPE *consoleHeight;
-    MISSING_TYPE *consolePanSession;
-    MISSING_TYPE *$__lazy_storage_$_panGestureRecognizer;
+    id editor;
+    id editorNavigationController;
+    id editorViewController;
+    id consoleContainerController;
+    id consoleHeight;
+    id consolePanSession;
+    id $__lazy_storage_$_panGestureRecognizer;
 }
 
 - (void);

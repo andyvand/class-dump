@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.NavigationTray.MetricSection
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_unit;
-    MISSING_TYPE *_value;
-    MISSING_TYPE *_unitAccessibilityLabel;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _unit;
+    id _value;
+    id _unitAccessibilityLabel;
+    id _$observationRegistrar;
 }
 
 @end

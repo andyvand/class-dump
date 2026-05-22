@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatPuzzleEmbedData
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *feedPuzzle;
-    MISSING_TYPE *config;
-    MISSING_TYPE *routeOptions;
+    id identifier;
+    id feedPuzzle;
+    id config;
+    id routeOptions;
 }
 
 @end

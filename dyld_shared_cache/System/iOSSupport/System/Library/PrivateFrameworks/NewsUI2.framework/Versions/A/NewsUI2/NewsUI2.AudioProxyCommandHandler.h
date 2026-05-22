@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioProxyCommandHandler
 {
-    MISSING_TYPE *playbackConductor;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id playbackConductor;
+    id dataManager;
+    id bundleSubscriptionManager;
 }
 
 @end

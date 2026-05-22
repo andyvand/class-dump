@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.MaterialSegmentationProvider
 {
-    MISSING_TYPE *_cMaterialSegmentationProvider;
-    MISSING_TYPE *_cMaterialSegmentationConfiguration;
-    MISSING_TYPE *materialSegmentationDataContinuations;
-    MISSING_TYPE *updateQueue;
+    id _cMaterialSegmentationProvider;
+    id _cMaterialSegmentationConfiguration;
+    id materialSegmentationDataContinuations;
+    id updateQueue;
 }
 
 @end

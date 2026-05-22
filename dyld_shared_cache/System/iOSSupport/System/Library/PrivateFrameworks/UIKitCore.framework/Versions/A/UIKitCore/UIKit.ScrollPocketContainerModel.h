@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.ScrollPocketContainerModel
 {
-    MISSING_TYPE *_targetScrollPocket;
-    MISSING_TYPE *_glassGroupGroupName;
-    MISSING_TYPE *_$observationRegistrar;
+    id _targetScrollPocket;
+    id _glassGroupGroupName;
+    id _$observationRegistrar;
 }
 
 @end

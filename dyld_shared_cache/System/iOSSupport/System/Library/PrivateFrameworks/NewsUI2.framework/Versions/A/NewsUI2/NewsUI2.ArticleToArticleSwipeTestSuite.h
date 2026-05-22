@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ArticleToArticleSwipeTestSuite
 {
-    MISSING_TYPE *scrollViewObserver;
-    MISSING_TYPE *scrollViewContentOffsetObserver;
-    MISSING_TYPE *activity;
+    id scrollViewObserver;
+    id scrollViewContentOffsetObserver;
+    id activity;
 }
 
 - (id);

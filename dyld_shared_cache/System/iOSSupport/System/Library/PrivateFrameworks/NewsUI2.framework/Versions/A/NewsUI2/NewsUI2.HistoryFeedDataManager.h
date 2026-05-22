@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.HistoryFeedDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *clearUserDataManager;
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *userActivityManager;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *feedServiceContextFactory;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *feedService;
+    id delegate;
+    id clearUserDataManager;
+    id newsletterManager;
+    id userActivityManager;
+    id readingHistory;
+    id readingList;
+    id headlineService;
+    id accessQueue;
+    id feedServiceContextFactory;
+    id feedServiceConfigFetcher;
+    id feedService;
 }
 
 - (void);

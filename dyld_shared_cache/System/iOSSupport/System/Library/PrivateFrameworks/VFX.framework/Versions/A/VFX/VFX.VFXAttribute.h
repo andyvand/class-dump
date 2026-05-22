@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VFXAttribute
 {
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *entity;
-    MISSING_TYPE *componentType;
+    id entityManager;
+    id entity;
+    id componentType;
 }
 
 @end

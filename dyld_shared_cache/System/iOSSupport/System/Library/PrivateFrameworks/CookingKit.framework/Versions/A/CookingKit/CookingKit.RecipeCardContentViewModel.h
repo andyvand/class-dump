@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardContentViewModel
 {
-    MISSING_TYPE *_shouldShowRatingsView;
-    MISSING_TYPE *_shouldShowNutrition;
-    MISSING_TYPE *_hasHardPaywall;
-    MISSING_TYPE *_notesStatus;
-    MISSING_TYPE *_$observationRegistrar;
+    id _shouldShowRatingsView;
+    id _shouldShowNutrition;
+    id _hasHardPaywall;
+    id _notesStatus;
+    id _$observationRegistrar;
 }
 
 @end

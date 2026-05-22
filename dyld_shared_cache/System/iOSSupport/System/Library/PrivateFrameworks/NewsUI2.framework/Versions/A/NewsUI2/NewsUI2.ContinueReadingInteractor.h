@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContinueReadingInteractor
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *userActivityHandlerManager;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *exposureData;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *articleDataFactory;
+    id tracker;
+    id userActivityHandlerManager;
+    id newsActivityManager;
+    id exposureData;
+    id navigator;
+    id articleDataFactory;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.ExponentialPipelineBackoff
 {
-    MISSING_TYPE *baseWaitInterval;
-    MISSING_TYPE *maxWaitInterval;
-    MISSING_TYPE *attemptsMade;
+    id baseWaitInterval;
+    id maxWaitInterval;
+    id attemptsMade;
 }
 
 @end

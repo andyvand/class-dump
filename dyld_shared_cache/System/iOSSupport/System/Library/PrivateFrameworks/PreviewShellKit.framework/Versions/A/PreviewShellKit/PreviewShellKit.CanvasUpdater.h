@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewShellKit.CanvasUpdater
 {
-    MISSING_TYPE *currentUpdateDelegate;
-    MISSING_TYPE *scene;
-    MISSING_TYPE *providerBoxes;
+    id currentUpdateDelegate;
+    id scene;
+    id providerBoxes;
 }
 
 @end

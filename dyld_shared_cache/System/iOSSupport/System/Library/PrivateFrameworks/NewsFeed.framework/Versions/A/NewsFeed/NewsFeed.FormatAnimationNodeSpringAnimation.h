@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatAnimationNodeSpringAnimation
 {
-    MISSING_TYPE *keyPath;
-    MISSING_TYPE *cumulative;
-    MISSING_TYPE *additive;
-    MISSING_TYPE *mass;
-    MISSING_TYPE *stiffness;
-    MISSING_TYPE *damping;
-    MISSING_TYPE *initialVelocity;
-    MISSING_TYPE *mediaTiming;
+    id keyPath;
+    id cumulative;
+    id additive;
+    id mass;
+    id stiffness;
+    id damping;
+    id initialVelocity;
+    id mediaTiming;
 }
 
 @end

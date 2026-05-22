@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FloatingTabBarSearchContentView
 {
-    MISSING_TYPE *searchBar;
-    MISSING_TYPE *searchContentConfiguration;
+    id searchBar;
+    id searchContentConfiguration;
 }
 
 - (id);

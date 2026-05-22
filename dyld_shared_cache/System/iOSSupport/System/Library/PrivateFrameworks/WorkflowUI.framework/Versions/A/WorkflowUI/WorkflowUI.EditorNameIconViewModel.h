@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.EditorNameIconViewModel
 {
-    MISSING_TYPE *workflow;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *_editingIcon;
+    id workflow;
+    id observers;
+    id _editingIcon;
 }
 
 @end

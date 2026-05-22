@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol HUConfigurationViewControllerDelegate;
 
 @interface HUUtilityOnboardingNoAccountViewController
 {
     id <HUConfigurationViewControllerDelegate> delegate;
-    MISSING_TYPE *onboardingContext;
-    MISSING_TYPE *loginManager;
-    MISSING_TYPE *utilityID;
-    MISSING_TYPE *editButton;
-    MISSING_TYPE *providerAccountButton;
+    id onboardingContext;
+    id loginManager;
+    id utilityID;
+    id editButton;
+    id providerAccountButton;
 }
 
 - (void);

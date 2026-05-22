@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.HorizontalParallaxModelSource
 {
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *state;
-    MISSING_TYPE *_observableHorizontalParallaxModel;
+    id _$scope;
+    id state;
+    id _observableHorizontalParallaxModel;
 }
 
 @end

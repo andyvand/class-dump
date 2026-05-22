@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ContextMenu
 {
-    MISSING_TYPE *groups;
-    MISSING_TYPE *lazyActivityItemConfiguration;
+    id groups;
+    id lazyActivityItemConfiguration;
 }
 
 @end

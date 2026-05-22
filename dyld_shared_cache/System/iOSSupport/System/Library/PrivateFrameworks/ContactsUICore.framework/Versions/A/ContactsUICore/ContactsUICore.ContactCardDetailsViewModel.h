@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactCardDetailsViewModel
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *_rows;
-    MISSING_TYPE *_sections;
-    MISSING_TYPE *actionProvider;
-    MISSING_TYPE *_viewConfiguration;
-    MISSING_TYPE *_staticIdentity;
-    MISSING_TYPE *_$observationRegistrar;
+    id configuration;
+    id _rows;
+    id _sections;
+    id actionProvider;
+    id _viewConfiguration;
+    id _staticIdentity;
+    id _$observationRegistrar;
 }
 
 - (void);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatServiceResolverServices
 {
-    MISSING_TYPE *history;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *annotator;
-    MISSING_TYPE *selectors;
+    id history;
+    id subscriptionController;
+    id personalizationService;
+    id annotator;
+    id selectors;
 }
 
 @end

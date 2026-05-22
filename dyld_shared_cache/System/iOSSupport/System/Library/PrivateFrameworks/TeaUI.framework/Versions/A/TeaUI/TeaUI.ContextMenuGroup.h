@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ContextMenuGroup
 {
-    MISSING_TYPE *title;
-    MISSING_TYPE *subtitle;
-    MISSING_TYPE *image;
-    MISSING_TYPE *style;
-    MISSING_TYPE *items;
+    id title;
+    id subtitle;
+    id image;
+    id style;
+    id items;
 }
 
 @end

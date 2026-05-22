@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelEngagementLayoutAttributesFactory
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *engagementInlineViewManager;
+    id styler;
+    id engagementInlineViewManager;
 }
 
 @end

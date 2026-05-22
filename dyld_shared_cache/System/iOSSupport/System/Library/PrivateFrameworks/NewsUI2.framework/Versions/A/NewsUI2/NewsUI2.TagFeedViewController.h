@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedViewController
 {
-    MISSING_TYPE *_lastImpression;
-    MISSING_TYPE *searchCoordinator;
-    MISSING_TYPE *feedDescriptor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *commands;
-    MISSING_TYPE *refreshStateMachine;
-    MISSING_TYPE *refreshControl;
-    MISSING_TYPE *sharingActivityProviderFactory;
-    MISSING_TYPE *didAppearCompletions;
-    MISSING_TYPE *impressionObservers;
-    MISSING_TYPE *gameCenterService;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *tipConfigFactory;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *searchBarInsetsController;
+    id _lastImpression;
+    id searchCoordinator;
+    id feedDescriptor;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id commands;
+    id refreshStateMachine;
+    id refreshControl;
+    id sharingActivityProviderFactory;
+    id didAppearCompletions;
+    id impressionObservers;
+    id gameCenterService;
+    id tipManager;
+    id tipConfigFactory;
+    id tracker;
+    id searchBarInsetsController;
 }
 
 - (void);

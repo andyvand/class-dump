@@ -6,13 +6,11 @@
 
 #import <HomeUI/HUItemTableViewController.h>
 
-@class MISSING_TYPE;
-
 @interface HomeUI.AccessoryDetailsSuggestedAutomationsViewController : HUItemTableViewController
 {
-    MISSING_TYPE *home;
-    MISSING_TYPE *triggerModuleController;
-    MISSING_TYPE *viewCoordinator;
+    id home;
+    id triggerModuleController;
+    id viewCoordinator;
 }
 
 - (id);

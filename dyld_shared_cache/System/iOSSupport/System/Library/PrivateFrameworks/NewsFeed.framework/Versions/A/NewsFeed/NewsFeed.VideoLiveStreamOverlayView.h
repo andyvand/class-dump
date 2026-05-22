@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.VideoLiveStreamOverlayView
 {
-    MISSING_TYPE *isMuted;
-    MISSING_TYPE *muteAction;
-    MISSING_TYPE *liveIcon;
-    MISSING_TYPE *durationView;
-    MISSING_TYPE *muteButton;
-    MISSING_TYPE *buttonDimension;
+    id isMuted;
+    id muteAction;
+    id liveIcon;
+    id durationView;
+    id muteButton;
+    id buttonDimension;
 }
 
 - (void);

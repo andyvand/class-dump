@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagViewLayoutAttributesFactory
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *cache;
+    id styler;
+    id cache;
 }
 
 @end

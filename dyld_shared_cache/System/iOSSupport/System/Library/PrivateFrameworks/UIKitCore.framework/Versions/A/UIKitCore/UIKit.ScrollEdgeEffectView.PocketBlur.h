@@ -6,14 +6,12 @@
 
 #import <UIKitCore/UIKit.ScrollEdgeEffectView.BackdropView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.ScrollEdgeEffectView.PocketBlur : UIKit.ScrollEdgeEffectView.BackdropView
 {
-    MISSING_TYPE *useHardEdges;
-    MISSING_TYPE *pocketMaskPortal;
-    MISSING_TYPE *blurAttenuation;
-    MISSING_TYPE *blurEnabled;
+    id useHardEdges;
+    id pocketMaskPortal;
+    id blurAttenuation;
+    id blurEnabled;
 }
 
 - (id);

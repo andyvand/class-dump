@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleTypeOfflineFeedBuilder
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *puzzleTypeID;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *feedAvailabilityService;
-    MISSING_TYPE *offlineFeedDatabase;
+    id resolver;
+    id puzzleTypeID;
+    id puzzleService;
+    id featureAvailability;
+    id appConfigManager;
+    id feedAvailabilityService;
+    id offlineFeedDatabase;
 }
 
 @end

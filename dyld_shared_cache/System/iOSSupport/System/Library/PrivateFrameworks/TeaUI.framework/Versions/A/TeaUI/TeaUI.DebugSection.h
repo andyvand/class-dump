@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.DebugSection
 {
-    MISSING_TYPE *section;
-    MISSING_TYPE *items;
+    id section;
+    id items;
 }
 
 @end

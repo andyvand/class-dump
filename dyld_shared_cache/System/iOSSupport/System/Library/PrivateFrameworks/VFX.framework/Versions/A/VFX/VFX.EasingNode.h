@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.EasingNode : VFX.Node
 {
-    MISSING_TYPE *kind;
+    id kind;
 }
 
 @end

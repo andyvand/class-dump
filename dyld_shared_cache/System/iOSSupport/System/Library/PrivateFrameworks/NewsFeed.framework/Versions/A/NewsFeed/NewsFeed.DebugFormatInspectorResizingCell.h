@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatInspectorResizingCell
 {
-    MISSING_TYPE *resizing;
-    MISSING_TYPE *frameLayer;
-    MISSING_TYPE *widthLayer;
-    MISSING_TYPE *heightLayer;
-    MISSING_TYPE *leftMarginLayer;
-    MISSING_TYPE *rightMarginLayer;
-    MISSING_TYPE *topMarginLayer;
-    MISSING_TYPE *bottomMarginLayer;
+    id resizing;
+    id frameLayer;
+    id widthLayer;
+    id heightLayer;
+    id leftMarginLayer;
+    id rightMarginLayer;
+    id topMarginLayer;
+    id bottomMarginLayer;
 }
 
 - (id);

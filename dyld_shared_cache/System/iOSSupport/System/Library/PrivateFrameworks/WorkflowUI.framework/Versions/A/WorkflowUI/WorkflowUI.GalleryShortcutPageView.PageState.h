@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.GalleryShortcutPageView.PageState
 {
-    MISSING_TYPE *_showDetailSheet;
-    MISSING_TYPE *_showShareSheet;
-    MISSING_TYPE *_showImportQuestionsSheet;
+    id _showDetailSheet;
+    id _showShareSheet;
+    id _showImportQuestionsSheet;
 }
 
 @end

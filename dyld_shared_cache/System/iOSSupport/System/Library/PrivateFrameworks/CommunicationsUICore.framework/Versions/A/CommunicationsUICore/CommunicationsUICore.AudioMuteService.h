@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.AudioMuteService
 {
-    MISSING_TYPE *logger;
-    MISSING_TYPE *muteSubject;
-    MISSING_TYPE *cancellables;
-    MISSING_TYPE *notificationCenter;
-    MISSING_TYPE *call;
+    id logger;
+    id muteSubject;
+    id cancellables;
+    id notificationCenter;
+    id call;
 }
 
 @end

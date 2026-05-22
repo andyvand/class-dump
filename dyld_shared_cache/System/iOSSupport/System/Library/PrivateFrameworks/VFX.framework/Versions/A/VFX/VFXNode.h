@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSMutableArray, NSMutableDictionary, NSString, VFXBehaviorGraph, VFXCamera, VFXForceField, VFXLight, VFXModel, VFXMorpher, VFXNodeComponent, VFXOrderedDictionary, VFXParticleEmitter, VFXPhysicsBody, VFXSkinner, VFXWorld;
+@class NSArray, NSMutableArray, NSMutableDictionary, NSString, VFXBehaviorGraph, VFXCamera, VFXForceField, VFXLight, VFXModel, VFXMorpher, VFXNodeComponent, VFXOrderedDictionary, VFXParticleEmitter, VFXPhysicsBody, VFXSkinner, VFXWorld;
 @protocol UICoordinateSpace, VFXParameterList, VFXState;
 
 @interface VFXNode
@@ -34,12 +34,12 @@
     unsigned int _editorLocked:1;
     unsigned int _hasComponentBitmask:15;
     unsigned short _physicsBodyCountInHierarchy;
-    CDStruct_14d5dc5e _transform;
-    MISSING_TYPE *_position;
+    CDStruct_95fa7c00 _transform;
+    id _position;
     union {
-        CDStruct_0e8a9a91 eulerAngles__axisAngle__quaternion;
+        CDStruct_da14d750 eulerAngles__axisAngle__quaternion;
     } _rotation;
-    MISSING_TYPE *_scale;
+    id _scale;
     float _opacity;
     unsigned long long _categoryBitMask;
     long long _renderingOrder;
@@ -47,7 +47,7 @@
     struct os_unfair_lock_s _animationsLock;
     VFXOrderedDictionary *_animations;
     NSMutableDictionary *_bindings;
-    MISSING_TYPE **_fixedBoundingBoxExtrema;
+    id *_fixedBoundingBoxExtrema;
     NSString *_name;
     NSMutableDictionary *_valueForKey;
     struct os_unfair_lock_s _valueForKeyLock;
@@ -62,15 +62,15 @@
 + (id);
 + (id);
 + (id);
-+ (MISSING_TYPE *);
-+ (MISSING_TYPE *);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (MISSING_TYPE *);
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -80,7 +80,7 @@
 @property(readonly) NSArray *animationKeys;
 @property(nonatomic) long long authoringCameraType;
 @property(retain, nonatomic) VFXBehaviorGraph *behaviorGraph;
-@property(nonatomic) CDStruct_a7a0fb92 boundingBox;
+@property(nonatomic) CDStruct_8666bb01 boundingBox;
 @property(nonatomic, readonly) NSArray *bridgedComponentNames;
 @property(retain, nonatomic) VFXCamera *camera;
 @property(nonatomic) _Bool castsShadow;
@@ -95,7 +95,7 @@
 
 @property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned int drawCallCount;
-@property(nonatomic) MISSING_TYPE *eulerAngles;
+@property(nonatomic) id eulerAngles;
 @property(retain, nonatomic) VFXForceField *forceField;
 @property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isHidden) _Bool hidden;
@@ -111,23 +111,23 @@
 @property(retain, nonatomic) VFXParticleEmitter *particleEmitter;
 @property(nonatomic, getter=isPaused) _Bool paused;
 @property(retain, nonatomic) VFXPhysicsBody *physicsBody;
-@property(nonatomic) CDStruct_14d5dc5e pivot;
-@property(nonatomic) MISSING_TYPE *position;
+@property(nonatomic) CDStruct_95fa7c00 pivot;
+@property(nonatomic) id position;
 @property(readonly, nonatomic) VFXNode *presentationNode;
 @property(readonly) id presentationObject;
 @property(nonatomic) long long renderingOrder;
-@property(nonatomic) MISSING_TYPE *rotation;
-@property(nonatomic) MISSING_TYPE *scale;
+@property(nonatomic) id rotation;
+@property(nonatomic) id scale;
 @property(retain, nonatomic) VFXSkinner *skinner;
 @property(retain, nonatomic) id <VFXState> state;
 @property(readonly, nonatomic) NSArray *states;
 @property(readonly) Class superclass;
-@property(nonatomic) CDStruct_14d5dc5e transform;
+@property(nonatomic) CDStruct_95fa7c00 transform;
 @property(readonly, nonatomic) VFXWorld *world;
 @property(nonatomic) CDStruct_183601bc worldOrientation;
-@property(nonatomic) MISSING_TYPE *worldPosition;
+@property(nonatomic) id worldPosition;
 @property(readonly, nonatomic) struct __CFXWorld *worldRef;
-@property(nonatomic) CDStruct_14d5dc5e worldTransform;
+@property(nonatomic) CDStruct_95fa7c00 worldTransform;
 
 @end
 

@@ -6,11 +6,11 @@
 
 #import <UIKitCore/_UISceneSafeAreaEdgeInsetResolver.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface _UISceneSafeAreaEdgeInsetCompositeResolver : _UISceneSafeAreaEdgeInsetResolver
 {
-    MISSING_TYPE *resolvers;
+    id resolvers;
 }
 
 + (_Bool)8¿7y+8¿7GSg;

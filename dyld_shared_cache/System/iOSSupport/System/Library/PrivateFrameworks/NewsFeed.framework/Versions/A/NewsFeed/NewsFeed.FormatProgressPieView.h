@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatProgressPieView
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *backgroundLayer;
-    MISSING_TYPE *progressLayer;
-    MISSING_TYPE *radius;
-    MISSING_TYPE *clockwise;
-    MISSING_TYPE *stepPercentage;
-    MISSING_TYPE *minPercentage;
-    MISSING_TYPE *maxPercentage;
-    MISSING_TYPE *layerDelegate;
+    id identifier;
+    id backgroundLayer;
+    id progressLayer;
+    id radius;
+    id clockwise;
+    id stepPercentage;
+    id minPercentage;
+    id maxPercentage;
+    id layerDelegate;
 }
 
 - (id);

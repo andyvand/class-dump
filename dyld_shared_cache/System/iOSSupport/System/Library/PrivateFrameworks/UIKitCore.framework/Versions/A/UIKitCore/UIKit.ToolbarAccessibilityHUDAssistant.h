@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.ToolbarAccessibilityHUDAssistant
 {
-    MISSING_TYPE *view;
-    MISSING_TYPE *hudGestureManager;
-    MISSING_TYPE *delegate;
+    id view;
+    id hudGestureManager;
+    id delegate;
 }
 
 - (void);

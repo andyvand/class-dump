@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.CustomParameters
 {
-    MISSING_TYPE *descriptions;
-    MISSING_TYPE *values;
-    MISSING_TYPE *functionConstants;
+    id descriptions;
+    id values;
+    id functionConstants;
 }
 
 @end

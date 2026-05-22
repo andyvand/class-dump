@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeCatalogSearchRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *recipeFilterSelectionManager;
-    MISSING_TYPE *recipeFilterResultProvider;
+    id controller;
+    id resolver;
+    id tracker;
+    id navigator;
+    id recipeFilterSelectionManager;
+    id recipeFilterResultProvider;
 }
 
 @end

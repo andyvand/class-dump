@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ModalArticleViewerModule
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *$__lazy_storage_$_contentContext;
+    id resolver;
+    id tracker;
+    id $__lazy_storage_$_contentContext;
 }
 
 @end

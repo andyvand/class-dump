@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatInventoryTreePackage
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *debugPackage;
-    MISSING_TYPE *_accessories;
-    MISSING_TYPE *_entries;
+    id id;
+    id editor;
+    id debugPackage;
+    id _accessories;
+    id _entries;
 }
 
 @end

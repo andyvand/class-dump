@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.ClearSavedCommandHandler
 {
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *isiCloudPrivateDataSyncingEnabled;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *commandCenter;
+    id readingList;
+    id isiCloudPrivateDataSyncingEnabled;
+    id sceneProvider;
+    id commandCenter;
 }
 
 - (void);

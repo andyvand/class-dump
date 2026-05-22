@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.PersonDetailsController
 {
-    MISSING_TYPE *subscriber;
-    MISSING_TYPE *personIdentifier;
-    MISSING_TYPE *dependencies;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *_observationTask;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *isAutomaticSubscriptionsForwardingEnabled;
-    MISSING_TYPE *_$observationRegistrar;
+    id subscriber;
+    id personIdentifier;
+    id dependencies;
+    id logger;
+    id _observationTask;
+    id _state;
+    id isAutomaticSubscriptionsForwardingEnabled;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.LinkSnippetDialogRenderingModel
 {
-    MISSING_TYPE *request;
-    MISSING_TYPE *snippetEnvironmentsProvider;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_$observationRegistrar;
+    id request;
+    id snippetEnvironmentsProvider;
+    id _state;
+    id _$observationRegistrar;
 }
 
 @end

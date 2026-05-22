@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatVersioningModeViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *_currentMode;
-    MISSING_TYPE *sections;
+    id editor;
+    id tableView;
+    id _currentMode;
+    id sections;
 }
 
 - (id);

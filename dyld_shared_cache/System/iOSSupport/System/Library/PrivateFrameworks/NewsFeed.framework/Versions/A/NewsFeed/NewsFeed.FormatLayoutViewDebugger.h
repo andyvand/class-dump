@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatLayoutViewDebugger
 {
-    MISSING_TYPE *block;
-    MISSING_TYPE *feedKeysBlock;
-    MISSING_TYPE *allFeedKeysBlock;
+    id block;
+    id feedKeysBlock;
+    id allFeedKeysBlock;
 }
 
 @end

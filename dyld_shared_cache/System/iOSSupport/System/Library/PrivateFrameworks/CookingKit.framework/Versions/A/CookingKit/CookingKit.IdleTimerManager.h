@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.IdleTimerManager
 {
-    MISSING_TYPE *interestCounter;
-    MISSING_TYPE *activity;
+    id interestCounter;
+    id activity;
 }
 
 @end

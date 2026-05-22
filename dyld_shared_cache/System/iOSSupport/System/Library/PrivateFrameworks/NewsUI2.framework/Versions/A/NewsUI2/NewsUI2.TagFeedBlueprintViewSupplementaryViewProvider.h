@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedBlueprintViewSupplementaryViewProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *feedItemSupplementaryRenderer;
+    id delegate;
+    id feedItemSupplementaryRenderer;
 }
 
 @end

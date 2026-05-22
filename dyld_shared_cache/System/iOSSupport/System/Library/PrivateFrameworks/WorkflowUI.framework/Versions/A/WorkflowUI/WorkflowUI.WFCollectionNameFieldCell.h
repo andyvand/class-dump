@@ -6,13 +6,11 @@
 
 #import <WorkflowUI/WorkflowUI.WFGridViewCell.h>
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFCollectionNameFieldCell : WorkflowUI.WFGridViewCell
 {
-    MISSING_TYPE *textDidChangeHandler;
-    MISSING_TYPE *text;
-    MISSING_TYPE *textField;
+    id textDidChangeHandler;
+    id text;
+    id textField;
 }
 
 - (void);

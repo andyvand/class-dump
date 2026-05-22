@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.HiddenContentPlacardView
 {
-    MISSING_TYPE *onTap;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *dismissalButton;
+    id onTap;
+    id titleLabel;
+    id dismissalButton;
 }
 
 - (id);

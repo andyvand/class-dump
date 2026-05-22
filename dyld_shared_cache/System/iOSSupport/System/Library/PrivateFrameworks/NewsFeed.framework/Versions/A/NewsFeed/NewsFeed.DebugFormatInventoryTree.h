@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatInventoryTree
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *onPackageTap;
-    MISSING_TYPE *onManageWorkspaceTap;
-    MISSING_TYPE *_workspace;
-    MISSING_TYPE *_packages;
-    MISSING_TYPE *_group;
-    MISSING_TYPE *_isWorkspaceExpanded;
-    MISSING_TYPE *_expanded;
-    MISSING_TYPE *_filter;
+    id editor;
+    id onPackageTap;
+    id onManageWorkspaceTap;
+    id _workspace;
+    id _packages;
+    id _group;
+    id _isWorkspaceExpanded;
+    id _expanded;
+    id _filter;
 }
 
 @end

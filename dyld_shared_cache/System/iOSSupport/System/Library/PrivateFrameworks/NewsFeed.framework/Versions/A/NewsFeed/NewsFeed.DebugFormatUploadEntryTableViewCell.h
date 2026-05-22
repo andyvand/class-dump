@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadEntryTableViewCell
 {
-    MISSING_TYPE *onDiffTap;
-    MISSING_TYPE *showDiff;
-    MISSING_TYPE *isDiffSelected;
-    MISSING_TYPE *diffButton;
+    id onDiffTap;
+    id showDiff;
+    id isDiffSelected;
+    id diffButton;
 }
 
 - (id);

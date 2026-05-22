@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, NSUndoManager, WFWorkflow;
+@class NSString, NSUndoManager, WFWorkflow;
 @protocol WFComposeViewControllerDelegate;
 
 @interface WFComposeViewController
@@ -13,20 +13,20 @@
     _Bool hideRunnerToolbar;
     WFWorkflow *workflow;
     void delegate;
-    MISSING_TYPE *layoutMode;
-    MISSING_TYPE *editorHostingViewController;
-    MISSING_TYPE *drawerCoordinator;
-    MISSING_TYPE *toolbar;
-    MISSING_TYPE *contentViewController;
-    MISSING_TYPE *delegateAdaptor;
-    MISSING_TYPE *documentMenu;
-    MISSING_TYPE *moveCoordinator;
-    MISSING_TYPE *selectVariableModeActive;
-    MISSING_TYPE *workflowObservers;
-    MISSING_TYPE *settingsViewController;
-    MISSING_TYPE *separator;
-    MISSING_TYPE *lastHorizontalSizeClass;
-    MISSING_TYPE *editorUndoManager;
+    id layoutMode;
+    id editorHostingViewController;
+    id drawerCoordinator;
+    id toolbar;
+    id contentViewController;
+    id delegateAdaptor;
+    id documentMenu;
+    id moveCoordinator;
+    id selectVariableModeActive;
+    id workflowObservers;
+    id settingsViewController;
+    id separator;
+    id lastHorizontalSizeClass;
+    id editorUndoManager;
     _Bool isEditingNewWorkflow;
 }
 

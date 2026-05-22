@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.MoveToFolderCoordinator
 {
-    MISSING_TYPE *database;
-    MISSING_TYPE *service;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *presentingViewController;
-    MISSING_TYPE *source;
+    id database;
+    id service;
+    id delegate;
+    id presentingViewController;
+    id source;
 }
 
 @end

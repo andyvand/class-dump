@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol WKURLSchemeTask;
 
 @interface NewsUI2.NewsWebArchiveURLSchemeHandler
 {
     id <WKURLSchemeTask> task;
-    MISSING_TYPE *webArchiveService;
+    id webArchiveService;
 }
 
 - (id);

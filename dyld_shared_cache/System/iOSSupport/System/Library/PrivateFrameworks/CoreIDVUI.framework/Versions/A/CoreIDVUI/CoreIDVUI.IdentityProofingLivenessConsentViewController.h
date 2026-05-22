@@ -6,17 +6,15 @@
 
 #import <CoreIDVUI/CoreIDVUI.IdentityProofingViewController.h>
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingLivenessConsentViewController : CoreIDVUI.IdentityProofingViewController
 {
-    MISSING_TYPE *tableViewCellIdentifier;
-    MISSING_TYPE *viewConfiguration;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *fileManager;
-    MISSING_TYPE *documentsRepository;
-    MISSING_TYPE *tableViewItems;
-    MISSING_TYPE *$__lazy_storage_$_tableView;
+    id tableViewCellIdentifier;
+    id viewConfiguration;
+    id proofingFlowManager;
+    id fileManager;
+    id documentsRepository;
+    id tableViewItems;
+    id $__lazy_storage_$_tableView;
 }
 
 - (void);

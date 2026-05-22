@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.CodeLoader
 {
-    MISSING_TYPE *moduleName;
-    MISSING_TYPE *libraryPath;
-    MISSING_TYPE *gpuDevice;
-    MISSING_TYPE *shaderCompilationContext;
-    MISSING_TYPE *ownsDlHandle;
-    MISSING_TYPE *dlHandle;
-    MISSING_TYPE *metalLibrary;
-    MISSING_TYPE *jsContext;
-    MISSING_TYPE *jsCode;
-    MISSING_TYPE *commandBuilder;
+    id moduleName;
+    id libraryPath;
+    id gpuDevice;
+    id shaderCompilationContext;
+    id ownsDlHandle;
+    id dlHandle;
+    id metalLibrary;
+    id jsContext;
+    id jsCode;
+    id commandBuilder;
 }
 
 @end

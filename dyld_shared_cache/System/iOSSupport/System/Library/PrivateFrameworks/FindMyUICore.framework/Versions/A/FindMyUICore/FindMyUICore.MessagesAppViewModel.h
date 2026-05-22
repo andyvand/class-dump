@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.MessagesAppViewModel
 {
-    MISSING_TYPE *compositeViewModel;
-    MISSING_TYPE *presenter;
+    id compositeViewModel;
+    id presenter;
 }
 
 @end

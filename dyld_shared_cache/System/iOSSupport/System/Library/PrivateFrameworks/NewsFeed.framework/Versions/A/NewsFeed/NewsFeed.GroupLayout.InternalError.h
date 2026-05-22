@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.GroupLayout.InternalError
 {
-    MISSING_TYPE *model;
-    MISSING_TYPE *key;
+    id model;
+    id key;
 }
 
 @end

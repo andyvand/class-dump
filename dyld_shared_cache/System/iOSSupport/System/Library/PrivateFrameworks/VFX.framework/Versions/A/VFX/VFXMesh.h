@@ -67,7 +67,7 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_a7a0fb92);
+- (CDStruct_8666bb01);
 - (void);
 - (void);
 - (id);
@@ -77,7 +77,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) CDStruct_a7a0fb92 boundingBox;
+@property(nonatomic) CDStruct_8666bb01 boundingBox;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

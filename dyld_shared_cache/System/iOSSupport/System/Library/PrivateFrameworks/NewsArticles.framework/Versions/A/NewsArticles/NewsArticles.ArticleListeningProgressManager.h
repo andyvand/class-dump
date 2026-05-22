@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleListeningProgressManager
 {
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *listeningProgressObservations;
-    MISSING_TYPE *paidBundleConfigManager;
-    MISSING_TYPE *cachedArticleTextRanges;
-    MISSING_TYPE *commandCenter;
+    id readingHistory;
+    id listeningProgressObservations;
+    id paidBundleConfigManager;
+    id cachedArticleTextRanges;
+    id commandCenter;
 }
 
 - (void);

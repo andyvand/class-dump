@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.HistoryFeaturePromotionEligibilityProvider
 {
-    MISSING_TYPE *history;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *recipeHistory;
-    MISSING_TYPE *puzzleHistoryService;
+    id history;
+    id readingHistory;
+    id headlineService;
+    id recipeHistory;
+    id puzzleHistoryService;
 }
 
 @end

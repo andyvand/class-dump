@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatCacheManager
 {
-    MISSING_TYPE *cacheDirectories;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *indexCache;
-    MISSING_TYPE *fileCache;
+    id cacheDirectories;
+    id queue;
+    id indexCache;
+    id fileCache;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.CampaignReferralManager
 {
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *configurationManager;
+    id subscriptionController;
+    id configurationManager;
 }
 
 @end

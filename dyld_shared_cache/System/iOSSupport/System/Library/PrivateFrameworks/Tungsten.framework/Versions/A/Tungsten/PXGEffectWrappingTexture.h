@@ -6,7 +6,7 @@
 
 #import <Tungsten/PXGImageTexture.h>
 
-@class MISSING_TYPE, NSIndexSet, NSMutableIndexSet, NSString, PXGColorProgram;
+@class NSIndexSet, NSMutableIndexSet, NSString, PXGColorProgram;
 @protocol MTLTexture, PXGMetalSpriteTexture;
 
 __attribute__((visibility("hidden")))
@@ -36,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (unsigned char);
 - (id);
 - (_Bool);

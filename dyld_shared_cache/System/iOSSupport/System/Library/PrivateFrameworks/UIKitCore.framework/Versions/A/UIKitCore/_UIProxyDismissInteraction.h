@@ -6,13 +6,11 @@
 
 #import <UIKitCore/_UIDismissInteraction.h>
 
-@class MISSING_TYPE;
-
 @interface _UIProxyDismissInteraction : _UIDismissInteraction
 {
-    MISSING_TYPE *trackingView;
-    MISSING_TYPE *trackingViewDidBecomeVisible;
-    MISSING_TYPE *originalTrackingViewPosition;
+    id trackingView;
+    id trackingViewDidBecomeVisible;
+    id originalTrackingViewPosition;
 }
 
 - (void);

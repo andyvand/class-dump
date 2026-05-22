@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ConversationArchiver
 {
-    MISSING_TYPE *conversation;
-    MISSING_TYPE *archivingOptions;
-    MISSING_TYPE *conversationFileRelativePath;
-    MISSING_TYPE *conversationExporter;
-    MISSING_TYPE *conversationDirectories;
+    id conversation;
+    id archivingOptions;
+    id conversationFileRelativePath;
+    id conversationExporter;
+    id conversationDirectories;
 }
 
 @end

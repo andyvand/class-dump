@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString, UITabBarItem, UIViewController;
+@class NSArray, NSString, UITabBarItem, UIViewController;
 
 @interface TSTransitionContainerViewController
 {
-    MISSING_TYPE *disableInstallBarButtonItems;
-    MISSING_TYPE *doneButtonPlacement;
-    MISSING_TYPE *doneButtonStyle;
-    MISSING_TYPE *hideDoneButton;
-    MISSING_TYPE *rootViewController;
-    MISSING_TYPE *containerIdentifier;
-    MISSING_TYPE *backBarButtonItem;
-    MISSING_TYPE *nextDisplayMode;
-    MISSING_TYPE *$__lazy_storage_$_doneBarButtonItem;
+    id disableInstallBarButtonItems;
+    id doneButtonPlacement;
+    id doneButtonStyle;
+    id hideDoneButton;
+    id rootViewController;
+    id containerIdentifier;
+    id backBarButtonItem;
+    id nextDisplayMode;
+    id $__lazy_storage_$_doneBarButtonItem;
 }
 
 - (id);

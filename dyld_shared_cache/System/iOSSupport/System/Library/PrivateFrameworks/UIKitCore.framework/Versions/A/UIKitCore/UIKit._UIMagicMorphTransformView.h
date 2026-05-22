@@ -6,16 +6,14 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIMagicMorphTransformView : UIView
 {
-    MISSING_TYPE *hidesSourceView;
-    MISSING_TYPE *matchesAlpha;
-    MISSING_TYPE *appliesMinificationFilter;
-    MISSING_TYPE *sourcePreview;
-    MISSING_TYPE *portalView;
-    MISSING_TYPE *didHostSourceView;
+    id hidesSourceView;
+    id matchesAlpha;
+    id appliesMinificationFilter;
+    id sourcePreview;
+    id portalView;
+    id didHostSourceView;
 }
 
 - (id);

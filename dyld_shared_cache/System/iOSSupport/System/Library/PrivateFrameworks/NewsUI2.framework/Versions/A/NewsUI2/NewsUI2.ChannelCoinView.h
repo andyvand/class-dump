@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsUI2.ChannelCoinView
 {
-    MISSING_TYPE *iconImageView;
-    MISSING_TYPE *nameLabel;
-    MISSING_TYPE *secondaryNameLabel;
-    MISSING_TYPE *accessoryButton;
-    MISSING_TYPE *coinButton;
-    MISSING_TYPE *token;
+    id iconImageView;
+    id nameLabel;
+    id secondaryNameLabel;
+    id accessoryButton;
+    id coinButton;
+    id token;
 }
 
 - (_Bool);

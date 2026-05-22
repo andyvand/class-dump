@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface NewsUI2.FollowingNotificationsDisabledView
 {
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *subtitleLabel;
-    MISSING_TYPE *button;
-    MISSING_TYPE *onButtonTap;
+    id titleLabel;
+    id subtitleLabel;
+    id button;
+    id onButtonTap;
 }
 
 - (void);

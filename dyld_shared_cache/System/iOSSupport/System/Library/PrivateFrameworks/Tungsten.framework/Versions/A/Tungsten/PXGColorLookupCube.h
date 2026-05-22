@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSData;
+@class NSData;
 
 @interface PXGColorLookupCube
 {
@@ -16,12 +16,12 @@
 - (long long);
 - (id);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) MISSING_TYPE *center;
+@property(readonly, nonatomic) id center;
 @property(nonatomic) long long edgeSize; // @synthesize edgeSize=_edgeSize;
 @property(readonly, nonatomic) _Bool shouldCache; // @synthesize shouldCache=_shouldCache;
 @property(readonly, nonatomic) NSData *textureData;

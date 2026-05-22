@@ -6,13 +6,11 @@
 
 #import <NewsFeed/NewsFeed.DebugFormatInspectorPaneViewController.h>
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDebuggerViewController : NewsFeed.DebugFormatInspectorPaneViewController
 {
-    MISSING_TYPE *debuggerPaneViewController;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *selectedCallStackFrame;
+    id debuggerPaneViewController;
+    id editor;
+    id selectedCallStackFrame;
 }
 
 - (id);

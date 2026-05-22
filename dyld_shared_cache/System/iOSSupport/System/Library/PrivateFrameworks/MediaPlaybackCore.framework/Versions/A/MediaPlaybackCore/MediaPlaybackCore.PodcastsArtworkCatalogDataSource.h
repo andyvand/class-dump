@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.PodcastsArtworkCatalogDataSource
 {
-    MISSING_TYPE *artworkLoader;
-    MISSING_TYPE *storeArtworkDataSource;
-    MISSING_TYPE *cache;
+    id artworkLoader;
+    id storeArtworkDataSource;
+    id cache;
 }
 
 - (id);

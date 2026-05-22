@@ -6,12 +6,10 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTBaseView.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTHapticIntensityView : CoreHapticsTools.CHTBaseView
 {
-    MISSING_TYPE *paramCurveOverlayLayer;
-    MISSING_TYPE *overlayParamCurve;
+    id paramCurveOverlayLayer;
+    id overlayParamCurve;
 }
 
 - (id);

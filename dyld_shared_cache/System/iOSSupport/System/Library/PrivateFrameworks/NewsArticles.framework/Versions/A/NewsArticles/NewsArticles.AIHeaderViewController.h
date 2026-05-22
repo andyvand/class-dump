@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.AIHeaderViewController
 {
-    MISSING_TYPE *label;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *channelName;
-    MISSING_TYPE *headerDelegate;
+    id label;
+    id renderer;
+    id channelName;
+    id headerDelegate;
 }
 
 - (id);

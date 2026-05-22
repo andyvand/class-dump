@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatFileViewController
 {
-    MISSING_TYPE *sourceMetrics;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *fileViewController;
-    MISSING_TYPE *model;
+    id sourceMetrics;
+    id editor;
+    id styler;
+    id fileViewController;
+    id model;
 }
 
 - (id);

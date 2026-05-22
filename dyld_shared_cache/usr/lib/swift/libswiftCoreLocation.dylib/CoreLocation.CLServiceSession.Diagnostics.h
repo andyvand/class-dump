@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreLocation.CLServiceSession.Diagnostics
 {
-    MISSING_TYPE *stream;
-    MISSING_TYPE *serviceSession;
+    id stream;
+    id serviceSession;
 }
 
 @end

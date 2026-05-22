@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintInfiniteScrollManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *observableInfiniteScroll;
-    MISSING_TYPE *inflightRequests;
-    MISSING_TYPE *rangeCache;
-    MISSING_TYPE *direction;
-    MISSING_TYPE *maxInflightRequests;
-    MISSING_TYPE *log;
+    id delegate;
+    id observableInfiniteScroll;
+    id inflightRequests;
+    id rangeCache;
+    id direction;
+    id maxInflightRequests;
+    id log;
 }
 
 @end

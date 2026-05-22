@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SharedWithYouFeedDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *sharedItemManager;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *feedServiceContextFactory;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *feedService;
+    id delegate;
+    id sharedItemManager;
+    id headlineService;
+    id accessQueue;
+    id feedServiceContextFactory;
+    id feedServiceConfigFetcher;
+    id feedService;
 }
 
 - (id);

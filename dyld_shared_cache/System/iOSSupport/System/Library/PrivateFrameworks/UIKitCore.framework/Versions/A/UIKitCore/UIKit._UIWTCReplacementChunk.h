@@ -6,16 +6,14 @@
 
 #import <UIKitCore/UIKit._UIWTCTextChunk.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIWTCReplacementChunk : UIKit._UIWTCTextChunk
 {
-    MISSING_TYPE *deliveryID;
-    MISSING_TYPE *effectiveContextID;
-    MISSING_TYPE *isInitialAnimationPending;
-    MISSING_TYPE *isDeliveryAnimationPending;
-    MISSING_TYPE *isInitialAnimationComplete;
-    MISSING_TYPE *isDeliveryAnimationComplete;
+    id deliveryID;
+    id effectiveContextID;
+    id isInitialAnimationPending;
+    id isDeliveryAnimationPending;
+    id isInitialAnimationComplete;
+    id isDeliveryAnimationComplete;
 }
 
 - (id);

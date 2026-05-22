@@ -18,7 +18,7 @@
     _UIVelocityIntegratorFilter *_accelerationFilter;
     double _resetHysteresisOnSampleThetaDiff;
     CDUnknownBlockType _didResetHysteresisOnThetaDiffHandler;
-    CDUnion_5898235e _totalTranslation;
+    CDUnion_84fc7ef9 _totalTranslation;
 }
 
 - (void);

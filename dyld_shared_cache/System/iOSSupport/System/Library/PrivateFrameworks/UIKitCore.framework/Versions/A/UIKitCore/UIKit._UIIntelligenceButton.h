@@ -6,18 +6,16 @@
 
 #import <UIKitCore/UIButton.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIIntelligenceButton : UIButton
 {
-    MISSING_TYPE *isExpanded;
-    MISSING_TYPE *style;
-    MISSING_TYPE *imagePortal;
-    MISSING_TYPE *highlightTransformView;
-    MISSING_TYPE *colorView;
-    MISSING_TYPE *scaleAnimator;
-    MISSING_TYPE *opacityAnimator;
-    MISSING_TYPE *rotationAnimator;
+    id isExpanded;
+    id style;
+    id imagePortal;
+    id highlightTransformView;
+    id colorView;
+    id scaleAnimator;
+    id opacityAnimator;
+    id rotationAnimator;
 }
 
 - (_Bool);

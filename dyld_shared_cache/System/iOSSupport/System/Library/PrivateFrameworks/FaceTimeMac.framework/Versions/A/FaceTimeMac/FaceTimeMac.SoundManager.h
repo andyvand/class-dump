@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.SoundManager
 {
-    MISSING_TYPE *audioHALManager;
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *soundPlayer;
-    MISSING_TYPE *playSoundForNotificationEnabled;
-    MISSING_TYPE *callFilterAllowsCall;
-    MISSING_TYPE *isRunningForActiveUser;
-    MISSING_TYPE *logger;
+    id audioHALManager;
+    id callCenter;
+    id soundPlayer;
+    id playSoundForNotificationEnabled;
+    id callFilterAllowsCall;
+    id isRunningForActiveUser;
+    id logger;
 }
 
 - (void);

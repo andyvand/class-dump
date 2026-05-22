@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary, NSString, PTGlobalReduction, PTGuidedFilter, PTMetalContext, PTPyramid, PTQualitySettings, PTRaytracingInterpolateResultV2, PTRaytracingUtilsV2, PTRenderDebugLayer;
+@class NSDictionary, NSString, PTGlobalReduction, PTGuidedFilter, PTMetalContext, PTPyramid, PTQualitySettings, PTRaytracingInterpolateResultV2, PTRaytracingUtilsV2, PTRenderDebugLayer;
 @protocol MTLBuffer, MTLComputePipelineState, MTLTexture;
 
 @interface PTRaytracingV2002
@@ -35,7 +35,7 @@
     id <MTLTexture> _guideRGBAUpscale;
     _Bool _doVisualization;
     int _kRayCount;
-    MISSING_TYPE *_colorSize;
+    id _colorSize;
     float _kPyramidSamplingFraction;
     float _anamorphicFactor;
     float _edgeTolerance;

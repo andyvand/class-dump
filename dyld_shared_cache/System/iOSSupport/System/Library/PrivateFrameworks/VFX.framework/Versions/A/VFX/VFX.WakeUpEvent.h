@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.WakeUpEvent
 {
-    MISSING_TYPE *condition;
-    MISSING_TYPE *event;
+    id condition;
+    id event;
 }
 
 @end

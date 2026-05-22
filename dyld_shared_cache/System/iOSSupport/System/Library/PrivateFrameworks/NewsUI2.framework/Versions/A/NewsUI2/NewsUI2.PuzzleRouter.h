@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *scriptsManager;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *sceneProvider;
+    id controller;
+    id resolver;
+    id tracker;
+    id scriptsManager;
+    id navigator;
+    id sceneProvider;
 }
 
 @end

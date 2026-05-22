@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ProxyHeadlineExposureTracker
 {
-    MISSING_TYPE *defaultTracker;
-    MISSING_TYPE *sportsTracker;
+    id defaultTracker;
+    id sportsTracker;
 }
 
 @end

@@ -6,15 +6,13 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIBlurredEdgeMask : UIView
 {
-    MISSING_TYPE *region;
-    MISSING_TYPE *radius;
-    MISSING_TYPE *sourceView;
-    MISSING_TYPE *$__lazy_storage_$_blurredPortal;
-    MISSING_TYPE *$__lazy_storage_$_punchPortal;
+    id region;
+    id radius;
+    id sourceView;
+    id $__lazy_storage_$_blurredPortal;
+    id $__lazy_storage_$_punchPortal;
 }
 
 - (void);

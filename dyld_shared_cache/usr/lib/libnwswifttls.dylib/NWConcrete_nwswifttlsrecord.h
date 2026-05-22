@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSObject, NSString, _TtC10nwswifttls17STLSRecordHandler;
+@class NSData, NSMutableArray, NSObject, NSString, nwswifttls.STLSRecordHandler;
 @protocol OS_dispatch_data, OS_dispatch_queue, OS_nw_frame, OS_nw_parameters, OS_nw_protocol_metadata, OS_nw_protocol_options;
 
 __attribute__((visibility("hidden")))
@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     struct nw_frame_array_s output_frame_array;
     struct nw_frame_array_s read_frame_array;
     struct nw_frame_array_s finalized_output_frame_array;
-    _TtC10nwswifttls17STLSRecordHandler *record_handler;
+    nwswifttls.STLSRecordHandler *record_handler;
     NSObject<OS_nw_frame> *current_input_frame;
     unsigned int claimed_input_bytes;
     int application_transport;

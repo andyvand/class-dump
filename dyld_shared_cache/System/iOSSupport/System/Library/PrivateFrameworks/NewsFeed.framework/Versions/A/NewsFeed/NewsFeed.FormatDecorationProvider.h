@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDecorationProvider
 {
-    MISSING_TYPE *packages;
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *config;
-    MISSING_TYPE *options;
-    MISSING_TYPE *groupItems;
-    MISSING_TYPE *systemFactory;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *debugData;
+    id packages;
+    id assetManager;
+    id config;
+    id options;
+    id groupItems;
+    id systemFactory;
+    id logger;
+    id commandCenter;
+    id debugData;
 }
 
 @end

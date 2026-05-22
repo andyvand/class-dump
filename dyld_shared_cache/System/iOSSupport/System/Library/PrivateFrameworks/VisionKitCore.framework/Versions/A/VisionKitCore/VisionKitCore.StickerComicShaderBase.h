@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerComicShaderBase
 {
-    MISSING_TYPE *pipelineState;
-    MISSING_TYPE *size;
+    id pipelineState;
+    id size;
 }
 
 - (id);

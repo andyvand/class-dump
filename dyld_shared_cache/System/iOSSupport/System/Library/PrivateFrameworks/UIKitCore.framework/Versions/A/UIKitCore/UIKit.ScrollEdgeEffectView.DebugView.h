@@ -6,17 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.ScrollEdgeEffectView.DebugView : UIView
 {
-    MISSING_TYPE *overlays;
-    MISSING_TYPE *bar;
-    MISSING_TYPE *barRect;
-    MISSING_TYPE *lumaLabel;
-    MISSING_TYPE *luma;
-    MISSING_TYPE *debugColor;
-    MISSING_TYPE *pocketMaskPortal;
+    id overlays;
+    id bar;
+    id barRect;
+    id lumaLabel;
+    id luma;
+    id debugColor;
+    id pocketMaskPortal;
 }
 
 - (id);

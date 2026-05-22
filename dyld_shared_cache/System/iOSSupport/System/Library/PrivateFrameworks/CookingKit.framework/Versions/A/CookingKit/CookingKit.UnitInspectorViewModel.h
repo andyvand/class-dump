@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.UnitInspectorViewModel
 {
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_conversionEnabled;
-    MISSING_TYPE *_unitSystem;
-    MISSING_TYPE *_temperatureUnit;
-    MISSING_TYPE *_abbreviatedUnits;
-    MISSING_TYPE *_useCups;
-    MISSING_TYPE *_inlineWeights;
-    MISSING_TYPE *_inlineWeightsUnitSystem;
-    MISSING_TYPE *_$observationRegistrar;
+    id _$scope;
+    id _conversionEnabled;
+    id _unitSystem;
+    id _temperatureUnit;
+    id _abbreviatedUnits;
+    id _useCups;
+    id _inlineWeights;
+    id _inlineWeightsUnitSystem;
+    id _$observationRegistrar;
 }
 
 @end

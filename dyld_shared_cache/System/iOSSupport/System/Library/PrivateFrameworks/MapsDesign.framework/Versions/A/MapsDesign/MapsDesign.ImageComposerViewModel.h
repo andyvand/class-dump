@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.ImageComposerViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_image;
-    MISSING_TYPE *_colorGradient;
-    MISSING_TYPE *_isCityPlaceholder;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _image;
+    id _colorGradient;
+    id _isCityPlaceholder;
+    id _$observationRegistrar;
 }
 
 @end

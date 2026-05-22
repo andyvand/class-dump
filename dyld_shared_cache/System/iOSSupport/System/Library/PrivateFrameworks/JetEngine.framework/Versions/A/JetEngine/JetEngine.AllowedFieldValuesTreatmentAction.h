@@ -6,11 +6,9 @@
 
 #import <JetEngine/JETreatmentAction.h>
 
-@class MISSING_TYPE;
-
 @interface JetEngine.AllowedFieldValuesTreatmentAction : JETreatmentAction
 {
-    MISSING_TYPE *allowList;
+    id allowList;
 }
 
 - (id);

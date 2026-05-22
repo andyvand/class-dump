@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.CloudKitContainerHelper
 {
-    MISSING_TYPE *container;
-    MISSING_TYPE *serialQueueForShare;
+    id container;
+    id serialQueueForShare;
 }
 
 @end

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedImageGenerator
 {
-    MISSING_TYPE *webContentFactory;
-    MISSING_TYPE *webEmbedDataSourceManager;
-    MISSING_TYPE *webEmbedConfigurationProvider;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *operationQueue;
-    MISSING_TYPE *cache;
-    MISSING_TYPE *webContentViewControllers;
+    id webContentFactory;
+    id webEmbedDataSourceManager;
+    id webEmbedConfigurationProvider;
+    id queue;
+    id operationQueue;
+    id cache;
+    id webContentViewControllers;
 }
 
 @end

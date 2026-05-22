@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.AMSMetricsWithInspection
 {
-    MISSING_TYPE *scanner;
-    MISSING_TYPE *urlSession;
+    id scanner;
+    id urlSession;
 }
 
 - (id);

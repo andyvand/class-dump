@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.AMSMetricsEventRecorder
 {
-    MISSING_TYPE *metrics;
-    MISSING_TYPE *engagement;
-    MISSING_TYPE *defaultTopic;
-    MISSING_TYPE *accountProvider;
-    MISSING_TYPE *anonymousTopics;
-    MISSING_TYPE *decorator;
+    id metrics;
+    id engagement;
+    id defaultTopic;
+    id accountProvider;
+    id anonymousTopics;
+    id decorator;
 }
 
 @end

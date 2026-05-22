@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeManager
 {
-    MISSING_TYPE *_importedRecipes;
-    MISSING_TYPE *processingPipeline;
-    MISSING_TYPE *recipeLoader;
-    MISSING_TYPE *imageColorAnalyzer;
-    MISSING_TYPE *configuration;
+    id _importedRecipes;
+    id processingPipeline;
+    id recipeLoader;
+    id imageColorAnalyzer;
+    id configuration;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatBracketDataVisualization
 {
-    MISSING_TYPE *tagIdentifier;
-    MISSING_TYPE *_query;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *_properties;
+    id tagIdentifier;
+    id _query;
+    id _selectors;
+    id _properties;
 }
 
 @end

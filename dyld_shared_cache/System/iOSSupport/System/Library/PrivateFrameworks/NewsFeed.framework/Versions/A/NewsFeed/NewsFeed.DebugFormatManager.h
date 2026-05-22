@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatManager
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *packageCache;
-    MISSING_TYPE *workspaceCache;
-    MISSING_TYPE *sourceCache;
-    MISSING_TYPE *service;
-    MISSING_TYPE *fontManager;
-    MISSING_TYPE *cacheManager;
-    MISSING_TYPE *$__lazy_storage_$_environment;
-    MISSING_TYPE *queue;
+    id lock;
+    id packageCache;
+    id workspaceCache;
+    id sourceCache;
+    id service;
+    id fontManager;
+    id cacheManager;
+    id $__lazy_storage_$_environment;
+    id queue;
 }
 
 @end

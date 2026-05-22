@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.MenuBar
 {
-    MISSING_TYPE *appMode;
-    MISSING_TYPE *onOpenSettings;
-    MISSING_TYPE *$__lazy_storage_$_videoMenuHandler;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *currentSystem;
-    MISSING_TYPE *isAuthenticated;
-    MISSING_TYPE *cancellable;
-    MISSING_TYPE *isOnCall;
+    id appMode;
+    id onOpenSettings;
+    id $__lazy_storage_$_videoMenuHandler;
+    id logger;
+    id currentSystem;
+    id isAuthenticated;
+    id cancellable;
+    id isOnCall;
 }
 
 - (void);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.ZoomableImageViewModel
 {
-    MISSING_TYPE *_imageData;
-    MISSING_TYPE *_$observationRegistrar;
+    id _imageData;
+    id _$observationRegistrar;
 }
 
 @end

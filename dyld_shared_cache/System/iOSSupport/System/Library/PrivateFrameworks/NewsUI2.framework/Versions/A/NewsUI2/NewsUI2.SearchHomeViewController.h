@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchHomeViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *recentSearchManager;
-    MISSING_TYPE *origination;
+    id delegate;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id recentSearchManager;
+    id origination;
 }
 
 - (id);

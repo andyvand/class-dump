@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PluginManager
 {
-    MISSING_TYPE *pluginContainerController;
-    MISSING_TYPE *plugins;
-    MISSING_TYPE *pluginViewControllers;
-    MISSING_TYPE *enableReuseLayoutSuppression;
+    id pluginContainerController;
+    id plugins;
+    id pluginViewControllers;
+    id enableReuseLayoutSuppression;
 }
 
 @end

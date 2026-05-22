@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedModelFactory
 {
-    MISSING_TYPE *feedHeadlineFactory;
-    MISSING_TYPE *feedIssueFactory;
-    MISSING_TYPE *feedTagFactory;
-    MISSING_TYPE *feedWebEmbedFactory;
-    MISSING_TYPE *feedCustomItemFactory;
-    MISSING_TYPE *feedBannerAdFactory;
-    MISSING_TYPE *feedPuzzleFactory;
-    MISSING_TYPE *feedPuzzleTypeFactory;
-    MISSING_TYPE *feedPuzzleStatisticFactory;
-    MISSING_TYPE *feedRecipeFactory;
+    id feedHeadlineFactory;
+    id feedIssueFactory;
+    id feedTagFactory;
+    id feedWebEmbedFactory;
+    id feedCustomItemFactory;
+    id feedBannerAdFactory;
+    id feedPuzzleFactory;
+    id feedPuzzleTypeFactory;
+    id feedPuzzleStatisticFactory;
+    id feedRecipeFactory;
 }
 
 @end

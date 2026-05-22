@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactEntityProvider
 {
-    MISSING_TYPE *contactStore;
-    MISSING_TYPE *intentActionPerformer;
-    MISSING_TYPE *contactFormatter;
-    MISSING_TYPE *applicationWorkspace;
+    id contactStore;
+    id intentActionPerformer;
+    id contactFormatter;
+    id applicationWorkspace;
 }
 
 @end

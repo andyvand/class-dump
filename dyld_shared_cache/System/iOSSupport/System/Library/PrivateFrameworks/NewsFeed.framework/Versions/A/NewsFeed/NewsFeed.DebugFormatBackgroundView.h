@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatBackgroundView
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *backgroundState;
+    id editor;
+    id backgroundState;
 }
 
 - (id);

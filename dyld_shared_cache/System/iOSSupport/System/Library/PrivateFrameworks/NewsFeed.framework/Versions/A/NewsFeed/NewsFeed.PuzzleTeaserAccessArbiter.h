@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleTeaserAccessArbiter
 {
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id puzzleHistoryService;
+    id bundleSubscriptionManager;
 }
 
 @end

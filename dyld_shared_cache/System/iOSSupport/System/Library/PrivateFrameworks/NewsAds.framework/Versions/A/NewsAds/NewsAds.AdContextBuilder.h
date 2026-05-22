@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.AdContextBuilder
 {
-    MISSING_TYPE *parent;
-    MISSING_TYPE *name;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *dataStack;
+    id parent;
+    id name;
+    id lock;
+    id dataStack;
 }
 
 @end

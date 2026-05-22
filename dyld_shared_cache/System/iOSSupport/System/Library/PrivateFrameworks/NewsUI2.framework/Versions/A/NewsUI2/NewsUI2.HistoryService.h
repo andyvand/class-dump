@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.HistoryService
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *issueReadingHistory;
-    MISSING_TYPE *clearUserDataManager;
-    MISSING_TYPE *headlineStreamingResults;
-    MISSING_TYPE *headlineModelFactory;
-    MISSING_TYPE *headlineService;
+    id observers;
+    id readingHistory;
+    id issueReadingHistory;
+    id clearUserDataManager;
+    id headlineStreamingResults;
+    id headlineModelFactory;
+    id headlineService;
 }
 
 - (void);

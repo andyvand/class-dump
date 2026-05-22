@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NotificationAdSegmentProvider
 {
-    MISSING_TYPE *needsUpdate;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *subscriptionService;
+    id needsUpdate;
+    id tagService;
+    id subscriptionService;
 }
 
 @end

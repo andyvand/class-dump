@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingModifierFactory
 {
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *tagRanker;
-    MISSING_TYPE *shortcutService;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *followingBadgingCoordinator;
-    MISSING_TYPE *magazinesBadgingCoordinator;
-    MISSING_TYPE *puzzleBadgingCoordinator;
-    MISSING_TYPE *notificationConfiguration;
-    MISSING_TYPE *suggestionStatusProvider;
-    MISSING_TYPE *purchaseController;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *familySharingStatusManager;
-    MISSING_TYPE *engagementInlineViewManager;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *contentShortcutsStorageManager;
-    MISSING_TYPE *userInfo;
+    id featureAvailability;
+    id tagService;
+    id tagRanker;
+    id shortcutService;
+    id subscriptionService;
+    id appConfigurationManager;
+    id followingBadgingCoordinator;
+    id magazinesBadgingCoordinator;
+    id puzzleBadgingCoordinator;
+    id notificationConfiguration;
+    id suggestionStatusProvider;
+    id purchaseController;
+    id bundleSubscriptionManager;
+    id familySharingStatusManager;
+    id engagementInlineViewManager;
+    id contentAvailabilityValidator;
+    id contentShortcutsStorageManager;
+    id userInfo;
 }
 
 @end

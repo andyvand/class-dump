@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatVideoPlayerViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *reuseIdentifier;
-    MISSING_TYPE *onReuse;
-    MISSING_TYPE *posterFrame;
-    MISSING_TYPE *placeholderView;
-    MISSING_TYPE *isLiveIconHidden;
-    MISSING_TYPE *autoPlayback;
-    MISSING_TYPE *playbackOverlay;
-    MISSING_TYPE *restrictedOverlayView;
-    MISSING_TYPE *liveStreamOverlayView;
-    MISSING_TYPE *videoContainerView;
+    id delegate;
+    id identifier;
+    id reuseIdentifier;
+    id onReuse;
+    id posterFrame;
+    id placeholderView;
+    id isLiveIconHidden;
+    id autoPlayback;
+    id playbackOverlay;
+    id restrictedOverlayView;
+    id liveStreamOverlayView;
+    id videoContainerView;
 }
 
 - (void);

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.AmbientCollectionViewCell
 {
-    MISSING_TYPE *alphaForHiddenPoster;
-    MISSING_TYPE *hideOrDeleteButtonSize;
-    MISSING_TYPE *buttonDistanceFromCellTop;
-    MISSING_TYPE *buttonDistanceFromCellEdge;
-    MISSING_TYPE *editingButtonOffset;
-    MISSING_TYPE *shadowOffset;
-    MISSING_TYPE *shadowRadius;
-    MISSING_TYPE *shadowOpacity;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *posterModel;
-    MISSING_TYPE *scaleInLayout;
-    MISSING_TYPE *editingButton;
-    MISSING_TYPE *hideOrDeleteButton;
-    MISSING_TYPE *editingViewController;
-    MISSING_TYPE *ambientPosterViewController;
-    MISSING_TYPE *posterCornerRadius;
-    MISSING_TYPE *shadowView;
+    id alphaForHiddenPoster;
+    id hideOrDeleteButtonSize;
+    id buttonDistanceFromCellTop;
+    id buttonDistanceFromCellEdge;
+    id editingButtonOffset;
+    id shadowOffset;
+    id shadowRadius;
+    id shadowOpacity;
+    id delegate;
+    id posterModel;
+    id scaleInLayout;
+    id editingButton;
+    id hideOrDeleteButton;
+    id editingViewController;
+    id ambientPosterViewController;
+    id posterCornerRadius;
+    id shadowView;
 }
 
 - (id);

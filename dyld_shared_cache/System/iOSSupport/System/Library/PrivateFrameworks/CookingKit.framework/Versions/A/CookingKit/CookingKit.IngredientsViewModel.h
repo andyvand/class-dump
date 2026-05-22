@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.IngredientsViewModel
 {
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_recipeURL;
-    MISSING_TYPE *_sections;
-    MISSING_TYPE *_selectedIngredientIDs;
-    MISSING_TYPE *_isFocusable;
-    MISSING_TYPE *_isGroceryListEnabled;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_$observationRegistrar;
+    id _recipeID;
+    id _recipeURL;
+    id _sections;
+    id _selectedIngredientIDs;
+    id _isFocusable;
+    id _isGroceryListEnabled;
+    id _$scope;
+    id _$observationRegistrar;
 }
 
 @end

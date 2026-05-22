@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.CAMetalLayerRenderOutput
 {
-    MISSING_TYPE *metalLayer;
-    MISSING_TYPE *viewpoint;
-    MISSING_TYPE *materialOverride;
-    MISSING_TYPE *loadAction;
-    MISSING_TYPE *clearColor;
-    MISSING_TYPE *scope;
-    MISSING_TYPE *preferredFramesPerSecond;
-    MISSING_TYPE *stereoMode;
-    MISSING_TYPE *isUserInitiated;
-    MISSING_TYPE *frameCompletion;
-    MISSING_TYPE *postRenderCallback;
-    MISSING_TYPE *commandBuffer;
-    MISSING_TYPE *inputStreamIdentifier;
-    MISSING_TYPE *enabled;
-    MISSING_TYPE *frameCount;
-    MISSING_TYPE *requestedDrawableSize;
-    MISSING_TYPE *resizingMode;
+    id metalLayer;
+    id viewpoint;
+    id materialOverride;
+    id loadAction;
+    id clearColor;
+    id scope;
+    id preferredFramesPerSecond;
+    id stereoMode;
+    id isUserInitiated;
+    id frameCompletion;
+    id postRenderCallback;
+    id commandBuffer;
+    id inputStreamIdentifier;
+    id enabled;
+    id frameCount;
+    id requestedDrawableSize;
+    id resizingMode;
 }
 
 @end

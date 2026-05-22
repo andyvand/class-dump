@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol NAArticleFooterDelegate;
 
 @interface NewsArticles.ArticleFooterPaywall
 {
     id <NAArticleFooterDelegate> footerDelegate;
-    MISSING_TYPE *paywallViewController;
-    MISSING_TYPE *paywallHeight;
+    id paywallViewController;
+    id paywallHeight;
 }
 
 - (void);

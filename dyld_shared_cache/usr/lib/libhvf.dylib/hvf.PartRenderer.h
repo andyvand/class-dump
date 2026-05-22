@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface hvf.PartRenderer
 {
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *trampoline;
-    MISSING_TYPE *hvglLoader;
-    MISSING_TYPE *partIndex;
+    id renderer;
+    id trampoline;
+    id hvglLoader;
+    id partIndex;
 }
 
 @end

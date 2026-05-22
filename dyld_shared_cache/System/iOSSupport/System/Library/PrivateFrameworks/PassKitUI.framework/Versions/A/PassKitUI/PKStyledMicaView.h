@@ -6,12 +6,10 @@
 
 #import <PassKitUI/PKMicaView.h>
 
-@class MISSING_TYPE;
-
 @interface PKStyledMicaView : PKMicaView
 {
-    MISSING_TYPE *originalAnimationViewSize;
-    MISSING_TYPE *layerColorConfigurationSets;
+    id originalAnimationViewSize;
+    id layerColorConfigurationSets;
 }
 
 - (id);

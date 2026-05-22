@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.DaemonEventStream.CoreDuetEventSource
 {
-    MISSING_TYPE *descriptor;
-    MISSING_TYPE *source;
+    id descriptor;
+    id source;
 }
 
 @end

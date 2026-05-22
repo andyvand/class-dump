@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeFilterSelectionManager
 {
-    MISSING_TYPE *currentFilterSelection;
-    MISSING_TYPE *_observers;
+    id currentFilterSelection;
+    id _observers;
 }
 
 @end

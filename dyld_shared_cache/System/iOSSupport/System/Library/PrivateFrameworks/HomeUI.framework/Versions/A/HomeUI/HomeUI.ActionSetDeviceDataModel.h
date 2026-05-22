@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.ActionSetDeviceDataModel
 {
-    MISSING_TYPE *actionContainer;
-    MISSING_TYPE *id;
+    id actionContainer;
+    id id;
 }
 
 @end

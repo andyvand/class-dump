@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.CarGestureRepresentable.Coordinator
 {
-    MISSING_TYPE *action;
+    id action;
 }
 
 - (_Bool);

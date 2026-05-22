@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC5UIKit30_UIZoomTransitionAnimationSpec;
+@class UIKit._UIZoomTransitionAnimationSpec;
 
 @interface UIKit._UIZoomTransitionSpec
 {
-    _TtC5UIKit30_UIZoomTransitionAnimationSpec *zoomIn;
-    _TtC5UIKit30_UIZoomTransitionAnimationSpec *zoomInShowcase;
-    _TtC5UIKit30_UIZoomTransitionAnimationSpec *zoomOut;
-    _TtC5UIKit30_UIZoomTransitionAnimationSpec *zoomOutInteractive;
-    _TtC5UIKit30_UIZoomTransitionAnimationSpec *cancelInteractive;
+    UIKit._UIZoomTransitionAnimationSpec *zoomIn;
+    UIKit._UIZoomTransitionAnimationSpec *zoomInShowcase;
+    UIKit._UIZoomTransitionAnimationSpec *zoomOut;
+    UIKit._UIZoomTransitionAnimationSpec *zoomOutInteractive;
+    UIKit._UIZoomTransitionAnimationSpec *cancelInteractive;
     double recededBackgroundScaleDownPoints;
     double recededBackgroundMinScale;
     double dimmingOpacity;
@@ -57,7 +57,7 @@
 - (void)SÿÚm;
 
 // Remaining properties
-@property(nonatomic, retain) _TtC5UIKit30_UIZoomTransitionAnimationSpec *cancelInteractive; // @synthesize cancelInteractive;
+@property(nonatomic, retain) UIKit._UIZoomTransitionAnimationSpec *cancelInteractive; // @synthesize cancelInteractive;
 @property(nonatomic) double dimmingOpacity; // @synthesize dimmingOpacity;
 @property(nonatomic) double fallbackSourceViewWidth; // @synthesize fallbackSourceViewWidth;
 @property(nonatomic) float platterShadowOpacity; // @synthesize platterShadowOpacity;
@@ -66,10 +66,10 @@
 @property(nonatomic) double platterShadowYOffset; // @synthesize platterShadowYOffset;
 @property(nonatomic) double recededBackgroundMinScale; // @synthesize recededBackgroundMinScale;
 @property(nonatomic) double recededBackgroundScaleDownPoints; // @synthesize recededBackgroundScaleDownPoints;
-@property(nonatomic, retain) _TtC5UIKit30_UIZoomTransitionAnimationSpec *zoomIn; // @synthesize zoomIn;
-@property(nonatomic, retain) _TtC5UIKit30_UIZoomTransitionAnimationSpec *zoomInShowcase; // @synthesize zoomInShowcase;
-@property(nonatomic, retain) _TtC5UIKit30_UIZoomTransitionAnimationSpec *zoomOut; // @synthesize zoomOut;
-@property(nonatomic, retain) _TtC5UIKit30_UIZoomTransitionAnimationSpec *zoomOutInteractive; // @synthesize zoomOutInteractive;
+@property(nonatomic, retain) UIKit._UIZoomTransitionAnimationSpec *zoomIn; // @synthesize zoomIn;
+@property(nonatomic, retain) UIKit._UIZoomTransitionAnimationSpec *zoomInShowcase; // @synthesize zoomInShowcase;
+@property(nonatomic, retain) UIKit._UIZoomTransitionAnimationSpec *zoomOut; // @synthesize zoomOut;
+@property(nonatomic, retain) UIKit._UIZoomTransitionAnimationSpec *zoomOutInteractive; // @synthesize zoomOutInteractive;
 
 @end
 

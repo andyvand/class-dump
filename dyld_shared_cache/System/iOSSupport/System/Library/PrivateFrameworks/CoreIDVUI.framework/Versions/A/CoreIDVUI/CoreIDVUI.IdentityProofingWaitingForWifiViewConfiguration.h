@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingWaitingForWifiViewConfiguration
 {
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *titleText;
-    MISSING_TYPE *subtitleText;
-    MISSING_TYPE *primaryButtonTitleText;
-    MISSING_TYPE *showPrimaryButton;
-    MISSING_TYPE *secondaryButtonTitleText;
-    MISSING_TYPE *showSecondaryButton;
-    MISSING_TYPE *tertiaryButtonTitle;
-    MISSING_TYPE *showTertiaryButton;
-    MISSING_TYPE *headerViewImage;
-    MISSING_TYPE *headerViewImageDisplayMode;
-    MISSING_TYPE *hideHeaderViewImageDuringScreenCapture;
-    MISSING_TYPE *inWatchModeOnly;
-    MISSING_TYPE *updateContent;
-    MISSING_TYPE *barButtonItem;
-    MISSING_TYPE *waitingForWifiType;
+    id proofingFlowManager;
+    id viewController;
+    id titleText;
+    id subtitleText;
+    id primaryButtonTitleText;
+    id showPrimaryButton;
+    id secondaryButtonTitleText;
+    id showSecondaryButton;
+    id tertiaryButtonTitle;
+    id showTertiaryButton;
+    id headerViewImage;
+    id headerViewImageDisplayMode;
+    id hideHeaderViewImageDuringScreenCapture;
+    id inWatchModeOnly;
+    id updateContent;
+    id barButtonItem;
+    id waitingForWifiType;
 }
 
 @end

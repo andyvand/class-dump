@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.AudioRemoteCommandCenterManager
 {
-    MISSING_TYPE *lazyCenter;
-    MISSING_TYPE *playingItemState;
-    MISSING_TYPE *commandCenter;
+    id lazyCenter;
+    id playingItemState;
+    id commandCenter;
 }
 
 - (id);

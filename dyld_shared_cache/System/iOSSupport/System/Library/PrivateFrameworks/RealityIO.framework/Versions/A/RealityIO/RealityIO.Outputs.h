@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.Outputs
 {
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *core;
-    MISSING_TYPE *outputs;
+    id accessQueue;
+    id core;
+    id outputs;
 }
 
 @end

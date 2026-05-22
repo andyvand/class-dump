@@ -6,11 +6,9 @@
 
 #import <PassKitUI/PKStyledMicaView.h>
 
-@class MISSING_TYPE;
-
 @interface PKAutoFillHeroAnimationView : PKStyledMicaView
 {
-    MISSING_TYPE *layerColorConfigurationSets;
+    id layerColorConfigurationSets;
 }
 
 - (struct CGSize);

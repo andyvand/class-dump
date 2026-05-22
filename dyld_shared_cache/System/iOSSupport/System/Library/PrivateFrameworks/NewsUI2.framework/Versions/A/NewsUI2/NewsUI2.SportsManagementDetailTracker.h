@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsManagementDetailTracker
 {
-    MISSING_TYPE *appTracker;
-    MISSING_TYPE *sportsTracker;
+    id appTracker;
+    id sportsTracker;
 }
 
 @end

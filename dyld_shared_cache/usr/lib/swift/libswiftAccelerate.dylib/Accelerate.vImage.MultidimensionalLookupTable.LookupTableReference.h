@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface Accelerate.vImage.MultidimensionalLookupTable.LookupTableReference
 {
-    MISSING_TYPE *lookupTable;
+    id lookupTable;
 }
 
 @end

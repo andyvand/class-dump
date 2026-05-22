@@ -9,18 +9,18 @@
 @interface VFXManipulatorNodeTransformPair
 {
     VFXNode *_node;
-    CDStruct_14d5dc5e _transform;
+    CDStruct_95fa7c00 _transform;
 }
 
 - (void);
 - (void);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (void);
 - (id)Xo¦?¢&:? /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) VFXNode *node; // @synthesize node=_node;
-@property(nonatomic) CDStruct_14d5dc5e transform; // @synthesize transform=_transform;
+@property(nonatomic) CDStruct_95fa7c00 transform; // @synthesize transform=_transform;
 
 @end
 

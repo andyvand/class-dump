@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.AdSegmentManager
 {
-    MISSING_TYPE *updater;
-    MISSING_TYPE *providers;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *cachedSegments;
-    MISSING_TYPE *timer;
-    MISSING_TYPE *queueDuration;
-    MISSING_TYPE *queue;
+    id updater;
+    id providers;
+    id lock;
+    id cachedSegments;
+    id timer;
+    id queueDuration;
+    id queue;
 }
 
 @end

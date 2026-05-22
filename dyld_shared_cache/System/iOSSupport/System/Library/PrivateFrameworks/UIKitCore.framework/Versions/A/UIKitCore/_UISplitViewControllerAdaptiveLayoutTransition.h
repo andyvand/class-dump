@@ -4,25 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSSet, NSString, UIView;
+@class NSSet, NSString, UIView;
 @protocol _UISplitViewControllerAdaptiveLayout;
 
 @interface _UISplitViewControllerAdaptiveLayoutTransition
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *animations;
-    MISSING_TYPE *completion;
-    MISSING_TYPE *suspendedDelegateUpdateColumns;
-    MISSING_TYPE *mutableViewControllersWithSuspendedAppearanceTransitions;
-    MISSING_TYPE *mutablePreviousLayoutSnapshotView;
-    MISSING_TYPE *hasStarted;
-    MISSING_TYPE *hasCompleted;
-    MISSING_TYPE *isCommitted;
-    MISSING_TYPE *isCoordinated;
+    id id;
+    id animations;
+    id completion;
+    id suspendedDelegateUpdateColumns;
+    id mutableViewControllersWithSuspendedAppearanceTransitions;
+    id mutablePreviousLayoutSnapshotView;
+    id hasStarted;
+    id hasCompleted;
+    id isCommitted;
+    id isCoordinated;
     id <_UISplitViewControllerAdaptiveLayout> mutablePreviousLayout;
     id <_UISplitViewControllerAdaptiveLayout> mutableNewLayout;
-    MISSING_TYPE *transitionCoordinatorAnimations;
-    MISSING_TYPE *transitionCoordinatorCompletions;
+    id transitionCoordinatorAnimations;
+    id transitionCoordinatorCompletions;
     UIView *mutableContainerView;
     _Bool mutableIsAnimated;
     _Bool mutableIsCancelled;

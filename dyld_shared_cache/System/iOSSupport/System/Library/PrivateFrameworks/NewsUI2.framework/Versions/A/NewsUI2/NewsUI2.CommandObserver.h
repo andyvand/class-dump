@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.CommandObserver
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *webEmbedDataSourceManager;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *tipConfigFactory;
+    id commandCenter;
+    id channelDataFactory;
+    id scienceDataFactory;
+    id articleDataFactory;
+    id tagService;
+    id navigator;
+    id webEmbedDataSourceManager;
+    id puzzleHistoryService;
+    id tipConfigFactory;
 }
 
 @end

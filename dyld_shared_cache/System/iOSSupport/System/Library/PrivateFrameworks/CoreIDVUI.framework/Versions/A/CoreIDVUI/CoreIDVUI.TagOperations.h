@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.TagOperations
 {
-    MISSING_TYPE *tag;
-    MISSING_TYPE *staticAPDUS;
+    id tag;
+    id staticAPDUS;
 }
 
 @end

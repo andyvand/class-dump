@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleEmitterGPUSystemStorage
 {
-    MISSING_TYPE *cachedPipelineState;
-    MISSING_TYPE *cachedComputeFunctionName;
-    MISSING_TYPE *cachedFunctionConstants;
+    id cachedPipelineState;
+    id cachedComputeFunctionName;
+    id cachedFunctionConstants;
 }
 
 @end

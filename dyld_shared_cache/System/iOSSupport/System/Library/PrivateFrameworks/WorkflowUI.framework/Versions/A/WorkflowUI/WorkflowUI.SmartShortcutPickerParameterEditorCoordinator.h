@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SmartShortcutPickerParameterEditorCoordinator
 {
-    MISSING_TYPE *moduleSummaryCoordinator;
-    MISSING_TYPE *sourceView;
-    MISSING_TYPE *sourceViewController;
-    MISSING_TYPE *dismissHandler;
-    MISSING_TYPE *coordinator;
+    id moduleSummaryCoordinator;
+    id sourceView;
+    id sourceViewController;
+    id dismissHandler;
+    id coordinator;
 }
 
 @end

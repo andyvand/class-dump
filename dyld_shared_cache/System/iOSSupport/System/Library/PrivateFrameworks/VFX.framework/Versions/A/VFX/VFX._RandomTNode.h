@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.RandomNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX._RandomTNode : VFX.RandomNode
 {
-    MISSING_TYPE *type;
+    id type;
 }
 
 @end

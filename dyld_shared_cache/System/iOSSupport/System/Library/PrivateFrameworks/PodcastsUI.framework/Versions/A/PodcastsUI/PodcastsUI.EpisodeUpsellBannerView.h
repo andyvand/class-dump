@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.EpisodeUpsellBannerView
 {
-    MISSING_TYPE *tapBannerBlock;
-    MISSING_TYPE *tapCloseButtonBlock;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *artworkContainerView;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *$__lazy_storage_$_subtitleLabel;
-    MISSING_TYPE *$__lazy_storage_$_dismissButton;
-    MISSING_TYPE *$__lazy_storage_$_tapBannerGestureRecognizer;
-    MISSING_TYPE *$__lazy_storage_$_textLayout;
-    MISSING_TYPE *$__lazy_storage_$_titleLabelCenterYConstraint;
-    MISSING_TYPE *$__lazy_storage_$_subtitleTopAnchorConstraint;
-    MISSING_TYPE *$__lazy_storage_$_subtitleBottomConstraint;
-    MISSING_TYPE *$__lazy_storage_$_titleTopConstraint;
-    MISSING_TYPE *$__lazy_storage_$_config;
-    MISSING_TYPE *bannerType;
-    MISSING_TYPE *hoverRecognizer;
-    MISSING_TYPE *isHovering;
-    MISSING_TYPE *objectGraph;
+    id tapBannerBlock;
+    id tapCloseButtonBlock;
+    id contentView;
+    id artworkContainerView;
+    id titleLabel;
+    id $__lazy_storage_$_subtitleLabel;
+    id $__lazy_storage_$_dismissButton;
+    id $__lazy_storage_$_tapBannerGestureRecognizer;
+    id $__lazy_storage_$_textLayout;
+    id $__lazy_storage_$_titleLabelCenterYConstraint;
+    id $__lazy_storage_$_subtitleTopAnchorConstraint;
+    id $__lazy_storage_$_subtitleBottomConstraint;
+    id $__lazy_storage_$_titleTopConstraint;
+    id $__lazy_storage_$_config;
+    id bannerType;
+    id hoverRecognizer;
+    id isHovering;
+    id objectGraph;
 }
 
 - (void);

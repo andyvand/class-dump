@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SliderTableViewCell
 {
-    MISSING_TYPE *onChange;
-    MISSING_TYPE *label;
-    MISSING_TYPE *valueLabel;
-    MISSING_TYPE *precision;
-    MISSING_TYPE *slider;
+    id onChange;
+    id label;
+    id valueLabel;
+    id precision;
+    id slider;
 }
 
 - (void);

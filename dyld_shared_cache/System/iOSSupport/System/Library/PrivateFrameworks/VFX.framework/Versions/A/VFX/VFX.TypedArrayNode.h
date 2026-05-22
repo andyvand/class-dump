@@ -6,11 +6,9 @@
 
 #import <VFX/VFX._ArrayNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.TypedArrayNode : VFX._ArrayNode
 {
-    MISSING_TYPE *elementType;
+    id elementType;
 }
 
 @end

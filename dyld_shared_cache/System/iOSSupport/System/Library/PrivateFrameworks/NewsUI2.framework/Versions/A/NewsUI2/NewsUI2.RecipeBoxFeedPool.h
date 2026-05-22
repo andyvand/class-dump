@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeBoxFeedPool
 {
-    MISSING_TYPE *savedRecipes;
-    MISSING_TYPE *remainingRecipeIDs;
+    id savedRecipes;
+    id remainingRecipeIDs;
 }
 
 @end

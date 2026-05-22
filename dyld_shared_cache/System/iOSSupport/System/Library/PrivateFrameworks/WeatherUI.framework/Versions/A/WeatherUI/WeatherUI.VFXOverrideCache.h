@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.VFXOverrideCache
 {
-    MISSING_TYPE *entries;
-    MISSING_TYPE *lock;
+    id entries;
+    id lock;
 }
 
 @end

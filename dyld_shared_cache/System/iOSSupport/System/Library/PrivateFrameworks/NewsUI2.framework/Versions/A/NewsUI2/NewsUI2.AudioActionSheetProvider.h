@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioActionSheetProvider
 {
-    MISSING_TYPE *headlineConverter;
-    MISSING_TYPE *listeningProgressManager;
-    MISSING_TYPE *commandCenter;
+    id headlineConverter;
+    id listeningProgressManager;
+    id commandCenter;
 }
 
 - (id);

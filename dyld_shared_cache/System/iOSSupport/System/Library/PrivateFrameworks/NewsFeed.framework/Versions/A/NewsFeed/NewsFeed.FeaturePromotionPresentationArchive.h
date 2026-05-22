@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeaturePromotionPresentationArchive
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *fileName;
-    MISSING_TYPE *records;
+    id $defaultActor;
+    id fileName;
+    id records;
 }
 
 @end

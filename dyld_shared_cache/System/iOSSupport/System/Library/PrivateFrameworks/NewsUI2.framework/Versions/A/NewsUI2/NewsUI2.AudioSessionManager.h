@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioSessionManager
 {
-    MISSING_TYPE *sessionManager;
-    MISSING_TYPE *sessionObserver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *nextTrackTracker;
-    MISSING_TYPE *playbackState;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *completedListeningProcessor;
-    MISSING_TYPE *itemSession;
-    MISSING_TYPE *onNextTrack;
-    MISSING_TYPE *widgetUpdater;
+    id sessionManager;
+    id sessionObserver;
+    id tracker;
+    id nextTrackTracker;
+    id playbackState;
+    id channelDataFactory;
+    id scienceDataFactory;
+    id articleDataFactory;
+    id completedListeningProcessor;
+    id itemSession;
+    id onNextTrack;
+    id widgetUpdater;
 }
 
 @end

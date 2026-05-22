@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.IsPrimaryRecipeSource
 {
-    MISSING_TYPE *_observableIsPrimaryRecipe;
-    MISSING_TYPE *state;
-    MISSING_TYPE *_$scope;
+    id _observableIsPrimaryRecipe;
+    id state;
+    id _$scope;
 }
 
 @end

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewShellKit.PreviewSceneAgentProxy
 {
-    MISSING_TYPE *invalidationHandle;
-    MISSING_TYPE *scene;
-    MISSING_TYPE *pid;
-    MISSING_TYPE *sceneDelegate;
-    MISSING_TYPE *sceneMessenger;
-    MISSING_TYPE *connectionSender;
-    MISSING_TYPE *currentUpdateDelegate;
-    MISSING_TYPE *messageStreamHub;
-    MISSING_TYPE *disconnected;
+    id invalidationHandle;
+    id scene;
+    id pid;
+    id sceneDelegate;
+    id sceneMessenger;
+    id connectionSender;
+    id currentUpdateDelegate;
+    id messageStreamHub;
+    id disconnected;
 }
 
 @end

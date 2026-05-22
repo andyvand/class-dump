@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.AllShortcutsGroup
 {
-    MISSING_TYPE *shouldUpdate;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *database;
-    MISSING_TYPE *collectionsResult;
-    MISSING_TYPE *autoShortcutsDataSource;
-    MISSING_TYPE *_autoShortcutApps;
-    MISSING_TYPE *cancellables;
+    id shouldUpdate;
+    id delegate;
+    id database;
+    id collectionsResult;
+    id autoShortcutsDataSource;
+    id _autoShortcutApps;
+    id cancellables;
 }
 
 - (void);

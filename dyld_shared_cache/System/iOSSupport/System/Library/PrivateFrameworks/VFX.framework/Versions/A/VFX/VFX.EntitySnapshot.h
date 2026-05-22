@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.EntitySnapshot
 {
-    MISSING_TYPE *layout;
-    MISSING_TYPE *entity;
-    MISSING_TYPE *_data;
+    id layout;
+    id entity;
+    id _data;
 }
 
 @end

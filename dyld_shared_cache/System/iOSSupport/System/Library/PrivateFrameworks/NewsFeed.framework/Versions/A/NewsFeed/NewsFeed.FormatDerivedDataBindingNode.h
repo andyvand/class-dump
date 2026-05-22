@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDerivedDataBindingNode
 {
-    MISSING_TYPE *scope;
-    MISSING_TYPE *children;
+    id scope;
+    id children;
 }
 
 @end

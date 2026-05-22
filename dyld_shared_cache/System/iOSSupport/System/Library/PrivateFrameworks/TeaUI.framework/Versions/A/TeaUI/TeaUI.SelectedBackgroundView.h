@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SelectedBackgroundView
 {
-    MISSING_TYPE *insets;
-    MISSING_TYPE *cornerRadius;
-    MISSING_TYPE *styling;
+    id insets;
+    id cornerRadius;
+    id styling;
 }
 
 - (id);

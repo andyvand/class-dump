@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.PlaybackSessionSummaryConsumer
 {
-    MISSING_TYPE *currentSession;
-    MISSING_TYPE *playbackEngine;
-    MISSING_TYPE *subscription;
-    MISSING_TYPE *store;
+    id currentSession;
+    id playbackEngine;
+    id subscription;
+    id store;
 }
 
 + (unsigned int);

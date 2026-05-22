@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ArticlePreviewURLHandler
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *previewManager;
-    MISSING_TYPE *patterns;
+    id navigator;
+    id previewManager;
+    id patterns;
 }
 
 @end

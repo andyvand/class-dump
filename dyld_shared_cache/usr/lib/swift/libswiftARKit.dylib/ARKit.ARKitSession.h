@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.ARKitSession
 {
-    MISSING_TYPE *_cSession;
-    MISSING_TYPE *dataProviderArraysLock;
-    MISSING_TYPE *ownedDataProviders;
-    MISSING_TYPE *attemptingToRunDataProviders;
-    MISSING_TYPE *eventsQueue;
-    MISSING_TYPE *eventContinuations;
+    id _cSession;
+    id dataProviderArraysLock;
+    id ownedDataProviders;
+    id attemptingToRunDataProviders;
+    id eventsQueue;
+    id eventContinuations;
 }
 
 @end

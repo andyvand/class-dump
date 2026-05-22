@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.WeatherVFXConditionBackground
 {
-    MISSING_TYPE *_backgroundEffectModel;
-    MISSING_TYPE *_collisionEffectModel;
-    MISSING_TYPE *_backgroundMask;
-    MISSING_TYPE *_isLoaded;
-    MISSING_TYPE *isTransitioning;
-    MISSING_TYPE *fadeOutAnimationStartDate;
+    id _backgroundEffectModel;
+    id _collisionEffectModel;
+    id _backgroundMask;
+    id _isLoaded;
+    id isTransitioning;
+    id fadeOutAnimationStartDate;
 }
 
 @end

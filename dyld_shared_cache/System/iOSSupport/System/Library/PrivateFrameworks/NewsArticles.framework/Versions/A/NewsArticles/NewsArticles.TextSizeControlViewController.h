@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.TextSizeControlViewController
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *divider;
-    MISSING_TYPE *stackView;
-    MISSING_TYPE *increaseButton;
-    MISSING_TYPE *increaseAction;
-    MISSING_TYPE *decreaseButton;
-    MISSING_TYPE *decreaseAction;
+    id commandCenter;
+    id tracker;
+    id styler;
+    id divider;
+    id stackView;
+    id increaseButton;
+    id increaseAction;
+    id decreaseButton;
+    id decreaseAction;
 }
 
 - (long long);

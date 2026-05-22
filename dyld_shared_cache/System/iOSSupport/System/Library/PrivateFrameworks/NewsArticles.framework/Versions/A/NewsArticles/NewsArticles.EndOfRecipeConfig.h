@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfRecipeConfig
 {
-    MISSING_TYPE *recipe;
-    MISSING_TYPE *viewSessionID;
+    id recipe;
+    id viewSessionID;
 }
 
 @end

@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.CanvasItemNode : VFX.Node
 {
-    MISSING_TYPE *stage;
+    id stage;
 }
 
 @end

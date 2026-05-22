@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingButtonModel
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *title;
-    MISSING_TYPE *allowsUserInteraction;
+    id identifier;
+    id title;
+    id allowsUserInteraction;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VideoCaptureSession
 {
-    MISSING_TYPE *frameTime;
-    MISSING_TYPE *outputTexture;
-    MISSING_TYPE *session;
-    MISSING_TYPE *metalTextureCache;
-    MISSING_TYPE *sampleBuffer;
+    id frameTime;
+    id outputTexture;
+    id session;
+    id metalTextureCache;
+    id sampleBuffer;
 }
 
 - (void);

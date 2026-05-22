@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface SwiftVCDaemonXPCEventHandler
 {
     void streams;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *streamForEvent;
+    id lock;
+    id queue;
+    id observers;
+    id streamForEvent;
 }
 
 - (void);

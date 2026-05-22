@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.RadarAttachmentResolver
 {
-    MISSING_TYPE *temporaryDirectory;
-    MISSING_TYPE *diagnosticAttachmentResolver;
+    id temporaryDirectory;
+    id diagnosticAttachmentResolver;
 }
 
 @end

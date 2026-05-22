@@ -6,11 +6,9 @@
 
 #import <RealityIO/RealityIO.PropertyDirtyState.h>
 
-@class MISSING_TYPE;
-
 @interface RealityIO.NamespacedPropertyDirtyState : RealityIO.PropertyDirtyState
 {
-    MISSING_TYPE *propertyNamespace;
+    id propertyNamespace;
 }
 
 @end

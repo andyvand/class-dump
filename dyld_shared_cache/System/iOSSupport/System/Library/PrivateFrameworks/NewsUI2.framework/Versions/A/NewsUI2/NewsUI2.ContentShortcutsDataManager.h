@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContentShortcutsDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *shortcutsService;
-    MISSING_TYPE *shortcutsConfig;
+    id delegate;
+    id shortcutsService;
+    id shortcutsConfig;
 }
 
 - (void);

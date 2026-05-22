@@ -6,12 +6,10 @@
 
 #import <HomeUI/HUItemModuleController.h>
 
-@class MISSING_TYPE;
-
 @interface HUActivityLogSettingsModuleController : HUItemModuleController
 {
-    MISSING_TYPE *activityLogItemModule;
-    MISSING_TYPE *durationFormatter;
+    id activityLogItemModule;
+    id durationFormatter;
 }
 
 - (void);

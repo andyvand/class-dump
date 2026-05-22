@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ModalArticleViewerViewController
 {
-    MISSING_TYPE *brandBarConfigManager;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *brandBarAnimationFactory;
-    MISSING_TYPE *brandBarRenderer;
-    MISSING_TYPE *content;
-    MISSING_TYPE *brandbar;
+    id brandBarConfigManager;
+    id eventHandler;
+    id brandBarAnimationFactory;
+    id brandBarRenderer;
+    id content;
+    id brandbar;
 }
 
 - (void);

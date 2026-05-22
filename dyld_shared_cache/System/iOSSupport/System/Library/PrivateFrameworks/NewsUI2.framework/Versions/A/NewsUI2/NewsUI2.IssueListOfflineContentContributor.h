@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.IssueListOfflineContentContributor
 {
-    MISSING_TYPE *offlineContentRequests;
-    MISSING_TYPE *offlineIssueList;
-    MISSING_TYPE *offlineFeatures;
-    MISSING_TYPE *appConfigManager;
+    id offlineContentRequests;
+    id offlineIssueList;
+    id offlineFeatures;
+    id appConfigManager;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _UICollectionViewFeedbackLoopDebugger
 {
-    MISSING_TYPE *currentlyTrackedChangeRecords;
-    MISSING_TYPE *invalidationRecords;
-    MISSING_TYPE *updateVisibleCellsRecords;
+    id currentlyTrackedChangeRecords;
+    id invalidationRecords;
+    id updateVisibleCellsRecords;
 }
 
 - (void);

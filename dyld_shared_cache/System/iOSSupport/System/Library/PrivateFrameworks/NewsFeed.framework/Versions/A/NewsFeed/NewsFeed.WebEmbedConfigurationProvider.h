@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedConfigurationProvider
 {
-    MISSING_TYPE *locale;
-    MISSING_TYPE *storeFront;
-    MISSING_TYPE *contentEnvironment;
+    id locale;
+    id storeFront;
+    id contentEnvironment;
 }
 
 @end

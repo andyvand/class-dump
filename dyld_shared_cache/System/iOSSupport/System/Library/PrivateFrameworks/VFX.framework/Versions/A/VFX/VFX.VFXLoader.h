@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VFXLoader
 {
-    MISSING_TYPE *shouldLoadPrecompiledScripts;
-    MISSING_TYPE *throwOnScriptLoadingFailure;
-    MISSING_TYPE *skipScriptCompilation;
-    MISSING_TYPE *isLoadingForAuthoring;
-    MISSING_TYPE *loadBindingsMetadata;
-    MISSING_TYPE *enableParallelDecoding;
-    MISSING_TYPE *allowLoadingEffectFromTheFuture;
-    MISSING_TYPE *prepareEntityManager;
-    MISSING_TYPE *loadWarning;
-    MISSING_TYPE *serializationContext;
+    id shouldLoadPrecompiledScripts;
+    id throwOnScriptLoadingFailure;
+    id skipScriptCompilation;
+    id isLoadingForAuthoring;
+    id loadBindingsMetadata;
+    id enableParallelDecoding;
+    id allowLoadingEffectFromTheFuture;
+    id prepareEntityManager;
+    id loadWarning;
+    id serializationContext;
 }
 
 @end

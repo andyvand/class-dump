@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface GridZero.PhotosContentPrivacyModel
 {
-    MISSING_TYPE *_isLocked;
-    MISSING_TYPE *_$observationRegistrar;
+    id _isLocked;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface AVTAvatarPose
 {
@@ -12,8 +12,8 @@
     _Bool _hasNeckOrientation;
     double _bakedAnimationBlendFactor;
     NSMutableDictionary *_weights;
-    MISSING_TYPE *_neckPosition;
-    CDStruct_0e8a9a91 _neckOrientation;
+    id _neckPosition;
+    CDStruct_da14d750 _neckOrientation;
 }
 
 + (id);
@@ -26,7 +26,7 @@
 // Remaining properties
 @property(nonatomic) double bakedAnimationBlendFactor; // @synthesize bakedAnimationBlendFactor=_bakedAnimationBlendFactor;
 @property(nonatomic) struct neckOrientation; // @synthesize neckOrientation=_neckOrientation;
-@property(nonatomic) MISSING_TYPE *neckPosition; // @synthesize neckPosition=_neckPosition;
+@property(nonatomic) id neckPosition; // @synthesize neckPosition=_neckPosition;
 
 @end
 

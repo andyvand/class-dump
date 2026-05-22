@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.AudioFileGroupBuilder
 {
-    MISSING_TYPE *buildOrder;
-    MISSING_TYPE *audioFileGroup;
+    id buildOrder;
+    id audioFileGroup;
 }
 
 @end

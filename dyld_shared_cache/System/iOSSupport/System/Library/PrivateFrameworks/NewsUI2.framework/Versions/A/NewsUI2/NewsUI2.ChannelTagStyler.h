@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelTagStyler
 {
-    MISSING_TYPE *maxNameFontSize;
-    MISSING_TYPE *maxCustomizeFontSize;
-    MISSING_TYPE *baseStyler;
-    MISSING_TYPE *feedNavImageStyler;
-    MISSING_TYPE *headlineFontMetrics;
-    MISSING_TYPE *subtitleFontMetrics;
+    id maxNameFontSize;
+    id maxCustomizeFontSize;
+    id baseStyler;
+    id feedNavImageStyler;
+    id headlineFontMetrics;
+    id subtitleFontMetrics;
 }
 
 @end

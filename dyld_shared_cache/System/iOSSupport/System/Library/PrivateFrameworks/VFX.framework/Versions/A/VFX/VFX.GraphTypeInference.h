@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphTypeInference
 {
-    MISSING_TYPE *graph;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *visited;
-    MISSING_TYPE *typeHintByInput;
-    MISSING_TYPE *typeHintByOutput;
+    id graph;
+    id queue;
+    id visited;
+    id typeHintByInput;
+    id typeHintByOutput;
 }
 
 @end

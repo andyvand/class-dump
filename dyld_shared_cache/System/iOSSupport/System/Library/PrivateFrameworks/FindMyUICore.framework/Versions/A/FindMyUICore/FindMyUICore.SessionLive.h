@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.SessionLive
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *session;
-    MISSING_TYPE *reverseGeocoder;
-    MISSING_TYPE *locationShifter;
+    id $defaultActor;
+    id session;
+    id reverseGeocoder;
+    id locationShifter;
 }
 
 @end

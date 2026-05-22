@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UITextView;
+@class UITextView;
 
 @interface _UITextViewAnimatedPlaceholderSupport
 {
     void textView;
-    MISSING_TYPE *$__lazy_storage_$_containerView;
-    MISSING_TYPE *$__lazy_storage_$_textEffectsView;
-    MISSING_TYPE *completionBlocks;
-    MISSING_TYPE *activeReplacementEffect;
-    MISSING_TYPE *activePlaceholders;
+    id $__lazy_storage_$_containerView;
+    id $__lazy_storage_$_textEffectsView;
+    id completionBlocks;
+    id activeReplacementEffect;
+    id activePlaceholders;
 }
 
 - (void);

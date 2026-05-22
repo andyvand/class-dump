@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedCurationService
 {
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *tagFeedServiceConfigFetcher;
-    MISSING_TYPE *feedPersonalizationService;
-    MISSING_TYPE *assetManager;
+    id headlineService;
+    id tagService;
+    id recipeService;
+    id cloudContext;
+    id tagFeedServiceConfigFetcher;
+    id feedPersonalizationService;
+    id assetManager;
 }
 
 @end

@@ -6,12 +6,10 @@
 
 #import <VisionKitCore/VisionKitCore.StickerComicTwoInputShader.h>
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerComicBFBlurPassTwoShader : VisionKitCore.StickerComicTwoInputShader
 {
-    MISSING_TYPE *sigmaColor;
-    MISSING_TYPE *sigma;
+    id sigmaColor;
+    id sigma;
 }
 
 @end

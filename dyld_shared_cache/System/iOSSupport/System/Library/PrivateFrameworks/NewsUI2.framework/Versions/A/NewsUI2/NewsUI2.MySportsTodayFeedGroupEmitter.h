@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MySportsTodayFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *knobs;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *sportsTopicClusteringService;
-    MISSING_TYPE *sportsFavoritesService;
-    MISSING_TYPE *mySportsTagService;
-    MISSING_TYPE *tagHighlightsService;
-    MISSING_TYPE *recommendationManager;
-    MISSING_TYPE *sportsSectionService;
-    MISSING_TYPE *sportsScoreSorter;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *sportsConfiguringDataService;
-    MISSING_TYPE *name;
+    id config;
+    id knobs;
+    id featureAvailability;
+    id formatService;
+    id sportsTopicClusteringService;
+    id sportsFavoritesService;
+    id mySportsTagService;
+    id tagHighlightsService;
+    id recommendationManager;
+    id sportsSectionService;
+    id sportsScoreSorter;
+    id sportsOnboardingManager;
+    id cloudContext;
+    id sportsConfiguringDataService;
+    id name;
 }
 
 @end

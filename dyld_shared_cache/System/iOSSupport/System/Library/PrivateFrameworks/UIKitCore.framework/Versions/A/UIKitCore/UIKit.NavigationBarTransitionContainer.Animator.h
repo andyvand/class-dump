@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.NavigationBarTransitionContainer.Animator
 {
-    MISSING_TYPE *defaultAnimation;
+    id defaultAnimation;
 }
 
 @end

@@ -6,32 +6,30 @@
 
 #import <VFX/VFX.GraphV1CodeGeneration.BaseObject.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphV1CodeGeneration.Context : VFX.GraphV1CodeGeneration.BaseObject
 {
-    MISSING_TYPE *_resources;
-    MISSING_TYPE *idx;
-    MISSING_TYPE *templateIdx;
-    MISSING_TYPE *contextEntryMap;
-    MISSING_TYPE *contextExitMap;
-    MISSING_TYPE *subContextMap;
-    MISSING_TYPE *arraySequenceMap;
-    MISSING_TYPE *snippets;
-    MISSING_TYPE *customCodeSnippetMap;
-    MISSING_TYPE *typedArraySnippetMap;
-    MISSING_TYPE *staticSwitchSnippetMap;
-    MISSING_TYPE *userObjects;
-    MISSING_TYPE *variableMap;
-    MISSING_TYPE *variableReferenceMap;
-    MISSING_TYPE *assignments;
-    MISSING_TYPE *parameters;
-    MISSING_TYPE *templates;
-    MISSING_TYPE *bakedTemplates;
-    MISSING_TYPE *decodingErrors;
-    MISSING_TYPE *onUserTemplatesChangedUUID;
-    MISSING_TYPE *switchCaseValuePrefix;
-    MISSING_TYPE *templateRemapping;
+    id _resources;
+    id idx;
+    id templateIdx;
+    id contextEntryMap;
+    id contextExitMap;
+    id subContextMap;
+    id arraySequenceMap;
+    id snippets;
+    id customCodeSnippetMap;
+    id typedArraySnippetMap;
+    id staticSwitchSnippetMap;
+    id userObjects;
+    id variableMap;
+    id variableReferenceMap;
+    id assignments;
+    id parameters;
+    id templates;
+    id bakedTemplates;
+    id decodingErrors;
+    id onUserTemplatesChangedUUID;
+    id switchCaseValuePrefix;
+    id templateRemapping;
 }
 
 @end

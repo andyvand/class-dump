@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.BuiltinNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.EnumConstantNode : VFX.BuiltinNode
 {
-    MISSING_TYPE *value;
+    id value;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleNotificationAutoEnableManager
 {
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *notificationController;
-    MISSING_TYPE *userInfo;
+    id puzzleHistoryService;
+    id appConfigurationManager;
+    id bundleSubscriptionManager;
+    id notificationController;
+    id userInfo;
 }
 
 @end

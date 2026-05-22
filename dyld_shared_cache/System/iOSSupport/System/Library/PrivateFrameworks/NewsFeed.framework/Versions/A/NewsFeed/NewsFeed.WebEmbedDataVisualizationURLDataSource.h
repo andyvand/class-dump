@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedDataVisualizationURLDataSource
 {
-    MISSING_TYPE *contentType;
-    MISSING_TYPE *key;
-    MISSING_TYPE *url;
+    id contentType;
+    id key;
+    id url;
 }
 
 @end

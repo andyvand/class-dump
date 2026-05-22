@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatRepeatNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *iteration;
-    MISSING_TYPE *min;
-    MISSING_TYPE *max;
-    MISSING_TYPE *stride;
-    MISSING_TYPE *scope;
-    MISSING_TYPE *_children;
+    id _identifier;
+    id iteration;
+    id min;
+    id max;
+    id stride;
+    id scope;
+    id _children;
 }
 
 @end

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatCommandAction
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *isStateful;
-    MISSING_TYPE *canExecuteBlock;
-    MISSING_TYPE *executeBlock;
-    MISSING_TYPE *evaluateWithObserverBlock;
-    MISSING_TYPE *addChangeObserverBlock;
-    MISSING_TYPE *evaluateBlock;
-    MISSING_TYPE *evaluateStateBlock;
-    MISSING_TYPE *evaluateStateWithObserverBlock;
-    MISSING_TYPE *descriptionBlock;
+    id identifier;
+    id isStateful;
+    id canExecuteBlock;
+    id executeBlock;
+    id evaluateWithObserverBlock;
+    id addChangeObserverBlock;
+    id evaluateBlock;
+    id evaluateStateBlock;
+    id evaluateStateWithObserverBlock;
+    id descriptionBlock;
 }
 
 @end

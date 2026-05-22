@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchHomeModule
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *searchHomeContainerController;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *searchOrigination;
-    MISSING_TYPE *filterProvider;
+    id resolver;
+    id tracker;
+    id searchHomeContainerController;
+    id featureAvailability;
+    id offlineManager;
+    id searchOrigination;
+    id filterProvider;
 }
 
 @end

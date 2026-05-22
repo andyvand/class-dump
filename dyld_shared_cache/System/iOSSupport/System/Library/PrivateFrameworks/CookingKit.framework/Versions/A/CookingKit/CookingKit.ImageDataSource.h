@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.ImageDataSource
 {
-    MISSING_TYPE *state;
-    MISSING_TYPE *currentURL;
-    MISSING_TYPE *_imageURL;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *task;
-    MISSING_TYPE *imageLoader;
+    id state;
+    id currentURL;
+    id _imageURL;
+    id _$scope;
+    id task;
+    id imageLoader;
 }
 
 @end

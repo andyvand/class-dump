@@ -6,12 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, _TtC5UIKit19NavigationButtonBar, _TtC5UIKit32NavigationBarTransitionContainer;
+@class NSArray, UIKit.NavigationBarTransitionContainer, UIKit.NavigationButtonBar;
 
 @interface _UINavigationButtonBarWrapperView : UIView
 {
-    _TtC5UIKit19NavigationButtonBar *buttonBar;
-    _TtC5UIKit32NavigationBarTransitionContainer *transitionContainer;
+    UIKit.NavigationButtonBar *buttonBar;
+    UIKit.NavigationBarTransitionContainer *transitionContainer;
     _Bool animatesNextUpdate;
 }
 
@@ -33,9 +33,9 @@
 // Remaining properties
 @property(nonatomic) _Bool animatesNextUpdate; // @synthesize animatesNextUpdate;
 @property(nonatomic, copy) NSArray *barSections;
-@property(nonatomic, readonly) _TtC5UIKit19NavigationButtonBar *buttonBar; // @synthesize buttonBar;
+@property(nonatomic, readonly) UIKit.NavigationButtonBar *buttonBar; // @synthesize buttonBar;
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, readonly) _TtC5UIKit32NavigationBarTransitionContainer *transitionContainer; // @synthesize transitionContainer;
+@property(nonatomic, readonly) UIKit.NavigationBarTransitionContainer *transitionContainer; // @synthesize transitionContainer;
 
 @end
 

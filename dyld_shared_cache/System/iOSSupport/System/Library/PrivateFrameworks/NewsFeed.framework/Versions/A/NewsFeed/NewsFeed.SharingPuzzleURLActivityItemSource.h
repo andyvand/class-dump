@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SharingPuzzleURLActivityItemSource
 {
-    MISSING_TYPE *puzzleURL;
-    MISSING_TYPE *linkPresentationSource;
+    id puzzleURL;
+    id linkPresentationSource;
 }
 
 - (id);

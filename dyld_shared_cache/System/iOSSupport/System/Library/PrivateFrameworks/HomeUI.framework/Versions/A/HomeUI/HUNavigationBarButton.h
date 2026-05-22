@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSNumber, NSString, UIFont, UIMenu;
+@class NSNumber, NSString, UIFont, UIMenu;
 @protocol HUNavigationBarButtonOwner;
 
 @interface HUNavigationBarButton
@@ -12,10 +12,10 @@
     void buttonIdentifier;
     void owner;
     NSNumber *badgeValue;
-    MISSING_TYPE *actionHandler;
-    MISSING_TYPE *$__lazy_storage_$_tapGestureRecognizer;
-    MISSING_TYPE *badgedSystemImageName;
-    MISSING_TYPE *systemImageName;
+    id actionHandler;
+    id $__lazy_storage_$_tapGestureRecognizer;
+    id badgedSystemImageName;
+    id systemImageName;
 }
 
 + (id);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeToken
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *configuration;
+    id id;
+    id configuration;
 }
 
 @end

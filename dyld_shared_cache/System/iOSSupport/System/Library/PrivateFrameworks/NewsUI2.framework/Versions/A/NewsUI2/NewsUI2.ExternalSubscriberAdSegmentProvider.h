@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ExternalSubscriberAdSegmentProvider
 {
-    MISSING_TYPE *needsUpdate;
-    MISSING_TYPE *purchaseController;
-    MISSING_TYPE *tagService;
+    id needsUpdate;
+    id purchaseController;
+    id tagService;
 }
 
 - (void);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.LayeredMediaLayerProcessorRequest
 {
-    MISSING_TYPE *cacheIdentifier;
-    MISSING_TYPE *size;
-    MISSING_TYPE *scale;
-    MISSING_TYPE *assetHandles;
-    MISSING_TYPE *assetHandle;
+    id cacheIdentifier;
+    id size;
+    id scale;
+    id assetHandles;
+    id assetHandle;
 }
 
 @end

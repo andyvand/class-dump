@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.AssetSlidingQueue
 {
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *assetProducer;
-    MISSING_TYPE *sessionID;
-    MISSING_TYPE *queueCompletions;
-    MISSING_TYPE *contentItemIDs;
-    MISSING_TYPE *nowPlayingIndex;
-    MISSING_TYPE *didReachEndOfQueue;
-    MISSING_TYPE *isPreloadingEnabled;
-    MISSING_TYPE *batchNumber;
-    MISSING_TYPE *queueReloadCount;
-    MISSING_TYPE *reloadingItemsReentranceCount;
-    MISSING_TYPE *positions;
-    MISSING_TYPE *maximumPlayerQueueLength;
-    MISSING_TYPE *assetLoadPrevention;
-    MISSING_TYPE *batchedReloadsParams;
-    MISSING_TYPE *batchedReloads;
-    MISSING_TYPE *waiters;
-    MISSING_TYPE *isInvalidated;
+    id dataSource;
+    id delegate;
+    id reporter;
+    id assetProducer;
+    id sessionID;
+    id queueCompletions;
+    id contentItemIDs;
+    id nowPlayingIndex;
+    id didReachEndOfQueue;
+    id isPreloadingEnabled;
+    id batchNumber;
+    id queueReloadCount;
+    id reloadingItemsReentranceCount;
+    id positions;
+    id maximumPlayerQueueLength;
+    id assetLoadPrevention;
+    id batchedReloadsParams;
+    id batchedReloads;
+    id waiters;
+    id isInvalidated;
 }
 
 @end

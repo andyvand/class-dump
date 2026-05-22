@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.FloatingTabBarSidebarActiveImpression
 {
-    MISSING_TYPE *tab;
-    MISSING_TYPE *startDate;
-    MISSING_TYPE *startTrigger;
-    MISSING_TYPE *sessionIdentifier;
-    MISSING_TYPE *metadata;
+    id tab;
+    id startDate;
+    id startTrigger;
+    id sessionIdentifier;
+    id metadata;
 }
 
 @end

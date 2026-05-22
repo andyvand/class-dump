@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface UIKit.ScrollPocketCollectorModel
 {
-    MISSING_TYPE *_receivers;
-    MISSING_TYPE *_name;
-    MISSING_TYPE *parentModel;
-    MISSING_TYPE *_childModels;
-    MISSING_TYPE *__allReceivers;
-    MISSING_TYPE *_$observationRegistrar;
+    id _receivers;
+    id _name;
+    id parentModel;
+    id _childModels;
+    id __allReceivers;
+    id _$observationRegistrar;
 }
 
 - (id);

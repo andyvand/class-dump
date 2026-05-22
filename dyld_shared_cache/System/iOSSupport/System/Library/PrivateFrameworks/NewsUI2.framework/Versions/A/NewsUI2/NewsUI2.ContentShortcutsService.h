@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContentShortcutsService
 {
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *jsonDecoder;
-    MISSING_TYPE *storageManager;
-    MISSING_TYPE *cachedFetchResult;
-    MISSING_TYPE *resourceService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *feedModelFactory;
-    MISSING_TYPE *feedContextFactory;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *tipConfigManager;
-    MISSING_TYPE *tipFilter;
-    MISSING_TYPE *tipGroupFactory;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *observers;
+    id appConfigManager;
+    id jsonDecoder;
+    id storageManager;
+    id cachedFetchResult;
+    id resourceService;
+    id tagService;
+    id feedModelFactory;
+    id feedContextFactory;
+    id subscriptionController;
+    id bundleSubscriptionManager;
+    id tipConfigManager;
+    id tipFilter;
+    id tipGroupFactory;
+    id featureAvailability;
+    id observers;
 }
 
 - (void);

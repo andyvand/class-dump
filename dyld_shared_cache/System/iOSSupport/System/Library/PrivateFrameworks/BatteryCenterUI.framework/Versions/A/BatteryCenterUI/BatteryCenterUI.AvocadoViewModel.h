@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface BatteryCenterUI.AvocadoViewModel
 {
-    MISSING_TYPE *_colorScheme;
-    MISSING_TYPE *maxChargeRings;
-    MISSING_TYPE *maxChargeRows;
-    MISSING_TYPE *_devices;
-    MISSING_TYPE *_chargeRingsData;
-    MISSING_TYPE *_chargeRowsData;
-    MISSING_TYPE *_systemMediumWidth;
-    MISSING_TYPE *_dynamicTypeSize;
+    id _colorScheme;
+    id maxChargeRings;
+    id maxChargeRows;
+    id _devices;
+    id _chargeRingsData;
+    id _chargeRowsData;
+    id _systemMediumWidth;
+    id _dynamicTypeSize;
 }
 
 @end

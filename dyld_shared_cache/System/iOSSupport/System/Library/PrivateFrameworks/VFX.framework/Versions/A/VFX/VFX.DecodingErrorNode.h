@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.DecodingErrorNode : VFX.Node
 {
-    MISSING_TYPE *name;
+    id name;
 }
 
 @end

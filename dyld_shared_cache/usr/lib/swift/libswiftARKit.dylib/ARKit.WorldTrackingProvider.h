@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.WorldTrackingProvider
 {
-    MISSING_TYPE *_cWorldTrackingProvider;
-    MISSING_TYPE *_cWorldTrackingConfiguration;
-    MISSING_TYPE *trackingStateContinuations;
-    MISSING_TYPE *slamStateContinuations;
-    MISSING_TYPE *queryDeviceAnchorLock;
-    MISSING_TYPE *updateQueue;
+    id _cWorldTrackingProvider;
+    id _cWorldTrackingConfiguration;
+    id trackingStateContinuations;
+    id slamStateContinuations;
+    id queryDeviceAnchorLock;
+    id updateQueue;
 }
 
 @end

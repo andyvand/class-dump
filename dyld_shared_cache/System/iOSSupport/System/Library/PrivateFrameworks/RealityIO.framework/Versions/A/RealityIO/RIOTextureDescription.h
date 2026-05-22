@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface RIOTextureDescription
 {
     _Bool _generateMipmaps;
-    MISSING_TYPE *_originalSize;
+    id _originalSize;
     long long _downsamplingFactor;
     long long _fileType;
     NSString *_name;
@@ -31,22 +31,22 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (CDStruct_e791d03f);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (long long);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_e791d03f destinationPixelFormat; // @synthesize destinationPixelFormat=_destinationPixelFormat;
-@property(readonly, nonatomic) MISSING_TYPE *destinationSize;
+@property(readonly, nonatomic) id destinationSize;
 @property(nonatomic) long long downsamplingFactor; // @synthesize downsamplingFactor=_downsamplingFactor;
 @property(readonly, nonatomic) long long fileType; // @synthesize fileType=_fileType;
 @property(nonatomic) _Bool generateMipmaps; // @synthesize generateMipmaps=_generateMipmaps;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) CDStruct_e791d03f originalPixelFormat; // @synthesize originalPixelFormat=_originalPixelFormat;
-@property(readonly, nonatomic) MISSING_TYPE *originalSize; // @synthesize originalSize=_originalSize;
+@property(readonly, nonatomic) id originalSize; // @synthesize originalSize=_originalSize;
 @property(readonly, nonatomic) _Bool requiresDownsampling;
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.ScoutingAlignmentTask
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *transcriptProvider;
-    MISSING_TYPE *referenceTime;
-    MISSING_TYPE *state;
+    id $defaultActor;
+    id transcriptProvider;
+    id referenceTime;
+    id state;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeBoxSectionFactory
 {
-    MISSING_TYPE *engagementInlineViewManager;
-    MISSING_TYPE *feedModelFactory;
-    MISSING_TYPE *tagService;
+    id engagementInlineViewManager;
+    id feedModelFactory;
+    id tagService;
 }
 
 @end

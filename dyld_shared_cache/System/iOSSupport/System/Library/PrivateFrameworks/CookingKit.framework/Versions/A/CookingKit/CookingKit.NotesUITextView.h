@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.NotesUITextView
 {
-    MISSING_TYPE *_textBinding;
-    MISSING_TYPE *_isFocusedBinding;
-    MISSING_TYPE *_showTextFormatting;
-    MISSING_TYPE *crTextStorage;
-    MISSING_TYPE *isShowingFormattingController;
+    id _textBinding;
+    id _isFocusedBinding;
+    id _showTextFormatting;
+    id crTextStorage;
+    id isShowingFormattingController;
 }
 
 - (void);

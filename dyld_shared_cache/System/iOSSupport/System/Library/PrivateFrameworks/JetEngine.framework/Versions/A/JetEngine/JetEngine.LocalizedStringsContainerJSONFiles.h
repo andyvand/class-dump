@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.LocalizedStringsContainerJSONFiles
 {
-    MISSING_TYPE *bundle;
-    MISSING_TYPE *path;
-    MISSING_TYPE *strings;
+    id bundle;
+    id path;
+    id strings;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.RespirationTrackingProvider
 {
-    MISSING_TYPE *_cRespirationTrackingProvider;
-    MISSING_TYPE *_cRespirationTrackingConfiguration;
-    MISSING_TYPE *respirationUpdateContinuations;
-    MISSING_TYPE *respirationDebugContinuations;
-    MISSING_TYPE *updateQueue;
+    id _cRespirationTrackingProvider;
+    id _cRespirationTrackingConfiguration;
+    id respirationUpdateContinuations;
+    id respirationDebugContinuations;
+    id updateQueue;
 }
 
 @end

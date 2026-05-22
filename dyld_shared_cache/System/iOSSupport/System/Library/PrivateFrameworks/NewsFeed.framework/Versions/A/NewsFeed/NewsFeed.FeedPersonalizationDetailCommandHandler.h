@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedPersonalizationDetailCommandHandler
 {
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *webEmbedDataSourceService;
-    MISSING_TYPE *radarAttachmentProvider;
-    MISSING_TYPE *history;
+    id sceneProvider;
+    id cloudContext;
+    id feedPersonalizer;
+    id tagService;
+    id webEmbedDataSourceService;
+    id radarAttachmentProvider;
+    id history;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.UIStaticFlowSection
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *presentationConfiguration;
-    MISSING_TYPE *dismissalConfiguration;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *items;
+    id delegate;
+    id presentationConfiguration;
+    id dismissalConfiguration;
+    id identifier;
+    id items;
 }
 
 @end

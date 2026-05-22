@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayEngagementMastheadPositionProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *lastVisibleState;
-    MISSING_TYPE *blueprintViewController;
+    id delegate;
+    id lastVisibleState;
+    id blueprintViewController;
 }
 
 @end

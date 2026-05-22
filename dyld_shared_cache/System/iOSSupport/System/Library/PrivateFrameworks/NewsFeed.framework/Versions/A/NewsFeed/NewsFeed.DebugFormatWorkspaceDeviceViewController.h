@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceDeviceViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *selectedDevices;
-    MISSING_TYPE *viewer;
-    MISSING_TYPE *isLoading;
+    id editor;
+    id styler;
+    id tableView;
+    id sections;
+    id selectedDevices;
+    id viewer;
+    id isLoading;
 }
 
 - (id);

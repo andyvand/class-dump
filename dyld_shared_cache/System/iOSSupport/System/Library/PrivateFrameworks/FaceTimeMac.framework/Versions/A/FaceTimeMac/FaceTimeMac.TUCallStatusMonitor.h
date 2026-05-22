@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.TUCallStatusMonitor
 {
-    MISSING_TYPE *onCallStatusChange;
-    MISSING_TYPE *onCallVideoUpgrade;
-    MISSING_TYPE *onCallAudioDowngrade;
-    MISSING_TYPE *onReceptionistStateChange;
-    MISSING_TYPE *onCallScreeningStateChange;
-    MISSING_TYPE *filter;
-    MISSING_TYPE *logger;
+    id onCallStatusChange;
+    id onCallVideoUpgrade;
+    id onCallAudioDowngrade;
+    id onReceptionistStateChange;
+    id onCallScreeningStateChange;
+    id filter;
+    id logger;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PageSheetPresentationObserver
 {
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *isObserving;
-    MISSING_TYPE *onChange;
+    id viewController;
+    id isObserving;
+    id onChange;
 }
 
 - (void);

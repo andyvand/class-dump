@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatFlexBoxNodeLayout
 {
-    MISSING_TYPE *_display;
-    MISSING_TYPE *_direction;
-    MISSING_TYPE *_wrap;
-    MISSING_TYPE *_justifyContent;
-    MISSING_TYPE *_alignContent;
-    MISSING_TYPE *_alignItems;
-    MISSING_TYPE *_rowGap;
-    MISSING_TYPE *_columnGap;
-    MISSING_TYPE *_integral;
+    id _display;
+    id _direction;
+    id _wrap;
+    id _justifyContent;
+    id _alignContent;
+    id _alignItems;
+    id _rowGap;
+    id _columnGap;
+    id _integral;
 }
 
 @end

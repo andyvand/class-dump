@@ -29,8 +29,8 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_d80e62f2);
-- (CDStruct_d80e62f2);
+- (CDStruct_c27faaab);
+- (CDStruct_c27faaab);
 - (id);
 - (id);
 - (id);

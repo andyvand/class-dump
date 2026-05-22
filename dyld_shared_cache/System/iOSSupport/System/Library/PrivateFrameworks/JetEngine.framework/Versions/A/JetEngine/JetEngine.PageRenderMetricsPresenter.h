@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.PageRenderMetricsPresenter
 {
-    MISSING_TYPE *settleTimeout;
-    MISSING_TYPE *isAccessibilityEnabledFlag;
-    MISSING_TYPE *state;
-    MISSING_TYPE *onPost;
+    id settleTimeout;
+    id isAccessibilityEnabledFlag;
+    id state;
+    id onPost;
 }
 
 @end

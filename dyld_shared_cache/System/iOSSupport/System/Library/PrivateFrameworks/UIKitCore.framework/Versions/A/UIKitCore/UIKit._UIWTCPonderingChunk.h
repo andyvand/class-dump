@@ -6,12 +6,10 @@
 
 #import <UIKitCore/UIKit._UIWTCTextChunk.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIWTCPonderingChunk : UIKit._UIWTCTextChunk
 {
-    MISSING_TYPE *effectiveContextID;
-    MISSING_TYPE *initialRange;
+    id effectiveContextID;
+    id initialRange;
 }
 
 - (id);

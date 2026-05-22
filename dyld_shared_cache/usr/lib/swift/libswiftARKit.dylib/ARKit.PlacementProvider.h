@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.PlacementProvider
 {
-    MISSING_TYPE *_cPlacementProvider;
-    MISSING_TYPE *_cPlacementConfiguration;
-    MISSING_TYPE *raycastLock;
+    id _cPlacementProvider;
+    id _cPlacementConfiguration;
+    id raycastLock;
 }
 
 @end

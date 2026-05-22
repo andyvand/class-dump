@@ -6,11 +6,9 @@
 
 #import <swiftCore/Swift.__SwiftNativeNSArrayWithContiguousStorage.h>
 
-@class MISSING_TYPE;
-
 @interface Swift.__ContiguousArrayStorageBase : Swift.__SwiftNativeNSArrayWithContiguousStorage
 {
-    MISSING_TYPE *countAndCapacity;
+    id countAndCapacity;
 }
 
 - (long long);

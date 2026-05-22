@@ -6,14 +6,12 @@
 
 #import <UIKitCore/_UIVisualEffectViewEntry.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIRimHighlightEffectViewEntry : _UIVisualEffectViewEntry
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *activationOrigin;
-    MISSING_TYPE *deactivationOrigin;
-    MISSING_TYPE *_cachedTransitionView;
+    id config;
+    id activationOrigin;
+    id deactivationOrigin;
+    id _cachedTransitionView;
 }
 
 - (id);

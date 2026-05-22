@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OfflineFeedsForegroundWorker
 {
-    MISSING_TYPE *offlineFeedsSupervisor;
-    MISSING_TYPE *offlineFeatures;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *networkReachability;
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *audioPlaylist;
-    MISSING_TYPE *sharedItemManager;
-    MISSING_TYPE *recipeBox;
+    id offlineFeedsSupervisor;
+    id offlineFeatures;
+    id appConfigManager;
+    id networkReachability;
+    id readingList;
+    id readingHistory;
+    id audioPlaylist;
+    id sharedItemManager;
+    id recipeBox;
 }
 
 - (void);

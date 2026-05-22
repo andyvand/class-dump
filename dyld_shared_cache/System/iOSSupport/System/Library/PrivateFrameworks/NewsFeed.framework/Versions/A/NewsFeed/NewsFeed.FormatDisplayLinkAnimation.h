@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDisplayLinkAnimation
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *layer;
-    MISSING_TYPE *supplementaryLayers;
-    MISSING_TYPE *model;
-    MISSING_TYPE *animation;
-    MISSING_TYPE *completion;
-    MISSING_TYPE *$__lazy_storage_$_displayLink;
+    id identifier;
+    id layer;
+    id supplementaryLayers;
+    id model;
+    id animation;
+    id completion;
+    id $__lazy_storage_$_displayLink;
 }
 
 @end

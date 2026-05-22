@@ -6,12 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIIntelligenceNoisyLightView : UIView
 {
-    MISSING_TYPE *noiseView;
-    MISSING_TYPE *lightView;
+    id noiseView;
+    id lightView;
 }
 
 + (Class);

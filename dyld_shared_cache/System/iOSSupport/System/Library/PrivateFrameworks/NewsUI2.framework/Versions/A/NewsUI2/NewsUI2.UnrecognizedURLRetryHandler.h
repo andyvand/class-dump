@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.UnrecognizedURLRetryHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *urlHandlerManager;
-    MISSING_TYPE *redirectService;
+    id patterns;
+    id urlHandlerManager;
+    id redirectService;
 }
 
 @end

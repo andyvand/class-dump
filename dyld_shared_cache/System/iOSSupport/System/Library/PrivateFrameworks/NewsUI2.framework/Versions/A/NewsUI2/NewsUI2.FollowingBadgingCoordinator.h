@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingBadgingCoordinator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *sharedItemManager;
-    MISSING_TYPE *readingHistory;
+    id delegate;
+    id readingList;
+    id userInfo;
+    id sharedItemManager;
+    id readingHistory;
 }
 
 - (void);

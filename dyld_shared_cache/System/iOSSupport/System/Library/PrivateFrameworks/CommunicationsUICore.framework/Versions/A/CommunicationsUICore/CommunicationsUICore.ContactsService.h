@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.ContactsService
 {
-    MISSING_TYPE *contactStore;
-    MISSING_TYPE *keys;
+    id contactStore;
+    id keys;
 }
 
 @end

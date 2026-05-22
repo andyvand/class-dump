@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.BuiltinNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.CastNode : VFX.BuiltinNode
 {
-    MISSING_TYPE *dstType;
+    id dstType;
 }
 
 @end

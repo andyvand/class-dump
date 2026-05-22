@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FineGrainedNewslettersHandler
 {
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *newsletterManagementRouteModelFactory;
-    MISSING_TYPE *navigator;
+    id newsletterManager;
+    id tracker;
+    id newsletterManagementRouteModelFactory;
+    id navigator;
 }
 
 @end

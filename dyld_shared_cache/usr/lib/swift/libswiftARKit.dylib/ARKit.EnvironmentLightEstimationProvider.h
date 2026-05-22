@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.EnvironmentLightEstimationProvider
 {
-    MISSING_TYPE *_cEnvironmentLightEstimationProvider;
-    MISSING_TYPE *_cEnvironmentLightEstimationConfiguration;
-    MISSING_TYPE *anchorQueue;
-    MISSING_TYPE *anchorUpdateIterators;
+    id _cEnvironmentLightEstimationProvider;
+    id _cEnvironmentLightEstimationConfiguration;
+    id anchorQueue;
+    id anchorUpdateIterators;
 }
 
 @end

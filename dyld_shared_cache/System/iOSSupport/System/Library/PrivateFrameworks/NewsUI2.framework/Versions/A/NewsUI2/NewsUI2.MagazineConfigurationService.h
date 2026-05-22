@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineConfigurationService
 {
-    MISSING_TYPE *dataService;
-    MISSING_TYPE *bundleVersion;
+    id dataService;
+    id bundleVersion;
 }
 
 @end

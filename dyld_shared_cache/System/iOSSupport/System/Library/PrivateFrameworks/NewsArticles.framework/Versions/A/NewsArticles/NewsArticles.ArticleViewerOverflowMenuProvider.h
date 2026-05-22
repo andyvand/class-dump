@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleViewerOverflowMenuProvider
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *featureAvailability;
+    id commandCenter;
+    id paidAccessChecker;
+    id featureAvailability;
 }
 
 @end

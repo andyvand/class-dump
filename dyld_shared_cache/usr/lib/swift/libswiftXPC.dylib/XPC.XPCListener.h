@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface XPC.XPCListener
 {
-    MISSING_TYPE *_listener;
-    MISSING_TYPE *targetQueue;
+    id _listener;
+    id targetQueue;
 }
 
 @end

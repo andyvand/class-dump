@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.PageRenderController
 {
-    MISSING_TYPE *eventName;
-    MISSING_TYPE *pipeline;
-    MISSING_TYPE *presenter;
-    MISSING_TYPE *state;
+    id eventName;
+    id pipeline;
+    id presenter;
+    id state;
 }
 
 @end

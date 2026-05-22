@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.AccountDailyCash
 {
-    MISSING_TYPE *_amount;
-    MISSING_TYPE *date;
-    MISSING_TYPE *transactionFetcher;
-    MISSING_TYPE *source;
-    MISSING_TYPE *account;
+    id _amount;
+    id date;
+    id transactionFetcher;
+    id source;
+    id account;
 }
 
 - (void);

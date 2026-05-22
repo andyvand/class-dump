@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.FaceRepresentationProvider
 {
-    MISSING_TYPE *_cFaceRepresentationProvider;
-    MISSING_TYPE *_cFaceRepresentationConfiguration;
-    MISSING_TYPE *faceRepresentationDataContinuations;
-    MISSING_TYPE *surfacePoolsContinuations;
-    MISSING_TYPE *updateQueue;
+    id _cFaceRepresentationProvider;
+    id _cFaceRepresentationConfiguration;
+    id faceRepresentationDataContinuations;
+    id surfacePoolsContinuations;
+    id updateQueue;
 }
 
 @end

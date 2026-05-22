@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedKnobsConfig
 {
-    MISSING_TYPE *groupKnobs;
-    MISSING_TYPE *maxGroups;
-    MISSING_TYPE *refreshStrategy;
+    id groupKnobs;
+    id maxGroups;
+    id refreshStrategy;
 }
 
 @end

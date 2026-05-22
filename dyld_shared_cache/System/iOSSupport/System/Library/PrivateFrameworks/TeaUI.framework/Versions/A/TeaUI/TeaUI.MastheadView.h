@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIColor;
+@class UIColor;
 
 @interface TeaUI.MastheadView
 {
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *scrollView;
+    id contentView;
+    id scrollView;
 }
 
 - (id);

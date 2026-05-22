@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 __attribute__((visibility("hidden")))
 @interface AVTStickerPropAdjustTransformProperty
 {
     long long _presetCategory;
     id _presetValue;
-    MISSING_TYPE *_position;
-    MISSING_TYPE *_rotation;
-    MISSING_TYPE *_scale;
+    id _position;
+    id _rotation;
+    id _scale;
 }
 
 - (id);
 - (long long);
 - (id);
 - (void);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MISSING_TYPE *position; // @synthesize position=_position;
+@property(readonly, nonatomic) id position; // @synthesize position=_position;
 @property(readonly, nonatomic) long long presetCategory; // @synthesize presetCategory=_presetCategory;
 @property(readonly, nonatomic) id presetValue; // @synthesize presetValue=_presetValue;
-@property(readonly, nonatomic) MISSING_TYPE *rotation; // @synthesize rotation=_rotation;
-@property(readonly, nonatomic) MISSING_TYPE *scale; // @synthesize scale=_scale;
+@property(readonly, nonatomic) id rotation; // @synthesize rotation=_rotation;
+@property(readonly, nonatomic) id scale; // @synthesize scale=_scale;
 
 @end
 

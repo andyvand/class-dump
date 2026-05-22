@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface TeaUI.SidebarButton
 {
-    MISSING_TYPE *accessibilityDelegate;
+    id accessibilityDelegate;
 }
 
 - (void);

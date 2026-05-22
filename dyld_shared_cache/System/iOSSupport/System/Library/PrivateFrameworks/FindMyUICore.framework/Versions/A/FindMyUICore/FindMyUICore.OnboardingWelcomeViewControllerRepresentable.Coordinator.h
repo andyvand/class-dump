@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.OnboardingWelcomeViewControllerRepresentable.Coordinator
 {
-    MISSING_TYPE *buttonsByIdentifiers;
-    MISSING_TYPE *secondaryViewController;
-    MISSING_TYPE *primaryViewController;
-    MISSING_TYPE *accessoryButtonAction;
+    id buttonsByIdentifiers;
+    id secondaryViewController;
+    id primaryViewController;
+    id accessoryButtonAction;
 }
 
 - (void);

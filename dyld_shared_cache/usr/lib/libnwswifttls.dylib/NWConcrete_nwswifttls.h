@@ -5,7 +5,7 @@
 //
 
 @class NSData, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_data, OS_dispatch_queue, OS_nw_protocol_metadata, OS_nw_protocol_options, _TtP10nwswifttls14STLSHandshaker_;
+@protocol OS_dispatch_data, OS_dispatch_queue, OS_nw_protocol_metadata, OS_nw_protocol_options, nwswifttls.STLSHandshaker;
 
 __attribute__((visibility("hidden")))
 @interface NWConcrete_nwswifttls
@@ -40,7 +40,7 @@ __attribute__((visibility("hidden")))
     _Bool started_handshake;
     _Bool connected;
     _Bool sent_error;
-    NSObject<_TtP10nwswifttls14STLSHandshaker_> *handshaker;
+    NSObject<nwswifttls.STLSHandshaker> *handshaker;
     _Bool server;
     struct __SecKey *private_key;
     int read_encryption_level;

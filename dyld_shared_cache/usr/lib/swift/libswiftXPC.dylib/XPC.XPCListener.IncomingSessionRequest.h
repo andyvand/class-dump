@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface XPC.XPCListener.IncomingSessionRequest
 {
-    MISSING_TYPE *_session;
-    MISSING_TYPE *_decision;
+    id _session;
+    id _decision;
 }
 
 @end

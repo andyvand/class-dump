@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactLikenessStore.IntentImpl
 {
-    MISSING_TYPE *logger;
-    MISSING_TYPE *clientLabel;
+    id logger;
+    id clientLabel;
 }
 
 @end

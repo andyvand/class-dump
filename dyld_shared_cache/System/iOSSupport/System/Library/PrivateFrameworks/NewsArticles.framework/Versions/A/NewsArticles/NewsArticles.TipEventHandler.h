@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.TipEventHandler
 {
-    MISSING_TYPE *interactor;
-    MISSING_TYPE *router;
-    MISSING_TYPE *tracker;
+    id interactor;
+    id router;
+    id tracker;
 }
 
 @end

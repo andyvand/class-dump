@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedContentPrefetcher
 {
-    MISSING_TYPE *feedConfigManager;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *backgroundAppRefreshEnabled;
+    id feedConfigManager;
+    id formatService;
+    id bundleSubscriptionManager;
+    id backgroundAppRefreshEnabled;
 }
 
 - (id);

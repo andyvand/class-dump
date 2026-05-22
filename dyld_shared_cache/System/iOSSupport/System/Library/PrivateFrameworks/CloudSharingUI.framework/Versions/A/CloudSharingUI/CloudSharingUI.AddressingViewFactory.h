@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIViewController;
+@class UIViewController;
 
 @interface CloudSharingUI.AddressingViewFactory
 {
-    MISSING_TYPE *viewModel;
+    id viewModel;
     UIViewController *viewController;
 }
 

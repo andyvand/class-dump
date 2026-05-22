@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CommandCenter
 {
-    MISSING_TYPE *handlers;
-    MISSING_TYPE *stateObserverStore;
-    MISSING_TYPE *executionObserverStore;
-    MISSING_TYPE *contextStore;
+    id handlers;
+    id stateObserverStore;
+    id executionObserverStore;
+    id contextStore;
 }
 
 @end

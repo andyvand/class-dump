@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.ContainedSpeakersItemManager
 {
-    MISSING_TYPE *accessoryElementItemModule;
-    MISSING_TYPE *removeItem;
-    MISSING_TYPE *mediaItem;
-    MISSING_TYPE *accessoryElementContext;
-    MISSING_TYPE *removeItemSectionIdentifier;
+    id accessoryElementItemModule;
+    id removeItem;
+    id mediaItem;
+    id accessoryElementContext;
+    id removeItemSectionIdentifier;
 }
 
 - (id);

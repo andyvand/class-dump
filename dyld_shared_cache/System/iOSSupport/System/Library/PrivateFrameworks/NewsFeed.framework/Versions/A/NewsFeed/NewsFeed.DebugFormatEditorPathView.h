@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatEditorPathView
 {
-    MISSING_TYPE *onShowSourceMap;
-    MISSING_TYPE *label;
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *separatorView;
-    MISSING_TYPE *textLink;
-    MISSING_TYPE *linkHandler;
-    MISSING_TYPE *editor;
+    id onShowSourceMap;
+    id label;
+    id scrollView;
+    id separatorView;
+    id textLink;
+    id linkHandler;
+    id editor;
 }
 
 - (id);

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityCredentialProviderSelectionViewModel
 {
-    MISSING_TYPE *connection;
-    MISSING_TYPE *_viewState;
-    MISSING_TYPE *_optionSelection;
-    MISSING_TYPE *_presentmentContext;
-    MISSING_TYPE *onDismissed;
-    MISSING_TYPE *_$observationRegistrar;
+    id connection;
+    id _viewState;
+    id _optionSelection;
+    id _presentmentContext;
+    id onDismissed;
+    id _$observationRegistrar;
 }
 
 @end

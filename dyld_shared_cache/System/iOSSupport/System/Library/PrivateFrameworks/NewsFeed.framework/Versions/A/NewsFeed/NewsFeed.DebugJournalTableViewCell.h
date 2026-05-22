@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugJournalTableViewCell
 {
-    MISSING_TYPE *stripView;
-    MISSING_TYPE *activityIndicatorView;
+    id stripView;
+    id activityIndicatorView;
 }
 
 - (id);

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CardViewScrollViewCoordinator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *isTransitioning;
-    MISSING_TYPE *trackingPollTimer;
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *scrollLock;
+    id delegate;
+    id isEnabled;
+    id isTransitioning;
+    id trackingPollTimer;
+    id scrollView;
+    id scrollLock;
 }
 
 - (void);

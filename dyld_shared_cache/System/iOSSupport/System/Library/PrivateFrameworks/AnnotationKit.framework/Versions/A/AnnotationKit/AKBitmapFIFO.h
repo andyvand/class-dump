@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 @interface AKBitmapFIFO
 {
@@ -18,7 +18,7 @@
     double _bitmapSizeMultiplier;
     double _shadowRadiusInView;
     struct CGSize _bitmapSize;
-    MISSING_TYPE *_lastPoint;
+    id _lastPoint;
     struct CGRect _unionDirtyRect;
     struct CGAffineTransform _viewToBitmapTransform;
 }
@@ -52,7 +52,7 @@
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -67,7 +67,7 @@
 @property _Bool bitmapSizeHasBeenUpdatedOnceForLiveDraw; // @synthesize bitmapSizeHasBeenUpdatedOnceForLiveDraw=_bitmapSizeHasBeenUpdatedOnceForLiveDraw;
 @property double bitmapSizeMultiplier; // @synthesize bitmapSizeMultiplier=_bitmapSizeMultiplier;
 @property(nonatomic) _Bool isInLiveDraw; // @synthesize isInLiveDraw=_isInLiveDraw;
-@property MISSING_TYPE *lastPoint; // @synthesize lastPoint=_lastPoint;
+@property id lastPoint; // @synthesize lastPoint=_lastPoint;
 @property double shadowRadiusInView; // @synthesize shadowRadiusInView=_shadowRadiusInView;
 @property struct CGRect unionDirtyRect; // @synthesize unionDirtyRect=_unionDirtyRect;
 @property(retain, nonatomic) UIView *view; // @synthesize view=_view;

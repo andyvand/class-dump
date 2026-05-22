@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HFAccessoryTypeGroup, HMHome, HMRoom, MISSING_TYPE, NSString, UIColor;
+@class HFAccessoryTypeGroup, HMHome, HMRoom, NSString, UIColor;
 
 @interface HUDashboardContext
 {
@@ -29,7 +29,7 @@
     _Bool shouldHidePlaceholderService;
     _Bool shouldHideForGuests;
     _Bool shouldIncludeRoomInAccessoryNames;
-    MISSING_TYPE *type;
+    id type;
 }
 
 + (id);

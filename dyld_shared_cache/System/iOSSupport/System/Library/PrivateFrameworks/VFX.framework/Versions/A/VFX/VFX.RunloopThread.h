@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.RunloopThread
 {
-    MISSING_TYPE *thread;
-    MISSING_TYPE *runloop;
+    id thread;
+    id runloop;
 }
 
 @end

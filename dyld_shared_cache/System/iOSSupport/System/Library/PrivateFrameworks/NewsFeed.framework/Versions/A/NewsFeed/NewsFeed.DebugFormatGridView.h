@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatGridView
 {
-    MISSING_TYPE *scale;
-    MISSING_TYPE *contentSize;
-    MISSING_TYPE *contentBounds;
-    MISSING_TYPE *gridLayer;
+    id scale;
+    id contentSize;
+    id contentBounds;
+    id gridLayer;
 }
 
 - (id);

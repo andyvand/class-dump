@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.LocationTileViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *title;
-    MISSING_TYPE *subtitle;
-    MISSING_TYPE *imageProvider;
-    MISSING_TYPE *colorGradient;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id title;
+    id subtitle;
+    id imageProvider;
+    id colorGradient;
+    id _$observationRegistrar;
 }
 
 @end

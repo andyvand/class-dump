@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatContextLayoutOptions
 {
-    MISSING_TYPE *feedKind;
-    MISSING_TYPE *scale;
-    MISSING_TYPE *scaleFactor;
-    MISSING_TYPE *options;
-    MISSING_TYPE *$__lazy_storage_$_staticSelectors;
-    MISSING_TYPE *unmergedSelectors;
+    id feedKind;
+    id scale;
+    id scaleFactor;
+    id options;
+    id $__lazy_storage_$_staticSelectors;
+    id unmergedSelectors;
 }
 
 @end

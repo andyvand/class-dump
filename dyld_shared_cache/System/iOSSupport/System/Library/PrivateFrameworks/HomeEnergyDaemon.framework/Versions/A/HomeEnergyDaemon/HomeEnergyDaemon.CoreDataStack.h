@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.CoreDataStack
 {
-    MISSING_TYPE *_storeName;
-    MISSING_TYPE *_modelIdentifier;
-    MISSING_TYPE *context;
-    MISSING_TYPE *_privatePersistentStore;
-    MISSING_TYPE *server;
-    MISSING_TYPE *$__lazy_storage_$_persistentContainer;
+    id _storeName;
+    id _modelIdentifier;
+    id context;
+    id _privatePersistentStore;
+    id server;
+    id $__lazy_storage_$_persistentContainer;
 }
 
 @end

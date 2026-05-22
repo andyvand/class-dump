@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIImage;
+@class NSString, UIImage;
 
 @interface UISliderTick
 {
-    MISSING_TYPE *_tick;
+    id _tick;
 }
 
 + (id);

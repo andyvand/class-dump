@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SuggestionTodayFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *knobs;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *suggestionClusteringService;
-    MISSING_TYPE *sportsGraphManager;
-    MISSING_TYPE *name;
+    id config;
+    id knobs;
+    id formatService;
+    id tagService;
+    id headlineService;
+    id feedPersonalizer;
+    id suggestionClusteringService;
+    id sportsGraphManager;
+    id name;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.TriggerEmptyStateViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *hostingController;
+    id delegate;
+    id hostingController;
 }
 
 - (id);

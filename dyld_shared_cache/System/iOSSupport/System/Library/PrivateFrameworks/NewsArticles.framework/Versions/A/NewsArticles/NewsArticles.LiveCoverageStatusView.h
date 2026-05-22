@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.LiveCoverageStatusView
 {
-    MISSING_TYPE *liveCoverageState;
-    MISSING_TYPE *mastheadBackgroundColor;
-    MISSING_TYPE *action;
-    MISSING_TYPE *cornerRadius;
-    MISSING_TYPE *buttonBackgroundView;
-    MISSING_TYPE *statusButton;
-    MISSING_TYPE *closeButton;
-    MISSING_TYPE *$__lazy_storage_$_hoverGestureRecognizer;
-    MISSING_TYPE *formatter;
-    MISSING_TYPE *updateTimer;
-    MISSING_TYPE *$__lazy_storage_$_panGestureRecognizer;
-    MISSING_TYPE *isTransitioning;
-    MISSING_TYPE *isPinned;
-    MISSING_TYPE *isPerformingPinningTransition;
+    id liveCoverageState;
+    id mastheadBackgroundColor;
+    id action;
+    id cornerRadius;
+    id buttonBackgroundView;
+    id statusButton;
+    id closeButton;
+    id $__lazy_storage_$_hoverGestureRecognizer;
+    id formatter;
+    id updateTimer;
+    id $__lazy_storage_$_panGestureRecognizer;
+    id isTransitioning;
+    id isPinned;
+    id isPerformingPinningTransition;
 }
 
 - (void);

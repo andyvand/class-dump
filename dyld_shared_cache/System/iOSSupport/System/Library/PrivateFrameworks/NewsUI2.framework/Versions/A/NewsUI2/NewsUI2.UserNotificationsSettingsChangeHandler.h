@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.UserNotificationsSettingsChangeHandler
 {
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *notificationController;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *authorizationStatus;
-    MISSING_TYPE *onAuthorizedNotificationsEnableTagID;
-    MISSING_TYPE *onAuthorizedNotificationsEnableNewIssues;
+    id notificationService;
+    id tracker;
+    id navigator;
+    id subscriptionController;
+    id appConfigurationManager;
+    id notificationController;
+    id bundleSubscriptionManager;
+    id tagService;
+    id authorizationStatus;
+    id onAuthorizedNotificationsEnableTagID;
+    id onAuthorizedNotificationsEnableNewIssues;
 }
 
 @end

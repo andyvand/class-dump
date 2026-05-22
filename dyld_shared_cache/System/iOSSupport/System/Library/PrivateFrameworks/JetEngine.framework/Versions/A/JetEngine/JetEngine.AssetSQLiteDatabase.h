@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.AssetSQLiteDatabase
 {
-    MISSING_TYPE *url;
-    MISSING_TYPE *mode;
-    MISSING_TYPE *db;
-    MISSING_TYPE *transactionCount;
-    MISSING_TYPE *keepAlive;
+    id url;
+    id mode;
+    id db;
+    id transactionCount;
+    id keepAlive;
 }
 
 @end

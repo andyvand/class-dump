@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 @protocol WKURLSchemeTask;
 
 @interface NewsFeed.WebEmbedDatastoreURLSchemeHandler
 {
     id <WKURLSchemeTask> task;
-    MISSING_TYPE *loadTask;
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *_description;
+    id loadTask;
+    id assetManager;
+    id _description;
 }
 
 - (id);

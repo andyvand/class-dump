@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSTimer, VFXNode;
+@class NSTimer, VFXNode;
 @protocol VFXCameraControllerDelegate;
 
 @interface VFXCameraController
 {
     struct {
-        CDStruct_14d5dc5e angles__initialAbsoluteAngles__initialTransformWorld;
-        CDStruct_0e8a9a91 initialOrientationWorld;
+        CDStruct_95fa7c00 angles__initialAbsoluteAngles__initialTransformWorld;
+        CDStruct_da14d750 initialOrientationWorld;
     } _orientationState;
     struct {
-        MISSING_TYPE *start__current__last;
+        id start__current__last;
     } _inputLocation;
     struct {
-        MISSING_TYPE *localArcballAdjustement__sphereLocationStart__sphereLocationCurrent;
+        id localArcballAdjustement__sphereLocationStart__sphereLocationCurrent;
     } _arcball;
     struct {
         _Bool inertiaEnabled;
@@ -28,11 +28,11 @@
         float translationSensitivity;
         NSTimer *velocity__timer;
     } _inertia;
-    MISSING_TYPE *_up;
-    MISSING_TYPE *_target;
+    id _up;
+    id _target;
     _Bool _isTargetFromHitTest;
-    MISSING_TYPE *_minimumAngles;
-    MISSING_TYPE *_maximumAngles;
+    id _minimumAngles;
+    id _maximumAngles;
     _Bool _handlingInteraction;
     _Bool _drivenBydefaultNavigationCameraController;
     _Bool _automaticTarget;
@@ -50,8 +50,8 @@
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -75,7 +75,7 @@
 - (float);
 - (float);
 - (float);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (_Bool);
 - (_Bool);
 - (float);
@@ -88,19 +88,19 @@
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (CDStruct_183601bc);
-- (MISSING_TYPE *);
+- (id);
 - (_Bool);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (CDStruct_183601bc);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (_Bool);
 - (void);
@@ -110,8 +110,8 @@
 - (id);
 - (void);
 - (void);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -133,12 +133,12 @@
 @property(nonatomic) float minimumHorizontalAngle;
 @property(nonatomic) float minimumVerticalAngle;
 @property(retain, nonatomic) VFXNode *pointOfView; // @synthesize pointOfView=_pointOfView;
-@property(nonatomic) MISSING_TYPE *simdTarget;
-@property(nonatomic) MISSING_TYPE *simdUp;
-@property(nonatomic) MISSING_TYPE *target;
-@property(nonatomic) MISSING_TYPE *up;
+@property(nonatomic) id simdTarget;
+@property(nonatomic) id simdUp;
+@property(nonatomic) id target;
+@property(nonatomic) id up;
 @property(nonatomic) float verticalMaximumAngle;
-@property(nonatomic) MISSING_TYPE *worldUp;
+@property(nonatomic) id worldUp;
 
 @end
 

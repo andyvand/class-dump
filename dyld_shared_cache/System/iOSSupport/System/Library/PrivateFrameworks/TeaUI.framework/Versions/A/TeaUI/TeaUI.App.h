@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.App
 {
-    MISSING_TYPE *monitor;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *application;
-    MISSING_TYPE *environment;
+    id monitor;
+    id sceneProvider;
+    id application;
+    id environment;
 }
 
 @end

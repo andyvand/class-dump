@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIMagicMorphAnimation.Parameters
 {
-    MISSING_TYPE *morphSpring;
-    MISSING_TYPE *widthSpring;
-    MISSING_TYPE *heightSpring;
-    MISSING_TYPE *positionXSpring;
-    MISSING_TYPE *positionYSpring;
-    MISSING_TYPE *transformSpring;
-    MISSING_TYPE *overlayViews;
-    MISSING_TYPE *fallbackBackgroundColor;
-    MISSING_TYPE *contentScale;
-    MISSING_TYPE *reparentingOptions;
-    MISSING_TYPE *crossBlurWhenMorphing;
-    MISSING_TYPE *useIntermediateShape;
-    MISSING_TYPE *tracksPresentationLayer;
-    MISSING_TYPE *kick;
-    MISSING_TYPE *animationSmoothness;
-    MISSING_TYPE *forceCrossfade;
+    id morphSpring;
+    id widthSpring;
+    id heightSpring;
+    id positionXSpring;
+    id positionYSpring;
+    id transformSpring;
+    id overlayViews;
+    id fallbackBackgroundColor;
+    id contentScale;
+    id reparentingOptions;
+    id crossBlurWhenMorphing;
+    id useIntermediateShape;
+    id tracksPresentationLayer;
+    id kick;
+    id animationSmoothness;
+    id forceCrossfade;
 }
 
 - (id);

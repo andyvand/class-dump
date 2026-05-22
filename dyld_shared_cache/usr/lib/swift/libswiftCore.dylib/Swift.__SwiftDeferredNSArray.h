@@ -6,12 +6,10 @@
 
 #import <swiftCore/Swift.__SwiftNativeNSArrayWithContiguousStorage.h>
 
-@class MISSING_TYPE;
-
 @interface Swift.__SwiftDeferredNSArray : Swift.__SwiftNativeNSArrayWithContiguousStorage
 {
-    MISSING_TYPE *_heapBufferBridged_DoNotUse;
-    MISSING_TYPE *_nativeStorage;
+    id _heapBufferBridged_DoNotUse;
+    id _nativeStorage;
 }
 
 - (long long);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.GalleryLoader
 {
-    MISSING_TYPE *lastDonationsLoadDate;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *loadTimer;
-    MISSING_TYPE *observers;
+    id lastDonationsLoadDate;
+    id _state;
+    id loadTimer;
+    id observers;
 }
 
 - (void);

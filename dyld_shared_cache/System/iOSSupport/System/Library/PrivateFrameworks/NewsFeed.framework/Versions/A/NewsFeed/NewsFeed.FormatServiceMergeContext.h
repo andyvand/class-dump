@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatServiceMergeContext
 {
-    MISSING_TYPE *theme;
-    MISSING_TYPE *feedDescriptor;
-    MISSING_TYPE *groupTag;
+    id theme;
+    id feedDescriptor;
+    id groupTag;
 }
 
 @end

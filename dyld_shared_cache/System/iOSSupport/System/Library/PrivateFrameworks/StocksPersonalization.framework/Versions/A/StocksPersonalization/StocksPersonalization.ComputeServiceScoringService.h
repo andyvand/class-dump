@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface StocksPersonalization.ComputeServiceScoringService
 {
-    MISSING_TYPE *isSubscribed;
-    MISSING_TYPE *computeService;
-    MISSING_TYPE *articleFeaturesFactory;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *prepareForUseDeduper;
+    id isSubscribed;
+    id computeService;
+    id articleFeaturesFactory;
+    id paidAccessChecker;
+    id prepareForUseDeduper;
 }
 
 - (id);

@@ -6,49 +6,47 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.IntelligenceUI.PromptEntryView : UIView
 {
-    MISSING_TYPE *placeholder;
-    MISSING_TYPE *placeholderConfiguration;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *textView;
-    MISSING_TYPE *accessoryView;
-    MISSING_TYPE *returnBehavior;
-    MISSING_TYPE *visibleLineLimit;
-    MISSING_TYPE *characterLimit;
-    MISSING_TYPE *leadingButton;
-    MISSING_TYPE *isLeadingButtonVisible;
-    MISSING_TYPE *trailingButton;
-    MISSING_TYPE *isTrailingButtonVisible;
-    MISSING_TYPE *trailingButtonHiddenWhenEmpty;
-    MISSING_TYPE *trailingButtonShowsClearButtonWhenNotEmpty;
-    MISSING_TYPE *isLeadingButtonConfiguredAsToggle;
-    MISSING_TYPE *leadingButtonToggleState;
-    MISSING_TYPE *$__lazy_storage_$_backgroundView;
-    MISSING_TYPE *textViewPadding;
-    MISSING_TYPE *isPonderingEffectEnabled;
-    MISSING_TYPE *styleAttributesForAmbiguity;
-    MISSING_TYPE *styleAttributesForResolvedAmbiguity;
-    MISSING_TYPE *_privatePressGestureRecognizerDelegate;
-    MISSING_TYPE *placeholderLabel;
-    MISSING_TYPE *accessorySeparatorView;
-    MISSING_TYPE *containerScrollView;
-    MISSING_TYPE *buttonContainerView;
-    MISSING_TYPE *placeholderEffectView;
-    MISSING_TYPE *$__lazy_storage_$_ponderingEffectView;
-    MISSING_TYPE *nonPonderingBackgroundStyle;
-    MISSING_TYPE *activePonderEffect;
-    MISSING_TYPE *$__lazy_storage_$_accessoryContainerView;
-    MISSING_TYPE *$__lazy_storage_$_accessoryContainerMaskView;
-    MISSING_TYPE *_trailingButtonActivatesDictationWhenEmpty;
-    MISSING_TYPE *ambiguitiesByID;
-    MISSING_TYPE *imageAttributeStates;
-    MISSING_TYPE *customConfigurations;
-    MISSING_TYPE *needsStyleUpdate;
-    MISSING_TYPE *modifierKeyRecognizer;
-    MISSING_TYPE *backgroundCornerRadius;
+    id placeholder;
+    id placeholderConfiguration;
+    id delegate;
+    id textView;
+    id accessoryView;
+    id returnBehavior;
+    id visibleLineLimit;
+    id characterLimit;
+    id leadingButton;
+    id isLeadingButtonVisible;
+    id trailingButton;
+    id isTrailingButtonVisible;
+    id trailingButtonHiddenWhenEmpty;
+    id trailingButtonShowsClearButtonWhenNotEmpty;
+    id isLeadingButtonConfiguredAsToggle;
+    id leadingButtonToggleState;
+    id $__lazy_storage_$_backgroundView;
+    id textViewPadding;
+    id isPonderingEffectEnabled;
+    id styleAttributesForAmbiguity;
+    id styleAttributesForResolvedAmbiguity;
+    id _privatePressGestureRecognizerDelegate;
+    id placeholderLabel;
+    id accessorySeparatorView;
+    id containerScrollView;
+    id buttonContainerView;
+    id placeholderEffectView;
+    id $__lazy_storage_$_ponderingEffectView;
+    id nonPonderingBackgroundStyle;
+    id activePonderEffect;
+    id $__lazy_storage_$_accessoryContainerView;
+    id $__lazy_storage_$_accessoryContainerMaskView;
+    id _trailingButtonActivatesDictationWhenEmpty;
+    id ambiguitiesByID;
+    id imageAttributeStates;
+    id customConfigurations;
+    id needsStyleUpdate;
+    id modifierKeyRecognizer;
+    id backgroundCornerRadius;
 }
 
 - (void);

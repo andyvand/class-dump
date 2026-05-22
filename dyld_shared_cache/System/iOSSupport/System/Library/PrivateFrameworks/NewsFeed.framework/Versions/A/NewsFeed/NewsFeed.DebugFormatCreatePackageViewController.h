@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatCreatePackageViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *editorURL;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *debugFormatService;
-    MISSING_TYPE *selectedTemplate;
-    MISSING_TYPE *valuesByTemplateKey;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *shouldBecomeFirstResponder;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *$__lazy_storage_$_createBarButtonItem;
+    id editor;
+    id editorURL;
+    id styler;
+    id debugFormatService;
+    id selectedTemplate;
+    id valuesByTemplateKey;
+    id tableView;
+    id shouldBecomeFirstResponder;
+    id sections;
+    id $__lazy_storage_$_createBarButtonItem;
 }
 
 - (void);

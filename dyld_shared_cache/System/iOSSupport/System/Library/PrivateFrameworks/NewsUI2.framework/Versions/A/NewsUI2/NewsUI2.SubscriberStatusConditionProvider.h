@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SubscriberStatusConditionProvider
 {
-    MISSING_TYPE *statusConditions;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id statusConditions;
+    id appConfigurationManager;
+    id bundleSubscriptionManager;
 }
 
 - (void);

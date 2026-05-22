@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, _TtC16NewsSubscription26PaidBundleViaOfferSettings;
+@class NewsSubscription.PaidBundleViaOfferSettings;
 
 @interface NewsUI2.FeatureAvailability
 {
-    MISSING_TYPE *featureAvailabilityProvider;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *$__lazy_storage_$_isContentStoreFrontSupported;
+    id featureAvailabilityProvider;
+    id observers;
+    id $__lazy_storage_$_isContentStoreFrontSupported;
 }
 
 - (id);
@@ -71,7 +71,7 @@
 @property(nonatomic, readonly) _Bool multipartRecipesEnabled;
 @property(nonatomic, readonly) _Bool narrativeAudio;
 @property(nonatomic, readonly) _Bool nutritionInfoEnabled;
-@property(nonatomic, readonly) _TtC16NewsSubscription26PaidBundleViaOfferSettings *paidBundleViaOfferAvailability;
+@property(nonatomic, readonly) NewsSubscription.PaidBundleViaOfferSettings *paidBundleViaOfferAvailability;
 @property(nonatomic, readonly) _Bool puzzlesEnabled;
 @property(nonatomic, readonly) _Bool puzzlesGameCenterEnabled;
 @property(nonatomic, readonly) _Bool recipeHistoryFeedEnabled;

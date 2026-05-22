@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleLifeInit.System
 {
-    MISSING_TYPE *lifeAndAgeQuery;
-    MISSING_TYPE *lifeQuery;
+    id lifeAndAgeQuery;
+    id lifeQuery;
 }
 
 @end

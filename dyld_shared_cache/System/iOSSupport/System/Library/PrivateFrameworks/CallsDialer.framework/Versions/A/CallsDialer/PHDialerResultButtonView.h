@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UILabel;
+@class NSString, UILabel;
 
 @interface PHDialerResultButtonView
 {
-    MISSING_TYPE *type;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *horizontalPadding;
-    MISSING_TYPE *$__lazy_storage_$_imageView;
-    MISSING_TYPE *$__lazy_storage_$_primaryLabel;
-    MISSING_TYPE *$__lazy_storage_$_secondaryLabel;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *$__lazy_storage_$_stackView;
+    id type;
+    id delegate;
+    id horizontalPadding;
+    id $__lazy_storage_$_imageView;
+    id $__lazy_storage_$_primaryLabel;
+    id $__lazy_storage_$_secondaryLabel;
+    id logger;
+    id $__lazy_storage_$_stackView;
 }
 
 - (void);

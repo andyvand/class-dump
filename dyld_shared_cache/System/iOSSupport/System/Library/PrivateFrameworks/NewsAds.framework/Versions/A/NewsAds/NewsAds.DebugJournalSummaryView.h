@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.DebugJournalSummaryView
 {
-    MISSING_TYPE *placementIdentifierLabel;
-    MISSING_TYPE *placementIdentifier;
-    MISSING_TYPE *contentIdentifierLabel;
-    MISSING_TYPE *contentIdentifier;
-    MISSING_TYPE *statusLabel;
-    MISSING_TYPE *status;
-    MISSING_TYPE *statusIndicator;
-    MISSING_TYPE *moreDetailsButton;
-    MISSING_TYPE *onTapMoreDetails;
-    MISSING_TYPE *buttonSeparator;
-    MISSING_TYPE *reportIssueButton;
-    MISSING_TYPE *onTapReportIssue;
-    MISSING_TYPE *topSeparator;
-    MISSING_TYPE *bottomSeparator;
+    id placementIdentifierLabel;
+    id placementIdentifier;
+    id contentIdentifierLabel;
+    id contentIdentifier;
+    id statusLabel;
+    id status;
+    id statusIndicator;
+    id moreDetailsButton;
+    id onTapMoreDetails;
+    id buttonSeparator;
+    id reportIssueButton;
+    id onTapReportIssue;
+    id topSeparator;
+    id bottomSeparator;
 }
 
 - (id);

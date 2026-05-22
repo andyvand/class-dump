@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.CameraFrameProvider
 {
-    MISSING_TYPE *_cCameraFrameProvider;
-    MISSING_TYPE *cameraFrameContinuationsPerFormat;
-    MISSING_TYPE *frameQueue;
+    id _cCameraFrameProvider;
+    id cameraFrameContinuationsPerFormat;
+    id frameQueue;
 }
 
 @end

@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewShellKit.Agent
 {
-    MISSING_TYPE *invalidationHandle;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *launcher;
-    MISSING_TYPE *batchIdentity;
-    MISSING_TYPE *jitBootstrapConnectionIdentifier;
-    MISSING_TYPE *jitBootstrapAgentServer;
-    MISSING_TYPE *jitBootstrapTimeout;
-    MISSING_TYPE *processFuture;
-    MISSING_TYPE *processPromise;
-    MISSING_TYPE *updates;
-    MISSING_TYPE *loadedProductSeeds;
+    id invalidationHandle;
+    id identifier;
+    id launcher;
+    id batchIdentity;
+    id jitBootstrapConnectionIdentifier;
+    id jitBootstrapAgentServer;
+    id jitBootstrapTimeout;
+    id processFuture;
+    id processPromise;
+    id updates;
+    id loadedProductSeeds;
 }
 
 @end

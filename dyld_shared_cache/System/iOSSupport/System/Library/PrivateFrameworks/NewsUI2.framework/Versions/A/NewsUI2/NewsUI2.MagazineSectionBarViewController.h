@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineSectionBarViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *blueprintLayoutProvider;
-    MISSING_TYPE *config;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *isBeingUsedAsPlugin;
-    MISSING_TYPE *pluggableDelegate;
-    MISSING_TYPE *previousSelectedIndexPath;
-    MISSING_TYPE *blueprintHorizontalShimView;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id blueprintLayoutProvider;
+    id config;
+    id featureAvailability;
+    id offlineProvider;
+    id isBeingUsedAsPlugin;
+    id pluggableDelegate;
+    id previousSelectedIndexPath;
+    id blueprintHorizontalShimView;
 }
 
 - (void);

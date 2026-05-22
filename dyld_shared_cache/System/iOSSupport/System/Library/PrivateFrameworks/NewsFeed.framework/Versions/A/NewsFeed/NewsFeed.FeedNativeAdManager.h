@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedNativeAdManager
 {
-    MISSING_TYPE *nativeAdService;
-    MISSING_TYPE *placementPolicy;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *fetchingSectionIdentifiers;
-    MISSING_TYPE *state;
+    id nativeAdService;
+    id placementPolicy;
+    id observers;
+    id lock;
+    id fetchingSectionIdentifiers;
+    id state;
 }
 
 @end

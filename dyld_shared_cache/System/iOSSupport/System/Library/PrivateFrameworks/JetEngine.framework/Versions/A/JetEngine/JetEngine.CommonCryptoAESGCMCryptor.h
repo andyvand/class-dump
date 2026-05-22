@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.CommonCryptoAESGCMCryptor
 {
-    MISSING_TYPE *cryptor;
-    MISSING_TYPE *inputStream;
-    MISSING_TYPE *outputStream;
-    MISSING_TYPE *inputBuffer;
-    MISSING_TYPE *outputBuffer;
-    MISSING_TYPE *outputBufferSize;
-    MISSING_TYPE *blockSize;
-    MISSING_TYPE *state;
+    id cryptor;
+    id inputStream;
+    id outputStream;
+    id inputBuffer;
+    id outputBuffer;
+    id outputBufferSize;
+    id blockSize;
+    id state;
 }
 
 @end

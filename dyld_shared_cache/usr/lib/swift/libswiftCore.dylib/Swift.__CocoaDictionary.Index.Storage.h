@@ -6,12 +6,10 @@
 
 #import <swiftCore/Swift._SwiftObject.h>
 
-@class MISSING_TYPE;
-
 @interface Swift.__CocoaDictionary.Index.Storage : Swift._SwiftObject
 {
-    MISSING_TYPE *base;
-    MISSING_TYPE *allKeys;
+    id base;
+    id allKeys;
 }
 
 @end

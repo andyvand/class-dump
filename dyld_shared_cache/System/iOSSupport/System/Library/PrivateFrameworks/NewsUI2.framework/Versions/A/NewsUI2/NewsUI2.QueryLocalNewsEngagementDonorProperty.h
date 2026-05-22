@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.QueryLocalNewsEngagementDonorProperty
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *followedLocalNewsTagIDs;
-    MISSING_TYPE *localNewsRegions;
-    MISSING_TYPE *fetchedRegions;
-    MISSING_TYPE *locationRegionManager;
-    MISSING_TYPE *tagController;
+    id id;
+    id configuration;
+    id followedLocalNewsTagIDs;
+    id localNewsRegions;
+    id fetchedRegions;
+    id locationRegionManager;
+    id tagController;
 }
 
 @end

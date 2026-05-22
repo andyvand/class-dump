@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatModelFactory
 {
-    MISSING_TYPE *feedModelFactory;
-    MISSING_TYPE *feedContextFactory;
+    id feedModelFactory;
+    id feedContextFactory;
 }
 
 @end

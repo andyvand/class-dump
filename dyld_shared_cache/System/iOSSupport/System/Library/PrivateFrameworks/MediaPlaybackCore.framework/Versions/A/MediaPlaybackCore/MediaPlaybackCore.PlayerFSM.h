@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary;
+@class NSDictionary;
 
 @interface MediaPlaybackCore.PlayerFSM
 {
-    MISSING_TYPE *playbackDefaults;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *states;
-    MISSING_TYPE *controller;
+    id playbackDefaults;
+    id delegate;
+    id states;
+    id controller;
 }
 
 - (void);

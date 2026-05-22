@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.HardwareConfigurationModel
 {
-    MISSING_TYPE *_securityPolicyError;
-    MISSING_TYPE *_hasTouchIDHardware;
-    MISSING_TYPE *_$observationRegistrar;
+    id _securityPolicyError;
+    id _hasTouchIDHardware;
+    id _$observationRegistrar;
 }
 
 @end

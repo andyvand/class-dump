@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MastheadAdSponsorshipProvider
 {
-    MISSING_TYPE *adSponsorshipService;
-    MISSING_TYPE *appConfigurationManager;
+    id adSponsorshipService;
+    id appConfigurationManager;
 }
 
 @end

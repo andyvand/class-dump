@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.PDFReplicaViewerRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *router;
-    MISSING_TYPE *hasVisitedTableOfContents;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *offlineProvider;
+    id controller;
+    id resolver;
+    id router;
+    id hasVisitedTableOfContents;
+    id featureAvailability;
+    id offlineProvider;
 }
 
 @end

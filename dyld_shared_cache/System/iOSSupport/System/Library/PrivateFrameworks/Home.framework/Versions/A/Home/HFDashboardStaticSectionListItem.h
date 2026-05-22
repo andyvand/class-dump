@@ -6,12 +6,12 @@
 
 #import <Home/HFStaticItem.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface HFDashboardStaticSectionListItem : HFStaticItem
 {
     void uuidString;
-    MISSING_TYPE *sectionType;
+    id sectionType;
 }
 
 - (id);

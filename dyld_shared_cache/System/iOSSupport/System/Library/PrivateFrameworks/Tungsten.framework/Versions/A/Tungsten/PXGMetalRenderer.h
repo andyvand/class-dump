@@ -54,7 +54,7 @@
     id <PXGMetalRendererTestingDelegate> _testingDelegate;
     struct CGRect _visibleRect;
     CDStruct_6fbdf7c2 _interactionState;
-    PXGCameraConfiguration_f6f8b209 _cameraConfiguration;
+    PXGCameraConfiguration_dfedfa9e _cameraConfiguration;
 }
 
 + (float);
@@ -129,7 +129,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) PXGCameraConfiguration_474424ad cameraConfiguration; // @synthesize cameraConfiguration=_cameraConfiguration;
+@property(nonatomic) PXGCameraConfiguration_60775728 cameraConfiguration; // @synthesize cameraConfiguration=_cameraConfiguration;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

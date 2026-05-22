@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagViewLayoutOptions
 {
-    MISSING_TYPE *tagViewLayoutMargins;
-    MISSING_TYPE *minimumHeight;
-    MISSING_TYPE *verticalPadding;
-    MISSING_TYPE *verticalPaddingForLargeText;
-    MISSING_TYPE *accessoryOptions;
-    MISSING_TYPE *layoutOptions;
-    MISSING_TYPE *width;
-    MISSING_TYPE *allowSuggestedDescription;
+    id tagViewLayoutMargins;
+    id minimumHeight;
+    id verticalPadding;
+    id verticalPaddingForLargeText;
+    id accessoryOptions;
+    id layoutOptions;
+    id width;
+    id allowSuggestedDescription;
 }
 
 @end

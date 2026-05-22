@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OpenSportEventCommandHandler
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *offlineProvider;
+    id navigator;
+    id featureAvailability;
+    id offlineProvider;
 }
 
 @end

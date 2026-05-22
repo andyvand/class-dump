@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsEngagementEventProcessor
 {
-    MISSING_TYPE *engagementService;
-    MISSING_TYPE *appReviewRequestManager;
-    MISSING_TYPE *eventTranslators;
-    MISSING_TYPE *jsonDecoder;
-    MISSING_TYPE *$__lazy_storage_$_useSmarterMessaging;
-    MISSING_TYPE *useAppReviewRequest;
-    MISSING_TYPE *appConfiguration;
+    id engagementService;
+    id appReviewRequestManager;
+    id eventTranslators;
+    id jsonDecoder;
+    id $__lazy_storage_$_useSmarterMessaging;
+    id useAppReviewRequest;
+    id appConfiguration;
 }
 
 - (id);

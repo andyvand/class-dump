@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.PosterStore
 {
-    MISSING_TYPE *posterFilter;
-    MISSING_TYPE *currentSelectionIndex;
-    MISSING_TYPE *significantEventsCounter;
-    MISSING_TYPE *glue;
-    MISSING_TYPE *allPosters;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *switcherConfig;
-    MISSING_TYPE *forcePersistSelectionForFocusUpdate;
+    id posterFilter;
+    id currentSelectionIndex;
+    id significantEventsCounter;
+    id glue;
+    id allPosters;
+    id observers;
+    id switcherConfig;
+    id forcePersistSelectionForFocusUpdate;
 }
 
 - (void);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelPickerDetailBlueprintViewCellProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *channelTagRenderer;
-    MISSING_TYPE *channelCoinRenderer;
-    MISSING_TYPE *channelCategoryRenderer;
-    MISSING_TYPE *channelEngagementRenderer;
+    id delegate;
+    id channelTagRenderer;
+    id channelCoinRenderer;
+    id channelCategoryRenderer;
+    id channelEngagementRenderer;
 }
 
 @end

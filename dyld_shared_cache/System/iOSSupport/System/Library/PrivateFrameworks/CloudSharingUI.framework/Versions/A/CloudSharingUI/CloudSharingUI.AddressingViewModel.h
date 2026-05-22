@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CloudSharingUI.AddressingViewModel
 {
-    MISSING_TYPE *_headerImage;
-    MISSING_TYPE *_headerTitle;
-    MISSING_TYPE *_yourNameAndEmail;
-    MISSING_TYPE *_inputText;
-    MISSING_TYPE *_loadingText;
-    MISSING_TYPE *_supplementaryText;
-    MISSING_TYPE *_userInfoText;
-    MISSING_TYPE *_primaryButtonText;
-    MISSING_TYPE *primaryButtonDidClick;
-    MISSING_TYPE *primaryButtonWasClicked;
-    MISSING_TYPE *_secondaryButtonText;
-    MISSING_TYPE *secondaryButtonDidClick;
-    MISSING_TYPE *showContactPickerDidClick;
-    MISSING_TYPE *_hideInnerNavigationBar;
-    MISSING_TYPE *_addresses;
-    MISSING_TYPE *addressesDidChange;
-    MISSING_TYPE *shouldAllowEmptyAddresses;
-    MISSING_TYPE *store;
+    id _headerImage;
+    id _headerTitle;
+    id _yourNameAndEmail;
+    id _inputText;
+    id _loadingText;
+    id _supplementaryText;
+    id _userInfoText;
+    id _primaryButtonText;
+    id primaryButtonDidClick;
+    id primaryButtonWasClicked;
+    id _secondaryButtonText;
+    id secondaryButtonDidClick;
+    id showContactPickerDidClick;
+    id _hideInnerNavigationBar;
+    id _addresses;
+    id addressesDidChange;
+    id shouldAllowEmptyAddresses;
+    id store;
 }
 
 @end

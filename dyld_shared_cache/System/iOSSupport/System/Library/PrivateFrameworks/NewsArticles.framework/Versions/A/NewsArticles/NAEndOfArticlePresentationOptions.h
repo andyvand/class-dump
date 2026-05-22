@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NAEndOfArticlePresentationOptions
 {
-    MISSING_TYPE *suppressMoreFromSection;
-    MISSING_TYPE *suppressMoreToReadSection;
-    MISSING_TYPE *suppressMoreFromIssueSection;
-    MISSING_TYPE *suppressRelatedSection;
-    MISSING_TYPE *suppressRecommendedReadsSection;
-    MISSING_TYPE *articleBackgroundColor;
-    MISSING_TYPE *isIssueArticle;
+    id suppressMoreFromSection;
+    id suppressMoreToReadSection;
+    id suppressMoreFromIssueSection;
+    id suppressRelatedSection;
+    id suppressRecommendedReadsSection;
+    id articleBackgroundColor;
+    id isIssueArticle;
 }
 
 - (id);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.SnowglobeAvatarView.Model
 {
-    MISSING_TYPE *contactsHashes;
-    MISSING_TYPE *_contacts;
-    MISSING_TYPE *listener;
+    id contactsHashes;
+    id _contacts;
+    id listener;
 }
 
 @end

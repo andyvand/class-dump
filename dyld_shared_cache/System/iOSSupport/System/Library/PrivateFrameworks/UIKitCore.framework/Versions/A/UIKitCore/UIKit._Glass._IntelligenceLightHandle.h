@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._Glass._IntelligenceLightHandle
 {
-    MISSING_TYPE *_isFillLightVisible;
-    MISSING_TYPE *_isEdgeLightVisible;
-    MISSING_TYPE *_$observationRegistrar;
+    id _isFillLightVisible;
+    id _isEdgeLightVisible;
+    id _$observationRegistrar;
 }
 
 @end

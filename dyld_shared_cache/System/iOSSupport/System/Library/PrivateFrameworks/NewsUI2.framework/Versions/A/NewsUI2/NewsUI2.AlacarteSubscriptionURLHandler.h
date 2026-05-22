@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AlacarteSubscriptionURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *webOptinFlowManager;
+    id patterns;
+    id navigator;
+    id webOptinFlowManager;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.LocationSharingView.Model.BlockingViewModel
 {
-    MISSING_TYPE *contact;
-    MISSING_TYPE *_actionsProvider;
-    MISSING_TYPE *_isBlocked;
-    MISSING_TYPE *_$observationRegistrar;
+    id contact;
+    id _actionsProvider;
+    id _isBlocked;
+    id _$observationRegistrar;
 }
 
 - (void);

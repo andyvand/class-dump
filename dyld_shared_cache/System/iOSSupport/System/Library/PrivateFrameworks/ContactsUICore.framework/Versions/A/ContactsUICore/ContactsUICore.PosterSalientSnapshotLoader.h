@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.PosterSalientSnapshotLoader
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *cache;
-    MISSING_TYPE *inFlightLoads;
+    id $defaultActor;
+    id cache;
+    id inFlightLoads;
 }
 
 @end

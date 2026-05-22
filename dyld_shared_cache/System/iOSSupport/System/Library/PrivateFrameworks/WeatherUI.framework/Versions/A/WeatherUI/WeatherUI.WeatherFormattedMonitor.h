@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.WeatherFormattedMonitor
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *subscriptions;
+    id lock;
+    id subscriptions;
 }
 
 @end

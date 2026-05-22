@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.ActivityItemsConfigurationFactory
 {
-    MISSING_TYPE *shareLinkProvider;
-    MISSING_TYPE *mailShareLinkTextProvider;
-    MISSING_TYPE *recipeImageShareAttributeProvider;
-    MISSING_TYPE *puzzleImageShareAttributeProvider;
-    MISSING_TYPE *puzzleRankProvider;
-    MISSING_TYPE *puzzleDifficultyDescriptionProvider;
-    MISSING_TYPE *recipeFactory;
-    MISSING_TYPE *featureAvailability;
+    id shareLinkProvider;
+    id mailShareLinkTextProvider;
+    id recipeImageShareAttributeProvider;
+    id puzzleImageShareAttributeProvider;
+    id puzzleRankProvider;
+    id puzzleDifficultyDescriptionProvider;
+    id recipeFactory;
+    id featureAvailability;
 }
 
 @end

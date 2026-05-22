@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioCPListSectionProvider
 {
-    MISSING_TYPE *sections;
-    MISSING_TYPE *playbackState;
+    id sections;
+    id playbackState;
 }
 
 @end

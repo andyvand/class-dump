@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.WindowVisibilityMonitor
 {
-    MISSING_TYPE *monitor;
-    MISSING_TYPE *isWindowVisible;
+    id monitor;
+    id isWindowVisible;
 }
 
 @end

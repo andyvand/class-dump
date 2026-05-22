@@ -6,11 +6,11 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface _UINavigationBarPlatterAnimationView : _UITouchPassthroughView
 {
-    MISSING_TYPE *name;
+    id name;
 }
 
 - (id);

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadDiffView
 {
-    MISSING_TYPE *isLoading;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *activityIndicatorView;
-    MISSING_TYPE *source;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *changeSet;
+    id isLoading;
+    id delegate;
+    id activityIndicatorView;
+    id source;
+    id titleLabel;
+    id tableView;
+    id changeSet;
 }
 
 - (id);

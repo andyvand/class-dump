@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.UserSessionConfiguration
 {
-    MISSING_TYPE *safetyMonitorManager;
-    MISSING_TYPE *sessionID;
-    MISSING_TYPE *_sessionType;
-    MISSING_TYPE *_didDestinationChange;
-    MISSING_TYPE *_endLocation;
-    MISSING_TYPE *_workoutSessionID;
-    MISSING_TYPE *_workoutActivityType;
-    MISSING_TYPE *_workoutSessionType;
-    MISSING_TYPE *_geofenceSize;
-    MISSING_TYPE *_destinationType;
-    MISSING_TYPE *_etaType;
-    MISSING_TYPE *_customETA;
-    MISSING_TYPE *_automobileETA;
-    MISSING_TYPE *_transitETA;
-    MISSING_TYPE *_walkingETA;
-    MISSING_TYPE *_customETAError;
-    MISSING_TYPE *_automobileETAError;
-    MISSING_TYPE *_transitETAError;
-    MISSING_TYPE *_walkingETAError;
-    MISSING_TYPE *_coarseAutomobileETA;
-    MISSING_TYPE *_coarseTransitETA;
-    MISSING_TYPE *_coarseWalkingETA;
-    MISSING_TYPE *_additionalTime;
-    MISSING_TYPE *_duration;
+    id safetyMonitorManager;
+    id sessionID;
+    id _sessionType;
+    id _didDestinationChange;
+    id _endLocation;
+    id _workoutSessionID;
+    id _workoutActivityType;
+    id _workoutSessionType;
+    id _geofenceSize;
+    id _destinationType;
+    id _etaType;
+    id _customETA;
+    id _automobileETA;
+    id _transitETA;
+    id _walkingETA;
+    id _customETAError;
+    id _automobileETAError;
+    id _transitETAError;
+    id _walkingETAError;
+    id _coarseAutomobileETA;
+    id _coarseTransitETA;
+    id _coarseWalkingETA;
+    id _additionalTime;
+    id _duration;
 }
 
 - (id);

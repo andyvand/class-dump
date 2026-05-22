@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary;
+@class NSDictionary;
 
 @interface NewsArticles.DarkModeConfiguration
 {
-    MISSING_TYPE *headline;
+    id headline;
 }
 
 - (double);

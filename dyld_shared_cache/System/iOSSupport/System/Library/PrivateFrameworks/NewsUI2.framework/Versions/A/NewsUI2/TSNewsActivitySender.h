@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TSNewsActivitySender
 {
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *presentationTransitionFactory;
-    MISSING_TYPE *dismissalTransitionFactory;
+    id viewController;
+    id presentationTransitionFactory;
+    id dismissalTransitionFactory;
 }
 
 - (id);

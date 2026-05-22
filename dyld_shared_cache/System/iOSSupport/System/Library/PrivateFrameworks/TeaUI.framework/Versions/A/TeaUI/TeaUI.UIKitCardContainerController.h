@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.UIKitCardContainerController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *transitionManager;
-    MISSING_TYPE *cardViewLayoutOptions;
-    MISSING_TYPE *rootViewController;
-    MISSING_TYPE *snaps;
-    MISSING_TYPE *detents;
-    MISSING_TYPE *cardItemStack;
-    MISSING_TYPE *eventManager;
+    id delegate;
+    id transitionManager;
+    id cardViewLayoutOptions;
+    id rootViewController;
+    id snaps;
+    id detents;
+    id cardItemStack;
+    id eventManager;
 }
 
 - (void);

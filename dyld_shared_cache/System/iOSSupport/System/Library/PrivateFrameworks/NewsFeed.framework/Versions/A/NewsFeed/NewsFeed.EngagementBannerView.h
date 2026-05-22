@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.EngagementBannerView
 {
-    MISSING_TYPE *borderColor;
-    MISSING_TYPE *traitChangeRegistration;
-    MISSING_TYPE *engagementView;
+    id borderColor;
+    id traitChangeRegistration;
+    id engagementView;
 }
 
 - (id);

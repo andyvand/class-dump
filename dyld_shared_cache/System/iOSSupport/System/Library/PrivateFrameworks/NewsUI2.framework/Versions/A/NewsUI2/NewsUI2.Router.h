@@ -4,36 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.Router
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *routerController;
-    MISSING_TYPE *issueOfflineManager;
-    MISSING_TYPE *articleOfflineManager;
-    MISSING_TYPE *offlineIssueManager;
-    MISSING_TYPE *contentUnavailableOfflineManager;
-    MISSING_TYPE *puzzleOfflineManager;
-    MISSING_TYPE *feedOfflineManager;
-    MISSING_TYPE *recipeOfflineManager;
-    MISSING_TYPE *offlineAlertControllerFactory;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *metricsBuilder;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *dynamicViewControllerFactory;
-    MISSING_TYPE *amsUIWebViewControllerFactory;
-    MISSING_TYPE *purchasePresenter;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *sportsOnboardingFlowManager;
-    MISSING_TYPE *landingPageDecider;
-    MISSING_TYPE *feedAvailabilityService;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *appURLHandler;
+    id resolver;
+    id routerController;
+    id issueOfflineManager;
+    id articleOfflineManager;
+    id offlineIssueManager;
+    id contentUnavailableOfflineManager;
+    id puzzleOfflineManager;
+    id feedOfflineManager;
+    id recipeOfflineManager;
+    id offlineAlertControllerFactory;
+    id featureAvailability;
+    id readingList;
+    id metricsBuilder;
+    id offerManager;
+    id dynamicViewControllerFactory;
+    id amsUIWebViewControllerFactory;
+    id purchasePresenter;
+    id appConfigurationManager;
+    id sportsOnboardingFlowManager;
+    id landingPageDecider;
+    id feedAvailabilityService;
+    id contentAvailabilityValidator;
+    id offlineProvider;
+    id commandCenter;
+    id tipManager;
+    id appURLHandler;
 }
 
 @end

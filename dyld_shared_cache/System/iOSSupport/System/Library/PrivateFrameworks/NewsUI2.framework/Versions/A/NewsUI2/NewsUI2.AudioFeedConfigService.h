@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedConfigService
 {
-    MISSING_TYPE *decoder;
-    MISSING_TYPE *contentContext;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *audioFeedConfigManager;
+    id decoder;
+    id contentContext;
+    id appConfigManager;
+    id audioFeedConfigManager;
 }
 
 @end

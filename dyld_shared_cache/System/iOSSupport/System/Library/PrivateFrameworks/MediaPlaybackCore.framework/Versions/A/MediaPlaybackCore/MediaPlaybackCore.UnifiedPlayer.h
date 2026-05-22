@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVQueuePlayer, MISSING_TYPE, NSDictionary;
+@class AVQueuePlayer, NSDictionary;
 
 @interface MediaPlaybackCore.UnifiedPlayer
 {
-    MISSING_TYPE *main;
+    id main;
     AVQueuePlayer *current;
-    MISSING_TYPE *interstitialObserver;
-    MISSING_TYPE *interstitialObserverToken;
-    MISSING_TYPE *reporter;
+    id interstitialObserver;
+    id interstitialObserverToken;
+    id reporter;
 }
 
 - (_Bool);

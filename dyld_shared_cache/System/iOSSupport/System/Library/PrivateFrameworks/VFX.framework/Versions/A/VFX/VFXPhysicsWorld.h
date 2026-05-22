@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSMutableArray, NSMutableSet, NSString, VFXPhysicsContact, VFXWorld;
+@class NSArray, NSMutableArray, NSMutableSet, NSString, VFXPhysicsContact, VFXWorld;
 @protocol VFXPhysicsContactDelegate;
 
 @interface VFXPhysicsWorld
@@ -18,7 +18,7 @@
     id <VFXPhysicsContactDelegate> _contactDelegate;
     VFXPhysicsContact *_contact;
     VFXWorld *_vfxWorld;
-    MISSING_TYPE *_gravity;
+    id _gravity;
     float _speed;
     float _scale;
     double _timeStep;
@@ -81,7 +81,7 @@
 - (float);
 - (float);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void *);
 - (void)ÁQ°!èFùð1â
@@ -349,7 +349,7 @@ kernel void osd_rt_eval_extra_point_fvar(uint                         index     
 // Original attribute string: T@"NSString",?,R,C
 
 @property(readonly, copy) NSString *description;
-@property(nonatomic) MISSING_TYPE *gravity;
+@property(nonatomic) id gravity;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *physicsJoints;
 @property(nonatomic) float speed;

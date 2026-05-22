@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedGroupMoreActionsButtonRenderer
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
+    id commandCenter;
+    id tracker;
 }
 
 @end

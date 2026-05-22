@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.InterstitialAdManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *requestStore;
-    MISSING_TYPE *requestManager;
-    MISSING_TYPE *adModelFactory;
-    MISSING_TYPE *journal;
-    MISSING_TYPE *historyRecorder;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *currentPlacementIdentifier;
-    MISSING_TYPE *pendingLoadToken;
-    MISSING_TYPE *currentPageIdentifier;
+    id delegate;
+    id requestStore;
+    id requestManager;
+    id adModelFactory;
+    id journal;
+    id historyRecorder;
+    id eventManager;
+    id currentPlacementIdentifier;
+    id pendingLoadToken;
+    id currentPageIdentifier;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.InterstitialAdMetricsView
 {
-    MISSING_TYPE *contentIdentifier;
-    MISSING_TYPE *onLongPress;
-    MISSING_TYPE *onCollapse;
-    MISSING_TYPE *metricsView;
+    id contentIdentifier;
+    id onLongPress;
+    id onCollapse;
+    id metricsView;
 }
 
 - (void);

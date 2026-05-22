@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ManageMySportsCommandHandler
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *offlineProvider;
+    id navigator;
+    id tracker;
+    id featureAvailability;
+    id offlineProvider;
 }
 
 @end

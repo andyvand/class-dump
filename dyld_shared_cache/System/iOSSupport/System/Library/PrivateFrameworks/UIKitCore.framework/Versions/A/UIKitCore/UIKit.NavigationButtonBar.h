@@ -4,43 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIColor, _UIBarButtonItemAppearanceStorage;
+@class UIColor, _UIBarButtonItemAppearanceStorage;
 
 @interface UIKit.NavigationButtonBar
 {
-    MISSING_TYPE *buttonVisualProviderClass;
-    MISSING_TYPE *position;
-    MISSING_TYPE *transitionGroupIdentifier;
-    MISSING_TYPE *sectionLayouts;
-    MISSING_TYPE *effectiveLayout;
-    MISSING_TYPE *groupLayoutMap;
+    id buttonVisualProviderClass;
+    id position;
+    id transitionGroupIdentifier;
+    id sectionLayouts;
+    id effectiveLayout;
+    id groupLayoutMap;
     _UIBarButtonItemAppearanceStorage *appearanceStorage;
-    MISSING_TYPE *isCompact;
-    MISSING_TYPE *assistant;
-    MISSING_TYPE *supportsAlwaysOverflowGroups;
-    MISSING_TYPE *isInLayoutReentrancyGuard;
-    MISSING_TYPE *effectiveLayoutHasCriticalGroup;
-    MISSING_TYPE *needsAppearanceUpdate;
-    MISSING_TYPE *plainAppearanceChanged;
-    MISSING_TYPE *doneAppearanceChanged;
-    MISSING_TYPE *denyPointerInteractions;
-    MISSING_TYPE *popOverPresentingSourceItem;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *plainItemAppearanceNeedsUpdate;
-    MISSING_TYPE *plainItemAppearance;
-    MISSING_TYPE *prominentItemAppearanceNeedsUpdate;
-    MISSING_TYPE *prominentItemAppearance;
-    MISSING_TYPE *layoutMetrics;
-    MISSING_TYPE *groupOrderer;
-    MISSING_TYPE *fixedLeadingGroups;
-    MISSING_TYPE *fixedTrailingGroups;
-    MISSING_TYPE *forceFixedSpacing;
-    MISSING_TYPE *supportsOverflow;
-    MISSING_TYPE *resolvedSections;
-    MISSING_TYPE *sectionedBarButtonGroups;
-    MISSING_TYPE *implicitGroups;
-    MISSING_TYPE *isGeneratingItemGroups;
-    MISSING_TYPE *barSections;
+    id isCompact;
+    id assistant;
+    id supportsAlwaysOverflowGroups;
+    id isInLayoutReentrancyGuard;
+    id effectiveLayoutHasCriticalGroup;
+    id needsAppearanceUpdate;
+    id plainAppearanceChanged;
+    id doneAppearanceChanged;
+    id denyPointerInteractions;
+    id popOverPresentingSourceItem;
+    id delegate;
+    id plainItemAppearanceNeedsUpdate;
+    id plainItemAppearance;
+    id prominentItemAppearanceNeedsUpdate;
+    id prominentItemAppearance;
+    id layoutMetrics;
+    id groupOrderer;
+    id fixedLeadingGroups;
+    id fixedTrailingGroups;
+    id forceFixedSpacing;
+    id supportsOverflow;
+    id resolvedSections;
+    id sectionedBarButtonGroups;
+    id implicitGroups;
+    id isGeneratingItemGroups;
+    id barSections;
 }
 
 - (id);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleFluidSolver2DSolverSystem
 {
-    MISSING_TYPE *emittersQuery;
-    MISSING_TYPE *globalFluidSolver2DSolversQuery;
-    MISSING_TYPE *velocityAffectedQuery;
+    id emittersQuery;
+    id globalFluidSolver2DSolversQuery;
+    id velocityAffectedQuery;
 }
 
 @end

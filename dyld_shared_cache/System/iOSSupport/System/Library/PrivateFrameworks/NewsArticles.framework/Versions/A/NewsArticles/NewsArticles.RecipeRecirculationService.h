@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeRecirculationService
 {
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *recipeAccessProvider;
-    MISSING_TYPE *recipeRecirculationConfigService;
-    MISSING_TYPE *recipeHistory;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *subscriptionController;
+    id recipeService;
+    id recipeAccessProvider;
+    id recipeRecirculationConfigService;
+    id recipeHistory;
+    id personalizationService;
+    id tagService;
+    id appConfigManager;
+    id subscriptionController;
 }
 
 @end

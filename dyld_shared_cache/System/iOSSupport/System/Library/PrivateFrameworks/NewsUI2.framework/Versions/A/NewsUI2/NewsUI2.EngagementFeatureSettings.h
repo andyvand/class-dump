@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EngagementFeatureSettings
 {
-    MISSING_TYPE *$__lazy_storage_$_isSmarterMessagingEnabled;
-    MISSING_TYPE *$__lazy_storage_$_disableOverlayPlacements;
-    MISSING_TYPE *$__lazy_storage_$_blockedPlacements;
-    MISSING_TYPE *$__lazy_storage_$_engagementUpsellConfig;
-    MISSING_TYPE *appConfiguration;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *store;
+    id $__lazy_storage_$_isSmarterMessagingEnabled;
+    id $__lazy_storage_$_disableOverlayPlacements;
+    id $__lazy_storage_$_blockedPlacements;
+    id $__lazy_storage_$_engagementUpsellConfig;
+    id appConfiguration;
+    id observers;
+    id lock;
+    id store;
 }
 
 @end

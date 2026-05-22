@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.MessageAttachmentDownloadProgress
 {
-    MISSING_TYPE *totalMessageCount;
-    MISSING_TYPE *totalAttachmentCount;
-    MISSING_TYPE *totalAttachmentSizeOnDisk;
-    MISSING_TYPE *messageCount;
-    MISSING_TYPE *attachmentCount;
-    MISSING_TYPE *attachmentSizeOnDisk;
-    MISSING_TYPE *timer;
-    MISSING_TYPE *conversationCount;
-    MISSING_TYPE *participantCount;
-    MISSING_TYPE *totalConversationCount;
-    MISSING_TYPE *totalParticipantCount;
-    MISSING_TYPE *moreProgressValues;
+    id totalMessageCount;
+    id totalAttachmentCount;
+    id totalAttachmentSizeOnDisk;
+    id messageCount;
+    id attachmentCount;
+    id attachmentSizeOnDisk;
+    id timer;
+    id conversationCount;
+    id participantCount;
+    id totalConversationCount;
+    id totalParticipantCount;
+    id moreProgressValues;
 }
 
 @end

@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIColor;
+@class UIColor;
 
 @interface TeaUI.ImageView
 {
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *_loadingIdentifier;
-    MISSING_TYPE *_backgroundColor;
-    MISSING_TYPE *symbolConfiguration;
+    id imageView;
+    id _loadingIdentifier;
+    id _backgroundColor;
+    id symbolConfiguration;
 }
 
 + (Class);

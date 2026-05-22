@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaState.GraphDump
 {
-    MISSING_TYPE *scopes;
-    MISSING_TYPE *vertices;
-    MISSING_TYPE *edges;
-    MISSING_TYPE *commandHandlers;
-    MISSING_TYPE *eventHandlers;
+    id scopes;
+    id vertices;
+    id edges;
+    id commandHandlers;
+    id eventHandlers;
 }
 
 @end

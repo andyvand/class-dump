@@ -6,16 +6,16 @@
 
 #import <HomeUI/HUEditableTextCollectionListCell.h>
 
-@class HFItem, MISSING_TYPE;
+@class HFItem;
 
 @interface HUEditableTextIconCell : HUEditableTextCollectionListCell
 {
     HFItem *item;
-    MISSING_TYPE *displayStyle;
-    MISSING_TYPE *iconConstraints;
-    MISSING_TYPE *$__lazy_storage_$_iconView;
-    MISSING_TYPE *$__lazy_storage_$_iconContainerView;
-    MISSING_TYPE *$__lazy_storage_$_iconAccessory;
+    id displayStyle;
+    id iconConstraints;
+    id $__lazy_storage_$_iconView;
+    id $__lazy_storage_$_iconContainerView;
+    id $__lazy_storage_$_iconAccessory;
 }
 
 - (void);

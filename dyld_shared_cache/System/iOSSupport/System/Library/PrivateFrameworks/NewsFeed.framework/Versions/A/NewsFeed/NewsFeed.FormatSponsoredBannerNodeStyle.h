@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSponsoredBannerNodeStyle
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *class;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *filledColor;
-    MISSING_TYPE *unfilledColor;
-    MISSING_TYPE *ignoresSmartInvertColors;
-    MISSING_TYPE *userInterfaceStyle;
+    id _identifier;
+    id class;
+    id _selectors;
+    id filledColor;
+    id unfilledColor;
+    id ignoresSmartInvertColors;
+    id userInterfaceStyle;
 }
 
 @end

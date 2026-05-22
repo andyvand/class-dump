@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.ToolbarModel
 {
-    MISSING_TYPE *_barButtonItems;
-    MISSING_TYPE *style;
-    MISSING_TYPE *_metrics;
-    MISSING_TYPE *_plattersHidden;
-    MISSING_TYPE *_bottomBackgroundExtension;
-    MISSING_TYPE *_topPadding;
-    MISSING_TYPE *_containsFirstResponder;
-    MISSING_TYPE *_isActivelyAvoidingKeyboard;
-    MISSING_TYPE *_backgroundScrollTransitionProgress;
-    MISSING_TYPE *_previousBackgroundScrollTransitionProgress;
-    MISSING_TYPE *_transitionProgress;
-    MISSING_TYPE *_keyboardCrossFadeOpacity;
-    MISSING_TYPE *_buttonAppearance;
-    MISSING_TYPE *_standardBackgroundAppearance;
-    MISSING_TYPE *_scrollEdgeBackgroundAppearance;
-    MISSING_TYPE *ignoresAnimationForNextUpdate;
-    MISSING_TYPE *_isSearchCollapsed;
-    MISSING_TYPE *_attachedMargin;
-    MISSING_TYPE *_items;
-    MISSING_TYPE *_placedItems;
-    MISSING_TYPE *_placedSearchItems;
-    MISSING_TYPE *_searchItem;
-    MISSING_TYPE *searchButtonItem;
-    MISSING_TYPE *searchCancelItems;
-    MISSING_TYPE *_$observationRegistrar;
+    id _barButtonItems;
+    id style;
+    id _metrics;
+    id _plattersHidden;
+    id _bottomBackgroundExtension;
+    id _topPadding;
+    id _containsFirstResponder;
+    id _isActivelyAvoidingKeyboard;
+    id _backgroundScrollTransitionProgress;
+    id _previousBackgroundScrollTransitionProgress;
+    id _transitionProgress;
+    id _keyboardCrossFadeOpacity;
+    id _buttonAppearance;
+    id _standardBackgroundAppearance;
+    id _scrollEdgeBackgroundAppearance;
+    id ignoresAnimationForNextUpdate;
+    id _isSearchCollapsed;
+    id _attachedMargin;
+    id _items;
+    id _placedItems;
+    id _placedSearchItems;
+    id _searchItem;
+    id searchButtonItem;
+    id searchCancelItems;
+    id _$observationRegistrar;
 }
 
 @end

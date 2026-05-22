@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.AssetProducer
 {
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *batchNumber;
-    MISSING_TYPE *tasks;
+    id dataSource;
+    id reporter;
+    id batchNumber;
+    id tasks;
 }
 
 @end

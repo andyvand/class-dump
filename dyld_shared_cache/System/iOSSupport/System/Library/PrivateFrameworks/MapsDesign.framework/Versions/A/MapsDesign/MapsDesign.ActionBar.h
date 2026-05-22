@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.ActionBar
 {
-    MISSING_TYPE *lastWidth;
-    MISSING_TYPE *model;
-    MISSING_TYPE *onSelect;
-    MISSING_TYPE *toolBar;
-    MISSING_TYPE *sizingToolBar;
-    MISSING_TYPE *addToPlacesTapped;
-    MISSING_TYPE *addToFavoritesGuideTapped;
-    MISSING_TYPE *showAddedToast;
-    MISSING_TYPE *showFavoritedToast;
+    id lastWidth;
+    id model;
+    id onSelect;
+    id toolBar;
+    id sizingToolBar;
+    id addToPlacesTapped;
+    id addToFavoritesGuideTapped;
+    id showAddedToast;
+    id showFavoritedToast;
 }
 
 - (void);

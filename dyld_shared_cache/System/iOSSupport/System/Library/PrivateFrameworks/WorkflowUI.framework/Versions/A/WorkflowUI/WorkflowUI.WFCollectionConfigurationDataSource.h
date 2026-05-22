@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFCollectionConfigurationDataSource
 {
-    MISSING_TYPE *glyphRegistry;
-    MISSING_TYPE *glyphRegistryCancellable;
-    MISSING_TYPE *gridView;
-    MISSING_TYPE *collection;
-    MISSING_TYPE *renameTextFieldDidAppear;
-    MISSING_TYPE *allSymbolItems;
+    id glyphRegistry;
+    id glyphRegistryCancellable;
+    id gridView;
+    id collection;
+    id renameTextFieldDidAppear;
+    id allSymbolItems;
 }
 
 - (id);

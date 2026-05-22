@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugInspector
 {
-    MISSING_TYPE *$__lazy_storage_$_inspection;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *feedItems;
-    MISSING_TYPE *deduplicateItemIdentifiers;
-    MISSING_TYPE *inspectionGroup;
-    MISSING_TYPE *webEmbedDataSourceService;
-    MISSING_TYPE *history;
+    id $__lazy_storage_$_inspection;
+    id cloudContext;
+    id feedPersonalizer;
+    id tagService;
+    id feedItems;
+    id deduplicateItemIdentifiers;
+    id inspectionGroup;
+    id webEmbedDataSourceService;
+    id history;
 }
 
 @end

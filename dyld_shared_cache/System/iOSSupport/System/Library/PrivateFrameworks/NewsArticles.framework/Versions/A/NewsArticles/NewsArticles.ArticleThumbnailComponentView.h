@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleThumbnailComponentView
 {
-    MISSING_TYPE *linkedContentProvider;
-    MISSING_TYPE *articleThumbnailViewRenderer;
-    MISSING_TYPE *articleThumbnailView;
+    id linkedContentProvider;
+    id articleThumbnailViewRenderer;
+    id articleThumbnailView;
 }
 
 - (void);

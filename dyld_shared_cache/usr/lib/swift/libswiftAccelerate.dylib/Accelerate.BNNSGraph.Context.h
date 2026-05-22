@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface Accelerate.BNNSGraph.Context
 {
-    MISSING_TYPE *graph;
-    MISSING_TYPE *context;
-    MISSING_TYPE *graphContextEnableNanAndInfChecks;
-    MISSING_TYPE *_streamingAdvanceCount;
+    id graph;
+    id context;
+    id graphContextEnableNanAndInfChecks;
+    id _streamingAdvanceCount;
 }
 
 @end

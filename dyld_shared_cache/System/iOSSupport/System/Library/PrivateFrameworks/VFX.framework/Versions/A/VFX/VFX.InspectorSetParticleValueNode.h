@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.SetParticleValueNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.InspectorSetParticleValueNode : VFX.SetParticleValueNode
 {
-    MISSING_TYPE *stage;
+    id stage;
 }
 
 @end

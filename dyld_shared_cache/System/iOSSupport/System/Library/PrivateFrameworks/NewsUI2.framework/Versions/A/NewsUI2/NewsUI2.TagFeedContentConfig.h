@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedContentConfig
 {
-    MISSING_TYPE *feedConfig;
-    MISSING_TYPE *knobsConfig;
+    id feedConfig;
+    id knobsConfig;
 }
 
 @end

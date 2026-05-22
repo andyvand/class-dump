@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayFeedGroupKnobs
 {
-    MISSING_TYPE *newspaperKnobs;
-    MISSING_TYPE *localNewsKnobs;
-    MISSING_TYPE *trendingKnobs;
-    MISSING_TYPE *forYouKnobs;
-    MISSING_TYPE *missedStoriesKnobs;
-    MISSING_TYPE *latestStoriesKnobs;
-    MISSING_TYPE *topicKnobs;
-    MISSING_TYPE *channelKnobs;
-    MISSING_TYPE *magazineKnobs;
-    MISSING_TYPE *newFollowKnobs;
-    MISSING_TYPE *subscriptionKnobs;
-    MISSING_TYPE *suggestionKnobs;
-    MISSING_TYPE *spotlightKnobs;
-    MISSING_TYPE *seenContentMarkKnobs;
-    MISSING_TYPE *curatedKnobs;
-    MISSING_TYPE *sharedWithYouKnobs;
-    MISSING_TYPE *engagementKnobs;
-    MISSING_TYPE *mySportsKnobs;
-    MISSING_TYPE *introToSportsKnobs;
-    MISSING_TYPE *shortcutsKnobs;
-    MISSING_TYPE *savedStoriesKnobs;
-    MISSING_TYPE *channelPickerKnobs;
-    MISSING_TYPE *foodKnobs;
+    id newspaperKnobs;
+    id localNewsKnobs;
+    id trendingKnobs;
+    id forYouKnobs;
+    id missedStoriesKnobs;
+    id latestStoriesKnobs;
+    id topicKnobs;
+    id channelKnobs;
+    id magazineKnobs;
+    id newFollowKnobs;
+    id subscriptionKnobs;
+    id suggestionKnobs;
+    id spotlightKnobs;
+    id seenContentMarkKnobs;
+    id curatedKnobs;
+    id sharedWithYouKnobs;
+    id engagementKnobs;
+    id mySportsKnobs;
+    id introToSportsKnobs;
+    id shortcutsKnobs;
+    id savedStoriesKnobs;
+    id channelPickerKnobs;
+    id foodKnobs;
 }
 
 @end

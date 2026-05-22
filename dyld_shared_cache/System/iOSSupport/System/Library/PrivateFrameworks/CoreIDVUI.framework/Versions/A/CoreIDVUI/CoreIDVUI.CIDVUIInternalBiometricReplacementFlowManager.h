@@ -6,11 +6,9 @@
 
 #import <CoreIDVUI/CoreIDVUI.CIDVUIInternalBiometricFlowManager.h>
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.CIDVUIInternalBiometricReplacementFlowManager : CoreIDVUI.CIDVUIInternalBiometricFlowManager
 {
-    MISSING_TYPE *completion;
+    id completion;
 }
 
 - (void);

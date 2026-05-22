@@ -6,13 +6,13 @@
 
 #import <UIKitCore/_UISliderFluidConfiguration.h>
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface _UISliderFluidTickConfiguration : _UISliderFluidConfiguration
 {
-    MISSING_TYPE *_behavior;
-    MISSING_TYPE *_ticks;
-    MISSING_TYPE *_ticksAreEvenlySpaced;
+    id _behavior;
+    id _ticks;
+    id _ticksAreEvenlySpaced;
     long long tickStyle;
     double neutralPosition;
     float snappingDistance;

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.TagMastheadViewLayoutAttributesFactory
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *baseMastheadHeight;
-    MISSING_TYPE *publisherLogoMaxHeight;
-    MISSING_TYPE *supplementalViewWidth;
-    MISSING_TYPE *featureAvailability;
+    id styler;
+    id baseMastheadHeight;
+    id publisherLogoMaxHeight;
+    id supplementalViewWidth;
+    id featureAvailability;
 }
 
 @end

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.SensitiveContentActionsView.Model
 {
-    MISSING_TYPE *_shouldShowDisclaimer;
-    MISSING_TYPE *_sensitiveContentMenu;
-    MISSING_TYPE *contact;
-    MISSING_TYPE *_actionsProvider;
-    MISSING_TYPE *sensitiveContentAnalysisManager;
-    MISSING_TYPE *popoverSourceView;
-    MISSING_TYPE *_$observationRegistrar;
+    id _shouldShowDisclaimer;
+    id _sensitiveContentMenu;
+    id contact;
+    id _actionsProvider;
+    id sensitiveContentAnalysisManager;
+    id popoverSourceView;
+    id _$observationRegistrar;
 }
 
 - (void);

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol HUConfigurationViewControllerDelegate;
 
 @interface HUUtilityOnboardingEnterOTPViewController
 {
     id <HUConfigurationViewControllerDelegate> delegate;
-    MISSING_TYPE *onboardingContext;
-    MISSING_TYPE *codeTextField;
-    MISSING_TYPE *otpCode;
-    MISSING_TYPE *codeLengthMax;
-    MISSING_TYPE *nextButton;
-    MISSING_TYPE *resendCodeButton;
+    id onboardingContext;
+    id codeTextField;
+    id otpCode;
+    id codeLengthMax;
+    id nextButton;
+    id resendCodeButton;
 }
 
 - (void);

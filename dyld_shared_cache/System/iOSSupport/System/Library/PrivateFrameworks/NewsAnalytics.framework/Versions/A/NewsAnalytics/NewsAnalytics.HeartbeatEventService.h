@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAnalytics.HeartbeatEventService
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *agreedToTermsAndConditionsProvider;
-    MISSING_TYPE *queue;
+    id cloudContext;
+    id agreedToTermsAndConditionsProvider;
+    id queue;
 }
 
 @end

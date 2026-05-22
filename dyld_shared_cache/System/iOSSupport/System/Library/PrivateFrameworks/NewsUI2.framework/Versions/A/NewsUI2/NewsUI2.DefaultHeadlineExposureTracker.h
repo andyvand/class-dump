@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.DefaultHeadlineExposureTracker
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *feedDismissingManager;
+    id tracker;
+    id contentAvailabilityValidator;
+    id feedDismissingManager;
 }
 
 @end

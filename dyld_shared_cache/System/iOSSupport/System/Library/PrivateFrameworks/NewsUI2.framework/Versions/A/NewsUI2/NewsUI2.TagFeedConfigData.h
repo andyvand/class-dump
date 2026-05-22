@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedConfigData
 {
-    MISSING_TYPE *recordID;
-    MISSING_TYPE *source;
-    MISSING_TYPE *fetchInterval;
+    id recordID;
+    id source;
+    id fetchInterval;
 }
 
 @end

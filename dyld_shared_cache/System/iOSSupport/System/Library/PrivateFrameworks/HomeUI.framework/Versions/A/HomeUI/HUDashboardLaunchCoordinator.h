@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HUDashboardLaunchCoordinator
 {
-    MISSING_TYPE *homeDashboardViewController;
-    MISSING_TYPE *prefetchTask;
+    id homeDashboardViewController;
+    id prefetchTask;
 }
 
 + (id)escriptionText:) is not available /* Error: Ran out of types for this method. */;

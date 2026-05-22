@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.RecipeFactory
 {
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *recipeFeaturesConfigurationFactory;
-    MISSING_TYPE *externalRecipeConverter;
+    id appConfigManager;
+    id tagService;
+    id recipeFeaturesConfigurationFactory;
+    id externalRecipeConverter;
 }
 
 @end

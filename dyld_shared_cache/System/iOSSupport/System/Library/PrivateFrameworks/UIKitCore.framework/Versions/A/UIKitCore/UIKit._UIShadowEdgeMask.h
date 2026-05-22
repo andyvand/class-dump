@@ -6,12 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIShadowEdgeMask : UIView
 {
-    MISSING_TYPE *radius;
-    MISSING_TYPE *region;
+    id radius;
+    id region;
 }
 
 - (id);

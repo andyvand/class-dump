@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UISceneHostGeometryHostComponent
 {
-    MISSING_TYPE *currentHandle;
-    MISSING_TYPE *geometryDriver;
+    id currentHandle;
+    id geometryDriver;
 }
 
 - (id);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.CIDVUIInternalBiometricFlowManager
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *bioBindingController;
+    id context;
+    id viewController;
+    id bioBindingController;
 }
 
 - (void);

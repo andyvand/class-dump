@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.WeatherConditionBackgroundManager
 {
-    MISSING_TYPE *lastConfigurations;
-    MISSING_TYPE *cache;
-    MISSING_TYPE *overrideCache;
-    MISSING_TYPE *playbackCoordinator;
-    MISSING_TYPE *lazyVFXScene;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *templateManager;
-    MISSING_TYPE *pendingRequests;
-    MISSING_TYPE *activeRequests;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *prepareLock;
-    MISSING_TYPE *_sceneInForeground;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *$__lazy_storage_$_vfxCollisionEnabled;
+    id lastConfigurations;
+    id cache;
+    id overrideCache;
+    id playbackCoordinator;
+    id lazyVFXScene;
+    id configurationManager;
+    id templateManager;
+    id pendingRequests;
+    id activeRequests;
+    id lock;
+    id prepareLock;
+    id _sceneInForeground;
+    id logger;
+    id $__lazy_storage_$_vfxCollisionEnabled;
 }
 
 @end

@@ -6,13 +6,12 @@
 
 #import <HomeUI/HUControllableItemCollectionViewController.h>
 
-@class MISSING_TYPE;
 @protocol HUStatusDetailsViewControllerDelegate;
 
 @interface HUStatusDetailsViewController : HUControllableItemCollectionViewController
 {
     void statusDetailsDelegate;
-    MISSING_TYPE *$__lazy_storage_$_collectionLayoutManager;
+    id $__lazy_storage_$_collectionLayoutManager;
 }
 
 - (id);

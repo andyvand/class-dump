@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatConsolePaneDisplayController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *$__lazy_storage_$_consolePaneDebuggerButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_consolePaneLoggerButtonItem;
-    MISSING_TYPE *flexibleBarButtonItem;
+    id editor;
+    id $__lazy_storage_$_consolePaneDebuggerButtonItem;
+    id $__lazy_storage_$_consolePaneLoggerButtonItem;
+    id flexibleBarButtonItem;
 }
 
 - (void);

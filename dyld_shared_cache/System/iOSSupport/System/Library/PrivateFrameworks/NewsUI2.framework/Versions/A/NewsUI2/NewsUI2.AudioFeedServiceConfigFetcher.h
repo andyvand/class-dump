@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedServiceConfigFetcher
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *feedConfigManager;
-    MISSING_TYPE *configTransformer;
-    MISSING_TYPE *paidBundleConfigManager;
-    MISSING_TYPE *subscriptionController;
+    id name;
+    id appConfigManager;
+    id feedConfigManager;
+    id configTransformer;
+    id paidBundleConfigManager;
+    id subscriptionController;
 }
 
 @end

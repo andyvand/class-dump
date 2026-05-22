@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingWaitingForWifiViewModel
 {
-    MISSING_TYPE *networkConnectivityDidChange;
-    MISSING_TYPE *proofingFlowManager;
+    id networkConnectivityDidChange;
+    id proofingFlowManager;
 }
 
 @end

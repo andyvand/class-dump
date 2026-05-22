@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUtilityServices.HpkeMode
 {
-    MISSING_TYPE *kem;
-    MISSING_TYPE *kdf;
-    MISSING_TYPE *aead;
+    id kem;
+    id kdf;
+    id aead;
 }
 
 - (id);

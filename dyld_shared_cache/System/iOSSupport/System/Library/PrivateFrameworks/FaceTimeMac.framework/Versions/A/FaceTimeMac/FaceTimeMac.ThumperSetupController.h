@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.ThumperSetupController
 {
-    MISSING_TYPE *rootPresenter;
-    MISSING_TYPE *openSettings;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *pinWindowController;
-    MISSING_TYPE *doesSupportWLAN;
+    id rootPresenter;
+    id openSettings;
+    id logger;
+    id pinWindowController;
+    id doesSupportWLAN;
 }
 
 @end

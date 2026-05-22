@@ -6,31 +6,29 @@
 
 #import <CoreIDVUI/CoreIDVUI.IdentityProofingViewController.h>
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IDScanViewController : CoreIDVUI.IdentityProofingViewController
 {
-    MISSING_TYPE *autoCapturePath;
-    MISSING_TYPE *interactor;
-    MISSING_TYPE *docInfo;
-    MISSING_TYPE *scanSide;
-    MISSING_TYPE *cameraReader;
-    MISSING_TYPE *docScanConfig;
-    MISSING_TYPE *lastSpokenAlertMessage;
-    MISSING_TYPE *idScanResult;
-    MISSING_TYPE *eligibilityHelper;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *analyticsReporter;
-    MISSING_TYPE *lastResult;
-    MISSING_TYPE *resultCount;
-    MISSING_TYPE *repeatCount;
-    MISSING_TYPE *frameCount;
-    MISSING_TYPE *frameRate;
-    MISSING_TYPE *timeoutTask;
-    MISSING_TYPE *shouldPersistIMQError;
-    MISSING_TYPE *$__lazy_storage_$_guidanceContainer;
-    MISSING_TYPE *$__lazy_storage_$_guidancePrompt;
-    MISSING_TYPE *$__lazy_storage_$_guidancePromptFont;
+    id autoCapturePath;
+    id interactor;
+    id docInfo;
+    id scanSide;
+    id cameraReader;
+    id docScanConfig;
+    id lastSpokenAlertMessage;
+    id idScanResult;
+    id eligibilityHelper;
+    id proofingFlowManager;
+    id analyticsReporter;
+    id lastResult;
+    id resultCount;
+    id repeatCount;
+    id frameCount;
+    id frameRate;
+    id timeoutTask;
+    id shouldPersistIMQError;
+    id $__lazy_storage_$_guidanceContainer;
+    id $__lazy_storage_$_guidancePrompt;
+    id $__lazy_storage_$_guidancePromptFont;
 }
 
 - (void);

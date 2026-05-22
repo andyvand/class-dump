@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.RemoteControlHandler
 {
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *observation;
-    MISSING_TYPE *currentlyPresentingAlert;
+    id callCenter;
+    id observation;
+    id currentlyPresentingAlert;
 }
 
 - (id);

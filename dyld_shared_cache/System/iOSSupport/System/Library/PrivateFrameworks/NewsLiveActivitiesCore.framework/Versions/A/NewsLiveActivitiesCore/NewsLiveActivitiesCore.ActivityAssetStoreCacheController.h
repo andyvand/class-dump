@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsLiveActivitiesCore.ActivityAssetStoreCacheController
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *liveActivityManager;
-    MISSING_TYPE *assetStore;
-    MISSING_TYPE *activityDownloader;
-    MISSING_TYPE *liveActivityController;
-    MISSING_TYPE *missingAssetDetector;
+    id $defaultActor;
+    id liveActivityManager;
+    id assetStore;
+    id activityDownloader;
+    id liveActivityController;
+    id missingAssetDetector;
 }
 
 @end

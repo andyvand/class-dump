@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.ErasedEvent
 {
-    MISSING_TYPE *input;
-    MISSING_TYPE *next;
+    id input;
+    id next;
 }
 
 @end

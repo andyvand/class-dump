@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.ImportedRecipe
 {
-    MISSING_TYPE *recipeID;
-    MISSING_TYPE *_recipeToken;
-    MISSING_TYPE *rawRecipe;
-    MISSING_TYPE *dataSource;
+    id recipeID;
+    id _recipeToken;
+    id rawRecipe;
+    id dataSource;
 }
 
 @end

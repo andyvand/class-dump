@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PersonalizationScriptTestCase.DataStore
 {
-    MISSING_TYPE *aggregateStore;
-    MISSING_TYPE *start;
-    MISSING_TYPE *capturedData;
-    MISSING_TYPE *end;
+    id aggregateStore;
+    id start;
+    id capturedData;
+    id end;
 }
 
 @end

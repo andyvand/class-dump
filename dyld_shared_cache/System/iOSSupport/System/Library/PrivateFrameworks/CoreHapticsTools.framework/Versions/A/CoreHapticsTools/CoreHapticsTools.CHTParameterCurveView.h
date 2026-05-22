@@ -6,11 +6,9 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTBaseView.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTParameterCurveView : CoreHapticsTools.CHTBaseView
 {
-    MISSING_TYPE *paramType;
+    id paramType;
 }
 
 - (id);

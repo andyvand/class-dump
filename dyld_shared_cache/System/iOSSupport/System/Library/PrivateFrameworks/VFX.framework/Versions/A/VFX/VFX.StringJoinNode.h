@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.StringJoinNode : VFX.Node
 {
-    MISSING_TYPE *count;
+    id count;
 }
 
 @end

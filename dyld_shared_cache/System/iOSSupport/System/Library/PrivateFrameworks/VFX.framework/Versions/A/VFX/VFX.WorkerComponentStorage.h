@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.WorkerComponentStorage
 {
-    MISSING_TYPE *layout;
-    MISSING_TYPE *maxOffset;
-    MISSING_TYPE *data;
-    MISSING_TYPE *perWorkerStorage;
+    id layout;
+    id maxOffset;
+    id data;
+    id perWorkerStorage;
 }
 
 @end

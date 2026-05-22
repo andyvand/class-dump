@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTBaseView
 {
-    MISSING_TYPE *selectedObjectsDelegate;
-    MISSING_TYPE *windowDuration;
-    MISSING_TYPE *theme;
-    MISSING_TYPE *document;
-    MISSING_TYPE *shouldZoomOnlyHorizontally;
-    MISSING_TYPE *prevBounds;
-    MISSING_TYPE *contentLayer;
+    id selectedObjectsDelegate;
+    id windowDuration;
+    id theme;
+    id document;
+    id shouldZoomOnlyHorizontally;
+    id prevBounds;
+    id contentLayer;
 }
 
 - (id);

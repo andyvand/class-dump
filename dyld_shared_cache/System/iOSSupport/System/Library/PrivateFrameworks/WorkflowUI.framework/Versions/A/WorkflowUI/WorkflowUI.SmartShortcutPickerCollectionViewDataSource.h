@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SmartShortcutPickerCollectionViewDataSource
 {
-    MISSING_TYPE *sections;
-    MISSING_TYPE *collectionView;
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *style;
-    MISSING_TYPE *headerSelectionHandler;
-    MISSING_TYPE *collectionViewLayout;
-    MISSING_TYPE *cancellables;
-    MISSING_TYPE *$__lazy_storage_$_collectionViewDataSource;
-    MISSING_TYPE *$__lazy_storage_$_gridCellRegistration;
-    MISSING_TYPE *$__lazy_storage_$_underglowRegistration;
-    MISSING_TYPE *$__lazy_storage_$_listCellRegistration;
-    MISSING_TYPE *$__lazy_storage_$_headerViewRegistration;
+    id sections;
+    id collectionView;
+    id dataSource;
+    id style;
+    id headerSelectionHandler;
+    id collectionViewLayout;
+    id cancellables;
+    id $__lazy_storage_$_collectionViewDataSource;
+    id $__lazy_storage_$_gridCellRegistration;
+    id $__lazy_storage_$_underglowRegistration;
+    id $__lazy_storage_$_listCellRegistration;
+    id $__lazy_storage_$_headerViewRegistration;
 }
 
 @end

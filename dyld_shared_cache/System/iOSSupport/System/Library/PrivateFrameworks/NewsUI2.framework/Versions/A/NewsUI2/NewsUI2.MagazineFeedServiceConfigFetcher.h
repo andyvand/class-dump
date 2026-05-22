@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedServiceConfigFetcher
 {
-    MISSING_TYPE *logName;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *magazineConfigurationService;
-    MISSING_TYPE *bundlePurchasePrewarmer;
-    MISSING_TYPE *subscriptionController;
+    id logName;
+    id appConfigManager;
+    id magazineConfigurationService;
+    id bundlePurchasePrewarmer;
+    id subscriptionController;
 }
 
 @end

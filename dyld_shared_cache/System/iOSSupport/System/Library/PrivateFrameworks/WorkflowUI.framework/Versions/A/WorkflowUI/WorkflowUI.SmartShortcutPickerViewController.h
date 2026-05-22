@@ -6,12 +6,10 @@
 
 #import <WorkflowUI/WorkflowUI.SmartShortcutPickerBaseViewController.h>
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SmartShortcutPickerViewController : WorkflowUI.SmartShortcutPickerBaseViewController
 {
-    MISSING_TYPE *progressiveView;
-    MISSING_TYPE *searchBar;
+    id progressiveView;
+    id searchBar;
 }
 
 - (void);

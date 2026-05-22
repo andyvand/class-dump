@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.AudioPlayer
 {
-    MISSING_TYPE *url;
-    MISSING_TYPE *engine;
-    MISSING_TYPE *mixer;
-    MISSING_TYPE *player;
-    MISSING_TYPE *loops;
-    MISSING_TYPE *isValid;
-    MISSING_TYPE *samplesRaw;
-    MISSING_TYPE *samplesRawCount;
-    MISSING_TYPE *samplesRawTime;
-    MISSING_TYPE *samplesRawSampleRate;
-    MISSING_TYPE *_lock;
+    id url;
+    id engine;
+    id mixer;
+    id player;
+    id loops;
+    id isValid;
+    id samplesRaw;
+    id samplesRawCount;
+    id samplesRawTime;
+    id samplesRawSampleRate;
+    id _lock;
 }
 
 - (void);

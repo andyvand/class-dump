@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView, WFPreviewNavigationController;
+@class UIView, WFPreviewNavigationController;
 
 __attribute__((visibility("hidden")))
 @interface WFIconPickerViewController
@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
     UIView *iconPreview;
     double previewPadding;
     double previewDimension;
-    MISSING_TYPE *gridView;
-    MISSING_TYPE *$__lazy_storage_$_dataSource;
-    MISSING_TYPE *workflow;
+    id gridView;
+    id $__lazy_storage_$_dataSource;
+    id workflow;
 }
 
 - (double);

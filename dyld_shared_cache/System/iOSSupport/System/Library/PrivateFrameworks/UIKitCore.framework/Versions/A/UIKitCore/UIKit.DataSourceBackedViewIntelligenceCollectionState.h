@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.DataSourceBackedViewIntelligenceCollectionState
 {
-    MISSING_TYPE *presentation;
-    MISSING_TYPE *$__lazy_storage_$_dataSource;
+    id presentation;
+    id $__lazy_storage_$_dataSource;
 }
 
 @end

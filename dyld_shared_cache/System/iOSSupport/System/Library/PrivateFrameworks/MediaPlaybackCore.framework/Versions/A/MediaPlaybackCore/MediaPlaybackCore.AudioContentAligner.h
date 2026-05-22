@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.AudioContentAligner
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *processor;
-    MISSING_TYPE *alignmentStorage;
-    MISSING_TYPE *preferredBufferInterval;
-    MISSING_TYPE *contentItem;
+    id $defaultActor;
+    id processor;
+    id alignmentStorage;
+    id preferredBufferInterval;
+    id contentItem;
 }
 
 @end

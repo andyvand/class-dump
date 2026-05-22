@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadService
 {
-    MISSING_TYPE *newsroomService;
-    MISSING_TYPE *$__lazy_storage_$_urlSessionPool;
-    MISSING_TYPE *uploadQueue;
+    id newsroomService;
+    id $__lazy_storage_$_urlSessionPool;
+    id uploadQueue;
 }
 
 @end

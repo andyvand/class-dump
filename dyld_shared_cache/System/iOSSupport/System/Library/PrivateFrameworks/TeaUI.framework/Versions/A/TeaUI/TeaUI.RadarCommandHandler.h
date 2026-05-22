@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.RadarCommandHandler
 {
-    MISSING_TYPE *component;
-    MISSING_TYPE *attachmentResolver;
-    MISSING_TYPE *sceneProvider;
+    id component;
+    id attachmentResolver;
+    id sceneProvider;
 }
 
 @end

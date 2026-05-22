@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PaidBundleChangeNotificationModifier
 {
-    MISSING_TYPE *notificationController;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *purchaseProvider;
+    id notificationController;
+    id configurationManager;
+    id tagService;
+    id bundleSubscriptionManager;
+    id purchaseProvider;
 }
 
 - (void);

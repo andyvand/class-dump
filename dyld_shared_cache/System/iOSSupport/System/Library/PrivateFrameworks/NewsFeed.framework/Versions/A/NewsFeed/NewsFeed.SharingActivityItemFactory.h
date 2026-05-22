@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SharingActivityItemFactory
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *shareLinkProvider;
-    MISSING_TYPE *shareLinkTextProvider;
-    MISSING_TYPE *shareLinkImageProvider;
-    MISSING_TYPE *shareLinkRecipeImageProvider;
-    MISSING_TYPE *shareLinkPuzzleImageProvider;
-    MISSING_TYPE *puzzleRankProvider;
-    MISSING_TYPE *puzzleDifficultyDescriptionProvider;
-    MISSING_TYPE *recipeFactory;
+    id commandCenter;
+    id shareLinkProvider;
+    id shareLinkTextProvider;
+    id shareLinkImageProvider;
+    id shareLinkRecipeImageProvider;
+    id shareLinkPuzzleImageProvider;
+    id puzzleRankProvider;
+    id puzzleDifficultyDescriptionProvider;
+    id recipeFactory;
 }
 
 @end

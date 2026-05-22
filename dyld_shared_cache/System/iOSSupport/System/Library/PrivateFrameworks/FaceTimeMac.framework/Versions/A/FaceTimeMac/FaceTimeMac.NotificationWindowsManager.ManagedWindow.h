@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.NotificationWindowsManager.ManagedWindow
 {
-    MISSING_TYPE *windowScene;
-    MISSING_TYPE *isDragging;
-    MISSING_TYPE *origin;
-    MISSING_TYPE *reservingSpace;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *appKitHelper;
-    MISSING_TYPE *currentPosition;
-    MISSING_TYPE *contentSize;
+    id windowScene;
+    id isDragging;
+    id origin;
+    id reservingSpace;
+    id delegate;
+    id appKitHelper;
+    id currentPosition;
+    id contentSize;
 }
 
 @end

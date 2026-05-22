@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsLiveActivitiesCore.DebugServerActivityContentService
 {
-    MISSING_TYPE *network;
-    MISSING_TYPE *baseURL;
-    MISSING_TYPE *activityIdentifier;
+    id network;
+    id baseURL;
+    id activityIdentifier;
 }
 
 @end

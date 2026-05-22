@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI2.LocaleUpdateObserver
 {
-    MISSING_TYPE *_currentTemperatureUnit;
-    MISSING_TYPE *_observer;
-    MISSING_TYPE *_$observationRegistrar;
+    id _currentTemperatureUnit;
+    id _observer;
+    id _$observationRegistrar;
 }
 
 @end

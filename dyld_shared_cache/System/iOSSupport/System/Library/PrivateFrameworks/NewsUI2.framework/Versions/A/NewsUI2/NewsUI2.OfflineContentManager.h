@@ -4,27 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSSet;
+@class NSSet;
 
 @interface NewsUI2.OfflineContentManager
 {
-    MISSING_TYPE *downloadedContentIDs;
-    MISSING_TYPE *contentContext;
-    MISSING_TYPE *_contributors;
-    MISSING_TYPE *contributorsReadyGroup;
-    MISSING_TYPE *_newsdProxy;
-    MISSING_TYPE *localArticleCacheLookupService;
-    MISSING_TYPE *localIssueCacheLookupService;
-    MISSING_TYPE *localPuzzleCacheLookupService;
-    MISSING_TYPE *localRecipeCacheLookupService;
-    MISSING_TYPE *$__lazy_storage_$_requestProcessingThrottler;
-    MISSING_TYPE *_interestTokensByContentID;
-    MISSING_TYPE *_storageSizeByContentID;
-    MISSING_TYPE *downloadMonitors;
-    MISSING_TYPE *_activeContentIDs;
-    MISSING_TYPE *_inFlightContentIDs;
-    MISSING_TYPE *_offlineContentRequests;
-    MISSING_TYPE *__hasExceededStorageLimits;
+    id downloadedContentIDs;
+    id contentContext;
+    id _contributors;
+    id contributorsReadyGroup;
+    id _newsdProxy;
+    id localArticleCacheLookupService;
+    id localIssueCacheLookupService;
+    id localPuzzleCacheLookupService;
+    id localRecipeCacheLookupService;
+    id $__lazy_storage_$_requestProcessingThrottler;
+    id _interestTokensByContentID;
+    id _storageSizeByContentID;
+    id downloadMonitors;
+    id _activeContentIDs;
+    id _inFlightContentIDs;
+    id _offlineContentRequests;
+    id __hasExceededStorageLimits;
 }
 
 - (id);

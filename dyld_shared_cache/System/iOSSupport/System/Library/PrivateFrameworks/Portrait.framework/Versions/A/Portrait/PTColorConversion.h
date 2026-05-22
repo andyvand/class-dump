@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, PTMetalContext;
+@class PTMetalContext;
 @protocol MTLComputePipelineState;
 
 @interface PTColorConversion
@@ -19,8 +19,8 @@
 +     // Error parsing type: {half3x4=[3{half4=[4 ]}]}40@0:8@16B24B28q32, name: (null)
 +     // Error parsing type: {half3x4=[3{half4=[4 ]}]}28@0:8@16B24, name: (null)
 + (struct bool2);
-+ (MISSING_TYPE *);
-+ (MISSING_TYPE *);
++ (id);
++ (id);
 - (int);
 - (int);
 - (int);

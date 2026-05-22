@@ -6,12 +6,10 @@
 
 #import <VFX/VFXConstraint.h>
 
-@class MISSING_TYPE;
-
 @interface VFXSliderConstraint : VFXConstraint
 {
     unsigned long long _categoryBitMask;
-    MISSING_TYPE *_offset;
+    id _offset;
     float _radius;
 }
 
@@ -28,11 +26,11 @@
 - (float);
 - (id);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long collisionCategoryBitMask;
-@property(nonatomic) MISSING_TYPE *offset;
+@property(nonatomic) id offset;
 @property(nonatomic) float radius;
 
 @end

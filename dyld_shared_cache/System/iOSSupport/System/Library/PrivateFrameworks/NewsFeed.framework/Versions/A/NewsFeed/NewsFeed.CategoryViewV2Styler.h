@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.CategoryViewV2Styler
 {
-    MISSING_TYPE *defaultTitleFontSize;
-    MISSING_TYPE *colorPaletteProvider;
+    id defaultTitleFontSize;
+    id colorPaletteProvider;
 }
 
 @end

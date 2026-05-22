@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.AccessoryDetailsLinkedApplicationViewController
 {
-    MISSING_TYPE *linkedApplicationView;
-    MISSING_TYPE *viewCoordinator;
-    MISSING_TYPE *itemManager;
+    id linkedApplicationView;
+    id viewCoordinator;
+    id itemManager;
 }
 
 - (void);

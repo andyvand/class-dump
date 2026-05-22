@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchHeaderView
 {
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *bottomMarginView;
+    id titleLabel;
+    id bottomMarginView;
 }
 
 - (id);

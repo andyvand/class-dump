@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FormatVideoPlayerCoordinator
 {
-    MISSING_TYPE *analyticsDataProvider;
-    MISSING_TYPE *sessionManager;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *exposureStartTime;
+    id analyticsDataProvider;
+    id sessionManager;
+    id tracker;
+    id channelDataFactory;
+    id articleDataFactory;
+    id exposureStartTime;
 }
 
 @end

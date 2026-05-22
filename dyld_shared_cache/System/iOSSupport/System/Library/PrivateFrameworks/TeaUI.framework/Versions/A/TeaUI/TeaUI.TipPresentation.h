@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.TipPresentation
 {
-    MISSING_TYPE *placement;
-    MISSING_TYPE *sourceViewController;
-    MISSING_TYPE *tipViewController;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *observedScrollViews;
+    id placement;
+    id sourceViewController;
+    id tipViewController;
+    id delegate;
+    id observedScrollViews;
 }
 
 - (id);

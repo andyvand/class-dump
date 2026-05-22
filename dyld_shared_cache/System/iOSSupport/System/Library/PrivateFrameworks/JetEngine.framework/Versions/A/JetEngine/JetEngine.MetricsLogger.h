@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.MetricsLogger
 {
-    MISSING_TYPE *loggerName;
-    MISSING_TYPE *recorder;
-    MISSING_TYPE *eventTopic;
-    MISSING_TYPE *sampling;
+    id loggerName;
+    id recorder;
+    id eventTopic;
+    id sampling;
 }
 
 @end

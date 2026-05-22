@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.LODSystem
 {
-    MISSING_TYPE *cameraComponents;
-    MISSING_TYPE *setupLODState;
-    MISSING_TYPE *rootsWithLOD;
-    MISSING_TYPE *childrenWithLOD;
+    id cameraComponents;
+    id setupLODState;
+    id rootsWithLOD;
+    id childrenWithLOD;
 }
 
 @end

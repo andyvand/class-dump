@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.BlockUnblockController
 {
-    MISSING_TYPE *reportSpamHandler;
-    MISSING_TYPE *initiatorName;
-    MISSING_TYPE *unknownInitiator;
-    MISSING_TYPE *_hasReportedSpam;
-    MISSING_TYPE *_isSafetyCheckActive;
-    MISSING_TYPE *contacts;
-    MISSING_TYPE *_unknownContacts;
-    MISSING_TYPE *_$observationRegistrar;
+    id reportSpamHandler;
+    id initiatorName;
+    id unknownInitiator;
+    id _hasReportedSpam;
+    id _isSafetyCheckActive;
+    id contacts;
+    id _unknownContacts;
+    id _$observationRegistrar;
 }
 
 @end

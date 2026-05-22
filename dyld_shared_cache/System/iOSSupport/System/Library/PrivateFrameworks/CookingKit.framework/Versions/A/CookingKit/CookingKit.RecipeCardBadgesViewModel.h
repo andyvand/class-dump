@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardBadgesViewModel
 {
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_showCookedBadge;
-    MISSING_TYPE *_showNotesBadge;
-    MISSING_TYPE *_$observationRegistrar;
+    id _$scope;
+    id _recipeID;
+    id _showCookedBadge;
+    id _showNotesBadge;
+    id _$observationRegistrar;
 }
 
 @end

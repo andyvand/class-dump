@@ -6,18 +6,16 @@
 
 #import <HomeUI/HUItemCollectionViewController.h>
 
-@class MISSING_TYPE;
-
 @interface HUNearbyAccessoriesEditorViewController : HUItemCollectionViewController
 {
-    MISSING_TYPE *EmptySetIdentifier;
-    MISSING_TYPE *NearbyAccessoryCustomUUIDStrings;
-    MISSING_TYPE *accessoryElementModule;
-    MISSING_TYPE *instructionModule;
-    MISSING_TYPE *selectionController;
-    MISSING_TYPE *layoutManager;
-    MISSING_TYPE *primaryAccessory;
-    MISSING_TYPE *completionHandler;
+    id EmptySetIdentifier;
+    id NearbyAccessoryCustomUUIDStrings;
+    id accessoryElementModule;
+    id instructionModule;
+    id selectionController;
+    id layoutManager;
+    id primaryAccessory;
+    id completionHandler;
 }
 
 - (_Bool);

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatSnapshotView
 {
-    MISSING_TYPE *isSelected;
-    MISSING_TYPE *isRoot;
-    MISSING_TYPE *isContent;
-    MISSING_TYPE *onTap;
-    MISSING_TYPE *view;
-    MISSING_TYPE *image;
-    MISSING_TYPE *children;
+    id isSelected;
+    id isRoot;
+    id isContent;
+    id onTap;
+    id view;
+    id image;
+    id children;
 }
 
 - (id);

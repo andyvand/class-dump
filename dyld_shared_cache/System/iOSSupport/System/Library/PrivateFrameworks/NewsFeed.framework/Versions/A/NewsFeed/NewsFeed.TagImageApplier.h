@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.TagImageApplier
 {
-    MISSING_TYPE *imageCache;
-    MISSING_TYPE *feedNavImageStyler;
-    MISSING_TYPE *assetManager;
+    id imageCache;
+    id feedNavImageStyler;
+    id assetManager;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatLayoutTreeItem
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *model;
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *_children;
-    MISSING_TYPE *_isExpanded;
-    MISSING_TYPE *stateMachine;
+    id id;
+    id model;
+    id isEnabled;
+    id _children;
+    id _isExpanded;
+    id stateMachine;
 }
 
 @end

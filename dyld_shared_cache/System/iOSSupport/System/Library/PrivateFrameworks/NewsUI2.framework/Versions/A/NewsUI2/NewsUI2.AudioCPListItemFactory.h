@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioCPListItemFactory
 {
-    MISSING_TYPE *listeningProgressProvider;
-    MISSING_TYPE *thumbnailImageCache;
-    MISSING_TYPE *playbackState;
-    MISSING_TYPE *audioCPInterfaceController;
-    MISSING_TYPE *commandCenter;
+    id listeningProgressProvider;
+    id thumbnailImageCache;
+    id playbackState;
+    id audioCPInterfaceController;
+    id commandCenter;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.PDFReplicaPagePrewarmer
 {
-    MISSING_TYPE *pages;
-    MISSING_TYPE *assetFetchService;
-    MISSING_TYPE *cancelHandler;
+    id pages;
+    id assetFetchService;
+    id cancelHandler;
 }
 
 @end

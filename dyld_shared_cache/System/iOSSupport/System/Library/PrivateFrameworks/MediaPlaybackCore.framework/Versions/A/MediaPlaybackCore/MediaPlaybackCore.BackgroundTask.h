@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.BackgroundTask
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *category;
-    MISSING_TYPE *references;
+    id identifier;
+    id category;
+    id references;
 }
 
 @end

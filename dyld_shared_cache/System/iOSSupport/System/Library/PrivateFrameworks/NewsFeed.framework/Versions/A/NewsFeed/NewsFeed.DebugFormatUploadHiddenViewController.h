@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadHiddenViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *reasonRole;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *sections;
+    id editor;
+    id reasonRole;
+    id tableView;
+    id sections;
 }
 
 - (id);

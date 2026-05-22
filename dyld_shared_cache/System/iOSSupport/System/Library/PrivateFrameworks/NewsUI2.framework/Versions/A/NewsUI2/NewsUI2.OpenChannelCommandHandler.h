@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OpenChannelCommandHandler
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *offlineProvider;
+    id navigator;
+    id tracker;
+    id tagService;
+    id featureAvailability;
+    id offlineProvider;
 }
 
 @end

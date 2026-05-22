@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSData, NSString, VFXCoreEntityHandle;
-@protocol _TtP3VFX10VFXBinding_;
+@class NSArray, NSData, NSString, VFXCoreEntityHandle;
+@protocol VFX.VFXBinding;
 
 @interface VFXBindingWrapper
 {
-    id <_TtP3VFX10VFXBinding_> _binding;
+    id <VFX.VFXBinding> _binding;
     VFXCoreEntityHandle *_handle;
 }
 
@@ -30,7 +30,7 @@
 - (id);
 - (id);
 - (long long);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (long long);
 - (id)anes;
@@ -1270,7 +1270,7 @@ float4x4 getFaceRotation(ushort face) {
 @property(readonly, nonatomic) NSString *name;
 @property(readonly, nonatomic) long long objectID;
 @property(readonly, copy, nonatomic) NSString *objectName;
-@property(readonly, nonatomic) MISSING_TYPE *range;
+@property(readonly, nonatomic) id range;
 @property(copy, nonatomic) NSData *rawValue;
 @property(readonly, nonatomic) long long semantic;
 @property(readonly) Class superclass;

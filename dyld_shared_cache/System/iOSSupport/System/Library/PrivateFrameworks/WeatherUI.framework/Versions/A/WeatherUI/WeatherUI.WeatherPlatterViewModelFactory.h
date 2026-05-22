@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.WeatherPlatterViewModelFactory
 {
-    MISSING_TYPE *headerModelFactory;
-    MISSING_TYPE *hourlyForecastModelFactory;
-    MISSING_TYPE *airQualityModelFactory;
+    id headerModelFactory;
+    id hourlyForecastModelFactory;
+    id airQualityModelFactory;
 }
 
 @end

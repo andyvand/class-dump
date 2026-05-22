@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ArticleCoordinator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *audioPlaybackContext;
-    MISSING_TYPE *issueSessionManager;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *articleModel;
-    MISSING_TYPE *issue;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *contentSizeManager;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *startContentSizeCategory;
-    MISSING_TYPE *activeIssueViewingSession;
-    MISSING_TYPE *urlReferralData;
-    MISSING_TYPE *lastScrollPosition;
-    MISSING_TYPE *activeExperiment;
+    id delegate;
+    id tracker;
+    id audioPlaybackContext;
+    id issueSessionManager;
+    id channelDataFactory;
+    id scienceDataFactory;
+    id newsActivityManager;
+    id articleModel;
+    id issue;
+    id commandCenter;
+    id contentSizeManager;
+    id articleDataFactory;
+    id startContentSizeCategory;
+    id activeIssueViewingSession;
+    id urlReferralData;
+    id lastScrollPosition;
+    id activeExperiment;
 }
 
 @end

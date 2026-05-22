@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIColor;
+@class NSString, UIColor;
 
 @interface _UIViewGlass
 {
-    MISSING_TYPE *_underlyingMaterial;
+    id _underlyingMaterial;
 }
 
 - (id);

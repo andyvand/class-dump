@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreLocation.CLMonitor
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *_monitoringRecords;
-    MISSING_TYPE *monitor;
-    MISSING_TYPE *events;
+    id $defaultActor;
+    id _monitoringRecords;
+    id monitor;
+    id events;
 }
 
 @end

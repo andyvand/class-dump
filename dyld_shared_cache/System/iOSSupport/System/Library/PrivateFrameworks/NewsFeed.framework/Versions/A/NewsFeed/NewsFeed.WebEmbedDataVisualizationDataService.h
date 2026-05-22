@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedDataVisualizationDataService
 {
-    MISSING_TYPE *networkProxy;
-    MISSING_TYPE *sportsTokenManager;
-    MISSING_TYPE *genericTokenManager;
-    MISSING_TYPE *defaultMaxAge;
-    MISSING_TYPE *networkQueue;
-    MISSING_TYPE *lastFailedResponses;
-    MISSING_TYPE *lock;
+    id networkProxy;
+    id sportsTokenManager;
+    id genericTokenManager;
+    id defaultMaxAge;
+    id networkQueue;
+    id lastFailedResponses;
+    id lock;
 }
 
 @end

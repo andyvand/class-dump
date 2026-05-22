@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleGameCenterOpenLeaderboardCommandHandler
 {
-    MISSING_TYPE *gameCenterService;
-    MISSING_TYPE *sceneProvider;
+    id gameCenterService;
+    id sceneProvider;
 }
 
 @end

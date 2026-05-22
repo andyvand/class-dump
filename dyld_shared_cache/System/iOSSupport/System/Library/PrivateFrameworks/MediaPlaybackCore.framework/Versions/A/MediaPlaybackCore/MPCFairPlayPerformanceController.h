@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MPCFairPlayPerformanceController
 {
-    MISSING_TYPE *context;
+    id context;
 }
 
 + (id)lic}s] performSetQueue(event:%{public}@) | disconnecting queue controller [load failed] queueController=%{public}s /* Error: Ran out of types for this method. */;

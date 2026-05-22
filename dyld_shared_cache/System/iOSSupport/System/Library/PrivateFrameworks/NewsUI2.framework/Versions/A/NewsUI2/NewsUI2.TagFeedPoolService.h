@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedPoolService
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *channelSectionHeadlinesService;
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *tagFeedCurationService;
-    MISSING_TYPE *tagFeedHeadlineService;
-    MISSING_TYPE *sportsFavoritesService;
-    MISSING_TYPE *mySportsTagService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *localNewsChannelService;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *foodService;
-    MISSING_TYPE *foodClusteringService;
+    id context;
+    id feedPersonalizer;
+    id headlineService;
+    id channelSectionHeadlinesService;
+    id sportsDataService;
+    id puzzleService;
+    id puzzleStatsService;
+    id recipeService;
+    id tagFeedCurationService;
+    id tagFeedHeadlineService;
+    id sportsFavoritesService;
+    id mySportsTagService;
+    id tagService;
+    id subscriptionController;
+    id localNewsChannelService;
+    id featureAvailability;
+    id appConfigurationManager;
+    id foodService;
+    id foodClusteringService;
 }
 
 @end

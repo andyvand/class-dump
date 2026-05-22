@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 __attribute__((visibility("hidden")))
 @interface _UIMagicMorphMilestone
 {
-    MISSING_TYPE *property;
-    MISSING_TYPE *comparisonResult;
+    id property;
+    id comparisonResult;
     double value;
     void action;
 }

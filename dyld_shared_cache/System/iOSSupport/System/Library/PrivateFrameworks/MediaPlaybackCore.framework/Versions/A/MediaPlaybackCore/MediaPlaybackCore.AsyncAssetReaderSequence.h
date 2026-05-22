@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.AsyncAssetReaderSequence
 {
-    MISSING_TYPE *asset;
-    MISSING_TYPE *unreadAssetTimeRange;
-    MISSING_TYPE *continuation;
-    MISSING_TYPE *stream;
-    MISSING_TYPE *task;
+    id asset;
+    id unreadAssetTimeRange;
+    id continuation;
+    id stream;
+    id task;
 }
 
 @end

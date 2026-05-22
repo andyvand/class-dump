@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.SafetyCacheDetailViewModel
 {
-    MISSING_TYPE *_safetyCache;
-    MISSING_TYPE *_cacheMapViewModel;
-    MISSING_TYPE *_navigationPath;
-    MISSING_TYPE *_startLocationInfoViewModel;
-    MISSING_TYPE *_destinationInfoViewModel;
-    MISSING_TYPE *_sessionStartTime;
-    MISSING_TYPE *_sessionEndTime;
-    MISSING_TYPE *routeIconSize;
-    MISSING_TYPE *isTransparencyMode;
-    MISSING_TYPE *callFunctionProvider;
-    MISSING_TYPE *contact;
-    MISSING_TYPE *sessionType;
-    MISSING_TYPE *sinkSet;
+    id _safetyCache;
+    id _cacheMapViewModel;
+    id _navigationPath;
+    id _startLocationInfoViewModel;
+    id _destinationInfoViewModel;
+    id _sessionStartTime;
+    id _sessionEndTime;
+    id routeIconSize;
+    id isTransparencyMode;
+    id callFunctionProvider;
+    id contact;
+    id sessionType;
+    id sinkSet;
 }
 
 - (id);

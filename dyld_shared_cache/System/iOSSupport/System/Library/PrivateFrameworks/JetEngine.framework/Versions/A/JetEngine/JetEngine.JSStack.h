@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.JSStack
 {
-    MISSING_TYPE *lazyProvider;
-    MISSING_TYPE *workerThread;
-    MISSING_TYPE *context;
-    MISSING_TYPE *managedSources;
-    MISSING_TYPE *sentryConfiguration;
-    MISSING_TYPE *tracingSupport;
-    MISSING_TYPE *cache;
-    MISSING_TYPE *ttlRecorder;
-    MISSING_TYPE *exceptionObserver;
+    id lazyProvider;
+    id workerThread;
+    id context;
+    id managedSources;
+    id sentryConfiguration;
+    id tracingSupport;
+    id cache;
+    id ttlRecorder;
+    id exceptionObserver;
 }
 
 @end

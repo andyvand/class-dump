@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.UIFlowManager
 {
-    MISSING_TYPE *parentRenderer;
-    MISSING_TYPE *resultHandler;
-    MISSING_TYPE *onViewLoaded;
-    MISSING_TYPE *root;
-    MISSING_TYPE *activeNode;
-    MISSING_TYPE *completion;
-    MISSING_TYPE *isPerformingMutation;
-    MISSING_TYPE *inflightRenderersBeingPresented;
+    id parentRenderer;
+    id resultHandler;
+    id onViewLoaded;
+    id root;
+    id activeNode;
+    id completion;
+    id isPerformingMutation;
+    id inflightRenderersBeingPresented;
 }
 
 - (id);

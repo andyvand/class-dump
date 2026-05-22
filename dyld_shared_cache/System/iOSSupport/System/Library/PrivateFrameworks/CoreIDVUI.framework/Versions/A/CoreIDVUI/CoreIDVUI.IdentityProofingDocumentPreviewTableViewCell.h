@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingDocumentPreviewTableViewCell
 {
-    MISSING_TYPE *$__lazy_storage_$_documentImageView;
-    MISSING_TYPE *$__lazy_storage_$_documentTitle;
-    MISSING_TYPE *$__lazy_storage_$_imageContainer;
+    id $__lazy_storage_$_documentImageView;
+    id $__lazy_storage_$_documentTitle;
+    id $__lazy_storage_$_imageContainer;
 }
 
 - (void);

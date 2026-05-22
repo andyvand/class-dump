@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.AssetManager
 {
-    MISSING_TYPE *pathResolver;
-    MISSING_TYPE *effectIDToAssetsDirectory;
-    MISSING_TYPE *authoringFileManager;
+    id pathResolver;
+    id effectIDToAssetsDirectory;
+    id authoringFileManager;
 }
 
 - (id);

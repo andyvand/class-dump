@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsEngagement.EngagementViewConfiguration
 {
-    MISSING_TYPE *overriddenStyle;
-    MISSING_TYPE *layoutStyle;
-    MISSING_TYPE *bubbleTipSourceItem;
-    MISSING_TYPE *bubbleTipSourceView;
-    MISSING_TYPE *bubbleTipSourceRect;
-    MISSING_TYPE *passthroughViews;
-    MISSING_TYPE *toastCustomTabBarController;
-    MISSING_TYPE *toastDismissDelayTimeInterval;
-    MISSING_TYPE *permittedArrowDirections;
-    MISSING_TYPE *bubbleTipSizing;
+    id overriddenStyle;
+    id layoutStyle;
+    id bubbleTipSourceItem;
+    id bubbleTipSourceView;
+    id bubbleTipSourceRect;
+    id passthroughViews;
+    id toastCustomTabBarController;
+    id toastDismissDelayTimeInterval;
+    id permittedArrowDirections;
+    id bubbleTipSizing;
 }
 
 @end

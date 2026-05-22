@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.TagMastheadWeatherMonitor
 {
-    MISSING_TYPE *channelLocation;
-    MISSING_TYPE *interval;
-    MISSING_TYPE *weatherHandler;
-    MISSING_TYPE *weatherService;
-    MISSING_TYPE *monitorTask;
+    id channelLocation;
+    id interval;
+    id weatherHandler;
+    id weatherService;
+    id monitorTask;
 }
 
 @end

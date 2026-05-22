@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.TransitionController
 {
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *transitionProvider;
-    MISSING_TYPE *smartTransitionOutroItemReference;
-    MISSING_TYPE *currentTransitionTask;
+    id reporter;
+    id delegate;
+    id transitionProvider;
+    id smartTransitionOutroItemReference;
+    id currentTransitionTask;
 }
 
 @end

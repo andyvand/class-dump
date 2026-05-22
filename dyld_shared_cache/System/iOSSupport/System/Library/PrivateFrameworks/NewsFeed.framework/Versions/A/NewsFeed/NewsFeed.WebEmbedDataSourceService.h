@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedDataSourceService
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *resourceService;
-    MISSING_TYPE *fetchDeduper;
-    MISSING_TYPE *_cache;
+    id appConfigurationManager;
+    id resourceService;
+    id fetchDeduper;
+    id _cache;
 }
 
 @end

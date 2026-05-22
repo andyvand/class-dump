@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.LibraryPopoverModel
 {
-    MISSING_TYPE *_iconPicker;
-    MISSING_TYPE *color;
-    MISSING_TYPE *glyph;
-    MISSING_TYPE *_$observationRegistrar;
+    id _iconPicker;
+    id color;
+    id glyph;
+    id _$observationRegistrar;
 }
 
 @end

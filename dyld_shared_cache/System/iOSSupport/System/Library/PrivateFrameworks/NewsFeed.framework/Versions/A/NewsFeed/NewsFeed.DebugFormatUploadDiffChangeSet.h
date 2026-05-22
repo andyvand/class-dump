@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadDiffChangeSet
 {
-    MISSING_TYPE *diff;
-    MISSING_TYPE *localChanges;
-    MISSING_TYPE *remoteChanges;
+    id diff;
+    id localChanges;
+    id remoteChanges;
 }
 
 @end

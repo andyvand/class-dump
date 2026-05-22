@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.PreviewProviderHostProvider.Host
 {
-    MISSING_TYPE *previewHost;
-    MISSING_TYPE *providerType;
-    MISSING_TYPE *_previewIndex;
+    id previewHost;
+    id providerType;
+    id _previewIndex;
 }
 
 @end

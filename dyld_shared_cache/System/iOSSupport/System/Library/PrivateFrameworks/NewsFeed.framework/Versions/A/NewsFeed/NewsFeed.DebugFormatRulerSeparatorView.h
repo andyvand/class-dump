@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatRulerSeparatorView
 {
-    MISSING_TYPE *separator;
-    MISSING_TYPE *isSelected;
-    MISSING_TYPE *label;
+    id separator;
+    id isSelected;
+    id label;
 }
 
 - (id);

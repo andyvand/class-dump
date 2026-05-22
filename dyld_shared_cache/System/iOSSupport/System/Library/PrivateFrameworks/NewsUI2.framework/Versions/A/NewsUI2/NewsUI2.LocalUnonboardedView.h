@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LocalUnonboardedView
 {
-    MISSING_TYPE *mediaView;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *subtitleLabel;
-    MISSING_TYPE *locationButtonHostingController;
-    MISSING_TYPE *locationButton;
-    MISSING_TYPE *onLocationButtonTapped;
+    id mediaView;
+    id titleLabel;
+    id subtitleLabel;
+    id locationButtonHostingController;
+    id locationButton;
+    id onLocationButtonTapped;
 }
 
 - (void);

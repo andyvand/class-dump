@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.PeerPaymentGroupRecipient
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_name;
-    MISSING_TYPE *_contact;
-    MISSING_TYPE *identifiedRecipient;
-    MISSING_TYPE *_nameType;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _name;
+    id _contact;
+    id identifiedRecipient;
+    id _nameType;
+    id _$observationRegistrar;
 }
 
 @end

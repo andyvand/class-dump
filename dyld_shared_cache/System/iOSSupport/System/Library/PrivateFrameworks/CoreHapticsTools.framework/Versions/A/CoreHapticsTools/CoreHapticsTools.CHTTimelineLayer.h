@@ -6,40 +6,38 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTLayer.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTTimelineLayer : CoreHapticsTools.CHTLayer
 {
-    MISSING_TYPE *timelineLayer;
-    MISSING_TYPE *leadingLabel;
-    MISSING_TYPE *trailingLabel;
-    MISSING_TYPE *markedDurationTriangle;
-    MISSING_TYPE *markedDurationLabel;
-    MISSING_TYPE *timelineIsInteractive;
-    MISSING_TYPE *automaticSubdivisions;
-    MISSING_TYPE *majorSubdivisionMaximumSpacing;
-    MISSING_TYPE *majorSubdivisionMinimumSpacing;
-    MISSING_TYPE *timelineDivisionLabels;
-    MISSING_TYPE *timelineTextAlignment;
-    MISSING_TYPE *leftLabelCushion;
-    MISSING_TYPE *rightLabelCushion;
-    MISSING_TYPE *labelFont;
-    MISSING_TYPE *_maxMillisecondPrecision;
-    MISSING_TYPE *_minMillisecondPrecision;
-    MISSING_TYPE *_markedDuration;
-    MISSING_TYPE *flipTimeline;
-    MISSING_TYPE *_markedDurationTriangleSize;
-    MISSING_TYPE *_divisions;
-    MISSING_TYPE *_requestedDivisions;
-    MISSING_TYPE *defaultSubdivisions;
-    MISSING_TYPE *_subdivisions;
-    MISSING_TYPE *_divisionLength;
-    MISSING_TYPE *_subdivisionLength;
-    MISSING_TYPE *_shouldDrawBaseline;
-    MISSING_TYPE *timelineLabelSpacing;
-    MISSING_TYPE *_lineThickness;
-    MISSING_TYPE *prevFrame;
-    MISSING_TYPE *timeLabelsNeedLayout;
+    id timelineLayer;
+    id leadingLabel;
+    id trailingLabel;
+    id markedDurationTriangle;
+    id markedDurationLabel;
+    id timelineIsInteractive;
+    id automaticSubdivisions;
+    id majorSubdivisionMaximumSpacing;
+    id majorSubdivisionMinimumSpacing;
+    id timelineDivisionLabels;
+    id timelineTextAlignment;
+    id leftLabelCushion;
+    id rightLabelCushion;
+    id labelFont;
+    id _maxMillisecondPrecision;
+    id _minMillisecondPrecision;
+    id _markedDuration;
+    id flipTimeline;
+    id _markedDurationTriangleSize;
+    id _divisions;
+    id _requestedDivisions;
+    id defaultSubdivisions;
+    id _subdivisions;
+    id _divisionLength;
+    id _subdivisionLength;
+    id _shouldDrawBaseline;
+    id timelineLabelSpacing;
+    id _lineThickness;
+    id prevFrame;
+    id timeLabelsNeedLayout;
 }
 
 - (id);

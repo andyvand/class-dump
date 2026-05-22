@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.CIDVUIInternalProofingFlowManager
 {
-    MISSING_TYPE *_proofingFlowManager;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *externalProofingFlowManager;
-    MISSING_TYPE *delegate;
+    id _proofingFlowManager;
+    id configuration;
+    id externalProofingFlowManager;
+    id delegate;
 }
 
 - (void);

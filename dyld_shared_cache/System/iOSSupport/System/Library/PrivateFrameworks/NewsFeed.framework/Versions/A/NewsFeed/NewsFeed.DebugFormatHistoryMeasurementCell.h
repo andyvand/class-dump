@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatHistoryMeasurementCell
 {
-    MISSING_TYPE *timeInMilliseconds;
-    MISSING_TYPE *totalTimeInMilliseconds;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *barView;
+    id timeInMilliseconds;
+    id totalTimeInMilliseconds;
+    id titleLabel;
+    id barView;
 }
 
 - (id);

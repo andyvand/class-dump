@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, VFXBtShapeWrapper, VFXNode, VFXPhysicsShape;
+@class NSString, VFXBtShapeWrapper, VFXNode, VFXPhysicsShape;
 
 @interface VFXPhysicsBody
 {
@@ -19,17 +19,17 @@
     VFXPhysicsShape *_physicsShape;
     long long _type;
     float _damping;
-    MISSING_TYPE *_angularVelocity;
+    id _angularVelocity;
     float _angularDamping;
-    MISSING_TYPE *_velocityFactor;
-    MISSING_TYPE *_angularVelocityFactor;
-    MISSING_TYPE *_velocity;
+    id _velocityFactor;
+    id _angularVelocityFactor;
+    id _velocity;
     _Bool _ignoreGravity;
     float _linearRestingThreshold;
     float _angularRestingThreshold;
     _Bool _explicitMomentOfInertia;
-    MISSING_TYPE *_momentOfInertia;
-    MISSING_TYPE *_centerOfMassOffset;
+    id _momentOfInertia;
+    id _centerOfMassOffset;
     unsigned long long _categoryBitMask;
     unsigned long long _collisionBitMask;
     unsigned long long _contactTestBitMask;
@@ -69,7 +69,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -108,11 +108,11 @@
 - (unsigned long long);
 - (void);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (float);
 - (float);
@@ -124,8 +124,8 @@
 - (unsigned long long);
 - (float);
 - (void);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (void);
 - (float);
 - (void);
@@ -134,7 +134,7 @@
 - (void);
 - (_Bool);
 - (long long);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (void);
 - (float);
@@ -158,10 +158,10 @@
 @property(nonatomic) _Bool allowsResting;
 @property(nonatomic) float angularDamping;
 @property(nonatomic) float angularRestingThreshold;
-@property(nonatomic) MISSING_TYPE *angularVelocity;
-@property(nonatomic) MISSING_TYPE *angularVelocityFactor;
+@property(nonatomic) id angularVelocity;
+@property(nonatomic) id angularVelocityFactor;
 @property(nonatomic) unsigned long long categoryBitMask;
-@property(nonatomic) MISSING_TYPE *centerOfMassOffset;
+@property(nonatomic) id centerOfMassOffset;
 @property(nonatomic) float charge;
 @property(nonatomic) unsigned long long collisionBitMask;
 @property(nonatomic) unsigned long long contactTestBitMask;
@@ -178,15 +178,15 @@
 @property(readonly, nonatomic) _Bool isResting;
 @property(nonatomic) float linearRestingThreshold;
 @property(nonatomic) float mass;
-@property(nonatomic) MISSING_TYPE *momentOfInertia;
+@property(nonatomic) id momentOfInertia;
 @property(retain, nonatomic) VFXPhysicsShape *physicsShape;
 @property(nonatomic) float restitution;
 @property(nonatomic) float rollingFriction;
 @property(readonly) Class superclass;
 @property(nonatomic) long long type;
 @property(nonatomic) _Bool usesDefaultMomentOfInertia;
-@property(nonatomic) MISSING_TYPE *velocity;
-@property(nonatomic) MISSING_TYPE *velocityFactor;
+@property(nonatomic) id velocity;
+@property(nonatomic) id velocityFactor;
 
 @end
 

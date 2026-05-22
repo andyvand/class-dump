@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.BuiltinNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX._ComposeNode : VFX.BuiltinNode
 {
-    MISSING_TYPE *type;
+    id type;
 }
 
 @end

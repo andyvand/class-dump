@@ -6,14 +6,12 @@
 
 #import <VFX/VFX.RemotePreviewPeerConnection.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.RemotePreviewStudioPeerConnection : VFX.RemotePreviewPeerConnection
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *playerConfiguration;
-    MISSING_TYPE *_installState;
-    MISSING_TYPE *_playerHealth;
+    id id;
+    id playerConfiguration;
+    id _installState;
+    id _playerHealth;
 }
 
 @end

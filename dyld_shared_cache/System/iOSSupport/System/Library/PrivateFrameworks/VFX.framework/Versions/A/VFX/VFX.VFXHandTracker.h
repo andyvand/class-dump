@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VFXHandTracker
 {
-    MISSING_TYPE *updateCount;
-    MISSING_TYPE *_worlds;
+    id updateCount;
+    id _worlds;
 }
 
 + (void);

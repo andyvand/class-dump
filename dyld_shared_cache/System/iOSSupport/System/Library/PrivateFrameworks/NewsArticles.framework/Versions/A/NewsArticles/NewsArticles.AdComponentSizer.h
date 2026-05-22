@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.AdComponentSizer
 {
-    MISSING_TYPE *layoutStore;
-    MISSING_TYPE *bannerAdLayoutAttributesFactory;
-    MISSING_TYPE *bannerAdFactory;
-    MISSING_TYPE *$__lazy_storage_$_isVisualDebuggingEnabled;
+    id layoutStore;
+    id bannerAdLayoutAttributesFactory;
+    id bannerAdFactory;
+    id $__lazy_storage_$_isVisualDebuggingEnabled;
 }
 
 - (unsigned long long);

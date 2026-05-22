@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineSectionsDataManager
 {
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *magazineSectionBarModule;
-    MISSING_TYPE *magazineSectionService;
+    id accessQueue;
+    id bundleSubscriptionManager;
+    id magazineSectionBarModule;
+    id magazineSectionService;
 }
 
 @end

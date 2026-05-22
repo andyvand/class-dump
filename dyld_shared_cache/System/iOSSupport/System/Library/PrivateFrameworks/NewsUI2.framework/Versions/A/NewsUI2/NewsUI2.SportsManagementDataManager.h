@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsManagementDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *sportsManagementConfigManager;
-    MISSING_TYPE *sportsGraphManager;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *recommendationManager;
-    MISSING_TYPE *configurationManager;
+    id delegate;
+    id sportsManagementConfigManager;
+    id sportsGraphManager;
+    id sportsOnboardingManager;
+    id tagService;
+    id recommendationManager;
+    id configurationManager;
 }
 
 @end

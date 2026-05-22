@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsletterManagementRouteModelFactory
 {
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *featureAvailability;
+    id newsletterManager;
+    id configurationManager;
+    id featureAvailability;
 }
 
 @end

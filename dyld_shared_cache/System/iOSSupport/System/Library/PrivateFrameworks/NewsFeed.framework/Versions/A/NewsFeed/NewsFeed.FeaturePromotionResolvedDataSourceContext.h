@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeaturePromotionResolvedDataSourceContext
 {
-    MISSING_TYPE *filterContext;
-    MISSING_TYPE *host;
-    MISSING_TYPE *hostTags;
+    id filterContext;
+    id host;
+    id hostTags;
 }
 
 @end

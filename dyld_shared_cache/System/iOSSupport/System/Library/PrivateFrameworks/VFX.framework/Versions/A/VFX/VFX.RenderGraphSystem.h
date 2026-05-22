@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.RenderGraphSystem
 {
-    MISSING_TYPE *opaqueDrawCallsQuery;
-    MISSING_TYPE *transparentDrawCallsQuery;
-    MISSING_TYPE *authoringDrawCallsQuery;
-    MISSING_TYPE *directionalLightQuery;
-    MISSING_TYPE *pointLightQuery;
-    MISSING_TYPE *spotLightQuery;
-    MISSING_TYPE *ambientLightQuery;
-    MISSING_TYPE *iblLightQuery;
+    id opaqueDrawCallsQuery;
+    id transparentDrawCallsQuery;
+    id authoringDrawCallsQuery;
+    id directionalLightQuery;
+    id pointLightQuery;
+    id spotLightQuery;
+    id ambientLightQuery;
+    id iblLightQuery;
 }
 
 @end

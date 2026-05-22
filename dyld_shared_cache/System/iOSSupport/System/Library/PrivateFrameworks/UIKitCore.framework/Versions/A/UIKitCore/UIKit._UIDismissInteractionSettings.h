@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC5UIKit43_UIDismissInteractionSubInteractionSettings;
+@class UIKit._UIDismissInteractionSubInteractionSettings;
 
 @interface UIKit._UIDismissInteractionSettings
 {
-    _TtC5UIKit43_UIDismissInteractionSubInteractionSettings *edgePan;
-    _TtC5UIKit43_UIDismissInteractionSubInteractionSettings *scroll;
-    _TtC5UIKit43_UIDismissInteractionSubInteractionSettings *swipeDown;
-    _TtC5UIKit43_UIDismissInteractionSubInteractionSettings *pinch;
+    UIKit._UIDismissInteractionSubInteractionSettings *edgePan;
+    UIKit._UIDismissInteractionSubInteractionSettings *scroll;
+    UIKit._UIDismissInteractionSubInteractionSettings *swipeDown;
+    UIKit._UIDismissInteractionSubInteractionSettings *pinch;
     _Bool showDebugUI;
 }
 
@@ -31,11 +31,11 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) _TtC5UIKit43_UIDismissInteractionSubInteractionSettings *edgePan; // @synthesize edgePan;
-@property(nonatomic, retain) _TtC5UIKit43_UIDismissInteractionSubInteractionSettings *pinch; // @synthesize pinch;
-@property(nonatomic, retain) _TtC5UIKit43_UIDismissInteractionSubInteractionSettings *scroll; // @synthesize scroll;
+@property(nonatomic, retain) UIKit._UIDismissInteractionSubInteractionSettings *edgePan; // @synthesize edgePan;
+@property(nonatomic, retain) UIKit._UIDismissInteractionSubInteractionSettings *pinch; // @synthesize pinch;
+@property(nonatomic, retain) UIKit._UIDismissInteractionSubInteractionSettings *scroll; // @synthesize scroll;
 @property(nonatomic) _Bool showDebugUI; // @synthesize showDebugUI;
-@property(nonatomic, retain) _TtC5UIKit43_UIDismissInteractionSubInteractionSettings *swipeDown; // @synthesize swipeDown;
+@property(nonatomic, retain) UIKit._UIDismissInteractionSubInteractionSettings *swipeDown; // @synthesize swipeDown;
 
 @end
 

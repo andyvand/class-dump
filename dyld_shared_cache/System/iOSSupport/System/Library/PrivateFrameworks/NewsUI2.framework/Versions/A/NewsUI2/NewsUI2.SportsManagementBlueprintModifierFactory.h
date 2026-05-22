@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsManagementBlueprintModifierFactory
 {
-    MISSING_TYPE *sectionFactory;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *tagService;
+    id sectionFactory;
+    id subscriptionService;
+    id tagService;
 }
 
 @end

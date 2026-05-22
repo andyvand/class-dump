@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.IssueLinkActionHandler
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *issue;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *urlHandler;
-    MISSING_TYPE *featureAvailability;
+    id navigator;
+    id issue;
+    id tracker;
+    id urlHandler;
+    id featureAvailability;
 }
 
 @end

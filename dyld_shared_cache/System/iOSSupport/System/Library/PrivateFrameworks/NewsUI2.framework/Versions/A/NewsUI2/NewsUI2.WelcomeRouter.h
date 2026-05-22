@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WelcomeRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
+    id controller;
+    id resolver;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ScopeLevel
 {
-    MISSING_TYPE *cancellables;
-    MISSING_TYPE *onDeallocTrigger;
-    MISSING_TYPE *onCancelTrigger;
+    id cancellables;
+    id onDeallocTrigger;
+    id onCancelTrigger;
 }
 
 @end

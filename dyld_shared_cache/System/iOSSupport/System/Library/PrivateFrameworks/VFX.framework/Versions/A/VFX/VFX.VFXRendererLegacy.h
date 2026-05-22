@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIColor, _TtC3VFX13VFXCoreCamera, _TtC3VFX8VFXScene, _TtC3VFX9VFXEffect;
+@class UIColor, VFX.VFXCoreCamera, VFX.VFXEffect, VFX.VFXScene;
 @protocol MTLTexture;
 
 @interface VFX.VFXRendererLegacy
 {
-    _TtC3VFX8VFXScene *scene;
-    _TtC3VFX9VFXEffect *effect;
-    MISSING_TYPE *renderer;
+    VFX.VFXScene *scene;
+    VFX.VFXEffect *effect;
+    id renderer;
     id <MTLTexture> texture;
     id <MTLTexture> depthTexture;
     UIColor *backgroundColor;
-    _TtC3VFX13VFXCoreCamera *pointOfView;
-    MISSING_TYPE *performMetalCaptureDuringSnapshot;
+    VFX.VFXCoreCamera *pointOfView;
+    id performMetalCaptureDuringSnapshot;
     void postRenderCallback;
 }
 
@@ -51,11 +51,11 @@
 @property(nonatomic) _Bool additiveWritesToAlpha;
 @property(nonatomic, retain) UIColor *backgroundColor; // @synthesize backgroundColor;
 @property(nonatomic, retain) id <MTLTexture> depthTexture; // @synthesize depthTexture;
-@property(nonatomic, retain) _TtC3VFX9VFXEffect *effect; // @synthesize effect;
+@property(nonatomic, retain) VFX.VFXEffect *effect; // @synthesize effect;
 @property(nonatomic) _Bool enableDeferredRendering;
-@property(nonatomic, retain) _TtC3VFX13VFXCoreCamera *pointOfView; // @synthesize pointOfView;
+@property(nonatomic, retain) VFX.VFXCoreCamera *pointOfView; // @synthesize pointOfView;
 @property(nonatomic, copy) CDUnknownBlockType postRenderCallback;
-@property(nonatomic, retain) _TtC3VFX8VFXScene *scene; // @synthesize scene;
+@property(nonatomic, retain) VFX.VFXScene *scene; // @synthesize scene;
 @property(nonatomic, retain) id <MTLTexture> texture; // @synthesize texture;
 
 @end

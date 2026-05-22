@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.RenderBuckets
 {
-    MISSING_TYPE *drawList;
-    MISSING_TYPE *workerIndex;
+    id drawList;
+    id workerIndex;
 }
 
 @end

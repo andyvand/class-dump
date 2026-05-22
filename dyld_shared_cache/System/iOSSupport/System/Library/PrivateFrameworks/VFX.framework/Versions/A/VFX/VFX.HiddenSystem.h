@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.HiddenSystem
 {
-    MISSING_TYPE *addHiddenStateQuery;
-    MISSING_TYPE *deactivateHiddenQuery;
-    MISSING_TYPE *activateNonHiddenQuery;
+    id addHiddenStateQuery;
+    id deactivateHiddenQuery;
+    id activateNonHiddenQuery;
 }
 
 @end

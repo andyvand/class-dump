@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatInspectorPaneViewController
 {
-    MISSING_TYPE *groups;
-    MISSING_TYPE *autoPreferredContentSize;
-    MISSING_TYPE *autoDismissOnLayoutChange;
-    MISSING_TYPE *preferredArrowDirections;
-    MISSING_TYPE *preferredSize;
-    MISSING_TYPE *filterTerm;
-    MISSING_TYPE *filteredGroups;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *image;
-    MISSING_TYPE *contentSizeObserver;
+    id groups;
+    id autoPreferredContentSize;
+    id autoDismissOnLayoutChange;
+    id preferredArrowDirections;
+    id preferredSize;
+    id filterTerm;
+    id filteredGroups;
+    id tableView;
+    id editor;
+    id image;
+    id contentSizeObserver;
 }
 
 - (id);

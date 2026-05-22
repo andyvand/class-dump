@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.PassportSceneView
 {
-    MISSING_TYPE *activityIndicatorView;
-    MISSING_TYPE *sceneView;
-    MISSING_TYPE *cameraNode;
-    MISSING_TYPE *passportNode;
-    MISSING_TYPE *phoneNode;
-    MISSING_TYPE *bottomGradientLayer;
-    MISSING_TYPE *isAnimationPlaying;
-    MISSING_TYPE *isPreparingScene;
-    MISSING_TYPE *onPreparedSceneCompletion;
-    MISSING_TYPE *isChipReading;
-    MISSING_TYPE *chipReadingProgress;
-    MISSING_TYPE *chipReadingSuccess;
-    MISSING_TYPE *isFaded;
-    MISSING_TYPE *interfaceStyle;
-    MISSING_TYPE *phoneModel;
-    MISSING_TYPE *passportInformation;
-    MISSING_TYPE *onAnimationPlayStateUpdated;
+    id activityIndicatorView;
+    id sceneView;
+    id cameraNode;
+    id passportNode;
+    id phoneNode;
+    id bottomGradientLayer;
+    id isAnimationPlaying;
+    id isPreparingScene;
+    id onPreparedSceneCompletion;
+    id isChipReading;
+    id chipReadingProgress;
+    id chipReadingSuccess;
+    id isFaded;
+    id interfaceStyle;
+    id phoneModel;
+    id passportInformation;
+    id onAnimationPlayStateUpdated;
 }
 
 - (void);

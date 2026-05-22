@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioPlaybackOptionsAlertPresenter
 {
-    MISSING_TYPE *headlineProviderFactory;
-    MISSING_TYPE *audioActionSheetProvider;
+    id headlineProviderFactory;
+    id audioActionSheetProvider;
 }
 
 @end

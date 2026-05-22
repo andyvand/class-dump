@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.InterpolatedMoonDataProvider
 {
-    MISSING_TYPE *interpolationProvider;
-    MISSING_TYPE *moonDataProvider;
-    MISSING_TYPE *moonStringBuilder;
-    MISSING_TYPE *startOfDayCalculator;
+    id interpolationProvider;
+    id moonDataProvider;
+    id moonStringBuilder;
+    id startOfDayCalculator;
 }
 
 @end

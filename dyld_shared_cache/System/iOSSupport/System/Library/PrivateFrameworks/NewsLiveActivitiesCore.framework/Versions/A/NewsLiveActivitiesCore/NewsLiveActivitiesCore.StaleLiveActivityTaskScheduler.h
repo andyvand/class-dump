@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsLiveActivitiesCore.StaleLiveActivityTaskScheduler
 {
-    MISSING_TYPE *liveActivityController;
+    id liveActivityController;
 }
 
 @end

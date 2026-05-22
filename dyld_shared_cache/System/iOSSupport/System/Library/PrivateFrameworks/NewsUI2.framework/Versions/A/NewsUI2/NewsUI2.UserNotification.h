@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.UserNotification
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *kind;
-    MISSING_TYPE *title;
-    MISSING_TYPE *subtitle;
-    MISSING_TYPE *message;
-    MISSING_TYPE *threadIdentifier;
-    MISSING_TYPE *deliveryStatus;
-    MISSING_TYPE *payload;
+    id identifier;
+    id kind;
+    id title;
+    id subtitle;
+    id message;
+    id threadIdentifier;
+    id deliveryStatus;
+    id payload;
 }
 
 - (id);

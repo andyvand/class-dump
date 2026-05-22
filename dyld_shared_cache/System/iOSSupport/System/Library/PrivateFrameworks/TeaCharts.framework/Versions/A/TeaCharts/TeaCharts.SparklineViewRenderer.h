@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.SparklineViewRenderer
 {
-    MISSING_TYPE *imageLoader;
-    MISSING_TYPE *reuseProtector;
-    MISSING_TYPE *cache;
+    id imageLoader;
+    id reuseProtector;
+    id cache;
 }
 
 - (void);

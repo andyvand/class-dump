@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SmartShortcutPickerSelectionCoordinator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *style;
-    MISSING_TYPE *selectionHandler;
-    MISSING_TYPE *errorHandler;
-    MISSING_TYPE *parameterEditingCoordinator;
+    id delegate;
+    id style;
+    id selectionHandler;
+    id errorHandler;
+    id parameterEditingCoordinator;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsKit.NewsKitModule
 {
-    MISSING_TYPE *container;
-    MISSING_TYPE *$__lazy_storage_$_resolver;
-    MISSING_TYPE *singletonPool;
-    MISSING_TYPE *$__lazy_storage_$_cloudContext;
-    MISSING_TYPE *$__lazy_storage_$_configurationManager;
+    id container;
+    id $__lazy_storage_$_resolver;
+    id singletonPool;
+    id $__lazy_storage_$_cloudContext;
+    id $__lazy_storage_$_configurationManager;
 }
 
 @end

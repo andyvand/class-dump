@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.HistoricalUsageEnergyManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *defaults;
+    id $defaultActor;
+    id defaults;
 }
 
 @end

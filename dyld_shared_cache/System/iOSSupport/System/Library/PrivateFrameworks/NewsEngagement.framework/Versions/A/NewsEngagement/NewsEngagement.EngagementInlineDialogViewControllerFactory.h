@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsEngagement.EngagementInlineDialogViewControllerFactory
 {
-    MISSING_TYPE *upsellRequestFactory;
-    MISSING_TYPE *debugRequestFactory;
-    MISSING_TYPE *featureSettings;
-    MISSING_TYPE *newsServiceType;
-    MISSING_TYPE *$__lazy_storage_$_smarterMessagingEnabled;
-    MISSING_TYPE *isUpsellDialogRequestFactoryReady;
+    id upsellRequestFactory;
+    id debugRequestFactory;
+    id featureSettings;
+    id newsServiceType;
+    id $__lazy_storage_$_smarterMessagingEnabled;
+    id isUpsellDialogRequestFactoryReady;
 }
 
 @end

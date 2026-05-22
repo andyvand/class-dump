@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFXMemorySerialization
 {
 }
@@ -28,11 +26,11 @@
 + (unsigned long long);
 + (unsigned int);
 + (unsigned short);
-+ (CDStruct_14d5dc5e);
-+ (MISSING_TYPE *);
-+ (CDStruct_d80e62f2);
-+ (MISSING_TYPE *);
-+ (MISSING_TYPE *);
++ (CDStruct_95fa7c00);
++ (id);
++ (CDStruct_c27faaab);
++ (id);
++ (id);
 + (id);
 + (long long);
 + (BOOL);

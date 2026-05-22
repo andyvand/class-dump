@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.Plugin
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *isSticky;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *layoutRevision;
-    MISSING_TYPE *layoutRevisionLock;
-    MISSING_TYPE *previousSize;
-    MISSING_TYPE *previousSizeLock;
-    MISSING_TYPE *initializingPromise;
+    id identifier;
+    id isSticky;
+    id delegate;
+    id viewController;
+    id layoutRevision;
+    id layoutRevisionLock;
+    id previousSize;
+    id previousSizeLock;
+    id initializingPromise;
 }
 
 @end

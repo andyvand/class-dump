@@ -12,8 +12,8 @@
     unsigned long long _bindingMode;
     struct {
         unsigned int vertexCount;
-        CDStruct_14d5dc5e innerLayerToDeformedTransform;
-        CDStruct_14d5dc5e outerLayerToDeformedTransform;
+        CDStruct_95fa7c00 innerLayerToDeformedTransform;
+        CDStruct_95fa7c00 outerLayerToDeformedTransform;
     } _uniforms;
     struct __CFXNode *_innerLayerNode;
     struct __CFXNode *_outerLayerNode;
@@ -30,7 +30,7 @@
     _Bool _isLegacySingleLayerDeformer;
     struct {
         unsigned int vertexCount;
-        CDStruct_14d5dc5e driverToDeformedTransform;
+        CDStruct_95fa7c00 driverToDeformedTransform;
     } _legacyUniforms;
     struct __CFXNode *_legacyDrivingNode;
     id <MTLBuffer> _legacyOffsetsOrTransformsBuffer;

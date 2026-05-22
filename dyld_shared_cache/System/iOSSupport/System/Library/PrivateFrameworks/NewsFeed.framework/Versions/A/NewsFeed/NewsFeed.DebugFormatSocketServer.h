@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatSocketServer
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *connection;
-    MISSING_TYPE *serverQueue;
-    MISSING_TYPE *reloadQueue;
-    MISSING_TYPE *reloadOperationQueue;
-    MISSING_TYPE *reloadBlock;
-    MISSING_TYPE *encoder;
-    MISSING_TYPE *decoder;
+    id editor;
+    id connection;
+    id serverQueue;
+    id reloadQueue;
+    id reloadOperationQueue;
+    id reloadBlock;
+    id encoder;
+    id decoder;
 }
 
 - (id);

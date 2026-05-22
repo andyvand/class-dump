@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.CelestialEphemeris
 {
-    MISSING_TYPE *ephemeris;
-    MISSING_TYPE *lock;
+    id ephemeris;
+    id lock;
 }
 
 @end

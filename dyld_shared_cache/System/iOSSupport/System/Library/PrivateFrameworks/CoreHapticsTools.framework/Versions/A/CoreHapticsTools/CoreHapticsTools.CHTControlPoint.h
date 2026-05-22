@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTControlPoint
 {
-    MISSING_TYPE *undoRedoManager;
-    MISSING_TYPE *observerManager;
-    MISSING_TYPE *_time;
-    MISSING_TYPE *_value;
-    MISSING_TYPE *type;
+    id undoRedoManager;
+    id observerManager;
+    id _time;
+    id _value;
+    id type;
 }
 
 - (id);

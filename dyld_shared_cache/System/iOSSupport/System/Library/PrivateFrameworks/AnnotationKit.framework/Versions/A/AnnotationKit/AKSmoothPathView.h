@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKBitmapFIFO, AKController, CHBoxcarFilterPointFIFO, CHPointStrokeFIFO, CHQuadCurvePointFIFO, MISSING_TYPE, NSString, UIColor;
+@class AKBitmapFIFO, AKController, CHBoxcarFilterPointFIFO, CHPointStrokeFIFO, CHQuadCurvePointFIFO, NSString, UIColor;
 @protocol AKSmoothPathViewDelegate;
 
 @interface AKSmoothPathView
@@ -37,7 +37,7 @@
 }
 
 + (id);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -83,7 +83,7 @@
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (struct CGContext *);
 - (double);
 - (double);

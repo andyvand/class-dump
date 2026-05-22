@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.TranscriptAlignmentController.Unimplemented
 {
-    MISSING_TYPE *currentItem;
-    MISSING_TYPE *isEnabled;
+    id currentItem;
+    id isEnabled;
 }
 
 + (unsigned int);

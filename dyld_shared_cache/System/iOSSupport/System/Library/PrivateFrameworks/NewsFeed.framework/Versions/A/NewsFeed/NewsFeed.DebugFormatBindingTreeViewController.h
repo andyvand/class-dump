@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatBindingTreeViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *$__lazy_storage_$_bindingTreeViewController;
-    MISSING_TYPE *$__lazy_storage_$_model;
+    id editor;
+    id styler;
+    id $__lazy_storage_$_bindingTreeViewController;
+    id $__lazy_storage_$_model;
 }
 
 - (id);

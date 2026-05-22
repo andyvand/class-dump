@@ -6,15 +6,13 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIBackgroundExtensionView : UIView
 {
-    MISSING_TYPE *isObservingContentViewGeometry;
+    id isObservingContentViewGeometry;
     UIView *contentView;
-    MISSING_TYPE *_disableBlurEffects;
+    id _disableBlurEffects;
     _Bool automaticallyPlacesContentView;
-    MISSING_TYPE *effectsView;
+    id effectsView;
 }
 
 - (void);

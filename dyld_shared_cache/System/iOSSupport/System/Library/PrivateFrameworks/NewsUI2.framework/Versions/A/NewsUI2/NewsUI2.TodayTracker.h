@@ -4,37 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayTracker
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *blueprintLayoutProvider;
-    MISSING_TYPE *blueprintLayoutCollectionProvider;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *issueModelFactory;
-    MISSING_TYPE *sectionPositionProvider;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *headlineExposureTracker;
-    MISSING_TYPE *trackerConfiguration;
-    MISSING_TYPE *audioPlaybackContext;
-    MISSING_TYPE *$__lazy_storage_$_adInstrumentationEnabled;
-    MISSING_TYPE *todayActivityRegistrationType;
-    MISSING_TYPE *hasRegisteredUserActivity;
-    MISSING_TYPE *issueReadingHistory;
-    MISSING_TYPE *upsellManager;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *gapOnscreenTimer;
-    MISSING_TYPE *articleViewingSession;
-    MISSING_TYPE *recipeViewingSession;
-    MISSING_TYPE *subscriptionRouter;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *feedDismissingManager;
+    id delegate;
+    id tracker;
+    id blueprintProvider;
+    id blueprintLayoutProvider;
+    id blueprintLayoutCollectionProvider;
+    id scienceDataFactory;
+    id channelDataFactory;
+    id articleDataFactory;
+    id issueModelFactory;
+    id sectionPositionProvider;
+    id newsActivityManager;
+    id headlineExposureTracker;
+    id trackerConfiguration;
+    id audioPlaybackContext;
+    id $__lazy_storage_$_adInstrumentationEnabled;
+    id todayActivityRegistrationType;
+    id hasRegisteredUserActivity;
+    id issueReadingHistory;
+    id upsellManager;
+    id puzzleHistoryService;
+    id commandCenter;
+    id gapOnscreenTimer;
+    id articleViewingSession;
+    id recipeViewingSession;
+    id subscriptionRouter;
+    id contentAvailabilityValidator;
+    id feedDismissingManager;
 }
 
 @end

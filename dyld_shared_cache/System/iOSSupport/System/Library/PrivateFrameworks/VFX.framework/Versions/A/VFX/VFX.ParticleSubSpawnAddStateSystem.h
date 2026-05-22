@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleSubSpawnAddStateSystem
 {
-    MISSING_TYPE *restartState;
-    MISSING_TYPE *addState;
-    MISSING_TYPE *removeState;
+    id restartState;
+    id addState;
+    id removeState;
 }
 
 @end

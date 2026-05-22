@@ -6,31 +6,31 @@
 
 #import <UIKitCore/_UIButtonBarButtonVisualProvider.h>
 
-@class MISSING_TYPE, UIColor, UIView;
+@class UIColor, UIView;
 
 @interface UIKit.ButtonBarButtonVisualProvider : _UIButtonBarButtonVisualProvider
 {
-    MISSING_TYPE *currentConstraints;
-    MISSING_TYPE *oldConstraints;
-    MISSING_TYPE *backIndicatorButton;
-    MISSING_TYPE *backButtonMask;
-    MISSING_TYPE *titleButton;
-    MISSING_TYPE *imageButton;
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *barButtonTitleAttributes;
-    MISSING_TYPE *finalTitleAttributes;
-    MISSING_TYPE *backgroundImages;
-    MISSING_TYPE *titleContent;
-    MISSING_TYPE *titleLookup;
-    MISSING_TYPE *backButtonTitleMaxWidthConstraint;
-    MISSING_TYPE *menuProvider;
-    MISSING_TYPE *systemItem;
-    MISSING_TYPE *appearanceDelegate;
-    MISSING_TYPE *imageHasBaseline;
-    MISSING_TYPE *_backButtonMaskEnabled;
-    MISSING_TYPE *style;
-    MISSING_TYPE *isSystemItem;
-    MISSING_TYPE *backButtonContentTrailingPadding;
+    id currentConstraints;
+    id oldConstraints;
+    id backIndicatorButton;
+    id backButtonMask;
+    id titleButton;
+    id imageButton;
+    id backgroundView;
+    id barButtonTitleAttributes;
+    id finalTitleAttributes;
+    id backgroundImages;
+    id titleContent;
+    id titleLookup;
+    id backButtonTitleMaxWidthConstraint;
+    id menuProvider;
+    id systemItem;
+    id appearanceDelegate;
+    id imageHasBaseline;
+    id _backButtonMaskEnabled;
+    id style;
+    id isSystemItem;
+    id backButtonContentTrailingPadding;
 }
 
 - (void);

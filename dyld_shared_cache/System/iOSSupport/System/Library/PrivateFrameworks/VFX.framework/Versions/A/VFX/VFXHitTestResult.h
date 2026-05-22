@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, VFXNode;
+@class VFXNode;
 
 @interface VFXHitTestResult
 {
@@ -15,15 +15,15 @@
 - (float);
 - (id);
 - (long long);
-- (MISSING_TYPE *);
 - (id);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
+- (id);
 - (struct CGPoint);
 - (struct CGPoint);
-- (CDStruct_14d5dc5e);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (CDStruct_95fa7c00);
+- (id);
+- (id);
 - (long long);
 - (long long);
 - (id);
@@ -36,13 +36,13 @@
 @property(readonly, nonatomic) VFXNode *boneNode;
 @property(readonly, nonatomic) long long faceIndex;
 @property(readonly, nonatomic) long long geometryIndex;
-@property(readonly, nonatomic) MISSING_TYPE *localCoordinates;
-@property(readonly, nonatomic) MISSING_TYPE *localNormal;
+@property(readonly, nonatomic) id localCoordinates;
+@property(readonly, nonatomic) id localNormal;
 @property(readonly, nonatomic) long long meshElementIndex;
-@property(readonly, nonatomic) CDStruct_14d5dc5e modelTransform;
+@property(readonly, nonatomic) CDStruct_95fa7c00 modelTransform;
 @property(readonly, nonatomic) VFXNode *node;
-@property(readonly, nonatomic) MISSING_TYPE *worldCoordinates;
-@property(readonly, nonatomic) MISSING_TYPE *worldNormal;
+@property(readonly, nonatomic) id worldCoordinates;
+@property(readonly, nonatomic) id worldNormal;
 
 @end
 

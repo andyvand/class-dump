@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsManagementBlueprintViewHeaderProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *titleViewRenderer;
+    id delegate;
+    id titleViewRenderer;
 }
 
 @end

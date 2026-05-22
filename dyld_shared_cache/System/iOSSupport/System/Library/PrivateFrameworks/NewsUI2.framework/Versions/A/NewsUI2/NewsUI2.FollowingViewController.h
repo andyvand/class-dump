@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *blueprintSelectionProvider;
-    MISSING_TYPE *purchaseController;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *previousSelectedIndexPath;
-    MISSING_TYPE *commands;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *followingTabGroupManager;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *offlineBannerCoordinator;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id blueprintSelectionProvider;
+    id purchaseController;
+    id bundleSubscriptionManager;
+    id previousSelectedIndexPath;
+    id commands;
+    id newsActivityManager;
+    id featureAvailability;
+    id offlineProvider;
+    id followingTabGroupManager;
+    id tipManager;
+    id offlineBannerCoordinator;
 }
 
 - (void);

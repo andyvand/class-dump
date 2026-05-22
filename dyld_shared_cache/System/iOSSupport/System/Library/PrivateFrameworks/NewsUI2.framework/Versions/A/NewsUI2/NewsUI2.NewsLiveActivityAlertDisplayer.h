@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsLiveActivityAlertDisplayer
 {
-    MISSING_TYPE *followedAlertsThreshold;
-    MISSING_TYPE *scheduledAlertsThreshold;
-    MISSING_TYPE *navigator;
+    id followedAlertsThreshold;
+    id scheduledAlertsThreshold;
+    id navigator;
 }
 
 @end

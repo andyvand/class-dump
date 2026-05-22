@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSwitchNodeCase
 {
-    MISSING_TYPE *expression;
-    MISSING_TYPE *_children;
+    id expression;
+    id _children;
 }
 
 @end

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.TranslationInteractionController
 {
-    MISSING_TYPE *session;
-    MISSING_TYPE *currentStartSessionTask;
-    MISSING_TYPE *needsToJoinGroupSession;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *call;
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *featureFlags;
-    MISSING_TYPE *sessionCancellables;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *activitySession;
-    MISSING_TYPE *currentTelephonyConversation;
-    MISSING_TYPE *needsToReportRemoteStarted;
-    MISSING_TYPE *sessionObserverTask;
+    id session;
+    id currentStartSessionTask;
+    id needsToJoinGroupSession;
+    id lock;
+    id call;
+    id callCenter;
+    id featureFlags;
+    id sessionCancellables;
+    id observers;
+    id activitySession;
+    id currentTelephonyConversation;
+    id needsToReportRemoteStarted;
+    id sessionObserverTask;
 }
 
 - (void);

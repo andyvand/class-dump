@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.CNContactAvatarContact
 {
-    MISSING_TYPE *contact;
-    MISSING_TYPE *avatarStoreCache;
-    MISSING_TYPE *canAsyncRender;
-    MISSING_TYPE *$__lazy_storage_$_id;
-    MISSING_TYPE *$__lazy_storage_$_initials;
-    MISSING_TYPE *$__lazy_storage_$_isOrganization;
-    MISSING_TYPE *$__lazy_storage_$_imageCropRect;
-    MISSING_TYPE *_fullImageState;
-    MISSING_TYPE *_thumbnailImageState;
+    id contact;
+    id avatarStoreCache;
+    id canAsyncRender;
+    id $__lazy_storage_$_id;
+    id $__lazy_storage_$_initials;
+    id $__lazy_storage_$_isOrganization;
+    id $__lazy_storage_$_imageCropRect;
+    id _fullImageState;
+    id _thumbnailImageState;
 }
 
 @end

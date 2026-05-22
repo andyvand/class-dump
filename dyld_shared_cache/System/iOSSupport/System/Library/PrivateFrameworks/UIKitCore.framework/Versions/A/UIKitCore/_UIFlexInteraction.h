@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 @protocol _UIFlexInteractionDelegate;
 
 @interface _UIFlexInteraction
@@ -12,7 +12,7 @@
     unsigned long long preferredActivationMode;
     unsigned long long preferredFlexSources;
     long long preferredVariant;
-    MISSING_TYPE *glassInfo;
+    id glassInfo;
     void delegate;
 }
 

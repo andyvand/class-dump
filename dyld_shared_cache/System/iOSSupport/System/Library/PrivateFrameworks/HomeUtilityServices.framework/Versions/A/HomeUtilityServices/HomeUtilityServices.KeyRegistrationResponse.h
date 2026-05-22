@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUtilityServices.KeyRegistrationResponse
 {
-    MISSING_TYPE *keyId;
-    MISSING_TYPE *generatedTimestamp;
+    id keyId;
+    id generatedTimestamp;
 }
 
 - (id);

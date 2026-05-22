@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.UnitConfigDataManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *unitManager;
+    id $defaultActor;
+    id unitManager;
 }
 
 @end

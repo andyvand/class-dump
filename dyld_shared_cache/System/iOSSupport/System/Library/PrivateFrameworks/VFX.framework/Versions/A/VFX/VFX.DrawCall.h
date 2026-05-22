@@ -4,37 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.DrawCall
 {
-    MISSING_TYPE *primitiveType;
-    MISSING_TYPE *renderingOrder;
-    MISSING_TYPE *indexBuffer;
-    MISSING_TYPE *indexType;
-    MISSING_TYPE *indexCount;
-    MISSING_TYPE *simplifiedIndexBuffer;
-    MISSING_TYPE *vertexCount;
-    MISSING_TYPE *vertexOffset;
-    MISSING_TYPE *instanceCount;
-    MISSING_TYPE *instanceOffset;
-    MISSING_TYPE *stencilReferenceValueFront;
-    MISSING_TYPE *stencilReferenceValueBack;
-    MISSING_TYPE *winding;
-    MISSING_TYPE *cullMode;
-    MISSING_TYPE *fillMode;
-    MISSING_TYPE *clipMode;
-    MISSING_TYPE *inverseWinding;
-    MISSING_TYPE *tessellationFactorBuffer;
-    MISSING_TYPE *meshThreadsPerGrid;
-    MISSING_TYPE *threadsPerObjectThreadgroup;
-    MISSING_TYPE *threadsPerMeshThreadgroup;
-    MISSING_TYPE *needPBR;
-    MISSING_TYPE *isAdditive;
-    MISSING_TYPE *renderStatesPerVariant;
-    MISSING_TYPE *arguments;
-    MISSING_TYPE *indirectBuffer;
-    MISSING_TYPE *renderGraphMaterialOverride;
+    id primitiveType;
+    id renderingOrder;
+    id indexBuffer;
+    id indexType;
+    id indexCount;
+    id simplifiedIndexBuffer;
+    id vertexCount;
+    id vertexOffset;
+    id instanceCount;
+    id instanceOffset;
+    id stencilReferenceValueFront;
+    id stencilReferenceValueBack;
+    id winding;
+    id cullMode;
+    id fillMode;
+    id clipMode;
+    id inverseWinding;
+    id tessellationFactorBuffer;
+    id meshThreadsPerGrid;
+    id threadsPerObjectThreadgroup;
+    id threadsPerMeshThreadgroup;
+    id needPBR;
+    id isAdditive;
+    id renderStatesPerVariant;
+    id arguments;
+    id indirectBuffer;
+    id renderGraphMaterialOverride;
 }
 
 @end

@@ -193,7 +193,7 @@
 + (void);
 + (_Bool);
 + (id);
-+ (CDStruct_d80e62f2);
++ (CDStruct_c27faaab);
 + (void);
 + (void)0@ù
 × ;

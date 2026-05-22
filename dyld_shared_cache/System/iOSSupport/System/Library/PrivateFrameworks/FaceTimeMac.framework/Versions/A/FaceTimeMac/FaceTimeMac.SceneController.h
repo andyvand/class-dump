@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.SceneController
 {
-    MISSING_TYPE *scenes;
-    MISSING_TYPE *sceneActivationCallbacks;
-    MISSING_TYPE *sceneLifecycleMonitor;
-    MISSING_TYPE *sceneSessionActivator;
-    MISSING_TYPE *windowPreferenceProvider;
-    MISSING_TYPE *appKitHelper;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *eventObserver;
+    id scenes;
+    id sceneActivationCallbacks;
+    id sceneLifecycleMonitor;
+    id sceneSessionActivator;
+    id windowPreferenceProvider;
+    id appKitHelper;
+    id logger;
+    id eventObserver;
 }
 
 @end

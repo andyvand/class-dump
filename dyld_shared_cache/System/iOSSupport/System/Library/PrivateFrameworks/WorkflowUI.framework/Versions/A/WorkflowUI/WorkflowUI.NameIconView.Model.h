@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.NameIconView.Model
 {
-    MISSING_TYPE *_runButtonModel;
-    MISSING_TYPE *_progress;
-    MISSING_TYPE *_popoverModel;
-    MISSING_TYPE *_isHovered;
-    MISSING_TYPE *onStop;
+    id _runButtonModel;
+    id _progress;
+    id _popoverModel;
+    id _isHovered;
+    id onStop;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatLabelLinkHandler
 {
-    MISSING_TYPE *label;
-    MISSING_TYPE *tapGestureRecognizer;
-    MISSING_TYPE *link;
-    MISSING_TYPE *linkBlock;
+    id label;
+    id tapGestureRecognizer;
+    id link;
+    id linkBlock;
 }
 
 - (void);

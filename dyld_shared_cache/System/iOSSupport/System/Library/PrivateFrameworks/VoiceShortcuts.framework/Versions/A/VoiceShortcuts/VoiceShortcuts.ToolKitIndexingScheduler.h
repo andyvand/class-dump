@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.ToolKitIndexingScheduler
 {
-    MISSING_TYPE *workQueue;
-    MISSING_TYPE *debouncer;
-    MISSING_TYPE *enabled;
+    id workQueue;
+    id debouncer;
+    id enabled;
 }
 
 - (void);

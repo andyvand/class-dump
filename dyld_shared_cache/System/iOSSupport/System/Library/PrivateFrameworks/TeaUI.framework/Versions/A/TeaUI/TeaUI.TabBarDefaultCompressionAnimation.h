@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.TabBarDefaultCompressionAnimation
 {
     double topOffset;
     _Bool shouldCompressAtTop;
     _Bool shouldCloseGapOnScroll;
-    MISSING_TYPE *tabBarController;
+    id tabBarController;
 }
 
 - (void);

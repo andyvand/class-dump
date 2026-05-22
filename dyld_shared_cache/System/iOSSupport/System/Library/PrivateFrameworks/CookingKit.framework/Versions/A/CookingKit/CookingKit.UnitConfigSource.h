@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.UnitConfigSource
 {
-    MISSING_TYPE *_locale;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *unitManager;
-    MISSING_TYPE *task;
-    MISSING_TYPE *state;
+    id _locale;
+    id _$scope;
+    id unitManager;
+    id task;
+    id state;
 }
 
 @end

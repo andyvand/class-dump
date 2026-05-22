@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.CurrentObservationsHeaderViewStyleFactory
 {
-    MISSING_TYPE *sizeCategory;
-    MISSING_TYPE *footnoteUIFont;
+    id sizeCategory;
+    id footnoteUIFont;
 }
 
 @end

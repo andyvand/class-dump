@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DiagnosticFileProvider
 {
-    MISSING_TYPE *webEmbedDiagnosticAttachmentProvider;
-    MISSING_TYPE *attachmentResolver;
+    id webEmbedDiagnosticAttachmentProvider;
+    id attachmentResolver;
 }
 
 - (id);

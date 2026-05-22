@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchHomeContainerController
 {
-    MISSING_TYPE *searchBar;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *searchHomeViewController;
-    MISSING_TYPE *searchResultsViewController;
-    MISSING_TYPE *filterBarHostingController;
-    MISSING_TYPE *filterBarViewModel;
-    MISSING_TYPE *currentSearchTerm;
-    MISSING_TYPE *currentFilteredTagIDs;
-    MISSING_TYPE *currentTopRated;
-    MISSING_TYPE *searchOrigination;
-    MISSING_TYPE *filterProvider;
-    MISSING_TYPE *$__lazy_storage_$_tapGesture;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *presentationState;
+    id searchBar;
+    id delegate;
+    id styler;
+    id searchHomeViewController;
+    id searchResultsViewController;
+    id filterBarHostingController;
+    id filterBarViewModel;
+    id currentSearchTerm;
+    id currentFilteredTagIDs;
+    id currentTopRated;
+    id searchOrigination;
+    id filterProvider;
+    id $__lazy_storage_$_tapGesture;
+    id featureAvailability;
+    id presentationState;
 }
 
 - (void);

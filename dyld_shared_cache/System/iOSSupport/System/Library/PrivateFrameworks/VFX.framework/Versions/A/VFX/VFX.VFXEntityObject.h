@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, _TtC3VFX20EntityPropertyHelper;
+@class NSString, VFX.EntityPropertyHelper;
 
 @interface VFX.VFXEntityObject
 {
-    MISSING_TYPE *entity;
+    id entity;
     void handle;
-    MISSING_TYPE *referencedEntityManager;
-    MISSING_TYPE *localEntityManager;
-    MISSING_TYPE *_isTombstoned;
+    id referencedEntityManager;
+    id localEntityManager;
+    id _isTombstoned;
 }
 
 - (void);
@@ -50,8 +50,8 @@
 @property(nonatomic) _Bool isEnabled;
 @property(nonatomic, readonly) long long objectID;
 @property(nonatomic, readonly) id opaqueEntityManager;
-@property(nonatomic, readonly) _TtC3VFX20EntityPropertyHelper *presentationProperties;
-@property(nonatomic, readonly) _TtC3VFX20EntityPropertyHelper *properties;
+@property(nonatomic, readonly) VFX.EntityPropertyHelper *presentationProperties;
+@property(nonatomic, readonly) VFX.EntityPropertyHelper *properties;
 @property(nonatomic, copy) NSString *tag;
 
 @end

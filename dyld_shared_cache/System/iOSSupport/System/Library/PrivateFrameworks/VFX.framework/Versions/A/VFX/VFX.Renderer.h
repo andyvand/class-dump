@@ -4,53 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.Renderer
 {
-    MISSING_TYPE *gpuDevice;
-    MISSING_TYPE *features;
-    MISSING_TYPE *updateHandlerIndex;
-    MISSING_TYPE *engineContext;
-    MISSING_TYPE *reContext;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *renderOutputs;
-    MISSING_TYPE *renderOutputsForThisFrame;
-    MISSING_TYPE *shaderCache;
-    MISSING_TYPE *textureCache;
-    MISSING_TYPE *depthStencilCache;
-    MISSING_TYPE *texturePool;
-    MISSING_TYPE *renderGraph;
-    MISSING_TYPE *uniformValidationBuffer;
-    MISSING_TYPE *bufferPool;
-    MISSING_TYPE *bufferPoolIsActive;
-    MISSING_TYPE *wholeFrameBufferPool;
-    MISSING_TYPE *captureInProgress;
-    MISSING_TYPE *commandQueue;
-    MISSING_TYPE *additiveWritesToAlpha;
-    MISSING_TYPE *hideOpaquePass;
-    MISSING_TYPE *hideTransparentPass;
-    MISSING_TYPE *isPostFXEnabled;
-    MISSING_TYPE *hasMissingPipelineState;
-    MISSING_TYPE *currentCommandBufferHelper;
-    MISSING_TYPE *renderOutputRenderPassFormat;
-    MISSING_TYPE *globalFunctionConstants;
-    MISSING_TYPE *inFlightSemaphore;
-    MISSING_TYPE *options;
-    MISSING_TYPE *defaultSampler;
-    MISSING_TYPE *defaultSamplerRepeatTrilinear;
-    MISSING_TYPE *defaultSamplerClampMipNearest;
-    MISSING_TYPE *defaultSamplerRepeatMipNearest;
-    MISSING_TYPE *defaultSamplerRepeatSMipNearest;
-    MISSING_TYPE *defaultSamplerMirrorRepeatMipNearest;
-    MISSING_TYPE *variantDescriptorTracker;
-    MISSING_TYPE *resourceCommandBuffer;
-    MISSING_TYPE *_current;
-    MISSING_TYPE *colorRamps;
-    MISSING_TYPE *curves;
-    MISSING_TYPE *monotonicIncreasingOrder;
-    MISSING_TYPE *stripIndexBuffers;
-    MISSING_TYPE *deformedBuffers;
+    id gpuDevice;
+    id features;
+    id updateHandlerIndex;
+    id engineContext;
+    id reContext;
+    id lock;
+    id renderOutputs;
+    id renderOutputsForThisFrame;
+    id shaderCache;
+    id textureCache;
+    id depthStencilCache;
+    id texturePool;
+    id renderGraph;
+    id uniformValidationBuffer;
+    id bufferPool;
+    id bufferPoolIsActive;
+    id wholeFrameBufferPool;
+    id captureInProgress;
+    id commandQueue;
+    id additiveWritesToAlpha;
+    id hideOpaquePass;
+    id hideTransparentPass;
+    id isPostFXEnabled;
+    id hasMissingPipelineState;
+    id currentCommandBufferHelper;
+    id renderOutputRenderPassFormat;
+    id globalFunctionConstants;
+    id inFlightSemaphore;
+    id options;
+    id defaultSampler;
+    id defaultSamplerRepeatTrilinear;
+    id defaultSamplerClampMipNearest;
+    id defaultSamplerRepeatMipNearest;
+    id defaultSamplerRepeatSMipNearest;
+    id defaultSamplerMirrorRepeatMipNearest;
+    id variantDescriptorTracker;
+    id resourceCommandBuffer;
+    id _current;
+    id colorRamps;
+    id curves;
+    id monotonicIncreasingOrder;
+    id stripIndexBuffers;
+    id deformedBuffers;
 }
 
 @end

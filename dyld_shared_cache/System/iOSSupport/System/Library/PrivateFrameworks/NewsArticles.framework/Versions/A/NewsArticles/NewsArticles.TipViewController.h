@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.TipViewController
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *requestFactory;
-    MISSING_TYPE *useFullScreenWidth;
-    MISSING_TYPE *startDate;
+    id config;
+    id eventHandler;
+    id requestFactory;
+    id useFullScreenWidth;
+    id startDate;
 }
 
 - (long long);

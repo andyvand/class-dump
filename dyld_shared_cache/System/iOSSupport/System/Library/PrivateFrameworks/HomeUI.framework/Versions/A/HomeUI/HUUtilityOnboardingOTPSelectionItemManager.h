@@ -5,11 +5,11 @@
 //
 
 @class HFItem, NSArray;
-@protocol _TtP6HomeUI31UtilityOnboardingObjCCompatible_;
+@protocol HomeUI.UtilityOnboardingObjCCompatible;
 
 @interface HUUtilityOnboardingOTPSelectionItemManager
 {
-    id <_TtP6HomeUI31UtilityOnboardingObjCCompatible_> _context;
+    id <HomeUI.UtilityOnboardingObjCCompatible> _context;
     NSArray *_factors;
     HFItem *_selectedFactor;
 }
@@ -26,7 +26,7 @@
 - (void)ic}@);
 
 // Remaining properties
-@property(retain, nonatomic) id <_TtP6HomeUI31UtilityOnboardingObjCCompatible_> context; // @synthesize context=_context;
+@property(retain, nonatomic) id <HomeUI.UtilityOnboardingObjCCompatible> context; // @synthesize context=_context;
 @property(retain, nonatomic) NSArray *factors; // @synthesize factors=_factors;
 @property(retain, nonatomic) HFItem *selectedFactor; // @synthesize selectedFactor=_selectedFactor;
 

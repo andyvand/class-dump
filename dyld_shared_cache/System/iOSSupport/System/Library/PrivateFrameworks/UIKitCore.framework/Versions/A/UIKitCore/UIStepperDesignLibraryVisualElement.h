@@ -6,7 +6,6 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
 @protocol UIStepperControl;
 
 __attribute__((visibility("hidden")))
@@ -21,19 +20,19 @@ __attribute__((visibility("hidden")))
     _Bool isContinuous;
     _Bool wraps;
     _Bool autorepeat;
-    MISSING_TYPE *isRTL;
-    MISSING_TYPE *coreHostingView;
-    MISSING_TYPE *minusPressed;
-    MISSING_TYPE *plusPressed;
-    MISSING_TYPE *minusEnabled;
-    MISSING_TYPE *plusEnabled;
-    MISSING_TYPE *repeatTimer;
-    MISSING_TYPE *timerDelay;
-    MISSING_TYPE *fastTimerDelay;
-    MISSING_TYPE *superFastTimerDelay;
-    MISSING_TYPE *fastStartRepeatCount;
-    MISSING_TYPE *superFastStartRepeatCount;
-    MISSING_TYPE *repeatCount;
+    id isRTL;
+    id coreHostingView;
+    id minusPressed;
+    id plusPressed;
+    id minusEnabled;
+    id plusEnabled;
+    id repeatTimer;
+    id timerDelay;
+    id fastTimerDelay;
+    id superFastTimerDelay;
+    id fastStartRepeatCount;
+    id superFastStartRepeatCount;
+    id repeatCount;
 }
 
 + (void);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatBindingTreeItem
 {
-    MISSING_TYPE *feedItem;
-    MISSING_TYPE *feedItemAuxiliary;
-    MISSING_TYPE *options;
-    MISSING_TYPE *selectors;
-    MISSING_TYPE *_isExpanded;
+    id feedItem;
+    id feedItemAuxiliary;
+    id options;
+    id selectors;
+    id _isExpanded;
 }
 
 @end

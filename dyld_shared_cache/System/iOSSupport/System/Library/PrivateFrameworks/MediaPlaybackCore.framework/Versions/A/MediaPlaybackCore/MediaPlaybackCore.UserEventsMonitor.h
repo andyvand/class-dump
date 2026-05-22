@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary;
+@class NSDictionary;
 
 @interface MediaPlaybackCore.UserEventsMonitor
 {
-    MISSING_TYPE *timeout;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *monitors;
-    MISSING_TYPE *reporter;
+    id timeout;
+    id delegate;
+    id monitors;
+    id reporter;
 }
 
 - (void);

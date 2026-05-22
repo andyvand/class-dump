@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.NativeAdService
 {
-    MISSING_TYPE *contextBuilder;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *adManager;
-    MISSING_TYPE *adRequestManager;
-    MISSING_TYPE *adRequestStore;
-    MISSING_TYPE *providers;
+    id contextBuilder;
+    id headlineService;
+    id adManager;
+    id adRequestManager;
+    id adRequestStore;
+    id providers;
 }
 
 @end

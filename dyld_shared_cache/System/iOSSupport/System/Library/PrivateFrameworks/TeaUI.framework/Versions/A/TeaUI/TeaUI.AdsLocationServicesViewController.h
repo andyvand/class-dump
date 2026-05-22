@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.AdsLocationServicesViewController
 {
-    MISSING_TYPE *iconView;
-    MISSING_TYPE *continueCallback;
-    MISSING_TYPE *manageCallback;
-    MISSING_TYPE *onboardingFlowDelegate;
+    id iconView;
+    id continueCallback;
+    id manageCallback;
+    id onboardingFlowDelegate;
 }
 
 - (void);

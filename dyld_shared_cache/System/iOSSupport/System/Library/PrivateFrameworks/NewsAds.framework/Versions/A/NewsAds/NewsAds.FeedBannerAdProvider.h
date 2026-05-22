@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.FeedBannerAdProvider
 {
-    MISSING_TYPE *contextWrapper;
-    MISSING_TYPE *debugBannerProvider;
+    id contextWrapper;
+    id debugBannerProvider;
 }
 
 @end

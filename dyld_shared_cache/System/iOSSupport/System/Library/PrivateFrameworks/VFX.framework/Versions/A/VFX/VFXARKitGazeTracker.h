@@ -8,18 +8,18 @@
 {
 }
 
-- (CDStruct_14d5dc5e);
-- (CDStruct_14d5dc5e);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
+- (CDStruct_95fa7c00);
+- (CDStruct_95fa7c00);
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_14d5dc5e centerTransform;
-@property(readonly, nonatomic) CDStruct_14d5dc5e leftEyeTransform;
-@property(readonly, nonatomic) CDStruct_14d5dc5e rightEyeTransform;
+@property(readonly, nonatomic) CDStruct_95fa7c00 centerTransform;
+@property(readonly, nonatomic) CDStruct_95fa7c00 leftEyeTransform;
+@property(readonly, nonatomic) CDStruct_95fa7c00 rightEyeTransform;
 
 @end
 

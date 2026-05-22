@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingTabGroupSidebarModel
 {
-    MISSING_TYPE *thumbnailSource;
-    MISSING_TYPE *thumbnailDimWhenEditing;
-    MISSING_TYPE *accessories;
+    id thumbnailSource;
+    id thumbnailDimWhenEditing;
+    id accessories;
 }
 
 @end

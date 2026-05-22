@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.LRUIntentCache
 {
-    MISSING_TYPE *cache;
-    MISSING_TYPE *memoryPressureSource;
-    MISSING_TYPE *ttlProvider;
-    MISSING_TYPE *timeProvider;
+    id cache;
+    id memoryPressureSource;
+    id ttlProvider;
+    id timeProvider;
 }
 
 @end

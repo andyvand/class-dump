@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatPuzzleEmbedViewController
 {
-    MISSING_TYPE *puzzleEmbedViewController;
-    MISSING_TYPE *onReuse;
-    MISSING_TYPE *layoutIdentifier;
-    MISSING_TYPE *layoutGuide;
-    MISSING_TYPE *resizingProvider;
-    MISSING_TYPE *onKeyboardWillShow;
-    MISSING_TYPE *onKeyboardWillHide;
-    MISSING_TYPE *teaserInteractionEvents;
-    MISSING_TYPE *currentAccessoryView;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *componentProvider;
+    id puzzleEmbedViewController;
+    id onReuse;
+    id layoutIdentifier;
+    id layoutGuide;
+    id resizingProvider;
+    id onKeyboardWillShow;
+    id onKeyboardWillHide;
+    id teaserInteractionEvents;
+    id currentAccessoryView;
+    id identifier;
+    id componentProvider;
 }
 
 - (void);

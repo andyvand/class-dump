@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUtilityServices.UtilitySupport
 {
-    MISSING_TYPE *customerServicePhone;
-    MISSING_TYPE *customerServiceEmail;
-    MISSING_TYPE *customerServiceSMS;
-    MISSING_TYPE *customerServiceBusinessChat;
+    id customerServicePhone;
+    id customerServiceEmail;
+    id customerServiceSMS;
+    id customerServiceBusinessChat;
 }
 
 - (id);

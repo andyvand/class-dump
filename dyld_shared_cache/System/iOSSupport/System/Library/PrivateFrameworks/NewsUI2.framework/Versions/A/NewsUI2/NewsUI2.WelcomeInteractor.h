@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WelcomeInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *userTypePromise;
-    MISSING_TYPE *feedLoadedPromise;
-    MISSING_TYPE *minimumTimePromise;
-    MISSING_TYPE *maximumTimePromise;
-    MISSING_TYPE *isCloudKitReachablePromise;
-    MISSING_TYPE *minimumTimer;
-    MISSING_TYPE *maximumTimer;
-    MISSING_TYPE *appActivityMonitor;
-    MISSING_TYPE *networkReachability;
-    MISSING_TYPE *heartbeatEventService;
+    id delegate;
+    id dataManager;
+    id userTypePromise;
+    id feedLoadedPromise;
+    id minimumTimePromise;
+    id maximumTimePromise;
+    id isCloudKitReachablePromise;
+    id minimumTimer;
+    id maximumTimer;
+    id appActivityMonitor;
+    id networkReachability;
+    id heartbeatEventService;
 }
 
 - (void);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 @protocol MTLTexture;
 
 @interface PXGUniform
@@ -12,20 +12,20 @@
     float _floatValue;
     NSString *_name;
     unsigned long long _type;
-    MISSING_TYPE *_float2Value;
+    id _float2Value;
     struct CGImage *_image;
     CDUnknownBlockType _textureProvider;
     long long _bytesLength;
     const void *_bytes;
     id <MTLTexture> _cachedTexture;
-    MISSING_TYPE *_float3Value;
-    MISSING_TYPE *_float4Value;
+    id _float3Value;
+    id _float4Value;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -33,9 +33,9 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
+- (id);
 - (long long);
 - (void);
 - (id);
@@ -58,10 +58,10 @@
 @property(readonly, nonatomic) long long bytesLength; // @synthesize bytesLength=_bytesLength;
 @property(retain, nonatomic) id <MTLTexture> cachedTexture; // @synthesize cachedTexture=_cachedTexture;
 @property(readonly, copy, nonatomic) NSString *declaration;
-@property(readonly, nonatomic) MISSING_TYPE *encodableValue;
-@property(nonatomic) MISSING_TYPE *float2Value; // @synthesize float2Value=_float2Value;
-@property(nonatomic) MISSING_TYPE *float3Value; // @synthesize float3Value=_float3Value;
-@property(nonatomic) MISSING_TYPE *float4Value; // @synthesize float4Value=_float4Value;
+@property(readonly, nonatomic) id encodableValue;
+@property(nonatomic) id float2Value; // @synthesize float2Value=_float2Value;
+@property(nonatomic) id float3Value; // @synthesize float3Value=_float3Value;
+@property(nonatomic) id float4Value; // @synthesize float4Value=_float4Value;
 @property(nonatomic) float floatValue; // @synthesize floatValue=_floatValue;
 @property(nonatomic) struct CGImage *image; // @synthesize image=_image;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;

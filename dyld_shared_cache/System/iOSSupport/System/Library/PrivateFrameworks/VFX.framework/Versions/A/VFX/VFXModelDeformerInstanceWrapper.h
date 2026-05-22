@@ -46,10 +46,10 @@
 - (id);
 - (id);
 - (void);
-- (CDStruct_c6fc9200);
+- (CDStruct_f3b280c4);
 - (id);
 - (id);
-- (CDStruct_4c2781bd);
+- (CDStruct_6c538f60);
 - (unsigned long long);
 - (id);
 - (id);

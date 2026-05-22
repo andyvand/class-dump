@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 __attribute__((visibility("hidden")))
 @interface WFInspectorPaneSegmentedControlHostingView
 {
-    MISSING_TYPE *showsDetailsButton;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *selectedPane;
-    MISSING_TYPE *segmentedControl;
+    id showsDetailsButton;
+    id delegate;
+    id selectedPane;
+    id segmentedControl;
 }
 
 - (id);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsEngagement.EngagementUpsellEventProvider
 {
-    MISSING_TYPE *requestFactory;
-    MISSING_TYPE *observersStore;
+    id requestFactory;
+    id observersStore;
 }
 
 - (id);

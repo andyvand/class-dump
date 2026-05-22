@@ -6,13 +6,11 @@
 
 #import <PassKitUI/PKStyledMicaView.h>
 
-@class MISSING_TYPE;
-
 @interface PKApplePayUserEducationDemoAnimationView : PKStyledMicaView
 {
-    MISSING_TYPE *minuteMonitor;
-    MISSING_TYPE *timeFormatter;
-    MISSING_TYPE *layerColorConfigurationSets;
+    id minuteMonitor;
+    id timeFormatter;
+    id layerColorConfigurationSets;
 }
 
 - (void);

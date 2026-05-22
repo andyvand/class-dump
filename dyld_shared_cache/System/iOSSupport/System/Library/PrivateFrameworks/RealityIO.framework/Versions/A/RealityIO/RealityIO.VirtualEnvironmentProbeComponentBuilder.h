@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.VirtualEnvironmentProbeComponentBuilder
 {
-    MISSING_TYPE *rkStructPrimType;
-    MISSING_TYPE *defaultRelativeWeight;
-    MISSING_TYPE *defaultIntensityExponent;
-    MISSING_TYPE *currentIBLAssetPaths;
-    MISSING_TYPE *buildOrder;
-    MISSING_TYPE *didBuild;
+    id rkStructPrimType;
+    id defaultRelativeWeight;
+    id defaultIntensityExponent;
+    id currentIBLAssetPaths;
+    id buildOrder;
+    id didBuild;
 }
 
 @end

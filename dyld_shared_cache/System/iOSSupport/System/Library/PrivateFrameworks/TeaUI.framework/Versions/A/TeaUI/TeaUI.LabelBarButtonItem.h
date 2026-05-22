@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.LabelBarButtonItem
 {
-    MISSING_TYPE *barButtonItemIdentifier;
-    MISSING_TYPE *label;
+    id barButtonItemIdentifier;
+    id label;
 }
 
 - (id);

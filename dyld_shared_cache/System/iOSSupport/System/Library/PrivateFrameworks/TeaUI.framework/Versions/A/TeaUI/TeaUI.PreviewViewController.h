@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PreviewViewController
 {
-    MISSING_TYPE *previewedViewController;
-    MISSING_TYPE *triggeringViewController;
+    id previewedViewController;
+    id triggeringViewController;
 }
 
 - (id);

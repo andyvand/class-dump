@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContentShortcutsConfig
 {
-    MISSING_TYPE *layoutOptionsProvider;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *onRefresh;
+    id layoutOptionsProvider;
+    id identifier;
+    id onRefresh;
 }
 
 - (id);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.SceneServices
 {
-    MISSING_TYPE *scene;
-    MISSING_TYPE *hostControllers;
+    id scene;
+    id hostControllers;
 }
 
 @end

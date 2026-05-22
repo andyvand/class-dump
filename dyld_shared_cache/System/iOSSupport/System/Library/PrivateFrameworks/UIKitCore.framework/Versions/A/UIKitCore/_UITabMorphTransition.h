@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _UITabMorphTransition
 {
-    MISSING_TYPE *hostingContainerView;
-    MISSING_TYPE *groupCompletion;
-    MISSING_TYPE *contentAlongsideAnimation;
-    MISSING_TYPE *activeViewContext;
-    MISSING_TYPE *activeViewContexts;
-    MISSING_TYPE *currentRopeAnimation;
-    MISSING_TYPE *magicMorphView;
-    MISSING_TYPE *intermediateShapeView;
-    MISSING_TYPE *traitObserver;
+    id hostingContainerView;
+    id groupCompletion;
+    id contentAlongsideAnimation;
+    id activeViewContext;
+    id activeViewContexts;
+    id currentRopeAnimation;
+    id magicMorphView;
+    id intermediateShapeView;
+    id traitObserver;
 }
 
 - (void);

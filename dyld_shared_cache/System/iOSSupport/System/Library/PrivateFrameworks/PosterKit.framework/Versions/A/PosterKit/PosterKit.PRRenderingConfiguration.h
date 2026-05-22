@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterKit.PRRenderingConfiguration
 {
-    MISSING_TYPE *role;
-    MISSING_TYPE *_delegateFactory;
+    id role;
+    id _delegateFactory;
 }
 
 @end

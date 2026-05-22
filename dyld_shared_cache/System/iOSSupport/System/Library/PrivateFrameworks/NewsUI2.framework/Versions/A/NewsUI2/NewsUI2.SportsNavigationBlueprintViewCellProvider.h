@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsNavigationBlueprintViewCellProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *sportsTagStyler;
-    MISSING_TYPE *renderer;
+    id delegate;
+    id styler;
+    id sportsTagStyler;
+    id renderer;
 }
 
 @end

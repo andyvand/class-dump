@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSObject, NSString, TSTCell;
+@class NSObject, NSString, TSTCell;
 
 #pragma mark Function Pointers and Blocks
 
@@ -689,8 +689,8 @@ typedef struct {
 } CDStruct_0441cfb5;
 
 typedef struct {
-    MISSING_TYPE *columns[4];
-} CDStruct_14d5dc5e;
+    id columns[4];
+} CDStruct_95fa7c00;
 
 typedef struct {
     double _field1;

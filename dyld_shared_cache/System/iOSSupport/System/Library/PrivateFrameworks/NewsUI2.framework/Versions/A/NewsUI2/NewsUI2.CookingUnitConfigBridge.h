@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.CookingUnitConfigBridge
 {
-    MISSING_TYPE *unitConfigDataManager;
-    MISSING_TYPE *task;
-    MISSING_TYPE *didResetThisLaunch;
+    id unitConfigDataManager;
+    id task;
+    id didResetThisLaunch;
 }
 
 - (void);

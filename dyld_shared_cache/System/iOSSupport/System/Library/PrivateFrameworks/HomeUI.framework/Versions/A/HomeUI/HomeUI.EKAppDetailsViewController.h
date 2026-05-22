@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.EKAppDetailsViewController
 {
-    MISSING_TYPE *home;
-    MISSING_TYPE *details;
+    id home;
+    id details;
 }
 
 - (id);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsOnboardingFlowManager
 {
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *sportsSyncManager;
-    MISSING_TYPE *pendingRoute;
+    id featureAvailability;
+    id sportsOnboardingManager;
+    id sportsSyncManager;
+    id pendingRoute;
 }
 
 @end

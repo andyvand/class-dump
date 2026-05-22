@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatErrorViewController
 {
-    MISSING_TYPE *errorModel;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *editor;
+    id errorModel;
+    id tableView;
+    id styler;
+    id editor;
 }
 
 - (id);

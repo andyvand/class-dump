@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayEngagementOverlayManager
 {
-    MISSING_TYPE *todayViewController;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *engagementViewControllerFactory;
-    MISSING_TYPE *engagementOverlayDialogRequests;
-    MISSING_TYPE *engagementOverlayHandledPlacements;
-    MISSING_TYPE *overlayToElementSpacing;
-    MISSING_TYPE *presentedOverlaySize;
-    MISSING_TYPE *isFetchingAssets;
+    id todayViewController;
+    id delegate;
+    id blueprintViewController;
+    id engagementViewControllerFactory;
+    id engagementOverlayDialogRequests;
+    id engagementOverlayHandledPlacements;
+    id overlayToElementSpacing;
+    id presentedOverlaySize;
+    id isFetchingAssets;
 }
 
 - (id);

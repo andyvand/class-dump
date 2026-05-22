@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioEngine, AVAudioEnvironmentNode, MISSING_TYPE, MTLRenderPassDescriptor, NSArray, NSString, VFXNode, VFXRenderGraph, VFXRenderer, VFXWorld;
+@class AVAudioEngine, AVAudioEnvironmentNode, MTLRenderPassDescriptor, NSArray, NSString, VFXNode, VFXRenderGraph, VFXRenderer, VFXWorld;
 @protocol MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder, VFXWorldRendererDelegate;
 
 @interface VFXHolographicRenderer
@@ -28,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -40,7 +40,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (_Bool);

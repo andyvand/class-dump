@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OfflineIssueAutoDownloader
 {
-    MISSING_TYPE *currentIssuesChecker;
-    MISSING_TYPE *offlineIssueManager;
-    MISSING_TYPE *issueReadingHistory;
-    MISSING_TYPE *offlineFeatures;
-    MISSING_TYPE *triggerDeduper;
+    id currentIssuesChecker;
+    id offlineIssueManager;
+    id issueReadingHistory;
+    id offlineFeatures;
+    id triggerDeduper;
 }
 
 - (void);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SocialLayerSharedItemCenter
 {
-    MISSING_TYPE *lazyHighlightCenter;
-    MISSING_TYPE *delegate;
+    id lazyHighlightCenter;
+    id delegate;
 }
 
 - (void);

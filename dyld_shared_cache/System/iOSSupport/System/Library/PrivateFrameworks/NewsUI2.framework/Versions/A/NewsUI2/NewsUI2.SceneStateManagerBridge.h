@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SceneStateManagerBridge
 {
-    MISSING_TYPE *activityReceiver;
+    id activityReceiver;
 }
 
 @end

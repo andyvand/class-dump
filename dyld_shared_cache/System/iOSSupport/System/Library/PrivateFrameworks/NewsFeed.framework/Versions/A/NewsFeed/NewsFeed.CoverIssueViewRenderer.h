@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.CoverIssueViewRenderer
 {
-    MISSING_TYPE *rendererTool;
-    MISSING_TYPE *issueCoverViewRenderer;
-    MISSING_TYPE *commandCenter;
+    id rendererTool;
+    id issueCoverViewRenderer;
+    id commandCenter;
 }
 
 @end

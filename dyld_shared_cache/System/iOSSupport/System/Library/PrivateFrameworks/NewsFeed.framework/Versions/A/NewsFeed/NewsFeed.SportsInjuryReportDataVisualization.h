@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsInjuryReportDataVisualization
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *umcCanonicalId;
-    MISSING_TYPE *event;
-    MISSING_TYPE *embedUrl;
-    MISSING_TYPE *urlDataSources;
-    MISSING_TYPE *roster;
-    MISSING_TYPE *config;
-    MISSING_TYPE *configuredEmbedUrl;
+    id identifier;
+    id umcCanonicalId;
+    id event;
+    id embedUrl;
+    id urlDataSources;
+    id roster;
+    id config;
+    id configuredEmbedUrl;
 }
 
 @end

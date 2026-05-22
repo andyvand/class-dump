@@ -6,15 +6,13 @@
 
 #import <UIKitCore/UIVisualEffect.h>
 
-@class MISSING_TYPE;
-
 @interface _UIIntelligenceEdgeLightEffect : UIVisualEffect
 {
     unsigned long long activationTransitionDirection;
     unsigned long long deactivationTransitionDirection;
-    MISSING_TYPE *lightSource;
-    MISSING_TYPE *region;
-    MISSING_TYPE *radius;
+    id lightSource;
+    id region;
+    id radius;
 }
 
 - (void);

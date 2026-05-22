@@ -138,7 +138,7 @@ static BOOL debug = NO;
         NSMutableArray *parameterTypes = [NSMutableArray array];
         [typeDict setValue:parameterTypes forKey:@"parametertypes"];
 
-        NSScanner *scanner = [[NSScanner alloc] initWithString:name];
+        NSScanner *scanner = [[NSScanner alloc] initWithString:(name != nil ? name : @"")];
         while ([scanner isAtEnd] == NO) {
             NSString *str;
 
@@ -219,7 +219,7 @@ static BOOL debug = NO;
 
         index += 3;
 
-        NSScanner *scanner = [[NSScanner alloc] initWithString:methodName];
+        NSScanner *scanner = [[NSScanner alloc] initWithString:(methodName != nil ? methodName : @"")];
         while ([scanner isAtEnd] == NO) {
             NSString *str;
 

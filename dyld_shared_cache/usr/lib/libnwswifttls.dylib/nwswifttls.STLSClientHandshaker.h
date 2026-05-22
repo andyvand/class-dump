@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface nwswifttls.STLSClientHandshaker
 {
-    MISSING_TYPE *stateMachine;
-    MISSING_TYPE *partialHandshakeResult;
-    MISSING_TYPE *readEncryptionLevel;
-    MISSING_TYPE *writeEncryptionLevel;
-    MISSING_TYPE *receivedSessionTickets;
-    MISSING_TYPE *latestError;
+    id stateMachine;
+    id partialHandshakeResult;
+    id readEncryptionLevel;
+    id writeEncryptionLevel;
+    id receivedSessionTickets;
+    id latestError;
 }
 
 - (id);

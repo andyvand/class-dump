@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSwitchNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *cases;
-    MISSING_TYPE *default;
-    MISSING_TYPE *_throws;
-    MISSING_TYPE *throw;
-    MISSING_TYPE *flex;
+    id _identifier;
+    id cases;
+    id default;
+    id _throws;
+    id throw;
+    id flex;
 }
 
 @end

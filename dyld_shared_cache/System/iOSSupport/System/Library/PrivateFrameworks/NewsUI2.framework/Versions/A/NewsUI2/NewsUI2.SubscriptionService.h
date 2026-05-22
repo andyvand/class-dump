@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SubscriptionService
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *pushNotificationDataManager;
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *purchaseController;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id observers;
+    id tagService;
+    id pushNotificationDataManager;
+    id notificationService;
+    id subscriptionController;
+    id purchaseController;
+    id bundleSubscriptionManager;
 }
 
 - (void);

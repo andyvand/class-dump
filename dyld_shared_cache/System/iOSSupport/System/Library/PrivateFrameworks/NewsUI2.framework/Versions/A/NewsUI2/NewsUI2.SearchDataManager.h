@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *searchService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *feedService;
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *feedServiceConfig;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *feedPluginManager;
-    MISSING_TYPE *searchResultsProcessor;
+    id delegate;
+    id searchService;
+    id tagService;
+    id subscriptionService;
+    id feedServiceConfigFetcher;
+    id feedService;
+    id accessQueue;
+    id feedServiceConfig;
+    id featureAvailability;
+    id feedPluginManager;
+    id searchResultsProcessor;
 }
 
 - (id);

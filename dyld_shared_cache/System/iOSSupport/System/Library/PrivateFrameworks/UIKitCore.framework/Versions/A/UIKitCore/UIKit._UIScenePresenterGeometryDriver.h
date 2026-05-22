@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIScenePresenterGeometryDriver
 {
-    MISSING_TYPE *geometryHandle;
-    MISSING_TYPE *previousGeometry;
-    MISSING_TYPE *targetView;
-    MISSING_TYPE *geometryChangeObserver;
+    id geometryHandle;
+    id previousGeometry;
+    id targetView;
+    id geometryChangeObserver;
 }
 
 @end

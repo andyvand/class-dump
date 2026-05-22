@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.PassportSceneView.StampPageOverlayLayer
 {
-    MISSING_TYPE *fixedSize;
-    MISSING_TYPE *placedFrames;
-    MISSING_TYPE *rng;
+    id fixedSize;
+    id placedFrames;
+    id rng;
 }
 
 - (id);

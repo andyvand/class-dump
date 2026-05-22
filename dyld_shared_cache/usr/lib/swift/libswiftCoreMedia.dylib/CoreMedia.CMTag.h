@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreMedia.CMTag
 {
-    MISSING_TYPE *rawCategory;
-    MISSING_TYPE *rawTagValue;
+    id rawCategory;
+    id rawTagValue;
 }
 
 @end

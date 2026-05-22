@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.ActionBarViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_leadingItems;
-    MISSING_TYPE *_centeredItems;
-    MISSING_TYPE *_trailingItems;
-    MISSING_TYPE *_leadingEditItems;
-    MISSING_TYPE *_centeredEditItems;
-    MISSING_TYPE *_trailingEditItems;
-    MISSING_TYPE *_forceExpandedSearch;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _leadingItems;
+    id _centeredItems;
+    id _trailingItems;
+    id _leadingEditItems;
+    id _centeredEditItems;
+    id _trailingEditItems;
+    id _forceExpandedSearch;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, MISSING_TYPE;
+@class CLLocation;
 
 @interface Home.HFHomeEnergyManager
 {
-    MISSING_TYPE *home;
-    MISSING_TYPE *geocoder;
-    MISSING_TYPE *utilityService;
-    MISSING_TYPE *cachedRegionCode;
-    MISSING_TYPE *isGridForecastSupported;
+    id home;
+    id geocoder;
+    id utilityService;
+    id cachedRegionCode;
+    id isGridForecastSupported;
     CLLocation *temporaryLocation;
-    MISSING_TYPE *homeElectricitySupportedCache;
-    MISSING_TYPE *hasUtilitySubscriptionCache;
+    id homeElectricitySupportedCache;
+    id hasUtilitySubscriptionCache;
     _Bool cachedHasEnergySite;
     _Bool hasElectricityRatesEnabled;
 }

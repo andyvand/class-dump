@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, MTLRenderPassDescriptor, NSString;
+@class MTLRenderPassDescriptor, NSString;
 
 @interface CFXVFXRenderTargetInfo
 {
     MTLRenderPassDescriptor *_descriptor;
-    MISSING_TYPE *__renderTargetSize;
+    id __renderTargetSize;
 }
 
 - (void);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -91,7 +91,7 @@ kernel void eval_patches(
 - (void);
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *_renderTargetSize; // @synthesize _renderTargetSize=__renderTargetSize;
+@property(nonatomic) id _renderTargetSize; // @synthesize _renderTargetSize=__renderTargetSize;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

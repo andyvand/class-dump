@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OfflineIssuePruner
 {
-    MISSING_TYPE *offlineList;
-    MISSING_TYPE *issueService;
-    MISSING_TYPE *storageLevelProvider;
-    MISSING_TYPE *ruleProvider;
-    MISSING_TYPE *pruneDeduper;
+    id offlineList;
+    id issueService;
+    id storageLevelProvider;
+    id ruleProvider;
+    id pruneDeduper;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.UISceneDestroyableSession
 {
-    MISSING_TYPE *session;
-    MISSING_TYPE *sceneIdentifier;
+    id session;
+    id sceneIdentifier;
 }
 
 @end

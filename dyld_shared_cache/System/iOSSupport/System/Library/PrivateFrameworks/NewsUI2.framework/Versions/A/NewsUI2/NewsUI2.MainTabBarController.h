@@ -6,16 +6,14 @@
 
 #import <NewsUI2/NewsUI2.FloatingTabBarController.h>
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MainTabBarController : NewsUI2.FloatingTabBarController
 {
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *isTransitioning;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *followingEngagementView;
-    MISSING_TYPE *followingEngagementViewManager;
+    id eventHandler;
+    id isTransitioning;
+    id tracker;
+    id tipManager;
+    id followingEngagementView;
+    id followingEngagementViewManager;
 }
 
 - (void);

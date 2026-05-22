@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.ShareAttributionViewReuseFactory
 {
-    MISSING_TYPE *sharedItemManager;
-    MISSING_TYPE *itemsByReuseIdentifier;
+    id sharedItemManager;
+    id itemsByReuseIdentifier;
 }
 
 @end

@@ -6,11 +6,9 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.TransitionState.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.SkippingTransitionState : MediaPlaybackCore.TransitionState
 {
-    MISSING_TYPE *deferredUserEvent;
+    id deferredUserEvent;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatBlueprintLayoutBuilder
 {
-    MISSING_TYPE *feedLayoutSolver;
-    MISSING_TYPE *pluginData;
+    id feedLayoutSolver;
+    id pluginData;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.OpenInSafariCommandHandler
 {
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *urlHandler;
+    id paidAccessChecker;
+    id urlHandler;
 }
 
 @end

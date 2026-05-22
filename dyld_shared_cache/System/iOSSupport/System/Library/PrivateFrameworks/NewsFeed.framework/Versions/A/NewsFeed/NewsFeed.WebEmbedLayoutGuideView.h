@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedLayoutGuideView
 {
-    MISSING_TYPE *layoutGuide;
-    MISSING_TYPE *contentFrameView;
-    MISSING_TYPE *contentSafeAreaFrameView;
-    MISSING_TYPE *systemSafeAreaFrameView;
+    id layoutGuide;
+    id contentFrameView;
+    id contentSafeAreaFrameView;
+    id systemSafeAreaFrameView;
 }
 
 - (id);

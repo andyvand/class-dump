@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ShortcutItemUpdater
 {
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *featureAvailability;
+    id subscriptionService;
+    id personalizationService;
+    id tagService;
+    id featureAvailability;
 }
 
 @end

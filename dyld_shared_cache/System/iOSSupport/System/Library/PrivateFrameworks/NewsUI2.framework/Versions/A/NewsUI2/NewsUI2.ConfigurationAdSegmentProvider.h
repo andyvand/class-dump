@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ConfigurationAdSegmentProvider
 {
-    MISSING_TYPE *needsUpdate;
-    MISSING_TYPE *appConfigurationManager;
+    id needsUpdate;
+    id appConfigurationManager;
 }
 
 - (void);

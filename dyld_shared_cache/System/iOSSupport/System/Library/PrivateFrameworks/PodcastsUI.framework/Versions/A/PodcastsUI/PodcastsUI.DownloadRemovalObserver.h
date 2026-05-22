@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.DownloadRemovalObserver
 {
-    MISSING_TYPE *library;
-    MISSING_TYPE *userDefaults;
-    MISSING_TYPE *deletionKey;
-    MISSING_TYPE *contextProvider;
-    MISSING_TYPE *observerTask;
+    id library;
+    id userDefaults;
+    id deletionKey;
+    id contextProvider;
+    id observerTask;
 }
 
 - (void);

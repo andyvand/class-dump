@@ -6,16 +6,14 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIDirectionalMaskView : UIView
 {
-    MISSING_TYPE *mode;
-    MISSING_TYPE *maskPosition;
-    MISSING_TYPE *additionalOutset;
-    MISSING_TYPE *additionalDistance;
-    MISSING_TYPE *blurRadius;
-    MISSING_TYPE *circle;
+    id mode;
+    id maskPosition;
+    id additionalOutset;
+    id additionalDistance;
+    id blurRadius;
+    id circle;
 }
 
 - (id);

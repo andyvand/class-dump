@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.KeyValueStore
 {
-    MISSING_TYPE *cloudKeyValueStore;
-    MISSING_TYPE *offlineKeyValueStore;
-    MISSING_TYPE *cloudKeyValueStoreManager;
+    id cloudKeyValueStore;
+    id offlineKeyValueStore;
+    id cloudKeyValueStoreManager;
 }
 
 @end

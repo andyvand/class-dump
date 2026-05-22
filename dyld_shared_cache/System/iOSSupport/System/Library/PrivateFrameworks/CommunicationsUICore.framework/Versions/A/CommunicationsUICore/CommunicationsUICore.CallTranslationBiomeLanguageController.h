@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.CallTranslationBiomeLanguageController
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *$__lazy_storage_$_eventSource;
-    MISSING_TYPE *$__lazy_storage_$_sqlDatabase;
+    id $defaultActor;
+    id $__lazy_storage_$_eventSource;
+    id $__lazy_storage_$_sqlDatabase;
 }
 
 @end

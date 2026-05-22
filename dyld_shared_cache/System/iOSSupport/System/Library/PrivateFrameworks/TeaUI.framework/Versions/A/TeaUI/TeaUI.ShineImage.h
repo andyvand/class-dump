@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ShineImage
 {
-    MISSING_TYPE *image;
-    MISSING_TYPE *size;
-    MISSING_TYPE *context;
-    MISSING_TYPE *backgroundImage;
+    id image;
+    id size;
+    id context;
+    id backgroundImage;
 }
 
 @end

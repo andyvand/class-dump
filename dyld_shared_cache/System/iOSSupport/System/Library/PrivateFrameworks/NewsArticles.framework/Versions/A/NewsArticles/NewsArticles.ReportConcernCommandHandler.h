@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ReportConcernCommandHandler
 {
-    MISSING_TYPE *reportConcernModule;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *historyService;
-    MISSING_TYPE *paidAccessChecker;
+    id reportConcernModule;
+    id sceneProvider;
+    id historyService;
+    id paidAccessChecker;
 }
 
 @end

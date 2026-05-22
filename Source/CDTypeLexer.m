@@ -28,7 +28,7 @@ static NSString *CDTypeLexerStateName(CDTypeLexerState state)
 - (id)initWithString:(NSString *)string;
 {
     if ((self = [super init])) {
-        _scanner = [[NSScanner alloc] initWithString:string];
+        _scanner = [[NSScanner alloc] initWithString:(string != nil ? string : @"")];
         [_scanner setCharactersToBeSkipped:nil];
         _state = CDTypeLexerState_Normal;
         _shouldShowLexing = debug;

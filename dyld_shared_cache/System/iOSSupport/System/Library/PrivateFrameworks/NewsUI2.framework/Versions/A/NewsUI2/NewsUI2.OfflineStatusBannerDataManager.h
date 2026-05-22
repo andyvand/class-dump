@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OfflineStatusBannerDataManager
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *offlineFeatures;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *connectionTextProvider;
-    MISSING_TYPE *debouncer;
-    MISSING_TYPE *feedModeState;
+    id observers;
+    id offlineManager;
+    id offlineFeatures;
+    id bundleSubscriptionManager;
+    id appConfigManager;
+    id connectionTextProvider;
+    id debouncer;
+    id feedModeState;
 }
 
 - (void);

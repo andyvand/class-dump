@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.BannerAdViewLayoutAttributesFactory
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *debugViewLayoutAttributesFactory;
-    MISSING_TYPE *layoutStore;
+    id styler;
+    id debugViewLayoutAttributesFactory;
+    id layoutStore;
 }
 
 @end

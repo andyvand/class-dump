@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface AppletTranslationLibrary.LyonSwiftDecoder
 {
-    MISSING_TYPE *state;
-    MISSING_TYPE *endpointIdentifier;
-    MISSING_TYPE *readerIdentifier;
-    MISSING_TYPE *sw;
-    MISSING_TYPE *endpointNotFoundReason;
-    MISSING_TYPE *antiRelayResult;
-    MISSING_TYPE *requestAuth;
-    MISSING_TYPE *protocolVersion;
-    MISSING_TYPE *readerVendorId;
-    MISSING_TYPE *readerProductId;
-    MISSING_TYPE *readerFirmwareVersion;
+    id state;
+    id endpointIdentifier;
+    id readerIdentifier;
+    id sw;
+    id endpointNotFoundReason;
+    id antiRelayResult;
+    id requestAuth;
+    id protocolVersion;
+    id readerVendorId;
+    id readerProductId;
+    id readerFirmwareVersion;
 }
 
 + (id);

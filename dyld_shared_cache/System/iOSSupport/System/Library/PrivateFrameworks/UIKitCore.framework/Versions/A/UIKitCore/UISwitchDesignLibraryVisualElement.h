@@ -6,23 +6,22 @@
 
 #import <UIKitCore/UISwitchVisualElement.h>
 
-@class MISSING_TYPE;
 @protocol UISwitchControl;
 
 __attribute__((visibility("hidden")))
 @interface UISwitchDesignLibraryVisualElement : UISwitchVisualElement
 {
-    MISSING_TYPE *isOn;
-    MISSING_TYPE *isPressed;
-    MISSING_TYPE *tapSeed;
-    MISSING_TYPE *customizations;
-    MISSING_TYPE *coreHostingView;
-    MISSING_TYPE *gestureTrackingSession;
-    MISSING_TYPE *longPressGestureRecognizer;
-    MISSING_TYPE *panGestureRecognizer;
-    MISSING_TYPE *tapGestureRecognizer;
-    MISSING_TYPE *selectGestureRecognizer;
-    MISSING_TYPE *feedbackGenerator;
+    id isOn;
+    id isPressed;
+    id tapSeed;
+    id customizations;
+    id coreHostingView;
+    id gestureTrackingSession;
+    id longPressGestureRecognizer;
+    id panGestureRecognizer;
+    id tapGestureRecognizer;
+    id selectGestureRecognizer;
+    id feedbackGenerator;
 }
 
 + (struct CGSize)n:subrangeIndex: /* Error: Ran out of types for this method. */;

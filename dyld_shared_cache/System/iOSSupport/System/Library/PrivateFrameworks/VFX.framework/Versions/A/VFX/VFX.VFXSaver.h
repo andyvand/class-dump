@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VFXSaver
 {
-    MISSING_TYPE *world;
-    MISSING_TYPE *isSavingForExport;
-    MISSING_TYPE *layout;
-    MISSING_TYPE *saveBindingsMetadata;
-    MISSING_TYPE *saveAsPlist;
-    MISSING_TYPE *targetsToPrecompile;
+    id world;
+    id isSavingForExport;
+    id layout;
+    id saveBindingsMetadata;
+    id saveAsPlist;
+    id targetsToPrecompile;
 }
 
 @end

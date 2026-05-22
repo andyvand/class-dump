@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HFItem, MISSING_TYPE, UICellConfigurationState, UIColor;
+@class HFItem, UICellConfigurationState, UIColor;
 @protocol HUBackgroundEffectViewGrouping;
 
 @interface HUTileCell
@@ -15,10 +15,10 @@
     _Bool useMutedIconOffColors;
     id <HUBackgroundEffectViewGrouping> backgroundEffectGrouper;
     unsigned long long backgroundDisplayStyle;
-    MISSING_TYPE *borderStyle;
-    MISSING_TYPE *overrideLayout;
-    MISSING_TYPE *hidesLabelsToFitAccessibilitySizeCategories;
-    MISSING_TYPE *_gridSize;
+    id borderStyle;
+    id overrideLayout;
+    id hidesLabelsToFitAccessibilitySizeCategories;
+    id _gridSize;
     _Bool isRearranging;
     _Bool reorderable;
 }

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.BundleCampaignSessionManager
 {
-    MISSING_TYPE *session;
-    MISSING_TYPE *configFetcher;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *modalAdService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *observers;
+    id session;
+    id configFetcher;
+    id paidAccessChecker;
+    id appConfigManager;
+    id modalAdService;
+    id tagService;
+    id observers;
 }
 
 - (void);

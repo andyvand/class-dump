@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatRunModeRunner
 {
-    MISSING_TYPE *seenOnce;
-    MISSING_TYPE *seenOnceSinceRefresh;
-    MISSING_TYPE *seenOnceOnScreen;
+    id seenOnce;
+    id seenOnceSinceRefresh;
+    id seenOnceOnScreen;
 }
 
 - (void)resolve template reference '%{public}s' but will continue attempts, error=%{public}@;

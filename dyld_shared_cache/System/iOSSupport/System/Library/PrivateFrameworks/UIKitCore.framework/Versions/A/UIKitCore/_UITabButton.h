@@ -6,34 +6,34 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class MISSING_TYPE, UIColor, UITabBar;
+@class UIColor, UITabBar;
 
 __attribute__((visibility("hidden")))
 @interface _UITabButton : UIControl
 {
-    MISSING_TYPE *item;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *appearanceData;
-    MISSING_TYPE *matchMoveIdentifierForImage;
-    MISSING_TYPE *matchMoveIdentifierForBadge;
+    id item;
+    id configuration;
+    id appearanceData;
+    id matchMoveIdentifierForImage;
+    id matchMoveIdentifierForBadge;
     void tabBar;
-    MISSING_TYPE *tabBarButtonDelegate;
-    MISSING_TYPE *linkedButton;
-    MISSING_TYPE *overrideItemState;
-    MISSING_TYPE *ignoresSelectedState;
-    MISSING_TYPE *synchronizeAppearanceAndLayoutChangesToLinkedButton;
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *badgeView;
-    MISSING_TYPE *sizeCache;
-    MISSING_TYPE *unselectedLabelTintColor;
-    MISSING_TYPE *contentTintColorForState;
-    MISSING_TYPE *itemContentInsets;
-    MISSING_TYPE *itemTitleStyle;
-    MISSING_TYPE *overrideItemDisplayMode;
-    MISSING_TYPE *hasFocusAppearance;
+    id tabBarButtonDelegate;
+    id linkedButton;
+    id overrideItemState;
+    id ignoresSelectedState;
+    id synchronizeAppearanceAndLayoutChangesToLinkedButton;
+    id imageView;
+    id titleLabel;
+    id badgeView;
+    id sizeCache;
+    id unselectedLabelTintColor;
+    id contentTintColorForState;
+    id itemContentInsets;
+    id itemTitleStyle;
+    id overrideItemDisplayMode;
+    id hasFocusAppearance;
     _Bool _showsHighlightedState;
-    MISSING_TYPE *springLoadedInteraction;
+    id springLoadedInteraction;
     _Bool isSpringLoaded;
 }
 

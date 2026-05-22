@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PluginModel
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *revision;
-    MISSING_TYPE *contentSizeCategory;
-    MISSING_TYPE *legibilityWeight;
-    MISSING_TYPE *safeAreaInsets;
-    MISSING_TYPE *size;
-    MISSING_TYPE *shadowViewController;
+    id identifier;
+    id revision;
+    id contentSizeCategory;
+    id legibilityWeight;
+    id safeAreaInsets;
+    id size;
+    id shadowViewController;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.RoomTrackingProvider
 {
-    MISSING_TYPE *_cRoomTrackingProvider;
-    MISSING_TYPE *_cRoomTrackingConfiguration;
-    MISSING_TYPE *anchorUpdateIterators;
-    MISSING_TYPE *anchorQueue;
+    id _cRoomTrackingProvider;
+    id _cRoomTrackingConfiguration;
+    id anchorUpdateIterators;
+    id anchorQueue;
 }
 
 @end

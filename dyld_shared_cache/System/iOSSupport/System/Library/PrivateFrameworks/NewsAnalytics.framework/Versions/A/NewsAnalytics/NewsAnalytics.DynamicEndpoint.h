@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface NewsAnalytics.DynamicEndpoint
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *environment;
+    id appConfigurationManager;
+    id environment;
 }
 
 - (id);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphV1CodeGeneration.Library
 {
-    MISSING_TYPE *_name;
-    MISSING_TYPE *color;
-    MISSING_TYPE *snippets;
-    MISSING_TYPE *templates;
-    MISSING_TYPE *includeFunctionsMapByLanguage;
+    id _name;
+    id color;
+    id snippets;
+    id templates;
+    id includeFunctionsMapByLanguage;
 }
 
 @end

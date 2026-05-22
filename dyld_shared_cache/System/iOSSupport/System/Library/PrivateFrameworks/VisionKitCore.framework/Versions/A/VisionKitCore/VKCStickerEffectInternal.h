@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface VKCStickerEffectInternal
 {
@@ -22,12 +22,12 @@
     _Bool applyBrushBeforeStroke;
     float shadowRadius;
     float shadowAlpha;
-    MISSING_TYPE *shadowOffset;
-    MISSING_TYPE *shadowParallax;
+    id shadowOffset;
+    id shadowParallax;
     float smallShadowSizeMultiplier;
     float smallShadowAlphaMultiplier;
     _Bool isComicEnabled;
-    MISSING_TYPE *comicParameters;
+    id comicParameters;
     _Bool isCurlEnabled;
 }
 
@@ -42,7 +42,7 @@
 - (float);
 - (float);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -81,7 +81,7 @@
 - (void)F!dEùð1â
 0@ù
 × ;
-- (MISSING_TYPE *)WithTitle:style:handler: /* Error: Ran out of types for this method. */;
+- (id)WithTitle:style:handler: /* Error: Ran out of types for this method. */;
 - (void)Library/PrivateFrameworks/VisualIntelligenceCore.framework/VisualIntelligenceCore;
 - (float)nRef;
 - (void)uring detection or recognition.;
@@ -100,8 +100,8 @@
 @property(nonatomic) float normalsRadius; // @synthesize normalsRadius;
 @property(nonatomic, readonly) _Bool requiresDeviceMotion;
 @property(nonatomic) float shadowAlpha; // @synthesize shadowAlpha;
-@property(nonatomic) MISSING_TYPE *shadowOffset; // @synthesize shadowOffset;
-@property(nonatomic) MISSING_TYPE *shadowParallax; // @synthesize shadowParallax;
+@property(nonatomic) id shadowOffset; // @synthesize shadowOffset;
+@property(nonatomic) id shadowParallax; // @synthesize shadowParallax;
 @property(nonatomic) float shadowRadius; // @synthesize shadowRadius;
 @property(nonatomic) float smallShadowAlphaMultiplier; // @synthesize smallShadowAlphaMultiplier;
 @property(nonatomic) float smallShadowSizeMultiplier; // @synthesize smallShadowSizeMultiplier;

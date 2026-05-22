@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.UITextEffectView.ReplacementTextEffect
 {
-    MISSING_TYPE *view;
-    MISSING_TYPE *chunk;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *id;
-    MISSING_TYPE *lineAnimationEnabled;
-    MISSING_TYPE *alongsideBuildInAnimation;
-    MISSING_TYPE *alongsideBuildInCompletion;
-    MISSING_TYPE *alongsideBuildOutAnimation;
-    MISSING_TYPE *alongsideBuildOutCompletion;
-    MISSING_TYPE *washInColor;
-    MISSING_TYPE *effectViewOut;
-    MISSING_TYPE *effectViewIn;
-    MISSING_TYPE *fromLineAnimator;
-    MISSING_TYPE *toLineAnimator;
-    MISSING_TYPE *replacementOutLightConfiguration;
-    MISSING_TYPE *replacementInLightConfiguration;
-    MISSING_TYPE *isValid;
+    id view;
+    id chunk;
+    id delegate;
+    id id;
+    id lineAnimationEnabled;
+    id alongsideBuildInAnimation;
+    id alongsideBuildInCompletion;
+    id alongsideBuildOutAnimation;
+    id alongsideBuildOutCompletion;
+    id washInColor;
+    id effectViewOut;
+    id effectViewIn;
+    id fromLineAnimator;
+    id toLineAnimator;
+    id replacementOutLightConfiguration;
+    id replacementInLightConfiguration;
+    id isValid;
 }
 
 @end

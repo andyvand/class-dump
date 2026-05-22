@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.CategoryView
 {
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *iconImageView;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *checkmarkImageView;
+    id contentView;
+    id iconImageView;
+    id titleLabel;
+    id checkmarkImageView;
 }
 
 - (id);

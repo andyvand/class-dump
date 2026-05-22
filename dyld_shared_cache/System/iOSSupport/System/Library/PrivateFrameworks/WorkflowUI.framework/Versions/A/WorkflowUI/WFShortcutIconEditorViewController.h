@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol WFShortcutIconEditorViewControllerDelegate;
 
 @interface WFShortcutIconEditorViewController
 {
-    MISSING_TYPE *workflow;
+    id workflow;
     _Bool showsDoneButton;
     void delegate;
 }

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.MessageInfo
 {
-    MISSING_TYPE *mapItem;
-    MISSING_TYPE *localeIdentifier;
+    id mapItem;
+    id localeIdentifier;
 }
 
 @end

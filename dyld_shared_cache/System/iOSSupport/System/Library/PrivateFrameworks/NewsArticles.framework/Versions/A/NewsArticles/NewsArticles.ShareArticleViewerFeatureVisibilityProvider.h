@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ShareArticleViewerFeatureVisibilityProvider
 {
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *paidAccessChecker;
+    id featureAvailability;
+    id paidAccessChecker;
 }
 
 @end

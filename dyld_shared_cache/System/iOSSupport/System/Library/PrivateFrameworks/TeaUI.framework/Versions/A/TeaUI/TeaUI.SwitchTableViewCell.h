@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SwitchTableViewCell
 {
-    MISSING_TYPE *onChange;
-    MISSING_TYPE *switchControl;
+    id onChange;
+    id switchControl;
 }
 
 - (void);

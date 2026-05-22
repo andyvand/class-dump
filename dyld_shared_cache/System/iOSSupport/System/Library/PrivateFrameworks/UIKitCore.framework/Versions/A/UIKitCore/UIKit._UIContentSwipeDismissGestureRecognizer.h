@@ -6,12 +6,10 @@
 
 #import <UIKitCore/UIPanGestureRecognizer.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIContentSwipeDismissGestureRecognizer : UIPanGestureRecognizer
 {
-    MISSING_TYPE *angleRange;
-    MISSING_TYPE *recognizedAxis;
+    id angleRange;
+    id recognizedAxis;
 }
 
 - (_Bool);

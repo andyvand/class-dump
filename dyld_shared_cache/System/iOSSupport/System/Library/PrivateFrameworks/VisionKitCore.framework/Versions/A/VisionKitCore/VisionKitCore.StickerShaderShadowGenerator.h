@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerShaderShadowGenerator
 {
-    MISSING_TYPE *device;
-    MISSING_TYPE *shadowRadius;
-    MISSING_TYPE *shapeTexture;
-    MISSING_TYPE *shadowTexture;
-    MISSING_TYPE *gaussianBlur;
-    MISSING_TYPE *pixelFormat;
+    id device;
+    id shadowRadius;
+    id shapeTexture;
+    id shadowTexture;
+    id gaussianBlur;
+    id pixelFormat;
 }
 
 @end

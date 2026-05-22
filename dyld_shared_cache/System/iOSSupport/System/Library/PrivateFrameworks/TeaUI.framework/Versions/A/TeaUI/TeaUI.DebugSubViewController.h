@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.DebugSubViewController
 {
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *tableViewSource;
+    id tableView;
+    id tableViewSource;
 }
 
 - (void);

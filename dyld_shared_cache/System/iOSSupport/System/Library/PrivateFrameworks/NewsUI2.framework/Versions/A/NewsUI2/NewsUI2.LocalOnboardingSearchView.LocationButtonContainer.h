@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LocalOnboardingSearchView.LocationButtonContainer
 {
-    MISSING_TYPE *button;
+    id button;
 }
 
 - (id);

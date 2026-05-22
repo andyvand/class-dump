@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.HeadlineViewRenderer
 {
-    MISSING_TYPE *presentingViewController;
-    MISSING_TYPE *presentationDelegateProvider;
-    MISSING_TYPE *thumbnailImageCache;
-    MISSING_TYPE *publisherLogoImageCache;
-    MISSING_TYPE *rendererTool;
+    id presentingViewController;
+    id presentationDelegateProvider;
+    id thumbnailImageCache;
+    id publisherLogoImageCache;
+    id rendererTool;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.OnboardingViewController
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *stepsToBeShown;
-    MISSING_TYPE *onboardingStepMonitor;
-    MISSING_TYPE *onDismissal;
-    MISSING_TYPE *$__lazy_storage_$_onboardingViewControllers;
-    MISSING_TYPE *currentIndex;
+    id configuration;
+    id stepsToBeShown;
+    id onboardingStepMonitor;
+    id onDismissal;
+    id $__lazy_storage_$_onboardingViewControllers;
+    id currentIndex;
 }
 
 - (id);

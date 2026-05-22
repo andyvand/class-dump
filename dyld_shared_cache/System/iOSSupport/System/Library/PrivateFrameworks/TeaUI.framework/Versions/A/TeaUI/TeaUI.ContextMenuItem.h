@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ContextMenuItem
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *imageBlock;
-    MISSING_TYPE *optionsBlock;
-    MISSING_TYPE *stateBlock;
-    MISSING_TYPE *actionBlock;
-    MISSING_TYPE *titleBlock;
-    MISSING_TYPE *subtitleBlock;
-    MISSING_TYPE *canExecute;
+    id identifier;
+    id imageBlock;
+    id optionsBlock;
+    id stateBlock;
+    id actionBlock;
+    id titleBlock;
+    id subtitleBlock;
+    id canExecute;
 }
 
 @end

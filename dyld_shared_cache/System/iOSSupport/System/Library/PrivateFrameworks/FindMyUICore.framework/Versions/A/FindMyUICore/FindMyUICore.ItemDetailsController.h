@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.ItemDetailsController
 {
-    MISSING_TYPE *subscriber;
-    MISSING_TYPE *itemIdentifier;
-    MISSING_TYPE *dependencies;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *isAutomaticSubscriptionsForwardingEnabled;
-    MISSING_TYPE *observationTask;
-    MISSING_TYPE *_$observationRegistrar;
+    id subscriber;
+    id itemIdentifier;
+    id dependencies;
+    id logger;
+    id _state;
+    id isAutomaticSubscriptionsForwardingEnabled;
+    id observationTask;
+    id _$observationRegistrar;
 }
 
 @end

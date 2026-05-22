@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.SpotlightIndexer
 {
-    MISSING_TYPE *indexingBatchSize;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *index;
-    MISSING_TYPE *syncingQueue;
+    id indexingBatchSize;
+    id logger;
+    id index;
+    id syncingQueue;
 }
 
 - (id);

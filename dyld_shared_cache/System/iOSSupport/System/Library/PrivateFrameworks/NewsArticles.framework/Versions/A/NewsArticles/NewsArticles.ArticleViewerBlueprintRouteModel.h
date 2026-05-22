@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleViewerBlueprintRouteModel
 {
-    MISSING_TYPE *article;
-    MISSING_TYPE *referringURL;
-    MISSING_TYPE *shownArticle;
-    MISSING_TYPE *articleBlueprintProvider;
-    MISSING_TYPE *shadowObserver;
+    id article;
+    id referringURL;
+    id shownArticle;
+    id articleBlueprintProvider;
+    id shadowObserver;
 }
 
 @end

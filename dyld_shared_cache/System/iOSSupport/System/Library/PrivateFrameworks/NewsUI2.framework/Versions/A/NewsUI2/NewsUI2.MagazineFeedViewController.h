@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *blueprintSelectionProvider;
-    MISSING_TYPE *blueprintLayoutProvider;
-    MISSING_TYPE *offlineAlertControllerFactory;
-    MISSING_TYPE *feedPaywallConfigFactory;
-    MISSING_TYPE *sharingActivityProviderFactory;
-    MISSING_TYPE *commandContainer;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *tipManager;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id blueprintSelectionProvider;
+    id blueprintLayoutProvider;
+    id offlineAlertControllerFactory;
+    id feedPaywallConfigFactory;
+    id sharingActivityProviderFactory;
+    id commandContainer;
+    id newsActivityManager;
+    id tipManager;
 }
 
 - (void);

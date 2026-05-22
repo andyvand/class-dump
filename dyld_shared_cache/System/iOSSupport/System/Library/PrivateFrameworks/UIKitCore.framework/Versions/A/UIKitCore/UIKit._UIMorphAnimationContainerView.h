@@ -6,12 +6,10 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIMorphAnimationContainerView : _UITouchPassthroughView
 {
-    MISSING_TYPE *kickView;
-    MISSING_TYPE *name;
+    id kickView;
+    id name;
 }
 
 - (void);

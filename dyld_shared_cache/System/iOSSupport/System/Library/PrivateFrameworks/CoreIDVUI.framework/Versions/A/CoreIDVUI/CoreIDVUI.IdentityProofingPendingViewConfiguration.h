@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingPendingViewConfiguration
 {
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *config;
-    MISSING_TYPE *isInlineProofing;
-    MISSING_TYPE *titleText;
-    MISSING_TYPE *subtitleText;
-    MISSING_TYPE *showPrimaryButton;
-    MISSING_TYPE *primaryButtonTitleText;
-    MISSING_TYPE *showSecondaryButton;
-    MISSING_TYPE *secondaryButtonTitleText;
-    MISSING_TYPE *hideHeaderViewImageDuringScreenCapture;
-    MISSING_TYPE *headerViewImageDisplayMode;
-    MISSING_TYPE *headerViewImage;
-    MISSING_TYPE *barButtonItem;
-    MISSING_TYPE *inWatchModeOnly;
-    MISSING_TYPE *updateContent;
+    id proofingFlowManager;
+    id config;
+    id isInlineProofing;
+    id titleText;
+    id subtitleText;
+    id showPrimaryButton;
+    id primaryButtonTitleText;
+    id showSecondaryButton;
+    id secondaryButtonTitleText;
+    id hideHeaderViewImageDuringScreenCapture;
+    id headerViewImageDisplayMode;
+    id headerViewImage;
+    id barButtonItem;
+    id inWatchModeOnly;
+    id updateContent;
 }
 
 @end

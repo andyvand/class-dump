@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioPlaylistFeedConfigManager
 {
-    MISSING_TYPE *decoder;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *resourceService;
+    id decoder;
+    id appConfigManager;
+    id resourceService;
 }
 
 @end

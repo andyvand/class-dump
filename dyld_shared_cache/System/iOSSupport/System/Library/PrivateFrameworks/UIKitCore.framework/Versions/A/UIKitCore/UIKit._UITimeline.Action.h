@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UITimeline.Action
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *delay;
-    MISSING_TYPE *handler;
+    id name;
+    id delay;
+    id handler;
 }
 
 @end

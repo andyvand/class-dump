@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAnalytics.NotificationReceiptReporter
 {
-    MISSING_TYPE *sessionManager;
-    MISSING_TYPE *log;
-    MISSING_TYPE *decoder;
-    MISSING_TYPE *sharedDefaults;
+    id sessionManager;
+    id log;
+    id decoder;
+    id sharedDefaults;
 }
 
 @end

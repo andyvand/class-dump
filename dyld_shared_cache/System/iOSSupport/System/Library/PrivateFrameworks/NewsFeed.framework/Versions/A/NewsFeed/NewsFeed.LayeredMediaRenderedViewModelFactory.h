@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.LayeredMediaRenderedViewModelFactory
 {
-    MISSING_TYPE *layerProviderFactory;
-    MISSING_TYPE *viewModelFactory;
-    MISSING_TYPE *viewModelRenderer;
+    id layerProviderFactory;
+    id viewModelFactory;
+    id viewModelRenderer;
 }
 
 @end

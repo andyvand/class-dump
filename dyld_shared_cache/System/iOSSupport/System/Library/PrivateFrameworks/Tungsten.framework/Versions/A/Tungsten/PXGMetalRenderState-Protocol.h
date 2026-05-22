@@ -27,11 +27,11 @@
 @property(readonly, nonatomic) id <MTLBuffer> spriteInfosBuffer;
 @property(readonly, nonatomic) const CDStruct_16a2be32 *spriteOriginalGeometries;
 @property(readonly, nonatomic) id <MTLBuffer> spriteOriginalGeometriesBuffer;
-@property(readonly, nonatomic) const CDStruct_44913231 *spriteStyles;
+@property(readonly, nonatomic) const CDStruct_8243137c *spriteStyles;
 @property(readonly, nonatomic) id <MTLBuffer> spriteStylesBuffer;
 @property(retain, nonatomic) NSArray *textures;
 @property(readonly, nonatomic) PXGMetalRenderTextureStore *translucentTextures;
-@property(readonly, nonatomic) CDStruct_b1513b2e *uniforms;
+@property(readonly, nonatomic) CDStruct_f75fd28f *uniforms;
 @property(nonatomic) CDStruct_aa2c6c27 values;
 @end
 

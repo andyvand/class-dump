@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.SignpostAggregator
 {
-    MISSING_TYPE *_nextStartTime;
-    MISSING_TYPE *subsystem;
-    MISSING_TYPE *category;
-    MISSING_TYPE *lock;
+    id _nextStartTime;
+    id subsystem;
+    id category;
+    id lock;
 }
 
 @end

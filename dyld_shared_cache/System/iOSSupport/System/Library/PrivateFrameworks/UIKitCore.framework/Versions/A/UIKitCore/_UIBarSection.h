@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString;
+@class NSArray, NSString;
 @protocol _UIBarSectionOwner;
 
 @interface _UIBarSection
 {
     void groups;
-    MISSING_TYPE *owner;
+    id owner;
     long long preferredPlacement;
     void identifier;
 }

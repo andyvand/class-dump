@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatStateMachineData
 {
-    MISSING_TYPE *definition;
-    MISSING_TYPE *output;
+    id definition;
+    id output;
 }
 
 @end

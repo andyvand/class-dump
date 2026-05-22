@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelPickerRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *localRegionManager;
-    MISSING_TYPE *appConfigManager;
+    id controller;
+    id resolver;
+    id tracker;
+    id featureAvailability;
+    id localRegionManager;
+    id appConfigManager;
 }
 
 @end

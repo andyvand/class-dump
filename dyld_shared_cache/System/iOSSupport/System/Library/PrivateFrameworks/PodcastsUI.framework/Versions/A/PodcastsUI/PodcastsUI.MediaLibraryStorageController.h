@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.MediaLibraryStorageController
 {
-    MISSING_TYPE *_storageCleanupObservers;
-    MISSING_TYPE *_globalAutomaticDownloadLimit;
-    MISSING_TYPE *activeObserver;
-    MISSING_TYPE *globalDownloadLimitObserver;
-    MISSING_TYPE *downloadedAssetsAsPercentageOfTotalSpace;
-    MISSING_TYPE *totalConsumedSpace;
-    MISSING_TYPE *_ignoredAssetsAsPercentageOfTotalSpace;
-    MISSING_TYPE *_ignoredConsumedSpaceQuantity;
-    MISSING_TYPE *_shouldDisplayStorageCleanupTip;
-    MISSING_TYPE *_shouldDisplayStorageCleanupTipPublisher;
+    id _storageCleanupObservers;
+    id _globalAutomaticDownloadLimit;
+    id activeObserver;
+    id globalDownloadLimitObserver;
+    id downloadedAssetsAsPercentageOfTotalSpace;
+    id totalConsumedSpace;
+    id _ignoredAssetsAsPercentageOfTotalSpace;
+    id _ignoredConsumedSpaceQuantity;
+    id _shouldDisplayStorageCleanupTip;
+    id _shouldDisplayStorageCleanupTipPublisher;
 }
 
 - (void);

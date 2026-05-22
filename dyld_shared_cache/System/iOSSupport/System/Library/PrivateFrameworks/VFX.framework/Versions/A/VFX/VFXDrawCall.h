@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFXDrawCall
 {
-    MISSING_TYPE *_boundingBoxMin;
-    MISSING_TYPE *_boundingBoxMax;
+    id _boundingBoxMin;
+    id _boundingBoxMax;
     int _materialType;
     CDUnknownBlockType _encodeHandler;
     int _renderingOrder;
@@ -22,8 +20,8 @@
 - (void);
 - (long long);
 - (CDUnknownBlockType);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (void);
 - (int);
 - (void);
@@ -33,8 +31,8 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *boundingBoxMax; // @synthesize boundingBoxMax=_boundingBoxMax;
-@property(nonatomic) MISSING_TYPE *boundingBoxMin; // @synthesize boundingBoxMin=_boundingBoxMin;
+@property(nonatomic) id boundingBoxMax; // @synthesize boundingBoxMax=_boundingBoxMax;
+@property(nonatomic) id boundingBoxMin; // @synthesize boundingBoxMin=_boundingBoxMin;
 @property(readonly, nonatomic) long long emitterObjectID; // @synthesize emitterObjectID=_emitterObjectID;
 @property(copy, nonatomic) CDUnknownBlockType encodeHandler; // @synthesize encodeHandler=_encodeHandler;
 @property(nonatomic) int materialType; // @synthesize materialType=_materialType;

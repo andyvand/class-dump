@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineSectionViewControllerFactory
 {
-    MISSING_TYPE *magazineCatalogModule;
-    MISSING_TYPE *magazineFeedModule;
-    MISSING_TYPE *magazineGridModule;
-    MISSING_TYPE *magazineGridModelLoaderFactory;
-    MISSING_TYPE *tagFeedModule;
+    id magazineCatalogModule;
+    id magazineFeedModule;
+    id magazineGridModule;
+    id magazineGridModelLoaderFactory;
+    id tagFeedModule;
 }
 
 @end

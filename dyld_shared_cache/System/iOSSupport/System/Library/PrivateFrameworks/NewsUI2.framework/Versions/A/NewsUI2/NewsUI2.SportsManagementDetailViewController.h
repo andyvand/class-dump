@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsManagementDetailViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *model;
-    MISSING_TYPE *selectionProvider;
-    MISSING_TYPE *titleViewRenderer;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id model;
+    id selectionProvider;
+    id titleViewRenderer;
 }
 
 - (void);

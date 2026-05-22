@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HUTipsManager_Swift
 {
-    MISSING_TYPE *tileQuickToggleTip;
-    MISSING_TYPE *unanalyzedCameraClipTip;
-    MISSING_TYPE *homeEnergyTip;
+    id tileQuickToggleTip;
+    id unanalyzedCameraClipTip;
+    id homeEnergyTip;
 }
 
 + (id)eItem;

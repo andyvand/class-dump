@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintLayoutCollectionProvider
 {
-    MISSING_TYPE *isAnimatingInvalidation;
-    MISSING_TYPE *observableBlueprintLayoutCollection;
+    id isAnimatingInvalidation;
+    id observableBlueprintLayoutCollection;
 }
 
 @end

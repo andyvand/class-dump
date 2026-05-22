@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIView;
+@class NSString, UIView;
 @protocol _UIScrollPocketRegistrationInteractionDelegate;
 
 @interface _UIScrollPocketRegistrationInteraction
 {
-    MISSING_TYPE *receiver;
+    id receiver;
     void delegate;
     void _view;
-    MISSING_TYPE *parentScrollPocketCollectorModel;
+    id parentScrollPocketCollectorModel;
 }
 
 - (void);

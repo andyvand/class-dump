@@ -6,16 +6,14 @@
 
 #import <UIKitCore/UIControl.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.UIPromptSuggestionView : UIControl
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *backdropView;
-    MISSING_TYPE *label;
-    MISSING_TYPE *imageButtonView;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *isAnimating;
+    id configuration;
+    id backdropView;
+    id label;
+    id imageButtonView;
+    id contentView;
+    id isAnimating;
 }
 
 - (struct CGSize);

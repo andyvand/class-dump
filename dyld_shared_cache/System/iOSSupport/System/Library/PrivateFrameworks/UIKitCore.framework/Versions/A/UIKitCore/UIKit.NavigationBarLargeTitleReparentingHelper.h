@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 @interface UIKit.NavigationBarLargeTitleReparentingHelper
 {
-    MISSING_TYPE *container;
-    MISSING_TYPE *scrollView;
+    id container;
+    id scrollView;
     struct CGRect frameInGlobalCoordinateSpace;
-    MISSING_TYPE *scrollViewWithTemporaryDonatedTitle;
+    id scrollViewWithTemporaryDonatedTitle;
     _Bool contributesToPocketContentRect;
     UIView *view;
 }

@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome, MISSING_TYPE;
+@class HMHome;
 
 @interface HomeUI.DashboardSectionListItemManager
 {
-    MISSING_TYPE *roomItemProvider;
-    MISSING_TYPE *categoryItemProvider;
-    MISSING_TYPE *staticItemProvider;
-    MISSING_TYPE *sceneSectionItem;
-    MISSING_TYPE *cameraSectionItem;
-    MISSING_TYPE *favoriteSectionItem;
-    MISSING_TYPE *room;
-    MISSING_TYPE *reorderableSectionList;
-    MISSING_TYPE *sectionListManagerDelegate;
+    id roomItemProvider;
+    id categoryItemProvider;
+    id staticItemProvider;
+    id sceneSectionItem;
+    id cameraSectionItem;
+    id favoriteSectionItem;
+    id room;
+    id reorderableSectionList;
+    id sectionListManagerDelegate;
 }
 
 - (id);

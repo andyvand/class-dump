@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatPackageInventory
 {
-    MISSING_TYPE *package;
-    MISSING_TYPE *files;
-    MISSING_TYPE *filesMap;
-    MISSING_TYPE *fileKeyMap;
-    MISSING_TYPE *sourceMaps;
+    id package;
+    id files;
+    id filesMap;
+    id fileKeyMap;
+    id sourceMaps;
 }
 
 @end

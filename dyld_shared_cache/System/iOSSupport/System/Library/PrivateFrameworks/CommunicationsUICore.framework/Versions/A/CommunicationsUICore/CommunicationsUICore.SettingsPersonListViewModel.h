@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.SettingsPersonListViewModel
 {
-    MISSING_TYPE *_entries;
-    MISSING_TYPE *addEntryAction;
-    MISSING_TYPE *deleteEntryAction;
-    MISSING_TYPE *title;
-    MISSING_TYPE *_subEntryText;
-    MISSING_TYPE *addEntryText;
-    MISSING_TYPE *deleteText;
-    MISSING_TYPE *footerText;
-    MISSING_TYPE *wantsSubtitle;
-    MISSING_TYPE *_customEditMode;
-    MISSING_TYPE *_$observationRegistrar;
+    id _entries;
+    id addEntryAction;
+    id deleteEntryAction;
+    id title;
+    id _subEntryText;
+    id addEntryText;
+    id deleteText;
+    id footerText;
+    id wantsSubtitle;
+    id _customEditMode;
+    id _$observationRegistrar;
 }
 
 @end

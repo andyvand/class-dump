@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSDate, NSMutableArray, NSString, NUNISpheroid;
+@class NSArray, NSDate, NSMutableArray, NSString, NUNISpheroid;
 
 @interface NUNIScene
 {
@@ -46,15 +46,15 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (float);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (id);
 - (void);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (const struct NUNISceneStructure *);
 - (unsigned long long);
 - (void);
@@ -71,12 +71,12 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long backgroundType; // @dynamic backgroundType;
-@property(nonatomic) MISSING_TYPE *cameraOffset; // @dynamic cameraOffset;
+@property(nonatomic) id cameraOffset; // @dynamic cameraOffset;
 @property(nonatomic) float cameraOrbit; // @dynamic cameraOrbit;
-@property(readonly, nonatomic) MISSING_TYPE *cameraPosition; // @dynamic cameraPosition;
+@property(readonly, nonatomic) id cameraPosition; // @dynamic cameraPosition;
 @property(readonly, nonatomic) float cameraRoll; // @dynamic cameraRoll;
-@property(readonly, nonatomic) MISSING_TYPE *cameraTarget; // @dynamic cameraTarget;
-@property(readonly, nonatomic) MISSING_TYPE *cameraUp; // @dynamic cameraUp;
+@property(readonly, nonatomic) id cameraTarget; // @dynamic cameraTarget;
+@property(readonly, nonatomic) id cameraUp; // @dynamic cameraUp;
 @property(nonatomic) unsigned long long collectionType; // @dynamic collectionType;
 @property(copy, nonatomic) CDUnknownBlockType currentDateBlock; // @synthesize currentDateBlock=_currentDateBlock;
 @property(readonly, nonatomic) NSDate *date;

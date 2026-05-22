@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.MRZLayer
 {
-    MISSING_TYPE *fontWeight;
-    MISSING_TYPE *textColor;
-    MISSING_TYPE *ignoresAccessibilityBold;
-    MISSING_TYPE *mrzFormat;
-    MISSING_TYPE *mrzLineLayers;
+    id fontWeight;
+    id textColor;
+    id ignoresAccessibilityBold;
+    id mrzFormat;
+    id mrzLineLayers;
 }
 
 - (id);

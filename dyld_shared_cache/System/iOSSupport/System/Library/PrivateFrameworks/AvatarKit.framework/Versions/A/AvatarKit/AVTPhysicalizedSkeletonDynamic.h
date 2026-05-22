@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString, VFXNode;
+@class NSArray, NSString, VFXNode;
 
 __attribute__((visibility("hidden")))
 @interface AVTPhysicalizedSkeletonDynamic
@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     VFXNode *_drivingNode;
     VFXNode *_rootJoint;
     NSArray *_targetNodes;
-    MISSING_TYPE *_upDownRotation;
-    MISSING_TYPE *_leftRightRotation;
-    MISSING_TYPE *_forwardBackRotation;
+    id _upDownRotation;
+    id _leftRightRotation;
+    id _forwardBackRotation;
     unsigned long long _side;
 }
 

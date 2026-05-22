@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsArticles.AdComponentState
 {
     void identifier;
-    MISSING_TYPE *bannerState;
+    id bannerState;
 }
 
 - (id);

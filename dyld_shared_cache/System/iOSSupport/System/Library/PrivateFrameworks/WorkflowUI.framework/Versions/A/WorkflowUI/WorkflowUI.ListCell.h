@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.ListCell
 {
-    MISSING_TYPE *hostingView;
-    MISSING_TYPE *availabilityTask;
+    id hostingView;
+    id availabilityTask;
 }
 
 - (void);

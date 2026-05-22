@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeUserDataSource
 {
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_recipeFeaturesConfiguration;
-    MISSING_TYPE *state;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *task;
-    MISSING_TYPE *manager;
+    id _recipeID;
+    id _recipeFeaturesConfiguration;
+    id state;
+    id _$scope;
+    id task;
+    id manager;
 }
 
 @end

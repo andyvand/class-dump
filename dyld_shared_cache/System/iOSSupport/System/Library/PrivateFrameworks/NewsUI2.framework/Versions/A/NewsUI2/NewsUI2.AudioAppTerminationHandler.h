@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioAppTerminationHandler
 {
-    MISSING_TYPE *currentlyPlayingObservable;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *terminationObserver;
+    id currentlyPlayingObservable;
+    id commandCenter;
+    id terminationObserver;
 }
 
 @end

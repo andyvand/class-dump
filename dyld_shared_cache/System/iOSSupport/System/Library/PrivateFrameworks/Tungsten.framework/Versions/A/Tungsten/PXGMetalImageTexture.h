@@ -6,7 +6,7 @@
 
 #import <Tungsten/PXGImageTexture.h>
 
-@class MISSING_TYPE, NSIndexSet, NSString, PXGColorProgram, PXGMetalTextureCache;
+@class NSIndexSet, NSString, PXGColorProgram, PXGMetalTextureCache;
 @protocol MTLTexture;
 
 @interface PXGMetalImageTexture : PXGImageTexture
@@ -21,7 +21,7 @@
     PXGColorProgram *_colorProgram;
     long long _renderPipelineIndex;
     PXGMetalTextureCache *_textureCache;
-    MISSING_TYPE *_orientationTransform;
+    id _orientationTransform;
 }
 
 - (int);
@@ -39,7 +39,7 @@
 - (id);
 - (_Bool);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (unsigned char);
 - (id);
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.DestinationMapViewModel
 {
-    MISSING_TYPE *endLocation;
-    MISSING_TYPE *endLocationGeofenceRadius;
-    MISSING_TYPE *destinationType;
+    id endLocation;
+    id endLocationGeofenceRadius;
+    id destinationType;
 }
 
 @end

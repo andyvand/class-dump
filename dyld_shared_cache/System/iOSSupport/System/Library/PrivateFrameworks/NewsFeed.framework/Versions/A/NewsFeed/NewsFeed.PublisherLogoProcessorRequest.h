@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PublisherLogoProcessorRequest
 {
-    MISSING_TYPE *cacheIdentifier;
-    MISSING_TYPE *assetHandles;
-    MISSING_TYPE *publisherLogoImageSize;
-    MISSING_TYPE *scale;
-    MISSING_TYPE *theme;
-    MISSING_TYPE *isTransparentWhiteBackground;
-    MISSING_TYPE *options;
-    MISSING_TYPE *assetHandle;
+    id cacheIdentifier;
+    id assetHandles;
+    id publisherLogoImageSize;
+    id scale;
+    id theme;
+    id isTransparentWhiteBackground;
+    id options;
+    id assetHandle;
 }
 
 @end

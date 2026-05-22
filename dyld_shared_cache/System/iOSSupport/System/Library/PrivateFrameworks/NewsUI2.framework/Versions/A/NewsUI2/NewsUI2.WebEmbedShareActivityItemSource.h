@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WebEmbedShareActivityItemSource
 {
-    MISSING_TYPE *shareURL;
-    MISSING_TYPE *title;
+    id shareURL;
+    id title;
 }
 
 - (id);

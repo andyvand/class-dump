@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ComplexImageProcessorRequest
 {
-    MISSING_TYPE *assetHandles;
-    MISSING_TYPE *cacheIdentifier;
-    MISSING_TYPE *assetHandle;
-    MISSING_TYPE *instructions;
-    MISSING_TYPE *size;
-    MISSING_TYPE *imageRenderingMode;
+    id assetHandles;
+    id cacheIdentifier;
+    id assetHandle;
+    id instructions;
+    id size;
+    id imageRenderingMode;
 }
 
 @end

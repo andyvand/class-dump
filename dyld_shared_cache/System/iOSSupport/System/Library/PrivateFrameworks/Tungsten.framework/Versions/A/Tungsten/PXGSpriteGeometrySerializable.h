@@ -6,7 +6,7 @@
 
 @interface PXGSpriteGeometrySerializable
 {
-    CDStruct_d1b913ca _spriteGeometry;
+    CDStruct_fe19fe8c _spriteGeometry;
 }
 
 - (CDStruct_16a2be32);

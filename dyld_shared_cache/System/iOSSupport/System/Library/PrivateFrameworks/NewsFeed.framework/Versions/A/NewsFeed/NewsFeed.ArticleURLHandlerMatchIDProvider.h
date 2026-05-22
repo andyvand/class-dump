@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.ArticleURLHandlerMatchIDProvider
 {
-    MISSING_TYPE *articleIDPathComponent;
-    MISSING_TYPE *paywallArticleIDPathComponent;
+    id articleIDPathComponent;
+    id paywallArticleIDPathComponent;
 }
 
 @end

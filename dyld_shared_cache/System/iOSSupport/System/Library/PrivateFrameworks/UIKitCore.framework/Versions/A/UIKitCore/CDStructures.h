@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplay, CADynamicFrameRateSource, MISSING_TYPE, NSString, NSTimer, UIImage, UIWebPDFView, _UIMutableFastIndexSet;
+@class CADisplay, CADynamicFrameRateSource, NSString, NSTimer, UIImage, UIWebPDFView, _UIMutableFastIndexSet;
 
 #pragma mark Function Pointers and Blocks
 
@@ -1563,6 +1563,6 @@ typedef union {
         double z;
         double _padding;
     } ;
-    MISSING_TYPE *vector;
-} CDUnion_5898235e;
+    id vector;
+} CDUnion_84fc7ef9;
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FeedItemStream
 {
-    MISSING_TYPE *filter;
-    MISSING_TYPE *observableState;
-    MISSING_TYPE *deferredCompletionPromise;
+    id filter;
+    id observableState;
+    id deferredCompletionPromise;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatWorkspaceFeedDescriptor
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *name;
-    MISSING_TYPE *kind;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *altFeedDescriptor;
+    id identifier;
+    id name;
+    id kind;
+    id configuration;
+    id altFeedDescriptor;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.ShortcutChiclet.CheckButton.Model
 {
-    MISSING_TYPE *insets;
-    MISSING_TYPE *_pointSize;
-    MISSING_TYPE *action;
+    id insets;
+    id _pointSize;
+    id action;
 }
 
 @end

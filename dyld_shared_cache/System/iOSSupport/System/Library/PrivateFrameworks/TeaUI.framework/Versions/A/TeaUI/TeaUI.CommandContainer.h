@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CommandContainer
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *name;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *disposables;
+    id commandCenter;
+    id tracker;
+    id name;
+    id identifier;
+    id disposables;
 }
 
 @end

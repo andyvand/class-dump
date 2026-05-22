@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.LineSeriesView
 {
-    MISSING_TYPE *defaultLineView;
-    MISSING_TYPE *zoneLineViews;
+    id defaultLineView;
+    id zoneLineViews;
 }
 
 - (id);

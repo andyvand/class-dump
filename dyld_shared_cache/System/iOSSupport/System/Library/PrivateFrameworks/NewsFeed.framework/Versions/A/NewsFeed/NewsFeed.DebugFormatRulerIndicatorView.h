@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatRulerIndicatorView
 {
-    MISSING_TYPE *selections;
-    MISSING_TYPE *direction;
-    MISSING_TYPE *lines;
-    MISSING_TYPE *fill;
+    id selections;
+    id direction;
+    id lines;
+    id fill;
 }
 
 - (id);

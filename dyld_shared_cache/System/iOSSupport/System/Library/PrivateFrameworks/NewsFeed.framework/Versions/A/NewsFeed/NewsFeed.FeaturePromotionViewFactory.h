@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeaturePromotionViewFactory
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *presentationArchive;
-    MISSING_TYPE *featurePromotionTrackerManager;
-    MISSING_TYPE *dismissalTask;
+    id commandCenter;
+    id presentationArchive;
+    id featurePromotionTrackerManager;
+    id dismissalTask;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyUI.LegacyHistoricalUsageIntervalModel
 {
-    MISSING_TYPE *isInitialized;
-    MISSING_TYPE *_currentScrolledDate;
-    MISSING_TYPE *_$observationRegistrar;
+    id isInitialized;
+    id _currentScrolledDate;
+    id _$observationRegistrar;
 }
 
 @end

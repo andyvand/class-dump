@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CommandContextStore
 {
-    MISSING_TYPE *_onChange;
-    MISSING_TYPE *contexts;
+    id _onChange;
+    id contexts;
 }
 
 @end

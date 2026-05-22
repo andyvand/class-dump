@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsDateHeader
 {
-    MISSING_TYPE *title;
-    MISSING_TYPE *eyebrow;
+    id title;
+    id eyebrow;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsKit.NewsArticleViewController
 {
-    MISSING_TYPE *contentViewController;
-    MISSING_TYPE *articleViewController;
-    MISSING_TYPE *sceneProvider;
+    id contentViewController;
+    id articleViewController;
+    id sceneProvider;
 }
 
 - (void);

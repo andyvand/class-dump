@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintLayoutCollectionPipelineProcessorState
 {
-    MISSING_TYPE *layoutOptions;
-    MISSING_TYPE *sidecarLayoutOptions;
+    id layoutOptions;
+    id sidecarLayoutOptions;
 }
 
 @end

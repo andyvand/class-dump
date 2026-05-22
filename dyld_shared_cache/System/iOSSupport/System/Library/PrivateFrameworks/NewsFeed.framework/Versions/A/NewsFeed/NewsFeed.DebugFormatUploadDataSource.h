@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadDataSource
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *newsroomService;
+    id editor;
+    id newsroomService;
 }
 
 @end

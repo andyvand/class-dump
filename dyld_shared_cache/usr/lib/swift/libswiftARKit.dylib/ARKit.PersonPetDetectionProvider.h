@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.PersonPetDetectionProvider
 {
-    MISSING_TYPE *_cPersonPetDetectionProvider;
-    MISSING_TYPE *_cPersonPetDetectionConfiguration;
+    id _cPersonPetDetectionProvider;
+    id _cPersonPetDetectionConfiguration;
 }
 
 @end

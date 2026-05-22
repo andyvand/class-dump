@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelPickerDetailDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *model;
+    id delegate;
+    id subscriptionService;
+    id tagService;
+    id model;
 }
 
 @end

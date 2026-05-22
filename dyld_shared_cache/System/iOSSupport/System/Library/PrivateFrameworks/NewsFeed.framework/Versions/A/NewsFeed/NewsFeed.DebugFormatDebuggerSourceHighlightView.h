@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDebuggerSourceHighlightView
 {
-    MISSING_TYPE *sourceFile;
-    MISSING_TYPE *didTapOnHighlight;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *messageLabel;
-    MISSING_TYPE *messageFont;
-    MISSING_TYPE *messageTextColor;
-    MISSING_TYPE *highlight;
+    id sourceFile;
+    id didTapOnHighlight;
+    id editor;
+    id messageLabel;
+    id messageFont;
+    id messageTextColor;
+    id highlight;
 }
 
 - (id);

@@ -6,25 +6,23 @@
 
 #import <VFX/VFXManipulableItem.h>
 
-@class MISSING_TYPE;
-
 @interface VFXNodeManipulableItem : VFXManipulableItem
 {
-    CDStruct_14d5dc5e _manipulableTransform;
+    CDStruct_95fa7c00 _manipulableTransform;
 }
 
 + (void);
 + (void);
 + (id);
 - (void);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (void);
 - (id);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (void);
 - (id);
-- (CDStruct_14d5dc5e);
-- (MISSING_TYPE *);
+- (CDStruct_95fa7c00);
+- (id);
 - (void);
 
 @end

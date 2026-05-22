@@ -6,28 +6,28 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface UIKit.ScrollEdgeEffectView : UIView
 {
-    MISSING_TYPE *backgroundCapture;
-    MISSING_TYPE *pocketMask;
-    MISSING_TYPE *pocketMaskedBlur;
-    MISSING_TYPE *luminanceAdjustment;
-    MISSING_TYPE *additionalDimming;
-    MISSING_TYPE *touchBlocker;
-    MISSING_TYPE *debugOverlay;
-    MISSING_TYPE *previousEffectiveLuma;
-    MISSING_TYPE *lumaUpdateSettleTimer;
-    MISSING_TYPE *effect;
-    MISSING_TYPE *edge;
-    MISSING_TYPE *reducedTransparency;
-    MISSING_TYPE *isOwningViewEffectivelyHidden;
-    MISSING_TYPE *blurAlpha;
-    MISSING_TYPE *scrollVelocity;
-    MISSING_TYPE *owningView;
-    MISSING_TYPE *elementModel;
-    MISSING_TYPE *observableState;
+    id backgroundCapture;
+    id pocketMask;
+    id pocketMaskedBlur;
+    id luminanceAdjustment;
+    id additionalDimming;
+    id touchBlocker;
+    id debugOverlay;
+    id previousEffectiveLuma;
+    id lumaUpdateSettleTimer;
+    id effect;
+    id edge;
+    id reducedTransparency;
+    id isOwningViewEffectivelyHidden;
+    id blurAlpha;
+    id scrollVelocity;
+    id owningView;
+    id elementModel;
+    id observableState;
 }
 
 + (_Bool);

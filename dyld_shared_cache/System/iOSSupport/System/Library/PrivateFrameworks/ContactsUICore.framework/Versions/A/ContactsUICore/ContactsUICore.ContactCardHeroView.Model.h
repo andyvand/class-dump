@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactCardHeroView.Model
 {
-    MISSING_TYPE *contact;
-    MISSING_TYPE *_representation;
+    id contact;
+    id _representation;
 }
 
 @end

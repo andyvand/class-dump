@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleViewerDataManager
 {
-    MISSING_TYPE *articleRecirculationService;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *previewService;
+    id articleRecirculationService;
+    id headlineService;
+    id previewService;
 }
 
 @end

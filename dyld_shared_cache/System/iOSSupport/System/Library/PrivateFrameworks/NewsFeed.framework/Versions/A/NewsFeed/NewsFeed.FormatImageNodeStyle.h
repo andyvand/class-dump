@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatImageNodeStyle
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *class;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *alpha;
-    MISSING_TYPE *_adjustments;
-    MISSING_TYPE *background;
-    MISSING_TYPE *borders;
-    MISSING_TYPE *contentMode;
-    MISSING_TYPE *cornerRadius;
-    MISSING_TYPE *renderingMode;
-    MISSING_TYPE *resize;
-    MISSING_TYPE *_transforms;
-    MISSING_TYPE *shadow;
-    MISSING_TYPE *tintColor;
-    MISSING_TYPE *ignoresSmartInvertColors;
-    MISSING_TYPE *request;
-    MISSING_TYPE *imageMask;
+    id _identifier;
+    id class;
+    id _selectors;
+    id alpha;
+    id _adjustments;
+    id background;
+    id borders;
+    id contentMode;
+    id cornerRadius;
+    id renderingMode;
+    id resize;
+    id _transforms;
+    id shadow;
+    id tintColor;
+    id ignoresSmartInvertColors;
+    id request;
+    id imageMask;
 }
 
 @end

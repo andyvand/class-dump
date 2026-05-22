@@ -6,19 +6,17 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.UIRBDirectionalLightEffectView : UIView
 {
-    MISSING_TYPE *alongsideAnimation;
-    MISSING_TYPE *isAnimationRunning;
-    MISSING_TYPE *unionEffectDuration;
-    MISSING_TYPE *animationStartTime;
-    MISSING_TYPE *autorepeatsAnimation;
-    MISSING_TYPE *drawingView;
-    MISSING_TYPE *displayLink;
-    MISSING_TYPE *completionBlock;
-    MISSING_TYPE *alongsideAnimationCurve;
+    id alongsideAnimation;
+    id isAnimationRunning;
+    id unionEffectDuration;
+    id animationStartTime;
+    id autorepeatsAnimation;
+    id drawingView;
+    id displayLink;
+    id completionBlock;
+    id alongsideAnimationCurve;
 }
 
 - (id);

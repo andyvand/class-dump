@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.PrepareLightsSystemVFX1
 {
-    MISSING_TYPE *directionalUnshadowedQuery;
-    MISSING_TYPE *directionalQuery;
-    MISSING_TYPE *pointUnshadowedQuery;
-    MISSING_TYPE *pointQuery;
-    MISSING_TYPE *spotUnshadowedQuery;
-    MISSING_TYPE *spotQuery;
-    MISSING_TYPE *ambientQuery;
+    id directionalUnshadowedQuery;
+    id directionalQuery;
+    id pointUnshadowedQuery;
+    id pointQuery;
+    id spotUnshadowedQuery;
+    id spotQuery;
+    id ambientQuery;
 }
 
 @end

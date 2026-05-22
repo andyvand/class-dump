@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.SceneUnderstandingProvider
 {
-    MISSING_TYPE *_cSceneUnderstandingProvider;
-    MISSING_TYPE *_cSceneUnderstandingConfiguration;
-    MISSING_TYPE *sceneUnderstandingDataContinuations;
-    MISSING_TYPE *anchorQueue;
+    id _cSceneUnderstandingProvider;
+    id _cSceneUnderstandingConfiguration;
+    id sceneUnderstandingDataContinuations;
+    id anchorQueue;
 }
 
 @end

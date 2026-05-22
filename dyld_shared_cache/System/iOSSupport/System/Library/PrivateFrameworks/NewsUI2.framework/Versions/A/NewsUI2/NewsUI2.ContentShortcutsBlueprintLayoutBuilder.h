@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContentShortcutsBlueprintLayoutBuilder
 {
-    MISSING_TYPE *layoutAttributesFactory;
-    MISSING_TYPE *tagImageApplier;
+    id layoutAttributesFactory;
+    id tagImageApplier;
 }
 
 @end

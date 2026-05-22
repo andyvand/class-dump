@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineMoreActionsFactory
 {
-    MISSING_TYPE *offlineIssueManager;
-    MISSING_TYPE *myMagazinesStore;
-    MISSING_TYPE *activityItemFactory;
-    MISSING_TYPE *myMagazinesActivityItemFactory;
+    id offlineIssueManager;
+    id myMagazinesStore;
+    id activityItemFactory;
+    id myMagazinesActivityItemFactory;
 }
 
 @end

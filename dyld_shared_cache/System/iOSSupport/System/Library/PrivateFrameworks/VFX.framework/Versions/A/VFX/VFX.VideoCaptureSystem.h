@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VideoCaptureSystem
 {
-    MISSING_TYPE *captureComponents;
-    MISSING_TYPE *captureRuntime;
+    id captureComponents;
+    id captureRuntime;
 }
 
 @end

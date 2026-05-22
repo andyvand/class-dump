@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface _UISplitViewControllerAdaptivePanelLayout
 {
-    MISSING_TYPE *data;
-    MISSING_TYPE *solution;
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *delegate;
+    id data;
+    id solution;
+    id dataSource;
+    id delegate;
 }
 
 - (void);

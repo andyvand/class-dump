@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeCatalogOfflineFeedBuilder
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *feedAvailabilityService;
-    MISSING_TYPE *offlineFeedDatabase;
+    id resolver;
+    id featureAvailability;
+    id appConfigManager;
+    id feedAvailabilityService;
+    id offlineFeedDatabase;
 }
 
 @end

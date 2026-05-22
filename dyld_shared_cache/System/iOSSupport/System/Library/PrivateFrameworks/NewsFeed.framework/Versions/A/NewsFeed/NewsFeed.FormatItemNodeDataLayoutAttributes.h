@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatItemNodeDataLayoutAttributes
 {
-    MISSING_TYPE *renderKeyIdentifier;
-    MISSING_TYPE *style;
-    MISSING_TYPE *resizing;
-    MISSING_TYPE *resizingGroupIdentifier;
-    MISSING_TYPE *contextMenuItemOptions;
-    MISSING_TYPE *columnSystemKind;
-    MISSING_TYPE *feedItem;
-    MISSING_TYPE *zIndex;
-    MISSING_TYPE *visibility;
-    MISSING_TYPE *reuseIdentifier;
-    MISSING_TYPE *dataLayoutAttributes;
+    id renderKeyIdentifier;
+    id style;
+    id resizing;
+    id resizingGroupIdentifier;
+    id contextMenuItemOptions;
+    id columnSystemKind;
+    id feedItem;
+    id zIndex;
+    id visibility;
+    id reuseIdentifier;
+    id dataLayoutAttributes;
 }
 
 @end

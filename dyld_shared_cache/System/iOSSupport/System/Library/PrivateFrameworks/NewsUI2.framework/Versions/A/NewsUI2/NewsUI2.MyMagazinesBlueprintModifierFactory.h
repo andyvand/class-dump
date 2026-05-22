@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyMagazinesBlueprintModifierFactory
 {
-    MISSING_TYPE *issueModelFactory;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *offlineIssueManager;
+    id issueModelFactory;
+    id bundleSubscriptionManager;
+    id offlineIssueManager;
 }
 
 @end

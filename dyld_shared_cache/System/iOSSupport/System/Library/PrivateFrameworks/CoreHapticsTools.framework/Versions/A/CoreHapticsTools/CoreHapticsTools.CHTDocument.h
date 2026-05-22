@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTDocument
 {
-    MISSING_TYPE *undoRedoManager;
-    MISSING_TYPE *enableUndoManager;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *_hapticTransientEvents;
-    MISSING_TYPE *_hapticContinuousEvents;
-    MISSING_TYPE *_audioCustomEvents;
-    MISSING_TYPE *_audioContinuousEvents;
-    MISSING_TYPE *paramCurves;
-    MISSING_TYPE *_parsedHapticParameterCount;
-    MISSING_TYPE *_parsedHapticParameterCurveCount;
-    MISSING_TYPE *_parsedAudioParameterCount;
-    MISSING_TYPE *_parsedAudioParameterCurveCount;
-    MISSING_TYPE *fallbackDuration;
-    MISSING_TYPE *version;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *metadata;
-    MISSING_TYPE *url;
+    id undoRedoManager;
+    id enableUndoManager;
+    id observers;
+    id _hapticTransientEvents;
+    id _hapticContinuousEvents;
+    id _audioCustomEvents;
+    id _audioContinuousEvents;
+    id paramCurves;
+    id _parsedHapticParameterCount;
+    id _parsedHapticParameterCurveCount;
+    id _parsedAudioParameterCount;
+    id _parsedAudioParameterCurveCount;
+    id fallbackDuration;
+    id version;
+    id configuration;
+    id metadata;
+    id url;
 }
 
 - (id);

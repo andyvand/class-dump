@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.CustomTool
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *id;
-    MISSING_TYPE *parameterValues;
-    MISSING_TYPE *sourceToolDefinition;
+    id name;
+    id id;
+    id parameterValues;
+    id sourceToolDefinition;
 }
 
 @end

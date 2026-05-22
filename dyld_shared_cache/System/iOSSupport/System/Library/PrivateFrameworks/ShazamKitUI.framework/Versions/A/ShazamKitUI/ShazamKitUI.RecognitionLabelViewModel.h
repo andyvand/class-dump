@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ShazamKitUI.RecognitionLabelViewModel
 {
-    MISSING_TYPE *_pendingRematchCount;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_currentTextKey;
-    MISSING_TYPE *_extendedListeningTextChangeTask;
-    MISSING_TYPE *_pendingRematchTextChangeTask;
-    MISSING_TYPE *_$observationRegistrar;
+    id _pendingRematchCount;
+    id _state;
+    id _currentTextKey;
+    id _extendedListeningTextChangeTask;
+    id _pendingRematchTextChangeTask;
+    id _$observationRegistrar;
 }
 
 @end

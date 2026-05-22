@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PillView
 {
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *iconImageView;
-    MISSING_TYPE *touchInsets;
+    id contentView;
+    id titleLabel;
+    id iconImageView;
+    id touchInsets;
 }
 
 - (id);

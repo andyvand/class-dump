@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatInspectorCursorCell
 {
-    MISSING_TYPE *cursor;
-    MISSING_TYPE *frameLayer;
-    MISSING_TYPE *frameLabel;
-    MISSING_TYPE *widthSizingConstraintLabel;
-    MISSING_TYPE *heightSizingConstraintLabel;
-    MISSING_TYPE *filledAreaView;
-    MISSING_TYPE *passLabel;
-    MISSING_TYPE *resizingLabel;
-    MISSING_TYPE *positionView;
-    MISSING_TYPE *directionLayer;
+    id cursor;
+    id frameLayer;
+    id frameLabel;
+    id widthSizingConstraintLabel;
+    id heightSizingConstraintLabel;
+    id filledAreaView;
+    id passLabel;
+    id resizingLabel;
+    id positionView;
+    id directionLayer;
 }
 
 - (id);

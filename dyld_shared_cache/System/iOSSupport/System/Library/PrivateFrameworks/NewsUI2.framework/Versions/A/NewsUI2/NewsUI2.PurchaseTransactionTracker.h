@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PurchaseTransactionTracker
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *sanitizer;
+    id tracker;
+    id channelDataFactory;
+    id articleDataFactory;
+    id headlineService;
+    id sanitizer;
 }
 
 @end

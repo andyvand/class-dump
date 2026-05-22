@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.TriggerActionPickerViewController.ConvertToShortcutModule
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *home;
-    MISSING_TYPE *sectionHeader;
-    MISSING_TYPE *convertToShortcutItem;
+    id delegate;
+    id home;
+    id sectionHeader;
+    id convertToShortcutItem;
 }
 
 - (id);

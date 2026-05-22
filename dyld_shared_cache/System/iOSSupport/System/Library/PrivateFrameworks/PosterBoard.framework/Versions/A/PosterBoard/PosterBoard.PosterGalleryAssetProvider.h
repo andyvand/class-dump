@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 @interface PosterBoard.PosterGalleryAssetProvider
 {
-    MISSING_TYPE *_previewContentByIdentifier;
-    MISSING_TYPE *dataProvider;
-    MISSING_TYPE *assetHelper;
-    MISSING_TYPE *reusableViewMap;
-    MISSING_TYPE *visiblePreviewIdentifiers;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *$__lazy_storage_$_previewsContainer;
-    MISSING_TYPE *$__lazy_storage_$_recycledViewsContainer;
-    MISSING_TYPE *_$observationRegistrar;
+    id _previewContentByIdentifier;
+    id dataProvider;
+    id assetHelper;
+    id reusableViewMap;
+    id visiblePreviewIdentifiers;
+    id delegate;
+    id $__lazy_storage_$_previewsContainer;
+    id $__lazy_storage_$_recycledViewsContainer;
+    id _$observationRegistrar;
 }
 
 - (long long);

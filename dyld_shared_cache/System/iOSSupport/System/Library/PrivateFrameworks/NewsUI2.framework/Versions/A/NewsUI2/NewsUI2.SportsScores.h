@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsScores
 {
-    MISSING_TYPE *scores;
-    MISSING_TYPE *subheaderTitle;
+    id scores;
+    id subheaderTitle;
 }
 
 @end

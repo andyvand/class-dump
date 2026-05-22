@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface XPC._KeyedGraphEncodingNode
 {
-    MISSING_TYPE *keyToIndex;
-    MISSING_TYPE *values;
+    id keyToIndex;
+    id values;
 }
 
 @end

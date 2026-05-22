@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.SharedProfileViewModel
 {
-    MISSING_TYPE *_contact;
-    MISSING_TYPE *_actionsProvider;
-    MISSING_TYPE *sharedProfileOracle;
-    MISSING_TYPE *nameFormatter;
-    MISSING_TYPE *_isMeCard;
-    MISSING_TYPE *_$observationRegistrar;
+    id _contact;
+    id _actionsProvider;
+    id sharedProfileOracle;
+    id nameFormatter;
+    id _isMeCard;
+    id _$observationRegistrar;
 }
 
 @end

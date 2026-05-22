@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeCatalogSearchFilterResultsProvider
 {
-    MISSING_TYPE *searchQueryProvider;
-    MISSING_TYPE *searchService;
+    id searchQueryProvider;
+    id searchService;
 }
 
 @end

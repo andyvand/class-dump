@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineGridViewController
 {
-    MISSING_TYPE *viewControllerIdentifier;
-    MISSING_TYPE *viewControllerConfig;
-    MISSING_TYPE *_windowTitle;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *offlineAlertControllerFactory;
-    MISSING_TYPE *$__lazy_storage_$_selectAllBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_doneBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_downloadBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_removeIssuesAndDownloadsBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_removeDownloadsBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_selectionCountBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_selectionCountLabel;
-    MISSING_TYPE *editSelection;
-    MISSING_TYPE *commandCenterWithTracker;
+    id viewControllerIdentifier;
+    id viewControllerConfig;
+    id _windowTitle;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id offlineAlertControllerFactory;
+    id $__lazy_storage_$_selectAllBarButtonItem;
+    id $__lazy_storage_$_doneBarButtonItem;
+    id $__lazy_storage_$_downloadBarButtonItem;
+    id $__lazy_storage_$_removeIssuesAndDownloadsBarButtonItem;
+    id $__lazy_storage_$_removeDownloadsBarButtonItem;
+    id $__lazy_storage_$_selectionCountBarButtonItem;
+    id $__lazy_storage_$_selectionCountLabel;
+    id editSelection;
+    id commandCenterWithTracker;
 }
 
 - (void);

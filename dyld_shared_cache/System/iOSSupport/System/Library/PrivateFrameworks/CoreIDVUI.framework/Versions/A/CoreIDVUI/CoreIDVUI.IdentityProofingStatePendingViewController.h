@@ -6,20 +6,18 @@
 
 #import <CoreIDVUI/CoreIDVUI.IdentityProofingBaseViewController.h>
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingStatePendingViewController : CoreIDVUI.IdentityProofingBaseViewController
 {
-    MISSING_TYPE *primaryButtonClickedAction;
-    MISSING_TYPE *secondaryButtonClickedAction;
-    MISSING_TYPE *tertiaryButtonClickedAction;
-    MISSING_TYPE *$__lazy_storage_$_titleLabel;
-    MISSING_TYPE *$__lazy_storage_$_primaryLabel;
-    MISSING_TYPE *$__lazy_storage_$_secondaryLabel;
-    MISSING_TYPE *$__lazy_storage_$_primaryButton;
-    MISSING_TYPE *$__lazy_storage_$_secondaryButton;
-    MISSING_TYPE *$__lazy_storage_$_tertiaryButton;
-    MISSING_TYPE *imageView;
+    id primaryButtonClickedAction;
+    id secondaryButtonClickedAction;
+    id tertiaryButtonClickedAction;
+    id $__lazy_storage_$_titleLabel;
+    id $__lazy_storage_$_primaryLabel;
+    id $__lazy_storage_$_secondaryLabel;
+    id $__lazy_storage_$_primaryButton;
+    id $__lazy_storage_$_secondaryButton;
+    id $__lazy_storage_$_tertiaryButton;
+    id imageView;
 }
 
 - (void);

@@ -6,12 +6,10 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.ChangingQueueState.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.ChangingCurrentItemState : MediaPlaybackCore.ChangingQueueState
 {
-    MISSING_TYPE *items;
-    MISSING_TYPE *hasLoadedAllItems;
+    id items;
+    id hasLoadedAllItems;
 }
 
 @end

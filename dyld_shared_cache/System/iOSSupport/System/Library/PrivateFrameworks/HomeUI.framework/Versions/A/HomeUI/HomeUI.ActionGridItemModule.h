@@ -6,13 +6,11 @@
 
 #import <HomeUI/HomeUI.AccessoryItemModule.h>
 
-@class MISSING_TYPE;
-
 @interface HomeUI.ActionGridItemModule : HomeUI.AccessoryItemModule
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *actionBuilderContainer;
-    MISSING_TYPE *delegate;
+    id config;
+    id actionBuilderContainer;
+    id delegate;
 }
 
 - (id);

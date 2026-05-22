@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.NewsletterSubscriptionFeaturePromotionEligibilityProvider
 {
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *newsletterSubscription;
+    id newsletterManager;
+    id newsletterSubscription;
 }
 
 @end

@@ -6,14 +6,14 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class MISSING_TYPE, UITabBar, UITabBarController;
+@class UITabBar, UITabBarController;
 
 @interface UIKit._UITabBarContainerView : _UITouchPassthroughView
 {
     UITabBar *tabBar;
-    MISSING_TYPE *isBarHidden;
-    MISSING_TYPE *host;
-    MISSING_TYPE *layoutManager;
+    id isBarHidden;
+    id host;
+    id layoutManager;
 }
 
 - (void);

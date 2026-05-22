@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.DefaultRemapper
 {
-    MISSING_TYPE *destinationEntityManager;
-    MISSING_TYPE *remapTable;
-    MISSING_TYPE *isReversed;
+    id destinationEntityManager;
+    id remapTable;
+    id isReversed;
 }
 
 - (id);

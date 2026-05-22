@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CardViewTitleView
 {
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *separatorView;
-    MISSING_TYPE *closeAffordanceButton;
-    MISSING_TYPE *contentView;
+    id titleLabel;
+    id separatorView;
+    id closeAffordanceButton;
+    id contentView;
 }
 
 - (id);

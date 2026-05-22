@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface StocksAnalytics.ExternalAnalyticsEventProcessor
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *uploader;
-    MISSING_TYPE *panelIdProvider;
-    MISSING_TYPE *urlProvider;
-    MISSING_TYPE *panelIdMapping;
-    MISSING_TYPE *vpnProfileNames;
-    MISSING_TYPE *sessionID;
+    id tracker;
+    id appConfigurationManager;
+    id uploader;
+    id panelIdProvider;
+    id urlProvider;
+    id panelIdMapping;
+    id vpnProfileNames;
+    id sessionID;
 }
 
 @end

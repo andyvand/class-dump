@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingDislikedViewSupplementaryViewProvider
 {
-    MISSING_TYPE *followingHeaderViewRenderer;
-    MISSING_TYPE *messageHeaderViewRenderer;
+    id followingHeaderViewRenderer;
+    id messageHeaderViewRenderer;
 }
 
 @end

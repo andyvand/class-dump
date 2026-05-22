@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedViewerInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *feedViewContext;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *userDefaults;
-    MISSING_TYPE *puzzleGameCenterService;
-    MISSING_TYPE *lastSectionRequest;
+    id delegate;
+    id dataManager;
+    id feedViewContext;
+    id appConfigManager;
+    id userDefaults;
+    id puzzleGameCenterService;
+    id lastSectionRequest;
 }
 
 @end

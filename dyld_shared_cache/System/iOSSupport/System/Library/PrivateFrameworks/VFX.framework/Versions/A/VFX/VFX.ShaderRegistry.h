@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ShaderRegistry
 {
-    MISSING_TYPE *registry;
-    MISSING_TYPE *libraries;
+    id registry;
+    id libraries;
 }
 
 @end

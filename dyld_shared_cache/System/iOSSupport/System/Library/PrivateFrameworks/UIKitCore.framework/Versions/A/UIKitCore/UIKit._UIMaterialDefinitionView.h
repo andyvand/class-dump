@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIMaterialDefinitionView : UIView
 {
-    MISSING_TYPE *ignoresSyncingMasksToBounds;
+    id ignoresSyncingMasksToBounds;
 }
 
 - (void);

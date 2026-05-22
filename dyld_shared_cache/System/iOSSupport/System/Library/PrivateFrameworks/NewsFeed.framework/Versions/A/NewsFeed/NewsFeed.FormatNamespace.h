@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatNamespace
 {
-    MISSING_TYPE *namespace;
-    MISSING_TYPE *layoutNamespace;
-    MISSING_TYPE *sourcePath;
-    MISSING_TYPE *debugData;
+    id namespace;
+    id layoutNamespace;
+    id sourcePath;
+    id debugData;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, TSDMetalShader, TSDMetalTextureInfo;
+@class NSArray, TSDMetalShader, TSDMetalTextureInfo;
 @protocol TSDAnimationRandomGenerator;
 
 @interface TSDMetalEdgeDistanceFieldTraceEffect
@@ -18,9 +18,9 @@
     struct CGSize _bufferSize;
     struct CGRect _viewportRect;
     struct {
-        CDStruct_14d5dc5e mvpMatrix;
+        CDStruct_95fa7c00 mvpMatrix;
         struct {
-            MISSING_TYPE *columns[3];
+            id columns[3];
         } textureMatrix;
     } _vertexUniforms;
     struct {

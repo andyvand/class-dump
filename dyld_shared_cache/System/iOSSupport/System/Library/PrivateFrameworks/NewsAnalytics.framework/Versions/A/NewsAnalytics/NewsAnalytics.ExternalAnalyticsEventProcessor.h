@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAnalytics.ExternalAnalyticsEventProcessor
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *uploader;
-    MISSING_TYPE *urlProvider;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *vpnProfileNames;
-    MISSING_TYPE *sessionID;
+    id appConfigurationManager;
+    id uploader;
+    id urlProvider;
+    id featureAvailability;
+    id vpnProfileNames;
+    id sessionID;
 }
 
 @end

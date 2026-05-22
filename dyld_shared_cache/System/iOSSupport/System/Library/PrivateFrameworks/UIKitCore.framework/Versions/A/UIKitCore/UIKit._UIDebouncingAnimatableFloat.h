@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIViewFloatAnimatableProperty.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIDebouncingAnimatableFloat : UIViewFloatAnimatableProperty
 {
-    MISSING_TYPE *name;
+    id name;
 }
 
 - (void);

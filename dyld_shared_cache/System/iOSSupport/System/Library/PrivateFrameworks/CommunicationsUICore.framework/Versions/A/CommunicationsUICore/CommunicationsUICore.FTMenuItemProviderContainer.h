@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.FTMenuItemProviderContainer
 {
-    MISSING_TYPE *punchOutProvider;
-    MISSING_TYPE *callRecording;
-    MISSING_TYPE *deskView;
-    MISSING_TYPE *routes;
-    MISSING_TYPE *liveCaptions;
-    MISSING_TYPE *liveTranslation;
-    MISSING_TYPE *screenShare;
-    MISSING_TYPE *sharePlay;
-    MISSING_TYPE *splitCalls;
-    MISSING_TYPE *conferenceParticipants;
+    id punchOutProvider;
+    id callRecording;
+    id deskView;
+    id routes;
+    id liveCaptions;
+    id liveTranslation;
+    id screenShare;
+    id sharePlay;
+    id splitCalls;
+    id conferenceParticipants;
 }
 
 @end

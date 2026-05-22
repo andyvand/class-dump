@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.AccessoryEventItemSelectionController
 {
-    MISSING_TYPE *triggerBuilder;
-    MISSING_TYPE *eventBuilderItem;
-    MISSING_TYPE *flow;
-    MISSING_TYPE *stepIdentifier;
-    MISSING_TYPE *allowsDeselecting;
-    MISSING_TYPE *selectedItems;
-    MISSING_TYPE *selectionCompleteFuture;
+    id triggerBuilder;
+    id eventBuilderItem;
+    id flow;
+    id stepIdentifier;
+    id allowsDeselecting;
+    id selectedItems;
+    id selectionCompleteFuture;
 }
 
 - (id);

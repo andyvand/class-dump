@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.DebugNativeAdProvider
 {
-    MISSING_TYPE *_loadingDelay;
-    MISSING_TYPE *_articleIdentifier;
-    MISSING_TYPE *contextWrapper;
+    id _loadingDelay;
+    id _articleIdentifier;
+    id contextWrapper;
 }
 
 @end

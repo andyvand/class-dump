@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedSponsorshipAdService
 {
-    MISSING_TYPE *adManager;
-    MISSING_TYPE *adRequestManager;
-    MISSING_TYPE *adRequestStore;
-    MISSING_TYPE *contextBuilder;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *tracker;
+    id adManager;
+    id adRequestManager;
+    id adRequestStore;
+    id contextBuilder;
+    id bundleSubscriptionManager;
+    id featureAvailability;
+    id tracker;
 }
 
 @end

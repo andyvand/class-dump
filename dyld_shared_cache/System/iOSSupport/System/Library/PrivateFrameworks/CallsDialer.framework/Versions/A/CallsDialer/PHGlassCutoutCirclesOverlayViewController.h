@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PHGlassCutoutCirclesOverlayViewController
 {
-    MISSING_TYPE *hostingController;
-    MISSING_TYPE *frontCircleConfig;
-    MISSING_TYPE *backCircleConfig;
-    MISSING_TYPE *size;
+    id hostingController;
+    id frontCircleConfig;
+    id backCircleConfig;
+    id size;
 }
 
 + (id);

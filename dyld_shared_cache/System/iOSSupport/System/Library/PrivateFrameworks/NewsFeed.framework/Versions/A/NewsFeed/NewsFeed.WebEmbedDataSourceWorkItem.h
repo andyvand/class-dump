@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedDataSourceWorkItem
 {
-    MISSING_TYPE *lockedVisualizations;
-    MISSING_TYPE *dispatchWorkItem;
+    id lockedVisualizations;
+    id dispatchWorkItem;
 }
 
 @end

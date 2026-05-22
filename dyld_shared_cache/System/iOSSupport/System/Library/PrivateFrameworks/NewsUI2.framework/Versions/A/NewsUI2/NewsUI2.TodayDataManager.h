@@ -4,40 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *feedManager;
-    MISSING_TYPE *feedPluginManager;
-    MISSING_TYPE *feedServiceContextFactory;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *sharedItemManager;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *bundleSessionManager;
-    MISSING_TYPE *bundleCampaignSessionManager;
-    MISSING_TYPE *bundleSubscriptionDetectionManager;
-    MISSING_TYPE *subscriptionList;
-    MISSING_TYPE *nativeAdService;
-    MISSING_TYPE *_lastRefreshContext;
-    MISSING_TYPE *sharedItemAdditions;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *cachePreFlushTask;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *shortcutService;
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *historyService;
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *offlineFeedPrimer;
-    MISSING_TYPE *offlineFeatures;
-    MISSING_TYPE *blockNextAutoRefresh;
-    MISSING_TYPE *contentShortcutsModule;
-    MISSING_TYPE *contentShortcutsPluginConfig;
+    id delegate;
+    id feedManager;
+    id feedPluginManager;
+    id feedServiceContextFactory;
+    id feedServiceConfigFetcher;
+    id accessQueue;
+    id sharedItemManager;
+    id appConfigManager;
+    id bundleSubscriptionManager;
+    id bundleSessionManager;
+    id bundleCampaignSessionManager;
+    id bundleSubscriptionDetectionManager;
+    id subscriptionList;
+    id nativeAdService;
+    id _lastRefreshContext;
+    id sharedItemAdditions;
+    id subscriptionService;
+    id cachePreFlushTask;
+    id sportsOnboardingManager;
+    id shortcutService;
+    id readingList;
+    id historyService;
+    id puzzleStatsService;
+    id puzzleHistoryService;
+    id offlineManager;
+    id offlineFeedPrimer;
+    id offlineFeatures;
+    id blockNextAutoRefresh;
+    id contentShortcutsModule;
+    id contentShortcutsPluginConfig;
 }
 
 - (void);

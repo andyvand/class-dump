@@ -6,13 +6,11 @@
 
 #import <WorkflowUI/WorkflowUI.SmartShortcutPickerBaseViewController.h>
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SmartShortcutPickerDetailViewController : WorkflowUI.SmartShortcutPickerBaseViewController
 {
-    MISSING_TYPE *headerElementKind;
-    MISSING_TYPE *materialView;
-    MISSING_TYPE *hostingView;
+    id headerElementKind;
+    id materialView;
+    id hostingView;
 }
 
 - (id);

@@ -4,27 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, _TtC3VFX8VFXScene, _TtC3VFX9VFXEffect;
+@class VFX.VFXEffect, VFX.VFXScene;
 
 @interface VFXREScene
 {
-    _TtC3VFX8VFXScene *scene;
-    _TtC3VFX9VFXEffect *effect;
+    VFX.VFXScene *scene;
+    VFX.VFXEffect *effect;
     id transientDrawCall;
-    MISSING_TYPE *rootEntity;
-    MISSING_TYPE *cameraEntity;
-    MISSING_TYPE *device;
-    MISSING_TYPE *cancellables;
-    MISSING_TYPE *isPrepared;
+    id rootEntity;
+    id cameraEntity;
+    id device;
+    id cancellables;
+    id isPrepared;
     long long uuid;
-    MISSING_TYPE *worldFromScene;
-    MISSING_TYPE *sceneFromWorld;
+    id worldFromScene;
+    id sceneFromWorld;
     float sceneScale;
     void reloadBlock;
-    MISSING_TYPE *remappingTable;
-    MISSING_TYPE *renderOutput;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *externalDrawCallQuery;
+    id remappingTable;
+    id renderOutput;
+    id renderer;
+    id externalDrawCallQuery;
 }
 
 - (void);
@@ -44,7 +44,7 @@
 - (long long);
 - (id);
 - (int);
-- (CDStruct_a7a0fb92);
+- (CDStruct_8666bb01);
 - (void);
 - (void);
 - (id);
@@ -1953,18 +1953,18 @@ fragment VFXOutput commonprofile_frag(commonprofile_io                   in     
 // Remaining properties
 @property(nonatomic, readonly) float deltaTime;
 @property(nonatomic, readonly) long long drawCallCount;
-@property(nonatomic, retain) _TtC3VFX9VFXEffect *effect; // @synthesize effect;
+@property(nonatomic, retain) VFX.VFXEffect *effect; // @synthesize effect;
 @property(nonatomic, readonly) _Bool needsCollisionPlanes;
 @property(nonatomic, readonly) void *opaqueECS;
 @property(nonatomic) int peerPid;
 @property(nonatomic) unsigned int peerTaskIdentity;
 @property(nonatomic, copy) CDUnknownBlockType reloadBlock;
-@property(nonatomic, retain) _TtC3VFX8VFXScene *scene; // @synthesize scene;
+@property(nonatomic, retain) VFX.VFXScene *scene; // @synthesize scene;
 @property(nonatomic) float sceneScale; // @synthesize sceneScale;
 @property(nonatomic, readonly) _Bool shouldUseDrawCallHandler;
 @property(nonatomic, retain) id transientDrawCall; // @synthesize transientDrawCall;
 @property(nonatomic) long long uuid; // @synthesize uuid;
-@property(nonatomic, readonly) CDStruct_a7a0fb92 worldBoundingBox;
+@property(nonatomic, readonly) CDStruct_8666bb01 worldBoundingBox;
 
 @end
 

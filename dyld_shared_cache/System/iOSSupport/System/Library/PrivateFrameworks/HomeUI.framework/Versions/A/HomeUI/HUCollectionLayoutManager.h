@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HUCollectionLayoutManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *adaptiveTilesUsesPrefixes;
-    MISSING_TYPE *layoutOptions;
+    id delegate;
+    id adaptiveTilesUsesPrefixes;
+    id layoutOptions;
 }
 
 + (id);

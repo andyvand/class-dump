@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.DefaultSceneHarvester
 {
-    MISSING_TYPE *secondsToWait;
-    MISSING_TYPE *observerToken;
-    MISSING_TYPE *timer;
-    MISSING_TYPE *fulfilledScene;
-    MISSING_TYPE *pendingScene;
+    id secondsToWait;
+    id observerToken;
+    id timer;
+    id fulfilledScene;
+    id pendingScene;
 }
 
 @end

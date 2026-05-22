@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.UnitManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *userDefaults;
-    MISSING_TYPE *loadingState;
-    MISSING_TYPE *lastKnownUnitConfig;
-    MISSING_TYPE *updatesMulticaster;
-    MISSING_TYPE *dataUpdatesMulticaster;
+    id $defaultActor;
+    id userDefaults;
+    id loadingState;
+    id lastKnownUnitConfig;
+    id updatesMulticaster;
+    id dataUpdatesMulticaster;
 }
 
 @end

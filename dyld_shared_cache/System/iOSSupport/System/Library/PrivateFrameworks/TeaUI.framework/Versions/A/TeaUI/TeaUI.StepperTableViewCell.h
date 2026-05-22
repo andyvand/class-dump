@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.StepperTableViewCell
 {
-    MISSING_TYPE *onChange;
-    MISSING_TYPE *label;
-    MISSING_TYPE *valueLabel;
-    MISSING_TYPE *stepper;
+    id onChange;
+    id label;
+    id valueLabel;
+    id stepper;
 }
 
 - (void);

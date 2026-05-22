@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIColor;
+@class NSString, UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewMarkerLayer
@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     void subLabel;
     UIColor *alternateColor;
     long long labelAlignment;
-    MISSING_TYPE *fontSize;
-    MISSING_TYPE *radius;
-    MISSING_TYPE *width;
-    MISSING_TYPE *labels;
+    id fontSize;
+    id radius;
+    id width;
+    id labels;
 }
 
 - (void);

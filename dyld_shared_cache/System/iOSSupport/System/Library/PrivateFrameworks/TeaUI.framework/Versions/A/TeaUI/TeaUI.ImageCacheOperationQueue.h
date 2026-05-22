@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ImageCacheOperationQueue
 {
-    MISSING_TYPE *downloader;
-    MISSING_TYPE *processor;
-    MISSING_TYPE *underlyingCache;
-    MISSING_TYPE *requests;
-    MISSING_TYPE *pipeline;
+    id downloader;
+    id processor;
+    id underlyingCache;
+    id requests;
+    id pipeline;
 }
 
 @end

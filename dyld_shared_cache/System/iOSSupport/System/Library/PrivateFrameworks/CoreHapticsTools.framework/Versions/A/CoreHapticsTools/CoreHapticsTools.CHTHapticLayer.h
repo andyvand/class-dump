@@ -6,23 +6,21 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTLayer.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTHapticLayer : CoreHapticsTools.CHTLayer
 {
-    MISSING_TYPE *timeDomainParameterPointsForTransientEvents;
-    MISSING_TYPE *contextSizedPathsForTransientEvents;
-    MISSING_TYPE *timeTransientEventsProcessingQueue;
-    MISSING_TYPE *transientEventPathProcessingQueue;
-    MISSING_TYPE *timeDomainParameterPointsForContinuousEvents;
-    MISSING_TYPE *contextSizedPathsForContinuousEvents;
-    MISSING_TYPE *timeContinuousEventsProcessingQueue;
-    MISSING_TYPE *continuousEventPathProcessingQueue;
-    MISSING_TYPE *paramTypeForLayer;
-    MISSING_TYPE *topBarMultiplier;
-    MISSING_TYPE *transientColor;
-    MISSING_TYPE *continuousColor;
-    MISSING_TYPE *pathDrawingMode;
+    id timeDomainParameterPointsForTransientEvents;
+    id contextSizedPathsForTransientEvents;
+    id timeTransientEventsProcessingQueue;
+    id transientEventPathProcessingQueue;
+    id timeDomainParameterPointsForContinuousEvents;
+    id contextSizedPathsForContinuousEvents;
+    id timeContinuousEventsProcessingQueue;
+    id continuousEventPathProcessingQueue;
+    id paramTypeForLayer;
+    id topBarMultiplier;
+    id transientColor;
+    id continuousColor;
+    id pathDrawingMode;
 }
 
 - (id);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary, NSString, PTGlobalReduction, PTGuidedFilter, PTMetalContext, PTPyramid, PTQualitySettings, PTRaytracingInterpolateResult, PTRaytracingUtils, PTRenderDebugLayer;
+@class NSDictionary, NSString, PTGlobalReduction, PTGuidedFilter, PTMetalContext, PTPyramid, PTQualitySettings, PTRaytracingInterpolateResult, PTRaytracingUtils, PTRenderDebugLayer;
 @protocol MTLBuffer, MTLComputePipelineState, MTLTexture;
 
 @interface PTRaytracingV4001
@@ -19,7 +19,7 @@
     struct PTFocusEdge _focusEdge;
     float _circleOfConfusionReference;
     float _fNumberLimitWeight;
-    MISSING_TYPE *_circleOfConfusionLimitBgFg;
+    id _circleOfConfusionLimitBgFg;
     PTQualitySettings *_qualitySettings;
     PTRaytracingUtils *_raytracingUtils;
     PTRaytracingInterpolateResult *_raytracingInterpolateResult;
@@ -39,8 +39,8 @@
     id <MTLTexture> _guideRGBAUpscale;
     _Bool _doVisualization;
     int _kRayCount;
-    MISSING_TYPE *_sourceColorSize;
-    MISSING_TYPE *_sourceDisparitySize;
+    id _sourceColorSize;
+    id _sourceDisparitySize;
     float _kPyramidSamplingFraction;
     float _anamorphicFactor;
     float _radialObstructionFactor;

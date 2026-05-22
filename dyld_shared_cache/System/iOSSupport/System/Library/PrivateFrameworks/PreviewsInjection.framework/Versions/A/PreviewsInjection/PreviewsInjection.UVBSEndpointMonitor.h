@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.UVBSEndpointMonitor
 {
-    MISSING_TYPE *controlAgentMonitor;
-    MISSING_TYPE *controlAgent;
-    MISSING_TYPE *jitBootstrapAgentMonitor;
-    MISSING_TYPE *jitBootstrapAgent;
+    id controlAgentMonitor;
+    id controlAgent;
+    id jitBootstrapAgentMonitor;
+    id jitBootstrapAgent;
 }
 
 + (void);

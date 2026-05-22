@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, VFXPhysicsWorld;
+@class NSArray, VFXPhysicsWorld;
 @protocol AVTPhysicsControllerDelegate;
 
 __attribute__((visibility("hidden")))
@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (void);

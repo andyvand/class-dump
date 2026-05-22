@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, VFXWorld, _TtC3VFX15VFXEntityObject, _TtC3VFX20EntityPropertyHelper;
+@class NSArray, NSMutableDictionary, NSString, VFX.EntityPropertyHelper, VFX.VFXEntityObject, VFXWorld;
 
 @interface VFXCoreEntityHandle
 {
-    _TtC3VFX15VFXEntityObject *_entityObject;
+    VFX.VFXEntityObject *_entityObject;
     struct __CFXCoreEntityHandle *_handle;
     VFXWorld *_world;
     unsigned int _worldReferenceCounter;
@@ -76,8 +76,8 @@
 // Original attribute string: T@"NSString",?,R,C
 
 @property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _TtC3VFX20EntityPropertyHelper *entityHelper;
-@property(readonly, nonatomic) _TtC3VFX15VFXEntityObject *entityObject;
+@property(readonly, nonatomic) VFX.EntityPropertyHelper *entityHelper;
+@property(readonly, nonatomic) VFX.VFXEntityObject *entityObject;
 @property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool muteWorldChange;
 @property(readonly, nonatomic) NSArray *privateBindingNames;

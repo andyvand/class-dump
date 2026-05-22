@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyRecipesBlueprintLayoutBuilder
 {
-    MISSING_TYPE *feedLayoutSolver;
-    MISSING_TYPE *config;
+    id feedLayoutSolver;
+    id config;
 }
 
 @end

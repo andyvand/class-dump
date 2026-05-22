@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.TagMastheadViewRenderer
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *logoImageCache;
-    MISSING_TYPE *backgroundImageCache;
+    id styler;
+    id logoImageCache;
+    id backgroundImageCache;
 }
 
 @end

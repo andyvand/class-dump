@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContentShortcutsViewController
 {
-    MISSING_TYPE *isBeingUsedAsPlugin;
-    MISSING_TYPE *pluggableDelegate;
-    MISSING_TYPE *selectionProvider;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *isEditingFavorites;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *tipConfigFactory;
-    MISSING_TYPE *blueprintHorizontalShimView;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *isTransitioning;
+    id isBeingUsedAsPlugin;
+    id pluggableDelegate;
+    id selectionProvider;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id commandCenter;
+    id isEditingFavorites;
+    id tipManager;
+    id tipConfigFactory;
+    id blueprintHorizontalShimView;
+    id featureAvailability;
+    id tracker;
+    id isTransitioning;
 }
 
 - (void);

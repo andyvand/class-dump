@@ -26,7 +26,7 @@
         float *legacyOffsetsOrTransforms;
         unsigned long long legacyOffsetsOrTransformsLength;
     } _bindingData;
-    CDStruct_14d5dc5e _deformedToDrivingBindingTransform;
+    CDStruct_95fa7c00 _deformedToDrivingBindingTransform;
     _Bool _isLegacySingleLayerDeformer;
     unsigned long long _legacyDrivingNodeUVChannel;
     unsigned long long _legacyDeformedNodeUVChannel;

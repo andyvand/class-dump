@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.PosterVariableBlurLayer
 {
-    MISSING_TYPE *expandedBlurOpacity;
-    MISSING_TYPE *offset;
-    MISSING_TYPE *blurRadius;
-    MISSING_TYPE *maskLayer;
-    MISSING_TYPE *variableImageLayer;
-    MISSING_TYPE *constantColorLayer;
-    MISSING_TYPE *backdropLayer;
+    id expandedBlurOpacity;
+    id offset;
+    id blurRadius;
+    id maskLayer;
+    id variableImageLayer;
+    id constantColorLayer;
+    id backdropLayer;
 }
 
 - (id);

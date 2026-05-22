@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatLayoutViewAnimation
 {
-    MISSING_TYPE *animationCompletion;
-    MISSING_TYPE *runModeRunner;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *view;
-    MISSING_TYPE *layer;
-    MISSING_TYPE *supplementaryLayers;
-    MISSING_TYPE *allLayers;
-    MISSING_TYPE *animationData;
-    MISSING_TYPE *animators;
+    id animationCompletion;
+    id runModeRunner;
+    id identifier;
+    id view;
+    id layer;
+    id supplementaryLayers;
+    id allLayers;
+    id animationData;
+    id animators;
 }
 
 @end

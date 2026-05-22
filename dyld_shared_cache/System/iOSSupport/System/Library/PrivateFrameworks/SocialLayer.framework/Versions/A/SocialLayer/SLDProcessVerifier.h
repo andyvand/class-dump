@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SLDProcessVerifier
 {
-    MISSING_TYPE *useStaticKeyForTesting;
-    MISSING_TYPE *$__lazy_storage_$_staticTestingKey;
+    id useStaticKeyForTesting;
+    id $__lazy_storage_$_staticTestingKey;
 }
 
 + (id);

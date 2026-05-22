@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.PlaybackEngineSessionManager
 {
-    MISSING_TYPE *playbackEngine;
-    MISSING_TYPE *$__lazy_storage_$_playbackSessionsURL;
+    id playbackEngine;
+    id $__lazy_storage_$_playbackSessionsURL;
 }
 
 @end

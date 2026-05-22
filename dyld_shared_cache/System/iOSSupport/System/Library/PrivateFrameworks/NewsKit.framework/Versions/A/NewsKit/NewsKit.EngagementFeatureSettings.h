@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsKit.EngagementFeatureSettings
 {
-    MISSING_TYPE *disableOverlayPlacements;
-    MISSING_TYPE *isSmarterMessagingEnabled;
-    MISSING_TYPE *blockMastheadUpsellBanner;
+    id disableOverlayPlacements;
+    id isSmarterMessagingEnabled;
+    id blockMastheadUpsellBanner;
 }
 
 @end

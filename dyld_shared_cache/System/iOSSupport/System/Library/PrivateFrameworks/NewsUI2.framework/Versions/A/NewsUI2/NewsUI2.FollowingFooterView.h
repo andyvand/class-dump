@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingFooterView
 {
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *stripe;
-    MISSING_TYPE *topHairline;
-    MISSING_TYPE *bottomHairline;
+    id backgroundView;
+    id stripe;
+    id topHairline;
+    id bottomHairline;
 }
 
 - (id);

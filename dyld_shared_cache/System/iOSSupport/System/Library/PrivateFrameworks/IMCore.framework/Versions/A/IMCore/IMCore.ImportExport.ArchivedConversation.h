@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ArchivedConversation
 {
-    MISSING_TYPE *conversation;
-    MISSING_TYPE *messageBatchRelativePaths;
-    MISSING_TYPE *messageCount;
+    id conversation;
+    id messageBatchRelativePaths;
+    id messageCount;
 }
 
 @end

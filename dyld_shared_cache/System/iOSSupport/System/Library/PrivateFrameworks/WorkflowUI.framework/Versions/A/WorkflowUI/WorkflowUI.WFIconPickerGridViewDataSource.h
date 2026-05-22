@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFIconPickerGridViewDataSource
 {
-    MISSING_TYPE *colorNamesDictionary;
-    MISSING_TYPE *colors;
-    MISSING_TYPE *allSymbolItems;
-    MISSING_TYPE *gridView;
-    MISSING_TYPE *workflow;
-    MISSING_TYPE *glyphRegistryCancellable;
-    MISSING_TYPE *semanticSymbolIndex;
+    id colorNamesDictionary;
+    id colors;
+    id allSymbolItems;
+    id gridView;
+    id workflow;
+    id glyphRegistryCancellable;
+    id semanticSymbolIndex;
 }
 
 - (id);

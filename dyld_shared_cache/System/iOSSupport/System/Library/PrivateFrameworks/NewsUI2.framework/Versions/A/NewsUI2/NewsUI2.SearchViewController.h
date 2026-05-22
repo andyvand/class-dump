@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchViewController
 {
-    MISSING_TYPE *searchBar;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *sceneStateManager;
-    MISSING_TYPE *origination;
-    MISSING_TYPE *searchAction;
-    MISSING_TYPE *clearAction;
-    MISSING_TYPE *sharingActivityProviderFactory;
-    MISSING_TYPE *refreshQueryParam;
-    MISSING_TYPE *refreshRecentSearch;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *filterProvider;
+    id searchBar;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id sceneStateManager;
+    id origination;
+    id searchAction;
+    id clearAction;
+    id sharingActivityProviderFactory;
+    id refreshQueryParam;
+    id refreshRecentSearch;
+    id tipManager;
+    id featureAvailability;
+    id offlineProvider;
+    id filterProvider;
 }
 
 - (id);

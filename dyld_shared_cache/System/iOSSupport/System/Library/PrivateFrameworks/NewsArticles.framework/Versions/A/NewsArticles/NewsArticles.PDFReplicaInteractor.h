@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.PDFReplicaInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *coordinator;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *pages;
+    id delegate;
+    id coordinator;
+    id dataManager;
+    id pages;
 }
 
 @end

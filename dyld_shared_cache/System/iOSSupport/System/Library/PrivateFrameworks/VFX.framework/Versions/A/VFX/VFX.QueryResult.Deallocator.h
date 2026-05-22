@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.QueryResult.Deallocator
 {
-    MISSING_TYPE *allocator;
-    MISSING_TYPE *results;
+    id allocator;
+    id results;
 }
 
 @end

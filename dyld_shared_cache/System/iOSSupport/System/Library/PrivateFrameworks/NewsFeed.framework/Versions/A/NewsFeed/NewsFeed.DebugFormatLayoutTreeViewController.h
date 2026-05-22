@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatLayoutTreeViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *$__lazy_storage_$_layoutTreeViewController;
-    MISSING_TYPE *$__lazy_storage_$_model;
-    MISSING_TYPE *subscribers;
+    id delegate;
+    id editor;
+    id styler;
+    id $__lazy_storage_$_layoutTreeViewController;
+    id $__lazy_storage_$_model;
+    id subscribers;
 }
 
 - (void);

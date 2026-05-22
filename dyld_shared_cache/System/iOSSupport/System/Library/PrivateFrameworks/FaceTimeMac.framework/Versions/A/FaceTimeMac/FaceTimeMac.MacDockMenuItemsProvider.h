@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSObject;
+@class NSObject;
 
 @interface FaceTimeMac.MacDockMenuItemsProvider
 {
-    MISSING_TYPE *logger;
+    id logger;
     NSObject *menu;
-    MISSING_TYPE *serialQueue;
-    MISSING_TYPE *dockMenu;
-    MISSING_TYPE *recentsController;
+    id serialQueue;
+    id dockMenu;
+    id recentsController;
 }
 
 - (void);

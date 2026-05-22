@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface WFShutDownDeviceAction
 {
-    MISSING_TYPE *shutdownReason;
-    MISSING_TYPE *modeParameterKey;
+    id shutdownReason;
+    id modeParameterKey;
 }
 
 - (_Bool);

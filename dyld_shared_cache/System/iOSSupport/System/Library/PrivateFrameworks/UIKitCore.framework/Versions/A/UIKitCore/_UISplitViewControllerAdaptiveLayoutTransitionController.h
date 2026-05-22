@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, _UISplitViewControllerAdaptiveLayoutTransition;
+@class _UISplitViewControllerAdaptiveLayoutTransition;
 @protocol UIViewControllerTransitionCoordinator, _UISplitViewControllerAdaptiveLayout;
 
 @interface _UISplitViewControllerAdaptiveLayoutTransitionController
 {
-    MISSING_TYPE *mutablePreviousLayout;
-    MISSING_TYPE *mutableScheduledTransition;
-    MISSING_TYPE *mutableUpcomingTransition;
-    MISSING_TYPE *updates;
+    id mutablePreviousLayout;
+    id mutableScheduledTransition;
+    id mutableUpcomingTransition;
+    id updates;
 }
 
 - (id);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PBFLegacyMigrationEditingSceneViewController
 {
-    MISSING_TYPE *exnihiloPathAssertion;
-    MISSING_TYPE *posterPairToReplace;
+    id exnihiloPathAssertion;
+    id posterPairToReplace;
 }
 
 - (id);

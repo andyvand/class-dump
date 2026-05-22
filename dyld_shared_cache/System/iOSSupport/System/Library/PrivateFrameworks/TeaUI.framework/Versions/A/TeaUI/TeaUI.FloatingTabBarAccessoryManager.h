@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.FloatingTabBarAccessoryManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *containerView;
-    MISSING_TYPE *expandedViewController;
-    MISSING_TYPE *accessoryPresentationMode;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *accessoryStack;
-    MISSING_TYPE *currentAccessoryContentView;
+    id delegate;
+    id containerView;
+    id expandedViewController;
+    id accessoryPresentationMode;
+    id commandCenter;
+    id accessoryStack;
+    id currentAccessoryContentView;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.MaxPresentationCountFeaturePromotionEligibilityProvider
 {
-    MISSING_TYPE *maxPresentationCount;
-    MISSING_TYPE *presentationArchive;
+    id maxPresentationCount;
+    id presentationArchive;
 }
 
 @end

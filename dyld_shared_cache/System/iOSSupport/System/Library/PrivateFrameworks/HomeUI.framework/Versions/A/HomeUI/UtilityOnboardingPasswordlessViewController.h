@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol HUConfigurationViewControllerDelegate;
 
 @interface UtilityOnboardingPasswordlessViewController
 {
     id <HUConfigurationViewControllerDelegate> delegate;
-    MISSING_TYPE *context;
-    MISSING_TYPE *isEditMode;
+    id context;
+    id isEditMode;
 }
 
 - (Class);

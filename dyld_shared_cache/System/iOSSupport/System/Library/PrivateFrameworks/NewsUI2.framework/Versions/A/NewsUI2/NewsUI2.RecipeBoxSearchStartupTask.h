@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeBoxSearchStartupTask
 {
-    MISSING_TYPE *executionPhase;
-    MISSING_TYPE *recipeBox;
-    MISSING_TYPE *recipeBoxSearchDatabase;
-    MISSING_TYPE *featureAvailability;
+    id executionPhase;
+    id recipeBox;
+    id recipeBoxSearchDatabase;
+    id featureAvailability;
 }
 
 @end

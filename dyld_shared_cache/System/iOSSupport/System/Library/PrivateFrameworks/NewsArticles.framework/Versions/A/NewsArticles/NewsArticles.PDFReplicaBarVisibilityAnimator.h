@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.PDFReplicaBarVisibilityAnimator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *tapGestureRecognizer;
-    MISSING_TYPE *barHider;
+    id delegate;
+    id tapGestureRecognizer;
+    id barHider;
 }
 
 - (void);

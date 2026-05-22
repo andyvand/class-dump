@@ -6,8 +6,6 @@
 
 #import <Tungsten/PXGUniform.h>
 
-@class MISSING_TYPE;
-
 @interface PXGUniformAlias : PXGUniform
 {
     PXGUniform *_original;
@@ -18,9 +16,9 @@
 - (_Bool);
 - (id);
 - (CDUnknownBlockType);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
+- (id);
 - (long long);
 - (id);
 - (id);

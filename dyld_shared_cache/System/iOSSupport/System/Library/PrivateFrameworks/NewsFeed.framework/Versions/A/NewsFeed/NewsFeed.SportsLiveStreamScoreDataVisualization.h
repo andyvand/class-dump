@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsLiveStreamScoreDataVisualization
 {
-    MISSING_TYPE *score;
-    MISSING_TYPE *sportsEvent;
+    id score;
+    id sportsEvent;
 }
 
 @end

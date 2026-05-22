@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeBoxFeedServiceContextFactory
 {
-    MISSING_TYPE *recipeBox;
-    MISSING_TYPE *appConfigManager;
+    id recipeBox;
+    id appConfigManager;
 }
 
 @end

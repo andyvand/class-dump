@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, UIViewController;
+@class NSArray, UIViewController;
 
 @interface TeaUI.CardSplitViewController
 {
-    MISSING_TYPE *primaryCardContainerController;
-    MISSING_TYPE *commands;
-    MISSING_TYPE *preservedItems;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *splitViewFocus;
+    id primaryCardContainerController;
+    id commands;
+    id preservedItems;
+    id eventManager;
+    id splitViewFocus;
 }
 
 - (void);

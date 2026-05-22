@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsOSSupportUI.AgentSceneRegistry
 {
-    MISSING_TYPE *scenes;
-    MISSING_TYPE *sceneHandlers;
+    id scenes;
+    id sceneHandlers;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BouncingButton
 {
-    MISSING_TYPE *isBouncingEnabled;
-    MISSING_TYPE *onTap;
+    id isBouncingEnabled;
+    id onTap;
     struct UIEdgeInsets touchInsets;
 }
 

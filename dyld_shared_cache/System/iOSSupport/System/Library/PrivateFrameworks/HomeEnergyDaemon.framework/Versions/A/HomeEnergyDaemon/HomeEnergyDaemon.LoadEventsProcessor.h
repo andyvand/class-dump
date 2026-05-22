@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.LoadEventsProcessor
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *uploader;
-    MISSING_TYPE *activityLogCoordinator;
+    id $defaultActor;
+    id uploader;
+    id activityLogCoordinator;
 }
 
 @end

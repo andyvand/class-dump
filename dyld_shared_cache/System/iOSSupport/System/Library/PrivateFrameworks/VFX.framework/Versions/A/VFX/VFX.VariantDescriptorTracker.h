@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VariantDescriptorTracker
 {
-    MISSING_TYPE *_activeRenderVariantDescriptors;
-    MISSING_TYPE *_compiledVariantCount;
-    MISSING_TYPE *lock;
+    id _activeRenderVariantDescriptors;
+    id _compiledVariantCount;
+    id lock;
 }
 
 @end

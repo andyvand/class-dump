@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedFontManager
 {
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *registrationManager;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *loadedFonts;
+    id assetManager;
+    id registrationManager;
+    id lock;
+    id loadedFonts;
 }
 
 @end

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeHistoryDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *recipeHistory;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *feedServiceContextFactory;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *feedService;
-    MISSING_TYPE *recipeAccessProvider;
-    MISSING_TYPE *userActivityManager;
+    id delegate;
+    id recipeHistory;
+    id recipeService;
+    id feedServiceContextFactory;
+    id feedServiceConfigFetcher;
+    id feedService;
+    id recipeAccessProvider;
+    id userActivityManager;
 }
 
 @end

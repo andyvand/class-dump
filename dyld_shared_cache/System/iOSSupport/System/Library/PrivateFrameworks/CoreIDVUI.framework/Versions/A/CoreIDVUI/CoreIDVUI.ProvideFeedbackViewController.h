@@ -6,12 +6,10 @@
 
 #import <CoreIDVUI/CoreIDVUI.IdentityProofingViewController.h>
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.ProvideFeedbackViewController : CoreIDVUI.IdentityProofingViewController
 {
-    MISSING_TYPE *proofingManager;
-    MISSING_TYPE *continuation;
+    id proofingManager;
+    id continuation;
 }
 
 - (id);

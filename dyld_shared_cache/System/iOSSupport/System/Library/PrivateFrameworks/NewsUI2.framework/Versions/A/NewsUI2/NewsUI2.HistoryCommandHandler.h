@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.HistoryCommandHandler
 {
-    MISSING_TYPE *clearUserDataManager;
-    MISSING_TYPE *isiCloudPrivateDataSyncingEnabled;
-    MISSING_TYPE *sceneProvider;
+    id clearUserDataManager;
+    id isiCloudPrivateDataSyncingEnabled;
+    id sceneProvider;
 }
 
 @end

@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.UserActionObservationManager
 {
-    MISSING_TYPE *monitors;
+    id monitors;
 }
 
 @end

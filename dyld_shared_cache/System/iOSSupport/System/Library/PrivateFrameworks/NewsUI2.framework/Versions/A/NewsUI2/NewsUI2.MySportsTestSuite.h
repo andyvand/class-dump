@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MySportsTestSuite
 {
-    MISSING_TYPE *sportsSyncManager;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *sportTagIDs;
+    id sportsSyncManager;
+    id sportsOnboardingManager;
+    id tagService;
+    id subscriptionController;
+    id sportTagIDs;
 }
 
 - (id);

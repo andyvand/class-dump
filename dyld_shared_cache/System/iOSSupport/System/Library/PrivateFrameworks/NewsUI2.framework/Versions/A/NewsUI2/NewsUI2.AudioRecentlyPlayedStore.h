@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioRecentlyPlayedStore
 {
-    MISSING_TYPE *recentlyPlayedUpdatedSignal;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *headlineCache;
-    MISSING_TYPE *paidBundleConfigManager;
+    id recentlyPlayedUpdatedSignal;
+    id readingHistory;
+    id headlineService;
+    id headlineCache;
+    id paidBundleConfigManager;
 }
 
 - (void);

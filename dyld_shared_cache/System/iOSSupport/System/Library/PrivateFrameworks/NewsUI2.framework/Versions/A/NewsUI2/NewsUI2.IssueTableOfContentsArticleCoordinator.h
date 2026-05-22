@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.IssueTableOfContentsArticleCoordinator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *articleCoordinator;
-    MISSING_TYPE *sessionManager;
-    MISSING_TYPE *issue;
+    id delegate;
+    id tracker;
+    id articleCoordinator;
+    id sessionManager;
+    id issue;
 }
 
 @end

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsSessionObserver
 {
-    MISSING_TYPE *sessionManager;
-    MISSING_TYPE *aggregateStateModeProvider;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *client;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *locationDetectionManager;
-    MISSING_TYPE *syncTracker;
+    id sessionManager;
+    id aggregateStateModeProvider;
+    id commandCenter;
+    id cloudContext;
+    id client;
+    id subscriptionController;
+    id locationDetectionManager;
+    id syncTracker;
 }
 
 - (void);

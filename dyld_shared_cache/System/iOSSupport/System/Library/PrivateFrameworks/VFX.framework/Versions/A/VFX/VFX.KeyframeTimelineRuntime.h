@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.KeyframeTimelineRuntime
 {
-    MISSING_TYPE *keys;
-    MISSING_TYPE *keyStride;
-    MISSING_TYPE *times;
-    MISSING_TYPE *evaluateFunc;
-    MISSING_TYPE *evaluateSplineFunc;
-    MISSING_TYPE *quadratic;
+    id keys;
+    id keyStride;
+    id times;
+    id evaluateFunc;
+    id evaluateSplineFunc;
+    id quadratic;
 }
 
 @end

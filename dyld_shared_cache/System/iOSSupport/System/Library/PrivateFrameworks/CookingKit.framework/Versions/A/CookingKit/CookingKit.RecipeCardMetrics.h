@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardMetrics
 {
-    MISSING_TYPE *_safeAreaInsets;
-    MISSING_TYPE *_horizontalPadding;
-    MISSING_TYPE *_containerSize;
-    MISSING_TYPE *_fullBleedSize;
-    MISSING_TYPE *_columnConfig;
-    MISSING_TYPE *_$observationRegistrar;
+    id _safeAreaInsets;
+    id _horizontalPadding;
+    id _containerSize;
+    id _fullBleedSize;
+    id _columnConfig;
+    id _$observationRegistrar;
 }
 
 @end

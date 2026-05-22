@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ShineImageFactory
 {
-    MISSING_TYPE *lruCache;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *inflightRequests;
+    id lruCache;
+    id lock;
+    id inflightRequests;
 }
 
 - (void);

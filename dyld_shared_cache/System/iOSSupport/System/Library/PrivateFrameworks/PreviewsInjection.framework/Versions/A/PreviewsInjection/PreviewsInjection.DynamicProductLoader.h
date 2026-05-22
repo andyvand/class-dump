@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.DynamicProductLoader
 {
-    MISSING_TYPE *hasToldSwiftUIPreviewThunksHaveFinishedLoading;
-    MISSING_TYPE *loadedDynamicProducts;
-    MISSING_TYPE *incrementalValues;
+    id hasToldSwiftUIPreviewThunksHaveFinishedLoading;
+    id loadedDynamicProducts;
+    id incrementalValues;
 }
 
 @end

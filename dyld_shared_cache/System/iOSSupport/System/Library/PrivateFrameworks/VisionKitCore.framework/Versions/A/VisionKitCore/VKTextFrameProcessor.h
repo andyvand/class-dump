@@ -12,7 +12,7 @@
 {
     _Bool _wantsThrottling;
     VKTextFrameProcessorConfiguration *_config;
-    CDStruct_8e0628e6 _warpTransform;
+    CDStruct_1fe29af2 _warpTransform;
     NSMutableArray *_recognizedItems;
     CDUnknownBlockType _resultHandler;
     VKTextFrameProcessorConfiguration *_currentConfig;
@@ -32,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_8e0628e6);
+- (CDStruct_1fe29af2);
 - (void);
 - (void);
 - (void);
@@ -47,7 +47,7 @@
 // Remaining properties
 @property(copy, nonatomic) VKTextFrameProcessorConfiguration *configuration;
 @property(copy, nonatomic) CDUnknownBlockType resultHandler;
-@property(nonatomic) CDStruct_8e0628e6 warpTransform;
+@property(nonatomic) CDStruct_1fe29af2 warpTransform;
 
 @end
 

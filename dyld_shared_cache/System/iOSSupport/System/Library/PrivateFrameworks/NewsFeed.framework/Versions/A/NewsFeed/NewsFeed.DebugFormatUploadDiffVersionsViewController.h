@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadDiffVersionsViewController
 {
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *selectedRemoteVersion;
-    MISSING_TYPE *sections;
+    id tableView;
+    id selectedRemoteVersion;
+    id sections;
 }
 
 - (id);

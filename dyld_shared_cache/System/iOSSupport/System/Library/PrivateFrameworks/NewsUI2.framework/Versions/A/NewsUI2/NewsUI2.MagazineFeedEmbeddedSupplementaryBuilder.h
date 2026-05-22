@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedEmbeddedSupplementaryBuilder
 {
-    MISSING_TYPE *baseStyler;
-    MISSING_TYPE *groupTitleViewLayoutAttributesFactory;
-    MISSING_TYPE *sectionFooterViewLayoutAttributesFactory;
+    id baseStyler;
+    id groupTitleViewLayoutAttributesFactory;
+    id sectionFooterViewLayoutAttributesFactory;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NAEndOfArticleModule
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *contextBuilder;
-    MISSING_TYPE *feedDismissingManager;
+    id resolver;
+    id tracker;
+    id contextBuilder;
+    id feedDismissingManager;
 }
 
 - (id);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.WeakRecipeCoordinator
 {
-    MISSING_TYPE *coordinator;
-    MISSING_TYPE *_tracker;
+    id coordinator;
+    id _tracker;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.IssueManager
 {
-    MISSING_TYPE *issueService;
-    MISSING_TYPE *articleService;
-    MISSING_TYPE *pdfReplicaService;
-    MISSING_TYPE *anfPageService;
-    MISSING_TYPE *issueCache;
+    id issueService;
+    id articleService;
+    id pdfReplicaService;
+    id anfPageService;
+    id issueCache;
 }
 
 @end

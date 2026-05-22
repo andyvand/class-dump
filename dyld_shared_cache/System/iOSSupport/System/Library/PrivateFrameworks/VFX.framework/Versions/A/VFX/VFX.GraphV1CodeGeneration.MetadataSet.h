@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphV1CodeGeneration.MetadataSet
 {
-    MISSING_TYPE *metadataDict;
+    id metadataDict;
 }
 
 @end

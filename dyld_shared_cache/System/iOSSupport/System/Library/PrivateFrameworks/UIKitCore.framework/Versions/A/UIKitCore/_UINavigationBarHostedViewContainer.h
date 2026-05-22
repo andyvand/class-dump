@@ -6,15 +6,13 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class MISSING_TYPE;
-
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarHostedViewContainer : _UITouchPassthroughView
 {
-    MISSING_TYPE *hostedViews;
-    MISSING_TYPE *wrapperViews;
-    MISSING_TYPE *disappearingViews;
-    MISSING_TYPE *temporaryViews;
+    id hostedViews;
+    id wrapperViews;
+    id disappearingViews;
+    id temporaryViews;
 }
 
 - (id);

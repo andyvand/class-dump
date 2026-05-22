@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FileBasedDismissalStorage
 {
-    MISSING_TYPE *storageFileName;
-    MISSING_TYPE *state;
-    MISSING_TYPE *writeQueue;
+    id storageFileName;
+    id state;
+    id writeQueue;
 }
 
 @end

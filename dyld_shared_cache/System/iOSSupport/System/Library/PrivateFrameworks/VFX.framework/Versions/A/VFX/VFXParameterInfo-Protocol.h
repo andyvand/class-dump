@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @protocol VFXParameterInfo
 
@@ -13,7 +13,7 @@
 @property(readonly, nonatomic) long long componentCount;
 @property(readonly, nonatomic) unsigned long long componentSize;
 @property(readonly, nonatomic) NSString *documentation;
-@property(readonly, nonatomic) MISSING_TYPE *range;
+@property(readonly, nonatomic) id range;
 @property(readonly, nonatomic) long long semantic;
 @end
 

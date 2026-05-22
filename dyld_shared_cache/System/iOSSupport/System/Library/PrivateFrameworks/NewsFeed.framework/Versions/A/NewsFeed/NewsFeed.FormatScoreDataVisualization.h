@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatScoreDataVisualization
 {
-    MISSING_TYPE *tagIdentifier;
-    MISSING_TYPE *umcIdentifier;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *_properties;
-    MISSING_TYPE *_query;
-    MISSING_TYPE *_traits;
+    id tagIdentifier;
+    id umcIdentifier;
+    id _selectors;
+    id _properties;
+    id _query;
+    id _traits;
 }
 
 @end

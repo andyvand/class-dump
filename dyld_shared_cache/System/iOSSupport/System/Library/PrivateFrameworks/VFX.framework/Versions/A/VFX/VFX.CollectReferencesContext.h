@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.CollectReferencesContext
 {
-    MISSING_TYPE *operation;
-    MISSING_TYPE *options;
-    MISSING_TYPE *references;
+    id operation;
+    id options;
+    id references;
 }
 
 @end

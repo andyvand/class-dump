@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MySportsTopicTagFeedGroupSection
 {
-    MISSING_TYPE *tag;
-    MISSING_TYPE *headlines;
-    MISSING_TYPE *scores;
-    MISSING_TYPE *standings;
-    MISSING_TYPE *brackets;
-    MISSING_TYPE *content;
-    MISSING_TYPE *nativeAdInsertionLocation;
-    MISSING_TYPE *debugCandidates;
-    MISSING_TYPE *baseScoreConstant;
+    id tag;
+    id headlines;
+    id scores;
+    id standings;
+    id brackets;
+    id content;
+    id nativeAdInsertionLocation;
+    id debugCandidates;
+    id baseScoreConstant;
 }
 
 @end

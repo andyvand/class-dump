@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedLayoutCache
 {
-    MISSING_TYPE *cache;
-    MISSING_TYPE *bindCache;
-    MISSING_TYPE *hintCache;
+    id cache;
+    id bindCache;
+    id hintCache;
 }
 
 @end

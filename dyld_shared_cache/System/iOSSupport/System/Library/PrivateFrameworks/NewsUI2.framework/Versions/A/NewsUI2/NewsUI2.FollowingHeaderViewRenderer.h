@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingHeaderViewRenderer
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *titleViewRenderer;
+    id styler;
+    id titleViewRenderer;
 }
 
 @end

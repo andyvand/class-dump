@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SavedFeedPool
 {
-    MISSING_TYPE *savedHeadlines;
-    MISSING_TYPE *remainingArticleIDs;
+    id savedHeadlines;
+    id remainingArticleIDs;
 }
 
 @end

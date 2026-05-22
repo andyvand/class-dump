@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome, NAFuture, NSString, UIViewController, _TtC6HomeUI24UtilityOnboardingContext;
+@class HMHome, HomeUI.UtilityOnboardingContext, NAFuture, NSString, UIViewController;
 @protocol HUConfigurationViewController;
 
 @interface HUUtilityOnboardingFlow
@@ -15,7 +15,7 @@
     NAFuture *_onboardingFuture;
     UIViewController<HUConfigurationViewController> *_initialViewController;
     NAFuture *_readyFuture;
-    _TtC6HomeUI24UtilityOnboardingContext *_context;
+    HomeUI.UtilityOnboardingContext *_context;
 }
 
 + (id);
@@ -41,7 +41,7 @@
 - (void)We will display iCloud and iTunes Accounts;
 
 // Remaining properties
-@property(retain, nonatomic) _TtC6HomeUI24UtilityOnboardingContext *context; // @synthesize context=_context;
+@property(retain, nonatomic) HomeUI.UtilityOnboardingContext *context; // @synthesize context=_context;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

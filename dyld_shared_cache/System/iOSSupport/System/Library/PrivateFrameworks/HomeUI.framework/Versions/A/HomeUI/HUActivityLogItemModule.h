@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HUActivityLogItemModule
 {
-    MISSING_TYPE *activityLogEnableItem;
-    MISSING_TYPE *home;
+    id activityLogEnableItem;
+    id home;
 }
 
 - (id);

@@ -10,7 +10,7 @@
 @interface VFXMTLBezierCurveDeformer
 {
     unsigned long long _currentFrameHash;
-    CDStruct_14d5dc5e _transform;
+    CDStruct_95fa7c00 _transform;
     struct {
         unsigned int monotonicSubsegmentCountCubic;
         unsigned short segmentCountLinear;

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.AddressManager
 {
-    MISSING_TYPE *defaultAddress;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *contactUpdateHandler;
-    MISSING_TYPE *defaultBillingAddress;
-    MISSING_TYPE *merchantProvidedBillingAddress;
-    MISSING_TYPE *shippingAddresses;
-    MISSING_TYPE *shippingAddressesLoadingState;
-    MISSING_TYPE *defaults;
-    MISSING_TYPE *recents;
-    MISSING_TYPE *model;
+    id defaultAddress;
+    id queue;
+    id contactUpdateHandler;
+    id defaultBillingAddress;
+    id merchantProvidedBillingAddress;
+    id shippingAddresses;
+    id shippingAddressesLoadingState;
+    id defaults;
+    id recents;
+    id model;
 }
 
 @end

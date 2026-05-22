@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.NavigationBarLayout
 {
-    MISSING_TYPE *requestedBackgroundViewAlpha;
-    MISSING_TYPE *clientWantsBackgroundHidden;
-    MISSING_TYPE *hasInlineSearchBar;
-    MISSING_TYPE *clientWantsToPreserveSearchBarAcrossTransitions;
-    MISSING_TYPE *stacksSearchBarViewInOtherLayout;
-    MISSING_TYPE *_restingHeights;
-    MISSING_TYPE *layoutIsValid;
-    MISSING_TYPE *views;
-    MISSING_TYPE *inputs;
-    MISSING_TYPE *outputs;
-    MISSING_TYPE *layoutStorage;
-    MISSING_TYPE *priorityOrderedLayout;
-    MISSING_TYPE *stackingOrderedLayout;
+    id requestedBackgroundViewAlpha;
+    id clientWantsBackgroundHidden;
+    id hasInlineSearchBar;
+    id clientWantsToPreserveSearchBarAcrossTransitions;
+    id stacksSearchBarViewInOtherLayout;
+    id _restingHeights;
+    id layoutIsValid;
+    id views;
+    id inputs;
+    id outputs;
+    id layoutStorage;
+    id priorityOrderedLayout;
+    id stackingOrderedLayout;
 }
 
 @end

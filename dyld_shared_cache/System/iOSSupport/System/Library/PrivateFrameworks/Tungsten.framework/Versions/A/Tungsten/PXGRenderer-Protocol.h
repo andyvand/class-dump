@@ -11,7 +11,7 @@
 - (void)reSerializable;
 
 // Remaining properties
-@property(nonatomic) PXGCameraConfiguration_474424ad cameraConfiguration;
+@property(nonatomic) PXGCameraConfiguration_60775728 cameraConfiguration;
 @property(nonatomic) __weak id <PXGRendererDelegate> delegate;
 @property(readonly, nonatomic) unsigned long long destinationColorSpaceName;
 @property(retain, nonatomic) PXGEntityManager *entityManager;

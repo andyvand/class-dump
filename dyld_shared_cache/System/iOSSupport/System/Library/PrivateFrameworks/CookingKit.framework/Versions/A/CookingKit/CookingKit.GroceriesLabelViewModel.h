@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.GroceriesLabelViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_recipeTitle;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _recipeTitle;
+    id _$scope;
+    id _$observationRegistrar;
 }
 
 @end

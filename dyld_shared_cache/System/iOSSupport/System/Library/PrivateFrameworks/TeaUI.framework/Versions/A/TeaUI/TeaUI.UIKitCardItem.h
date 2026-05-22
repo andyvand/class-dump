@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.UIKitCardItem
 {
-    MISSING_TYPE *presentedWrapper;
-    MISSING_TYPE *$__lazy_storage_$_presentingWrapper;
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *behavior;
-    MISSING_TYPE *detents;
-    MISSING_TYPE *previousPresentedViewFrame;
-    MISSING_TYPE *presentationState;
-    MISSING_TYPE *previousPresentationState;
-    MISSING_TYPE *transitionDelegate;
-    MISSING_TYPE *cardContainerController;
-    MISSING_TYPE *layoutOptions;
-    MISSING_TYPE *animationDelegate;
-    MISSING_TYPE *parentAnimationDelegate;
-    MISSING_TYPE *updatedDetent;
-    MISSING_TYPE *futurePresentationState;
+    id presentedWrapper;
+    id $__lazy_storage_$_presentingWrapper;
+    id viewController;
+    id behavior;
+    id detents;
+    id previousPresentedViewFrame;
+    id presentationState;
+    id previousPresentationState;
+    id transitionDelegate;
+    id cardContainerController;
+    id layoutOptions;
+    id animationDelegate;
+    id parentAnimationDelegate;
+    id updatedDetent;
+    id futurePresentationState;
 }
 
 - (void);

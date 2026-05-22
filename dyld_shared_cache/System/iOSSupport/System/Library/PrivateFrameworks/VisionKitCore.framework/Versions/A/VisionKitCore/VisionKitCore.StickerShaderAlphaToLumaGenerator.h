@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerShaderAlphaToLumaGenerator
 {
-    MISSING_TYPE *device;
-    MISSING_TYPE *library;
-    MISSING_TYPE *vertexCoordsBuffer;
-    MISSING_TYPE *textureCoordsBuffer;
-    MISSING_TYPE *inputTexture;
-    MISSING_TYPE *inputScale;
-    MISSING_TYPE *outputTextureSize;
-    MISSING_TYPE *maskTexture;
-    MISSING_TYPE *alphaToLumaPipelineState;
-    MISSING_TYPE *pixelFormat;
-    MISSING_TYPE *pixelFormatForDistance;
+    id device;
+    id library;
+    id vertexCoordsBuffer;
+    id textureCoordsBuffer;
+    id inputTexture;
+    id inputScale;
+    id outputTextureSize;
+    id maskTexture;
+    id alphaToLumaPipelineState;
+    id pixelFormat;
+    id pixelFormatForDistance;
 }
 
 @end

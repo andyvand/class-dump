@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SubscriptionsRouter
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *contextBuilder;
-    MISSING_TYPE *continueReadingEligibilityProcessor;
-    MISSING_TYPE *continueReadingPromptPresenter;
-    MISSING_TYPE *activityManager;
+    id resolver;
+    id navigator;
+    id contextBuilder;
+    id continueReadingEligibilityProcessor;
+    id continueReadingPromptPresenter;
+    id activityManager;
 }
 
 @end

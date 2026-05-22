@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView, UIViewController, _UIDismissInteraction, _UIViewAlphaOverrideAssertion, _UIZoomViewControllerTransition;
+@class UIView, UIViewController, _UIDismissInteraction, _UIViewAlphaOverrideAssertion, _UIZoomViewControllerTransition;
 
 @interface _UIZoomTransitionController
 {
@@ -12,24 +12,24 @@
     _Bool isZoomingIn;
     void owningViewController;
     _UIDismissInteraction *dismissInteraction;
-    MISSING_TYPE *activeTransitionContext;
-    MISSING_TYPE *isForNavigation;
-    MISSING_TYPE *morphAnimation;
-    MISSING_TYPE *dimmingView;
-    MISSING_TYPE *foregroundView;
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *viewToScaleBack;
-    MISSING_TYPE *isPreempting;
-    MISSING_TYPE *morphInteractionAssertion;
-    MISSING_TYPE *shimPropertyAnimator;
-    MISSING_TYPE *shimAnimationView;
-    MISSING_TYPE *transitionOverlayView;
-    MISSING_TYPE *fallbackSourceView;
+    id activeTransitionContext;
+    id isForNavigation;
+    id morphAnimation;
+    id dimmingView;
+    id foregroundView;
+    id backgroundView;
+    id viewToScaleBack;
+    id isPreempting;
+    id morphInteractionAssertion;
+    id shimPropertyAnimator;
+    id shimAnimationView;
+    id transitionOverlayView;
+    id fallbackSourceView;
     _UIViewAlphaOverrideAssertion *sourceViewHidingAssertion;
-    MISSING_TYPE *showcasePortal;
-    MISSING_TYPE *toolbarTransitionController;
-    MISSING_TYPE *style;
-    MISSING_TYPE *behaviors;
+    id showcasePortal;
+    id toolbarTransitionController;
+    id style;
+    id behaviors;
 }
 
 - (_Bool);

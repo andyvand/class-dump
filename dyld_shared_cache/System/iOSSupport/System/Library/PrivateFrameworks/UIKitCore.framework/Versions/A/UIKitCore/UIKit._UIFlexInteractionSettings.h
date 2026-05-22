@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC5UIKit21_UILiquidLensViewSpec, _TtC5UIKit22_UIFlexInteractionSpec;
+@class UIKit._UIFlexInteractionSpec, UIKit._UILiquidLensViewSpec;
 
 @interface UIKit._UIFlexInteractionSettings
 {
     _Bool liftEnabled;
     _Bool flexEnabled;
-    _TtC5UIKit22_UIFlexInteractionSpec *interactionSpec;
-    _TtC5UIKit21_UILiquidLensViewSpec *liquidLensSpec;
+    UIKit._UIFlexInteractionSpec *interactionSpec;
+    UIKit._UILiquidLensViewSpec *liquidLensSpec;
 }
 
 + (id);
@@ -29,9 +29,9 @@
 
 // Remaining properties
 @property(nonatomic) _Bool flexEnabled; // @synthesize flexEnabled;
-@property(nonatomic, retain) _TtC5UIKit22_UIFlexInteractionSpec *interactionSpec; // @synthesize interactionSpec;
+@property(nonatomic, retain) UIKit._UIFlexInteractionSpec *interactionSpec; // @synthesize interactionSpec;
 @property(nonatomic) _Bool liftEnabled; // @synthesize liftEnabled;
-@property(nonatomic, retain) _TtC5UIKit21_UILiquidLensViewSpec *liquidLensSpec; // @synthesize liquidLensSpec;
+@property(nonatomic, retain) UIKit._UILiquidLensViewSpec *liquidLensSpec; // @synthesize liquidLensSpec;
 
 @end
 

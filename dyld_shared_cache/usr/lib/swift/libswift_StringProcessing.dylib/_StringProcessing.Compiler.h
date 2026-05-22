@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _StringProcessing.Compiler
 {
-    MISSING_TYPE *tree;
-    MISSING_TYPE *options;
-    MISSING_TYPE *compileOptions;
+    id tree;
+    id options;
+    id compileOptions;
 }
 
 @end

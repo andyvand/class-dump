@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingTCViewController
 {
-    MISSING_TYPE *agreeButtonName;
-    MISSING_TYPE *disagreeButtonName;
-    MISSING_TYPE *activityIndicator;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *agreeClicked;
-    MISSING_TYPE *uiConfigFactory;
-    MISSING_TYPE *config;
-    MISSING_TYPE *onAppearance;
+    id agreeButtonName;
+    id disagreeButtonName;
+    id activityIndicator;
+    id proofingFlowManager;
+    id agreeClicked;
+    id uiConfigFactory;
+    id config;
+    id onAppearance;
 }
 
 - (id);

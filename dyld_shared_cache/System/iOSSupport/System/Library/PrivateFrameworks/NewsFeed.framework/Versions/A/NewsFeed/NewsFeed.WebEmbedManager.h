@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedManager
 {
-    MISSING_TYPE *pluginContainerController;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *scoreCache;
-    MISSING_TYPE *standingCache;
-    MISSING_TYPE *bracketCache;
-    MISSING_TYPE *boxScoreCache;
-    MISSING_TYPE *lineScoreCache;
-    MISSING_TYPE *injuryReportCache;
-    MISSING_TYPE *keyPlayersCache;
-    MISSING_TYPE *defaultCache;
-    MISSING_TYPE *seenIdentifiers;
-    MISSING_TYPE *inUseCache;
+    id pluginContainerController;
+    id resolver;
+    id scoreCache;
+    id standingCache;
+    id bracketCache;
+    id boxScoreCache;
+    id lineScoreCache;
+    id injuryReportCache;
+    id keyPlayersCache;
+    id defaultCache;
+    id seenIdentifiers;
+    id inUseCache;
 }
 
 @end

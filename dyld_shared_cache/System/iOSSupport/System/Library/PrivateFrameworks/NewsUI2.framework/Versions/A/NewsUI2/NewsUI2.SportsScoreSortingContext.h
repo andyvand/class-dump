@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsScoreSortingContext
 {
-    MISSING_TYPE *nowDate;
-    MISSING_TYPE *subscribedTagIDs;
-    MISSING_TYPE *favoringTagIDs;
-    MISSING_TYPE *selectors;
+    id nowDate;
+    id subscribedTagIDs;
+    id favoringTagIDs;
+    id selectors;
 }
 
 @end

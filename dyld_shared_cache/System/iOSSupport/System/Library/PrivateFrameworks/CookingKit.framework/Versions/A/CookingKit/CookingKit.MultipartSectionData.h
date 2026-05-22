@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.MultipartSectionData
 {
-    MISSING_TYPE *_sectionHeight;
-    MISSING_TYPE *_$observationRegistrar;
+    id _sectionHeight;
+    id _$observationRegistrar;
 }
 
 @end

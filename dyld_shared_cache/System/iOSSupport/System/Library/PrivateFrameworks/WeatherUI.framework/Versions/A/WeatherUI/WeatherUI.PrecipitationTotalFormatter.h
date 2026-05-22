@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSLocale;
+@class NSLocale;
 
 @interface WeatherUI.PrecipitationTotalFormatter
 {
-    MISSING_TYPE *trimLeadingZeros;
+    id trimLeadingZeros;
 }
 
 - (id);

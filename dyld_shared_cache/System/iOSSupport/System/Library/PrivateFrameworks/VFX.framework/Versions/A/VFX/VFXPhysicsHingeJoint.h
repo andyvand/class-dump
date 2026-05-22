@@ -6,12 +6,10 @@
 
 #import <VFX/VFXPhysicsJoint.h>
 
-@class MISSING_TYPE;
-
 @interface VFXPhysicsHingeJoint : VFXPhysicsJoint
 {
     struct {
-        MISSING_TYPE *anchorA__anchorB__axisA__axisB;
+        id anchorA__anchorB__axisA__axisB;
     } _definition;
 }
 
@@ -37,10 +35,10 @@
 - (void);
 - (id);
 - (id);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -49,10 +47,10 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *anchorA;
-@property(nonatomic) MISSING_TYPE *anchorB;
-@property(nonatomic) MISSING_TYPE *axisA;
-@property(nonatomic) MISSING_TYPE *axisB;
+@property(nonatomic) id anchorA;
+@property(nonatomic) id anchorB;
+@property(nonatomic) id axisA;
+@property(nonatomic) id axisB;
 
 @end
 

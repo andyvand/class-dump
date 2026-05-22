@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchHomeBlueprintLayoutBuilder
 {
-    MISSING_TYPE *titleViewLayoutAttributesFactory;
-    MISSING_TYPE *recentSearchLayoutAttributesFactory;
+    id titleViewLayoutAttributesFactory;
+    id recentSearchLayoutAttributesFactory;
 }
 
 @end

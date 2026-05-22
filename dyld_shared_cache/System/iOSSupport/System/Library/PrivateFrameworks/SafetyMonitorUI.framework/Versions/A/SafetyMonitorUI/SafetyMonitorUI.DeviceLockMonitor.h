@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.DeviceLockMonitor
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *notifyToken;
-    MISSING_TYPE *coverSheetNotifyToken;
-    MISSING_TYPE *_lockState;
-    MISSING_TYPE *_lockscreenState;
+    id lock;
+    id notifyToken;
+    id coverSheetNotifyToken;
+    id _lockState;
+    id _lockscreenState;
 }
 
 @end

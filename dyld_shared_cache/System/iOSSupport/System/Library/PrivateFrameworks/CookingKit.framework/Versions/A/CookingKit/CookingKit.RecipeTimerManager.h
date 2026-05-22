@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeTimerManager
 {
-    MISSING_TYPE *recipeTimerStore;
-    MISSING_TYPE *manager;
-    MISSING_TYPE *_allTimers;
-    MISSING_TYPE *_observers;
+    id recipeTimerStore;
+    id manager;
+    id _allTimers;
+    id _observers;
 }
 
 - (void);

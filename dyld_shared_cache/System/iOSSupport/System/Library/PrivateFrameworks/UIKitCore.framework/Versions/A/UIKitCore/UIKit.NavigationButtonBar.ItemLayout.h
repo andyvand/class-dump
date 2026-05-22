@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.NavigationButtonBar.ItemLayout
 {
-    MISSING_TYPE *barButtonItem;
-    MISSING_TYPE *metrics;
-    MISSING_TYPE *itemViewGenerator;
-    MISSING_TYPE *isDirty;
-    MISSING_TYPE *itemView;
-    MISSING_TYPE *itemViewWrapper;
-    MISSING_TYPE *targetAction;
-    MISSING_TYPE *isOnlyItemInSection;
-    MISSING_TYPE *systemItemWhenLastUpdated;
+    id barButtonItem;
+    id metrics;
+    id itemViewGenerator;
+    id isDirty;
+    id itemView;
+    id itemViewWrapper;
+    id targetAction;
+    id isOnlyItemInSection;
+    id systemItemWhenLastUpdated;
 }
 
 @end

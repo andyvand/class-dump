@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatConsolePaneViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *logViewController;
-    MISSING_TYPE *debuggerPaneViewController;
-    MISSING_TYPE *separatorView;
+    id editor;
+    id styler;
+    id logViewController;
+    id debuggerPaneViewController;
+    id separatorView;
 }
 
 - (id);

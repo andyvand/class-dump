@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSupplementaryNodeLayoutAttributes
 {
-    MISSING_TYPE *layoutAttributes;
-    MISSING_TYPE *style;
-    MISSING_TYPE *resizing;
-    MISSING_TYPE *zIndex;
-    MISSING_TYPE *pinTrait;
-    MISSING_TYPE *rubberbandTrait;
+    id layoutAttributes;
+    id style;
+    id resizing;
+    id zIndex;
+    id pinTrait;
+    id rubberbandTrait;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineGridItemModelFactory
 {
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *offlineIssueManager;
+    id paidAccessChecker;
+    id subscriptionService;
+    id offlineIssueManager;
 }
 
 @end

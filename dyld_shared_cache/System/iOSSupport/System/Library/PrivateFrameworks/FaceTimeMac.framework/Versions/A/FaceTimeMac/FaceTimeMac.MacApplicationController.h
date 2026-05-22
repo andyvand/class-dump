@@ -4,49 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.MacApplicationController
 {
-    MISSING_TYPE *touchBarDelegate;
-    MISSING_TYPE *sceneController;
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *audioHALManager;
-    MISSING_TYPE *callConfirmationHelper;
-    MISSING_TYPE *capabilitiesChecker;
-    MISSING_TYPE *launchContext;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *noticePresenter;
-    MISSING_TYPE *thumperSetupController;
-    MISSING_TYPE *userDefaults;
-    MISSING_TYPE *faceTimeAvailabilityHelper;
-    MISSING_TYPE *featureFlags;
-    MISSING_TYPE *answeringMachine;
-    MISSING_TYPE *appKitHelper;
-    MISSING_TYPE *authenticator;
-    MISSING_TYPE *cachedSettingsValueManager;
-    MISSING_TYPE *appRuntime;
-    MISSING_TYPE *appTerminator;
-    MISSING_TYPE *callStatusMonitor;
-    MISSING_TYPE *cameraController;
-    MISSING_TYPE *dockMenuBuilder;
-    MISSING_TYPE *notificationPresentationManager;
-    MISSING_TYPE *powerManager;
-    MISSING_TYPE *rootViewControllerPresentation;
-    MISSING_TYPE *remoteControlHandler;
-    MISSING_TYPE *screenSharingController;
-    MISSING_TYPE *sharePlayAudioManager;
-    MISSING_TYPE *soundManager;
-    MISSING_TYPE *touchBar;
-    MISSING_TYPE *features;
-    MISSING_TYPE *dualWindowAlignment;
-    MISSING_TYPE *deskViewProcessMonitor;
-    MISSING_TYPE *notificationServiceManager;
-    MISSING_TYPE *authenticationAlert;
-    MISSING_TYPE *presentationCoordinator;
-    MISSING_TYPE *presentationManager;
-    MISSING_TYPE *displaySleepAssertionID;
-    MISSING_TYPE *cancellables;
+    id touchBarDelegate;
+    id sceneController;
+    id callCenter;
+    id audioHALManager;
+    id callConfirmationHelper;
+    id capabilitiesChecker;
+    id launchContext;
+    id logger;
+    id noticePresenter;
+    id thumperSetupController;
+    id userDefaults;
+    id faceTimeAvailabilityHelper;
+    id featureFlags;
+    id answeringMachine;
+    id appKitHelper;
+    id authenticator;
+    id cachedSettingsValueManager;
+    id appRuntime;
+    id appTerminator;
+    id callStatusMonitor;
+    id cameraController;
+    id dockMenuBuilder;
+    id notificationPresentationManager;
+    id powerManager;
+    id rootViewControllerPresentation;
+    id remoteControlHandler;
+    id screenSharingController;
+    id sharePlayAudioManager;
+    id soundManager;
+    id touchBar;
+    id features;
+    id dualWindowAlignment;
+    id deskViewProcessMonitor;
+    id notificationServiceManager;
+    id authenticationAlert;
+    id presentationCoordinator;
+    id presentationManager;
+    id displaySleepAssertionID;
+    id cancellables;
 }
 
 - (void);

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedItemRendererPipelineProcessor
 {
-    MISSING_TYPE *thumbnailImageCache;
-    MISSING_TYPE *publisherLogoImageCache;
-    MISSING_TYPE *formatImageCache;
-    MISSING_TYPE *issueCoverImageCache;
-    MISSING_TYPE *rendererEnvironment;
-    MISSING_TYPE *lastRendererOptions;
+    id thumbnailImageCache;
+    id publisherLogoImageCache;
+    id formatImageCache;
+    id issueCoverImageCache;
+    id rendererEnvironment;
+    id lastRendererOptions;
 }
 
 @end

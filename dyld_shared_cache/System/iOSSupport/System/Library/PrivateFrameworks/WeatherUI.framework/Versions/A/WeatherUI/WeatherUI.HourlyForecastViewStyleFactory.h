@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.HourlyForecastViewStyleFactory
 {
-    MISSING_TYPE *sizeCategory;
-    MISSING_TYPE *maxSupportedSizeCategory;
-    MISSING_TYPE *traitCollection;
+    id sizeCategory;
+    id maxSupportedSizeCategory;
+    id traitCollection;
 }
 
 @end

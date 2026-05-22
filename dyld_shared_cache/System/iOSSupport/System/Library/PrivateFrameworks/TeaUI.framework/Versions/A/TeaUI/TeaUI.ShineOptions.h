@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ShineOptions
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *sizer;
-    MISSING_TYPE *rotateRadians;
-    MISSING_TYPE *transform;
-    MISSING_TYPE *blends;
-    MISSING_TYPE *scale;
+    id identifier;
+    id sizer;
+    id rotateRadians;
+    id transform;
+    id blends;
+    id scale;
 }
 
 @end

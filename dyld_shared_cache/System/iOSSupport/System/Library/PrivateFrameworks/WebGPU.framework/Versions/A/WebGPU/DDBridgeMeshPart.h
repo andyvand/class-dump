@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface DDBridgeMeshPart
 {
     long long indexOffset;
     long long indexCount;
     unsigned long long topology;
     long long materialIndex;
-    MISSING_TYPE *boundsMin;
-    MISSING_TYPE *boundsMax;
+    id boundsMin;
+    id boundsMax;
 }
 
 - (id);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (long long);
 - (unsigned long long);
 - (long long);
@@ -26,8 +24,8 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) MISSING_TYPE *boundsMax; // @synthesize boundsMax;
-@property(nonatomic, readonly) MISSING_TYPE *boundsMin; // @synthesize boundsMin;
+@property(nonatomic, readonly) id boundsMax; // @synthesize boundsMax;
+@property(nonatomic, readonly) id boundsMin; // @synthesize boundsMin;
 @property(nonatomic, readonly) long long indexCount; // @synthesize indexCount;
 @property(nonatomic, readonly) long long indexOffset; // @synthesize indexOffset;
 @property(nonatomic, readonly) long long materialIndex; // @synthesize materialIndex;

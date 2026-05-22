@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol WKURLSchemeTask;
 
 @interface NewsUI2.NewsAssetURLSchemeHandler
 {
     id <WKURLSchemeTask> task;
-    MISSING_TYPE *assetFetchService;
-    MISSING_TYPE *resourceIdentifier;
-    MISSING_TYPE *cancelHandler;
+    id assetFetchService;
+    id resourceIdentifier;
+    id cancelHandler;
 }
 
 - (id);

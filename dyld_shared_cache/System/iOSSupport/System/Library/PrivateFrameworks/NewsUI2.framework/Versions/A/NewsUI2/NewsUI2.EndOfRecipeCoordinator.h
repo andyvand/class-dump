@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EndOfRecipeCoordinator
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *sectionPositionProvider;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *feedDismissingManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *config;
-    MISSING_TYPE *articleDataFactory;
+    id tracker;
+    id channelDataFactory;
+    id scienceDataFactory;
+    id blueprintProvider;
+    id sectionPositionProvider;
+    id contentAvailabilityValidator;
+    id feedDismissingManager;
+    id bundleSubscriptionManager;
+    id config;
+    id articleDataFactory;
 }
 
 @end

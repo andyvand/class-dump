@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewShellKit.StaticPreviewCanvas
 {
-    MISSING_TYPE *invalidationHandle;
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *scene;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *updater;
-    MISSING_TYPE *$__lazy_storage_$_thumbnailFactory;
+    id invalidationHandle;
+    id viewController;
+    id scene;
+    id queue;
+    id updater;
+    id $__lazy_storage_$_thumbnailFactory;
 }
 
 @end

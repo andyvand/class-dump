@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol JEMediaPlaylistItem;
 
 @interface JEMediaActivity
 {
-    MISSING_TYPE *pipelineHandler;
+    id pipelineHandler;
     long long type;
     id <JEMediaPlaylistItem> playlistItem;
 }

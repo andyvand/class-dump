@@ -6,12 +6,10 @@
 
 #import <VFX/VFX.BuiltinNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.ConstantNode : VFX.BuiltinNode
 {
-    MISSING_TYPE *holder;
-    MISSING_TYPE *semantic;
+    id holder;
+    id semantic;
 }
 
 @end

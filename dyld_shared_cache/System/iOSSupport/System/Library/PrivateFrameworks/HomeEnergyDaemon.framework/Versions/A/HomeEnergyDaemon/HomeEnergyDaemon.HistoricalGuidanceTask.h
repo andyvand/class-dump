@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.HistoricalGuidanceTask
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *defaults;
-    MISSING_TYPE *_downloadInProgress;
+    id $defaultActor;
+    id defaults;
+    id _downloadInProgress;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.LiveActivityCommandHandler
 {
-    MISSING_TYPE *liveActivityManager;
-    MISSING_TYPE *commandCenter;
+    id liveActivityManager;
+    id commandCenter;
 }
 
 @end

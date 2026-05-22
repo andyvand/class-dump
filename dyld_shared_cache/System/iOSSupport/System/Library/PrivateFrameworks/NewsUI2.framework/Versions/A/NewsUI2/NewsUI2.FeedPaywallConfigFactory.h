@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FeedPaywallConfigFactory
 {
-    MISSING_TYPE *priceToken;
-    MISSING_TYPE *priceDeltaToken;
-    MISSING_TYPE *defaultSubscribeButtonDestination;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *offerOverrideProvider;
-    MISSING_TYPE *offerManager;
+    id priceToken;
+    id priceDeltaToken;
+    id defaultSubscribeButtonDestination;
+    id configurationManager;
+    id offerOverrideProvider;
+    id offerManager;
 }
 
 @end

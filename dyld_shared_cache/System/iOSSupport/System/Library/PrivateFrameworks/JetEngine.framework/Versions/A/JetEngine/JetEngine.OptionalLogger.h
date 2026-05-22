@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.OptionalLogger
 {
-    MISSING_TYPE *logger;
-    MISSING_TYPE *levelNameKey;
-    MISSING_TYPE *defaultVerbosityLevel;
+    id logger;
+    id levelNameKey;
+    id defaultVerbosityLevel;
 }
 
 @end

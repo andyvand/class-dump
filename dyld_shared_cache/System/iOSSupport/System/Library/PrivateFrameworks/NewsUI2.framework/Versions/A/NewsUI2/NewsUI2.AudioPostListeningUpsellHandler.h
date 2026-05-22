@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioPostListeningUpsellHandler
 {
-    MISSING_TYPE *playingItemState;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *upsellDisplayCountKey;
-    MISSING_TYPE *upsellInstanceIDKey;
+    id playingItemState;
+    id navigator;
+    id configurationManager;
+    id upsellDisplayCountKey;
+    id upsellInstanceIDKey;
 }
 
 @end

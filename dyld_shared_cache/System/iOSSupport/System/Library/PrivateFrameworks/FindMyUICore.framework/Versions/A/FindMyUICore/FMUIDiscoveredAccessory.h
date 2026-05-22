@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FMUIDiscoveredAccessory
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *productType;
-    MISSING_TYPE *productImage;
+    id identifier;
+    id productType;
+    id productImage;
 }
 
 - (id);

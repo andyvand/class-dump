@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatNodeContext
 {
-    MISSING_TYPE *layoutContext;
-    MISSING_TYPE *inventory;
-    MISSING_TYPE *bindings;
-    MISSING_TYPE *namespace;
-    MISSING_TYPE *slotIdentifier;
-    MISSING_TYPE *resizeGroupIdentifier;
-    MISSING_TYPE *config;
-    MISSING_TYPE *blocks;
-    MISSING_TYPE *assetHandleFactory;
-    MISSING_TYPE *itemIdentifier;
-    MISSING_TYPE *boundItem;
-    MISSING_TYPE *bindingStack;
-    MISSING_TYPE *boundItemAuxiliary;
-    MISSING_TYPE *options;
-    MISSING_TYPE *selectors;
-    MISSING_TYPE *boundStateMachines;
-    MISSING_TYPE *lazyContextLayoutOptions;
-    MISSING_TYPE *commandCenter;
+    id layoutContext;
+    id inventory;
+    id bindings;
+    id namespace;
+    id slotIdentifier;
+    id resizeGroupIdentifier;
+    id config;
+    id blocks;
+    id assetHandleFactory;
+    id itemIdentifier;
+    id boundItem;
+    id bindingStack;
+    id boundItemAuxiliary;
+    id options;
+    id selectors;
+    id boundStateMachines;
+    id lazyContextLayoutOptions;
+    id commandCenter;
 }
 
 @end

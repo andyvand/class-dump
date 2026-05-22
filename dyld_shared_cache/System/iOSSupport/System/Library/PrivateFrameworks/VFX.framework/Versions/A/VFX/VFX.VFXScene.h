@@ -4,29 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSObject, NSString, NSURL;
+@class NSArray, NSObject, NSString, NSURL;
 
 @interface VFX.VFXScene
 {
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *loadOptions;
-    MISSING_TYPE *loader;
-    MISSING_TYPE *legacyRenderer;
-    MISSING_TYPE *templateRemapTable;
-    MISSING_TYPE *templateWasPrepared;
+    id entityManager;
+    id loadOptions;
+    id loader;
+    id legacyRenderer;
+    id templateRemapTable;
+    id templateWasPrepared;
     void effects;
-    MISSING_TYPE *entityObjects;
-    MISSING_TYPE *_version;
-    MISSING_TYPE *isInsideRE;
-    MISSING_TYPE *isREAssetScene;
-    MISSING_TYPE *transientDrawCall;
-    MISSING_TYPE *hasSharedEntityManager;
+    id entityObjects;
+    id _version;
+    id isInsideRE;
+    id isREAssetScene;
+    id transientDrawCall;
+    id hasSharedEntityManager;
     void metalBinaryArchiveURLs;
     void recordedMetalBinaryArchiveURL;
     unsigned long long internalPixelFormat;
     BOOL internalPixelFormatDepth;
     _Bool useGammaBlending;
-    MISSING_TYPE *debugUIOptions;
+    id debugUIOptions;
 }
 
 + (void);
@@ -96,7 +96,7 @@ j?wI<¾[]>á|r?qËg?Kw'¾cÐi>;qu?ÒRe?>¾ßPH>ÿw?À²b?Óôù½Ò)>A-z
 - (_Bool);
 - (id);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (long long);
 - (_Bool);

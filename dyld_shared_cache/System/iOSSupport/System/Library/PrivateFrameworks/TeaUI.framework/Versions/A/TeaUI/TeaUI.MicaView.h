@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.MicaView
 {
-    MISSING_TYPE *onScreenClosure;
-    MISSING_TYPE *packageLayer;
-    MISSING_TYPE *packageSize;
+    id onScreenClosure;
+    id packageLayer;
+    id packageSize;
 }
 
 - (id);

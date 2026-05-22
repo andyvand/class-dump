@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VFXWorld, _TtC3VFX16VFXMotionTracker;
+@class NSString, VFX.VFXMotionTracker, VFXWorld;
 
 @interface VFXTriggerManager
 {
@@ -12,7 +12,7 @@
     struct VFXTriggerEnabledTypes _enabledTypes;
     _Bool _handTrackerActive;
     _Bool _gazeTrackerActive;
-    _TtC3VFX16VFXMotionTracker *_motionTracker;
+    VFX.VFXMotionTracker *_motionTracker;
     _Bool _isHandTrackingScriptPresent;
     _Bool _isHandTrackingEnabled;
 }

@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingNotificationsModifierFactory
 {
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *notificationConfiguration;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *emailSignupModelFactory;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *headerLabelTextProvider;
+    id subscriptionService;
+    id tagService;
+    id notificationConfiguration;
+    id userInfo;
+    id bundleSubscriptionManager;
+    id featureAvailability;
+    id configurationManager;
+    id newsletterManager;
+    id emailSignupModelFactory;
+    id contentAvailabilityValidator;
+    id headerLabelTextProvider;
 }
 
 @end

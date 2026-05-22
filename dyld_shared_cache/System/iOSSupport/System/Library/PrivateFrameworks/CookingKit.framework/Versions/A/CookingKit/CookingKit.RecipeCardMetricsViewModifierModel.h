@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardMetricsViewModifierModel
 {
-    MISSING_TYPE *_pagingSafeAreaInsets;
-    MISSING_TYPE *_screenSize;
-    MISSING_TYPE *_$observationRegistrar;
+    id _pagingSafeAreaInsets;
+    id _screenSize;
+    id _$observationRegistrar;
 }
 
 @end

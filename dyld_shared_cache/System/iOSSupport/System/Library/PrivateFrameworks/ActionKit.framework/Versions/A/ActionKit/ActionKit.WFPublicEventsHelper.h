@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ActionKit.WFPublicEventsHelper
 {
-    MISSING_TYPE *rawSqlConnection;
-    MISSING_TYPE *sqlConnectionCreatedAt;
-    MISSING_TYPE *viewName;
-    MISSING_TYPE *useCase;
-    MISSING_TYPE *viewService;
-    MISSING_TYPE *viewQuery;
-    MISSING_TYPE *dateFormatter;
+    id rawSqlConnection;
+    id sqlConnectionCreatedAt;
+    id viewName;
+    id useCase;
+    id viewService;
+    id viewQuery;
+    id dateFormatter;
 }
 
 + (id)TENSION;

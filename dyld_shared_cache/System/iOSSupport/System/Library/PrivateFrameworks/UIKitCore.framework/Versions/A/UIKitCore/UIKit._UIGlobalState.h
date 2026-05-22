@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIGlobalState
 {
-    MISSING_TYPE *_storedIsLowPowerModeEnabled;
-    MISSING_TYPE *_storedIsReduceTransparencyEnabled;
-    MISSING_TYPE *_storedIsReduceMotionEnabled;
-    MISSING_TYPE *_storedIsButtonShapesEnabled;
-    MISSING_TYPE *_storedGlassLegibilitySetting;
-    MISSING_TYPE *_$observationRegistrar;
+    id _storedIsLowPowerModeEnabled;
+    id _storedIsReduceTransparencyEnabled;
+    id _storedIsReduceMotionEnabled;
+    id _storedIsButtonShapesEnabled;
+    id _storedGlassLegibilitySetting;
+    id _$observationRegistrar;
 }
 
 @end

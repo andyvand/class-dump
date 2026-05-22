@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.AbsolutePathStorage
 {
-    MISSING_TYPE *absoluteURL;
-    MISSING_TYPE *pathResolver;
+    id absoluteURL;
+    id pathResolver;
 }
 
 - (id);

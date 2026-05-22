@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface CoreHapticsTools.CHTEvent
 {
-    MISSING_TYPE *undoRedoManager;
-    MISSING_TYPE *observerManager;
+    id undoRedoManager;
+    id observerManager;
     void type;
-    MISSING_TYPE *_time;
+    id _time;
 }
 
 - (id);

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.CommandBufferHelper
 {
-    MISSING_TYPE *_commandBuffer;
-    MISSING_TYPE *commandQueue;
-    MISSING_TYPE *label;
-    MISSING_TYPE *_cachedComputeCommandEncoder;
-    MISSING_TYPE *renderEncoder;
-    MISSING_TYPE *parallelRenderEncoder;
-    MISSING_TYPE *blitEncoder;
-    MISSING_TYPE *renderPassDescriptor;
-    MISSING_TYPE *encodersCreated;
-    MISSING_TYPE *perThreadRenderEncoder;
+    id _commandBuffer;
+    id commandQueue;
+    id label;
+    id _cachedComputeCommandEncoder;
+    id renderEncoder;
+    id parallelRenderEncoder;
+    id blitEncoder;
+    id renderPassDescriptor;
+    id encodersCreated;
+    id perThreadRenderEncoder;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ColorRampSystem
 {
-    MISSING_TYPE *allColorRampsQuery;
-    MISSING_TYPE *unregisteredColorRampsQuery;
-    MISSING_TYPE *allColorRampsWithRuntimeQuery;
-    MISSING_TYPE *allModifiedColorRampsWithRuntimeQuery;
+    id allColorRampsQuery;
+    id unregisteredColorRampsQuery;
+    id allColorRampsWithRuntimeQuery;
+    id allModifiedColorRampsWithRuntimeQuery;
 }
 
 @end

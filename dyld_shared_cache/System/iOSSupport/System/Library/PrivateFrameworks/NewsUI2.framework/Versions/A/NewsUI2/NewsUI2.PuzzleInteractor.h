@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *menuConfigMessageHandler;
-    MISSING_TYPE *accessoryConfigMessageHandler;
-    MISSING_TYPE *showSettingsMessageHandler;
-    MISSING_TYPE *showAlertMessageHandler;
-    MISSING_TYPE *updateSettingsMessageHandler;
-    MISSING_TYPE *menuDismissMessageHandler;
-    MISSING_TYPE *hapticFeedbackMessageHandler;
-    MISSING_TYPE *submitScoreMessageHandler;
-    MISSING_TYPE *showFullScreenModalMessageHandler;
-    MISSING_TYPE *openLeaderboardMessageHandler;
-    MISSING_TYPE *paywallFactory;
-    MISSING_TYPE *puzzleModel;
-    MISSING_TYPE *puzzle;
-    MISSING_TYPE *scriptsManager;
-    MISSING_TYPE *gameCenterService;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
+    id delegate;
+    id dataManager;
+    id menuConfigMessageHandler;
+    id accessoryConfigMessageHandler;
+    id showSettingsMessageHandler;
+    id showAlertMessageHandler;
+    id updateSettingsMessageHandler;
+    id menuDismissMessageHandler;
+    id hapticFeedbackMessageHandler;
+    id submitScoreMessageHandler;
+    id showFullScreenModalMessageHandler;
+    id openLeaderboardMessageHandler;
+    id paywallFactory;
+    id puzzleModel;
+    id puzzle;
+    id scriptsManager;
+    id gameCenterService;
+    id commandCenter;
+    id tracker;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RatingsSubmissionViewModel
 {
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_selectedRating;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_$observationRegistrar;
+    id _recipeID;
+    id _selectedRating;
+    id _$scope;
+    id _$observationRegistrar;
 }
 
 @end

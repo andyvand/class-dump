@@ -6,11 +6,9 @@
 
 #import <HomeUI/HUIconCollectionListCell.h>
 
-@class MISSING_TYPE;
-
 @interface HUPopUpMenuIconCollectionListCell : HUIconCollectionListCell
 {
-    MISSING_TYPE *menu;
+    id menu;
 }
 
 - (id);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioSeekCommandHandler
 {
-    MISSING_TYPE *playbackController;
-    MISSING_TYPE *audioPlaybackTracker;
+    id playbackController;
+    id audioPlaybackTracker;
 }
 
 @end

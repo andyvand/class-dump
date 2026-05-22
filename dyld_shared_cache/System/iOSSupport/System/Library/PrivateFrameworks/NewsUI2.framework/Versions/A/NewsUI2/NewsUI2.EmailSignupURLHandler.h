@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EmailSignupURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *emailSignupModelFactory;
-    MISSING_TYPE *fineGrainedNewslettersHandler;
-    MISSING_TYPE *featureAvailability;
+    id patterns;
+    id navigator;
+    id newsletterManager;
+    id emailSignupModelFactory;
+    id fineGrainedNewslettersHandler;
+    id featureAvailability;
 }
 
 @end

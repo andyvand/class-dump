@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CloudSharingUI.SharingOptionsViewModel
 {
-    MISSING_TYPE *sourceAppBundleID;
-    MISSING_TYPE *_contentSize;
-    MISSING_TYPE *_collaborationOptionsGroups;
-    MISSING_TYPE *userDidChangeOption;
-    MISSING_TYPE *contentSizeDidChange;
-    MISSING_TYPE *layoutMargins;
+    id sourceAppBundleID;
+    id _contentSize;
+    id _collaborationOptionsGroups;
+    id userDidChangeOption;
+    id contentSizeDidChange;
+    id layoutMargins;
 }
 
 @end

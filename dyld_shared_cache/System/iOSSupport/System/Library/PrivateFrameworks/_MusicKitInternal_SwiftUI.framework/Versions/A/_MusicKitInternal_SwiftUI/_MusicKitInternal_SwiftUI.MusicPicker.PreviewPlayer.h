@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _MusicKitInternal_SwiftUI.MusicPicker.PreviewPlayer
 {
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_isPreviewing;
-    MISSING_TYPE *player;
-    MISSING_TYPE *audioSessionInterruptionNotificationTask;
+    id _state;
+    id _isPreviewing;
+    id player;
+    id audioSessionInterruptionNotificationTask;
 }
 
 @end

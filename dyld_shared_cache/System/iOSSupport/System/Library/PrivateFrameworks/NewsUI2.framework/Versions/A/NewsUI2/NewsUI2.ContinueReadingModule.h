@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContinueReadingModule
 {
-    MISSING_TYPE *featureSettings;
-    MISSING_TYPE *resolver;
+    id featureSettings;
+    id resolver;
 }
 
 @end

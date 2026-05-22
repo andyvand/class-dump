@@ -6,25 +6,25 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UINavigationBarPlatterView : _UITouchPassthroughView
 {
-    MISSING_TYPE *translationKick;
-    MISSING_TYPE *scaleOffset;
-    MISSING_TYPE *transformViewA;
-    MISSING_TYPE *transformViewB;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *scalePulseScheduler;
-    MISSING_TYPE *translationKickScheduler;
-    MISSING_TYPE *layoutChangeScheduler;
-    MISSING_TYPE *mode;
-    MISSING_TYPE *id;
-    MISSING_TYPE *platter;
-    MISSING_TYPE *overrideBackgroundProperties;
-    MISSING_TYPE *transitionPhase;
-    MISSING_TYPE *pointerAssistantID;
+    id translationKick;
+    id scaleOffset;
+    id transformViewA;
+    id transformViewB;
+    id contentView;
+    id scalePulseScheduler;
+    id translationKickScheduler;
+    id layoutChangeScheduler;
+    id mode;
+    id id;
+    id platter;
+    id overrideBackgroundProperties;
+    id transitionPhase;
+    id pointerAssistantID;
 }
 
 - (id);

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceTreeKindGroup
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *category;
-    MISSING_TYPE *_workspaces;
-    MISSING_TYPE *unfilteredWorkspaces;
-    MISSING_TYPE *_isExpanded;
+    id id;
+    id editor;
+    id category;
+    id _workspaces;
+    id unfilteredWorkspaces;
+    id _isExpanded;
 }
 
 @end

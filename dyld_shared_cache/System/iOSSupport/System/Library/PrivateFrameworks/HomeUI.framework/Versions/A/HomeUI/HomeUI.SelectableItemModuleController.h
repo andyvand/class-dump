@@ -6,11 +6,9 @@
 
 #import <HomeUI/HUItemModuleController.h>
 
-@class MISSING_TYPE;
-
 @interface HomeUI.SelectableItemModuleController : HUItemModuleController
 {
-    MISSING_TYPE *delegate;
+    id delegate;
 }
 
 - (unsigned long long);

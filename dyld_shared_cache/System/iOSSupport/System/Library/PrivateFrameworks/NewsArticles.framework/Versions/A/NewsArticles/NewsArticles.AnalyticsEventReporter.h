@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.AnalyticsEventReporter
 {
-    MISSING_TYPE *transformerManager;
-    MISSING_TYPE *articleCoordinator;
-    MISSING_TYPE *eventManager;
+    id transformerManager;
+    id articleCoordinator;
+    id eventManager;
 }
 
 - (void);

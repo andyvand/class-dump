@@ -6,13 +6,13 @@
 
 #import <HomeUI/HUItemCollectionViewController.h>
 
-@class HFCharacteristicEventBuilderItem, HFEventTriggerBuilder, MISSING_TYPE;
+@class HFCharacteristicEventBuilderItem, HFEventTriggerBuilder;
 @protocol HUTriggerEditorDelegate;
 
 @interface HUAccessoryEventPickerViewController : HUItemCollectionViewController
 {
-    MISSING_TYPE *accessoryElementModule;
-    MISSING_TYPE *selectionController;
+    id accessoryElementModule;
+    id selectionController;
     HFCharacteristicEventBuilderItem *eventBuilderItem;
     HFEventTriggerBuilder *triggerBuilder;
     unsigned long long mode;

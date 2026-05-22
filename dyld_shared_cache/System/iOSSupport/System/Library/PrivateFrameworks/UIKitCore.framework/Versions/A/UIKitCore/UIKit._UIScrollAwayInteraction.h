@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 @interface UIKit._UIScrollAwayInteraction
 {
     UIView *view;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *activationDistanceThreshold;
-    MISSING_TYPE *activeDistance;
-    MISSING_TYPE *direction;
-    MISSING_TYPE *progress;
-    MISSING_TYPE *state;
-    MISSING_TYPE *contentScrollView;
-    MISSING_TYPE *lastContentOffset;
+    id delegate;
+    id activationDistanceThreshold;
+    id activeDistance;
+    id direction;
+    id progress;
+    id state;
+    id contentScrollView;
+    id lastContentOffset;
 }
 
 - (void);

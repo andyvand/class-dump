@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FoodService
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *localNewsChannelService;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *recipeItemInventory;
-    MISSING_TYPE *recentRecipeListProvider;
-    MISSING_TYPE *trendingRecipeListProvider;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *recipeForYouAvailability;
+    id appConfigurationManager;
+    id headlineService;
+    id localNewsChannelService;
+    id recipeService;
+    id tagService;
+    id subscriptionController;
+    id bundleSubscriptionManager;
+    id recipeItemInventory;
+    id recentRecipeListProvider;
+    id trendingRecipeListProvider;
+    id personalizationService;
+    id recipeForYouAvailability;
 }
 
 @end

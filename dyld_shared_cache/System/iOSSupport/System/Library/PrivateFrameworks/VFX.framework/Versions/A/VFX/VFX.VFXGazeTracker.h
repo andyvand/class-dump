@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.VFXGazeTracker
 {
-    MISSING_TYPE *eyeAnchorUpdateInterval;
-    MISSING_TYPE *anchorUpdateTimer;
-    MISSING_TYPE *worlds;
-    MISSING_TYPE *arGazeTracker;
+    id eyeAnchorUpdateInterval;
+    id anchorUpdateTimer;
+    id worlds;
+    id arGazeTracker;
 }
 
 + (void);

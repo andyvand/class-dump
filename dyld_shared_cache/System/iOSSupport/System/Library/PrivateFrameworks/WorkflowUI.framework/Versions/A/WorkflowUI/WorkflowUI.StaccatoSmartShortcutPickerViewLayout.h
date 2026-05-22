@@ -6,11 +6,9 @@
 
 #import <WorkflowUI/WorkflowUI.SmartShortcutPickerViewLayout.h>
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.StaccatoSmartShortcutPickerViewLayout : WorkflowUI.SmartShortcutPickerViewLayout
 {
-    MISSING_TYPE *style;
+    id style;
 }
 
 @end

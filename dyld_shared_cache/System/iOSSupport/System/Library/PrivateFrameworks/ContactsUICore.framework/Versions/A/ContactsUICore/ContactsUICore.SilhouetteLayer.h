@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.SilhouetteLayer
 {
-    MISSING_TYPE *spec;
-    MISSING_TYPE *$__lazy_storage_$_businessLayer;
-    MISSING_TYPE *$__lazy_storage_$_personLayer;
+    id spec;
+    id $__lazy_storage_$_businessLayer;
+    id $__lazy_storage_$_personLayer;
 }
 
 - (id);

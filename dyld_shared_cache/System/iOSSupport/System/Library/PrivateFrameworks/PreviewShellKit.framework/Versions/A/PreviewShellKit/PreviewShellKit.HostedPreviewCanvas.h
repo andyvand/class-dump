@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewShellKit.HostedPreviewCanvas
 {
-    MISSING_TYPE *invalidationHandle;
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *scene;
-    MISSING_TYPE *updater;
-    MISSING_TYPE *visible;
-    MISSING_TYPE *didActivatePreviewSink;
+    id invalidationHandle;
+    id viewController;
+    id scene;
+    id updater;
+    id visible;
+    id didActivatePreviewSink;
 }
 
 @end

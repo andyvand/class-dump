@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatEventHandler
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *pluginEventDelegate;
-    MISSING_TYPE *interactor;
-    MISSING_TYPE *router;
-    MISSING_TYPE *tracker;
+    id delegate;
+    id pluginEventDelegate;
+    id interactor;
+    id router;
+    id tracker;
 }
 
 @end

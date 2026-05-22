@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchMoreFeedPoolService
 {
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *recipeService;
+    id subscriptionService;
+    id headlineService;
+    id recipeService;
 }
 
 @end

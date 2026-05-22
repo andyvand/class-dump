@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.AnchoringComponentBuilder
 {
-    MISSING_TYPE *buildOrder;
-    MISSING_TYPE *didBuild;
-    MISSING_TYPE *imageAsset;
-    MISSING_TYPE *arReferenceData;
+    id buildOrder;
+    id didBuild;
+    id imageAsset;
+    id arReferenceData;
 }
 
 @end

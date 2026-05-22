@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.LocalPreferences
 {
-    MISSING_TYPE *bundleIdentifier;
-    MISSING_TYPE *cacheEnabled;
-    MISSING_TYPE *cache;
-    MISSING_TYPE *userDefaults;
-    MISSING_TYPE *userDefaultsObserver;
-    MISSING_TYPE *observations;
+    id bundleIdentifier;
+    id cacheEnabled;
+    id cache;
+    id userDefaults;
+    id userDefaultsObserver;
+    id observations;
 }
 
 @end

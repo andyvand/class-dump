@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ANFIssueCoverViewProvider
 {
-    MISSING_TYPE *issue;
-    MISSING_TYPE *headline;
-    MISSING_TYPE *layoutAttributesFactory;
-    MISSING_TYPE *renderer;
+    id issue;
+    id headline;
+    id layoutAttributesFactory;
+    id renderer;
 }
 
 - (id);

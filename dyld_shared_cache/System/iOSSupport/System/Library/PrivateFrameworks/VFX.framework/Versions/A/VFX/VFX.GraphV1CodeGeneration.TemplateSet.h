@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphV1CodeGeneration.TemplateSet
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *supportedLanguages;
-    MISSING_TYPE *contexts;
+    id name;
+    id supportedLanguages;
+    id contexts;
 }
 
 @end

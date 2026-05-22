@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTLayer
 {
-    MISSING_TYPE *doc;
-    MISSING_TYPE *selectedObjectsDelegate;
-    MISSING_TYPE *_theme;
-    MISSING_TYPE *adsrRenderingMode;
-    MISSING_TYPE *customBorderWidth;
-    MISSING_TYPE *dashPatternLengths;
-    MISSING_TYPE *prevBounds;
-    MISSING_TYPE *windowDuration;
-    MISSING_TYPE *lineThickness;
-    MISSING_TYPE *renderProcessingQueue;
+    id doc;
+    id selectedObjectsDelegate;
+    id _theme;
+    id adsrRenderingMode;
+    id customBorderWidth;
+    id dashPatternLengths;
+    id prevBounds;
+    id windowDuration;
+    id lineThickness;
+    id renderProcessingQueue;
     _Bool hasDrawnPaths;
-    MISSING_TYPE *hasCalculatedAllPaths;
-    MISSING_TYPE *cachedImage;
-    MISSING_TYPE *cachedImageLock;
+    id hasCalculatedAllPaths;
+    id cachedImage;
+    id cachedImageLock;
 }
 
 - (void);

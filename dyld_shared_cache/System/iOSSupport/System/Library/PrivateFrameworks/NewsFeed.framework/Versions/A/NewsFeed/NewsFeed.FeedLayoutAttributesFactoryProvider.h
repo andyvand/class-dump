@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedLayoutAttributesFactoryProvider
 {
-    MISSING_TYPE *categoryViewLayoutAttributesFactory;
-    MISSING_TYPE *issueCoverViewLayoutAttributesFactory;
-    MISSING_TYPE *bannerAdLayoutAttributesFactory;
-    MISSING_TYPE *engagementBannerViewLayoutAttributesFactory;
-    MISSING_TYPE *layeredMediaRenderedViewModelFactory;
+    id categoryViewLayoutAttributesFactory;
+    id issueCoverViewLayoutAttributesFactory;
+    id bannerAdLayoutAttributesFactory;
+    id engagementBannerViewLayoutAttributesFactory;
+    id layeredMediaRenderedViewModelFactory;
 }
 
 @end

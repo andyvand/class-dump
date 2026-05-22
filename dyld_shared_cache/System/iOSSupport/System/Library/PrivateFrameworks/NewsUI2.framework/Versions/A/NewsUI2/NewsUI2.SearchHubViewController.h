@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchHubViewController
 {
-    MISSING_TYPE *searchHomeContainerController;
-    MISSING_TYPE *mastheadViewController;
-    MISSING_TYPE *eventManager;
+    id searchHomeContainerController;
+    id mastheadViewController;
+    id eventManager;
 }
 
 - (id);

@@ -6,15 +6,14 @@
 
 #import <HomeUI/HUItemCollectionViewController.h>
 
-@class MISSING_TYPE;
 @protocol HUPresentationDelegate, HUServiceGroupEditorViewControllerDelegate;
 
 @interface HUServiceGroupEditorViewController : HUItemCollectionViewController
 {
     void presentationDelegate;
     void serviceGroupEditorDelegate;
-    MISSING_TYPE *editingName;
-    MISSING_TYPE *$__lazy_storage_$_collectionLayoutManager;
+    id editingName;
+    id $__lazy_storage_$_collectionLayoutManager;
 }
 
 + (id);

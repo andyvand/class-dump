@@ -34,13 +34,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (CDStruct_10883d13);
+- (CDStruct_ccff9734);
 - (void);
 
 // Remaining properties
 @property(readonly) NSString *assetImage; // @synthesize assetImage=_assetImage;
 @property(readonly) VFXNode *assetNode; // @synthesize assetNode=_assetNode;
-@property(readonly) CDStruct_10883d13 uvRemappingInfo;
+@property(readonly) CDStruct_ccff9734 uvRemappingInfo;
 
 @end
 

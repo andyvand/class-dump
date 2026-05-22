@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.IssueDownload
 {
-    MISSING_TYPE *interestToken;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *source;
-    MISSING_TYPE *state;
-    MISSING_TYPE *progress;
+    id interestToken;
+    id identifier;
+    id source;
+    id state;
+    id progress;
 }
 
 @end

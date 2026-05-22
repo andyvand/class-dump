@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIActivityViewController, UIViewController;
+@class NSString, UIActivityViewController, UIViewController;
 
 @interface WFReportShortcutActivity
 {
-    MISSING_TYPE *item;
-    MISSING_TYPE *completion;
-    MISSING_TYPE *reportSubmitted;
+    id item;
+    id completion;
+    id reportSubmitted;
     void activityControler;
-    MISSING_TYPE *$__lazy_storage_$_reportShortcutHostingViewController;
+    id $__lazy_storage_$_reportShortcutHostingViewController;
 }
 
 + (id);

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.NotificationServiceManager
 {
-    MISSING_TYPE *notificationCenterUIService;
-    MISSING_TYPE *sceneController;
-    MISSING_TYPE *callConfirmationPresenter;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *noticeIDsToButtonClickHandler;
-    MISSING_TYPE *inAppNotifications;
-    MISSING_TYPE *delegate;
+    id notificationCenterUIService;
+    id sceneController;
+    id callConfirmationPresenter;
+    id logger;
+    id noticeIDsToButtonClickHandler;
+    id inAppNotifications;
+    id delegate;
 }
 
 @end

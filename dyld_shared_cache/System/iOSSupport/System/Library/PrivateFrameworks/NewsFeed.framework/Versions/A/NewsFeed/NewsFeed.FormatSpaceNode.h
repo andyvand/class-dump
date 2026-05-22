@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSpaceNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *size;
-    MISSING_TYPE *_adjustments;
-    MISSING_TYPE *flex;
+    id _identifier;
+    id size;
+    id _adjustments;
+    id flex;
 }
 
 @end

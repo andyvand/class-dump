@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface StocksPersonalization.NewsHeadlineScorer
 {
-    MISSING_TYPE *stockEntities;
-    MISSING_TYPE *appConfiguration;
-    MISSING_TYPE *subscribedStockEntities;
-    MISSING_TYPE *articleScorer;
-    MISSING_TYPE *newsPersonalizationScorer;
-    MISSING_TYPE *workServiceScoringService;
+    id stockEntities;
+    id appConfiguration;
+    id subscribedStockEntities;
+    id articleScorer;
+    id newsPersonalizationScorer;
+    id workServiceScoringService;
 }
 
 @end

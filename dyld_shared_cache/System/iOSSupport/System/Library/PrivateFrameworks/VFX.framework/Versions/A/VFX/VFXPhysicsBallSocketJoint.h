@@ -6,12 +6,10 @@
 
 #import <VFX/VFXPhysicsJoint.h>
 
-@class MISSING_TYPE;
-
 @interface VFXPhysicsBallSocketJoint : VFXPhysicsJoint
 {
     struct {
-        MISSING_TYPE *anchorA__anchorB;
+        id anchorA__anchorB;
     } _definition;
 }
 
@@ -31,8 +29,8 @@
 - (void);
 - (id);
 - (id);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -40,8 +38,8 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *anchorA;
-@property(nonatomic) MISSING_TYPE *anchorB;
+@property(nonatomic) id anchorA;
+@property(nonatomic) id anchorB;
 
 @end
 

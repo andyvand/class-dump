@@ -4,37 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary;
+@class NSDictionary;
 
 @interface MediaPlaybackCore.PlayerController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *mode;
-    MISSING_TYPE *userActionTimeout;
-    MISSING_TYPE *currentItemTransition;
-    MISSING_TYPE *playbackCoordinatorObservation;
-    MISSING_TYPE *player;
-    MISSING_TYPE *playerID;
-    MISSING_TYPE *audioSessionController;
-    MISSING_TYPE *applicationMusicPlayerTransitionOptions;
-    MISSING_TYPE *coordinatedPlaybackSuspension;
-    MISSING_TYPE *videoPlayerViewController;
-    MISSING_TYPE *playbackStartSubscription;
-    MISSING_TYPE *behavior;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *fsm;
-    MISSING_TYPE *playerObserver;
-    MISSING_TYPE *playerSubscription;
-    MISSING_TYPE *systemObserver;
-    MISSING_TYPE *systemSubscription;
-    MISSING_TYPE *didBecomeActiveSubscription;
-    MISSING_TYPE *willResignActiveSubscription;
-    MISSING_TYPE *videoPlayerBehavior;
-    MISSING_TYPE *userEventsMonitor;
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *leaseController;
-    MISSING_TYPE *previousItemID;
-    MISSING_TYPE *lastIntentionalSampleRateChangeTime;
+    id delegate;
+    id mode;
+    id userActionTimeout;
+    id currentItemTransition;
+    id playbackCoordinatorObservation;
+    id player;
+    id playerID;
+    id audioSessionController;
+    id applicationMusicPlayerTransitionOptions;
+    id coordinatedPlaybackSuspension;
+    id videoPlayerViewController;
+    id playbackStartSubscription;
+    id behavior;
+    id queue;
+    id fsm;
+    id playerObserver;
+    id playerSubscription;
+    id systemObserver;
+    id systemSubscription;
+    id didBecomeActiveSubscription;
+    id willResignActiveSubscription;
+    id videoPlayerBehavior;
+    id userEventsMonitor;
+    id reporter;
+    id leaseController;
+    id previousItemID;
+    id lastIntentionalSampleRateChangeTime;
 }
 
 - (void);

@@ -6,24 +6,24 @@
 
 #import <HomeUI/HUControllableItemCollectionViewController.h>
 
-@class HFItem, HFMediaAccessoryItem, MISSING_TYPE;
+@class HFItem, HFMediaAccessoryItem;
 @protocol HUContainedAccessoryElementsGridViewControllerDelegate, HUPresentationDelegate, HUServiceContainerItem><NSCopying;
 
 @interface HUContainedAccessoryElementsGridViewController : HUControllableItemCollectionViewController
 {
-    MISSING_TYPE *isPresentedModally;
+    id isPresentedModally;
     _Bool requiresPresentingViewControllerDismissal;
     id <HUPresentationDelegate> presentationDelegate;
-    MISSING_TYPE *$__lazy_storage_$_collectionLayoutManager;
+    id $__lazy_storage_$_collectionLayoutManager;
     HFItem<HUServiceContainerItem><NSCopying> *serviceContainingItem;
     HFMediaAccessoryItem *mediaItem;
     void serviceGridDelegate;
-    MISSING_TYPE *cellBackgroundDisplayStyle;
-    MISSING_TYPE *shouldGroupByRoom;
-    MISSING_TYPE *showTilePrefixes;
-    MISSING_TYPE *cellInsetsLayoutMarginsFromSafeArea;
-    MISSING_TYPE *dataModelObservationCancelable;
-    MISSING_TYPE *actionSetDataModel;
+    id cellBackgroundDisplayStyle;
+    id shouldGroupByRoom;
+    id showTilePrefixes;
+    id cellInsetsLayoutMarginsFromSafeArea;
+    id dataModelObservationCancelable;
+    id actionSetDataModel;
 }
 
 - (_Bool);

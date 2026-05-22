@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatResetNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *_regexSelectors;
-    MISSING_TYPE *_children;
+    id _identifier;
+    id _selectors;
+    id _regexSelectors;
+    id _children;
 }
 
 @end

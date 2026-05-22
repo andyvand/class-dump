@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PillViewImageRenderer
 {
-    MISSING_TYPE *imageCache;
-    MISSING_TYPE *imageRequestFactory;
+    id imageCache;
+    id imageRequestFactory;
 }
 
 @end

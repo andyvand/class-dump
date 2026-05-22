@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactLikenessStore.InMemoryCache
 {
-    MISSING_TYPE *logger;
-    MISSING_TYPE *capacity;
-    MISSING_TYPE *storage;
-    MISSING_TYPE *evictionQueue;
+    id logger;
+    id capacity;
+    id storage;
+    id evictionQueue;
 }
 
 @end

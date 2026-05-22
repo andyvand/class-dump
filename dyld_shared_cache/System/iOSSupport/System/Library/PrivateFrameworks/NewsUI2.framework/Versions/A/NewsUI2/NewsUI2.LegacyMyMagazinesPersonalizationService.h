@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LegacyMyMagazinesPersonalizationService
 {
-    MISSING_TYPE *configManager;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *aggregateStoreProvider;
+    id configManager;
+    id personalizationService;
+    id aggregateStoreProvider;
 }
 
 @end

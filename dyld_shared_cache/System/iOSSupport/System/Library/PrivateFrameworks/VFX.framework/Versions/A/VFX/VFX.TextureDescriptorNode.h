@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.RenderGraphNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.TextureDescriptorNode : VFX.RenderGraphNode
 {
-    MISSING_TYPE *_descriptor;
+    id _descriptor;
 }
 
 @end

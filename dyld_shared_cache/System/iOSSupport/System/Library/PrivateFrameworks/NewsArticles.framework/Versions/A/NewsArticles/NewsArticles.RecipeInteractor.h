@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *routeModel;
-    MISSING_TYPE *paywallFactory;
-    MISSING_TYPE *accessChecker;
-    MISSING_TYPE *recipeLoader;
-    MISSING_TYPE *recipeFactory;
-    MISSING_TYPE *_recipeWasLoaded;
-    MISSING_TYPE *unitConfigDataManger;
-    MISSING_TYPE *recipeUnitDataManager;
+    id delegate;
+    id dataManager;
+    id routeModel;
+    id paywallFactory;
+    id accessChecker;
+    id recipeLoader;
+    id recipeFactory;
+    id _recipeWasLoaded;
+    id unitConfigDataManger;
+    id recipeUnitDataManager;
 }
 
 @end

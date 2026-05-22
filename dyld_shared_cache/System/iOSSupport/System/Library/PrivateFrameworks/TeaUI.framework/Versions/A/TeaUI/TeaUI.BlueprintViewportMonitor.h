@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintViewportMonitor
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *options;
+    id observers;
+    id options;
 }
 
 - (id);

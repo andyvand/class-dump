@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.CallScreeningTranscriptsService
 {
-    MISSING_TYPE *callUUID;
-    MISSING_TYPE *currentTranscripts;
-    MISSING_TYPE *delayStartReply;
-    MISSING_TYPE *pendingReply;
-    MISSING_TYPE *replyStateCancellable;
-    MISSING_TYPE *assistantName;
-    MISSING_TYPE *captionsProvider;
-    MISSING_TYPE *liveReply;
-    MISSING_TYPE *initialMessage;
-    MISSING_TYPE *subject;
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *notificationCenter;
-    MISSING_TYPE *cancellables;
-    MISSING_TYPE *observationStarted;
+    id callUUID;
+    id currentTranscripts;
+    id delayStartReply;
+    id pendingReply;
+    id replyStateCancellable;
+    id assistantName;
+    id captionsProvider;
+    id liveReply;
+    id initialMessage;
+    id subject;
+    id callCenter;
+    id notificationCenter;
+    id cancellables;
+    id observationStarted;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.PassportSceneView.PassportChipPulsingEffectNode
 {
-    MISSING_TYPE *chipPlaneSize;
-    MISSING_TYPE *chipPlaneNode;
-    MISSING_TYPE *chipLayer;
-    MISSING_TYPE *shouldPlayPulsingAnimation;
+    id chipPlaneSize;
+    id chipPlaneNode;
+    id chipLayer;
+    id shouldPlayPulsingAnimation;
 }
 
 - (id);

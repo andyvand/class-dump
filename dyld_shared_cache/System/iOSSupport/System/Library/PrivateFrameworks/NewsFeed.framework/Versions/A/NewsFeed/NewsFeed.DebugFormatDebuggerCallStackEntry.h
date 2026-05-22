@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDebuggerCallStackEntry
 {
-    MISSING_TYPE *callStackFrame;
-    MISSING_TYPE *onSelectBlock;
-    MISSING_TYPE *selectedCallStackFrame;
+    id callStackFrame;
+    id onSelectBlock;
+    id selectedCallStackFrame;
 }
 
 @end

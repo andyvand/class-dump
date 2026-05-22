@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineCategoriesPickerStyler
 {
-    MISSING_TYPE *baseStyler;
-    MISSING_TYPE *colorPaletteProvider;
-    MISSING_TYPE *defaultTitleFontSize;
-    MISSING_TYPE *defaultHeaderFontSize;
+    id baseStyler;
+    id colorPaletteProvider;
+    id defaultTitleFontSize;
+    id defaultHeaderFontSize;
 }
 
 @end

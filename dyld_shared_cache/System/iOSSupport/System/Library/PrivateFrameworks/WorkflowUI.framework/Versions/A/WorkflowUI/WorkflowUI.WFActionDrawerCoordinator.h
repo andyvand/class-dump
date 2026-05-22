@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFActionDrawerCoordinator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *presentationMode;
-    MISSING_TYPE *drawerViewController;
-    MISSING_TYPE *inspectorPaneNavigationController;
-    MISSING_TYPE *inspectorPaneRootViewController;
-    MISSING_TYPE *bottomInset;
-    MISSING_TYPE *toolbar;
-    MISSING_TYPE *drawerEmbeddedToolbarView;
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *drawerSheetView;
-    MISSING_TYPE *actionDetailsSheetView;
-    MISSING_TYPE *presentedPopover;
-    MISSING_TYPE *presentedInspectorPaneContentViewController;
+    id delegate;
+    id presentationMode;
+    id drawerViewController;
+    id inspectorPaneNavigationController;
+    id inspectorPaneRootViewController;
+    id bottomInset;
+    id toolbar;
+    id drawerEmbeddedToolbarView;
+    id dataSource;
+    id drawerSheetView;
+    id actionDetailsSheetView;
+    id presentedPopover;
+    id presentedInspectorPaneContentViewController;
 }
 
 - (id);

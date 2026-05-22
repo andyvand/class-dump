@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SpotlightURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *articleContextFactory;
-    MISSING_TYPE *featureAvailability;
+    id patterns;
+    id navigator;
+    id configurationManager;
+    id articleContextFactory;
+    id featureAvailability;
 }
 
 @end

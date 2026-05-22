@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.BundleSubscriptionDetectionManager
 {
-    MISSING_TYPE *detectionProvider;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *observers;
+    id detectionProvider;
+    id configurationManager;
+    id bundleSubscriptionManager;
+    id observers;
 }
 
 - (void);

@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIViewController;
+@class UIViewController;
 
 @interface NewsArticles.IssueViewerViewController
 {
-    MISSING_TYPE *viewerIdentifier;
-    MISSING_TYPE *contentViewControllerFactory;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *sceneStateManager;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *contentViewController;
-    MISSING_TYPE *afterLoad;
+    id viewerIdentifier;
+    id contentViewControllerFactory;
+    id styler;
+    id eventHandler;
+    id sceneStateManager;
+    id coverViewManager;
+    id contentViewController;
+    id afterLoad;
 }
 
 - (unsigned long long);

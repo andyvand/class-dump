@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIZoomToolbarTransitionController
 {
-    MISSING_TYPE *overlay;
-    MISSING_TYPE *isZoomingIn;
-    MISSING_TYPE *temporaryViews;
-    MISSING_TYPE *toolbarSnapshot;
+    id overlay;
+    id isZoomingIn;
+    id temporaryViews;
+    id toolbarSnapshot;
 }
 
 - (void);

@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface TeaUI.EmptyStateView
 {
-    MISSING_TYPE *emptyPosition;
-    MISSING_TYPE *model;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *label;
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *visualEffectView;
-    MISSING_TYPE *imageSize;
-    MISSING_TYPE *minimalTopPadding;
-    MISSING_TYPE *keyboardInfo;
+    id emptyPosition;
+    id model;
+    id styler;
+    id label;
+    id imageView;
+    id scrollView;
+    id visualEffectView;
+    id imageSize;
+    id minimalTopPadding;
+    id keyboardInfo;
 }
 
 - (void);

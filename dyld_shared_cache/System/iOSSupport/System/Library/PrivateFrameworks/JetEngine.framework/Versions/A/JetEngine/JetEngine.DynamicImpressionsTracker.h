@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.DynamicImpressionsTracker
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *journalsByElementID;
-    MISSING_TYPE *dynamicEvents;
-    MISSING_TYPE *elementPositions;
+    id configuration;
+    id journalsByElementID;
+    id dynamicEvents;
+    id elementPositions;
 }
 
 @end

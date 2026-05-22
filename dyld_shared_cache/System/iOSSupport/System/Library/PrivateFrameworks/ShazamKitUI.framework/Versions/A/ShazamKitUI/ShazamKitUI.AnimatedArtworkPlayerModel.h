@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ShazamKitUI.AnimatedArtworkPlayerModel
 {
-    MISSING_TYPE *_player;
-    MISSING_TYPE *_looper;
-    MISSING_TYPE *_$observationRegistrar;
+    id _player;
+    id _looper;
+    id _$observationRegistrar;
 }
 
 @end

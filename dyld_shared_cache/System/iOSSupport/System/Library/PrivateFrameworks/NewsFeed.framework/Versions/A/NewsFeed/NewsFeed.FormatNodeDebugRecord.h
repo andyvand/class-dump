@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatNodeDebugRecord
 {
-    MISSING_TYPE *nodeIdentifier;
-    MISSING_TYPE *namespace;
-    MISSING_TYPE *kind;
-    MISSING_TYPE *startTime;
-    MISSING_TYPE *sourceMap;
-    MISSING_TYPE *endTime;
-    MISSING_TYPE *$__lazy_storage_$_identifier;
-    MISSING_TYPE *$__lazy_storage_$_parentIdentifier;
+    id nodeIdentifier;
+    id namespace;
+    id kind;
+    id startTime;
+    id sourceMap;
+    id endTime;
+    id $__lazy_storage_$_identifier;
+    id $__lazy_storage_$_parentIdentifier;
 }
 
 @end

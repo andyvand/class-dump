@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LocalUnonboardedMediaView
 {
-    MISSING_TYPE *displayStateCoordinator;
-    MISSING_TYPE *currentResourceID;
-    MISSING_TYPE *loadingTask;
-    MISSING_TYPE *placeholderView;
-    MISSING_TYPE *activityIndicator;
-    MISSING_TYPE *playerStatusObservation;
+    id displayStateCoordinator;
+    id currentResourceID;
+    id loadingTask;
+    id placeholderView;
+    id activityIndicator;
+    id playerStatusObservation;
 }
 
 + (Class);

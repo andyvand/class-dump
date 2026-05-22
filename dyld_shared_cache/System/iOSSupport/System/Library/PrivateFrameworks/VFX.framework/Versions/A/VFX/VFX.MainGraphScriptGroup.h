@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.MainGraphScriptGroup
 {
-    MISSING_TYPE *groups;
+    id groups;
 }
 
 @end

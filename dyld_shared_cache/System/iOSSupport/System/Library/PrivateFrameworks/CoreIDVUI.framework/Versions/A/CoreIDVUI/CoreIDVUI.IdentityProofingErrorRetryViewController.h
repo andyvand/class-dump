@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingErrorRetryViewController
 {
-    MISSING_TYPE *viewConfig;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *primaryButtonTargetAction;
-    MISSING_TYPE *secondaryButtonTargetAction;
-    MISSING_TYPE *bodyButtonTargetAction;
-    MISSING_TYPE *$__lazy_storage_$_scrollView;
-    MISSING_TYPE *$__lazy_storage_$_primaryStackView;
-    MISSING_TYPE *$__lazy_storage_$_bottomTray;
-    MISSING_TYPE *$__lazy_storage_$_titleLabel;
-    MISSING_TYPE *$__lazy_storage_$_primaryLabel;
-    MISSING_TYPE *$__lazy_storage_$_primaryButton;
-    MISSING_TYPE *$__lazy_storage_$_secondaryButton;
-    MISSING_TYPE *$__lazy_storage_$_bodyButton;
+    id viewConfig;
+    id proofingFlowManager;
+    id primaryButtonTargetAction;
+    id secondaryButtonTargetAction;
+    id bodyButtonTargetAction;
+    id $__lazy_storage_$_scrollView;
+    id $__lazy_storage_$_primaryStackView;
+    id $__lazy_storage_$_bottomTray;
+    id $__lazy_storage_$_titleLabel;
+    id $__lazy_storage_$_primaryLabel;
+    id $__lazy_storage_$_primaryButton;
+    id $__lazy_storage_$_secondaryButton;
+    id $__lazy_storage_$_bodyButton;
 }
 
 - (void);

@@ -4,39 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 
 @interface NewsFeed.PuzzleEmbedViewController
 {
-    MISSING_TYPE *onReuse;
-    MISSING_TYPE *reuseIdentifier;
-    MISSING_TYPE *layoutGuide;
-    MISSING_TYPE *feedConfiguration;
-    MISSING_TYPE *onEmbedInteraction;
-    MISSING_TYPE *layoutGuideView;
-    MISSING_TYPE *interactionProvider;
-    MISSING_TYPE *$__lazy_storage_$_contentEnvironment;
-    MISSING_TYPE *hasPuzzleDataLoadAttempted;
-    MISSING_TYPE *textInputTraits;
-    MISSING_TYPE *webEmbedFailureHandler;
-    MISSING_TYPE *isResizable;
-    MISSING_TYPE *liveResizingView;
-    MISSING_TYPE *puzzleData;
-    MISSING_TYPE *puzzleDataManager;
-    MISSING_TYPE *puzzleAccessArbiter;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *puzzleSource;
-    MISSING_TYPE *webContentViewController;
-    MISSING_TYPE *errorProvider;
-    MISSING_TYPE *failureProvider;
-    MISSING_TYPE *presentationManager;
-    MISSING_TYPE *actionProvider;
-    MISSING_TYPE *puzzleLoadingStateMachine;
-    MISSING_TYPE *activityIndicator;
-    MISSING_TYPE *errorView;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *embedLocation;
+    id onReuse;
+    id reuseIdentifier;
+    id layoutGuide;
+    id feedConfiguration;
+    id onEmbedInteraction;
+    id layoutGuideView;
+    id interactionProvider;
+    id $__lazy_storage_$_contentEnvironment;
+    id hasPuzzleDataLoadAttempted;
+    id textInputTraits;
+    id webEmbedFailureHandler;
+    id isResizable;
+    id liveResizingView;
+    id puzzleData;
+    id puzzleDataManager;
+    id puzzleAccessArbiter;
+    id bundleSubscriptionManager;
+    id delegate;
+    id puzzleSource;
+    id webContentViewController;
+    id errorProvider;
+    id failureProvider;
+    id presentationManager;
+    id actionProvider;
+    id puzzleLoadingStateMachine;
+    id activityIndicator;
+    id errorView;
+    id coverViewManager;
+    id embedLocation;
 }
 
 - (void);

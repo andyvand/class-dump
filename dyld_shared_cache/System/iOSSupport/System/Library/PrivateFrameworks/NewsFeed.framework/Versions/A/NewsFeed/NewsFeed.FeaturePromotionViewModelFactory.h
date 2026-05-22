@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeaturePromotionViewModelFactory
 {
-    MISSING_TYPE *stringFactory;
-    MISSING_TYPE *imageFactory;
-    MISSING_TYPE *commandCenter;
+    id stringFactory;
+    id imageFactory;
+    id commandCenter;
 }
 
 @end

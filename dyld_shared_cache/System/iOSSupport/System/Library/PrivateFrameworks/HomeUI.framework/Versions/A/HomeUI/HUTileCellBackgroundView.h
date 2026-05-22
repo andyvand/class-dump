@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol HUBackgroundEffectViewGrouping;
 
 @interface HUTileCellBackgroundView
 {
-    MISSING_TYPE *currentEffectIdentifier;
+    id currentEffectIdentifier;
     void effectGrouper;
-    MISSING_TYPE *materialStyle;
-    MISSING_TYPE *$__lazy_storage_$_visualEffectView;
-    MISSING_TYPE *dashedBorderView;
-    MISSING_TYPE *$__lazy_storage_$_controlCenterMaterialView;
+    id materialStyle;
+    id $__lazy_storage_$_visualEffectView;
+    id dashedBorderView;
+    id $__lazy_storage_$_controlCenterMaterialView;
 }
 
 - (void);

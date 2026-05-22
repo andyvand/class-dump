@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PUIFeedManagerArtworkBridge
 {
-    MISSING_TYPE *imageStore;
-    MISSING_TYPE *fileManager;
-    MISSING_TYPE *imageDownloader;
+    id imageStore;
+    id fileManager;
+    id imageDownloader;
 }
 
 + (id);

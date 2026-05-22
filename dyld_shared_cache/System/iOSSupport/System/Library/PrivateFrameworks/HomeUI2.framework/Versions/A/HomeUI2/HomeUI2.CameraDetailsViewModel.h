@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI2.CameraDetailsViewModel
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *state;
-    MISSING_TYPE *observer;
-    MISSING_TYPE *id;
+    id $defaultActor;
+    id state;
+    id observer;
+    id id;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.PlayerBoundaryTimeObserver
 {
-    MISSING_TYPE *player;
-    MISSING_TYPE *observationToken;
-    MISSING_TYPE *observerNumber;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *observedTimes;
+    id player;
+    id observationToken;
+    id observerNumber;
+    id observers;
+    id observedTimes;
 }
 
 @end

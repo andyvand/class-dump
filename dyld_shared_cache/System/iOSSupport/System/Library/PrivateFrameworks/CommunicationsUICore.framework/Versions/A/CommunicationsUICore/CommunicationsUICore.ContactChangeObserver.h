@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface CommunicationsUICore.ContactChangeObserver
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *contactStore;
-    MISSING_TYPE *keysToFetch;
-    MISSING_TYPE *trackedContactIDs;
-    MISSING_TYPE *currentHistoryToken;
-    MISSING_TYPE *changeStream;
-    MISSING_TYPE *notificationTask;
+    id id;
+    id contactStore;
+    id keysToFetch;
+    id trackedContactIDs;
+    id currentHistoryToken;
+    id changeStream;
+    id notificationTask;
 }
 
 - (void);

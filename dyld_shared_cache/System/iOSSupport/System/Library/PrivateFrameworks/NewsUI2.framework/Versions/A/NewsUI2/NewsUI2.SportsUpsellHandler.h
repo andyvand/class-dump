@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsUpsellHandler
 {
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *store;
-    MISSING_TYPE *postActionHandlerManager;
-    MISSING_TYPE *router;
-    MISSING_TYPE *onOnboardTapped;
-    MISSING_TYPE *onUpsellCancelled;
-    MISSING_TYPE *$__lazy_storage_$_sportsUpsellConfig;
+    id configurationManager;
+    id tagService;
+    id userInfo;
+    id store;
+    id postActionHandlerManager;
+    id router;
+    id onOnboardTapped;
+    id onUpsellCancelled;
+    id $__lazy_storage_$_sportsUpsellConfig;
 }
 
 - (void);

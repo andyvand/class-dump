@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedDataSourceCache
 {
-    MISSING_TYPE *sportsLiveActivityManager;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *jsonCache;
-    MISSING_TYPE *datastoreCache;
-    MISSING_TYPE *cacheKeyMap;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *operationQueue;
-    MISSING_TYPE *observationTasks;
+    id sportsLiveActivityManager;
+    id delegate;
+    id jsonCache;
+    id datastoreCache;
+    id cacheKeyMap;
+    id queue;
+    id operationQueue;
+    id observationTasks;
 }
 
 @end

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LocalDataManager
 {
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *searchFetcher;
-    MISSING_TYPE *channelLocationService;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *localRegionManager;
-    MISSING_TYPE *locationManager;
-    MISSING_TYPE *localAreasManager;
-    MISSING_TYPE *subscriptionList;
-    MISSING_TYPE *appConfigManager;
+    id tagService;
+    id subscriptionService;
+    id searchFetcher;
+    id channelLocationService;
+    id subscriptionController;
+    id localRegionManager;
+    id locationManager;
+    id localAreasManager;
+    id subscriptionList;
+    id appConfigManager;
 }
 
 @end

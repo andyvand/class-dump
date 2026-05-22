@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GenericComponentSystem
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *updateBlock;
+    id name;
+    id updateBlock;
 }
 
 @end

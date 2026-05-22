@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeHistoryTracker
 {
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *tracker;
+    id channelDataFactory;
+    id contentAvailabilityValidator;
+    id scienceDataFactory;
+    id tracker;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.PassportScanResult
 {
-    MISSING_TYPE *mrzInformation;
-    MISSING_TYPE *chipData;
-    MISSING_TYPE *selfie;
+    id mrzInformation;
+    id chipData;
+    id selfie;
 }
 
 @end

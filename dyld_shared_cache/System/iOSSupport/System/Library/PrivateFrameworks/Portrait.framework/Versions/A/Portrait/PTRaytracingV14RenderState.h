@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, PTDisparityUpscale, PTGlobalReduction, PTQualitySettings;
+@class NSString, PTDisparityUpscale, PTGlobalReduction, PTQualitySettings;
 @protocol MTLBuffer, MTLComputePipelineState, MTLTexture;
 
 @interface PTRaytracingV14RenderState
@@ -17,7 +17,7 @@
     id <MTLComputePipelineState> _raytracingSDOF;
     id <MTLTexture> _randomizedGauss;
     id <MTLTexture> _focusEdgeMask;
-    MISSING_TYPE *_colorSize;
+    id _colorSize;
     float _kPyramidSamplingFraction;
     float _edgeTolerance;
     _Bool _doVisualization;
@@ -78,7 +78,7 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -87,7 +87,7 @@
 // Remaining properties
 @property float anamorphicFactor; // @synthesize anamorphicFactor=_anamorphicFactor;
 @property(retain, nonatomic) id <MTLBuffer> aperturePointsXY; // @synthesize aperturePointsXY=_aperturePointsXY;
-@property MISSING_TYPE *colorSize; // @synthesize colorSize=_colorSize;
+@property id colorSize; // @synthesize colorSize=_colorSize;
 @property(retain, nonatomic) id <MTLTexture> disparityDiff; // @synthesize disparityDiff=_disparityDiff;
 @property(retain, nonatomic) id <MTLBuffer> disparityDiffGlobalMinMax; // @synthesize disparityDiffGlobalMinMax=_disparityDiffGlobalMinMax;
 @property(retain, nonatomic) id <MTLTexture> disparityEdges; // @synthesize disparityEdges=_disparityEdges;

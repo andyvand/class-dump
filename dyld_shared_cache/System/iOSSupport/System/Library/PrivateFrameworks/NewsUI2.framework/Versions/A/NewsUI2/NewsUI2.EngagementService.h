@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EngagementService
 {
-    MISSING_TYPE *dataController;
-    MISSING_TYPE *featureSettings;
+    id dataController;
+    id featureSettings;
 }
 
 @end

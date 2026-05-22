@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary, PTTexture;
+@class NSDictionary, PTTexture;
 @protocol MTLTexture, PTRenderState;
 
 @interface PTRenderRequest
@@ -30,15 +30,15 @@
     PTTexture *_destinationColor;
     id <MTLTexture> _integratedStyleCoefficientsTextureArray;
     id <MTLTexture> _colorCube;
-    MISSING_TYPE *_visCropFactor;
-    MISSING_TYPE *_visCropFactorPreview;
+    id _visCropFactor;
+    id _visCropFactorPreview;
     NSDictionary *_options;
     struct CGSize _totalSensorCropRectSize;
     CDStruct_5f3a0cd7 _scissorRect;
 }
 
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (struct CGSize);
 - (void);
 - (void);
@@ -124,8 +124,8 @@
 @property(retain, nonatomic) PTTexture *sourceColor; // @synthesize sourceColor=_sourceColor;
 @property(retain, nonatomic) id <MTLTexture> sourceDisparity; // @synthesize sourceDisparity=_sourceDisparity;
 @property(nonatomic) struct CGSize totalSensorCropRectSize; // @synthesize totalSensorCropRectSize=_totalSensorCropRectSize;
-@property(nonatomic) MISSING_TYPE *visCropFactor; // @synthesize visCropFactor=_visCropFactor;
-@property(nonatomic) MISSING_TYPE *visCropFactorPreview; // @synthesize visCropFactorPreview=_visCropFactorPreview;
+@property(nonatomic) id visCropFactor; // @synthesize visCropFactor=_visCropFactor;
+@property(nonatomic) id visCropFactorPreview; // @synthesize visCropFactorPreview=_visCropFactorPreview;
 
 @end
 

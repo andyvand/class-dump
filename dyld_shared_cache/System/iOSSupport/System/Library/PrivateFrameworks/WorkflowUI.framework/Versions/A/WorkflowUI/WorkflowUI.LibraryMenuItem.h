@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.LibraryMenuItem
 {
-    MISSING_TYPE *title;
-    MISSING_TYPE *symbolName;
-    MISSING_TYPE *attributes;
-    MISSING_TYPE *hasSeparator;
-    MISSING_TYPE *_variant;
+    id title;
+    id symbolName;
+    id attributes;
+    id hasSeparator;
+    id _variant;
 }
 
 @end

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioTrackDetailsView
 {
-    MISSING_TYPE *publisherNameLabel;
-    MISSING_TYPE *publisherLogoImageViewContainer;
-    MISSING_TYPE *publisherLogoImageView;
-    MISSING_TYPE *headlineLabel;
-    MISSING_TYPE *headphoneIconView;
-    MISSING_TYPE *progressView;
-    MISSING_TYPE *remainingTimeLabel;
-    MISSING_TYPE *timeLabel;
-    MISSING_TYPE *excerptLabel;
-    MISSING_TYPE *playPauseButton;
-    MISSING_TYPE *readButton;
-    MISSING_TYPE *closeButton;
-    MISSING_TYPE *attributionContainer;
-    MISSING_TYPE *buttonStack;
-    MISSING_TYPE *durationStack;
-    MISSING_TYPE *publisherLogoImageWidthConstraint;
+    id publisherNameLabel;
+    id publisherLogoImageViewContainer;
+    id publisherLogoImageView;
+    id headlineLabel;
+    id headphoneIconView;
+    id progressView;
+    id remainingTimeLabel;
+    id timeLabel;
+    id excerptLabel;
+    id playPauseButton;
+    id readButton;
+    id closeButton;
+    id attributionContainer;
+    id buttonStack;
+    id durationStack;
+    id publisherLogoImageWidthConstraint;
 }
 
 - (id);

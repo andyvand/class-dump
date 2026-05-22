@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *feedServiceContextFactory;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *feedManager;
-    MISSING_TYPE *feedPluginManager;
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *lastRefreshDate;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *historyService;
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *offlineFeedPrimer;
-    MISSING_TYPE *offlineFeatures;
-    MISSING_TYPE *_persistedConfigurationDate;
+    id delegate;
+    id feedServiceContextFactory;
+    id feedServiceConfigFetcher;
+    id feedManager;
+    id feedPluginManager;
+    id accessQueue;
+    id lastRefreshDate;
+    id subscriptionService;
+    id historyService;
+    id puzzleStatsService;
+    id puzzleHistoryService;
+    id offlineManager;
+    id offlineFeedPrimer;
+    id offlineFeatures;
+    id _persistedConfigurationDate;
 }
 
 - (id);

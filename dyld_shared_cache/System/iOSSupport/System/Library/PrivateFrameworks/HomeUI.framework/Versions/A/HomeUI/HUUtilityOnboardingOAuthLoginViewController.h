@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol HUConfigurationViewControllerDelegate;
 
 @interface HUUtilityOnboardingOAuthLoginViewController
 {
     id <HUConfigurationViewControllerDelegate> delegate;
-    MISSING_TYPE *context;
-    MISSING_TYPE *loginManager;
-    MISSING_TYPE *utilityID;
+    id context;
+    id loginManager;
+    id utilityID;
 }
 
 - (Class);

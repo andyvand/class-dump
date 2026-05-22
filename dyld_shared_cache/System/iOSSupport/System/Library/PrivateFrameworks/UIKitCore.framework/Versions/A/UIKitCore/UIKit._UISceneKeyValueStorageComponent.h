@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UISceneKeyValueStorageComponent
 {
-    MISSING_TYPE *$__lazy_storage_$_controller;
-    MISSING_TYPE *$__lazy_storage_$_hostInterface;
-    MISSING_TYPE *$__lazy_storage_$_clientInterface;
+    id $__lazy_storage_$_controller;
+    id $__lazy_storage_$_hostInterface;
+    id $__lazy_storage_$_clientInterface;
 }
 
 - (id);

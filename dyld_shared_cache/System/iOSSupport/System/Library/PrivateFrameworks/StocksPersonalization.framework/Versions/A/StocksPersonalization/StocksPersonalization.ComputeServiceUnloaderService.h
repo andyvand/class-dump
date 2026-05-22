@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface StocksPersonalization.ComputeServiceUnloaderService
 {
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *workService;
+    id configurationManager;
+    id workService;
 }
 
 - (id);

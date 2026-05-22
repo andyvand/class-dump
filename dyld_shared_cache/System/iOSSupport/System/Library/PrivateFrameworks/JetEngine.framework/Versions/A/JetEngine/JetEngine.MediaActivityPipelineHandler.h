@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.MediaActivityPipelineHandler
 {
-    MISSING_TYPE *pipeline;
-    MISSING_TYPE *topic;
-    MISSING_TYPE *didUpdateStopFields;
-    MISSING_TYPE *lastStartEvent;
-    MISSING_TYPE *lastStopEvent;
-    MISSING_TYPE *preprocessedStartEvent;
-    MISSING_TYPE *preprocessedStopEvent;
+    id pipeline;
+    id topic;
+    id didUpdateStopFields;
+    id lastStartEvent;
+    id lastStopEvent;
+    id preprocessedStartEvent;
+    id preprocessedStopEvent;
 }
 
 @end

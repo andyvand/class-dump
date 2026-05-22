@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.Bootstrapper
 {
-    MISSING_TYPE *mainViewControllerFactory;
-    MISSING_TYPE *onboardingViewControllerFactory;
-    MISSING_TYPE *onboardingViewDismissalAnimator;
-    MISSING_TYPE *deferredPromise;
-    MISSING_TYPE *deferringGroup;
-    MISSING_TYPE *shouldCollapseSidebar;
-    MISSING_TYPE *shouldHideToolbar;
+    id mainViewControllerFactory;
+    id onboardingViewControllerFactory;
+    id onboardingViewDismissalAnimator;
+    id deferredPromise;
+    id deferringGroup;
+    id shouldCollapseSidebar;
+    id shouldHideToolbar;
 }
 
 - (void);

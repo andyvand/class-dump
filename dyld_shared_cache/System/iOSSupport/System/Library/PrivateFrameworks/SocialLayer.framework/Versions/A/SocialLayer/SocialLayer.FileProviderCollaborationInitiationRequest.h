@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SocialLayer.FileProviderCollaborationInitiationRequest
 {
-    MISSING_TYPE *recipients;
-    MISSING_TYPE *shareOptions;
-    MISSING_TYPE *url;
-    MISSING_TYPE *metadata;
+    id recipients;
+    id shareOptions;
+    id url;
+    id metadata;
 }
 
 @end

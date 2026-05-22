@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMCloudKitSyncState, IMCloudKitSyncStatistics, MISSING_TYPE, NSArray, NSString;
+@class IMCloudKitSyncState, IMCloudKitSyncStatistics, NSArray, NSString;
 
 @interface IMCloudKitSyncProgress
 {
     IMCloudKitSyncState *syncState;
     IMCloudKitSyncStatistics *syncStatistics;
     long long type;
-    MISSING_TYPE *descriptor;
+    id descriptor;
     double progressBarValue;
     double progressBarMax;
 }

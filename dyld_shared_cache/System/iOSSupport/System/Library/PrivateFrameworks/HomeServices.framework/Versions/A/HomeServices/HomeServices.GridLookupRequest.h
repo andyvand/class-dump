@@ -6,11 +6,9 @@
 
 #import <HomeServices/HomeServices.GridBaseRequest.h>
 
-@class MISSING_TYPE;
-
 @interface HomeServices.GridLookupRequest : HomeServices.GridBaseRequest
 {
-    MISSING_TYPE *HMACAuthInfo;
+    id HMACAuthInfo;
 }
 
 @end

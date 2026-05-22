@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleArchiveService
 {
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *endpointConnection;
-    MISSING_TYPE *endpointConfigManager;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *bundleSubscriptionProvider;
-    MISSING_TYPE *storefrontID;
-    MISSING_TYPE *defaultArchiveInitialEndpoint;
-    MISSING_TYPE *defaultArchivePagingEndpoint;
+    id puzzleService;
+    id endpointConnection;
+    id endpointConfigManager;
+    id appConfigurationManager;
+    id bundleSubscriptionProvider;
+    id storefrontID;
+    id defaultArchiveInitialEndpoint;
+    id defaultArchivePagingEndpoint;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioPlaylistFeedAnimator.Snapshot.Item
 {
-    MISSING_TYPE *view;
-    MISSING_TYPE *kind;
-    MISSING_TYPE *snapshot;
-    MISSING_TYPE *layoutAttributes;
-    MISSING_TYPE *absoluteFrame;
+    id view;
+    id kind;
+    id snapshot;
+    id layoutAttributes;
+    id absoluteFrame;
 }
 
 @end

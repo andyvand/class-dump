@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatGroupNodeMask
 {
-    MISSING_TYPE *style;
-    MISSING_TYPE *animation;
-    MISSING_TYPE *_size;
-    MISSING_TYPE *_adjustments;
+    id style;
+    id animation;
+    id _size;
+    id _adjustments;
 }
 
 @end

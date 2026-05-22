@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _TtP3VFX10VFXBinding_;
+@protocol VFX.VFXBinding;
 
 @interface CFXBindingWrapper
 {
-    id <_TtP3VFX10VFXBinding_> binding;
+    id <VFX.VFXBinding> binding;
     long long index;
     long long bindingType;
 }
@@ -22,7 +22,7 @@
 - (void)ó?@Mv?;
 
 // Remaining properties
-@property(retain, nonatomic) id <_TtP3VFX10VFXBinding_> binding; // @synthesize binding;
+@property(retain, nonatomic) id <VFX.VFXBinding> binding; // @synthesize binding;
 @property(nonatomic) long long bindingType; // @synthesize bindingType;
 @property(nonatomic) long long index; // @synthesize index;
 

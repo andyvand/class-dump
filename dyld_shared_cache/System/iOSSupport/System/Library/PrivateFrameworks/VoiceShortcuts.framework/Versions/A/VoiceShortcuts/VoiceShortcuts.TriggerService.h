@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.TriggerService
 {
-    MISSING_TYPE *daemonDatabaseProvider;
-    MISSING_TYPE *$__lazy_storage_$_triggerManager;
+    id daemonDatabaseProvider;
+    id $__lazy_storage_$_triggerManager;
 }
 
 @end

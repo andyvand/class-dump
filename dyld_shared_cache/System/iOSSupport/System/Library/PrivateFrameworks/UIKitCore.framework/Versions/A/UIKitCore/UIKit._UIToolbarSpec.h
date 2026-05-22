@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC5UIKit21_UIToolbarPaddingSpec;
+@class UIKit._UIToolbarPaddingSpec;
 
 @interface UIKit._UIToolbarSpec
 {
-    _TtC5UIKit21_UIToolbarPaddingSpec *padding;
+    UIKit._UIToolbarPaddingSpec *padding;
 }
 
 + (id);
@@ -19,7 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) _TtC5UIKit21_UIToolbarPaddingSpec *padding; // @synthesize padding;
+@property(nonatomic, retain) UIKit._UIToolbarPaddingSpec *padding; // @synthesize padding;
 
 @end
 

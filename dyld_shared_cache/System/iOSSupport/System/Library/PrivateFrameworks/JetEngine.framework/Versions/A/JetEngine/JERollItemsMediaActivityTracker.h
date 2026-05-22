@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JERollItemsMediaActivityTracker
 {
-    MISSING_TYPE *pipeline;
-    MISSING_TYPE *playlist;
-    MISSING_TYPE *trackerEventData;
-    MISSING_TYPE *topic;
-    MISSING_TYPE *playActivity;
-    MISSING_TYPE *seekActivity;
-    MISSING_TYPE *activity;
+    id pipeline;
+    id playlist;
+    id trackerEventData;
+    id topic;
+    id playActivity;
+    id seekActivity;
+    id activity;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OfflineIssuePruningRuleProvider
 {
-    MISSING_TYPE *offlineIssueList;
-    MISSING_TYPE *issueHistory;
-    MISSING_TYPE *appConfigurationManager;
+    id offlineIssueList;
+    id issueHistory;
+    id appConfigurationManager;
 }
 
 @end

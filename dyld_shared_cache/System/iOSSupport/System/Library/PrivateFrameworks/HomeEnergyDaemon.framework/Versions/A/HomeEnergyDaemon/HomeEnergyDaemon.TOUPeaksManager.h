@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.TOUPeaksManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *touPeaks;
-    MISSING_TYPE *sharedContext;
+    id $defaultActor;
+    id touPeaks;
+    id sharedContext;
 }
 
 @end

@@ -6,34 +6,32 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 __attribute__((visibility("hidden")))
 @interface _UIMagicMorphView : UIView
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *destinations;
-    MISSING_TYPE *milestones;
+    id lock;
+    id destinations;
+    id milestones;
     UIView *clippingView;
-    MISSING_TYPE *contentSizeDidChange;
-    MISSING_TYPE *$__lazy_storage_$_traitObserver;
-    MISSING_TYPE *$__lazy_storage_$_contentWidth;
-    MISSING_TYPE *$__lazy_storage_$_contentHeight;
-    MISSING_TYPE *$__lazy_storage_$_insets;
-    MISSING_TYPE *$__lazy_storage_$_cornerRadii;
-    MISSING_TYPE *allDestinationsAreOpaque;
-    MISSING_TYPE *magicMoveItems;
+    id contentSizeDidChange;
+    id $__lazy_storage_$_traitObserver;
+    id $__lazy_storage_$_contentWidth;
+    id $__lazy_storage_$_contentHeight;
+    id $__lazy_storage_$_insets;
+    id $__lazy_storage_$_cornerRadii;
+    id allDestinationsAreOpaque;
+    id magicMoveItems;
     _Bool wantsEdgeAntialiasing;
     _Bool crossBlurWhenMorphing;
     _Bool appliesBackgroundFromView;
     unsigned long long preferredMorphingAxis;
-    MISSING_TYPE *currentMorphingAxis;
+    id currentMorphingAxis;
     float shadowIntensity;
-    MISSING_TYPE *overrideCornerRadii;
-    MISSING_TYPE *overrideBounds;
+    id overrideCornerRadii;
+    id overrideBounds;
     UIView *backgroundView;
-    MISSING_TYPE *savedGlassState;
-    MISSING_TYPE *multiLayerAssertion;
+    id savedGlassState;
+    id multiLayerAssertion;
 }
 
 - (_Bool);

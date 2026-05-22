@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.PropertyDescription.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.BindingPropertyDescription : VFX.PropertyDescription
 {
-    MISSING_TYPE *bindingInfo;
+    id bindingInfo;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.HUTAFSection
 {
-    MISSING_TYPE *header;
-    MISSING_TYPE *fields;
+    id header;
+    id fields;
 }
 
 - (id);

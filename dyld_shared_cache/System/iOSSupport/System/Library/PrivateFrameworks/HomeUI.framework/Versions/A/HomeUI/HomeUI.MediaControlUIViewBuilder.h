@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.MediaControlUIViewBuilder
 {
-    MISSING_TYPE *mediaProfileContainer;
-    MISSING_TYPE *presentingViewController;
-    MISSING_TYPE *alarmEditVCDelegateHandler;
-    MISSING_TYPE *timerCreationVCDelegateHandler;
-    MISSING_TYPE *$__lazy_storage_$_alarmUnresponsiveDescription;
-    MISSING_TYPE *$__lazy_storage_$_timerUnresponsiveDescription;
+    id mediaProfileContainer;
+    id presentingViewController;
+    id alarmEditVCDelegateHandler;
+    id timerCreationVCDelegateHandler;
+    id $__lazy_storage_$_alarmUnresponsiveDescription;
+    id $__lazy_storage_$_timerUnresponsiveDescription;
 }
 
 @end

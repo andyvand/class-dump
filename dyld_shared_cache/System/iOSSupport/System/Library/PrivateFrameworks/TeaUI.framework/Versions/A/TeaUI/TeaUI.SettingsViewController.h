@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SettingsViewController
 {
-    MISSING_TYPE *layout;
-    MISSING_TYPE *actionHandler;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *searchItems;
-    MISSING_TYPE *activeLayout;
-    MISSING_TYPE *akeyboardWillChangeFrame;
+    id layout;
+    id actionHandler;
+    id tableView;
+    id searchItems;
+    id activeLayout;
+    id akeyboardWillChangeFrame;
 }
 
 - (void);

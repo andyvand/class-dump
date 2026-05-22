@@ -6,17 +6,15 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTEvent.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTHapticContinuousEvent : CoreHapticsTools.CHTEvent
 {
-    MISSING_TYPE *_duration;
-    MISSING_TYPE *_intensity;
-    MISSING_TYPE *_sharpness;
-    MISSING_TYPE *_attackTime;
-    MISSING_TYPE *_decayTime;
-    MISSING_TYPE *_sustained;
-    MISSING_TYPE *_releaseTime;
+    id _duration;
+    id _intensity;
+    id _sharpness;
+    id _attackTime;
+    id _decayTime;
+    id _sustained;
+    id _releaseTime;
 }
 
 - (void);

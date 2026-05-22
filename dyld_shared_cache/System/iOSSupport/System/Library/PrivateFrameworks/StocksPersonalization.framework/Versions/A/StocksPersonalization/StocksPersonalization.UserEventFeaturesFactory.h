@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface StocksPersonalization.UserEventFeaturesFactory
 {
-    MISSING_TYPE *userEventHistory;
-    MISSING_TYPE *isSubscribed;
+    id userEventHistory;
+    id isSubscribed;
 }
 
 @end

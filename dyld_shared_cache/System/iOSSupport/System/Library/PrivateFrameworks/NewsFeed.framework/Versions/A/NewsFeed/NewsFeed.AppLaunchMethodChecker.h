@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.AppLaunchMethodChecker
 {
-    MISSING_TYPE *appActivationURLHandler;
-    MISSING_TYPE *launchMethod;
-    MISSING_TYPE *sourceApplication;
-    MISSING_TYPE *notificationLaunchStatusProvider;
+    id appActivationURLHandler;
+    id launchMethod;
+    id sourceApplication;
+    id notificationLaunchStatusProvider;
 }
 
 @end

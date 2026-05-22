@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatNodeBinderContext
 {
-    MISSING_TYPE *inventory;
-    MISSING_TYPE *namespace;
-    MISSING_TYPE *slotIdentifier;
-    MISSING_TYPE *config;
-    MISSING_TYPE *layoutContext;
-    MISSING_TYPE *blocks;
-    MISSING_TYPE *debugData;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *auxiliary;
-    MISSING_TYPE *bindingStack;
-    MISSING_TYPE *options;
-    MISSING_TYPE *selectors;
-    MISSING_TYPE *lazyContextLayoutOptions;
-    MISSING_TYPE *commandCenter;
+    id inventory;
+    id namespace;
+    id slotIdentifier;
+    id config;
+    id layoutContext;
+    id blocks;
+    id debugData;
+    id logger;
+    id auxiliary;
+    id bindingStack;
+    id options;
+    id selectors;
+    id lazyContextLayoutOptions;
+    id commandCenter;
 }
 
 @end

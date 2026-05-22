@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleEmbedAccessoryConfigMessageHandler
 {
-    MISSING_TYPE *puzzleComponentsViewProvider;
-    MISSING_TYPE *scriptsManager;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *accessoryConfigDataSource;
-    MISSING_TYPE *lastReceivedValue;
+    id puzzleComponentsViewProvider;
+    id scriptsManager;
+    id delegate;
+    id accessoryConfigDataSource;
+    id lastReceivedValue;
 }
 
 - (void);

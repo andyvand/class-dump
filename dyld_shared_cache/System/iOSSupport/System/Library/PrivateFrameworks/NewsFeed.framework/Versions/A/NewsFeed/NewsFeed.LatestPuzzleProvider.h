@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.LatestPuzzleProvider
 {
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *timeZone;
+    id puzzleService;
+    id timeZone;
 }
 
 @end

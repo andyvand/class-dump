@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatInventoryTreeViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *$__lazy_storage_$_inventoryTreeViewController;
-    MISSING_TYPE *$__lazy_storage_$_model;
-    MISSING_TYPE *$__lazy_storage_$_versionBarButtonItem;
-    MISSING_TYPE *_searchTerm;
+    id editor;
+    id styler;
+    id $__lazy_storage_$_inventoryTreeViewController;
+    id $__lazy_storage_$_model;
+    id $__lazy_storage_$_versionBarButtonItem;
+    id _searchTerm;
 }
 
 - (void);

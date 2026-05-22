@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface HomeUtilityServices.UtilityMeter
 {
@@ -12,7 +12,7 @@
     void serialNumber;
     void make;
     void model;
-    MISSING_TYPE *intervalLengthInSeconds;
+    id intervalLengthInSeconds;
     void commodity;
     void usagePointID;
 }

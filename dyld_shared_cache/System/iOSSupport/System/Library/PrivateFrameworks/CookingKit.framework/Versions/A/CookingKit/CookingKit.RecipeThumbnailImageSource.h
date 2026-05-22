@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeThumbnailImageSource
 {
-    MISSING_TYPE *_recipe;
-    MISSING_TYPE *_recipeThumbnailSize;
-    MISSING_TYPE *_screenMetrics;
-    MISSING_TYPE *state;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *imageLoader;
-    MISSING_TYPE *thumbnailURL;
-    MISSING_TYPE *task;
+    id _recipe;
+    id _recipeThumbnailSize;
+    id _screenMetrics;
+    id state;
+    id _$scope;
+    id imageLoader;
+    id thumbnailURL;
+    id task;
 }
 
 @end

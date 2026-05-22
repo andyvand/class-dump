@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.EntryPointIndex
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *pendingShellResources;
-    MISSING_TYPE *updateStates;
-    MISSING_TYPE *nonUIEntryPoints;
-    MISSING_TYPE *sceneEntryPoints;
-    MISSING_TYPE *entryPointTypeRegistry;
-    MISSING_TYPE *renderEffectRegistry;
-    MISSING_TYPE *loadedFrameworkPaths;
+    id $defaultActor;
+    id pendingShellResources;
+    id updateStates;
+    id nonUIEntryPoints;
+    id sceneEntryPoints;
+    id entryPointTypeRegistry;
+    id renderEffectRegistry;
+    id loadedFrameworkPaths;
 }
 
 @end

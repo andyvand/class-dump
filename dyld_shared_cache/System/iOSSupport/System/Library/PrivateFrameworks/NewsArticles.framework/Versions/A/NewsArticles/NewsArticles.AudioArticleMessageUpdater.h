@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.AudioArticleMessageUpdater
 {
-    MISSING_TYPE *articleNavigationBarMessageContainer;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *headline;
-    MISSING_TYPE *currentlyPlayingObservable;
-    MISSING_TYPE *currentPlayableArticleID;
-    MISSING_TYPE *supportedMessages;
+    id articleNavigationBarMessageContainer;
+    id bundleSubscriptionManager;
+    id headline;
+    id currentlyPlayingObservable;
+    id currentPlayableArticleID;
+    id supportedMessages;
 }
 
 @end

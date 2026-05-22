@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.AssetDownloaders
 {
-    MISSING_TYPE *backgroundArtworkDownloader;
-    MISSING_TYPE *backgroundArtworkSource;
-    MISSING_TYPE *storeArtworkSource;
-    MISSING_TYPE *libraryArtworkSource;
+    id backgroundArtworkDownloader;
+    id backgroundArtworkSource;
+    id storeArtworkSource;
+    id libraryArtworkSource;
 }
 
 - (id);

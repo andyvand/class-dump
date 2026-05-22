@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactStoreChangeHistoryObserver
 {
-    MISSING_TYPE *store;
-    MISSING_TYPE *changeHistoryToken;
-    MISSING_TYPE *observer;
-    MISSING_TYPE *requiredKeys;
-    MISSING_TYPE *queue;
+    id store;
+    id changeHistoryToken;
+    id observer;
+    id requiredKeys;
+    id queue;
 }
 
 @end

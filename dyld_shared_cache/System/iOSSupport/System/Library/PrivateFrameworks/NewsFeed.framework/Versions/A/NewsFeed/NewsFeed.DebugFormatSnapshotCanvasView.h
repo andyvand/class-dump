@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatSnapshotCanvasView
 {
-    MISSING_TYPE *toolbarItems;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *_selectedSnapshotView;
-    MISSING_TYPE *$__lazy_storage_$_rotateGesture;
-    MISSING_TYPE *$__lazy_storage_$_translateGesture;
-    MISSING_TYPE *$__lazy_storage_$_zoomGesture;
-    MISSING_TYPE *rotateState;
-    MISSING_TYPE *translateState;
-    MISSING_TYPE *zoomState;
-    MISSING_TYPE *hiddenSlider;
-    MISSING_TYPE *depthSlider;
-    MISSING_TYPE *snapshots;
-    MISSING_TYPE *snapshotTransform;
+    id toolbarItems;
+    id contentView;
+    id _selectedSnapshotView;
+    id $__lazy_storage_$_rotateGesture;
+    id $__lazy_storage_$_translateGesture;
+    id $__lazy_storage_$_zoomGesture;
+    id rotateState;
+    id translateState;
+    id zoomState;
+    id hiddenSlider;
+    id depthSlider;
+    id snapshots;
+    id snapshotTransform;
 }
 
 - (void);

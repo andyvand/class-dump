@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.ShortcutManager
 {
-    MISSING_TYPE *shortcutList;
-    MISSING_TYPE *subscriptionList;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *tagController;
+    id shortcutList;
+    id subscriptionList;
+    id userInfo;
+    id sceneProvider;
+    id configurationManager;
+    id tagController;
 }
 
 @end

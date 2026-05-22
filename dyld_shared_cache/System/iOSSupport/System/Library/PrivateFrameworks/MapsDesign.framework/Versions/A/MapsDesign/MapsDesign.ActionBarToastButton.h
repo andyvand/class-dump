@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.ActionBarToastButton
 {
-    MISSING_TYPE *model;
-    MISSING_TYPE *symbolContainerView;
-    MISSING_TYPE *symbolView;
-    MISSING_TYPE *titleView;
-    MISSING_TYPE *subtitleView;
-    MISSING_TYPE *$__lazy_storage_$_textsStack;
-    MISSING_TYPE *$__lazy_storage_$_mainStack;
+    id model;
+    id symbolContainerView;
+    id symbolView;
+    id titleView;
+    id subtitleView;
+    id $__lazy_storage_$_textsStack;
+    id $__lazy_storage_$_mainStack;
 }
 
 - (id);

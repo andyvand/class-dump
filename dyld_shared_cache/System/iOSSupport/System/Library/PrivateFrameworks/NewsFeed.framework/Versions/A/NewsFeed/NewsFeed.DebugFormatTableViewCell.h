@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatTableViewCell
 {
-    MISSING_TYPE *indicatorColor;
-    MISSING_TYPE *circleView;
+    id indicatorColor;
+    id circleView;
 }
 
 - (id);

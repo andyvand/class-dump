@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.SaveArticleViewerFeatureProvider
 {
-    MISSING_TYPE *visibilityProvider;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *tipSourceManager;
+    id visibilityProvider;
+    id styler;
+    id commandCenter;
+    id featureAvailability;
+    id tipSourceManager;
 }
 
 @end

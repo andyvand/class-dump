@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardHostViewModel
 {
-    MISSING_TYPE *_recipeState;
-    MISSING_TYPE *_sheet;
-    MISSING_TYPE *_$observationRegistrar;
+    id _recipeState;
+    id _sheet;
+    id _$observationRegistrar;
 }
 
 @end

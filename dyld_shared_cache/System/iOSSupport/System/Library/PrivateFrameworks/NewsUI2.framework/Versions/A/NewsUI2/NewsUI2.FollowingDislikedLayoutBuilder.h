@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingDislikedLayoutBuilder
 {
-    MISSING_TYPE *titleViewLayoutAttributesFactory;
-    MISSING_TYPE *tagViewLayoutAttributesFactory;
+    id titleViewLayoutAttributesFactory;
+    id tagViewLayoutAttributesFactory;
 }
 
 @end

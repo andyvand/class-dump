@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.VideoMenuHandler.AudioItemHandler
 {
-    MISSING_TYPE *audioDeviceSetLimiter;
-    MISSING_TYPE *isClamshellOpened;
-    MISSING_TYPE *audioDeviceController;
-    MISSING_TYPE *menuPreferences;
-    MISSING_TYPE *menuDidUpdate;
-    MISSING_TYPE *logger;
+    id audioDeviceSetLimiter;
+    id isClamshellOpened;
+    id audioDeviceController;
+    id menuPreferences;
+    id menuDidUpdate;
+    id logger;
 }
 
 @end

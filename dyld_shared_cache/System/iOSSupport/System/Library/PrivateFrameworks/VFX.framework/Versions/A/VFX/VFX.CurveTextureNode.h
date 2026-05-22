@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.ECSStorageNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.CurveTextureNode : VFX.ECSStorageNode
 {
-    MISSING_TYPE *curve;
+    id curve;
 }
 
 @end

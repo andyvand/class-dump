@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.GraphV1CodeGeneration.BaseObject.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphV1CodeGeneration.CodeSnippet : VFX.GraphV1CodeGeneration.BaseObject
 {
-    MISSING_TYPE *_codeSourceSnippet;
+    id _codeSourceSnippet;
 }
 
 @end

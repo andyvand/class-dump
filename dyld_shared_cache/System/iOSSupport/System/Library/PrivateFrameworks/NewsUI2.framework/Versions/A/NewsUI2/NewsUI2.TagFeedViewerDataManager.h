@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedViewerDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *$__lazy_storage_$_unavailableItemAlpha;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *feedDescriptor;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *issueModelFactory;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *membershipController;
-    MISSING_TYPE *sportsGraphManager;
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *localDataManager;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *topLevelSportsTags;
-    MISSING_TYPE *_request;
+    id delegate;
+    id $__lazy_storage_$_unavailableItemAlpha;
+    id cloudContext;
+    id feedDescriptor;
+    id tagService;
+    id issueModelFactory;
+    id subscriptionService;
+    id commandCenter;
+    id membershipController;
+    id sportsGraphManager;
+    id sportsDataService;
+    id localDataManager;
+    id offlineManager;
+    id featureAvailability;
+    id topLevelSportsTags;
+    id _request;
 }
 
 - (void);

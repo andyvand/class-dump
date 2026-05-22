@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface GenerativePartnerServiceUI.SubscriptionInfo
 {
-    MISSING_TYPE *_subscriptionSource;
-    MISSING_TYPE *_storeURL;
-    MISSING_TYPE *_upgradeCTAText;
-    MISSING_TYPE *_queuedActions;
-    MISSING_TYPE *_appStoreDataSource;
-    MISSING_TYPE *_accountReportsPaidPlan;
-    MISSING_TYPE *_subscriptionDelegate;
-    MISSING_TYPE *_$observationRegistrar;
+    id _subscriptionSource;
+    id _storeURL;
+    id _upgradeCTAText;
+    id _queuedActions;
+    id _appStoreDataSource;
+    id _accountReportsPaidPlan;
+    id _subscriptionDelegate;
+    id _$observationRegistrar;
 }
 
 @end

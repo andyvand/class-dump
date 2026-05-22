@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContinueReadingViewController
 {
-    MISSING_TYPE *content;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *dialogRequestFactory;
-    MISSING_TYPE *relativeTabBarController;
-    MISSING_TYPE *styler;
+    id content;
+    id eventHandler;
+    id dialogRequestFactory;
+    id relativeTabBarController;
+    id styler;
 }
 
 - (void);

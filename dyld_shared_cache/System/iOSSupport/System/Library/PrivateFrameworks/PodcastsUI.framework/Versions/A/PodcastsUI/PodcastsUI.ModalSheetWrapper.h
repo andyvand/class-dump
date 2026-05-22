@@ -6,15 +6,13 @@
 
 #import <PodcastsUI/PodcastsUI.ModalSheet.h>
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.ModalSheetWrapper : PodcastsUI.ModalSheet
 {
-    MISSING_TYPE *contentViewController;
-    MISSING_TYPE *height;
-    MISSING_TYPE *minWidth;
-    MISSING_TYPE *maxSize;
-    MISSING_TYPE *$__lazy_storage_$_separatorView;
+    id contentViewController;
+    id height;
+    id minWidth;
+    id maxSize;
+    id $__lazy_storage_$_separatorView;
 }
 
 - (void);

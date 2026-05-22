@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsdDownloadServiceProxy
 {
-    MISSING_TYPE *_connectionStatus;
-    MISSING_TYPE *_interruptionCount;
-    MISSING_TYPE *_lastSubmission;
+    id _connectionStatus;
+    id _interruptionCount;
+    id _lastSubmission;
 }
 
 @end

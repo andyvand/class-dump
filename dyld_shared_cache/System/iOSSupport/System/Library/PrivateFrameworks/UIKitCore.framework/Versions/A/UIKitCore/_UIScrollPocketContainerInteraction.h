@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIScrollView, UIView, _UIScrollPocketCollectorInteraction;
+@class UIScrollView, UIView, _UIScrollPocketCollectorInteraction;
 
 @interface _UIScrollPocketContainerInteraction
 {
-    MISSING_TYPE *implementation;
+    id implementation;
 }
 
 + (double);

@@ -20,8 +20,8 @@
     id _content;
     NSArray *_axDecorations;
     CDStruct_2bd92d94 _spriteStyleCornerRadius;
-    CDStruct_d1b913ca _spriteGeometry;
-    CDStruct_44913231 _spriteStyle;
+    CDStruct_fe19fe8c _spriteGeometry;
+    CDStruct_8243137c _spriteStyle;
 }
 
 + (Class);
@@ -31,7 +31,7 @@
 + (_Bool);
 + (id);
 - (CDStruct_2bd92d94);
-- (CDStruct_44913231);
+- (CDStruct_8243137c);
 - (CDStruct_16a2be32);
 - (void);
 - (void);
@@ -142,7 +142,7 @@
 
 @property(nonatomic) CDStruct_16a2be32 spriteGeometry; // @synthesize spriteGeometry=_spriteGeometry;
 @property(nonatomic) unsigned int spriteIndex; // @synthesize spriteIndex=_spriteIndex;
-@property(nonatomic) CDStruct_44913231 spriteStyle; // @synthesize spriteStyle=_spriteStyle;
+@property(nonatomic) CDStruct_8243137c spriteStyle; // @synthesize spriteStyle=_spriteStyle;
 @property(nonatomic) CDStruct_2bd92d94 spriteStyleCornerRadius; // @synthesize spriteStyleCornerRadius=_spriteStyleCornerRadius;
 @property(readonly) Class superclass;
 

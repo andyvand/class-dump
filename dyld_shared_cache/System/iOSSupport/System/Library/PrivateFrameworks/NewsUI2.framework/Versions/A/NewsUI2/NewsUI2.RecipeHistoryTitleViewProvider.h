@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeHistoryTitleViewProvider
 {
-    MISSING_TYPE *titleView;
-    MISSING_TYPE *renderer;
+    id titleView;
+    id renderer;
 }
 
 @end

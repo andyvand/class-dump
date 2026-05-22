@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.CommandBufferTracker
 {
-    MISSING_TYPE *unscheduledCommandBuffersLock;
-    MISSING_TYPE *unscheduledCommandBuffers;
+    id unscheduledCommandBuffersLock;
+    id unscheduledCommandBuffers;
 }
 
 @end

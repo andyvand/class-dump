@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX._RandomSeedNode : VFX.Node
 {
-    MISSING_TYPE *entity;
+    id entity;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHome, HUUtilityConfigurationHelper, MISSING_TYPE, NSArray, NSDictionary, NSString, UIImage;
+@class HMHome, HUUtilityConfigurationHelper, NSArray, NSDictionary, NSString, UIImage;
 
 @interface HomeUI.UtilityOnboardingContext
 {
@@ -14,24 +14,24 @@
     void _utilityID;
     HUUtilityConfigurationHelper *_config;
     UIImage *_utilityLogo;
-    MISSING_TYPE *_utilityLogoImage;
-    MISSING_TYPE *_availableUtilities;
-    MISSING_TYPE *_subscriptionService;
-    MISSING_TYPE *_accountDetails;
+    id _utilityLogoImage;
+    id _availableUtilities;
+    id _subscriptionService;
+    id _accountDetails;
     void _tafResponses;
-    MISSING_TYPE *_validFields;
+    id _validFields;
     long long _onboardingMethod;
     _Bool _didAttemptPasswordlessMethod;
     void _otpFactors;
-    MISSING_TYPE *_selectedOTPMethod;
-    MISSING_TYPE *_authCode;
-    MISSING_TYPE *_accessToken;
-    MISSING_TYPE *_refreshToken;
-    MISSING_TYPE *_expirationDate;
+    id _selectedOTPMethod;
+    id _authCode;
+    id _accessToken;
+    id _refreshToken;
+    id _expirationDate;
     void _tokens;
-    MISSING_TYPE *_serviceLocations;
-    MISSING_TYPE *_selectedServiceLocation;
-    MISSING_TYPE *_$observationRegistrar;
+    id _serviceLocations;
+    id _selectedServiceLocation;
+    id _$observationRegistrar;
 }
 
 - (void);

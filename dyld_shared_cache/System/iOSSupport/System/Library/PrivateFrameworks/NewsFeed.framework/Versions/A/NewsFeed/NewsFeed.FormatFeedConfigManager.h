@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatFeedConfigManager
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *feedConfig;
-    MISSING_TYPE *feedConfigSource;
-    MISSING_TYPE *decoder;
+    id lock;
+    id feedConfig;
+    id feedConfigSource;
+    id decoder;
 }
 
 @end

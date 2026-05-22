@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.ScreenSharingController
 {
-    MISSING_TYPE *onScreenSharingStatusChange;
-    MISSING_TYPE *monitors;
-    MISSING_TYPE *factory;
-    MISSING_TYPE *callsWaitingForContentSizeUpdate;
-    MISSING_TYPE *scheduler;
-    MISSING_TYPE *logger;
+    id onScreenSharingStatusChange;
+    id monitors;
+    id factory;
+    id callsWaitingForContentSizeUpdate;
+    id scheduler;
+    id logger;
 }
 
 - (void);

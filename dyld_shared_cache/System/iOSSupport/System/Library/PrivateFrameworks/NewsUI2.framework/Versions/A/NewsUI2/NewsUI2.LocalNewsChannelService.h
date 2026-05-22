@@ -4,24 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface NewsUI2.LocalNewsChannelService
 {
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *subscriptionList;
-    MISSING_TYPE *localAreasManager;
-    MISSING_TYPE *locationManager;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *localDataManager;
-    MISSING_TYPE *refreshQueue;
-    MISSING_TYPE *_lastKnownChannelIDs;
-    MISSING_TYPE *_hasKnownChannelIDs;
-    MISSING_TYPE *_lastKnownForYouChannelIDs;
-    MISSING_TYPE *_hasKnownForYouChannelIDs;
-    MISSING_TYPE *_lastKnownPrimaryChannelIDs;
-    MISSING_TYPE *_hasKnownPrimaryChannelIDs;
+    id tagService;
+    id subscriptionList;
+    id localAreasManager;
+    id locationManager;
+    id personalizationService;
+    id featureAvailability;
+    id localDataManager;
+    id refreshQueue;
+    id _lastKnownChannelIDs;
+    id _hasKnownChannelIDs;
+    id _lastKnownForYouChannelIDs;
+    id _hasKnownForYouChannelIDs;
+    id _lastKnownPrimaryChannelIDs;
+    id _hasKnownPrimaryChannelIDs;
 }
 
 - (void);

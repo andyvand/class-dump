@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatServiceResult
 {
-    MISSING_TYPE *resolvedContent;
-    MISSING_TYPE *resolvedPool;
-    MISSING_TYPE *content;
-    MISSING_TYPE *contentPool;
-    MISSING_TYPE *options;
+    id resolvedContent;
+    id resolvedPool;
+    id content;
+    id contentPool;
+    id options;
 }
 
 @end

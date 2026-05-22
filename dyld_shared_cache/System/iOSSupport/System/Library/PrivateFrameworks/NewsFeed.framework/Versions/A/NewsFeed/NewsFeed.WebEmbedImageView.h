@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedImageView
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *onEmbedInteraction;
-    MISSING_TYPE *onEmbedLinkInteraction;
-    MISSING_TYPE *showSpinner;
-    MISSING_TYPE *loader;
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *imageIdentifier;
-    MISSING_TYPE *activityIndicatorView;
-    MISSING_TYPE *errorView;
-    MISSING_TYPE *debugLabel;
-    MISSING_TYPE *layoutGuideView;
-    MISSING_TYPE *debugLoadView;
-    MISSING_TYPE *loadingTask;
-    MISSING_TYPE *state;
+    id identifier;
+    id onEmbedInteraction;
+    id onEmbedLinkInteraction;
+    id showSpinner;
+    id loader;
+    id imageView;
+    id imageIdentifier;
+    id activityIndicatorView;
+    id errorView;
+    id debugLabel;
+    id layoutGuideView;
+    id debugLoadView;
+    id loadingTask;
+    id state;
 }
 
 - (void);

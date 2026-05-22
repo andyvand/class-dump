@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI2.CameraClipScrubberPersonIndicator.PersonInfo
 {
-    MISSING_TYPE *_name;
-    MISSING_TYPE *_image;
-    MISSING_TYPE *_$observationRegistrar;
+    id _name;
+    id _image;
+    id _$observationRegistrar;
 }
 
 @end

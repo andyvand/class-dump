@@ -6,12 +6,12 @@
 
 @interface DDBridgeChainedFloat4x4
 {
-    CDStruct_f1db2b5e transform;
+    CDStruct_34f00414 transform;
     DDBridgeChainedFloat4x4 *next;
 }
 
 - (id);
-- (CDStruct_f1db2b5e);
+- (CDStruct_34f00414);
 - (id);
 - (void);
 - (void);
@@ -20,7 +20,7 @@
 
 // Remaining properties
 @property(nonatomic, retain) DDBridgeChainedFloat4x4 *next; // @synthesize next;
-@property(nonatomic) CDStruct_f1db2b5e transform; // @synthesize transform;
+@property(nonatomic) CDStruct_34f00414 transform; // @synthesize transform;
 
 @end
 

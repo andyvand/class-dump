@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.AttachmentExportIterator.Iterator
 {
-    MISSING_TYPE *exportOptions;
-    MISSING_TYPE *exportStatistics;
-    MISSING_TYPE *exportConfiguration;
-    MISSING_TYPE *accountForDownloader;
-    MISSING_TYPE *iterationState;
+    id exportOptions;
+    id exportStatistics;
+    id exportConfiguration;
+    id accountForDownloader;
+    id iterationState;
 }
 
 @end

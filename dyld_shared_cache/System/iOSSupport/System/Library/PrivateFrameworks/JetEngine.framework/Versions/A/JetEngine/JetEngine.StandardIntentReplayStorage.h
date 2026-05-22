@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.StandardIntentReplayStorage
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *memoryOnlyCaching;
-    MISSING_TYPE *task;
-    MISSING_TYPE *storage;
+    id $defaultActor;
+    id memoryOnlyCaching;
+    id task;
+    id storage;
 }
 
 @end

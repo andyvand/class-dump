@@ -4,24 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface UIKit.NavigationButtonBar.GroupLayout
 {
-    MISSING_TYPE *bar;
-    MISSING_TYPE *isDirty;
-    MISSING_TYPE *group;
-    MISSING_TYPE *itemViewGenerator;
-    MISSING_TYPE *isFixed;
-    MISSING_TYPE *critical;
-    MISSING_TYPE *isOnlyGroupInSection;
-    MISSING_TYPE *metrics;
-    MISSING_TYPE *itemLayouts;
-    MISSING_TYPE *configuredItemLayouts;
-    MISSING_TYPE *representativeLayout;
-    MISSING_TYPE *suppressCustomSpacing;
-    MISSING_TYPE *_compact;
-    MISSING_TYPE *_spilled;
+    id bar;
+    id isDirty;
+    id group;
+    id itemViewGenerator;
+    id isFixed;
+    id critical;
+    id isOnlyGroupInSection;
+    id metrics;
+    id itemLayouts;
+    id configuredItemLayouts;
+    id representativeLayout;
+    id suppressCustomSpacing;
+    id _compact;
+    id _spilled;
 }
 
 - (id);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.RecipeUserFeedDataRepository
 {
-    MISSING_TYPE *recipeUserFeedData;
-    MISSING_TYPE *recipeUserDataStore;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *observersLock;
+    id recipeUserFeedData;
+    id recipeUserDataStore;
+    id observers;
+    id observersLock;
 }
 
 @end

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleProviderService
 {
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *stocksFeedService;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *endOfArticleItemFactory;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *createdDate;
-    MISSING_TYPE *cache;
-    MISSING_TYPE *articleGroupData;
+    id tagService;
+    id headlineService;
+    id stocksFeedService;
+    id paidAccessChecker;
+    id endOfArticleItemFactory;
+    id configurationManager;
+    id createdDate;
+    id cache;
+    id articleGroupData;
 }
 
 @end

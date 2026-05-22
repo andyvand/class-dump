@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.AudioSystem
 {
-    MISSING_TYPE *setupPlayersQuery;
-    MISSING_TYPE *updateAudioControllers;
-    MISSING_TYPE *updateFFT;
+    id setupPlayersQuery;
+    id updateAudioControllers;
+    id updateFFT;
 }
 
 @end

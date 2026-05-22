@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.SceneDescriptionFoundations.Layer.ReplicationMessagePublisher
 {
-    MISSING_TYPE *subject;
-    MISSING_TYPE *layerBase;
+    id subject;
+    id layerBase;
 }
 
 @end

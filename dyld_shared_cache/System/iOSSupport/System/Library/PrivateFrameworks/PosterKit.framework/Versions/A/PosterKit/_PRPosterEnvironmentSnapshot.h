@@ -54,7 +54,7 @@
     struct CGRect _salientContentRectangle;
     struct CGRect _contentCutoutBounds;
     struct CGRect _floatingObscurableBounds;
-    CDUnion_a1316d75 _deviceMotionRotation;
+    CDUnion_803ab9d6 _deviceMotionRotation;
     struct CGRect _screenBounds;
 }
 

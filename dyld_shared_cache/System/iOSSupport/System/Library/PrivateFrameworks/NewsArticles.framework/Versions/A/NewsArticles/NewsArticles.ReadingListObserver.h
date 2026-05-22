@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ReadingListObserver
 {
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *onSaveObservers;
+    id readingList;
+    id onSaveObservers;
 }
 
 - (void);

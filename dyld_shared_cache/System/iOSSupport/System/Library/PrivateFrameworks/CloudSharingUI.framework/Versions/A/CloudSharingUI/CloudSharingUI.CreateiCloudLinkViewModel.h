@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CloudSharingUI.CreateiCloudLinkViewModel
 {
-    MISSING_TYPE *fileURL;
-    MISSING_TYPE *dismissAction;
-    MISSING_TYPE *_onPermissionChange;
-    MISSING_TYPE *_onAppear;
-    MISSING_TYPE *_isActionInProgress;
-    MISSING_TYPE *_addressingViewModel;
-    MISSING_TYPE *_alertViewModel;
-    MISSING_TYPE *_showAlert;
-    MISSING_TYPE *_shareItemStatus;
-    MISSING_TYPE *_isPublic;
-    MISSING_TYPE *_canEdit;
-    MISSING_TYPE *_canInviteOthers;
-    MISSING_TYPE *_userInfoText;
-    MISSING_TYPE *_$observationRegistrar;
+    id fileURL;
+    id dismissAction;
+    id _onPermissionChange;
+    id _onAppear;
+    id _isActionInProgress;
+    id _addressingViewModel;
+    id _alertViewModel;
+    id _showAlert;
+    id _shareItemStatus;
+    id _isPublic;
+    id _canEdit;
+    id _canInviteOthers;
+    id _userInfoText;
+    id _$observationRegistrar;
 }
 
 @end

@@ -6,13 +6,11 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.WorldAssetNode : VFX.Node
 {
-    MISSING_TYPE *reference;
-    MISSING_TYPE *semantic;
-    MISSING_TYPE *entity;
+    id reference;
+    id semantic;
+    id entity;
 }
 
 @end

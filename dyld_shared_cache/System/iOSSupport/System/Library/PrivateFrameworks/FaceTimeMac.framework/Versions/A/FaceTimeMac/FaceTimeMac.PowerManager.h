@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.PowerManager
 {
-    MISSING_TYPE *powerSaver;
-    MISSING_TYPE *cameraController;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *sceneController;
-    MISSING_TYPE *appKitHelper;
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *powerSaverStateSubject;
+    id powerSaver;
+    id cameraController;
+    id logger;
+    id sceneController;
+    id appKitHelper;
+    id callCenter;
+    id powerSaverStateSubject;
 }
 
 - (void);

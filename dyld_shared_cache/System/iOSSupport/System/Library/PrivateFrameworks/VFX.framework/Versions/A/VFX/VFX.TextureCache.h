@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.TextureCache
 {
-    MISSING_TYPE *device;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *operationQueue;
-    MISSING_TYPE *asyncGroupRequests;
-    MISSING_TYPE *textureEntryByKey;
-    MISSING_TYPE *defaultTextures;
-    MISSING_TYPE *defaultNoiseTextures;
-    MISSING_TYPE *groupID;
+    id device;
+    id lock;
+    id operationQueue;
+    id asyncGroupRequests;
+    id textureEntryByKey;
+    id defaultTextures;
+    id defaultNoiseTextures;
+    id groupID;
 }
 
 @end

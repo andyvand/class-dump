@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedAsyncModule
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *viewControllerFactory;
-    MISSING_TYPE *offlineManager;
+    id resolver;
+    id viewControllerFactory;
+    id offlineManager;
 }
 
 @end

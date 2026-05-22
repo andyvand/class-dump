@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.EventTime
 {
     double time;
     double avTime;
     double userSecondsSinceReferenceDate;
     CDStruct_198678f7 hostTime;
-    MISSING_TYPE *type;
+    id type;
 }
 
 - (double);

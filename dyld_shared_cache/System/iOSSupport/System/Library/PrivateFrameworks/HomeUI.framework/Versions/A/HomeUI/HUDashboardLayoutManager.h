@@ -6,12 +6,10 @@
 
 #import <HomeUI/HUCollectionLayoutManager.h>
 
-@class MISSING_TYPE;
-
 @interface HUDashboardLayoutManager : HUCollectionLayoutManager
 {
-    MISSING_TYPE *adaptiveTileDragInteractionLayouts;
-    MISSING_TYPE *hoveringGridPosition;
+    id adaptiveTileDragInteractionLayouts;
+    id hoveringGridPosition;
 }
 
 - (void);

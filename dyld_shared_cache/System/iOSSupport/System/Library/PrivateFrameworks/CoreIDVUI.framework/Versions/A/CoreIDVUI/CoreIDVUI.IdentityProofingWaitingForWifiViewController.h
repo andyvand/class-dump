@@ -6,12 +6,10 @@
 
 #import <CoreIDVUI/CoreIDVUI.IdentityProofingViewController.h>
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingWaitingForWifiViewController : CoreIDVUI.IdentityProofingViewController
 {
-    MISSING_TYPE *viewConfig;
-    MISSING_TYPE *proofingFlowManager;
+    id viewConfig;
+    id proofingFlowManager;
 }
 
 - (id);

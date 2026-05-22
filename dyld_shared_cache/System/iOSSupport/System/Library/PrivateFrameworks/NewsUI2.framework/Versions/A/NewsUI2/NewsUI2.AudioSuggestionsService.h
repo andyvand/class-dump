@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioSuggestionsService
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *paidBundleConfigManager;
-    MISSING_TYPE *audioPlaylist;
-    MISSING_TYPE *personalizationService;
+    id cloudContext;
+    id paidBundleConfigManager;
+    id audioPlaylist;
+    id personalizationService;
 }
 
 @end

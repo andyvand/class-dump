@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceSettingsViewController
 {
-    MISSING_TYPE *_name;
-    MISSING_TYPE *_layoutOrder;
-    MISSING_TYPE *_wildcardSlotFallback;
-    MISSING_TYPE *_showMissingOptionBindings;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *workspace;
-    MISSING_TYPE *settingsViewController;
+    id _name;
+    id _layoutOrder;
+    id _wildcardSlotFallback;
+    id _showMissingOptionBindings;
+    id editor;
+    id workspace;
+    id settingsViewController;
 }
 
 - (id);

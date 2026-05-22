@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HFNumberRange, MISSING_TYPE, NSString;
+@class HFNumberRange, NSString;
 @protocol HFIconDescriptor;
 
 @interface HFStatusItemUpdate
 {
-    MISSING_TYPE *_title;
-    MISSING_TYPE *_secondaryText;
-    MISSING_TYPE *_iconDescriptor;
-    MISSING_TYPE *_currentValue;
-    MISSING_TYPE *_possibleValues;
+    id _title;
+    id _secondaryText;
+    id _iconDescriptor;
+    id _currentValue;
+    id _possibleValues;
 }
 
 - (void);

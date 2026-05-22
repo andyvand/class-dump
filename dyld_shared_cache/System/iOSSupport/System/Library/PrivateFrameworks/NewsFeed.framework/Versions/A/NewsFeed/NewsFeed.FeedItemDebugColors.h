@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedItemDebugColors
 {
-    MISSING_TYPE *debugColors;
-    MISSING_TYPE *$__lazy_storage_$_availableColors;
+    id debugColors;
+    id $__lazy_storage_$_availableColors;
 }
 
 @end

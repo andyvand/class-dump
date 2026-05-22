@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeCatalogSearchViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *searchHomeContainerController;
-    MISSING_TYPE *recipeFilterSelectionManager;
+    id delegate;
+    id styler;
+    id eventHandler;
+    id searchHomeContainerController;
+    id recipeFilterSelectionManager;
 }
 
 - (void);

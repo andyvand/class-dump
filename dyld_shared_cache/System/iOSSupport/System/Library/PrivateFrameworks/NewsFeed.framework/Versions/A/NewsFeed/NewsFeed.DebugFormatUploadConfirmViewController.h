@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadConfirmViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *uploadService;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *entries;
+    id delegate;
+    id editor;
+    id uploadService;
+    id tableView;
+    id sections;
+    id entries;
 }
 
 - (void);

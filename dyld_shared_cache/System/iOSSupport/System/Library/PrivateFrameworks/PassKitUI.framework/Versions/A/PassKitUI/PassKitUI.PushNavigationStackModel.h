@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.PushNavigationStackModel
 {
-    MISSING_TYPE *_navigationPath;
-    MISSING_TYPE *_$observationRegistrar;
+    id _navigationPath;
+    id _$observationRegistrar;
 }
 
 @end

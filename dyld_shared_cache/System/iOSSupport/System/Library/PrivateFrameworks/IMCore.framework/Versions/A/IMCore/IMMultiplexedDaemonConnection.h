@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary, NSString;
+@class NSDictionary, NSString;
 @protocol IMDaemonProtocol;
 
 @interface IMMultiplexedDaemonConnection
@@ -12,8 +12,8 @@
     void label;
     unsigned long long capabilities;
     void context;
-    MISSING_TYPE *onInvalidate;
-    MISSING_TYPE *onDeinit;
+    id onInvalidate;
+    id onDeinit;
 }
 
 - (void);

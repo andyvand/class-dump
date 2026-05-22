@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.AuthoringGraph
 {
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *nodes;
-    MISSING_TYPE *didPerformMutation;
-    MISSING_TYPE *nodesByID;
-    MISSING_TYPE *id;
+    id userInfo;
+    id nodes;
+    id didPerformMutation;
+    id nodesByID;
+    id id;
 }
 
 @end

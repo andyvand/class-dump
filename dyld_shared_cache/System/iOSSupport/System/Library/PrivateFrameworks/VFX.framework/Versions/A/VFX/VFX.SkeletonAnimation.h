@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.SkeletonAnimation
 {
-    MISSING_TYPE *joints;
-    MISSING_TYPE *translations;
-    MISSING_TYPE *rotations;
-    MISSING_TYPE *scales;
+    id joints;
+    id translations;
+    id rotations;
+    id scales;
 }
 
 @end

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintLayoutCollectionLayoutAttributes
 {
-    MISSING_TYPE *pinTrait;
-    MISSING_TYPE *rubberbandTrait;
-    MISSING_TYPE *rubberbandEdge;
-    MISSING_TYPE *model;
-    MISSING_TYPE *source;
-    MISSING_TYPE *layoutData;
-    MISSING_TYPE *isEditing;
-    MISSING_TYPE *isSelected;
-    MISSING_TYPE *dedupIdentifier;
-    MISSING_TYPE *originalFrame;
-    MISSING_TYPE *previousFrame;
-    MISSING_TYPE *resizingIdentifier;
-    MISSING_TYPE *resizingGroupIdentifier;
-    MISSING_TYPE *compositionalIndexPath;
+    id pinTrait;
+    id rubberbandTrait;
+    id rubberbandEdge;
+    id model;
+    id source;
+    id layoutData;
+    id isEditing;
+    id isSelected;
+    id dedupIdentifier;
+    id originalFrame;
+    id previousFrame;
+    id resizingIdentifier;
+    id resizingGroupIdentifier;
+    id compositionalIndexPath;
 }
 
 - (id);

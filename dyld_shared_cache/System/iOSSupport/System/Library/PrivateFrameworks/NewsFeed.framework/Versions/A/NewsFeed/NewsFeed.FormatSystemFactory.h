@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSystemFactory
 {
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *formatVersion;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *bundleSessionManager;
-    MISSING_TYPE *bundleCampaignSessionManager;
+    id userInfo;
+    id featureAvailability;
+    id appConfigManager;
+    id bundleSubscriptionManager;
+    id formatVersion;
+    id offlineManager;
+    id bundleSessionManager;
+    id bundleCampaignSessionManager;
 }
 
 - (id);

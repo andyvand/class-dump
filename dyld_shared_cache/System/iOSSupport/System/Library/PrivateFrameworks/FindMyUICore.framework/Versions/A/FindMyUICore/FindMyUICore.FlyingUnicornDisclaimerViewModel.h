@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.FlyingUnicornDisclaimerViewModel
 {
-    MISSING_TYPE *entry;
-    MISSING_TYPE *confirmActionHandler;
-    MISSING_TYPE *cancelActionHandler;
-    MISSING_TYPE *_$observationRegistrar;
+    id entry;
+    id confirmActionHandler;
+    id cancelActionHandler;
+    id _$observationRegistrar;
 }
 
 @end

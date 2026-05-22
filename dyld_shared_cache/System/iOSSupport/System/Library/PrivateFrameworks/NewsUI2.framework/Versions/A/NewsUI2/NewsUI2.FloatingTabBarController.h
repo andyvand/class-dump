@@ -4,25 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface NewsUI2.FloatingTabBarController
 {
-    MISSING_TYPE *sidebarDelegate;
-    MISSING_TYPE *_isSidebarVisible;
-    MISSING_TYPE *_isSidebarEditing;
-    MISSING_TYPE *navigationControllers;
-    MISSING_TYPE *commandContainer;
-    MISSING_TYPE *presentationContextCache;
-    MISSING_TYPE *stagedModalContextCache;
-    MISSING_TYPE *restoreStateCache;
-    MISSING_TYPE *searchElementIdentifier;
-    MISSING_TYPE *previousSelectedElementIdentifier;
-    MISSING_TYPE *$__lazy_storage_$_intrinsicTabBar;
-    MISSING_TYPE *sidebarImpressionManager;
-    MISSING_TYPE *searchContentView;
-    MISSING_TYPE *accessoryViewCoordinator;
-    MISSING_TYPE *featureAvailability;
+    id sidebarDelegate;
+    id _isSidebarVisible;
+    id _isSidebarEditing;
+    id navigationControllers;
+    id commandContainer;
+    id presentationContextCache;
+    id stagedModalContextCache;
+    id restoreStateCache;
+    id searchElementIdentifier;
+    id previousSelectedElementIdentifier;
+    id $__lazy_storage_$_intrinsicTabBar;
+    id sidebarImpressionManager;
+    id searchContentView;
+    id accessoryViewCoordinator;
+    id featureAvailability;
 }
 
 - (void);

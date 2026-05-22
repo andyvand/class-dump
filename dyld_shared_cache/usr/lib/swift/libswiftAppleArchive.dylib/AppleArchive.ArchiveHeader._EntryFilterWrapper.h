@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface AppleArchive.ArchiveHeader._EntryFilterWrapper
 {
-    MISSING_TYPE *filter;
-    MISSING_TYPE *cproc;
+    id filter;
+    id cproc;
 }
 
 @end

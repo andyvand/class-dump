@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.StackedBlueprintLayoutCollectionSectionSolver
 {
-    MISSING_TYPE *supplementarySolver;
-    MISSING_TYPE *layoutDirection;
-    MISSING_TYPE *layoutOptions;
-    MISSING_TYPE *fillStyle;
-    MISSING_TYPE *options;
+    id supplementarySolver;
+    id layoutDirection;
+    id layoutOptions;
+    id fillStyle;
+    id options;
 }
 
 @end

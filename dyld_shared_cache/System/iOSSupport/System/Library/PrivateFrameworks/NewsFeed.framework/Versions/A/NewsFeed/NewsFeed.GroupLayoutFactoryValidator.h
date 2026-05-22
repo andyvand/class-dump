@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.GroupLayoutFactoryValidator
 {
-    MISSING_TYPE *groupLayoutRequirements;
-    MISSING_TYPE *groupLayoutContentSizeCategory;
+    id groupLayoutRequirements;
+    id groupLayoutContentSizeCategory;
 }
 
 @end

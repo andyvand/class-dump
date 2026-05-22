@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, MISSING_TYPE;
+@class LPLinkMetadata;
 
 @interface NewsFeed.RecipeLinkPresentationSource
 {
-    MISSING_TYPE *recipe;
-    MISSING_TYPE *imageShareAttributeProvider;
+    id recipe;
+    id imageShareAttributeProvider;
 }
 
 - (id);

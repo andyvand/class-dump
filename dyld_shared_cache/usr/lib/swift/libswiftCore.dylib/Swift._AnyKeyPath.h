@@ -6,11 +6,9 @@
 
 #import <swiftCore/Swift._SwiftObject.h>
 
-@class MISSING_TYPE;
-
 @interface Swift._AnyKeyPath : Swift._SwiftObject
 {
-    MISSING_TYPE *_kvcKeyPathStringPtr;
+    id _kvcKeyPathStringPtr;
 }
 
 @end

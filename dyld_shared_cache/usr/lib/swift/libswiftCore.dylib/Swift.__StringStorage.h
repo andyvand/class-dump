@@ -6,12 +6,10 @@
 
 #import <swiftCore/Swift.__SwiftNativeNSString.h>
 
-@class MISSING_TYPE;
-
 @interface Swift.__StringStorage : Swift.__SwiftNativeNSString
 {
-    MISSING_TYPE *_capacityAndFlags;
-    MISSING_TYPE *_countAndFlags;
+    id _capacityAndFlags;
+    id _countAndFlags;
 }
 
 - (unsigned long long);

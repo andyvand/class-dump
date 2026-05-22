@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EngagementUpsellOfferManager
 {
-    MISSING_TYPE *offerEntry;
-    MISSING_TYPE *store;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *offerManager;
+    id offerEntry;
+    id store;
+    id bundleSubscriptionManager;
+    id offerManager;
 }
 
 - (void);

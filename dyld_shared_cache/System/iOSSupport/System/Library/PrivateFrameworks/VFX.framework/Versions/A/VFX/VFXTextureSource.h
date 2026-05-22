@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFXTextureSource
 {
     id _mtlTextureCache;
-    MISSING_TYPE *_size;
+    id _size;
 }
 
 - (_Bool);
@@ -18,7 +16,7 @@
 - (void);
 - (id);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (double);
 - (void);
 - (void);

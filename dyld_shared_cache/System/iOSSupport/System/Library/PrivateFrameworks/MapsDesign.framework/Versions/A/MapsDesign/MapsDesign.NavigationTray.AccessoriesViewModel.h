@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.NavigationTray.AccessoriesViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_evAccessory;
-    MISSING_TYPE *_sharedTripAccessory;
-    MISSING_TYPE *_sharedTripAccessoryState;
-    MISSING_TYPE *_sharedTripWaldo;
-    MISSING_TYPE *_expansionProgress;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _evAccessory;
+    id _sharedTripAccessory;
+    id _sharedTripAccessoryState;
+    id _sharedTripWaldo;
+    id _expansionProgress;
+    id _$observationRegistrar;
 }
 
 @end

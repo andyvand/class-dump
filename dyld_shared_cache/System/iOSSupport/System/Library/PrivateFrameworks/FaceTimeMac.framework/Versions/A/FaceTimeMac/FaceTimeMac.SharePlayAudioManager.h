@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.SharePlayAudioManager
 {
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *audioHALManager;
-    MISSING_TYPE *bluetoothAudioFormatManager;
+    id callCenter;
+    id logger;
+    id audioHALManager;
+    id bluetoothAudioFormatManager;
 }
 
 - (void);

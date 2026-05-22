@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugPersonalizationHeaderView
 {
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *subHeaderLabel;
+    id titleLabel;
+    id subHeaderLabel;
 }
 
 - (id);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsLiveActivityCache
 {
-    MISSING_TYPE *_activeLiveActivityIDs;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *task;
+    id _activeLiveActivityIDs;
+    id _state;
+    id task;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingViewProvider
 {
-    MISSING_TYPE *nextPage;
-    MISSING_TYPE *proofingViews;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *docScanConfig;
-    MISSING_TYPE *passportScanResult;
-    MISSING_TYPE *passportSceneViewLoader;
+    id nextPage;
+    id proofingViews;
+    id proofingFlowManager;
+    id docScanConfig;
+    id passportScanResult;
+    id passportSceneViewLoader;
 }
 
 @end

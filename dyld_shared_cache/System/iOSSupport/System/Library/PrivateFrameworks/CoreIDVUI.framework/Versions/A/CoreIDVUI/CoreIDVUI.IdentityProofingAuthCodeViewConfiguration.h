@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingAuthCodeViewConfiguration
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *identityProofingCardArtResolutionHelper;
-    MISSING_TYPE *assetProvider;
-    MISSING_TYPE *isSubmittingCode;
-    MISSING_TYPE *updateContent;
-    MISSING_TYPE *delegate;
+    id config;
+    id proofingFlowManager;
+    id identityProofingCardArtResolutionHelper;
+    id assetProvider;
+    id isSubmittingCode;
+    id updateContent;
+    id delegate;
 }
 
 @end

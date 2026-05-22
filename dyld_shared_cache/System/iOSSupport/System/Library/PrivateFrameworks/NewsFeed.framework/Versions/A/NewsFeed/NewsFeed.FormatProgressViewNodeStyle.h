@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatProgressViewNodeStyle
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *class;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *alpha;
-    MISSING_TYPE *progressColor;
-    MISSING_TYPE *trackColor;
-    MISSING_TYPE *ignoresSmartInvertColors;
+    id _identifier;
+    id class;
+    id _selectors;
+    id alpha;
+    id progressColor;
+    id trackColor;
+    id ignoresSmartInvertColors;
 }
 
 @end

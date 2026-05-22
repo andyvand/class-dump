@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RatingsInspectorViewModel
 {
-    MISSING_TYPE *_title;
-    MISSING_TYPE *_titleIcon;
-    MISSING_TYPE *_subtitle;
-    MISSING_TYPE *_thumbnail;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_$observationRegistrar;
+    id _title;
+    id _titleIcon;
+    id _subtitle;
+    id _thumbnail;
+    id _$scope;
+    id _$observationRegistrar;
 }
 
 @end

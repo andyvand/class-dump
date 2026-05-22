@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.HeadlineNoiseGenerator
 {
-    MISSING_TYPE *contentContext;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *poolPromise;
+    id contentContext;
+    id feedPersonalizer;
+    id appConfigManager;
+    id tagService;
+    id headlineService;
+    id poolPromise;
 }
 
 @end

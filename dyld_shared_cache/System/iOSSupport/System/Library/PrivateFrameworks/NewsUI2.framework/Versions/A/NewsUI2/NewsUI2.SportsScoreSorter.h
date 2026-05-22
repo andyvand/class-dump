@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsScoreSorter
 {
-    MISSING_TYPE *subscribedTagsSetProvider;
-    MISSING_TYPE *scorePersonalizer;
+    id subscribedTagsSetProvider;
+    id scorePersonalizer;
 }
 
 @end

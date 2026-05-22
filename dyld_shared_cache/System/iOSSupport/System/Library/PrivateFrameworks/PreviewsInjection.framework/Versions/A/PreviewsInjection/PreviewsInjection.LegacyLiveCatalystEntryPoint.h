@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.LegacyLiveCatalystEntryPoint
 {
-    MISSING_TYPE *hostController;
-    MISSING_TYPE *window;
+    id hostController;
+    id window;
 }
 
 @end

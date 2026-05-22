@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingNotificationsLayoutBuilder
 {
-    MISSING_TYPE *titleViewLayoutAttributesFactory;
-    MISSING_TYPE *footerViewLayoutAttributesFactory;
-    MISSING_TYPE *tagViewLayoutAttributesFactory;
-    MISSING_TYPE *buttonViewLayoutAttributesFactory;
-    MISSING_TYPE *disabledViewLayoutAttributesFactory;
+    id titleViewLayoutAttributesFactory;
+    id footerViewLayoutAttributesFactory;
+    id tagViewLayoutAttributesFactory;
+    id buttonViewLayoutAttributesFactory;
+    id disabledViewLayoutAttributesFactory;
 }
 
 @end

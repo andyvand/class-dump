@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HUBaseIconViewConfiguration, MISSING_TYPE;
+@class HUBaseIconViewConfiguration;
 @protocol HUBaseIconViewDelegate;
 
 @interface HUBaseIconView
 {
-    MISSING_TYPE *iconConstraints;
-    MISSING_TYPE *configurationWrapper;
-    MISSING_TYPE *configuration;
+    id iconConstraints;
+    id configurationWrapper;
+    id configuration;
     void delegate;
-    MISSING_TYPE *progressView;
-    MISSING_TYPE *textLabel;
-    MISSING_TYPE *roundButtonView;
+    id progressView;
+    id textLabel;
+    id roundButtonView;
 }
 
 - (void);

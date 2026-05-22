@@ -6,14 +6,12 @@
 
 #import <VisionKitCore/VisionKitCore.StickerComicTwoInputShader.h>
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerComicEdgesShader : VisionKitCore.StickerComicTwoInputShader
 {
-    MISSING_TYPE *threshold;
-    MISSING_TYPE *preThreshold;
-    MISSING_TYPE *sigma;
-    MISSING_TYPE *mode;
+    id threshold;
+    id preThreshold;
+    id sigma;
+    id mode;
 }
 
 @end

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatWebEmbedNodeStyle
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *class;
-    MISSING_TYPE *cornerRadius;
-    MISSING_TYPE *errorCornerRadius;
-    MISSING_TYPE *ignoresSmartInvertColors;
-    MISSING_TYPE *showsLoadingSpinner;
-    MISSING_TYPE *_selectors;
+    id _identifier;
+    id class;
+    id cornerRadius;
+    id errorCornerRadius;
+    id ignoresSmartInvertColors;
+    id showsLoadingSpinner;
+    id _selectors;
 }
 
 @end

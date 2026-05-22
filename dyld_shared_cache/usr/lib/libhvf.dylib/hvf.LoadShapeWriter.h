@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface hvf.LoadShapeWriter
 {
-    MISSING_TYPE *pathSizes;
-    MISSING_TYPE *blendTypes;
-    MISSING_TYPE *masterVector;
-    MISSING_TYPE *denseDeltaMatrix;
-    MISSING_TYPE *shape;
-    MISSING_TYPE *shim;
+    id pathSizes;
+    id blendTypes;
+    id masterVector;
+    id denseDeltaMatrix;
+    id shape;
+    id shim;
 }
 
 @end

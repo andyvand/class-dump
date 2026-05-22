@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayConfigManager
 {
-    MISSING_TYPE *decoder;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *localNewsChannelService;
-    MISSING_TYPE *testOverrides;
+    id decoder;
+    id cloudContext;
+    id appConfigManager;
+    id assetManager;
+    id bundleSubscriptionManager;
+    id localNewsChannelService;
+    id testOverrides;
 }
 
 + (void);

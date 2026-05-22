@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyUI.GridForecastSnapshotManager
 {
-    MISSING_TYPE *_locationSnapshot;
-    MISSING_TYPE *_locationNotificationsSnapshot;
-    MISSING_TYPE *_fixedSnapshot;
-    MISSING_TYPE *_fixedNotificationsSnapshot;
-    MISSING_TYPE *_notificationsAreUpdatingLocationSnapshot;
-    MISSING_TYPE *_type;
-    MISSING_TYPE *log;
-    MISSING_TYPE *cachedLocationIsAuthorized;
-    MISSING_TYPE *_$observationRegistrar;
+    id _locationSnapshot;
+    id _locationNotificationsSnapshot;
+    id _fixedSnapshot;
+    id _fixedNotificationsSnapshot;
+    id _notificationsAreUpdatingLocationSnapshot;
+    id _type;
+    id log;
+    id cachedLocationIsAuthorized;
+    id _$observationRegistrar;
 }
 
 @end

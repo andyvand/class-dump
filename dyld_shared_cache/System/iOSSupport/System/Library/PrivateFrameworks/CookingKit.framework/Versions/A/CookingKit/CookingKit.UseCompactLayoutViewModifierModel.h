@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.UseCompactLayoutViewModifierModel
 {
-    MISSING_TYPE *_pagingSafeAreaInsets;
-    MISSING_TYPE *_isPrimaryRecipe;
-    MISSING_TYPE *_$observationRegistrar;
+    id _pagingSafeAreaInsets;
+    id _isPrimaryRecipe;
+    id _$observationRegistrar;
 }
 
 @end

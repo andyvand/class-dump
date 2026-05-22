@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _UIScenePresenterGeometryDriverStorage
 {
-    MISSING_TYPE *driver;
+    id driver;
 }
 
 - (void);

@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NAFuture, NSHashTable, _TtC6HomeUI19FindMyLocateSession;
+@class HomeUI.FindMyLocateSession, NAFuture, NSHashTable;
 
 @interface HULocationDeviceManager
 {
     NAFuture *_thisDeviceFuture;
-    _TtC6HomeUI19FindMyLocateSession *_findMyLocateSession;
+    HomeUI.FindMyLocateSession *_findMyLocateSession;
     NAFuture *_activeFMFDeviceFuture;
     NSHashTable *_observers;
 }
@@ -37,7 +37,7 @@
 // Remaining properties
 @property(retain, nonatomic) NAFuture *activeFMFDeviceFuture; // @synthesize activeFMFDeviceFuture=_activeFMFDeviceFuture;
 @property(readonly, nonatomic) NAFuture *activeLocationDeviceFuture;
-@property(readonly, nonatomic) _TtC6HomeUI19FindMyLocateSession *findMyLocateSession; // @synthesize findMyLocateSession=_findMyLocateSession;
+@property(readonly, nonatomic) HomeUI.FindMyLocateSession *findMyLocateSession; // @synthesize findMyLocateSession=_findMyLocateSession;
 @property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
 @property(retain, nonatomic) NAFuture *thisDeviceFuture; // @synthesize thisDeviceFuture=_thisDeviceFuture;
 

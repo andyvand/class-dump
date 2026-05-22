@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.HeadlineService
 {
-    MISSING_TYPE *headlineModelFactory;
-    MISSING_TYPE *context;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *headlineServiceOperationQueue;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *queryTimeRangeProvider;
+    id headlineModelFactory;
+    id context;
+    id appConfigurationManager;
+    id headlineServiceOperationQueue;
+    id tagService;
+    id paidAccessChecker;
+    id queryTimeRangeProvider;
 }
 
 @end

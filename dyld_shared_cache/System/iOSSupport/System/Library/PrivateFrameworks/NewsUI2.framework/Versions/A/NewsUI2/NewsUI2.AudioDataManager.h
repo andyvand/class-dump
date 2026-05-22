@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioDataManager
 {
-    MISSING_TYPE *state;
-    MISSING_TYPE *feedConfigManager;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *audioPlaylist;
-    MISSING_TYPE *heroStore;
-    MISSING_TYPE *playlistStore;
-    MISSING_TYPE *recentlyPlayedStore;
-    MISSING_TYPE *suggestionsStore;
-    MISSING_TYPE *updateQueue;
-    MISSING_TYPE *updateDeduper;
-    MISSING_TYPE *headlineConverter;
-    MISSING_TYPE *completedListeningProcessor;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *feedContextFactory;
-    MISSING_TYPE *topOfFeedTrack;
-    MISSING_TYPE *dailyBriefingTrack;
-    MISSING_TYPE *upNextTracks;
-    MISSING_TYPE *suggestedTracks;
-    MISSING_TYPE *recentlyPlayedTracks;
+    id state;
+    id feedConfigManager;
+    id readingHistory;
+    id audioPlaylist;
+    id heroStore;
+    id playlistStore;
+    id recentlyPlayedStore;
+    id suggestionsStore;
+    id updateQueue;
+    id updateDeduper;
+    id headlineConverter;
+    id completedListeningProcessor;
+    id bundleSubscriptionManager;
+    id feedContextFactory;
+    id topOfFeedTrack;
+    id dailyBriefingTrack;
+    id upNextTracks;
+    id suggestedTracks;
+    id recentlyPlayedTracks;
 }
 
 - (void);

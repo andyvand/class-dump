@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ReplicationStream
 {
-    MISSING_TYPE *stream;
-    MISSING_TYPE *remapper;
-    MISSING_TYPE *destination;
-    MISSING_TYPE *srcDelegate;
-    MISSING_TYPE *dstDelegate;
-    MISSING_TYPE *replicateByDefault;
-    MISSING_TYPE *replicationEnabled;
-    MISSING_TYPE *cfxWorld;
+    id stream;
+    id remapper;
+    id destination;
+    id srcDelegate;
+    id dstDelegate;
+    id replicateByDefault;
+    id replicationEnabled;
+    id cfxWorld;
 }
 
 @end

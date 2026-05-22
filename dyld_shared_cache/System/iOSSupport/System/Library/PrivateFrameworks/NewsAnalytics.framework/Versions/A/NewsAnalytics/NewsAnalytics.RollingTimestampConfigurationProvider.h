@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAnalytics.RollingTimestampConfigurationProvider
 {
-    MISSING_TYPE *jitterFactory;
-    MISSING_TYPE *configRollFrequency;
-    MISSING_TYPE *configLock;
-    MISSING_TYPE *lastConfig;
-    MISSING_TYPE *lastConfigRollDate;
+    id jitterFactory;
+    id configRollFrequency;
+    id configLock;
+    id lastConfig;
+    id lastConfigRollDate;
 }
 
 @end

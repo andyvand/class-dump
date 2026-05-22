@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.ShortcutsAccessoryPickerViewController.DefaultSelectionController
 {
-    MISSING_TYPE *selectedItems;
-    MISSING_TYPE *allowsMultipleSelection;
-    MISSING_TYPE *services;
+    id selectedItems;
+    id allowsMultipleSelection;
+    id services;
 }
 
 - (id);

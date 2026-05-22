@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TSCacheFlushingManager
 {
-    MISSING_TYPE *cacheFlusher;
-    MISSING_TYPE *storageLevelProvider;
-    MISSING_TYPE *preFlushGroup;
-    MISSING_TYPE *updateQueue;
+    id cacheFlusher;
+    id storageLevelProvider;
+    id preFlushGroup;
+    id updateQueue;
 }
 
 - (id);

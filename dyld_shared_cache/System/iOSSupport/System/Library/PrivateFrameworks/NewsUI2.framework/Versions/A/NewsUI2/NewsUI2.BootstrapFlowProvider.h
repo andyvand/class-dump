@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.BootstrapFlowProvider
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *articleLinkBehaviorConfigManager;
-    MISSING_TYPE *appLaunchMethodChecker;
-    MISSING_TYPE *welcomeStatus;
-    MISSING_TYPE *$__lazy_storage_$_currentOnboardingExperience;
+    id resolver;
+    id featureAvailability;
+    id articleLinkBehaviorConfigManager;
+    id appLaunchMethodChecker;
+    id welcomeStatus;
+    id $__lazy_storage_$_currentOnboardingExperience;
 }
 
 @end

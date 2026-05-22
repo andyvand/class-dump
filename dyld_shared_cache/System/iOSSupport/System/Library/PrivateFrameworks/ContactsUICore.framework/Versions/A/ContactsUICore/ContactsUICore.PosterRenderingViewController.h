@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.PosterRenderingViewController
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *thumbnailImageData;
-    MISSING_TYPE *layoutPreferences;
-    MISSING_TYPE *isReady;
-    MISSING_TYPE *isSpecularHighlightsEnabled;
-    MISSING_TYPE *contentOcclusionRectangles;
-    MISSING_TYPE *saliencyMode;
-    MISSING_TYPE *renderingViewController;
-    MISSING_TYPE *gradientPlaceholderViewController;
-    MISSING_TYPE *placeholderImageView;
-    MISSING_TYPE *photoImageView;
-    MISSING_TYPE *photoImageSize;
-    MISSING_TYPE *loadingTask;
-    MISSING_TYPE *salientContentRectangleDebugBorder;
-    MISSING_TYPE *shiftedFaceRectangleDebugBorder;
-    MISSING_TYPE *faceRectangleDebugBorder;
+    id configuration;
+    id thumbnailImageData;
+    id layoutPreferences;
+    id isReady;
+    id isSpecularHighlightsEnabled;
+    id contentOcclusionRectangles;
+    id saliencyMode;
+    id renderingViewController;
+    id gradientPlaceholderViewController;
+    id placeholderImageView;
+    id photoImageView;
+    id photoImageSize;
+    id loadingTask;
+    id salientContentRectangleDebugBorder;
+    id shiftedFaceRectangleDebugBorder;
+    id faceRectangleDebugBorder;
 }
 
 - (void);

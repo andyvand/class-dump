@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.HomeScreenConfigurationPosterControlContentView
 {
-    MISSING_TYPE *primaryImage;
-    MISSING_TYPE *primaryImageView;
-    MISSING_TYPE *floatingImageView;
+    id primaryImage;
+    id primaryImageView;
+    id floatingImageView;
 }
 
 - (id);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedPuzzleFactory
 {
-    MISSING_TYPE *puzzleAccessProvider;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *puzzleImageShareAttributeProvider;
-    MISSING_TYPE *puzzleRankProvider;
+    id puzzleAccessProvider;
+    id puzzleHistoryService;
+    id puzzleImageShareAttributeProvider;
+    id puzzleRankProvider;
 }
 
 @end

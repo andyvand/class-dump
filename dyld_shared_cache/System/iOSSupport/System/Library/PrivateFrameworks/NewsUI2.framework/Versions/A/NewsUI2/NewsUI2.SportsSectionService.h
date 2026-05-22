@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsSectionService
 {
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *tagFeedCurationService;
+    id tagService;
+    id tagFeedCurationService;
 }
 
 @end

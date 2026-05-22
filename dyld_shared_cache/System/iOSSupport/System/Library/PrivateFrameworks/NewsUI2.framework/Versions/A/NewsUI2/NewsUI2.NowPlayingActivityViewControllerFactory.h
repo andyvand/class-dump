@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NowPlayingActivityViewControllerFactory
 {
-    MISSING_TYPE *sharingActivityItemFactory;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
+    id sharingActivityItemFactory;
+    id bundleSubscriptionManager;
+    id commandCenter;
+    id tracker;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.NotificationsFeaturePromotionEligibilityProvider
 {
-    MISSING_TYPE *notification;
-    MISSING_TYPE *userNotificationSettingsManager;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *tagService;
+    id notification;
+    id userNotificationSettingsManager;
+    id subscriptionController;
+    id tagService;
 }
 
 @end

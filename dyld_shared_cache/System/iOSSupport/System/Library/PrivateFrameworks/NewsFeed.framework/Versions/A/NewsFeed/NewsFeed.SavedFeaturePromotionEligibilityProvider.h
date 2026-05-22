@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SavedFeaturePromotionEligibilityProvider
 {
-    MISSING_TYPE *saving;
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *savedRecipeService;
+    id saving;
+    id readingList;
+    id savedRecipeService;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.KeyCommandUnownedProvider
 {
-    MISSING_TYPE *invalidator;
-    MISSING_TYPE *provider;
+    id invalidator;
+    id provider;
 }
 
 @end

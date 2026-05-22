@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelPickerFooterView
 {
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *textLabel;
+    id backgroundView;
+    id textLabel;
 }
 
 - (id);

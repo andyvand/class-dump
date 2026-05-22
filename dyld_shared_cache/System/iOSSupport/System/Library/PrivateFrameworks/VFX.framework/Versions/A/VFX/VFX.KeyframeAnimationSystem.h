@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.KeyframeAnimationSystem
 {
-    MISSING_TYPE *float1Query;
-    MISSING_TYPE *float2Query;
-    MISSING_TYPE *float3Query;
-    MISSING_TYPE *float4Query;
+    id float1Query;
+    id float2Query;
+    id float3Query;
+    id float4Query;
 }
 
 @end

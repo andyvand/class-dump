@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatLogger
 {
-    MISSING_TYPE *_entries;
-    MISSING_TYPE *timers;
-    MISSING_TYPE *timerLock;
-    MISSING_TYPE *queue;
+    id _entries;
+    id timers;
+    id timerLock;
+    id queue;
 }
 
 @end

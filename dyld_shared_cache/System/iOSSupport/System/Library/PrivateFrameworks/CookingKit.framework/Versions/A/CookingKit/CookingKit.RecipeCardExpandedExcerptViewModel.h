@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardExpandedExcerptViewModel
 {
-    MISSING_TYPE *_excerpt;
-    MISSING_TYPE *_$observationRegistrar;
+    id _excerpt;
+    id _$observationRegistrar;
 }
 
 @end

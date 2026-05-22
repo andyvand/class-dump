@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleBannerAdRequester
 {
-    MISSING_TYPE *requestManager;
-    MISSING_TYPE *bannerAdFactory;
-    MISSING_TYPE *requestPolicyValidator;
-    MISSING_TYPE *bannerAdJournal;
-    MISSING_TYPE *documentControllerProvider;
-    MISSING_TYPE *layoutBlueprint;
-    MISSING_TYPE *placementFactory;
+    id requestManager;
+    id bannerAdFactory;
+    id requestPolicyValidator;
+    id bannerAdJournal;
+    id documentControllerProvider;
+    id layoutBlueprint;
+    id placementFactory;
 }
 
 @end

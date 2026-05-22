@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.WeatherFormatCache
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *stringCache;
-    MISSING_TYPE *attributedStringCache;
+    id lock;
+    id stringCache;
+    id attributedStringCache;
 }
 
 @end

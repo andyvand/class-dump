@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ReportConcernDataManager
 {
-    MISSING_TYPE *service;
-    MISSING_TYPE *context;
-    MISSING_TYPE *userConcernConfigManager;
-    MISSING_TYPE *userConcernConfig;
+    id service;
+    id context;
+    id userConcernConfigManager;
+    id userConcernConfig;
 }
 
 @end

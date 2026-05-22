@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SettingActionHandler
 {
-    MISSING_TYPE *actions;
+    id actions;
 }
 
 @end

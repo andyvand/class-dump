@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.CookingModeViewModel
 {
-    MISSING_TYPE *loggingID;
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_recipeTitle;
-    MISSING_TYPE *_recipeTheme;
-    MISSING_TYPE *_lastStepIndex;
-    MISSING_TYPE *_nextStepIndex;
-    MISSING_TYPE *_previousStepIndex;
-    MISSING_TYPE *_region;
-    MISSING_TYPE *_fullScreenSheet;
-    MISSING_TYPE *_currentStep;
-    MISSING_TYPE *_highlightedStep;
-    MISSING_TYPE *_currentSectionTitle;
-    MISSING_TYPE *_sectionTitles;
-    MISSING_TYPE *_scrollToStep;
-    MISSING_TYPE *_scrollPosition;
-    MISSING_TYPE *_appEntityIdentifier;
-    MISSING_TYPE *_showMarkAsCookedButton;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_$observationRegistrar;
+    id loggingID;
+    id _recipeID;
+    id _recipeTitle;
+    id _recipeTheme;
+    id _lastStepIndex;
+    id _nextStepIndex;
+    id _previousStepIndex;
+    id _region;
+    id _fullScreenSheet;
+    id _currentStep;
+    id _highlightedStep;
+    id _currentSectionTitle;
+    id _sectionTitles;
+    id _scrollToStep;
+    id _scrollPosition;
+    id _appEntityIdentifier;
+    id _showMarkAsCookedButton;
+    id _$scope;
+    id _$observationRegistrar;
 }
 
 @end

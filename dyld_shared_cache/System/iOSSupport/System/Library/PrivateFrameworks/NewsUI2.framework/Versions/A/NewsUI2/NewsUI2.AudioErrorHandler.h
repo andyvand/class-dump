@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioErrorHandler
 {
-    MISSING_TYPE *currentError;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *sceneProvider;
+    id currentError;
+    id commandCenter;
+    id sceneProvider;
 }
 
 @end

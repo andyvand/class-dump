@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleEmbedMenuConfigMessageHandler
 {
-    MISSING_TYPE *puzzleComponentsViewProvider;
-    MISSING_TYPE *scriptsManager;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *lastReceivedConfig;
-    MISSING_TYPE *lastPositionChanges;
+    id puzzleComponentsViewProvider;
+    id scriptsManager;
+    id delegate;
+    id lastReceivedConfig;
+    id lastPositionChanges;
 }
 
 - (void);

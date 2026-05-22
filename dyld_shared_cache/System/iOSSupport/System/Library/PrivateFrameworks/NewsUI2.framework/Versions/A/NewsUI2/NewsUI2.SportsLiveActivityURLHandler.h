@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsLiveActivityURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *sportsLiveActivityManager;
-    MISSING_TYPE *appConfigurationManager;
+    id patterns;
+    id navigator;
+    id sportsLiveActivityManager;
+    id appConfigurationManager;
 }
 
 @end

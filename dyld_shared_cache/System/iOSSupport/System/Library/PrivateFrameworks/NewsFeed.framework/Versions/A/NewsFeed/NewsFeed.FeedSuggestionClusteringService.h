@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedSuggestionClusteringService
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *allowlistProvider;
-    MISSING_TYPE *tagRanker;
-    MISSING_TYPE *paidAccessChecker;
+    id cloudContext;
+    id allowlistProvider;
+    id tagRanker;
+    id paidAccessChecker;
 }
 
 @end

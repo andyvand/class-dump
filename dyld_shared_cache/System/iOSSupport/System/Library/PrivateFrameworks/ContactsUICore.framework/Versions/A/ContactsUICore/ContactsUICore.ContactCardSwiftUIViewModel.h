@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactCardSwiftUIViewModel
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *hasSensitiveContent;
-    MISSING_TYPE *stateHandle;
-    MISSING_TYPE *_$observationRegistrar;
+    id configuration;
+    id hasSensitiveContent;
+    id stateHandle;
+    id _$observationRegistrar;
 }
 
 @end

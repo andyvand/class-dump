@@ -4,29 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIViewController;
+@class UIViewController;
 
 @interface NewsArticles.RecipeViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *isPrimary;
-    MISSING_TYPE *viewingSession;
-    MISSING_TYPE *pageIdentifier;
-    MISSING_TYPE *recipeIdentifier;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *hardPaywallViewController;
-    MISSING_TYPE *contentViewController;
-    MISSING_TYPE *parallaxX;
-    MISSING_TYPE *lastSafeAreaInsets;
-    MISSING_TYPE *loadContext;
-    MISSING_TYPE *loadContextBlock;
-    MISSING_TYPE *onPresentedRecipeBlock;
-    MISSING_TYPE *onFailedToLoadRecipeBlock;
-    MISSING_TYPE *observableScrollView;
-    MISSING_TYPE *radarReporter;
+    id delegate;
+    id isPrimary;
+    id viewingSession;
+    id pageIdentifier;
+    id recipeIdentifier;
+    id styler;
+    id eventHandler;
+    id coverViewManager;
+    id eventManager;
+    id hardPaywallViewController;
+    id contentViewController;
+    id parallaxX;
+    id lastSafeAreaInsets;
+    id loadContext;
+    id loadContextBlock;
+    id onPresentedRecipeBlock;
+    id onFailedToLoadRecipeBlock;
+    id observableScrollView;
+    id radarReporter;
 }
 
 - (void);

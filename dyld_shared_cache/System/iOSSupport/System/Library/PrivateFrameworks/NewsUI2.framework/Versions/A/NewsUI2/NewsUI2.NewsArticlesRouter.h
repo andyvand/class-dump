@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsArticlesRouter
 {
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *featureAvailability;
+    id tagService;
+    id navigator;
+    id featureAvailability;
 }
 
 @end

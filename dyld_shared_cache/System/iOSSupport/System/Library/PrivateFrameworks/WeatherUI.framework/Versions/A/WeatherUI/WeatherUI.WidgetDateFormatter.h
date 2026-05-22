@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.WidgetDateFormatter
 {
-    MISSING_TYPE *timeZone;
-    MISSING_TYPE *$__lazy_storage_$_hourDateFormatter;
-    MISSING_TYPE *$__lazy_storage_$_moonDateFormatter;
-    MISSING_TYPE *$__lazy_storage_$_sunDateFormatter;
-    MISSING_TYPE *$__lazy_storage_$_updateTimeDateFormatter;
+    id timeZone;
+    id $__lazy_storage_$_hourDateFormatter;
+    id $__lazy_storage_$_moonDateFormatter;
+    id $__lazy_storage_$_sunDateFormatter;
+    id $__lazy_storage_$_updateTimeDateFormatter;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.EnergySiteRecordsManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *energySiteModel;
-    MISSING_TYPE *sharedContext;
-    MISSING_TYPE *deduplicationInProgress;
+    id $defaultActor;
+    id energySiteModel;
+    id sharedContext;
+    id deduplicationInProgress;
 }
 
 @end

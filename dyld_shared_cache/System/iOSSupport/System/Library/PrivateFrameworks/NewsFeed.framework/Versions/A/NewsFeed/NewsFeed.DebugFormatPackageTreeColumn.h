@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatPackageTreeColumn
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *column;
-    MISSING_TYPE *groups;
+    id id;
+    id editor;
+    id column;
+    id groups;
 }
 
 @end

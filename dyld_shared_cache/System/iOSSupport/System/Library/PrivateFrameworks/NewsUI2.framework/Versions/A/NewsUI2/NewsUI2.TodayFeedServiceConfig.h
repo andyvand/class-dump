@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayFeedServiceConfig
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *contentConfig;
-    MISSING_TYPE *contentConfigData;
-    MISSING_TYPE *paidBundleConfig;
-    MISSING_TYPE *appConfig;
-    MISSING_TYPE *cachePolicy;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *refreshInterval;
-    MISSING_TYPE *cacheKey;
-    MISSING_TYPE *canCache;
-    MISSING_TYPE *sportsOnboardingState;
-    MISSING_TYPE *featureAvailability;
+    id context;
+    id contentConfig;
+    id contentConfigData;
+    id paidBundleConfig;
+    id appConfig;
+    id cachePolicy;
+    id subscriptionController;
+    id refreshInterval;
+    id cacheKey;
+    id canCache;
+    id sportsOnboardingState;
+    id featureAvailability;
 }
 
 @end

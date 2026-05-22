@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeSourceViewModel
 {
-    MISSING_TYPE *_publisher;
-    MISSING_TYPE *_title;
-    MISSING_TYPE *_thumbnailURL;
-    MISSING_TYPE *_target;
-    MISSING_TYPE *_isAvailable;
-    MISSING_TYPE *_isFocusable;
-    MISSING_TYPE *_isSponsored;
-    MISSING_TYPE *_$observationRegistrar;
+    id _publisher;
+    id _title;
+    id _thumbnailURL;
+    id _target;
+    id _isAvailable;
+    id _isFocusable;
+    id _isSponsored;
+    id _$observationRegistrar;
 }
 
 @end

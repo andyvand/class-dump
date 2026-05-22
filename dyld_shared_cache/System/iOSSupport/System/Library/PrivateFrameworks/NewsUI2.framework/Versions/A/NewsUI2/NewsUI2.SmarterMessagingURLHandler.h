@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SmarterMessagingURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *engagementEventHandler;
-    MISSING_TYPE *engagementInlineViewManager;
-    MISSING_TYPE *requestFactory;
+    id patterns;
+    id engagementEventHandler;
+    id engagementInlineViewManager;
+    id requestFactory;
 }
 
 @end

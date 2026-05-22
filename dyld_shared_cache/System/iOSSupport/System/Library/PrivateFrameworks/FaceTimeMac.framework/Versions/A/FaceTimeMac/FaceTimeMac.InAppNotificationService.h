@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.InAppNotificationService
 {
-    MISSING_TYPE *sceneController;
-    MISSING_TYPE *appKitHelper;
-    MISSING_TYPE *windowsManager;
-    MISSING_TYPE *windowScenes;
+    id sceneController;
+    id appKitHelper;
+    id windowsManager;
+    id windowScenes;
 }
 
 - (void);

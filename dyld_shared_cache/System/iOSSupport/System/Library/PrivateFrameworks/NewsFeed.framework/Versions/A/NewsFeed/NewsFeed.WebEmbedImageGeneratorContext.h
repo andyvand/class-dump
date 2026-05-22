@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedImageGeneratorContext
 {
-    MISSING_TYPE *request;
-    MISSING_TYPE *webContentViewController;
+    id request;
+    id webContentViewController;
 }
 
 @end

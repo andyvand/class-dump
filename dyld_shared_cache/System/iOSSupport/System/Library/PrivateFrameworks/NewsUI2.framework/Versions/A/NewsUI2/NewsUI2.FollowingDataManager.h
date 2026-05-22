@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *notificationPrompter;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *favoritedShortcutService;
-    MISSING_TYPE *contentShortcutsService;
-    MISSING_TYPE *tagReorderService;
-    MISSING_TYPE *followingBadgingCoordinator;
-    MISSING_TYPE *magazinesBadgingCoordinator;
-    MISSING_TYPE *puzzleBadgingCoordinator;
-    MISSING_TYPE *userNotificationCenter;
-    MISSING_TYPE *purchaseController;
-    MISSING_TYPE *contentShortcutsStorageManager;
-    MISSING_TYPE *familySharingStatusManager;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *shortcutsOnboardingManager;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *contentAvailabilityValidator;
+    id delegate;
+    id notificationPrompter;
+    id subscriptionService;
+    id tagService;
+    id favoritedShortcutService;
+    id contentShortcutsService;
+    id tagReorderService;
+    id followingBadgingCoordinator;
+    id magazinesBadgingCoordinator;
+    id puzzleBadgingCoordinator;
+    id userNotificationCenter;
+    id purchaseController;
+    id contentShortcutsStorageManager;
+    id familySharingStatusManager;
+    id sportsOnboardingManager;
+    id shortcutsOnboardingManager;
+    id offlineManager;
+    id bundleSubscriptionManager;
+    id contentAvailabilityValidator;
 }
 
 - (void);

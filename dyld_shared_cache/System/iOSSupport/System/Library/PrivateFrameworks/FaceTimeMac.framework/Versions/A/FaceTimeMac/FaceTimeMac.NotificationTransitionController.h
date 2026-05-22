@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.NotificationTransitionController
 {
-    MISSING_TYPE *_translationX;
-    MISSING_TYPE *_$observationRegistrar;
+    id _translationX;
+    id _$observationRegistrar;
 }
 
 @end

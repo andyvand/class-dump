@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.SimpleAccessoryRepresentableObjectSelectionController
 {
-    MISSING_TYPE *_selectedAccessoryRepresentableObjects;
-    MISSING_TYPE *selectedAccessoryRepresentableObjectDictionary;
+    id _selectedAccessoryRepresentableObjects;
+    id selectedAccessoryRepresentableObjectDictionary;
 }
 
 @end

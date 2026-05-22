@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, WFDatabase, WFWorkflow;
-@protocol _TtP10WorkflowUI43AddToSiriSwiftHostingViewControllerDelegate_;
+@class WFDatabase, WFWorkflow;
+@protocol WorkflowUI.AddToSiriSwiftHostingViewControllerDelegate;
 
 @interface WorkflowUI.AddToSiriSwiftHostingViewController
 {
-    MISSING_TYPE *hostingController;
-    id <_TtP10WorkflowUI43AddToSiriSwiftHostingViewControllerDelegate_> delegate;
+    id hostingController;
+    id <WorkflowUI.AddToSiriSwiftHostingViewControllerDelegate> delegate;
     WFWorkflow *workflow;
     WFDatabase *database;
-    MISSING_TYPE *didFireCompletion;
-    MISSING_TYPE *currentStatus;
+    id didFireCompletion;
+    id currentStatus;
 }
 
 - (id);
@@ -31,7 +31,7 @@
 
 // Remaining properties
 @property(nonatomic, retain) WFDatabase *database; // @synthesize database;
-@property(nonatomic, retain) id <_TtP10WorkflowUI43AddToSiriSwiftHostingViewControllerDelegate_> delegate; // @synthesize delegate;
+@property(nonatomic, retain) id <WorkflowUI.AddToSiriSwiftHostingViewControllerDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, retain) WFWorkflow *workflow; // @synthesize workflow;
 
 @end

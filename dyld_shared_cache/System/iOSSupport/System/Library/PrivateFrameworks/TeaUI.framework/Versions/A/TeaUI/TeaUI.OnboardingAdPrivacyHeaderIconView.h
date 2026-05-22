@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.OnboardingAdPrivacyHeaderIconView
 {
-    MISSING_TYPE *label;
-    MISSING_TYPE *backgroundView;
+    id label;
+    id backgroundView;
 }
 
 - (struct CGSize);

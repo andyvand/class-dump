@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface XPC.XPCSession
 {
-    MISSING_TYPE *_session;
+    id _session;
 }
 
 @end

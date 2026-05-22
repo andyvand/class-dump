@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.QueryManager
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *queryInfoByHandle;
-    MISSING_TYPE *matchingQueriesByEntityClass;
+    id lock;
+    id queryInfoByHandle;
+    id matchingQueriesByEntityClass;
 }
 
 @end

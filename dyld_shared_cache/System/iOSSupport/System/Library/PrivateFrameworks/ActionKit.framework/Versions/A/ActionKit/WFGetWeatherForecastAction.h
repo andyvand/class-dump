@@ -6,11 +6,9 @@
 
 #import <ActionKit/ActionKit.WeatherAction.h>
 
-@class MISSING_TYPE;
-
 @interface WFGetWeatherForecastAction : ActionKit.WeatherAction
 {
-    MISSING_TYPE *$__lazy_storage_$_provider;
+    id $__lazy_storage_$_provider;
 }
 
 - (id);

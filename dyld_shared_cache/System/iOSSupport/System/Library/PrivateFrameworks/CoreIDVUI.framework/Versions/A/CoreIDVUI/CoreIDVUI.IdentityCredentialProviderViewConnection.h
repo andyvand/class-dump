@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityCredentialProviderViewConnection
 {
-    MISSING_TYPE *connection;
-    MISSING_TYPE *onDismissed;
-    MISSING_TYPE *onPresentAuthorizationViewFromSelectionView;
-    MISSING_TYPE *onPresentScannableCodeView;
-    MISSING_TYPE *onPresentConnectingToAuthenticatorView;
-    MISSING_TYPE *onPresentAuxiliaryView;
-    MISSING_TYPE *onPresentSelectionViewFromAuxiliaryView;
-    MISSING_TYPE *onPresentAuthorizationViewFromAuxiliaryView;
+    id connection;
+    id onDismissed;
+    id onPresentAuthorizationViewFromSelectionView;
+    id onPresentScannableCodeView;
+    id onPresentConnectingToAuthenticatorView;
+    id onPresentAuxiliaryView;
+    id onPresentSelectionViewFromAuxiliaryView;
+    id onPresentAuthorizationViewFromAuxiliaryView;
 }
 
 - (void);

@@ -6,15 +6,13 @@
 
 #import <VFX/VFXCameraEffect.h>
 
-@class MISSING_TYPE;
-
 @interface VFXCameraEffectBloom : VFXCameraEffect
 {
     float _intensity;
     float _threshold;
     float _thresholdSmoothness;
     _Bool _useHighQuality;
-    MISSING_TYPE *_colorFilter;
+    id _colorFilter;
     float _contrast;
     float _saturation;
     long long _iterationCount;
@@ -31,7 +29,7 @@
 - (void);
 - (void);
 - (void *);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (long long);
@@ -50,7 +48,7 @@
 - (void)Oÿ/SÆp';
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *colorFilter;
+@property(nonatomic) id colorFilter;
 @property(nonatomic) float contrast;
 @property(nonatomic) float intensity;
 @property(nonatomic) long long iterationCount;

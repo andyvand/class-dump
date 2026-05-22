@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.HeadlineViewStyler
 {
-    MISSING_TYPE *fontBook;
-    MISSING_TYPE *colorPalette;
-    MISSING_TYPE *scaleFactor;
-    MISSING_TYPE *colorPaletteProvider;
+    id fontBook;
+    id colorPalette;
+    id scaleFactor;
+    id colorPaletteProvider;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.ImportedRecipePersistenceManager
 {
-    MISSING_TYPE *fileManager;
-    MISSING_TYPE *rootPersistenceDirectoryURL;
-    MISSING_TYPE *imageLoader;
+    id fileManager;
+    id rootPersistenceDirectoryURL;
+    id imageLoader;
 }
 
 @end

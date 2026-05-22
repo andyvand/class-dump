@@ -4,39 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.UIHostingViewBase
 {
-    MISSING_TYPE *uiView;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *safeAreaRegions;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *viewGraph;
-    MISSING_TYPE *inheritedEnvironment;
-    MISSING_TYPE *environmentOverride;
-    MISSING_TYPE *traitCollectionOverride;
-    MISSING_TYPE *canAdvanceTimeAutomatically;
-    MISSING_TYPE *allowUIKitAnimationsForNextUpdate;
-    MISSING_TYPE *lastRenderTime;
-    MISSING_TYPE *pendingPreferencesUpdate;
-    MISSING_TYPE *pendingPostDisappearPreferencesUpdate;
-    MISSING_TYPE *_updateFidelity;
-    MISSING_TYPE *isHiddenForReuse;
-    MISSING_TYPE *isEnteringForeground;
-    MISSING_TYPE *isExitingForeground;
-    MISSING_TYPE *isCapturingSnapshots;
-    MISSING_TYPE *isRotatingWindow;
-    MISSING_TYPE *isResizingWindow;
-    MISSING_TYPE *_sceneActivationState;
-    MISSING_TYPE *registeredForGeometryChanges;
-    MISSING_TYPE *observedWindow;
-    MISSING_TYPE *observedScene;
-    MISSING_TYPE *keyboardFrame;
-    MISSING_TYPE *inactiveKeyboardFrame;
-    MISSING_TYPE *keyboardSeed;
-    MISSING_TYPE *$__lazy_storage_$_trackingElement;
-    MISSING_TYPE *isUpdatingKeyboard;
+    id uiView;
+    id delegate;
+    id safeAreaRegions;
+    id configuration;
+    id viewGraph;
+    id inheritedEnvironment;
+    id environmentOverride;
+    id traitCollectionOverride;
+    id canAdvanceTimeAutomatically;
+    id allowUIKitAnimationsForNextUpdate;
+    id lastRenderTime;
+    id pendingPreferencesUpdate;
+    id pendingPostDisappearPreferencesUpdate;
+    id _updateFidelity;
+    id isHiddenForReuse;
+    id isEnteringForeground;
+    id isExitingForeground;
+    id isCapturingSnapshots;
+    id isRotatingWindow;
+    id isResizingWindow;
+    id _sceneActivationState;
+    id registeredForGeometryChanges;
+    id observedWindow;
+    id observedScene;
+    id keyboardFrame;
+    id inactiveKeyboardFrame;
+    id keyboardSeed;
+    id $__lazy_storage_$_trackingElement;
+    id isUpdatingKeyboard;
 }
 
 - (void);

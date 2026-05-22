@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.FloatingTabBarAccessoryCoordinator
 {
-    MISSING_TYPE *tabBarController;
-    MISSING_TYPE *lazyAccessoryViewProvider;
-    MISSING_TYPE *presentationMode;
-    MISSING_TYPE *$__lazy_storage_$_accessoryView;
+    id tabBarController;
+    id lazyAccessoryViewProvider;
+    id presentationMode;
+    id $__lazy_storage_$_accessoryView;
 }
 
 - (void);

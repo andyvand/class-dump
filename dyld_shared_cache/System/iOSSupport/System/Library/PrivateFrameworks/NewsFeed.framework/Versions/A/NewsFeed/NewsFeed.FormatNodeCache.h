@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatNodeCache
 {
-    MISSING_TYPE *textCache;
-    MISSING_TYPE *attrStringCache;
-    MISSING_TYPE *imageCache;
-    MISSING_TYPE *accessibilityDataCache;
-    MISSING_TYPE *actionCache;
-    MISSING_TYPE *sizeCache;
-    MISSING_TYPE *enabled;
+    id textCache;
+    id attrStringCache;
+    id imageCache;
+    id accessibilityDataCache;
+    id actionCache;
+    id sizeCache;
+    id enabled;
 }
 
 @end

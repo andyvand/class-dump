@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.ECSNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX._ParticleValueNode : VFX.ECSNode
 {
-    MISSING_TYPE *keyPath;
+    id keyPath;
 }
 
 @end

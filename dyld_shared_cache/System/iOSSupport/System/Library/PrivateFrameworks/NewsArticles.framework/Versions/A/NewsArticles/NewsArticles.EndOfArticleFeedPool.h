@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfArticleFeedPool
 {
-    MISSING_TYPE *mainHeadline;
-    MISSING_TYPE *moreFromHeadlines;
-    MISSING_TYPE *relatedHeadlines;
-    MISSING_TYPE *recommendedHeadlines;
-    MISSING_TYPE *moreToReadHeadlines;
+    id mainHeadline;
+    id moreFromHeadlines;
+    id relatedHeadlines;
+    id recommendedHeadlines;
+    id moreToReadHeadlines;
 }
 
 @end

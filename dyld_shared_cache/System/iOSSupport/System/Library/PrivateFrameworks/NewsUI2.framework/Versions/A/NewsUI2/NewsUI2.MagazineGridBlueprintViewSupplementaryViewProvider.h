@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineGridBlueprintViewSupplementaryViewProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *sectionHeaderRenderer;
-    MISSING_TYPE *sectionV2HeaderRenderer;
-    MISSING_TYPE *editSelection;
-    MISSING_TYPE *transition;
+    id delegate;
+    id sectionHeaderRenderer;
+    id sectionV2HeaderRenderer;
+    id editSelection;
+    id transition;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.CampaignLandingPageViewController
 {
-    MISSING_TYPE *isImpressionable;
-    MISSING_TYPE *pageDelegate;
-    MISSING_TYPE *articleViewController;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *urlHandler;
+    id isImpressionable;
+    id pageDelegate;
+    id articleViewController;
+    id styler;
+    id eventHandler;
+    id urlHandler;
 }
 
 - (id);

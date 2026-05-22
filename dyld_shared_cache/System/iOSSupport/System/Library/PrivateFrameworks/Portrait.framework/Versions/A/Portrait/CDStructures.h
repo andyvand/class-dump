@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -45,7 +43,7 @@ struct DetectionData_0 {
 };
 
 struct FaceRectsWrapper {
-    MISSING_TYPE *_field1[4];
+    id _field1[4];
     int _field2;
 };
 
@@ -63,7 +61,7 @@ struct FrameHeaderData_0 {
 };
 
 struct ImageBlkOutputOffset {
-    MISSING_TYPE *sourceOffset__destOffset;
+    id sourceOffset__destOffset;
 };
 
 struct PTBackgroundReplacementInterpolation {
@@ -149,7 +147,7 @@ struct PTHumanDetection {
     int groupId;
     float faceRect__faceRectCenteredEma__faceRectCenteredEmaEma__headRotation__faceConfidenceLevel;
     _Bool eyeConfidenceLevel[2];
-    MISSING_TYPE *eyeRect[2];
+    id eyeRect[2];
     _Bool hasDetectionThisFrame;
     float confidence;
 };
@@ -204,7 +202,7 @@ struct SmoothFaceRectData {
     float lightMaskWidth;
     float lightMaskFaceOffsetY;
     struct {
-        MISSING_TYPE *columns[2];
+        id columns[2];
     } faceEyeWeight__rotation;
     struct SmoothFaceRect faces[4];
 };
@@ -260,12 +258,12 @@ typedef struct {
 } CDStruct_da2e99ad;
 
 typedef struct {
-    MISSING_TYPE *columns[3];
-} CDStruct_8e0628e6;
+    id columns[3];
+} CDStruct_1fe29af2;
 
 typedef struct {
-    MISSING_TYPE *columns[4];
-} CDStruct_14d5dc5e;
+    id columns[4];
+} CDStruct_95fa7c00;
 
 typedef struct {
     void *data;

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol HUConfigurationViewControllerDelegate;
 
 @interface HomeUI.UtilityOnboardingSetupViewController
 {
     id <HUConfigurationViewControllerDelegate> delegate;
-    MISSING_TYPE *context;
-    MISSING_TYPE *errorFetchingUtilities;
-    MISSING_TYPE *isPasswordlessEnabled;
-    MISSING_TYPE *accountLoginButton;
-    MISSING_TYPE *continueOnboardingButton;
+    id context;
+    id errorFetchingUtilities;
+    id isPasswordlessEnabled;
+    id accountLoginButton;
+    id continueOnboardingButton;
 }
 
 - (Class);

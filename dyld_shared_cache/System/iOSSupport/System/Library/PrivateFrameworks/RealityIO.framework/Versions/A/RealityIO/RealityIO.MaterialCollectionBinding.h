@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.MaterialCollectionBinding
 {
-    MISSING_TYPE *materialBindingAPI;
-    MISSING_TYPE *base;
+    id materialBindingAPI;
+    id base;
 }
 
 @end

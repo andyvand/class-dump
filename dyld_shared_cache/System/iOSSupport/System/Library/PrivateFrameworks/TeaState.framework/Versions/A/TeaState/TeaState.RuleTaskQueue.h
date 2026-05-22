@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaState.RuleTaskQueue
 {
-    MISSING_TYPE *task;
-    MISSING_TYPE *continuation;
+    id task;
+    id continuation;
 }
 
 @end

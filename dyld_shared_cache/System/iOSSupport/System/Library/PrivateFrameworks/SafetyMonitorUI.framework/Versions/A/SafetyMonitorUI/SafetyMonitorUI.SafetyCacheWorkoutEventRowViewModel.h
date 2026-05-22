@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.SafetyCacheWorkoutEventRowViewModel
 {
-    MISSING_TYPE *iconColor;
-    MISSING_TYPE *title;
-    MISSING_TYPE *timeString;
-    MISSING_TYPE *_addressString;
-    MISSING_TYPE *workoutEvent;
+    id iconColor;
+    id title;
+    id timeString;
+    id _addressString;
+    id workoutEvent;
 }
 
 - (id);

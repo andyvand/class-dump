@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.IssueCoverView
 {
-    MISSING_TYPE *$__lazy_storage_$_staticContentView;
-    MISSING_TYPE *$__lazy_storage_$_dynamicContentView;
-    MISSING_TYPE *dynamicView;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *lastPreparedBounds;
-    MISSING_TYPE *content;
+    id $__lazy_storage_$_staticContentView;
+    id $__lazy_storage_$_dynamicContentView;
+    id dynamicView;
+    id identifier;
+    id lastPreparedBounds;
+    id content;
 }
 
 - (id);

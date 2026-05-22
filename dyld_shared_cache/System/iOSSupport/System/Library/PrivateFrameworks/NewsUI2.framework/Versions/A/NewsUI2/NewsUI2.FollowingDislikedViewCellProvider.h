@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingDislikedViewCellProvider
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *tagViewRenderer;
+    id delegate;
+    id tagViewRenderer;
 }
 
 @end

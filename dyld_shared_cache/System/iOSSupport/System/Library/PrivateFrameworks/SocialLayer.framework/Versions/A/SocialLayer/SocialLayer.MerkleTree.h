@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SocialLayer.MerkleTree
 {
-    MISSING_TYPE *nodes;
-    MISSING_TYPE *root;
+    id nodes;
+    id root;
 }
 
 @end

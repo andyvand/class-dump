@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatBreakpointNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *line;
-    MISSING_TYPE *column;
-    MISSING_TYPE *filePath;
-    MISSING_TYPE *child;
+    id _identifier;
+    id line;
+    id column;
+    id filePath;
+    id child;
 }
 
 @end

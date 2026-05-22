@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityHeroViewControllerProvider
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *identityProofingCardArtResolutionHelper;
-    MISSING_TYPE *analyticsReporter;
-    MISSING_TYPE *eligibilityHelper;
-    MISSING_TYPE *requireHSA2ForProofing;
-    MISSING_TYPE *heroViewController;
-    MISSING_TYPE *assetProvider;
-    MISSING_TYPE *preferencesURLOpener;
+    id config;
+    id proofingFlowManager;
+    id identityProofingCardArtResolutionHelper;
+    id analyticsReporter;
+    id eligibilityHelper;
+    id requireHSA2ForProofing;
+    id heroViewController;
+    id assetProvider;
+    id preferencesURLOpener;
 }
 
 @end

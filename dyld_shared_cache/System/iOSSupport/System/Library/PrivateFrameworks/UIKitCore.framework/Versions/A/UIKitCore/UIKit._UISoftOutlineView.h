@@ -6,12 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UISoftOutlineView : UIView
 {
-    MISSING_TYPE *shapeView;
-    MISSING_TYPE *configuration;
+    id shapeView;
+    id configuration;
 }
 
 - (id);

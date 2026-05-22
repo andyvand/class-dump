@@ -6,11 +6,9 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTBaseView.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTTimelineView : CoreHapticsTools.CHTBaseView
 {
-    MISSING_TYPE *flipTimeline;
+    id flipTimeline;
 }
 
 - (id);

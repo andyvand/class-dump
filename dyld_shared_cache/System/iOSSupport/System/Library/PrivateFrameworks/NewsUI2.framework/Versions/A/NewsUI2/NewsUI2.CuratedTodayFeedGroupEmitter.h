@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.CuratedTodayFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *knobs;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *todayFeedEngagementEventHandler;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *cloudContext;
+    id config;
+    id knobs;
+    id formatService;
+    id todayFeedEngagementEventHandler;
+    id featureAvailability;
+    id puzzleHistoryService;
+    id cloudContext;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.IssueLoader
 {
-    MISSING_TYPE *model;
-    MISSING_TYPE *issueManager;
+    id model;
+    id issueManager;
 }
 
 @end

@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ComponentsDataChunk
 {
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *classIndex;
-    MISSING_TYPE *scope;
-    MISSING_TYPE *unmanagedEntityClass;
-    MISSING_TYPE *storageLayout;
-    MISSING_TYPE *mutationID;
-    MISSING_TYPE *isActive;
-    MISSING_TYPE *isResizable;
-    MISSING_TYPE *data;
-    MISSING_TYPE *vm_data;
-    MISSING_TYPE *entityIndices;
-    MISSING_TYPE *handle;
-    MISSING_TYPE *filters;
-    MISSING_TYPE *_staticWorkerAffinity;
-    MISSING_TYPE *activeRange;
-    MISSING_TYPE *newlyCreatedLowerBound;
-    MISSING_TYPE *newlyDestroyedLowerBound;
-    MISSING_TYPE *worldBox;
-    MISSING_TYPE *worldBoxLastMutation;
-    MISSING_TYPE *lodMaxSquareDistance;
-    MISSING_TYPE *lodMaxSquareDistanceLastMutation;
-    MISSING_TYPE *_shortLivedLock;
-    MISSING_TYPE *_ownershipLock;
+    id entityManager;
+    id classIndex;
+    id scope;
+    id unmanagedEntityClass;
+    id storageLayout;
+    id mutationID;
+    id isActive;
+    id isResizable;
+    id data;
+    id vm_data;
+    id entityIndices;
+    id handle;
+    id filters;
+    id _staticWorkerAffinity;
+    id activeRange;
+    id newlyCreatedLowerBound;
+    id newlyDestroyedLowerBound;
+    id worldBox;
+    id worldBoxLastMutation;
+    id lodMaxSquareDistance;
+    id lodMaxSquareDistanceLastMutation;
+    id _shortLivedLock;
+    id _ownershipLock;
 }
 
 @end

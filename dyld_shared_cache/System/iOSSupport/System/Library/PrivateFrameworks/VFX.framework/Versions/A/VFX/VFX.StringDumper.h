@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.StringDumper
 {
-    MISSING_TYPE *string;
-    MISSING_TYPE *indent;
+    id string;
+    id indent;
 }
 
 @end

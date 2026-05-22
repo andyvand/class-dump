@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.TagMastheadViewProvider
 {
-    MISSING_TYPE *model;
-    MISSING_TYPE *parallaxX;
-    MISSING_TYPE *mastheadView;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *layoutAttributesFactory;
-    MISSING_TYPE *weatherService;
-    MISSING_TYPE *channelLocationService;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *margins;
-    MISSING_TYPE *weatherMonitor;
-    MISSING_TYPE *weather;
-    MISSING_TYPE *weatherToken;
-    MISSING_TYPE *weatherTask;
+    id model;
+    id parallaxX;
+    id mastheadView;
+    id renderer;
+    id layoutAttributesFactory;
+    id weatherService;
+    id channelLocationService;
+    id commandCenter;
+    id margins;
+    id weatherMonitor;
+    id weather;
+    id weatherToken;
+    id weatherTask;
 }
 
 - (void);

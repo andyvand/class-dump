@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleBottomPalettePluginProvider
 {
-    MISSING_TYPE *descriptors;
-    MISSING_TYPE *bottomPaletteStyler;
-    MISSING_TYPE *$__lazy_storage_$_viewController;
+    id descriptors;
+    id bottomPaletteStyler;
+    id $__lazy_storage_$_viewController;
 }
 
 @end

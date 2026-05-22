@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.LegacyParticleRenderSystem
 {
-    MISSING_TYPE *instanceStride;
-    MISSING_TYPE *colorStride;
-    MISSING_TYPE *frameIndex;
-    MISSING_TYPE *entityCount;
-    MISSING_TYPE *particleQuery;
+    id instanceStride;
+    id colorStride;
+    id frameIndex;
+    id entityCount;
+    id particleQuery;
 }
 
 @end

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.QueryNewsPlusAudioEngagementDonorProperty
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *lastAudioPlayedDate;
-    MISSING_TYPE *lastAudioPlayedFromInConversationsDate;
-    MISSING_TYPE *lastAudioPlayedFromBusinessDate;
-    MISSING_TYPE *lastDailyBriefingPlayedDate;
-    MISSING_TYPE *$__lazy_storage_$_inConversationsAudioTagID;
-    MISSING_TYPE *$__lazy_storage_$_businessAudioTagID;
-    MISSING_TYPE *configurationManager;
+    id id;
+    id configuration;
+    id lastAudioPlayedDate;
+    id lastAudioPlayedFromInConversationsDate;
+    id lastAudioPlayedFromBusinessDate;
+    id lastDailyBriefingPlayedDate;
+    id $__lazy_storage_$_inConversationsAudioTagID;
+    id $__lazy_storage_$_businessAudioTagID;
+    id configurationManager;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatLayoutTree
 {
-    MISSING_TYPE *_decorations;
-    MISSING_TYPE *_packages;
-    MISSING_TYPE *_selection;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *onDidTapTreeItem;
+    id _decorations;
+    id _packages;
+    id _selection;
+    id editor;
+    id onDidTapTreeItem;
 }
 
 @end

@@ -6,11 +6,9 @@
 
 #import <UIKitCore/_UISceneSafeAreaCornerInsetResolver.h>
 
-@class MISSING_TYPE;
-
 @interface _UISceneSafeAreaCornerInsetCompositeResolver : _UISceneSafeAreaCornerInsetResolver
 {
-    MISSING_TYPE *resolvers;
+    id resolvers;
 }
 
 + (_Bool)ÿvþoþ;

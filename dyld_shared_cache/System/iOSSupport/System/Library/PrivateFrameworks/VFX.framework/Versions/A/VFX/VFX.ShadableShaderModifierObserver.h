@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ShadableShaderModifierObserver
 {
-    MISSING_TYPE *shadable;
-    MISSING_TYPE *propertyCache;
+    id shadable;
+    id propertyCache;
 }
 
 - (void);

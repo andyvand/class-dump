@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.HomeManager
 {
-    MISSING_TYPE *manager;
-    MISSING_TYPE *serialQueue;
-    MISSING_TYPE *homeDelegate;
-    MISSING_TYPE *homeManagerDelegate;
-    MISSING_TYPE *helper;
-    MISSING_TYPE *homeRemoveCompleted;
+    id manager;
+    id serialQueue;
+    id homeDelegate;
+    id homeManagerDelegate;
+    id helper;
+    id homeRemoveCompleted;
 }
 
 - (void);

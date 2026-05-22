@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintViewportTransitionManager
 {
-    MISSING_TYPE *pluginManager;
-    MISSING_TYPE *parentViewController;
-    MISSING_TYPE *transitionManager;
+    id pluginManager;
+    id parentViewController;
+    id transitionManager;
 }
 
 @end

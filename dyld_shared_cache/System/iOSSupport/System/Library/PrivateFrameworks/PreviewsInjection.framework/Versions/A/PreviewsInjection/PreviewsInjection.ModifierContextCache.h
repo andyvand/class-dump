@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.ModifierContextCache
 {
-    MISSING_TYPE *contextTasks;
-    MISSING_TYPE *toCancelOnInvalidation;
+    id contextTasks;
+    id toCancelOnInvalidation;
 }
 
 @end

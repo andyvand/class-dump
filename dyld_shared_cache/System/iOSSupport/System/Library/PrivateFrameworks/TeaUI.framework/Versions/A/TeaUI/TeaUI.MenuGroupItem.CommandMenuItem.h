@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.MenuGroupItem.CommandMenuItem
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *command;
-    MISSING_TYPE *state;
-    MISSING_TYPE *keyInput;
-    MISSING_TYPE *keyModifierFlags;
-    MISSING_TYPE *execute;
-    MISSING_TYPE *determineState;
-    MISSING_TYPE *determineTitle;
-    MISSING_TYPE *determineSymbolName;
-    MISSING_TYPE *options;
-    MISSING_TYPE *canHandle;
-    MISSING_TYPE *alternate;
+    id identifier;
+    id command;
+    id state;
+    id keyInput;
+    id keyModifierFlags;
+    id execute;
+    id determineState;
+    id determineTitle;
+    id determineSymbolName;
+    id options;
+    id canHandle;
+    id alternate;
 }
 
 @end

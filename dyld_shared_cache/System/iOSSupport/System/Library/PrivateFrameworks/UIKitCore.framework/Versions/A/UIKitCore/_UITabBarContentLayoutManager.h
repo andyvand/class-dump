@@ -4,20 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView, _TtC5UIKit26_UITabBarAnimationSettings, _TtC5UIKit27_UITabHostedSearchContainer;
+@class UIKit._UITabBarAnimationSettings, UIKit._UITabHostedSearchContainer, UIView;
 @protocol _UITabBarContentLayoutHost;
 
 @interface _UITabBarContentLayoutManager
 {
     void host;
     void container;
-    MISSING_TYPE *currentDisplayState;
+    id currentDisplayState;
     _Bool needsAccessoryDisplayStateUpdate;
-    MISSING_TYPE *morphAnimation;
-    MISSING_TYPE *hostedSearchFieldConfiguration;
-    _TtC5UIKit27_UITabHostedSearchContainer *searchContainerView;
-    MISSING_TYPE *hostedAccessoryConfiguration;
-    MISSING_TYPE *accessoryContainerView;
+    id morphAnimation;
+    id hostedSearchFieldConfiguration;
+    UIKit._UITabHostedSearchContainer *searchContainerView;
+    id hostedAccessoryConfiguration;
+    id accessoryContainerView;
     double keyboardAdjustment;
     _Bool isUpdatingHostedElements;
     _Bool isAnimatingBottomAccessory;
@@ -76,7 +76,7 @@
 - (void)sÓt;
 
 // Remaining properties
-@property(nonatomic, readonly) _TtC5UIKit26_UITabBarAnimationSettings *animationSettings;
+@property(nonatomic, readonly) UIKit._UITabBarAnimationSettings *animationSettings;
 @property(nonatomic) __weak UIView *container; // @synthesize container;
 @property(nonatomic, readonly) id <_UITabBarContentLayoutHost> host; // @synthesize host;
 @property(nonatomic) _Bool isAnimatingBottomAccessory; // @synthesize isAnimatingBottomAccessory;
@@ -86,7 +86,7 @@
 @property(nonatomic) _Bool isUpdatingHostedElements; // @synthesize isUpdatingHostedElements;
 @property(nonatomic) double keyboardAdjustment; // @synthesize keyboardAdjustment;
 @property(nonatomic) _Bool needsAccessoryDisplayStateUpdate; // @synthesize needsAccessoryDisplayStateUpdate;
-@property(nonatomic, retain) _TtC5UIKit27_UITabHostedSearchContainer *searchContainerView; // @synthesize searchContainerView;
+@property(nonatomic, retain) UIKit._UITabHostedSearchContainer *searchContainerView; // @synthesize searchContainerView;
 @property(nonatomic, readonly) _Bool showsCancelAction;
 
 @end

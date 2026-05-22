@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeBoxSearchStore
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *lazyDatabase;
-    MISSING_TYPE *loadedTable;
-    MISSING_TYPE *secondaryLoadedTable;
+    id $defaultActor;
+    id lazyDatabase;
+    id loadedTable;
+    id secondaryLoadedTable;
 }
 
 @end

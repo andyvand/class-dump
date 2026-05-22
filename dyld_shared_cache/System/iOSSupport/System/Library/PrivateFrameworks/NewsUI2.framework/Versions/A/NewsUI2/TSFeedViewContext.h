@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSNumber, NSString, NSURL, TSAnalyticsReferral;
+@class NSNumber, NSString, NSURL, TSAnalyticsReferral;
 
 @interface TSFeedViewContext
 {
-    MISSING_TYPE *feedTagType;
-    MISSING_TYPE *openedFromNews;
+    id feedTagType;
+    id openedFromNews;
     NSNumber *presentationReason;
     NSNumber *feedPickerSection;
     NSNumber *feedPickerType;

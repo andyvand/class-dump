@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PresentationOperationManager
 {
-    MISSING_TYPE *presentationProcessingStatus;
-    MISSING_TYPE *bootstrapper;
-    MISSING_TYPE *registeredHandlers;
-    MISSING_TYPE *presentationOperations;
-    MISSING_TYPE *appLaunchCount;
-    MISSING_TYPE *disablePresentationProcessing;
-    MISSING_TYPE *presentationCount;
-    MISSING_TYPE *presentationAttempts;
-    MISSING_TYPE *retryCounts;
-    MISSING_TYPE *successfulPresentations;
-    MISSING_TYPE *launchPresentationConfigurationProvider;
-    MISSING_TYPE *dataStore;
-    MISSING_TYPE *launchConditionProvider;
-    MISSING_TYPE *didEnterBackground;
-    MISSING_TYPE *waitingForAppLaunch;
-    MISSING_TYPE *keyboardObserver;
-    MISSING_TYPE *keyboardIsHidden;
+    id presentationProcessingStatus;
+    id bootstrapper;
+    id registeredHandlers;
+    id presentationOperations;
+    id appLaunchCount;
+    id disablePresentationProcessing;
+    id presentationCount;
+    id presentationAttempts;
+    id retryCounts;
+    id successfulPresentations;
+    id launchPresentationConfigurationProvider;
+    id dataStore;
+    id launchConditionProvider;
+    id didEnterBackground;
+    id waitingForAppLaunch;
+    id keyboardObserver;
+    id keyboardIsHidden;
 }
 
 @end

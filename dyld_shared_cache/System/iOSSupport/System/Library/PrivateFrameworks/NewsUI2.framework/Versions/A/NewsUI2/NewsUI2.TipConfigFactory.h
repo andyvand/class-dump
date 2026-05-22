@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TipConfigFactory
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *bundleSubscriptionDetectionManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *gameCenterService;
-    MISSING_TYPE *maxPuzzleLeaderboardsInfoBubbleTipPresentations;
-    MISSING_TYPE *tipGroupFactory;
+    id appConfigurationManager;
+    id featureAvailability;
+    id userInfo;
+    id subscriptionController;
+    id bundleSubscriptionDetectionManager;
+    id bundleSubscriptionManager;
+    id gameCenterService;
+    id maxPuzzleLeaderboardsInfoBubbleTipPresentations;
+    id tipGroupFactory;
 }
 
 @end

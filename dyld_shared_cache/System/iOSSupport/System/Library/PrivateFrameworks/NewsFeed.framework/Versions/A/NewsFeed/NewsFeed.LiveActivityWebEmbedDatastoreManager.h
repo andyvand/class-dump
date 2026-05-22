@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.LiveActivityWebEmbedDatastoreManager
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *liveActivityManager;
-    MISSING_TYPE *updateQueue;
-    MISSING_TYPE *store;
+    id observers;
+    id liveActivityManager;
+    id updateQueue;
+    id store;
 }
 
 @end

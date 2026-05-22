@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFeaturePromotionCommandHandler
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *sceneProvider;
+    id resolver;
+    id sceneProvider;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.InAppNotificationViewController
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *transitionController;
-    MISSING_TYPE *onSizeChange;
-    MISSING_TYPE *onDragStart;
-    MISSING_TYPE *onDragEnd;
-    MISSING_TYPE *size;
+    id controller;
+    id transitionController;
+    id onSizeChange;
+    id onDragStart;
+    id onDragEnd;
+    id size;
 }
 
 - (id);

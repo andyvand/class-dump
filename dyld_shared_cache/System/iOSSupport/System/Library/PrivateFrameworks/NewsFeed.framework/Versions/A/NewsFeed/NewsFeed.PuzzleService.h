@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleService
 {
-    MISSING_TYPE *puzzleDataDirectory;
-    MISSING_TYPE *puzzleDataFileExtension;
-    MISSING_TYPE *puzzleType;
-    MISSING_TYPE *puzzleController;
-    MISSING_TYPE *puzzleTypeController;
-    MISSING_TYPE *resourceService;
-    MISSING_TYPE *webArchiveService;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *cachedLatestPublishedPuzzleIDs;
-    MISSING_TYPE *cachedLatestPublishedPuzzlesDate;
+    id puzzleDataDirectory;
+    id puzzleDataFileExtension;
+    id puzzleType;
+    id puzzleController;
+    id puzzleTypeController;
+    id resourceService;
+    id webArchiveService;
+    id appConfigurationManager;
+    id lock;
+    id cachedLatestPublishedPuzzleIDs;
+    id cachedLatestPublishedPuzzlesDate;
 }
 
 @end

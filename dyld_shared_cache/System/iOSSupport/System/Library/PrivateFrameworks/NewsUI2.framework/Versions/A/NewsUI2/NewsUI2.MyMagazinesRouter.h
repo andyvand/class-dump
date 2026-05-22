@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyMagazinesRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *magazineMoreActionsFactory;
+    id controller;
+    id resolver;
+    id tracker;
+    id navigator;
+    id magazineMoreActionsFactory;
 }
 
 @end

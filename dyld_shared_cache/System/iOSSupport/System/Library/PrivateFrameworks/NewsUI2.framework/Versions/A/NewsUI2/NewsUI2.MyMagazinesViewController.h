@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyMagazinesViewController
 {
-    MISSING_TYPE *isBeingUsedAsPlugin;
-    MISSING_TYPE *pluggableDelegate;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *blueprintLayoutProvider;
-    MISSING_TYPE *offlineAlertControllerFactory;
-    MISSING_TYPE *lastComputedSize;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *blueprintHorizontalShimView;
+    id isBeingUsedAsPlugin;
+    id pluggableDelegate;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id blueprintLayoutProvider;
+    id offlineAlertControllerFactory;
+    id lastComputedSize;
+    id eventManager;
+    id blueprintHorizontalShimView;
 }
 
 - (void);

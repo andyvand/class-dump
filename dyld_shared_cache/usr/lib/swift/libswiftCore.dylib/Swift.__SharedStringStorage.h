@@ -6,15 +6,13 @@
 
 #import <swiftCore/Swift.__SwiftNativeNSString.h>
 
-@class MISSING_TYPE;
-
 @interface Swift.__SharedStringStorage : Swift.__SwiftNativeNSString
 {
-    MISSING_TYPE *_owner;
-    MISSING_TYPE *start;
-    MISSING_TYPE *_countAndFlags;
-    MISSING_TYPE *_breadcrumbs;
-    MISSING_TYPE *immortal;
+    id _owner;
+    id start;
+    id _countAndFlags;
+    id _breadcrumbs;
+    id immortal;
 }
 
 - (unsigned long long);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SLHighlightPillMetrics
 {
-    MISSING_TYPE *metrics;
-    MISSING_TYPE *style;
-    MISSING_TYPE *tag;
-    MISSING_TYPE *variant;
-    MISSING_TYPE *$__lazy_storage_$_pillMetrics;
+    id metrics;
+    id style;
+    id tag;
+    id variant;
+    id $__lazy_storage_$_pillMetrics;
 }
 
 + (const struct __CTLine *);

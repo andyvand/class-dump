@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineSectionBarBlueprintViewCellProvider
 {
-    MISSING_TYPE *pillViewRenderer;
-    MISSING_TYPE *sectionSelection;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *unavailableItemAlpha;
+    id pillViewRenderer;
+    id sectionSelection;
+    id offlineProvider;
+    id unavailableItemAlpha;
 }
 
 @end

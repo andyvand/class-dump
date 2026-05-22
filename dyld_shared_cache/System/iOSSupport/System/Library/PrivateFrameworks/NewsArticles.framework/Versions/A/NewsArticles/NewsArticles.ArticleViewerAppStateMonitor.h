@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleViewerAppStateMonitor
 {
-    MISSING_TYPE *onForegroundClosures;
-    MISSING_TYPE *onEnterBackgroundClosures;
-    MISSING_TYPE *onWindowForegroundClosures;
-    MISSING_TYPE *onWindowBackgroundClosures;
+    id onForegroundClosures;
+    id onEnterBackgroundClosures;
+    id onWindowForegroundClosures;
+    id onWindowBackgroundClosures;
 }
 
 - (id);

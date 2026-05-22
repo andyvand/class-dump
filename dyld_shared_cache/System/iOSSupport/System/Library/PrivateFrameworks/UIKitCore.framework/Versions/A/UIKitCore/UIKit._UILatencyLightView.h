@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIKit._UISoftOutlineView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UILatencyLightView : UIKit._UISoftOutlineView
 {
-    MISSING_TYPE *emitterMaskView;
+    id emitterMaskView;
 }
 
 - (id);

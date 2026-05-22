@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.HeadlineModel
 {
-    MISSING_TYPE *headline;
-    MISSING_TYPE *audioTrack;
-    MISSING_TYPE *likedState;
-    MISSING_TYPE *savedState;
-    MISSING_TYPE *sharedState;
-    MISSING_TYPE *offensiveState;
-    MISSING_TYPE *draggableState;
-    MISSING_TYPE *accessLevel;
-    MISSING_TYPE *deletedState;
-    MISSING_TYPE *nativeAdInfo;
-    MISSING_TYPE *blockedState;
-    MISSING_TYPE *premiumBadge;
-    MISSING_TYPE *liveState;
+    id headline;
+    id audioTrack;
+    id likedState;
+    id savedState;
+    id sharedState;
+    id offensiveState;
+    id draggableState;
+    id accessLevel;
+    id deletedState;
+    id nativeAdInfo;
+    id blockedState;
+    id premiumBadge;
+    id liveState;
 }
 
 @end

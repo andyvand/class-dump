@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.HeadlineModelFactory
 {
-    MISSING_TYPE *likeStateProvider;
-    MISSING_TYPE *savedStateProvider;
-    MISSING_TYPE *sharedStateProvider;
-    MISSING_TYPE *offensiveStateProvider;
-    MISSING_TYPE *draggableStateProvider;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *deletedStatusProvider;
-    MISSING_TYPE *blockedStatusProvider;
-    MISSING_TYPE *feedContextFactory;
-    MISSING_TYPE *appConfigManager;
+    id likeStateProvider;
+    id savedStateProvider;
+    id sharedStateProvider;
+    id offensiveStateProvider;
+    id draggableStateProvider;
+    id paidAccessChecker;
+    id deletedStatusProvider;
+    id blockedStatusProvider;
+    id feedContextFactory;
+    id appConfigManager;
 }
 
 @end

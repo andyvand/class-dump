@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.VirtualCardPublisher
 {
-    MISSING_TYPE *_currentStep;
-    MISSING_TYPE *_hasRegenerated;
-    MISSING_TYPE *_fatalError;
-    MISSING_TYPE *_recoverableError;
-    MISSING_TYPE *pass;
-    MISSING_TYPE *virtualCard;
-    MISSING_TYPE *credentials;
-    MISSING_TYPE *virtualCardManager;
-    MISSING_TYPE *paymentService;
-    MISSING_TYPE *context;
-    MISSING_TYPE *loading;
+    id _currentStep;
+    id _hasRegenerated;
+    id _fatalError;
+    id _recoverableError;
+    id pass;
+    id virtualCard;
+    id credentials;
+    id virtualCardManager;
+    id paymentService;
+    id context;
+    id loading;
 }
 
 @end

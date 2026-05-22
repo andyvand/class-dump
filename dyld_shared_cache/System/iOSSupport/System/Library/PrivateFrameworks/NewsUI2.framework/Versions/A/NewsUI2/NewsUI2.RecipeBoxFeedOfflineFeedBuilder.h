@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeBoxFeedOfflineFeedBuilder
 {
-    MISSING_TYPE *builder;
-    MISSING_TYPE *recipeFilterConfigManager;
+    id builder;
+    id recipeFilterConfigManager;
 }
 
 @end

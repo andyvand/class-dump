@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatButtonNodeDataLayoutAttributes
 {
-    MISSING_TYPE *layoutAttributes;
-    MISSING_TYPE *stateMaskLayoutAttributes;
-    MISSING_TYPE *resizing;
-    MISSING_TYPE *zIndex;
-    MISSING_TYPE *visibility;
-    MISSING_TYPE *isUserInteractionEnabled;
-    MISSING_TYPE *accessibilityRole;
-    MISSING_TYPE *name;
+    id layoutAttributes;
+    id stateMaskLayoutAttributes;
+    id resizing;
+    id zIndex;
+    id visibility;
+    id isUserInteractionEnabled;
+    id accessibilityRole;
+    id name;
 }
 
 @end

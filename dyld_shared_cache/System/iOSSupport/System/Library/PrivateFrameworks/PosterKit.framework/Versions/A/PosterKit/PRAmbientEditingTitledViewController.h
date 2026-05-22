@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol PRAmbientEditingTitledViewControllerDelegate;
 
 @interface PRAmbientEditingTitledViewController
 {
-    MISSING_TYPE *contentViewController;
+    id contentViewController;
     void delegate;
-    MISSING_TYPE *_titleLabel;
-    MISSING_TYPE *_closeButton;
+    id _titleLabel;
+    id _closeButton;
 }
 
 - (id);

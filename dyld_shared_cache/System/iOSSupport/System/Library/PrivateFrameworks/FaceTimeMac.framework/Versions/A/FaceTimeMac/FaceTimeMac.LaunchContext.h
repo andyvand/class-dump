@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.LaunchContext
 {
-    MISSING_TYPE *openUrl;
-    MISSING_TYPE *launchedByNotification;
-    MISSING_TYPE *launchedByUserActivity;
-    MISSING_TYPE *launchedToTest;
+    id openUrl;
+    id launchedByNotification;
+    id launchedByUserActivity;
+    id launchedToTest;
 }
 
 @end

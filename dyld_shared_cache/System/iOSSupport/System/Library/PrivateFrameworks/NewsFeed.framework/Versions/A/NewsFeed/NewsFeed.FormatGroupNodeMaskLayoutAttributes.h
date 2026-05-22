@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatGroupNodeMaskLayoutAttributes
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *renderKeyIdentifier;
-    MISSING_TYPE *bounds;
-    MISSING_TYPE *style;
-    MISSING_TYPE *animation;
+    id identifier;
+    id renderKeyIdentifier;
+    id bounds;
+    id style;
+    id animation;
 }
 
 @end

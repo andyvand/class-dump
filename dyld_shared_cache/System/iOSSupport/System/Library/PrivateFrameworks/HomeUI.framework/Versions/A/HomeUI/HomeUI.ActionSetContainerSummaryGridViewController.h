@@ -6,14 +6,12 @@
 
 #import <HomeUI/HUControllableItemCollectionViewController.h>
 
-@class MISSING_TYPE;
-
 @interface HomeUI.ActionSetContainerSummaryGridViewController : HUControllableItemCollectionViewController
 {
-    MISSING_TYPE *module;
-    MISSING_TYPE *moduleController;
-    MISSING_TYPE *sceneEditorMode;
-    MISSING_TYPE *actionSetGridConfig;
+    id module;
+    id moduleController;
+    id sceneEditorMode;
+    id actionSetGridConfig;
 }
 
 - (unsigned long long);

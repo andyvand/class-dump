@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.AudioCallSplitCallMoreMenuViewModel
 {
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *conferenceParticipantCalls;
+    id callCenter;
+    id conferenceParticipantCalls;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OnboardingAdsLocationServicesStep
 {
-    MISSING_TYPE *viewControllerProvider;
-    MISSING_TYPE *continueAction;
-    MISSING_TYPE *manageAction;
-    MISSING_TYPE *lazyShouldShow;
+    id viewControllerProvider;
+    id continueAction;
+    id manageAction;
+    id lazyShouldShow;
 }
 
 @end

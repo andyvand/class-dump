@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleEmbedUpdateSettingsMessageHandler
 {
-    MISSING_TYPE *scriptsManager;
-    MISSING_TYPE *delegate;
+    id scriptsManager;
+    id delegate;
 }
 
 - (void);

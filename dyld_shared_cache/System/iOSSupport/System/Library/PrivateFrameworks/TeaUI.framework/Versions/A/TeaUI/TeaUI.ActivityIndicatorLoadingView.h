@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ActivityIndicatorLoadingView
 {
-    MISSING_TYPE *activityIndicatorView;
-    MISSING_TYPE *label;
-    MISSING_TYPE *keyboardInfo;
-    MISSING_TYPE *overrideColor;
+    id activityIndicatorView;
+    id label;
+    id keyboardInfo;
+    id overrideColor;
 }
 
 - (id);

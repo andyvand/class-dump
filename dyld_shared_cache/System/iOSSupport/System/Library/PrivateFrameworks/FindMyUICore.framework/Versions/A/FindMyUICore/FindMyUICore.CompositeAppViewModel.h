@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.CompositeAppViewModel
 {
-    MISSING_TYPE *repositoryFactory;
-    MISSING_TYPE *sourceBundleId;
-    MISSING_TYPE *subscriber;
-    MISSING_TYPE *internalRepository;
-    MISSING_TYPE *initialInfo;
-    MISSING_TYPE *didSelectSendLocationMessageHandler;
-    MISSING_TYPE *didSelectSendStaticLocationMessageHandler;
-    MISSING_TYPE *didSelectStopSharingHandler;
-    MISSING_TYPE *tintColorDidInvalidateHandler;
-    MISSING_TYPE *dismiss;
-    MISSING_TYPE *stillWantsToSubscribe;
-    MISSING_TYPE *cancellables;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_recentlyLoaded;
-    MISSING_TYPE *lastUpdatedTintColor;
+    id repositoryFactory;
+    id sourceBundleId;
+    id subscriber;
+    id internalRepository;
+    id initialInfo;
+    id didSelectSendLocationMessageHandler;
+    id didSelectSendStaticLocationMessageHandler;
+    id didSelectStopSharingHandler;
+    id tintColorDidInvalidateHandler;
+    id dismiss;
+    id stillWantsToSubscribe;
+    id cancellables;
+    id _state;
+    id _recentlyLoaded;
+    id lastUpdatedTintColor;
 }
 
 @end

@@ -4,48 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedGroupEmitterFactory
 {
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *paywallFactory;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *weatherService;
-    MISSING_TYPE *channelLocationService;
-    MISSING_TYPE *channelPersonalizer;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *sportsTopicClusteringService;
-    MISSING_TYPE *sportsGraphManager;
-    MISSING_TYPE *sportsScoreSectionService;
-    MISSING_TYPE *tagHighlightsService;
-    MISSING_TYPE *sportsFavoritesService;
-    MISSING_TYPE *webEmbedDataSourceManager;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *promotedHeadlineService;
-    MISSING_TYPE *sportsScoreSorter;
-    MISSING_TYPE *sportsEmbedConfigurationManager;
-    MISSING_TYPE *sportsNavigationTitleStringBuilder;
-    MISSING_TYPE *tagFeedCurationService;
-    MISSING_TYPE *sportsRecommendationManager;
-    MISSING_TYPE *latestPuzzleProvider;
-    MISSING_TYPE *puzzleArchiveService;
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *mySportsTagService;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *puzzleArchiveFilterOptionsManager;
-    MISSING_TYPE *sportsConfiguringDataService;
-    MISSING_TYPE *foodClusteringService;
-    MISSING_TYPE *adSponsorshipService;
-    MISSING_TYPE *articleForYouAvailability;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *issueService;
-    MISSING_TYPE *magazineCategoryConfigService;
+    id featureAvailability;
+    id paywallFactory;
+    id formatService;
+    id weatherService;
+    id channelLocationService;
+    id channelPersonalizer;
+    id tagService;
+    id personalizationService;
+    id sportsDataService;
+    id sportsTopicClusteringService;
+    id sportsGraphManager;
+    id sportsScoreSectionService;
+    id tagHighlightsService;
+    id sportsFavoritesService;
+    id webEmbedDataSourceManager;
+    id headlineService;
+    id promotedHeadlineService;
+    id sportsScoreSorter;
+    id sportsEmbedConfigurationManager;
+    id sportsNavigationTitleStringBuilder;
+    id tagFeedCurationService;
+    id sportsRecommendationManager;
+    id latestPuzzleProvider;
+    id puzzleArchiveService;
+    id puzzleStatsService;
+    id puzzleService;
+    id mySportsTagService;
+    id cloudContext;
+    id feedPersonalizer;
+    id puzzleArchiveFilterOptionsManager;
+    id sportsConfiguringDataService;
+    id foodClusteringService;
+    id adSponsorshipService;
+    id articleForYouAvailability;
+    id recipeService;
+    id offerManager;
+    id issueService;
+    id magazineCategoryConfigService;
 }
 
 @end

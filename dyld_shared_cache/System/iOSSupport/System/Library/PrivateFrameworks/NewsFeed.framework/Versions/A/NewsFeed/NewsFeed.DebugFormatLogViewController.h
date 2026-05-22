@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatLogViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *consolePaneDisplayController;
-    MISSING_TYPE *entries;
-    MISSING_TYPE *unfilteredEntries;
-    MISSING_TYPE *filter;
-    MISSING_TYPE *$__lazy_storage_$_nowBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_clearLogBarButtonItem;
-    MISSING_TYPE *searchBar;
-    MISSING_TYPE *throttler;
+    id editor;
+    id styler;
+    id tableView;
+    id consolePaneDisplayController;
+    id entries;
+    id unfilteredEntries;
+    id filter;
+    id $__lazy_storage_$_nowBarButtonItem;
+    id $__lazy_storage_$_clearLogBarButtonItem;
+    id searchBar;
+    id throttler;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ShazamKitUI.MatchingFlowViewModel
 {
-    MISSING_TYPE *_state;
-    MISSING_TYPE *sizeUpdatedHandler;
-    MISSING_TYPE *cancellationHandler;
+    id _state;
+    id sizeUpdatedHandler;
+    id cancellationHandler;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TitleViewRenderer
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *moreButtonRenderer;
+    id styler;
+    id moreButtonRenderer;
 }
 
 @end

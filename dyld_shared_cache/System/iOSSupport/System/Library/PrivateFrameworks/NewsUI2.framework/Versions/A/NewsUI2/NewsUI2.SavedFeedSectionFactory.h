@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SavedFeedSectionFactory
 {
-    MISSING_TYPE *engagementInlineViewManager;
-    MISSING_TYPE *headlineModelFactory;
-    MISSING_TYPE *tagService;
+    id engagementInlineViewManager;
+    id headlineModelFactory;
+    id tagService;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.VideoPlaceholderView
 {
-    MISSING_TYPE *$__lazy_storage_$_imageView;
-    MISSING_TYPE *label;
-    MISSING_TYPE *$__lazy_storage_$_blurView;
-    MISSING_TYPE *$__lazy_storage_$_vibrancyView;
+    id $__lazy_storage_$_imageView;
+    id label;
+    id $__lazy_storage_$_blurView;
+    id $__lazy_storage_$_vibrancyView;
 }
 
 - (id);

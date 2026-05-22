@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMNicknameProvider_Impl
 {
-    MISSING_TYPE *listener;
-    MISSING_TYPE *daemonConnection;
-    MISSING_TYPE *nicknameController;
+    id listener;
+    id daemonConnection;
+    id nicknameController;
 }
 
 - (void);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeArticleDrawerViewController
 {
-    MISSING_TYPE *recipeArticleDrawerViewController;
-    MISSING_TYPE *baseStyler;
-    MISSING_TYPE *model;
-    MISSING_TYPE *router;
+    id recipeArticleDrawerViewController;
+    id baseStyler;
+    id model;
+    id router;
 }
 
 - (void);

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PXGMetalRecordingFrameStartEventSerializable
 {
     double _screenScale;
     struct CGSize _viewSize;
-    MISSING_TYPE *_renderOrigin;
+    id _renderOrigin;
 }
 
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (id);
 - (struct CGSize);
@@ -23,7 +21,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *renderOrigin; // @synthesize renderOrigin=_renderOrigin;
+@property(nonatomic) id renderOrigin; // @synthesize renderOrigin=_renderOrigin;
 @property(nonatomic) double screenScale; // @synthesize screenScale=_screenScale;
 @property(nonatomic) struct CGSize viewSize; // @synthesize viewSize=_viewSize;
 

@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSDictionary, NSString;
-@protocol _TtP9WeatherUI22PreferencePaneDelegate_;
+@class NSArray, NSDictionary, NSString;
+@protocol WeatherUI.PreferencePaneDelegate;
 
 @interface WeatherUI.PreferencePane
 {
-    MISSING_TYPE *_name;
-    MISSING_TYPE *_panes;
+    id _name;
+    id _panes;
     unsigned int changeSequence;
     void sliders;
     void toggles;
@@ -20,7 +20,7 @@
     void defaultPickersSelections;
     void pickerOptions;
     void delegate;
-    MISSING_TYPE *userDefaults;
+    id userDefaults;
 }
 
 + (id);
@@ -62,7 +62,7 @@
 @property(nonatomic, copy) NSDictionary *defaultPickersSelections;
 @property(nonatomic, copy) NSDictionary *defaultSliders;
 @property(nonatomic, copy) NSDictionary *defaultToggles;
-@property(nonatomic) __weak id <_TtP9WeatherUI22PreferencePaneDelegate_> delegate; // @synthesize delegate;
+@property(nonatomic) __weak id <WeatherUI.PreferencePaneDelegate> delegate; // @synthesize delegate;
 @property(nonatomic, copy) NSString *name;
 @property(nonatomic, copy) NSArray *panes;
 @property(nonatomic, copy) NSDictionary *pickerOptions;

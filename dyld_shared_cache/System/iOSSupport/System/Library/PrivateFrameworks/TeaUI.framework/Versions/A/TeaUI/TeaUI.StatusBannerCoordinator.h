@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.StatusBannerCoordinator
 {
-    MISSING_TYPE *rootViewController;
-    MISSING_TYPE *stagedTitleView;
-    MISSING_TYPE *stagedSearchController;
-    MISSING_TYPE *lazyBanner;
-    MISSING_TYPE *statusBannerVisibility;
+    id rootViewController;
+    id stagedTitleView;
+    id stagedSearchController;
+    id lazyBanner;
+    id statusBannerVisibility;
 }
 
 @end

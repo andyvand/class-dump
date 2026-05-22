@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleStreakBackgroundWorkerManager
 {
-    MISSING_TYPE *backgroundFetchManager;
-    MISSING_TYPE *workerFactory;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *registeredWorkers;
+    id backgroundFetchManager;
+    id workerFactory;
+    id bundleSubscriptionManager;
+    id registeredWorkers;
 }
 
 - (void);

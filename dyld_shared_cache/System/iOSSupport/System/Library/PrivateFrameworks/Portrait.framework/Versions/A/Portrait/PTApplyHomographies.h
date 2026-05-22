@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, MTLRenderPassDescriptor, MTLSharedEventListener, NSObject, PTColorConversion, PTMetalContext;
+@class MTLRenderPassDescriptor, MTLSharedEventListener, NSObject, PTColorConversion, PTMetalContext;
 @protocol MTLBuffer, MTLRenderPipelineState, MTLSharedEvent, MTLTexture, OS_dispatch_semaphore;
 
 @interface PTApplyHomographies
@@ -25,7 +25,7 @@
     unsigned long long _indexCountHomography;
     int _numberOfColsOverscan;
     int _numberOfRowsOverscan;
-    MISSING_TYPE *_inputColorSize;
+    id _inputColorSize;
     _Bool _showGrid;
     _Bool _showVirtualCrop;
     id <MTLRenderPipelineState> _renderPipelineState;

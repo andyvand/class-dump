@@ -6,13 +6,13 @@
 
 #import <HomeUI/HUItemTableOBWelcomeController.h>
 
-@class HUUtilityOnboardingConnectionTableViewController, NSString, NSTimer, _TtC6HomeUI24UtilityOnboardingContext;
+@class HUUtilityOnboardingConnectionTableViewController, HomeUI.UtilityOnboardingContext, NSString, NSTimer;
 @protocol HUConfigurationViewControllerDelegate;
 
 @interface HUUtilityOnboardingConnectionViewController : HUItemTableOBWelcomeController
 {
     id <HUConfigurationViewControllerDelegate> _delegate;
-    _TtC6HomeUI24UtilityOnboardingContext *_onboardingContext;
+    HomeUI.UtilityOnboardingContext *_onboardingContext;
     HUUtilityOnboardingConnectionTableViewController *_tableView;
     NSTimer *_autoDismissTimer;
 }
@@ -48,7 +48,7 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,N
 
-@property(retain, nonatomic) _TtC6HomeUI24UtilityOnboardingContext *onboardingContext; // @synthesize onboardingContext=_onboardingContext;
+@property(retain, nonatomic) HomeUI.UtilityOnboardingContext *onboardingContext; // @synthesize onboardingContext=_onboardingContext;
 @property(readonly) Class superclass;
 @property(retain, nonatomic) HUUtilityOnboardingConnectionTableViewController *tableView; // @synthesize tableView=_tableView;
 

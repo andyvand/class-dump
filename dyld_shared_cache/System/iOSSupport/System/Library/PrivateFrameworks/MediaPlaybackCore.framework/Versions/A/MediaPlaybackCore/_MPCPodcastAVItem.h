@@ -6,33 +6,33 @@
 
 #import <MediaPlaybackCore/MPCModelGenericAVItem.h>
 
-@class MISSING_TYPE, MPCAudioAssetTypeSelection, MPModelGenericObject, NSArray, NSDate, NSString;
+@class MPCAudioAssetTypeSelection, MPModelGenericObject, NSArray, NSDate, NSString;
 
 __attribute__((visibility("hidden")))
 @interface _MPCPodcastAVItem : MPCModelGenericAVItem
 {
-    MISSING_TYPE *internalItem;
-    MISSING_TYPE *createdTimestamp;
-    MISSING_TYPE *serviceIdentifier;
-    MISSING_TYPE *assetFactory;
-    MISSING_TYPE *fairPlayKeySession;
-    MISSING_TYPE *$__lazy_storage_$_fairPlayKeyLoader;
-    MISSING_TYPE *chapterLoadingState;
-    MISSING_TYPE *shouldShowChapterArtwork;
-    MISSING_TYPE *$__lazy_storage_$_enhanceDialogueSession;
+    id internalItem;
+    id createdTimestamp;
+    id serviceIdentifier;
+    id assetFactory;
+    id fairPlayKeySession;
+    id $__lazy_storage_$_fairPlayKeyLoader;
+    id chapterLoadingState;
+    id shouldShowChapterArtwork;
+    id $__lazy_storage_$_enhanceDialogueSession;
     float preferredPlaybackRate;
-    MISSING_TYPE *$__lazy_storage_$_chapterProvider;
-    MISSING_TYPE *_chapters;
-    MISSING_TYPE *areChaptersGenerated;
-    MISSING_TYPE *assetMediaKinds;
-    MISSING_TYPE *playbackInformationProviding;
-    MISSING_TYPE *url;
-    MISSING_TYPE *playbackContext;
-    MISSING_TYPE *queueType;
-    MISSING_TYPE *transcriptAlignments;
+    id $__lazy_storage_$_chapterProvider;
+    id _chapters;
+    id areChaptersGenerated;
+    id assetMediaKinds;
+    id playbackInformationProviding;
+    id url;
+    id playbackContext;
+    id queueType;
+    id transcriptAlignments;
     _Bool useFallbackAsset;
-    MISSING_TYPE *isAssetAndPlayerItemLoaded;
-    MISSING_TYPE *loadAssetAndPlayerItemTask;
+    id isAssetAndPlayerItemLoaded;
+    id loadAssetAndPlayerItemTask;
 }
 
 - (_Bool);

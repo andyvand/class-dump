@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDebuggerSourceMetricContext
 {
-    MISSING_TYPE *buildRecords;
-    MISSING_TYPE *buildRecordsBySourceFile;
-    MISSING_TYPE *bindRecords;
-    MISSING_TYPE *bindRecordsBySourceFile;
+    id buildRecords;
+    id buildRecordsBySourceFile;
+    id bindRecords;
+    id bindRecordsBySourceFile;
 }
 
 @end

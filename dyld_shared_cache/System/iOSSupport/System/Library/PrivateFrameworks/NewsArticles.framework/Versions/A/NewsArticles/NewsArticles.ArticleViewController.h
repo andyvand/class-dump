@@ -4,53 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleViewController
 {
-    MISSING_TYPE *model;
-    MISSING_TYPE *observableScrollView;
-    MISSING_TYPE *isImpressionable;
-    MISSING_TYPE *pageDelegate;
-    MISSING_TYPE *contentBackgroundColor;
-    MISSING_TYPE *headline;
-    MISSING_TYPE *mastheadPluginProvider;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *articleViewController;
-    MISSING_TYPE *mastheadViewController;
-    MISSING_TYPE *presentationContext;
-    MISSING_TYPE *articleGroupData;
-    MISSING_TYPE *keyCommandManager;
-    MISSING_TYPE *documentSectionBlueprintProvider;
-    MISSING_TYPE *hardPaywallViewController;
-    MISSING_TYPE *footerProvider;
-    MISSING_TYPE *footers;
-    MISSING_TYPE *headerProvider;
-    MISSING_TYPE *headers;
-    MISSING_TYPE *urlHandler;
-    MISSING_TYPE *paywallPreparationEventManager;
-    MISSING_TYPE *destinationViewSize;
-    MISSING_TYPE *viewingSessionID;
-    MISSING_TYPE *scrollDebounce;
-    MISSING_TYPE *commands;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *keyboardInputMonitor;
-    MISSING_TYPE *didDisappearCompletions;
-    MISSING_TYPE *completedReadingDebouncer;
-    MISSING_TYPE *multiDelegate;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *spaceKeyCommand;
-    MISSING_TYPE *shiftSpaceKeyCommand;
-    MISSING_TYPE *spaceKeyCommandsRegistered;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *scrollViewProxyManager;
-    MISSING_TYPE *tagMastheadProvider;
-    MISSING_TYPE *endOfArticleSectionDidLayout;
-    MISSING_TYPE *liveCoverageState;
-    MISSING_TYPE *parallaxX;
-    MISSING_TYPE *lastSafeAreaInsets;
+    id model;
+    id observableScrollView;
+    id isImpressionable;
+    id pageDelegate;
+    id contentBackgroundColor;
+    id headline;
+    id mastheadPluginProvider;
+    id styler;
+    id eventHandler;
+    id articleViewController;
+    id mastheadViewController;
+    id presentationContext;
+    id articleGroupData;
+    id keyCommandManager;
+    id documentSectionBlueprintProvider;
+    id hardPaywallViewController;
+    id footerProvider;
+    id footers;
+    id headerProvider;
+    id headers;
+    id urlHandler;
+    id paywallPreparationEventManager;
+    id destinationViewSize;
+    id viewingSessionID;
+    id scrollDebounce;
+    id commands;
+    id coverViewManager;
+    id keyboardInputMonitor;
+    id didDisappearCompletions;
+    id completedReadingDebouncer;
+    id multiDelegate;
+    id offlineManager;
+    id featureAvailability;
+    id spaceKeyCommand;
+    id shiftSpaceKeyCommand;
+    id spaceKeyCommandsRegistered;
+    id appConfigurationManager;
+    id scrollViewProxyManager;
+    id tagMastheadProvider;
+    id endOfArticleSectionDidLayout;
+    id liveCoverageState;
+    id parallaxX;
+    id lastSafeAreaInsets;
 }
 
 - (void);

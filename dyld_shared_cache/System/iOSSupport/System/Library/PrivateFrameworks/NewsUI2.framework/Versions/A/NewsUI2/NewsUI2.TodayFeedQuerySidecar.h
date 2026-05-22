@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayFeedQuerySidecar
 {
-    MISSING_TYPE *tagController;
-    MISSING_TYPE *localChannelsProvider;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *todayServiceConfig;
-    MISSING_TYPE *$__lazy_storage_$_localNewsChannelIDs;
-    MISSING_TYPE *$__lazy_storage_$_newspaperChannelIDs;
-    MISSING_TYPE *$__lazy_storage_$_introToSportsTopicIDs;
+    id tagController;
+    id localChannelsProvider;
+    id paidAccessChecker;
+    id todayServiceConfig;
+    id $__lazy_storage_$_localNewsChannelIDs;
+    id $__lazy_storage_$_newspaperChannelIDs;
+    id $__lazy_storage_$_introToSportsTopicIDs;
 }
 
 - (_Bool);

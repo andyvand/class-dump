@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SwipeActionAnimationDelegate
 {
-    MISSING_TYPE *swipeState;
-    MISSING_TYPE *completion;
+    id swipeState;
+    id completion;
 }
 
 - (id);

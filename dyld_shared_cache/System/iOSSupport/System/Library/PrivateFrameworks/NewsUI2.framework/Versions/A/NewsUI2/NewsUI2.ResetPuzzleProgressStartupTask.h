@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ResetPuzzleProgressStartupTask
 {
-    MISSING_TYPE *executionPhase;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *puzzleStatsStateStore;
+    id executionPhase;
+    id puzzleHistoryService;
+    id puzzleStatsStateStore;
 }
 
 @end

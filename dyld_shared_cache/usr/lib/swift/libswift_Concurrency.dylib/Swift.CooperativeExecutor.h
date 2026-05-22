@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface Swift.CooperativeExecutor
 {
-    MISSING_TYPE *runQueue;
-    MISSING_TYPE *suspendingWaitQueue;
-    MISSING_TYPE *continuousWaitQueue;
-    MISSING_TYPE *shouldStop;
+    id runQueue;
+    id suspendingWaitQueue;
+    id continuousWaitQueue;
+    id shouldStop;
 }
 
 @end

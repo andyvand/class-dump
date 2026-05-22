@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.MPCMigrationData
 {
-    MISSING_TYPE *queueController;
-    MISSING_TYPE *playbackPosition;
-    MISSING_TYPE *playbackRate;
-    MISSING_TYPE *currentItemDuration;
-    MISSING_TYPE *referenceTime;
-    MISSING_TYPE *delegateInfo;
+    id queueController;
+    id playbackPosition;
+    id playbackRate;
+    id currentItemDuration;
+    id referenceTime;
+    id delegateInfo;
 }
 
 + (void);

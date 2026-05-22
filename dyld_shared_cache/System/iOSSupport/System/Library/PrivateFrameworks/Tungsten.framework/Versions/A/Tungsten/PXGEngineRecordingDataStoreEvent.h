@@ -10,7 +10,7 @@
 
 @interface PXGEngineRecordingDataStoreEvent : PXGTungstenRecordingEvent
 {
-    CDStruct_44913231 *_styles;
+    CDStruct_8243137c *_styles;
     CDStruct_2c073aed *_infos;
     CDStruct_16a2be32 *_geometries;
     CDStruct_e4cb95de *_entities;

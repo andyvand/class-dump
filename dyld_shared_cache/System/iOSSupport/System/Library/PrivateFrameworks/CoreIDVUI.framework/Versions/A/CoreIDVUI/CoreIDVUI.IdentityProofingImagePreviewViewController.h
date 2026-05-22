@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingImagePreviewViewController
 {
-    MISSING_TYPE *image;
-    MISSING_TYPE *$__lazy_storage_$_imageView;
+    id image;
+    id $__lazy_storage_$_imageView;
 }
 
 - (id);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.EnergyDataConfigManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *energyDatConfigModel;
-    MISSING_TYPE *sharedContext;
+    id $defaultActor;
+    id energyDatConfigModel;
+    id sharedContext;
 }
 
 @end

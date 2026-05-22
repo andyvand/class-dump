@@ -6,11 +6,9 @@
 
 #import <HomeUtilityServices/HomeUtilityServices.InternalHpkeEncryptedResponse.h>
 
-@class MISSING_TYPE;
-
 @interface HomeUtilityServices.InternalHpkeEncryptedResponseWithToken : HomeUtilityServices.InternalHpkeEncryptedResponse
 {
-    MISSING_TYPE *authorizationToken;
+    id authorizationToken;
 }
 
 @end

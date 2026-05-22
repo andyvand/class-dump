@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatLogEntry
 {
-    MISSING_TYPE *text;
-    MISSING_TYPE *severity;
-    MISSING_TYPE *timestamp;
-    MISSING_TYPE *message;
-    MISSING_TYPE *normalizedMessage;
+    id text;
+    id severity;
+    id timestamp;
+    id message;
+    id normalizedMessage;
 }
 
 @end

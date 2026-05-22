@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSlotNode
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *_extended;
-    MISSING_TYPE *_children;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *_options;
+    id identifier;
+    id _extended;
+    id _children;
+    id _selectors;
+    id _options;
 }
 
 @end

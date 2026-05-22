@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugCommandHandler
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *fontManager;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *feedContextFactory;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *webEmbedDataSourceService;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *radarAttachmentProvider;
+    id resolver;
+    id fontManager;
+    id cloudContext;
+    id feedPersonalizer;
+    id feedContextFactory;
+    id tagService;
+    id webEmbedDataSourceService;
+    id sceneProvider;
+    id featureAvailability;
+    id radarAttachmentProvider;
 }
 
 @end

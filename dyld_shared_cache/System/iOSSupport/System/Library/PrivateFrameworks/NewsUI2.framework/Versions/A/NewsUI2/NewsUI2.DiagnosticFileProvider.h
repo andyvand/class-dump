@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.DiagnosticFileProvider
 {
-    MISSING_TYPE *feedCursorExportContexts;
-    MISSING_TYPE *feedDatabaseExporter;
+    id feedCursorExportContexts;
+    id feedDatabaseExporter;
 }
 
 - (id);

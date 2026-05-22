@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OpenRecipeCatalogCommandHandler
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *tracker;
+    id navigator;
+    id tracker;
 }
 
 @end

@@ -6,21 +6,19 @@
 
 #import <PosterBoard/PosterBoard.PosterPairCollectionViewCell.h>
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.HomeScreenPosterCollectionViewCell : PosterBoard.PosterPairCollectionViewCell
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *homeScreenIconContentView;
-    MISSING_TYPE *$__lazy_storage_$_lockPosterPreviewView;
-    MISSING_TYPE *lockPosterBlurView;
-    MISSING_TYPE *gradientPreviewView;
-    MISSING_TYPE *solidColorPreviewView;
-    MISSING_TYPE *$__lazy_storage_$_homePosterPreviewView;
-    MISSING_TYPE *homePosterSnapshotView;
-    MISSING_TYPE *homePosterBlurView;
-    MISSING_TYPE *homeScreenPortalView;
-    MISSING_TYPE *homeScreenConfiguration;
+    id delegate;
+    id homeScreenIconContentView;
+    id $__lazy_storage_$_lockPosterPreviewView;
+    id lockPosterBlurView;
+    id gradientPreviewView;
+    id solidColorPreviewView;
+    id $__lazy_storage_$_homePosterPreviewView;
+    id homePosterSnapshotView;
+    id homePosterBlurView;
+    id homeScreenPortalView;
+    id homeScreenConfiguration;
 }
 
 - (void);

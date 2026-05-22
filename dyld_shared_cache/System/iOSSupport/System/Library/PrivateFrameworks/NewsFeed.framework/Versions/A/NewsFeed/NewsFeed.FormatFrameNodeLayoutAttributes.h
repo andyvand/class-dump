@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatFrameNodeLayoutAttributes
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *layoutIdentifier;
-    MISSING_TYPE *contentIdentifier;
-    MISSING_TYPE *frame;
+    id identifier;
+    id layoutIdentifier;
+    id contentIdentifier;
+    id frame;
 }
 
 @end

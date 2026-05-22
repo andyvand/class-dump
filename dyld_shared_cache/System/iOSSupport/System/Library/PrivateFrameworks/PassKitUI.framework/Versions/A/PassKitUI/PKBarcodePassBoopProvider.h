@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIActivityItemsConfiguration;
+@class UIActivityItemsConfiguration;
 @protocol UIActivityItemsConfigurationReading;
 
 @interface PKBarcodePassBoopProvider
 {
-    MISSING_TYPE *pass;
+    id pass;
     UIActivityItemsConfiguration *cachedConfiguration;
 }
 

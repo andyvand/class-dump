@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAMediaTimingFunction, MISSING_TYPE;
+@class CAMediaTimingFunction;
 
 @interface VFXTimingFunction
 {
@@ -15,7 +15,7 @@
 + (id);
 + (_Bool)@"<MTLParallelRenderCommandEncoder>"24@0:8@"MTLRenderPassDescriptor"16 /* Error: Ran out of types for this method. */;
 - (double);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (_Bool);
 - (struct __CFXTimingFunction *);
@@ -49,7 +49,7 @@
 @property(readonly, copy) CAMediaTimingFunction *caMediaTimingFunction;
 @property(readonly, nonatomic) _Bool isSpring;
 @property(nonatomic) double perceptualDuration;
-@property(readonly, nonatomic) MISSING_TYPE *springCoefiscients;
+@property(readonly, nonatomic) id springCoefiscients;
 @property(readonly, nonatomic) double springDuration;
 
 @end

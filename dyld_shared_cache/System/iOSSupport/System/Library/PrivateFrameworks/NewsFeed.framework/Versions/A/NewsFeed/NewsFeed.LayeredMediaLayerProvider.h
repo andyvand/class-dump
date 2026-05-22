@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.LayeredMediaLayerProvider
 {
-    MISSING_TYPE *loader;
-    MISSING_TYPE *traits;
-    MISSING_TYPE *variantFactory;
-    MISSING_TYPE *cache;
+    id loader;
+    id traits;
+    id variantFactory;
+    id cache;
 }
 
 @end

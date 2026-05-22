@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.ItemsListController
 {
-    MISSING_TYPE *subscriber;
-    MISSING_TYPE *dependencies;
-    MISSING_TYPE *initializationTime;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *_rawValues;
-    MISSING_TYPE *_listElements;
-    MISSING_TYPE *_sectionedElements;
-    MISSING_TYPE *_dictionaryElements;
-    MISSING_TYPE *_annotations;
-    MISSING_TYPE *_info;
-    MISSING_TYPE *_enabledSections;
-    MISSING_TYPE *_enabledSortingDescriptors;
-    MISSING_TYPE *_tag;
-    MISSING_TYPE *_search;
-    MISSING_TYPE *isAutomaticSubscriptionsForwardingEnabled;
-    MISSING_TYPE *observationTask;
-    MISSING_TYPE *didChangeEntityStatesList;
-    MISSING_TYPE *currentSessionMetrics;
-    MISSING_TYPE *_$observationRegistrar;
+    id subscriber;
+    id dependencies;
+    id initializationTime;
+    id logger;
+    id _rawValues;
+    id _listElements;
+    id _sectionedElements;
+    id _dictionaryElements;
+    id _annotations;
+    id _info;
+    id _enabledSections;
+    id _enabledSortingDescriptors;
+    id _tag;
+    id _search;
+    id isAutomaticSubscriptionsForwardingEnabled;
+    id observationTask;
+    id didChangeEntityStatesList;
+    id currentSessionMetrics;
+    id _$observationRegistrar;
 }
 
 @end

@@ -6,13 +6,11 @@
 
 #import <VFX/VFX.GraphV1CodeGeneration.SubContext.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphV1CodeGeneration.ArraySequenceSnippet : VFX.GraphV1CodeGeneration.SubContext
 {
-    MISSING_TYPE *type;
-    MISSING_TYPE *additionalArrayInputs;
-    MISSING_TYPE *additionalArrayOutputs;
+    id type;
+    id additionalArrayInputs;
+    id additionalArrayOutputs;
 }
 
 @end

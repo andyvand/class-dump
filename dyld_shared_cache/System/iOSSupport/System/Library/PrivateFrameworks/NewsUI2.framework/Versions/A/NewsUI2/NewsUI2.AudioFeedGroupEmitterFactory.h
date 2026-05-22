@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedGroupEmitterFactory
 {
-    MISSING_TYPE *paywallFactory;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *offlineContentManager;
-    MISSING_TYPE *offerManager;
+    id paywallFactory;
+    id formatService;
+    id offlineContentManager;
+    id offerManager;
 }
 
 @end

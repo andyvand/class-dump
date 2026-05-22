@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.SunriseSunsetViewModelFactory
 {
-    MISSING_TYPE *stringBuilder;
-    MISSING_TYPE *sunriseSunsetEventCalculator;
+    id stringBuilder;
+    id sunriseSunsetEventCalculator;
 }
 
 @end

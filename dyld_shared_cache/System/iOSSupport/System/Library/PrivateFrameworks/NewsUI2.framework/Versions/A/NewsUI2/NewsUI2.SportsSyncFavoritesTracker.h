@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsSyncFavoritesTracker
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *privacySampler;
+    id tracker;
+    id privacySampler;
 }
 
 @end

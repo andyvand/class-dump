@@ -6,16 +6,16 @@
 
 #import <HomeUI/HUControllableItemCollectionViewController.h>
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface HomeUI.ActionGridViewController : HUControllableItemCollectionViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *actionGridConfig;
-    MISSING_TYPE *actionGridModule;
-    MISSING_TYPE *actionGridModuleController;
-    MISSING_TYPE *accessoryControlDataModel;
-    MISSING_TYPE *dataModelObserverCancelable;
+    id delegate;
+    id actionGridConfig;
+    id actionGridModule;
+    id actionGridModuleController;
+    id accessoryControlDataModel;
+    id dataModelObserverCancelable;
 }
 
 + (unsigned long long);

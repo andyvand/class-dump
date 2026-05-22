@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BarCompressionManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *shouldExpandAtBottom;
-    MISSING_TYPE *$__lazy_storage_$_state;
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *proxyMultiDelegate;
-    MISSING_TYPE *barAnimator;
-    MISSING_TYPE *navigationBarAnimation;
-    MISSING_TYPE *tabBarAnimation;
-    MISSING_TYPE *toolbarAnimation;
-    MISSING_TYPE *barState;
-    MISSING_TYPE *sceneStateManager;
-    MISSING_TYPE *observingToken;
-    MISSING_TYPE *lastContentOffset;
-    MISSING_TYPE *initialContentOffset;
-    MISSING_TYPE *scrollDebounce;
-    MISSING_TYPE *_lastBarCompressEvent;
+    id delegate;
+    id isEnabled;
+    id shouldExpandAtBottom;
+    id $__lazy_storage_$_state;
+    id scrollView;
+    id proxyMultiDelegate;
+    id barAnimator;
+    id navigationBarAnimation;
+    id tabBarAnimation;
+    id toolbarAnimation;
+    id barState;
+    id sceneStateManager;
+    id observingToken;
+    id lastContentOffset;
+    id initialContentOffset;
+    id scrollDebounce;
+    id _lastBarCompressEvent;
 }
 
 - (void);

@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol MTLTexture;
 
 @interface VFXRendererRayMap
@@ -12,7 +11,7 @@
     float _zOrigin;
     id <MTLTexture> _directionTexture;
     id <MTLTexture> _originTexture;
-    MISSING_TYPE *_scale;
+    id _scale;
 }
 
 - (void);
@@ -22,7 +21,7 @@
 - (id);
 - (float);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (void)ÁQ°!BùÐ1â
 0@ù
 × ;
@@ -30,7 +29,7 @@
 // Remaining properties
 @property(retain, nonatomic) id <MTLTexture> directionTexture; // @synthesize directionTexture=_directionTexture;
 @property(retain, nonatomic) id <MTLTexture> originTexture; // @synthesize originTexture=_originTexture;
-@property(nonatomic) MISSING_TYPE *scale; // @synthesize scale=_scale;
+@property(nonatomic) id scale; // @synthesize scale=_scale;
 @property(nonatomic) float zOrigin; // @synthesize zOrigin=_zOrigin;
 
 @end

@@ -4,43 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TextFormattingUI.TextFormattingState
 {
-    MISSING_TYPE *_groups;
-    MISSING_TYPE *_useLandscapeLayout;
-    MISSING_TYPE *_recentFonts;
-    MISSING_TYPE *_formattingDescriptor;
-    MISSING_TYPE *_formattingStyles;
-    MISSING_TYPE *_emphasisStyles;
-    MISSING_TYPE *_isFormattingUITextView;
-    MISSING_TYPE *_disabledComponents;
-    MISSING_TYPE *isTextAnimationsUI;
-    MISSING_TYPE *isInRemotePresentation;
-    MISSING_TYPE *isInPopoverPresentation;
-    MISSING_TYPE *hasParentViewController;
-    MISSING_TYPE *useReducedMetrics;
-    MISSING_TYPE *includeDefaultFont;
-    MISSING_TYPE *initialUpdateOfRecentFontsCompleted;
-    MISSING_TYPE *cancellables;
-    MISSING_TYPE *$__lazy_storage_$_configForRecents;
-    MISSING_TYPE *_layout;
-    MISSING_TYPE *_uiConfig;
-    MISSING_TYPE *_availableWidth;
-    MISSING_TYPE *_idealHeight;
-    MISSING_TYPE *_hasParentBottomSafeAreaInset;
-    MISSING_TYPE *colorPickerRect;
-    MISSING_TYPE *largestFontSizeInFormattingStyles;
-    MISSING_TYPE *allHighlightStyles;
-    MISSING_TYPE *didChangeValue;
-    MISSING_TYPE *close;
-    MISSING_TYPE *contentSizeDidUpdate;
-    MISSING_TYPE *pickFont;
-    MISSING_TYPE *pickColor;
-    MISSING_TYPE *showTypographySettings;
-    MISSING_TYPE *_highlightPreviewImages;
-    MISSING_TYPE *renderTask;
+    id _groups;
+    id _useLandscapeLayout;
+    id _recentFonts;
+    id _formattingDescriptor;
+    id _formattingStyles;
+    id _emphasisStyles;
+    id _isFormattingUITextView;
+    id _disabledComponents;
+    id isTextAnimationsUI;
+    id isInRemotePresentation;
+    id isInPopoverPresentation;
+    id hasParentViewController;
+    id useReducedMetrics;
+    id includeDefaultFont;
+    id initialUpdateOfRecentFontsCompleted;
+    id cancellables;
+    id $__lazy_storage_$_configForRecents;
+    id _layout;
+    id _uiConfig;
+    id _availableWidth;
+    id _idealHeight;
+    id _hasParentBottomSafeAreaInset;
+    id colorPickerRect;
+    id largestFontSizeInFormattingStyles;
+    id allHighlightStyles;
+    id didChangeValue;
+    id close;
+    id contentSizeDidUpdate;
+    id pickFont;
+    id pickColor;
+    id showTypographySettings;
+    id _highlightPreviewImages;
+    id renderTask;
 }
 
 @end

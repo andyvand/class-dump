@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface TeaUI.BasicMacOSHeaderView
 {
-    MISSING_TYPE *label;
-    MISSING_TYPE *button;
+    id label;
+    id button;
 }
 
 - (void);

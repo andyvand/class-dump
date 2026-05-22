@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugPersonalizationSubmitView
 {
-    MISSING_TYPE *submitButton;
-    MISSING_TYPE *submitText;
+    id submitButton;
+    id submitText;
 }
 
 - (id);

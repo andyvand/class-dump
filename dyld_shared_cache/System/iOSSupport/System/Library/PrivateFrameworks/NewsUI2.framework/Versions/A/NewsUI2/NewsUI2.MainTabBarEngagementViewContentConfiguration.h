@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MainTabBarEngagementViewContentConfiguration
 {
-    MISSING_TYPE *configurationBlock;
-    MISSING_TYPE *engagementModel;
+    id configurationBlock;
+    id engagementModel;
 }
 
 @end

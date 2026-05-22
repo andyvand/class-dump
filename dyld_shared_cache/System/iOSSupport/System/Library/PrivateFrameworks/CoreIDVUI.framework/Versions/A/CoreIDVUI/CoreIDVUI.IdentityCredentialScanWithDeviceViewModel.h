@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityCredentialScanWithDeviceViewModel
 {
-    MISSING_TYPE *image;
-    MISSING_TYPE *_$observationRegistrar;
+    id image;
+    id _$observationRegistrar;
 }
 
 @end

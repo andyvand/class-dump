@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.TexturePool
 {
-    MISSING_TYPE *allocator;
-    MISSING_TYPE *mtlTextureDescriptorCache;
-    MISSING_TYPE *renderTargets;
+    id allocator;
+    id mtlTextureDescriptorCache;
+    id renderTargets;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedBlueprintLayoutBuilder
 {
-    MISSING_TYPE *feedLayoutSolver;
-    MISSING_TYPE *baseStyler;
-    MISSING_TYPE *decorationProviderFactory;
-    MISSING_TYPE *feedDescriptor;
+    id feedLayoutSolver;
+    id baseStyler;
+    id decorationProviderFactory;
+    id feedDescriptor;
 }
 
 @end

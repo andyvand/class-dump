@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.TouchInsetsButton
 {
-    MISSING_TYPE *touchInsets;
+    id touchInsets;
 }
 
 - (id);

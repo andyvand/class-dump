@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ObjectiveC.ObjCClassList.Iterator
 {
-    MISSING_TYPE *enumerator;
-    MISSING_TYPE *namePrefix;
+    id enumerator;
+    id namePrefix;
 }
 
 @end

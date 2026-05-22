@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol VFXDrawCallContext;
 
 @interface VFXMTLREContext
@@ -14,17 +13,17 @@
     struct VFX_RE_C_EntityConstants_s _entityConstants;
     struct BufferSlice _currentEntityBuffer;
     struct array<(anonymous namespace)::BufferMetadata, 13UL> _viewBufferMetadata;
-    VFX_RE_C_ViewConstants_s_9f3d4270 _viewConstants;
+    VFX_RE_C_ViewConstants_s_2da9cedc _viewConstants;
     struct BufferSlice _currentViewBuffer;
     unsigned char _viewBufferCountForFrame;
     struct array<(anonymous namespace)::BufferMetadata, 13UL> _globalBufferMetadata;
     struct VFX_RE_C_GlobalConstants_s {
         float crwsReferencePosition__time;
         unsigned int frameCount;
-        MISSING_TYPE *dfColor__dfColorStraight;
+        id dfColor__dfColorStraight;
     } _globalConstants;
     struct BufferSlice _currentGlobalBuffer;
-    CDStruct_14d5dc5e _crWorldFromWorldMatrix;
+    CDStruct_95fa7c00 _crWorldFromWorldMatrix;
     struct re_vfx_object_constants _vfxObjectConstants;
     struct BufferSlice _currentObjectBuffer;
     struct BufferSlice _sceneTexturesArgumentBuffer[8];

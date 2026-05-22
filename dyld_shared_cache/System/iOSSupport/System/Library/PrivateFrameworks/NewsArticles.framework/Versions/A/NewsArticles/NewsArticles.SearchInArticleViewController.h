@@ -4,27 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, UIView;
+@class NSArray, UIView;
 
 @interface NewsArticles.SearchInArticleViewController
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *searchTerm;
-    MISSING_TYPE *searchToolBar;
-    MISSING_TYPE *searchTextField;
-    MISSING_TYPE *isWholeWordsEnabled;
-    MISSING_TYPE *isMatchCaseEnabled;
-    MISSING_TYPE *totalSearchResults;
-    MISSING_TYPE *currentSearchIndex;
-    MISSING_TYPE *totalLabel;
-    MISSING_TYPE *keyboardHeight;
-    MISSING_TYPE *isBeginningFilterActive;
-    MISSING_TYPE *nextImage;
-    MISSING_TYPE *previousImage;
-    MISSING_TYPE *$__lazy_storage_$_nextTokenBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_previousTokenBarButtonItem;
-    MISSING_TYPE *cancelButton;
+    id commandCenter;
+    id tracker;
+    id searchTerm;
+    id searchToolBar;
+    id searchTextField;
+    id isWholeWordsEnabled;
+    id isMatchCaseEnabled;
+    id totalSearchResults;
+    id currentSearchIndex;
+    id totalLabel;
+    id keyboardHeight;
+    id isBeginningFilterActive;
+    id nextImage;
+    id previousImage;
+    id $__lazy_storage_$_nextTokenBarButtonItem;
+    id $__lazy_storage_$_previousTokenBarButtonItem;
+    id cancelButton;
 }
 
 - (void);

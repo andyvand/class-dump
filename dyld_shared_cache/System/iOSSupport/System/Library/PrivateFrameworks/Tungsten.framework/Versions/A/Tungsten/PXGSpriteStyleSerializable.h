@@ -6,16 +6,16 @@
 
 @interface PXGSpriteStyleSerializable
 {
-    CDStruct_44913231 _spriteStyle;
+    CDStruct_8243137c _spriteStyle;
 }
 
-- (CDStruct_44913231);
+- (CDStruct_8243137c);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) CDStruct_44913231 spriteStyle; // @synthesize spriteStyle=_spriteStyle;
+@property(nonatomic) CDStruct_8243137c spriteStyle; // @synthesize spriteStyle=_spriteStyle;
 
 @end
 

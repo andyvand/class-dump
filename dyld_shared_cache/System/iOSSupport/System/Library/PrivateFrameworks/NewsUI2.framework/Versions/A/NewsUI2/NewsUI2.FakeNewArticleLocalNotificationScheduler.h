@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FakeNewArticleLocalNotificationScheduler
 {
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *notificationService;
+    id headlineService;
+    id notificationService;
 }
 
 - (id);

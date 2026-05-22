@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine._AsyncObjectGraphMetricsBox
 {
-    MISSING_TYPE *backing;
+    id backing;
 }
 
 @end

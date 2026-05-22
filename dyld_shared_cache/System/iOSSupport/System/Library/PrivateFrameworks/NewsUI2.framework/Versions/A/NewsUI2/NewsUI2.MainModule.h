@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MainModule
 {
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *feedFeatureAvailability;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *tipManager;
+    id resolver;
+    id tracker;
+    id feedFeatureAvailability;
+    id featureAvailability;
+    id appConfigurationManager;
+    id tipManager;
 }
 
 @end

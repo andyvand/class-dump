@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingBlueprintViewSupplementaryViewProvider
 {
-    MISSING_TYPE *followingHeaderViewRenderer;
-    MISSING_TYPE *collapsibleStateManager;
+    id followingHeaderViewRenderer;
+    id collapsibleStateManager;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.RegistryEntryPoint
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *currentUpdateContext;
+    id $defaultActor;
+    id currentUpdateContext;
 }
 
 @end

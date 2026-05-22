@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDockViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *mainViewController;
-    MISSING_TYPE *leadingItemContainerView;
-    MISSING_TYPE *trailingItemContainerView;
-    MISSING_TYPE *separator;
-    MISSING_TYPE *$__lazy_storage_$_uploadPresenter;
+    id editor;
+    id mainViewController;
+    id leadingItemContainerView;
+    id trailingItemContainerView;
+    id separator;
+    id $__lazy_storage_$_uploadPresenter;
 }
 
 - (id);

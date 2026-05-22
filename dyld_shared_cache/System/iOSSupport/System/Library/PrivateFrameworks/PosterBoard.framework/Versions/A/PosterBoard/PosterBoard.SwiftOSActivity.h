@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.SwiftOSActivity
 {
-    MISSING_TYPE *activity;
-    MISSING_TYPE *activityState;
-    MISSING_TYPE *needsStop;
+    id activity;
+    id activityState;
+    id needsStop;
 }
 
 @end

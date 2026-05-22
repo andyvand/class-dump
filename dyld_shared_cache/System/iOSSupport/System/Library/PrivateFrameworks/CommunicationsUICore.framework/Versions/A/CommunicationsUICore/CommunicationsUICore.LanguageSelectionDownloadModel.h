@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.LanguageSelectionDownloadModel
 {
-    MISSING_TYPE *locale;
-    MISSING_TYPE *_progress;
-    MISSING_TYPE *_downloadSize;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_isDefaultModel;
-    MISSING_TYPE *_$observationRegistrar;
+    id locale;
+    id _progress;
+    id _downloadSize;
+    id _state;
+    id _isDefaultModel;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSupplementaryNodeStyle
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *class;
-    MISSING_TYPE *clipsToBounds;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *pin;
-    MISSING_TYPE *rubberband;
+    id _identifier;
+    id class;
+    id clipsToBounds;
+    id _selectors;
+    id pin;
+    id rubberband;
 }
 
 @end

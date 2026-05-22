@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.InterstitialAdModelFactory
 {
-    MISSING_TYPE *viewManager;
-    MISSING_TYPE *journal;
+    id viewManager;
+    id journal;
 }
 
 @end

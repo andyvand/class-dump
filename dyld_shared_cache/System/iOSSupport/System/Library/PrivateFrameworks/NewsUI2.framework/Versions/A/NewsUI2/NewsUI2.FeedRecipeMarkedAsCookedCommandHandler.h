@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FeedRecipeMarkedAsCookedCommandHandler
 {
-    MISSING_TYPE *recipeUserFeedDataRepository;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *recipeAccessProvider;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *recipeUserDataManager;
+    id recipeUserFeedDataRepository;
+    id commandCenter;
+    id recipeAccessProvider;
+    id featureAvailability;
+    id recipeUserDataManager;
 }
 
 - (id);

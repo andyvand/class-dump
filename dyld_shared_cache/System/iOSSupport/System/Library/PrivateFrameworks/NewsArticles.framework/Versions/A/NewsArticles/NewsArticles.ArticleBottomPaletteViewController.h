@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleBottomPaletteViewController
 {
-    MISSING_TYPE *isBeingUsedAsPlugin;
-    MISSING_TYPE *pluggableDelegate;
-    MISSING_TYPE *bottomPaletteHeight;
-    MISSING_TYPE *contentView;
+    id isBeingUsedAsPlugin;
+    id pluggableDelegate;
+    id bottomPaletteHeight;
+    id contentView;
 }
 
 - (id);

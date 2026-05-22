@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.ObserverBubbleModel
 {
-    MISSING_TYPE *_currencyAmount;
-    MISSING_TYPE *_recipient;
-    MISSING_TYPE *_sender;
-    MISSING_TYPE *_paymentSignature;
-    MISSING_TYPE *_outOfTranscript;
-    MISSING_TYPE *_validationStatus;
-    MISSING_TYPE *_$observationRegistrar;
+    id _currencyAmount;
+    id _recipient;
+    id _sender;
+    id _paymentSignature;
+    id _outOfTranscript;
+    id _validationStatus;
+    id _$observationRegistrar;
 }
 
 @end

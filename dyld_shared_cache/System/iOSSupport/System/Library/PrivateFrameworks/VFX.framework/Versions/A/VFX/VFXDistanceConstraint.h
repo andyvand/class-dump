@@ -6,7 +6,7 @@
 
 #import <VFX/VFXConstraint.h>
 
-@class MISSING_TYPE, VFXNode;
+@class VFXNode;
 
 @interface VFXDistanceConstraint : VFXConstraint
 {
@@ -14,7 +14,7 @@
     float _minimumDistance;
     float _maximumDistance;
     _Bool _keepTargetDirection;
-    MISSING_TYPE *_targetDirection;
+    id _targetDirection;
     float _maximumDirectionAngle;
 }
 
@@ -27,7 +27,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (void);
 - (id);

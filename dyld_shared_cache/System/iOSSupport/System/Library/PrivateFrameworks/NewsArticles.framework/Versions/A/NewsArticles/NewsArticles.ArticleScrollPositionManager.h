@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleScrollPositionManager
 {
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *currentlyPlayingObservable;
-    MISSING_TYPE *mostRecentPosition;
-    MISSING_TYPE *minTimeSpentToPersistPosition;
+    id readingHistory;
+    id currentlyPlayingObservable;
+    id mostRecentPosition;
+    id minTimeSpentToPersistPosition;
 }
 
 - (id);

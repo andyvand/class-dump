@@ -6,7 +6,7 @@
 
 #import <VFX/VFXConstraint.h>
 
-@class MISSING_TYPE, VFXNode;
+@class VFXNode;
 
 @interface VFXReplicatorConstraint : VFXConstraint
 {
@@ -14,9 +14,9 @@
     _Bool _replicateOrientation;
     _Bool _replicatePosition;
     _Bool _replicateScale;
-    CDStruct_0e8a9a91 _orientationOffset;
-    MISSING_TYPE *_positionOffset;
-    MISSING_TYPE *_scaleOffset;
+    CDStruct_da14d750 _orientationOffset;
+    id _positionOffset;
+    id _scaleOffset;
 }
 
 + (id);
@@ -30,10 +30,10 @@
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (_Bool);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (CDStruct_183601bc);
 - (void);
 - (_Bool);
@@ -48,11 +48,11 @@
 
 // Remaining properties
 @property(nonatomic) CDStruct_183601bc orientationOffset;
-@property(nonatomic) MISSING_TYPE *positionOffset;
+@property(nonatomic) id positionOffset;
 @property(nonatomic) _Bool replicatesOrientation;
 @property(nonatomic) _Bool replicatesPosition;
 @property(nonatomic) _Bool replicatesScale;
-@property(nonatomic) MISSING_TYPE *scaleOffset;
+@property(nonatomic) id scaleOffset;
 @property(retain, nonatomic) VFXNode *target;
 
 @end

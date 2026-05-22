@@ -6,19 +6,18 @@
 
 #import <HomeUI/HUControllableItemCollectionViewController.h>
 
-@class MISSING_TYPE;
 @protocol HUPresentationDelegate;
 
 @interface HUNearbyAccessoriesViewController : HUControllableItemCollectionViewController
 {
     void presentationDelegate;
-    MISSING_TYPE *nearbyAccessoriesDelegate;
-    MISSING_TYPE *currentAccessory;
-    MISSING_TYPE *supportsQuickControls;
-    MISSING_TYPE *layoutManager;
-    MISSING_TYPE *userInfoConstraints;
-    MISSING_TYPE *_userInfoDescription;
-    MISSING_TYPE *_userInfoHeading;
+    id nearbyAccessoriesDelegate;
+    id currentAccessory;
+    id supportsQuickControls;
+    id layoutManager;
+    id userInfoConstraints;
+    id _userInfoDescription;
+    id _userInfoHeading;
 }
 
 + (unsigned long long);

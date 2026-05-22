@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface GenerativePartnerServiceUI.PartnerOnboardingViewModel
 {
-    MISSING_TYPE *_selection;
-    MISSING_TYPE *_previouslyActiveProvider;
-    MISSING_TYPE *_path;
-    MISSING_TYPE *_showEnablementConfirmation;
-    MISSING_TYPE *_enablementConfirmationConfiguration;
-    MISSING_TYPE *_dismissAction;
-    MISSING_TYPE *_showEnablementConfirmationIfNeededAction;
-    MISSING_TYPE *retainedReferences;
-    MISSING_TYPE *_$observationRegistrar;
+    id _selection;
+    id _previouslyActiveProvider;
+    id _path;
+    id _showEnablementConfirmation;
+    id _enablementConfirmationConfiguration;
+    id _dismissAction;
+    id _showEnablementConfirmationIfNeededAction;
+    id retainedReferences;
+    id _$observationRegistrar;
 }
 
 @end

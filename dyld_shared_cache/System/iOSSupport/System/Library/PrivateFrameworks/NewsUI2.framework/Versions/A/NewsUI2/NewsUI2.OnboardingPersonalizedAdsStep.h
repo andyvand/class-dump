@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OnboardingPersonalizedAdsStep
 {
-    MISSING_TYPE *viewControllerProvider;
-    MISSING_TYPE *userEnabledAds;
-    MISSING_TYPE *$__lazy_storage_$_primaryAction;
-    MISSING_TYPE *$__lazy_storage_$_secondaryAction;
-    MISSING_TYPE *$__lazy_storage_$_adTrackingTransparency;
+    id viewControllerProvider;
+    id userEnabledAds;
+    id $__lazy_storage_$_primaryAction;
+    id $__lazy_storage_$_secondaryAction;
+    id $__lazy_storage_$_adTrackingTransparency;
 }
 
 @end

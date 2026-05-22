@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol WFTriggerSuggestionViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface WFTriggerSuggestionViewController
 {
-    MISSING_TYPE *trigger;
+    id trigger;
     void delegate;
-    MISSING_TYPE *hostingController;
-    MISSING_TYPE *searchController;
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *selectedEntryMetadataData;
-    MISSING_TYPE *selectedReference;
+    id hostingController;
+    id searchController;
+    id dataSource;
+    id selectedEntryMetadataData;
+    id selectedReference;
 }
 
 - (id);

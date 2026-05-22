@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatVideoNodeRenderer
 {
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *imageCache;
-    MISSING_TYPE *creationQueue;
+    id assetManager;
+    id imageCache;
+    id creationQueue;
 }
 
 @end

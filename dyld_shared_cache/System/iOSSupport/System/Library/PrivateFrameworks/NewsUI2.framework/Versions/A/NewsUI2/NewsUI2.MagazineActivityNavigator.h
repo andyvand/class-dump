@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineActivityNavigator
 {
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *navigator;
+    id configurationManager;
+    id navigator;
 }
 
 @end

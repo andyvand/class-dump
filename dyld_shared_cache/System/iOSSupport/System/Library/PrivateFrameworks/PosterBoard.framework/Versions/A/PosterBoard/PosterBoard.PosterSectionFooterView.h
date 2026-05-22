@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.PosterSectionFooterView
 {
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *symbol;
-    MISSING_TYPE *text;
-    MISSING_TYPE *titleLabelSpacingFromBottomEdge;
+    id titleLabel;
+    id symbol;
+    id text;
+    id titleLabelSpacingFromBottomEdge;
 }
 
 - (id);

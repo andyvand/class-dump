@@ -4,45 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatLayoutViewRenderer
 {
-    MISSING_TYPE *presentingViewController;
-    MISSING_TYPE *analyticsDataProvider;
-    MISSING_TYPE *debugger;
-    MISSING_TYPE *viewNodeRenderer;
-    MISSING_TYPE *textNodeRenderer;
-    MISSING_TYPE *imageNodeRenderer;
-    MISSING_TYPE *buttonNodeRenderer;
-    MISSING_TYPE *stateViewNodeRenderer;
-    MISSING_TYPE *customNodeRenderer;
-    MISSING_TYPE *groupNodeRenderer;
-    MISSING_TYPE *webEmbedNodeRenderer;
-    MISSING_TYPE *webEmbedManager;
-    MISSING_TYPE *adMetricsNodeRenderer;
-    MISSING_TYPE *micaNodeRenderer;
-    MISSING_TYPE *layeredMediaNodeRenderer;
-    MISSING_TYPE *videoNodeRenderer;
-    MISSING_TYPE *issueCoverNodeRenderer;
-    MISSING_TYPE *groupMaskNodeRenderer;
-    MISSING_TYPE *shareAttributionNodeRenderer;
-    MISSING_TYPE *shareAttributionViewReuseManager;
-    MISSING_TYPE *videoPlayerNodeRenderer;
-    MISSING_TYPE *videoPlayerViewControllerReuseManager;
-    MISSING_TYPE *progressViewNodeRenderer;
-    MISSING_TYPE *puzzleEmbedViewControllerReuseManager;
-    MISSING_TYPE *puzzleEmbedNodeRenderer;
-    MISSING_TYPE *sponsoredBannerNodeRenderer;
-    MISSING_TYPE *rendererTool;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *runModeRunner;
-    MISSING_TYPE *timer;
-    MISSING_TYPE *visibilityRenderer;
-    MISSING_TYPE *resizingProvider;
-    MISSING_TYPE *router;
-    MISSING_TYPE *tipManager;
+    id presentingViewController;
+    id analyticsDataProvider;
+    id debugger;
+    id viewNodeRenderer;
+    id textNodeRenderer;
+    id imageNodeRenderer;
+    id buttonNodeRenderer;
+    id stateViewNodeRenderer;
+    id customNodeRenderer;
+    id groupNodeRenderer;
+    id webEmbedNodeRenderer;
+    id webEmbedManager;
+    id adMetricsNodeRenderer;
+    id micaNodeRenderer;
+    id layeredMediaNodeRenderer;
+    id videoNodeRenderer;
+    id issueCoverNodeRenderer;
+    id groupMaskNodeRenderer;
+    id shareAttributionNodeRenderer;
+    id shareAttributionViewReuseManager;
+    id videoPlayerNodeRenderer;
+    id videoPlayerViewControllerReuseManager;
+    id progressViewNodeRenderer;
+    id puzzleEmbedViewControllerReuseManager;
+    id puzzleEmbedNodeRenderer;
+    id sponsoredBannerNodeRenderer;
+    id rendererTool;
+    id commandCenter;
+    id tracker;
+    id runModeRunner;
+    id timer;
+    id visibilityRenderer;
+    id resizingProvider;
+    id router;
+    id tipManager;
 }
 
 @end

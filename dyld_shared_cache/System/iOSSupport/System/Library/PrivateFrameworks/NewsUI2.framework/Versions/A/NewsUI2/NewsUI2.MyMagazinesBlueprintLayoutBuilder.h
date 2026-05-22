@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyMagazinesBlueprintLayoutBuilder
 {
-    MISSING_TYPE *feedLayoutSolver;
-    MISSING_TYPE *sectionHeaderLayoutAttributesFactory;
-    MISSING_TYPE *separatorLayoutAttributesFactory;
+    id feedLayoutSolver;
+    id sectionHeaderLayoutAttributesFactory;
+    id separatorLayoutAttributesFactory;
 }
 
 @end

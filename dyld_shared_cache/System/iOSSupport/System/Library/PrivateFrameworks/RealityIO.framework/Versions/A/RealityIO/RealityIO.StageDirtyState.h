@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.StageDirtyState
 {
-    MISSING_TYPE *stageMetadataContainsAnyOf;
-    MISSING_TYPE *primsContainAnyOf;
-    MISSING_TYPE *core;
+    id stageMetadataContainsAnyOf;
+    id primsContainAnyOf;
+    id core;
 }
 
 @end

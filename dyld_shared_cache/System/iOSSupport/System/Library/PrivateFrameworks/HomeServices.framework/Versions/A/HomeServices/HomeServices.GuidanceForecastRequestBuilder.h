@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeServices.GuidanceForecastRequestBuilder
 {
-    MISSING_TYPE *gridID;
-    MISSING_TYPE *type;
-    MISSING_TYPE *ratePlan;
-    MISSING_TYPE *requestId;
-    MISSING_TYPE *HMACAuthInfo;
+    id gridID;
+    id type;
+    id ratePlan;
+    id requestId;
+    id HMACAuthInfo;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatOptionCollection
 {
-    MISSING_TYPE *variables;
-    MISSING_TYPE *map;
+    id variables;
+    id map;
 }
 
 @end

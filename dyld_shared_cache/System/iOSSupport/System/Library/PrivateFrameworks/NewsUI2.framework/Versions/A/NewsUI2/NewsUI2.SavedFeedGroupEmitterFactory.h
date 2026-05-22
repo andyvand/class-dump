@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SavedFeedGroupEmitterFactory
 {
-    MISSING_TYPE *savedFormatService;
+    id savedFormatService;
 }
 
 @end

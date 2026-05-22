@@ -6,14 +6,12 @@
 
 #import <swiftCore/Swift._SwiftObject.h>
 
-@class MISSING_TYPE;
-
 @interface Swift.__VaListBuilder : Swift._SwiftObject
 {
-    MISSING_TYPE *requiredAlignmentInBytes;
-    MISSING_TYPE *count;
-    MISSING_TYPE *allocated;
-    MISSING_TYPE *storage;
+    id requiredAlignmentInBytes;
+    id count;
+    id allocated;
+    id storage;
 }
 
 @end

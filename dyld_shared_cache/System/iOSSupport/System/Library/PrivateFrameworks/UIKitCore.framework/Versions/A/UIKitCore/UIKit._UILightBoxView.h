@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIKit._UILightEffectTransitionView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UILightBoxView : UIKit._UILightEffectTransitionView
 {
-    MISSING_TYPE *lightSourceView;
+    id lightSourceView;
 }
 
 - (id);

@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.CrossFadePlayerItemTransition
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *startQueueItem;
-    MISSING_TYPE *startItem;
-    MISSING_TYPE *endQueueItem;
-    MISSING_TYPE *endItem;
-    MISSING_TYPE *inputParameters;
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *expectedDurationAtStart;
-    MISSING_TYPE *setupFailureReason;
-    MISSING_TYPE *fadeOutParameters;
-    MISSING_TYPE *fadeInParameters;
+    id identifier;
+    id startQueueItem;
+    id startItem;
+    id endQueueItem;
+    id endItem;
+    id inputParameters;
+    id reporter;
+    id delegate;
+    id expectedDurationAtStart;
+    id setupFailureReason;
+    id fadeOutParameters;
+    id fadeInParameters;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSData;
+@class NSData;
 
 @interface PTEffectRingLightConfig
 {
@@ -19,7 +19,7 @@
     float _maxNitsMinEffectStrength;
     float _maxNitsMaxEffectStrength;
     float _deviceMaxScreenNits;
-    MISSING_TYPE *_deviceScreenSizeInches;
+    id _deviceScreenSizeInches;
     NSData *_ringLightAdaptiveSettings;
 }
 
@@ -42,8 +42,8 @@
 - (float);
 - (float);
 - (float);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (float);
 - (float);
 - (float);
@@ -59,7 +59,7 @@
 @property float EMAFactorPerFrame; // @synthesize EMAFactorPerFrame=_EMAFactorPerFrame;
 @property float deadZoneFactorPerFrame; // @synthesize deadZoneFactorPerFrame=_deadZoneFactorPerFrame;
 @property float deviceMaxScreenNits; // @synthesize deviceMaxScreenNits=_deviceMaxScreenNits;
-@property MISSING_TYPE *deviceScreenSizeInches; // @synthesize deviceScreenSizeInches=_deviceScreenSizeInches;
+@property id deviceScreenSizeInches; // @synthesize deviceScreenSizeInches=_deviceScreenSizeInches;
 @property float effectDisableAtLux; // @synthesize effectDisableAtLux=_effectDisableAtLux;
 @property float effectEnableAtLux; // @synthesize effectEnableAtLux=_effectEnableAtLux;
 @property float effectMaxAtLux; // @synthesize effectMaxAtLux=_effectMaxAtLux;

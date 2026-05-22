@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol IMDaemonProtocol;
 
 @interface IMDaemonConnection
 {
-    MISSING_TYPE *queue;
-    MISSING_TYPE *setupQueue;
-    MISSING_TYPE *isInvokingSetup;
-    MISSING_TYPE *listener;
+    id queue;
+    id setupQueue;
+    id isInvokingSetup;
+    id listener;
 }
 
 - (void);

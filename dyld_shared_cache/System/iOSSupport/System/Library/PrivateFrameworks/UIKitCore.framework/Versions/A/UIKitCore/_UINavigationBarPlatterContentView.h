@@ -6,15 +6,13 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class MISSING_TYPE;
-
 @interface _UINavigationBarPlatterContentView : _UITouchPassthroughView
 {
-    MISSING_TYPE *itemViews;
-    MISSING_TYPE *badgeViews;
-    MISSING_TYPE *glassView;
-    MISSING_TYPE *itemContainer;
-    MISSING_TYPE *badgeContainer;
+    id itemViews;
+    id badgeViews;
+    id glassView;
+    id itemContainer;
+    id badgeContainer;
 }
 
 - (id);

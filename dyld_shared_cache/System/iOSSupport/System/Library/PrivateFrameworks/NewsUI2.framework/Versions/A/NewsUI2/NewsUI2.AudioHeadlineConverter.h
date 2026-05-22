@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioHeadlineConverter
 {
-    MISSING_TYPE *feedConfigManager;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *paidBundleConfigManager;
-    MISSING_TYPE *avAssetFactory;
+    id feedConfigManager;
+    id paidAccessChecker;
+    id paidBundleConfigManager;
+    id avAssetFactory;
 }
 
 @end

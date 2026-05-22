@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SegmentedViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *style;
-    MISSING_TYPE *segmentedControl;
-    MISSING_TYPE *segmentViewControllers;
-    MISSING_TYPE *$__lazy_storage_$_barButtonItem;
+    id delegate;
+    id style;
+    id segmentedControl;
+    id segmentViewControllers;
+    id $__lazy_storage_$_barButtonItem;
 }
 
 - (void);

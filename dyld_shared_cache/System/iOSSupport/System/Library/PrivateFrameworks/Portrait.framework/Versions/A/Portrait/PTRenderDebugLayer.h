@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PTRenderDebugLayer
 {
 }
 
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (id);

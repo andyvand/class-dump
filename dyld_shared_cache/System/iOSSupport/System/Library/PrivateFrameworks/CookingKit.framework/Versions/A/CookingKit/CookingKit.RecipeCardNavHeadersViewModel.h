@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardNavHeadersViewModel
 {
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_currentRegion;
-    MISSING_TYPE *_showNotes;
-    MISSING_TYPE *_showNutrition;
-    MISSING_TYPE *_$observationRegistrar;
+    id _$scope;
+    id _recipeID;
+    id _currentRegion;
+    id _showNotes;
+    id _showNutrition;
+    id _$observationRegistrar;
 }
 
 @end

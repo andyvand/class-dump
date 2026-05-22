@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.EngagementBannerViewLayoutAttributesFactory
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *layoutStore;
+    id styler;
+    id layoutStore;
 }
 
 @end

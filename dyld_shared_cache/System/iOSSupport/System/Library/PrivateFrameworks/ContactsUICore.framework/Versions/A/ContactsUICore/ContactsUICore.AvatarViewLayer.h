@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.AvatarViewLayer
 {
-    MISSING_TYPE *spec;
-    MISSING_TYPE *model;
-    MISSING_TYPE *modelListener;
-    MISSING_TYPE *foregroundLayer;
-    MISSING_TYPE *backgroundLayer;
+    id spec;
+    id model;
+    id modelListener;
+    id foregroundLayer;
+    id backgroundLayer;
 }
 
 - (id);

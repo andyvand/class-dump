@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.LastFrameWorldTransformSystem
 {
-    MISSING_TYPE *computeLastFrame;
-    MISSING_TYPE *addLastFrameToChild;
+    id computeLastFrame;
+    id addLastFrameToChild;
 }
 
 @end

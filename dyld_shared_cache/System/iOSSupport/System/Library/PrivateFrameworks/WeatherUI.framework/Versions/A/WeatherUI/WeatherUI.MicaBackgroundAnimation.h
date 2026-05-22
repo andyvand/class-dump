@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.MicaBackgroundAnimation
 {
-    MISSING_TYPE *layer;
-    MISSING_TYPE *playbackCoordinator;
-    MISSING_TYPE *rootMicaLayer;
-    MISSING_TYPE *rotationLayer;
-    MISSING_TYPE *scaleLayer;
-    MISSING_TYPE *displayScale;
-    MISSING_TYPE *mode;
-    MISSING_TYPE *timeStep;
-    MISSING_TYPE *randomSpeedVariance;
-    MISSING_TYPE *stateName;
-    MISSING_TYPE *posterRotationAngle;
-    MISSING_TYPE *posterOrientation;
-    MISSING_TYPE *isAnimating;
-    MISSING_TYPE *isActive;
-    MISSING_TYPE *scale;
+    id layer;
+    id playbackCoordinator;
+    id rootMicaLayer;
+    id rotationLayer;
+    id scaleLayer;
+    id displayScale;
+    id mode;
+    id timeStep;
+    id randomSpeedVariance;
+    id stateName;
+    id posterRotationAngle;
+    id posterOrientation;
+    id isAnimating;
+    id isActive;
+    id scale;
 }
 
 - (id);

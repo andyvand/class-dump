@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsOnboardingManager
 {
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *sportsSyncManager;
-    MISSING_TYPE *pushNotificationDataManager;
-    MISSING_TYPE *lastOnboardingState;
-    MISSING_TYPE *sportsSubscriptionChangeToken;
-    MISSING_TYPE *sportsFollowsCommandToken;
+    id tagService;
+    id subscriptionService;
+    id observers;
+    id userInfo;
+    id featureAvailability;
+    id sportsSyncManager;
+    id pushNotificationDataManager;
+    id lastOnboardingState;
+    id sportsSubscriptionChangeToken;
+    id sportsFollowsCommandToken;
 }
 
 - (void);

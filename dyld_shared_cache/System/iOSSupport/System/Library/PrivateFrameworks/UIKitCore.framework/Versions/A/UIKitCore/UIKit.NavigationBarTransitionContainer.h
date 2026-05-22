@@ -6,15 +6,13 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.NavigationBarTransitionContainer : _UITouchPassthroughView
 {
-    MISSING_TYPE *platterContainer;
-    MISSING_TYPE *underGlassTransitionContainer;
-    MISSING_TYPE *hostedViewContainer;
-    MISSING_TYPE *content;
-    MISSING_TYPE *overrideContent;
+    id platterContainer;
+    id underGlassTransitionContainer;
+    id hostedViewContainer;
+    id content;
+    id overrideContent;
 }
 
 - (id);

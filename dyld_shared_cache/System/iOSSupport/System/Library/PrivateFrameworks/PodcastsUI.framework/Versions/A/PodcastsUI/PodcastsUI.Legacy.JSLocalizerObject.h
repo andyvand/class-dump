@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface PodcastsUI.Legacy.JSLocalizerObject
 {
-    MISSING_TYPE *bundle;
-    MISSING_TYPE *locale;
-    MISSING_TYPE *preferredLocalization;
-    MISSING_TYPE *dateIntervalFormatters;
+    id bundle;
+    id locale;
+    id preferredLocalization;
+    id dateIntervalFormatters;
 }
 
 - (id);

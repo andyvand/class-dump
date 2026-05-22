@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.TagService
 {
-    MISSING_TYPE *tagController;
-    MISSING_TYPE *subscriptionController;
+    id tagController;
+    id subscriptionController;
 }
 
 @end

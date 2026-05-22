@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.MotionData
 {
-    MISSING_TYPE *attitude;
-    MISSING_TYPE *rotationRate;
-    MISSING_TYPE *gravity;
-    MISSING_TYPE *userAcceleration;
-    MISSING_TYPE *deviceOrientation;
-    MISSING_TYPE *interfaceOrientation;
-    MISSING_TYPE *normalizedX;
-    MISSING_TYPE *normalizedY;
-    MISSING_TYPE *xTranslator;
-    MISSING_TYPE *yTranslator;
+    id attitude;
+    id rotationRate;
+    id gravity;
+    id userAcceleration;
+    id deviceOrientation;
+    id interfaceOrientation;
+    id normalizedX;
+    id normalizedY;
+    id xTranslator;
+    id yTranslator;
 }
 
 @end

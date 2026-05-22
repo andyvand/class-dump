@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _UITabCrossFadeTransition
 {
-    MISSING_TYPE *wasPreempted;
-    MISSING_TYPE *fromView;
-    MISSING_TYPE *firstResponderToRemember;
-    MISSING_TYPE *backgroundColor;
+    id wasPreempted;
+    id fromView;
+    id firstResponderToRemember;
+    id backgroundColor;
 }
 
 + (_Bool);

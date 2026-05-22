@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugPersonalizationArticleTableViewCell
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *thumbnailImageView;
-    MISSING_TYPE *publisherTitle;
-    MISSING_TYPE *articleTitle;
-    MISSING_TYPE *yesButton;
-    MISSING_TYPE *noButton;
+    id identifier;
+    id thumbnailImageView;
+    id publisherTitle;
+    id articleTitle;
+    id yesButton;
+    id noButton;
 }
 
 - (id);

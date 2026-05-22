@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyUI.MockInsightRecordProvider
 {
-    MISSING_TYPE *wholeHomeImportRecords;
-    MISSING_TYPE *wholeHomeExportRecords;
-    MISSING_TYPE *deviceImportRecords;
-    MISSING_TYPE *deviceExportRecords;
-    MISSING_TYPE *shouldThrowError;
-    MISSING_TYPE *mockSiteTimeZone;
-    MISSING_TYPE *hourlyImportRecords;
-    MISSING_TYPE *dailyImportRecords;
-    MISSING_TYPE *hourlyExportRecords;
-    MISSING_TYPE *dailyExportRecords;
-    MISSING_TYPE *lastWholeHomeImportsCall;
-    MISSING_TYPE *lastWholeHomeExportsCall;
-    MISSING_TYPE *lastDeviceImportsCall;
-    MISSING_TYPE *lastDeviceExportsCall;
+    id wholeHomeImportRecords;
+    id wholeHomeExportRecords;
+    id deviceImportRecords;
+    id deviceExportRecords;
+    id shouldThrowError;
+    id mockSiteTimeZone;
+    id hourlyImportRecords;
+    id dailyImportRecords;
+    id hourlyExportRecords;
+    id dailyExportRecords;
+    id lastWholeHomeImportsCall;
+    id lastWholeHomeExportsCall;
+    id lastDeviceImportsCall;
+    id lastDeviceExportsCall;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.StartUpPerformanceEvent
 {
-    MISSING_TYPE *domain;
-    MISSING_TYPE *rootActivity;
-    MISSING_TYPE *onActivityCreated;
-    MISSING_TYPE *remainingCheckpoints;
-    MISSING_TYPE *state;
+    id domain;
+    id rootActivity;
+    id onActivityCreated;
+    id remainingCheckpoints;
+    id state;
 }
 
 @end

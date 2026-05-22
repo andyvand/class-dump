@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.MockRenderOutput
 {
-    MISSING_TYPE *viewpoint;
-    MISSING_TYPE *materialOverride;
-    MISSING_TYPE *sizeInPixel;
-    MISSING_TYPE *pixelFormat;
-    MISSING_TYPE *depthPixelFormat;
-    MISSING_TYPE *scaleFactor;
-    MISSING_TYPE *scope;
-    MISSING_TYPE *frameCount;
-    MISSING_TYPE *loadAction;
-    MISSING_TYPE *clearColor;
-    MISSING_TYPE *shouldWaitForCommandBufferCompletion;
-    MISSING_TYPE *resizingMode;
-    MISSING_TYPE *stereoMode;
-    MISSING_TYPE *commandBuffer;
-    MISSING_TYPE *inputStreamIdentifier;
+    id viewpoint;
+    id materialOverride;
+    id sizeInPixel;
+    id pixelFormat;
+    id depthPixelFormat;
+    id scaleFactor;
+    id scope;
+    id frameCount;
+    id loadAction;
+    id clearColor;
+    id shouldWaitForCommandBufferCompletion;
+    id resizingMode;
+    id stereoMode;
+    id commandBuffer;
+    id inputStreamIdentifier;
 }
 
 @end

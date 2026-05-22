@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.HierarchySystem
 {
-    MISSING_TYPE *dirtyWithParent;
-    MISSING_TYPE *dirtyWithOverride;
-    MISSING_TYPE *wrongDepthRoots;
-    MISSING_TYPE *computeTransformFromPosOriScale;
-    MISSING_TYPE *computeInverse;
-    MISSING_TYPE *allChildrenMLH;
-    MISSING_TYPE *allChildrenOLH;
+    id dirtyWithParent;
+    id dirtyWithOverride;
+    id wrongDepthRoots;
+    id computeTransformFromPosOriScale;
+    id computeInverse;
+    id allChildrenMLH;
+    id allChildrenOLH;
 }
 
 @end

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioScheduledRefreshManager
 {
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *feedConfigManager;
-    MISSING_TYPE *paidBundleConfigManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *offlineContentManager;
-    MISSING_TYPE *activityScheduler;
-    MISSING_TYPE *refreshDeduper;
+    id dataManager;
+    id feedConfigManager;
+    id paidBundleConfigManager;
+    id bundleSubscriptionManager;
+    id offlineContentManager;
+    id activityScheduler;
+    id refreshDeduper;
 }
 
 @end

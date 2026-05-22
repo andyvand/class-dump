@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatNavigationItemManager
 {
-    MISSING_TYPE *mainViewController;
-    MISSING_TYPE *statusView;
-    MISSING_TYPE *statusBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_sidebarBarButtonItem;
+    id mainViewController;
+    id statusView;
+    id statusBarButtonItem;
+    id $__lazy_storage_$_sidebarBarButtonItem;
 }
 
 - (void);

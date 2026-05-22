@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.InterstitialAdPreviewInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *preview;
-    MISSING_TYPE *contextBuilder;
-    MISSING_TYPE *adManager;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *viewManager;
-    MISSING_TYPE *token;
+    id delegate;
+    id preview;
+    id contextBuilder;
+    id adManager;
+    id dataManager;
+    id viewManager;
+    id token;
 }
 
 @end

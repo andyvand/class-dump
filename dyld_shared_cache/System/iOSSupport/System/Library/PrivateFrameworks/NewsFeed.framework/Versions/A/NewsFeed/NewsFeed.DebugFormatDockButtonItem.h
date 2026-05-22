@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDockButtonItem
 {
-    MISSING_TYPE *button;
-    MISSING_TYPE *badgeLabel;
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *_badge;
-    MISSING_TYPE *model;
+    id button;
+    id badgeLabel;
+    id isEnabled;
+    id _badge;
+    id model;
 }
 
 @end

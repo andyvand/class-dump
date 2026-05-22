@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.FloatingBarFrameAssistant
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *oldValue;
+    id delegate;
+    id oldValue;
 }
 
 @end

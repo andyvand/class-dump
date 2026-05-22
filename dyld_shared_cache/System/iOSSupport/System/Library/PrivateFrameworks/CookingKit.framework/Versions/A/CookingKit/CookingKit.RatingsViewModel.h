@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RatingsViewModel
 {
-    MISSING_TYPE *_averageRatingText;
-    MISSING_TYPE *_outOfFiveText;
-    MISSING_TYPE *_numberOfRatingsText;
-    MISSING_TYPE *_ratingCounts;
-    MISSING_TYPE *_numberOfRatings;
-    MISSING_TYPE *_hasInsufficientRatings;
-    MISSING_TYPE *_insufficientRatingsText;
-    MISSING_TYPE *_$observationRegistrar;
+    id _averageRatingText;
+    id _outOfFiveText;
+    id _numberOfRatingsText;
+    id _ratingCounts;
+    id _numberOfRatings;
+    id _hasInsufficientRatings;
+    id _insufficientRatingsText;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSMutableAttributedString;
+@class NSMutableAttributedString;
 
 @interface SLHighlightDisambiguationPillMetrics
 {
-    MISSING_TYPE *metrics;
-    MISSING_TYPE *$__lazy_storage_$_pillMetrics;
+    id metrics;
+    id $__lazy_storage_$_pillMetrics;
 }
 
 + (id);

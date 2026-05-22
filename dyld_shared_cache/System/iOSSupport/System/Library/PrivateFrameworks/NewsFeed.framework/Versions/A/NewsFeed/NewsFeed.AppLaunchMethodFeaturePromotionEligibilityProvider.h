@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.AppLaunchMethodFeaturePromotionEligibilityProvider
 {
-    MISSING_TYPE *appLaunchMethodChecker;
-    MISSING_TYPE *appLaunchMethod;
+    id appLaunchMethodChecker;
+    id appLaunchMethod;
 }
 
 @end

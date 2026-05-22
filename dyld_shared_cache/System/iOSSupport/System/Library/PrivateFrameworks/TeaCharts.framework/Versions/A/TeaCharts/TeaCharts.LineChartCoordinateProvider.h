@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.LineChartCoordinateProvider
 {
-    MISSING_TYPE *valueCoordinateCalculator;
-    MISSING_TYPE *categoryCoordinateCalculator;
-    MISSING_TYPE *coordinateSpace;
-    MISSING_TYPE *size;
-    MISSING_TYPE *lock;
+    id valueCoordinateCalculator;
+    id categoryCoordinateCalculator;
+    id coordinateSpace;
+    id size;
+    id lock;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedDataVisualizationDataServiceFailure
 {
-    MISSING_TYPE *error;
-    MISSING_TYPE *fetchDate;
-    MISSING_TYPE *createdDate;
-    MISSING_TYPE *request;
-    MISSING_TYPE *maxAge;
+    id error;
+    id fetchDate;
+    id createdDate;
+    id request;
+    id maxAge;
 }
 
 @end

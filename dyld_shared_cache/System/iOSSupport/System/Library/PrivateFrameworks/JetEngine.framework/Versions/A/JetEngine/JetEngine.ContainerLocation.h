@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.ContainerLocation
 {
-    MISSING_TYPE *containerDirectoryURL;
-    MISSING_TYPE *cacheDirectoryUrl;
-    MISSING_TYPE *tmpDirectoryUrl;
-    MISSING_TYPE *sandboxTokenHandle;
+    id containerDirectoryURL;
+    id cacheDirectoryUrl;
+    id tmpDirectoryUrl;
+    id sandboxTokenHandle;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedURLHandlerDelegate
 {
-    MISSING_TYPE *webLinkPresentingViewController;
-    MISSING_TYPE *webEmbedIdentifier;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *webEmbedCoordinator;
+    id webLinkPresentingViewController;
+    id webEmbedIdentifier;
+    id tipManager;
+    id webEmbedCoordinator;
 }
 
 - (void);

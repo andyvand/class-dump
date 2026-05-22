@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewIssueLocalNotificationScheduler
 {
-    MISSING_TYPE *newIssueThreadIdentifier;
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *calendar;
-    MISSING_TYPE *secondsPastMidnightToDeliverNotification;
-    MISSING_TYPE *issueReadingHistory;
+    id newIssueThreadIdentifier;
+    id notificationService;
+    id calendar;
+    id secondsPastMidnightToDeliverNotification;
+    id issueReadingHistory;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.JetIntentPreloader
 {
-    MISSING_TYPE *enableDispatchingPreloadIntents;
-    MISSING_TYPE *preloadIntentQueue;
-    MISSING_TYPE *dispatcher;
+    id enableDispatchingPreloadIntents;
+    id preloadIntentQueue;
+    id dispatcher;
 }
 
 @end

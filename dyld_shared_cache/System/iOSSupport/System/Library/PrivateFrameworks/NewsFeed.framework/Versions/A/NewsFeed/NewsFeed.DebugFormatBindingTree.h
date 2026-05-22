@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatBindingTree
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *_workspace;
+    id editor;
+    id _workspace;
 }
 
 @end

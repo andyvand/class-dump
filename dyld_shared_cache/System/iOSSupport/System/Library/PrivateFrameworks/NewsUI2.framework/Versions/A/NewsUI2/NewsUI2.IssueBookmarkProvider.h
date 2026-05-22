@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.IssueBookmarkProvider
 {
-    MISSING_TYPE *issueReadingHistory;
-    MISSING_TYPE *configurationManager;
+    id issueReadingHistory;
+    id configurationManager;
 }
 
 @end

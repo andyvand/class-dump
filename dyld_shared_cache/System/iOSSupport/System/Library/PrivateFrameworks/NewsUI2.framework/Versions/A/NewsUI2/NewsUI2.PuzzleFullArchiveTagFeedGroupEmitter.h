@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleFullArchiveTagFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *knobs;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *puzzleArchiveService;
-    MISSING_TYPE *filterOptionsManager;
-    MISSING_TYPE *timeZone;
-    MISSING_TYPE *name;
+    id config;
+    id knobs;
+    id formatService;
+    id puzzleArchiveService;
+    id filterOptionsManager;
+    id timeZone;
+    id name;
 }
 
 @end

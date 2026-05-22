@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol NUNIAnimatable, NUNIAnimationObserver;
 
 @interface NUNIAnimation
 {
-    MISSING_TYPE *_ctrl1;
-    MISSING_TYPE *_ctrl2;
-    MISSING_TYPE *_values[75];
+    id _ctrl1;
+    id _ctrl2;
+    id _values[75];
     int _valuesCount;
     float _prevTime;
     float _pauseTime;
@@ -24,8 +23,8 @@
     unsigned long long _key;
     id <NUNIAnimatable> _animatable;
     id <NUNIAnimationObserver> _observer;
-    MISSING_TYPE *_from;
-    MISSING_TYPE *_to;
+    id _from;
+    id _to;
 }
 
 - (void);
@@ -38,8 +37,8 @@
 - (_Bool);
 - (void);
 - (void);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (float);
 - (unsigned long long);
 - (float);
@@ -62,14 +61,14 @@
 @property(nonatomic) __weak id <NUNIAnimatable> animatable; // @synthesize animatable=_animatable;
 @property(nonatomic) float delay; // @synthesize delay=_delay;
 @property(nonatomic) float duration; // @synthesize duration=_duration;
-@property(nonatomic) MISSING_TYPE *from; // @synthesize from=_from;
+@property(nonatomic) id from; // @synthesize from=_from;
 @property(nonatomic) unsigned long long function; // @synthesize function=_function;
 @property(nonatomic) unsigned long long key; // @synthesize key=_key;
 @property(nonatomic) __weak id <NUNIAnimationObserver> observer; // @synthesize observer=_observer;
 @property(nonatomic, getter=isPaused) _Bool paused; // @synthesize paused=_paused;
 @property(nonatomic, getter=isRepeat) _Bool repeat; // @synthesize repeat=_repeat;
 @property(nonatomic) float startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) MISSING_TYPE *to; // @synthesize to=_to;
+@property(nonatomic) id to; // @synthesize to=_to;
 
 @end
 

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsScoreDataVisualization
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *competitorTags;
-    MISSING_TYPE *umcCanonicalId;
-    MISSING_TYPE *event;
-    MISSING_TYPE *leagueTag;
-    MISSING_TYPE *embedUrl;
-    MISSING_TYPE *urlDataSources;
-    MISSING_TYPE *eventStatus;
-    MISSING_TYPE *metadata;
-    MISSING_TYPE *debugData;
-    MISSING_TYPE *config;
-    MISSING_TYPE *traits;
-    MISSING_TYPE *groupingIdentifier;
-    MISSING_TYPE *representsCollapsedEventGroup;
+    id identifier;
+    id competitorTags;
+    id umcCanonicalId;
+    id event;
+    id leagueTag;
+    id embedUrl;
+    id urlDataSources;
+    id eventStatus;
+    id metadata;
+    id debugData;
+    id config;
+    id traits;
+    id groupingIdentifier;
+    id representsCollapsedEventGroup;
 }
 
 @end

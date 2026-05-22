@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ModalCardPresentationController
 {
-    MISSING_TYPE *effectView;
-    MISSING_TYPE *observation;
-    MISSING_TYPE *useBlurEffect;
+    id effectView;
+    id observation;
+    id useBlurEffect;
 }
 
 - (void);

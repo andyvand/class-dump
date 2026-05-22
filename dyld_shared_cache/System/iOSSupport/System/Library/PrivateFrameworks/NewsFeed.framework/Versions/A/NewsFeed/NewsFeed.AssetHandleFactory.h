@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.AssetHandleFactory
 {
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *contentContext;
-    MISSING_TYPE *sportsDataService;
+    id assetManager;
+    id contentContext;
+    id sportsDataService;
 }
 
 @end

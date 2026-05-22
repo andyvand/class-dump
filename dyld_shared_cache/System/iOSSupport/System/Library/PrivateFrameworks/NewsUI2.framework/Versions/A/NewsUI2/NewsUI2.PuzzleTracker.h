@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleTracker
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *gameMetricsStore;
+    id tracker;
+    id puzzleHistoryService;
+    id puzzleService;
+    id puzzleStatsService;
+    id gameMetricsStore;
 }
 
 @end

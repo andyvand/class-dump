@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsEngagement.EngagementEventHandler
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *featureSettings;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *placementRequestDate;
-    MISSING_TYPE *throttleInterval;
-    MISSING_TYPE *$__lazy_storage_$_isEnabled;
+    id delegate;
+    id featureSettings;
+    id eventManager;
+    id placementRequestDate;
+    id throttleInterval;
+    id $__lazy_storage_$_isEnabled;
 }
 
 @end

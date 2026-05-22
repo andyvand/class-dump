@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.NavigationTray.AccessoryItemViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_title;
-    MISSING_TYPE *_shortTitle;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _title;
+    id _shortTitle;
+    id _$observationRegistrar;
 }
 
 @end

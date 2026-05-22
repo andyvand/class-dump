@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatItemNodeStyle
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *class;
-    MISSING_TYPE *previewParameters;
-    MISSING_TYPE *cellSelection;
-    MISSING_TYPE *cellAction;
-    MISSING_TYPE *clipsToBounds;
-    MISSING_TYPE *ignoresSmartInvertColors;
-    MISSING_TYPE *swipeActionStyle;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *focusParameters;
-    MISSING_TYPE *shouldCancelContextMenu;
-    MISSING_TYPE *shouldCancelDrag;
+    id _identifier;
+    id class;
+    id previewParameters;
+    id cellSelection;
+    id cellAction;
+    id clipsToBounds;
+    id ignoresSmartInvertColors;
+    id swipeActionStyle;
+    id _selectors;
+    id focusParameters;
+    id shouldCancelContextMenu;
+    id shouldCancelDrag;
 }
 
 @end

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsDataService
 {
-    MISSING_TYPE *requestBuilder;
-    MISSING_TYPE *requestFetcher;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *configManager;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *sportsEventController;
-    MISSING_TYPE *eventRosterCache;
-    MISSING_TYPE *visualizationCache;
-    MISSING_TYPE *countryFlagConfigCache;
-    MISSING_TYPE *countryFlagConfigFetchDeduper;
+    id requestBuilder;
+    id requestFetcher;
+    id tagService;
+    id configManager;
+    id appConfigManager;
+    id sportsEventController;
+    id eventRosterCache;
+    id visualizationCache;
+    id countryFlagConfigCache;
+    id countryFlagConfigFetchDeduper;
 }
 
 @end

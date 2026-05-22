@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol HUConfigurationViewControllerDelegate;
 
 @interface HUUtilityOnboardingIntroViewController
 {
     id <HUConfigurationViewControllerDelegate> delegate;
-    MISSING_TYPE *context;
-    MISSING_TYPE *continueButton;
-    MISSING_TYPE *cancelButton;
+    id context;
+    id continueButton;
+    id cancelButton;
 }
 
 - (Class);

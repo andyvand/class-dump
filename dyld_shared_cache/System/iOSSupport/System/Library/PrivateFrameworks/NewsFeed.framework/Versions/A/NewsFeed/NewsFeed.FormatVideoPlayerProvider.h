@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatVideoPlayerProvider
 {
-    MISSING_TYPE *data;
-    MISSING_TYPE *coordinator;
-    MISSING_TYPE *metadata;
-    MISSING_TYPE *playMethod;
+    id data;
+    id coordinator;
+    id metadata;
+    id playMethod;
 }
 
 - (void);

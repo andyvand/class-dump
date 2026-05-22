@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAnalytics.PortraitEventProcessor
 {
-    MISSING_TYPE *jsonDecoder;
-    MISSING_TYPE *topicStore;
-    MISSING_TYPE *kPortraitTopicStoreClientIdentifier;
-    MISSING_TYPE *kPortraitFeedbackMappingID;
+    id jsonDecoder;
+    id topicStore;
+    id kPortraitTopicStoreClientIdentifier;
+    id kPortraitFeedbackMappingID;
 }
 
 @end

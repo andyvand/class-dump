@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedRecipeCatalogSearchCoordinator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *searchController;
-    MISSING_TYPE *isSearchPresented;
-    MISSING_TYPE *showSearchNavigationItems;
-    MISSING_TYPE *feedDescriptor;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *recipeCatalogFilterResultProvider;
-    MISSING_TYPE *recipeCatalogFilterSelectionManager;
-    MISSING_TYPE *recipeCatalogSearchViewController;
-    MISSING_TYPE *$__lazy_storage_$_filterBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_stateFilterBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_recipeBoxBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_cancelSearchBarButtonItem;
+    id delegate;
+    id searchController;
+    id isSearchPresented;
+    id showSearchNavigationItems;
+    id feedDescriptor;
+    id commandCenter;
+    id tracker;
+    id recipeCatalogFilterResultProvider;
+    id recipeCatalogFilterSelectionManager;
+    id recipeCatalogSearchViewController;
+    id $__lazy_storage_$_filterBarButtonItem;
+    id $__lazy_storage_$_stateFilterBarButtonItem;
+    id $__lazy_storage_$_recipeBoxBarButtonItem;
+    id $__lazy_storage_$_cancelSearchBarButtonItem;
 }
 
 - (void);

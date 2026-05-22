@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.BannerAdMetricsView
 {
-    MISSING_TYPE *placementIdentifier;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *adFrame;
-    MISSING_TYPE *contentInfo;
-    MISSING_TYPE *state;
-    MISSING_TYPE *onLongPress;
-    MISSING_TYPE *metricsView;
-    MISSING_TYPE *promotedContentInfoObserver;
-    MISSING_TYPE *unfilledReasonObserver;
-    MISSING_TYPE *padding;
-    MISSING_TYPE *onSizeResolved;
+    id placementIdentifier;
+    id tracker;
+    id adFrame;
+    id contentInfo;
+    id state;
+    id onLongPress;
+    id metricsView;
+    id promotedContentInfoObserver;
+    id unfilledReasonObserver;
+    id padding;
+    id onSizeResolved;
 }
 
 - (void);

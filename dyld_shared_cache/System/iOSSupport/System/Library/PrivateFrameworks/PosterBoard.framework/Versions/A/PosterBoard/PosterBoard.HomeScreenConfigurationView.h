@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.HomeScreenConfigurationView
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *posterPair;
-    MISSING_TYPE *controls;
-    MISSING_TYPE *lockPosterPreviewView;
-    MISSING_TYPE *gradientPreviewView;
-    MISSING_TYPE *solidColorPreviewView;
-    MISSING_TYPE *homePosterPreviewView;
-    MISSING_TYPE *blurButton;
-    MISSING_TYPE *stackView;
-    MISSING_TYPE *homeScreenConfiguration;
+    id delegate;
+    id posterPair;
+    id controls;
+    id lockPosterPreviewView;
+    id gradientPreviewView;
+    id solidColorPreviewView;
+    id homePosterPreviewView;
+    id blurButton;
+    id stackView;
+    id homeScreenConfiguration;
 }
 
 - (void);

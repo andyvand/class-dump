@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagModel
 {
-    MISSING_TYPE *tag;
-    MISSING_TYPE *source;
-    MISSING_TYPE *notificationSetting;
-    MISSING_TYPE *shortcutSetting;
-    MISSING_TYPE *subscription;
-    MISSING_TYPE *additionalContextMenuOptions;
+    id tag;
+    id source;
+    id notificationSetting;
+    id shortcutSetting;
+    id subscription;
+    id additionalContextMenuOptions;
 }
 
 @end

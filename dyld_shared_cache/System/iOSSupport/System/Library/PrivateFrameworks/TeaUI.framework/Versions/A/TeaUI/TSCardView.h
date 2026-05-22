@@ -4,24 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface TSCardView
 {
-    MISSING_TYPE *onTap;
-    MISSING_TYPE *onCloseTap;
-    MISSING_TYPE *expandAccessibilityActionHandler;
-    MISSING_TYPE *expandAccessibilityAction;
-    MISSING_TYPE *collapseAccessibilityActionHandler;
-    MISSING_TYPE *collapseAccessibilityAction;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *clippingView;
-    MISSING_TYPE *grabberView;
-    MISSING_TYPE *contentOverlayButtonView;
-    MISSING_TYPE *barView;
-    MISSING_TYPE *titleView;
-    MISSING_TYPE *layout;
-    MISSING_TYPE *isFullscreen;
+    id onTap;
+    id onCloseTap;
+    id expandAccessibilityActionHandler;
+    id expandAccessibilityAction;
+    id collapseAccessibilityActionHandler;
+    id collapseAccessibilityAction;
+    id contentView;
+    id clippingView;
+    id grabberView;
+    id contentOverlayButtonView;
+    id barView;
+    id titleView;
+    id layout;
+    id isFullscreen;
 }
 
 - (_Bool);

@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, NSURL;
+@class NSString, NSURL;
 
 @interface StocksAnalytics.DynamicEndpoint
 {
-    MISSING_TYPE *appConfigurationManager;
+    id appConfigurationManager;
 }
 
 - (id);

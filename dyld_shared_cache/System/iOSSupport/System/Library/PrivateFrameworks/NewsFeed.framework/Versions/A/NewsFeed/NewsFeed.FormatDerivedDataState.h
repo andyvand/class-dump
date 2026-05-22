@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDerivedDataState
 {
-    MISSING_TYPE *inventory;
-    MISSING_TYPE *files;
-    MISSING_TYPE *slotDefinitions;
-    MISSING_TYPE *results;
-    MISSING_TYPE *resultBlocks;
-    MISSING_TYPE *options;
+    id inventory;
+    id files;
+    id slotDefinitions;
+    id results;
+    id resultBlocks;
+    id options;
 }
 
 @end

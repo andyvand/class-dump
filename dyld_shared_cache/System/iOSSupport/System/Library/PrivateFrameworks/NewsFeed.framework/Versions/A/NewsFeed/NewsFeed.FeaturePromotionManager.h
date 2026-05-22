@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeaturePromotionManager
 {
-    MISSING_TYPE *configFetcher;
-    MISSING_TYPE *eligibilityChecker;
-    MISSING_TYPE *viewModelFactory;
-    MISSING_TYPE *resolvedDataSourceFactory;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *hostSessionRecord;
-    MISSING_TYPE *presentationArchive;
+    id configFetcher;
+    id eligibilityChecker;
+    id viewModelFactory;
+    id resolvedDataSourceFactory;
+    id featureAvailability;
+    id hostSessionRecord;
+    id presentationArchive;
 }
 
 @end

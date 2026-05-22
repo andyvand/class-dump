@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.MovieSystem
 {
-    MISSING_TYPE *dirtyMovieQuery;
-    MISSING_TYPE *updatePlayers;
+    id dirtyMovieQuery;
+    id updatePlayers;
 }
 
 @end

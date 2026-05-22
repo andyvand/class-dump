@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineCategoriesPickerViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *selectedCategory;
-    MISSING_TYPE *contentSizeObserver;
+    id delegate;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id coverViewManager;
+    id eventManager;
+    id selectedCategory;
+    id contentSizeObserver;
 }
 
 - (void);

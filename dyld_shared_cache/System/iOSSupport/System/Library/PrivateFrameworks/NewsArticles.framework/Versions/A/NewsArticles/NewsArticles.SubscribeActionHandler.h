@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.SubscribeActionHandler
 {
-    MISSING_TYPE *headline;
-    MISSING_TYPE *actionModel;
-    MISSING_TYPE *purchaseStarter;
-    MISSING_TYPE *purchasingSpinnerViewControllerFactory;
-    MISSING_TYPE *$__lazy_storage_$_purchasingSpinnerViewController;
-    MISSING_TYPE *$__lazy_storage_$_verifyingSpinnerViewController;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *router;
-    MISSING_TYPE *familySharingLandingPageLauncher;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *presenter;
-    MISSING_TYPE *urlHandler;
-    MISSING_TYPE *postPurchaseOnboardingManager;
-    MISSING_TYPE *onboardingPrewarmer;
-    MISSING_TYPE *bundleSubscriptionDetectionManager;
-    MISSING_TYPE *postPurchaseRoutingInProgress;
-    MISSING_TYPE *networkReachability;
-    MISSING_TYPE *paidBundleViaOfferFeatureAvailability;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *tipConfigFactory;
-    MISSING_TYPE *commandCenter;
+    id headline;
+    id actionModel;
+    id purchaseStarter;
+    id purchasingSpinnerViewControllerFactory;
+    id $__lazy_storage_$_purchasingSpinnerViewController;
+    id $__lazy_storage_$_verifyingSpinnerViewController;
+    id bundleSubscriptionManager;
+    id tracker;
+    id configurationManager;
+    id router;
+    id familySharingLandingPageLauncher;
+    id offerManager;
+    id presenter;
+    id urlHandler;
+    id postPurchaseOnboardingManager;
+    id onboardingPrewarmer;
+    id bundleSubscriptionDetectionManager;
+    id postPurchaseRoutingInProgress;
+    id networkReachability;
+    id paidBundleViaOfferFeatureAvailability;
+    id appConfigurationManager;
+    id tipConfigFactory;
+    id commandCenter;
 }
 
 - (void);

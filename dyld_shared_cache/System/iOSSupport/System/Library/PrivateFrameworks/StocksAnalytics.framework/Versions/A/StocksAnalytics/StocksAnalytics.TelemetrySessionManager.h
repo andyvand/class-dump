@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface StocksAnalytics.TelemetrySessionManager
 {
-    MISSING_TYPE *sessionManager;
-    MISSING_TYPE *sessionObserver;
-    MISSING_TYPE *networkEventSubscriber;
+    id sessionManager;
+    id sessionObserver;
+    id networkEventSubscriber;
 }
 
 @end

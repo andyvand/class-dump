@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.CallTranslationService
 {
-    MISSING_TYPE *videoCall;
-    MISSING_TYPE *guardOnLockState;
-    MISSING_TYPE *isShowingRemoteLocale;
-    MISSING_TYPE *call;
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *conversationObserver;
-    MISSING_TYPE *interactionController;
-    MISSING_TYPE *notificationCenter;
-    MISSING_TYPE *sharePlayAvailability;
-    MISSING_TYPE *biomeLanguageController;
-    MISSING_TYPE *cancellables;
-    MISSING_TYPE *languageManager;
-    MISSING_TYPE *uplinkCaptions;
-    MISSING_TYPE *downlinkCaptions;
-    MISSING_TYPE *mockTranscripts;
-    MISSING_TYPE *isRemoteStartedSubject;
-    MISSING_TYPE *isTranslationStartedSubject;
-    MISSING_TYPE *transcriptsSubject;
-    MISSING_TYPE *languagePairSubject;
-    MISSING_TYPE *transcriptCancellable;
+    id videoCall;
+    id guardOnLockState;
+    id isShowingRemoteLocale;
+    id call;
+    id callCenter;
+    id conversationObserver;
+    id interactionController;
+    id notificationCenter;
+    id sharePlayAvailability;
+    id biomeLanguageController;
+    id cancellables;
+    id languageManager;
+    id uplinkCaptions;
+    id downlinkCaptions;
+    id mockTranscripts;
+    id isRemoteStartedSubject;
+    id isTranslationStartedSubject;
+    id transcriptsSubject;
+    id languagePairSubject;
+    id transcriptCancellable;
 }
 
 - (id);

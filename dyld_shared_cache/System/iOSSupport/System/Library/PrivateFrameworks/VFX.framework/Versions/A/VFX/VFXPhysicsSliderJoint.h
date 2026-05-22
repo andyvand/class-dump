@@ -6,8 +6,6 @@
 
 #import <VFX/VFXPhysicsJoint.h>
 
-@class MISSING_TYPE;
-
 @interface VFXPhysicsSliderJoint : VFXPhysicsJoint
 {
     struct {
@@ -60,10 +58,10 @@
 - (float);
 - (id);
 - (id);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -71,10 +69,10 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) MISSING_TYPE *anchorA;
-@property(nonatomic) MISSING_TYPE *anchorB;
-@property(nonatomic) MISSING_TYPE *axisA;
-@property(nonatomic) MISSING_TYPE *axisB;
+@property(nonatomic) id anchorA;
+@property(nonatomic) id anchorB;
+@property(nonatomic) id axisA;
+@property(nonatomic) id axisB;
 @property(nonatomic) float maximumAngularLimit;
 @property(nonatomic) float maximumLinearLimit;
 @property(nonatomic) float minimumAngularLimit;

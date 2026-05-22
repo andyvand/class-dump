@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ManageNotificationsCommandHandler
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *followingDataManager;
+    id navigator;
+    id tracker;
+    id followingDataManager;
 }
 
 @end

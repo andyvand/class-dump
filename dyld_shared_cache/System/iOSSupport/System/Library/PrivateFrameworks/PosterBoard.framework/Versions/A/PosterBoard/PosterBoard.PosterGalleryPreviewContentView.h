@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.PosterGalleryPreviewContentView
 {
-    MISSING_TYPE *snapshotView;
-    MISSING_TYPE *complicationOverlayView;
+    id snapshotView;
+    id complicationOverlayView;
 }
 
 - (id);

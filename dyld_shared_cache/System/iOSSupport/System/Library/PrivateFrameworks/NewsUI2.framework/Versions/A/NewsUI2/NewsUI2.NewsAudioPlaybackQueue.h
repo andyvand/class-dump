@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsAudioPlaybackQueue
 {
-    MISSING_TYPE *ephemeralQueue;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *carplayTemplatesQueue;
-    MISSING_TYPE *audioDataManager;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id ephemeralQueue;
+    id queue;
+    id carplayTemplatesQueue;
+    id audioDataManager;
+    id bundleSubscriptionManager;
 }
 
 @end

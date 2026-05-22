@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 __attribute__((visibility("hidden")))
 @interface UISubstituteKeyboardSession
 {
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *presentationController;
-    MISSING_TYPE *animationController;
-    MISSING_TYPE *traitChangeObservation;
-    MISSING_TYPE *wasShowingInputOrAssistantViews;
-    MISSING_TYPE *responder;
+    id viewController;
+    id presentationController;
+    id animationController;
+    id traitChangeObservation;
+    id wasShowingInputOrAssistantViews;
+    id responder;
 }
 
 + (id){ %@ }%@;

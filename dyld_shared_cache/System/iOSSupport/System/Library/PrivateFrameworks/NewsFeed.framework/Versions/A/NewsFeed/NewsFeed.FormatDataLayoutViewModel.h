@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDataLayoutViewModel
 {
-    MISSING_TYPE *dataLayoutValue;
-    MISSING_TYPE *viewModel;
+    id dataLayoutValue;
+    id viewModel;
 }
 
 @end

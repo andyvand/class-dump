@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.FindMyLocateSession
 {
-    MISSING_TYPE *session;
-    MISSING_TYPE *contact;
-    MISSING_TYPE *locationSharingModificationCheck;
-    MISSING_TYPE *bestHandle;
+    id session;
+    id contact;
+    id locationSharingModificationCheck;
+    id bestHandle;
 }
 
 @end

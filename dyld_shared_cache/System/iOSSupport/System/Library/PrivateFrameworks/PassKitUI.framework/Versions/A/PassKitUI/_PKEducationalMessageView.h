@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _PKEducationalMessageView
 {
-    MISSING_TYPE *actionHandler;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *messageLabel;
-    MISSING_TYPE *actionButton;
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *animationView;
+    id actionHandler;
+    id titleLabel;
+    id messageLabel;
+    id actionButton;
+    id imageView;
+    id animationView;
 }
 
 - (void);

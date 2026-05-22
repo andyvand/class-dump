@@ -4,32 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface NewsFeed.FormatLayoutView
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *debugButton;
-    MISSING_TYPE *onSizeInvalidation;
-    MISSING_TYPE *onKeyboardWillShow;
-    MISSING_TYPE *onKeyboardWillHide;
-    MISSING_TYPE *accessibilityRenderer;
-    MISSING_TYPE *feedItem;
-    MISSING_TYPE *shouldCancelContextMenu;
-    MISSING_TYPE *shouldCancelDrag;
-    MISSING_TYPE *viewAnimations;
-    MISSING_TYPE *token;
-    MISSING_TYPE *isDirty;
-    MISSING_TYPE *viewContainers;
-    MISSING_TYPE *scrollObservers;
-    MISSING_TYPE *loadAwareObservers;
-    MISSING_TYPE *layoutObservers;
-    MISSING_TYPE *viewControllers;
-    MISSING_TYPE *viewKey;
-    MISSING_TYPE *viewsByName;
-    MISSING_TYPE *tapAction;
-    MISSING_TYPE *tapGesture;
-    MISSING_TYPE *visualEffectContainer;
+    id identifier;
+    id debugButton;
+    id onSizeInvalidation;
+    id onKeyboardWillShow;
+    id onKeyboardWillHide;
+    id accessibilityRenderer;
+    id feedItem;
+    id shouldCancelContextMenu;
+    id shouldCancelDrag;
+    id viewAnimations;
+    id token;
+    id isDirty;
+    id viewContainers;
+    id scrollObservers;
+    id loadAwareObservers;
+    id layoutObservers;
+    id viewControllers;
+    id viewKey;
+    id viewsByName;
+    id tapAction;
+    id tapGesture;
+    id visualEffectContainer;
 }
 
 - (id);

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.ImportSession
 {
-    MISSING_TYPE *stage;
-    MISSING_TYPE *rootEntity;
-    MISSING_TYPE *engineRef;
-    MISSING_TYPE *deploymentTarget;
-    MISSING_TYPE *sceneTable;
-    MISSING_TYPE *core;
-    MISSING_TYPE *sceneUpdatePassCompletion;
-    MISSING_TYPE *swiftBuildersByPrimPath;
-    MISSING_TYPE *behaviorsCommitter;
+    id stage;
+    id rootEntity;
+    id engineRef;
+    id deploymentTarget;
+    id sceneTable;
+    id core;
+    id sceneUpdatePassCompletion;
+    id swiftBuildersByPrimPath;
+    id behaviorsCommitter;
 }
 
 @end

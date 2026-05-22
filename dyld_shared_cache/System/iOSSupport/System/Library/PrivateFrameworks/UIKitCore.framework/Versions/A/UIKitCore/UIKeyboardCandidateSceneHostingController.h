@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKeyboardCandidateSceneHostingController
 {
-    MISSING_TYPE *sceneHostingController;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *sceneConfigurationObservables;
+    id sceneHostingController;
+    id delegate;
+    id sceneConfigurationObservables;
 }
 
 - (void);

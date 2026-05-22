@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedCursorDatabaseCommandHandler
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *databaseExporter;
+    id cloudContext;
+    id databaseExporter;
 }
 
 @end

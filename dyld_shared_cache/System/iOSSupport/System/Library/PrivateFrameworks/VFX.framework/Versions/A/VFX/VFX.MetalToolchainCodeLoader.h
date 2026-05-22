@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.CodeLoader.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.MetalToolchainCodeLoader : VFX.CodeLoader
 {
-    MISSING_TYPE *libname;
+    id libname;
 }
 
 @end

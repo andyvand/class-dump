@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDebuggerSourceMetricView
 {
-    MISSING_TYPE *metric;
-    MISSING_TYPE *label;
-    MISSING_TYPE *bubbleLayer;
-    MISSING_TYPE *bubbleInsets;
-    MISSING_TYPE *bubbleTipSize;
+    id metric;
+    id label;
+    id bubbleLayer;
+    id bubbleInsets;
+    id bubbleTipSize;
 }
 
 - (struct CGSize);

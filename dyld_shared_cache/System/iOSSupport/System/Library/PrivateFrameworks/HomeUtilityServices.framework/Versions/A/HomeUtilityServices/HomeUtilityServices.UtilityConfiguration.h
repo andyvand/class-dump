@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSDictionary, NSString, NSURL, _TtC19HomeUtilityServices19UtilityOrganization;
+@class HomeUtilityServices.UtilityOrganization, NSArray, NSDictionary, NSString, NSURL;
 
 @interface HomeUtilityServices.UtilityConfiguration
 {
-    MISSING_TYPE *config;
+    id config;
 }
 
 - (void);
@@ -39,7 +39,7 @@
 @property(nonatomic, readonly) long long initialPollDelayInSeconds;
 @property(nonatomic, readonly) _Bool missingDataRetryEnabled;
 @property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) _TtC19HomeUtilityServices19UtilityOrganization *organizationInformation;
+@property(nonatomic, readonly) HomeUtilityServices.UtilityOrganization *organizationInformation;
 @property(nonatomic, readonly) long long refreshTokenValidity;
 @property(nonatomic, readonly) NSString *registerPublicKeyEndpoint;
 @property(nonatomic, readonly) NSString *shortName;

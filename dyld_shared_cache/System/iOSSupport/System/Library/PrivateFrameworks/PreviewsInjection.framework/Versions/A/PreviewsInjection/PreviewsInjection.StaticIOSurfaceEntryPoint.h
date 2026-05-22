@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsInjection.StaticIOSurfaceEntryPoint
 {
-    MISSING_TYPE *hostController;
-    MISSING_TYPE *ioSurfaces;
+    id hostController;
+    id ioSurfaces;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.DebugCullingSystem
 {
-    MISSING_TYPE *isMenuItemEnabled;
-    MISSING_TYPE *isMenuItemBoundToEnabled;
+    id isMenuItemEnabled;
+    id isMenuItemBoundToEnabled;
 }
 
 @end

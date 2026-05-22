@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EngagementUpsellBannerPropertiesProvider
 {
-    MISSING_TYPE *featureSettings;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *triggerStateManager;
-    MISSING_TYPE *paidBundleViaOfferFeatureAvailability;
+    id featureSettings;
+    id offerManager;
+    id triggerStateManager;
+    id paidBundleViaOfferFeatureAvailability;
 }
 
 @end

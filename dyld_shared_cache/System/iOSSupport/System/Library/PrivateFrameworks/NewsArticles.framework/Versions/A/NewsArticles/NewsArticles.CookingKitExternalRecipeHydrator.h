@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.CookingKitExternalRecipeHydrator
 {
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *recipeFactory;
+    id recipeService;
+    id recipeFactory;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.ExternalRecipeConverter
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *cache;
-    MISSING_TYPE *memoryWarningTask;
+    id $defaultActor;
+    id cache;
+    id memoryWarningTask;
 }
 
 @end

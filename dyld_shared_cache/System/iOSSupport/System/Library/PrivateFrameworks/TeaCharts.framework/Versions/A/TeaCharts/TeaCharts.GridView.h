@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.GridView
 {
-    MISSING_TYPE *gridLayers;
-    MISSING_TYPE *labels;
+    id gridLayers;
+    id labels;
 }
 
 - (id);

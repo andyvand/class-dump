@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.SecureMessaging
 {
-    MISSING_TYPE *sessionEncKey;
-    MISSING_TYPE *sessionMacKey;
-    MISSING_TYPE *ssc;
-    MISSING_TYPE *passportCryptoHelper;
+    id sessionEncKey;
+    id sessionMacKey;
+    id ssc;
+    id passportCryptoHelper;
 }
 
 @end

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleBadgingCoordinator
 {
-    MISSING_TYPE *badgeCount;
-    MISSING_TYPE *puzzleTypeManager;
-    MISSING_TYPE *puzzleTypeSettings;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *puzzleTypes;
-    MISSING_TYPE *latestPuzzleIDs;
+    id badgeCount;
+    id puzzleTypeManager;
+    id puzzleTypeSettings;
+    id puzzleHistoryService;
+    id bundleSubscriptionManager;
+    id configurationManager;
+    id puzzleTypes;
+    id latestPuzzleIDs;
 }
 
 @end

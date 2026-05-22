@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchMoreTracker
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *requestData;
-    MISSING_TYPE *contentAvailabilityValidator;
+    id tracker;
+    id scienceDataFactory;
+    id channelDataFactory;
+    id articleDataFactory;
+    id requestData;
+    id contentAvailabilityValidator;
 }
 
 @end

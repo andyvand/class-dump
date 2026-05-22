@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUtilityServices.MatchedServiceAddress
 {
-    MISSING_TYPE *address;
-    MISSING_TYPE *matchType;
+    id address;
+    id matchType;
 }
 
 - (id);

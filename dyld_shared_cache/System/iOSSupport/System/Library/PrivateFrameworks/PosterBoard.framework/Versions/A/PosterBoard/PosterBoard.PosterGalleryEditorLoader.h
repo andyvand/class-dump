@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.PosterGalleryEditorLoader
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *_isSceneReady;
-    MISSING_TYPE *_showLoadingIndicator;
-    MISSING_TYPE *_navigationController;
-    MISSING_TYPE *editingViewController;
-    MISSING_TYPE *_loadingIndicatorTask;
-    MISSING_TYPE *_editingSceneDelegate;
-    MISSING_TYPE *onDismiss;
-    MISSING_TYPE *onPreviewAdded;
-    MISSING_TYPE *_hiddenPreloadWindow;
-    MISSING_TYPE *_$observationRegistrar;
+    id context;
+    id _isSceneReady;
+    id _showLoadingIndicator;
+    id _navigationController;
+    id editingViewController;
+    id _loadingIndicatorTask;
+    id _editingSceneDelegate;
+    id onDismiss;
+    id onPreviewAdded;
+    id _hiddenPreloadWindow;
+    id _$observationRegistrar;
 }
 
 - (struct PREditingSceneViewControllerTopButtonLayout);

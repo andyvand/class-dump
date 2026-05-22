@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsActivitySerializer
 {
-    MISSING_TYPE *intentSerializer;
+    id intentSerializer;
 }
 
 @end

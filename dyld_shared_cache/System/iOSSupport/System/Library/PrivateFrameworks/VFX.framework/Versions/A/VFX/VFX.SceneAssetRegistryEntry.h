@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.SceneAssetRegistryEntry
 {
-    MISSING_TYPE *asset;
-    MISSING_TYPE *_entityManager;
-    MISSING_TYPE *owner;
-    MISSING_TYPE *_rootNode;
-    MISSING_TYPE *loaded;
-    MISSING_TYPE *options;
-    MISSING_TYPE *idToEntity;
-    MISSING_TYPE *entityToId;
-    MISSING_TYPE *counter;
-    MISSING_TYPE *sceneIdentifier;
+    id asset;
+    id _entityManager;
+    id owner;
+    id _rootNode;
+    id loaded;
+    id options;
+    id idToEntity;
+    id entityToId;
+    id counter;
+    id sceneIdentifier;
 }
 
 @end

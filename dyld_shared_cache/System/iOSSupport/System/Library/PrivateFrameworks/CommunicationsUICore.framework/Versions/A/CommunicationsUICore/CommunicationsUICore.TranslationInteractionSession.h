@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.TranslationInteractionSession
 {
-    MISSING_TYPE *groupSession;
-    MISSING_TYPE *reliableMessenger;
-    MISSING_TYPE *serverBag;
-    MISSING_TYPE *controller;
-    MISSING_TYPE *messageSubscription;
-    MISSING_TYPE *subscriptions;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *lock;
+    id groupSession;
+    id reliableMessenger;
+    id serverBag;
+    id controller;
+    id messageSubscription;
+    id subscriptions;
+    id observers;
+    id lock;
 }
 
 @end

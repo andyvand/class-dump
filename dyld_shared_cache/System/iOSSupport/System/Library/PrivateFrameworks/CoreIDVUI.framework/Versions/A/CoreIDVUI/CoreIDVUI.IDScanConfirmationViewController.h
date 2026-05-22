@@ -6,18 +6,16 @@
 
 #import <CoreIDVUI/CoreIDVUI.IdentityProofingViewController.h>
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IDScanConfirmationViewController : CoreIDVUI.IdentityProofingViewController
 {
-    MISSING_TYPE *scanSide;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *idScanResult;
-    MISSING_TYPE *interactor;
-    MISSING_TYPE *docScanConfig;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *eligibilityHelper;
-    MISSING_TYPE *analyticsReporter;
+    id scanSide;
+    id proofingFlowManager;
+    id idScanResult;
+    id interactor;
+    id docScanConfig;
+    id configuration;
+    id eligibilityHelper;
+    id analyticsReporter;
 }
 
 - (id);

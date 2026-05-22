@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsEngagement.EngagementInlineDialogViewController
 {
-    MISSING_TYPE *placement;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *source;
-    MISSING_TYPE *trigger;
-    MISSING_TYPE *messageID;
-    MISSING_TYPE *offer;
-    MISSING_TYPE *appearanceInfo;
+    id placement;
+    id identifier;
+    id source;
+    id trigger;
+    id messageID;
+    id offer;
+    id appearanceInfo;
 }
 
 - (id);

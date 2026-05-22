@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.AppleServicesLocalizer
 {
-    MISSING_TYPE *language;
-    MISSING_TYPE *strings;
-    MISSING_TYPE *keys;
-    MISSING_TYPE *nativeStrings;
-    MISSING_TYPE *dateProvider;
-    MISSING_TYPE *stateLock;
-    MISSING_TYPE *preferences;
-    MISSING_TYPE *defaultLookupStrategy;
-    MISSING_TYPE *clientPreferences;
-    MISSING_TYPE *liveUpdateService;
-    MISSING_TYPE *pluralCategoryProvider;
-    MISSING_TYPE *decimalNumberFormatters;
-    MISSING_TYPE *percentageNumberFormatters;
-    MISSING_TYPE *dateInContextFormatters;
-    MISSING_TYPE *relativeDateFormatters;
-    MISSING_TYPE *locale;
+    id language;
+    id strings;
+    id keys;
+    id nativeStrings;
+    id dateProvider;
+    id stateLock;
+    id preferences;
+    id defaultLookupStrategy;
+    id clientPreferences;
+    id liveUpdateService;
+    id pluralCategoryProvider;
+    id decimalNumberFormatters;
+    id percentageNumberFormatters;
+    id dateInContextFormatters;
+    id relativeDateFormatters;
+    id locale;
 }
 
 @end

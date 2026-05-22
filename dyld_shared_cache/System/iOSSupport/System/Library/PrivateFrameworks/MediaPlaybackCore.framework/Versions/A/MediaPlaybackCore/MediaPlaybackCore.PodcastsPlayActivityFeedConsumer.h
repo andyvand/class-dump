@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.PodcastsPlayActivityFeedConsumer
 {
-    MISSING_TYPE *playbackEngine;
-    MISSING_TYPE *subscription;
-    MISSING_TYPE *workQueue;
+    id playbackEngine;
+    id subscription;
+    id workQueue;
 }
 
 + (void);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ShazamKitUI.AnimatedArtworkPlayer
 {
-    MISSING_TYPE *player;
-    MISSING_TYPE *canPlayAnimatedArtwork;
-    MISSING_TYPE *playerLayer;
-    MISSING_TYPE *cancellables;
+    id player;
+    id canPlayAnimatedArtwork;
+    id playerLayer;
+    id cancellables;
 }
 
 - (id);

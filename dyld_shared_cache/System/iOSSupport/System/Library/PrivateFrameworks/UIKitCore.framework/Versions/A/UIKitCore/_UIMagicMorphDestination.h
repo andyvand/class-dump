@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIBezierPath, UITargetedPreview, _UIShadowProperties, _UIViewAlphaOverrideAssertion;
+@class NSString, UIBezierPath, UITargetedPreview, _UIShadowProperties, _UIViewAlphaOverrideAssertion;
 @protocol _UIAssertion;
 
 __attribute__((visibility("hidden")))
@@ -19,10 +19,10 @@ __attribute__((visibility("hidden")))
     _UIViewAlphaOverrideAssertion *hidingAssertion;
     id <_UIAssertion> backgroundSuppressionAssertion;
     UIBezierPath *shadowPath;
-    MISSING_TYPE *previewSize;
-    MISSING_TYPE *initialLuminance;
-    MISSING_TYPE *$__lazy_storage_$_progress;
-    MISSING_TYPE *transformView;
+    id previewSize;
+    id initialLuminance;
+    id $__lazy_storage_$_progress;
+    id transformView;
 }
 
 - (_Bool);

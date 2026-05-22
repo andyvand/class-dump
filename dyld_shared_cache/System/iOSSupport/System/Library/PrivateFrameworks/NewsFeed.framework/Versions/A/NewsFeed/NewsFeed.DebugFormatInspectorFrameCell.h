@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatInspectorFrameCell
 {
-    MISSING_TYPE *displayFrame;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *frameLayer;
-    MISSING_TYPE *frameLabel;
-    MISSING_TYPE *zIndexLabel;
-    MISSING_TYPE *borderLayers;
-    MISSING_TYPE *hiddenButton;
-    MISSING_TYPE *leftBorderButton;
-    MISSING_TYPE *rightBorderButton;
-    MISSING_TYPE *topBorderButton;
-    MISSING_TYPE *bottomBorderButton;
+    id displayFrame;
+    id delegate;
+    id frameLayer;
+    id frameLabel;
+    id zIndexLabel;
+    id borderLayers;
+    id hiddenButton;
+    id leftBorderButton;
+    id rightBorderButton;
+    id topBorderButton;
+    id bottomBorderButton;
 }
 
 - (void);

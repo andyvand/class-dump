@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.PlayerObserver
 {
-    MISSING_TYPE *$__lazy_storage_$_eventStream;
-    MISSING_TYPE *player;
-    MISSING_TYPE *behavior;
-    MISSING_TYPE *queue;
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *pivotTimeObserver;
-    MISSING_TYPE *transitionStartTimeObserver;
-    MISSING_TYPE *transitionEndTimeObserver;
-    MISSING_TYPE *nextItemObserver;
-    MISSING_TYPE *chapterTimeObserver;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *observations;
+    id $__lazy_storage_$_eventStream;
+    id player;
+    id behavior;
+    id queue;
+    id reporter;
+    id pivotTimeObserver;
+    id transitionStartTimeObserver;
+    id transitionEndTimeObserver;
+    id nextItemObserver;
+    id chapterTimeObserver;
+    id configuration;
+    id observations;
 }
 
 @end

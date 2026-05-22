@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeaturePromotionDataSourceTagContext
 {
-    MISSING_TYPE *subscribedTagIDs;
-    MISSING_TYPE *subscribedTags;
-    MISSING_TYPE *autoFollowedTagIDs;
-    MISSING_TYPE *autoFollowedTags;
-    MISSING_TYPE *blockedTagIDs;
-    MISSING_TYPE *blockedTags;
+    id subscribedTagIDs;
+    id subscribedTags;
+    id autoFollowedTagIDs;
+    id autoFollowedTags;
+    id blockedTagIDs;
+    id blockedTags;
 }
 
 @end

@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface _UITransitionOverlayView : UIView
 {
-    MISSING_TYPE *state;
-    MISSING_TYPE *snapshot;
-    MISSING_TYPE *backdrop;
+    id state;
+    id snapshot;
+    id backdrop;
     void transitionCompletionBlock;
 }
 

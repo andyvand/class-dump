@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatNodeDebugData
 {
-    MISSING_TYPE *bindRecords;
-    MISSING_TYPE *buildRecords;
-    MISSING_TYPE *sourceMaps;
+    id bindRecords;
+    id buildRecords;
+    id sourceMaps;
 }
 
 @end

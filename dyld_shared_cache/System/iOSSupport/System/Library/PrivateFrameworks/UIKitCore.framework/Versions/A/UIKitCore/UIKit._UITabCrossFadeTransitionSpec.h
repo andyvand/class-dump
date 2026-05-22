@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC5UIKit38_UITabCrossFadeTransitionAnimationSpec;
+@class UIKit._UITabCrossFadeTransitionAnimationSpec;
 
 @interface UIKit._UITabCrossFadeTransitionSpec
 {
-    _TtC5UIKit38_UITabCrossFadeTransitionAnimationSpec *regular;
-    _TtC5UIKit38_UITabCrossFadeTransitionAnimationSpec *compact;
+    UIKit._UITabCrossFadeTransitionAnimationSpec *regular;
+    UIKit._UITabCrossFadeTransitionAnimationSpec *compact;
 }
 
 + (id);
@@ -23,8 +23,8 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) _TtC5UIKit38_UITabCrossFadeTransitionAnimationSpec *compact; // @synthesize compact;
-@property(nonatomic, retain) _TtC5UIKit38_UITabCrossFadeTransitionAnimationSpec *regular; // @synthesize regular;
+@property(nonatomic, retain) UIKit._UITabCrossFadeTransitionAnimationSpec *compact; // @synthesize compact;
+@property(nonatomic, retain) UIKit._UITabCrossFadeTransitionAnimationSpec *regular; // @synthesize regular;
 
 @end
 

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.PDFReplicaViewerInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *coordinator;
-    MISSING_TYPE *issue;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *pageBlueprintFactory;
-    MISSING_TYPE *activityItemFactory;
-    MISSING_TYPE *issueReadingHistory;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *options;
+    id delegate;
+    id coordinator;
+    id issue;
+    id dataManager;
+    id pageBlueprintFactory;
+    id activityItemFactory;
+    id issueReadingHistory;
+    id configurationManager;
+    id commandCenter;
+    id options;
 }
 
 @end

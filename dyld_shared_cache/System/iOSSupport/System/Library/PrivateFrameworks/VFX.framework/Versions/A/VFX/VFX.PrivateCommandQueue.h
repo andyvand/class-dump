@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.PrivateCommandQueue
 {
-    MISSING_TYPE *entityManager;
-    MISSING_TYPE *workerIndex;
-    MISSING_TYPE *stackAllocator;
-    MISSING_TYPE *frameAllocator;
-    MISSING_TYPE *currentIterationContext;
-    MISSING_TYPE *pendingDirtyPropagationQueue;
-    MISSING_TYPE *deferredOperations;
-    MISSING_TYPE *immediateOperations;
-    MISSING_TYPE *dirtyTrackingDisabled;
-    MISSING_TYPE *stats;
+    id entityManager;
+    id workerIndex;
+    id stackAllocator;
+    id frameAllocator;
+    id currentIterationContext;
+    id pendingDirtyPropagationQueue;
+    id deferredOperations;
+    id immediateOperations;
+    id dirtyTrackingDisabled;
+    id stats;
 }
 
 @end

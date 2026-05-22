@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPLinkMetadata, MISSING_TYPE;
+@class LPLinkMetadata;
 
 @interface NewsFeed.PuzzleTypeLinkPresentationSource
 {
-    MISSING_TYPE *puzzleType;
+    id puzzleType;
 }
 
 - (id);

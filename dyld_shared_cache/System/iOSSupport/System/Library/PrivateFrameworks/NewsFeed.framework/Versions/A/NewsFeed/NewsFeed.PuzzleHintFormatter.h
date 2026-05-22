@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleHintFormatter
 {
-    MISSING_TYPE *defaultFontSize;
-    MISSING_TYPE *fontScaleFactor;
-    MISSING_TYPE *tagConverter;
+    id defaultFontSize;
+    id fontScaleFactor;
+    id tagConverter;
 }
 
 @end

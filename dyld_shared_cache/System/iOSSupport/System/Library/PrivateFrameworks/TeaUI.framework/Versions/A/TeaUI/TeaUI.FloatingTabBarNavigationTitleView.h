@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface TeaUI.FloatingTabBarNavigationTitleView
 {
-    MISSING_TYPE *layout;
-    MISSING_TYPE *contentInsets;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *showExpandedHeight;
-    MISSING_TYPE *visibility;
-    MISSING_TYPE *lastLeadingItemsRect;
-    MISSING_TYPE *lastTrailingItemsRect;
+    id layout;
+    id contentInsets;
+    id contentView;
+    id showExpandedHeight;
+    id visibility;
+    id lastLeadingItemsRect;
+    id lastTrailingItemsRect;
 }
 
 - (void);

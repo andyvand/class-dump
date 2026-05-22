@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactHeaderAppearance
 {
-    MISSING_TYPE *_sublabelOpacity;
-    MISSING_TYPE *_nameLabelLineLimit;
-    MISSING_TYPE *_nameLabelScale;
-    MISSING_TYPE *_nameLabelScaleAnchor;
-    MISSING_TYPE *_nameLabelOffset;
-    MISSING_TYPE *_nameLabelFrame;
-    MISSING_TYPE *_$observationRegistrar;
+    id _sublabelOpacity;
+    id _nameLabelLineLimit;
+    id _nameLabelScale;
+    id _nameLabelScaleAnchor;
+    id _nameLabelOffset;
+    id _nameLabelFrame;
+    id _$observationRegistrar;
 }
 
 @end

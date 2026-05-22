@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.MaterialSystem
 {
-    MISSING_TYPE *addRuntimeQuery;
-    MISSING_TYPE *updateMaterialsQuery;
-    MISSING_TYPE *meshRendererDependenciesQuery;
-    MISSING_TYPE *quadRendererDependenciesQuery;
+    id addRuntimeQuery;
+    id updateMaterialsQuery;
+    id meshRendererDependenciesQuery;
+    id quadRendererDependenciesQuery;
 }
 
 @end

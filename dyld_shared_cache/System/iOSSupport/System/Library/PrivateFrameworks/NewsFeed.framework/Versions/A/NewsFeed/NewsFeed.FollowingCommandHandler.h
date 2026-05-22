@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FollowingCommandHandler
 {
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *followingManager;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *featureAvailability;
+    id subscriptionController;
+    id followingManager;
+    id commandCenter;
+    id featureAvailability;
 }
 
 - (void);

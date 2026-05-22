@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagService
 {
-    MISSING_TYPE *tagController;
-    MISSING_TYPE *puzzleTypeController;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *purchaseController;
-    MISSING_TYPE *notificationConfiguration;
-    MISSING_TYPE *shortcutList;
-    MISSING_TYPE *featureAvailability;
+    id tagController;
+    id puzzleTypeController;
+    id subscriptionController;
+    id purchaseController;
+    id notificationConfiguration;
+    id shortcutList;
+    id featureAvailability;
 }
 
 @end

@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @interface MediaPlaybackCore.PlaybackStackController
 {
-    MISSING_TYPE *queueController;
-    MISSING_TYPE *playerController;
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *assetQueueController;
-    MISSING_TYPE *errorController;
-    MISSING_TYPE *backgroundTaskController;
-    MISSING_TYPE *currentSetQueueIdentifier;
+    id queueController;
+    id playerController;
+    id reporter;
+    id assetQueueController;
+    id errorController;
+    id backgroundTaskController;
+    id currentSetQueueIdentifier;
 }
 
 - (void);

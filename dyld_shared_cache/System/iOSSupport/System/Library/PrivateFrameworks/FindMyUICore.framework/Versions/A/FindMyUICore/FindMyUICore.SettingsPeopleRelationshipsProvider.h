@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.SettingsPeopleRelationshipsProvider
 {
-    MISSING_TYPE *dependencies;
-    MISSING_TYPE *_storage;
-    MISSING_TYPE *_didAddNewFollowingWithIdentifierCallback;
-    MISSING_TYPE *_loadingStateResetTaskBySubscription;
-    MISSING_TYPE *taskQueue;
-    MISSING_TYPE *_isLoading;
-    MISSING_TYPE *_data;
-    MISSING_TYPE *_valuePublisher;
-    MISSING_TYPE *_didChangeDataStorageCallback;
-    MISSING_TYPE *_$observationRegistrar;
+    id dependencies;
+    id _storage;
+    id _didAddNewFollowingWithIdentifierCallback;
+    id _loadingStateResetTaskBySubscription;
+    id taskQueue;
+    id _isLoading;
+    id _data;
+    id _valuePublisher;
+    id _didChangeDataStorageCallback;
+    id _$observationRegistrar;
 }
 
 @end

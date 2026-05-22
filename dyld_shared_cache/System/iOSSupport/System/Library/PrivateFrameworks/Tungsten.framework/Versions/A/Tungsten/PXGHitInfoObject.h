@@ -10,7 +10,7 @@
         unsigned int spriteIndex;
         double paddedDistance;
         double unpaddedDistance;
-        CDStruct_d1b913ca geometry;
+        CDStruct_fe19fe8c geometry;
     } _hitInfo;
 }
 

@@ -6,12 +6,10 @@
 
 #import <UIKitCore/_UIVisualEffectViewEntry.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UILatencyEmitterViewEntry : _UIVisualEffectViewEntry
 {
-    MISSING_TYPE *duration;
-    MISSING_TYPE *_cachedLatencyView;
+    id duration;
+    id _cachedLatencyView;
 }
 
 - (id);

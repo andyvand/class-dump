@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphScriptRunner
 {
-    MISSING_TYPE *needUpdateMainGraphScriptGroup;
-    MISSING_TYPE *graphScriptQuery;
-    MISSING_TYPE *graphECPRefQuery;
-    MISSING_TYPE *bindingsQuery;
+    id needUpdateMainGraphScriptGroup;
+    id graphScriptQuery;
+    id graphECPRefQuery;
+    id bindingsQuery;
 }
 
 @end

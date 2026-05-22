@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.ActionBarItemViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_type;
-    MISSING_TYPE *_disabled;
-    MISSING_TYPE *_toggled;
-    MISSING_TYPE *_symbol;
-    MISSING_TYPE *_label;
-    MISSING_TYPE *_tintColor;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _type;
+    id _disabled;
+    id _toggled;
+    id _symbol;
+    id _label;
+    id _tintColor;
+    id _$observationRegistrar;
 }
 
 @end

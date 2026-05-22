@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintPipelineRecorder
 {
-    MISSING_TYPE *initialTime;
-    MISSING_TYPE *signposts;
-    MISSING_TYPE *pipelineName;
-    MISSING_TYPE *modifierDescription;
-    MISSING_TYPE *signposter;
+    id initialTime;
+    id signposts;
+    id pipelineName;
+    id modifierDescription;
+    id signposter;
 }
 
 @end

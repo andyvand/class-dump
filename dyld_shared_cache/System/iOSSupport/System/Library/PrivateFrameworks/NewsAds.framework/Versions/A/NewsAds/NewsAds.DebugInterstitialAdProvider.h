@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.DebugInterstitialAdProvider
 {
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *_successRate;
-    MISSING_TYPE *_loadingDelay;
-    MISSING_TYPE *_collapseBehavior;
+    id isEnabled;
+    id _successRate;
+    id _loadingDelay;
+    id _collapseBehavior;
 }
 
 @end

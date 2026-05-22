@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EngagementUpsellTriggerStateManager
 {
-    MISSING_TYPE *appVersion;
-    MISSING_TYPE *featureSettings;
-    MISSING_TYPE *dateProvider;
-    MISSING_TYPE *store;
-    MISSING_TYPE *presentationOperationManager;
-    MISSING_TYPE *conditionEvaluator;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *_triggerVersions;
+    id appVersion;
+    id featureSettings;
+    id dateProvider;
+    id store;
+    id presentationOperationManager;
+    id conditionEvaluator;
+    id lock;
+    id _triggerVersions;
 }
 
 @end

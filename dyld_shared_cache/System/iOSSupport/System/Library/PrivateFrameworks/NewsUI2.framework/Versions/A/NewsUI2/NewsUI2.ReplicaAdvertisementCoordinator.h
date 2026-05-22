@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ReplicaAdvertisementCoordinator
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *advertisement;
-    MISSING_TYPE *issue;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *issueSessionManager;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *articleDataFactory;
+    id delegate;
+    id advertisement;
+    id issue;
+    id tracker;
+    id issueSessionManager;
+    id channelDataFactory;
+    id scienceDataFactory;
+    id articleDataFactory;
 }
 
 @end

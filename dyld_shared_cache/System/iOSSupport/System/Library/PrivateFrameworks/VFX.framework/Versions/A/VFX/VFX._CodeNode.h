@@ -6,14 +6,12 @@
 
 #import <VFX/VFX.BuiltinNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX._CodeNode : VFX.BuiltinNode
 {
-    MISSING_TYPE *code;
-    MISSING_TYPE *inputNames;
-    MISSING_TYPE *outputNames;
-    MISSING_TYPE *outputTypes;
+    id code;
+    id inputNames;
+    id outputNames;
+    id outputTypes;
 }
 
 @end

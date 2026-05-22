@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FollowingManager
 {
-    MISSING_TYPE *notificationPrompter;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *featureAvailability;
+    id notificationPrompter;
+    id subscriptionController;
+    id sceneProvider;
+    id featureAvailability;
 }
 
 @end

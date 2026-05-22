@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, MKMapView;
+@class MKMapView;
 @protocol HULocationTriggerEditorMapDragRadiusViewDelegate;
 
 @interface HULocationTriggerEditorMapDragRadiusView
@@ -12,10 +12,10 @@
     void mapView;
     void delegate;
     unsigned long long proximity;
-    MISSING_TYPE *normalizedSliderValue;
-    MISSING_TYPE *radiusInMeters;
-    MISSING_TYPE *radiusSlider;
-    MISSING_TYPE *radiusLabel;
+    id normalizedSliderValue;
+    id radiusInMeters;
+    id radiusSlider;
+    id radiusLabel;
 }
 
 - (id);

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeViewerInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *pageBlueprintFactory;
-    MISSING_TYPE *pageBlueprintManager;
-    MISSING_TYPE *recipeUserDataManager;
-    MISSING_TYPE *coordinator;
+    id delegate;
+    id dataManager;
+    id blueprintProvider;
+    id pageBlueprintFactory;
+    id pageBlueprintManager;
+    id recipeUserDataManager;
+    id coordinator;
 }
 
 @end

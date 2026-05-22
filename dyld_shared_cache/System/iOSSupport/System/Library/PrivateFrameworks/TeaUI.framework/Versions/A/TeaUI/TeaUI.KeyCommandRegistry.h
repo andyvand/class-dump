@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.KeyCommandRegistry
 {
-    MISSING_TYPE *keyCommands;
-    MISSING_TYPE *controller;
-    MISSING_TYPE *provider;
-    MISSING_TYPE *selector;
+    id keyCommands;
+    id controller;
+    id provider;
+    id selector;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.KeyboardObserver
 {
-    MISSING_TYPE *_isVisible;
-    MISSING_TYPE *_keyboardHeight;
+    id _isVisible;
+    id _keyboardHeight;
 }
 
 - (void);

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ManageChannelNotificationsCommandHandler
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *followingDataManager;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *pushNotificationDataManager;
-    MISSING_TYPE *userNotificationService;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *commandCenter;
+    id navigator;
+    id tracker;
+    id followingDataManager;
+    id subscriptionController;
+    id pushNotificationDataManager;
+    id userNotificationService;
+    id featureAvailability;
+    id offlineProvider;
+    id sportsOnboardingManager;
+    id commandCenter;
 }
 
 - (void);

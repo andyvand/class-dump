@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSystem
 {
-    MISSING_TYPE *feedAppConfig;
-    MISSING_TYPE *selectors;
-    MISSING_TYPE *options;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *feedConfig;
+    id feedAppConfig;
+    id selectors;
+    id options;
+    id logger;
+    id feedConfig;
 }
 
 @end

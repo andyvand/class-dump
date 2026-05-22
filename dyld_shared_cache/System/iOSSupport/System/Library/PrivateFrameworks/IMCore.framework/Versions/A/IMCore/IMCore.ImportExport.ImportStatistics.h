@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ImportStatistics
 {
-    MISSING_TYPE *version;
-    MISSING_TYPE *timer;
-    MISSING_TYPE *batchCount;
-    MISSING_TYPE *expectedCounts;
-    MISSING_TYPE *importedCounts;
+    id version;
+    id timer;
+    id batchCount;
+    id expectedCounts;
+    id importedCounts;
 }
 
 @end

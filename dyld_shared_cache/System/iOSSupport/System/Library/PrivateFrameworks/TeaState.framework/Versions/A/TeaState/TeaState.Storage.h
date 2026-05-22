@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaState.Storage
 {
-    MISSING_TYPE *graphLock;
-    MISSING_TYPE *dependencyContainer;
-    MISSING_TYPE *rootDependencyContainer;
-    MISSING_TYPE *scopedDependencyContainers;
-    MISSING_TYPE *dependencyGraph;
-    MISSING_TYPE *scopeRuleSets;
-    MISSING_TYPE *currentlyUpdatingVertices;
-    MISSING_TYPE *inflightExplicitUpdates;
-    MISSING_TYPE *pendingScopeDefinitions;
-    MISSING_TYPE *pendingScopeTeardowns;
+    id graphLock;
+    id dependencyContainer;
+    id rootDependencyContainer;
+    id scopedDependencyContainers;
+    id dependencyGraph;
+    id scopeRuleSets;
+    id currentlyUpdatingVertices;
+    id inflightExplicitUpdates;
+    id pendingScopeDefinitions;
+    id pendingScopeTeardowns;
 }
 
 @end

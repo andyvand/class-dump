@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.VFXSceneTemplateManager
 {
-    MISSING_TYPE *$__lazy_storage_$_templateBackgroundScene;
-    MISSING_TYPE *$__lazy_storage_$_templateCollisionScene;
+    id $__lazy_storage_$_templateBackgroundScene;
+    id $__lazy_storage_$_templateCollisionScene;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NotificationScheduledDeliveryModeReporter
 {
-    MISSING_TYPE *notificationController;
-    MISSING_TYPE *notificationService;
+    id notificationController;
+    id notificationService;
 }
 
 @end

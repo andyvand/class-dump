@@ -6,12 +6,10 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class MISSING_TYPE;
-
 @interface _UINavigationBarPlatterItemView : _UITouchPassthroughView
 {
-    MISSING_TYPE *item;
-    MISSING_TYPE *animationScheduler;
+    id item;
+    id animationScheduler;
 }
 
 - (id);

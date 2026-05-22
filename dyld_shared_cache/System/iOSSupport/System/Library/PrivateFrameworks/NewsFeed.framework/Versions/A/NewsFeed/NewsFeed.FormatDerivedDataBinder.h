@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDerivedDataBinder
 {
-    MISSING_TYPE *slotDefinitions;
-    MISSING_TYPE *scopedOptions;
-    MISSING_TYPE *unresolvedOptions;
-    MISSING_TYPE *resolvedOptions;
-    MISSING_TYPE *references;
-    MISSING_TYPE *strings;
+    id slotDefinitions;
+    id scopedOptions;
+    id unresolvedOptions;
+    id resolvedOptions;
+    id references;
+    id strings;
 }
 
 @end

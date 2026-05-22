@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleContinuePlayingBlueprintModifierFactory
 {
-    MISSING_TYPE *modelFactory;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *puzzleImageShareAttributeProvider;
-    MISSING_TYPE *puzzleRankProvider;
-    MISSING_TYPE *puzzleDifficultyDescriptionProvider;
+    id modelFactory;
+    id paidAccessChecker;
+    id puzzleImageShareAttributeProvider;
+    id puzzleRankProvider;
+    id puzzleDifficultyDescriptionProvider;
 }
 
 @end

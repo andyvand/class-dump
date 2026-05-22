@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TUStateRestoreController
 {
-    MISSING_TYPE *timeWindow;
-    MISSING_TYPE *store;
-    MISSING_TYPE *anyNavigationHappenAfterBackground;
+    id timeWindow;
+    id store;
+    id anyNavigationHappenAfterBackground;
     _Bool isStateRestorationFeatureEnabled;
-    MISSING_TYPE *alwaysAllowStateRestoration;
+    id alwaysAllowStateRestoration;
 }
 
 - (_Bool);

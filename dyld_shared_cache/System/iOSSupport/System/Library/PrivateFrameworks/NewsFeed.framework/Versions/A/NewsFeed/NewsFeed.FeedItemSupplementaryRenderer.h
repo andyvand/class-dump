@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedItemSupplementaryRenderer
 {
-    MISSING_TYPE *colorPaletteProvider;
-    MISSING_TYPE *formatLayoutViewRenderer;
-    MISSING_TYPE *internalErrorViewRenderer;
-    MISSING_TYPE *formatHeaderRegistrationIdentifiers;
-    MISSING_TYPE *formatFooterRegistrationIdentifiers;
-    MISSING_TYPE *debugEnabled;
-    MISSING_TYPE *transition;
+    id colorPaletteProvider;
+    id formatLayoutViewRenderer;
+    id internalErrorViewRenderer;
+    id formatHeaderRegistrationIdentifiers;
+    id formatFooterRegistrationIdentifiers;
+    id debugEnabled;
+    id transition;
 }
 
 @end

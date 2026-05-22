@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.EnergySiteManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *distributedNotificationCenter;
-    MISSING_TYPE *_urlSession;
-    MISSING_TYPE *defaults;
+    id $defaultActor;
+    id distributedNotificationCenter;
+    id _urlSession;
+    id defaults;
 }
 
 @end

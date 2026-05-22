@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.SafetyCacheMapViewModel
 {
-    MISSING_TYPE *contact;
-    MISSING_TYPE *handle;
-    MISSING_TYPE *geocoder;
-    MISSING_TYPE *locationDegreeBuffer;
-    MISSING_TYPE *_annotations;
-    MISSING_TYPE *_annotationInfo;
-    MISSING_TYPE *destinationLocation;
-    MISSING_TYPE *safetyCache;
+    id contact;
+    id handle;
+    id geocoder;
+    id locationDegreeBuffer;
+    id _annotations;
+    id _annotationInfo;
+    id destinationLocation;
+    id safetyCache;
 }
 
 - (id);

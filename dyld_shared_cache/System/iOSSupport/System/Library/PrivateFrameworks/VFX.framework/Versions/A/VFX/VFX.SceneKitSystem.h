@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.SceneKitSystem
 {
-    MISSING_TYPE *rendererQuery;
-    MISSING_TYPE *placeSceneQuery;
+    id rendererQuery;
+    id placeSceneQuery;
 }
 
 @end

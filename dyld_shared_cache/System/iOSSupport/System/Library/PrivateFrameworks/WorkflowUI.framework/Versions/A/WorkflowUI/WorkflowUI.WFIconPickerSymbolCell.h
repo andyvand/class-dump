@@ -6,14 +6,12 @@
 
 #import <WorkflowUI/WorkflowUI.WFGridViewCell.h>
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFIconPickerSymbolCell : WorkflowUI.WFGridViewCell
 {
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *imageViewTransform;
-    MISSING_TYPE *icon;
-    MISSING_TYPE *isSelected;
+    id imageView;
+    id imageViewTransform;
+    id icon;
+    id isSelected;
 }
 
 - (void);

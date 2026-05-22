@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyMagazinesGridModelLoader
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *activity;
-    MISSING_TYPE *store;
-    MISSING_TYPE *issueService;
-    MISSING_TYPE *issueModelFactory;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *_sort;
-    MISSING_TYPE *$__lazy_storage_$_lazyInitializingPromise;
-    MISSING_TYPE *lastKnownState;
+    id delegate;
+    id activity;
+    id store;
+    id issueService;
+    id issueModelFactory;
+    id tagService;
+    id _sort;
+    id $__lazy_storage_$_lazyInitializingPromise;
+    id lastKnownState;
 }
 
 @end

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface hvf.LoadCompositeWriter
 {
-    MISSING_TYPE *subparts;
-    MISSING_TYPE *extremumCSCColumnStarts;
-    MISSING_TYPE *masterCSCRowIndices;
-    MISSING_TYPE *extremumCSCRowIndices;
-    MISSING_TYPE *masterCSCAxisValues;
-    MISSING_TYPE *extremumCSCAxisValues;
-    MISSING_TYPE *masterTranslationIndices;
-    MISSING_TYPE *masterTranslations;
-    MISSING_TYPE *masterRotationIndices;
-    MISSING_TYPE *masterRotations;
-    MISSING_TYPE *extremumTranslationIndices;
-    MISSING_TYPE *extremumTranslations;
-    MISSING_TYPE *extremumRotationIndices;
-    MISSING_TYPE *extremumRotations;
-    MISSING_TYPE *composite;
-    MISSING_TYPE *shim;
+    id subparts;
+    id extremumCSCColumnStarts;
+    id masterCSCRowIndices;
+    id extremumCSCRowIndices;
+    id masterCSCAxisValues;
+    id extremumCSCAxisValues;
+    id masterTranslationIndices;
+    id masterTranslations;
+    id masterRotationIndices;
+    id masterRotations;
+    id extremumTranslationIndices;
+    id extremumTranslations;
+    id extremumRotationIndices;
+    id extremumRotations;
+    id composite;
+    id shim;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIMorphTraitObserver
 {
-    MISSING_TYPE *traitObservationRegistration;
-    MISSING_TYPE *morphTraits;
-    MISSING_TYPE *observedView;
-    MISSING_TYPE *viewToUpdate;
+    id traitObservationRegistration;
+    id morphTraits;
+    id observedView;
+    id viewToUpdate;
 }
 
 @end

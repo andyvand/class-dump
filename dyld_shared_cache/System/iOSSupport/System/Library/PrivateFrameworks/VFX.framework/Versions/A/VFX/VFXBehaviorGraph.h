@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, VFXCoreEntityHandle, VFXNode, VFXOrderedDictionary, VFXWorld, _TtC3VFX15VFXEntityObject;
+@class NSArray, NSMutableDictionary, NSString, VFX.VFXEntityObject, VFXCoreEntityHandle, VFXNode, VFXOrderedDictionary, VFXWorld;
 
 @interface VFXBehaviorGraph
 {
@@ -1566,7 +1566,7 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 // Original attribute string: T@"NSString",?,R,C
 
 @property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _TtC3VFX15VFXEntityObject *entityObject;
+@property(readonly, nonatomic) VFX.VFXEntityObject *entityObject;
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *names;
 @property(readonly, nonatomic) id opaqueEntityHelper;

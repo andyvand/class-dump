@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.LiveCoverageStatusButton
 {
-    MISSING_TYPE *prefixLabel;
-    MISSING_TYPE *suffixLabel;
-    MISSING_TYPE *horizontalPadding;
-    MISSING_TYPE *verticalPadding;
-    MISSING_TYPE *labelContainerView;
-    MISSING_TYPE *isPinned;
+    id prefixLabel;
+    id suffixLabel;
+    id horizontalPadding;
+    id verticalPadding;
+    id labelContainerView;
+    id isPinned;
 }
 
 - (struct CGSize);

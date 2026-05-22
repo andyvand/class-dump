@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsArticles.TextAttributionProvider
 {
-    MISSING_TYPE *headline;
-    MISSING_TYPE *shareLinkProvider;
+    id headline;
+    id shareLinkProvider;
 }
 
 - (id);

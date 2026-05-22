@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NotificationService
 {
-    MISSING_TYPE *warmingSheetPresenter;
-    MISSING_TYPE *authorizationOptions;
-    MISSING_TYPE *networkReachability;
-    MISSING_TYPE *metricsProvider;
+    id warmingSheetPresenter;
+    id authorizationOptions;
+    id networkReachability;
+    id metricsProvider;
 }
 
 - (id);

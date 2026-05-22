@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.InteractiveMapV2.ViewModel
 {
-    MISSING_TYPE *_cameraPosition;
-    MISSING_TYPE *_selectedAnnotation;
-    MISSING_TYPE *_mapStyle;
-    MISSING_TYPE *_annotationsByID;
-    MISSING_TYPE *_areFocusedAnnotationsVisible;
-    MISSING_TYPE *_selectedAnnotationIsValid;
-    MISSING_TYPE *focusedAnnotations;
-    MISSING_TYPE *hasMultipleAnnotations;
-    MISSING_TYPE *customIsPositionedByUser;
-    MISSING_TYPE *additionalEdgeInsets;
-    MISSING_TYPE *viewGeometry;
-    MISSING_TYPE *zoomLevel;
-    MISSING_TYPE *lastCameraRect;
-    MISSING_TYPE *isFirstAppearanceOfCurrentCameraConfig;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *maxFocusDistance;
-    MISSING_TYPE *_didChangeSelectedAnnotationHandler;
-    MISSING_TYPE *_$observationRegistrar;
+    id _cameraPosition;
+    id _selectedAnnotation;
+    id _mapStyle;
+    id _annotationsByID;
+    id _areFocusedAnnotationsVisible;
+    id _selectedAnnotationIsValid;
+    id focusedAnnotations;
+    id hasMultipleAnnotations;
+    id customIsPositionedByUser;
+    id additionalEdgeInsets;
+    id viewGeometry;
+    id zoomLevel;
+    id lastCameraRect;
+    id isFirstAppearanceOfCurrentCameraConfig;
+    id logger;
+    id maxFocusDistance;
+    id _didChangeSelectedAnnotationHandler;
+    id _$observationRegistrar;
 }
 
 @end

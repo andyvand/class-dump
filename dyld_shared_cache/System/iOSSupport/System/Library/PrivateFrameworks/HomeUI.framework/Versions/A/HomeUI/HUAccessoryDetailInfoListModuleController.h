@@ -6,11 +6,9 @@
 
 #import <HomeUI/HUItemModuleController.h>
 
-@class MISSING_TYPE;
-
 @interface HUAccessoryDetailInfoListModuleController : HUItemModuleController
 {
-    MISSING_TYPE *delegate;
+    id delegate;
 }
 
 - (void);

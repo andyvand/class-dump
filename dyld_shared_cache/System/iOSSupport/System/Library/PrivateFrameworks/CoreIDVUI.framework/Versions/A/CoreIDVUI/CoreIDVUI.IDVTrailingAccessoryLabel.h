@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IDVTrailingAccessoryLabel
 {
-    MISSING_TYPE *attributedText;
-    MISSING_TYPE *trailingMargin;
-    MISSING_TYPE *contentInsets;
-    MISSING_TYPE *textView;
-    MISSING_TYPE *registeredAccessories;
-    MISSING_TYPE *maxAccessorySize;
+    id attributedText;
+    id trailingMargin;
+    id contentInsets;
+    id textView;
+    id registeredAccessories;
+    id maxAccessorySize;
 }
 
 - (void);

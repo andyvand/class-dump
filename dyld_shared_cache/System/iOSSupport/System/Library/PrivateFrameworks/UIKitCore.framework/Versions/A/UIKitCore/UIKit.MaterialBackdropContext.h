@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.MaterialBackdropContext
 {
-    MISSING_TYPE *flags;
-    MISSING_TYPE *proxy;
+    id flags;
+    id proxy;
 }
 
 - (id);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.StartSportsEventLiveActivityCommandHandler
 {
-    MISSING_TYPE *urlHandler;
-    MISSING_TYPE *sportsLiveActivityCache;
-    MISSING_TYPE *sportsLiveActivityManager;
+    id urlHandler;
+    id sportsLiveActivityCache;
+    id sportsLiveActivityManager;
 }
 
 @end

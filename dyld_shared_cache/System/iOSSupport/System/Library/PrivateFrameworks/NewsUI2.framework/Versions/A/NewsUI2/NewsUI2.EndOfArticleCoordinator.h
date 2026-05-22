@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EndOfArticleCoordinator
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *articleFooterContext;
-    MISSING_TYPE *trackerConfiguration;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *articleDataFactory;
+    id tracker;
+    id channelDataFactory;
+    id scienceDataFactory;
+    id articleFooterContext;
+    id trackerConfiguration;
+    id contentAvailabilityValidator;
+    id articleDataFactory;
 }
 
 @end

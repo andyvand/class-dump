@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HFCharacteristicValueManagerHomeStateStreamObserver
 {
-    MISSING_TYPE *stream;
-    MISSING_TYPE *characteristicsWithPendingWrites;
-    MISSING_TYPE *observingTask;
+    id stream;
+    id characteristicsWithPendingWrites;
+    id observingTask;
 }
 
 - (_Bool);

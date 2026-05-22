@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatViewController
 {
-    MISSING_TYPE *isBeingUsedAsPlugin;
-    MISSING_TYPE *pluggableDelegate;
-    MISSING_TYPE *pluginIdentifier;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *blueprintLayoutProvider;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *lastComputedSize;
-    MISSING_TYPE *selectionProvider;
-    MISSING_TYPE *commands;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *blueprintHorizontalShimView;
+    id isBeingUsedAsPlugin;
+    id pluggableDelegate;
+    id pluginIdentifier;
+    id blueprintViewController;
+    id blueprintLayoutProvider;
+    id eventHandler;
+    id lastComputedSize;
+    id selectionProvider;
+    id commands;
+    id eventManager;
+    id tipManager;
+    id tracker;
+    id blueprintHorizontalShimView;
 }
 
 - (void);

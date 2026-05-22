@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatMicaSectionDecorationView
 {
-    MISSING_TYPE *micaView;
-    MISSING_TYPE *token;
-    MISSING_TYPE *model;
+    id micaView;
+    id token;
+    id model;
 }
 
 - (id);

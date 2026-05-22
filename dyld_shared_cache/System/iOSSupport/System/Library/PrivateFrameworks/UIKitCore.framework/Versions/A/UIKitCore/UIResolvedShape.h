@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIBezierPath, UIShape;
+@class NSString, UIBezierPath, UIShape;
 
 @interface UIResolvedShape
 {
-    MISSING_TYPE *value;
-    MISSING_TYPE *cachedShape;
+    id value;
+    id cachedShape;
 }
 
 - (id);

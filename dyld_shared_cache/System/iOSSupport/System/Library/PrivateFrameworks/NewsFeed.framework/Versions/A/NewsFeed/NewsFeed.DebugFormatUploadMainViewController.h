@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadMainViewController
 {
-    MISSING_TYPE *uploadNavigationController;
-    MISSING_TYPE *uploadDiffNavigationController;
-    MISSING_TYPE *editor;
+    id uploadNavigationController;
+    id uploadDiffNavigationController;
+    id editor;
 }
 
 - (id);

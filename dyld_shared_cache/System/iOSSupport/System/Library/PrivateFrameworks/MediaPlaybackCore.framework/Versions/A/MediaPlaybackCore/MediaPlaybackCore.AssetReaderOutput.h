@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.AssetReaderOutput
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *asset;
-    MISSING_TYPE *aligner;
-    MISSING_TYPE *audioFormat;
-    MISSING_TYPE *currentReadTask;
-    MISSING_TYPE *completionContinuation;
-    MISSING_TYPE *isStopped;
-    MISSING_TYPE *cachedAudioTrack;
+    id $defaultActor;
+    id asset;
+    id aligner;
+    id audioFormat;
+    id currentReadTask;
+    id completionContinuation;
+    id isStopped;
+    id cachedAudioTrack;
 }
 
 @end

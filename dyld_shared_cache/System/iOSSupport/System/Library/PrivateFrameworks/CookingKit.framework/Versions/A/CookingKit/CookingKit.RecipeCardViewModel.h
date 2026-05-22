@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardViewModel
 {
-    MISSING_TYPE *loggingID;
-    MISSING_TYPE *_currentRegion;
-    MISSING_TYPE *ignoreScrollPositionChanges;
-    MISSING_TYPE *_scrollToRegion;
-    MISSING_TYPE *_scrollToStep;
-    MISSING_TYPE *_lastScrollOffsets;
-    MISSING_TYPE *_scrollPosition;
-    MISSING_TYPE *_currentStep;
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_isThumbnailLight;
-    MISSING_TYPE *_recipeTheme;
-    MISSING_TYPE *_titleInfo;
-    MISSING_TYPE *_condensedHeaderInfo;
-    MISSING_TYPE *_excerpt;
-    MISSING_TYPE *_appEntityIdentifier;
-    MISSING_TYPE *_hasHardPaywall;
-    MISSING_TYPE *_isFocusable;
-    MISSING_TYPE *_thumbnailImage;
-    MISSING_TYPE *_wasEverPrimary;
-    MISSING_TYPE *_isPresentingCookMode;
-    MISSING_TYPE *_fullScreenSheet;
-    MISSING_TYPE *_sheet;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_$observationRegistrar;
+    id loggingID;
+    id _currentRegion;
+    id ignoreScrollPositionChanges;
+    id _scrollToRegion;
+    id _scrollToStep;
+    id _lastScrollOffsets;
+    id _scrollPosition;
+    id _currentStep;
+    id _id;
+    id _isThumbnailLight;
+    id _recipeTheme;
+    id _titleInfo;
+    id _condensedHeaderInfo;
+    id _excerpt;
+    id _appEntityIdentifier;
+    id _hasHardPaywall;
+    id _isFocusable;
+    id _thumbnailImage;
+    id _wasEverPrimary;
+    id _isPresentingCookMode;
+    id _fullScreenSheet;
+    id _sheet;
+    id _$scope;
+    id _$observationRegistrar;
 }
 
 @end

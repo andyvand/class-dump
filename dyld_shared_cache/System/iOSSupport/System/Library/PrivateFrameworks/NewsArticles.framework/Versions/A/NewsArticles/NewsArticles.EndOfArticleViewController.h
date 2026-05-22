@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol NAArticleFooterDelegate, NAEndOfArticleResultProviderDelegate;
 
 @interface NewsArticles.EndOfArticleViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
     void footerDelegate;
     void resultProviderDelegate;
-    MISSING_TYPE *overriddenTraitCollection;
-    MISSING_TYPE *urlHandler;
-    MISSING_TYPE *overscrollBackgroundView;
+    id overriddenTraitCollection;
+    id urlHandler;
+    id overscrollBackgroundView;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.Bitset
 {
-    MISSING_TYPE *capacity;
-    MISSING_TYPE *wordcount;
-    MISSING_TYPE *data;
+    id capacity;
+    id wordcount;
+    id data;
 }
 
 @end

@@ -6,13 +6,11 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIIntelligenceButton.FillView : UIView
 {
-    MISSING_TYPE *style;
-    MISSING_TYPE *livingLightView;
-    MISSING_TYPE *staticLightView;
+    id style;
+    id livingLightView;
+    id staticLightView;
 }
 
 - (id);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol _TtP10WorkflowUI48SmartShortcutPickerViewControllerManagerDelegate_;
+@protocol WorkflowUI.SmartShortcutPickerViewControllerManagerDelegate;
 
 @interface WorkflowUI.SmartShortcutPickerViewControllerManager
 {
@@ -19,7 +19,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) __weak id <_TtP10WorkflowUI48SmartShortcutPickerViewControllerManagerDelegate_> delegate; // @synthesize delegate;
+@property(nonatomic) __weak id <WorkflowUI.SmartShortcutPickerViewControllerManagerDelegate> delegate; // @synthesize delegate;
 
 @end
 

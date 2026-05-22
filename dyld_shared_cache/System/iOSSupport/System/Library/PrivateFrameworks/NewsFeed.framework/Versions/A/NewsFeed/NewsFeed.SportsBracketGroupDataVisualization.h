@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsBracketGroupDataVisualization
 {
-    MISSING_TYPE *visualizations;
-    MISSING_TYPE *urlDataSources;
-    MISSING_TYPE *dataSourceUrls;
-    MISSING_TYPE *allDataSourceUrls;
-    MISSING_TYPE *childDataSourceUrls;
-    MISSING_TYPE *identifier;
+    id visualizations;
+    id urlDataSources;
+    id dataSourceUrls;
+    id allDataSourceUrls;
+    id childDataSourceUrls;
+    id identifier;
 }
 
 @end

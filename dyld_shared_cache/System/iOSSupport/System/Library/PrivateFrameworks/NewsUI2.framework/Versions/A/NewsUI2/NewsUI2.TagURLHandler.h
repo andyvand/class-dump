@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *feedViewContextFactory;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *featureAvailability;
+    id patterns;
+    id navigator;
+    id feedViewContextFactory;
+    id appConfigurationManager;
+    id featureAvailability;
 }
 
 @end

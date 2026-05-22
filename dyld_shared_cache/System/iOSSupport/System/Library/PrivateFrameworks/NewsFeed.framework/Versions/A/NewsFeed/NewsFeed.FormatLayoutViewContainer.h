@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatLayoutViewContainer
 {
-    MISSING_TYPE *viewModel;
-    MISSING_TYPE *view;
-    MISSING_TYPE *rootView;
-    MISSING_TYPE *subviewTree;
-    MISSING_TYPE *$__lazy_storage_$_viewportMonitorObservers;
-    MISSING_TYPE *$__lazy_storage_$_loadAwareObservers;
+    id viewModel;
+    id view;
+    id rootView;
+    id subviewTree;
+    id $__lazy_storage_$_viewportMonitorObservers;
+    id $__lazy_storage_$_loadAwareObservers;
 }
 
 @end

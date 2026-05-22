@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, NSUUID;
+@class NSString, NSUUID;
 
 @interface PBFPosterPair
 {
-    MISSING_TYPE *id;
+    id id;
     void localizedTitle;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *configuredProperties;
-    MISSING_TYPE *associatedConfiguration;
-    MISSING_TYPE *provisionalHomeScreenConfiguration;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *ignoreNotifyingForProvisionalHomeScreenConfigurationChange;
+    id configuration;
+    id configuredProperties;
+    id associatedConfiguration;
+    id provisionalHomeScreenConfiguration;
+    id observers;
+    id ignoreNotifyingForProvisionalHomeScreenConfigurationChange;
 }
 
 - (id);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioTemplateSceneDelegate
 {
-    MISSING_TYPE *$__lazy_storage_$_resolver;
-    MISSING_TYPE *$__lazy_storage_$_container;
-    MISSING_TYPE *$__lazy_storage_$_commandCenter;
-    MISSING_TYPE *interfaceController;
-    MISSING_TYPE *audioTemplateController;
+    id $__lazy_storage_$_resolver;
+    id $__lazy_storage_$_container;
+    id $__lazy_storage_$_commandCenter;
+    id interfaceController;
+    id audioTemplateController;
 }
 
 - (void);

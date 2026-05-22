@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.CurrentRecipeUserData
 {
-    MISSING_TYPE *recipeUserDataManager;
-    MISSING_TYPE *recipeID;
-    MISSING_TYPE *recipeUserData;
-    MISSING_TYPE *observationTask;
+    id recipeUserDataManager;
+    id recipeID;
+    id recipeUserData;
+    id observationTask;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ImageAssetHandle
 {
-    MISSING_TYPE *fallbackImage;
-    MISSING_TYPE *uniqueKey;
+    id fallbackImage;
+    id uniqueKey;
 }
 
 @end

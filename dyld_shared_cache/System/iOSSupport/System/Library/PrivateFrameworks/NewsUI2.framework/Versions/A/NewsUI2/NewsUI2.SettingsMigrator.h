@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SettingsMigrator
 {
-    MISSING_TYPE *keysToMigrate;
-    MISSING_TYPE *oldDefaults;
-    MISSING_TYPE *newDefaults;
+    id keysToMigrate;
+    id oldDefaults;
+    id newDefaults;
 }
 
 @end

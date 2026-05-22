@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFeaturePromotionModel
 {
-    MISSING_TYPE *_result;
-    MISSING_TYPE *_topics;
-    MISSING_TYPE *_viewState;
-    MISSING_TYPE *debuggerContext;
-    MISSING_TYPE *viewFactory;
-    MISSING_TYPE *eligibilityProviderFactory;
-    MISSING_TYPE *resolvedDataSourceFactory;
-    MISSING_TYPE *tagImageApplier;
-    MISSING_TYPE *imageCache;
+    id _result;
+    id _topics;
+    id _viewState;
+    id debuggerContext;
+    id viewFactory;
+    id eligibilityProviderFactory;
+    id resolvedDataSourceFactory;
+    id tagImageApplier;
+    id imageCache;
 }
 
 @end

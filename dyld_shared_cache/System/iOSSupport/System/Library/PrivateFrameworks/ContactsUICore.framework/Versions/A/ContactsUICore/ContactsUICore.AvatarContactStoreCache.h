@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.AvatarContactStoreCache
 {
-    MISSING_TYPE *store;
-    MISSING_TYPE *requiredKeys;
-    MISSING_TYPE *persistedCacheLock;
-    MISSING_TYPE *nonPersistedCacheLock;
-    MISSING_TYPE *stateHandle;
-    MISSING_TYPE *historyObserver;
+    id store;
+    id requiredKeys;
+    id persistedCacheLock;
+    id nonPersistedCacheLock;
+    id stateHandle;
+    id historyObserver;
 }
 
 @end

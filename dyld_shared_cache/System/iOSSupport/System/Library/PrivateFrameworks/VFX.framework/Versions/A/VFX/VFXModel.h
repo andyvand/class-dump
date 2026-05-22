@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSNumber, NSString, VFXBehaviorGraph, VFXMaterial, VFXMesh, VFXMeshElement, VFXMeshSource, VFXModelTessellator, VFXOrderedDictionary, VFXProgram, VFXShadableHelper, VFXWorld;
+@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSNumber, NSString, VFXBehaviorGraph, VFXMaterial, VFXMesh, VFXMeshElement, VFXMeshSource, VFXModelTessellator, VFXOrderedDictionary, VFXProgram, VFXShadableHelper, VFXWorld;
 @protocol VFXGeometry, VFXParameterList;
 
 @interface VFXModel
@@ -25,7 +25,7 @@
     VFXMeshSource *_edgeCreasesSource;
     VFXMeshElement *_edgeCreasesElement;
     VFXShadableHelper *_shadableHelper;
-    MISSING_TYPE **_fixedBoundingBoxExtrema;
+    id *_fixedBoundingBoxExtrema;
     NSString *_name;
     VFXBehaviorGraph *_behaviorGraph;
     NSMutableDictionary *_valuesForUndefinedKeys;
@@ -190,7 +190,7 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_a7a0fb92);
+- (CDStruct_8666bb01);
 - (void);
 - (void);
 - (void);
@@ -1158,7 +1158,7 @@ inline float pbr_area_light_eval_line(float2x3 cornerDirections)
 // Remaining properties
 @property(readonly) NSArray *animationKeys;
 @property(retain, nonatomic) VFXBehaviorGraph *behaviorGraph;
-@property(nonatomic) CDStruct_a7a0fb92 boundingBox;
+@property(nonatomic) CDStruct_8666bb01 boundingBox;
 @property(nonatomic, readonly) NSArray *bridgedComponentNames;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?

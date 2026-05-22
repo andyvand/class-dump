@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.InterstitialAdPreviewViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *interstitialModule;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *eventManager;
+    id styler;
+    id eventHandler;
+    id interstitialModule;
+    id coverViewManager;
+    id eventManager;
 }
 
 - (id);

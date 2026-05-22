@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.MenuManager
 {
-    MISSING_TYPE *menu;
-    MISSING_TYPE *menuItems;
-    MISSING_TYPE *alternateMenuItems;
-    MISSING_TYPE *stagedMenuActions;
-    MISSING_TYPE *stagedAlternateMenuActions;
+    id menu;
+    id menuItems;
+    id alternateMenuItems;
+    id stagedMenuActions;
+    id stagedAlternateMenuActions;
 }
 
 - (void);

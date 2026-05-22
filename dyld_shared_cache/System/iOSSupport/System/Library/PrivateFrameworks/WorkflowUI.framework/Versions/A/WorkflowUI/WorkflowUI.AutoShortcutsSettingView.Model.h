@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.AutoShortcutsSettingView.Model
 {
-    MISSING_TYPE *_isSiriEnabled;
-    MISSING_TYPE *app;
-    MISSING_TYPE *database;
-    MISSING_TYPE *didPerformInitialLoad;
+    id _isSiriEnabled;
+    id app;
+    id database;
+    id didPerformInitialLoad;
 }
 
 @end

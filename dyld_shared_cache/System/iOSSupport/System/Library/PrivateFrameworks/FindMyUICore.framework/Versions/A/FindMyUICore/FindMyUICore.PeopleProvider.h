@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.PeopleProvider
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *dependencies;
-    MISSING_TYPE *subscriptionsStorage;
-    MISSING_TYPE *dataStorage;
-    MISSING_TYPE *taskQueue;
-    MISSING_TYPE *valuePublisher;
-    MISSING_TYPE *loadingStateResetTaskBySubscription;
+    id $defaultActor;
+    id dependencies;
+    id subscriptionsStorage;
+    id dataStorage;
+    id taskQueue;
+    id valuePublisher;
+    id loadingStateResetTaskBySubscription;
 }
 
 @end

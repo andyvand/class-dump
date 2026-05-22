@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelHeroService
 {
-    MISSING_TYPE *personalizer;
-    MISSING_TYPE *paidAccessChecker;
+    id personalizer;
+    id paidAccessChecker;
 }
 
 @end

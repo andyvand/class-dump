@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingRetryProvisioningViewConfiguration
 {
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *titleText;
-    MISSING_TYPE *subtitleText;
-    MISSING_TYPE *primaryButtonTitleText;
-    MISSING_TYPE *showPrimaryButton;
-    MISSING_TYPE *secondaryButtonTitleText;
-    MISSING_TYPE *showSecondaryButton;
-    MISSING_TYPE *linkButtonTitleText;
-    MISSING_TYPE *showLinkButton;
-    MISSING_TYPE *headerViewImageDisplayMode;
-    MISSING_TYPE *inWatchModeOnly;
-    MISSING_TYPE *updateContent;
+    id proofingFlowManager;
+    id delegate;
+    id titleText;
+    id subtitleText;
+    id primaryButtonTitleText;
+    id showPrimaryButton;
+    id secondaryButtonTitleText;
+    id showSecondaryButton;
+    id linkButtonTitleText;
+    id showLinkButton;
+    id headerViewImageDisplayMode;
+    id inWatchModeOnly;
+    id updateContent;
 }
 
 @end

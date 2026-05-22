@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.PosterCollectionViewCell
 {
-    MISSING_TYPE *layoutOrientationProvider;
-    MISSING_TYPE *posterCornerRadius;
-    MISSING_TYPE *layoutMode;
-    MISSING_TYPE *scaleInAlongsideLayoutMode;
+    id layoutOrientationProvider;
+    id posterCornerRadius;
+    id layoutMode;
+    id scaleInAlongsideLayoutMode;
 }
 
 - (long long);

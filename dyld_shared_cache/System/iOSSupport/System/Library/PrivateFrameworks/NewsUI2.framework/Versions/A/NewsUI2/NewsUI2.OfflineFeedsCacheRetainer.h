@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OfflineFeedsCacheRetainer
 {
-    MISSING_TYPE *contentContext;
-    MISSING_TYPE *offlineFeedsSupervisor;
-    MISSING_TYPE *_interestToken;
+    id contentContext;
+    id offlineFeedsSupervisor;
+    id _interestToken;
 }
 
 @end

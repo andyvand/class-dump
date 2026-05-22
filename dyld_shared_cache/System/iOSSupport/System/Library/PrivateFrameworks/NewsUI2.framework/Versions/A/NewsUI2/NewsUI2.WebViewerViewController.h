@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WebViewerViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *webView;
-    MISSING_TYPE *url;
-    MISSING_TYPE *config;
+    id styler;
+    id eventHandler;
+    id coverViewManager;
+    id webView;
+    id url;
+    id config;
 }
 
 - (void);

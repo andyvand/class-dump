@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SwipeActionManager
 {
-    MISSING_TYPE *panGestureRecognizer;
-    MISSING_TYPE *tapGestureRecognizer;
-    MISSING_TYPE *deferGroup;
-    MISSING_TYPE *sceneStateManager;
-    MISSING_TYPE *collectionView;
-    MISSING_TYPE *isSwipeActionEnabled;
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *swipeState;
-    MISSING_TYPE *rubberbandFactor;
-    MISSING_TYPE *maximumSwipeVelocity;
-    MISSING_TYPE *springStiffness;
-    MISSING_TYPE *snapOpenPercentage;
-    MISSING_TYPE *fadeDuration;
-    MISSING_TYPE *fadeOffset;
+    id panGestureRecognizer;
+    id tapGestureRecognizer;
+    id deferGroup;
+    id sceneStateManager;
+    id collectionView;
+    id isSwipeActionEnabled;
+    id dataSource;
+    id delegate;
+    id swipeState;
+    id rubberbandFactor;
+    id maximumSwipeVelocity;
+    id springStiffness;
+    id snapOpenPercentage;
+    id fadeDuration;
+    id fadeOffset;
 }
 
 - (void);

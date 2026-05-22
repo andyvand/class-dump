@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.PropertyDescription
 {
-    MISSING_TYPE *scriptKeyPath;
-    MISSING_TYPE *accessorCreator;
-    MISSING_TYPE *getset;
-    MISSING_TYPE *visibility;
-    MISSING_TYPE *unavailableStartingFromVersion;
-    MISSING_TYPE *lookupReplacementProperty;
-    MISSING_TYPE *cachedResolvedReplacementProperty;
-    MISSING_TYPE *semantic;
-    MISSING_TYPE *defaultValues;
-    MISSING_TYPE *userManual;
-    MISSING_TYPE *_min;
-    MISSING_TYPE *_max;
-    MISSING_TYPE *_step;
-    MISSING_TYPE *_minFractionDigit;
-    MISSING_TYPE *_maxFractionDigit;
-    MISSING_TYPE *flags;
-    MISSING_TYPE *_scriptingProperty;
+    id scriptKeyPath;
+    id accessorCreator;
+    id getset;
+    id visibility;
+    id unavailableStartingFromVersion;
+    id lookupReplacementProperty;
+    id cachedResolvedReplacementProperty;
+    id semantic;
+    id defaultValues;
+    id userManual;
+    id _min;
+    id _max;
+    id _step;
+    id _minFractionDigit;
+    id _maxFractionDigit;
+    id flags;
+    id _scriptingProperty;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatAccessibilityNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *property;
-    MISSING_TYPE *invalidation;
-    MISSING_TYPE *flex;
+    id _identifier;
+    id property;
+    id invalidation;
+    id flex;
 }
 
 @end

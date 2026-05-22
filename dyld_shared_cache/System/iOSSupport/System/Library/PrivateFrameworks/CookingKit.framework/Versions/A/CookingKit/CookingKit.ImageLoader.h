@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.ImageLoader
 {
-    MISSING_TYPE *cache;
-    MISSING_TYPE *_loadTasks;
+    id cache;
+    id _loadTasks;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchBlueprintModifierFactory
 {
-    MISSING_TYPE *headlineFactory;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *searchModelFactory;
-    MISSING_TYPE *sectionFactory;
+    id headlineFactory;
+    id tagService;
+    id searchModelFactory;
+    id sectionFactory;
 }
 
 @end

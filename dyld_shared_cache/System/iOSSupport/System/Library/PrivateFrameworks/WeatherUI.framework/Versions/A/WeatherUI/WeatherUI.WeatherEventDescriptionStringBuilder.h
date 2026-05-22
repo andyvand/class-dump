@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.WeatherEventDescriptionStringBuilder
 {
-    MISSING_TYPE *severeWeatherBuilder;
-    MISSING_TYPE *nextHourPrecipitationBuilder;
-    MISSING_TYPE *changeInConditionBuilder;
+    id severeWeatherBuilder;
+    id nextHourPrecipitationBuilder;
+    id changeInConditionBuilder;
 }
 
 @end

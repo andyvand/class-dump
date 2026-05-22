@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.BodyTrackingProvider
 {
-    MISSING_TYPE *_cBodyTrackingProvider;
-    MISSING_TYPE *_cBodyTrackingConfiguration;
-    MISSING_TYPE *anchorQueue;
-    MISSING_TYPE *_latestBodyAnchor;
-    MISSING_TYPE *anchorUpdateIterators;
+    id _cBodyTrackingProvider;
+    id _cBodyTrackingConfiguration;
+    id anchorQueue;
+    id _latestBodyAnchor;
+    id anchorUpdateIterators;
 }
 
 @end

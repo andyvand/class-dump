@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SmartShortcutPickerViewLayout
 {
-    MISSING_TYPE *_dataSource;
-    MISSING_TYPE *filter;
+    id _dataSource;
+    id filter;
 }
 
 @end

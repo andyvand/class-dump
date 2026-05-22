@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.BrandBarRenderer
 {
-    MISSING_TYPE *preferredHeight;
-    MISSING_TYPE *edgeToIconPadding;
-    MISSING_TYPE *iconToTextPadding;
-    MISSING_TYPE *textToButtonPadding;
-    MISSING_TYPE *buttonToEdgePadding;
-    MISSING_TYPE *buttonSize;
-    MISSING_TYPE *configManager;
-    MISSING_TYPE *styler;
+    id preferredHeight;
+    id edgeToIconPadding;
+    id iconToTextPadding;
+    id textToButtonPadding;
+    id buttonToEdgePadding;
+    id buttonSize;
+    id configManager;
+    id styler;
 }
 
 @end

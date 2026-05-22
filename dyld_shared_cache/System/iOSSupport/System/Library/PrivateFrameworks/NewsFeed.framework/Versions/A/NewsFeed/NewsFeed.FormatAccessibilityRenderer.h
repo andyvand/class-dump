@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatAccessibilityRenderer
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *accessibilityRole;
-    MISSING_TYPE *dataAccessibilityValues;
-    MISSING_TYPE *nestedRenderers;
-    MISSING_TYPE *breakoutAccessibilityElements;
-    MISSING_TYPE *customActions;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *view;
-    MISSING_TYPE *$__lazy_storage_$_shadowElement;
+    id identifier;
+    id accessibilityRole;
+    id dataAccessibilityValues;
+    id nestedRenderers;
+    id breakoutAccessibilityElements;
+    id customActions;
+    id commandCenter;
+    id view;
+    id $__lazy_storage_$_shadowElement;
 }
 
 @end

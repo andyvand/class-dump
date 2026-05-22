@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedMastheadModelProvider
 {
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *offlineArticleManager;
-    MISSING_TYPE *dataManager;
+    id bundleSubscriptionManager;
+    id featureAvailability;
+    id offlineProvider;
+    id offlineArticleManager;
+    id dataManager;
 }
 
 @end

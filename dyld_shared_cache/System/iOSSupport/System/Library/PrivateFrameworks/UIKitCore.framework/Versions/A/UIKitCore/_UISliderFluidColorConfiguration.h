@@ -6,12 +6,12 @@
 
 #import <UIKitCore/_UISliderFluidTickConfiguration.h>
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface _UISliderFluidColorConfiguration : _UISliderFluidTickConfiguration
 {
-    MISSING_TYPE *_colors;
-    MISSING_TYPE *_locations;
+    id _colors;
+    id _locations;
     double maxGain;
     _Bool showCheckerboard;
 }

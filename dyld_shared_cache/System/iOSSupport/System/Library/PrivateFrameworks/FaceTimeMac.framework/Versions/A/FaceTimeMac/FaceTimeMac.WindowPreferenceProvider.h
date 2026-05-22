@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.WindowPreferenceProvider
 {
-    MISSING_TYPE *$__lazy_storage_$_preference;
+    id $__lazy_storage_$_preference;
 }
 
 @end

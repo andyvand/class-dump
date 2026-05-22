@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUtilityServices.StreamReader
 {
-    MISSING_TYPE *encoding;
-    MISSING_TYPE *chunkSize;
-    MISSING_TYPE *fileHandle;
-    MISSING_TYPE *buffer;
-    MISSING_TYPE *delimData;
-    MISSING_TYPE *atEof;
+    id encoding;
+    id chunkSize;
+    id fileHandle;
+    id buffer;
+    id delimData;
+    id atEof;
 }
 
 @end

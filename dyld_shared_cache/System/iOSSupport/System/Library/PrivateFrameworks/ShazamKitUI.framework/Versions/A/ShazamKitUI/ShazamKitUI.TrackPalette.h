@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ShazamKitUI.TrackPalette
 {
-    MISSING_TYPE *darkLuminanceLimit;
-    MISSING_TYPE *defaultTextColor;
-    MISSING_TYPE *appleMusicTintColor;
-    MISSING_TYPE *appleMusicTextColor;
-    MISSING_TYPE *addToMusicLibraryTintColor;
-    MISSING_TYPE *colors;
-    MISSING_TYPE *_$observationRegistrar;
+    id darkLuminanceLimit;
+    id defaultTextColor;
+    id appleMusicTintColor;
+    id appleMusicTextColor;
+    id addToMusicLibraryTintColor;
+    id colors;
+    id _$observationRegistrar;
 }
 
 @end

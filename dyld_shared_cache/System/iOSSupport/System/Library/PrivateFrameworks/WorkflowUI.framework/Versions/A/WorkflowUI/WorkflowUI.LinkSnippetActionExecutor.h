@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.LinkSnippetActionExecutor
 {
-    MISSING_TYPE *action;
-    MISSING_TYPE *continuation;
-    MISSING_TYPE *snippetEnvironmentsProvider;
+    id action;
+    id continuation;
+    id snippetEnvironmentsProvider;
 }
 
 - (void);

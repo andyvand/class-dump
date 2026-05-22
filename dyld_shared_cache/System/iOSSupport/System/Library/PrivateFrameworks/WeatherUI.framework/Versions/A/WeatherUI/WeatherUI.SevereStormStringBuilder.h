@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.SevereStormStringBuilder
 {
-    MISSING_TYPE *windGustBuilder;
-    MISSING_TYPE *changingForecastParser;
+    id windGustBuilder;
+    id changingForecastParser;
 }
 
 @end

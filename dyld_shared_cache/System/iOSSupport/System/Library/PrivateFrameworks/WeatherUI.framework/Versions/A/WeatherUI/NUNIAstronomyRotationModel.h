@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CADisplayLink, MISSING_TYPE;
+@class CADisplayLink;
 @protocol NUNIAstronomyRotationModelObserver, NUNIRotatable;
 
 @interface NUNIAstronomyRotationModel
@@ -13,7 +13,7 @@
     const struct NUNIAstronomyInteractionSettings *_interactionSettings;
     long long _state;
     struct CLLocationCoordinate2D _landingCoordinate;
-    MISSING_TYPE *_accumulatedPushVector;
+    id _accumulatedPushVector;
     float _effectivePushDeceleration;
     float _effectivePullAcceleration;
     double _pushStartTime;

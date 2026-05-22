@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeStore
 {
-    MISSING_TYPE *_multicaster;
-    MISSING_TYPE *_entries;
+    id _multicaster;
+    id _entries;
 }
 
 @end

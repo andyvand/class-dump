@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeRatingsSubmissionManager
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *userInfo;
+    id tracker;
+    id userInfo;
 }
 
 @end

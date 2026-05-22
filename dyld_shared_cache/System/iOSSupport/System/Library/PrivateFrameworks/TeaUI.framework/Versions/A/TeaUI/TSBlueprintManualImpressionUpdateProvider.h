@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TSBlueprintManualImpressionUpdateProvider
 {
-    MISSING_TYPE *updateImpressionsBlocks;
-    MISSING_TYPE *endImpressionsBlocks;
-    MISSING_TYPE *visibleViewAccessor;
-    MISSING_TYPE *visibleRectAccessor;
+    id updateImpressionsBlocks;
+    id endImpressionsBlocks;
+    id visibleViewAccessor;
+    id visibleRectAccessor;
 }
 
 - (void);

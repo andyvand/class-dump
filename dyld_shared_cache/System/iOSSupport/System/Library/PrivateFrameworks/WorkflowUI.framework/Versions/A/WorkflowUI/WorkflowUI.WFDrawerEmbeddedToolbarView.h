@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFDrawerEmbeddedToolbarView
 {
-    MISSING_TYPE *toolbar;
-    MISSING_TYPE *undoButton;
-    MISSING_TYPE *redoButton;
-    MISSING_TYPE *infoButton;
-    MISSING_TYPE *shareButton;
-    MISSING_TYPE *playButton;
-    MISSING_TYPE *stopButton;
-    MISSING_TYPE *pendingWorkItem;
-    MISSING_TYPE *isRunning;
-    MISSING_TYPE *pendingRunningStateValue;
-    MISSING_TYPE *pendingRunningStateValueTimeoutWorkItem;
+    id toolbar;
+    id undoButton;
+    id redoButton;
+    id infoButton;
+    id shareButton;
+    id playButton;
+    id stopButton;
+    id pendingWorkItem;
+    id isRunning;
+    id pendingRunningStateValue;
+    id pendingRunningStateValueTimeoutWorkItem;
 }
 
 - (struct CGSize);

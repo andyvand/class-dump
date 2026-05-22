@@ -6,11 +6,9 @@
 
 #import <HomeServices/HomeServices.GridBaseRequest.h>
 
-@class MISSING_TYPE;
-
 @interface HomeServices.EnergyWindowsRequest : HomeServices.GridBaseRequest
 {
-    MISSING_TYPE *HMACAuthInfo;
+    id HMACAuthInfo;
 }
 
 @end

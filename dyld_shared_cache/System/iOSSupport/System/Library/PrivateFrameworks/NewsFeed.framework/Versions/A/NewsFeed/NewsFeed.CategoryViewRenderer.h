@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.CategoryViewRenderer
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *iconImageCache;
-    MISSING_TYPE *offlineProvider;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *$__lazy_storage_$_unavailableItemAlpha;
+    id styler;
+    id iconImageCache;
+    id offlineProvider;
+    id featureAvailability;
+    id $__lazy_storage_$_unavailableItemAlpha;
 }
 
 @end

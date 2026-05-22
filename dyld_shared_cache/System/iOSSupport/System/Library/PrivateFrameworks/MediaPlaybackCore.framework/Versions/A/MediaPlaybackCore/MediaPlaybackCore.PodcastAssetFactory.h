@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.PodcastAssetFactory
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *url;
-    MISSING_TYPE *playerID;
-    MISSING_TYPE *mediaItem;
-    MISSING_TYPE *onServiceIdentifierChanged;
-    MISSING_TYPE *streamCache;
-    MISSING_TYPE *streamCacheObserverToken;
-    MISSING_TYPE *streamCacheFileURL;
-    MISSING_TYPE *assetLocation;
+    id $defaultActor;
+    id url;
+    id playerID;
+    id mediaItem;
+    id onServiceIdentifierChanged;
+    id streamCache;
+    id streamCacheObserverToken;
+    id streamCacheFileURL;
+    id assetLocation;
 }
 
 @end

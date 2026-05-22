@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.AHAPv1
 {
-    MISSING_TYPE *version;
-    MISSING_TYPE *metadata;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *pattern;
-    MISSING_TYPE *parsed;
-    MISSING_TYPE *url;
-    MISSING_TYPE *eventCounter;
-    MISSING_TYPE *_fileEvents;
-    MISSING_TYPE *_fileParameters;
+    id version;
+    id metadata;
+    id configuration;
+    id pattern;
+    id parsed;
+    id url;
+    id eventCounter;
+    id _fileEvents;
+    id _fileParameters;
 }
 
 - (id);

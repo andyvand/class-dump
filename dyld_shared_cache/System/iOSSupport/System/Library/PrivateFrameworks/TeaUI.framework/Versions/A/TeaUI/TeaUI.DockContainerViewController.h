@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIViewController;
+@class UIViewController;
 
 @interface TeaUI.DockContainerViewController
 {
-    MISSING_TYPE *_rootViewController;
-    MISSING_TYPE *lazyDockableViewController;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *presentationMode;
-    MISSING_TYPE *dockView;
-    MISSING_TYPE *$__lazy_storage_$_dockHeightConstraint;
-    MISSING_TYPE *$__lazy_storage_$_dockedView;
-    MISSING_TYPE *$__lazy_storage_$_expandedViewController;
+    id _rootViewController;
+    id lazyDockableViewController;
+    id commandCenter;
+    id presentationMode;
+    id dockView;
+    id $__lazy_storage_$_dockHeightConstraint;
+    id $__lazy_storage_$_dockedView;
+    id $__lazy_storage_$_expandedViewController;
 }
 
 - (void);

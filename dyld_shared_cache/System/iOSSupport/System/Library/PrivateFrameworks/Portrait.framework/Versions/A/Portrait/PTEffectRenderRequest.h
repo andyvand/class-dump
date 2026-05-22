@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSDictionary, PTEffectRingLightInput, PTEffectRingLightOutput;
+@class NSArray, NSDictionary, PTEffectRingLightInput, PTEffectRingLightOutput;
 @protocol MTLTexture;
 
 @interface PTEffectRenderRequest
@@ -37,7 +37,7 @@
     id <MTLTexture> _inBilbyAlphaMaskTexture;
     unsigned long long _presenterOverlayMode;
     struct CGSize _inReactionColorSize;
-    MISSING_TYPE *_alsColor;
+    id _alsColor;
     struct CGRect _inScreenCaptureRect;
     struct CGRect _inReactionVideoRect;
     struct CGRect _outColorROI;
@@ -45,7 +45,7 @@
 }
 
 + (float);
-+ (MISSING_TYPE *);
++ (id);
 + (float);
 - (void);
 - (void);
@@ -65,7 +65,7 @@
 - (void);
 - (float);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -89,7 +89,7 @@
 - (id);
 - (_Bool);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (struct __CFDictionary *);
 - (_Bool);
@@ -129,7 +129,7 @@
 - (id)ÿ1ïÿ:ïÿBïÿJïÿRïÿZïÿcïÿkïÿsïÿ{ïÿïÿïÿïÿïÿ¥ïÿ­ïÿµïÿ¾ïÿÆïÿÏðÿ×ðÿßðÿèñÿññÿúòÿÿóÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property MISSING_TYPE *alsColor; // @synthesize alsColor=_alsColor;
+@property id alsColor; // @synthesize alsColor=_alsColor;
 @property float alsLuxLevel; // @synthesize alsLuxLevel=_alsLuxLevel;
 @property float apertureSDOF; // @synthesize apertureSDOF=_apertureSDOF;
 @property _Bool bilbyFloatingMode;

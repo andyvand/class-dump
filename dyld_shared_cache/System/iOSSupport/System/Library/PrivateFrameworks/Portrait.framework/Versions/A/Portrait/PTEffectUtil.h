@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, PTMetalContext;
+@class PTMetalContext;
 @protocol MTLComputePipelineState;
 
 @interface PTEffectUtil
@@ -17,13 +17,13 @@
 }
 
 + (_Bool);
-+ (MISSING_TYPE *);
-+ (MISSING_TYPE *);
-+ (struct CGRect);
-+ (MISSING_TYPE *);
-+ (MISSING_TYPE *);
 + (id);
-+ (MISSING_TYPE *);
++ (id);
++ (struct CGRect);
++ (id);
++ (id);
++ (id);
++ (id);
 + (unsigned long long);
 + (float);
 + (float);

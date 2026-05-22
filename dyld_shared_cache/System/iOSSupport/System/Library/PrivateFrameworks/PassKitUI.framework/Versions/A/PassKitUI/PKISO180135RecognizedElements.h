@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSSet;
+@class NSArray, NSSet;
 
 @interface PKISO180135RecognizedElements
 {
-    MISSING_TYPE *_elementCategoryGroups;
+    id _elementCategoryGroups;
     void retainedElements;
     void nonRetainedElements;
     void displayOnlyElements;

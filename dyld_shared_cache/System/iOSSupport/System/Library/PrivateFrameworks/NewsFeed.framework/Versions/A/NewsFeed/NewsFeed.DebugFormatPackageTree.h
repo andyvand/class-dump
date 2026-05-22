@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatPackageTree
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *_debugPackage;
-    MISSING_TYPE *_compilerResultEntries;
-    MISSING_TYPE *_workspaceGroup;
-    MISSING_TYPE *_layoutContext;
-    MISSING_TYPE *canvasGenerator;
-    MISSING_TYPE *_expanded;
+    id editor;
+    id _identifier;
+    id _debugPackage;
+    id _compilerResultEntries;
+    id _workspaceGroup;
+    id _layoutContext;
+    id canvasGenerator;
+    id _expanded;
 }
 
 @end

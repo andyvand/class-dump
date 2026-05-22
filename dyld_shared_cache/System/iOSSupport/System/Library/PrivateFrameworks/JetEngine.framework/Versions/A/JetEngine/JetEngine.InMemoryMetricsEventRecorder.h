@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.InMemoryMetricsEventRecorder
 {
-    MISSING_TYPE *historySize;
-    MISSING_TYPE *events;
-    MISSING_TYPE *onEventRecorded;
+    id historySize;
+    id events;
+    id onEventRecorded;
 }
 
 @end

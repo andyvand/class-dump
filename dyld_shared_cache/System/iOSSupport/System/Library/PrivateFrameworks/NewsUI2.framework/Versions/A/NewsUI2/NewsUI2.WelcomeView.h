@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface NewsUI2.WelcomeView
 {
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *titleGroup;
-    MISSING_TYPE *footer;
+    id scrollView;
+    id titleGroup;
+    id footer;
 }
 
 - (void);

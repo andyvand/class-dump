@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatContentSizeCategoryCell
 {
-    MISSING_TYPE *contentSizeCategory;
-    MISSING_TYPE *slider;
-    MISSING_TYPE *label;
-    MISSING_TYPE *onChangeBlock;
+    id contentSizeCategory;
+    id slider;
+    id label;
+    id onChangeBlock;
 }
 
 - (void);

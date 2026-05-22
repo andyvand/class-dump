@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAnalytics.FlushAnalyticsBatchesStartupTask
 {
-    MISSING_TYPE *analyticsApplicationStateMonitor;
-    MISSING_TYPE *flushManager;
-    MISSING_TYPE *loggingEventProcessor;
+    id analyticsApplicationStateMonitor;
+    id flushManager;
+    id loggingEventProcessor;
 }
 
 @end

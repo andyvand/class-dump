@@ -6,18 +6,17 @@
 
 #import <HomeUI/HUItemTableOBWelcomeController.h>
 
-@class MISSING_TYPE;
 @protocol HUConfigurationViewControllerDelegate;
 
 @interface HUUtilityOnboardingSelectLocationViewController : HUItemTableOBWelcomeController
 {
     id <HUConfigurationViewControllerDelegate> delegate;
-    MISSING_TYPE *home;
-    MISSING_TYPE *onboardingContext;
-    MISSING_TYPE *serviceLocations;
-    MISSING_TYPE *serviceLocationID;
-    MISSING_TYPE *serviceLocationAddress;
-    MISSING_TYPE *connectAccountButton;
+    id home;
+    id onboardingContext;
+    id serviceLocations;
+    id serviceLocationID;
+    id serviceLocationAddress;
+    id connectAccountButton;
 }
 
 - (Class);

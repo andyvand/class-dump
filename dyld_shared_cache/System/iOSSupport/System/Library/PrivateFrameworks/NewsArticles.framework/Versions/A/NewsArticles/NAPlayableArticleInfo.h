@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NAPlayableArticleInfo
 {
-    MISSING_TYPE *articleId;
-    MISSING_TYPE *listeningProgress;
-    MISSING_TYPE *paused;
+    id articleId;
+    id listeningProgress;
+    id paused;
 }
 
 - (id);

@@ -6,15 +6,13 @@
 
 #import <swiftCore/Swift._SwiftObject.h>
 
-@class MISSING_TYPE;
-
 @interface Swift.__CocoaSet.Iterator : Swift._SwiftObject
 {
-    MISSING_TYPE *_fastEnumerationState;
-    MISSING_TYPE *_fastEnumerationStackBuf;
-    MISSING_TYPE *base;
-    MISSING_TYPE *itemIndex;
-    MISSING_TYPE *itemCount;
+    id _fastEnumerationState;
+    id _fastEnumerationStackBuf;
+    id base;
+    id itemIndex;
+    id itemCount;
 }
 
 @end

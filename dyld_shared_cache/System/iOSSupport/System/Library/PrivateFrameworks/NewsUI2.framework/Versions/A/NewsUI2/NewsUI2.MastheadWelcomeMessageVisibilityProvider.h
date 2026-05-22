@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MastheadWelcomeMessageVisibilityProvider
 {
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *bundleSessionManager;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *bundleSubscriptionDetectionManager;
+    id featureAvailability;
+    id bundleSessionManager;
+    id configurationManager;
+    id bundleSubscriptionManager;
+    id bundleSubscriptionDetectionManager;
 }
 
 @end

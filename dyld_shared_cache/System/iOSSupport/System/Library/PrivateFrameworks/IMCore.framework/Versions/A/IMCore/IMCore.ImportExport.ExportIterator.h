@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ExportIterator
 {
-    MISSING_TYPE *exportOptions;
-    MISSING_TYPE *conversations;
-    MISSING_TYPE *conversationIndex;
-    MISSING_TYPE *conversationRowID;
-    MISSING_TYPE *conversationExporter;
-    MISSING_TYPE *exporter;
+    id exportOptions;
+    id conversations;
+    id conversationIndex;
+    id conversationRowID;
+    id conversationExporter;
+    id exporter;
 }
 
 @end

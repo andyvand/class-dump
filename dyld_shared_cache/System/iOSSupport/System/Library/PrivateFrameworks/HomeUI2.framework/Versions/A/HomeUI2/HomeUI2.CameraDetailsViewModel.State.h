@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI2.CameraDetailsViewModel.State
 {
-    MISSING_TYPE *_config;
-    MISSING_TYPE *_$observationRegistrar;
+    id _config;
+    id _$observationRegistrar;
 }
 
 @end

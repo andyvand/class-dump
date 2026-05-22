@@ -4,31 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-@protocol _TtP14DocumentCamera46DCCaptureControlsOverlayViewControllerDelegate_;
+@protocol DocumentCamera.DCCaptureControlsOverlayViewControllerDelegate;
 
 @interface DCCaptureControlsOverlayViewController
 {
-    MISSING_TYPE *updateButtonTitlesOnModeChange;
-    MISSING_TYPE *$__lazy_storage_$_deviceHasFlash;
-    id <_TtP14DocumentCamera46DCCaptureControlsOverlayViewControllerDelegate_> delegate;
-    MISSING_TYPE *$__lazy_storage_$_captureNavigationBar;
-    MISSING_TYPE *$__lazy_storage_$_captureControlsNavigationItem;
-    MISSING_TYPE *$__lazy_storage_$_captureButton;
-    MISSING_TYPE *$__lazy_storage_$_controlsStackView;
-    MISSING_TYPE *$__lazy_storage_$_flashButton;
-    MISSING_TYPE *$__lazy_storage_$_filterButton;
-    MISSING_TYPE *$__lazy_storage_$_autoButton;
-    MISSING_TYPE *$__lazy_storage_$_modeSelectionStackView;
-    MISSING_TYPE *$__lazy_storage_$_autoModeButton;
-    MISSING_TYPE *$__lazy_storage_$_manualModeButton;
-    MISSING_TYPE *$__lazy_storage_$_closeBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_doneBarButtonItem;
+    id updateButtonTitlesOnModeChange;
+    id $__lazy_storage_$_deviceHasFlash;
+    id <DocumentCamera.DCCaptureControlsOverlayViewControllerDelegate> delegate;
+    id $__lazy_storage_$_captureNavigationBar;
+    id $__lazy_storage_$_captureControlsNavigationItem;
+    id $__lazy_storage_$_captureButton;
+    id $__lazy_storage_$_controlsStackView;
+    id $__lazy_storage_$_flashButton;
+    id $__lazy_storage_$_filterButton;
+    id $__lazy_storage_$_autoButton;
+    id $__lazy_storage_$_modeSelectionStackView;
+    id $__lazy_storage_$_autoModeButton;
+    id $__lazy_storage_$_manualModeButton;
+    id $__lazy_storage_$_closeBarButtonItem;
+    id $__lazy_storage_$_doneBarButtonItem;
     _Bool doneButtonShowing;
-    MISSING_TYPE *staticConstraints;
-    MISSING_TYPE *$__lazy_storage_$_layoutStrategy;
-    MISSING_TYPE *$__lazy_storage_$_doneAction;
-    MISSING_TYPE *$__lazy_storage_$_closeAction;
+    id staticConstraints;
+    id $__lazy_storage_$_layoutStrategy;
+    id $__lazy_storage_$_doneAction;
+    id $__lazy_storage_$_closeAction;
 }
 
 - (void);
@@ -50,7 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) id <_TtP14DocumentCamera46DCCaptureControlsOverlayViewControllerDelegate_> delegate; // @synthesize delegate;
+@property(nonatomic, retain) id <DocumentCamera.DCCaptureControlsOverlayViewControllerDelegate> delegate; // @synthesize delegate;
 @property(nonatomic) _Bool doneButtonShowing; // @synthesize doneButtonShowing;
 
 @end

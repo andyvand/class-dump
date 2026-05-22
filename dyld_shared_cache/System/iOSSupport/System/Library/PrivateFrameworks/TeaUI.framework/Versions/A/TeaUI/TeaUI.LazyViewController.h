@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIViewController;
+@class NSString, UIViewController;
 
 @interface TeaUI.LazyViewController
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *_loadedViewController;
-    MISSING_TYPE *eventManager;
+    id identifier;
+    id _loadedViewController;
+    id eventManager;
 }
 
 - (id);

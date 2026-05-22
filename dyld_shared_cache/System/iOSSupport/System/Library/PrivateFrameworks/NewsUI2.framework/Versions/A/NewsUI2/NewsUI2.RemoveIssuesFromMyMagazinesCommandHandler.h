@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RemoveIssuesFromMyMagazinesCommandHandler
 {
-    MISSING_TYPE *issueReadingHistory;
-    MISSING_TYPE *store;
+    id issueReadingHistory;
+    id store;
 }
 
 @end

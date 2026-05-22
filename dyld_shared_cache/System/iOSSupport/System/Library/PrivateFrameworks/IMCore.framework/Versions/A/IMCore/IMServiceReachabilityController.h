@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMServiceReachabilityController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *taskIDToTask;
+    id delegate;
+    id taskIDToTask;
 }
 
 + (id);

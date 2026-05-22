@@ -6,15 +6,15 @@
 
 #import <Home/Home.SwiftItem.h>
 
-@class HMHome, MISSING_TYPE, NSSet;
+@class HMHome, NSSet;
 @protocol HFAccessoryRepresentable, HFCharacteristicValueSource, HFHomeKitObject;
 
 @interface Home.MatterAccessoryLikeItem : Home.SwiftItem
 {
-    MISSING_TYPE *tilePath;
-    MISSING_TYPE *matterAccessoryRepresentable;
-    MISSING_TYPE *matterSnapshotProvider;
-    MISSING_TYPE *actionSetBuilder;
+    id tilePath;
+    id matterAccessoryRepresentable;
+    id matterSnapshotProvider;
+    id actionSetBuilder;
 }
 
 + (id);

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OfflineIssueManager
 {
-    MISSING_TYPE *offlineIssueList;
-    MISSING_TYPE *offlineContentManager;
-    MISSING_TYPE *storageLevelProvider;
-    MISSING_TYPE *issueOfflineManager;
-    MISSING_TYPE *networkReachability;
-    MISSING_TYPE *backgroundAppRefreshEnabled;
-    MISSING_TYPE *backgroundAppRefreshChangeObserver;
-    MISSING_TYPE *issueIDsAvailableOffline;
+    id offlineIssueList;
+    id offlineContentManager;
+    id storageLevelProvider;
+    id issueOfflineManager;
+    id networkReachability;
+    id backgroundAppRefreshEnabled;
+    id backgroundAppRefreshChangeObserver;
+    id issueIDsAvailableOffline;
 }
 
 - (void);

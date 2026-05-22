@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagViewRenderer
 {
-    MISSING_TYPE *rendererEnvironment;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *imageApplier;
-    MISSING_TYPE *accessoryButtonRenderer;
-    MISSING_TYPE *featureAvailability;
+    id rendererEnvironment;
+    id styler;
+    id imageApplier;
+    id accessoryButtonRenderer;
+    id featureAvailability;
 }
 
 @end

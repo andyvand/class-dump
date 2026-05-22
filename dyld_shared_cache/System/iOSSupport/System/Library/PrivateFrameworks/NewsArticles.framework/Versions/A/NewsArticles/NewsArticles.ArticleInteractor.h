@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleInteractor
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *coordinator;
-    MISSING_TYPE *articleModel;
-    MISSING_TYPE *loadedArticle;
-    MISSING_TYPE *articleAccess;
-    MISSING_TYPE *dataManager;
-    MISSING_TYPE *readingListObserver;
-    MISSING_TYPE *paywallFactory;
-    MISSING_TYPE *previewManager;
-    MISSING_TYPE *contextBuilder;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *paywallTypeProvider;
-    MISSING_TYPE *articlePurchaseOffersProvider;
-    MISSING_TYPE *loadingIndicatorProvider;
-    MISSING_TYPE *articleLoadingStateMachine;
-    MISSING_TYPE *errorMessageFactory;
-    MISSING_TYPE *loggingIdentifier;
-    MISSING_TYPE *articleReadingHistoryRecorder;
-    MISSING_TYPE *commandCenter;
+    id delegate;
+    id coordinator;
+    id articleModel;
+    id loadedArticle;
+    id articleAccess;
+    id dataManager;
+    id readingListObserver;
+    id paywallFactory;
+    id previewManager;
+    id contextBuilder;
+    id eventManager;
+    id offerManager;
+    id paywallTypeProvider;
+    id articlePurchaseOffersProvider;
+    id loadingIndicatorProvider;
+    id articleLoadingStateMachine;
+    id errorMessageFactory;
+    id loggingIdentifier;
+    id articleReadingHistoryRecorder;
+    id commandCenter;
 }
 
 @end

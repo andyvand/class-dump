@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.PropertyDirtyState
 {
-    MISSING_TYPE *propertyMetadataContainsAnyOf;
-    MISSING_TYPE *core;
+    id propertyMetadataContainsAnyOf;
+    id core;
 }
 
 @end

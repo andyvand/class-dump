@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.AccessoryContainerView
 {
-    MISSING_TYPE *touchInsets;
-    MISSING_TYPE *spacing;
-    MISSING_TYPE *rightMargin;
-    MISSING_TYPE *leftMargin;
-    MISSING_TYPE *itemSize;
-    MISSING_TYPE *cellHeight;
+    id touchInsets;
+    id spacing;
+    id rightMargin;
+    id leftMargin;
+    id itemSize;
+    id cellHeight;
 }
 
 - (id);

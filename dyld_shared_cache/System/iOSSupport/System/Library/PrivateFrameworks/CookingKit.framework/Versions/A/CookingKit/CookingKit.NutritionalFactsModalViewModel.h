@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.NutritionalFactsModalViewModel
 {
-    MISSING_TYPE *_servingSize;
-    MISSING_TYPE *_$observationRegistrar;
+    id _servingSize;
+    id _$observationRegistrar;
 }
 
 @end

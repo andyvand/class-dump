@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.ShortcutChiclet.RunButton.Model
 {
-    MISSING_TYPE *_workflowReference;
-    MISSING_TYPE *_color;
-    MISSING_TYPE *_changeColorOnHover;
-    MISSING_TYPE *_symbolName;
-    MISSING_TYPE *_action;
-    MISSING_TYPE *_isHidden;
-    MISSING_TYPE *metrics;
+    id _workflowReference;
+    id _color;
+    id _changeColorOnHover;
+    id _symbolName;
+    id _action;
+    id _isHidden;
+    id metrics;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadEntry
 {
-    MISSING_TYPE *package;
-    MISSING_TYPE *file;
-    MISSING_TYPE *target;
-    MISSING_TYPE *diff;
+    id package;
+    id file;
+    id target;
+    id diff;
 }
 
 @end

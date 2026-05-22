@@ -6,11 +6,9 @@
 
 #import <JetEngine/JetEngine.URLBagContract.h>
 
-@class MISSING_TYPE;
-
 @interface JetEngine.FamilyInfoLookupBagContract : JetEngine.URLBagContract
 {
-    MISSING_TYPE *backing;
+    id backing;
 }
 
 - (id);

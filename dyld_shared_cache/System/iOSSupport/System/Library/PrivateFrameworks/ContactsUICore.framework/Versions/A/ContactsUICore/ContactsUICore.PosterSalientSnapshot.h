@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.PosterSalientSnapshot
 {
-    MISSING_TYPE *snapshot;
-    MISSING_TYPE *saliencyRect;
-    MISSING_TYPE *assetDirectory;
+    id snapshot;
+    id saliencyRect;
+    id assetDirectory;
 }
 
 @end

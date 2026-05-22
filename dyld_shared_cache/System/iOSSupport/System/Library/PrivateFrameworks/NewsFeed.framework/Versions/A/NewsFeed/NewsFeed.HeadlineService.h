@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.HeadlineService
 {
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *coreConfigurationManager;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *paidAccessChecker;
+    id tagService;
+    id coreConfigurationManager;
+    id cloudContext;
+    id paidAccessChecker;
 }
 
 @end

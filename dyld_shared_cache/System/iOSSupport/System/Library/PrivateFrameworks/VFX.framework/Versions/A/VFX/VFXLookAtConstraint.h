@@ -6,15 +6,15 @@
 
 #import <VFX/VFXConstraint.h>
 
-@class MISSING_TYPE, VFXNode;
+@class VFXNode;
 
 @interface VFXLookAtConstraint : VFXConstraint
 {
     VFXNode *_target;
     _Bool _gimbalLockEnabled;
-    MISSING_TYPE *_targetOffset;
-    MISSING_TYPE *_upVector;
-    MISSING_TYPE *_localFront;
+    id _targetOffset;
+    id _upVector;
+    id _localFront;
 }
 
 + (id);
@@ -28,19 +28,19 @@
 - (void);
 - (void);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (void);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -502,10 +502,10 @@
 
 // Remaining properties
 @property(nonatomic) _Bool gimbalLockEnabled;
-@property(nonatomic) MISSING_TYPE *localFront;
+@property(nonatomic) id localFront;
 @property(retain, nonatomic) VFXNode *target;
-@property(nonatomic) MISSING_TYPE *targetOffset;
-@property(nonatomic) MISSING_TYPE *worldUp;
+@property(nonatomic) id targetOffset;
+@property(nonatomic) id worldUp;
 
 @end
 

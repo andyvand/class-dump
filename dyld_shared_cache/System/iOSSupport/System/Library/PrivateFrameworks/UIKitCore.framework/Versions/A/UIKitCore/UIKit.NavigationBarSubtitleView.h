@@ -6,14 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.NavigationBarSubtitleView : UIView
 {
-    MISSING_TYPE *content;
-    MISSING_TYPE *intrinsicContentSizeInvalidationHandler;
-    MISSING_TYPE *label;
-    MISSING_TYPE *customView;
+    id content;
+    id intrinsicContentSizeInvalidationHandler;
+    id label;
+    id customView;
 }
 
 - (id);

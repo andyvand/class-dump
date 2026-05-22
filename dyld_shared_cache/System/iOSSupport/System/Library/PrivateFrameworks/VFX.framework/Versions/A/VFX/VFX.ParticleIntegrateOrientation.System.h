@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleIntegrateOrientation.System
 {
-    MISSING_TYPE *orientationQuery;
+    id orientationQuery;
 }
 
 @end

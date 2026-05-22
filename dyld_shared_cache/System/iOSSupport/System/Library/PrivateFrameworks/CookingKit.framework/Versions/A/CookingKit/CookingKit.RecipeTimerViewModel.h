@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeTimerViewModel
 {
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_timer;
-    MISSING_TYPE *_recipeName;
-    MISSING_TYPE *_recipeTimerDuration;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_$observationRegistrar;
+    id _recipeID;
+    id _timer;
+    id _recipeName;
+    id _recipeTimerDuration;
+    id _$scope;
+    id _$observationRegistrar;
 }
 
 @end

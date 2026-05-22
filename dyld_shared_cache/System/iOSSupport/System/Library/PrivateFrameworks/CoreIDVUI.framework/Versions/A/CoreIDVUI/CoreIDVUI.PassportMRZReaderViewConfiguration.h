@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.PassportMRZReaderViewConfiguration
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *titleText;
-    MISSING_TYPE *subtitleText;
-    MISSING_TYPE *footerCaptionText;
-    MISSING_TYPE *trailingTitleAccessory;
-    MISSING_TYPE *updateContent;
+    id config;
+    id proofingFlowManager;
+    id titleText;
+    id subtitleText;
+    id footerCaptionText;
+    id trailingTitleAccessory;
+    id updateContent;
 }
 
 @end

@@ -6,7 +6,7 @@
 
 #import <Tungsten/PXGColorLookupCube.h>
 
-@class MISSING_TYPE, NSData;
+@class NSData;
 @protocol MTLDevice, MTLTexture;
 
 @interface PXGTextureDataColorLookupCube : PXGColorLookupCube
@@ -21,7 +21,7 @@
 - (id);
 - (id);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (_Bool);
 - (void);

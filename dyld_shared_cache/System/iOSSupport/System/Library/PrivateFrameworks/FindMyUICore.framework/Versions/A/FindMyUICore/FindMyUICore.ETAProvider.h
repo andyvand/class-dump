@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.ETAProvider
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *dependencies;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *dataStorage;
-    MISSING_TYPE *etaQueryTaskByIdentifier;
+    id $defaultActor;
+    id dependencies;
+    id logger;
+    id dataStorage;
+    id etaQueryTaskByIdentifier;
 }
 
 @end

@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.JSRemoteScriptFetcher
 {
-    MISSING_TYPE *remoteFetcher;
+    id remoteFetcher;
 }
 
 @end

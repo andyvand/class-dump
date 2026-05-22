@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIPanGestureRecognizer, UIView;
+@class NSString, UIPanGestureRecognizer, UIView;
 @protocol _UIFluidSliderDirectDrivingDelegate, _UIFluidSliderDrivable;
 
 __attribute__((visibility("hidden")))
 @interface _UIFluidSliderElasticPanDriver
 {
-    MISSING_TYPE *animatedValue;
-    MISSING_TYPE *previousTranslation;
-    MISSING_TYPE *previousTarget;
-    MISSING_TYPE *state;
-    MISSING_TYPE *initialStretchAmount;
+    id animatedValue;
+    id previousTranslation;
+    id previousTarget;
+    id state;
+    id initialStretchAmount;
     void drivable;
     UIPanGestureRecognizer *panGestureRecognizer;
     unsigned long long trackAxis;
@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
     void name;
     void view;
     _Bool enabled;
-    MISSING_TYPE *currentDetent;
+    id currentDetent;
 }
 
 - (double);

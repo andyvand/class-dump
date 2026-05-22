@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface Compression.OutputFilter
 {
-    MISSING_TYPE *_stream;
-    MISSING_TYPE *_buf;
-    MISSING_TYPE *_bufCapacity;
-    MISSING_TYPE *_writeFunc;
-    MISSING_TYPE *_finalized;
+    id _stream;
+    id _buf;
+    id _bufCapacity;
+    id _writeFunc;
+    id _finalized;
 }
 
 @end

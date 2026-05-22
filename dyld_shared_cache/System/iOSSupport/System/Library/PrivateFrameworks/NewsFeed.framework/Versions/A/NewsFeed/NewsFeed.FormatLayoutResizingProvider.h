@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatLayoutResizingProvider
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *cellSizesByViewportSize;
-    MISSING_TYPE *onChangeBlock;
+    id lock;
+    id cellSizesByViewportSize;
+    id onChangeBlock;
 }
 
 @end

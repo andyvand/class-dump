@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyMagazinesBlueprintViewSupplementaryViewProvider
 {
-    MISSING_TYPE *sectionHeaderRenderer;
-    MISSING_TYPE *feedItemSupplementaryRenderer;
-    MISSING_TYPE *separatorRenderer;
+    id sectionHeaderRenderer;
+    id feedItemSupplementaryRenderer;
+    id separatorRenderer;
 }
 
 @end

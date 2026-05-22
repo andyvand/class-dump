@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.ArticleThumbnailViewRenderer
 {
-    MISSING_TYPE *rendererEnvironment;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *imageCache;
-    MISSING_TYPE *rendererTool;
-    MISSING_TYPE *layeredMediaViewProvider;
-    MISSING_TYPE *layeredMediaLayerProviderFactory;
-    MISSING_TYPE *layeredMediaViewRenderer;
+    id rendererEnvironment;
+    id styler;
+    id imageCache;
+    id rendererTool;
+    id layeredMediaViewProvider;
+    id layeredMediaLayerProviderFactory;
+    id layeredMediaViewRenderer;
 }
 
 @end

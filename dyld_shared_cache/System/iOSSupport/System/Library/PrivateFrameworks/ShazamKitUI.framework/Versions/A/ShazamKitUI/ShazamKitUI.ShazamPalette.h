@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ShazamKitUI.ShazamPalette
 {
-    MISSING_TYPE *colors;
-    MISSING_TYPE *_$observationRegistrar;
+    id colors;
+    id _$observationRegistrar;
 }
 
 - (id);

@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, VFXNode;
+@class VFXNode;
 
 @interface VFXPhysicsContact
 {
     VFXNode *_nodeA;
     VFXNode *_nodeB;
-    MISSING_TYPE *_contactPoint;
-    MISSING_TYPE *_contactNormal;
+    id _contactPoint;
+    id _contactNormal;
     float _collisionImpulse;
     float _distance;
     float _fraction;
@@ -26,20 +26,20 @@
 - (float);
 - (id);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) float collisionImpulse;
-@property(readonly, nonatomic) MISSING_TYPE *contactNormal;
-@property(readonly, nonatomic) MISSING_TYPE *contactPoint;
+@property(readonly, nonatomic) id contactNormal;
+@property(readonly, nonatomic) id contactPoint;
 @property(readonly, nonatomic) VFXNode *nodeA;
 @property(readonly, nonatomic) VFXNode *nodeB;
 @property(readonly, nonatomic) float penetrationDistance;

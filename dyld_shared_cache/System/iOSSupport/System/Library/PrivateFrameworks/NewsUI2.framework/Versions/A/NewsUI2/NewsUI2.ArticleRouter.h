@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ArticleRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *linkHandler;
-    MISSING_TYPE *actionHandler;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *tracker;
+    id controller;
+    id linkHandler;
+    id actionHandler;
+    id navigator;
+    id sceneProvider;
+    id tracker;
 }
 
 @end

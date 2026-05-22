@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAnalytics.ScienceDataFactory
 {
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *appConfigurationManager;
+    id personalizationService;
+    id appConfigurationManager;
 }
 
 @end

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayFeedPool.MyHeadlines
 {
-    MISSING_TYPE *analyticsData;
-    MISSING_TYPE *articleScoreSummaryDataList;
-    MISSING_TYPE *decayedPublisherDiversificationPenalty;
-    MISSING_TYPE *scoredItems;
-    MISSING_TYPE *clusteringResultProvider;
-    MISSING_TYPE *clusteringResult;
-    MISSING_TYPE *consumedScoredItems;
+    id analyticsData;
+    id articleScoreSummaryDataList;
+    id decayedPublisherDiversificationPenalty;
+    id scoredItems;
+    id clusteringResultProvider;
+    id clusteringResult;
+    id consumedScoredItems;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.GapViewStyler
 {
-    MISSING_TYPE *colorPalette;
-    MISSING_TYPE *colorPaletteProvider;
+    id colorPalette;
+    id colorPaletteProvider;
 }
 
 @end

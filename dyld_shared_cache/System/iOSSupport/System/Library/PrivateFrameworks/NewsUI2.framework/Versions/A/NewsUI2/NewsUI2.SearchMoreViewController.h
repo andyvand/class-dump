@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchMoreViewController
 {
-    MISSING_TYPE *searchContentType;
-    MISSING_TYPE *searchContentSource;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *sharingActivityProviderFactory;
-    MISSING_TYPE *searchRequestData;
-    MISSING_TYPE *refreshRecentSearch;
+    id searchContentType;
+    id searchContentSource;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id sharingActivityProviderFactory;
+    id searchRequestData;
+    id refreshRecentSearch;
 }
 
 - (id);

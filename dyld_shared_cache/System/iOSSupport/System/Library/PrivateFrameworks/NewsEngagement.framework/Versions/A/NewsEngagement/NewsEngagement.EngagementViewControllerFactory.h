@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsEngagement.EngagementViewControllerFactory
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *placementKey;
-    MISSING_TYPE *identifierKey;
-    MISSING_TYPE *sourceKey;
-    MISSING_TYPE *messageIDKey;
-    MISSING_TYPE *offerKey;
+    id delegate;
+    id placementKey;
+    id identifierKey;
+    id sourceKey;
+    id messageIDKey;
+    id offerKey;
 }
 
 - (long long);

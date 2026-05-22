@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.DeviceCacheInfoViewModel
 {
-    MISSING_TYPE *contact;
-    MISSING_TYPE *safetyCache;
-    MISSING_TYPE *isTransparencyMode;
+    id contact;
+    id safetyCache;
+    id isTransparencyMode;
 }
 
 - (id);

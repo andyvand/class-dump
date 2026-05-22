@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatUploadDiffViewController
 {
-    MISSING_TYPE *diff;
-    MISSING_TYPE *$__lazy_storage_$_navigationItemManager;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *statusView;
-    MISSING_TYPE *remoteDiffView;
-    MISSING_TYPE *remoteDiffGutterView;
-    MISSING_TYPE *localDiffView;
-    MISSING_TYPE *localDiffGutterView;
-    MISSING_TYPE *changeSetLabel;
-    MISSING_TYPE *$__lazy_storage_$_changeSetBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_dismissBarButtonItem;
+    id diff;
+    id $__lazy_storage_$_navigationItemManager;
+    id editor;
+    id styler;
+    id statusView;
+    id remoteDiffView;
+    id remoteDiffGutterView;
+    id localDiffView;
+    id localDiffGutterView;
+    id changeSetLabel;
+    id $__lazy_storage_$_changeSetBarButtonItem;
+    id $__lazy_storage_$_dismissBarButtonItem;
 }
 
 - (void);

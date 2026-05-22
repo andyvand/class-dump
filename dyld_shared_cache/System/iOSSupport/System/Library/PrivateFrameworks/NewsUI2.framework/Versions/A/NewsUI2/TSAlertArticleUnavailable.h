@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface TSAlertArticleUnavailable
 {
-    MISSING_TYPE *alert;
+    id alert;
 }
 
 - (id);

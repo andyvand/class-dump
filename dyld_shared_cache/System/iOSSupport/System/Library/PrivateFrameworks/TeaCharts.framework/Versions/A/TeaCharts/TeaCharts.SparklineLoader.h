@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.SparklineLoader
 {
-    MISSING_TYPE *imageGenerator;
-    MISSING_TYPE *imageGenerationQueue;
+    id imageGenerator;
+    id imageGenerationQueue;
 }
 
 @end

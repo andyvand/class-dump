@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.TimerTagger
 {
-    MISSING_TYPE *languagePack;
-    MISSING_TYPE *tokenizationBehavior;
-    MISSING_TYPE *tokenizer;
-    MISSING_TYPE *formatter;
-    MISSING_TYPE *spellOutFormatter;
+    id languagePack;
+    id tokenizationBehavior;
+    id tokenizer;
+    id formatter;
+    id spellOutFormatter;
 }
 
 @end

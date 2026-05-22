@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsManagementDetailBlueprintLayoutBuilder
 {
-    MISSING_TYPE *layoutAttributesFactory;
-    MISSING_TYPE *titleViewLayoutAttributesFactory;
-    MISSING_TYPE *model;
+    id layoutAttributesFactory;
+    id titleViewLayoutAttributesFactory;
+    id model;
 }
 
 @end

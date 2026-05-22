@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.IssueService
 {
-    MISSING_TYPE *issuesFetchOperationFactory;
-    MISSING_TYPE *issueReadingHistory;
+    id issuesFetchOperationFactory;
+    id issueReadingHistory;
 }
 
 @end

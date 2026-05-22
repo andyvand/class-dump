@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.ServiceGroupEditorItemManager
 {
-    MISSING_TYPE *creatingNew;
-    MISSING_TYPE *nameAndIconItem;
-    MISSING_TYPE *accessoryElementItemModule;
-    MISSING_TYPE *selectionController;
-    MISSING_TYPE *staticItemProvider;
-    MISSING_TYPE *accessoryElementContext;
+    id creatingNew;
+    id nameAndIconItem;
+    id accessoryElementItemModule;
+    id selectionController;
+    id staticItemProvider;
+    id accessoryElementContext;
 }
 
 - (id);

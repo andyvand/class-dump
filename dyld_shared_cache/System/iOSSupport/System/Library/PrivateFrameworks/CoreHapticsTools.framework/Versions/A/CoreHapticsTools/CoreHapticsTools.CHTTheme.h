@@ -4,33 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTTheme
 {
-    MISSING_TYPE *transientIntensityColor;
-    MISSING_TYPE *transientSharpnessColor;
-    MISSING_TYPE *continuousIntensityColor;
-    MISSING_TYPE *continuousSharpnessColor;
-    MISSING_TYPE *audioWaveformColor;
-    MISSING_TYPE *secondaryAudioWaveformColor;
-    MISSING_TYPE *paramCurveColor;
-    MISSING_TYPE *timelineColor;
-    MISSING_TYPE *primaryTimelineTextColor;
-    MISSING_TYPE *secondaryTimelineTextColor;
-    MISSING_TYPE *timelineMarkedTriangleColor;
-    MISSING_TYPE *timelineMarkedTextColor;
-    MISSING_TYPE *primaryTextColor;
-    MISSING_TYPE *secondaryTextColor;
-    MISSING_TYPE *deselectedIconColor;
-    MISSING_TYPE *selectedIconColor;
-    MISSING_TYPE *scrubberColor;
-    MISSING_TYPE *draggableHighlightColor;
-    MISSING_TYPE *trackBorderColor;
-    MISSING_TYPE *trackActiveBackgroundColor;
-    MISSING_TYPE *trackInactiveBackgroundColor;
-    MISSING_TYPE *primaryBackgroundColor;
-    MISSING_TYPE *secondaryBackgroundColor;
+    id transientIntensityColor;
+    id transientSharpnessColor;
+    id continuousIntensityColor;
+    id continuousSharpnessColor;
+    id audioWaveformColor;
+    id secondaryAudioWaveformColor;
+    id paramCurveColor;
+    id timelineColor;
+    id primaryTimelineTextColor;
+    id secondaryTimelineTextColor;
+    id timelineMarkedTriangleColor;
+    id timelineMarkedTextColor;
+    id primaryTextColor;
+    id secondaryTextColor;
+    id deselectedIconColor;
+    id selectedIconColor;
+    id scrubberColor;
+    id draggableHighlightColor;
+    id trackBorderColor;
+    id trackActiveBackgroundColor;
+    id trackInactiveBackgroundColor;
+    id primaryBackgroundColor;
+    id secondaryBackgroundColor;
 }
 
 - (id);

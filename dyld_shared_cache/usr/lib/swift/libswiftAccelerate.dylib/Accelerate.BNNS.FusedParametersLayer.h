@@ -6,11 +6,9 @@
 
 #import <swiftAccelerate/Accelerate.BNNS.FusedLayer.h>
 
-@class MISSING_TYPE;
-
 @interface Accelerate.BNNS.FusedParametersLayer : Accelerate.BNNS.FusedLayer
 {
-    MISSING_TYPE *deallocatableWrappers;
+    id deallocatableWrappers;
 }
 
 @end

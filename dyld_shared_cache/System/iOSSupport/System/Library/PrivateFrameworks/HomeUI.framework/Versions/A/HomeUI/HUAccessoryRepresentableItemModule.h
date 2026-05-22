@@ -6,13 +6,11 @@
 
 #import <HomeUI/HomeUI.AccessoryItemModule.h>
 
-@class MISSING_TYPE;
-
 @interface HUAccessoryRepresentableItemModule : HomeUI.AccessoryItemModule
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *selectionController;
-    MISSING_TYPE *accessoryItemProvider;
+    id context;
+    id selectionController;
+    id accessoryItemProvider;
 }
 
 - (id);

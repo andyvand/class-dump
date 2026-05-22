@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.BundleSessionManager
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *bundleSessionProvider;
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *familySharingStatusManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *bundleSubscriptionDetectionManager;
-    MISSING_TYPE *notificationCenter;
-    MISSING_TYPE *cachedBundleSessionKey;
-    MISSING_TYPE *_sessionCache;
-    MISSING_TYPE *_sceneIsActive;
+    id observers;
+    id bundleSessionProvider;
+    id newsletterManager;
+    id appConfigurationManager;
+    id familySharingStatusManager;
+    id featureAvailability;
+    id bundleSubscriptionManager;
+    id bundleSubscriptionDetectionManager;
+    id notificationCenter;
+    id cachedBundleSessionKey;
+    id _sessionCache;
+    id _sceneIsActive;
 }
 
 - (void);

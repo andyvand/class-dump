@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ExportStatistics
 {
-    MISSING_TYPE *version;
-    MISSING_TYPE *timer;
-    MISSING_TYPE *predictedRecordCounts;
-    MISSING_TYPE *examinedRecordCounts;
-    MISSING_TYPE *failedExportCounts;
-    MISSING_TYPE *exportedCounts;
-    MISSING_TYPE *downloadedCounts;
-    MISSING_TYPE *recordsFetchedPerSecondCounts;
-    MISSING_TYPE *unexportedMessageTypeCounts;
-    MISSING_TYPE *attachmentStatistics;
-    MISSING_TYPE *reportableEvents;
+    id version;
+    id timer;
+    id predictedRecordCounts;
+    id examinedRecordCounts;
+    id failedExportCounts;
+    id exportedCounts;
+    id downloadedCounts;
+    id recordsFetchedPerSecondCounts;
+    id unexportedMessageTypeCounts;
+    id attachmentStatistics;
+    id reportableEvents;
 }
 
 @end

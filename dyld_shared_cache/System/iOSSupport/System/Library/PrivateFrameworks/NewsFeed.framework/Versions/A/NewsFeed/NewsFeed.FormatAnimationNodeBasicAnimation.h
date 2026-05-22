@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatAnimationNodeBasicAnimation
 {
-    MISSING_TYPE *keyPath;
-    MISSING_TYPE *cumulative;
-    MISSING_TYPE *additive;
-    MISSING_TYPE *mediaTiming;
+    id keyPath;
+    id cumulative;
+    id additive;
+    id mediaTiming;
 }
 
 @end

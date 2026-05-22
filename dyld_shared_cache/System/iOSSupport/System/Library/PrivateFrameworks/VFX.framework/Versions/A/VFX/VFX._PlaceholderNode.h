@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX._PlaceholderNode : VFX.Node
 {
-    MISSING_TYPE *oldNode;
+    id oldNode;
 }
 
 @end

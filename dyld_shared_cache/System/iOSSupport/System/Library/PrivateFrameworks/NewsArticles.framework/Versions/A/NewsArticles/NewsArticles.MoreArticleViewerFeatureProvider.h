@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.MoreArticleViewerFeatureProvider
 {
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *sharingActivityProviderFactory;
-    MISSING_TYPE *menuProvider;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *tipSourceManager;
+    id sceneProvider;
+    id sharingActivityProviderFactory;
+    id menuProvider;
+    id paidAccessChecker;
+    id tipSourceManager;
 }
 
 @end

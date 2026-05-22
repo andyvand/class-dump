@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.HomeEnergyUINotificationManager
 {
-    MISSING_TYPE *notificationsAllowed;
-    MISSING_TYPE *notificationCenter;
+    id notificationsAllowed;
+    id notificationCenter;
 }
 
 @end

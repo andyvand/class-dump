@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ImageCacheInterestToken
 {
-    MISSING_TYPE *rawState;
-    MISSING_TYPE *onRelease;
+    id rawState;
+    id onRelease;
 }
 
 @end

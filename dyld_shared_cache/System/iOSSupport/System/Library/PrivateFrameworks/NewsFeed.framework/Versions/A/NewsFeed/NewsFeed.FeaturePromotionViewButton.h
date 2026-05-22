@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeaturePromotionViewButton
 {
-    MISSING_TYPE *_type;
-    MISSING_TYPE *token;
-    MISSING_TYPE *id;
-    MISSING_TYPE *action;
+    id _type;
+    id token;
+    id id;
+    id action;
 }
 
 @end

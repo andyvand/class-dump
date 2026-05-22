@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.ECSStorageNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.ColorRampTextureNode : VFX.ECSStorageNode
 {
-    MISSING_TYPE *colorRamp;
+    id colorRamp;
 }
 
 @end

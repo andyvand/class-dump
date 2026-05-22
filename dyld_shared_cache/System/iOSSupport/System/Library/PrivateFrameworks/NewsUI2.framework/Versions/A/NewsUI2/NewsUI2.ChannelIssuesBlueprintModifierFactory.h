@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelIssuesBlueprintModifierFactory
 {
-    MISSING_TYPE *issueModelFactory;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *offlineIssueManager;
+    id issueModelFactory;
+    id paidAccessChecker;
+    id offlineIssueManager;
 }
 
 @end

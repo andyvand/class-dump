@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.TimerUserInteractionEventHandler
 {
-    MISSING_TYPE *_$scope;
+    id _$scope;
 }
 
 @end

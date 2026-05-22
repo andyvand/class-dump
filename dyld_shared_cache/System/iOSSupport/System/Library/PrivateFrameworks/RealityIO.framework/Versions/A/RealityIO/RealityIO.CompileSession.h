@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.CompileSession
 {
-    MISSING_TYPE *$__lazy_storage_$_CompilationOption_RequireIncludeMetadata_Default;
-    MISSING_TYPE *$__lazy_storage_$_CompilationOption_DumpDiagnosticsData_Default;
-    MISSING_TYPE *$__lazy_storage_$_CompilationOption_DumpDiagnosticsDirectory_Default;
-    MISSING_TYPE *$__lazy_storage_$_CompilationOption_ForceIncludeUnusedMaterials_Default;
-    MISSING_TYPE *sourcePaths;
-    MISSING_TYPE *exportOptions;
-    MISSING_TYPE *compilationOptions;
-    MISSING_TYPE *basePath;
-    MISSING_TYPE *deploymentTargets;
-    MISSING_TYPE *$__lazy_storage_$_DeploymentTarget_Default;
-    MISSING_TYPE *_compatibilityFaults;
-    MISSING_TYPE *includeUnusedMaterials;
-    MISSING_TYPE *loadSubdsAsSubds;
+    id $__lazy_storage_$_CompilationOption_RequireIncludeMetadata_Default;
+    id $__lazy_storage_$_CompilationOption_DumpDiagnosticsData_Default;
+    id $__lazy_storage_$_CompilationOption_DumpDiagnosticsDirectory_Default;
+    id $__lazy_storage_$_CompilationOption_ForceIncludeUnusedMaterials_Default;
+    id sourcePaths;
+    id exportOptions;
+    id compilationOptions;
+    id basePath;
+    id deploymentTargets;
+    id $__lazy_storage_$_DeploymentTarget_Default;
+    id _compatibilityFaults;
+    id includeUnusedMaterials;
+    id loadSubdsAsSubds;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.TableOfContentsBlueprintModifierFactory
 {
-    MISSING_TYPE *assetHandleFactory;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id assetHandleFactory;
+    id bundleSubscriptionManager;
 }
 
 @end

@@ -7,6 +7,6 @@
 @protocol VFXBoundingBox
 
 // Remaining properties
-@property(nonatomic) CDStruct_a7a0fb92 boundingBox;
+@property(nonatomic) CDStruct_8666bb01 boundingBox;
 @end
 

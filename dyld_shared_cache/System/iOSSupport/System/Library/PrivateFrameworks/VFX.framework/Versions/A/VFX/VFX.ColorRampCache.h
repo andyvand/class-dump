@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ColorRampCache
 {
-    MISSING_TYPE *buffers;
-    MISSING_TYPE *textures;
-    MISSING_TYPE *renderer;
+    id buffers;
+    id textures;
+    id renderer;
 }
 
 @end

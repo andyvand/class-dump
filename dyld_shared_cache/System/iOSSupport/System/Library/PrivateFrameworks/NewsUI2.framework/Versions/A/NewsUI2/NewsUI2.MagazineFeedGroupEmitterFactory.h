@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedGroupEmitterFactory
 {
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *feedClusteringService;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *magazineCategoryService;
-    MISSING_TYPE *magazineCategoryConfigService;
-    MISSING_TYPE *context;
-    MISSING_TYPE *currentIssuesChecker;
-    MISSING_TYPE *offlineIssueList;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *diversityPenalty;
-    MISSING_TYPE *issueModelFactory;
-    MISSING_TYPE *issueService;
-    MISSING_TYPE *historyService;
-    MISSING_TYPE *sectionHeadlinesService;
-    MISSING_TYPE *newspaperGroupService;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *feedPaywallConfigFactory;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *myMagazinesStore;
-    MISSING_TYPE *subscriptionList;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *recommendedIssuesService;
-    MISSING_TYPE *articleForYouAvailability;
+    id tagService;
+    id headlineService;
+    id feedPersonalizer;
+    id feedClusteringService;
+    id personalizationService;
+    id magazineCategoryService;
+    id magazineCategoryConfigService;
+    id context;
+    id currentIssuesChecker;
+    id offlineIssueList;
+    id appConfigurationManager;
+    id diversityPenalty;
+    id issueModelFactory;
+    id issueService;
+    id historyService;
+    id sectionHeadlinesService;
+    id newspaperGroupService;
+    id formatService;
+    id feedPaywallConfigFactory;
+    id offerManager;
+    id myMagazinesStore;
+    id subscriptionList;
+    id offlineManager;
+    id recommendedIssuesService;
+    id articleForYouAvailability;
 }
 
 @end

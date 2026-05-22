@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIKit.NavigationBarTransitionContext.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.NavigationBarTransitionContextPresentSearch : UIKit.NavigationBarTransitionContext
 {
-    MISSING_TYPE *transitioningScopeBarContainer;
+    id transitioningScopeBarContainer;
 }
 
 - (void)Àál;

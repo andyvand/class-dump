@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface XavierNews.ClusteringJournal.Result
 {
-    MISSING_TYPE *group;
-    MISSING_TYPE *outcome;
-    MISSING_TYPE *requirements;
-    MISSING_TYPE *candidates;
+    id group;
+    id outcome;
+    id requirements;
+    id candidates;
 }
 
 @end

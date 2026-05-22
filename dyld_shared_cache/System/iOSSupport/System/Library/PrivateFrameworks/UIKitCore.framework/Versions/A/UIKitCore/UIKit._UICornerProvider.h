@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit._UICornerProvider
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *_coordinateSpace;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *parent;
-    MISSING_TYPE *_insets;
-    MISSING_TYPE *_topLeftRadius;
-    MISSING_TYPE *_topRightRadius;
-    MISSING_TYPE *_bottomLeftRadius;
-    MISSING_TYPE *_bottomRightRadius;
-    MISSING_TYPE *_$observationRegistrar;
+    id id;
+    id _coordinateSpace;
+    id configuration;
+    id parent;
+    id _insets;
+    id _topLeftRadius;
+    id _topRightRadius;
+    id _bottomLeftRadius;
+    id _bottomRightRadius;
+    id _$observationRegistrar;
 }
 
 @end

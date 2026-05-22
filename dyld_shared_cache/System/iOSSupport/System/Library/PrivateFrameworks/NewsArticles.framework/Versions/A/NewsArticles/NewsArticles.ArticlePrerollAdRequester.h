@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticlePrerollAdRequester
 {
-    MISSING_TYPE *requestManager;
-    MISSING_TYPE *requestStore;
-    MISSING_TYPE *journal;
-    MISSING_TYPE *documentControllerProvider;
+    id requestManager;
+    id requestStore;
+    id journal;
+    id documentControllerProvider;
 }
 
 @end

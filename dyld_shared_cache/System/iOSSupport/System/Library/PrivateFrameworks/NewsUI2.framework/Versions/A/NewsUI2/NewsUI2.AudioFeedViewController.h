@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *offlineBannerCoordinator;
-    MISSING_TYPE *mastheadViewProviderDelegate;
-    MISSING_TYPE *$__lazy_storage_$_audioControlBarButtonItem;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id commandCenter;
+    id tracker;
+    id offlineBannerCoordinator;
+    id mastheadViewProviderDelegate;
+    id $__lazy_storage_$_audioControlBarButtonItem;
 }
 
 - (void);

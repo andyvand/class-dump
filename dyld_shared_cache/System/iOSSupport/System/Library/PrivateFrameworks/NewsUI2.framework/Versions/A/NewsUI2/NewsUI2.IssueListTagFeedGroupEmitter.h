@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.IssueListTagFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *knobs;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *issueService;
-    MISSING_TYPE *magazineCategoryConfigService;
-    MISSING_TYPE *personalizationService;
+    id config;
+    id knobs;
+    id tagService;
+    id issueService;
+    id magazineCategoryConfigService;
+    id personalizationService;
 }
 
 @end

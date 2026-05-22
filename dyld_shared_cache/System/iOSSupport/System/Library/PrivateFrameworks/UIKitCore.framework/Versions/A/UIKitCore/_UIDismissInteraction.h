@@ -4,23 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIView;
+@class UIView;
 @protocol _UIDismissInteractionDelegate;
 
 @interface _UIDismissInteraction
 {
-    MISSING_TYPE *_view;
+    id _view;
     void delegate;
     _Bool isEnabled;
     unsigned long long styles;
-    MISSING_TYPE *subInteractions;
-    MISSING_TYPE *trackingView;
-    MISSING_TYPE *_isActive;
-    MISSING_TYPE *trackingViewDidBecomeVisible;
-    MISSING_TYPE *originalTrackingViewPosition;
-    MISSING_TYPE *originalTouchPosition;
-    MISSING_TYPE *touchAdjustment;
-    MISSING_TYPE *translation;
+    id subInteractions;
+    id trackingView;
+    id _isActive;
+    id trackingViewDidBecomeVisible;
+    id originalTrackingViewPosition;
+    id originalTouchPosition;
+    id touchAdjustment;
+    id translation;
 }
 
 - (void);

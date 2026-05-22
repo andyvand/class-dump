@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LocalPrimaryChannelMigrationStartupTask
 {
-    MISSING_TYPE *executionPhase;
-    MISSING_TYPE *localDataManager;
-    MISSING_TYPE *subscriptionService;
+    id executionPhase;
+    id localDataManager;
+    id subscriptionService;
 }
 
 @end

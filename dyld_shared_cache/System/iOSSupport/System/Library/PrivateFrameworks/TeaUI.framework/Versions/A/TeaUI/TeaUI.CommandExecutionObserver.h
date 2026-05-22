@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CommandExecutionObserver
 {
-    MISSING_TYPE *closure;
-    MISSING_TYPE *keepAliveObject;
+    id closure;
+    id keepAliveObject;
 }
 
 @end

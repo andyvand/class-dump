@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfRecipeRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *router;
-    MISSING_TYPE *contextBuilder;
+    id controller;
+    id resolver;
+    id tracker;
+    id router;
+    id contextBuilder;
 }
 
 @end

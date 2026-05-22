@@ -6,11 +6,9 @@
 
 #import <VFX/VFX.ParticleEmitterGPUSystemStorage.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleForceField.GPUSystem : VFX.ParticleEmitterGPUSystemStorage
 {
-    MISSING_TYPE *fieldsQuery;
+    id fieldsQuery;
 }
 
 @end

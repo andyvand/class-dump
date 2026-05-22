@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SmartShortcutPickerBaseViewController
 {
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *style;
-    MISSING_TYPE *layout;
-    MISSING_TYPE *smartShortcutPickerDataSource;
-    MISSING_TYPE *selectionCoordinator;
-    MISSING_TYPE *hasScrolledToEntry;
-    MISSING_TYPE *collectionView;
-    MISSING_TYPE *lastLayoutOrientation;
+    id dataSource;
+    id style;
+    id layout;
+    id smartShortcutPickerDataSource;
+    id selectionCoordinator;
+    id hasScrolledToEntry;
+    id collectionView;
+    id lastLayoutOrientation;
 }
 
 - (long long);

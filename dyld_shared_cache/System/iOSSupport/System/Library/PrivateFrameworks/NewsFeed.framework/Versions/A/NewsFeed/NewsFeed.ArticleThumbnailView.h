@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.ArticleThumbnailView
 {
-    MISSING_TYPE *staticContentView;
-    MISSING_TYPE *dynamicContentView;
-    MISSING_TYPE *dynamicView;
-    MISSING_TYPE *observingMotion;
-    MISSING_TYPE *identifier;
+    id staticContentView;
+    id dynamicContentView;
+    id dynamicView;
+    id observingMotion;
+    id identifier;
 }
 
 - (id);

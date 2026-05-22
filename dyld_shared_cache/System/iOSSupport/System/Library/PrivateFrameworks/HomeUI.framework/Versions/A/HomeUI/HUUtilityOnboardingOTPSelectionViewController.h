@@ -7,12 +7,12 @@
 #import <HomeUI/HUItemTableOBWelcomeController.h>
 
 @class HFItem, HUUtilityOnboardingOTPSelectionTableViewController, NSString, OBTrayButton;
-@protocol HUConfigurationViewControllerDelegate, _TtP6HomeUI31UtilityOnboardingObjCCompatible_;
+@protocol HUConfigurationViewControllerDelegate, HomeUI.UtilityOnboardingObjCCompatible;
 
 @interface HUUtilityOnboardingOTPSelectionViewController : HUItemTableOBWelcomeController
 {
     id <HUConfigurationViewControllerDelegate> _delegate;
-    id <_TtP6HomeUI31UtilityOnboardingObjCCompatible_> _context;
+    id <HomeUI.UtilityOnboardingObjCCompatible> _context;
     HUUtilityOnboardingOTPSelectionTableViewController *_tableView;
     OBTrayButton *_continueButton;
     HFItem *_selectedOTPMethod;
@@ -41,7 +41,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <_TtP6HomeUI31UtilityOnboardingObjCCompatible_> context; // @synthesize context=_context;
+@property(retain, nonatomic) id <HomeUI.UtilityOnboardingObjCCompatible> context; // @synthesize context=_context;
 @property(retain, nonatomic) OBTrayButton *continueButton; // @synthesize continueButton=_continueButton;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?

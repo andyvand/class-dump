@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.NoopFeedAppConfigManager
 {
-    MISSING_TYPE *segmentSetIds;
-    MISSING_TYPE *timesOfDayConfiguration;
-    MISSING_TYPE *formatFeedConfig;
-    MISSING_TYPE *puzzleRanksByPuzzleTypeId;
-    MISSING_TYPE *countryFlagIconEnabledTagIds;
+    id segmentSetIds;
+    id timesOfDayConfiguration;
+    id formatFeedConfig;
+    id puzzleRanksByPuzzleTypeId;
+    id countryFlagIconEnabledTagIds;
 }
 
 @end

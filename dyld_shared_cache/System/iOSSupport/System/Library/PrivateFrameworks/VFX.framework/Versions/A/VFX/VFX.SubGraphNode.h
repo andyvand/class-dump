@@ -6,13 +6,11 @@
 
 #import <VFX/VFX.BuiltinNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.SubGraphNode : VFX.BuiltinNode
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *graph;
-    MISSING_TYPE *_signature;
+    id name;
+    id graph;
+    id _signature;
 }
 
 @end

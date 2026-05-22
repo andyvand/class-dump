@@ -6,13 +6,11 @@
 
 #import <HomeUI/HUItemCollectionViewController.h>
 
-@class MISSING_TYPE;
-
 @interface HUDashboardSectionListViewController : HUItemCollectionViewController
 {
-    MISSING_TYPE *dashboardContext;
-    MISSING_TYPE *$__lazy_storage_$_layoutManager;
-    MISSING_TYPE *_sortedIdentifiers;
+    id dashboardContext;
+    id $__lazy_storage_$_layoutManager;
+    id _sortedIdentifiers;
 }
 
 - (_Bool);

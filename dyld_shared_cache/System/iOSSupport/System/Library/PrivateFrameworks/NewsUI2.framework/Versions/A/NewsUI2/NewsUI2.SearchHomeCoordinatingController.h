@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchHomeCoordinatingController
 {
-    MISSING_TYPE *searchController;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *searchHomeContainerController;
-    MISSING_TYPE *pendingSearchTerm;
-    MISSING_TYPE *pendingSearchOrigination;
+    id searchController;
+    id delegate;
+    id searchHomeContainerController;
+    id pendingSearchTerm;
+    id pendingSearchOrigination;
 }
 
 - (void);

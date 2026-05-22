@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 #pragma mark Blocks
 
@@ -48,8 +48,8 @@ typedef struct {
 } CDStruct_8932552d;
 
 typedef struct {
-    MISSING_TYPE *vector;
-} CDStruct_0e8a9a91;
+    id vector;
+} CDStruct_da14d750;
 
 typedef struct {
     _Bool _field1;
@@ -74,12 +74,12 @@ typedef struct {
 } CDStruct_bf23ece6;
 
 typedef struct {
-    MISSING_TYPE *columns[3];
-} CDStruct_8e0628e6;
+    id columns[3];
+} CDStruct_1fe29af2;
 
 typedef struct {
-    MISSING_TYPE *columns[4];
-} CDStruct_14d5dc5e;
+    id columns[4];
+} CDStruct_95fa7c00;
 
 typedef struct {
     double timestamp;
@@ -118,6 +118,6 @@ typedef struct {
 
 typedef struct {
     _Bool mirroringEnabled;
-    CDStruct_8e0628e6 transform;
-} CDStruct_10883d13;
+    CDStruct_1fe29af2 transform;
+} CDStruct_ccff9734;
 

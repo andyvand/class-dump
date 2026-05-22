@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeTimersSource
 {
-    MISSING_TYPE *recipeTimerManager;
-    MISSING_TYPE *state;
-    MISSING_TYPE *_$scope;
+    id recipeTimerManager;
+    id state;
+    id _$scope;
 }
 
 @end

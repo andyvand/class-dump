@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.URLHandler
 {
-    MISSING_TYPE *closures;
-    MISSING_TYPE *newWindowClosures;
+    id closures;
+    id newWindowClosures;
 }
 
 - (void);

@@ -6,12 +6,10 @@
 
 #import <HomeUI/HUTileCell.h>
 
-@class MISSING_TYPE;
-
 @interface HUSceneTileCell : HUTileCell
 {
-    MISSING_TYPE *dimsWhenReorderingAndNotReorderable;
-    MISSING_TYPE *_executeActionSetFuture;
+    id dimsWhenReorderingAndNotReorderable;
+    id _executeActionSetFuture;
     id executeActionSetFuture;
 }
 

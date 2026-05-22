@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintViewActionResponse
 {
-    MISSING_TYPE *result;
-    MISSING_TYPE *completion;
-    MISSING_TYPE *state;
-    MISSING_TYPE *apply;
+    id result;
+    id completion;
+    id state;
+    id apply;
 }
 
 @end

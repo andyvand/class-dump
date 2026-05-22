@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface Tungsten.TungstenSettings
 {
     _Bool enableXcodeCustomDebugHierarchy;
@@ -60,7 +58,7 @@
     _Bool enableAssetsRectDiagnostics;
     _Bool enableFocusRectDiagnostics;
     _Bool enableCurrentFocusRectDiagnostics;
-    MISSING_TYPE *enabledRectDiagnostics;
+    id enabledRectDiagnostics;
     long long fullPageSnapshotMaximumNumberOfTiles;
     double fullPageSnapshotTileDelay;
     _Bool shouldShowBoundariesOfTextTextures;

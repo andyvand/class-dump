@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.MPCPodcastsDialogHandler
 {
-    MISSING_TYPE *publisher;
-    MISSING_TYPE *errorTransformer;
+    id publisher;
+    id errorTransformer;
 }
 
 @end

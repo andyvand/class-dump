@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleImageShareAttributeProvider
 {
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *puzzleRankProvider;
-    MISSING_TYPE *themeProvider;
-    MISSING_TYPE *$__lazy_storage_$_timeFormatter;
+    id puzzleHistoryService;
+    id puzzleStatsService;
+    id puzzleRankProvider;
+    id themeProvider;
+    id $__lazy_storage_$_timeFormatter;
 }
 
 @end

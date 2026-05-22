@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherAppSupport.HumidityChartHeaderStringBuilder
 {
-    MISSING_TYPE *humidityTitleStringBuilder;
-    MISSING_TYPE *averageHumidityCache;
+    id humidityTitleStringBuilder;
+    id averageHumidityCache;
 }
 
 @end

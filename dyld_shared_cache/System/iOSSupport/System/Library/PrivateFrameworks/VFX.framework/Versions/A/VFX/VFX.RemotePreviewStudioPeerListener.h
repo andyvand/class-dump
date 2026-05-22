@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.RemotePreviewStudioPeerListener
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *_pendingConnections;
-    MISSING_TYPE *_peers;
-    MISSING_TYPE *_identifiersToPeers;
-    MISSING_TYPE *listener;
-    MISSING_TYPE *queue;
+    id delegate;
+    id _pendingConnections;
+    id _peers;
+    id _identifiersToPeers;
+    id listener;
+    id queue;
 }
 
 @end

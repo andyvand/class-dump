@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.TriggerRootViewController
 {
-    MISSING_TYPE *database;
-    MISSING_TYPE *homeManager;
-    MISSING_TYPE *createAutomationController;
-    MISSING_TYPE *$__lazy_storage_$_automationListViewController;
-    MISSING_TYPE *$__lazy_storage_$_emptyStateViewController;
-    MISSING_TYPE *$__lazy_storage_$_dataSource;
+    id database;
+    id homeManager;
+    id createAutomationController;
+    id $__lazy_storage_$_automationListViewController;
+    id $__lazy_storage_$_emptyStateViewController;
+    id $__lazy_storage_$_dataSource;
 }
 
 - (void);

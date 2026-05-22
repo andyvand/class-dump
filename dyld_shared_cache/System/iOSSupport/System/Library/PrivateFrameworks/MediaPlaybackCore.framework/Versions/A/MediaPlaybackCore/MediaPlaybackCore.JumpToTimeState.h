@@ -6,17 +6,15 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.State.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.JumpToTimeState : MediaPlaybackCore.State
 {
-    MISSING_TYPE *targetTime;
-    MISSING_TYPE *metadata;
-    MISSING_TYPE *initialLoadingShouldPlay;
-    MISSING_TYPE *playbackDidStall;
-    MISSING_TYPE *jumpToTimeInfo;
-    MISSING_TYPE *suppressed;
-    MISSING_TYPE *deferredPlayerEvent;
+    id targetTime;
+    id metadata;
+    id initialLoadingShouldPlay;
+    id playbackDidStall;
+    id jumpToTimeInfo;
+    id suppressed;
+    id deferredPlayerEvent;
 }
 
 @end

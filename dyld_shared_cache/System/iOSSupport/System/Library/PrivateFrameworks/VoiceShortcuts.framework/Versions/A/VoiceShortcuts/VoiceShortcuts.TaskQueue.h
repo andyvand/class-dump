@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.TaskQueue
 {
-    MISSING_TYPE *runningCount;
-    MISSING_TYPE *maxRunningCount;
-    MISSING_TYPE *head;
-    MISSING_TYPE *tail;
-    MISSING_TYPE *queuedRegisteredTasks;
-    MISSING_TYPE *queuedImmediateTasks;
+    id runningCount;
+    id maxRunningCount;
+    id head;
+    id tail;
+    id queuedRegisteredTasks;
+    id queuedImmediateTasks;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.LoadEventsDownloaderAndProcessor
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *_inProgress;
-    MISSING_TYPE *_retryCounter;
+    id $defaultActor;
+    id _inProgress;
+    id _retryCounter;
 }
 
 @end

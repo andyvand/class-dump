@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatOptionConverter
 {
-    MISSING_TYPE *inventory;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *properties;
-    MISSING_TYPE *slotProperties;
-    MISSING_TYPE *slotItemProperties;
-    MISSING_TYPE *slotItemAuxiliaryProperties;
-    MISSING_TYPE *slotItemAuxiliaryItemProperties;
+    id inventory;
+    id logger;
+    id properties;
+    id slotProperties;
+    id slotItemProperties;
+    id slotItemAuxiliaryProperties;
+    id slotItemAuxiliaryItemProperties;
 }
 
 @end

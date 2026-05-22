@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WebViewerDataManager
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *observer;
-    MISSING_TYPE *startDate;
+    id config;
+    id observer;
+    id startDate;
 }
 
 @end

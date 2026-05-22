@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LocalRegionManager
 {
-    MISSING_TYPE *locationManager;
-    MISSING_TYPE *localAreasManager;
+    id locationManager;
+    id localAreasManager;
 }
 
 - (id);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyMagazinesTracker
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *viewerObserver;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *sectionPositionProvider;
-    MISSING_TYPE *contentAvailabilityValidator;
+    id tracker;
+    id viewerObserver;
+    id channelDataFactory;
+    id sectionPositionProvider;
+    id contentAvailabilityValidator;
 }
 
 @end

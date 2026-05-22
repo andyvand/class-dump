@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.SafetyCacheViewModel
 {
-    MISSING_TYPE *sessionID;
-    MISSING_TYPE *manager;
-    MISSING_TYPE *userType;
-    MISSING_TYPE *containerVCHandler;
-    MISSING_TYPE *_safetyCache;
-    MISSING_TYPE *_phoneCache;
-    MISSING_TYPE *_watchCache;
-    MISSING_TYPE *_cacheExpiryDate;
-    MISSING_TYPE *_cacheReleaseDate;
-    MISSING_TYPE *_receiverSessionStatus;
+    id sessionID;
+    id manager;
+    id userType;
+    id containerVCHandler;
+    id _safetyCache;
+    id _phoneCache;
+    id _watchCache;
+    id _cacheExpiryDate;
+    id _cacheReleaseDate;
+    id _receiverSessionStatus;
 }
 
 - (void);

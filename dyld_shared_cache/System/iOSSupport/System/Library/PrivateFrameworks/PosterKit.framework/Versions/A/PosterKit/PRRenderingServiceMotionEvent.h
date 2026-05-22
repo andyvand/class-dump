@@ -6,7 +6,7 @@
 
 @interface PRRenderingServiceMotionEvent
 {
-    CDUnion_a1316d75 _rotation;
+    CDUnion_803ab9d6 _rotation;
 }
 
 + (_Bool);

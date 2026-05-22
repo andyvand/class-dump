@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.InterludeViewController
 {
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *animationContainer;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *animator;
+    id contentView;
+    id animationContainer;
+    id eventHandler;
+    id renderer;
+    id animator;
 }
 
 - (id);

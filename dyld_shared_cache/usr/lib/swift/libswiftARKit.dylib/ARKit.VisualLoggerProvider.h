@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.VisualLoggerProvider
 {
-    MISSING_TYPE *_cVisualLoggerProvider;
-    MISSING_TYPE *_cVisualLoggerConfiguration;
+    id _cVisualLoggerProvider;
+    id _cVisualLoggerConfiguration;
 }
 
 @end

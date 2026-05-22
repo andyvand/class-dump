@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatTextNode
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *size;
-    MISSING_TYPE *resize;
-    MISSING_TYPE *_adjustments;
-    MISSING_TYPE *style;
-    MISSING_TYPE *animation;
-    MISSING_TYPE *content;
-    MISSING_TYPE *invalidation;
-    MISSING_TYPE *_zIndex;
-    MISSING_TYPE *_visibility;
-    MISSING_TYPE *_isUserInteractionEnabled;
-    MISSING_TYPE *accessibility;
-    MISSING_TYPE *accessibilityRole;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *_sourceItems;
-    MISSING_TYPE *name;
-    MISSING_TYPE *flex;
+    id _identifier;
+    id size;
+    id resize;
+    id _adjustments;
+    id style;
+    id animation;
+    id content;
+    id invalidation;
+    id _zIndex;
+    id _visibility;
+    id _isUserInteractionEnabled;
+    id accessibility;
+    id accessibilityRole;
+    id _selectors;
+    id _sourceItems;
+    id name;
+    id flex;
 }
 
 @end

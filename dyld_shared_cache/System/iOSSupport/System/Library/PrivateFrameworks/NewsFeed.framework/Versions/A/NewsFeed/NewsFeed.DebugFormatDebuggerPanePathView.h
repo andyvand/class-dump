@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDebuggerPanePathView
 {
-    MISSING_TYPE *sourceMap;
-    MISSING_TYPE *topSeparatorView;
-    MISSING_TYPE *bottomSeparatorView;
-    MISSING_TYPE *filePathLabel;
-    MISSING_TYPE *lineColumnLabel;
+    id sourceMap;
+    id topSeparatorView;
+    id bottomSeparatorView;
+    id filePathLabel;
+    id lineColumnLabel;
 }
 
 - (id);

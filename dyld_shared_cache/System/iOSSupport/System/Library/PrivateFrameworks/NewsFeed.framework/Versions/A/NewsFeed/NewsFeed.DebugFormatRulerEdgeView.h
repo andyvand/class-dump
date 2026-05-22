@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatRulerEdgeView
 {
-    MISSING_TYPE *scale;
-    MISSING_TYPE *edge;
-    MISSING_TYPE *contentBounds;
-    MISSING_TYPE *canvasOffset;
-    MISSING_TYPE *selectionFrame;
-    MISSING_TYPE *metricSelectionFrame;
-    MISSING_TYPE *direction;
-    MISSING_TYPE *markerLayer;
-    MISSING_TYPE *markerLabels;
-    MISSING_TYPE *indicatorView;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *selectionView;
-    MISSING_TYPE *metricSelectionView;
+    id scale;
+    id edge;
+    id contentBounds;
+    id canvasOffset;
+    id selectionFrame;
+    id metricSelectionFrame;
+    id direction;
+    id markerLayer;
+    id markerLabels;
+    id indicatorView;
+    id contentView;
+    id selectionView;
+    id metricSelectionView;
 }
 
 - (void);

@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSSet;
+@class NSSet;
 
 @interface HUDashboardTipModule
 {
-    MISSING_TYPE *dashboardTipItemProvider;
-    MISSING_TYPE *tipObservationTask;
-    MISSING_TYPE *eligibleTip;
+    id dashboardTipItemProvider;
+    id tipObservationTask;
+    id eligibleTip;
 }
 
 - (void);

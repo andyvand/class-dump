@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsActivityInfoDeserializer
 {
-    MISSING_TYPE *analyticsReferralFactory;
-    MISSING_TYPE *intentDeserializer;
-    MISSING_TYPE *featureAvailability;
+    id analyticsReferralFactory;
+    id intentDeserializer;
+    id featureAvailability;
 }
 
 - (id);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatSourceMapCollection
 {
-    MISSING_TYPE *sourcePaths;
-    MISSING_TYPE *sourceContext;
+    id sourcePaths;
+    id sourceContext;
 }
 
 @end

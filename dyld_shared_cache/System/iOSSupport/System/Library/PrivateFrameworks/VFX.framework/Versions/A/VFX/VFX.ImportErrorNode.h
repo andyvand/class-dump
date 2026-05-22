@@ -6,13 +6,11 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.ImportErrorNode : VFX.Node
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *message;
-    MISSING_TYPE *inputCount;
+    id name;
+    id message;
+    id inputCount;
 }
 
 @end

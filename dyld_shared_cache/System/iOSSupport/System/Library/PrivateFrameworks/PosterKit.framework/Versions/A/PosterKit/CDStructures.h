@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -93,8 +91,8 @@ typedef struct {
 } CDStruct_a70f6672;
 
 typedef struct {
-    MISSING_TYPE *vector;
-} CDStruct_0e8a9a91;
+    id vector;
+} CDStruct_da14d750;
 
 typedef struct {
     unsigned long long _field1;
@@ -114,9 +112,9 @@ typedef struct {
 #pragma mark Typedef'd Unions
 
 typedef union {
-    CDStruct_0e8a9a91 ;
-    CDStruct_0e8a9a91 quaternion;
-} CDUnion_a1316d75;
+    CDStruct_da14d750 ;
+    CDStruct_da14d750 quaternion;
+} CDUnion_803ab9d6;
 
 typedef union {
     CDStruct_183601bc _field1;

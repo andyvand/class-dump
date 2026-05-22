@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString, VFXNode;
+@class NSArray, NSString, VFXNode;
 
 __attribute__((visibility("hidden")))
 @interface AVTStickerProp
@@ -18,18 +18,18 @@ __attribute__((visibility("hidden")))
     NSArray *_adjustments;
     double _opacity;
     struct CGSize _size;
-    MISSING_TYPE *_position;
-    MISSING_TYPE *_scale;
-    MISSING_TYPE *_rotation;
+    id _position;
+    id _scale;
+    id _rotation;
 }
 
 + (id);
 + (id);
 + (struct CGSize);
-+ (MISSING_TYPE *);
-+ (MISSING_TYPE *);
++ (id);
++ (id);
 + (_Bool);
-+ (MISSING_TYPE *);
++ (id);
 + (_Bool);
 + (float);
 + (id);
@@ -54,12 +54,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (MISSING_TYPE *);
 - (id);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (double);
 - (id);
 - (void);
@@ -79,10 +79,10 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) _Bool orientToCamera; // @synthesize orientToCamera=_orientToCamera;
 @property(copy, nonatomic) NSString *originalName; // @synthesize originalName=_originalName;
 @property(readonly, nonatomic) NSArray *palettesDescriptions; // @synthesize palettesDescriptions=_palettesDescriptions;
-@property(nonatomic) MISSING_TYPE *position; // @synthesize position=_position;
+@property(nonatomic) id position; // @synthesize position=_position;
 @property(readonly, nonatomic) _Bool renderLast; // @synthesize renderLast=_renderLast;
-@property(nonatomic) MISSING_TYPE *rotation; // @synthesize rotation=_rotation;
-@property(nonatomic) MISSING_TYPE *scale; // @synthesize scale=_scale;
+@property(nonatomic) id rotation; // @synthesize rotation=_rotation;
+@property(nonatomic) id scale; // @synthesize scale=_scale;
 @property(copy, nonatomic) NSArray *shaderModifiers; // @synthesize shaderModifiers=_shaderModifiers;
 @property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 

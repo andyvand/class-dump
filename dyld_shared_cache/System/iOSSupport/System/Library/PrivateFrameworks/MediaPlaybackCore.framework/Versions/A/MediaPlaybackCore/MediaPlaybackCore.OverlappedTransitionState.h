@@ -6,14 +6,12 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.NaturalTransitionState.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.OverlappedTransitionState : MediaPlaybackCore.NaturalTransitionState
 {
-    MISSING_TYPE *pivoted;
-    MISSING_TYPE *outgoingItemRestored;
-    MISSING_TYPE *pauseInitiated;
-    MISSING_TYPE *deferredPlayerEvents;
+    id pivoted;
+    id outgoingItemRestored;
+    id pauseInitiated;
+    id deferredPlayerEvents;
 }
 
 @end

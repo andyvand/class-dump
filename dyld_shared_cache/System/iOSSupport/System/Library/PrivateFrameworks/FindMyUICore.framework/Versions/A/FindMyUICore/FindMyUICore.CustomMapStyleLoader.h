@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.CustomMapStyleLoader
 {
-    MISSING_TYPE *_mapStyle;
-    MISSING_TYPE *_$observationRegistrar;
+    id _mapStyle;
+    id _$observationRegistrar;
 }
 
 @end

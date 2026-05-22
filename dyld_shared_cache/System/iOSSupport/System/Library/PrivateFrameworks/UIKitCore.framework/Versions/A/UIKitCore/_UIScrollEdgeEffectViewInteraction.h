@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScrollEdgeEffect, UIView, _TtC5UIKit20ScrollEdgeEffectView, _UIScrollPocketRegistrationInteraction;
+@class NSString, UIKit.ScrollEdgeEffectView, UIScrollEdgeEffect, UIView, _UIScrollPocketRegistrationInteraction;
 
 @interface _UIScrollEdgeEffectViewInteraction
 {
@@ -18,10 +18,10 @@
     _UIScrollPocketRegistrationInteraction *registrationInteraction;
     UIView *effectView;
     UIView *captureView;
-    _TtC5UIKit20ScrollEdgeEffectView *topPocket;
-    _TtC5UIKit20ScrollEdgeEffectView *leftPocket;
-    _TtC5UIKit20ScrollEdgeEffectView *bottomPocket;
-    _TtC5UIKit20ScrollEdgeEffectView *rightPocket;
+    UIKit.ScrollEdgeEffectView *topPocket;
+    UIKit.ScrollEdgeEffectView *leftPocket;
+    UIKit.ScrollEdgeEffectView *bottomPocket;
+    UIKit.ScrollEdgeEffectView *rightPocket;
 }
 
 - (void);
@@ -74,21 +74,21 @@
 // Remaining properties
 @property(nonatomic) __weak UIView *_view; // @synthesize _view;
 @property(nonatomic, readonly) UIScrollEdgeEffect *bottomEdgeEffect; // @synthesize bottomEdgeEffect;
-@property(nonatomic, retain) _TtC5UIKit20ScrollEdgeEffectView *bottomPocket; // @synthesize bottomPocket;
+@property(nonatomic, retain) UIKit.ScrollEdgeEffectView *bottomPocket; // @synthesize bottomPocket;
 @property(nonatomic, readonly) UIView *captureView; // @synthesize captureView;
 @property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) struct UIEdgeInsets effectInsets;
 @property(nonatomic, readonly) UIView *effectView; // @synthesize effectView;
 @property(nonatomic) _Bool isEnabled; // @synthesize isEnabled;
 @property(nonatomic, readonly) UIScrollEdgeEffect *leftEdgeEffect; // @synthesize leftEdgeEffect;
-@property(nonatomic, retain) _TtC5UIKit20ScrollEdgeEffectView *leftPocket; // @synthesize leftPocket;
+@property(nonatomic, retain) UIKit.ScrollEdgeEffectView *leftPocket; // @synthesize leftPocket;
 @property(nonatomic, readonly) _Bool needsPockets;
 @property(nonatomic) _Bool ordersBlurOverLuminanceAdjustment; // @synthesize ordersBlurOverLuminanceAdjustment;
 @property(nonatomic, retain) _UIScrollPocketRegistrationInteraction *registrationInteraction; // @synthesize registrationInteraction;
 @property(nonatomic, readonly) UIScrollEdgeEffect *rightEdgeEffect; // @synthesize rightEdgeEffect;
-@property(nonatomic, retain) _TtC5UIKit20ScrollEdgeEffectView *rightPocket; // @synthesize rightPocket;
+@property(nonatomic, retain) UIKit.ScrollEdgeEffectView *rightPocket; // @synthesize rightPocket;
 @property(nonatomic, readonly) UIScrollEdgeEffect *topEdgeEffect; // @synthesize topEdgeEffect;
-@property(nonatomic, retain) _TtC5UIKit20ScrollEdgeEffectView *topPocket; // @synthesize topPocket;
+@property(nonatomic, retain) UIKit.ScrollEdgeEffectView *topPocket; // @synthesize topPocket;
 @property(nonatomic, readonly) UIView *view;
 
 @end

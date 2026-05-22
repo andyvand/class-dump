@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _TtC19HomeUtilityServices30UtilitySubscriptionInformation;
+@class HomeUtilityServices.UtilitySubscriptionInformation, NSString;
 
 @interface HomeUtilityServices.UtilitySubscriptionResponse
 {
-    _TtC19HomeUtilityServices30UtilitySubscriptionInformation *subscription;
+    HomeUtilityServices.UtilitySubscriptionInformation *subscription;
     void authorizationToken;
 }
 
@@ -20,7 +20,7 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *authorizationToken;
-@property(nonatomic, readonly) _TtC19HomeUtilityServices30UtilitySubscriptionInformation *subscription; // @synthesize subscription;
+@property(nonatomic, readonly) HomeUtilityServices.UtilitySubscriptionInformation *subscription; // @synthesize subscription;
 
 @end
 

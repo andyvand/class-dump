@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsTagRenderer
 {
-    MISSING_TYPE *imageApplier;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *accessoryButtonRenderer;
-    MISSING_TYPE *commandCenter;
+    id imageApplier;
+    id styler;
+    id accessoryButtonRenderer;
+    id commandCenter;
 }
 
 @end

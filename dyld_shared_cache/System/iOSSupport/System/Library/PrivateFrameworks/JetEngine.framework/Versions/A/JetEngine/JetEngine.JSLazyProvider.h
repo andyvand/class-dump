@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.JSLazyProvider
 {
-    MISSING_TYPE *lazyDependencies;
-    MISSING_TYPE *context;
+    id lazyDependencies;
+    id context;
 }
 
 - (id);

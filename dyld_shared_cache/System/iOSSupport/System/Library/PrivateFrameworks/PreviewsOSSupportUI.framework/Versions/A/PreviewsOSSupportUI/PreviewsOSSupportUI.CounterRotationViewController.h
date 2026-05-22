@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsOSSupportUI.CounterRotationViewController
 {
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *contentOrientation;
+    id contentView;
+    id contentOrientation;
 }
 
 - (void);

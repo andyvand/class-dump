@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatSelectionView
 {
-    MISSING_TYPE *contentFrame;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *topLeftView;
-    MISSING_TYPE *topRightView;
-    MISSING_TYPE *bottomLeftView;
-    MISSING_TYPE *bottomRightView;
-    MISSING_TYPE *borderView;
-    MISSING_TYPE *cornerSize;
-    MISSING_TYPE *selection;
+    id contentFrame;
+    id contentView;
+    id topLeftView;
+    id topRightView;
+    id bottomLeftView;
+    id bottomRightView;
+    id borderView;
+    id cornerSize;
+    id selection;
 }
 
 - (id);

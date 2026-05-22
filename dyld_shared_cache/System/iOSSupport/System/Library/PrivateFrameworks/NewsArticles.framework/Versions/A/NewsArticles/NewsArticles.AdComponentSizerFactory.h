@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsArticles.AdComponentSizerFactory
 {
     void type;
     int role;
-    MISSING_TYPE *layoutStore;
-    MISSING_TYPE *bannerAdLayoutAttributesFactory;
-    MISSING_TYPE *bannerAdFactory;
+    id layoutStore;
+    id bannerAdLayoutAttributesFactory;
+    id bannerAdFactory;
 }
 
 - (id);

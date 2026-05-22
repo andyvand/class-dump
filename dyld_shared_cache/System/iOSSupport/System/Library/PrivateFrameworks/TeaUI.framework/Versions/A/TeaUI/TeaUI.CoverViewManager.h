@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CoverViewManager
 {
-    MISSING_TYPE *_isCovering;
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *_cover;
-    MISSING_TYPE *proxyingToken;
-    MISSING_TYPE *proxyingCoverViewManager;
-    MISSING_TYPE *coverView;
-    MISSING_TYPE *keyboardObserver;
+    id _isCovering;
+    id viewController;
+    id _cover;
+    id proxyingToken;
+    id proxyingCoverViewManager;
+    id coverView;
+    id keyboardObserver;
 }
 
 @end

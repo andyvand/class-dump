@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface RealityIO.BehaviorBuilder
 {
-    MISSING_TYPE *buildOrder;
-    MISSING_TYPE *committer;
+    id buildOrder;
+    id committer;
 }
 
 @end

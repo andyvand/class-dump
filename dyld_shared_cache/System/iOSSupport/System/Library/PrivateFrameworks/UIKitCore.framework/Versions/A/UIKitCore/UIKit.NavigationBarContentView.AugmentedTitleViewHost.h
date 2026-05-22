@@ -6,12 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.NavigationBarContentView.AugmentedTitleViewHost : UIView
 {
-    MISSING_TYPE *augmentedTitleView;
-    MISSING_TYPE *glassGroupBackgroundEnabled;
+    id augmentedTitleView;
+    id glassGroupBackgroundEnabled;
 }
 
 - (id);

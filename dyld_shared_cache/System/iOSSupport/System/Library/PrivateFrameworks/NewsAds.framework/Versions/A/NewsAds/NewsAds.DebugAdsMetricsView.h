@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.DebugAdsMetricsView
 {
-    MISSING_TYPE *privacyMarkerView;
-    MISSING_TYPE *interactionPresentationDelegate;
-    MISSING_TYPE *readyDelegate;
-    MISSING_TYPE *modalAdDelegate;
+    id privacyMarkerView;
+    id interactionPresentationDelegate;
+    id readyDelegate;
+    id modalAdDelegate;
 }
 
 - (id);

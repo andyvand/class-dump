@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol WFWorkflowSettingsViewControllerDelegate;
 
 @interface WFWorkflowSettingsViewController
 {
-    MISSING_TYPE *workflow;
-    MISSING_TYPE *database;
-    MISSING_TYPE *hideNavigationBar;
+    id workflow;
+    id database;
+    id hideNavigationBar;
     void delegate;
-    MISSING_TYPE *hostingController;
+    id hostingController;
 }
 
 - (id);

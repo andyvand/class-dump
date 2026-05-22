@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface XavierNews.UserContext
 {
-    MISSING_TYPE *subscribed;
-    MISSING_TYPE *autofavorited;
-    MISSING_TYPE *muted;
-    MISSING_TYPE *ignored;
-    MISSING_TYPE *groupable;
-    MISSING_TYPE *subscriptionState;
-    MISSING_TYPE *bundled;
-    MISSING_TYPE *purchased;
-    MISSING_TYPE *read;
-    MISSING_TYPE *listened;
-    MISSING_TYPE *seen;
-    MISSING_TYPE *readClusters;
-    MISSING_TYPE *seenClusters;
-    MISSING_TYPE *location;
-    MISSING_TYPE *newlySubscribed;
+    id subscribed;
+    id autofavorited;
+    id muted;
+    id ignored;
+    id groupable;
+    id subscriptionState;
+    id bundled;
+    id purchased;
+    id read;
+    id listened;
+    id seen;
+    id readClusters;
+    id seenClusters;
+    id location;
+    id newlySubscribed;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, NSURL;
+@class NSString, NSURL;
 @protocol MTLCommandQueue, MTLDevice;
 
 @interface VFXSceneLoadOptions
@@ -24,7 +24,7 @@
     _Bool setupRenderer;
     unsigned long long colorPixelFormat;
     unsigned long long depthPixelFormat;
-    MISSING_TYPE *enableDeferredRendering;
+    id enableDeferredRendering;
     BOOL internalPixelFormatDepth;
     _Bool useGammaBlending;
     _Bool doNotClearRenderOutput;
@@ -32,11 +32,11 @@
     id <MTLCommandQueue> commandQueue;
     void clientID;
     void metalLibraryURL;
-    MISSING_TYPE *systemRegistrationOptions;
+    id systemRegistrationOptions;
     CDStruct_742b2ec4 counterStorage;
     int peerPid;
     unsigned int peerTaskIdentity;
-    MISSING_TYPE *loadPrecompiledScripts;
+    id loadPrecompiledScripts;
 }
 
 - (_Bool);

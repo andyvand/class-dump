@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.DynamicImpressionsCalculator
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *calculator;
-    MISSING_TYPE *parentID;
-    MISSING_TYPE *elementPositions;
-    MISSING_TYPE *applicationLifecycleObserver;
-    MISSING_TYPE *wasVisibleBeforeGoingIntoBackground;
+    id tracker;
+    id calculator;
+    id parentID;
+    id elementPositions;
+    id applicationLifecycleObserver;
+    id wasVisibleBeforeGoingIntoBackground;
 }
 
 @end

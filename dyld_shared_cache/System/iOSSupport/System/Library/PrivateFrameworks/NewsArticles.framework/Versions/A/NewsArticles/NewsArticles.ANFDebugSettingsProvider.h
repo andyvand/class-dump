@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ANFDebugSettingsProvider
 {
     _Bool viewportDebuggingEnabled;
     _Bool testingConditionEnabled;
-    MISSING_TYPE *observers;
+    id observers;
 }
 
 - (_Bool);

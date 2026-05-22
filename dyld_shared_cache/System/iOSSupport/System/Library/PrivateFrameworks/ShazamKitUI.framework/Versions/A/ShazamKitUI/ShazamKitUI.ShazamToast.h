@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ShazamKitUI.ShazamToast
 {
-    MISSING_TYPE *_configuration;
-    MISSING_TYPE *_$observationRegistrar;
+    id _configuration;
+    id _$observationRegistrar;
 }
 
 @end

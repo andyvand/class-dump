@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.HistoricalGuidanceDataManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *urlSession;
-    MISSING_TYPE *calendar;
+    id $defaultActor;
+    id urlSession;
+    id calendar;
 }
 
 @end

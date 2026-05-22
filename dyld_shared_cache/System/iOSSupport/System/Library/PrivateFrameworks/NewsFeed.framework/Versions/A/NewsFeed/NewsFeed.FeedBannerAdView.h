@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedBannerAdView
 {
-    MISSING_TYPE *bannerView;
-    MISSING_TYPE *$__lazy_storage_$_debugView;
+    id bannerView;
+    id $__lazy_storage_$_debugView;
 }
 
 - (id);

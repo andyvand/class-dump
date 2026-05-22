@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.StringArrayViewController
 {
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *onKeyboardWillChange;
-    MISSING_TYPE *onDone;
-    MISSING_TYPE *data;
+    id tableView;
+    id onKeyboardWillChange;
+    id onDone;
+    id data;
 }
 
 - (void);

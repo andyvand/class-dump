@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.IntervalBlocksManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *intervalReading;
-    MISSING_TYPE *sharedContext;
+    id $defaultActor;
+    id intervalReading;
+    id sharedContext;
 }
 
 @end

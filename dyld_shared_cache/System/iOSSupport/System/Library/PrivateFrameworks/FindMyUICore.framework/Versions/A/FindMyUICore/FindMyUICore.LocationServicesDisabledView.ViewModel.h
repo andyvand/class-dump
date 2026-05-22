@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.LocationServicesDisabledView.ViewModel
 {
-    MISSING_TYPE *clLocationManager;
-    MISSING_TYPE *_authorizationStatus;
+    id clLocationManager;
+    id _authorizationStatus;
 }
 
 - (id);

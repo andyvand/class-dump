@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatCanvasViewController
 {
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *columnSystem;
-    MISSING_TYPE *$__lazy_storage_$_columnView;
-    MISSING_TYPE *viewportMonitor;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *generator;
-    MISSING_TYPE *renderedDevice;
+    id contentView;
+    id columnSystem;
+    id $__lazy_storage_$_columnView;
+    id viewportMonitor;
+    id editor;
+    id scrollView;
+    id generator;
+    id renderedDevice;
 }
 
 - (void);

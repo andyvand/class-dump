@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleRadarReporter
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *puzzleRadarScript;
-    MISSING_TYPE *puzzleComponentsStyler;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *configurationManager;
+    id commandCenter;
+    id puzzleRadarScript;
+    id puzzleComponentsStyler;
+    id puzzleHistoryService;
+    id puzzleStatsService;
+    id configurationManager;
 }
 
 - (void);

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ANFIssueTableOfContentsViewController
 {
-    MISSING_TYPE *viewController;
-    MISSING_TYPE *issue;
-    MISSING_TYPE *commandContainer;
+    id viewController;
+    id issue;
+    id commandContainer;
 }
 
 - (unsigned long long);

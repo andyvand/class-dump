@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDecorationProviderFactory
 {
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *systemFactory;
-    MISSING_TYPE *config;
-    MISSING_TYPE *commandCenter;
+    id assetManager;
+    id systemFactory;
+    id config;
+    id commandCenter;
 }
 
 @end

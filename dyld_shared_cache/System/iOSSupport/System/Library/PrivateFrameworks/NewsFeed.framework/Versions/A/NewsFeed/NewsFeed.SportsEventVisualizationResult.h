@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsEventVisualizationResult
 {
-    MISSING_TYPE *score;
-    MISSING_TYPE *boxScores;
-    MISSING_TYPE *lineScores;
-    MISSING_TYPE *injuryReports;
-    MISSING_TYPE *keyPlayers;
+    id score;
+    id boxScores;
+    id lineScores;
+    id injuryReports;
+    id keyPlayers;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.CookingRoot
 {
-    MISSING_TYPE *container;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *_scope;
+    id container;
+    id resolver;
+    id _scope;
 }
 
 @end

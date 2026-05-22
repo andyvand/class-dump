@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelPickerDetailBlueprintLayoutBuilder
 {
-    MISSING_TYPE *channelTagLayoutAttributesFactory;
-    MISSING_TYPE *channelCoinLayoutAttributesFactory;
-    MISSING_TYPE *channelEngagementLayoutAttributesFactory;
-    MISSING_TYPE *channelCategoryLayoutAttributesFactory;
-    MISSING_TYPE *titleViewLayoutAttributesFactory;
-    MISSING_TYPE *footerViewLayoutAttributesFactory;
-    MISSING_TYPE *baseStyler;
+    id channelTagLayoutAttributesFactory;
+    id channelCoinLayoutAttributesFactory;
+    id channelEngagementLayoutAttributesFactory;
+    id channelCategoryLayoutAttributesFactory;
+    id titleViewLayoutAttributesFactory;
+    id footerViewLayoutAttributesFactory;
+    id baseStyler;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleNavigationBarThemeProvider
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *puzzleRankProvider;
-    MISSING_TYPE *historyService;
+    id appConfigurationManager;
+    id puzzleRankProvider;
+    id historyService;
 }
 
 @end

@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ShaderCache
 {
-    MISSING_TYPE *device;
-    MISSING_TYPE *processDefaultLibrary;
-    MISSING_TYPE *defaultShaderLibrary;
-    MISSING_TYPE *libraries;
-    MISSING_TYPE *renderPipelines;
-    MISSING_TYPE *computePipelines;
-    MISSING_TYPE *functions;
-    MISSING_TYPE *inactiveByPipeline;
-    MISSING_TYPE *statistics;
-    MISSING_TYPE *lastStatistics;
-    MISSING_TYPE *archive;
-    MISSING_TYPE *disableCache;
-    MISSING_TYPE *renderPipelineStats;
-    MISSING_TYPE *computePipelineStats;
-    MISSING_TYPE *functionStats;
-    MISSING_TYPE *recordingBinaryArchive;
-    MISSING_TYPE *precompiledBinaryArchives;
-    MISSING_TYPE *urlToSaveBinaryArchiveTo;
-    MISSING_TYPE *onShaderCompilation;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *reloadCallback;
+    id device;
+    id processDefaultLibrary;
+    id defaultShaderLibrary;
+    id libraries;
+    id renderPipelines;
+    id computePipelines;
+    id functions;
+    id inactiveByPipeline;
+    id statistics;
+    id lastStatistics;
+    id archive;
+    id disableCache;
+    id renderPipelineStats;
+    id computePipelineStats;
+    id functionStats;
+    id recordingBinaryArchive;
+    id precompiledBinaryArchives;
+    id urlToSaveBinaryArchiveTo;
+    id onShaderCompilation;
+    id lock;
+    id reloadCallback;
 }
 
 @end

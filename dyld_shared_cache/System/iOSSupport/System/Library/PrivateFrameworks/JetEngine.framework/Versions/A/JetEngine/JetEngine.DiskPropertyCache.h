@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.DiskPropertyCache
 {
-    MISSING_TYPE *ttlSeconds;
-    MISSING_TYPE *diskPropertiesCache;
+    id ttlSeconds;
+    id diskPropertiesCache;
 }
 
 @end

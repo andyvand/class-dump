@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _TtC5UIKit33_UILiquidLensViewLargeVariantSpec, _TtC5UIKit33_UILiquidLensViewSmallVariantSpec;
+@class UIKit._UILiquidLensViewLargeVariantSpec, UIKit._UILiquidLensViewSmallVariantSpec;
 
 @interface UIKit._UILiquidLensViewSpec
 {
-    _TtC5UIKit33_UILiquidLensViewSmallVariantSpec *small;
-    _TtC5UIKit33_UILiquidLensViewLargeVariantSpec *large;
+    UIKit._UILiquidLensViewSmallVariantSpec *small;
+    UIKit._UILiquidLensViewLargeVariantSpec *large;
 }
 
 + (id);
@@ -21,8 +21,8 @@
 - (void)¸Vÿ	Ó;
 
 // Remaining properties
-@property(nonatomic, retain) _TtC5UIKit33_UILiquidLensViewLargeVariantSpec *large; // @synthesize large;
-@property(nonatomic, retain) _TtC5UIKit33_UILiquidLensViewSmallVariantSpec *small; // @synthesize small;
+@property(nonatomic, retain) UIKit._UILiquidLensViewLargeVariantSpec *large; // @synthesize large;
+@property(nonatomic, retain) UIKit._UILiquidLensViewSmallVariantSpec *small; // @synthesize small;
 
 @end
 

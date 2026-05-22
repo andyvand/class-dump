@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.CurveCache
 {
-    MISSING_TYPE *textures;
-    MISSING_TYPE *renderer;
+    id textures;
+    id renderer;
 }
 
 @end

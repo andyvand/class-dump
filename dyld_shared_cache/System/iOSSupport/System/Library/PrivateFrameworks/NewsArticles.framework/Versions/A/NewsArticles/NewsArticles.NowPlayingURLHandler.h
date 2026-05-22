@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.NowPlayingURLHandler
 {
-    MISSING_TYPE *headlineProviderFactory;
-    MISSING_TYPE *nowPlayingPresenting;
-    MISSING_TYPE *base;
+    id headlineProviderFactory;
+    id nowPlayingPresenting;
+    id base;
 }
 
 @end

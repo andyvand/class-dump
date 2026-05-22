@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioAutoClosePlayerHandler
 {
-    MISSING_TYPE *audioStatus;
-    MISSING_TYPE *playbackState;
-    MISSING_TYPE *lazyPlayerViewController;
-    MISSING_TYPE *paidBundleConfigManager;
-    MISSING_TYPE *idledAt;
-    MISSING_TYPE *autoCloseAt;
-    MISSING_TYPE *autoCloseTimer;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *logDateFormatter;
+    id audioStatus;
+    id playbackState;
+    id lazyPlayerViewController;
+    id paidBundleConfigManager;
+    id idledAt;
+    id autoCloseAt;
+    id autoCloseTimer;
+    id commandCenter;
+    id logDateFormatter;
 }
 
 - (id);

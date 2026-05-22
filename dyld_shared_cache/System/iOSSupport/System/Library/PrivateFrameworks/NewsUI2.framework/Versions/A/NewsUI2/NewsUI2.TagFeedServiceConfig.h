@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedServiceConfig
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *contentConfig;
-    MISSING_TYPE *contentConfigData;
-    MISSING_TYPE *parentContentConfig;
-    MISSING_TYPE *parentContentConfigData;
-    MISSING_TYPE *paidBundleConfig;
-    MISSING_TYPE *appConfig;
-    MISSING_TYPE *cachePolicy;
-    MISSING_TYPE *canCache;
-    MISSING_TYPE *feedDescriptor;
-    MISSING_TYPE *dateRange;
-    MISSING_TYPE *refreshInterval;
-    MISSING_TYPE *sportsOnboardingState;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *selectors;
-    MISSING_TYPE *sportsEventVisualizationResult;
-    MISSING_TYPE *puzzleArchiveFilterOptions;
+    id context;
+    id contentConfig;
+    id contentConfigData;
+    id parentContentConfig;
+    id parentContentConfigData;
+    id paidBundleConfig;
+    id appConfig;
+    id cachePolicy;
+    id canCache;
+    id feedDescriptor;
+    id dateRange;
+    id refreshInterval;
+    id sportsOnboardingState;
+    id featureAvailability;
+    id subscriptionController;
+    id selectors;
+    id sportsEventVisualizationResult;
+    id puzzleArchiveFilterOptions;
 }
 
 @end

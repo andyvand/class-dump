@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RemoveIssuesPromptCommandHandler
 {
-    MISSING_TYPE *isiCloudPrivateDataSyncingEnabled;
-    MISSING_TYPE *offlineIssueManager;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *store;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id isiCloudPrivateDataSyncingEnabled;
+    id offlineIssueManager;
+    id sceneProvider;
+    id store;
+    id bundleSubscriptionManager;
 }
 
 @end

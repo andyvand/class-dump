@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.NutritionalFactsViewModel
 {
-    MISSING_TYPE *_calories;
-    MISSING_TYPE *_carbohydrate;
-    MISSING_TYPE *_cholesterol;
-    MISSING_TYPE *_fat;
-    MISSING_TYPE *_fiber;
-    MISSING_TYPE *_protein;
-    MISSING_TYPE *_saturatedFat;
-    MISSING_TYPE *_sodium;
-    MISSING_TYPE *_sugar;
-    MISSING_TYPE *_transFat;
-    MISSING_TYPE *_unsaturatedFat;
-    MISSING_TYPE *_$observationRegistrar;
+    id _calories;
+    id _carbohydrate;
+    id _cholesterol;
+    id _fat;
+    id _fiber;
+    id _protein;
+    id _saturatedFat;
+    id _sodium;
+    id _sugar;
+    id _transFat;
+    id _unsaturatedFat;
+    id _$observationRegistrar;
 }
 
 @end

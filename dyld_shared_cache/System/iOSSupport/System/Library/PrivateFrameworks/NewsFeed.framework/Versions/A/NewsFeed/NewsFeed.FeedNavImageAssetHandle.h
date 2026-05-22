@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedNavImageAssetHandle
 {
-    MISSING_TYPE *filePath;
-    MISSING_TYPE *assetDataProvider;
-    MISSING_TYPE *fallbackImage;
-    MISSING_TYPE *uniqueKey;
-    MISSING_TYPE *feedNavImageSize;
-    MISSING_TYPE *tag;
-    MISSING_TYPE *feedNavImageStyler;
-    MISSING_TYPE *scale;
-    MISSING_TYPE *overrideFallbackColor;
-    MISSING_TYPE *overrideAssetHandle;
-    MISSING_TYPE *userInterfaceStyle;
+    id filePath;
+    id assetDataProvider;
+    id fallbackImage;
+    id uniqueKey;
+    id feedNavImageSize;
+    id tag;
+    id feedNavImageStyler;
+    id scale;
+    id overrideFallbackColor;
+    id overrideAssetHandle;
+    id userInterfaceStyle;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayFeedMastheadPaywallProvider
 {
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *offerManager;
+    id bundleSubscriptionManager;
+    id configurationManager;
+    id offerManager;
 }
 
 @end

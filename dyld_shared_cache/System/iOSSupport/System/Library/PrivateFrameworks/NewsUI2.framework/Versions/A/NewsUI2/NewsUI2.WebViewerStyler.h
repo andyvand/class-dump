@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WebViewerStyler
 {
-    MISSING_TYPE *baseStyler;
-    MISSING_TYPE *hideBarShadow;
+    id baseStyler;
+    id hideBarShadow;
 }
 
 @end

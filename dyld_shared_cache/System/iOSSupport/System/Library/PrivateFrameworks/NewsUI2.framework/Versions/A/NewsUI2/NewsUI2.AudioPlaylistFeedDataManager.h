@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioPlaylistFeedDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *feedService;
-    MISSING_TYPE *audioDataManager;
-    MISSING_TYPE *playbackState;
-    MISSING_TYPE *playlistStore;
-    MISSING_TYPE *accessQueue;
+    id delegate;
+    id feedServiceConfigFetcher;
+    id feedService;
+    id audioDataManager;
+    id playbackState;
+    id playlistStore;
+    id accessQueue;
 }
 
 @end

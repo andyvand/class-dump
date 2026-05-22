@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.VCDaemonTaskReference
 {
-    MISSING_TYPE *eventStream;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *source;
-    MISSING_TYPE *eventName;
-    MISSING_TYPE *priority;
-    MISSING_TYPE *operation;
+    id eventStream;
+    id identifier;
+    id source;
+    id eventName;
+    id priority;
+    id operation;
 }
 
 - (id);

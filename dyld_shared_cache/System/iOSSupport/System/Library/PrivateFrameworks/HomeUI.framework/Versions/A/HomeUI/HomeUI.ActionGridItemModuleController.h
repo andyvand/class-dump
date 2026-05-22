@@ -6,13 +6,11 @@
 
 #import <HomeUI/HUItemModuleController.h>
 
-@class MISSING_TYPE;
-
 @interface HomeUI.ActionGridItemModuleController : HUItemModuleController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *$__lazy_storage_$_collectionLayoutManager;
-    MISSING_TYPE *presentedServiceGroupDetailsViewController;
+    id delegate;
+    id $__lazy_storage_$_collectionLayoutManager;
+    id presentedServiceGroupDetailsViewController;
 }
 
 - (_Bool);

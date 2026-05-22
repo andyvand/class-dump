@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol HUConfigurationViewControllerDelegate;
 
 @interface HUUtilityOnboardingTermsViewController
 {
     id <HUConfigurationViewControllerDelegate> delegate;
-    MISSING_TYPE *onboardingContext;
-    MISSING_TYPE *utilityID;
-    MISSING_TYPE *termsAndConditions;
-    MISSING_TYPE *rootVC;
-    MISSING_TYPE *agreeButton;
+    id onboardingContext;
+    id utilityID;
+    id termsAndConditions;
+    id rootVC;
+    id agreeButton;
 }
 
 - (Class);

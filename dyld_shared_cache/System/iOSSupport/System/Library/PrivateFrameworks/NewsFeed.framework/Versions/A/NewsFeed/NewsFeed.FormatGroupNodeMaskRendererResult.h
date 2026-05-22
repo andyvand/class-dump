@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatGroupNodeMaskRendererResult
 {
-    MISSING_TYPE *maskLayer;
-    MISSING_TYPE *maskSupplementaryLayers;
+    id maskLayer;
+    id maskSupplementaryLayers;
 }
 
 @end

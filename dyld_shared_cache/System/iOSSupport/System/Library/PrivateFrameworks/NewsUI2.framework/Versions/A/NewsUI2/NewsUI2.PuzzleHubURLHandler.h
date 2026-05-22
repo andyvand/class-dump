@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleHubURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *feedViewContextFactory;
-    MISSING_TYPE *featureAvailability;
+    id patterns;
+    id navigator;
+    id feedViewContextFactory;
+    id featureAvailability;
 }
 
 @end

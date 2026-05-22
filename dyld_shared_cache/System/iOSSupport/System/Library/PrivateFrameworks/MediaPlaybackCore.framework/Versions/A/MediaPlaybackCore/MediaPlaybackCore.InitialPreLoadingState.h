@@ -6,14 +6,12 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.State.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.InitialPreLoadingState : MediaPlaybackCore.State
 {
-    MISSING_TYPE *metadata;
-    MISSING_TYPE *rate;
-    MISSING_TYPE *timeContinuity;
-    MISSING_TYPE *item;
+    id metadata;
+    id rate;
+    id timeContinuity;
+    id item;
 }
 
 @end

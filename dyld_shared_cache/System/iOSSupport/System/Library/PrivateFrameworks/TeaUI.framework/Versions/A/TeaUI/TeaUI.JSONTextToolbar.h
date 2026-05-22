@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.JSONTextToolbar
 {
-    MISSING_TYPE *toolbar;
+    id toolbar;
 }
 
 - (id);

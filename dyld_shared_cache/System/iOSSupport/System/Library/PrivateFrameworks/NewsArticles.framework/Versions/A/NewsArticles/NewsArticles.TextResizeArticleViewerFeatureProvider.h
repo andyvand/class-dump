@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.TextResizeArticleViewerFeatureProvider
 {
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *tipSourceManager;
+    id paidAccessChecker;
+    id tipSourceManager;
 }
 
 @end

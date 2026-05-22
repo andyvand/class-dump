@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIButton;
+@class UIButton;
 
 @interface PosterBoard.PosterSectionRemovalView
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *posterID;
+    id delegate;
+    id posterID;
     UIButton *deleteButton;
-    MISSING_TYPE *deleteButtonDimension;
+    id deleteButtonDimension;
 }
 
 - (id);

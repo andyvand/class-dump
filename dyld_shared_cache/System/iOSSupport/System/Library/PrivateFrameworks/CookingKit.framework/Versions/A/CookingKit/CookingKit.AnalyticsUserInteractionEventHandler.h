@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.AnalyticsUserInteractionEventHandler
 {
-    MISSING_TYPE *externalTracker;
-    MISSING_TYPE *_$scope;
+    id externalTracker;
+    id _$scope;
 }
 
 @end

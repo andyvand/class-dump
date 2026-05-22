@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SavedFeedViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *sharingActivityProviderFactory;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *commandContainer;
-    MISSING_TYPE *$__lazy_storage_$_clearButton;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id sharingActivityProviderFactory;
+    id userInfo;
+    id newsActivityManager;
+    id commandContainer;
+    id $__lazy_storage_$_clearButton;
 }
 
 - (void);

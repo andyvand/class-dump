@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.AutoShortcutsSidebarSection
 {
-    MISSING_TYPE *observeChanges;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *id;
-    MISSING_TYPE *dataSource;
+    id observeChanges;
+    id delegate;
+    id id;
+    id dataSource;
 }
 
 @end

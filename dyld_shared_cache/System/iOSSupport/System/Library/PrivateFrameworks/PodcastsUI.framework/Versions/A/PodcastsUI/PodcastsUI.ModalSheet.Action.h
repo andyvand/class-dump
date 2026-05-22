@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.ModalSheet.Action
 {
-    MISSING_TYPE *type;
-    MISSING_TYPE *handler;
-    MISSING_TYPE *title;
+    id type;
+    id handler;
+    id title;
 }
 
 @end

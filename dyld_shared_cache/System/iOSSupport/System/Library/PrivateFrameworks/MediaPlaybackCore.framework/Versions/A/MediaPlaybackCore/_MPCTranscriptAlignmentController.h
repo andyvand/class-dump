@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 @protocol MPCPlaybackEngineEventConsumer;
 
 @interface _MPCTranscriptAlignmentController
 {
-    MISSING_TYPE *platformImplementation;
+    id platformImplementation;
 }
 
 - (void);

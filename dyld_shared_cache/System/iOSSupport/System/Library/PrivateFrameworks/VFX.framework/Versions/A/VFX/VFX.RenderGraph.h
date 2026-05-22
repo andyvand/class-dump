@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.RenderGraph
 {
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *features;
-    MISSING_TYPE *internalColorPixelFormat;
-    MISSING_TYPE *defaultRenderTargets;
+    id renderer;
+    id features;
+    id internalColorPixelFormat;
+    id defaultRenderTargets;
 }
 
 @end

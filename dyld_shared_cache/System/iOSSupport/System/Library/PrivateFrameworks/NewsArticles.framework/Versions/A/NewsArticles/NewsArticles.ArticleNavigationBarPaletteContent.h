@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleNavigationBarPaletteContent
 {
-    MISSING_TYPE *opaqueBar;
-    MISSING_TYPE *horizontalScrollOffset;
-    MISSING_TYPE *bottomPaletteButtonLocation;
-    MISSING_TYPE *parallaxX;
-    MISSING_TYPE *isPinned;
-    MISSING_TYPE *contentSafeAreaFrame;
+    id opaqueBar;
+    id horizontalScrollOffset;
+    id bottomPaletteButtonLocation;
+    id parallaxX;
+    id isPinned;
+    id contentSafeAreaFrame;
 }
 
 + (double);

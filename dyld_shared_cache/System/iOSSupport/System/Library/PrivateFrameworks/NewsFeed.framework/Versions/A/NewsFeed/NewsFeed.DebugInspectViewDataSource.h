@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugInspectViewDataSource
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *placeholderImage;
-    MISSING_TYPE *emptyImage;
-    MISSING_TYPE *naImage;
-    MISSING_TYPE *desiredItemIdentifiers;
-    MISSING_TYPE *undesiredItemIdentifiers;
-    MISSING_TYPE *feedItemIdentifierDict;
-    MISSING_TYPE *visibleItemIdentifiers;
-    MISSING_TYPE *key;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *feedItemImages;
-    MISSING_TYPE *layoutImages;
-    MISSING_TYPE *allScoredCandidatesSection;
-    MISSING_TYPE *inventory;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *recipeService;
+    id name;
+    id placeholderImage;
+    id emptyImage;
+    id naImage;
+    id desiredItemIdentifiers;
+    id undesiredItemIdentifiers;
+    id feedItemIdentifierDict;
+    id visibleItemIdentifiers;
+    id key;
+    id sections;
+    id feedItemImages;
+    id layoutImages;
+    id allScoredCandidatesSection;
+    id inventory;
+    id headlineService;
+    id recipeService;
 }
 
 @end

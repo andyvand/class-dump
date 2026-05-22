@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingSupport.AppIntentInvocationMonitor
 {
-    MISSING_TYPE *_$scope;
+    id _$scope;
 }
 
 @end

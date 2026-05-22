@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MyMagazinesSharingActivityItemFactory
 {
-    MISSING_TYPE *sharingActivityItemFactory;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *issueSubscriptionController;
-    MISSING_TYPE *commandCenter;
+    id sharingActivityItemFactory;
+    id bundleSubscriptionManager;
+    id issueSubscriptionController;
+    id commandCenter;
 }
 
 @end

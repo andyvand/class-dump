@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LocalOnboardingSearchContainerViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *proposedLocalData;
-    MISSING_TYPE *currentState;
-    MISSING_TYPE *suggestionViewController;
-    MISSING_TYPE *resultsViewController;
-    MISSING_TYPE *locationDetectionManager;
-    MISSING_TYPE *curatedSuggestions;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *localDataManager;
-    MISSING_TYPE *searchCompleter;
-    MISSING_TYPE *keyboardObserver;
-    MISSING_TYPE *localRegionManager;
-    MISSING_TYPE *$__lazy_storage_$_initialView;
+    id delegate;
+    id proposedLocalData;
+    id currentState;
+    id suggestionViewController;
+    id resultsViewController;
+    id locationDetectionManager;
+    id curatedSuggestions;
+    id subscriptionController;
+    id localDataManager;
+    id searchCompleter;
+    id keyboardObserver;
+    id localRegionManager;
+    id $__lazy_storage_$_initialView;
 }
 
 - (void);

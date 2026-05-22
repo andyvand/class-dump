@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WeatherUI.WeatherVFXEffect
 {
-    MISSING_TYPE *vfxEffect;
-    MISSING_TYPE *mainEntityID;
-    MISSING_TYPE *cameraEntityID;
-    MISSING_TYPE *lightningEntityID;
-    MISSING_TYPE *moonEntityID;
-    MISSING_TYPE *cloudBBGEntityID;
-    MISSING_TYPE *cloudBGEntityID;
-    MISSING_TYPE *cloudFGEntityID;
-    MISSING_TYPE *cloudFFGEntityID;
-    MISSING_TYPE *cloudBlanketEntityID;
+    id vfxEffect;
+    id mainEntityID;
+    id cameraEntityID;
+    id lightningEntityID;
+    id moonEntityID;
+    id cloudBBGEntityID;
+    id cloudBGEntityID;
+    id cloudFGEntityID;
+    id cloudFFGEntityID;
+    id cloudBlanketEntityID;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.HorizontalParallaxOffset
 {
-    MISSING_TYPE *_offset;
-    MISSING_TYPE *_$observationRegistrar;
+    id _offset;
+    id _$observationRegistrar;
 }
 
 @end

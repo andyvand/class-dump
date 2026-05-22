@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ManualBlueprintLayoutCollectionSectionSupplementarySolver
 {
-    MISSING_TYPE *layoutDirection;
-    MISSING_TYPE *layoutOptions;
+    id layoutDirection;
+    id layoutOptions;
 }
 
 @end

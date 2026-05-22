@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface GenerativePartnerServiceUI.GenerativePartnerServiceUserDefaults
 {
-    MISSING_TYPE *$__lazy_storage_$_observers;
-    MISSING_TYPE *isObserving;
+    id $__lazy_storage_$_observers;
+    id isObserving;
 }
 
 - (void);

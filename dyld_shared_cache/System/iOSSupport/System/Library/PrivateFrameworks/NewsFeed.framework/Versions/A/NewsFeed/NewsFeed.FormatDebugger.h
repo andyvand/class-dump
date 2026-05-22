@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDebugger
 {
-    MISSING_TYPE *_breakpoints;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_context;
-    MISSING_TYPE *_bindBreakExecution;
-    MISSING_TYPE *_layoutBreakExecution;
-    MISSING_TYPE *internalBreakpoints;
-    MISSING_TYPE *internalState;
-    MISSING_TYPE *internalContext;
-    MISSING_TYPE *semaphore;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *count;
-    MISSING_TYPE *breakExecutionState;
-    MISSING_TYPE *callStack;
-    MISSING_TYPE *workspaceStack;
-    MISSING_TYPE *internalBindBreakExecution;
-    MISSING_TYPE *internalLayoutBreakExecution;
+    id _breakpoints;
+    id _state;
+    id _context;
+    id _bindBreakExecution;
+    id _layoutBreakExecution;
+    id internalBreakpoints;
+    id internalState;
+    id internalContext;
+    id semaphore;
+    id lock;
+    id count;
+    id breakExecutionState;
+    id callStack;
+    id workspaceStack;
+    id internalBindBreakExecution;
+    id internalLayoutBreakExecution;
 }
 
 @end

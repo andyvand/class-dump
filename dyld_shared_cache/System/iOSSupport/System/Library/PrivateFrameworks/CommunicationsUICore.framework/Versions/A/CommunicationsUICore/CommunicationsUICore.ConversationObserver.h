@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.ConversationObserver
 {
-    MISSING_TYPE *call;
-    MISSING_TYPE *callCenter;
-    MISSING_TYPE *activeParticipentUpdateSubject;
+    id call;
+    id callCenter;
+    id activeParticipentUpdateSubject;
 }
 
 - (void);

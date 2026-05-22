@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingDislikedStyler
 {
-    MISSING_TYPE *baseStyler;
+    id baseStyler;
 }
 
 @end

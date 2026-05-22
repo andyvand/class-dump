@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.LineChartViewProvider
 {
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *zoneManager;
+    id renderer;
+    id styler;
+    id zoneManager;
 }
 
 @end

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.InterstitialObserver
 {
-    MISSING_TYPE *player;
-    MISSING_TYPE *observedIntegratedTimeline;
-    MISSING_TYPE *monitor;
-    MISSING_TYPE *snapshotObserver;
-    MISSING_TYPE *currentItemObservation;
-    MISSING_TYPE *observerNumber;
-    MISSING_TYPE *currentSegmentObservers;
-    MISSING_TYPE *segmentsObservers;
+    id player;
+    id observedIntegratedTimeline;
+    id monitor;
+    id snapshotObserver;
+    id currentItemObservation;
+    id observerNumber;
+    id currentSegmentObservers;
+    id segmentsObservers;
 }
 
 @end

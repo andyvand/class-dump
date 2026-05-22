@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.QueryNewsAppEngagementDonorProperty
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *bundleSubscriptionStatus;
-    MISSING_TYPE *newsletterSubscription;
-    MISSING_TYPE *notificationCategoriesAllowlist;
-    MISSING_TYPE *authorizationStatus;
-    MISSING_TYPE *firstAppLaunchDate;
-    MISSING_TYPE *userSegmentsSetIDs;
-    MISSING_TYPE *sportsOnboardingStatus;
-    MISSING_TYPE *sportsOnboardingCompletedDate;
-    MISSING_TYPE *lastFetchedSettings;
-    MISSING_TYPE *lastFetchedLocationSharingStatus;
-    MISSING_TYPE *locationSharingStatus;
-    MISSING_TYPE *recipeImportVersion;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *configurationManager;
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *locationDetectionManager;
+    id id;
+    id configuration;
+    id bundleSubscriptionStatus;
+    id newsletterSubscription;
+    id notificationCategoriesAllowlist;
+    id authorizationStatus;
+    id firstAppLaunchDate;
+    id userSegmentsSetIDs;
+    id sportsOnboardingStatus;
+    id sportsOnboardingCompletedDate;
+    id lastFetchedSettings;
+    id lastFetchedLocationSharingStatus;
+    id locationSharingStatus;
+    id recipeImportVersion;
+    id userInfo;
+    id configurationManager;
+    id notificationService;
+    id locationDetectionManager;
 }
 
 - (void);

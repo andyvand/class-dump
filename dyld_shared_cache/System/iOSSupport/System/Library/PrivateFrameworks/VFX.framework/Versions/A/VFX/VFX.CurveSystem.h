@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.CurveSystem
 {
-    MISSING_TYPE *unregisteredCurvesQuery;
-    MISSING_TYPE *allCurvesQuery;
-    MISSING_TYPE *allCurvesWithRuntimeQuery;
-    MISSING_TYPE *allModifiedCurvesWithRuntimeQuery;
+    id unregisteredCurvesQuery;
+    id allCurvesQuery;
+    id allCurvesWithRuntimeQuery;
+    id allModifiedCurvesWithRuntimeQuery;
 }
 
 @end

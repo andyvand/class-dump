@@ -12,6 +12,6 @@
 @property(readonly, nonatomic) struct __CFXBufferAllocatorPerFrame *currentBufferAllocatorPerFrame;
 @property(readonly, nonatomic) RGCachedComputeCommandEncoder *currentComputeEncoder;
 @property(readonly, nonatomic) unsigned long long currentFrameHash;
-@property(readonly, nonatomic) CDStruct_c6fc9200 currentTransforms;
+@property(readonly, nonatomic) CDStruct_f3b280c4 currentTransforms;
 @end
 

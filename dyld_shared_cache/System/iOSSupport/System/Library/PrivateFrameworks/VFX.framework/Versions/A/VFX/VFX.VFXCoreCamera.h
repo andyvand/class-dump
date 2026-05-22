@@ -4,34 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface VFX.VFXCoreCamera
 {
-    MISSING_TYPE *instance;
+    id instance;
 }
 
 - (void);
 - (void);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (_Bool);
 - (void);
 - (BOOL);
 - (float);
 - (float);
 - (float);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (void);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (float);
 - (float);
 - (id);
 - (float);
 - (id);
 - (float);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (_Bool);
 - (CDStruct_183601bc);
@@ -162,20 +162,20 @@ struct render_options_override {
 @property(nonatomic, readonly) float exposure;
 @property(nonatomic, readonly) float fStop;
 @property(nonatomic, readonly) float fieldOfView;
-@property(nonatomic, readonly) MISSING_TYPE *filmOffset;
+@property(nonatomic, readonly) id filmOffset;
 @property(nonatomic, readonly) float focalLength;
 @property(nonatomic, readonly) float focusDistance;
 @property(nonatomic) _Bool isOrthographic;
-@property(nonatomic) CDStruct_14d5dc5e lastFrameWorldTransform;
+@property(nonatomic) CDStruct_95fa7c00 lastFrameWorldTransform;
 @property(nonatomic, readonly) NSString *name;
 @property(nonatomic) CDStruct_183601bc orientation;
-@property(nonatomic) MISSING_TYPE *position;
-@property(nonatomic) CDStruct_14d5dc5e projection;
+@property(nonatomic) id position;
+@property(nonatomic) CDStruct_95fa7c00 projection;
 @property(nonatomic, readonly) BOOL projectionDirection;
 @property(nonatomic, readonly) _Bool reverseZ;
 @property(nonatomic, readonly) float scale;
 @property(nonatomic, readonly) float sensorSize;
-@property(nonatomic) CDStruct_14d5dc5e worldTransform;
+@property(nonatomic) CDStruct_95fa7c00 worldTransform;
 @property(nonatomic, readonly) float zFar;
 @property(nonatomic, readonly) float zNear;
 

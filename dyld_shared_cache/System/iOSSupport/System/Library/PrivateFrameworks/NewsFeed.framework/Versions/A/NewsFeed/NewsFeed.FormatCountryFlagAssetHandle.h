@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatCountryFlagAssetHandle
 {
-    MISSING_TYPE *countryCode;
-    MISSING_TYPE *size;
-    MISSING_TYPE *scale;
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *resolvedHandle;
+    id countryCode;
+    id size;
+    id scale;
+    id sportsDataService;
+    id assetManager;
+    id resolvedHandle;
 }
 
 @end

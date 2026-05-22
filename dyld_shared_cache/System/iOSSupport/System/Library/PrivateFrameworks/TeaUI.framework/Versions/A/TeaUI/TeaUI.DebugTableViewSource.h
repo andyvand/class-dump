@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.DebugTableViewSource
 {
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *controller;
+    id dataSource;
+    id controller;
 }
 
 - (id);

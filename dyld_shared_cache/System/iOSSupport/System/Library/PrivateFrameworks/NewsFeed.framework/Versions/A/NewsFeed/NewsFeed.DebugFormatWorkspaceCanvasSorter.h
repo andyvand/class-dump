@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceCanvasSorter
 {
-    MISSING_TYPE *$__lazy_storage_$_sortBarButtonItem;
-    MISSING_TYPE *editor;
+    id $__lazy_storage_$_sortBarButtonItem;
+    id editor;
 }
 
 - (void);

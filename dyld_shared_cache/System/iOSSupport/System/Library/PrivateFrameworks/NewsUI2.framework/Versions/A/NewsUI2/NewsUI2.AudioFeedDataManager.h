@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *feedServiceContextFactory;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *feedManager;
-    MISSING_TYPE *feedPluginManager;
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *offlineManager;
-    MISSING_TYPE *offlineFeedPrimer;
-    MISSING_TYPE *offlineFeatures;
+    id delegate;
+    id feedServiceContextFactory;
+    id feedServiceConfigFetcher;
+    id feedManager;
+    id feedPluginManager;
+    id accessQueue;
+    id subscriptionService;
+    id tagService;
+    id offlineManager;
+    id offlineFeedPrimer;
+    id offlineFeatures;
 }
 
 - (void);

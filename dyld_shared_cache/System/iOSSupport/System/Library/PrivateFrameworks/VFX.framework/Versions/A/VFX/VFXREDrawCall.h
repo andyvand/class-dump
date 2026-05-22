@@ -4,25 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface VFXREDrawCall
 {
-    MISSING_TYPE *drawCall;
-    MISSING_TYPE *aabb;
-    MISSING_TYPE *_isDepthOnly;
-    MISSING_TYPE *_writesColor;
-    MISSING_TYPE *_writesSeparateDepth;
-    MISSING_TYPE *_needsLinearDepth;
-    MISSING_TYPE *_drawsForBlur;
-    MISSING_TYPE *_isAdditive;
-    MISSING_TYPE *_materialType;
-    MISSING_TYPE *reProvidedBuffers;
-    MISSING_TYPE *reProvidedTextures;
-    MISSING_TYPE *handler;
+    id drawCall;
+    id aabb;
+    id _isDepthOnly;
+    id _writesColor;
+    id _writesSeparateDepth;
+    id _needsLinearDepth;
+    id _drawsForBlur;
+    id _isAdditive;
+    id _materialType;
+    id reProvidedBuffers;
+    id reProvidedTextures;
+    id handler;
     void renderPassName;
     unsigned char renderPassIdentifier;
-    MISSING_TYPE *emitter;
+    id emitter;
 }
 
 - (_Bool);
@@ -41,8 +41,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
+- (id);
+- (id);
 - (long long);
 - (CDUnknownBlockType);
 - (int);

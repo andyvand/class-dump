@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.NoticePresenter
 {
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *onButtonClicked;
-    MISSING_TYPE *replacedCallsByNoticeID;
+    id notificationService;
+    id onButtonClicked;
+    id replacedCallsByNoticeID;
 }
 
 @end

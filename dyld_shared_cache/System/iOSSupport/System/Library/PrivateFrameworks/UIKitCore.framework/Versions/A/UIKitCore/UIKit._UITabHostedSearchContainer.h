@@ -6,17 +6,15 @@
 
 #import <UIKitCore/_UITouchPassthroughView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UITabHostedSearchContainer : _UITouchPassthroughView
 {
-    MISSING_TYPE *primaryPlatterView;
-    MISSING_TYPE *cancelPlatterView;
-    MISSING_TYPE *cancelAction;
-    MISSING_TYPE *cancelButton;
-    MISSING_TYPE *searchBarView;
-    MISSING_TYPE *showsCancelAction;
-    MISSING_TYPE *interPlatterSpacing;
+    id primaryPlatterView;
+    id cancelPlatterView;
+    id cancelAction;
+    id cancelButton;
+    id searchBarView;
+    id showsCancelAction;
+    id interPlatterSpacing;
 }
 
 - (id);

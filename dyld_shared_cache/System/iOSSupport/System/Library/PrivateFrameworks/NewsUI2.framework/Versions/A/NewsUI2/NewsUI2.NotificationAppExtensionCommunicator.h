@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NotificationAppExtensionCommunicator
 {
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *appConfigDropbox;
-    MISSING_TYPE *sharedDefaults;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *channelDataFactory;
+    id appConfigManager;
+    id appConfigDropbox;
+    id sharedDefaults;
+    id bundleSubscriptionManager;
+    id tagService;
+    id channelDataFactory;
 }
 
 - (id);

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.NoteFieldViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_name;
-    MISSING_TYPE *namePrompt;
-    MISSING_TYPE *_note;
-    MISSING_TYPE *notePrompt;
-    MISSING_TYPE *_focusedField;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _name;
+    id namePrompt;
+    id _note;
+    id notePrompt;
+    id _focusedField;
+    id _$observationRegistrar;
 }
 
 @end

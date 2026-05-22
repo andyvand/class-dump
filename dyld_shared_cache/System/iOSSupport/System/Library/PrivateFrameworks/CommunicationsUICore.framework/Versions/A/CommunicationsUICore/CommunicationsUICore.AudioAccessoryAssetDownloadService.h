@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.AudioAccessoryAssetDownloadService
 {
-    MISSING_TYPE *manager;
+    id manager;
 }
 
 @end

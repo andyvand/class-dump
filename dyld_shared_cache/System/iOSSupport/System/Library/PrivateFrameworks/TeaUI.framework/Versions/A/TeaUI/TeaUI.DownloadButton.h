@@ -6,23 +6,21 @@
 
 #import <TeaUI/TeaUI.TouchInsetsButton.h>
 
-@class MISSING_TYPE;
-
 @interface TeaUI.DownloadButton : TeaUI.TouchInsetsButton
 {
-    MISSING_TYPE *handler;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *dataProvider;
-    MISSING_TYPE *imageTintColor;
-    MISSING_TYPE *progressTintColor;
-    MISSING_TYPE *trackTintColor;
-    MISSING_TYPE *downloadingImage;
-    MISSING_TYPE *notDownloadingImage;
-    MISSING_TYPE *progressBackgroundLayer;
-    MISSING_TYPE *progressLayer;
-    MISSING_TYPE *buttonState;
-    MISSING_TYPE *downloadProgressDisposable;
-    MISSING_TYPE *downloadStateDisposable;
+    id handler;
+    id delegate;
+    id dataProvider;
+    id imageTintColor;
+    id progressTintColor;
+    id trackTintColor;
+    id downloadingImage;
+    id notDownloadingImage;
+    id progressBackgroundLayer;
+    id progressLayer;
+    id buttonState;
+    id downloadProgressDisposable;
+    id downloadStateDisposable;
 }
 
 - (void);

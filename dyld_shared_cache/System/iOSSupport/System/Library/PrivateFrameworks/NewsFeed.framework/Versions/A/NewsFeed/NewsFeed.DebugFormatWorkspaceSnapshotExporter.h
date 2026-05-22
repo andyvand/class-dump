@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceSnapshotExporter
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *serverService;
-    MISSING_TYPE *canvasGenerator;
-    MISSING_TYPE *encoder;
+    id editor;
+    id serverService;
+    id canvasGenerator;
+    id encoder;
 }
 
 @end

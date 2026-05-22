@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugPersonalizationInspectionGroupProvider
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *debugPersonalizationGroupLayoutKeyProvider;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *inventory;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *webEmbedDataSourceService;
-    MISSING_TYPE *history;
+    id cloudContext;
+    id debugPersonalizationGroupLayoutKeyProvider;
+    id feedPersonalizer;
+    id headlineService;
+    id inventory;
+    id tagService;
+    id webEmbedDataSourceService;
+    id history;
 }
 
 @end

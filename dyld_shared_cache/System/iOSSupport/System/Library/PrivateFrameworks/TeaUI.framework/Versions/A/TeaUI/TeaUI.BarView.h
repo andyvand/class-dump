@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BarView
 {
-    MISSING_TYPE *style;
-    MISSING_TYPE *separator;
-    MISSING_TYPE *tintView;
-    MISSING_TYPE *separatorView;
+    id style;
+    id separator;
+    id tintView;
+    id separatorView;
 }
 
 - (id);

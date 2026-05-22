@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ContinueReadingEligibilityProcessor
 {
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *userActivityDeserializer;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *issueManager;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *subscriptionList;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *articleThumbnailImageCache;
-    MISSING_TYPE *issueCoverImageCache;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *puzzleGameCenterService;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *dismissalDelayProvider;
+    id featureAvailability;
+    id userActivityDeserializer;
+    id headlineService;
+    id issueManager;
+    id readingHistory;
+    id subscriptionList;
+    id paidAccessChecker;
+    id articleThumbnailImageCache;
+    id issueCoverImageCache;
+    id puzzleService;
+    id puzzleHistoryService;
+    id puzzleGameCenterService;
+    id bundleSubscriptionManager;
+    id dismissalDelayProvider;
 }
 
 @end

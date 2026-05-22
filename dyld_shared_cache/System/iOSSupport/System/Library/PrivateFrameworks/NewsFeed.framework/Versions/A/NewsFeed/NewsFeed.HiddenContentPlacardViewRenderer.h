@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.HiddenContentPlacardViewRenderer
 {
-    MISSING_TYPE *layoutAttributesFactory;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *feedItemDimmingEvaluator;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *unavailableItemAlpha;
+    id layoutAttributesFactory;
+    id styler;
+    id feedItemDimmingEvaluator;
+    id commandCenter;
+    id unavailableItemAlpha;
 }
 
 @end

@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatRulerView
 {
-    MISSING_TYPE *scale;
-    MISSING_TYPE *contentSize;
-    MISSING_TYPE *contentBounds;
-    MISSING_TYPE *canvasOffset;
-    MISSING_TYPE *selectionFrame;
-    MISSING_TYPE *metricSelectionFrame;
-    MISSING_TYPE *rulersHidden;
-    MISSING_TYPE *separatorsHidden;
-    MISSING_TYPE *separators;
-    MISSING_TYPE *selectedSeparator;
-    MISSING_TYPE *rulerSize;
-    MISSING_TYPE *verticalRulerEdgeView;
-    MISSING_TYPE *horizontalRulerEdgeView;
-    MISSING_TYPE *gridView;
-    MISSING_TYPE *cornerView;
-    MISSING_TYPE *borderLayer;
-    MISSING_TYPE *separatorViews;
+    id scale;
+    id contentSize;
+    id contentBounds;
+    id canvasOffset;
+    id selectionFrame;
+    id metricSelectionFrame;
+    id rulersHidden;
+    id separatorsHidden;
+    id separators;
+    id selectedSeparator;
+    id rulerSize;
+    id verticalRulerEdgeView;
+    id horizontalRulerEdgeView;
+    id gridView;
+    id cornerView;
+    id borderLayer;
+    id separatorViews;
 }
 
 - (id);

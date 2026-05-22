@@ -6,15 +6,14 @@
 
 #import <UIKitCore/_UIToolbarVisualProvider.h>
 
-@class MISSING_TYPE;
 @protocol _UIBarAppearanceChangeObserver;
 
 @interface UIKit.ToolbarVisualProvider : _UIToolbarVisualProvider
 {
-    MISSING_TYPE *model;
-    MISSING_TYPE *hostingView;
-    MISSING_TYPE *pointerAssistant;
-    MISSING_TYPE *isInteractive;
+    id model;
+    id hostingView;
+    id pointerAssistant;
+    id isInteractive;
 }
 
 + (_Bool);

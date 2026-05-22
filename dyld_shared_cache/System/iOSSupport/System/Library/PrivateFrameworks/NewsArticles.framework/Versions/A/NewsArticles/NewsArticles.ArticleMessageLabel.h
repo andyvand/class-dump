@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleMessageLabel
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *accessoryPresentationMode;
+    id delegate;
+    id accessoryPresentationMode;
 }
 
 - (id);

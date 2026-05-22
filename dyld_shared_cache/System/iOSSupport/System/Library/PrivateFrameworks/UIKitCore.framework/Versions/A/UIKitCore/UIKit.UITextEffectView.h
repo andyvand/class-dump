@@ -6,15 +6,13 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.UITextEffectView : UIView
 {
-    MISSING_TYPE *source;
-    MISSING_TYPE *animationDelegate;
-    MISSING_TYPE *managedSubviews;
-    MISSING_TYPE *textEffects;
-    MISSING_TYPE *sharedEffectViews;
+    id source;
+    id animationDelegate;
+    id managedSubviews;
+    id textEffects;
+    id sharedEffectViews;
 }
 
 - (id);

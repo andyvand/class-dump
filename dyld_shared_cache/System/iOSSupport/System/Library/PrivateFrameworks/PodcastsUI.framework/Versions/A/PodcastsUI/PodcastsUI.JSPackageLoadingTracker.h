@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.JSPackageLoadingTracker
 {
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_$observationRegistrar;
+    id _state;
+    id _$observationRegistrar;
 }
 
 @end

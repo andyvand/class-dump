@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ScrollViewProxyManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *delegateMap;
-    MISSING_TYPE *observableScrollView;
+    id delegate;
+    id delegateMap;
+    id observableScrollView;
 }
 
 @end

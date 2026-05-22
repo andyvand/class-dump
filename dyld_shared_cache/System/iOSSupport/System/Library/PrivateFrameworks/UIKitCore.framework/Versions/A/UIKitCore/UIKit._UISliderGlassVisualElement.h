@@ -6,14 +6,14 @@
 
 #import <UIKitCore/UIKit._UISliderFluidVisualElement.h>
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface UIKit._UISliderGlassVisualElement : UIKit._UISliderFluidVisualElement
 {
-    MISSING_TYPE *minimumThumbHitSize;
-    MISSING_TYPE *lensView;
-    MISSING_TYPE *thumbImageView;
-    MISSING_TYPE *defaultThumbTintColor;
+    id minimumThumbHitSize;
+    id lensView;
+    id thumbImageView;
+    id defaultThumbTintColor;
 }
 
 + (_Bool);

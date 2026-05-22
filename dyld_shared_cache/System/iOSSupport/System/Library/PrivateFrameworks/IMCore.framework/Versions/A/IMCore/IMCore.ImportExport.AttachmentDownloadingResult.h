@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.AttachmentDownloadingResult
 {
-    MISSING_TYPE *attachment;
-    MISSING_TYPE *downloadInterval;
-    MISSING_TYPE *fileTransfer;
+    id attachment;
+    id downloadInterval;
+    id fileTransfer;
 }
 
 @end

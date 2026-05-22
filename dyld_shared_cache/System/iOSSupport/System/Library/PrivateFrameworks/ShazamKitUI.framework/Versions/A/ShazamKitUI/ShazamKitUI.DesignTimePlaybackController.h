@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ShazamKitUI.DesignTimePlaybackController
 {
-    MISSING_TYPE *playbackProgress;
-    MISSING_TYPE *playbackStatus;
-    MISSING_TYPE *canPlaybackSong;
-    MISSING_TYPE *isPlayable;
+    id playbackProgress;
+    id playbackStatus;
+    id canPlaybackSong;
+    id isPlayable;
 }
 
 @end

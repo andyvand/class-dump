@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatInspectorViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *pane;
-    MISSING_TYPE *coverViewManager;
-    MISSING_TYPE *$__lazy_storage_$_paneViewController;
+    id editor;
+    id pane;
+    id coverViewManager;
+    id $__lazy_storage_$_paneViewController;
 }
 
 - (id);

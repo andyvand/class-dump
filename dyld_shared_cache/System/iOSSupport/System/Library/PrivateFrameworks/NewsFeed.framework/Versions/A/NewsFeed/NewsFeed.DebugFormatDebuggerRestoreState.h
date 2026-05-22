@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatDebuggerRestoreState
 {
-    MISSING_TYPE *selectedSidebarViewController;
-    MISSING_TYPE *showSource;
+    id selectedSidebarViewController;
+    id showSource;
 }
 
 @end

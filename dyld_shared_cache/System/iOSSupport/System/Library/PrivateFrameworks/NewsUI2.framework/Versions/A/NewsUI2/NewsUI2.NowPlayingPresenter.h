@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NowPlayingPresenter
 {
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *playbackConductor;
-    MISSING_TYPE *audioPlaybackTracker;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *audioHeadlineConverter;
+    id navigator;
+    id playbackConductor;
+    id audioPlaybackTracker;
+    id commandCenter;
+    id audioHeadlineConverter;
 }
 
 @end

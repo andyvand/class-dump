@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface GenerativePartnerServiceUI.SettingsViewModel
 {
-    MISSING_TYPE *_currentLLM;
-    MISSING_TYPE *_signInStatus;
-    MISSING_TYPE *_deepLinkParams;
-    MISSING_TYPE *_showingSignInFailureAlert;
-    MISSING_TYPE *_showSignInFailedDueToWorkspaceRestriction;
-    MISSING_TYPE *_showingSignOutDialog;
-    MISSING_TYPE *_legacyEnableToggleState;
-    MISSING_TYPE *_legacySetupPromptsOn;
-    MISSING_TYPE *_legacyConfirmationPromptsOn;
-    MISSING_TYPE *_subscriptionInfo;
-    MISSING_TYPE *_showManageSubscription;
-    MISSING_TYPE *_adamID;
-    MISSING_TYPE *_showRateLimitStatus;
-    MISSING_TYPE *rateLimitCategories;
-    MISSING_TYPE *_latestRateLimitStates;
-    MISSING_TYPE *_userAccountStatus;
-    MISSING_TYPE *_billingInfo;
-    MISSING_TYPE *_lastRateLimitResponseDate;
-    MISSING_TYPE *_pendingRateLimitFetchStart;
-    MISSING_TYPE *observer;
-    MISSING_TYPE *_$observationRegistrar;
+    id _currentLLM;
+    id _signInStatus;
+    id _deepLinkParams;
+    id _showingSignInFailureAlert;
+    id _showSignInFailedDueToWorkspaceRestriction;
+    id _showingSignOutDialog;
+    id _legacyEnableToggleState;
+    id _legacySetupPromptsOn;
+    id _legacyConfirmationPromptsOn;
+    id _subscriptionInfo;
+    id _showManageSubscription;
+    id _adamID;
+    id _showRateLimitStatus;
+    id rateLimitCategories;
+    id _latestRateLimitStates;
+    id _userAccountStatus;
+    id _billingInfo;
+    id _lastRateLimitResponseDate;
+    id _pendingRateLimitFetchStart;
+    id observer;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeHistoryProvider
 {
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *recipeHistory;
-    MISSING_TYPE *recipeFactory;
+    id recipeService;
+    id recipeHistory;
+    id recipeFactory;
 }
 
 @end

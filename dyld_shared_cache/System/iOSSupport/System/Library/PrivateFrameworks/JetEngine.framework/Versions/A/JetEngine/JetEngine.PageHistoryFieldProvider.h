@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.PageHistoryFieldProvider
 {
-    MISSING_TYPE *maxDepth;
-    MISSING_TYPE *historyStack;
+    id maxDepth;
+    id historyStack;
 }
 
 @end

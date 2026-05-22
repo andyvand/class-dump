@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.TheftAndLossReminderViewModel
 {
-    MISSING_TYPE *entry;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_alert;
-    MISSING_TYPE *enableAction;
-    MISSING_TYPE *actionHandler;
-    MISSING_TYPE *_$observationRegistrar;
+    id entry;
+    id _state;
+    id _alert;
+    id enableAction;
+    id actionHandler;
+    id _$observationRegistrar;
 }
 
 @end

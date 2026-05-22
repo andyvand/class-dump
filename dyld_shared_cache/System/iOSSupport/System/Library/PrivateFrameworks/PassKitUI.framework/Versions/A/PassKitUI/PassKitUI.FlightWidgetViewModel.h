@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.FlightWidgetViewModel
 {
-    MISSING_TYPE *flight;
-    MISSING_TYPE *boardingPassAttributes;
-    MISSING_TYPE *boardingTime;
-    MISSING_TYPE *progressIcon;
-    MISSING_TYPE *currentTimeZone;
-    MISSING_TYPE *arrivedContent;
-    MISSING_TYPE *airlineIcon;
-    MISSING_TYPE *passSnapshot;
-    MISSING_TYPE *airlineName;
-    MISSING_TYPE *flightCode;
-    MISSING_TYPE *departureAirportCode;
-    MISSING_TYPE *arrivalAirportCode;
-    MISSING_TYPE *extendedState;
-    MISSING_TYPE *backgroundColor;
-    MISSING_TYPE *tintColor;
-    MISSING_TYPE *statusColor;
-    MISSING_TYPE *passUniqueID;
-    MISSING_TYPE *perspective;
-    MISSING_TYPE *isRecipient;
-    MISSING_TYPE *departureDate;
-    MISSING_TYPE *departureTimeZone;
-    MISSING_TYPE *arrivalDate;
-    MISSING_TYPE *arrivalTimeZone;
-    MISSING_TYPE *state;
+    id flight;
+    id boardingPassAttributes;
+    id boardingTime;
+    id progressIcon;
+    id currentTimeZone;
+    id arrivedContent;
+    id airlineIcon;
+    id passSnapshot;
+    id airlineName;
+    id flightCode;
+    id departureAirportCode;
+    id arrivalAirportCode;
+    id extendedState;
+    id backgroundColor;
+    id tintColor;
+    id statusColor;
+    id passUniqueID;
+    id perspective;
+    id isRecipient;
+    id departureDate;
+    id departureTimeZone;
+    id arrivalDate;
+    id arrivalTimeZone;
+    id state;
 }
 
 @end

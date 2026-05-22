@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.PointCacheGeneratorSystem
 {
-    MISSING_TYPE *loadPointCache;
-    MISSING_TYPE *updatePointCacheFromModels;
-    MISSING_TYPE *updatePointCache;
-    MISSING_TYPE *uploadREMeshPointCache;
+    id loadPointCache;
+    id updatePointCacheFromModels;
+    id updatePointCache;
+    id uploadREMeshPointCache;
 }
 
 @end

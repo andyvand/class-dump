@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ExportToGroceryListCommandHandler
 {
-    MISSING_TYPE *recipeFactory;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *recipeURLProvider;
-    MISSING_TYPE *recipeCoordinator;
+    id recipeFactory;
+    id featureAvailability;
+    id sceneProvider;
+    id recipeURLProvider;
+    id recipeCoordinator;
 }
 
 @end

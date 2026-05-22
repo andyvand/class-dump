@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -53,11 +51,11 @@ struct CLLocationCoordinate2D {
 };
 
 struct NUNIAegirRenderUniforms {
-    CDStruct_8e0628e6 sprite__sphere__lightDirection__lookModelInverseMatrixFull;
-    CDStruct_8e0628e6 lookModelPositionFull__lookModelInverseMatrix;
-    CDStruct_14d5dc5e lookModelPosition__viewModelInverseMatrix;
-    CDStruct_14d5dc5e viewModelMatrix;
-    CDStruct_14d5dc5e projectionViewModelMatrix;
+    CDStruct_1fe29af2 sprite__sphere__lightDirection__lookModelInverseMatrixFull;
+    CDStruct_1fe29af2 lookModelPositionFull__lookModelInverseMatrix;
+    CDStruct_95fa7c00 lookModelPosition__viewModelInverseMatrix;
+    CDStruct_95fa7c00 viewModelMatrix;
+    CDStruct_95fa7c00 projectionViewModelMatrix;
     float offset__aspect__invResolution;
     float nearPlane;
     float opacity;
@@ -85,9 +83,9 @@ struct NUNIAegirRendererState {
     float cameraRoll;
     float aspect;
     float fovY;
-    CDStruct_14d5dc5e cameraOffset__cameraPosition__cameraTarget__cameraUp__cameraLeft__cameraForward__cameraLookAt;
-    CDStruct_14d5dc5e cameraView;
-    CDStruct_14d5dc5e cameraProjView;
+    CDStruct_95fa7c00 cameraOffset__cameraPosition__cameraTarget__cameraUp__cameraLeft__cameraForward__cameraLookAt;
+    CDStruct_95fa7c00 cameraView;
+    CDStruct_95fa7c00 cameraProjView;
 };
 
 struct NUNIAstronomyInteractionSettings {
@@ -128,12 +126,12 @@ typedef struct {
 } CDStruct_a06f635e;
 
 typedef struct {
-    MISSING_TYPE *columns[3];
-} CDStruct_8e0628e6;
+    id columns[3];
+} CDStruct_1fe29af2;
 
 typedef struct {
-    MISSING_TYPE *columns[4];
-} CDStruct_14d5dc5e;
+    id columns[4];
+} CDStruct_95fa7c00;
 
 typedef struct {
     double _field1;

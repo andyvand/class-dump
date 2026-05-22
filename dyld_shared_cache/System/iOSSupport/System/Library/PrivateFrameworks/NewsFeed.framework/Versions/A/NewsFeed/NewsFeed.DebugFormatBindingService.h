@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatBindingService
 {
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *weatherService;
-    MISSING_TYPE *feedModelFactory;
-    MISSING_TYPE *cloudContext;
+    id formatService;
+    id weatherService;
+    id feedModelFactory;
+    id cloudContext;
 }
 
 @end

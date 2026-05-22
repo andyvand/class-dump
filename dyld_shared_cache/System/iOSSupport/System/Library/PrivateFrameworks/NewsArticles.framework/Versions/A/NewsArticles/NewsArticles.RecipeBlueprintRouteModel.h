@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeBlueprintRouteModel
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *routeModel;
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *blueprintTraits;
-    MISSING_TYPE *$__lazy_storage_$_transitionIdentifier;
-    MISSING_TYPE *currentModel;
-    MISSING_TYPE *_observer;
+    id identifier;
+    id routeModel;
+    id blueprintProvider;
+    id blueprintTraits;
+    id $__lazy_storage_$_transitionIdentifier;
+    id currentModel;
+    id _observer;
 }
 
 @end

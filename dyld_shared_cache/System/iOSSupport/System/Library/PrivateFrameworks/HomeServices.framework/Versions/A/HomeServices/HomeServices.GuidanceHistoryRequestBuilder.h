@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeServices.GuidanceHistoryRequestBuilder
 {
-    MISSING_TYPE *HMACAuthInfo;
-    MISSING_TYPE *gridID;
-    MISSING_TYPE *interval;
-    MISSING_TYPE *requestId;
+    id HMACAuthInfo;
+    id gridID;
+    id interval;
+    id requestId;
 }
 
 @end

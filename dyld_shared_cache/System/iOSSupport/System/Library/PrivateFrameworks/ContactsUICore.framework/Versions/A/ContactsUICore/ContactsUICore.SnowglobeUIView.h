@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.SnowglobeUIView
 {
-    MISSING_TYPE *backgroundStyle;
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *avatarViews;
-    MISSING_TYPE *contacts;
-    MISSING_TYPE *cancellables;
+    id backgroundStyle;
+    id backgroundView;
+    id avatarViews;
+    id contacts;
+    id cancellables;
 }
 
 - (id);

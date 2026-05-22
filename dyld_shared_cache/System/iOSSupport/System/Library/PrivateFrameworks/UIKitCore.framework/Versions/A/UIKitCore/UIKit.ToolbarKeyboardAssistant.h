@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.ToolbarKeyboardAssistant
 {
-    MISSING_TYPE *base;
-    MISSING_TYPE *alwaysAvoidsKeyboard;
-    MISSING_TYPE *toolbarModel;
-    MISSING_TYPE *view;
-    MISSING_TYPE *observationEnabled;
+    id base;
+    id alwaysAvoidsKeyboard;
+    id toolbarModel;
+    id view;
+    id observationEnabled;
 }
 
 - (void);

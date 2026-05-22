@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDate, NSString;
+@class NSDate, NSString;
 @protocol AMSBagProtocol;
 
 @interface JetEngine.OverriddenAMSBag
 {
-    MISSING_TYPE *backing;
-    MISSING_TYPE *overrides;
+    id backing;
+    id overrides;
 }
 
 - (id);

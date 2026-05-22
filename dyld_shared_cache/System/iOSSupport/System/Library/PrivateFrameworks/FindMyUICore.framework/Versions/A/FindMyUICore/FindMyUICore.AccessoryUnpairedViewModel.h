@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.AccessoryUnpairedViewModel
 {
-    MISSING_TYPE *onboardingSession;
-    MISSING_TYPE *accessory;
-    MISSING_TYPE *_processCompletedHandler;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *_shouldShowAlert;
-    MISSING_TYPE *_subtitle;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_$observationRegistrar;
+    id onboardingSession;
+    id accessory;
+    id _processCompletedHandler;
+    id logger;
+    id _shouldShowAlert;
+    id _subtitle;
+    id _state;
+    id _$observationRegistrar;
 }
 
 - (void);

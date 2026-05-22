@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.Alert
 {
-    MISSING_TYPE *acceptBlock;
-    MISSING_TYPE *rejectBlock;
-    MISSING_TYPE *neutralBlock;
-    MISSING_TYPE *acceptBlockV1;
-    MISSING_TYPE *rejectBlockV1;
-    MISSING_TYPE *neutralBlockV1;
-    MISSING_TYPE *alertController;
+    id acceptBlock;
+    id rejectBlock;
+    id neutralBlock;
+    id acceptBlockV1;
+    id rejectBlockV1;
+    id neutralBlockV1;
+    id alertController;
 }
 
 @end

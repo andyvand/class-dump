@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedBlueprintModifierFactory
 {
-    MISSING_TYPE *sectionFactory;
-    MISSING_TYPE *nativeAdManager;
-    MISSING_TYPE *feedContextFactory;
-    MISSING_TYPE *policyValidator;
-    MISSING_TYPE *layoutCollectionProvider;
-    MISSING_TYPE *subscriptionList;
-    MISSING_TYPE *feedDescriptor;
+    id sectionFactory;
+    id nativeAdManager;
+    id feedContextFactory;
+    id policyValidator;
+    id layoutCollectionProvider;
+    id subscriptionList;
+    id feedDescriptor;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedImage
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *request;
-    MISSING_TYPE *datastore;
-    MISSING_TYPE *image;
-    MISSING_TYPE *inspection;
+    id identifier;
+    id request;
+    id datastore;
+    id image;
+    id inspection;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.FoldersSidebarSection
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *folders;
-    MISSING_TYPE *id;
-    MISSING_TYPE *observeChanges;
+    id delegate;
+    id folders;
+    id id;
+    id observeChanges;
 }
 
 - (void);

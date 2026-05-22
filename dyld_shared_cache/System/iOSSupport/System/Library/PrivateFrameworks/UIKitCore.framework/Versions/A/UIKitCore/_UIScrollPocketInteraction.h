@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, NSValue, UIScrollView, UIView, _UIScrollPocketCollectorInteraction;
+@class NSString, NSValue, UIScrollView, UIView, _UIScrollPocketCollectorInteraction;
 
 @interface _UIScrollPocketInteraction
 {
-    MISSING_TYPE *implementation;
+    id implementation;
 }
 
 - (id);

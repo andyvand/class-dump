@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.MPCMusicDialogHandler
 {
-    MISSING_TYPE *publisher;
-    MISSING_TYPE *metrics;
+    id publisher;
+    id metrics;
 }
 
 @end

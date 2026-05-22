@@ -6,17 +6,15 @@
 
 #import <UIKitCore/UIKit.NavigationBarTransitionContext.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.NavigationBarTransitionContextInteractive : UIKit.NavigationBarTransitionContext
 {
-    MISSING_TYPE *fromPlatters;
-    MISSING_TYPE *toPlatters;
-    MISSING_TYPE *toHostedViews;
-    MISSING_TYPE *fromMatchingView;
-    MISSING_TYPE *toMatchingView;
-    MISSING_TYPE *fromElements;
-    MISSING_TYPE *lastPlatterSource;
+    id fromPlatters;
+    id toPlatters;
+    id toHostedViews;
+    id fromMatchingView;
+    id toMatchingView;
+    id fromElements;
+    id lastPlatterSource;
 }
 
 - (void)à£l;

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.RenderPipelineFactory
 {
-    MISSING_TYPE *topologyClass;
-    MISSING_TYPE *tesselation;
-    MISSING_TYPE *writeMask;
-    MISSING_TYPE *flags;
-    MISSING_TYPE *renderFunctions;
-    MISSING_TYPE *objectArguments;
-    MISSING_TYPE *materialArguments;
-    MISSING_TYPE *argumentsAreUpToDate;
+    id topologyClass;
+    id tesselation;
+    id writeMask;
+    id flags;
+    id renderFunctions;
+    id objectArguments;
+    id materialArguments;
+    id argumentsAreUpToDate;
 }
 
 @end

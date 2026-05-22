@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleSizeOverLife.System
 {
-    MISSING_TYPE *particlesS1;
-    MISSING_TYPE *particlesS2;
-    MISSING_TYPE *particles;
-    MISSING_TYPE *particlesNoS1;
-    MISSING_TYPE *particlesNoS2;
+    id particlesS1;
+    id particlesS2;
+    id particles;
+    id particlesNoS1;
+    id particlesNoS2;
 }
 
 @end

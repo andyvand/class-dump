@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsHeadlineExposureTracker
 {
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *trackerConfiguration;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *headlineNoiseGenerator;
-    MISSING_TYPE *fuzzedGroups;
-    MISSING_TYPE *inFlightGroupSessions;
-    MISSING_TYPE *sportsGroupTypes;
+    id tracker;
+    id trackerConfiguration;
+    id scienceDataFactory;
+    id channelDataFactory;
+    id articleDataFactory;
+    id headlineNoiseGenerator;
+    id fuzzedGroups;
+    id inFlightGroupSessions;
+    id sportsGroupTypes;
 }
 
 @end

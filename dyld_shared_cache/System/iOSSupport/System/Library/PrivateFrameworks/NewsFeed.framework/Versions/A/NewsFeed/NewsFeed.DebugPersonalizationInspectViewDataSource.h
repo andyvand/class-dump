@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugPersonalizationInspectViewDataSource
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *placeholderImage;
-    MISSING_TYPE *emptyImage;
-    MISSING_TYPE *naImage;
-    MISSING_TYPE *desiredItemIdentifiers;
-    MISSING_TYPE *undesiredItemIdentifiers;
-    MISSING_TYPE *feedItemIdentifierDict;
-    MISSING_TYPE *nonVisibleItemIdentifiers;
-    MISSING_TYPE *visibleItemIdentifiers;
-    MISSING_TYPE *key;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *feedItemImages;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *recipeService;
+    id name;
+    id placeholderImage;
+    id emptyImage;
+    id naImage;
+    id desiredItemIdentifiers;
+    id undesiredItemIdentifiers;
+    id feedItemIdentifierDict;
+    id nonVisibleItemIdentifiers;
+    id visibleItemIdentifiers;
+    id key;
+    id sections;
+    id feedItemImages;
+    id headlineService;
+    id recipeService;
 }
 
 @end

@@ -6,15 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, _TtCE5UIKitCSo40_UISplitViewControllerAdaptiveColumnViewP33_E55D530921B5D45A8EA231E2252C983511DimmingView, _TtCE5UIKitCSo40_UISplitViewControllerAdaptiveColumnViewP33_E55D530921B5D45A8EA231E2252C983512ClippingView, _UIScrollPocketCollectorInteraction, _UIScrollPocketInteraction;
+@class (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.ClippingView__priv_E55D530921B5D45A8EA231E2252C9835, (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.DimmingView__priv_E55D530921B5D45A8EA231E2252C9835, NSString, _UIScrollPocketCollectorInteraction, _UIScrollPocketInteraction;
 @protocol _UISplitViewControllerAdaptiveColumnInteractionDelegate, _UIViewMaterial;
 
 @interface _UISplitViewControllerAdaptiveColumnView : UIView
 {
     long long splitViewControllerColumn;
     void interactionDelegate;
-    _TtCE5UIKitCSo40_UISplitViewControllerAdaptiveColumnViewP33_E55D530921B5D45A8EA231E2252C983512ClippingView *clippingView;
-    _TtCE5UIKitCSo40_UISplitViewControllerAdaptiveColumnViewP33_E55D530921B5D45A8EA231E2252C983511DimmingView *dimmingView;
+    (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.ClippingView__priv_E55D530921B5D45A8EA231E2252C9835 *clippingView;
+    (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.DimmingView__priv_E55D530921B5D45A8EA231E2252C9835 *dimmingView;
     UIView *ownedContentView;
     _UIScrollPocketCollectorInteraction *scrollPocketCollectorInteraction;
     _UIScrollPocketInteraction *leftScrollPocketInteraction;
@@ -78,12 +78,12 @@
 
 // Remaining properties
 @property(nonatomic, retain) id <_UIViewMaterial> background; // @synthesize background;
-@property(nonatomic, retain) _TtCE5UIKitCSo40_UISplitViewControllerAdaptiveColumnViewP33_E55D530921B5D45A8EA231E2252C983512ClippingView *clippingView; // @synthesize clippingView;
+@property(nonatomic, retain) (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.ClippingView__priv_E55D530921B5D45A8EA231E2252C9835 *clippingView; // @synthesize clippingView;
 @property(nonatomic, readonly) UIView *containerView;
 @property(nonatomic, retain) UIView *contentView;
 @property(nonatomic, readonly) NSString *description;
 @property(nonatomic) double dimmingLevel; // @synthesize dimmingLevel;
-@property(nonatomic, retain) _TtCE5UIKitCSo40_UISplitViewControllerAdaptiveColumnViewP33_E55D530921B5D45A8EA231E2252C983511DimmingView *dimmingView; // @synthesize dimmingView;
+@property(nonatomic, retain) (extension in UIKit):__C._UISplitViewControllerAdaptiveColumnView.DimmingView__priv_E55D530921B5D45A8EA231E2252C9835 *dimmingView; // @synthesize dimmingView;
 @property(nonatomic) double fallbackCornerRadius; // @synthesize fallbackCornerRadius;
 @property(nonatomic) __weak id <_UISplitViewControllerAdaptiveColumnInteractionDelegate> interactionDelegate; // @synthesize interactionDelegate;
 @property(nonatomic, retain) _UIScrollPocketInteraction *leftScrollPocketInteraction; // @synthesize leftScrollPocketInteraction;

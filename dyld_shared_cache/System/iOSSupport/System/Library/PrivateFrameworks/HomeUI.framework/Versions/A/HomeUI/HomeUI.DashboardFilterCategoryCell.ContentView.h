@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.DashboardFilterCategoryCell.ContentView
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *label;
-    MISSING_TYPE *secondaryLabel;
-    MISSING_TYPE *activeConstraints;
+    id config;
+    id imageView;
+    id label;
+    id secondaryLabel;
+    id activeConstraints;
 }
 
 - (id);

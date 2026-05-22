@@ -6,12 +6,10 @@
 
 #import <CoreIDVUI/CoreIDVUI.IdentityProofingViewController.h>
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingAddedToWalletViewController : CoreIDVUI.IdentityProofingViewController
 {
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *viewConfig;
+    id proofingFlowManager;
+    id viewConfig;
 }
 
 - (id);

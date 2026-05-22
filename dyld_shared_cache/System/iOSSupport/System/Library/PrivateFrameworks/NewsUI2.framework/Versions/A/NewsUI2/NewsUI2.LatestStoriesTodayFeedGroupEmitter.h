@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LatestStoriesTodayFeedGroupEmitter
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *knobs;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *name;
+    id config;
+    id knobs;
+    id formatService;
+    id paidAccessChecker;
+    id cloudContext;
+    id name;
 }
 
 @end

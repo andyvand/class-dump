@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.NavigationTray.MetricsViewModel
 {
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_eta;
-    MISSING_TYPE *_time;
-    MISSING_TYPE *_distance;
-    MISSING_TYPE *_disableAnimations;
-    MISSING_TYPE *_navigationTrayHasAccessories;
-    MISSING_TYPE *_expansionProgress;
-    MISSING_TYPE *_$observationRegistrar;
+    id _state;
+    id _eta;
+    id _time;
+    id _distance;
+    id _disableAnimations;
+    id _navigationTrayHasAccessories;
+    id _expansionProgress;
+    id _$observationRegistrar;
 }
 
 @end

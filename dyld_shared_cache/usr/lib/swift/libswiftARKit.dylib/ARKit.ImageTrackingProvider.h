@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ARKit.ImageTrackingProvider
 {
-    MISSING_TYPE *_cImageTrackingProvider;
-    MISSING_TYPE *_cImageTrackingConfiguration;
-    MISSING_TYPE *anchorUpdateIterators;
-    MISSING_TYPE *anchorQueue;
-    MISSING_TYPE *referenceImages;
+    id _cImageTrackingProvider;
+    id _cImageTrackingConfiguration;
+    id anchorUpdateIterators;
+    id anchorQueue;
+    id referenceImages;
 }
 
 @end

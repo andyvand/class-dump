@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeServices.AutoBugCaptureReporter
 {
-    MISSING_TYPE *reporter;
-    MISSING_TYPE *lastReportedDate;
+    id reporter;
+    id lastReportedDate;
 }
 
 @end

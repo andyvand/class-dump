@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, _TtC16NewsSubscription26PaidBundleViaOfferSettings;
+@class NewsSubscription.PaidBundleViaOfferSettings;
 
 @interface NewsUI2.StubFeatureAvailability
 {
@@ -12,39 +12,39 @@
     _Bool appleMagazineContent;
     _Bool allowSharingAlways;
     _Bool narrativeAudio;
-    MISSING_TYPE *cardFeed;
+    id cardFeed;
     _Bool useContinueReading;
     _Bool useNewsArticleSearch;
     _Bool useNotificationsV2;
     _Bool useWelcomeSeries;
-    MISSING_TYPE *puzzles;
+    id puzzles;
     _Bool puzzlesEnabled;
     _Bool puzzlesGameCenterEnabled;
     _Bool useOfflineMode;
     _Bool dimNonSubscriberContentOffline;
-    MISSING_TYPE *useGradientInChannelPickerListSection;
+    id useGradientInChannelPickerListSection;
     _Bool articleLinkBehaviorImprovementsEnabled;
-    _TtC16NewsSubscription26PaidBundleViaOfferSettings *paidBundleViaOfferAvailability;
-    MISSING_TYPE *appleNewsContent;
-    MISSING_TYPE *appleNewsPrivateData;
-    MISSING_TYPE *allowFollowingOfEndOfArticlePublisher;
-    MISSING_TYPE *allowLikeDislike;
+    NewsSubscription.PaidBundleViaOfferSettings *paidBundleViaOfferAvailability;
+    id appleNewsContent;
+    id appleNewsPrivateData;
+    id allowFollowingOfEndOfArticlePublisher;
+    id allowLikeDislike;
     _Bool useMoreToReadEOA;
     _Bool useMoreFromIssueEOA;
     _Bool useMultipleNativeAds;
-    MISSING_TYPE *shouldDisplaySaveInTopBar;
+    id shouldDisplaySaveInTopBar;
     _Bool allowInAppMessages;
     _Bool allowCIPBestOffer;
     _Bool allowSIWAOnMac;
     _Bool configurableOffersEnabled;
     _Bool localOnboardingEnabled;
     _Bool featurePromotionEnabled;
-    MISSING_TYPE *sports;
+    id sports;
     _Bool sportsNativeAdsEnabled;
     _Bool allowPaidBundleViaOffer;
     _Bool useFineGrainedNewsletterManagement;
-    MISSING_TYPE *liveActivitiesEnabled;
-    MISSING_TYPE *enableAIAttribution;
+    id liveActivitiesEnabled;
+    id enableAIAttribution;
     _Bool useFood;
     _Bool recipeHistoryFeedEnabled;
     _Bool recipeUnitConversionEnabled;
@@ -153,7 +153,7 @@
 @property(nonatomic) _Bool multipartRecipesEnabled; // @synthesize multipartRecipesEnabled;
 @property(nonatomic) _Bool narrativeAudio; // @synthesize narrativeAudio;
 @property(nonatomic) _Bool nutritionInfoEnabled; // @synthesize nutritionInfoEnabled;
-@property(nonatomic, retain) _TtC16NewsSubscription26PaidBundleViaOfferSettings *paidBundleViaOfferAvailability; // @synthesize paidBundleViaOfferAvailability;
+@property(nonatomic, retain) NewsSubscription.PaidBundleViaOfferSettings *paidBundleViaOfferAvailability; // @synthesize paidBundleViaOfferAvailability;
 @property(nonatomic) _Bool puzzlesEnabled; // @synthesize puzzlesEnabled;
 @property(nonatomic) _Bool puzzlesGameCenterEnabled; // @synthesize puzzlesGameCenterEnabled;
 @property(nonatomic) _Bool recipeHistoryFeedEnabled; // @synthesize recipeHistoryFeedEnabled;

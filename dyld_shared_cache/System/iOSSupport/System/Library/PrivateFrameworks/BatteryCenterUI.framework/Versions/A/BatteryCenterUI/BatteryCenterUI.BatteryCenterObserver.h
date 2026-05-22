@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface BatteryCenterUI.BatteryCenterObserver
 {
-    MISSING_TYPE *dispatchQueue;
-    MISSING_TYPE *batteryController;
-    MISSING_TYPE *subject;
+    id dispatchQueue;
+    id batteryController;
+    id subject;
 }
 
 - (id);

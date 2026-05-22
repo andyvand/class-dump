@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMSyncedSettingsManager_Impl
 {
-    MISSING_TYPE *daemonController;
-    MISSING_TYPE *connection;
-    MISSING_TYPE *notificationCenter;
-    MISSING_TYPE *valueCache;
+    id daemonController;
+    id connection;
+    id notificationCenter;
+    id valueCache;
 }
 
 - (void);

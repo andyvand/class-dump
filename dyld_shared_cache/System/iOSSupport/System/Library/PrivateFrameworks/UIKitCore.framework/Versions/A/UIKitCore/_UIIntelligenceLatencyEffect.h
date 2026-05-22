@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIVisualEffect.h>
 
-@class MISSING_TYPE;
-
 @interface _UIIntelligenceLatencyEffect : UIVisualEffect
 {
-    MISSING_TYPE *mode;
+    id mode;
 }
 
 - (id);

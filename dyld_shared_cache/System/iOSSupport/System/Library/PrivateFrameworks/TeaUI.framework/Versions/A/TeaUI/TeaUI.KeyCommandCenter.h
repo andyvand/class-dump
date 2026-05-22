@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.KeyCommandCenter
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *commandItems;
-    MISSING_TYPE *stagedTracker;
+    id commandCenter;
+    id commandItems;
+    id stagedTracker;
 }
 
 - (void);

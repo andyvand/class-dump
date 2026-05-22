@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.EntityFamily
 {
-    MISSING_TYPE *classByClassHash;
-    MISSING_TYPE *componentTypes;
-    MISSING_TYPE *entityComponentTypes;
-    MISSING_TYPE *classComponentTypes;
-    MISSING_TYPE *packedComponentTypes;
-    MISSING_TYPE *storageLayout;
-    MISSING_TYPE *_componentsIndicesByID;
-    MISSING_TYPE *familyIndex;
-    MISSING_TYPE *familyHash;
+    id classByClassHash;
+    id componentTypes;
+    id entityComponentTypes;
+    id classComponentTypes;
+    id packedComponentTypes;
+    id storageLayout;
+    id _componentsIndicesByID;
+    id familyIndex;
+    id familyHash;
 }
 
 @end

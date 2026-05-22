@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *magazineActivityNavigator;
+    id patterns;
+    id magazineActivityNavigator;
 }
 
 @end

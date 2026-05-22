@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ConversationExporter
 {
-    MISSING_TYPE *conversation;
-    MISSING_TYPE *exportOptions;
-    MISSING_TYPE *exportStatistics;
-    MISSING_TYPE *currentBatch;
-    MISSING_TYPE *messageExporterState;
-    MISSING_TYPE *standaloneMode;
-    MISSING_TYPE *batchCount;
-    MISSING_TYPE *fallbackAccountParticipant;
+    id conversation;
+    id exportOptions;
+    id exportStatistics;
+    id currentBatch;
+    id messageExporterState;
+    id standaloneMode;
+    id batchCount;
+    id fallbackAccountParticipant;
 }
 
 @end

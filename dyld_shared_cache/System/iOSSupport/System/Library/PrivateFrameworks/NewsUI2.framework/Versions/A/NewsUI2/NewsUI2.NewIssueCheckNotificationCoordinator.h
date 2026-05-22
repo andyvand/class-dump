@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewIssueCheckNotificationCoordinator
 {
-    MISSING_TYPE *currentIssuesChecker;
-    MISSING_TYPE *notificationScheduler;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *bundleSubscriptionManager;
+    id currentIssuesChecker;
+    id notificationScheduler;
+    id userInfo;
+    id bundleSubscriptionManager;
 }
 
 @end

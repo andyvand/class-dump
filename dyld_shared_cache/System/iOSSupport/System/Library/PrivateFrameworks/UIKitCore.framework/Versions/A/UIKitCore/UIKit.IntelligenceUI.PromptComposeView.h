@@ -6,14 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.IntelligenceUI.PromptComposeView : UIView
 {
-    MISSING_TYPE *entryView;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *inputAreaStackView;
-    MISSING_TYPE *contentViewContainer;
+    id entryView;
+    id contentView;
+    id inputAreaStackView;
+    id contentViewContainer;
 }
 
 - (id);

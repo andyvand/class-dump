@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUI.MediaSystemBuilderSelectionController
 {
-    MISSING_TYPE *mediaSystemBuilder;
-    MISSING_TYPE *staticAccessories;
-    MISSING_TYPE *maximumSelectedAccessories;
-    MISSING_TYPE *$__lazy_storage_$_staticAccessoryIDs;
-    MISSING_TYPE *selectedItems;
+    id mediaSystemBuilder;
+    id staticAccessories;
+    id maximumSelectedAccessories;
+    id $__lazy_storage_$_staticAccessoryIDs;
+    id selectedItems;
 }
 
 @end

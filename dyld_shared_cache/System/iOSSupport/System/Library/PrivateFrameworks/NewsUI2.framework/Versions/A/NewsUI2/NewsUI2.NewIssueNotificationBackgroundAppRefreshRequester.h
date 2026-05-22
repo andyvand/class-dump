@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewIssueNotificationBackgroundAppRefreshRequester
 {
-    MISSING_TYPE *activityScheduler;
-    MISSING_TYPE *paidBundleConfigManager;
+    id activityScheduler;
+    id paidBundleConfigManager;
 }
 
 @end

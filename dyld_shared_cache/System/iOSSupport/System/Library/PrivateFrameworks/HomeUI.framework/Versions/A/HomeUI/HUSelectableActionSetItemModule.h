@@ -6,11 +6,11 @@
 
 #import <HomeUI/HUActionSetItemModule.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface HUSelectableActionSetItemModule : HUActionSetItemModule
 {
-    MISSING_TYPE *selectionController;
+    id selectionController;
     void sceneSectionHeaderTitle;
 }
 

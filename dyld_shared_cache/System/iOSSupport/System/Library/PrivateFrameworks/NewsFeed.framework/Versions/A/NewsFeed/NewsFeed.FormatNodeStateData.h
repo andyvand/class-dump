@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatNodeStateData
 {
-    MISSING_TYPE *debugData;
-    MISSING_TYPE *data;
-    MISSING_TYPE *animations;
-    MISSING_TYPE *sourceItemData;
-    MISSING_TYPE *visibilityInheritance;
+    id debugData;
+    id data;
+    id animations;
+    id sourceItemData;
+    id visibilityInheritance;
 }
 
 @end

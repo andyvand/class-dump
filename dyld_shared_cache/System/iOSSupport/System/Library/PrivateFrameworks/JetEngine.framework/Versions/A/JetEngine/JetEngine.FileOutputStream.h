@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.FileOutputStream
 {
-    MISSING_TYPE *url;
-    MISSING_TYPE *fileHandle;
+    id url;
+    id fileHandle;
 }
 
 @end

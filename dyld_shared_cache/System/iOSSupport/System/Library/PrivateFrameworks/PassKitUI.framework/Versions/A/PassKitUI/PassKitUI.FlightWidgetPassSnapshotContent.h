@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.FlightWidgetPassSnapshotContent
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *snapshot;
+    id context;
+    id snapshot;
 }
 
 @end

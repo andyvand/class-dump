@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecipeFilterRatingsSectionViewModel
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *title;
-    MISSING_TYPE *context;
-    MISSING_TYPE *_selectedRatingLevel;
-    MISSING_TYPE *_isTopRatedEnabled;
-    MISSING_TYPE *_isUnratedEnabled;
-    MISSING_TYPE *_$observationRegistrar;
+    id id;
+    id title;
+    id context;
+    id _selectedRatingLevel;
+    id _isTopRatedEnabled;
+    id _isUnratedEnabled;
+    id _$observationRegistrar;
 }
 
 @end

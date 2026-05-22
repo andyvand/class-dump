@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.TranscriptViewModel
 {
-    MISSING_TYPE *message;
-    MISSING_TYPE *cancellableSet;
-    MISSING_TYPE *hasUnexpectedMessageContent;
-    MISSING_TYPE *messageSenderContact;
-    MISSING_TYPE *userType;
-    MISSING_TYPE *handlerManager;
-    MISSING_TYPE *messageType;
-    MISSING_TYPE *_state;
-    MISSING_TYPE *_sessionViewModel;
-    MISSING_TYPE *_safetyCacheViewModel;
-    MISSING_TYPE *_primaryDetailString;
-    MISSING_TYPE *_secondaryDetailString;
-    MISSING_TYPE *_warningString;
-    MISSING_TYPE *_showLPMWarningIcon;
-    MISSING_TYPE *_resolvedMapItem;
+    id message;
+    id cancellableSet;
+    id hasUnexpectedMessageContent;
+    id messageSenderContact;
+    id userType;
+    id handlerManager;
+    id messageType;
+    id _state;
+    id _sessionViewModel;
+    id _safetyCacheViewModel;
+    id _primaryDetailString;
+    id _secondaryDetailString;
+    id _warningString;
+    id _showLPMWarningIcon;
+    id _resolvedMapItem;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _UIRopeAnimation
 {
-    MISSING_TYPE *_progressValue;
-    MISSING_TYPE *_animations;
-    MISSING_TYPE *_lastIndex;
+    id _progressValue;
+    id _animations;
+    id _lastIndex;
 }
 
 - (void);

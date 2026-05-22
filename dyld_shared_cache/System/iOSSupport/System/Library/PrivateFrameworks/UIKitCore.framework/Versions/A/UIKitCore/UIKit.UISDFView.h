@@ -6,18 +6,16 @@
 
 #import <UIKitCore/UIKit._UIMaterialDefinitionView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.UISDFView : UIKit._UIMaterialDefinitionView
 {
-    MISSING_TYPE *filter;
-    MISSING_TYPE *containerRegistry;
-    MISSING_TYPE *gradientOvalization;
-    MISSING_TYPE *mergeElements;
-    MISSING_TYPE *applySmoothnessViaGaussianRadius;
-    MISSING_TYPE *containerView;
-    MISSING_TYPE *isUsingPortaledContainer;
-    MISSING_TYPE *trackedElements;
+    id filter;
+    id containerRegistry;
+    id gradientOvalization;
+    id mergeElements;
+    id applySmoothnessViaGaussianRadius;
+    id containerView;
+    id isUsingPortaledContainer;
+    id trackedElements;
 }
 
 + (Class);

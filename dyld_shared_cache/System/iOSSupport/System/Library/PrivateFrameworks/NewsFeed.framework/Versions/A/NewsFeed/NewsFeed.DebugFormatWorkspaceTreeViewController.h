@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceTreeViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *$__lazy_storage_$_workspaceTreeViewController;
-    MISSING_TYPE *$__lazy_storage_$_model;
-    MISSING_TYPE *$__lazy_storage_$_uploadPresenter;
-    MISSING_TYPE *$__lazy_storage_$_uploadPackageBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_createWorkspaceBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_exportWorkspaceBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_configureWorkspaceBarButtonItem;
+    id editor;
+    id styler;
+    id $__lazy_storage_$_workspaceTreeViewController;
+    id $__lazy_storage_$_model;
+    id $__lazy_storage_$_uploadPresenter;
+    id $__lazy_storage_$_uploadPackageBarButtonItem;
+    id $__lazy_storage_$_createWorkspaceBarButtonItem;
+    id $__lazy_storage_$_exportWorkspaceBarButtonItem;
+    id $__lazy_storage_$_configureWorkspaceBarButtonItem;
 }
 
 - (void);

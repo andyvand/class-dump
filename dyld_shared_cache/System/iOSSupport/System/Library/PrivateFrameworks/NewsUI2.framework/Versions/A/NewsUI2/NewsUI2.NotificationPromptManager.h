@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NotificationPromptManager
 {
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *notificationConfiguration;
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *pptContext;
-    MISSING_TYPE *settings;
-    MISSING_TYPE *authorizationStatus;
+    id appConfigurationManager;
+    id notificationConfiguration;
+    id notificationService;
+    id pptContext;
+    id settings;
+    id authorizationStatus;
 }
 
 - (long long);

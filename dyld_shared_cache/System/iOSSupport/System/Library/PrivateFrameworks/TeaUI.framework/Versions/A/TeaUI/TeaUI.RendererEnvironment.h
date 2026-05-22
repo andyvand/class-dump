@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.RendererEnvironment
 {
-    MISSING_TYPE *scrollView;
-    MISSING_TYPE *isTesting;
-    MISSING_TYPE *isLiveResizing;
-    MISSING_TYPE *transition;
+    id scrollView;
+    id isTesting;
+    id isLiveResizing;
+    id transition;
 }
 
 - (void);

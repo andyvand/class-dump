@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.AdPolicyLayoutEnvironmentProvider
 {
-    MISSING_TYPE *_environment;
+    id _environment;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactPosterScrollGeometryObserver
 {
-    MISSING_TYPE *_contentOffset;
-    MISSING_TYPE *_contentInsets;
-    MISSING_TYPE *_$observationRegistrar;
+    id _contentOffset;
+    id _contentInsets;
+    id _$observationRegistrar;
 }
 
 @end

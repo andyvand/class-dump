@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.TableOfContentsViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *purchasePresenter;
-    MISSING_TYPE *commandContainer;
-    MISSING_TYPE *pageIdentifierToDisplay;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id purchasePresenter;
+    id commandContainer;
+    id pageIdentifierToDisplay;
 }
 
 - (id);

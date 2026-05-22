@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CollapsingButton
 {
-    MISSING_TYPE *animationDelegate;
-    MISSING_TYPE *isCollapsed;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *anchor;
-    MISSING_TYPE *button;
-    MISSING_TYPE *animatedTitleLabel;
-    MISSING_TYPE *collapsedSize;
-    MISSING_TYPE *animationState;
+    id animationDelegate;
+    id isCollapsed;
+    id configuration;
+    id anchor;
+    id button;
+    id animatedTitleLabel;
+    id collapsedSize;
+    id animationState;
 }
 
 - (void);

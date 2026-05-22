@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KTVerifier, MISSING_TYPE;
+@class KTVerifier;
 
 @interface IMKeyTransparencyController
 {
-    MISSING_TYPE *state;
+    id state;
     KTVerifier *verifier;
 }
 

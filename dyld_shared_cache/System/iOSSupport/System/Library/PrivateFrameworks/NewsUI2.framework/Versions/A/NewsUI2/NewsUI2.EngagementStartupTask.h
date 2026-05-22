@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EngagementStartupTask
 {
-    MISSING_TYPE *engagementUpsellOfferManager;
-    MISSING_TYPE *appReviewRequestManager;
-    MISSING_TYPE *bannerPropertiesProvider;
+    id engagementUpsellOfferManager;
+    id appReviewRequestManager;
+    id bannerPropertiesProvider;
 }
 
 @end

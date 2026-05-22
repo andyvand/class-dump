@@ -6,16 +6,14 @@
 
 #import <HomeUI/HUItemCollectionViewController.h>
 
-@class MISSING_TYPE;
-
 @interface HUShortcutsAccessoryPickerViewController : HUItemCollectionViewController
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *home;
-    MISSING_TYPE *selectionController;
-    MISSING_TYPE *moduleContext;
-    MISSING_TYPE *module;
-    MISSING_TYPE *moduleController;
+    id configuration;
+    id home;
+    id selectionController;
+    id moduleContext;
+    id module;
+    id moduleController;
 }
 
 - (id);

@@ -6,14 +6,12 @@
 
 #import <VFX/VFX.Node.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.MigrationPlaceholderNode : VFX.Node
 {
-    MISSING_TYPE *codingID;
-    MISSING_TYPE *inputCount;
-    MISSING_TYPE *payload;
-    MISSING_TYPE *decodeFn;
+    id codingID;
+    id inputCount;
+    id payload;
+    id decodeFn;
 }
 
 @end

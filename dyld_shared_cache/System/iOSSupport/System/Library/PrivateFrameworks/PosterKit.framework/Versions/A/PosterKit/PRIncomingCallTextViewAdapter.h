@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSNumber, NSString, UIColor, UIFont, UIViewController;
+@class NSNumber, NSString, UIColor, UIFont, UIViewController;
 
 @interface PRIncomingCallTextViewAdapter
 {
-    MISSING_TYPE *coordinator;
-    MISSING_TYPE *hostingController;
-    MISSING_TYPE *emojiHostingController;
+    id coordinator;
+    id hostingController;
+    id emojiHostingController;
 }
 
 - (_Bool);

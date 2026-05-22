@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface DocumentCamera.CameraCaptureButton
 {
-    MISSING_TYPE *outerCircle;
-    MISSING_TYPE *innerCircle;
+    id outerCircle;
+    id innerCircle;
 }
 
 - (id);

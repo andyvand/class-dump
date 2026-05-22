@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsActivityInfo
 {
-    MISSING_TYPE *type;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *title;
-    MISSING_TYPE *url;
-    MISSING_TYPE *activityTraits;
-    MISSING_TYPE *bookmark;
-    MISSING_TYPE *scrollPosition;
-    MISSING_TYPE *feedConfigurationRawValue;
+    id type;
+    id identifier;
+    id title;
+    id url;
+    id activityTraits;
+    id bookmark;
+    id scrollPosition;
+    id feedConfigurationRawValue;
 }
 
 - (id);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineCatalogDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *magazineCategoryConfigService;
-    MISSING_TYPE *magazineGridModelLoader;
-    MISSING_TYPE *magazineGridModelLoaderFactory;
-    MISSING_TYPE *subscriptionService;
+    id delegate;
+    id magazineCategoryConfigService;
+    id magazineGridModelLoader;
+    id magazineGridModelLoaderFactory;
+    id subscriptionService;
 }
 
 @end

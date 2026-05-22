@@ -6,14 +6,12 @@
 
 #import <CoreHapticsTools/CoreHapticsTools.CHTEvent.h>
 
-@class MISSING_TYPE;
-
 @interface CoreHapticsTools.CHTHapticTransientEvent : CoreHapticsTools.CHTEvent
 {
-    MISSING_TYPE *_intensity;
-    MISSING_TYPE *_sharpness;
-    MISSING_TYPE *_hapticFullnessSelect;
-    MISSING_TYPE *_hapticSharpnessSelect;
+    id _intensity;
+    id _sharpness;
+    id _hapticFullnessSelect;
+    id _hapticSharpnessSelect;
 }
 
 - (void);

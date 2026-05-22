@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfRecipeFeedServiceConfigFetcher
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *configManager;
-    MISSING_TYPE *featureAvailability;
+    id name;
+    id appConfigManager;
+    id configManager;
+    id featureAvailability;
 }
 
 @end

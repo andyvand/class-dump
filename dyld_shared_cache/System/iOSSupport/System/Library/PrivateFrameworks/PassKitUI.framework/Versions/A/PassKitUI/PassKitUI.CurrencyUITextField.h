@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.CurrencyUITextField
 {
-    MISSING_TYPE *_amount;
-    MISSING_TYPE *formatter;
-    MISSING_TYPE *pk_isEditable;
+    id _amount;
+    id formatter;
+    id pk_isEditable;
 }
 
 - (void);

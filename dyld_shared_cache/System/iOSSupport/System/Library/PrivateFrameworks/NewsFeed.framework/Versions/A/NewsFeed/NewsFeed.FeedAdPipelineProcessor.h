@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedAdPipelineProcessor
 {
-    MISSING_TYPE *integrator;
-    MISSING_TYPE *bannerAdRequester;
-    MISSING_TYPE *prerollAdRequester;
-    MISSING_TYPE *nativeAdManager;
-    MISSING_TYPE *layoutEnvironmentProvider;
-    MISSING_TYPE *rendererEnvironment;
-    MISSING_TYPE *journal;
+    id integrator;
+    id bannerAdRequester;
+    id prerollAdRequester;
+    id nativeAdManager;
+    id layoutEnvironmentProvider;
+    id rendererEnvironment;
+    id journal;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.HomeEnergyDataRefresh
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *reachable;
-    MISSING_TYPE *reachabilityStatus;
-    MISSING_TYPE *nextPollDate;
-    MISSING_TYPE *missedCacheRefresh;
+    id $defaultActor;
+    id reachable;
+    id reachabilityStatus;
+    id nextPollDate;
+    id missedCacheRefresh;
 }
 
 @end

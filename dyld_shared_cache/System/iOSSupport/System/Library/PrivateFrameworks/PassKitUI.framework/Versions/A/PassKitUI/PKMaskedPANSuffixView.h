@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PKMaskedPANSuffixView
 {
-    MISSING_TYPE *fontSize;
-    MISSING_TYPE *viewSpacing;
-    MISSING_TYPE *suffix;
-    MISSING_TYPE *foregroundColor;
-    MISSING_TYPE *maskedPANLabel;
-    MISSING_TYPE *suffixLabel;
-    MISSING_TYPE *maskedSize;
-    MISSING_TYPE *suffixSize;
+    id fontSize;
+    id viewSpacing;
+    id suffix;
+    id foregroundColor;
+    id maskedPANLabel;
+    id suffixLabel;
+    id maskedSize;
+    id suffixSize;
 }
 
 - (id);

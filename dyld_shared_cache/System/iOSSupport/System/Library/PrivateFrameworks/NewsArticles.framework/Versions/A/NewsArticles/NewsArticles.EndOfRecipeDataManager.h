@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfRecipeDataManager
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *config;
-    MISSING_TYPE *feedPluginManager;
-    MISSING_TYPE *feedService;
-    MISSING_TYPE *feedServiceConfigFetcher;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *offlineManager;
+    id delegate;
+    id config;
+    id feedPluginManager;
+    id feedService;
+    id feedServiceConfigFetcher;
+    id recipeService;
+    id offlineManager;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PUIObjCArtworkProvider
 {
-    MISSING_TYPE *backingProvider;
-    MISSING_TYPE *managedObjectContext;
-    MISSING_TYPE *backingCache;
-    MISSING_TYPE *bucketingStrategy;
+    id backingProvider;
+    id managedObjectContext;
+    id backingCache;
+    id bucketingStrategy;
 }
 
 + (id);

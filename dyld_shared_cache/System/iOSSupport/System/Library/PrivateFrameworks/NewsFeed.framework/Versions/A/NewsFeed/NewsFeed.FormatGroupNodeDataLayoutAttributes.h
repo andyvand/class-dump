@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatGroupNodeDataLayoutAttributes
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *layoutIdentifier;
-    MISSING_TYPE *nodeIdentifier;
-    MISSING_TYPE *layoutAttributes;
-    MISSING_TYPE *frame;
-    MISSING_TYPE *resizing;
-    MISSING_TYPE *zIndex;
-    MISSING_TYPE *visibility;
-    MISSING_TYPE *isUserInteractionEnabled;
-    MISSING_TYPE *accessibilityRole;
-    MISSING_TYPE *maskLayoutAttributes;
-    MISSING_TYPE *style;
-    MISSING_TYPE *auxViewRequirements;
-    MISSING_TYPE *canFlatten;
+    id identifier;
+    id layoutIdentifier;
+    id nodeIdentifier;
+    id layoutAttributes;
+    id frame;
+    id resizing;
+    id zIndex;
+    id visibility;
+    id isUserInteractionEnabled;
+    id accessibilityRole;
+    id maskLayoutAttributes;
+    id style;
+    id auxViewRequirements;
+    id canFlatten;
 }
 
 @end

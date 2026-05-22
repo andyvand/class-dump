@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatOverlayView
 {
-    MISSING_TYPE *selectionFrame;
-    MISSING_TYPE *selectionContentFrame;
-    MISSING_TYPE *metricSelectionFrame;
-    MISSING_TYPE *contentOffset;
-    MISSING_TYPE *contentFrame;
-    MISSING_TYPE *contentTransformation;
-    MISSING_TYPE *selectionView;
-    MISSING_TYPE *metricSelectionView;
-    MISSING_TYPE *rulerView;
-    MISSING_TYPE *viewResultFrame;
+    id selectionFrame;
+    id selectionContentFrame;
+    id metricSelectionFrame;
+    id contentOffset;
+    id contentFrame;
+    id contentTransformation;
+    id selectionView;
+    id metricSelectionView;
+    id rulerView;
+    id viewResultFrame;
 }
 
 - (id);

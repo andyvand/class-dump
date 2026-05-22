@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.ImageQualityManager
 {
-    MISSING_TYPE *documentsRepository;
-    MISSING_TYPE *proofingFlowManager;
-    MISSING_TYPE *detectCornersFlags;
-    MISSING_TYPE *stableWindow;
-    MISSING_TYPE *maxRectTravel;
-    MISSING_TYPE *previousCorners;
-    MISSING_TYPE *rectDistances;
-    MISSING_TYPE *selfieConfidences;
+    id documentsRepository;
+    id proofingFlowManager;
+    id detectCornersFlags;
+    id stableWindow;
+    id maxRectTravel;
+    id previousCorners;
+    id rectDistances;
+    id selfieConfidences;
 }
 
 @end

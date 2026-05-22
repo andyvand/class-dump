@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.CallTranslationCaptionsClients
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *transcripts;
-    MISSING_TYPE *completions;
-    MISSING_TYPE *logger;
-    MISSING_TYPE *isDownlink;
-    MISSING_TYPE *transcriptDidUpdate;
+    id $defaultActor;
+    id identifier;
+    id delegate;
+    id transcripts;
+    id completions;
+    id logger;
+    id isDownlink;
+    id transcriptDidUpdate;
 }
 
 @end

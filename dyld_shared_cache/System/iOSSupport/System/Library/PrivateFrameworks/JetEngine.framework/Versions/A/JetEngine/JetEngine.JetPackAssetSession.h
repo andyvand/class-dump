@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.JetPackAssetSession
 {
-    MISSING_TYPE *requestMap;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *daemonClient;
-    MISSING_TYPE *coreAnalyticsLogger;
-    MISSING_TYPE *observer;
+    id requestMap;
+    id configuration;
+    id daemonClient;
+    id coreAnalyticsLogger;
+    id observer;
 }
 
 @end

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.PodcastsUPPConsumer
 {
-    MISSING_TYPE *subscription;
-    MISSING_TYPE *engineID;
-    MISSING_TYPE *playbackPositionController;
-    MISSING_TYPE *playbackPositionHandler;
+    id subscription;
+    id engineID;
+    id playbackPositionController;
+    id playbackPositionHandler;
 }
 
 + (unsigned int);

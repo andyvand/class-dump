@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.SQLiteStatement
 {
-    MISSING_TYPE *handle;
-    MISSING_TYPE *$__lazy_storage_$_columnMap;
+    id handle;
+    id $__lazy_storage_$_columnMap;
 }
 
 @end

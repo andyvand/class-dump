@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.AssetReaderImplementation
 {
-    MISSING_TYPE *playbackEngine;
-    MISSING_TYPE *$__lazy_storage_$_fullAlignmentTask;
-    MISSING_TYPE *$__lazy_storage_$_fullAlignmentTaskV2;
-    MISSING_TYPE *alignmentCache;
-    MISSING_TYPE *scoutingTasks;
-    MISSING_TYPE *sessionID;
-    MISSING_TYPE *currentItem;
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *subscription;
+    id playbackEngine;
+    id $__lazy_storage_$_fullAlignmentTask;
+    id $__lazy_storage_$_fullAlignmentTaskV2;
+    id alignmentCache;
+    id scoutingTasks;
+    id sessionID;
+    id currentItem;
+    id isEnabled;
+    id subscription;
 }
 
 + (unsigned int);

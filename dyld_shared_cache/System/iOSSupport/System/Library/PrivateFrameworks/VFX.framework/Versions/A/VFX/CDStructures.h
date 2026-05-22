@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSMapTable, NSMutableSet, NSString, VFXMTLRenderPipeline;
+@class NSMapTable, NSMutableSet, NSString, VFXMTLRenderPipeline;
 
 #pragma mark Function Pointers and Blocks
 
@@ -219,8 +219,8 @@ struct __CFXCamera {
         float _field2;
         float _field3;
         float _field4;
-        CDStruct_14d5dc5e _field5;
-        CDStruct_14d5dc5e _field6;
+        CDStruct_95fa7c00 _field5;
+        CDStruct_95fa7c00 _field6;
     } _field2;
     float _field3;
     float _field4;
@@ -242,7 +242,7 @@ struct __CFXCamera {
     unsigned int :1;
     unsigned int :1;
     unsigned int :1;
-    CDStruct_14d5dc5e _field19;
+    CDStruct_95fa7c00 _field19;
     unsigned long long _field20;
 };
 
@@ -308,18 +308,18 @@ struct __CFXCoreEntityHandle {
 struct __CFXCullingContext {
     CDStruct_07f64e32 _field1[16];
     CDStruct_07f64e32 _field2[16];
-    CDStruct_14d5dc5e _field3[16];
-    CDStruct_14d5dc5e _field4[16];
-    CDStruct_14d5dc5e _field5[16];
-    CDStruct_14d5dc5e _field6[16];
-    CDStruct_14d5dc5e _field7[16];
-    CDStruct_14d5dc5e _field8[16];
-    CDStruct_14d5dc5e _field9[16];
-    CDStruct_14d5dc5e _field10[16];
-    CDStruct_14d5dc5e _field11[16];
-    CDStruct_14d5dc5e _field12[16];
-    CDStruct_14d5dc5e _field13[16];
-    MISSING_TYPE *_field14[16];
+    CDStruct_95fa7c00 _field3[16];
+    CDStruct_95fa7c00 _field4[16];
+    CDStruct_95fa7c00 _field5[16];
+    CDStruct_95fa7c00 _field6[16];
+    CDStruct_95fa7c00 _field7[16];
+    CDStruct_95fa7c00 _field8[16];
+    CDStruct_95fa7c00 _field9[16];
+    CDStruct_95fa7c00 _field10[16];
+    CDStruct_95fa7c00 _field11[16];
+    CDStruct_95fa7c00 _field12[16];
+    CDStruct_95fa7c00 _field13[16];
+    id _field14[16];
     unsigned char _field15;
     unsigned char _field16;
     unsigned char _field17;
@@ -348,8 +348,8 @@ struct __CFXCullingContext {
     double _field40;
     double _field41;
     CDStruct_183601bc _field42;
-    CDStruct_14d5dc5e _field43;
-    CDStruct_14d5dc5e _field44;
+    CDStruct_95fa7c00 _field43;
+    CDStruct_95fa7c00 _field44;
     struct {
         CDStruct_183601bc *_field1;
         unsigned int _field2;
@@ -566,7 +566,7 @@ struct __CFXMeshElement {
     float _field12;
     void *_field13;
     struct __CFXMeshSource *_field14;
-    MISSING_TYPE *_field15[2];
+    id _field15[2];
     CDStruct_183601bc *_field16;
     unsigned int _field17;
 };
@@ -642,7 +642,7 @@ struct __CFXNode {
     struct __CFXNode *_field3;
     struct __CFXNode *_field4;
     int _field5;
-    CDStruct_4ed99b4e _field6;
+    CDStruct_b5c1b465 _field6;
     CDStruct_183601bc *_field7;
     _Bool _field8;
     float _field9;
@@ -1232,11 +1232,11 @@ struct btVehicleRaycaster {
 struct cfxContactCallback;
 
 struct float2x3 {
-    MISSING_TYPE *columns[2];
+    id columns[2];
 };
 
 struct float4x4 {
-    MISSING_TYPE *columns[4];
+    id columns[4];
 };
 
 struct os_unfair_lock_s {
@@ -1305,36 +1305,36 @@ struct vector<unsigned short, std::allocator<unsigned short>> {
 };
 
 struct view_constants {
-    CDStruct_14d5dc5e view_from_crworld[2];
-    CDStruct_14d5dc5e proj_from_crworld[2];
-    CDStruct_14d5dc5e proj_from_view[2];
-    CDStruct_14d5dc5e view_from_proj[2];
-    MISSING_TYPE *crws_camera_pos[2];
-    CDStruct_14d5dc5e inverseViewProjectionMatrix;
-    CDStruct_14d5dc5e crInverseViewProjectionMatrix;
-    CDStruct_14d5dc5e crws_from_viewport[2];
+    CDStruct_95fa7c00 view_from_crworld[2];
+    CDStruct_95fa7c00 proj_from_crworld[2];
+    CDStruct_95fa7c00 proj_from_view[2];
+    CDStruct_95fa7c00 view_from_proj[2];
+    id crws_camera_pos[2];
+    CDStruct_95fa7c00 inverseViewProjectionMatrix;
+    CDStruct_95fa7c00 crInverseViewProjectionMatrix;
+    CDStruct_95fa7c00 crws_from_viewport[2];
     unsigned int worldReferencePosition__renderTargetSize__cameraCount;
     unsigned int useVertexAmplification;
     unsigned int ndcFromScreen__nearFar__linearizationFactors__padding;
     float fadeOpacity;
-    MISSING_TYPE *renderTargetDepthStencilFormatSampleCount__vrrMapPhysicalSizeArray[2];
-    MISSING_TYPE *viewport_percents[2];
-    CDStruct_14d5dc5e vrrMapScreenSize__portal_clip_plane_deprecated__lastframe_proj_from_crworld[2];
-    MISSING_TYPE *fogParameters__fogColor;
+    id renderTargetDepthStencilFormatSampleCount__vrrMapPhysicalSizeArray[2];
+    id viewport_percents[2];
+    CDStruct_95fa7c00 vrrMapScreenSize__portal_clip_plane_deprecated__lastframe_proj_from_crworld[2];
+    id fogParameters__fogColor;
 };
 
 #if 0
 // Names with conflicting types:
 typedef struct {
-    CDStruct_14d5dc5e crWorldToViewArray[2];
-    CDStruct_14d5dc5e crWorldToPhysicalCameraArray[2];
-    CDStruct_14d5dc5e crWorldToProjArray[2];
-    CDStruct_14d5dc5e crWorldToHomographyArray[2];
-    CDStruct_14d5dc5e viewToProjArray[2];
-    CDStruct_14d5dc5e projToViewArray[2];
-    MISSING_TYPE *crwsCameraPositionArray[2];
-    MISSING_TYPE *vrrMapPhysicalSizeArray[2];
-    MISSING_TYPE *viewportPercentsArray[2];
+    CDStruct_95fa7c00 crWorldToViewArray[2];
+    CDStruct_95fa7c00 crWorldToPhysicalCameraArray[2];
+    CDStruct_95fa7c00 crWorldToProjArray[2];
+    CDStruct_95fa7c00 crWorldToHomographyArray[2];
+    CDStruct_95fa7c00 viewToProjArray[2];
+    CDStruct_95fa7c00 projToViewArray[2];
+    id crwsCameraPositionArray[2];
+    id vrrMapPhysicalSizeArray[2];
+    id viewportPercentsArray[2];
     unsigned int viewportPercents__renderTargetSize__vrrMapScreenSize__renderTargetColorFormats__renderTargetDepthStencilFormatSampleCount__tonemapInPlace;
     unsigned int viewportCount;
     unsigned int useVertexAmplification;
@@ -1342,8 +1342,8 @@ typedef struct {
     unsigned int cameraEye;
     unsigned short additiveTintColor__vignettingFadeoutDistanceNormalization;
     unsigned short vignettingTotalFadeoutDistance;
-    MISSING_TYPE *vignettingPivotPosition__portalClipPlane;
-} VFX_RE_C_ViewConstants_s_9f3d4270;
+    id vignettingPivotPosition__portalClipPlane;
+} VFX_RE_C_ViewConstants_s_2da9cedc;
 
 typedef struct {
     union {
@@ -1493,20 +1493,20 @@ typedef struct {
 } CDStruct_be03e5ff;
 
 typedef struct {
-    MISSING_TYPE *_field1[2];
-} CDStruct_a7a0fb92;
+    id _field1[2];
+} CDStruct_8666bb01;
 
 typedef struct {
-    MISSING_TYPE *_field1[3];
-} CDStruct_d80e62f2;
+    id _field1[3];
+} CDStruct_c27faaab;
 
 typedef struct {
-    MISSING_TYPE *columns[4];
-} CDStruct_14d5dc5e;
+    id columns[4];
+} CDStruct_95fa7c00;
 
 typedef struct {
-    MISSING_TYPE *screenResolution__worldPlanes[6];
-} CDStruct_4c2781bd;
+    id screenResolution__worldPlanes[6];
+} CDStruct_6c538f60;
 
 typedef struct {
     unsigned char _field1[8];
@@ -1802,15 +1802,15 @@ typedef struct {
 } CDStruct_4c83c94d;
 
 typedef struct {
-    CDStruct_14d5dc5e _field1;
+    CDStruct_95fa7c00 _field1;
     union _field2;
-} CDStruct_4ed99b4e;
+} CDStruct_b5c1b465;
 
 typedef struct {
-    CDStruct_14d5dc5e modelViewTransform;
-    CDStruct_14d5dc5e modelViewProjectionTransform;
-    CDStruct_14d5dc5e projectionTransform;
-} CDStruct_c6fc9200;
+    CDStruct_95fa7c00 modelViewTransform;
+    CDStruct_95fa7c00 modelViewProjectionTransform;
+    CDStruct_95fa7c00 projectionTransform;
+} CDStruct_f3b280c4;
 
 typedef struct {
     CDStruct_69aaf2a1 _field1;
@@ -1896,8 +1896,8 @@ typedef struct {
 
 // Ambiguous groups
 typedef struct {
-    MISSING_TYPE *vector;
-} CDStruct_0e8a9a91;
+    id vector;
+} CDStruct_da14d750;
 
 typedef struct {
     _Bool _field1;

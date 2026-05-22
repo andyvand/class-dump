@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *resolver;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *contextBuilder;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *magazineMoreActionsFactory;
+    id controller;
+    id resolver;
+    id tracker;
+    id contextBuilder;
+    id navigator;
+    id magazineMoreActionsFactory;
 }
 
 @end

@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SharedImageCache
 {
-    MISSING_TYPE *memoryCache;
+    id memoryCache;
 }
 
 - (void);

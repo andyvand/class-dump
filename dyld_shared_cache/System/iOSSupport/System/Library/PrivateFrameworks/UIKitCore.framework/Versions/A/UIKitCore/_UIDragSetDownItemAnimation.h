@@ -48,8 +48,8 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _nearCompletionHandler;
     struct CAPoint3D _center;
     struct CGRect _targetFrame;
-    CDUnion_5898235e _initialVelocity;
-    CDUnion_5898235e _initialTargetVelocity;
+    CDUnion_84fc7ef9 _initialVelocity;
+    CDUnion_84fc7ef9 _initialTargetVelocity;
 }
 
 - (_Bool);

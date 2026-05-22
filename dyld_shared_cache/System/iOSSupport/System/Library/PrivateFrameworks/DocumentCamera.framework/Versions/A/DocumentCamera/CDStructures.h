@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 #pragma mark Blocks
 
 typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
@@ -70,8 +68,8 @@ struct _NSRange {
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    MISSING_TYPE *_field1[3];
-} CDStruct_d80e62f2;
+    id _field1[3];
+} CDStruct_c27faaab;
 
 typedef struct {
     long long _field1;

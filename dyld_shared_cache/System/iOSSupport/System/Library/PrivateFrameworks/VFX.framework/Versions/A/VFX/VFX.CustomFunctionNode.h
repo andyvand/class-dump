@@ -6,16 +6,14 @@
 
 #import <VFX/VFX.RenderGraphNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.CustomFunctionNode : VFX.RenderGraphNode
 {
-    MISSING_TYPE *reflection;
-    MISSING_TYPE *inputTypes;
-    MISSING_TYPE *inputNames;
-    MISSING_TYPE *inputValues;
-    MISSING_TYPE *outputTypes;
-    MISSING_TYPE *outputNames;
+    id reflection;
+    id inputTypes;
+    id inputNames;
+    id inputValues;
+    id outputTypes;
+    id outputNames;
 }
 
 @end

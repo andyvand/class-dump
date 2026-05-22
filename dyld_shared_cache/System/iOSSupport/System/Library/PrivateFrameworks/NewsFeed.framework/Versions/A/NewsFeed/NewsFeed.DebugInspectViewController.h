@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugInspectViewController
 {
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *key;
-    MISSING_TYPE *result;
-    MISSING_TYPE *factory;
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *inspector;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *inventory;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *webEmbedDataSourceService;
-    MISSING_TYPE *searchController;
-    MISSING_TYPE *radarAttachmentProvider;
-    MISSING_TYPE *history;
+    id cloudContext;
+    id feedPersonalizer;
+    id key;
+    id result;
+    id factory;
+    id dataSource;
+    id inspector;
+    id commandCenter;
+    id inventory;
+    id tableView;
+    id headlineService;
+    id recipeService;
+    id tagService;
+    id webEmbedDataSourceService;
+    id searchController;
+    id radarAttachmentProvider;
+    id history;
 }
 
 - (void);

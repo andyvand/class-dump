@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatTextNodeStyle
 {
-    MISSING_TYPE *_identifier;
-    MISSING_TYPE *class;
-    MISSING_TYPE *_selectors;
-    MISSING_TYPE *font;
-    MISSING_TYPE *fill;
-    MISSING_TYPE *borders;
-    MISSING_TYPE *shadow;
-    MISSING_TYPE *transforms;
-    MISSING_TYPE *paragraphStyle;
-    MISSING_TYPE *tracking;
-    MISSING_TYPE *alpha;
-    MISSING_TYPE *strikethrough;
-    MISSING_TYPE *underline;
-    MISSING_TYPE *ignoresSmartInvertColors;
-    MISSING_TYPE *baselineOffset;
-    MISSING_TYPE *encapsulation;
+    id _identifier;
+    id class;
+    id _selectors;
+    id font;
+    id fill;
+    id borders;
+    id shadow;
+    id transforms;
+    id paragraphStyle;
+    id tracking;
+    id alpha;
+    id strikethrough;
+    id underline;
+    id ignoresSmartInvertColors;
+    id baselineOffset;
+    id encapsulation;
 }
 
 @end

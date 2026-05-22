@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardMetadataViewModel
 {
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_metadata;
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_$observationRegistrar;
+    id _$scope;
+    id _metadata;
+    id _recipeID;
+    id _$observationRegistrar;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.GroupLayoutKey
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *bindings;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *factory;
-    MISSING_TYPE *layoutContext;
+    id name;
+    id bindings;
+    id identifier;
+    id factory;
+    id layoutContext;
 }
 
 @end

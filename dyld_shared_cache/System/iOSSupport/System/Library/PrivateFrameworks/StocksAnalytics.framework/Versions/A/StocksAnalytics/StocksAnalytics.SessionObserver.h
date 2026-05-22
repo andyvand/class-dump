@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface StocksAnalytics.SessionObserver
 {
-    MISSING_TYPE *window;
-    MISSING_TYPE *sessionManager;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *userContext;
-    MISSING_TYPE *client;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *watchlistManager;
-    MISSING_TYPE *appIntentExecutionTypeProvider;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *kind;
-    MISSING_TYPE *userEventHistoryStorage;
+    id window;
+    id sessionManager;
+    id cloudContext;
+    id userContext;
+    id client;
+    id appConfigurationManager;
+    id watchlistManager;
+    id appIntentExecutionTypeProvider;
+    id tracker;
+    id kind;
+    id userEventHistoryStorage;
 }
 
 - (void);

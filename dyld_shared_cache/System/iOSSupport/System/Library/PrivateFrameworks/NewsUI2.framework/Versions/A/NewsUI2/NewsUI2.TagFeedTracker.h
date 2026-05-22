@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedTracker
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *urlReferralData;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *sportsTracker;
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *blueprintLayoutProvider;
-    MISSING_TYPE *blueprintLayoutCollectionProvider;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *headlineExposureTracker;
-    MISSING_TYPE *trackerConfiguration;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *feedDescriptor;
-    MISSING_TYPE *articleViewingSession;
-    MISSING_TYPE *recipeViewingSession;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *sectionPositionProvider;
-    MISSING_TYPE *feedDismissingManager;
+    id delegate;
+    id urlReferralData;
+    id tracker;
+    id sportsTracker;
+    id blueprintProvider;
+    id blueprintLayoutProvider;
+    id blueprintLayoutCollectionProvider;
+    id newsActivityManager;
+    id scienceDataFactory;
+    id channelDataFactory;
+    id articleDataFactory;
+    id headlineExposureTracker;
+    id trackerConfiguration;
+    id tagService;
+    id puzzleHistoryService;
+    id feedDescriptor;
+    id articleViewingSession;
+    id recipeViewingSession;
+    id contentAvailabilityValidator;
+    id sectionPositionProvider;
+    id feedDismissingManager;
 }
 
 @end

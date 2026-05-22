@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatEditorStatusView
 {
-    MISSING_TYPE *onErrorTap;
-    MISSING_TYPE *errorButton;
-    MISSING_TYPE *onServerTap;
-    MISSING_TYPE *serverButton;
-    MISSING_TYPE *maxWidth;
-    MISSING_TYPE *statusLabel;
-    MISSING_TYPE *editor;
-    MISSING_TYPE *progressView;
-    MISSING_TYPE *serverReloadQueueLabel;
-    MISSING_TYPE *statusLabelBranchIcon;
+    id onErrorTap;
+    id errorButton;
+    id onServerTap;
+    id serverButton;
+    id maxWidth;
+    id statusLabel;
+    id editor;
+    id progressView;
+    id serverReloadQueueLabel;
+    id statusLabelBranchIcon;
 }
 
 - (struct CGSize);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.DarwinNotificationWrapper
 {
-    MISSING_TYPE *token;
-    MISSING_TYPE *notificationName;
-    MISSING_TYPE *handler;
-    MISSING_TYPE *hasSubscribed;
+    id token;
+    id notificationName;
+    id handler;
+    id hasSubscribed;
 }
 
 - (void);

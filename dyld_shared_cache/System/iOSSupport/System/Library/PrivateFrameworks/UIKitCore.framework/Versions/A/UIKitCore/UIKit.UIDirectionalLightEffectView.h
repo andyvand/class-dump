@@ -6,15 +6,13 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.UIDirectionalLightEffectView : UIView
 {
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *idleTimer;
-    MISSING_TYPE *_isPaused;
-    MISSING_TYPE *fillView;
-    MISSING_TYPE *idleTimerImpl;
+    id configuration;
+    id idleTimer;
+    id _isPaused;
+    id fillView;
+    id idleTimerImpl;
 }
 
 - (id);

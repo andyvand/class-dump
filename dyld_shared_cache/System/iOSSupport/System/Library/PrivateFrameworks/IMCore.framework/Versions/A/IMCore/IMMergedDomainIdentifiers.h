@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSString;
+@class NSArray, NSString;
 
 @interface IMMergedDomainIdentifiers
 {
-    MISSING_TYPE *mergedDomainIdentifiers;
+    id mergedDomainIdentifiers;
 }
 
 - (void);

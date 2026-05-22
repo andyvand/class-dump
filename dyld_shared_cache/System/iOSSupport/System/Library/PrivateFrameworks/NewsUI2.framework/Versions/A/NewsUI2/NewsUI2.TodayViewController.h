@@ -4,34 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayViewController
 {
-    MISSING_TYPE *_lastImpression;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *blueprintViewController;
-    MISSING_TYPE *blueprintSelectionProvider;
-    MISSING_TYPE *blueprintLayoutProvider;
-    MISSING_TYPE *sharingActivityProviderFactory;
-    MISSING_TYPE *refreshStateMachine;
-    MISSING_TYPE *visibilityEventManager;
-    MISSING_TYPE *refreshControl;
-    MISSING_TYPE *commands;
-    MISSING_TYPE *loadingGate;
-    MISSING_TYPE *didAppearCompletions;
-    MISSING_TYPE *didDisappearCompletions;
-    MISSING_TYPE *mastheadPaywall;
-    MISSING_TYPE *mastheadViewProviderDelegate;
-    MISSING_TYPE *offlineBannerCoordinator;
-    MISSING_TYPE *deferLoadingContent;
-    MISSING_TYPE *tipManager;
-    MISSING_TYPE *tipConfigFactory;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *paywallBarButtonItemGroup;
-    MISSING_TYPE *welcomeStatus;
-    MISSING_TYPE *welcomeStatusTask;
+    id _lastImpression;
+    id styler;
+    id eventHandler;
+    id blueprintViewController;
+    id blueprintSelectionProvider;
+    id blueprintLayoutProvider;
+    id sharingActivityProviderFactory;
+    id refreshStateMachine;
+    id visibilityEventManager;
+    id refreshControl;
+    id commands;
+    id loadingGate;
+    id didAppearCompletions;
+    id didDisappearCompletions;
+    id mastheadPaywall;
+    id mastheadViewProviderDelegate;
+    id offlineBannerCoordinator;
+    id deferLoadingContent;
+    id tipManager;
+    id tipConfigFactory;
+    id tracker;
+    id paywallBarButtonItemGroup;
+    id welcomeStatus;
+    id welcomeStatusTask;
 }
 
 - (void);

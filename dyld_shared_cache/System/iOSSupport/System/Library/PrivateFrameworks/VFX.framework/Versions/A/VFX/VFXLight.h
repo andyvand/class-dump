@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSData, NSMutableDictionary, NSString, VFXIESProfile, VFXMaterialProperty, VFXOrderedDictionary, VFXWorld;
+@class NSArray, NSData, NSMutableDictionary, NSString, VFXIESProfile, VFXMaterialProperty, VFXOrderedDictionary, VFXWorld;
 
 @interface VFXLight
 {
@@ -43,10 +43,10 @@
     long long _probeType;
     long long _probeUpdateType;
     _Bool _parallaxCorrectionEnabled;
-    MISSING_TYPE *_probeExtents;
-    MISSING_TYPE *_probeOffset;
-    MISSING_TYPE *_parallaxExtentsFactor;
-    MISSING_TYPE *_parallaxCenterOffset;
+    id _probeExtents;
+    id _probeOffset;
+    id _parallaxExtentsFactor;
+    id _parallaxCenterOffset;
     float _attenuationDistance;
     float _spotInnerAngle;
     float _spotOuterAngle;
@@ -56,7 +56,7 @@
     NSData *_sphericalHarmonics;
     VFXMaterialProperty *_probeEnvironment;
     long long _areaType;
-    MISSING_TYPE *_areaExtents;
+    id _areaExtents;
     NSArray *_areaPolygonVertices;
     _Bool _drawsArea;
     _Bool _doubleSided;
@@ -76,7 +76,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -138,12 +138,12 @@
 - (void);
 - (void);
 - (long long);
-- (MISSING_TYPE *);
-- (MISSING_TYPE *);
 - (id);
-- (MISSING_TYPE *);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (float);
 - (float);
 - (_Bool);
@@ -156,7 +156,7 @@
 - (_Bool);
 - (long long);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -229,7 +229,7 @@
 
 // Remaining properties
 @property(readonly) NSArray *animationKeys;
-@property(nonatomic) MISSING_TYPE *areaExtents;
+@property(nonatomic) id areaExtents;
 @property(copy, nonatomic) NSArray *areaPolygonVertices;
 @property(nonatomic) long long areaType;
 @property(nonatomic) float attenuationDistance;
@@ -251,13 +251,13 @@
 @property(nonatomic) float maximumShadowDistance;
 @property(retain, nonatomic) NSString *name;
 @property(nonatomic) float orthographicScale;
-@property(nonatomic) MISSING_TYPE *parallaxCenterOffset;
+@property(nonatomic) id parallaxCenterOffset;
 @property(nonatomic) _Bool parallaxCorrectionEnabled;
-@property(nonatomic) MISSING_TYPE *parallaxExtentsFactor;
+@property(nonatomic) id parallaxExtentsFactor;
 @property(readonly) id presentationObject;
 @property(readonly, nonatomic) VFXMaterialProperty *probeEnvironment;
-@property(nonatomic) MISSING_TYPE *probeExtents;
-@property(nonatomic) MISSING_TYPE *probeOffset;
+@property(nonatomic) id probeExtents;
+@property(nonatomic) id probeOffset;
 @property(nonatomic) long long probeType;
 @property(nonatomic) long long probeUpdateType;
 @property(nonatomic) _Bool sampleDistributedShadowMaps;

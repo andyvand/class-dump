@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.OfferUpsellScenarioProvider
 {
-    MISSING_TYPE *observers;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *didProcessInitialOffer;
+    id observers;
+    id offerManager;
+    id didProcessInitialOffer;
 }
 
 - (long long);

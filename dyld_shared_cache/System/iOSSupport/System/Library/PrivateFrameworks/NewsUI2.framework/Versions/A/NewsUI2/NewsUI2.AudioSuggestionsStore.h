@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioSuggestionsStore
 {
-    MISSING_TYPE *suggestionsService;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *lazyPersistentStore;
-    MISSING_TYPE *storeQueue;
-    MISSING_TYPE *refreshDeduper;
+    id suggestionsService;
+    id headlineService;
+    id cloudContext;
+    id lazyPersistentStore;
+    id storeQueue;
+    id refreshDeduper;
 }
 
 @end

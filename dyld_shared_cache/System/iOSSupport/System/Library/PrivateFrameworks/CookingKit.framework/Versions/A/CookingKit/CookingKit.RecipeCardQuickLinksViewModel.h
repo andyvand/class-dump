@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardQuickLinksViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_cardID;
-    MISSING_TYPE *_placement;
-    MISSING_TYPE *_isSaved;
-    MISSING_TYPE *_shareableRecipe;
-    MISSING_TYPE *_savingEnabled;
-    MISSING_TYPE *_externalShareAction;
-    MISSING_TYPE *_isFocusable;
-    MISSING_TYPE *_hasReadStorySource;
-    MISSING_TYPE *_openStorySourceAction;
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _cardID;
+    id _placement;
+    id _isSaved;
+    id _shareableRecipe;
+    id _savingEnabled;
+    id _externalShareAction;
+    id _isFocusable;
+    id _hasReadStorySource;
+    id _openStorySourceAction;
+    id _$scope;
+    id _$observationRegistrar;
 }
 
 @end

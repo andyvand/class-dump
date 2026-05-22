@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.ArchiveExporter
 {
-    MISSING_TYPE *archivingOptions;
-    MISSING_TYPE *exporter;
-    MISSING_TYPE *archiveManifest;
+    id archivingOptions;
+    id exporter;
+    id archiveManifest;
 }
 
 @end

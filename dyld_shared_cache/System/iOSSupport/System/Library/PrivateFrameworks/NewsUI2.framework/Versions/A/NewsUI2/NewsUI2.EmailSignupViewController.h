@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EmailSignupViewController
 {
-    MISSING_TYPE *model;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *obController;
-    MISSING_TYPE *micaView;
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *contentViewHeightConstraint;
-    MISSING_TYPE *signupButton;
-    MISSING_TYPE *notNowButton;
+    id model;
+    id eventHandler;
+    id obController;
+    id micaView;
+    id imageView;
+    id contentViewHeightConstraint;
+    id signupButton;
+    id notNowButton;
 }
 
 - (void);

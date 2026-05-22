@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.SharedArticleBottomPaletteFeatureDescriptor
 {
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *sharedItemManager;
-    MISSING_TYPE *attributionViewReuseManager;
-    MISSING_TYPE *styler;
+    id featureAvailability;
+    id sharedItemManager;
+    id attributionViewReuseManager;
+    id styler;
 }
 
 @end

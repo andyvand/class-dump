@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsDataServiceRequestFetcher
 {
-    MISSING_TYPE *connection;
-    MISSING_TYPE *jsonDecoder;
-    MISSING_TYPE *resourceService;
-    MISSING_TYPE *authTokenManager;
-    MISSING_TYPE *callbackQueue;
+    id connection;
+    id jsonDecoder;
+    id resourceService;
+    id authTokenManager;
+    id callbackQueue;
 }
 
 @end

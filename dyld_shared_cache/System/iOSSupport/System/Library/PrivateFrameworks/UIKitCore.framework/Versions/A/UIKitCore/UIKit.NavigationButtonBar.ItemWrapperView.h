@@ -6,12 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface UIKit.NavigationButtonBar.ItemWrapperView : UIView
 {
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *tamicAdaptorView;
+    id contentView;
+    id tamicAdaptorView;
 }
 
 - (void);

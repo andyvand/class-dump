@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.AMSInMemoryMetricsEventRecorder
 {
-    MISSING_TYPE *metrics;
-    MISSING_TYPE *accountProvider;
-    MISSING_TYPE *events;
-    MISSING_TYPE *flushTimeInterval;
-    MISSING_TYPE *maximumBatchSize;
-    MISSING_TYPE *flushQueue;
+    id metrics;
+    id accountProvider;
+    id events;
+    id flushTimeInterval;
+    id maximumBatchSize;
+    id flushQueue;
 }
 
 @end

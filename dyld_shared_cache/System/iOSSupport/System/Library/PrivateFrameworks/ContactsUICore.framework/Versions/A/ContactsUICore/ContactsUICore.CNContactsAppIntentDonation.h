@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.CNContactsAppIntentDonation
 {
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *contactIdentifier;
+    id identifier;
+    id contactIdentifier;
 }
 
 - (id);

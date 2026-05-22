@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXChartDescriptor, MISSING_TYPE;
+@class AXChartDescriptor;
 
 @interface TeaCharts.LineSeriesAccessibilityElement
 {
-    MISSING_TYPE *series;
-    MISSING_TYPE *chartModel;
-    MISSING_TYPE *interactor;
-    MISSING_TYPE *dataElements;
-    MISSING_TYPE *xAxisDateFormatter;
+    id series;
+    id chartModel;
+    id interactor;
+    id dataElements;
+    id xAxisDateFormatter;
 }
 
 - (id);

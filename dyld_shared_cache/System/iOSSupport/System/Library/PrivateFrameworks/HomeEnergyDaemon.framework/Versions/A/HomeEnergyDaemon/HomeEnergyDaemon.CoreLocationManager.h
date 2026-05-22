@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.CoreLocationManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *locationManager;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *useRealCoreLocation;
-    MISSING_TYPE *keepLoopingForMockLocations;
-    MISSING_TYPE *mockLocation;
+    id $defaultActor;
+    id locationManager;
+    id delegate;
+    id useRealCoreLocation;
+    id keepLoopingForMockLocations;
+    id mockLocation;
 }
 
 @end

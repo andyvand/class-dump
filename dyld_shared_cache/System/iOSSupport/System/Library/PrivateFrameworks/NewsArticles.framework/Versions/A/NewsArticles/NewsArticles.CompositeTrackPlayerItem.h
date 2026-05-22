@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.CompositeTrackPlayerItem
 {
-    MISSING_TYPE *playerItem;
-    MISSING_TYPE *boundaryOverride;
+    id playerItem;
+    id boundaryOverride;
 }
 
 @end

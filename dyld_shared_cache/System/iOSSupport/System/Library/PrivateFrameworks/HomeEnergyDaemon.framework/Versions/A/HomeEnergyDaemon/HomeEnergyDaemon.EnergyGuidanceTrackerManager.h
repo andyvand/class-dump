@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.EnergyGuidanceTrackerManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *energyGuidanceTracker;
+    id $defaultActor;
+    id energyGuidanceTracker;
 }
 
 @end

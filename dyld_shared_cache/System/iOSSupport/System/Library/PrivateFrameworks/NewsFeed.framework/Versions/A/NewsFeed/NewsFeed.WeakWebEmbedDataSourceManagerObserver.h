@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WeakWebEmbedDataSourceManagerObserver
 {
-    MISSING_TYPE *observer;
-    MISSING_TYPE *dataVisualization;
+    id observer;
+    id dataVisualization;
 }
 
 @end

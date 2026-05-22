@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SuggestionTodayFeedGroupEmitterCursor.Suggestion
 {
-    MISSING_TYPE *cluster;
-    MISSING_TYPE *tag;
-    MISSING_TYPE *headlines;
+    id cluster;
+    id tag;
+    id headlines;
 }
 
 @end

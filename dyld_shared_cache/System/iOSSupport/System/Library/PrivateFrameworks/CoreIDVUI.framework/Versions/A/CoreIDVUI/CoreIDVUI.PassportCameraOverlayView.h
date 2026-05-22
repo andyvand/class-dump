@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.PassportCameraOverlayView
 {
-    MISSING_TYPE *horizontalPadding;
-    MISSING_TYPE *passportAnchor;
-    MISSING_TYPE *outlineLayer;
-    MISSING_TYPE *dashedLineLayer;
-    MISSING_TYPE *mrzLayer;
-    MISSING_TYPE *overlayContainerLayer;
-    MISSING_TYPE *cutoutOverlayLayer;
-    MISSING_TYPE *topGradientLayer;
-    MISSING_TYPE *outlineGradientMaskLayer;
-    MISSING_TYPE *blackoutLayer;
-    MISSING_TYPE *gradientStartY;
-    MISSING_TYPE *gradientEndY;
-    MISSING_TYPE *outlineGradientMaskStartY;
-    MISSING_TYPE *outlineGradientMaskEndY;
+    id horizontalPadding;
+    id passportAnchor;
+    id outlineLayer;
+    id dashedLineLayer;
+    id mrzLayer;
+    id overlayContainerLayer;
+    id cutoutOverlayLayer;
+    id topGradientLayer;
+    id outlineGradientMaskLayer;
+    id blackoutLayer;
+    id gradientStartY;
+    id gradientEndY;
+    id outlineGradientMaskStartY;
+    id outlineGradientMaskEndY;
 }
 
 - (id);

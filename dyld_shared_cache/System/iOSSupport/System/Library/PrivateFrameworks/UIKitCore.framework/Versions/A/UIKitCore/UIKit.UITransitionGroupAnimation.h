@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface UIKit.UITransitionGroupAnimation
 {
-    MISSING_TYPE *hasAnyAnimationRetargeted;
-    MISSING_TYPE *completionHandler;
-    MISSING_TYPE *pendingAnimations;
+    id hasAnyAnimationRetargeted;
+    id completionHandler;
+    id pendingAnimations;
 }
 
 @end

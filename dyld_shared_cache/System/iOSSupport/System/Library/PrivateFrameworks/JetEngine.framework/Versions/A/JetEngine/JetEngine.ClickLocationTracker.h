@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.ClickLocationTracker
 {
-    MISSING_TYPE *dataMapping;
-    MISSING_TYPE *onDataSerialized;
+    id dataMapping;
+    id onDataSerialized;
 }
 
 @end

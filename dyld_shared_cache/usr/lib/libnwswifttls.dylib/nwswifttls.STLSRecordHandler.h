@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface nwswifttls.STLSRecordHandler
 {
-    MISSING_TYPE *recordHandler;
-    MISSING_TYPE *logString;
+    id recordHandler;
+    id logString;
 }
 
 - (void);

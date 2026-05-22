@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PersistentOfflineFeedManifest
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *lastKnownValue;
-    MISSING_TYPE *lastKnownCreatedAt;
-    MISSING_TYPE *lastKnownUpdatedAt;
-    MISSING_TYPE *contentContext;
-    MISSING_TYPE *updatedAtSetting;
+    id name;
+    id lastKnownValue;
+    id lastKnownCreatedAt;
+    id lastKnownUpdatedAt;
+    id contentContext;
+    id updatedAtSetting;
 }
 
 @end

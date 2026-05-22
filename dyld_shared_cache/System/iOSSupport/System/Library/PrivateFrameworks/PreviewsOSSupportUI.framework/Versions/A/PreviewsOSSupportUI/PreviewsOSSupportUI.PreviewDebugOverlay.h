@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PreviewsOSSupportUI.PreviewDebugOverlay
 {
-    MISSING_TYPE *messageCount;
-    MISSING_TYPE *secondsSinceShown;
-    MISSING_TYPE *secondsTimer;
-    MISSING_TYPE *identifier;
-    MISSING_TYPE *size;
-    MISSING_TYPE *settingsEnabled;
-    MISSING_TYPE *forceEnabled;
-    MISSING_TYPE *edge;
-    MISSING_TYPE *parent;
-    MISSING_TYPE *$__lazy_storage_$_view;
+    id messageCount;
+    id secondsSinceShown;
+    id secondsTimer;
+    id identifier;
+    id size;
+    id settingsEnabled;
+    id forceEnabled;
+    id edge;
+    id parent;
+    id $__lazy_storage_$_view;
 }
 
 - (id);

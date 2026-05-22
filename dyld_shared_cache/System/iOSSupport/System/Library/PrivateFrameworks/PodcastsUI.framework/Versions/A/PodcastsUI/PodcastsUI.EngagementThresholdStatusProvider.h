@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PodcastsUI.EngagementThresholdStatusProvider
 {
-    MISSING_TYPE *managedObjectContext;
-    MISSING_TYPE *userDefaults;
+    id managedObjectContext;
+    id userDefaults;
 }
 
 @end

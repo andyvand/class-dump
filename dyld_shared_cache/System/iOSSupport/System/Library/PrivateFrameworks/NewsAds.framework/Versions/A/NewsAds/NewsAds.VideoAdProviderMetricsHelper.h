@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.VideoAdProviderMetricsHelper
 {
-    MISSING_TYPE *diagnosticMetricsHelper;
-    MISSING_TYPE *metadata;
-    MISSING_TYPE *mediaMetricsHelper;
+    id diagnosticMetricsHelper;
+    id metadata;
+    id mediaMetricsHelper;
 }
 
 - (void);

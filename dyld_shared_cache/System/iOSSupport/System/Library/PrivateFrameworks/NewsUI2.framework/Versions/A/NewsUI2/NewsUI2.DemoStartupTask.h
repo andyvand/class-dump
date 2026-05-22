@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.DemoStartupTask
 {
-    MISSING_TYPE *executionPhase;
-    MISSING_TYPE *engagementTriggerStateStore;
-    MISSING_TYPE *userInfo;
+    id executionPhase;
+    id engagementTriggerStateStore;
+    id userInfo;
 }
 
 @end

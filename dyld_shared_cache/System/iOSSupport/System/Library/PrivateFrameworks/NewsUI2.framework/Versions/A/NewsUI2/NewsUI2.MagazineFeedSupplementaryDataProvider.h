@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedSupplementaryDataProvider
 {
-    MISSING_TYPE *positionProvider;
-    MISSING_TYPE *layoutProvider;
+    id positionProvider;
+    id layoutProvider;
 }
 
 @end

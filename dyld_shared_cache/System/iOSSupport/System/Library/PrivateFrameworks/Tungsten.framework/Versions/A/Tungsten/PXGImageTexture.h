@@ -6,8 +6,6 @@
 
 #import <Tungsten/PXGBaseTexture.h>
 
-@class MISSING_TYPE;
-
 @interface PXGImageTexture : PXGBaseTexture
 {
     struct CGImage *_sourceCGImage;
@@ -23,7 +21,7 @@
 - (id);
 - (float);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -35,7 +33,7 @@
 // Remaining properties
 @property(readonly, nonatomic) float alpha;
 @property(retain, nonatomic) id cacheKey; // @synthesize cacheKey=_cacheKey;
-@property(readonly, nonatomic) MISSING_TYPE *orientationTransform;
+@property(readonly, nonatomic) id orientationTransform;
 @property(nonatomic) struct CGImage *sourceCGImage;
 @property(nonatomic) struct __CVBuffer *sourceCVPixelBuffer;
 @property(readonly, nonatomic) float suppressContentsRect;

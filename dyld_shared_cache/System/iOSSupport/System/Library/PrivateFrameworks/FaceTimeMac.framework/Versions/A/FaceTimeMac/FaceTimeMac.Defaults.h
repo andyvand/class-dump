@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeMac.Defaults
 {
-    MISSING_TYPE *_skipValidAccountCheck;
-    MISSING_TYPE *_videoNoLongerPausePrivacyAlertWasShown;
-    MISSING_TYPE *_isAlwaysOnTop;
+    id _skipValidAccountCheck;
+    id _videoNoLongerPausePrivacyAlertWasShown;
+    id _isAlwaysOnTop;
 }
 
 @end

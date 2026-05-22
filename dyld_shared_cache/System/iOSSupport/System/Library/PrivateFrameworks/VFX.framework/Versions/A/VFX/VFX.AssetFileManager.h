@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.AssetFileManager
 {
-    MISSING_TYPE *temporaryDirectory;
-    MISSING_TYPE *persistedDirectory;
-    MISSING_TYPE *isPerformingChangesLevel;
-    MISSING_TYPE *lock;
-    MISSING_TYPE *referencesToWrite;
-    MISSING_TYPE *allReferencesWithTemporaryCopy;
+    id temporaryDirectory;
+    id persistedDirectory;
+    id isPerformingChangesLevel;
+    id lock;
+    id referencesToWrite;
+    id allReferencesWithTemporaryCopy;
 }
 
 @end

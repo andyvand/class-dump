@@ -6,13 +6,11 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.State.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.TransitionState : MediaPlaybackCore.State
 {
-    MISSING_TYPE *startItem;
-    MISSING_TYPE *steps;
-    MISSING_TYPE *metadata;
+    id startItem;
+    id steps;
+    id metadata;
 }
 
 @end

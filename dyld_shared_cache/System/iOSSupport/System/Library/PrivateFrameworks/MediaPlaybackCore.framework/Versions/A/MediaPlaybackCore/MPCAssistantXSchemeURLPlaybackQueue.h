@@ -6,11 +6,11 @@
 
 #import <MediaPlaybackCore/MPCAssistantPlaybackQueue.h>
 
-@class MISSING_TYPE, NSArray, NSString, NSURL;
+@class NSArray, NSString, NSURL;
 
 @interface MPCAssistantXSchemeURLPlaybackQueue : MPCAssistantPlaybackQueue
 {
-    MISSING_TYPE *_storage;
+    id _storage;
     long long repeatType;
     long long shuffleType;
 }

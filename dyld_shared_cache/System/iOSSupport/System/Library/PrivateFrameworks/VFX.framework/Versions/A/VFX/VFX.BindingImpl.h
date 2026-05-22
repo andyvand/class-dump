@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSData, NSString;
+@class NSArray, NSData, NSString;
 
 @interface VFX.BindingImpl
 {
-    MISSING_TYPE *entityManager;
+    id entityManager;
     void identifier;
     long long objectID;
     void objectName;
@@ -21,7 +21,7 @@
     _Bool isPublic;
     void enumName;
     void enumCases;
-    MISSING_TYPE *property;
+    id property;
 }
 
 - (void);

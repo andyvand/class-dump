@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.PDFReplicaViewerStyler
 {
-    MISSING_TYPE *colorPaletteProvider;
-    MISSING_TYPE *featureAvailability;
+    id colorPaletteProvider;
+    id featureAvailability;
 }
 
 @end

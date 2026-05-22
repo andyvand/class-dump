@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WebAccessOptInAdSegmentProvider
 {
-    MISSING_TYPE *needsUpdate;
-    MISSING_TYPE *purchaseController;
+    id needsUpdate;
+    id purchaseController;
 }
 
 - (void);

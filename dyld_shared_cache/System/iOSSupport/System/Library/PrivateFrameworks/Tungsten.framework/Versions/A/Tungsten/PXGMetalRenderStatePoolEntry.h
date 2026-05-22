@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (CDStruct_44913231 *);
+- (CDStruct_8243137c *);
 - (id);
-- (const CDStruct_44913231 *);
+- (const CDStruct_8243137c *);
 - (CDStruct_16a2be32 *);
 - (id);
 - (const CDStruct_16a2be32 *);
@@ -41,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (CDStruct_b1513b2e *);
+- (CDStruct_f75fd28f *);
 - (id);
 - (id);
 - (id);
@@ -78,12 +78,12 @@ __attribute__((visibility("hidden")))
 @property(readonly, nonatomic) id <MTLBuffer> spriteInfosBuffer;
 @property(readonly, nonatomic) const CDStruct_16a2be32 *spriteOriginalGeometries;
 @property(readonly, nonatomic) id <MTLBuffer> spriteOriginalGeometriesBuffer;
-@property(readonly, nonatomic) const CDStruct_44913231 *spriteStyles;
+@property(readonly, nonatomic) const CDStruct_8243137c *spriteStyles;
 @property(readonly, nonatomic) id <MTLBuffer> spriteStylesBuffer;
 @property(readonly) Class superclass;
 @property(retain, nonatomic) NSArray *textures;
 @property(readonly, nonatomic) PXGMetalRenderTextureStore *translucentTextures;
-@property(readonly, nonatomic) CDStruct_b1513b2e *uniforms;
+@property(readonly, nonatomic) CDStruct_f75fd28f *uniforms;
 @property(nonatomic) CDStruct_aa2c6c27 values;
 
 @end

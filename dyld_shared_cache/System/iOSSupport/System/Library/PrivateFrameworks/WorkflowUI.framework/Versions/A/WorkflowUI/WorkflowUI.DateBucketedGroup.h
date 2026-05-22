@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.DateBucketedGroup
 {
-    MISSING_TYPE *shouldUpdate;
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *shortcutsResult;
-    MISSING_TYPE *dateAccessor;
-    MISSING_TYPE *emptyMessage;
+    id shouldUpdate;
+    id delegate;
+    id shortcutsResult;
+    id dateAccessor;
+    id emptyMessage;
 }
 
 - (void);

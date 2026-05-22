@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedContextFactory
 {
-    MISSING_TYPE *paidBundleConfigManager;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *bundleSessionManager;
-    MISSING_TYPE *bundleCampaignSessionManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *platform;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *subscriptionController;
+    id paidBundleConfigManager;
+    id paidAccessChecker;
+    id bundleSubscriptionManager;
+    id bundleSessionManager;
+    id bundleCampaignSessionManager;
+    id featureAvailability;
+    id appConfigManager;
+    id platform;
+    id userInfo;
+    id subscriptionController;
 }
 
 @end

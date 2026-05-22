@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.DemoMagazineConfigurationDataService
 {
-    MISSING_TYPE *returnJSON;
-    MISSING_TYPE *assetService;
-    MISSING_TYPE *paidBundleConfigurationManager;
+    id returnJSON;
+    id assetService;
+    id paidBundleConfigurationManager;
 }
 
 @end

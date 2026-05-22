@@ -6,14 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 __attribute__((visibility("hidden")))
 @interface _UIPointerLensView : UIView
 {
-    MISSING_TYPE *flexInteraction;
-    MISSING_TYPE *warpBackdrop;
-    MISSING_TYPE *element;
+    id flexInteraction;
+    id warpBackdrop;
+    id element;
 }
 
 - (void);

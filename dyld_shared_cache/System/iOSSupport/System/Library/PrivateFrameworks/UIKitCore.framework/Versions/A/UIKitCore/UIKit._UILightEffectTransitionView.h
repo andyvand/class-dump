@@ -6,17 +6,15 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UILightEffectTransitionView : UIView
 {
-    MISSING_TYPE *transitionController;
-    MISSING_TYPE *visibility;
-    MISSING_TYPE *activationTransition;
-    MISSING_TYPE *deactivationTransition;
-    MISSING_TYPE *transitionSubviewOutset;
-    MISSING_TYPE *transitionSubviews;
-    MISSING_TYPE *hidesWhenIdle;
+    id transitionController;
+    id visibility;
+    id activationTransition;
+    id deactivationTransition;
+    id transitionSubviewOutset;
+    id transitionSubviews;
+    id hidesWhenIdle;
 }
 
 - (id);

@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PaidBundleViaOfferUIHandler
 {
-    MISSING_TYPE *_hardwareSheetLastShownFromLinkedSheet;
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *paidBundleViaOfferHandler;
-    MISSING_TYPE *presentationOperationManager;
-    MISSING_TYPE *appLaunchMethodChecker;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *router;
-    MISSING_TYPE *sessionBadgeState;
-    MISSING_TYPE *sessionBadgeSource;
-    MISSING_TYPE *sessionBadgeMetrics;
-    MISSING_TYPE *sessionBadgeActionMetricsEvent;
-    MISSING_TYPE *engagementEnqueueHandler;
-    MISSING_TYPE *$__lazy_storage_$_paidBundleViaOfferConfig;
+    id _hardwareSheetLastShownFromLinkedSheet;
+    id notificationService;
+    id offerManager;
+    id appConfigurationManager;
+    id paidBundleViaOfferHandler;
+    id presentationOperationManager;
+    id appLaunchMethodChecker;
+    id userInfo;
+    id featureAvailability;
+    id bundleSubscriptionManager;
+    id tracker;
+    id router;
+    id sessionBadgeState;
+    id sessionBadgeSource;
+    id sessionBadgeMetrics;
+    id sessionBadgeActionMetricsEvent;
+    id engagementEnqueueHandler;
+    id $__lazy_storage_$_paidBundleViaOfferConfig;
 }
 
 - (id);

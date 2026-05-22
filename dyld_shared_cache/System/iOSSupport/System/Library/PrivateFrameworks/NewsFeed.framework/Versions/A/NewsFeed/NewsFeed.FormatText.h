@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatText
 {
-    MISSING_TYPE *string;
-    MISSING_TYPE *link;
+    id string;
+    id link;
 }
 
 @end

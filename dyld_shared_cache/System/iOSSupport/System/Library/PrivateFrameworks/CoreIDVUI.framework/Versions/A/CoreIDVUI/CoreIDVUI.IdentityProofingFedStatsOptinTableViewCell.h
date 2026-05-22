@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingFedStatsOptinTableViewCell
 {
-    MISSING_TYPE *headlineLabel;
-    MISSING_TYPE *subtitle;
-    MISSING_TYPE *bulletList;
-    MISSING_TYPE *divider;
-    MISSING_TYPE *checkmarkImageView;
+    id headlineLabel;
+    id subtitle;
+    id bulletList;
+    id divider;
+    id checkmarkImageView;
 }
 
 - (void);

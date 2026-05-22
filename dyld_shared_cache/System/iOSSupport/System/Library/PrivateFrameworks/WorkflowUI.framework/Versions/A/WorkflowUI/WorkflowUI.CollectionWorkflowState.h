@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.CollectionWorkflowState
 {
-    MISSING_TYPE *shortcut;
-    MISSING_TYPE *_isAddedToLibrary;
+    id shortcut;
+    id _isAddedToLibrary;
 }
 
 @end

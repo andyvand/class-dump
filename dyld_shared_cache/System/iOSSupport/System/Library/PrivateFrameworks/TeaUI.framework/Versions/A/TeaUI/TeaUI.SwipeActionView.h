@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.SwipeActionView
 {
-    MISSING_TYPE *button;
-    MISSING_TYPE *onTap;
-    MISSING_TYPE *swipeAction;
+    id button;
+    id onTap;
+    id swipeAction;
 }
 
 - (id);

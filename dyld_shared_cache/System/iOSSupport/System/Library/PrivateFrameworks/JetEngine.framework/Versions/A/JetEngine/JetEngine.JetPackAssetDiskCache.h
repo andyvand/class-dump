@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.JetPackAssetDiskCache
 {
-    MISSING_TYPE *assetsURL;
-    MISSING_TYPE *metadataStore;
-    MISSING_TYPE *evictionListenerLock;
-    MISSING_TYPE *evictedUUIDs;
+    id assetsURL;
+    id metadataStore;
+    id evictionListenerLock;
+    id evictedUUIDs;
 }
 
 @end

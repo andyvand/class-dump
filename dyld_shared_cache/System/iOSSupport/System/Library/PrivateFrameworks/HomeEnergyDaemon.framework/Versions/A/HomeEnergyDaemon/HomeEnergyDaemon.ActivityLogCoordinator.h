@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.ActivityLogCoordinator
 {
-    MISSING_TYPE *queryController;
-    MISSING_TYPE *queryLimit;
+    id queryController;
+    id queryLimit;
 }
 
 @end

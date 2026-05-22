@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FaceTimeAuthentication.AccountManager
 {
-    MISSING_TYPE *logger;
-    MISSING_TYPE *$__lazy_storage_$_controller;
-    MISSING_TYPE *registeringContinuation;
-    MISSING_TYPE *onSignOut;
-    MISSING_TYPE *observeAccountStatusChanges;
-    MISSING_TYPE *delayedRegistrationFailure;
+    id logger;
+    id $__lazy_storage_$_controller;
+    id registeringContinuation;
+    id onSignOut;
+    id observeAccountStatusChanges;
+    id delayedRegistrationFailure;
 }
 
 - (void);

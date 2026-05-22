@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeUtilityServices.UtilitySubscriptionTokenSet
 {
-    MISSING_TYPE *accessToken;
-    MISSING_TYPE *expiresIn;
-    MISSING_TYPE *idToken;
-    MISSING_TYPE *refreshToken;
-    MISSING_TYPE *tokenType;
+    id accessToken;
+    id expiresIn;
+    id idToken;
+    id refreshToken;
+    id tokenType;
 }
 
 - (id);

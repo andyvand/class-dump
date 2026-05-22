@@ -6,12 +6,10 @@
 
 #import <HomeUI/HomeUI.SelectableItemModuleController.h>
 
-@class MISSING_TYPE;
-
 @interface HUAccessoryListModuleController : HomeUI.SelectableItemModuleController
 {
-    MISSING_TYPE *collectionLayoutManager;
-    MISSING_TYPE *cellVerticalContentInset;
+    id collectionLayoutManager;
+    id cellVerticalContentInset;
 }
 
 - (_Bool);

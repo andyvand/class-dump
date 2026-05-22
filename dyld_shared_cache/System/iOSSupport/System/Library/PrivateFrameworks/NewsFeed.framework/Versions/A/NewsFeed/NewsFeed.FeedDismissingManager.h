@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedDismissingManager
 {
-    MISSING_TYPE *storage;
-    MISSING_TYPE *name;
-    MISSING_TYPE *closures;
-    MISSING_TYPE *lock;
+    id storage;
+    id name;
+    id closures;
+    id lock;
 }
 
 @end

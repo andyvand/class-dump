@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayFeedPool
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *dateRange;
-    MISSING_TYPE *priority;
-    MISSING_TYPE *feedConfigData;
-    MISSING_TYPE *lazyFeedItems;
-    MISSING_TYPE *headlines;
-    MISSING_TYPE *tags;
-    MISSING_TYPE *recipes;
-    MISSING_TYPE *forYou;
-    MISSING_TYPE *myHeadlines;
-    MISSING_TYPE *missedStories;
-    MISSING_TYPE *suggestions;
-    MISSING_TYPE *magazines;
+    id config;
+    id dateRange;
+    id priority;
+    id feedConfigData;
+    id lazyFeedItems;
+    id headlines;
+    id tags;
+    id recipes;
+    id forYou;
+    id myHeadlines;
+    id missedStories;
+    id suggestions;
+    id magazines;
 }
 
 @end

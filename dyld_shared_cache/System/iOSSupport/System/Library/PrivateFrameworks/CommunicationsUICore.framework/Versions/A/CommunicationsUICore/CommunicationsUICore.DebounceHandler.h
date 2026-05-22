@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CommunicationsUICore.DebounceHandler
 {
-    MISSING_TYPE *queue;
-    MISSING_TYPE *delay;
-    MISSING_TYPE *workItem;
+    id queue;
+    id delay;
+    id workItem;
 }
 
 @end

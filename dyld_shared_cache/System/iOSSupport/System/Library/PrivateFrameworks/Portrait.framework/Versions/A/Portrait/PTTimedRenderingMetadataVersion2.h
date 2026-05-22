@@ -6,8 +6,6 @@
 
 #import <Portrait/PTTimedRenderingMetadata.h>
 
-@class MISSING_TYPE;
-
 @interface PTTimedRenderingMetadataVersion2 : PTTimedRenderingMetadata
 {
     _Bool _readSuccessAll;
@@ -20,12 +18,12 @@
     unsigned int _readNoise_8x;
     unsigned int _frameId;
     float _alphaLowLight;
-    MISSING_TYPE *_visCropFactor;
+    id _visCropFactor;
     struct CGSize _totalSensorCropRectSize;
 }
 
 - (_Bool);
-- (MISSING_TYPE *);
+- (id);
 - (struct CGSize);
 - (unsigned int);
 - (void);
@@ -63,7 +61,7 @@
 @property(nonatomic) unsigned int readNoise_1x; // @synthesize readNoise_1x=_readNoise_1x;
 @property(nonatomic) unsigned int readNoise_8x; // @synthesize readNoise_8x=_readNoise_8x;
 @property(nonatomic) struct CGSize totalSensorCropRectSize; // @synthesize totalSensorCropRectSize=_totalSensorCropRectSize;
-@property(nonatomic) MISSING_TYPE *visCropFactor; // @synthesize visCropFactor=_visCropFactor;
+@property(nonatomic) id visCropFactor; // @synthesize visCropFactor=_visCropFactor;
 
 @end
 

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.IdentityProofingUIConfigFactory
 {
-    MISSING_TYPE *attributeMessages;
-    MISSING_TYPE *unorderedUI;
-    MISSING_TYPE *textReplacementHelper;
-    MISSING_TYPE *messageReplacements;
-    MISSING_TYPE *state;
+    id attributeMessages;
+    id unorderedUI;
+    id textReplacementHelper;
+    id messageReplacements;
+    id state;
 }
 
 @end

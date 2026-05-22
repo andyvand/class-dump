@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsFavoritesSyncViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *app;
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *confirmationButton;
-    MISSING_TYPE *deferButton;
-    MISSING_TYPE *conclusion;
+    id styler;
+    id eventHandler;
+    id app;
+    id imageView;
+    id confirmationButton;
+    id deferButton;
+    id conclusion;
 }
 
 - (void);

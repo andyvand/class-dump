@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioFeedOfflineFeedUpdater
 {
-    MISSING_TYPE *feedService;
-    MISSING_TYPE *serviceConfigFetcher;
-    MISSING_TYPE *serviceContextFactory;
-    MISSING_TYPE *groupProcessors;
-    MISSING_TYPE *offlineDatabase;
+    id feedService;
+    id serviceConfigFetcher;
+    id serviceContextFactory;
+    id groupProcessors;
+    id offlineDatabase;
 }
 
 @end

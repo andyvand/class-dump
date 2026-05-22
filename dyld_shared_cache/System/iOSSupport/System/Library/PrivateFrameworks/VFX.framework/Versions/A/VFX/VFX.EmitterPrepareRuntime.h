@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.EmitterPrepareRuntime
 {
-    MISSING_TYPE *subSpawnQuery;
-    MISSING_TYPE *addRuntimeQuery;
-    MISSING_TYPE *addOrRemoveInverseWorldQuery;
-    MISSING_TYPE *updateRuntimeQuery;
-    MISSING_TYPE *subSpawnStateQuery;
-    MISSING_TYPE *removeOrphanedRuntimeQuery;
+    id subSpawnQuery;
+    id addRuntimeQuery;
+    id addOrRemoveInverseWorldQuery;
+    id updateRuntimeQuery;
+    id subSpawnStateQuery;
+    id removeOrphanedRuntimeQuery;
 }
 
 @end

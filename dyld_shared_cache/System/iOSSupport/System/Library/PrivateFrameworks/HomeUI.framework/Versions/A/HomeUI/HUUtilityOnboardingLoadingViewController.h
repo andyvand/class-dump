@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
 @protocol HUConfigurationViewControllerDelegate;
 
 @interface HUUtilityOnboardingLoadingViewController
 {
     id <HUConfigurationViewControllerDelegate> delegate;
-    MISSING_TYPE *onboardingContext;
-    MISSING_TYPE *rootVC;
+    id onboardingContext;
+    id rootVC;
 }
 
 - (Class);

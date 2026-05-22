@@ -4,37 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatService
 {
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *issueService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *fontManager;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *resourceService;
-    MISSING_TYPE *webArchiveService;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *puzzleStatsService;
-    MISSING_TYPE *sportsEventController;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *webEmbedDataSourceService;
-    MISSING_TYPE *webEmbedDataSourceManager;
-    MISSING_TYPE *liveActivityWebEmbedDatastoreManager;
-    MISSING_TYPE *$__lazy_storage_$_ignoreCache;
-    MISSING_TYPE *$__lazy_storage_$_loadPackagesFromDebugServerDropbox;
-    MISSING_TYPE *fileCache;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *sponsoredAdService;
-    MISSING_TYPE *recipeAccessProvider;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *history;
-    MISSING_TYPE *tagFeedHeadlineService;
+    id headlineService;
+    id issueService;
+    id tagService;
+    id assetManager;
+    id fontManager;
+    id cloudContext;
+    id resourceService;
+    id webArchiveService;
+    id puzzleService;
+    id puzzleStatsService;
+    id sportsEventController;
+    id paidAccessChecker;
+    id sportsDataService;
+    id webEmbedDataSourceService;
+    id webEmbedDataSourceManager;
+    id liveActivityWebEmbedDatastoreManager;
+    id $__lazy_storage_$_ignoreCache;
+    id $__lazy_storage_$_loadPackagesFromDebugServerDropbox;
+    id fileCache;
+    id subscriptionController;
+    id personalizationService;
+    id recipeService;
+    id sponsoredAdService;
+    id recipeAccessProvider;
+    id featureAvailability;
+    id history;
+    id tagFeedHeadlineService;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface IMCore.ImportExport.Timer
 {
-    MISSING_TYPE *startTime;
-    MISSING_TYPE *endTime;
+    id startTime;
+    id endTime;
 }
 
 @end

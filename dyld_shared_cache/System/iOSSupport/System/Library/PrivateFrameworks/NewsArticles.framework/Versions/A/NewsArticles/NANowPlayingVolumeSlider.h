@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIWindowScene;
+@class NSString, UIWindowScene;
 
 __attribute__((visibility("hidden")))
 @interface NANowPlayingVolumeSlider
 {
-    MISSING_TYPE *volumeController;
-    MISSING_TYPE *isTracking;
-    MISSING_TYPE *volumeCommitTimer;
-    MISSING_TYPE *slider;
-    MISSING_TYPE *trackingColor;
-    MISSING_TYPE *volumeChangeHandler;
+    id volumeController;
+    id isTracking;
+    id volumeCommitTimer;
+    id slider;
+    id trackingColor;
+    id volumeChangeHandler;
 }
 
 - (void);

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CoreIDVUI.EFSOD
 {
-    MISSING_TYPE *fileID;
-    MISSING_TYPE *fileName;
-    MISSING_TYPE *hashID;
-    MISSING_TYPE *sodData;
+    id fileID;
+    id fileName;
+    id hashID;
+    id sodData;
 }
 
 @end

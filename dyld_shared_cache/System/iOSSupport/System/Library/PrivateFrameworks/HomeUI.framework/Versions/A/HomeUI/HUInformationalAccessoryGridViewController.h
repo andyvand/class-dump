@@ -6,13 +6,13 @@
 
 #import <HomeUI/HUItemCollectionViewController.h>
 
-@class MISSING_TYPE, NSSet;
+@class NSSet;
 
 @interface HUInformationalAccessoryGridViewController : HUItemCollectionViewController
 {
     void visibleAccessories;
-    MISSING_TYPE *module;
-    MISSING_TYPE *moduleController;
+    id module;
+    id moduleController;
 }
 
 - (id);

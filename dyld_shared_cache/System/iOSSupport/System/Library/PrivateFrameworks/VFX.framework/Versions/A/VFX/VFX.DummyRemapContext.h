@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.DummyRemapContext
 {
-    MISSING_TYPE *operation;
-    MISSING_TYPE *remapTable;
-    MISSING_TYPE *modified;
+    id operation;
+    id remapTable;
+    id modified;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.LibraryMenuItem.ToggleModel
 {
-    MISSING_TYPE *internalIsSelected;
-    MISSING_TYPE *action;
+    id internalIsSelected;
+    id action;
 }
 
 @end

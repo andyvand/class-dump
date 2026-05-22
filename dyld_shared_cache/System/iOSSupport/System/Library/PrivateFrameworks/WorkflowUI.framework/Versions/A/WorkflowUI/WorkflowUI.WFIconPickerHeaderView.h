@@ -6,11 +6,9 @@
 
 #import <WorkflowUI/WorkflowUI.WFGridViewCell.h>
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFIconPickerHeaderView : WorkflowUI.WFGridViewCell
 {
-    MISSING_TYPE *label;
+    id label;
 }
 
 - (id);

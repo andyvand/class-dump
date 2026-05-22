@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ChannelIssuesBlueprintViewCellProvider
 {
-    MISSING_TYPE *feedItemRenderer;
-    MISSING_TYPE *offlineIssueManager;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
+    id feedItemRenderer;
+    id offlineIssueManager;
+    id commandCenter;
+    id tracker;
 }
 
 @end

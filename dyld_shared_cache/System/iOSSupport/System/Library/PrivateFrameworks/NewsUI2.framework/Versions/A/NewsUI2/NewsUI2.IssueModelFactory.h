@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.IssueModelFactory
 {
-    MISSING_TYPE *issueReadingHistory;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *subscriptionService;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *offlineIssueManager;
+    id issueReadingHistory;
+    id personalizationService;
+    id featureAvailability;
+    id subscriptionController;
+    id subscriptionService;
+    id paidAccessChecker;
+    id offlineIssueManager;
 }
 
 @end

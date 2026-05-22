@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, _TtC19HomeUtilityServices20UtilityConfiguration;
-@protocol _TtPC19HomeUtilityServices26UtilitySubscriptionService18DecryptionDelegate_;
+@class HomeUtilityServices.UtilityConfiguration;
+@protocol HomeUtilityServices.UtilitySubscriptionService.DecryptionDelegate;
 
 @interface HomeUtilityServices.UtilitySubscriptionService
 {
-    MISSING_TYPE *sessionID;
-    _TtC19HomeUtilityServices20UtilityConfiguration *configuration;
-    id <_TtPC19HomeUtilityServices26UtilitySubscriptionService18DecryptionDelegate_> decryptionDelegate;
+    id sessionID;
+    HomeUtilityServices.UtilityConfiguration *configuration;
+    id <HomeUtilityServices.UtilitySubscriptionService.DecryptionDelegate> decryptionDelegate;
 }
 
 + (void);
@@ -39,8 +39,8 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _TtC19HomeUtilityServices20UtilityConfiguration *configuration; // @synthesize configuration;
-@property(nonatomic, retain) id <_TtPC19HomeUtilityServices26UtilitySubscriptionService18DecryptionDelegate_> decryptionDelegate; // @synthesize decryptionDelegate;
+@property(nonatomic, readonly) HomeUtilityServices.UtilityConfiguration *configuration; // @synthesize configuration;
+@property(nonatomic, retain) id <HomeUtilityServices.UtilitySubscriptionService.DecryptionDelegate> decryptionDelegate; // @synthesize decryptionDelegate;
 
 @end
 

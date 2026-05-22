@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatCodeDisplayViewController
 {
-    MISSING_TYPE *loader;
-    MISSING_TYPE *textView;
+    id loader;
+    id textView;
 }
 
 - (void);

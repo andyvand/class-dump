@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsAds.DebugJournalSummaryViewRenderer
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *commandCenter;
+    id styler;
+    id commandCenter;
 }
 
 @end

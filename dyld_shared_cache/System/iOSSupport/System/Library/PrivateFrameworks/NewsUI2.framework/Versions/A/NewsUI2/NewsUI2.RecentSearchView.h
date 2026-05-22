@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.RecentSearchView
 {
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *imageView;
-    MISSING_TYPE *chevron;
-    MISSING_TYPE *separatorView;
+    id titleLabel;
+    id imageView;
+    id chevron;
+    id separatorView;
 }
 
 - (id);

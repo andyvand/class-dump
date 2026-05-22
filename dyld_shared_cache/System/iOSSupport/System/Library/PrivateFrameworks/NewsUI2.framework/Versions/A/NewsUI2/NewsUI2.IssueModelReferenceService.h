@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.IssueModelReferenceService
 {
-    MISSING_TYPE *issueService;
-    MISSING_TYPE *issueModelFactory;
+    id issueService;
+    id issueModelFactory;
 }
 
 @end

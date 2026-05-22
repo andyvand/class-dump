@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SLPersonIdentityGenerator
 {
-    MISSING_TYPE *queue;
-    MISSING_TYPE *keyQueryController;
+    id queue;
+    id keyQueryController;
 }
 
 - (void);

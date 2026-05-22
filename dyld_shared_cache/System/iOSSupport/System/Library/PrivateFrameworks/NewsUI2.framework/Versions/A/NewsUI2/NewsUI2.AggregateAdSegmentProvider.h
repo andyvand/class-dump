@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AggregateAdSegmentProvider
 {
-    MISSING_TYPE *needsUpdate;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *aggregateStoreProvider;
-    MISSING_TYPE *readerAdSegmentLastUpdatedKey;
+    id needsUpdate;
+    id appConfigurationManager;
+    id aggregateStoreProvider;
+    id readerAdSegmentLastUpdatedKey;
 }
 
 - (id);

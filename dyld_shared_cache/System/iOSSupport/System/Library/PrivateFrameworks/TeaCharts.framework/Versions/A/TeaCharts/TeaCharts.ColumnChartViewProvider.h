@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaCharts.ColumnChartViewProvider
 {
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *styler;
+    id renderer;
+    id styler;
 }
 
 @end

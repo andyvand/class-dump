@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.NotesEditorViewModel
 {
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_notes;
-    MISSING_TYPE *_modifiedAt;
-    MISSING_TYPE *_appleAccountInfo;
-    MISSING_TYPE *_isDeleting;
-    MISSING_TYPE *_$observationRegistrar;
+    id _$scope;
+    id _recipeID;
+    id _notes;
+    id _modifiedAt;
+    id _appleAccountInfo;
+    id _isDeleting;
+    id _$observationRegistrar;
 }
 
 @end

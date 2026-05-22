@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedRecipeFactory
 {
-    MISSING_TYPE *accessProvider;
-    MISSING_TYPE *imageShareAttributeProvider;
-    MISSING_TYPE *subscriptionList;
-    MISSING_TYPE *recipeFactory;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *appConfigManager;
+    id accessProvider;
+    id imageShareAttributeProvider;
+    id subscriptionList;
+    id recipeFactory;
+    id featureAvailability;
+    id appConfigManager;
 }
 
 @end

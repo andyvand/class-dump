@@ -4,17 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray;
+@class NSArray;
 
 @interface NewsUI2.WelcomeViewController
 {
-    MISSING_TYPE *colorStyler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *viewProvider;
-    MISSING_TYPE *viewAnimator;
-    MISSING_TYPE *sceneStateManager;
-    MISSING_TYPE *keyFrame;
-    MISSING_TYPE *startedFirstAnimation;
+    id colorStyler;
+    id eventHandler;
+    id viewProvider;
+    id viewAnimator;
+    id sceneStateManager;
+    id keyFrame;
+    id startedFirstAnimation;
 }
 
 - (void);

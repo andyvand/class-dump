@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.GraphDiagnostics
 {
-    MISSING_TYPE *graphID;
-    MISSING_TYPE *rawNodesByID;
-    MISSING_TYPE *diagnostics;
+    id graphID;
+    id rawNodesByID;
+    id diagnostics;
 }
 
 - (id);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.AmbientEditButton
 {
-    MISSING_TYPE *outerRing;
-    MISSING_TYPE *innerRing;
-    MISSING_TYPE *contentStyleCoordinator;
-    MISSING_TYPE *contentStyleItemView;
-    MISSING_TYPE *contentStyle;
+    id outerRing;
+    id innerRing;
+    id contentStyleCoordinator;
+    id contentStyleItemView;
+    id contentStyle;
 }
 
 - (struct CGSize);

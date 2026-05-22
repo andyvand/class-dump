@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDictionary, NSString, UIGestureRecognizer, VFXCameraController, VFXNode, VFXView;
+@class NSDictionary, NSString, UIGestureRecognizer, VFXCameraController, VFXNode, VFXView;
 @protocol VFXCameraNavigationControllerDelegate;
 
 @interface VFXCameraNavigationController
@@ -32,10 +32,10 @@
     _Bool _isOrbiting;
     _Bool _recordingPointOfViewEvents;
     _Bool _mouseDown;
-    CDStruct_0e8a9a91 _worldBoundingSphere;
-    MISSING_TYPE *_translationOrigin;
+    CDStruct_da14d750 _worldBoundingSphere;
+    id _translationOrigin;
     float _initialZoom;
-    MISSING_TYPE *_initialPointOfViewWorldPosition;
+    id _initialPointOfViewWorldPosition;
     double _lastKeyInputTime;
     float _flyModeVelocity;
     float _panSensitivity;
@@ -84,7 +84,7 @@
 - (void);
 - (void);
 - (CDStruct_183601bc);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -93,7 +93,7 @@
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (float);
@@ -116,7 +116,7 @@
 - (void);
 - (void);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -152,7 +152,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (_Bool);
 - (float);
 - (void);
@@ -1479,7 +1479,7 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 @property(nonatomic) _Bool autoSwitchToFreeCamera; // @synthesize autoSwitchToFreeCamera=_autoSwitchToFreeCamera;
 @property(nonatomic) _Bool automaticCameraTarget;
 @property(readonly, nonatomic) VFXCameraController *cameraController; // @synthesize cameraController=_cameraController;
-@property(nonatomic) MISSING_TYPE *cameraTarget;
+@property(nonatomic) id cameraTarget;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

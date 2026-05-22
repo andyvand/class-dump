@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.EntityClass
 {
-    MISSING_TYPE *family;
-    MISSING_TYPE *storageLayout;
-    MISSING_TYPE *classComponentstorage;
-    MISSING_TYPE *classHash;
-    MISSING_TYPE *notifySystemsOnEntityEvent;
-    MISSING_TYPE *classIndex;
-    MISSING_TYPE *isAnonymous;
-    MISSING_TYPE *isGraveyard;
-    MISSING_TYPE *hasUnstableOrdering;
-    MISSING_TYPE *isMonoChunk;
-    MISSING_TYPE *isTrackingDirty;
-    MISSING_TYPE *hasDirtyPropagation;
+    id family;
+    id storageLayout;
+    id classComponentstorage;
+    id classHash;
+    id notifySystemsOnEntityEvent;
+    id classIndex;
+    id isAnonymous;
+    id isGraveyard;
+    id hasUnstableOrdering;
+    id isMonoChunk;
+    id isTrackingDirty;
+    id hasDirtyPropagation;
 }
 
 @end

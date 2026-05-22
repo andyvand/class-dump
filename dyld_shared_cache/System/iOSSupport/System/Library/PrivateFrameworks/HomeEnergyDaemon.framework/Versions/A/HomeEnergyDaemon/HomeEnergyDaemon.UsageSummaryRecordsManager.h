@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.UsageSummaryRecordsManager
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *usageSummary;
-    MISSING_TYPE *sharedContext;
+    id $defaultActor;
+    id usageSummary;
+    id sharedContext;
 }
 
 @end

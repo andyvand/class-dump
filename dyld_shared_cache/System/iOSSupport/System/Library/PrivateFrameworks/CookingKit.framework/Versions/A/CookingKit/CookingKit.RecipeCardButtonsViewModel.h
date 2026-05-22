@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardButtonsViewModel
 {
-    MISSING_TYPE *_$scope;
-    MISSING_TYPE *_showNotesButton;
-    MISSING_TYPE *_showMarkAsCookedButton;
-    MISSING_TYPE *_hasCooked;
-    MISSING_TYPE *_hasRated;
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_popover;
-    MISSING_TYPE *_$observationRegistrar;
+    id _$scope;
+    id _showNotesButton;
+    id _showMarkAsCookedButton;
+    id _hasCooked;
+    id _hasRated;
+    id _recipeID;
+    id _popover;
+    id _$observationRegistrar;
 }
 
 @end

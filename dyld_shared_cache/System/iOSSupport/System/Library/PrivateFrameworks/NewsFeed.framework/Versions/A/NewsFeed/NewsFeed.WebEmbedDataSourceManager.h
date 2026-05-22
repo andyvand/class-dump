@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.WebEmbedDataSourceManager
 {
-    MISSING_TYPE *dataService;
-    MISSING_TYPE *observers;
-    MISSING_TYPE *dataCache;
-    MISSING_TYPE *workItems;
-    MISSING_TYPE *sportsRecordFactory;
-    MISSING_TYPE *defaultMaxAge;
-    MISSING_TYPE *pollingQueue;
+    id dataService;
+    id observers;
+    id dataCache;
+    id workItems;
+    id sportsRecordFactory;
+    id defaultMaxAge;
+    id pollingQueue;
 }
 
 @end

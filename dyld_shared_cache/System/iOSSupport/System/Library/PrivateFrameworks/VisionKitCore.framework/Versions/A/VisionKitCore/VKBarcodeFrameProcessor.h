@@ -11,7 +11,7 @@
 @interface VKBarcodeFrameProcessor : VKFrameProcessor
 {
     VKBarcodeFrameProcessorConfiguration *_config;
-    CDStruct_8e0628e6 _warpTransform;
+    CDStruct_1fe29af2 _warpTransform;
     NSMutableArray *_recognizedItems;
     CDUnknownBlockType _resultHandler;
     VKBarcodeFrameProcessorConfiguration *_currentConfig;
@@ -25,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_8e0628e6);
+- (CDStruct_1fe29af2);
 - (void);
 - (void);
 - (void);
@@ -40,7 +40,7 @@
 // Remaining properties
 @property(copy, nonatomic) VKBarcodeFrameProcessorConfiguration *configuration;
 @property(copy, nonatomic) CDUnknownBlockType resultHandler;
-@property(nonatomic) CDStruct_8e0628e6 warpTransform;
+@property(nonatomic) CDStruct_1fe29af2 warpTransform;
 
 @end
 

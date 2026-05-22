@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIColor, UIFont;
+@class NSString, UIColor, UIFont;
 
 @interface UIBarButtonItemBadge
 {
-    MISSING_TYPE *backingBadge;
+    id backingBadge;
 }
 
 + (id);

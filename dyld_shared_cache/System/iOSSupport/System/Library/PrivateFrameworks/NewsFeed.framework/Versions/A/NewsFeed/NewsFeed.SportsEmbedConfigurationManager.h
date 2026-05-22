@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.SportsEmbedConfigurationManager
 {
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *fetchDeduper;
-    MISSING_TYPE *_boxScoresCache;
-    MISSING_TYPE *_bracketsCache;
-    MISSING_TYPE *_keyPlayersCache;
-    MISSING_TYPE *_lineScoresCache;
-    MISSING_TYPE *_injuryReportsCache;
-    MISSING_TYPE *_standingsCache;
-    MISSING_TYPE *_scoreCache;
+    id sportsDataService;
+    id fetchDeduper;
+    id _boxScoresCache;
+    id _bracketsCache;
+    id _keyPlayersCache;
+    id _lineScoresCache;
+    id _injuryReportsCache;
+    id _standingsCache;
+    id _scoreCache;
 }
 
 @end

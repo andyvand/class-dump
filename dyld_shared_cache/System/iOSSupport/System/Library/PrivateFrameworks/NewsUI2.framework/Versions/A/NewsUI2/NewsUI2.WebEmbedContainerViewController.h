@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.WebEmbedContainerViewController
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *layoutAttributesFactory;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *webEmbedViewController;
-    MISSING_TYPE *resource;
-    MISSING_TYPE *embedLocation;
-    MISSING_TYPE *webEmbedDataSourceService;
-    MISSING_TYPE *feedConfigurationFactory;
+    id styler;
+    id layoutAttributesFactory;
+    id eventHandler;
+    id webEmbedViewController;
+    id resource;
+    id embedLocation;
+    id webEmbedDataSourceService;
+    id feedConfigurationFactory;
 }
 
 - (void);

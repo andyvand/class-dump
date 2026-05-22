@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatTextNodeRenderer
 {
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *computedContext;
+    id commandCenter;
+    id computedContext;
 }
 
 @end

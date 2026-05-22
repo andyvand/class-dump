@@ -6,11 +6,9 @@
 
 #import <VFX/VFX._WorldValueNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX._AnyWorldValueNode : VFX._WorldValueNode
 {
-    MISSING_TYPE *scriptKeyPath;
+    id scriptKeyPath;
 }
 
 @end

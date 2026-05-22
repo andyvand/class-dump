@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.CarPlayAvailabilityStartupTask
 {
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *userDefaults;
+    id featureAvailability;
+    id userDefaults;
 }
 
 @end

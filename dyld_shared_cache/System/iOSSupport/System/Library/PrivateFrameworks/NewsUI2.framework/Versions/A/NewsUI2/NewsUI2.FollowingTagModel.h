@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingTagModel
 {
-    MISSING_TYPE *group;
-    MISSING_TYPE *tagModel;
-    MISSING_TYPE *contentShortcutData;
-    MISSING_TYPE *allowsUserInteraction;
+    id group;
+    id tagModel;
+    id contentShortcutData;
+    id allowsUserInteraction;
 }
 
 @end

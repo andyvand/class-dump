@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeaturePromotionEligibilityProviderFactory
 {
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *familySharingStatusManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *newsletterManager;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *savedRecipeService;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *recipeHistory;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *appLaunchMethodChecker;
-    MISSING_TYPE *presentationArchive;
-    MISSING_TYPE *locationDetectionManager;
+    id userInfo;
+    id familySharingStatusManager;
+    id bundleSubscriptionManager;
+    id paidAccessChecker;
+    id subscriptionController;
+    id tagService;
+    id newsletterManager;
+    id appConfigurationManager;
+    id readingList;
+    id savedRecipeService;
+    id readingHistory;
+    id headlineService;
+    id recipeHistory;
+    id puzzleHistoryService;
+    id appLaunchMethodChecker;
+    id presentationArchive;
+    id locationDetectionManager;
 }
 
 @end

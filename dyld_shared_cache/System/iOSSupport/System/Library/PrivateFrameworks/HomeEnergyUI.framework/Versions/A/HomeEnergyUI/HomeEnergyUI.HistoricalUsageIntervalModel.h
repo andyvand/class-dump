@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyUI.HistoricalUsageIntervalModel
 {
-    MISSING_TYPE *wholeHomeSnapshot;
-    MISSING_TYPE *deviceSnapshot;
-    MISSING_TYPE *_currentScrolledDate;
-    MISSING_TYPE *isInitialized;
-    MISSING_TYPE *cachedScrollDerivedCalculations;
-    MISSING_TYPE *_$observationRegistrar;
+    id wholeHomeSnapshot;
+    id deviceSnapshot;
+    id _currentScrolledDate;
+    id isInitialized;
+    id cachedScrollDerivedCalculations;
+    id _$observationRegistrar;
 }
 
 @end

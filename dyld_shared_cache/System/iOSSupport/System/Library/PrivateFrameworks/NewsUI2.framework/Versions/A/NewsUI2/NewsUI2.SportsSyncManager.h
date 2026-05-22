@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SportsSyncManager
 {
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *syncService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *userInfo;
-    MISSING_TYPE *accessQueue;
-    MISSING_TYPE *prepareQueue;
-    MISSING_TYPE *$__lazy_storage_$_operationQueue;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *_ignoreSyncingNewsChanges;
-    MISSING_TYPE *prepareSyncingGroup;
-    MISSING_TYPE *suspendSyncingGroup;
-    MISSING_TYPE *suspendedTokensLock;
-    MISSING_TYPE *suspendedTokens;
-    MISSING_TYPE *iCloudAccountStatusObservable;
-    MISSING_TYPE *_sportsSyncServiceVersion;
+    id sportsDataService;
+    id subscriptionController;
+    id syncService;
+    id tagService;
+    id userInfo;
+    id accessQueue;
+    id prepareQueue;
+    id $__lazy_storage_$_operationQueue;
+    id appConfigurationManager;
+    id _ignoreSyncingNewsChanges;
+    id prepareSyncingGroup;
+    id suspendSyncingGroup;
+    id suspendedTokensLock;
+    id suspendedTokens;
+    id iCloudAccountStatusObservable;
+    id _sportsSyncServiceVersion;
 }
 
 - (void);

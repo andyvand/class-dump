@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.GridButtonViewModel
 {
-    MISSING_TYPE *id;
-    MISSING_TYPE *_title;
-    MISSING_TYPE *_subtitle;
-    MISSING_TYPE *_icon;
-    MISSING_TYPE *_metrics;
-    MISSING_TYPE *_style;
-    MISSING_TYPE *_compact;
-    MISSING_TYPE *_color;
-    MISSING_TYPE *_progress;
-    MISSING_TYPE *_leadingIcon;
-    MISSING_TYPE *_lineLimit;
-    MISSING_TYPE *_$observationRegistrar;
+    id id;
+    id _title;
+    id _subtitle;
+    id _icon;
+    id _metrics;
+    id _style;
+    id _compact;
+    id _color;
+    id _progress;
+    id _leadingIcon;
+    id _lineLimit;
+    id _$observationRegistrar;
 }
 
 @end

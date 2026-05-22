@@ -6,12 +6,10 @@
 
 #import <UIKitCore/UIKit.UITextEffectTextChunk.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit._UIWTCTextChunk : UIKit.UITextEffectTextChunk
 {
-    MISSING_TYPE *uuid;
-    MISSING_TYPE *subrangeIndex;
+    id uuid;
+    id subrangeIndex;
 }
 
 - (id);

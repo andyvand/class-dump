@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.ShortcutChiclet.Model
 {
-    MISSING_TYPE *_metrics;
-    MISSING_TYPE *_isSelected;
-    MISSING_TYPE *_isHovered;
-    MISSING_TYPE *_isEditing;
-    MISSING_TYPE *_isGallery;
-    MISSING_TYPE *_isGalleryDetail;
-    MISSING_TYPE *_isAddedToLibrary;
-    MISSING_TYPE *_isDownloading;
-    MISSING_TYPE *_buttonType;
-    MISSING_TYPE *_popoverModel;
-    MISSING_TYPE *buttonAction;
+    id _metrics;
+    id _isSelected;
+    id _isHovered;
+    id _isEditing;
+    id _isGallery;
+    id _isGalleryDetail;
+    id _isAddedToLibrary;
+    id _isDownloading;
+    id _buttonType;
+    id _popoverModel;
+    id buttonAction;
 }
 
 @end

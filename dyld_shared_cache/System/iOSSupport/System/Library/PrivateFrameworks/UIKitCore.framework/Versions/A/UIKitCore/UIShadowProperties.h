@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIBezierPath, UIColor;
+@class NSString, UIBezierPath, UIColor;
 
 @interface UIShadowProperties
 {
-    MISSING_TYPE *_backingProperties;
+    id _backingProperties;
 }
 
 + (_Bool);

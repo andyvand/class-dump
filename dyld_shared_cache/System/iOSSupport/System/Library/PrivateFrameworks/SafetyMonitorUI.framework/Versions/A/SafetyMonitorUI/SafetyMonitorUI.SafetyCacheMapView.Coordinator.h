@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface SafetyMonitorUI.SafetyCacheMapView.Coordinator
 {
-    MISSING_TYPE *parent;
-    MISSING_TYPE *priorityDistanceBetweenEnrouteAnnotations;
-    MISSING_TYPE *contactImageRenderingContext;
+    id parent;
+    id priorityDistanceBetweenEnrouteAnnotations;
+    id contactImageRenderingContext;
 }
 
 - (id);

@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugJournalGroupViewController
 {
-    MISSING_TYPE *group;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *feedItemImages;
-    MISSING_TYPE *placeholderImage;
-    MISSING_TYPE *naImage;
-    MISSING_TYPE *radarAttachmentProvider;
+    id group;
+    id sections;
+    id tableView;
+    id cloudContext;
+    id tagService;
+    id commandCenter;
+    id feedItemImages;
+    id placeholderImage;
+    id naImage;
+    id radarAttachmentProvider;
 }
 
 - (void);

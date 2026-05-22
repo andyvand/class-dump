@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FloatingTabBarSearchContentConfiguration
 {
-    MISSING_TYPE *searchDelegate;
-    MISSING_TYPE *configurationBlock;
+    id searchDelegate;
+    id configurationBlock;
 }
 
 @end

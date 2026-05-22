@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.FullScreenSubStepImageViewModel
 {
-    MISSING_TYPE *_imageURL;
-    MISSING_TYPE *_stepLabel;
-    MISSING_TYPE *_recipeTitle;
-    MISSING_TYPE *_$observationRegistrar;
+    id _imageURL;
+    id _stepLabel;
+    id _recipeTitle;
+    id _$observationRegistrar;
 }
 
 @end

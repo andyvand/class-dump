@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugGroupLayoutViewFactory
 {
-    MISSING_TYPE *colorPaletteProvider;
-    MISSING_TYPE *cellSelectionRenderer;
-    MISSING_TYPE *imageHeadlineViewRenderer;
-    MISSING_TYPE *coverIssueViewRenderer;
-    MISSING_TYPE *coverChannelViewRenderer;
-    MISSING_TYPE *formatLayoutViewRenderer;
-    MISSING_TYPE *internalErrorViewRenderer;
+    id colorPaletteProvider;
+    id cellSelectionRenderer;
+    id imageHeadlineViewRenderer;
+    id coverIssueViewRenderer;
+    id coverChannelViewRenderer;
+    id formatLayoutViewRenderer;
+    id internalErrorViewRenderer;
 }
 
 - (id);

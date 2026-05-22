@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.CameraSystem
 {
-    MISSING_TYPE *orthoNoProjQuery;
-    MISSING_TYPE *perspNoProjQuery;
-    MISSING_TYPE *orthoQuery;
-    MISSING_TYPE *perspQuery;
+    id orthoNoProjQuery;
+    id perspNoProjQuery;
+    id orthoQuery;
+    id perspQuery;
 }
 
 @end

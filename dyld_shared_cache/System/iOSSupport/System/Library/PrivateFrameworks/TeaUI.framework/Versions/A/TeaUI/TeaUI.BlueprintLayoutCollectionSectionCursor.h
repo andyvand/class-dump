@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintLayoutCollectionSectionCursor
 {
-    MISSING_TYPE *point;
-    MISSING_TYPE *minX;
-    MISSING_TYPE *maxX;
-    MISSING_TYPE *minY;
-    MISSING_TYPE *maxY;
-    MISSING_TYPE *minWidth;
-    MISSING_TYPE *maxWidth;
-    MISSING_TYPE *minHeight;
-    MISSING_TYPE *maxHeight;
+    id point;
+    id minX;
+    id maxX;
+    id minY;
+    id maxY;
+    id minWidth;
+    id maxWidth;
+    id minHeight;
+    id maxHeight;
 }
 
 @end

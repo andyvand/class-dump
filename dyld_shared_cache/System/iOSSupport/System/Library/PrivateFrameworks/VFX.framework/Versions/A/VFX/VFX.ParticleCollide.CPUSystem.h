@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleCollide.CPUSystem
 {
-    MISSING_TYPE *eventClass;
-    MISSING_TYPE *particleQuery;
-    MISSING_TYPE *emitterProperties;
-    MISSING_TYPE *emitter_from_world;
-    MISSING_TYPE *emitterDeltaTime;
+    id eventClass;
+    id particleQuery;
+    id emitterProperties;
+    id emitter_from_world;
+    id emitterDeltaTime;
 }
 
 @end

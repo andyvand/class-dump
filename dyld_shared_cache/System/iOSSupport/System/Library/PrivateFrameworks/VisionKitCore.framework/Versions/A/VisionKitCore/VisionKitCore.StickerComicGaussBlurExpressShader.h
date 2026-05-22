@@ -6,11 +6,9 @@
 
 #import <VisionKitCore/VisionKitCore.StickerComicOneInputShader.h>
 
-@class MISSING_TYPE;
-
 @interface VisionKitCore.StickerComicGaussBlurExpressShader : VisionKitCore.StickerComicOneInputShader
 {
-    MISSING_TYPE *sigma;
+    id sigma;
 }
 
 @end

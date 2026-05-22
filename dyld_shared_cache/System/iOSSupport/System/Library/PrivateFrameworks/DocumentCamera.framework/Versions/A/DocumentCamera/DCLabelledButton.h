@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIMenu;
+@class UIMenu;
 
 @interface DCLabelledButton
 {
-    MISSING_TYPE *backingButton;
-    MISSING_TYPE *label;
-    MISSING_TYPE *portraitConstraints;
-    MISSING_TYPE *landscapeConstraints;
+    id backingButton;
+    id label;
+    id portraitConstraints;
+    id landscapeConstraints;
 }
 
 - (id);

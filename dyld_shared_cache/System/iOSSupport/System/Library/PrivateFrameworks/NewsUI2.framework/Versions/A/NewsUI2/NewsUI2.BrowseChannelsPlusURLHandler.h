@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.BrowseChannelsPlusURLHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *navigator;
+    id patterns;
+    id navigator;
 }
 
 @end

@@ -6,11 +6,9 @@
 
 #import <MediaPlaybackCore/MediaPlaybackCore.FailedTransitionState.h>
 
-@class MISSING_TYPE;
-
 @interface MediaPlaybackCore.FailedInitialLoadingTransitionState : MediaPlaybackCore.FailedTransitionState
 {
-    MISSING_TYPE *play;
+    id play;
 }
 
 @end

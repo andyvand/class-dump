@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OfflineFeedsSupervisor
 {
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *contentContext;
-    MISSING_TYPE *offlineFeatures;
-    MISSING_TYPE *offlineFeedBuilders;
-    MISSING_TYPE *offlineFeedUpdaters;
-    MISSING_TYPE *lazyObservableManifest;
-    MISSING_TYPE *workQueue;
-    MISSING_TYPE *serialOperationQueue;
-    MISSING_TYPE *persistedPuzzleTypeFeedManifests;
-    MISSING_TYPE *_persistedTodayFeedManifest;
-    MISSING_TYPE *_persistedPuzzleHubFeedManifest;
-    MISSING_TYPE *_persistedSportsFeedManifest;
-    MISSING_TYPE *_persistedMagazineFeedManifest;
-    MISSING_TYPE *_persistedAudioFeedManifest;
-    MISSING_TYPE *_persistedSavedFeedManifest;
-    MISSING_TYPE *_persistedHistoryFeedManifest;
-    MISSING_TYPE *_persistedSharedWithYouFeedManifest;
-    MISSING_TYPE *_persistedRecipeBoxFeedManifest;
-    MISSING_TYPE *_persistedFoodHubFeedManifest;
-    MISSING_TYPE *_persistedRecipeCatalogFeedManifest;
-    MISSING_TYPE *_persistedSearchHubFeedManifest;
+    id isEnabled;
+    id contentContext;
+    id offlineFeatures;
+    id offlineFeedBuilders;
+    id offlineFeedUpdaters;
+    id lazyObservableManifest;
+    id workQueue;
+    id serialOperationQueue;
+    id persistedPuzzleTypeFeedManifests;
+    id _persistedTodayFeedManifest;
+    id _persistedPuzzleHubFeedManifest;
+    id _persistedSportsFeedManifest;
+    id _persistedMagazineFeedManifest;
+    id _persistedAudioFeedManifest;
+    id _persistedSavedFeedManifest;
+    id _persistedHistoryFeedManifest;
+    id _persistedSharedWithYouFeedManifest;
+    id _persistedRecipeBoxFeedManifest;
+    id _persistedFoodHubFeedManifest;
+    id _persistedRecipeCatalogFeedManifest;
+    id _persistedSearchHubFeedManifest;
 }
 
 @end

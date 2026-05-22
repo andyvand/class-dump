@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.ActionPreviewActivity
 {
-    MISSING_TYPE *router;
-    MISSING_TYPE *handler;
+    id router;
+    id handler;
 }
 
 - (void);

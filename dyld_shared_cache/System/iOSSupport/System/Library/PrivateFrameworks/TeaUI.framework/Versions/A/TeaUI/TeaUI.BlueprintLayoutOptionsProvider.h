@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.BlueprintLayoutOptionsProvider
 {
-    MISSING_TYPE *margins;
-    MISSING_TYPE *view;
-    MISSING_TYPE *layoutViewportConfiguration;
-    MISSING_TYPE *layoutViewportDimensionChecks;
-    MISSING_TYPE *layoutOptionsCommit;
-    MISSING_TYPE *additionalSafeAreaInsets;
-    MISSING_TYPE *appTraitCollectionBlock;
-    MISSING_TYPE *compositionalLayoutOptionsProvider;
-    MISSING_TYPE *rendererEnvironment;
+    id margins;
+    id view;
+    id layoutViewportConfiguration;
+    id layoutViewportDimensionChecks;
+    id layoutOptionsCommit;
+    id additionalSafeAreaInsets;
+    id appTraitCollectionBlock;
+    id compositionalLayoutOptionsProvider;
+    id rendererEnvironment;
 }
 
 @end

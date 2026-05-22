@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsArticles.SubscriptionButtonTextProvider
 {
-    MISSING_TYPE *headline;
-    MISSING_TYPE *coreConfigurationManager;
-    MISSING_TYPE *offerManager;
-    MISSING_TYPE *$__lazy_storage_$_title;
+    id headline;
+    id coreConfigurationManager;
+    id offerManager;
+    id $__lazy_storage_$_title;
 }
 
 - (id);

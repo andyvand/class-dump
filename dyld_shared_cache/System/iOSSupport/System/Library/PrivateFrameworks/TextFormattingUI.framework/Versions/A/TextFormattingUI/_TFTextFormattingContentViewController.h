@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _TFTextFormattingContentViewController
 {
-    MISSING_TYPE *viewState;
-    MISSING_TYPE *configuration;
+    id viewState;
+    id configuration;
 }
 
 - (void);

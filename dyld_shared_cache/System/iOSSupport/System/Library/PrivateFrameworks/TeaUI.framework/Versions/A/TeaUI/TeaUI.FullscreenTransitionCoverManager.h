@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.FullscreenTransitionCoverManager
 {
-    MISSING_TYPE *closure;
-    MISSING_TYPE *coverView;
-    MISSING_TYPE *transitioning;
-    MISSING_TYPE *dimmed;
+    id closure;
+    id coverView;
+    id transitioning;
+    id dimmed;
 }
 
 - (void);

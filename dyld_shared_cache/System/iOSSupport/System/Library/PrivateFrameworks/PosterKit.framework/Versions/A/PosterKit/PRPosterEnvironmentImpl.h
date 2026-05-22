@@ -40,7 +40,7 @@
     double _linearBacklightProgress;
     struct CGSize _canvasSize;
     struct CGPoint _userTapLocation;
-    CDUnion_a1316d75 _deviceMotionRotation;
+    CDUnion_803ab9d6 _deviceMotionRotation;
     struct CGRect _salientContentRectangle;
 }
 

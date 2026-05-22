@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MainTabBarEngagementModifier
 {
-    MISSING_TYPE *tabBarController;
-    MISSING_TYPE *mainTabManager;
-    MISSING_TYPE *bootstrapperDidComplete;
-    MISSING_TYPE *tipManager;
+    id tabBarController;
+    id mainTabManager;
+    id bootstrapperDidComplete;
+    id tipManager;
 }
 
 @end

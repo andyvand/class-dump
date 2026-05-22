@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchMoreEventHandler
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *interactor;
-    MISSING_TYPE *recentSearchManager;
-    MISSING_TYPE *router;
-    MISSING_TYPE *tracker;
+    id delegate;
+    id interactor;
+    id recentSearchManager;
+    id router;
+    id tracker;
 }
 
 @end

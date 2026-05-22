@@ -18,7 +18,7 @@ static BOOL debug = NO;
 - (id)initWithString:(NSString *)str;
 {
     if ((self = [super init])) {
-        _scanner = [[NSScanner alloc] initWithString:str];
+        _scanner = [[NSScanner alloc] initWithString:(str != nil ? str : @"")];
         _openCloseSet = [NSCharacterSet characterSetWithCharactersInString:@"{}<>()"];
         
         _result = [[NSMutableString alloc] init];

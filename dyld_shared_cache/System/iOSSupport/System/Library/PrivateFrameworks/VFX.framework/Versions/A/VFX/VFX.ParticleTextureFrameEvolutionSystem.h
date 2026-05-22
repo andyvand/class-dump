@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.ParticleTextureFrameEvolutionSystem
 {
-    MISSING_TYPE *texQuery;
-    MISSING_TYPE *texAgeQuery;
+    id texQuery;
+    id texAgeQuery;
 }
 
 @end

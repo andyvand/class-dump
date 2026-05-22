@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.CurveObject
 {
-    MISSING_TYPE *curve;
+    id curve;
 }
 
 + (_Bool)v48@0:8Q16Q24Q32Q40 /* Error: Ran out of types for this method. */;

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.SearchTracker
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *scienceDataFactory;
-    MISSING_TYPE *channelDataFactory;
-    MISSING_TYPE *articleDataFactory;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *contentAvailabilityValidator;
-    MISSING_TYPE *eventManager;
+    id delegate;
+    id tracker;
+    id blueprintProvider;
+    id scienceDataFactory;
+    id channelDataFactory;
+    id articleDataFactory;
+    id featureAvailability;
+    id contentAvailabilityValidator;
+    id eventManager;
 }
 
 @end

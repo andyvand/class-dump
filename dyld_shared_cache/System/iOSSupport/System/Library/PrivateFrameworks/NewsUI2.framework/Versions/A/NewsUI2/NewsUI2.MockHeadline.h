@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSDate;
+@class NSDate;
 
 @interface NewsUI2.MockHeadline
 {
-    MISSING_TYPE *_date;
-    MISSING_TYPE *_isIssueOnly;
+    id _date;
+    id _isIssueOnly;
 }
 
 - (id);

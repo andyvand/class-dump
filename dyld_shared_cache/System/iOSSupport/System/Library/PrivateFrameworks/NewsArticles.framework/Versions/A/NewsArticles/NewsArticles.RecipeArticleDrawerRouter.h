@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.RecipeArticleDrawerRouter
 {
-    MISSING_TYPE *router;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *routeContext;
+    id router;
+    id tracker;
+    id routeContext;
 }
 
 @end

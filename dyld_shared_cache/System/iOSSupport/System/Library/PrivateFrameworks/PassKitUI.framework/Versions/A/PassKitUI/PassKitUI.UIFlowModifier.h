@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.UIFlowModifier
 {
-    MISSING_TYPE *wrapped;
-    MISSING_TYPE *configuration;
-    MISSING_TYPE *delegate;
+    id wrapped;
+    id configuration;
+    id delegate;
 }
 
 @end

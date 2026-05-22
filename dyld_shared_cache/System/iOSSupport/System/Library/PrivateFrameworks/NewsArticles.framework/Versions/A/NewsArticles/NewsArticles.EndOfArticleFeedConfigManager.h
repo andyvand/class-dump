@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.EndOfArticleFeedConfigManager
 {
-    MISSING_TYPE *decoder;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *resourceService;
-    MISSING_TYPE *articleRecirculationConfigService;
+    id decoder;
+    id appConfigManager;
+    id resourceService;
+    id articleRecirculationConfigService;
 }
 
 @end

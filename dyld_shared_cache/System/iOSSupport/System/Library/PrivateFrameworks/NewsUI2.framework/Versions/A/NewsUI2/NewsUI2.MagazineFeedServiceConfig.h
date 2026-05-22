@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.MagazineFeedServiceConfig
 {
-    MISSING_TYPE *context;
-    MISSING_TYPE *appConfig;
-    MISSING_TYPE *contentConfig;
-    MISSING_TYPE *baseContentConfig;
-    MISSING_TYPE *paidBundleConfig;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *cachePolicy;
-    MISSING_TYPE *refreshInterval;
-    MISSING_TYPE *cacheKey;
+    id context;
+    id appConfig;
+    id contentConfig;
+    id baseContentConfig;
+    id paidBundleConfig;
+    id subscriptionController;
+    id cachePolicy;
+    id refreshInterval;
+    id cacheKey;
 }
 
 @end

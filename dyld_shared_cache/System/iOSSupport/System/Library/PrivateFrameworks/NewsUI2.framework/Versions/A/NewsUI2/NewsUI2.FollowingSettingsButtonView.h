@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsUI2.FollowingSettingsButtonView
 {
-    MISSING_TYPE *onTap;
-    MISSING_TYPE *isEditing;
-    MISSING_TYPE *deviceOffline;
+    id onTap;
+    id isEditing;
+    id deviceOffline;
 }
 
 - (void);

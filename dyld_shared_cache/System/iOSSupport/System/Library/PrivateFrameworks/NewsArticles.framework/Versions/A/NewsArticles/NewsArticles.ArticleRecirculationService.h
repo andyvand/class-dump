@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ArticleRecirculationService
 {
-    MISSING_TYPE *coreConfigurationManager;
-    MISSING_TYPE *articleRecirculationConfigService;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *articleRecirculationConfigFactory;
-    MISSING_TYPE *articleProviderService;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *readingList;
-    MISSING_TYPE *endOfArticleQuotaSatisfierFactory;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *endOfArticleResultFactory;
-    MISSING_TYPE *articleGroupData;
+    id coreConfigurationManager;
+    id articleRecirculationConfigService;
+    id tagService;
+    id headlineService;
+    id articleRecirculationConfigFactory;
+    id articleProviderService;
+    id paidAccessChecker;
+    id bundleSubscriptionManager;
+    id readingList;
+    id endOfArticleQuotaSatisfierFactory;
+    id personalizationService;
+    id endOfArticleResultFactory;
+    id articleGroupData;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FeedIssueFactory
 {
-    MISSING_TYPE *issueReadingHistory;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *subscriptionController;
-    MISSING_TYPE *paidAccessChecker;
-    MISSING_TYPE *issueOfflineProvider;
+    id issueReadingHistory;
+    id personalizationService;
+    id subscriptionController;
+    id paidAccessChecker;
+    id issueOfflineProvider;
 }
 
 @end

@@ -6,12 +6,10 @@
 
 #import <TeaUI/TeaUI.NavigationController.h>
 
-@class MISSING_TYPE;
-
 @interface TeaUI.CardNavigationController : TeaUI.NavigationController
 {
-    MISSING_TYPE *toolbarSection;
-    MISSING_TYPE *commandCenter;
+    id toolbarSection;
+    id commandCenter;
 }
 
 - (long long);

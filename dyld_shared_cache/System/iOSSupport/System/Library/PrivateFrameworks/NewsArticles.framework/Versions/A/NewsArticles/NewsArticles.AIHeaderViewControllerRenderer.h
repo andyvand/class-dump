@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.AIHeaderViewControllerRenderer
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *appConfigurationManager;
+    id styler;
+    id appConfigurationManager;
 }
 
 @end

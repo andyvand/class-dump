@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LocalOnboardingSearchCompleter
 {
-    MISSING_TYPE *_searchCompletions;
-    MISSING_TYPE *_isSearching;
-    MISSING_TYPE *_searchText;
-    MISSING_TYPE *completer;
-    MISSING_TYPE *_activeRegion;
+    id _searchCompletions;
+    id _isSearching;
+    id _searchText;
+    id completer;
+    id _activeRegion;
 }
 
 - (void);

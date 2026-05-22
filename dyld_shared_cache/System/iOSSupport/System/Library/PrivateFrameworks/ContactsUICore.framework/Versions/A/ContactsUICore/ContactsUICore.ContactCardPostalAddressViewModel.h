@@ -6,14 +6,12 @@
 
 #import <ContactsUICore/ContactsUICore.ContactCardLabeledPropertyViewModel.h>
 
-@class MISSING_TYPE;
-
 @interface ContactsUICore.ContactCardPostalAddressViewModel : ContactsUICore.ContactCardLabeledPropertyViewModel
 {
-    MISSING_TYPE *$__lazy_storage_$_mainThreadScheduler;
-    MISSING_TYPE *_postalAddress;
-    MISSING_TYPE *_imageCancelable;
-    MISSING_TYPE *_$observationRegistrar;
+    id $__lazy_storage_$_mainThreadScheduler;
+    id _postalAddress;
+    id _imageCancelable;
+    id _$observationRegistrar;
 }
 
 @end

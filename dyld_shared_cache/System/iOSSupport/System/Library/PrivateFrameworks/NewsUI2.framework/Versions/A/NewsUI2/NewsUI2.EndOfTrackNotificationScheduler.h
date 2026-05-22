@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.EndOfTrackNotificationScheduler
 {
-    MISSING_TYPE *notificationService;
-    MISSING_TYPE *currentlyPlaying;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *currentlyPlayingObservableToken;
-    MISSING_TYPE *schedulerState;
+    id notificationService;
+    id currentlyPlaying;
+    id readingHistory;
+    id currentlyPlayingObservableToken;
+    id schedulerState;
 }
 
 - (void);

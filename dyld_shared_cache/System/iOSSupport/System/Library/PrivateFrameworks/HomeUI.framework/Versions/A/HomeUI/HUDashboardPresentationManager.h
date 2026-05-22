@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HUDashboardPresentationManager
 {
-    MISSING_TYPE *delegate;
+    id delegate;
 }
 
 + (id)sForAccessory: /* Error: Ran out of types for this method. */;

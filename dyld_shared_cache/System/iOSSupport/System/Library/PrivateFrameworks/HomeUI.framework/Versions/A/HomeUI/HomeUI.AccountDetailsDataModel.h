@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface HomeUI.AccountDetailsDataModel
 {
-    MISSING_TYPE *_contact;
-    MISSING_TYPE *_didSubmitInfo;
-    MISSING_TYPE *streetAddress1;
-    MISSING_TYPE *streetAddress2;
-    MISSING_TYPE *streetAddress3;
-    MISSING_TYPE *city;
-    MISSING_TYPE *state;
-    MISSING_TYPE *country;
-    MISSING_TYPE *zipCode;
+    id _contact;
+    id _didSubmitInfo;
+    id streetAddress1;
+    id streetAddress2;
+    id streetAddress3;
+    id city;
+    id state;
+    id country;
+    id zipCode;
 }
 
 - (id);

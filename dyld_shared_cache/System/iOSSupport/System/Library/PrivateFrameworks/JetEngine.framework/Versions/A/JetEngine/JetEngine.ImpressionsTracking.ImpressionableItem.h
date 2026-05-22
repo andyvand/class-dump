@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface JetEngine.ImpressionsTracking.ImpressionableItem
 {
-    MISSING_TYPE *visibleThreshold;
-    MISSING_TYPE *overrideVisibleThresholdForContainer;
-    MISSING_TYPE *impressionPoints;
-    MISSING_TYPE *metrics;
-    MISSING_TYPE *position;
-    MISSING_TYPE *state;
-    MISSING_TYPE *childImpressionsCalculator;
-    MISSING_TYPE *isContainer;
-    MISSING_TYPE *itemFrame;
+    id visibleThreshold;
+    id overrideVisibleThresholdForContainer;
+    id impressionPoints;
+    id metrics;
+    id position;
+    id state;
+    id childImpressionsCalculator;
+    id isContainer;
+    id itemFrame;
 }
 
 @end

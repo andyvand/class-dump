@@ -6,12 +6,12 @@
 
 #import <VFX/VFXConstraint.h>
 
-@class MISSING_TYPE, NSMutableDictionary, VFXNode;
+@class NSMutableDictionary, VFXNode;
 
 @interface VFXIKConstraint : VFXConstraint
 {
     VFXNode *_chainRootNode;
-    MISSING_TYPE *_ikTarget;
+    id _ikTarget;
     NSMutableDictionary *_jointsPerNode;
 }
 
@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (MISSING_TYPE *);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -39,7 +39,7 @@
 
 // Remaining properties
 @property(readonly, nonatomic) VFXNode *chainRootNode;
-@property(nonatomic) MISSING_TYPE *targetPosition;
+@property(nonatomic) id targetPosition;
 
 @end
 

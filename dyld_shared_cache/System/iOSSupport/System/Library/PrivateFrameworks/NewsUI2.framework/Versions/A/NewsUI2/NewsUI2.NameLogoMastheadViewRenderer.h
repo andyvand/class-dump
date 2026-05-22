@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NameLogoMastheadViewRenderer
 {
-    MISSING_TYPE *logoImageCache;
-    MISSING_TYPE *flagImageCache;
-    MISSING_TYPE *backgroundImageCache;
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *assetHandleFactory;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *appConfigManager;
-    MISSING_TYPE *imageRenderTask;
+    id logoImageCache;
+    id flagImageCache;
+    id backgroundImageCache;
+    id sportsDataService;
+    id assetHandleFactory;
+    id styler;
+    id appConfigManager;
+    id imageRenderTask;
 }
 
 @end

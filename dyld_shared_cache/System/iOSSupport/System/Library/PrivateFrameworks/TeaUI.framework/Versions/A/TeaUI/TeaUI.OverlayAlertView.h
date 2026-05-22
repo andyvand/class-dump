@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.OverlayAlertView
 {
-    MISSING_TYPE *backdropView;
-    MISSING_TYPE *image;
-    MISSING_TYPE *titleLabel;
-    MISSING_TYPE *subtitleLabel;
+    id backdropView;
+    id image;
+    id titleLabel;
+    id subtitleLabel;
 }
 
 - (id);

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.RecipeService
 {
-    MISSING_TYPE *assetManager;
-    MISSING_TYPE *accessChecker;
-    MISSING_TYPE *contentContext;
-    MISSING_TYPE *tagController;
-    MISSING_TYPE *featureAvailability;
+    id assetManager;
+    id accessChecker;
+    id contentContext;
+    id tagController;
+    id featureAvailability;
 }
 
 @end

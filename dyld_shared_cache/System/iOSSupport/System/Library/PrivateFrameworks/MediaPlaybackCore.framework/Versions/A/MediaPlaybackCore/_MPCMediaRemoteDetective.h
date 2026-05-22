@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface _MPCMediaRemoteDetective
 {
-    MISSING_TYPE *publisher;
-    MISSING_TYPE *eventStream;
+    id publisher;
+    id eventStream;
 }
 
 - (void);

@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.PosterGalleryModel
 {
-    MISSING_TYPE *_sections;
-    MISSING_TYPE *_displayContext;
-    MISSING_TYPE *_currentEditorLoader;
-    MISSING_TYPE *dataProvider;
-    MISSING_TYPE *displayedPreviewIdentifiers;
-    MISSING_TYPE *tappedPreviewIdentifiers;
-    MISSING_TYPE *addedPreviewIdentifier;
-    MISSING_TYPE *_$observationRegistrar;
+    id _sections;
+    id _displayContext;
+    id _currentEditorLoader;
+    id dataProvider;
+    id displayedPreviewIdentifiers;
+    id tappedPreviewIdentifiers;
+    id addedPreviewIdentifier;
+    id _$observationRegistrar;
 }
 
 - (void);

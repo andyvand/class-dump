@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatWebEmbedNodeRenderer
 {
-    MISSING_TYPE *reuseProtector;
-    MISSING_TYPE *webEmbedImageGenerator;
-    MISSING_TYPE *commandCenter;
-    MISSING_TYPE *tracker;
+    id reuseProtector;
+    id webEmbedImageGenerator;
+    id commandCenter;
+    id tracker;
 }
 
 @end

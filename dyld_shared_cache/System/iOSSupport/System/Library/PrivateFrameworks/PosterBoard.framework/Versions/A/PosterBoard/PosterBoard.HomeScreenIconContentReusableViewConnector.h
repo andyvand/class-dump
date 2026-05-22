@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PosterBoard.HomeScreenIconContentReusableViewConnector
 {
-    MISSING_TYPE *reusableHomeScreenIconContentViews;
-    MISSING_TYPE *maximumNumberOfCachedIconContentViews;
+    id reusableHomeScreenIconContentViews;
+    id maximumNumberOfCachedIconContentViews;
 }
 
 - (id);

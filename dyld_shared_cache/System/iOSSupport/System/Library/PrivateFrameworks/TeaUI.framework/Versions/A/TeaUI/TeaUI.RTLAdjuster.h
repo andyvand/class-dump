@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.RTLAdjuster
 {
-    MISSING_TYPE *locale;
-    MISSING_TYPE *bounds;
+    id locale;
+    id bounds;
 }
 
 @end

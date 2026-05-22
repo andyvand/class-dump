@@ -4,57 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TagFeedGroupKnobs
 {
-    MISSING_TYPE *promotedArticleListKnobs;
-    MISSING_TYPE *paywallKnobs;
-    MISSING_TYPE *issueListKnobs;
-    MISSING_TYPE *articleListKnobs;
-    MISSING_TYPE *curatedKnobs;
-    MISSING_TYPE *channelSectionGroupKnobs;
-    MISSING_TYPE *channelSectionDirectoryGroupKnobs;
-    MISSING_TYPE *mySportsTopicKnobs;
-    MISSING_TYPE *sportsScoresKnobs;
-    MISSING_TYPE *sportsScoresCondensedKnobs;
-    MISSING_TYPE *sportsStandingsKnobs;
-    MISSING_TYPE *sportsBracketKnobs;
-    MISSING_TYPE *sportsBoxScoresKnobs;
-    MISSING_TYPE *sportsEventInfoKnobs;
-    MISSING_TYPE *sportsEventLiveStreamKnobs;
-    MISSING_TYPE *sportsInjuryReportsKnobs;
-    MISSING_TYPE *sportsKeyPlayersKnobs;
-    MISSING_TYPE *sportsEventArticlesKnobs;
-    MISSING_TYPE *sportsRecordKnobs;
-    MISSING_TYPE *sportsNavigationKnobs;
-    MISSING_TYPE *sportsScheduleKnobs;
-    MISSING_TYPE *sportsLinksKnobs;
-    MISSING_TYPE *sportsTopStoriesKnobs;
-    MISSING_TYPE *sportsFavoritesKnobs;
-    MISSING_TYPE *weatherKnobs;
-    MISSING_TYPE *highlightsKnobs;
-    MISSING_TYPE *forYouKnobs;
-    MISSING_TYPE *recentStoriesKnobs;
-    MISSING_TYPE *dateRangeKnobs;
-    MISSING_TYPE *sportsMastheadKnobs;
-    MISSING_TYPE *sportsEventTopicKnobs;
-    MISSING_TYPE *sportsOnboardingKnobs;
-    MISSING_TYPE *puzzleListKnobs;
-    MISSING_TYPE *puzzleArchiveKnobs;
-    MISSING_TYPE *puzzleContinuePlayingKnobs;
-    MISSING_TYPE *puzzleFeaturedKnobs;
-    MISSING_TYPE *puzzleFullArchiveKnobs;
-    MISSING_TYPE *puzzleScoreboardKnobs;
-    MISSING_TYPE *affinityKnobs;
-    MISSING_TYPE *sponsoredSuperfeedKnobs;
-    MISSING_TYPE *channelRecipesKnobs;
-    MISSING_TYPE *forYouRecipesKnobs;
-    MISSING_TYPE *latestRecipesKnobs;
-    MISSING_TYPE *recentlyViewedRecipesKnobs;
-    MISSING_TYPE *savedRecipesKnobs;
-    MISSING_TYPE *trendingRecipesKnobs;
-    MISSING_TYPE *topicRecipesKnobs;
+    id promotedArticleListKnobs;
+    id paywallKnobs;
+    id issueListKnobs;
+    id articleListKnobs;
+    id curatedKnobs;
+    id channelSectionGroupKnobs;
+    id channelSectionDirectoryGroupKnobs;
+    id mySportsTopicKnobs;
+    id sportsScoresKnobs;
+    id sportsScoresCondensedKnobs;
+    id sportsStandingsKnobs;
+    id sportsBracketKnobs;
+    id sportsBoxScoresKnobs;
+    id sportsEventInfoKnobs;
+    id sportsEventLiveStreamKnobs;
+    id sportsInjuryReportsKnobs;
+    id sportsKeyPlayersKnobs;
+    id sportsEventArticlesKnobs;
+    id sportsRecordKnobs;
+    id sportsNavigationKnobs;
+    id sportsScheduleKnobs;
+    id sportsLinksKnobs;
+    id sportsTopStoriesKnobs;
+    id sportsFavoritesKnobs;
+    id weatherKnobs;
+    id highlightsKnobs;
+    id forYouKnobs;
+    id recentStoriesKnobs;
+    id dateRangeKnobs;
+    id sportsMastheadKnobs;
+    id sportsEventTopicKnobs;
+    id sportsOnboardingKnobs;
+    id puzzleListKnobs;
+    id puzzleArchiveKnobs;
+    id puzzleContinuePlayingKnobs;
+    id puzzleFeaturedKnobs;
+    id puzzleFullArchiveKnobs;
+    id puzzleScoreboardKnobs;
+    id affinityKnobs;
+    id sponsoredSuperfeedKnobs;
+    id channelRecipesKnobs;
+    id forYouRecipesKnobs;
+    id latestRecipesKnobs;
+    id recentlyViewedRecipesKnobs;
+    id savedRecipesKnobs;
+    id trendingRecipesKnobs;
+    id topicRecipesKnobs;
 }
 
 @end

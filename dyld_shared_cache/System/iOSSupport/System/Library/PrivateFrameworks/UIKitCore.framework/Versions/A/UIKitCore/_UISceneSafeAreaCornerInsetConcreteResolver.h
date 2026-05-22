@@ -6,11 +6,9 @@
 
 #import <UIKitCore/_UISceneSafeAreaCornerInsetResolver.h>
 
-@class MISSING_TYPE;
-
 @interface _UISceneSafeAreaCornerInsetConcreteResolver : _UISceneSafeAreaCornerInsetResolver
 {
-    MISSING_TYPE *safeAreaCornerInsets;
+    id safeAreaCornerInsets;
 }
 
 + (_Bool)orphableInternal_p;

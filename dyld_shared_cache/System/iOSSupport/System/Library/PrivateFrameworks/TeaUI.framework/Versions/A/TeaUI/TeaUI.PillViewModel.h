@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.PillViewModel
 {
-    MISSING_TYPE *title;
-    MISSING_TYPE *titleColor;
-    MISSING_TYPE *icon;
-    MISSING_TYPE *size;
+    id title;
+    id titleColor;
+    id icon;
+    id size;
 }
 
 @end

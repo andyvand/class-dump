@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface FindMyUICore.OnboardingSessionLive
 {
-    MISSING_TYPE *$__lazy_storage_$_accessoryPairingSession;
-    MISSING_TYPE *$__lazy_storage_$_locationShifter;
-    MISSING_TYPE *logger;
+    id $__lazy_storage_$_accessoryPairingSession;
+    id $__lazy_storage_$_locationShifter;
+    id logger;
 }
 
 @end

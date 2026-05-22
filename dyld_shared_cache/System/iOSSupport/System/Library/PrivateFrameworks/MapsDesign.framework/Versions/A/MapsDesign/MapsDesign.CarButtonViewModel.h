@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface MapsDesign.CarButtonViewModel
 {
-    MISSING_TYPE *_id;
-    MISSING_TYPE *_imageName;
-    MISSING_TYPE *_label;
-    MISSING_TYPE *_variant;
-    MISSING_TYPE *_progress;
-    MISSING_TYPE *systemImagePadding;
-    MISSING_TYPE *axID;
-    MISSING_TYPE *_$observationRegistrar;
+    id _id;
+    id _imageName;
+    id _label;
+    id _variant;
+    id _progress;
+    id systemImagePadding;
+    id axID;
+    id _$observationRegistrar;
 }
 
 @end

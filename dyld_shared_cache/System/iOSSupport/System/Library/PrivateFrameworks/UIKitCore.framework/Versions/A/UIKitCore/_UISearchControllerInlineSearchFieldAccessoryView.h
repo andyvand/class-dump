@@ -6,14 +6,14 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIButton, UISearchTextField, _TtCE5UIKitCSo49_UISearchControllerInlineSearchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView;
+@class (extension in UIKit):__C._UISearchControllerInlineSearchFieldAccessoryView.PlatterView__priv_44477F16EA4C43AC7BD163D47CACAD07, UIButton, UISearchTextField;
 
 @interface _UISearchControllerInlineSearchFieldAccessoryView : UIView
 {
     UIButton *cancelButton;
     UISearchTextField *borrowedSearchTextField;
-    _TtCE5UIKitCSo49_UISearchControllerInlineSearchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView *searchFieldPlatterView;
-    _TtCE5UIKitCSo49_UISearchControllerInlineSearchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView *cancelButtonPlatterView;
+    (extension in UIKit):__C._UISearchControllerInlineSearchFieldAccessoryView.PlatterView__priv_44477F16EA4C43AC7BD163D47CACAD07 *searchFieldPlatterView;
+    (extension in UIKit):__C._UISearchControllerInlineSearchFieldAccessoryView.PlatterView__priv_44477F16EA4C43AC7BD163D47CACAD07 *cancelButtonPlatterView;
 }
 
 - (void);
@@ -30,9 +30,9 @@
 // Remaining properties
 @property(nonatomic, retain) UISearchTextField *borrowedSearchTextField; // @synthesize borrowedSearchTextField;
 @property(nonatomic, readonly) UIButton *cancelButton; // @synthesize cancelButton;
-@property(nonatomic, readonly) _TtCE5UIKitCSo49_UISearchControllerInlineSearchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView *cancelButtonPlatterView; // @synthesize cancelButtonPlatterView;
+@property(nonatomic, readonly) (extension in UIKit):__C._UISearchControllerInlineSearchFieldAccessoryView.PlatterView__priv_44477F16EA4C43AC7BD163D47CACAD07 *cancelButtonPlatterView; // @synthesize cancelButtonPlatterView;
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, readonly) _TtCE5UIKitCSo49_UISearchControllerInlineSearchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView *searchFieldPlatterView; // @synthesize searchFieldPlatterView;
+@property(nonatomic, readonly) (extension in UIKit):__C._UISearchControllerInlineSearchFieldAccessoryView.PlatterView__priv_44477F16EA4C43AC7BD163D47CACAD07 *searchFieldPlatterView; // @synthesize searchFieldPlatterView;
 
 @end
 

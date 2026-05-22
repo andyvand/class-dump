@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.LikeDislikeArticleViewerFeatureVisibilityProvider
 {
-    MISSING_TYPE *pageBlueprintProvider;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *paidAccessChecker;
+    id pageBlueprintProvider;
+    id featureAvailability;
+    id paidAccessChecker;
 }
 
 @end

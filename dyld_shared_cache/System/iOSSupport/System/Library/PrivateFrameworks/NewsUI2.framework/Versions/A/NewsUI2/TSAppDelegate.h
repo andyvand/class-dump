@@ -4,19 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIWindow;
+@class UIWindow;
 
 @interface TSAppDelegate
 {
-    MISSING_TYPE *$__lazy_storage_$_containerManager;
-    MISSING_TYPE *$__lazy_storage_$_container;
-    MISSING_TYPE *$__lazy_storage_$_resolver;
+    id $__lazy_storage_$_containerManager;
+    id $__lazy_storage_$_container;
+    id $__lazy_storage_$_resolver;
     UIWindow *window;
-    MISSING_TYPE *$__lazy_storage_$_menuManager;
-    MISSING_TYPE *$__lazy_storage_$_commandCenter;
-    MISSING_TYPE *$__lazy_storage_$_tracker;
-    MISSING_TYPE *backgroundFetchSignal;
-    MISSING_TYPE *remoteNotificationSignal;
+    id $__lazy_storage_$_menuManager;
+    id $__lazy_storage_$_commandCenter;
+    id $__lazy_storage_$_tracker;
+    id backgroundFetchSignal;
+    id remoteNotificationSignal;
 }
 
 - (void);

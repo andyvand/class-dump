@@ -6,12 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface UIKit.UIPromptSuggestionContainerView : UIView
 {
-    MISSING_TYPE *suggestionViews;
-    MISSING_TYPE *contentView;
+    id suggestionViews;
+    id contentView;
 }
 
 - (id);

@@ -4,42 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, _UINavigationBarLargeTitleViewLayout;
+@class NSString, _UINavigationBarLargeTitleViewLayout;
 
 @interface UIKit.NavigationBarTransitionContext
 {
-    MISSING_TYPE *stack;
-    MISSING_TYPE *fromLayout;
-    MISSING_TYPE *toLayout;
-    MISSING_TYPE *twoPartAnimationBaseDuration;
-    MISSING_TYPE *twoPartAnimationOverlapDuration;
-    MISSING_TYPE *clippingViews;
-    MISSING_TYPE *fromLargeTitleLayout;
-    MISSING_TYPE *toLargeTitleLayout;
-    MISSING_TYPE *largeTitleTransitionType;
-    MISSING_TYPE *completionHandler;
-    MISSING_TYPE *navigationBar;
-    MISSING_TYPE *isPushOperation;
-    MISSING_TYPE *compact;
-    MISSING_TYPE *usesBarBackground;
-    MISSING_TYPE *allowLargeTitles;
-    MISSING_TYPE *twoPart;
-    MISSING_TYPE *apiVersion;
-    MISSING_TYPE *backgroundAlpha;
-    MISSING_TYPE *promptView;
-    MISSING_TYPE *contentView;
-    MISSING_TYPE *backgroundView;
-    MISSING_TYPE *largeTitleView;
-    MISSING_TYPE *tabBarHostedView;
-    MISSING_TYPE *beginWithLargeTitle;
-    MISSING_TYPE *endWithLargeTitle;
-    MISSING_TYPE *beginWithTransparencyAllowed;
-    MISSING_TYPE *endWithTransparencyAllowed;
-    MISSING_TYPE *startingContentOffsetForObservedScrollView;
-    MISSING_TYPE *observedScrollViewOffsetIsApplicable;
-    MISSING_TYPE *sharesContentViewLayouts;
-    MISSING_TYPE *transitionOverlayView;
-    MISSING_TYPE *transition;
+    id stack;
+    id fromLayout;
+    id toLayout;
+    id twoPartAnimationBaseDuration;
+    id twoPartAnimationOverlapDuration;
+    id clippingViews;
+    id fromLargeTitleLayout;
+    id toLargeTitleLayout;
+    id largeTitleTransitionType;
+    id completionHandler;
+    id navigationBar;
+    id isPushOperation;
+    id compact;
+    id usesBarBackground;
+    id allowLargeTitles;
+    id twoPart;
+    id apiVersion;
+    id backgroundAlpha;
+    id promptView;
+    id contentView;
+    id backgroundView;
+    id largeTitleView;
+    id tabBarHostedView;
+    id beginWithLargeTitle;
+    id endWithLargeTitle;
+    id beginWithTransparencyAllowed;
+    id endWithTransparencyAllowed;
+    id startingContentOffsetForObservedScrollView;
+    id observedScrollViewOffsetIsApplicable;
+    id sharesContentViewLayouts;
+    id transitionOverlayView;
+    id transition;
 }
 
 - (void);

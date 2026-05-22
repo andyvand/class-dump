@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.DisplayClock
 {
-    MISSING_TYPE *lock;
-    MISSING_TYPE *tickHandlers;
-    MISSING_TYPE *tickHandlersForThisFrame;
-    MISSING_TYPE *displayLink;
-    MISSING_TYPE *isRenderClock;
-    MISSING_TYPE *_pausedOnBackgrounding;
+    id lock;
+    id tickHandlers;
+    id tickHandlersForThisFrame;
+    id displayLink;
+    id isRenderClock;
+    id _pausedOnBackgrounding;
 }
 
 - (void);

@@ -4,39 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString, UIImage, VKCStickerEffectInternal;
+@class NSString, UIImage, VKCStickerEffectInternal;
 
 __attribute__((visibility("hidden")))
 @interface VKCStickerEffectViewInternal
 {
-    MISSING_TYPE *logger;
-    MISSING_TYPE *instanceLabel;
-    MISSING_TYPE *device;
-    MISSING_TYPE *commandQueue;
-    MISSING_TYPE *metalLayer;
-    MISSING_TYPE *metalLayerContainer;
-    MISSING_TYPE *needsRender;
-    MISSING_TYPE *renderInProgress;
-    MISSING_TYPE *scrollViewToObserveCount;
-    MISSING_TYPE *scrollViewToObserve;
-    MISSING_TYPE *requiredScale;
-    MISSING_TYPE *appliedScale;
-    MISSING_TYPE *strokeScale;
-    MISSING_TYPE *renderQueue;
-    MISSING_TYPE *renderer;
-    MISSING_TYPE *displayLink;
-    MISSING_TYPE *instanceNumber;
-    MISSING_TYPE *displayLinkActive;
-    MISSING_TYPE *motionActive;
-    MISSING_TYPE *deviceOrientation;
-    MISSING_TYPE *settlingDuration1;
-    MISSING_TYPE *settlingDuration2;
-    MISSING_TYPE *settlingStartAngle;
-    MISSING_TYPE *settlingEndAngle;
-    MISSING_TYPE *settlingStartTime;
-    MISSING_TYPE *settlingOrientation;
-    MISSING_TYPE *screenCenterDuration;
-    MISSING_TYPE *unitScreenCenter;
+    id logger;
+    id instanceLabel;
+    id device;
+    id commandQueue;
+    id metalLayer;
+    id metalLayerContainer;
+    id needsRender;
+    id renderInProgress;
+    id scrollViewToObserveCount;
+    id scrollViewToObserve;
+    id requiredScale;
+    id appliedScale;
+    id strokeScale;
+    id renderQueue;
+    id renderer;
+    id displayLink;
+    id instanceNumber;
+    id displayLinkActive;
+    id motionActive;
+    id deviceOrientation;
+    id settlingDuration1;
+    id settlingDuration2;
+    id settlingStartAngle;
+    id settlingEndAngle;
+    id settlingStartTime;
+    id settlingOrientation;
+    id screenCenterDuration;
+    id unitScreenCenter;
     _Bool boundsIncludeStroke;
     _Bool reRenderOnMotion;
     float curlPosition;

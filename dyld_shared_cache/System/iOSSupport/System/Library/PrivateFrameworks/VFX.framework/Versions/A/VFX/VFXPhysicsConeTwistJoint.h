@@ -9,8 +9,8 @@
 @interface VFXPhysicsConeTwistJoint : VFXPhysicsJoint
 {
     struct {
-        CDStruct_14d5dc5e frameA;
-        CDStruct_14d5dc5e frameB;
+        CDStruct_95fa7c00 frameA;
+        CDStruct_95fa7c00 frameB;
         float maximumAngularLimit1;
         float maximumAngularLimit2;
         float maximumTwistAngle;
@@ -33,8 +33,8 @@
 - (float);
 - (id);
 - (id);
-- (CDStruct_14d5dc5e);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
+- (CDStruct_95fa7c00);
 - (id);
 - (id);
 - (void);
@@ -42,8 +42,8 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) CDStruct_14d5dc5e frameA;
-@property(nonatomic) CDStruct_14d5dc5e frameB;
+@property(nonatomic) CDStruct_95fa7c00 frameA;
+@property(nonatomic) CDStruct_95fa7c00 frameB;
 @property(nonatomic) float maximumAngularLimit1;
 @property(nonatomic) float maximumAngularLimit2;
 @property(nonatomic) float maximumTwistAngle;

@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.PDFReplicaRouter
 {
-    MISSING_TYPE *controller;
-    MISSING_TYPE *linkHandler;
-    MISSING_TYPE *webViewControllerFactory;
-    MISSING_TYPE *resolver;
+    id controller;
+    id linkHandler;
+    id webViewControllerFactory;
+    id resolver;
 }
 
 @end

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.DynamicMenuGroupOptionProvider
 {
-    MISSING_TYPE *needsUpdate;
-    MISSING_TYPE *menuGroup;
+    id needsUpdate;
+    id menuGroup;
 }
 
 @end

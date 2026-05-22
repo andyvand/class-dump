@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.InternalErrorViewRenderer
 {
-    MISSING_TYPE *rendererTool;
-    MISSING_TYPE *debuggers;
-    MISSING_TYPE *contentEnvironment;
+    id rendererTool;
+    id debuggers;
+    id contentEnvironment;
 }
 
 @end

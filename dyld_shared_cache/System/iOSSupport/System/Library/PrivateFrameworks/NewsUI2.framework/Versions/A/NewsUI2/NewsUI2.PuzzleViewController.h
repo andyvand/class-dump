@@ -4,54 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.PuzzleViewController
 {
-    MISSING_TYPE *fullScreenModalDelegate;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *puzzleModel;
-    MISSING_TYPE *puzzleViewConfig;
-    MISSING_TYPE *puzzleEmbedViewController;
-    MISSING_TYPE *newsActivityManager;
-    MISSING_TYPE *contentOverlayViewController;
-    MISSING_TYPE *puzzleRadarReporter;
-    MISSING_TYPE *historyService;
-    MISSING_TYPE *puzzleNavigationBarThemeProvider;
-    MISSING_TYPE *puzzleDifficultyDescriptionProvider;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *commands;
-    MISSING_TYPE *_windowTitle;
-    MISSING_TYPE *puzzle;
-    MISSING_TYPE *currentPuzzleBarButtonItems;
-    MISSING_TYPE *initialLeftBarButtonItems;
-    MISSING_TYPE *initialLeadingRightBarButtonItems;
-    MISSING_TYPE *currentRightMenuItems;
-    MISSING_TYPE *currentLeftMenuItems;
-    MISSING_TYPE *currentAccessoryView;
-    MISSING_TYPE *publisherLogo;
-    MISSING_TYPE *didSetInitialTitle;
-    MISSING_TYPE *initialIsPencilInputExpected;
-    MISSING_TYPE *paywall;
-    MISSING_TYPE *currentPuzzleColorTheme;
-    MISSING_TYPE *revealTypesUsed;
-    MISSING_TYPE *isBackgrounded;
-    MISSING_TYPE *isVisible;
-    MISSING_TYPE *_backgroundTaskID;
-    MISSING_TYPE *$__lazy_storage_$_radarBarButtonItem;
-    MISSING_TYPE *$__lazy_storage_$_puzzleMenuAction;
-    MISSING_TYPE *instanceID;
-    MISSING_TYPE *subscribed;
-    MISSING_TYPE *onboardingManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *visibilityEventManager;
-    MISSING_TYPE *embedLoadEventManager;
-    MISSING_TYPE *timer;
-    MISSING_TYPE *embedDidLoadCompletion;
-    MISSING_TYPE *transitionEffectView;
-    MISSING_TYPE *feedConfigurationFactory;
-    MISSING_TYPE *skipModalPresentation;
+    id fullScreenModalDelegate;
+    id styler;
+    id eventHandler;
+    id puzzleModel;
+    id puzzleViewConfig;
+    id puzzleEmbedViewController;
+    id newsActivityManager;
+    id contentOverlayViewController;
+    id puzzleRadarReporter;
+    id historyService;
+    id puzzleNavigationBarThemeProvider;
+    id puzzleDifficultyDescriptionProvider;
+    id tracker;
+    id commands;
+    id _windowTitle;
+    id puzzle;
+    id currentPuzzleBarButtonItems;
+    id initialLeftBarButtonItems;
+    id initialLeadingRightBarButtonItems;
+    id currentRightMenuItems;
+    id currentLeftMenuItems;
+    id currentAccessoryView;
+    id publisherLogo;
+    id didSetInitialTitle;
+    id initialIsPencilInputExpected;
+    id paywall;
+    id currentPuzzleColorTheme;
+    id revealTypesUsed;
+    id isBackgrounded;
+    id isVisible;
+    id _backgroundTaskID;
+    id $__lazy_storage_$_radarBarButtonItem;
+    id $__lazy_storage_$_puzzleMenuAction;
+    id instanceID;
+    id subscribed;
+    id onboardingManager;
+    id bundleSubscriptionManager;
+    id visibilityEventManager;
+    id embedLoadEventManager;
+    id timer;
+    id embedDidLoadCompletion;
+    id transitionEffectView;
+    id feedConfigurationFactory;
+    id skipModalPresentation;
 }
 
 - (void);

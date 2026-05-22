@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFeaturePromotionViewController
 {
-    MISSING_TYPE *featurePromotionManager;
-    MISSING_TYPE *featurePromotionViewFactory;
-    MISSING_TYPE *featurePromotionEligibilityProviderFactory;
-    MISSING_TYPE *featurePromotionResolvedDataSourceFactory;
-    MISSING_TYPE *feedPersonalizationService;
-    MISSING_TYPE *formatSystemFactory;
-    MISSING_TYPE *tagImageApplier;
-    MISSING_TYPE *presentationArchive;
-    MISSING_TYPE *context;
-    MISSING_TYPE *$__lazy_storage_$_model;
-    MISSING_TYPE *$__lazy_storage_$_hostingViewController;
-    MISSING_TYPE *result;
-    MISSING_TYPE *_sorting;
+    id featurePromotionManager;
+    id featurePromotionViewFactory;
+    id featurePromotionEligibilityProviderFactory;
+    id featurePromotionResolvedDataSourceFactory;
+    id feedPersonalizationService;
+    id formatSystemFactory;
+    id tagImageApplier;
+    id presentationArchive;
+    id context;
+    id $__lazy_storage_$_model;
+    id $__lazy_storage_$_hostingViewController;
+    id result;
+    id _sorting;
 }
 
 - (void);

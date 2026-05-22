@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsArticles.ModalArticleViewerAudioActionHandler
 {
-    MISSING_TYPE *audioActionHandler;
-    MISSING_TYPE *router;
+    id audioActionHandler;
+    id router;
 }
 
 @end

@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardMetrics.ObservableEdgeInsets
 {
-    MISSING_TYPE *_top;
-    MISSING_TYPE *_leading;
-    MISSING_TYPE *_bottom;
-    MISSING_TYPE *_trailing;
-    MISSING_TYPE *_$observationRegistrar;
+    id _top;
+    id _leading;
+    id _bottom;
+    id _trailing;
+    id _$observationRegistrar;
 }
 
 @end

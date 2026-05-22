@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.EndOfRecipeViewModel
 {
-    MISSING_TYPE *_recipeID;
-    MISSING_TYPE *_recipeCardID;
-    MISSING_TYPE *_recipeCardViewSessionID;
-    MISSING_TYPE *endOfRecipeViewControllerProvider;
-    MISSING_TYPE *_$observationRegistrar;
+    id _recipeID;
+    id _recipeCardID;
+    id _recipeCardViewSessionID;
+    id endOfRecipeViewControllerProvider;
+    id _$observationRegistrar;
 }
 
 @end

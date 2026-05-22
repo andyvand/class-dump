@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.OfflineFeatures
 {
-    MISSING_TYPE *observables;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *backgroundAppRefreshChangeObserver;
+    id observables;
+    id featureAvailability;
+    id bundleSubscriptionManager;
+    id backgroundAppRefreshChangeObserver;
 }
 
 - (void);

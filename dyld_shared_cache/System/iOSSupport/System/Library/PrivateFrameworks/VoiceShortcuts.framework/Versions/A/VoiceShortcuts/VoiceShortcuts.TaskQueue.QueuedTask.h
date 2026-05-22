@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VoiceShortcuts.TaskQueue.QueuedTask
 {
-    MISSING_TYPE *task;
-    MISSING_TYPE *next;
+    id task;
+    id next;
 }
 
 @end

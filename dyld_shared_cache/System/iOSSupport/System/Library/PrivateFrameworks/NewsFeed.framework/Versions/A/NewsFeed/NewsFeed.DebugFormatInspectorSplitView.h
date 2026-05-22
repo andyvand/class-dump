@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatInspectorSplitView
 {
-    MISSING_TYPE *left;
-    MISSING_TYPE *right;
+    id left;
+    id right;
 }
 
 - (id);

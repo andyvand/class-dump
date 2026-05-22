@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SharingPromptModel
 {
-    MISSING_TYPE *workflow;
-    MISSING_TYPE *applicationActivities;
-    MISSING_TYPE *id;
+    id workflow;
+    id applicationActivities;
+    id id;
 }
 
 @end

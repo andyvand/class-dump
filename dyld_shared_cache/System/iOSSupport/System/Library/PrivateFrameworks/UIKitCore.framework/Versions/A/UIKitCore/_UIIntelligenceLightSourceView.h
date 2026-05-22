@@ -6,11 +6,9 @@
 
 #import <UIKitCore/UIView.h>
 
-@class MISSING_TYPE;
-
 @interface _UIIntelligenceLightSourceView : UIView
 {
-    MISSING_TYPE *configuration;
+    id configuration;
 }
 
 - (id);

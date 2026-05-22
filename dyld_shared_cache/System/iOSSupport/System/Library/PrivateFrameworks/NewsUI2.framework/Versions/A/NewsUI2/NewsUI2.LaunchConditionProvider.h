@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LaunchConditionProvider
 {
-    MISSING_TYPE *appLaunchMethodChecker;
-    MISSING_TYPE *bootstrapFlowProvider;
-    MISSING_TYPE *hasEnteredBackground;
+    id appLaunchMethodChecker;
+    id bootstrapFlowProvider;
+    id hasEnteredBackground;
 }
 
 @end

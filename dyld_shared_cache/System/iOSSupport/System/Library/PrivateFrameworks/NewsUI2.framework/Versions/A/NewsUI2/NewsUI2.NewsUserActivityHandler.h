@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.NewsUserActivityHandler
 {
-    MISSING_TYPE *patterns;
-    MISSING_TYPE *navigator;
-    MISSING_TYPE *userActivityDeserializer;
-    MISSING_TYPE *tracker;
-    MISSING_TYPE *resolver;
+    id patterns;
+    id navigator;
+    id userActivityDeserializer;
+    id tracker;
+    id resolver;
 }
 
 @end

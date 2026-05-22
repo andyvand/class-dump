@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFDrawerViewController
 {
-    MISSING_TYPE *delegate;
-    MISSING_TYPE *tokenBarVisible;
-    MISSING_TYPE *mode;
-    MISSING_TYPE *searchControlsView;
-    MISSING_TYPE *tokenScrollView;
-    MISSING_TYPE *headerSeparator;
-    MISSING_TYPE *tableView;
-    MISSING_TYPE *contentContainer;
-    MISSING_TYPE *dataSource;
-    MISSING_TYPE *dataSourceObservation;
-    MISSING_TYPE *sections;
-    MISSING_TYPE *browseModeContentOffsetCache;
-    MISSING_TYPE *internallyManagesSearchBarLayout;
-    MISSING_TYPE *visibleCategories;
-    MISSING_TYPE *sheetBlockingFirstResponder;
+    id delegate;
+    id tokenBarVisible;
+    id mode;
+    id searchControlsView;
+    id tokenScrollView;
+    id headerSeparator;
+    id tableView;
+    id contentContainer;
+    id dataSource;
+    id dataSourceObservation;
+    id sections;
+    id browseModeContentOffsetCache;
+    id internallyManagesSearchBarLayout;
+    id visibleCategories;
+    id sheetBlockingFirstResponder;
 }
 
 - (id);

@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.TextureDiscardSystem
 {
-    MISSING_TYPE *cleanupCPUQuery;
-    MISSING_TYPE *cleanupGPUQuery;
+    id cleanupCPUQuery;
+    id cleanupGPUQuery;
 }
 
 @end

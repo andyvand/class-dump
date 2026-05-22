@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, CKRecordZoneID, CKSyncEngine, CKSyncEngineFetchChangesOptions, CKSyncEngineSendChangesOptions, NSArray, NSMutableDictionary, NSString, VCCKApplicationStateObserver, WFCloudKitSyncEventLogger, WFDatabase, _TtC14VoiceShortcuts19VCDaemonTransaction;
+@class CKContainer, CKRecordZoneID, CKSyncEngine, CKSyncEngineFetchChangesOptions, CKSyncEngineSendChangesOptions, NSArray, NSMutableDictionary, NSString, VCCKApplicationStateObserver, VoiceShortcuts.VCDaemonTransaction, WFCloudKitSyncEventLogger, WFDatabase;
 @protocol VCDaemonTaskScheduler;
 
 @interface VCCKShortcutSyncService
@@ -14,7 +14,7 @@
     CKContainer *_container;
     CKSyncEngine *_syncEngine;
     id <VCDaemonTaskScheduler> _daemonTaskScheduler;
-    _TtC14VoiceShortcuts19VCDaemonTransaction *_daemonTransaction;
+    VoiceShortcuts.VCDaemonTransaction *_daemonTransaction;
     unsigned long long _debuggingOptions;
     WFCloudKitSyncEventLogger *_logger;
     CKSyncEngineSendChangesOptions *_sendChangesOptions;
@@ -117,7 +117,7 @@
 @property(nonatomic) _Bool coherenceSyncEnabled; // @synthesize coherenceSyncEnabled=_coherenceSyncEnabled;
 @property(readonly, nonatomic) CKContainer *container; // @synthesize container=_container;
 @property(readonly, nonatomic) id <VCDaemonTaskScheduler> daemonTaskScheduler; // @synthesize daemonTaskScheduler=_daemonTaskScheduler;
-@property(retain, nonatomic) _TtC14VoiceShortcuts19VCDaemonTransaction *daemonTransaction; // @synthesize daemonTransaction=_daemonTransaction;
+@property(retain, nonatomic) VoiceShortcuts.VCDaemonTransaction *daemonTransaction; // @synthesize daemonTransaction=_daemonTransaction;
 @property(readonly, nonatomic) WFDatabase *database; // @synthesize database=_database;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?

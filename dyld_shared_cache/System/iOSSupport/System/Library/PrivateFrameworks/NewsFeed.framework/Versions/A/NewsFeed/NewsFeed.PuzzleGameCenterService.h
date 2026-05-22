@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.PuzzleGameCenterService
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *appConfigurationManager;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *sceneProvider;
-    MISSING_TYPE *puzzleService;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *networkReachability;
-    MISSING_TYPE *_lastAuthenticationResult;
-    MISSING_TYPE *listeners;
-    MISSING_TYPE *pendingScores;
+    id $defaultActor;
+    id appConfigurationManager;
+    id featureAvailability;
+    id sceneProvider;
+    id puzzleService;
+    id puzzleHistoryService;
+    id networkReachability;
+    id _lastAuthenticationResult;
+    id listeners;
+    id pendingScores;
 }
 
 - (void);

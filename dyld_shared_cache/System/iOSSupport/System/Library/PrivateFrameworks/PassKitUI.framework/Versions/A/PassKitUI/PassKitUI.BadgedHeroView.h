@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PassKitUI.BadgedHeroView
 {
-    MISSING_TYPE *heroView;
-    MISSING_TYPE *badgeView;
+    id heroView;
+    id badgeView;
 }
 
 - (struct CGSize);

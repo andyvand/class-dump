@@ -4,53 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.TodayFeedGroupEmitterFactory
 {
-    MISSING_TYPE *newspaperGroupService;
-    MISSING_TYPE *formatService;
-    MISSING_TYPE *audioHeadlineConverter;
-    MISSING_TYPE *headlineService;
-    MISSING_TYPE *feedPersonalizer;
-    MISSING_TYPE *featureAvailability;
-    MISSING_TYPE *magazineFeedService;
-    MISSING_TYPE *personalizationService;
-    MISSING_TYPE *cloudContext;
-    MISSING_TYPE *tagService;
-    MISSING_TYPE *tagHighlightsService;
-    MISSING_TYPE *tagFeedCurationService;
-    MISSING_TYPE *tagFeedHeadlineService;
-    MISSING_TYPE *suggestionClusteringService;
-    MISSING_TYPE *localNewsChannelService;
-    MISSING_TYPE *locationManager;
-    MISSING_TYPE *channelLocationService;
-    MISSING_TYPE *promotedHeadlineService;
-    MISSING_TYPE *channelHeadlineService;
-    MISSING_TYPE *engagementInlineViewManager;
-    MISSING_TYPE *todayFeedEngagementEventHandler;
-    MISSING_TYPE *engagementFeatureSettings;
-    MISSING_TYPE *sharedItemManager;
-    MISSING_TYPE *sportsTopicClusteringService;
-    MISSING_TYPE *sportsDataService;
-    MISSING_TYPE *sportsFavoritesService;
-    MISSING_TYPE *sportsRecommendationManager;
-    MISSING_TYPE *sportsOnboardingManager;
-    MISSING_TYPE *sportsGraphManager;
-    MISSING_TYPE *sportsSectionService;
-    MISSING_TYPE *sportsScoreSorter;
-    MISSING_TYPE *mySportsTagService;
-    MISSING_TYPE *historyService;
-    MISSING_TYPE *sportsEmbedConfigurationManager;
-    MISSING_TYPE *sportsConfiguringDataService;
-    MISSING_TYPE *puzzleHistoryService;
-    MISSING_TYPE *weatherService;
-    MISSING_TYPE *channelPickerConfigManager;
-    MISSING_TYPE *suggestionsService;
-    MISSING_TYPE *foodService;
-    MISSING_TYPE *foodClusteringService;
-    MISSING_TYPE *recipeService;
-    MISSING_TYPE *articleForYouAvailability;
+    id newspaperGroupService;
+    id formatService;
+    id audioHeadlineConverter;
+    id headlineService;
+    id feedPersonalizer;
+    id featureAvailability;
+    id magazineFeedService;
+    id personalizationService;
+    id cloudContext;
+    id tagService;
+    id tagHighlightsService;
+    id tagFeedCurationService;
+    id tagFeedHeadlineService;
+    id suggestionClusteringService;
+    id localNewsChannelService;
+    id locationManager;
+    id channelLocationService;
+    id promotedHeadlineService;
+    id channelHeadlineService;
+    id engagementInlineViewManager;
+    id todayFeedEngagementEventHandler;
+    id engagementFeatureSettings;
+    id sharedItemManager;
+    id sportsTopicClusteringService;
+    id sportsDataService;
+    id sportsFavoritesService;
+    id sportsRecommendationManager;
+    id sportsOnboardingManager;
+    id sportsGraphManager;
+    id sportsSectionService;
+    id sportsScoreSorter;
+    id mySportsTagService;
+    id historyService;
+    id sportsEmbedConfigurationManager;
+    id sportsConfiguringDataService;
+    id puzzleHistoryService;
+    id weatherService;
+    id channelPickerConfigManager;
+    id suggestionsService;
+    id foodService;
+    id foodClusteringService;
+    id recipeService;
+    id articleForYouAvailability;
 }
 
 @end

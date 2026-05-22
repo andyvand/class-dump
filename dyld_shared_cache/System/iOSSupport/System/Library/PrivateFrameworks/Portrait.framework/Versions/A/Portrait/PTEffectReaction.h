@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface PTEffectReaction
 {
     _Bool _uiTriggeredReaction;
@@ -13,7 +11,7 @@
     unsigned long long _effectType;
     unsigned long long _orientation;
     double _startTimeSeconds;
-    MISSING_TYPE *_position;
+    id _position;
 }
 
 - (long long);
@@ -26,7 +24,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (MISSING_TYPE *);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
@@ -34,7 +32,7 @@
 // Remaining properties
 @property unsigned long long effectType; // @synthesize effectType=_effectType;
 @property unsigned long long orientation; // @synthesize orientation=_orientation;
-@property MISSING_TYPE *position; // @synthesize position=_position;
+@property id position; // @synthesize position=_position;
 @property double startTimeSeconds; // @synthesize startTimeSeconds=_startTimeSeconds;
 @property long long triggerID; // @synthesize triggerID=_triggerID;
 @property _Bool uiTriggeredReaction; // @synthesize uiTriggeredReaction=_uiTriggeredReaction;

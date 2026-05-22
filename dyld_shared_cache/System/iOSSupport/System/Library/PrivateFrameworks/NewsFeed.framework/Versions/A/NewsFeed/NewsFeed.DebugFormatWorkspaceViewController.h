@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.DebugFormatWorkspaceViewController
 {
-    MISSING_TYPE *editor;
-    MISSING_TYPE *workspaceListViewController;
-    MISSING_TYPE *workspaceListNavigationController;
-    MISSING_TYPE *workspaceCanvasViewController;
-    MISSING_TYPE *workspaceCanvasNavigationController;
+    id editor;
+    id workspaceListViewController;
+    id workspaceListNavigationController;
+    id workspaceCanvasViewController;
+    id workspaceCanvasNavigationController;
 }
 
 - (id);

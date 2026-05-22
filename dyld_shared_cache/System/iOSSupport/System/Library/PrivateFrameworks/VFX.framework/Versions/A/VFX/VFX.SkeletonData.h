@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface VFX.SkeletonData
 {
-    MISSING_TYPE *joints;
-    MISSING_TYPE *bindTransforms;
-    MISSING_TYPE *restTransforms;
-    MISSING_TYPE *jointsParents;
-    MISSING_TYPE *inverseBindTransforms;
+    id joints;
+    id bindTransforms;
+    id restTransforms;
+    id jointsParents;
+    id inverseBindTransforms;
 }
 
 @end

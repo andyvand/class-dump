@@ -6,12 +6,10 @@
 
 #import <VFX/VFX.FlowControlNode.h>
 
-@class MISSING_TYPE;
-
 @interface VFX.DoNode : VFX.FlowControlNode
 {
-    MISSING_TYPE *count;
-    MISSING_TYPE *caseNames;
+    id count;
+    id caseNames;
 }
 
 @end

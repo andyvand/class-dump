@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSArray, NSMutableOrderedSet, NSMutableSet, NSSet, VFXAuthoringEnvironment2, VFXManipulator, VFXNode;
+@class NSArray, NSMutableOrderedSet, NSMutableSet, NSSet, VFXAuthoringEnvironment2, VFXManipulator, VFXNode;
 @protocol VFXAuthoringEnvironmentDelegate, VFXWorldRenderer;
 
 @interface VFXAuthoringEnvironment
@@ -54,8 +54,8 @@
     long long _editingSpace;
     long long _selectionTransformMode;
     _Bool _graphicalSelectionEnabled;
-    MISSING_TYPE *_selectionP0;
-    MISSING_TYPE *_selectionP1;
+    id _selectionP0;
+    id _selectionP1;
     _Bool _selecting;
     _Bool _surroundToSelect;
     NSSet *_initialSelection;
@@ -93,7 +93,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (CDStruct_14d5dc5e);
+- (CDStruct_95fa7c00);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -143,7 +143,7 @@
 @property(nonatomic) _Bool shouldSnapOnGrid; // @synthesize shouldSnapOnGrid=_shouldSnapOnGrid;
 @property(nonatomic) _Bool shouldSnapToAlign; // @synthesize shouldSnapToAlign=_shouldSnapToAlign;
 @property(nonatomic) _Bool surroundToSelect; // @synthesize surroundToSelect=_surroundToSelect;
-@property(readonly, nonatomic) CDStruct_14d5dc5e viewMatrix;
+@property(readonly, nonatomic) CDStruct_95fa7c00 viewMatrix;
 @property(readonly) id <VFXWorldRenderer> worldRenderer;
 
 @end

@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.LayeredMediaViewDisplayStateCoordinator
 {
-    MISSING_TYPE *isEnabled;
-    MISSING_TYPE *visibilityTracking;
-    MISSING_TYPE *onChangeBlock;
-    MISSING_TYPE *isBackgrounded;
-    MISSING_TYPE *backingView;
-    MISSING_TYPE *lastDisplayState;
+    id isEnabled;
+    id visibilityTracking;
+    id onChangeBlock;
+    id isBackgrounded;
+    id backingView;
+    id lastDisplayState;
 }
 
 - (void);

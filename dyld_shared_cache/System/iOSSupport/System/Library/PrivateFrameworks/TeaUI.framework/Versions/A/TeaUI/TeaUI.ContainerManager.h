@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface TeaUI.ContainerManager
 {
-    MISSING_TYPE *containerEnvironment;
-    MISSING_TYPE *$__lazy_storage_$_carPlayContainer;
-    MISSING_TYPE *$__lazy_storage_$_appContainer;
-    MISSING_TYPE *stagedContainer;
-    MISSING_TYPE *singletonPool;
-    MISSING_TYPE *bundleAssemblies;
-    MISSING_TYPE *assemblies;
+    id containerEnvironment;
+    id $__lazy_storage_$_carPlayContainer;
+    id $__lazy_storage_$_appContainer;
+    id stagedContainer;
+    id singletonPool;
+    id bundleAssemblies;
+    id assemblies;
 }
 
 @end

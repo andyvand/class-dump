@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.WFCollectionConfiguration
 {
-    MISSING_TYPE *_selectedGlyphCharacter;
-    MISSING_TYPE *_folderName;
+    id _selectedGlyphCharacter;
+    id _folderName;
 }
 
 @end

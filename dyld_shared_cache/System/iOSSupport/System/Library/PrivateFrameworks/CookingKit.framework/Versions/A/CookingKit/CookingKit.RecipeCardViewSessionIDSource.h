@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.RecipeCardViewSessionIDSource
 {
-    MISSING_TYPE *_observableRecipeCardViewSessionID;
-    MISSING_TYPE *state;
-    MISSING_TYPE *_$scope;
+    id _observableRecipeCardViewSessionID;
+    id state;
+    id _$scope;
 }
 
 @end

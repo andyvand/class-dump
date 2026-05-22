@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 __attribute__((visibility("hidden")))
 @interface JEWrappedMetricsPipeline
 {
-    MISSING_TYPE *pipeline;
+    id pipeline;
 }
 
 - (id);

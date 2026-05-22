@@ -4,30 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, UIViewController;
+@class UIViewController;
 
 @interface NewsArticles.RecipeViewerViewController
 {
-    MISSING_TYPE *config;
-    MISSING_TYPE *styler;
-    MISSING_TYPE *eventHandler;
-    MISSING_TYPE *pageViewController;
-    MISSING_TYPE *pageBlueprintProvider;
-    MISSING_TYPE *blueprintProvider;
-    MISSING_TYPE *eventManager;
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *barButtonItemFactory;
-    MISSING_TYPE *commands;
-    MISSING_TYPE *navigationTitleView;
-    MISSING_TYPE *_windowTitle;
-    MISSING_TYPE *currentRecipeViewController;
-    MISSING_TYPE *mostVisibleRecipeViewController;
-    MISSING_TYPE *prewarm;
-    MISSING_TYPE *_isPagingEnabled;
-    MISSING_TYPE *observableScrollView;
-    MISSING_TYPE *radarReporter;
-    MISSING_TYPE *externalRecipeTheme;
-    MISSING_TYPE *featureAvailability;
+    id config;
+    id styler;
+    id eventHandler;
+    id pageViewController;
+    id pageBlueprintProvider;
+    id blueprintProvider;
+    id eventManager;
+    id bundleSubscriptionManager;
+    id barButtonItemFactory;
+    id commands;
+    id navigationTitleView;
+    id _windowTitle;
+    id currentRecipeViewController;
+    id mostVisibleRecipeViewController;
+    id prewarm;
+    id _isPagingEnabled;
+    id observableScrollView;
+    id radarReporter;
+    id externalRecipeTheme;
+    id featureAvailability;
 }
 
 - (id);

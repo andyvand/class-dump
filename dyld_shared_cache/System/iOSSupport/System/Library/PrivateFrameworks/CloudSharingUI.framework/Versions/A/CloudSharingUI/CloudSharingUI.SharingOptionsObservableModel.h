@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CloudSharingUI.SharingOptionsObservableModel
 {
-    MISSING_TYPE *_sourceAppBundleID;
-    MISSING_TYPE *_userAction;
-    MISSING_TYPE *_contentSize;
-    MISSING_TYPE *_collaborationOptionsGroups;
-    MISSING_TYPE *oldUserAction;
-    MISSING_TYPE *oldContentSize;
-    MISSING_TYPE *_groups;
-    MISSING_TYPE *_showingAlert;
-    MISSING_TYPE *_showingAlertBool;
-    MISSING_TYPE *optionsDependency;
-    MISSING_TYPE *_allGroups;
-    MISSING_TYPE *_shouldValidateWithAlert;
-    MISSING_TYPE *userDidChangeOption;
-    MISSING_TYPE *contentSizeDidChange;
-    MISSING_TYPE *layoutMargins;
-    MISSING_TYPE *_$observationRegistrar;
+    id _sourceAppBundleID;
+    id _userAction;
+    id _contentSize;
+    id _collaborationOptionsGroups;
+    id oldUserAction;
+    id oldContentSize;
+    id _groups;
+    id _showingAlert;
+    id _showingAlertBool;
+    id optionsDependency;
+    id _allGroups;
+    id _shouldValidateWithAlert;
+    id userDidChangeOption;
+    id contentSizeDidChange;
+    id layoutMargins;
+    id _$observationRegistrar;
 }
 
 @end

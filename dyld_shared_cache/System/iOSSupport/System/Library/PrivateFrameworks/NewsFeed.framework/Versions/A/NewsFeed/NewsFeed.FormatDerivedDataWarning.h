@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsFeed.FormatDerivedDataWarning
 {
-    MISSING_TYPE *file;
-    MISSING_TYPE *errors;
+    id file;
+    id errors;
 }
 
 @end

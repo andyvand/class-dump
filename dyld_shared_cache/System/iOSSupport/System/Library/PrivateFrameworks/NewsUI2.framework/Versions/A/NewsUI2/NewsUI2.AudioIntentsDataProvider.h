@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.AudioIntentsDataProvider
 {
-    MISSING_TYPE *audioIntentData;
-    MISSING_TYPE *currentlyPlaying;
-    MISSING_TYPE *dailyBriefingTrack;
-    MISSING_TYPE *imageCache;
+    id audioIntentData;
+    id currentlyPlaying;
+    id dailyBriefingTrack;
+    id imageCache;
 }
 
 @end

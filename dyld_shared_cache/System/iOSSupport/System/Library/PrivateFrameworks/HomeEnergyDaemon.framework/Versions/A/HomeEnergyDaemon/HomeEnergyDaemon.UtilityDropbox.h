@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyDaemon.UtilityDropbox
 {
-    MISSING_TYPE *$defaultActor;
-    MISSING_TYPE *isExecuting;
-    MISSING_TYPE *isDropboxDisabled;
-    MISSING_TYPE *isForceDropboxRefreshEnabled;
-    MISSING_TYPE *isTokenErrorInducerEnabled;
-    MISSING_TYPE *isAggressivePollingEnabled;
-    MISSING_TYPE *isCKTokenOneHourExpirationEnabled;
-    MISSING_TYPE *tokenErrorInducerValue;
+    id $defaultActor;
+    id isExecuting;
+    id isDropboxDisabled;
+    id isForceDropboxRefreshEnabled;
+    id isTokenErrorInducerEnabled;
+    id isAggressivePollingEnabled;
+    id isCKTokenOneHourExpirationEnabled;
+    id tokenErrorInducerValue;
 }
 
 @end

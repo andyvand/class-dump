@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.FollowingMastheadModelProvider
 {
-    MISSING_TYPE *bundleSubscriptionManager;
-    MISSING_TYPE *featureAvailability;
+    id bundleSubscriptionManager;
+    id featureAvailability;
 }
 
 @end

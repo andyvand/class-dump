@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE, NSString;
+@class NSString;
 
 @interface NewsArticles.ArticleThumbnailComponentSizerFactory
 {
     void type;
     int role;
-    MISSING_TYPE *linkedContentProvider;
+    id linkedContentProvider;
 }
 
 - (id);

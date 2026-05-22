@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface NewsUI2.LocalUnonboardedViewRenderer
 {
-    MISSING_TYPE *styler;
-    MISSING_TYPE *assetHandleFactory;
-    MISSING_TYPE *onLocationButtonTapped;
+    id styler;
+    id assetHandleFactory;
+    id onLocationButtonTapped;
 }
 
 @end

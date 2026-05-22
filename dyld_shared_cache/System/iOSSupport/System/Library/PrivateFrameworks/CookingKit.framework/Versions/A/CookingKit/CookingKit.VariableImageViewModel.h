@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface CookingKit.VariableImageViewModel
 {
-    MISSING_TYPE *_screenScale;
-    MISSING_TYPE *_$observationRegistrar;
+    id _screenScale;
+    id _$observationRegistrar;
 }
 
 @end

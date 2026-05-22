@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface WorkflowUI.SmartPromptsViewModel
 {
-    MISSING_TYPE *database;
-    MISSING_TYPE *workflow;
-    MISSING_TYPE *workflowReference;
-    MISSING_TYPE *states;
-    MISSING_TYPE *_deletionAuthorizations;
-    MISSING_TYPE *_statesByAction;
-    MISSING_TYPE *_wildcardStates;
-    MISSING_TYPE *actionsByActionUUID;
-    MISSING_TYPE *actionsByActionIdentifier;
+    id database;
+    id workflow;
+    id workflowReference;
+    id states;
+    id _deletionAuthorizations;
+    id _statesByAction;
+    id _wildcardStates;
+    id actionsByActionUUID;
+    id actionsByActionIdentifier;
 }
 
 - (void);

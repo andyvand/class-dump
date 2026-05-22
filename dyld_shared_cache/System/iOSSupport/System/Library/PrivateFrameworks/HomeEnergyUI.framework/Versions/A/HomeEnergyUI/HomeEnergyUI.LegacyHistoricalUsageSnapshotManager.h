@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
-
 @interface HomeEnergyUI.LegacyHistoricalUsageSnapshotManager
 {
-    MISSING_TYPE *_type;
-    MISSING_TYPE *_siteID;
-    MISSING_TYPE *_utilityName;
-    MISSING_TYPE *_lastReloadDate;
-    MISSING_TYPE *_tileRefreshPeriod;
-    MISSING_TYPE *_dailyUsageSnapshot;
-    MISSING_TYPE *_detailedWeeklyUsageSnapshot;
-    MISSING_TYPE *_summaryWeeklySnapshot;
-    MISSING_TYPE *_monthlyUsageSnapshot;
-    MISSING_TYPE *_sixMonthlyUsageSnapshot;
-    MISSING_TYPE *_yearlyUsageSnapshot;
-    MISSING_TYPE *_$observationRegistrar;
+    id _type;
+    id _siteID;
+    id _utilityName;
+    id _lastReloadDate;
+    id _tileRefreshPeriod;
+    id _dailyUsageSnapshot;
+    id _detailedWeeklyUsageSnapshot;
+    id _summaryWeeklySnapshot;
+    id _monthlyUsageSnapshot;
+    id _sixMonthlyUsageSnapshot;
+    id _yearlyUsageSnapshot;
+    id _$observationRegistrar;
 }
 
 @end

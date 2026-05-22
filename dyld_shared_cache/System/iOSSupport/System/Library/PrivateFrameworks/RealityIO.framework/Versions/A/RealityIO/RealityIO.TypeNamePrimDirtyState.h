@@ -6,11 +6,9 @@
 
 #import <RealityIO/RealityIO.PrimDirtyState.h>
 
-@class MISSING_TYPE;
-
 @interface RealityIO.TypeNamePrimDirtyState : RealityIO.PrimDirtyState
 {
-    MISSING_TYPE *typeNameIsAnyOf;
+    id typeNameIsAnyOf;
 }
 
 @end
