@@ -17,10 +17,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void)Ä;
+- (id);
+- (id)handles are not supported;
+- (void)ely (WFRecordingStart);
 
 // Remaining properties
 @property(retain, nonatomic) NSURLSessionTask *dataTask; // @synthesize dataTask=_dataTask;

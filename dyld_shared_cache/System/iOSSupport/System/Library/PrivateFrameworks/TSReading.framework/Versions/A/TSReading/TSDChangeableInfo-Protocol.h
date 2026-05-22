@@ -6,9 +6,6 @@
 
 @protocol TSDChangeableInfo
 
-@optional
-- (void);
-
 // Remaining properties
 @property(readonly, nonatomic) Class editorClass;
 // Preceding property had unknown attributes: ?

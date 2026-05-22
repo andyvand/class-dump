@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (id)tor;
-- (void);
-- (id)_isEnabled,S_setEnabled:,V__enabled /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (id);
+- (void)ÌÜ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *columnPrefix; // @synthesize columnPrefix=_columnPrefix;

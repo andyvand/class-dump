@@ -8,18 +8,18 @@
 {
 }
 
-+ (void)escriptor: /* Error: Ran out of types for this method. */;
 + (void);
 + (_Bool);
 + (void);
 + (void);
-+ (void)DùÈð1¢!0@ù
++ (void);
++ (void)0@ù
 × ;
-+ (_Bool)DarkAppearance;
-+ (void)ithActions: /* Error: Ran out of types for this method. */;
-+ (void)ment:(id)arg1 ,V_fontScaleAdjustment;
-+ (void)tionReservoirCellIdentifier;
-- (id)_contentLayoutGuide;
++ (void)tURL:toURL:sourceViewController:completionHandler: /* Error: Ran out of types for this method. */;
++ (void)õ;
++ (void);
++ (_Bool)øÌô0e;
+- (id);
 
 @end
 

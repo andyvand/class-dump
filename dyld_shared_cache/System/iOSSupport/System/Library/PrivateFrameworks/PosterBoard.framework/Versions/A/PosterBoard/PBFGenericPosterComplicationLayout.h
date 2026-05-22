@@ -20,15 +20,17 @@
 
 + (id);
 + (id);
-+ (_Bool)fterSuccess:error: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
+- (_Bool);
 - (void);
-- (id);
-- (id);
-- (_Bool)rPosterConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *complicationLayoutType; // @synthesize complicationLayoutType=_complicationLayoutType;

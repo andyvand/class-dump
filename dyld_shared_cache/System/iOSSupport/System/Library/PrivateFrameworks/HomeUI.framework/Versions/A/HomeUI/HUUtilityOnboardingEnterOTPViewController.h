@@ -27,12 +27,12 @@
 - (id);
 - (_Bool);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id)sterItemForTypeIdentifier:loadHandler: /* Error: Ran out of types for this method. */;
-- (void)gion:(id)arg1 eventType: /* Error: Ran out of types for this method. */;
-- (id):(id)arg1 ;
-- (void)\éÿîõG;
+- (void)ionEditorItemModule;
+- (id);
+- (void)untButton;
 
 // Remaining properties
 @property(nonatomic, retain) id <HUConfigurationViewControllerDelegate> delegate; // @synthesize delegate;

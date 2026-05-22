@@ -43,7 +43,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)wareUpdateMigrationSuccessTitle;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *activeOptionItem; // @synthesize activeOptionItem=_activeOptionItem;

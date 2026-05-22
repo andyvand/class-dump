@@ -11,12 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (Class)È 8!;
++ (Class);
 - (void);
 - (void);
-- (void);
-- (id)!0@ù
-× ;
+- (id);
+- (void)w;
 
 @end
 

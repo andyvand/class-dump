@@ -22,20 +22,20 @@
 
 - (struct CGSize);
 - (void);
-- (void)Sg;
 - (void);
 - (void);
 - (void);
-- (void)opDocumentUI) noteByImportingLegacyNoteFromWebArchive:(id)arg1 withContent:context:] /* Error: Ran out of types for this method. */;
-- (void)|||`};$~<;
+- (void);
+- (void);
+- (void);
 - (struct CGRect);
-- (id);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id)ard:(struct CGRect)arg1;
+- (id);
+- (void)essages.CKMessageEntryView.renderingQueue;
 
 // Remaining properties
 @property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect;

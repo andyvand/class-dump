@@ -34,7 +34,7 @@
 - (id);
 - (id);
 - (void);
-- (void)bserver:(_Bool)arg1 %@, name:%@, object:%@, userInfo:%@ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=areDoorbellNotificationsEnabled) _Bool doorbellNotificationsEnabled; // @synthesize doorbellNotificationsEnabled=_doorbellNotificationsEnabled;

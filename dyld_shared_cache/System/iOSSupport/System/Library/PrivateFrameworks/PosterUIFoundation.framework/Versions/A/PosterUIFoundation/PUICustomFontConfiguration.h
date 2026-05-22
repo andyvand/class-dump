@@ -17,19 +17,19 @@
 + (_Bool);
 + (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (void);
 

@@ -4,11 +4,11 @@
 
 // Global C++ functions
 
-allocate_recv_right();
-allocate_recv_right() (.cold.1);
-assert_wait(rt_atomic<AssertableValue>&, AssertableValue&);
-disarm_deadname_notification(unsigned int);
-is_open(Endpoint&);
-operator delete(void*, std::__type_descriptor_t);
-operator new(unsigned long, std::__type_descriptor_t);
-release_wait(rt_atomic<AssertableValue>&, AssertableValue&);
+auto allocate_recv_right();
+auto allocate_recv_right() (.cold.1);
+auto assert_wait(rt_atomic<AssertableValue>&, AssertableValue&);
+auto disarm_deadname_notification(unsigned int);
+auto is_open(Endpoint&);
+auto release_wait(rt_atomic<AssertableValue>&, AssertableValue&);
+void * operator new(unsigned long, std::__type_descriptor_t);
+void operator delete(void*, std::__type_descriptor_t);

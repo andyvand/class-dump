@@ -21,23 +21,23 @@ __attribute__((visibility("hidden")))
     _UIDatePickerMode *_mode;
 }
 
-- (_Bool)clientChangeTokenData:moreComing:NSError:syncType:currentBatchCount:maxNumberOfBatches:shouldFetchArchivedRecords:activity:completionBlock: /* Error: Ran out of types for this method. */;
-- (double)earAutoReconnectTimer;
+- (_Bool);
+- (double);
 - (void);
 - (void);
-- (void);
-- (_Bool)find localized string for key %s with localization %s, falling back to system lookup behavior;
-- (void)7;
+- (void);
+- (_Bool);
 - (id);
-- (id)orizontallyCompressed;
+- (id);
+- (_Bool);
 - (void);
-- (void)
-× ;
-- (id)@ can only be called for system type accessories;
-- (_Bool)0ºÛþ;
-- (long long);
-- (id)£Rÿ;
-- (void)m``;
+- (void)imumSize"{CGSize="width"d"height"d}}"indicatorCount"{NumberOfVisibleIndicatorsForStartIndexCache="dirty"b1"fittingLength"d"startIndex"q"numberOfIndicators"q}"contentSize"{ContentSizeForNumberOfPagesCache="dirty"b1"numberOfPages"d"contentSize"{CGSize="width"d"height"d}}"contentSizeInRange"{MinimumContentSizeForIndicatorsInRangeCache="dirty"b1"range"{_NSRange="location"Q"length"Q}"contentSize"{CGSize="width"d"height"d}}};
+- (id)N,V_selectionView;
+- (void)à;
+- (long long)g;
+- (void)üÈÿA
+;
+- (id)W;
 
 // Remaining properties
 @property(nonatomic) _Bool isAmPm;

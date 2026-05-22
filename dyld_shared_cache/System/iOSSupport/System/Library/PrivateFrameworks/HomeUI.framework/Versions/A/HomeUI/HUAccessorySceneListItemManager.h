@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)omePodStereoPairMessage;
 
 // Remaining properties
 @property(readonly, nonatomic) HFItem *existingScenesContentItem; // @synthesize existingScenesContentItem=_existingScenesContentItem;

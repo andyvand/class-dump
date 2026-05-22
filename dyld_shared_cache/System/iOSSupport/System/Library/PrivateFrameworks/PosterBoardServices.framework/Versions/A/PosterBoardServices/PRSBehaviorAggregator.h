@@ -14,11 +14,11 @@
 + (_Bool);
 + (id);
 + (_Bool);
-+ (id)or: /* Error: Ran out of types for this method. */;
++ (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *sharedDirectoryURL;

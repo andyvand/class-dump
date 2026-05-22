@@ -4,13 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @protocol RTPersistenceDelegate
-
-@optional
-- (NSDictionary *);
-- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool shouldResetCloudStore;

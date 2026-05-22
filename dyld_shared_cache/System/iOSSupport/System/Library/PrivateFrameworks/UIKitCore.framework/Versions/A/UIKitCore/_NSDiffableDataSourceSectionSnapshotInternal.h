@@ -12,19 +12,18 @@
 
 - (id);
 - (_Bool);
-- (void)8@"NSString"16@"NSArray"24C32@"NSArray"36;
-- (void)s:(id)arg1 finishedWithResult:limit: /* Error: Ran out of types for this method. */;
-- (id)nHandler:(id)arg1;
-- (id)FromShareURL:(id)arg1 options:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ustManager;
 - (void);
 - (void);
-- (void);
-- (void)L;
 - (id);
-- (_Bool)í3y5j8G;
-- (id)/
-;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)n;
+- (_Bool)·ÿ;
 
 @end
 

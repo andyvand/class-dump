@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, WBSUserScriptProvider, WKContentWorld;
+@class WBSUserScriptProvider, WKContentWorld;
 
 @interface WBSJavaScriptInjectionController
 {
     WKContentWorld *contentWorld;
-    void configuredUserContentControllers;
     WBSUserScriptProvider *userScriptProvider;
 }
 
 + (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)r: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, copy) NSSet *configuredUserContentControllers;
 @property(nonatomic, retain) WKContentWorld *contentWorld; // @synthesize contentWorld;
 @property(nonatomic, readonly) WBSUserScriptProvider *userScriptProvider; // @synthesize userScriptProvider;
 

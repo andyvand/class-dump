@@ -18,24 +18,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)n];
-- (void);
+- (id);
 - (void);
 - (struct CGSize);
 - (void);
-- (_Bool)¢!0@ù
-× ;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void)playDuringHint;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

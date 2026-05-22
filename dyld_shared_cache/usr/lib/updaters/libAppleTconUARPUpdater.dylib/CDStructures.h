@@ -4,3 +4,80 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#pragma mark Function Pointers
+
+typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
+
+#pragma mark Named Structures
+
+struct CC_SHA256state_st {
+    unsigned int count[2];
+    unsigned int hash[8];
+    unsigned int wbuf[16];
+};
+
+struct CC_SHA512state_st {
+    unsigned long long count[2];
+    unsigned long long hash[8];
+    unsigned long long wbuf[16];
+};
+
+struct UARP4ccTag {
+    unsigned char char1;
+    unsigned char char2;
+    unsigned char char3;
+    unsigned char char4;
+};
+
+struct UARPFTABFileInfo {
+    unsigned char _field1[4];
+    unsigned int _field2;
+    unsigned int _field3;
+    unsigned int _field4;
+};
+
+struct UARPFTABHeader {
+    unsigned int generation;
+    unsigned int valid;
+    unsigned char bootNonce[8];
+    unsigned int manifestOffset;
+    unsigned int manifestSize;
+    unsigned long long reserved1;
+    unsigned char magic[8];
+    unsigned int fileCount;
+    unsigned int reserved2;
+};
+
+struct UARPPayloadHeader2 {
+    unsigned int payloadHeaderLength;
+    struct UARP4ccTag payloadTag;
+    struct UARPVersion payloadVersion;
+    unsigned int payloadMetadataOffset;
+    unsigned int payloadMetadataLength;
+    unsigned int payloadOffset;
+    unsigned int payloadLength;
+};
+
+struct UARPSuperBinaryHeader {
+    unsigned int superBinaryFormatVersion;
+    unsigned int superBinaryHeaderLength;
+    unsigned int superBinaryLength;
+    struct UARPVersion superBinaryVersion;
+    unsigned int superBinaryMetadataOffset;
+    unsigned int superBinaryMetadataLength;
+    unsigned int payloadHeadersOffset;
+    unsigned int payloadHeadersLength;
+};
+
+struct UARPVersion {
+    unsigned int major;
+    unsigned int minor;
+    unsigned int release;
+    unsigned int build;
+};
+
+struct _NSRange {
+    unsigned long long _field1;
+    unsigned long long _field2;
+};
+

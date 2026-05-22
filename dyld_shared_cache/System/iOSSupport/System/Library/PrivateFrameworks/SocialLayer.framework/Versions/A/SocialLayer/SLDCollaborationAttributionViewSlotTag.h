@@ -37,21 +37,21 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
+- (void);
 - (_Bool);
+- (void);
 - (void);
 - (id);
 - (double);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
 - (_Bool);
-- (long long)ineBreakStrategy: /* Error: Ran out of types for this method. */;
+- (void);
+- (long long);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *collaboratorDisplayNames; // @synthesize collaboratorDisplayNames=_collaboratorDisplayNames;

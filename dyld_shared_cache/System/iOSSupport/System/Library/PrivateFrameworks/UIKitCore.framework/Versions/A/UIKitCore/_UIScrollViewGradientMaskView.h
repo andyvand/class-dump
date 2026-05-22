@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct UIEdgeInsets);
@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (struct UIEdgeInsets);
 - (long long);
 - (id);
-- (id);
+- (id)initiatingTextSelectionAssistant;
 
 // Remaining properties
 @property(nonatomic) long long gradientDirection; // @synthesize gradientDirection=_gradientDirection;

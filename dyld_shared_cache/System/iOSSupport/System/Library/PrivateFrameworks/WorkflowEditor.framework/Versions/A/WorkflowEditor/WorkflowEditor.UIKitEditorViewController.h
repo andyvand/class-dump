@@ -37,21 +37,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)µ9;
+- (void);
+- (void)	
+;
+- (void);
+- (void)4®;
+- (void)Ä»;
 
 // Remaining properties
 @property(nonatomic, readonly) NSUndoManager *undoManager;

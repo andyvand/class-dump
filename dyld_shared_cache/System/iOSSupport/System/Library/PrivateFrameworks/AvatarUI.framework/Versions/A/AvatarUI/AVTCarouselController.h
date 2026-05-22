@@ -43,7 +43,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -56,7 +55,8 @@
 - (void);
 - (void);
 - (void);
-- (id)3;
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -98,14 +98,14 @@
 - (id);
 - (double);
 - (long long);
-- (void);
-- (void);
-- (id)#;
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)groupListView;
+- (void);
+- (void);
+- (id)è|;
+- (void)Ëê;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsCreate;

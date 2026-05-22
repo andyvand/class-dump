@@ -19,41 +19,40 @@ __attribute__((visibility("hidden")))
     id <UIViewControllerTransitionCoordinator> _transitioningToSizeCoordinator;
 }
 
-- (_Bool);
-- (id);
-- (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (void);
 - (id);
-- (void);
+- (double);
+- (id);
 - (struct CGRect);
-- (void)ntity;
-- (void);
-- (double)odelChildAlbumRecordLabels;
-- (_Bool);
+- (struct CGRect);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (void)ù1Ãð1¢!0@ù
+- (id);
+- (void);
+- (_Bool)Bù±_1Â0@ù
 × ;
-- (id)!Ä@ù1Æ°1¢!0@ù
+- (id)0@ù
 × ;
-- (id)Ô!tÐ!¸Gù1È°1¢!0@ù
-× ;
-- (struct CGSize)q32;
-- (id)Container;
-- (struct CGRect)ancelButtonText:(id)arg1;
-- (double)darySystemBackgroundColor;
-- (_Bool)rySystemFillColor;
-- (_Bool)age;
-- (void)For:(id)arg1;
-- (double)ocation: /* Error: Ran out of types for this method. */;
-- (id)Finding the next target...;
-- (_Bool)ew;
-- (id)nager"8@"NSTextContainer"16;
-- (id)8;
+- (void)Frame:(id)arg1 andShiftKeys:scale: /* Error: Ran out of types for this method. */;
+- (_Bool)ntation:animated: /* Error: Ran out of types for this method. */;
+- (id)rmat:precomposed: /* Error: Ran out of types for this method. */;
+- (id)dBeginHandler;
+- (struct CGSize)É;
+- (double)writeAnalytics for sessionIdentifier=%@;
+- (_Bool);
+- (void);
+- (_Bool)icePhotos;
+- (_Bool)ator;
+- (void)UIPointerShape"8@?0;
+- (void)heetsTearable;
+- (void)p for %@ of row at index path %@;
+- (double)ss;
+- (id)TraitTokenProtocol_p;
+- (id)ortC;
+- (id)´Ãþ	13ÀÃþ;
+- (_Bool)ChangeMessage;
 
 // Remaining properties
 @property(nonatomic) UIPresentationController<_UISearchControllerPresenting> *adaptivePresentationController; // @synthesize adaptivePresentationController=_adaptivePresentationController;

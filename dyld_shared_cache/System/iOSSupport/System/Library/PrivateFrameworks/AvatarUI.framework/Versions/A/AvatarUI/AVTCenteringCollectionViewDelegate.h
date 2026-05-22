@@ -4,13 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString, UICollectionView, UICollectionViewLayoutAttributes;
+@class NSIndexPath, NSString, UICollectionView, UICollectionViewLayoutAttributes, UISelectionFeedbackGenerator;
 @protocol AVTUILogger, UICollectionViewDelegate;
 
 @interface AVTCenteringCollectionViewDelegate
 {
     UICollectionView *_collectionView;
     id <UICollectionViewDelegate> _delegate;
+    UISelectionFeedbackGenerator *_feedbackGenerator;
     NSIndexPath *_lastHapticOnScrollIndexPath;
     id <AVTUILogger> _logger;
     struct CGPoint _previousOffset;
@@ -20,20 +21,23 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void)Name;
-- (id);
 - (struct CGPoint);
 - (void);
 - (id);
-- (id)Kit.framework/Contents/MacOS/icloudMCCKit;
 - (void);
-- (id)ring"24@"NSString"32@"AVTStickerResource"40@?<v@?@"AVTStickerResource">48;
+- (id);
 - (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)! @ùIÐ1Â0@ù
+× ;
+- (id)Ãu;
+- (id)¶;
+- (void)`;
 
 // Remaining properties
 @property(readonly, nonatomic) UICollectionViewLayoutAttributes *centerItemAttributes;
@@ -44,6 +48,7 @@
 
 @property(readonly, nonatomic) __weak id <UICollectionViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, copy) NSString *description;
+@property(retain, nonatomic) UISelectionFeedbackGenerator *feedbackGenerator; // @synthesize feedbackGenerator=_feedbackGenerator;
 @property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSIndexPath *lastHapticOnScrollIndexPath; // @synthesize lastHapticOnScrollIndexPath=_lastHapticOnScrollIndexPath;
 @property(retain, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;

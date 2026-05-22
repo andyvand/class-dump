@@ -5,6 +5,6 @@
 //
 
 @protocol _UILabelVisualStyleSubject
-- (void)onDarwinNotificationName;
+- (void);
 @end
 

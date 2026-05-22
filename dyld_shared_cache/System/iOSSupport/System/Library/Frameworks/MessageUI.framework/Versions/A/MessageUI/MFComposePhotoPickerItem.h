@@ -21,13 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)sage: /* Error: Ran out of types for this method. */;
-- (_Bool);
 - (id);
-- (id)1¢!0@ù
-× ;
-- (id)yIndicatorStyle: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id)\ô;
 
 // Remaining properties
 @property(nonatomic, readonly) NSData *assetData;

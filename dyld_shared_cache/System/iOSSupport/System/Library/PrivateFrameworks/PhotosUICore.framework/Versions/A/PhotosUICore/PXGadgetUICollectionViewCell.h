@@ -11,15 +11,14 @@
     UIView *_gadgetContentView;
 }
 
-+ (Class)1b0@ù
-× ;
++ (Class)%ld;
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void)}s | asset %{public}s;
-- (id)dköÿ%Où26;
+- (void))éÈì1\ÿéÈÀ¤#ÿ	éÈ8-\ÿùèÈÄ-\ÿéèÈ .\ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *gadgetContentView; // @synthesize gadgetContentView=_gadgetContentView;

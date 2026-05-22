@@ -16,16 +16,16 @@
 
 - (void);
 - (long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
+- (void);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (void)ySkimmingControllerDelegate>",W,N,V_delegate;
-- (id)tyEnabled;
-- (void);
-- (id)AyAAyAAyAAyD!yv!yAAy15PlaceholderViewôZQzM!GACyACyACyÛ#ySay5ModelAE_10Identifier0ZQZGA2mCyAAy¨ZyxIÞ#yûÝ#y­Zy7ContentAEQz_xQo__Qo__Qo_G!GAUGGÑ#yAn2mUGG®!yACy%Û#yAn2mXGéÑ#yAn2mUGG_AAyAAy6Footerû;
+- (id)oKitAssetGroup";
+- (id)à à	;
+- (void)X<a;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

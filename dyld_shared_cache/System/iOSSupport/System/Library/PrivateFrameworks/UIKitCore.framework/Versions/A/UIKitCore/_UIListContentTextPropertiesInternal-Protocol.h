@@ -7,9 +7,10 @@
 @class NSString, UIFont;
 
 @protocol _UIListContentTextPropertiesInternal
-- (long long);
-- (void)e=dd}}24;
-- (_Bool)olorIfNeeded;
+- (void)0@ù
+× ;
+- (UIFont *)È5	L6´6L7ì7: /* Error: Ran out of types for this method. */;
+- (long long)_SceneStorageInterface;
 
 // Remaining properties
 @property(readonly, nonatomic) long long _effectiveTextAlignment;

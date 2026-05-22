@@ -25,11 +25,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void)soryItem";
-- (id)iredKeyDescriptors;
-- (void)WithTarget:(id)arg1 action: /* Error: Ran out of types for this method. */;
-- (id)ª×ÿW/ø(;
+- (void);
+- (id)legate;
+- (void)HF_Nearby_Accessories;
 
 // Remaining properties
 @property(nonatomic, retain) id <HUConfigurationViewControllerDelegate> delegate; // @synthesize delegate;

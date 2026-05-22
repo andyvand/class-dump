@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)xøÿÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) id <_UIRemoteSheet> _remoteSheet;

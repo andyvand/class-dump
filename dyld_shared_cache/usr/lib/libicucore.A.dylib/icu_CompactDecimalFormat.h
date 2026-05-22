@@ -6,13 +6,13 @@ class icu::CompactDecimalFormat {
 public: // (access info unavailable from symbols alone)
     CompactDecimalFormat(icu::CompactDecimalFormat const&);
     CompactDecimalFormat(icu::Locale const&, UNumberCompactStyle, UErrorCode&);
-    clone() const;
-    createInstance(icu::Locale const&, UNumberCompactStyle, UErrorCode&);
-    getDynamicClassID() const;
-    getStaticClassID();
-    operator=(icu::CompactDecimalFormat const&);
-    parse(icu::UnicodeString const&, icu::Formattable&, UErrorCode&) const;
-    parse(icu::UnicodeString const&, icu::Formattable&, icu::ParsePosition&) const;
-    parseCurrency(icu::UnicodeString const&, icu::ParsePosition&) const;
+    auto clone() const;
+    auto createInstance(icu::Locale const&, UNumberCompactStyle, UErrorCode&);
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto operator=(icu::CompactDecimalFormat const&);
+    auto parse(icu::UnicodeString const&, icu::Formattable&, UErrorCode&) const;
+    auto parse(icu::UnicodeString const&, icu::Formattable&, icu::ParsePosition&) const;
+    auto parseCurrency(icu::UnicodeString const&, icu::ParsePosition&) const;
     ~CompactDecimalFormat();
 };

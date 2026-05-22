@@ -12,10 +12,11 @@
     void url;
 }
 
-- (id)(=;
-- (void);
 - (id);
-- (struct _NSRange)æñ;
+- (struct _NSRange);
+- (id)!Aù±ð1Â0@ù
+× ;
+- (void)àÚ;
 
 // Remaining properties
 @property(nonatomic, readonly) struct _NSRange range; // @synthesize range;

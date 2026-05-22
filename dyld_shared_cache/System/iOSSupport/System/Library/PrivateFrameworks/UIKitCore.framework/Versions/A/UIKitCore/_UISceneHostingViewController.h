@@ -24,27 +24,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void)B9�H
-(;
-- (id)ithExtensionInChat:fromIdentifier:toIdentifier: /* Error: Ran out of types for this method. */;
-- (void)rTranscriptBackgroundCommand",&,N,V_transcriptBackgroundCommand;
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
 - (void);
 - (id);
-- (int)1¢!0@ù
+- (void);
+- (id);
+- (int);
+- (id);
+- (_Bool);
+- (id)1Â0@ù
 × ;
-- (long long);
-- (id)tainerStackView;
-- (void);
-- (void)roups:(_Bool)arg1 ];
-- (void)rdWillShowStickerEditor;
-- (id)ion indices are invalid (type=%ld, start=%ld, end=%ld). View:%@; Subviews:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long);
-- (id);
-- (void)­;
+- (void)tingForIndexPath:(_Bool)arg1;
+- (void)tScrollView:preservingContentInset:respectFullExtension:gettingNavBarFrame:topPaletteFrame: /* Error: Ran out of types for this method. */;
+- (_Bool)ewPropertyAnimator",&,N,V_propertyAnimator;
+- (void),&,VkeyboardInputModes;
+- (id)er;
+- (void)t = %@>;
+- (unsigned long long)w.down.right;
+- (void)]13ôÌ¤þ;
+- (id);
+- (long long)ÚÜû^;
+- (void)èÏ_;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIRemoteSheet> _remoteSheet;

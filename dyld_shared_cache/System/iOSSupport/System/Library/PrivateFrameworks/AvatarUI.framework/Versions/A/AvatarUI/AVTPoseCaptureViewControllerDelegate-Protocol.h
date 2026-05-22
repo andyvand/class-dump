@@ -5,6 +5,5 @@
 //
 
 @protocol AVTPoseCaptureViewControllerDelegate
-- (void);
 @end
 

@@ -13,9 +13,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)¼Ñ@Ò;
+- (void)ribeActionHandler>";
+- (id)ots/4~CNrLugCE8UX-AzDlcf3V1M_lrZzemFpoZKYL49I/Library/Caches/com.apple.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/Modules/silex/Silex/Text/Tangier/SXStandaloneTextLayout.m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

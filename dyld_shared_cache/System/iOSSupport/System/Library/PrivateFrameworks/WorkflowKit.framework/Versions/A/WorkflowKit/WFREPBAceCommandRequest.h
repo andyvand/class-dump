@@ -13,16 +13,16 @@
 
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)vider.LocalStorage;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *aceCommandData; // @synthesize aceCommandData=_aceCommandData;

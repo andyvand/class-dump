@@ -35,19 +35,18 @@
 - (_Bool);
 - (_Bool);
 - (unsigned int);
+- (unsigned int);
 - (unsigned long long);
 - (void);
-- (unsigned int);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)ù
-× ;
-- (id)sEnabled = %{BOOL}d;
-- (void)ngErrorViewController;
 - (id);
-- (id)Uvî;
+- (id)xtView: /* Error: Ran out of types for this method. */;
+- (void)ingSliderRangeViewController updateSupplementaryValue];
+- (void)À;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSCalendar *calendar; // @synthesize calendar=_calendar;

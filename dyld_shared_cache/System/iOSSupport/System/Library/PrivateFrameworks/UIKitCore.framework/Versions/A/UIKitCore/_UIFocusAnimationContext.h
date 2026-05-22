@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     double _duration;
 }
 
-- (id);
-- (double)UIHoverHighlightEffect;
+- (double);
+- (id)addWidgetToSelection;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

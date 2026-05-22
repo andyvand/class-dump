@@ -101,17 +101,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (struct CGSize);
 - (id);
 - (id);
 - (_Bool);
+- (struct CGSize);
+- (_Bool);
+- (void);
+- (id);
+- (struct CGSize);
+- (void);
 - (struct CGImage *);
-- (_Bool);
-- (struct CGSize);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int *alphaMap; // @synthesize alphaMap=_alphaMap;

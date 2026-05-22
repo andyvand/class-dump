@@ -14,14 +14,14 @@
     int mAlign;
 }
 
-- (id)#;
+- (id);
 - (int);
 - (const void *);
 - (struct Schemata);
 - (_Bool);
 - (id);
-- (id);
 - (void);
+- (id)ons;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

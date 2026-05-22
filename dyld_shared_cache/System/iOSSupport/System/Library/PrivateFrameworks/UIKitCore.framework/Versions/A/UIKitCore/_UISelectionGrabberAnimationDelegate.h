@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType block;
 }
 
-+ (id)k-mmcs-upload-timeout of %ld seconds;
++ (id);
+- (void)U£13pÂþ5£13¬Âþ5£13Âþ5£13hÂþ;
 - (void);
-- (void)tSizeCategory _Nonnull);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

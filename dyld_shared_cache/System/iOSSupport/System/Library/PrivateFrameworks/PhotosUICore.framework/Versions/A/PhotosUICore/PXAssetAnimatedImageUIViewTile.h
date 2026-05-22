@@ -31,12 +31,12 @@
 - (void);
 - (long long);
 - (void);
-- (double);
 - (id);
 - (void);
+- (id)ted1upPillUI: /* Error: Ran out of types for this method. */;
+- (double)ly. %@ vs %@;
 - (void);
-- (id);
-- (void)üÈÿÖ ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAnimatedImage:) PHAnimatedImage *_animatedImage; // @synthesize _animatedImage=__animatedImage;

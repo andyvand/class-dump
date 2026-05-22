@@ -12,9 +12,9 @@
 
 - (unsigned long long);
 - (void);
-- (id);
 - (void);
 - (unsigned long long);
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long itemSize; // @synthesize itemSize=_itemSize;

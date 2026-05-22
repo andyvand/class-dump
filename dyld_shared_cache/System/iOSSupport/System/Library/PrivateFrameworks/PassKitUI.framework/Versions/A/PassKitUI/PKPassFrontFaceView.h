@@ -50,9 +50,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)øÐ1â
+0@ù
+× ;
 - (id);
-- (struct CGSize);
+- (struct CGSize)Ùñÿ ;
 
 // Remaining properties
 @property(readonly, nonatomic) PKBarcodeStickerView *barcodeView;

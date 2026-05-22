@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     float _curlUpDY;
 }
 
-- (void)terGUID:(float)arg1 handles:onServices:numberOfMessagesBefore:numberOfMessagesAfter:threadIdentifier:hasMessagesBefore:hasMessagesAfter: /* Error: Ran out of types for this method. */;
-- (float);
-- (_Bool);
-- (_Bool)W~Ú`^;
+- (void);
+- (float);
+- (_Bool)rForUnRenderedContent:(id)arg1;
+- (_Bool)verrideParentTraitEnvironment;
 
 // Remaining properties
 @property(nonatomic, setter=_setCurlUpDY:) float _curlUpDY; // @synthesize _curlUpDY;

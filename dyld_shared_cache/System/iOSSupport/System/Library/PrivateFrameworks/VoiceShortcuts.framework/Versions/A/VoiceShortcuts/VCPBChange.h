@@ -14,28 +14,28 @@
     NSString *_uniqueID;
 }
 
-- (int);
 - (void);
-- (int);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (int);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (int);
-- (void);
-- (void);
-- (void);
 - (void);
 - (_Bool);
+- (_Bool);
+- (int);
+- (int);
+- (id);
+- (id);
 - (void);
 - (id);
+- (int);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
+- (int);
+- (void);
+- (id)"NSArray"@"NSError">24;
 
 // Remaining properties
 @property(nonatomic) int changeType; // @synthesize changeType=_changeType;

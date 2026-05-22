@@ -7,8 +7,6 @@
 @class NSArray;
 
 @protocol NUIGridDimension
-- (_Bool)(;
-- (long long)-Embedder-Policy (COEP) header;
 
 // Remaining properties
 @property(nonatomic) long long alignment;

@@ -18,13 +18,14 @@
 }
 
 - (long long);
-- (id)2;
-- (id)g"b1};
+- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
-- (void);
-- (id);
+- (id)!t@ùq?°1Â0@ù
+× ;
+- (void)NSOperationQueue",&,N,V_artworkColorAnalysisOperationQueue;
 
 // Remaining properties
 @property(readonly, nonatomic) long long destinationOffset; // @synthesize destinationOffset=_destinationOffset;

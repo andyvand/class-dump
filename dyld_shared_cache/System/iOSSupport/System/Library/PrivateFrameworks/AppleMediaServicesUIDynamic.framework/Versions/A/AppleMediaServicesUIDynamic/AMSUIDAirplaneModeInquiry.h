@@ -12,10 +12,10 @@
 }
 
 + (id);
-- (void);
 - (id);
-- (void);
 - (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <AMSUIDAirplaneModeInquiryDelegate> delegate; // @synthesize delegate=_delegate;

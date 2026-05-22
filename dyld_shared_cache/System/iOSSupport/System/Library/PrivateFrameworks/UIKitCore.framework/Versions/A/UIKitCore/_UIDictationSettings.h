@@ -45,11 +45,11 @@ __attribute__((visibility("hidden")))
     double _cursorGlowBorderPadding;
 }
 
-+ (id)ats as junk;
-+ (id)ld;
-+ (id)ded with output URLs:%@ /* Error: Ran out of types for this method. */;
-+ (id)%@);
-+ (id)pple.Messages.InstallationState;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 + (id);
 - (_Bool);
 - (double);
@@ -61,12 +61,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)o;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -94,7 +94,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double)R�;
+- (double);
 - (_Bool);
 - (id);
 - (long long);
@@ -105,22 +105,22 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (_Bool)@16@24C32@36@44@52@60@68B76;
-- (double)ectsMapTable;
-- (double)ZoneNotFound: /* Error: Ran out of types for this method. */;
-- (double)Error: /* Error: Ran out of types for this method. */;
-- (double)rtedAsJunk;
-- (void)te item [%@] chat had no cloudKitChatID!, marking it as clean and moving on.;
-- (void)cent auto reply message from me:(double)arg1 %@;
-- (double):%@ /* Error: Ran out of types for this method. */;
-- (void)%@;
-- (double)ch archived records from message zone as device condition does not allow sync;
-- (void);
+- (_Bool);
+- (double);
+- (double);
+- (double);
 - (double);
 - (double);
 - (void);
+- (double);
 - (void);
-- (void)ardActive;
+- (void);
+- (void);
+- (double);
+- (void);
+- (double)nputAccessoryViewsOnAppearance"b1"useViewBasedTopAndBottomGuides"b1"didConfirmLayoutGuideClass"b1"restoresFocusAfterTransition"b2"hasFocusGroupIdentifier"b2"freezeLayoutForOrientationChangeOnDismissal"b1"viewRespectsSystemMinimumLayoutMargins"b1"ignoresWrapperViewForContentOverlayInsets"b1"overridesSetContentOverlayInsets"b1"isViewAttachedToWindow"b1"sendViewIsAppearingOnNextLayout"b1"isPerformingViewIsAppearing"b1"overridesContentScrollView"b1"overridesContentScrollViewForEdge"b1"didCheckContentScrollViewReturnValue"b1"usingContentScrollViewForUnknownPurpose"b1"hasTraitStorageList"b1"overrideUserInterfaceStyle"b2"overrideHorizontalSizeClass"b2"overrideUserInterfaceRenderingMode"b2"needsContentUnavailableConfigurationStateUpdate"b1"isInSupportedInterfaceOrientations"b1"isCounterRotating"b1"isDeallocInitiated"b1"isInternalSetParentViewController"b1"checkedDemoteUserInterfaceIdiomFromMac"b1"shouldDemoteUserInterfaceIdiomFromMac"b1"bridgedPresentationWasPresented"b1};
+- (void)edBackdropViewIfNeeded;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double audioHeightMaxBump; // @synthesize audioHeightMaxBump=_audioHeightMaxBump;

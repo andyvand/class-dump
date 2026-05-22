@@ -11,11 +11,11 @@
     NSExtensionContext *_extensionContext;
 }
 
-- (void);
 - (void);
-- (id)eOffsetForCollision;
 - (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

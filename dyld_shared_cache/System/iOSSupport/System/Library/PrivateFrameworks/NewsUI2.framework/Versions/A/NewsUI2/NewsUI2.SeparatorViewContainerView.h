@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
-- (id)r;
+- (id);
+- (void)SuperfeedMastheadView;
 
 @end
 

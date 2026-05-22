@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void)°myl«°myl¬Ö0e;
+- (void)Title Disappear Duration;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

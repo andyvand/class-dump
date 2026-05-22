@@ -23,10 +23,10 @@
 - (id);
 - (double);
 - (void);
+- (void);
 - (double);
 - (void);
-- (void)dePeopleGroupsCreateGroupSeeAllTitle;
-- (long long);
+- (long long)`µÿLPq5;
 
 // Remaining properties
 @property(readonly, nonatomic) double bottomTitleContentOffset; // @synthesize bottomTitleContentOffset=_bottomTitleContentOffset;

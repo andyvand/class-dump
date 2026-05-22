@@ -16,22 +16,21 @@
     void delegate;
 }
 
-- (void)Item for conversation %@ on chat %@;
-- (void)nil from DeletedMessageStore.;
-- (void)work to do, but is throttled;
-- (long long)ing delivered quietly receipt for message:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)ing personal nickname %@ and recordID %@ on disk;
-- (unsigned long long)ed list data store %@;
 - (void);
+- (void);
+- (void);
+- (long long);
+- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (void)
+- (id)0@ù
 × ;
-- (id)Path:dragItem:placeholderConfiguration: /* Error: Ran out of types for this method. */;
-- (void)¤;
-- (void)Iéÿ;
-- (id);
-- (void)Ý
-\;
+- (void)rOrientationAnimationDuration;
+- (id)¬4;
+- (void)ÄÃþÿ;
+- (void)lProviding;
+- (void)×þ4¥Ê\$^;
+- (void)ËDml;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIFlexInteractionDelegate> delegate; // @synthesize delegate;

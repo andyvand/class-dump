@@ -8,10 +8,6 @@
 @protocol UICoordinateSpace, _UIFocusMapArea;
 
 @protocol _UIFocusRegionSearchContext
-- (_UIFocusSearchInfo *)etValue returned false.;
-- (id <_UIFocusMapArea>)ty value is not the size of uint64_t;
-- (id <UICoordinateSpace>);
-- (void)reusePreventedCells;
 
 // Remaining properties
 @property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;

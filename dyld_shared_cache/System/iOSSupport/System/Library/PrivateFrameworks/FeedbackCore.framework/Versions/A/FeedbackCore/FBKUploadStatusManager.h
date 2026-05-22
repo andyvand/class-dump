@@ -47,10 +47,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (id);
 - (void);
 - (void);

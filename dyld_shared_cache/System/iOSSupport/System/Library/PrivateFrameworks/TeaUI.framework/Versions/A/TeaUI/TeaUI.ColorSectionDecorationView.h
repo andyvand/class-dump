@@ -8,9 +8,9 @@
 {
 }
 
-- (void);
-- (id)t;
 - (id);
+- (id);
+- (void);
 
 @end
 

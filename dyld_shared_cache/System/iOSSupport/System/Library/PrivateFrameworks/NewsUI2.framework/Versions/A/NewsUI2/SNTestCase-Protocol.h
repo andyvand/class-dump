@@ -7,8 +7,9 @@
 @class NSArray, NSString;
 
 @protocol SNTestCase
-- (double)el, identifier=%{public}s;
-- (NSString *)8üÿlôøÿ;
+
+@optional
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long aggregate;

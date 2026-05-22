@@ -5,7 +5,7 @@
 class Utils::MarisaTrieWrapper {
 public: // (access info unavailable from symbols alone)
     MarisaTrieWrapper(__CFString const*);
-    isValid() const;
-    lookup(__CFString const*, CFRange, float&) const;
+    auto isValid() const;
+    auto lookup(__CFString const*, CFRange, float&) const;
     ~MarisaTrieWrapper();
 };

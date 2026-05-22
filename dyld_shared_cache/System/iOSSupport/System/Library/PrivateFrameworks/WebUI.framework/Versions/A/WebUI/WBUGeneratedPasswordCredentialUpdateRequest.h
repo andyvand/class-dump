@@ -19,18 +19,18 @@
     WBSAutoFillAssociatedDomainsManager *_associatedDomainsManager;
 }
 
-+ (id)referredServiceForiMessage;
-- (id)onstraints;
-- (_Bool)mingHandles;
-- (_Bool)oxSubPredicate;
-- (id)tems:inserted:removed: /* Error: Ran out of types for this method. */;
-- (id)lerForChatItem:(id)arg1;
++ (id);
+- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)dAutoFillFromCreditCardData;
+- (id);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) WBSAutoFillAssociatedDomainsManager *associatedDomainsManager; // @synthesize associatedDomainsManager=_associatedDomainsManager;

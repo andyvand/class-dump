@@ -4,6 +4,6 @@
 
 class libkern::safe_allocation<libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>, os_detail::IOKit_typed_allocator<libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>>, os_detail::panic_trapping_policy> {
 public: // (access info unavailable from symbols alone)
-    destroy_dealloc_(libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>*, unsigned long);
-    end();
+    auto destroy_dealloc_(libkern::intrusive_shared_ptr<TLE::Operation, TLE::RefCountPolicy>*, unsigned long);
+    auto end();
 };

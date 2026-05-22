@@ -4,7 +4,7 @@
 
 class vector<ioreq_ent> {
 public: // (access info unavailable from symbols alone)
-    reserve(unsigned long);
-    resize(unsigned long, ioreq_ent const&);
+    auto reserve(unsigned long);
+    auto resize(unsigned long, ioreq_ent const&);
     ~vector();
 };

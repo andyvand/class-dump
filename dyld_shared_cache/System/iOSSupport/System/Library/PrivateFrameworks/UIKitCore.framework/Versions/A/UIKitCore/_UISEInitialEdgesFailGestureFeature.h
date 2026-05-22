@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
     _Bool _useEdgeRegionSize;
 }
 
+- (void)ntation:(const struct _UISEGestureFeatureSample *)arg1 animationSettings:direction: /* Error: Ran out of types for this method. */;
+- (id)DxE¬FðFTGÜG;
 - (void);
-- (void)ckgroundFromView:(const struct _UISEGestureFeatureSample *)arg1;
-- (id)yout:(id)arg1 withPreviewSize:(_Bool)arg2;
 
 @end
 

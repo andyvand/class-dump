@@ -13,24 +13,22 @@
     _UIParallaxTransitionPanGestureRecognizer *_edgePanRecognizer;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool)Üd	ë;
-- (void)!0@ù
-× ;
-- (_Bool)1Î°1¢!0@ù
-× ;
-- (_Bool)izeSymbolStyle:(id)arg1 secondaryStyle:(id)arg2 forKey:contents: /* Error: Ran out of types for this method. */;
-- (id){?=qq},R,N;
-- (id)hKxNP(QðQRS;
-- (_Bool)\´D0¬$$äXpdÔ´L` Ð ¬"l#%D&;
-- (_Bool)ÿÿ;
 - (_Bool);
-- (void)Ø4ÿ;
-- (_Bool)rÏÿïì×È¯^;
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool)ionStyle;
+- (id)ace;
+- (_Bool);
+- (id);
+- (_Bool)ingdirect.www;
+- (void)ntrollerSceneContextScreenReferenceDisplayModeStatus;
+- (void)¥ù23S;
+- (void)LayerPool;
 
 // Remaining properties
 @property(readonly, nonatomic) UIScreenEdgePanGestureRecognizer *screenEdgePanGestureRecognizer;

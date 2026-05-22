@@ -37,11 +37,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);

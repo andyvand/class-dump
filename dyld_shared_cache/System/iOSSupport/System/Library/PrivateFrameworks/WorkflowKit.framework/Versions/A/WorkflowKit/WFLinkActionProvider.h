@@ -21,6 +21,7 @@
 + (_Bool);
 + (id);
 + (_Bool);
++ (_Bool);
 + (id);
 - (id);
 - (id);
@@ -28,6 +29,7 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -40,18 +42,20 @@
 - (void);
 - (void);
 - (id);
+- (Class);
+- (Class);
 - (id);
 - (id);
 - (id);
 - (struct os_unfair_lock_s);
 - (id);
-- (id)ivateFrameworks/WorkflowKit.framework/Versions/A/WorkflowKit;
-- (_Bool)builtin__TEXT;
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)ssâ, âx-errorâ, and âx-cancelâ. (WFXCallbackCustomCallbackEnabled);
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s actionRequestsLock; // @synthesize actionRequestsLock=_actionRequestsLock;

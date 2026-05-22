@@ -12,12 +12,12 @@
     NSString *_passIdentifier;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (long long);
 - (id);
-- (void);
 - (id);
+- (void);
 - (id);
 - (void);
 

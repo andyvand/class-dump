@@ -12,15 +12,15 @@
     void fallbackHandle;
 }
 
-- (void)otes;
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)e#kÿ×;
+- (void)Ä^fÿÇh%3;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *fallbackHandle;

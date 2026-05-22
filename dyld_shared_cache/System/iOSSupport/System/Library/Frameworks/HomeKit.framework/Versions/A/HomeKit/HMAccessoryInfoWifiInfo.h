@@ -19,9 +19,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ive asset metadata (encode);
 
 // Remaining properties
 @property(readonly) NSString *macAddress; // @synthesize macAddress=_macAddress;

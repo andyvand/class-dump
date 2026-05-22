@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (int);
-- (id);
-- (void)ijh8	;
-- (int)6r^d24@?32;
+- (id);
+- (int)e: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)ÑÕ·a;
 
 @end
 

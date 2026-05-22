@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void)Ds;
+- (void);
 - (id);
-- (id)è­ÏÿÏ²ÌS];
+- (id);
 
 @end
 

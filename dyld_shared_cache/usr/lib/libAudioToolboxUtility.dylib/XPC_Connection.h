@@ -4,8 +4,8 @@
 
 class XPC_Connection {
 public: // (access info unavailable from symbols alone)
-    Finalize(XPC_Connection*);
-    Initialize();
-    ProcessMessage(void*);
+    auto Finalize(XPC_Connection*);
+    auto Initialize();
+    auto ProcessMessage(void*);
     ~XPC_Connection();
 };

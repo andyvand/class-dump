@@ -4,8 +4,8 @@
 
 class ExtentManager {
 public: // (access info unavailable from symbols alone)
-    AddBlockRangeExtent(long long, long long);
-    AddByteRangeExtent(long long, long long);
-    Init(unsigned int, unsigned int, long long);
-    RemoveBlockRangeExtent(long long, long long);
+    auto AddBlockRangeExtent(long long, long long);
+    auto AddByteRangeExtent(long long, long long);
+    auto Init(unsigned int, unsigned int, long long);
+    auto RemoveBlockRangeExtent(long long, long long);
 };

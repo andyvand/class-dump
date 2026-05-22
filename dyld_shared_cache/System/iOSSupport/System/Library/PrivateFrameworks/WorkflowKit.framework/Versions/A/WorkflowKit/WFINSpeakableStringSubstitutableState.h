@@ -13,7 +13,7 @@
 + (id);
 + (id);
 + (Class);
-- (_Bool)Ö0%EÉ;
+- (_Bool);
 - (void);
 
 @end

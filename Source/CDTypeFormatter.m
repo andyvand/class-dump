@@ -128,8 +128,9 @@ static BOOL debug = NO;
             [typeDict setValue:specialCase forKey:@"return-type"];
         } else {
             NSString *str = [[methodType type] formattedString:nil formatter:self level:0];
-            if (str != nil)
-                [typeDict setValue:str forKey:@"return-type"];
+            if (str == nil)
+                str = @"MISSING_TYPE";
+            [typeDict setValue:str forKey:@"return-type"];
         }
 
         index += 3;
@@ -161,6 +162,8 @@ static BOOL debug = NO;
                         [parameter setValue:specialCase forKey:@"type"];
                     } else {
                         NSString *typeString = [methodType.type formattedString:nil formatter:self level:0];
+                        if (typeString == nil)
+                            typeString = @"MISSING_TYPE";
                         [parameter setValue:typeString forKey:@"type"];
                     }
                     //[parameter setValue:[NSString stringWithFormat:@"fp%@", methodType.offset] forKey:@"name"];
@@ -205,8 +208,11 @@ static BOOL debug = NO;
             [resultString appendString:specialCase];
         } else {
             NSString *str = [methodType.type formattedString:nil formatter:self level:0];
-            if (str != nil)
-                [resultString appendFormat:@"%@", str];
+            // Fall back to MISSING_TYPE so we never produce "()" or a return
+            // type that interpolates to "(null)" in dumped headers.
+            if (str == nil)
+                str = @"MISSING_TYPE";
+            [resultString appendFormat:@"%@", str];
         }
         [resultString appendString:@")"];
 
@@ -232,7 +238,11 @@ static BOOL debug = NO;
                         [resultString appendFormat:@"(%@)", specialCase];
                     } else {
                         NSString *formattedType = [methodType.type formattedString:nil formatter:self level:0];
-                        //if ([[methodType type] isIDType] == NO)
+                        // Fall back to MISSING_TYPE so we never emit "(null)"
+                        // for an argument whose type the formatter couldn't
+                        // resolve (e.g. unknown primitive char).
+                        if (formattedType == nil)
+                            formattedType = @"MISSING_TYPE";
                         [resultString appendFormat:@"(%@)", formattedType];
                     }
                     //[resultString appendFormat:@"fp%@", [methodType offset]];

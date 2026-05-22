@@ -16,9 +16,9 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (void);
+- (void)WithMediaType: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -27,12 +27,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
-- (id)NotebookCountMax;
+- (id);
+- (void)D;
+- (void)>;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *cacheKey; // @synthesize cacheKey=_cacheKey;

@@ -16,7 +16,7 @@
 
 - (id);
 - (unsigned long long);
-- (unsigned long long)A;
+- (unsigned long long);
 - (id);
 - (unsigned long long);
 

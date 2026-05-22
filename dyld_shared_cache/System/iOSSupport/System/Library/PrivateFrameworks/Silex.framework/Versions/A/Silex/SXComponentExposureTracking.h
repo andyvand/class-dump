@@ -21,20 +21,20 @@
 
 + (id);
 - (double);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (id)%;
+- (id);
 - (void);
 - (double);
 - (double);
 - (id);
-- (void);
 - (unsigned long long);
+- (void)2@0:8@"<SXComponent>"16@"<SXComponentState>"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak SXComponentView *componentView; // @synthesize componentView=_componentView;

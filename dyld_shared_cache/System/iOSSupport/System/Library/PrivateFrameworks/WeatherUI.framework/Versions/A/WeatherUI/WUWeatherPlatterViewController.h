@@ -11,13 +11,14 @@
     MISSING_TYPE *platterViewHost;
 }
 
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (void)æûÿêÌÿÈ;
+- (id)ain stopping briefly;
+- (void)LP#>ò#>/§$>5%>õÕ%>u&>º'>S³'>P«(>¯î(>r)>k'*>"Ã*>^+>wø+>-¯,>o+->DÄ->O\.>ô.>/>N³0>·0>ìL1>â1>uv2>N
+3>¡3>o·4>øÂ4>üT5>yæ5>pw6>á7>Ì7>t'8>M»8>íD9>FÓ9>Ô`:> î:>åz;>%<>n¿<>=>©=>34>>Y¾>>=H?>Ñ?>LÃ@>ã@>kA>ÜòA> zB>Þ /* Error: Ran out of types for this method. */;
 
 @end
 

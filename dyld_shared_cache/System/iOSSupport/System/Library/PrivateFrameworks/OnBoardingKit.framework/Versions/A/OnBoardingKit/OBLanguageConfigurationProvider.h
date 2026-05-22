@@ -17,12 +17,12 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
-- (id)52@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16B48 /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;

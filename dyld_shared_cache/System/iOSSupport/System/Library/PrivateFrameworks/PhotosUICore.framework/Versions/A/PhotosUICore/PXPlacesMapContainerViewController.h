@@ -45,16 +45,18 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void)Re6;
-- (id):Ç5 /* Error: Ran out of types for this method. */;
+- (void);
+- (void)!üGùÑH1â
+0@ù
+× ;
+- (void)e data;
+- (void)DetailsNavigationButton;
+- (id)Øµ3;
 
 // Remaining properties
 @property(readonly, nonatomic) PXPlacesMapContainerConfiguration *configuration; // @synthesize configuration=_configuration;

@@ -16,8 +16,8 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)oDictionary_KEY;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *lookupDictionary; // @synthesize lookupDictionary=_lookupDictionary;

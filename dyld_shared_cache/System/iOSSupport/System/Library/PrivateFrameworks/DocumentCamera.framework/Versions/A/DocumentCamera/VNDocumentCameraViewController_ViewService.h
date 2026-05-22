@@ -27,11 +27,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void)ime;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=remoteViewController) DCDocumentCameraRemoteViewController *remoteViewController;

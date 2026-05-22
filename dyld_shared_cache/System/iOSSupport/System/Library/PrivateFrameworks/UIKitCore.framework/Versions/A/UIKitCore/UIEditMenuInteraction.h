@@ -41,87 +41,84 @@
     id <UIMenuLeaf> __selectedMenuLeaf;
 }
 
-+ (void)1¢!0@ù
-× ;
-+ (id);
-+ (_Bool)ñÓÓg`;
-- (void);
-- (void);
++ (id);
++ (_Bool);
++ (void)},N,S_setAccessoryOffset:,V_accessoryOffset /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)EncryptionCertificateUUIDOverrideable: /* Error: Ran out of types for this method. */;
-- (id)me:(id)arg1 withDisableRedirect:(id)arg2 withDisableMOBIKE:(id)arg3 withUseConfigurationAttributeInternalIPSubnet:withEnablePFS:withEnableCertificateRevocationCheck:withAuthPassword:withDeadPeerDetectionRate:withCertificateType:withServerCertificateIssuerCommonName:withServerCertificateCommonName:withIKESecurityAssociationParameters:withChildSecurityAssociationParameters:withTLSMinimumVersion:withTLSMaximumVersion:withNATKeepAliveOffloadEnable:withNATKeepAliveInterval: /* Error: Ran out of types for this method. */;
-- (struct CGRect)XAuthName:(id)arg1 withXAuthPassword:(id)arg2 withXAuthEnabled:withXAuthPasswordEncryption:withLocalIdentifier:withLocalIdentifierType:withSharedSecret:withPayloadCertificateUUID:withPromptForVPNPIN:withOnDemandEnabled:withOnDemandMatchDomainsAlways:withOnDemandMatchDomainsNever:withOnDemandMatchDomainsOnRetry:withOnDemandRules:withDisconnectOnIdle:withDisconnectOnIdleTimer: /* Error: Ran out of types for this method. */;
-- (void)о;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id)ax_requests_inflight_for_request_type;
-- (void);
-- (void);
-- (_Bool)acters;
-- (void)EpisodePlaybackPosition__MAPPING_MISSING__;
-- (_Bool);
-- (_Bool);
 - (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id)`
-;
-- (id);
-- (id);
-- (void)1¢!0@ù
-× ;
-- (void)apÐ!Bù1Ã1¢!0@ù
-× ;
-- (id)
-× ;
-- (_Bool)QÇ1¢!0@ù
-× ;
-- (void);
-- (struct CGRect)0@ù
-× ;
-- (id)ceholder"24;
-- (CDStruct_17a0fc55)eExtensions:(long long)arg1;
-- (void)omScale:(id)arg1;
-- (void)utTag:(id)arg1 passingKeyTest: /* Error: Ran out of types for this method. */;
-- (void)eline;
-- (void)hter:(id)arg1;
-- (void);
-- (id)dbackSupportLevel;
-- (id)ation;
-- (void)eDataSourceSnapshotter>",R,N;
-- (id)p8¼89;
-- (void)xL'0(;
-- (void)<9;
-- (void)xD;
-- (void)rics unexpectedly not _UITabBarMetricsTV in _UITabBarVisualProviderLegacyTVOS. _tabBar = %@;
-- (void)d assertion;
-- (id)frame for scrolling to index bar entry index (%ld) at index path %@. Scrolling may not function correctly. 
-Collection View:(id)arg1 %@;
-- (id)DFLinkActionExternalApplicationName;
-- (void)al actions.;
-- (void)Pan;
-- (void)Value;
-- (id)ITraitCollection"24;
-- (void)es;
-- (id);
-- (void);
-- (void)¢;
-- (void)4(;
 - (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
-- (id)3a;
-- (void)¢ïÉ)d;
-- (_Bool)üiÿ;
-- (struct CGPoint)´µ¨ÿS;
-- (id)XäÿÉÕbul;
-- (void)Öl;
-- (id)°#ÖþZ-Ò}n;
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (void)
+× ;
+- (id)!ÄEùÑ\ð1Â0@ù
+× ;
+- (void)@ù
+× ;
+- (void)á!Bùc1Â0@ù
+× ;
+- (id)Ôa	°!$@ùe°1Â0@ù
+× ;
+- (void)8;
+- (void)nt=dd}24@0:(long long)arg1 8@"UIView"16;
+- (void)0@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16q48B56 /* Error: Ran out of types for this method. */;
+- (id)ntainsTab: /* Error: Ran out of types for this method. */;
+- (id)Scene:windowWillDetach: /* Error: Ran out of types for this method. */;
+- (id)lView:(struct CGPoint)arg1;
+- (struct CGPoint)hHeading:(id)arg1;
+- (id)ette",&,N,S_setTopPalette:,V_topPalette /* Error: Ran out of types for this method. */;
+- (id)S_setHiddenAncestorSheetID:(id)arg1;
+- (id)Counts:(id)arg1;
+- (void);
+- (void)entationController",N,W,VpresentationController;
+- (id)ôÒ;
+- (id)@ÁÜÄÅ;
+- (void)<q;
+- (id);
+- (void)splayTypeDismiss;
+- (void)collection view's data source returned nil when asked to provide a supplementary view. Collection view:(id)arg1 %@; element kind:%@; index path:%@ /* Error: Ran out of types for this method. */;
+- (id)data source while it was already applying a snapshot. Make sure you are consistently applying snapshots either always on the main queue or always off the main queue, and make sure you are not applying a snapshot as a side effect of updates from (i.e. underneath) another snapshot apply call. View updated by this diffable data source:(id)arg1 %@;
+- (_Bool)View.m;
+- (void);
+- (_Bool)ÌÌÌÌô¿D¥3û<²?#¢¼fÎ?	;
+- (struct CGRect);
+- (id)¿03\C;
+- (void)ec43qþUc43`qþEc43Hqþ;
+- (id)Îíþ;
+- (void)HÝOÐBd;
+- (void)âþ;
+- (void)Ìg;
+- (void)8ª;
+- (id)Çÿí;
+- (void)ôþÛj;
+- (id)Ëªÿ%ÄÔbj;
+- (void)ëk;
+- (id)Êwl;
+- (void);
+- (CDStruct_17a0fc55);
+- (id)Xxÿ¬;
+- (id)ÿ;
+- (_Bool)7;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIEditMenuHandoffContext *_activeHandoffContext; // @synthesize _activeHandoffContext;

@@ -46,13 +46,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
+- (void);
+- (void);
+- (unsigned long long);
 - (id);
 - (unsigned short);
-- (void);
-- (id);
-- (void)q';
-- (unsigned long long)onForAddingItems:withTouchAtPoint: /* Error: Ran out of types for this method. */;
+- (id)ØíñÿêøXán;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

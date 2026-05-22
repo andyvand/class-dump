@@ -5,7 +5,6 @@
 //
 
 @protocol PXMutableImageLayerModulator_Private
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;

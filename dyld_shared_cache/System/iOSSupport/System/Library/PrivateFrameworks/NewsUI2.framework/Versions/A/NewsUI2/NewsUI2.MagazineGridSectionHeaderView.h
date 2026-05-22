@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (void);
-- (id)annelKnobs;
+- (id);
+- (void)earchFeedGroupKnobs;
 
 @end
 

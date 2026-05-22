@@ -5,7 +5,6 @@
 //
 
 @protocol _UIInputSwitcherSplitMenu
-- (void)ingManifest failed;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType finishSplitTransitionBlock;

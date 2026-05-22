@@ -7,9 +7,8 @@
 @protocol _UIContentEffectDescriptor;
 
 @protocol _UIContentEffect
-- (void)Object SslRoot;
-- (id <_UIContentEffectDescriptor>)hà âHâ<ã¨ãüã;
-- (void)tingTouchMovementAllowance;
+- (id <_UIContentEffectDescriptor>)moothScrolling;
+- (void)ÓÕ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UIContentEffectDescriptor> descriptor;

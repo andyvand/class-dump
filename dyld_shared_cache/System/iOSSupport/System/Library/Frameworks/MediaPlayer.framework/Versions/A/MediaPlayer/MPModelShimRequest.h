@@ -13,13 +13,13 @@
     MPModelRequest *_modelRequest;
 }
 
-+ (Class)et cloud properties for groupingType=%ld properties=%@;
++ (Class);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)#;
 - (id);
+- (void)rsonalizationStyle;
 
 // Remaining properties
 @property(retain, nonatomic) MPModelRequest *modelRequest; // @synthesize modelRequest=_modelRequest;

@@ -8,8 +8,6 @@
 @protocol PPKPhotosMediaViewImageAnalysisInteractionContextDelegate;
 
 @protocol PPKPhotosMediaViewImageAnalysisInteractionContext
-- (_Bool);
-- (_Bool)ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool actionInfoViewHidden;

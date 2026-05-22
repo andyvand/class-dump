@@ -12,9 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (struct UIEdgeInsets)Ô ;
-- (id)Ôôð;
-- (void)Åm;
+- (struct UIEdgeInsets);
+- (void)1Â0@ù
+× ;
+- (id)ForTextLayoutFragment:(id)arg1;
 
 @end
 

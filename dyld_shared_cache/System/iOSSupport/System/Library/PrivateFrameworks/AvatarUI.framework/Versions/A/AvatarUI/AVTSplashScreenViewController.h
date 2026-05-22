@@ -22,7 +22,7 @@
     NSLayoutConstraint *_videoContentHeightConstraint;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -47,18 +47,18 @@
 - (void);
 - (void);
 - (id);
-- (void)`;
-- (id);
 - (id);
-- (void)higher_die_temperature(8251):(id)arg1 Error adding 30 elements to context;
-- (void);
-- (void);
-- (void);
-- (id)ageDeliveryResult"8;
+- (id);
 - (void);
 - (id);
 - (void);
-- (void)gs;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVTSplashScreenConfiguration *configuration; // @synthesize configuration=_configuration;

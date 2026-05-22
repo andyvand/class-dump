@@ -27,25 +27,26 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)tionIdentifier:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id);
-- (void)l;
-- (void)@0:(long long)arg1 8@16@24@32C40@44q52q60@68@?76;
-- (_Bool),V_historicalContent;
-- (_Bool)rtHistoricalContent",R,N,V_historicalContent;
-- (long long);
-- (struct CGAffineTransform);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (_Bool);
 - (void);
-- (void)O¨º;
-- (void)ionEvent_startDictation;
-- (id)owingAppendingInserts: /* Error: Ran out of types for this method. */;
-- (id)_attributedDetailMessage;
-- (struct CGRect)~ÿg,ÙÐa;
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (id);
+- (struct CGAffineTransform);
+- (id);
+- (void);
+- (unsigned long long);
+- (id)Qg°1Â0@ù
+× ;
+- (_Bool)tWithCompositingMode:(id)arg1 compositingColor: /* Error: Ran out of types for this method. */;
+- (struct CGRect)Color: /* Error: Ran out of types for this method. */;
+- (void)lassSwapperTemplate;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UITextSelectionRectCustomHandleInfo *_customHandleInfo; // @synthesize _customHandleInfo=__customHandleInfo;

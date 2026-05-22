@@ -33,19 +33,19 @@
 - (id);
 - (double);
 - (struct CGPoint);
-- (struct CGSize);
+- (struct CGSize);
 - (struct CGSize);
 - (void);
 - (void);
+- (struct CGPoint);
+- (void);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (id)ttedRatios":[-1.0,1.0]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":5}],"value":3},"maxPublisherOccurrences":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":4}],"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":15},{"selector":"platform-pad","value":20}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
-- (struct CGPoint);
-- (void)ì´7;
-- (struct CGPoint)tterXProperty;
 - (void);
+- (struct CGPoint)"40@0:8@"NSXMLParser"16@"NSString"24@"NSString"32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) struct CGSize baseNaturalSize; // @synthesize baseNaturalSize=mBaseNaturalSize;

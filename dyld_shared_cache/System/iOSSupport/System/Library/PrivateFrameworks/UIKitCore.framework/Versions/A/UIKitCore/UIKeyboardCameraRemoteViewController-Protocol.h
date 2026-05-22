@@ -5,6 +5,6 @@
 //
 
 @protocol UIKeyboardCameraRemoteViewController
-- (void)onResult;
+- (void);
 @end
 

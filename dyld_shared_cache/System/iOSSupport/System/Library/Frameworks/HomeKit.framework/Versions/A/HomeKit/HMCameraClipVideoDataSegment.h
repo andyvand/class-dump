@@ -12,16 +12,16 @@
     double _timeOffset;
 }
 
-+ (_Bool)atedNotification;
++ (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
+- (id);
 - (double);
+- (unsigned long long);
 - (_Bool);
+- (void);
 - (id);
+- (double);
 - (id);
-- (id);
-- (double)on;
 
 // Remaining properties
 @property(readonly) double duration; // @synthesize duration=_duration;

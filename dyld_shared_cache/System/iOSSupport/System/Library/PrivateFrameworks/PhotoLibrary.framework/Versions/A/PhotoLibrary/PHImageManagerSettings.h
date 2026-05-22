@@ -17,8 +17,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowCaching; // @synthesize allowCaching=_allowCaching;

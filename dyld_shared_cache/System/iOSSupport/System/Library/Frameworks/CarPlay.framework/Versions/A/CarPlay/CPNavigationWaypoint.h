@@ -4,31 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSMeasurement, NSString, NSTimeZone;
 
 @interface CPNavigationWaypoint
 {
-    unsigned int _locationThreshold;
+    NSMeasurement *_locationThreshold;
     NSString *_name;
     NSString *_address;
     CDStruct_071ac149 *_entryPoints;
     unsigned long long _entryPointsCount;
+    NSTimeZone *_timeZone;
     CDStruct_071ac149 _centerPoint;
 }
 
 + (_Bool);
-- (unsigned int);
+- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (CDStruct_071ac149 *);
 - (CDStruct_071ac149);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)e:%@, instructionVariants:%@, attributedInstructionVariants:%@, roadFollowingManeuverVariants:%@, initialTravelEstimates:%@, trafficSide:%@, junctionType:%@, junctionExitAngle:%@, junctionElementAngles:%@, cardBackgroundColor:%@}
+{
+%@
+} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
@@ -41,9 +48,10 @@
 @property(readonly, nonatomic) CDStruct_071ac149 *entryPoints; // @synthesize entryPoints=_entryPoints;
 @property(readonly, nonatomic) unsigned long long entryPointsCount; // @synthesize entryPointsCount=_entryPointsCount;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int locationThreshold; // @synthesize locationThreshold=_locationThreshold;
+@property(readonly, nonatomic) NSMeasurement *locationThreshold; // @synthesize locationThreshold=_locationThreshold;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly) Class superclass;
+@property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

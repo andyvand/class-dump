@@ -33,14 +33,10 @@
 - (void);
 - (void);
 - (double);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -49,8 +45,12 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id)À;
+- (id);
+- (id);
+- (void);
+- (id)with max retries:%lu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

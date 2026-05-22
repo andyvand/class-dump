@@ -19,14 +19,14 @@
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool)Ô ;
-- (void)ontainedInInstancesOfClasses:(_Bool)arg1;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) GKColorPalette *colorPalette; // @synthesize colorPalette=_colorPalette;

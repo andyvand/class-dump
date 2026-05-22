@@ -4,26 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout, UIContextMenuConfiguration, UITargetedPreview;
-@protocol UISpringLoadedInteractionContext;
+@class NSIndexPath, UICollectionView, UIContextMenuConfiguration;
+@protocol UIContextMenuInteractionAnimating;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (void);
-- (_Bool)Ô¡T!ÀAùñV°1b0@ù
+- (_Bool);
+- (_Bool)0@ù
 × ;
-- (_Bool)!ÜAùW°1b0@ù
+- (UIContextMenuConfiguration *)!Cù#°1â
+0@ù
 × ;
-- (UITargetedPreview *)ionLocation:(UICollectionView *)arg1 inCoordinateSpace:(UIContextMenuConfiguration *)arg2;
-- (void)e:(UICollectionView *)arg1;
-- (_Bool)nitWithTileIdentifier:(UICollectionView *)arg1 center:(NSIndexPath *)arg2 size:(id <UISpringLoadedInteractionContext>)arg3 alpha:cornerRadius:cornerCurve:cornerMask:borderWidth:borderColor:transform:zPosition:contentsRect:hitTestOutset:coordinateSystem:cropInsets:normalizedLegibilityInsets: /* Error: Ran out of types for this method. */;
-- (UICollectionViewTransitionLayout *)bleLayerStackViewModels;
-- (NSIndexPath *)PosterMedia:(UICollectionView *)arg1;
-- (NSIndexPath *)",&,N,S_setTitleSubtitleUILabel:(UICollectionView *)arg1 ,V__titleSubtitleLabel;
-- (_Bool),W,N,V_delegate;
-- (void)\2;
-- (_Bool);
-- (NSIndexPath *);
+- (_Bool)1â
+0@ù
+× ;
+- (_Bool)PXVKImageAnalysisInteraction>"16;
+- (NSIndexPath *)ateDisappearingTiles:(UICollectionView *)arg1;
+- (_Bool)VKAnalysisIsReadyWithTimeout:(UICollectionView *)arg1 completionHandler:(SEL)arg2;
+- (_Bool)QualityCrossfadeBehavior;
+- (void)ormRequestsWithTarget:(UICollectionView *)arg1 selector:(UIContextMenuConfiguration *)arg2 object:(id <UIContextMenuInteractionAnimating>)arg3;
+- (_Bool)V_cropAmount;
+- (_Bool)AJyÌSGGAJySSgGGGG×SG_AAySAJyeSGGAAyA4_0SGtGGA_GAdAyAByACyêU;
 @end
 

@@ -36,9 +36,9 @@
 - (id);
 - (void);
 - (unsigned int);
-- (void);
-- (void);
 - (id);
+- (void)rompts because this is an on-the-fly shortcut.;
+- (void)Text from Image;
 
 // Remaining properties
 @property(nonatomic) unsigned int actionCount; // @synthesize actionCount=_actionCount;

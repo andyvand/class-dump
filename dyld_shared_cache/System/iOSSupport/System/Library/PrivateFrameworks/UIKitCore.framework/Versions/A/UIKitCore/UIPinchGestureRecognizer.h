@@ -19,32 +19,31 @@
     } _flags;
 }
 
-+ (_Bool)ocator<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<void (*)(), _UITrackedTraitUsageRecord>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-+ (_Bool)Ü]þ;
-+ (_Bool)TtgÿÐt;
-- (void)ndle:(double)arg1;
-- (double)ated;
-- (_Bool)ested action response.;
-- (void)ivity:(_Bool)arg1 %{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
-- (void)-;
++ (_Bool);
++ (_Bool);
++ (_Bool)stDimmedDetentIdentifier;
+- (void);
+- (double);
+- (_Bool);
+- (void);
+- (void);
 - (_Bool);
 - (struct CGAffineTransform);
 - (double);
-- (struct CGPoint);
-- (void)A;
 - (unsigned long long);
-- (double);
-- (void)1¢!0@ù
-× ;
-- (void)neFragmentRect:(double)arg1;
-- (void)Window:(struct CGAffineTransform)arg1;
-- (struct CGPoint)hout the use of object pointers. Toolbar persistence issues may arise. Set unique identifiers on items that are visible at the same time to disambiguate them.;
-- (double)"NSString"16@?0@8;
-- (void);
-- (_Bool);
-- (id)ÄçEÿ¼Hë;
-- (struct CGPoint)Eÿ¯Ú;
-- (id)ªéþ;
+- (double)6;
+- (id)sVolatile:(id)arg1;
+- (struct CGPoint)wedUserNotificationTypes;
+- (void)ardFocusGuide;
+- (void)L;
+- (struct CGPoint)@;
+- (double)@;
+- (_Bool)finished expanding can result in inconsistent state. This is a client bug.;
+- (void)XÝêÿdÝêÿHÞêÿTÞêÿ`ÞêÿlÞêÿàêÿ$áêÿ0áêÿ<áêÿ`áêÿ¨áêÿ¸áêÿÜáêÿâêÿLâêÿâêÿ¬âêÿÐâêÿôâêÿôEþÿÄGþÿHþÿ,HþÿDHþÿ\HþÿtHþÿHþÿ¤Hþÿ¼HþÿÔHþÿìHþÿIþÿIþÿ4IþÿLIþÿdIþÿ|IþÿIþÿ¬IþÿÄIþÿÜIþÿôIþÿJþÿ$Jþÿ<JþÿTJþÿlJþÿJþÿJþÿÀJþÿÜJþÿøJþÿKþÿ0KþÿLKþÿhKþÿKþÿ KþÿÌKþÿèKþÿLþÿ Lþÿ<LþÿXLþÿtLþÿLþÿ¬LþÿÈLþÿäLþÿ;
+- (id)Not UIViewController subclass:%@ specified as the containing controller class, but that class is not a subclass of UIViewController /* Error: Ran out of types for this method. */;
+- (struct CGPoint)Indicator;
+- (void)$©d;
+- (void)Àøj;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint anchorPoint;

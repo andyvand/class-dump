@@ -22,11 +22,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)ueryClass(void)_block_invoke;
-- (void);
+- (void)!GùÑ³°1B50@ù
+× ;
+- (id)À2à2l3;
+- (void)trusted sources could be malicious. Running this shortcut may put your Mac and your personal information at risk.;
+- (void)ÐR;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;

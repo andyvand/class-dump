@@ -31,10 +31,9 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)1b0@ù
-× ;
-- (void)InvitationHelperDelegate>";
+- (void)ntifier = %{public}@) | Total residents:%lu - Reachable (%lu):%@ | hasOptedToHH2 = %{BOOL}d /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HUTriggerActionEditorContentViewController *actionEditorContentViewController;

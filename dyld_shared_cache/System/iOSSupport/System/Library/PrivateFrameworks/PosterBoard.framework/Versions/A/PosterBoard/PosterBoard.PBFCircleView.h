@@ -14,16 +14,18 @@
 }
 
 + (Class);
-- (void);
 - (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (double)UserInfoKeys;
+- (void);
+- (double);
+- (void)!¿ð!øGùQ	1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, retain) UIColor *fillColor;

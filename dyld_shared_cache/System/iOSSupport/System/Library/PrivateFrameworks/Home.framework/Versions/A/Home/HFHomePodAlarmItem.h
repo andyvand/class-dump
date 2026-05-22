@@ -28,8 +28,8 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (long long);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) MTAlarm *alarm; // @synthesize alarm=_alarm;

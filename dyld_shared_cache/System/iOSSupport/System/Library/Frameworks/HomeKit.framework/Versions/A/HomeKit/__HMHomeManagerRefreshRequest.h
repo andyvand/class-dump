@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (unsigned long long):] /* Error: Ran out of types for this method. */;
+- (unsigned long long)d;
 
 // Remaining properties
 @property(readonly) unsigned long long generationCounter; // @synthesize generationCounter=_generationCounter;

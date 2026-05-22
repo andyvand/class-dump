@@ -15,26 +15,24 @@
     long long _comparisonType;
 }
 
-+ (id)setRemoteObjectInterface:(id)arg1;
-+ (id)T@"NSData",R,D,N;
-+ (_Bool)EnableVideoCache:Increasing video URLCache memory capacity from 0 to default capacity. /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (id);
-- (id)upplementalBuild;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
 - (long long);
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void)mpted to store invalid value of type %d in 2nd argument to PPOperator<Distinct/Total>ItemCount;
-- (void);
-- (id);
-- (id)Fø±_¯YDFoqTü*þ(×üUSþ¬oÒÐq1SÆÄ/]¾ðIG¼ê¼Á¶³ðõ²«´µèénoèá¢£¼µàÝbg´±¥¦g`ÙÚ¢ÑÖ[XÁ¾SXOP¹²ÎÏ(!âã ÂÇÖÛüÖÓÊÇÒËôõÆ¿	þ³¸õòÇÌ¯°ùòÃÄíæ³¬åæ§ ùúÝâ§¤ñöøõzÌÉ®³vwðéª«Ä½ª£¬­~wàá¤©ØÝroghÑÊ¥ÉÆ[`|ÉÎSP{tOHÁÂêãÞ× !	ÞÛÒÏº¿	ÎÓ¶·	ÊËýõú¿¼	³°»´íî¯¨§¨ñê»¼åÞéæ ÝÚ¯´es¢Vs¢às¢ãs¢s¢s¢ús¢Õs¢s¢ s¢¿s¢Òs¢(s¢Ás¢Ús¢Ts¢©s¢Ns¢s¢ìs¢&s¢ws¢Ñs¢as¢1s¢ös¢¨s¢Xs¢Ss¢¢s¢s¢§s¢Is¢Ts¢Ãs¢)s¢s¢¸s¢=s¢s¢s¢s¢¨s¢s¢ãs¢s¢ÿs¢Øs¢ês¢Çs¢s¢3s¢s¢s¢¤s¢Os¢6s¢Ãs¢;s¢,s¢Bs¢£s¢ s¢-s¢s¢ús¢
-s¢ås¢ws¢)s¢³s¢s¢ûs¢ks¢ás¢Ûs¢<s¢½s¢Js¢Çs¢Ïs¢s¢s¢ s¢Ðs¢Õs¢s¢às¢Ôs¢s¢£s¢¯s¢®s¢3s¢s¢üs¢cs¢_s¢ûs¢Îs¢s¢,s¢s¢}s¢s¢Fs¢ãs¢{s¢<s¢/s¢vs¢s¢Zs¢às¢Bs¢és¢Âs¢As¢s¢xs¢s¢¬s¢ïs¢ßs¢s¢s¢ís¢s¢ms¢¾s¢s¢ñs¢%s¢xs¢s¢s¢ës¢as¢s¢;s¢Hs¢ís¢Xs¢s¢µs¢õs¢µs¢îs¢s¢Ðs¢Ms¢Ás¢÷s¢%s¢ýs¢*s¢§s¢Çs¢s¢Zs¢#s¢Õs¢ûs¢s¢¢s¢îs¢#s¢Üs¢Ls¢ws¢ös¢çs¢øs¢¹s¢)s¢As¢¦s¢s¢ßs¢@s¢ús¢^s¢s¢s¢§s¢s¢{s¢}s¢¾s¢[s¢cs¢Us¢>s¢s¢hs¢ôs¢üs¢,s¢=s¢Ss¢9s¢ós¢s¢s¢/s¢«s¢¤s¢s¢Øs¢ks¢Js¢s¢Zs¢ìs¢çs¢Îs¢Ss¢Ns¢s¢us¢s¢s¢s¢s¢Às¢s¢*s¢Þs¢¹s¢¶s¢Ús¢hs¢¶s¢©s¢vs¢¯s¢%s¢5s¢òs¢æs¢¶s¢s¢Çs¢s¢és¢?s¢Qs¢+s¢:s¢os¢|s¢(s¢Ýs¢ºs¢ës¢Ks¢SúBS·ÊîFó3ÚÊðdÈÿØ´E|Ç«:Ý%0¶qlÀÎÒý[È¬&R+³ÎÎÚå Scè}[>7ï0}ä?sK!:pa0.ý ÄÝ7Ý$WÄ¹í°¯/4_bo~Qæ_T(M©ìcn^öÅqù¤´²_×§mÓïÊÍ`ÃtÓ¼fÐ	ØÉ¼ÃTòw¹xÔÑ_K¢RãÀ kñD{6Úºì®BµM3EAvLÜ½\7]¯7!êe¾¡ñ¤IN'dí ukL+ÀTnYiÔ/Öõ_ßÉ-rjCxXªÖß(Ù"²sa#uã3÷vôd³
-6=ø^Õ@â<êdL@ûâ{\»¼ÐÒît®v$X	[^ÙçÜÙç>Â>	B%SyU'ÈºÊâ3å/]ì¡DâÛU6¶ÂaÅß·Ô9RmJòxYØjÓµãdµühÂÆDÃ½«Y¨l, /* Error: Ran out of types for this method. */;
+- (void)wsCloudItems;
+- (void)MPAVErrorResolverAdditions;
 
 // Remaining properties
 @property(nonatomic) long long comparisonType;

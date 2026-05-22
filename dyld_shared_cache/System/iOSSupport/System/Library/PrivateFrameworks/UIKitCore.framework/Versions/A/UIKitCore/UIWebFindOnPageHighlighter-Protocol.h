@@ -8,12 +8,8 @@
 @protocol UIWebFindOnPageHighlighterDelegate;
 
 @protocol UIWebFindOnPageHighlighter
-- (void)gth is 0;
-- (void)on;
-- (NSString *)°!ÈEùqÉÐ1¢!0@ù
+- (void)!ØBùa1Â0@ù
 × ;
-- (id <UIWebFindOnPageHighlighterDelegate>)ÜÓûÿ¸uþÿ;
-- (void);
 
 // Remaining properties
 @property(nonatomic) id <UIWebFindOnPageHighlighterDelegate> delegate;

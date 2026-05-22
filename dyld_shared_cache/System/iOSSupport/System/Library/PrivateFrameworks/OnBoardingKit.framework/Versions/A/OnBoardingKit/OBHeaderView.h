@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, OBAnimationView, OBHeaderAccessoryButton, OBImageView, OBTemplateHeaderDetailLabel, OBTemplateLabel, UIImage, UILabel, UIView;
+@class NSArray, NSLayoutConstraint, NSString, OBAnimationView, OBHeaderAccessoryButton, OBImageView, OBTemplateHeaderDetailLabel, OBTemplateLabel, UIImage, UIImageSymbolConfiguration, UILabel, UIView;
 
 @interface OBHeaderView
 {
@@ -15,8 +15,10 @@
     _Bool _useIntroScreenLayout;
     OBAnimationView *_animationView;
     UIView *_customIconContainerView;
+    double _customIconContainerHeight;
     OBImageView *_imageView;
     NSString *_symbolName;
+    UIImageSymbolConfiguration *_additionalSymbolConfiguration;
     UIView *_topAssetContainer;
     NSArray *_topAssetContainerConstraints;
     NSLayoutConstraint *_headerLeftEdgeConstraint;
@@ -57,7 +59,6 @@
 - (void);
 - (void);
 - (void);
-- (void)(;
 - (void);
 - (void);
 - (void);
@@ -65,13 +66,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (double);
 - (_Bool);
 - (unsigned long long);
@@ -83,8 +87,11 @@
 - (double);
 - (id);
 - (id);
+- (double);
+- (void);
 - (id);
 - (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -126,31 +133,34 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id)tedClient);
-- (void)igned long long>, WTF:(unsigned long long)arg1:RefPtr<WebKit::FileSystemStorageHandle>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::HashMapTranslatorAdapter<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>::KeyValuePairTraits, WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::FileSystemStorageHandle>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::FileSystemHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (void)ID) ON DELETE CASCADE, FOREIGN KEY(topFrameDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE);
-- (void);
-- (void)H	;
-- (void);
 - (void);
 - (id);
-- (double);
-- (void);
-- (void);
+- (void);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (double);
-- (id)@;
+- (double);
 - (id);
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) OBHeaderAccessoryButton *accessoryButton; // @synthesize accessoryButton=_accessoryButton;
+@property(retain, nonatomic) UIImageSymbolConfiguration *additionalSymbolConfiguration; // @synthesize additionalSymbolConfiguration=_additionalSymbolConfiguration;
 @property(nonatomic) _Bool allowFullWidthIcon; // @synthesize allowFullWidthIcon=_allowFullWidthIcon;
 @property(retain, nonatomic) OBAnimationView *animationView; // @synthesize animationView=_animationView;
 @property(retain, nonatomic) UILabel *appNameLabel; // @synthesize appNameLabel=_appNameLabel;
 @property(retain, nonatomic) UILabel *badgeLabel; // @synthesize badgeLabel=_badgeLabel;
+@property(nonatomic) double customIconContainerHeight; // @synthesize customIconContainerHeight=_customIconContainerHeight;
 @property(retain, nonatomic) UIView *customIconContainerView; // @synthesize customIconContainerView=_customIconContainerView;
 @property(retain, nonatomic) OBTemplateHeaderDetailLabel *detailLabel; // @synthesize detailLabel=_detailLabel;
 @property(retain, nonatomic) NSArray *detailLabelConstraints; // @synthesize detailLabelConstraints=_detailLabelConstraints;

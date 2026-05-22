@@ -10,13 +10,13 @@
 {
 }
 
-+ (_Bool)AtAuthorizedLocation;
-- (void);
-- (id);
++ (_Bool);
+- (id);
+- (long long);
+- (void);
 - (id);
 - (_Bool);
-- (long long)ntactInStore;
-- (_Bool)äe»ÿ1,'B;
+- (_Bool))	.±H;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

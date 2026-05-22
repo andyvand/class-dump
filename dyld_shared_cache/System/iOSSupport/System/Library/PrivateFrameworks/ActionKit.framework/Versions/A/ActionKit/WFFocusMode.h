@@ -14,19 +14,18 @@
     NSString *_colorName;
 }
 
-+ (_Bool)educe file size of %@;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id)b0@ù
-× ;
+- (void)was provided. Please provide an end time for Do Not Disturb.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *colorName; // @synthesize colorName=_colorName;

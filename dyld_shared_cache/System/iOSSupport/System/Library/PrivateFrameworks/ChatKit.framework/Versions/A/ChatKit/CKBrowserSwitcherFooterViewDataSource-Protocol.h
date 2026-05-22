@@ -4,11 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKBrowserSwitcherFooterView, NSIndexPath;
-
 @protocol CKBrowserSwitcherFooterViewDataSource
-- (id)¨^sô;
-- (NSIndexPath *);
-- (unsigned long long)ternRegexFinder:(CKBrowserSwitcherFooterView *)arg1;
 @end
 

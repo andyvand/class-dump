@@ -4,6 +4,7 @@
 
 class std::__nested<JetPack::UnableToParseEncryptedSegmentException> {
 public: // (access info unavailable from symbols alone)
-    __nested[abi:ne200100](JetPack::UnableToParseEncryptedSegmentException const&);
+    auto __nested[abi:nqe210106](JetPack::UnableToParseEncryptedSegmentException const&);
+    non-virtual thunk to ~__nested();
     ~__nested();
 };

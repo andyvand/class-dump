@@ -17,15 +17,15 @@ __attribute__((visibility("hidden")))
 + (double);
 + (double);
 + (double);
-+ (double);
 + (_Bool);
++ (double)G J`J*èN(OäO$P°RXS¤S0TTÄV;
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 - (void);
 
 @end

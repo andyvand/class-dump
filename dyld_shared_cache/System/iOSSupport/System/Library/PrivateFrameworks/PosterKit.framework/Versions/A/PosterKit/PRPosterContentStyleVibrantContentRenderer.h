@@ -39,10 +39,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (void)ColorItem:(id)arg1;
-- (id)T@"UIColor",R,N,V_effectiveColor;
+- (void);
+- (void)1â
+0@ù
+× ;
+- (id)KÐÿÿG;
 
 // Remaining properties
 @property(retain, nonatomic) BSUIVibrancyConfiguration *activeVibrancyConfiguration; // @synthesize activeVibrancyConfiguration=_activeVibrancyConfiguration;

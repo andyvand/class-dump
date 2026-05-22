@@ -13,24 +13,24 @@
     UIScene *_uiScene;
 }
 
-+ (_Bool)ä\gÿ3ì;
-- (void)tionRequiresNetworkTether;
++ (_Bool);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool)1¢!0@ù
+- (long long)
 × ;
-- (id)e;
-- (id)outSectionGeometryTranslator",&,N,V_sectionGeometryTranslator;
-- (id)education_ui_ko;
+- (_Bool)ForLocales:(id *)arg1;
+- (_Bool)RowsForCalendarUnit:(id)arg1;
+- (void)alStringKeyTopTextOffset;
+- (void);
+- (void)tionController;
+- (id)ate;
+- (id)ðúpþù33$8tþ;
+- (id);
+- (void)Ì=;
 
 // Remaining properties
 @property(nonatomic, setter=_setUIScene:) __weak UIScene *_UIScene; // @synthesize _UIScene=_uiScene;

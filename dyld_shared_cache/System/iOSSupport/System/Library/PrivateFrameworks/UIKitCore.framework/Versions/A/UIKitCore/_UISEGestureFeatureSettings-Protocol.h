@@ -5,18 +5,15 @@
 //
 
 @protocol _UISEGestureFeatureSettings
-- (double)ons;
-- (double)EùqÄÐ1¢!0@ù
+- (struct CGRect)!;
+- (double)!üDùQfð1Â0@ù
 × ;
-- (double)sð!°Eù±ÆÐ1¢!0@ù
-× ;
-- (double)
-× ;
-- (_Bool)withEvent: /* Error: Ran out of types for this method. */;
-- (double)tion;
-- (double)ssedShadowExpansion;
-- (unsigned long long);
-- (double)lPressGestureRecognizer of UIScrollView.;
+- (double);
+- (unsigned long long)neDelegate",R,N;
+- (double)entifier;
+- (double)ºîÿ;
+- (_Bool)zontal;
+- (unsigned long long).3GG´.3y	.3y+¾7GGGAByAByACÓ.3GAJGG;
 
 // Remaining properties
 @property(readonly, nonatomic) double backProjectTime;

@@ -38,7 +38,7 @@
     NSNumber *_numFollowUp;
 }
 
-+ (Class)%EÉ;
++ (Class);
 - (id);
 - (id);
 - (void);
@@ -82,16 +82,16 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
+- (_Bool)wsNegativeNumbers;
 - (int);
-- (void);
-- (int);
-- (id);
-- (void);
-- (_Bool);
-- (void)21LNConfirmationRequestC;
+- (void)VoiceShortcutClient metadata for built-in actions;
+- (void)DialogResponseContext"20;
+- (void)the specified file.;
+- (int)Enabled(No Alert);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

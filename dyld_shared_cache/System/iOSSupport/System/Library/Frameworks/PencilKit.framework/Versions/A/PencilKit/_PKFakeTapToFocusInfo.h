@@ -16,9 +16,9 @@
     unsigned long long _textInputValue;
 }
 
-+ (id)ronment;
-+ (id)l value for '%s';
-+ (id)figuration/RemoteConfiguration/RCConfigurationManager.m;
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -27,8 +27,8 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long)InternalFallbackTimeoutDuration: /* Error: Ran out of types for this method. */;
-- (unsigned long long)a;
+- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (long long);
 

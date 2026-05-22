@@ -32,19 +32,19 @@
 - (void);
 - (double);
 - (id);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (void)!|Gù0Ð1b0@ù
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)0@ù
 × ;
-- (id)xPath: /* Error: Ran out of types for this method. */;
-- (void)mePodVariant:(id)arg1;
-- (void)µ;
+- (id)6HomeUI24DetailsHostingController;
+- (void)ry_AllowedNone_Description;
 
 // Remaining properties
 @property(retain, nonatomic) OBLinkTrayButton *cancelButton; // @synthesize cancelButton=_cancelButton;

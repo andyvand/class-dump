@@ -12,9 +12,9 @@
     MISSING_TYPE *label;
 }
 
-- (id)FeedRules;
-- (void);
-- (id)waysAllowRefreshAction: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)ÿÿÂ9þÿ;
 
 @end
 

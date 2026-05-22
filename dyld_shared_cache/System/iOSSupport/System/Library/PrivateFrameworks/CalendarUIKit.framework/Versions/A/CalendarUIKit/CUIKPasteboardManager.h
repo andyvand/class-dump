@@ -18,7 +18,7 @@
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -37,8 +37,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (struct CGColor *);
-- (void);
+- (struct CGColor *);
+- (void)ionButton: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

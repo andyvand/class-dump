@@ -13,8 +13,8 @@
 + (id);
 + (id);
 - (_Bool);
-- (void)SURLSession"16@"NSURLSessionDownloadTask"24@"NSURL"32;
-- (id)apple.remoteconfiguration.;
+- (void);
+- (id);
 - (_Bool);
 - (unsigned long long);
 

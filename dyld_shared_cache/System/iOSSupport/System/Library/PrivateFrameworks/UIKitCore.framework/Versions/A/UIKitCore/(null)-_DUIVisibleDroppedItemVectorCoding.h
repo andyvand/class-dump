@@ -9,14 +9,14 @@
 @interface (null) (_DUIVisibleDroppedItemVectorCoding)
 - (void);
 - (struct CAPoint3D);
-- (void)nditionstoCheck is set to IMCheckNoDeviceConditions, changing it to IMCheckAllDeviceConditions;
-- (void)>= maxBatchCount [%@] and deviceConditionstoCheck is set to IMCheckNoDeviceConditions, changing it to IMCheckAllDeviceConditions;
-- (void)iceConditionstoCheck is set to IMCheckNoDeviceConditions, changing it to IMCheckAllDeviceConditions;
-- (void)***;
-- (CDStruct_39925896)** Failed writeExitRecordWithDate salt zone was not present *********;
-- (struct UIOffset)thDate scheduling opperation;
-- (struct NSDirectionalEdgeInsets)y to write the exit record as we'll retry updating the subscription on imagent launch;
-- (struct CGVector)e the subscription, we'll still try to write the exit record as we'll retry updating the subscription on imagent launch;
+- (void);
+- (void);
+- (void);
+- (void);
+- (CDStruct_39925896);
+- (struct UIOffset);
+- (struct NSDirectionalEdgeInsets);
+- (struct CGVector);
 - (CDUnion_c6a188fc);
 - (_Bool);
 - (void);
@@ -27,24 +27,23 @@
 - (CDUnknownBlockType);
 - (double);
 - (_Bool);
-- (id);
-- (void)B;
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 - (void);
 - (struct UIEdgeInsets);
 - (struct CGAffineTransform);
 - (void);
-- (struct CGPoint)Æð1¢!0@ù
-× ;
-- (void)navailableBrowserPresentationController";
-- (struct CGSize)ControllerPresentationForPresentingViewController"b1"interactive"b1"delegateDidPreventInteraction"b1"interactionRequiresRestart"b1"interactionWasCancelled"b1"previousProgressWasNegativeOrZero"b1"currentState"b3"nextUpdateShouldTransitionToPreview"b1"nextPreviewShouldPreventHapticFeedback"b1};
-- (void)litViewControllerColumn;
-- (void)on;
-- (struct CGRect)lert presented when a document could not be opened.;
+- (struct CGRect);
+- (void);
+- (void);
+- (struct CGPoint)Splashboard:(id)arg1;
+- (void)è;
+- (struct CGSize)scene command menu for identifier '%@';
 
 // Remaining properties
 @property(readonly, nonatomic) UIStoryboardDecodingContext *_storyboardDecodingContext;

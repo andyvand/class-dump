@@ -14,13 +14,13 @@
     MISSING_TYPE *toolbarSnapshot;
 }
 
-- (void)ID from handle:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)resentationMode;
-- (void)legate;
+- (id);
+- (void)olOpacities: /* Error: Ran out of types for this method. */;
+- (void)÷Æÿé;
+- (void)8íþÍ¸§l;
 
 @end
 

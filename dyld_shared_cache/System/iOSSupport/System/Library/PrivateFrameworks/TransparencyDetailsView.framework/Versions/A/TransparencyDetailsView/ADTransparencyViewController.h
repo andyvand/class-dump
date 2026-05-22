@@ -40,6 +40,7 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -56,19 +57,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (long long);
+- (void);
+- (_Bool);
+- (void)"Ð1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

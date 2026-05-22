@@ -17,35 +17,34 @@
 }
 
 + (double);
-+ (struct UIEdgeInsets)Type:inStore:oldAccount: /* Error: Ran out of types for this method. */;
-+ (id)setRepairState:(long long)arg1;
-- (void)t:(double)arg1 inStore: /* Error: Ran out of types for this method. */;
-- (void)RemoveAccount:(_Bool)arg1 inStore: /* Error: Ran out of types for this method. */;
++ (struct UIEdgeInsets);
++ (id);
+- (void);
+- (void);
 - (double);
-- (_Bool);
-- (void)System/Library/Accounts/Notification/KeychainSyncAccountNotification.bundle/Contents/MacOS/KeychainSyncAccountNotification;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
-- (struct UIEdgeInsets);
-- (id)(;
-- (void);
 - (void);
 - (struct CGRect);
-- (_Bool)Ð!4FùÑð1¢!0@ù
+- (_Bool);
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (void)q&°1Â0@ù
 × ;
-- (struct UIEdgeInsets)ü!ðAùñ°1¢!0@ù
-× ;
+- (_Bool)eed;
+- (void)ñÿ;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets alignmentRectInsets; // @synthesize alignmentRectInsets=_alignmentRectInsets;

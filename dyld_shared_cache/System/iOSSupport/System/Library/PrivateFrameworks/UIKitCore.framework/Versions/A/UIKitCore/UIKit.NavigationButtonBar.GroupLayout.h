@@ -24,30 +24,32 @@
     MISSING_TYPE *_spilled;
 }
 
-- (id)gSync;
+- (id);
 - (struct CGRect);
 - (void);
+- (id);
 - (void);
-- (void)tion:(id)arg1;
-- (void);
-- (void);
-- (id)ÔAo!FùÁÐ1¢!0@ù
-× ;
-- (_Bool)ellStackView:(id)arg1;
-- (id)_interactionStateModule:swipeActionsStyleForSwipedItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (id)FocusMovementActions: /* Error: Ran out of types for this method. */;
-- (void)estination",R,N;
+- (id);
+- (id);
 - (_Bool);
-- (_Bool)l¬71i4¡;
-- (void)Ý+\;
+- (void)ù
+× ;
+- (void)tring:(id)arg1;
+- (void)ate, extents:(id)arg1 - complete:%s
+
+ - lowLatency:%s /* Error: Ran out of types for this method. */;
 - (void);
-- (void));
-- (void);
-- (id)¨_;
-- (void)sÓ_;
-- (_Bool)?;
-- (void)¼kÍ³Ob;
-- (void)`Ûÿ*¦;
+- (void)8øÞÿ;
+- (_Bool),Þb;
+- (_Bool)ÿítÑÿb;
+- (_Bool);
+- (void)`d;
+- (void)ÿþ£ÚTd;
+- (void)h!jÿ¬Ï<Èd;
+- (void)`¾ÿ@l×lïd;
+- (void)I;
+- (void)ÓEe;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

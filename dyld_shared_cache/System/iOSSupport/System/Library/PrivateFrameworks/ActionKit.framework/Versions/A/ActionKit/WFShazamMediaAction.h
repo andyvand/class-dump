@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ke_3;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

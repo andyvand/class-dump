@@ -21,14 +21,14 @@
 - (double);
 - (double);
 - (id);
-- (id)n;
+- (id);
 - (id);
 - (double);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
-- (id)ageGUIDs:context:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

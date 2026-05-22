@@ -74,20 +74,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)solidColorAppearance;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly) PRPosterAmbientConfiguration *ambientConfiguration;

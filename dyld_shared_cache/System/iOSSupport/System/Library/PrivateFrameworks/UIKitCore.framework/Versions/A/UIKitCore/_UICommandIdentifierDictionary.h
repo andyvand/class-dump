@@ -14,18 +14,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)_identifier;
-- (void)playPauseButton;
+- (void);
+- (void);
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)dSettings;
-- (id);
-- (void)À?3ç;
-- (id)rInteractableItem;
-- (void)®gþÿ;
+- (_Bool)dsIntoBoundary:(id)arg1;
+- (id)style;
+- (id)an only be one UIApplication instance.;
+- (void)ÀPWþ;
+- (void)^;
 
 @end
 

@@ -4,9 +4,9 @@
 
 class std::_List_node_base {
 public: // (access info unavailable from symbols alone)
-    hook(std::_List_node_base*);
-    reverse();
-    swap(std::_List_node_base&, std::_List_node_base&);
-    transfer(std::_List_node_base*, std::_List_node_base*);
-    unhook();
+    auto hook(std::_List_node_base*);
+    auto reverse();
+    auto swap(std::_List_node_base&, std::_List_node_base&);
+    auto transfer(std::_List_node_base*, std::_List_node_base*);
+    auto unhook();
 };

@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     NSError *_error;
 }
 
-- (struct CGImageSource *)Identifier:(id)arg1 bundleID:context:userInfo: /* Error: Ran out of types for this method. */;
-- (struct CGImage *)WithIdentifier:(struct CGImageSource *)arg1 bundleID:(unsigned long long)arg2 context: /* Error: Ran out of types for this method. */;
+- (struct CGImageSource *);
+- (struct CGImage *);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (id);
-- (void);
+- (void)_stationEventID;
 
 // Remaining properties
 @property(readonly, nonatomic) MSVArtworkColorAnalysis *colorAnalysis;

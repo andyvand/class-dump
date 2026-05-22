@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
+@class NSIndexPath, NSString;
 
 @protocol _UICollectionViewUpdateTranslating
-- (long long);
-- (NSIndexPath *)IZ28ICCalcCinematicL1CorrectionsE3$_0NS_9allocatorIS2_EEFbvEEE;
-- (long long)A;
-- (NSIndexPath *);
-- (long long)Ôáp!LDù±Ãð1¢!0@ù
-× ;
-- (NSIndexPath *)@ù
-× ;
-- (long long)ù
-× ;
-- (long long)eractionController"16{CGPoint=dd}24@"UIView"40;
-- (struct _NSRange)TransitionCoordinator>"24;
+- (long long)Ô ;
+- (NSIndexPath *)rce:(NSIndexPath *)arg1 toUpdate: /* Error: Ran out of types for this method. */;
+- (NSIndexPath *)MaximumDistance:(NSString *)arg1;
+- (long long)ÿþÿ¸ÿþÿØÿþÿøÿþÿ;
+- (long long)ldItems != nil;
 @end
 

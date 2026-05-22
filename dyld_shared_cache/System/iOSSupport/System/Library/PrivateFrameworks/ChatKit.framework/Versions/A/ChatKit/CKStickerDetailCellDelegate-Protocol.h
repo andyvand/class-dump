@@ -5,7 +5,5 @@
 //
 
 @protocol CKStickerDetailCellDelegate
-- (void);
-- (void)gUndoActions;
 @end
 

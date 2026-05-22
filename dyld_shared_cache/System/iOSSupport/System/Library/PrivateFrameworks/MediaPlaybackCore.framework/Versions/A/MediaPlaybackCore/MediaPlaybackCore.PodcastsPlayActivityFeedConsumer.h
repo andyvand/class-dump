@@ -17,11 +17,11 @@
 + (unsigned int);
 + (void);
 + (id);
-- (void)NSZone=}16@0:(id)arg1 8;
-- (void)rsionForBeacon:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (id);
+- (void)odings (decode):route UID decoding table /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -16,17 +16,17 @@
     id <PKScribbleInteractionElementSource> _elementSource;
 }
 
-- (id)ib/swift/libswiftObservation.dylib;
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (void)eplies;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -19,6 +19,7 @@
     MISSING_TYPE *commandCenter;
     MISSING_TYPE *tracker;
     MISSING_TYPE *searchBarInsetsController;
+    MISSING_TYPE *searchAction;
     MISSING_TYPE *$__lazy_storage_$_filterButton;
     MISSING_TYPE *$__lazy_storage_$_filterBarButtonItem;
     MISSING_TYPE *isFilterConfigLoaded;
@@ -31,21 +32,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ßÿ8ßÿ\ßÿßÿ¼ßÿ¬ßÿ¸ßÿÜßÿøßÿßÿÀßÿäßÿßÿ8ßÿ\ßÿßÿ¼ßÿ ßÿÄßÿèßÿßÿ<ßÿ`ßÿßÿÀßÿ¤ßÿ°ßÿäßÿ ßÿ\ßÿßÿÐßÿôßÿßÿ´ßÿßÿßÿÌßÿðßÿßÿDßÿhßÿßÿÈßÿìßÿßÿðßÿÈßÿìßÿHßÿßÿ¨ßÿßÿ¼ßÿßÿ@ßÿdßÿßÿ¼ßÿøßÿßÿlßÿßÿ´ßÿßÿ@ßÿdßÿ ßÿÄßÿøßÿ4ßÿXßÿ|ßÿ ßÿ$ßÿHßÿxßÿßÿÀßÿüßÿ ßÿ|ßÿÐßÿôßÿ$ßÿHßÿlßÿ¨ßÿÌßÿ`ßÿßÿ¨ßÿØßÿüßÿ ßÿ\ßÿßÿèßÿÐ ßÿ¸¡ßÿÜ¡ßÿ;
-- (void);;
-- (void)IssueListOfflineContentContributor:(id)arg1 will not contribute because issue downloads are disabled, reason=%{public}@;
 - (void);
-- (void)þï`DåþïD,¾þï°Óþ;
-- (void)rs;
 - (void);
+- (void);
+- (void);
+- (void)
+;
+- (void);
+- (void)ÿ;
+- (void)49PVLiWAEKoO4O0/Library/Caches/com.apple.xbs/TemporaryDirectory.QYUJGa/Sources/Feldspar/Modules/news-reader/NewsUI/Modules/Following/FollowingTracker.swift;
+- (void)@;
+- (void)ªU;
+- (void)Ç0;
 
 @end
 

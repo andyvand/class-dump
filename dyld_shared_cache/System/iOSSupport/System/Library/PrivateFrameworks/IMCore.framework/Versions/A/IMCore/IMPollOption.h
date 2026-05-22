@@ -13,12 +13,12 @@
     NSAttributedString *attributedPollText;
 }
 
-- (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSAttributedString *attributedPollText; // @synthesize attributedPollText;

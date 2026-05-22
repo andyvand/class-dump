@@ -13,23 +13,23 @@
     NSError *_error;
 }
 
-+ (id)x;
-+ (_Bool)1000-8000-0026BB765291;
++ (id);
++ (_Bool);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)¬1Ô1;
-- (id)streamingAssetVersion:%@ encryptionContext:%@ significantEvents:%@ /* Error: Ran out of types for this method. */;
-- (id);
+- (void)mostat sleep schedule;
+- (id)ssorySleepWakeStateMessage;
 
 // Remaining properties
 @property(readonly, copy) NSArray *accessoryAccessCodeValues; // @synthesize accessoryAccessCodeValues=_accessoryAccessCodeValues;

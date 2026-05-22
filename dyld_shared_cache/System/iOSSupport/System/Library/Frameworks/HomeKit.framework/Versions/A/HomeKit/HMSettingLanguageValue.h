@@ -29,8 +29,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)odificationRequestValue;
 
 // Remaining properties
 @property(readonly, copy) NSString *inputLanguageCode; // @synthesize inputLanguageCode=_inputLanguageCode;

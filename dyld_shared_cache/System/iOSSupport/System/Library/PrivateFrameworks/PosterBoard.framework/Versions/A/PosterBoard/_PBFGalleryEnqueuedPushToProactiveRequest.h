@@ -21,11 +21,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isFinalized) _Bool finalized; // @synthesize finalized=_finalized;

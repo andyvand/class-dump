@@ -18,29 +18,31 @@
 }
 
 + (double);
-- (unsigned int)Û;
+- (unsigned int);
 - (struct __CTLine *);
 - (id);
+- (void);
 - (id);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
 - (double);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void)B32@?0@"<TUIPredictionGenerator>"8Q16^B24;
+- (void)ñ3°1â
+0@ù
+× ;
+- (id)Ô ;
+- (void)"UICollectionView"16@"UICollectionViewFocusUpdateContext"24@"UIFocusAnimationCoordinator"32;
+- (_Bool)w;
+- (long long)*Ü;
 
 // Remaining properties
 @property(nonatomic) _Bool adjustsFontSizeToFitWidth; // @synthesize adjustsFontSizeToFitWidth=_adjustsFontSizeToFitWidth;

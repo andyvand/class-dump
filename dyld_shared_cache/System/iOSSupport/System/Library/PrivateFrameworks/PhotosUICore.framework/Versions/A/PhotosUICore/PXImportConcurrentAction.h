@@ -10,13 +10,13 @@
     _Bool _finished;
 }
 
+- (void);
 - (id);
-- (_Bool)`Á;
-- (void)Ð£rÿÂ;
-- (_Bool)yM1[_Qo_;
-- (_Bool)ityConversionsDisabled;
-- (_Bool)ControllerSwipeUpDismissalController;
-- (void)MÏ;
+- (void);
+- (_Bool)temAtURL:withItemAtURL:backupItemName:options:resultingItemURL:error: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)XÀÿWTé6;
+- (_Bool)øv¡ÿ£<OÉ7;
 
 @end
 

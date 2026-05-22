@@ -5,6 +5,5 @@
 //
 
 @protocol WBSDeallocationSentinelObserver
-- (void)hPointsShared}"__cntrl_"^{__shared_weak_count}}"pointsData"{vector<unsigned char, std:(id)arg1:allocator<unsigned char>>="__begin_"*"__end_"*""{?="__cap_"*}}} /* Error: Ran out of types for this method. */;
 @end
 

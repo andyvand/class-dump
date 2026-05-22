@@ -30,19 +30,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
+- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (void)cutRunner stepWithAction:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *errorData; // @synthesize errorData=_errorData;

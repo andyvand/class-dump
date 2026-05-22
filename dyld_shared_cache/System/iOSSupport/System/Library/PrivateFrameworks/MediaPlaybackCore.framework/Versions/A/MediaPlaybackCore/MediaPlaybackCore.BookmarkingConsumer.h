@@ -14,10 +14,10 @@
 
 + (unsigned int);
 + (id);
-- (void)ildKeyIndex:(id)arg1 forBeacon:completion: /* Error: Ran out of types for this method. */;
-- (void)ccount:(id)arg1;
+- (void);
 - (void);
 - (id);
+- (void)with error %@ and status %@;
 
 @end
 

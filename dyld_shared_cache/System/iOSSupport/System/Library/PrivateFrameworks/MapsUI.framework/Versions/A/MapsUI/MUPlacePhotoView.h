@@ -28,14 +28,15 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id)@ù
+× ;
+- (void)ForViewModel:cellConfiguration:maximumMeasurements: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

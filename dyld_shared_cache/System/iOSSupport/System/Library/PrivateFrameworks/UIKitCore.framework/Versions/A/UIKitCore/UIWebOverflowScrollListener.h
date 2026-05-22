@@ -13,11 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)or full sync at current batch count %@ isCoreDuetSync %@;
-- (void)houldBeShownForInputDelegate:(id)arg1 inputViews:(_Bool)arg2;
-- (void)ForPreferredFittingAttributes:(id)arg1;
-- (id)iguration;
 - (void);
+- (void);
+- (void)Að!TGùÑbÐ1Â0@ù
+× ;
+- (id)ntationInteractionShouldBegin:(id)arg1;
+- (void)UISelectionBandView",&,N,V_bandView;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

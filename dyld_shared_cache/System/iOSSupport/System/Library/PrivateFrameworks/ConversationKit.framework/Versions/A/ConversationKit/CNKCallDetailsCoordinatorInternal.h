@@ -23,8 +23,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)¨y£¨yÝ Ð¢G_G;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isCaptioningEnabled;

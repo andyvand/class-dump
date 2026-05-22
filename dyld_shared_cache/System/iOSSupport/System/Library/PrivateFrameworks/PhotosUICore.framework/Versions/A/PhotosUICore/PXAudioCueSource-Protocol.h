@@ -5,8 +5,8 @@
 //
 
 @protocol PXAudioCueSource
-- (_Bool){CGPoint=dd}{CGSize=dd}},N,V_textResourceSpriteFrame;
-- (CDStruct_e83c9415)on;
+- (_Bool)iewClass;
+- (CDStruct_e83c9415)Session setVideoPlayer:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isEmpty;

@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)startSnapThreshold;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

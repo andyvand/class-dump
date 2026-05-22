@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (id);
 - (id);
-- (void);
+- (id);
+- (void)figuration:completionHandler: /* Error: Ran out of types for this method. */;
 
 @end
 

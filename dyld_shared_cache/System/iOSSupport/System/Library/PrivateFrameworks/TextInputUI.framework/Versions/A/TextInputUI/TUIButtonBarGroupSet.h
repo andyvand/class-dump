@@ -18,17 +18,17 @@
 
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *leadingButtonGroups; // @synthesize leadingButtonGroups=_leadingButtonGroups;

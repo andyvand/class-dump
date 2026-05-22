@@ -5,6 +5,5 @@
 //
 
 @protocol UITextDroppable_Private
-- (void)QQQQ^{__CVBuffer}i}16;
 @end
 

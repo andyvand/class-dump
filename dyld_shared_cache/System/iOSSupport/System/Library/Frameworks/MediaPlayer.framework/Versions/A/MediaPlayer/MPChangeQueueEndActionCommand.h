@@ -15,11 +15,11 @@
 }
 
 - (void);
-- (id)ummary:publication: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void)ommand;
 
 // Remaining properties
 @property(nonatomic) long long currentQueueEndAction; // @synthesize currentQueueEndAction=_currentQueueEndAction;

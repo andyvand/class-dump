@@ -23,30 +23,30 @@
 + (double);
 + (id);
 + (id);
-- (_Bool);
 - (id);
-- (id);
+- (double);
+- (void);
 - (long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (double);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (_Bool);
 - (double);
 
 // Remaining properties

@@ -5,8 +5,5 @@
 //
 
 @protocol LPComponentViewHost
-- (long long);
-- (long long)B�;
-- (long long)*=;
 @end
 

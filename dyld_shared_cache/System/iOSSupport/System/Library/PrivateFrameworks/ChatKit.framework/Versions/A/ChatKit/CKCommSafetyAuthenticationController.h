@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (void)Q}16^B32;
++ (void);
 + (void);
 
 @end

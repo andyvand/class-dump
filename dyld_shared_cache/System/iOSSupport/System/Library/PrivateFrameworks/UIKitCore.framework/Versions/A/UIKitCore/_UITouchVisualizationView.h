@@ -11,12 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)Size: /* Error: Ran out of types for this method. */;
-- (_Bool):channels: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool)9;
-- (_Bool)the following traits that cannot represent unspecified values:%@ This will become an assert in a future version. /* Error: Ran out of types for this method. */;
-- (_Bool)sionOverride;
++ (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)
+× ;
+- (_Bool);
 
 @end
 

@@ -14,7 +14,7 @@
 - (double);
 - (double);
 - (struct _NSRange);
-- (struct _NSRange);
+- (struct _NSRange);
 - (struct _NSRange);
 - (id);
 - (double);

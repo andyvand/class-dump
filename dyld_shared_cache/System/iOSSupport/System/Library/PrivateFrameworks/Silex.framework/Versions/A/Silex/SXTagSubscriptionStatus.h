@@ -13,12 +13,13 @@
 }
 
 - (id);
+- (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)ïð1Â0@ù
+× ;
+- (_Bool)jectProvider:viewport:presentationDelegate:componentStyleRendererFactory:analyticsReporting:appStateMonitor:mediaSharingPolicyProvider:imageViewFactory:canvasControllerFactory: /* Error: Ran out of types for this method. */;
+- (id)ighlightManager;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool following; // @synthesize following=_following;

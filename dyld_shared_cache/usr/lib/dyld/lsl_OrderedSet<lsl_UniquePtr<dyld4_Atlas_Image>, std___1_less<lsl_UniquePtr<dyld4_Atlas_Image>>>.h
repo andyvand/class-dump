@@ -4,5 +4,5 @@
 
 class lsl::OrderedSet<lsl::UniquePtr<dyld4::Atlas::Image>, std::__1::less<lsl::UniquePtr<dyld4::Atlas::Image>>> {
 public: // (access info unavailable from symbols alone)
-    insert(lsl::UniquePtr<dyld4::Atlas::Image>&&);
+    auto insert(lsl::UniquePtr<dyld4::Atlas::Image>&&);
 };

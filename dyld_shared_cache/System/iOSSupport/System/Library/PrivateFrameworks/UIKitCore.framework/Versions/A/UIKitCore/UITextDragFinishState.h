@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)eT3ToCloudKitWithLimit:attemptCount: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (struct CGPoint)F¾7Sg;
 - (void);
-- (struct CGPoint)eferredInterfaceOrientation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

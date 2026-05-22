@@ -5,7 +5,7 @@
 //
 
 @protocol TUStateRestoreControllerType
-- (_Bool)nProperties"40@0:8@"UITabBarController"16@"UITabBarControllerSidebar"24@"<UIDragSession>"32 /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isStateRestorationAllowed;

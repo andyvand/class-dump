@@ -20,8 +20,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)ññ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) PREditingPosterContentStyleCoordinator *contentStyleCoordinator; // @synthesize contentStyleCoordinator=_contentStyleCoordinator;

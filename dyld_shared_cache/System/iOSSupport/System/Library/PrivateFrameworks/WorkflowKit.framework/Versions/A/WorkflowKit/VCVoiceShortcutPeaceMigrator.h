@@ -14,10 +14,11 @@
 + (void);
 - (_Bool);
 - (_Bool);
-- (void);
 - (_Bool);
-- (id);
-- (id)H-0Ql-3YGQ).;
+- (id)0@ù
+× ;
+- (void)ation);
+- (id)Öÿ³@<Ê;
 
 // Remaining properties
 @property(readonly, nonatomic) WFDatabase *database; // @synthesize database=_database;

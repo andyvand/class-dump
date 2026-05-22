@@ -8,14 +8,15 @@
 @protocol _UINavigationBarAugmentedTitleView;
 
 @protocol _UINavigationBarTitleViewDataSource
-- (void)/;
-- (void);
-- (void);
-- (void)nForParentAtIndex:(UIView<_UINavigationBarAugmentedTitleView> *)arg1 recursive: /* Error: Ran out of types for this method. */;
-- (void)hGroupLocation;
-- (void)esEnded;
-- (double)ä2(33D45¼5,6È7;
-- (double)\ñòdò;
-- (void)ILocalNotificationRegionTriggersOnceKey;
+- (void)!¤Cùñ]1Â0@ù
+× ;
+- (void);
+- (void)c°1Â0@ù
+× ;
+- (double)ainer:(UIView<_UINavigationBarAugmentedTitleView> *)arg1;
+- (void);
+- (CDStruct_c3b9c2ee)scape;
+- (void)ateStatusBar:(UIView<_UINavigationBarAugmentedTitleView> *)arg1 duration:force: /* Error: Ran out of types for this method. */;
+- (double)_isDisplayingShortcutViewController;
 @end
 

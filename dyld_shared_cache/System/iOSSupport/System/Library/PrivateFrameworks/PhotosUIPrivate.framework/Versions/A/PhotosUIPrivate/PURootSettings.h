@@ -42,7 +42,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)J\;
++ (id)_numberColumnsInDefaultGrid;
 - (id);
 - (id);
 - (id);
@@ -103,12 +103,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)kViewModel"8Q16^B24;
+- (id);
+- (void)andler: /* Error: Ran out of types for this method. */;
+- (void)alternateBackKeyCommand;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *_internal_libraryStateBriefDescription; // @synthesize _internal_libraryStateBriefDescription=__internal_libraryStateBriefDescription;

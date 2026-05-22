@@ -16,29 +16,29 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)orCallSetup;
-- (void);
-- (void)T;
 - (id);
-- (void);
-- (void)ccount"24@"NSURL"32@"NSString"40@"IDSMessageContext"48;
-- (void)f:%p, delay:%@, accountID:%@, allowFuzz:%@, signOut:%@} /* Error: Ran out of types for this method. */;
-- (id)swordRequired;
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)thDistanceCalculator:(id)arg1 learnedPlaceParameters:locationShifter:metrics:persistenceManager:relabelerParameters:relabelerPersisterParameters:reverseGeocodeProvider: /* Error: Ran out of types for this method. */;
-- (id)outineLocationManager:timerManager: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)eted;
-- (id)ver,sessionID:%@,%@,%@,missingKeyReleaseTimerAlarm scheduled for:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)|Æ;
+- (void);
+- (void)hile adding persistent store, %@;
+- (void),%@;
+- (void)cationsOfInterest, error, %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *listeners; // @synthesize listeners=_listeners;

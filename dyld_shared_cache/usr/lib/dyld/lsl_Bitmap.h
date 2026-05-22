@@ -5,7 +5,7 @@
 class lsl::Bitmap {
 public: // (access info unavailable from symbols alone)
     Bitmap(lsl::Allocator&, unsigned long);
-    setBit(unsigned long);
-    setBit(unsigned long) (.cold.1);
+    auto setBit(unsigned long);
+    auto setBit(unsigned long) (.cold.1);
     ~Bitmap();
 };

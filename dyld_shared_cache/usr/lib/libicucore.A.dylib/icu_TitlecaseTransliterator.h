@@ -4,5 +4,5 @@
 
 class icu::TitlecaseTransliterator {
 public: // (access info unavailable from symbols alone)
-    getStaticClassID();
+    auto getStaticClassID();
 };

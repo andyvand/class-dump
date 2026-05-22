@@ -15,9 +15,9 @@
 }
 
 - (id);
-- (id):endTime:maxEvents:reversed:error: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
 - (_Bool);
+- (void)iptionText__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isProactive; // @synthesize isProactive=_isProactive;

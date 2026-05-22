@@ -14,10 +14,10 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)TableStackSpacing: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

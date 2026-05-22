@@ -24,40 +24,41 @@ __attribute__((visibility("hidden")))
     NSArray *_accessoryIdentifiers;
 }
 
-+ (struct CGSize):%@ /* Error: Ran out of types for this method. */;
-+ (double)however we can download from MMCS;
-+ (double)rable backward compatibility message, ignoring.;
-+ (double)sure %ld chats have SMS variants;
-+ (id)for %@/style %c groupID %@ origGroupID %@, creating;
++ (struct CGSize);
++ (double);
++ (double);
++ (double);
++ (id);
 + (struct CGSize);
 + (double);
 - (id);
 - (void);
 - (void);
 - (double);
-- (id)ifiers:acknowledgementHandler: /* Error: Ran out of types for this method. */;
-- (void)Based;
-- (struct CGRect)ntifier:fromIdentifier:fromToken:fromIDSID:timeStamp:needsDeliveryReceipt:deliveryContext:storageContext: /* Error: Ran out of types for this method. */;
-- (void)geFromStorageController;
-- (void);
-- (void);
-- (void);
-- (void)H;
 - (id);
 - (void);
-- (void)without guids.;
-- (_Bool)nconsistent merged chats. Leaving inconsistency as is.;
-- (void)iled fetching live messages with CKError %@ completionBlockCalledWhenFetchFailed %@;
-- (void)_;
+- (struct CGRect);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
+- (void);
+- (_Bool);
+- (struct CGSize);
 - (id);
-- (void)pGÚ¹;
-- (id)ParentItem:currentSectionSnapshot: /* Error: Ran out of types for this method. */;
-- (void),!"ì"Ð#P$4%Ô%Ü&H);
-- (void)\ûÿ;
-- (_Bool)in progress.;
-- (id)ü¼;
-- (struct CGSize)er;
+- (void);
+- (void)
+× ;
+- (id)cusInputDeviceInfo",&,N,V_inputDeviceInfo;
+- (id)controller type (%ld);
+- (void)Ûgü];
+- (_Bool);
+- (void)Ð/6ÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessoryIdentifiers; // @synthesize accessoryIdentifiers=_accessoryIdentifiers;

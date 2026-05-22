@@ -18,8 +18,8 @@
 - (Class);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)anguage option [%@] and available language options [%@] from the Adapter.;
 
 // Remaining properties
 @property(readonly, nonatomic) id <HasRemoteAccessState> remoteAccessInfo; // @synthesize remoteAccessInfo=_remoteAccessInfo;

@@ -7,8 +7,6 @@
 @protocol IMDaemonProtocol;
 
 @protocol IMDaemonMultiplexedConnectionManaging
-- (void)Attempting to use a detached or a previously attached MediaSourceHandle;
-- (void)Èp;
 
 // Remaining properties
 @property(readonly, nonatomic) id <IMDaemonProtocol> remoteProxy;

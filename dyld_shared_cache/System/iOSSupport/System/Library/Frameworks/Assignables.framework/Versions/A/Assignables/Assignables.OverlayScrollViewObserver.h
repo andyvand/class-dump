@@ -11,8 +11,8 @@
     MISSING_TYPE *overlay;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

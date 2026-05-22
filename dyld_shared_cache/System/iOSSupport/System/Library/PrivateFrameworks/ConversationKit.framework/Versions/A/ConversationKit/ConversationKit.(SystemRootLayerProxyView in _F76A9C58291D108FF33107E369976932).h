@@ -16,13 +16,13 @@
     MISSING_TYPE *subscriptions;
 }
 
-- (void);
-- (void);
+- (id)Ä;
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void)CG;
 
 @end
 

@@ -14,7 +14,7 @@
     CALayer *_badgeLayer;
 }
 
-+ (id);
++ (id)or: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -24,11 +24,10 @@
 - (id);
 - (void);
 - (void);
-- (id)!LCù101b0@ù
-× ;
-- (id)Ää;
-- (void);
-- (unsigned long long)d ûÿ}1õ¶;
+- (id);
+- (void)erConditionEditorExpandingSectionModule buildConditionOptionItems];
+- (id)boardingContext;
+- (unsigned long long)ÅG·uG_AAyAAyâÝ~yÏGG~yAGGGtGG_¢AAyAAyAkLy&SgGGAQGSgtGGå|yo·GGÀ|yAFGG;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *badgeLayer; // @synthesize badgeLayer=_badgeLayer;

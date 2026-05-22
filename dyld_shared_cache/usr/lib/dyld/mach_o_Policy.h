@@ -5,19 +5,19 @@
 class mach_o::Policy {
 public: // (access info unavailable from symbols alone)
     Policy(mach_o::Architecture, mach_o::PlatformAndVersions, unsigned int, bool, bool, bool);
-    enforceDataConstSegmentPermissions() const;
-    enforceDataSegmentPermissions() const;
-    enforceHasLinkedDylibs() const;
-    enforceHasUUID() const;
-    enforceImageListRemoveMainExecutable() const;
-    enforceMainFlagsCorrect() const;
-    enforceNoDuplicateDylibs() const;
-    enforceNoDuplicateRPaths() const;
-    enforceReadOnlyLinkedit() const;
-    enforceSectionsInSegment() const;
-    enforceSegmentOrderMatchesLoadCmds() const;
-    enforceSetSimulatorSharedCachePath() const;
-    enforceTextSegmentPermissions() const;
-    enforceUniqueSegmentNames() const;
-    useProtectedStack() const;
+    auto enforceDataConstSegmentPermissions() const;
+    auto enforceDataSegmentPermissions() const;
+    auto enforceHasLinkedDylibs() const;
+    auto enforceHasUUID() const;
+    auto enforceImageListRemoveMainExecutable() const;
+    auto enforceMainFlagsCorrect() const;
+    auto enforceNoDuplicateDylibs() const;
+    auto enforceNoDuplicateRPaths() const;
+    auto enforceReadOnlyLinkedit() const;
+    auto enforceSectionsInSegment() const;
+    auto enforceSegmentOrderMatchesLoadCmds() const;
+    auto enforceSetSimulatorSharedCachePath() const;
+    auto enforceTextSegmentPermissions() const;
+    auto enforceUniqueSegmentNames() const;
+    auto useProtectedStack() const;
 };

@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)TE;
+- (id);
+- (void)essResource.m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

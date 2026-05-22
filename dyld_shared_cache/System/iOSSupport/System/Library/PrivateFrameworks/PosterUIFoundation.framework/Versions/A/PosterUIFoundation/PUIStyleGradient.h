@@ -28,22 +28,21 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (struct CGPoint);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (struct CGPoint)! °!tBù 1b0@ù
-× ;
+- (id);
+- (unsigned long long);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (struct CGPoint);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsVariation;

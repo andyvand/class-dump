@@ -38,20 +38,21 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (_Bool);
-- (void);
 - (void);
 - (id);
-- (_Bool);
-- (struct CGRect);
+- (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (id);
+- (_Bool);
+- (struct CGRect);
 - (id);
-- (void);
-- (id);
-- (void)ts.configurableOptions.plist;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) PBFPosterSnapshotDefinition *definition; // @synthesize definition=_definition;

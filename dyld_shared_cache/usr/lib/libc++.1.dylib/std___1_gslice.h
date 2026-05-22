@@ -4,5 +4,5 @@
 
 class std::__1::gslice {
 public: // (access info unavailable from symbols alone)
-    __init(unsigned long);
+    auto __init(unsigned long);
 };

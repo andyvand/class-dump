@@ -14,15 +14,15 @@
     long long _fontDesign;
 }
 
-- (long long)_DATA_CONST;
+- (long long);
+- (void);
+- (long long);
+- (void);
+- (double);
 - (void);
 - (id);
 - (void);
-- (long long)MDRowCountForTable;
-- (void);
-- (double)lectionView;
-- (void);
-- (void);
+- (void)linkButton;
 
 // Remaining properties
 @property(retain, nonatomic) UIFont *font; // @synthesize font=_font;

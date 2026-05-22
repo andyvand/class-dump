@@ -4,7 +4,7 @@
 
 class vector<ioreq_ent*> {
 public: // (access info unavailable from symbols alone)
-    push_back(ioreq_ent* const&);
-    reserve(unsigned long);
+    auto push_back(ioreq_ent* const&);
+    auto reserve(unsigned long);
     ~vector();
 };

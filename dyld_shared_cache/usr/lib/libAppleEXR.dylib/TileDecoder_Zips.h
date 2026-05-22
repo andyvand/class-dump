@@ -4,8 +4,8 @@
 
 class TileDecoder_Zips {
 public: // (access info unavailable from symbols alone)
-    Decompress(AXRBufferPool*, TileInfo const&, unsigned long*) const;
-    GetCompressionMethod() const;
-    GetMinimumTileBytes() const;
+    auto Decompress(AXRBufferPool*, TileInfo const&, unsigned long*) const;
+    auto GetCompressionMethod() const;
+    auto GetMinimumTileBytes() const;
     ~TileDecoder_Zips();
 };

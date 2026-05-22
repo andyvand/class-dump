@@ -38,8 +38,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)e:(_Bool)arg1;
+- (void)contentView:%@
+	view:%@ /* Error: Ran out of types for this method. */;
+- (void)X ;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUStatusDetailsViewControllerDelegate> statusDetailsDelegate; // @synthesize statusDetailsDelegate;

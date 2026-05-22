@@ -18,12 +18,12 @@
 
 + (id);
 + (id);
-+ (_Bool)t to notify me of this event.;
++ (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)(Create Note Keyword);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;

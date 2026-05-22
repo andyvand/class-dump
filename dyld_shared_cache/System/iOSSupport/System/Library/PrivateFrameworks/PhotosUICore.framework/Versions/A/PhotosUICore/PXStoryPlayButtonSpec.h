@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void)¹­;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXStoryChromeButtonSpec *chromeButtonSpec; // @synthesize chromeButtonSpec=_chromeButtonSpec;

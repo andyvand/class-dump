@@ -17,10 +17,10 @@
 }
 
 - (void);
-- (id);
-- (void);
 - (_Bool);
-- (id)ate;
+- (id);
+- (id);
+- (void)¼«ªþ;
 
 // Remaining properties
 @property(nonatomic) _Bool isAccessibilityElement;

@@ -4,15 +4,17 @@
 
 class marisa::grimoire::vector::Vector<unsigned char> {
 public: // (access info unavailable from symbols alone)
-    fix();
-    map(marisa::grimoire::io::Mapper&);
-    map_(marisa::grimoire::io::Mapper&);
-    push_back(unsigned char const&);
-    read(marisa::grimoire::io::Reader&);
-    read_(marisa::grimoire::io::Reader&);
-    realloc(unsigned long);
-    resize(unsigned long);
-    shrink();
-    swap(marisa::grimoire::vector::Vector<unsigned char>&);
-    write_(marisa::grimoire::io::Writer&) const;
+    auto fix();
+    auto fix() (.cold.1);
+    auto map(marisa::grimoire::io::Mapper&);
+    auto map_(marisa::grimoire::io::Mapper&);
+    auto push_back(unsigned char const&);
+    auto read(marisa::grimoire::io::Reader&);
+    auto read_(marisa::grimoire::io::Reader&);
+    auto realloc(unsigned long);
+    auto resize(unsigned long);
+    auto shrink();
+    auto shrink() (.cold.1);
+    auto swap(marisa::grimoire::vector::Vector<unsigned char>&);
+    auto write_(marisa::grimoire::io::Writer&) const;
 };

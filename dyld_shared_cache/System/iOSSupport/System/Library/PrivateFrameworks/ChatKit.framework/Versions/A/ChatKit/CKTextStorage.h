@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
-- (id);
+- (void);
+- (id)w:%@, updating with reply layout offset:%f /* Error: Ran out of types for this method. */;
 
 @end
 

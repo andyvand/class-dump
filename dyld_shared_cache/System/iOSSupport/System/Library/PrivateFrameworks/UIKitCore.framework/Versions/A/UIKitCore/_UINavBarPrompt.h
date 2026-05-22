@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 
 - (struct CGRect);
 - (struct CGSize);
-- (struct CGRect)ousekeeping;
-- (id)}};
-- (void)Array",C,V_rectRegions;
+- (struct CGRect);
+- (id);
 - (void);
-- (void)Lock:(id)arg1;
-- (id)irection:glyphSize:glyphWeight:glyphPointSize:appearanceName:locale: /* Error: Ran out of types for this method. */;
+- (id)outPass: /* Error: Ran out of types for this method. */;
+- (void)const BOOL);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *prompt;

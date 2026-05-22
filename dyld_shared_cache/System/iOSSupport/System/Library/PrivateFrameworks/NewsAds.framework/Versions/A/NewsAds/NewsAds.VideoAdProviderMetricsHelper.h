@@ -27,8 +27,8 @@
 - (void);
 - (void);
 - (void);
-- (void)ineTransform=dddddd}16{CGRect={CGPoint=dd}{CGSize=dd}}64;
 - (id);
+- (void);
 
 @end
 

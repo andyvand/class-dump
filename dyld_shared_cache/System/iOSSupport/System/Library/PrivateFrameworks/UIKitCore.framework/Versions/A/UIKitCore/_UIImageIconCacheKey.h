@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
     long long _userInterfaceStyle;
 }
 
-+ (id)eeding merging:(id)arg1 %@;
++ (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)iveDataSource;
-- (void);
-- (id)tion: /* Error: Ran out of types for this method. */;
-- (long long)Td,N,V_sectionSeparatorHeight;
-- (id)ultTrailingCellMarginWidth;
+- (_Bool)ngOutsideAction:(id)arg1;
+- (id)_isTitleSectionHidden;
+- (void)ÉÜC[;
+- (long long)$CæþÍ&;
 
 // Remaining properties
 @property(readonly, nonatomic) _UISystemIconAppearance *appearance; // @synthesize appearance=_appearance;

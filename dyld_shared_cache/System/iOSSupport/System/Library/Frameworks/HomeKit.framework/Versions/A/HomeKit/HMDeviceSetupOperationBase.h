@@ -19,8 +19,8 @@
     HMDeviceSetupSession *_setupSession;
 }
 
-+ (id)ectionSettingItem;
-+ (_Bool)ø¡;
++ (_Bool)awOutputKey;
++ (id);
 - (void);
 - (id);
 - (id);
@@ -28,25 +28,25 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
+- (id);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool)es;
-- (void)ue",R,C,V_userInformationValue;
-- (id)Z;
-- (void)Tãÿ-V¢åi;
+- (void)ining read requests with other request types - %@;
+- (void)0DE-0000-1000-8000-0026BB765291;
+- (_Bool)8Ké;
+- (void);
+- (_Bool)0Û;
 
 // Remaining properties
 @property(readonly) HMAccessory *accessory; // @synthesize accessory=_accessory;

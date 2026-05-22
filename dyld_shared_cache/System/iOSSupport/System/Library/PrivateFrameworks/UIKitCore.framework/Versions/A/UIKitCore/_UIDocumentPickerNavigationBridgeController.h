@@ -14,23 +14,23 @@ __attribute__((visibility("hidden")))
     _Bool _hasSetInitialNavigationItem;
 }
 
-+ (id)Predictor:unsupported language %@ /* Error: Ran out of types for this method. */;
++ (id);
 + (id);
 - (void);
-- (void)tParentChatID;
-- (void)ensionCutoffTime;
-- (void)catorPipelineParameter;
 - (void);
-- (void)siness chat:(unsigned long long)arg1 %@;
-- (void)rds;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)tRecognizer"16@"_UIFocusMovementRequest"24;
-- (id)@"NSUUID",&,N,V_contextToken;
-- (void)s focus system. This probably means that the focus system has been deallocated but its event delivery object is still around. This should never happen and is a UIKit bug.;
-- (void)Constraints should hold exactly 4 constraints, in order:(id)arg1 top, left, bottom, right;
+- (void)e:(id)arg1;
+- (void)ateForDocumentText:(id)arg1 revertText:(_Bool)arg2 textChoices:range:underlineStyle:promptStyle:promptButton: /* Error: Ran out of types for this method. */;
+- (id)Td,N,V_projectionThreshold;
+- (id)N,VemojiKeyManager;
+- (void)phoneCompactHeightSides;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

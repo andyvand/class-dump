@@ -7,10 +7,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (void);
-- (void),;
-- (void)oke;
-- (void)A;
-- (_Bool)umFilter;
+- (_Bool)ÿÿm;
+- (long long).;
+- (void)3;
 @end
 

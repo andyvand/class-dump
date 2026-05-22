@@ -4,8 +4,8 @@
 
 class icu::number::NumberFormatter {
 public: // (access info unavailable from symbols alone)
-    forSkeleton(icu::UnicodeString const&, UErrorCode&);
-    forSkeleton(icu::UnicodeString const&, UParseError&, UErrorCode&);
-    with();
-    withLocale(icu::Locale const&);
+    auto forSkeleton(icu::UnicodeString const&, UErrorCode&);
+    auto forSkeleton(icu::UnicodeString const&, UParseError&, UErrorCode&);
+    auto with();
+    auto withLocale(icu::Locale const&);
 };

@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (long long);
-+ (void)}};
-+ (_Bool);
-+ (long long)ync chat slice for chat with guid %s service %s error:%@ /* Error: Ran out of types for this method. */;
-+ (double)%@. Dropping.;
-+ (double)on (batch size %d);
-+ (long long)r subscriptionID:%@ /* Error: Ran out of types for this method. */;
++ (void);
++ (_Bool);
++ (long long);
++ (double);
++ (double);
++ (long long);
 + (_Bool);
 
 @end

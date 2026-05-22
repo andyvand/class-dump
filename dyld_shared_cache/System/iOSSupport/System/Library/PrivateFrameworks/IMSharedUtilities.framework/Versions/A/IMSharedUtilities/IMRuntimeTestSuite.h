@@ -30,17 +30,17 @@
 - (void);
 - (void);
 - (id);
-- (void)/;
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id)`;
 - (void);
-- (void)ting diagnostic notification %@ due to invalid request;
+- (id);
+- (void);
+- (id);
+- (void)Value;
+- (void)y;
 
 // Remaining properties
 @property(retain) IMRuntimeTest *currentTest; // @synthesize currentTest=_currentTest;

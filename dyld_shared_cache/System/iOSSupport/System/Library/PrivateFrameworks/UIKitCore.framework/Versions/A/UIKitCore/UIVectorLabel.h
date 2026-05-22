@@ -23,54 +23,57 @@
     double _preferredMaxLayoutWidth;
 }
 
-+ (id);
-+ (id);
-+ (Class)(¬­;
-- (struct CGRect)@y*;
++ (Class);
++ (id)@ù
+× ;
++ (id)8&e;
+- (struct CGRect);
 - (void);
 - (void);
-- (void)emoteMembers (%@);
-- (id)%@ to %@, error %@;
-- (id)declared API is not available, subscriptionValidationTokenForHandle:(struct CGSize)arg1 completion:(_Bool)arg2;
-- (double)oPeerDevicesForMessageGUID:from service that doesn't support it. File a radar-------*/ /* Error: Ran out of types for this method. */;
-- (id)n, please file a radar-------*/;
-- (double)vice %@ for chat with guid %@ error:%@ /* Error: Ran out of types for this method. */;
-- (double)llu chats to upload;
-- (void)to archive record %@, error %@;
-- (void)ndle operation %@ identifier %@;
-- (id)t while performing periodic syncing with cloudkit;
-- (id)ding relay, guid:%@ /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
+- (id);
 - (double);
 - (id);
+- (double);
+- (double);
 - (void);
-- (unsigned long long);
+- (void);
 - (id);
-- (void)yle;
+- (id);
+- (void);
+- (double);
+- (double);
+- (void);
+- (struct CGSize);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void)(;
-- (struct CGSize)workCatalogRepresentativeItem;
+- (struct CGSize);
+- (id);
+- (void)1Â0@ù
+× ;
+- (_Bool)¡!èAù`1Â0@ù
+× ;
+- (void)tedOnValue;
+- (double)stedDescriptorEffectInvertingView: /* Error: Ran out of types for this method. */;
+- (id)eyboardState;
+- (id)ew:,V_referenceView /* Error: Ran out of types for this method. */;
+- (void)ô;
+- (void)àÚ;
+- (struct CGSize);
+- (id)IControlStateFocused. state = %lu is interpreted as UIControlStateHighlighted.;
+- (void)hþÿ;
+- (void)while validating move updates (section=%ld, oldSectionCount=%ld);
+- (void)_invoke_4;
 - (double);
+- (id);
+- (id);
+- (void)(ÿ°Øü`;
+- (void)(=ÿi;
 - (void);
-- (id)e;
-- (void);
-- (void);
-- (_Bool)³º;
-- (id);
-- (void)16;
-- (void)Container:(struct CGRect)arg1 looping:groupFilter: /* Error: Ran out of types for this method. */;
-- (void)Role;
-- (void)Å;
-- (id)eValue;
-- (double)le;
-- (double)Data(NSDictionary *, Class *);
-- (void)Ä71;
-- (struct CGSize)¯8i;
-- (id)Ñ2c;
-- (void)LÛ~c;
-- (struct CGSize)VQd;
-- (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setAttributedText:) NSAttributedString *_attributedText;

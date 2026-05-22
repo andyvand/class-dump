@@ -20,29 +20,28 @@
 }
 
 + (id);
-- (id)t tempCString to CFData;
-- (id)ontains %lu unused bytes;
-- (void)add property meta key;
+- (id);
+- (id);
 - (void);
 - (void);
-- (double);
-- (id);
+- (void);
+- (double);
 - (id);
 - (id);
 - (id);
-- (id)5;
-- (id)TransferWithAttachmentRecordRef:(id)arg1;
-- (id)StandardSizeLimit:(struct CGRect)arg1 highQualitySizeLimit:forTransfer: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (long long)1¢!0@ù
-× ;
-- (long long)tomaticMetrics;
-- (id)utMode:orientation:showsAssistantBar:animated: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)Ù?;
+- (_Bool)iceAccelerationDictationPromptDelegate>";
+- (void)textRangeAdjustmentInteraction:(id)arg1 selectionMoved:withTouchPoint: /* Error: Ran out of types for this method. */;
+- (id)orEnabled;
 - (id);
+- (void)SDySS6©;
+- (long long);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *chevronShimmerColor; // @synthesize chevronShimmerColor=_chevronShimmerColor;

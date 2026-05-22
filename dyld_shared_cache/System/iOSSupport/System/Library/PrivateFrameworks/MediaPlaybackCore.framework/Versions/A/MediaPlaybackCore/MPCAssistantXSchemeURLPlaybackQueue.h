@@ -17,18 +17,18 @@
 
 + (_Bool);
 + (_Bool);
-- (id)_ams_localiTunesAccount;
-- (id)nesAccount = %{public}@;
-- (id)sername of the IDMS account changed.;
 - (id);
-- (void).apple.StoreServices.StorefrontChanged notification.;
+- (id);
+- (id);
+- (id);
+- (void);
 - (long long);
 - (void);
 - (long long);
 - (void);
 - (id);
-- (void);
-- (id)c;
+- (id);
+- (void)<%{public}@> returned <%@> for %{public}@ in %.4lf seconds;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

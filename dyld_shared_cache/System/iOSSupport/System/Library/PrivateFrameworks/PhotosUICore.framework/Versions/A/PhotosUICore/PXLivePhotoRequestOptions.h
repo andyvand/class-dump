@@ -15,21 +15,20 @@
 }
 
 - (id);
-- (void);
 - (long long);
-- (long long);
-- (id);
 - (_Bool);
 - (void);
+- (long long);
 - (void);
 - (void);
-- (_Bool);
+- (long long);
 - (void);
-- (void)!<Bù±{ð1b0@ù
-× ;
-- (long long)e.m;
+- (id)er>"16;
+- (void)emonadeCuratedLibraryViewModel.swipeGesture;
 - (void);
-- (CDUnknownBlockType)íÿ;
+- (CDUnknownBlockType)ÿâä6;
+- (_Bool)>7;
+- (void)7;
 
 // Remaining properties
 @property(nonatomic) long long deliveryMode; // @synthesize deliveryMode=_deliveryMode;

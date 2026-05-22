@@ -9,7 +9,7 @@
 }
 
 - (void);
-- (id)T@?,C,N,V_traitChangeHandler;
+- (id);
 
 @end
 

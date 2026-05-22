@@ -13,17 +13,18 @@
 
 + (id);
 + (id);
-+ (_Bool)rmattingCoordinator;
-+ (_Bool)Y3n;
++ (_Bool)UIView"8@"UIView"16;
++ (_Bool);
 - (id);
-- (void)AirPrintiBeaconDiscovery;
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)IX;
-- (id);
-- (void);
-- (id)tionViewSubviewManager",R,N,G_subviewManager;
-- (id)e-aiu;
+- (id)0@ù
+× ;
+- (_Bool)ectForSlot:(id)arg1;
+- (void)singMask;
+- (void)_startedFromFloating;
+- (id)ewControllerContentViewEmbedding>",R,D,N;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

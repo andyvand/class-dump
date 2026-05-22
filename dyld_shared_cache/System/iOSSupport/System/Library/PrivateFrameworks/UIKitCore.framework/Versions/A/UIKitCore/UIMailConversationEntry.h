@@ -14,13 +14,12 @@
     NSSet *_responseSecondaryRecipientIdentifiers;
 }
 
-- (void)singLastMessageDateAscending:(id)arg1 olderThan:limit:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)tionToken;
+- (void);
 - (id);
-- (void)0@ù
-× ;
-- (long long)XPCCodingAdapter"16;
-- (void)§ÄÙJd;
+- (id);
+- (void);
+- (long long);
+- (void)xue;
 
 // Remaining properties
 @property(nonatomic) long long kind; // @synthesize kind=_kind;

@@ -4,7 +4,7 @@
 
 class icu::CollationRuleParser::Sink {
 public: // (access info unavailable from symbols alone)
-    optimize(icu::UnicodeSet const&, char const*&, UErrorCode&);
-    suppressContractions(icu::UnicodeSet const&, char const*&, UErrorCode&);
+    auto optimize(icu::UnicodeSet const&, char const*&, UErrorCode&);
+    auto suppressContractions(icu::UnicodeSet const&, char const*&, UErrorCode&);
     ~Sink();
 };

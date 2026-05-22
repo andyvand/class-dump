@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)WorkspaceObserverCallback;
+- (void);
 - (id);
 - (id);
 

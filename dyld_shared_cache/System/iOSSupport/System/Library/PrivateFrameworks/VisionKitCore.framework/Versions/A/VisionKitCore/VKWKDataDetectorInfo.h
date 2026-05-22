@@ -16,9 +16,9 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (struct _NSRange);
-- (id);
 - (void);
 
 // Remaining properties

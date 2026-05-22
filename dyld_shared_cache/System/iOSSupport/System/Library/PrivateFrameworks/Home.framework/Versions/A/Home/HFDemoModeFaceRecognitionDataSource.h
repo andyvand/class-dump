@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Ø;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *knownToHouseholdEntries; // @synthesize knownToHouseholdEntries=_knownToHouseholdEntries;

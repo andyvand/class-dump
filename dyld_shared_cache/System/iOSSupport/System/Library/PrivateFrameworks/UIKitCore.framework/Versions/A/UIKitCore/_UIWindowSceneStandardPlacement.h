@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id)turesEatTouches;
+- (id);
+- (id);
 
 @end
 

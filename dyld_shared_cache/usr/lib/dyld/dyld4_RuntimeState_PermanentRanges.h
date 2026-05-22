@@ -4,5 +4,5 @@
 
 class dyld4::RuntimeState::PermanentRanges {
 public: // (access info unavailable from symbols alone)
-    make(dyld4::RuntimeState&, dyld3::Array<dyld4::Loader const*> const&);
+    auto make(dyld4::RuntimeState&, dyld3::Array<dyld4::Loader const*> const&);
 };

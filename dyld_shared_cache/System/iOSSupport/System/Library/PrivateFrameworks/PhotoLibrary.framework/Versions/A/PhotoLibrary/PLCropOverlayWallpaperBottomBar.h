@@ -49,14 +49,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
 - (void);
-- (id)berBackgroundHeight;
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) _UIBackdropView *backdropView; // @synthesize backdropView=_backdropView;

@@ -13,7 +13,7 @@
     MISSING_TYPE *tintableMessageBalloon;
 }
 
-- (void);
+- (void)Ùl/Ù;
 
 @end
 

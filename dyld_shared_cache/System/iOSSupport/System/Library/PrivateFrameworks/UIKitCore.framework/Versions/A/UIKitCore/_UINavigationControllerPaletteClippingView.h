@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)0@ù
+- (id)Ñ^ð1Â0@ù
 × ;
 
 @end

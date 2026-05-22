@@ -17,29 +17,30 @@
     UIView *_horizontalScrollPreventerView;
 }
 
-- (void)L;
-- (void)[;
-- (void)(;
-- (_Bool)s:error:] /* Error: Ran out of types for this method. */;
-- (id)ӑ;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)ôÚèÜÜßpâäâ;
-- (id)D/­G¤Y­ySayÛé=Gû¬Xæ­ybW­yAJy9æ­yADW­GADGGGGGD/­G¶>yAMGG_X­SgA4_tGGFýÿG@)­GA11_GSgtGG;
-- (void)yA4_AHGAMyíi®SgGGA4_GGGG_Qo_éúýÿyA19_GGGAMyù3®SgGGAOG­	?GAMyï®GGA8_GAFGAXtGGAJGAJGAJGAJG_AAyAAyAAyAAyAEyåô®yßø®yA20_ySayYü>GA23_AAyAAyAAyNõ®yA17_yAEyA33_A35_yAAyAAyA4_fA®GA28_GGGG__ï®Qo_A47_GAMyOd®SgGGA61_GGGGAFGAJGAJGAJGAJGSgtGG_qg¯yó;®GQo__Qo_ÆM®yAAyAAyAAyAByACyÅùýÿSg_!ø®SgtGGOZ®Gq/®y?®GGä_®GGGÄ?yA101_GGAJG;
-- (void)TapbackPickerViewController"16@"CKMessagePartChatItem"24;
-- (struct CGSize)CUIAnalytics;
-- (void);
-- (struct CGPoint)AppleInternalPill;
-- (_Bool)ºÅ2i-;
-- (void)40;
-- (_Bool)§0;
-- (void)Ë81¹0;
+- (struct CGPoint);
+- (id);
+- (_Bool)
+× ;
+- (void)etupFlowWithMemoji:(id)arg1 forUserInitiatedEdit: /* Error: Ran out of types for this method. */;
+- (void)ion;
+- (void);
+- (id)§/;
+- (struct CGSize)4W]ÿç;Ðü2;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint contentOffset;

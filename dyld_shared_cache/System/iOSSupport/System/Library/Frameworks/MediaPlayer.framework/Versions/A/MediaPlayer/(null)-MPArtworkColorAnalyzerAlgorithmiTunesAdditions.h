@@ -7,15 +7,15 @@
 @class NSString;
 
 @interface (null) (MPArtworkColorAnalyzerAlgorithmiTunesAdditions)
-+ (id)ningSELFEventStream;
-- (id)h;
-- (id)p;
++ (id);
+- (id);
+- (id);
 - (_Bool);
 - (long long);
 - (long long);
 - (long long);
-- (id)tring: /* Error: Ran out of types for this method. */;
-- (id)pg_query.CallStmt;
+- (id);
+- (id);
 - (id);
 
 // Remaining properties

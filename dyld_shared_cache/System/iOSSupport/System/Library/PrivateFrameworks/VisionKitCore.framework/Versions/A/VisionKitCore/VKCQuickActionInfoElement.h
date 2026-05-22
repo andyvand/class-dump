@@ -26,15 +26,15 @@
 - (void);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)erPipelineStateWithDescriptor:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *children; // @synthesize children=_children;

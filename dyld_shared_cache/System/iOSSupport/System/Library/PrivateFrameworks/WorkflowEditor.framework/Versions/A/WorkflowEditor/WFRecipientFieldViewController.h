@@ -87,21 +87,21 @@
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
-- (id)ry;
-- (id)°ç;
 - (void);
-- (void)HEÛÿmý\åäÿ;
+- (void)©|;
+- (id)MenuPresentingIconView;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsCustomHandles; // @synthesize allowsCustomHandles=_allowsCustomHandles;

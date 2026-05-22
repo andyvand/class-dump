@@ -7,10 +7,7 @@
 @class UIColor, UIScrollView;
 
 @protocol UITableConstantsTableProviding
-- (long long);
-- (_Bool)R;
-- (UIColor *): /* Error: Ran out of types for this method. */;
-- (UIScrollView *)Ø©ø¬¼­L®;
+- (UIScrollView *)m;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_accessoryBaseColor) UIColor *accessoryBaseColor;

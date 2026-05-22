@@ -11,9 +11,9 @@
     NSDictionary *_dictionaryRepresentation;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 @end
 

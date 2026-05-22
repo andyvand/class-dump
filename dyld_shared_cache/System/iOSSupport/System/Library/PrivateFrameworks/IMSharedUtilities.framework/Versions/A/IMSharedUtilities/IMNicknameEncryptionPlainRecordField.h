@@ -12,12 +12,12 @@
     NSData *_plainData;
 }
 
-- (void)oBc@ ae;
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void)ssagesData;
 - (id);
 
 // Remaining properties

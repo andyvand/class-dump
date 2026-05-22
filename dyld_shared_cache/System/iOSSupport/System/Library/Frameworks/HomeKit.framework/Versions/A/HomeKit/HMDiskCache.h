@@ -13,9 +13,9 @@
 
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)Dx;
 
 // Remaining properties
 @property(readonly, copy) NSString *cachePath; // @synthesize cachePath=_cachePath;

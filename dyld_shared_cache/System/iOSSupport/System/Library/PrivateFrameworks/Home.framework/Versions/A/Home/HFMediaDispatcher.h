@@ -25,8 +25,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSHashTable *appleMusicAccountObservers; // @synthesize appleMusicAccountObservers=_appleMusicAccountObservers;

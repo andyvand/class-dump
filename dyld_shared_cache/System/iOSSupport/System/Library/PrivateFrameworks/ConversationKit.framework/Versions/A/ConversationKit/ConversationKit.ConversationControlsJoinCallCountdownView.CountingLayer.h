@@ -12,12 +12,12 @@
     MISSING_TYPE *valueFont;
 }
 
+- (void);
+- (id)pÀ;
+- (id);
+- (id);
 - (long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id)GAYG_ArDyADyADyADyADy¦æ;
+- (void)_pSg;
 
 // Remaining properties
 @property(nonatomic) long long value; // @synthesize value;

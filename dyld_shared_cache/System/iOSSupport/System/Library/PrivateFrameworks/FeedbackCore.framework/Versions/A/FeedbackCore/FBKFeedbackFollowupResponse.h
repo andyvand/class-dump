@@ -14,7 +14,7 @@
 
 + (long long);
 + (unsigned long long);
-+ (id);
++ (id)t find stored data for key [%s];
 - (void);
 - (_Bool);
 - (_Bool);

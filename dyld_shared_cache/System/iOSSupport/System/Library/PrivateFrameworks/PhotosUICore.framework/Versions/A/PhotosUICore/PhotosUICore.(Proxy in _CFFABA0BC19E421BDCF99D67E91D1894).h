@@ -11,12 +11,14 @@
     MISSING_TYPE *target;
 }
 
-- (id);
-- (void);
-- (id);
 - (_Bool);
 - (id);
-- (_Bool)mNavigationDestinationInvalid;
+- (id);
+- (id)1â
+0@ù
+× ;
+- (void)ñ+;
+- (_Bool);
 
 @end
 

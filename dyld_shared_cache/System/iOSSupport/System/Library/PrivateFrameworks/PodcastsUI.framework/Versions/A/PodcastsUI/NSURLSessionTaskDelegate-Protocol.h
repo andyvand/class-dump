@@ -8,7 +8,5 @@
 
 @optional
 - (void);
-- (void);
-- (void)d;
 @end
 

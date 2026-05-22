@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double):error: /* Error: Ran out of types for this method. */;
+- (double);
 - (Class);
 - (struct UIEdgeInsets);
 

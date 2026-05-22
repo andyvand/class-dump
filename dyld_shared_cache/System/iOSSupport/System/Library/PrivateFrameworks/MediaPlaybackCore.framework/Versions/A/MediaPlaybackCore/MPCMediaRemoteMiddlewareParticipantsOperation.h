@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     MPCFuture *_participantsFuture;
 }
 
-- (void)NST;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -23,9 +23,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (CDUnknownBlockType)h;
-- (void);
+- (CDUnknownBlockType);
+- (void)e;
+- (void)blic}@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

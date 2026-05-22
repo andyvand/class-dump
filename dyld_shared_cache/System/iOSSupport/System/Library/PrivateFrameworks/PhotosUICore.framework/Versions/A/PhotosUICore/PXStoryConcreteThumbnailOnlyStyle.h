@@ -43,8 +43,8 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void);
 - (id);
+- (void)tion;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsIncompleteTimelines;

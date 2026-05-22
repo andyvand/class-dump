@@ -18,18 +18,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool).apple.photos.CPAnalytics.oneUpLivePhoto;
 
 // Remaining properties
 @property(nonatomic) _Bool deferredProcessingNeededChanged; // @synthesize deferredProcessingNeededChanged=_deferredProcessingNeededChanged;

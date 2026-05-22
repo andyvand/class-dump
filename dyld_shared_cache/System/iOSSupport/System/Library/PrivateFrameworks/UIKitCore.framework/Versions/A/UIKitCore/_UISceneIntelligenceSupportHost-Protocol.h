@@ -5,7 +5,6 @@
 //
 
 @protocol _UISceneIntelligenceSupportHost
-- (void)bject mismatch error 0x%016llX;
 
 // Remaining properties
 @property(nonatomic) _Bool collectAsRemoteElement;

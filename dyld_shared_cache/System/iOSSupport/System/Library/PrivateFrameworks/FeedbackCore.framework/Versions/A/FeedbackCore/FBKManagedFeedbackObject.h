@@ -15,9 +15,9 @@
 + (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id)yTyACyACyÚ0½$Gÿ!GG_LQo_AKG_{GQo_ANGAIGG;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *ID;

@@ -11,10 +11,10 @@
 }
 
 - (id);
-- (_Bool).;
+- (_Bool);
 - (_Bool);
 - (id);
-- (_Bool)l;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);

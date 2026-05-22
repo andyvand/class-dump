@@ -20,8 +20,8 @@
     NSString *_persistentIdentifier;
 }
 
-+ (id)ame;
-+ (id)Øn;
++ (id);
++ (id);
 - (id);
 - (id);
 - (void);
@@ -37,9 +37,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id)à*;
+- (void)o);
+- (id)passed in as input.;
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *banners; // @synthesize banners=_banners;

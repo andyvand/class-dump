@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (double)tion"48;
-+ (struct CGSize)"44;
++ (double);
++ (struct CGSize);
 
 @end
 

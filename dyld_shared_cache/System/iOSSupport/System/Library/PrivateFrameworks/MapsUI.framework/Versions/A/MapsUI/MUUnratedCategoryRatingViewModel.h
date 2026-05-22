@@ -14,15 +14,15 @@
 
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (double);
 - (id);
+- (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (double);
-- (_Bool);
+- (void)uthorName;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *categoryTitle; // @synthesize categoryTitle=_categoryTitle;

@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)eCategory:(double)arg1 ];
 + (id);
 + (id);
-+ (id)rror;
++ (id);
++ (id);
 + (void);
 + (id);
 + (id);

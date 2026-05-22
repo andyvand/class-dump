@@ -16,29 +16,28 @@
 + (_Bool);
 + (void);
 + (id);
-- (void)te:(id)arg1;
-- (void)s;
-- (void),;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (_Bool)GAPGATG_G;
-- (void)m;
-- (void);
-- (void);
-- (id)ument serializationVersion] %d;
-- (void).versionOutOfDate %d [ICDrawingVersionedDocument serializationVersion] %d;
-- (id)turn 1 img %p img.version %d img.versionOutOfDate %d [ICDrawingVersionedDocument serializationVersion] %d;
-- (void)nObjectsToVirtualDestination];
-- (void);
-- (void)ex;
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (id);
-- (id)á¬Ð!CùñÄÐ1¢!0@ù
-× ;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void)|;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isChannelControllerReady) _Bool channelControllerReady;

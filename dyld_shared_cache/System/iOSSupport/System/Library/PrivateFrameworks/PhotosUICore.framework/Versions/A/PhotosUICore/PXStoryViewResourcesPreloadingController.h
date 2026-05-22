@@ -28,9 +28,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (void)û(;
-- (void);
-- (id)ÊàÿHQÆ54;
+- (void)otoBadgeStateModel;
+- (void)Ët¨#ÿ;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;

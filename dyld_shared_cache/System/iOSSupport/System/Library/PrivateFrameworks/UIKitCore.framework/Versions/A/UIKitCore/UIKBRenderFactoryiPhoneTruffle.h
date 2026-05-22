@@ -12,26 +12,26 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct UIEdgeInsets);
+- (_Bool);
+- (id);
+- (double);
+- (struct UIEdgeInsets);
 - (struct CGPoint);
-- (struct CGPoint)e: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)o:userIdentity: /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
-- (struct CGPoint);
-- (struct CGPoint)°1¢!0@ù
+- (id)0@ù
 × ;
-- (struct CGPoint);
-- (struct CGPoint)0@ù
+- (struct CGPoint)á	ð!@ùQf°1Â0@ù
 × ;
-- (double)ertedItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (double)IntegerForKey: /* Error: Ran out of types for this method. */;
-- (id)e:traitCollection:style: /* Error: Ran out of types for this method. */;
-- (double)ctivateAction;
-- (_Bool)ÿÿÿÿ(;
-- (struct CGPoint)sC;
-- (struct UIEdgeInsets);
-- (struct CGPoint)usDidChangeMessage;
-- (struct UIEdgeInsets)0dÿ;
-- (id)f;
+- (struct CGPoint)4@0:8@"UIInterfaceAction"16 /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ler:destinationIndexPathForDropSession: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)heString: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ontentSize: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ainerScrollView;
+- (struct CGPoint)terAsScrollToTopViewIfPossible;
+- (double)FromAttachmentPoint;
+- (struct CGPoint)À@ÁÄ;
+- (struct UIEdgeInsets);
+- (double)redSymbolConfigurationForImage=%@;
 
 @end
 

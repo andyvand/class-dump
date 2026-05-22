@@ -13,17 +13,17 @@
     NSUUID *_uuid;
 }
 
-+ (id)ing send message;
-+ (id);
-+ (_Bool)p[ÿ;
++ (id);
++ (id)dd}}16@?0@"UIZoomTransitionAlignmentRectContext"8;
++ (_Bool)vious type/UUID = %@/%@, new type/UUID = %@/%@;
 - (unsigned long long);
 - (_Bool);
-- (id)llenge:(struct _NSZone *)arg1;
-- (_Bool);
-- (void);
 - (id);
-- (id)ivityContinuationType: /* Error: Ran out of types for this method. */;
-- (id). Please adopt the iOS 9 API.;
+- (_Bool)8^B16;
+- (id)tion;
+- (id)ditions;
+- (id)om. The offending view is:(id)arg1 %@;
+- (void) ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

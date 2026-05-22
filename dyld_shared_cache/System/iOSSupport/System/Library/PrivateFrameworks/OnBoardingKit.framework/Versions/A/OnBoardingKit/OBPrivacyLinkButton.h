@@ -43,21 +43,21 @@
 - (id);
 - (id);
 - (void);
-- (id)_WriteBufferReply;
-- (void)Domains WHERE subresourceDomainID = ? AND topFrameDomainID = (SELECT domainID FROM ObservedDomains WHERE registrableDomain = ?));
 - (id);
+- (void);
 - (void);
 - (void);
 - (struct CGSize);
-- (id);
 - (void);
 - (id);
-- (id)C;
-- (void);
-- (void)bb;
-- (void);
-- (struct CGSize);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (struct CGSize)tURLDataDetection;
 
 // Remaining properties
 @property(readonly) UILabel *buttonLabel; // @synthesize buttonLabel=_buttonLabel;

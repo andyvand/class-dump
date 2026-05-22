@@ -7,10 +7,6 @@
 @class UITraitCollection;
 
 @protocol _UISheetPresentationControllerDetentResolutionContext
-- (UITraitCollection *)8Q16@24;
-- (struct UIEdgeInsets)tory";
-- (struct CGRect):8q16q24@32 /* Error: Ran out of types for this method. */;
-- (_Bool)istry:accountController:storageController:recentsController:attachmentStore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect _containerBounds;

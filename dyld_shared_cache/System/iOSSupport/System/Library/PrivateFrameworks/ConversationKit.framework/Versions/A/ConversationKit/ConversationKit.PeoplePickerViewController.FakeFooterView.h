@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
-- (void);
 - (_Bool);
+- (void);
 - (id);
+- (void)ÿV´ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool hidden;

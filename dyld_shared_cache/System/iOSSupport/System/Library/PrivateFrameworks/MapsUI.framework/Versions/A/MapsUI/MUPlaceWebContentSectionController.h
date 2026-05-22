@@ -32,9 +32,10 @@ __attribute__((visibility("hidden")))
 - (int);
 - (id);
 - (id);
-- (void);
-- (_Bool)];
-- (_Bool)f	;
+- (_Bool);
+- (void)ableBlurMaskImage;
+- (_Bool)§
+_pG;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

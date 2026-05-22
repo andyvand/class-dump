@@ -16,12 +16,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)for message that is already marked read;
-- (void);
-- (void);
-- (id)ragStartedFrom;
-- (void);
-- (void)ÜØnÿÄÎ_;
+- (id);
+- (id)V_cellUpdateHandler;
+- (void)ngeNotification;
+- (void)¶U;
+- (void)¨Ü@s\;
+- (void)ÈØþ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *animationBlocks; // @synthesize animationBlocks=_animationBlocks;

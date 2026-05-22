@@ -26,24 +26,24 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _backgroundEffectApplyBlock;
 }
 
-+ (id)default:(id)arg1 shouldAttemptMiCOnByDefault %d;
-+ (id)ort a database;
-- (void)`;
-- (void);
-- (void);
++ (id);
++ (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (id).framework/Versions/A/CoreFoundation;
-- (id)R;
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (long long)ator.framework/Versions/A/IOAccelerator;
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -53,16 +53,16 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void)ing:'%s' /* Error: Ran out of types for this method. */;
-- (id)gacy chat slices for guid with guid %s;
-- (void)setInfo;
-- (void)pTitle;
+- (void);
+- (id);
 - (void);
 - (void);
-- (_Bool)ode;
-- (id)ransitioningDelegate;
-- (id)s;
-- (id)U¥þÿÿÿÿ;
+- (_Bool)PathBeforeUpdate;
+- (void)Updates;
+- (void)ize;
+- (id)@j^;
+- (id)¤V_;
+- (id)¿`;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType backgroundEffectApplyBlock; // @synthesize backgroundEffectApplyBlock=_backgroundEffectApplyBlock;

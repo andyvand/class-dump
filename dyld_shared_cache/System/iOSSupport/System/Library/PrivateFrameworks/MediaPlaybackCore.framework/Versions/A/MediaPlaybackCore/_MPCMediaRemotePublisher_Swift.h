@@ -13,24 +13,24 @@
     MISSING_TYPE *_migrationRequirements;
 }
 
-- (void)16@0:(id)arg1 8;
+- (void);
 - (_Bool);
 - (void);
-- (void)loudServiceStatusMonitor";
-- (void)8;
-- (id)[%{public}@] Running the logout task.;
-- (void)count = %{public}@;
-- (id)account. local account = %{public}@ | source account = %{public}@;
-- (_Bool)ave.;
-- (id)t send out a storefront changed notification.;
-- (id)didn't change. We don't need to send a storefront changed notification for it.;
-- (void)Performing a one-way merge of privacy acknowledgement info from the local account. account = %{public}@;
-- (void)d;
-- (void)ed;
-- (void)";
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)%@;
 
 @end
 

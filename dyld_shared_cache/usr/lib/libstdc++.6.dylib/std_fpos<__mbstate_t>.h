@@ -4,5 +4,5 @@
 
 class std::fpos<__mbstate_t> {
 public: // (access info unavailable from symbols alone)
-    state(__mbstate_t);
+    auto state(__mbstate_t);
 };

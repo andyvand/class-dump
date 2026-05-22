@@ -5,6 +5,7 @@
 //
 
 @protocol PREditorTitleViewControllerTransitioning
-- (void)tocol"16;
+- (void)ddScenePresentationView: /* Error: Ran out of types for this method. */;
+- (void)n;
 @end
 

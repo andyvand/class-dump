@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)éÉXÍ;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXGadget> gadget; // @synthesize gadget=_gadget;

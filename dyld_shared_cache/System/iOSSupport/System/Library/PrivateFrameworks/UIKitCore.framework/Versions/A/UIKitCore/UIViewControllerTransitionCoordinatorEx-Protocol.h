@@ -5,6 +5,5 @@
 //
 
 @protocol UIViewControllerTransitionCoordinatorEx
-- (struct CGAffineTransform):objects:count: /* Error: Ran out of types for this method. */;
 @end
 

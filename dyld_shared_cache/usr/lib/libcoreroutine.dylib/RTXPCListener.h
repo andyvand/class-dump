@@ -16,18 +16,18 @@
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (_Bool);
-- (void);
-- (void)ñ\,1¢!0@ù
+- (id);
+- (id)1Â0@ù
 × ;
-- (id)ate;
-- (void)renceUpdateNotification;
+- (void)",R,N,G_messageLink;
+- (id)ÜJ;
+- (void)er _fetchLearnedRoutesWithOptions:handler:] /* Error: Ran out of types for this method. */;
+- (void)mpt request for workout anoamly with handler, context, %@;
+- (void)eter not satisfying:distanceThresholdArray.count > 0 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableArray *connectedClients; // @synthesize connectedClients=_connectedClients;

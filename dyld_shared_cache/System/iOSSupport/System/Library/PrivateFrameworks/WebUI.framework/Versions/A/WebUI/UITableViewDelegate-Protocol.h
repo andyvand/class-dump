@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath;
-
 @protocol UITableViewDelegate
-
-@optional
-- (NSIndexPath *);
-- (void);
-- (void){�;
-- (_Bool);
 @end
 

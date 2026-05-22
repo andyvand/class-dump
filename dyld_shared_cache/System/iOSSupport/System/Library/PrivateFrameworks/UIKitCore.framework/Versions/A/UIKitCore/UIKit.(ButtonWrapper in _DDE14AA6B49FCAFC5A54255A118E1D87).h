@@ -17,12 +17,13 @@
 }
 
 - (void);
-- (struct CGSize);
-- (id);
-- (void);
-- (void)¤x;
-- (struct UIEdgeInsets)ch match is currently highlighted.;
 - (id);
+- (void);
+- (struct CGSize)1Â0@ù
+× ;
+- (struct UIEdgeInsets)atePrivate>"24@0:8@"UINavigationItem"16 /* Error: Ran out of types for this method. */;
+- (id)attingViewProviding;
+- (void)JÉDl;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets hitTestInsets;

@@ -4,7 +4,7 @@
 
 class WTF {
 public: // (access info unavailable from symbols alone)
-    fastFree(void*);
-    fastMalloc(unsigned long);
-    fastZeroedMalloc(unsigned long);
+    auto fastFree(void*);
+    auto fastMalloc(unsigned long);
+    auto fastZeroedMalloc(unsigned long);
 };

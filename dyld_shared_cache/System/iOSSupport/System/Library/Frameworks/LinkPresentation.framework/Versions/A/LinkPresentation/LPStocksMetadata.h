@@ -18,27 +18,28 @@
 }
 
 + (id);
-+ (_Bool)_neverShowText;
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)?;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
-- (id)ssionID;
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)!BùQ°1Â0@ù
+× ;
+- (void)eMetadata;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *combinedTitle; // @synthesize combinedTitle=_combinedTitle;

@@ -32,7 +32,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -43,12 +43,12 @@
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (id)oreSpotlightIndexer _reindexAllItemsWithExtensionsAndIdentifiersAndCompletionBlock:] /* Error: Ran out of types for this method. */;
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *colorPresetsStorage; // @synthesize colorPresetsStorage=_colorPresetsStorage;

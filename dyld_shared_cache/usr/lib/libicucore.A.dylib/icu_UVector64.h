@@ -6,16 +6,16 @@ class icu::UVector64 {
 public: // (access info unavailable from symbols alone)
     UVector64(UErrorCode&);
     UVector64(int, UErrorCode&);
-    _init(int, UErrorCode&);
-    assign(icu::UVector64 const&, UErrorCode&);
-    expandCapacity(int, UErrorCode&);
-    getDynamicClassID() const;
-    getStaticClassID();
-    insertElementAt(long long, int, UErrorCode&);
-    operator==(icu::UVector64 const&);
-    removeAllElements();
-    setElementAt(long long, int);
-    setMaxCapacity(int);
-    setSize(int);
+    auto _init(int, UErrorCode&);
+    auto assign(icu::UVector64 const&, UErrorCode&);
+    auto expandCapacity(int, UErrorCode&);
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto insertElementAt(long long, int, UErrorCode&);
+    auto operator==(icu::UVector64 const&);
+    auto removeAllElements();
+    auto setElementAt(long long, int);
+    auto setMaxCapacity(int);
+    auto setSize(int);
     ~UVector64();
 };

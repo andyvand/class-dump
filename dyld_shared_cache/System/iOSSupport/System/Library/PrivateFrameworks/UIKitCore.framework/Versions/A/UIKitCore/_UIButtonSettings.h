@@ -17,20 +17,20 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void)±À°1¢!0@ù
+- (void)Ô ;
+- (void)a°1Â0@ù
 × ;
-- (_Bool);
-- (void)stureStudyClickInteraction";
-- (void)ize: /* Error: Ran out of types for this method. */;
-- (id)gins: /* Error: Ran out of types for this method. */;
-- (void)LinearHeadingForAccumulator:(_Bool)arg1 studyLogData: /* Error: Ran out of types for this method. */;
-- (_Bool)4¡;
-- (_Bool)hLevel;
-- (void)ntainerBounds;
+- (_Bool)× ;
+- (void)ismissalPreview;
+- (void)alScrollingDecelerationRate;
+- (void)enPossible;
+- (_Bool)y",R,N,V_fixedItems;
+- (_Bool)ureDelegate>",W,N,V_oneFingerPanDelegate;
+- (void)as a custom view in a UINavigationBar or UIToolbar;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

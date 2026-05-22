@@ -29,11 +29,11 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (long long);
+- (id);
 - (void);
 - (struct CGRect);
-- (id);
-- (long long);
+- (void);
 - (long long);
 
 // Remaining properties

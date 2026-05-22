@@ -22,10 +22,10 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id)_enableOneUpBadge;
-- (void)legate;
-- (void);
-- (id)8;
+- (id)XTransientCollectionIdentifierFeatured;
+- (id)PersonActionPerformer)];
+- (void)ôÝj;
+- (void)'@N)@: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *cancelButton; // @synthesize cancelButton=_cancelButton;

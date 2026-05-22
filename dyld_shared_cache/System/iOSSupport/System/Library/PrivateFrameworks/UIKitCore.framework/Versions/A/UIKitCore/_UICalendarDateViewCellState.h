@@ -24,19 +24,19 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)eDelegate>";
-- (_Bool)ted fetch attachment operation  ID %@ fetch operation dictionary %@;
-- (_Bool)retrieve CKRecordID from file transfer %@;
 - (_Bool);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id)oForBaselineSpacing;
-- (void)¬KDLÜMTUY4Z_à_Ø`¼ab;
-- (_Bool)\;
-- (id)SÖR»c;
-- (_Bool);
+- (_Bool)Attributes:(id)arg1 isMultiple: /* Error: Ran out of types for this method. */;
+- (id),Vm_scaling;
+- (void);
+- (void)om view %@;
+- (void)¤Qÿ£;Úè!^;
+- (_Bool)ì¡`;
+- (_Bool)?ÿ¢óÏP­`;
 
 // Remaining properties
 @property(nonatomic) _Bool forceEmphasizedFont; // @synthesize forceEmphasizedFont=_forceEmphasizedFont;

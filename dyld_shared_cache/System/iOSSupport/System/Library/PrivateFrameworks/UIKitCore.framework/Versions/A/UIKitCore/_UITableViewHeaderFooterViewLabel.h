@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (struct CGSize);
-- (id)erViewController;
-- (void)ÍM[;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) struct CGSize patternPhase;

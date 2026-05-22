@@ -20,14 +20,14 @@
 + (double);
 + (double);
 + (void);
-+ (struct CLLocationCoordinate2D)=;
++ (struct CLLocationCoordinate2D);
 + (id);
 + (id);
-+ (struct CLLocationCoordinate2D)!;
++ (struct CLLocationCoordinate2D);
 + (double);
 + (double);
-+ (double)?;
-+ (double)?;
++ (double);
++ (double);
 + (id);
 - (id);
 - (id);
@@ -35,13 +35,13 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id)5;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void)@;
 
 // Remaining properties
 @property(retain) NSMutableArray *generatedLocations; // @synthesize generatedLocations=_generatedLocations;

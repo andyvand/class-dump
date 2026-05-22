@@ -4,11 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNumber;
+
 @interface (null) (MatterExtensions)
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
+@property(readonly, nonatomic) NSNumber *hdm_deviceTypeFromDCL;
 @property(readonly, nonatomic) id hdm_matterDevice;
 @end
 

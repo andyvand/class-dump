@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (long long);
-- (id)0@0:(long long)arg1 8@"NSXPCConnection"16@"NSXPCCoder"24@32;
-- (id)2@40@48@56@64;
-- (void)itle:(long long)arg1 content:(long long)arg2 contentProtection: /* Error: Ran out of types for this method. */;
-- (long long);
+- (id);
+- (id);
 - (void);
+- (long long);
+- (long long);
 - (id);
 - (id);
-- (long long)`;
+- (void)ClipsCount;
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;

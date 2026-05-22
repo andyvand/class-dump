@@ -21,12 +21,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)f_mutableOrderedHomesList;
-- (void)èÁÿ;
+- (id);
+- (void);
+- (void);
+- (void)<;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *accessories; // @synthesize accessories=_accessories;

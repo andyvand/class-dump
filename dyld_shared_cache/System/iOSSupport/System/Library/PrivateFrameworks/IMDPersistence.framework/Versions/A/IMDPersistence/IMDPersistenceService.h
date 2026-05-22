@@ -17,15 +17,16 @@
 + (id);
 + (id);
 + (id);
-+ (id)A;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void)@;
 + (id);
++ (id);
++ (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,8 +34,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)@?,C,N,S_setOverrideLabelCenterOffsetYHandler:,V__overrideLabelCenterOffsetYHandler /* Error: Ran out of types for this method. */;
+- (id);
+- (void)°	;
 
 @end
 

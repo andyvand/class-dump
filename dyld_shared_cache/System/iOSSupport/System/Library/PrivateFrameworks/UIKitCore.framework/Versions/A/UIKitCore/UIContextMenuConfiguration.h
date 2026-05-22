@@ -24,9 +24,9 @@
     long long _preferredMenuAlignment;
 }
 
-+ (id)us;
++ (id);
 - (void);
-- (void)neParameter;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,32 +36,31 @@
 - (id);
 - (_Bool);
 - (long long);
-- (id)%@;
-- (CDUnknownBlockType)to cache pending replicated message %@ but one is already present;
-- (id)ap-v2-back-compat;
-- (void);
 - (id);
-- (id);
-- (void);
-- (_Bool)";
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (long long);
-- (void);
 - (CDUnknownBlockType);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
 - (long long);
-- (void)0@ù
-× ;
-- (void)ximumNumberOfLines;
-- (id)tToContents;
-- (id)derneathDescendant;
-- (void)*ì.;
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (id);
+- (void)tureRecognizer;
+- (long long)undefined behavior. This setter does not properly establish the bidirectional parent-child relationship; use the -addChildViewController:and -removeFromParentViewController APIs to manage view controller containment. Make a symbolic breakpoint at -[UIViewController setParentViewController:] to catch this in the debugger. Child:%@; Parent:%@ /* Error: Ran out of types for this method. */;
+- (id)s=%p;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _clientDidSetBadgeCount;

@@ -5,6 +5,5 @@
 //
 
 @protocol _UIDocumentPickerServiceInvalidating
-- (void);
 @end
 

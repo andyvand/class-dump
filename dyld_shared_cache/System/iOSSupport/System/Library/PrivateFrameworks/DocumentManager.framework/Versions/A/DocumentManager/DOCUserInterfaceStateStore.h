@@ -24,10 +24,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(retain) NSMutableDictionary *uiStateMap; // @synthesize uiStateMap=_uiStateMap;

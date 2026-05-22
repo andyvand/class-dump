@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)derView;
 
 @end
 

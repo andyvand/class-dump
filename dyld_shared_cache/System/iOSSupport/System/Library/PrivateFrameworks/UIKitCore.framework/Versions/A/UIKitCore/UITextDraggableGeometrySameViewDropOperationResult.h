@@ -12,11 +12,11 @@
     CDUnknownBlockType _targetedPreviewProvider;
 }
 
-+ (id)and transfer %@;
++ (id);
 - (CDUnknownBlockType);
-- (id)bridStateAndRemergeIfAppropriate: /* Error: Ran out of types for this method. */;
-- (id)lock:(id)arg1;
-- (void){Îº;
+- (id);
+- (id);
+- (void)~a;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextRange *resultRange; // @synthesize resultRange=_resultRange;

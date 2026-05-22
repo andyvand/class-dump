@@ -24,12 +24,13 @@
 + (void);
 + (void);
 + (void);
-+ (id);
-+ (id);
-+ (id);
 + (void);
++ (id);
++ (id);
++ (id);
 + (void);
 + (oneway void);
++ (void);
 - (id);
 - (id);
 - (id);
@@ -116,22 +117,24 @@
 - (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)chCompositionAVURLsBeingModified;
+- (void)HEùq°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allRecordings;

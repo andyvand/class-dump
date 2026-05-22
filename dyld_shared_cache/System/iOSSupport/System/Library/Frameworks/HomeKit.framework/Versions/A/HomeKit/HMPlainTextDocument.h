@@ -11,22 +11,22 @@
     _HMDocument *_document;
 }
 
-+ (id)ftwareUpdateProgressV2;
-+ (_Bool)"NSError"24;
++ (_Bool);
++ (id)ple.HomeKit.AccessoryBrowser;
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)dateType;
-- (id)à;
+- (id);
+- (void)´÷Àù;
+- (id)}@Failed to decode setting value due to no output voice gender value in language value event in proto payload:(id)arg1 %@;
+- (id)public}@Notifying clients did update for identifier %@ setting %@;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSAttributedString *attributedString;

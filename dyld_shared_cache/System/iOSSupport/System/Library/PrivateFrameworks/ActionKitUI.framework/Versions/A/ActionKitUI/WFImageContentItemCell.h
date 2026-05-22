@@ -22,13 +22,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (void)ractionController"8B16@"NSError"20;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <WFImageContentItemCellDelegate> delegate; // @synthesize delegate=_delegate;

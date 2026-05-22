@@ -7,8 +7,6 @@
 @class IMHandle, IMServiceImpl, NSAttributedString, NSDate;
 
 @protocol IMChatTranscriptItem
-- (NSAttributedString *);
-- (_Bool),L;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *alternateTranscriptText;

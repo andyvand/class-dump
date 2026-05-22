@@ -26,9 +26,9 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (void)hotoKitContainer;
 - (void);
-- (id)ÿ;
-- (void)ÿ;J]´8;
 
 // Remaining properties
 @property(retain, nonatomic) PXCMMInvitationsDataSourceManager *cmmDataSourceManager; // @synthesize cmmDataSourceManager=_cmmDataSourceManager;

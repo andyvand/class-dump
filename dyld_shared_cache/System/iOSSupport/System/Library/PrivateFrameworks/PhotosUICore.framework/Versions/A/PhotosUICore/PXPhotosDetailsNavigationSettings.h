@@ -33,7 +33,7 @@
 }
 
 + (_Bool);
-+ (id)r9;
++ (id)¬î;
 - (double);
 - (double);
 - (long long);
@@ -76,10 +76,10 @@
 - (void);
 - (double);
 - (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (void);
-- (id)HDR Focus:%0.6f /* Error: Ran out of types for this method. */;
-- (_Bool)2_4;
 
 // Remaining properties
 @property(nonatomic) _Bool allowScreenEdgeSwipeToDismiss; // @synthesize allowScreenEdgeSwipeToDismiss=_allowScreenEdgeSwipeToDismiss;

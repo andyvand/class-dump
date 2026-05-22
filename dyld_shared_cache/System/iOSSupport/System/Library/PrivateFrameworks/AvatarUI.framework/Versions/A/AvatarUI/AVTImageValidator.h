@@ -31,13 +31,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id)!;
-- (void)4) cfg bytes != (%d) buffer bytes;
-- (void);
-- (id)), result:%d, dataclass:%@, reason:%@ /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id)s;
+- (void)/î;
 
 // Remaining properties
 @property(retain, nonatomic) AVTImageValidatorConfiguration *configuration; // @synthesize configuration=_configuration;

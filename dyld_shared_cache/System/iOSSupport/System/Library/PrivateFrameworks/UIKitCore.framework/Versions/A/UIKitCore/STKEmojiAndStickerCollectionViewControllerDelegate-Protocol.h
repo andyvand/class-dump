@@ -5,7 +5,5 @@
 //
 
 @protocol STKEmojiAndStickerCollectionViewControllerDelegate
-- (void);
-- (void)ityResult;
 @end
 

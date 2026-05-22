@@ -4,11 +4,11 @@
 
 class __gnu_debug::_Safe_iterator_base {
 public: // (access info unavailable from symbols alone)
-    _M_attach(__gnu_debug::_Safe_sequence_base*, bool);
-    _M_attach_single(__gnu_debug::_Safe_sequence_base*, bool);
-    _M_can_compare(__gnu_debug::_Safe_iterator_base const&) const;
-    _M_detach();
-    _M_detach_single();
-    _M_get_mutex();
-    _M_singular() const;
+    auto _M_attach(__gnu_debug::_Safe_sequence_base*, bool);
+    auto _M_attach_single(__gnu_debug::_Safe_sequence_base*, bool);
+    auto _M_can_compare(__gnu_debug::_Safe_iterator_base const&) const;
+    auto _M_detach();
+    auto _M_detach_single();
+    auto _M_get_mutex();
+    auto _M_singular() const;
 };

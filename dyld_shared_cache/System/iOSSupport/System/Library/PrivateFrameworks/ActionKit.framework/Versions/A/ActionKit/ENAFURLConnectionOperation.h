@@ -57,52 +57,54 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
 - (short);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
 - (id);
+- (void);
 - (id);
-- (_Bool);
+- (void);
 - (CDUnknownBlockType);
-- (void)v32@0:8@"AVAudioRecorder"16@"NSError"24 /* Error: Ran out of types for this method. */;
-- (_Bool)ing"16@"NSURL"24@"NSString"32Q40@?<v@?@"WFFileRepresentation"@"NSError">48;
-- (_Bool)NoteApplicationDataEntryWithGuid:key:value:success:failure: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id)SError"16;
-- (void)tem.m;
-- (void)ookRestrictions;
-- (id)AppleInternal/Library/BuildRoots/4~CG-JugDWSUoDCj8o5WUG74fBKCdmEdAcn8-FOQA/Library/Caches/com.apple.xbs/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/objects/obj_dat.c;
-- (void)*LZcÚ[Óó@©!G´tÑW¡aY1¬Y4Úèrfnãez÷v[ÈnÓg°\D¦\ IÅ¹8z4lErÄº¹Ýÿ¿IF§Q¯Õ)w¼à[¡°÷ä`'ÛRTm0ºnWx0Z×eV®ÉÆa/ò¥«DõûÅq~Õ(çYòDÊÜ»Î,}¸ªJ¾2±ºaéìè	ò½è·tªK(]³!1ÊîHÃÑ¸ü·PÓ²ù9¨já¹äsFZxVvÏ*×î#A¿Çµ³ñ¡Nÿoá+Egç|0·ÑuüÈ^Ê¥£ç÷ Ú­j`1¢»±ô8>t~×Ò`,ôf9Àÿ_P§óhg$4Ù´¤IÔÍh¯uUµ<=.mê«ü_[Ekqé-)U5tßýõmOØ¨{ÆÛ~¡£¬	»»Ê­f-úypCf)Ç&w{ÿ_;
-- (void)~¢Vz'#·;
-- (void)®<þ«7nÿÙµÿ¼ª;
-- (void)!¢Z£;
-- (void)$`;
+- (id)0@ù
+× ;
+- (void)itStorageServiceClasses;
+- (id)ve;
+- (_Bool)y:consumerSecret:accessToken:tokenSecret: /* Error: Ran out of types for this method. */;
+- (id)T4;
+- (_Bool)auth/authorize?oauth_token=%@;
+- (void)ssUserInfo;
+- (void)failed;
+- (void);
+- (void)÷	*H÷	*H÷	*H÷		*H÷	
+*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷	*H÷+;
+- (_Bool)Wu¬O;
+- (void)Èãÿ"x#ã;
+- (_Bool)Ô;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType authenticationAgainstProtectionSpace; // @synthesize authenticationAgainstProtectionSpace=_authenticationAgainstProtectionSpace;

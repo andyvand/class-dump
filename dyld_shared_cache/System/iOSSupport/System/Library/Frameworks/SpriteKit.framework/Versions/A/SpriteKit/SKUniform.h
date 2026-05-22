@@ -36,7 +36,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)°;
++ (_Bool);
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
 - (MISSING_TYPE *);
@@ -84,15 +84,15 @@
 - (void);
 - (unsigned long long);
 - (long long);
-- (void);
 - (id);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (float);
+- (void);
+- (void)@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property unsigned long long _seed; // @synthesize _seed;

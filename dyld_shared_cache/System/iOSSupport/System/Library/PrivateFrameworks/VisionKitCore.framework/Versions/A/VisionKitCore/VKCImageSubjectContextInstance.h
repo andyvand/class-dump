@@ -41,10 +41,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGImage *);
 - (void);
-- (void);
-- (void);
 - (id);
 - (struct CGSize);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) UIBezierPath *baseNormalizedSubjectPath; // @synthesize baseNormalizedSubjectPath=_baseNormalizedSubjectPath;

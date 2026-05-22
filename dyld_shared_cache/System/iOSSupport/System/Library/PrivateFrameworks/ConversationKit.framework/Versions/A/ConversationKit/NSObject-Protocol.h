@@ -7,10 +7,12 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long);
+- (_Bool)p×;
+- (struct _NSZone *)Åÿ½§ÐÅÿ­§ÐÅÿ;
 
 @optional
-- (NSString *)BottomEdgeConstraintFullScreen;
+- (NSString *)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

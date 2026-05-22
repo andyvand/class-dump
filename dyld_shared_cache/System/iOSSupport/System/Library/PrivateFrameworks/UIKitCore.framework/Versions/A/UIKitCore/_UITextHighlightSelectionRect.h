@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     struct CGRect _rect;
 }
 
-+ (id)C;
-+ (id)for %{public}s;
-+ (id)disk.;
++ (id);
++ (id);
++ (id);
 - (void);
-- (void)gePartFileTransferGUIDs;
-- (_Bool)ttons;
-- (_Bool)houldShowIntroductionsButtons;
-- (void)SupportsTwoLineLargeTitles:(struct CGRect)arg1;
-- (struct CGRect);
+- (void);
+- (_Bool);
+- (_Bool);
+- (struct CGRect)lyDisplayingSearchController: /* Error: Ran out of types for this method. */;
+- (void)@;
 
 // Remaining properties
 @property(nonatomic) _Bool containsEnd; // @synthesize containsEnd=_containsEnd;

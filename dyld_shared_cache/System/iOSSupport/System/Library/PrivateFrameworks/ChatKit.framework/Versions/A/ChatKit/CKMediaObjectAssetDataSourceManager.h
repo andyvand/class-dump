@@ -15,26 +15,24 @@
 }
 
 - (void);
-- (void)j;
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)tionController triggerNotificationForMentionAttachments:context:] /* Error: Ran out of types for this method. */;
+- (id);
 - (CDStruct_15189878);
 - (void);
-- (void)
-;
-- (void)7
-;
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (CDStruct_15189878);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)gXwz_Xx;
+- (void)¤;
 
 // Remaining properties
 @property(nonatomic, setter=_setAdditionalItemsCount:) CDStruct_15189878 additionalItemsCount; // @synthesize additionalItemsCount=_additionalItemsCount;

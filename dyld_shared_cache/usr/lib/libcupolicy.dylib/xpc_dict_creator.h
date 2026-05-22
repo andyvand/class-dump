@@ -5,5 +5,5 @@
 class xpc::dict_creator {
 public: // (access info unavailable from symbols alone)
     dict_creator();
-    operator()<char const*>(char const*, char const*) const;
+    xpc::dict_creator operator()<char const*>(char const*, char const*) const;
 };

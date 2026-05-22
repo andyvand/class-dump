@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void)herParticipants:forAccount: /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
 - (void);
-- (id);
+- (void);
+- (double)ePresentationContext";
+- (id)hSupportedOrientations:(struct CGRect)arg1 preferredOrientation:forImmediateCommit:reason: /* Error: Ran out of types for this method. */;
+- (void)\;
 
 @end
 

@@ -4,10 +4,11 @@
 
 class std::__1::vector<std::__1::locale::facet*, std::__1::__sso_allocator<std::__1::locale::facet*, 30ul>> {
 public: // (access info unavailable from symbols alone)
-    __append(unsigned long);
-    __throw_length_error[abi:ne200100]();
-    __vallocate[abi:ne200100](unsigned long);
-    __vdeallocate();
-    resize(unsigned long);
-    vector[abi:ne200100](unsigned long);
+    auto __append(unsigned long);
+    auto __throw_length_error[abi:nqe210106]();
+    auto __vallocate[abi:nqe210106](unsigned long);
+    auto __vdeallocate();
+    auto resize(unsigned long);
+    auto vector[abi:nqe210106](unsigned long);
+    void __assign_with_size[abi:nqe210106]<std::__1::locale::facet**, std::__1::locale::facet**>(std::__1::locale::facet**, std::__1::locale::facet**, long);
 };

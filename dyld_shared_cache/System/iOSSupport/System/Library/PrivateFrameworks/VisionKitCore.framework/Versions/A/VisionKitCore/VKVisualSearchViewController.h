@@ -15,12 +15,11 @@
 
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id)ùñM1B0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <VKVisualSearchViewControllerDelegate> delegate; // @synthesize delegate=_delegate;

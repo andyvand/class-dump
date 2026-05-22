@@ -11,6 +11,7 @@
     MISSING_TYPE *tracker;
     MISSING_TYPE *scienceDataFactory;
     MISSING_TYPE *channelDataFactory;
+    MISSING_TYPE *articleDataFactory;
     MISSING_TYPE *contentAvailabilityValidator;
 }
 

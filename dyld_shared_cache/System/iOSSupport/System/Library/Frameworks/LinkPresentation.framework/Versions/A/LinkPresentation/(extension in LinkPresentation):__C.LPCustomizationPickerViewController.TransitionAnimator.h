@@ -12,10 +12,10 @@
     MISSING_TYPE *reversed;
 }
 
-- (void);
+- (double);
 - (id);
-- (void)¨;
-- (double)H;
+- (void);
+- (void);
 
 @end
 

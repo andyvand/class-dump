@@ -44,15 +44,15 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,13 +13,13 @@
 }
 
 + (_Bool);
-+ (_Bool):uti: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (double);
 - (id);
 - (id);
-- (void);
 - (id);
 - (long long);
+- (void);
 - (id);
 
 // Remaining properties

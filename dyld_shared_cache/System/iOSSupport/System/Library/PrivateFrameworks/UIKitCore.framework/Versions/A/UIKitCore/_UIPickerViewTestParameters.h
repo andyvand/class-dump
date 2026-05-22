@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     long long _componentToScroll;
 }
 
-- (void);
+- (void)Á7ü´;
 
 @end
 

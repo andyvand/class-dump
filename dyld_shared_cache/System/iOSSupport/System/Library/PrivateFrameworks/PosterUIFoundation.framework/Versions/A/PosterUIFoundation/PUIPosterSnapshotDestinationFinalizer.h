@@ -15,21 +15,21 @@
     PFTFuture *_finalizeFuture;
 }
 
++ (id);
 + (_Bool);
 + (_Bool);
-+ (id)ùÿã;
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)rectory for new snapshot bundle;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

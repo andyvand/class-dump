@@ -21,20 +21,21 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)tedGUID:(double)arg1;
-- (void)sToReindexForPreviewGeneration;
-- (void)oudKitWithLimit:(double)arg1;
-- (void)hat:(double)arg1 earliestDate:(id)arg2 limit:(id)arg3;
-- (_Bool)cordForGUID: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)hipGenericMediaClip__MAPPING_MISSING__;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
-- (void);
-- (void)6;
-- (id)loatingViewForCurrentTraits;
-- (void)nNeedsReevalulation;
-- (double);
 - (void);
+- (id);
+- (void)A°!¬Bùqa1Â0@ù
+× ;
+- (void)nceDisplayModeStatus:(id)arg1 withName:skipIfNotSupported: /* Error: Ran out of types for this method. */;
+- (void)eaderFooterPinningBehavior:(id)arg1;
+- (void);
+- (double);
 
 // Remaining properties
 @property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;

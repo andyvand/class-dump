@@ -35,7 +35,6 @@
 - (void);
 - (void);
 - (void);
-- (void)8r;
 - (void);
 - (void);
 - (void);
@@ -59,9 +58,9 @@
 - (id);
 - (void);
 - (void);
-- (void)DI;
-- (void);
 - (void);
+- (void);
+- (void)D;
 - (id);
 
 // Remaining properties

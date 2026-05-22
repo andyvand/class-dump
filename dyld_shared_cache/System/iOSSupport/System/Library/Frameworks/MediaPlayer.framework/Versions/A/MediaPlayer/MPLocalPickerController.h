@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
     UIBarButtonItem *_mDoneButton;
 }
 
-+ (id);
++ (id);
 - (long long);
 - (long long);
 - (void);
@@ -33,16 +33,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void)nStringID="%@";
-- (void)k;
-- (void)udTracksDidChangeNotification;
+- (void);
+- (void)¡èÐ!°Dùñ?ð1Â0@ù
+× ;
+- (void)String",C,N,V_localizedShortTitle;
+- (void)ewControllerDidCollapse:(id)arg1;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

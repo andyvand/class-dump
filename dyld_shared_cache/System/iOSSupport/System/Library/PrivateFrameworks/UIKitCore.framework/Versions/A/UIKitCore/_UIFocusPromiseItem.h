@@ -19,29 +19,32 @@
     struct CGRect _frame;
 }
 
-- (void)b;
 - (void);
-- (id);
+- (void);
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id)P;
-- (id);
+- (_Bool);
 - (_Bool);
 - (id);
+- (id);
+- (id);
+- (id)1c°1Â0@ù
+× ;
+- (struct CGRect)wsSwitches: /* Error: Ran out of types for this method. */;
+- (id): /* Error: Ran out of types for this method. */;
+- (void)IBanner;
+- (void)ponder, but after repeatedly telling the first responder to resign, the first responder remained inside a deleted section or row. This may be caused by a cycle where the first responder is moving back and forth between the same views.
+First responder that was asked to resign (returned %@ from -resignFirstResponder):(id)arg1 %@ inside containing view:(id)arg2 %@ at index path:%@
+Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: Ran out of types for this method. */;
+- (id)¿;
+- (_Bool);
 - (void);
-- (struct CGRect);
-- (void);
-- (id)eSheet;
-- (void)tivationSet:(id)arg1;
-- (id)ttings;
-- (void)Hint;
-- (_Bool)"NSNumber"8@"_UICollectionViewPrefetchingContext"16^B24;
-- (id)_x;
-- (_Bool);
+- (void)ÿ¼Ï:(id)arg1 `;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBecomeFocused;

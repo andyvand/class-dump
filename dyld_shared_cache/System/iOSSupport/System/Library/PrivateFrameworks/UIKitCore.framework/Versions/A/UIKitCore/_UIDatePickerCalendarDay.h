@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
     _UIDatePickerCalendarMonth *_assignedMonth;
 }
 
-+ (unsigned long long)ouldAllowHighQualityPhotoUploadForNetworkConditions:(%@), isWifiUsable:(%@), hasLTE:(%@) /* Error: Ran out of types for this method. */;
++ (unsigned long long);
 - (id);
-- (id)16@"NSString"24@"NSArray"32B40;
-- (id)o;
+- (id);
+- (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id)iveReason;
-- (void);
-- (id)Width;
-- (id);
-- (id)\ÿ ;
+- (_Bool)ration;
+- (id)me;
+- (id)ew",&,N,V_revealPlatterView;
+- (void);
+- (id)ØþäÊ{d;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIDatePickerCalendarMonth *assignedMonth; // @synthesize assignedMonth=_assignedMonth;

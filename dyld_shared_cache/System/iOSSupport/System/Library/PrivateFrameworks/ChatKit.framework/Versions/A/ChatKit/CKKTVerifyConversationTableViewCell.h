@@ -18,9 +18,9 @@
 }
 
 + (id);
-- (id)Button;
-- (id)ame;
-- (void)Mode;
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -28,17 +28,17 @@
 - (void);
 - (void);
 - (void);
-- (long long)L;
+- (long long);
 - (id);
 - (id);
 - (void);
-- (void)DA;
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
+- (struct CGSize);
 - (void);
-- (struct CGSize)L"8@"NSError"16;
 
 // Remaining properties
 @property(nonatomic) unsigned long long ktStatus; // @synthesize ktStatus=_ktStatus;

@@ -14,9 +14,9 @@
 
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSTextAttachment *attachment; // @synthesize attachment=_attachment;

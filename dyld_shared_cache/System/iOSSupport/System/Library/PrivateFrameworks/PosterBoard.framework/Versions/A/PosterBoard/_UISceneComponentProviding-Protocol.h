@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScene;
+@class NSArray, UIScene;
 
 @protocol _UISceneComponentProviding
-- (UIScene *)!@ù?°1b0@ù
-× ;
-- (id);
+- (UIScene *)ext: /* Error: Ran out of types for this method. */;
+- (void)oreArchiverAdditions;
 
 @optional
-- (void)ICollectionView"16@"NSIndexPath"24{CGPoint=dd}32;
+- (NSArray *);;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;

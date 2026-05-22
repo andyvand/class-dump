@@ -21,10 +21,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *inputImages; // @synthesize inputImages=_inputImages;

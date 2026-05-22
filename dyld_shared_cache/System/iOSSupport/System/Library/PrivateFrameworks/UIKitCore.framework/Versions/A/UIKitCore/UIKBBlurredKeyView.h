@@ -16,9 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (void)!EùñÁð1¢!0@ù
-× ;
-- (void)BarButtonItemGroupCôk8G;
+- (void)ÜAg;
+- (void)`ÿ ¸ÌdXl;
 
 @end
 

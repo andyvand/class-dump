@@ -10,8 +10,8 @@
 {
 }
 
-- (double)uô;
-- (double);
+- (double);
+- (double);
 - (id);
 - (double);
 - (double);

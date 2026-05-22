@@ -5,8 +5,5 @@
 //
 
 @protocol _UITVScrollViewManagerDelegate
-
-@optional
-- (void);
 @end
 

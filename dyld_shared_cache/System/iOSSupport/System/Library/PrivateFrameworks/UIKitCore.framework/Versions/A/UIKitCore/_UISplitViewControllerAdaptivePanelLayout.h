@@ -16,45 +16,45 @@
 
 - (void);
 - (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns);
-- (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns);
+- (struct _UISplitViewControllerAdaptiveLayoutPreferredColumns);
 - (long long);
 - (long long);
 - (long long);
-- (struct CGRect)RelayDeletionController:(long long)arg1 Recently Deleted | could not find messageItem for GUID:%@ /* Error: Ran out of types for this method. */;
+- (struct CGRect);
 - (unsigned long long);
-- (struct UIEdgeInsets)th %@ and asset fileURL %@;
+- (struct UIEdgeInsets);
 - (unsigned long long);
-- (long long)th new value:(long long)arg1 %lld ;
-- (double), ;
-- (double)later;
-- (unsigned long long)it is an incompatible action type %lld;
-- (long long)ary directory:(long long)arg1 %@;
-- (void)"%@">;
-- (void)STrustedData"24@"IMDiMessagePipelineResources"32@"IMMessageContext"40@"IMPowerAssertion"48;
-- (void)@?0@"IMDiMessageIDSDelegate"8@16@"IMDiMessageIDSTrustedData"24@"IMDiMessagePipelineResources"32@"IMMessageContext"40@"IMPowerAssertion"48;
-- (long long)"8{_NSRange=QQ}16^B32;
-- (double)Fetched Nickname for %@;
+- (long long);
+- (double);
+- (double);
+- (unsigned long long);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (double);
 - (struct UIEdgeInsets);
 - (unsigned long long);
 - (unsigned long long);
-- (struct CGRect)Im;
+- (struct CGRect);
 - (_Bool);
 - (_Bool);
-- (long long)o;
-- (_Bool)`;
+- (long long);
+- (_Bool);
 - (id);
 - (struct CGSize);
 - (void);
-- (void);
-- (void)"_UITabModel";
-- (id)oundColor;
-- (id)¨½LÀ|ÀÜÂÅtÆdÇ;
-- (struct CGSize)smiss %@ because there is no _presentationController.;
-- (_Bool)Kit Share Action with metadata:%@ /* Error: Ran out of types for this method. */;
-- (struct CGSize)N²e;
+- (id);
 - (long long);
-- (long long);
-- (long long)Ô];
+- (id);
+- (struct CGSize)ttingLength:hasExpandedActiveIndicator: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool) ;
+- (void)ì5l;
+- (long long)ø}m;
+- (long long)(÷fÿ;
+- (struct CGSize)Õôr;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize contentSize;

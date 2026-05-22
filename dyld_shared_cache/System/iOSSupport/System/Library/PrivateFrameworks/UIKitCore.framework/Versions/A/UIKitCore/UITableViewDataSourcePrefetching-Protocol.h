@@ -5,8 +5,5 @@
 //
 
 @protocol UITableViewDataSourcePrefetching
-
-@optional
-- (void)oryUpdateMetadataWithOptions is not implemented;
 @end
 

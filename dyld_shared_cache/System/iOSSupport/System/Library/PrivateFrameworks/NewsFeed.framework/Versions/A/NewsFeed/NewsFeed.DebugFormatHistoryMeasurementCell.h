@@ -14,10 +14,10 @@
     MISSING_TYPE *barView;
 }
 
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)0:8@"NSURLSession"16@"NSURLSessionDataTask"24@"NSURLResponse"32@?<v@?q>40 /* Error: Ran out of types for this method. */;
+- (void)È¦wþ=F:ÄÞ$ÿ /* Error: Ran out of types for this method. */;
 
 @end
 

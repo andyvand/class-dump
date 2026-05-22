@@ -4,7 +4,7 @@
 
 class dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString> {
 public: // (access info unavailable from symbols alone)
-    find<char const*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>>&, void*, char const* const&);
-    find<char const*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>>&, void*, char const* const&) (.cold.1);
-    find<char const*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>>&, void*, char const* const&) (.cold.2);
+    dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>* find<char const*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>>&, void*, char const* const&);
+    dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>* find<char const*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>>&, void*, char const* const&) (.cold.1);
+    dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>* find<char const*>(dyld3::Array<unsigned int> const&, dyld3::Array<dyld3::MapBase<char const*, dyld4::WeakDefMapValue, dyld3::HashCString, dyld3::EqualCString>::NodeImplT<false>>&, void*, char const* const&) (.cold.2);
 };

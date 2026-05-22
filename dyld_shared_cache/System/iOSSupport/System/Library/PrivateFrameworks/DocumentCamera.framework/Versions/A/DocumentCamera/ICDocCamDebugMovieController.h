@@ -69,25 +69,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (double);
-- (id);
 - (_Bool);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void)0@ù
-× ;
+- (void);
+- (void);
+- (_Bool)Hâ;
 
 // Remaining properties
 @property(retain, nonatomic) AVAssetWriter *assetWriter; // @synthesize assetWriter=_assetWriter;

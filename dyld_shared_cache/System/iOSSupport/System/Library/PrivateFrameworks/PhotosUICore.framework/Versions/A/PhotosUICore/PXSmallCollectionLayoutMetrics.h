@@ -20,13 +20,14 @@
 - (double);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
 - (unsigned long long);
 - (void);
-- (struct UIEdgeInsets)Ê;
-- (void)4;
+- (void);
+- (id)
+× ;
 - (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
+- (void)RË÷;
 
 // Remaining properties
 @property(nonatomic) unsigned long long edgesForExtendedLayout; // @synthesize edgesForExtendedLayout=_edgesForExtendedLayout;

@@ -12,29 +12,29 @@
     PKTool *__tool;
 }
 
-- (void);
-- (id)a$;
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id)R;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (double);
 - (id);
-- (id)dddddd}64@0:8{CGAffineTransform=dddddd}16 /* Error: Ran out of types for this method. */;
-- (id)InputResponderWasKey;
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)w",&,N,V_lastSelectedToolView;
+- (void)ongActive;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *_dictionaryRepresentation;

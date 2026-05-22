@@ -9,9 +9,9 @@
 }
 
 - (id);
-- (id)s;
-- (id)peItem;
-- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

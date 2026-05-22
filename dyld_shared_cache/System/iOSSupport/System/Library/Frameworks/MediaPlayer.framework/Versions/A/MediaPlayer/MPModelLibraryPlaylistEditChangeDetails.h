@@ -44,23 +44,23 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)60@68@76@84@92@100B108@112;
-- (id)tatus:(long long)arg1;
-- (id)sRapidSecurityResponsePreReboot:(long long)arg1;
-- (void):(id)arg1 identifier:startTime:privateStreamBasePath: /* Error: Ran out of types for this method. */;
-- (id)Begin:bundleID:URL:mediaURL:usageTrusted:timestamp:safariProfileID: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1 proofingDecision:issuer: /* Error: Ran out of types for this method. */;
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id)FirstActiveEthernetDeclaration_Status;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (id)oadedTracks;
+- (id);
+- (id);
+- (void)sSupportedAndEnabled;
+- (id)8;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *changesApplied; // @synthesize changesApplied=_changesApplied;

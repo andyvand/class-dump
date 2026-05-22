@@ -14,23 +14,23 @@
     CKTranscriptReportSpamCell *_sizingCell;
 }
 
-- (id)drawingUUID;
-- (id)imageFilterType: /* Error: Ran out of types for this method. */;
-- (id)s;
-- (void)_deviceScales;
-- (void)TQ,N,V_edgesToRemoveEndPoint;
 - (id);
-- (struct CGSize)llerC;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (struct CGSize);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (Class);
-- (_Bool);
-- (void);
-- (unsigned long long)Handler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)@?48;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *internalPhishingWarning;

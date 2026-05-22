@@ -17,16 +17,16 @@
 - (id);
 - (id);
 - (void *);
-- (void);
+- (void);
 - (void);
 - (struct CGRect);
 - (void);
-- (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (void),V_powerSavingController;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *rawValue;

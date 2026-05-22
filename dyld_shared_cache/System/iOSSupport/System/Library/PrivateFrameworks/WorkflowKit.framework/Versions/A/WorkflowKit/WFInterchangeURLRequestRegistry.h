@@ -12,7 +12,7 @@
     NSMutableDictionary *_requestHandlers;
 }
 
-+ (id);
++ (id)eManager;
 - (void);
 - (void);
 - (id);
@@ -22,9 +22,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
+- (void)omLocation} to ${WFDestination} (Parameter Summary);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *activeRequests; // @synthesize activeRequests=_activeRequests;

@@ -37,9 +37,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
+- (void)"HMAccessoryCollectionSetting"8;
+- (void)viously submitted. Uploaded identifiers contains log:(id)arg1 %@;
 
 // Remaining properties
 @property(retain, nonatomic) HFMutableSetDiff *actionBuilders; // @synthesize actionBuilders=_actionBuilders;

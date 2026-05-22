@@ -11,13 +11,13 @@
     MISSING_TYPE *value;
 }
 
-+ (id);
++ (id)AyAAyAAyAJA3_GAVyÔH SgGGA57_GAVyS GGASGl¢GSgtGÏJ ySSGGtGG_Qo__Qo_A71_G_´9ÐSgSgt;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)opCG;
 
 @end
 

@@ -5,9 +5,9 @@
 class icu::LocalePriorityList {
 public: // (access info unavailable from symbols alone)
     LocalePriorityList(icu::StringPiece, UErrorCode&);
-    add(icu::Locale const&, int, UErrorCode&);
-    localeAt(int) const;
-    orphanLocaleAt(int);
-    sort(UErrorCode&);
+    auto add(icu::Locale const&, int, UErrorCode&);
+    auto localeAt(int) const;
+    auto orphanLocaleAt(int);
+    auto sort(UErrorCode&);
     ~LocalePriorityList();
 };

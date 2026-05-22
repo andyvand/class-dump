@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
     _Bool _animationsEnabled;
 }
 
-+ (id)agesForDeletion, set version (%ld) current version (%d);
-- (void)ocessModifyRecordCompletion:(id)arg1 deletedRecordIDs:(id)arg2 error:(_Bool)arg3 completionBlock: /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
-- (void);
+- (void)InterfaceOrientation:(id)arg1 duration: /* Error: Ran out of types for this method. */;
+- (void)¹/3;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

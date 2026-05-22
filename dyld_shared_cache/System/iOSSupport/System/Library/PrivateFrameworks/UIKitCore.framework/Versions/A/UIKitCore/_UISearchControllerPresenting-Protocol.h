@@ -8,20 +8,17 @@
 @protocol _UISearchControllerPresenting;
 
 @protocol _UISearchControllerPresenting
-- (_Bool);
-- (UIView *);
-- (UIPresentationController<_UISearchControllerPresenting> *)0@ù
-× ;
-- (_Bool)!DùÑÈð1¢!0@ù
-× ;
-- (double)tVariantOptions: /* Error: Ran out of types for this method. */;
-- (_Bool)er: /* Error: Ran out of types for this method. */;
-- (_Bool)p: /* Error: Ran out of types for this method. */;
-- (struct CGRect)sfadeComplete;
-- (_Bool)ecognizer: /* Error: Ran out of types for this method. */;
-- (double)ncludingInvisible: /* Error: Ran out of types for this method. */;
-- (unsigned long long)Pc
-$d;
+- (double);
+- (void)1f to %.1f;
+- (_Bool);
+- (_Bool)þÿ;
+- (unsigned long long)rAttenuation;
+- (double)ffset;
+- (struct CGRect)e;
+- (_Bool)e a dictionary from it. Ignoring action %@;
+- (UIPresentationController<_UISearchControllerPresenting> *)BarArrowDown.png;
+- (_Bool)ForHostedTabBar;
+- (_Bool)edLayoutHostingViewC;
 
 // Remaining properties
 @property(readonly, nonatomic) UIPresentationController<_UISearchControllerPresenting> *adaptivePresentationController;

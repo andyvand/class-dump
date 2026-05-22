@@ -27,12 +27,12 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id)utSpec.m;
+- (id)iguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXZoomablePhotosInteractionDelegate> delegate; // @synthesize delegate=_delegate;

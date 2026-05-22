@@ -10,10 +10,10 @@
 {
 }
 
-- (id)e;
 - (id);
+- (long long);
 - (id);
-- (long long)_SAVED_FORMAT;
+- (id)entHeight;
 
 @end
 

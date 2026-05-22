@@ -20,7 +20,7 @@
 + (id);
 + (double);
 + (id);
-- (id)@�H;
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -31,14 +31,14 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id)ended.;
+- (id);
+- (void);
+- (void)printConfidence;
+- (id);
+- (void)ionCompanionLink, send a vehicle event to paried companion device;
 
 // Remaining properties
 @property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;

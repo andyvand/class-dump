@@ -19,7 +19,7 @@
 }
 
 - (void);
-- (id)iefingInTodayFeedGroupConfig;
+- (id);
 - (id);
 - (id);
 - (void);
@@ -28,16 +28,16 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
 - (unsigned long long);
 - (id);
-- (id);
+- (double);
 - (void);
+- (void);
+- (void);
+- (id)ation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) SWPresentationDatastore *datastore; // @synthesize datastore=_datastore;

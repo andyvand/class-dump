@@ -5,10 +5,8 @@
 //
 
 @protocol _UIForceObservationMessageConstructing
-- (void)nnelMap;
-- (void);
-- (double)t: /* Error: Ran out of types for this method. */;
-- (unsigned long long)HorizontalExpansionFactor: /* Error: Ran out of types for this method. */;
+- (void)nt;
+- (double)eTouchStatusChangedNotification;
 
 // Remaining properties
 @property(nonatomic) unsigned long long stage;

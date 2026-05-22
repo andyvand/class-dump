@@ -25,17 +25,15 @@
 - (_Bool);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id)ities32RemoteIntentFileManifestDelegateP;
-- (struct IMFileSize)´"-(-ÿ¬D0°
-x¸¼	ä´
-ìØÀ´
-àø;
-- (id);
+- (id)	
+;
+- (void)××;
+- (struct IMFileSize)È®;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fileExtension; // @synthesize fileExtension=_fileExtension;

@@ -16,20 +16,20 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (void)hScreenDidChangeForConversation:(id)arg1 fromOldConversation: /* Error: Ran out of types for this method. */;
-- (double)request;
+- (void);
+- (double);
 - (_Bool);
 - (void);
-- (struct CGRect)@;
-- (void);
-- (void)SkewSecondsAtAuthorize=%.3lf localTimeAtAuthorizeResponse=%llu serverTimeSentInAuthorizeResponse=%llu;
-- (void);
-- (long long)yCustomActions: /* Error: Ran out of types for this method. */;
-- (void)eSheet;
-- (id)hey can be accessed when locked;
-- (void);
+- (struct CGRect);
 - (_Bool);
-- (long long)]7\;
+- (void);
+- (id)Guide;
+- (void)¢¨¢ä£;
+- (void)ath = %@; proposal = %@; didDrop = %d; effectiveIndexPath = %@>;
+- (void)eractionCSg;
+- (void)0öb;
+- (long long)e;
+- (long long)èvi;
 
 @end
 

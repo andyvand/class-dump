@@ -28,7 +28,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)�P;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -43,13 +43,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)";
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -60,7 +60,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -68,15 +68,15 @@
 - (id);
 - (id);
 - (void);
-- (id)̗0;
-- (unsigned long long);
-- (unsigned long long);
-- (_Bool)w;
 - (id);
 - (void);
-- (_Bool)ecognizer;
-- (id)rShared/kit/TSKShuffleMapping.mm;
-- (id)fä;
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id)WPLineFragment}40^B48;
+- (id)e *, BOOL);
+- (unsigned long long)r;
 
 // Remaining properties
 @property(readonly, nonatomic) TSTCellStyle *bodyCellStyle;

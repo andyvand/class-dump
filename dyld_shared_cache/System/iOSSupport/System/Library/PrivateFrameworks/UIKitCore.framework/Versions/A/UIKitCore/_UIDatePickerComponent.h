@@ -16,18 +16,19 @@ __attribute__((visibility("hidden")))
     struct _NSRange _unitRange;
 }
 
-+ (id)6@?0@"NSString"8@"NSString"16@"NSString"24@"NSString"32@"NSString"40@"NSString"48@"NSDictionary"56B64B68B72;
-+ (id)24@"NSString"32@"NSString"40@"NSString"48@"NSDictionary"56@"NSNumber"64;
++ (id);
++ (id);
 - (struct _NSRange);
 - (void);
 - (unsigned long long);
-- (unsigned long long)@0:8 /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (id);
-- (void)abled;
-- (void);
-- (id)nuTitleSeparatorHeight;
-- (double)ÄæTççTè;
-- (id)tleTransitionSpec";
+- (id);
+- (double)!Dù±cð1Â0@ù
+× ;
+- (void)tionForWindowHostingScene:(double)arg1;
+- (id);
+- (void)_;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long calendarUnit; // @synthesize calendarUnit=_calendarUnit;

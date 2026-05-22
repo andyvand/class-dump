@@ -4,5 +4,5 @@
 
 class btree<lv_key> {
 public: // (access info unavailable from symbols alone)
-    begin(lvg*);
+    auto begin(lvg*);
 };

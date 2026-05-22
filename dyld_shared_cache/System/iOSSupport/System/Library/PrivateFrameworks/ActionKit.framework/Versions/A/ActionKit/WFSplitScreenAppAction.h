@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)geIntent;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *leftWindowsToWindowID; // @synthesize leftWindowsToWindowID=_leftWindowsToWindowID;

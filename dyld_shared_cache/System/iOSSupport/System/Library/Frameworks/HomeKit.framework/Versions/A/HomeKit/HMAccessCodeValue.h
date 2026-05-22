@@ -11,20 +11,20 @@
     NSString *_stringValue;
 }
 
-+ (id)¸G;
-+ (_Bool)000B6-0000-1000-8000-0026BB765291;
++ (id);
++ (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
 - (id);
 - (id);
-- (id)vèv y	ìy$|	ð|	t}¬	x°	|	;
-- (id)oto setting change event from event:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void)art:%@ not coming before end:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *attributeDescriptions;

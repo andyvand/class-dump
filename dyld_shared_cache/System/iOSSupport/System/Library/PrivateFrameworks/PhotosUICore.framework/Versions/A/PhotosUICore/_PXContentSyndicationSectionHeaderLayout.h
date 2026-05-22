@@ -42,10 +42,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void)Action:(id)arg1;
-- (id)crollLayout update];
+- (id);
+- (void);
+- (void)cations;
 
 // Remaining properties
 @property(retain, nonatomic) PXAssetCollectionActionManager *assetCollectionManager; // @synthesize assetCollectionManager=_assetCollectionManager;

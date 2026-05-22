@@ -4,6 +4,6 @@
 
 class CASharedLibrary {
 public: // (access info unavailable from symbols alone)
-    GetRoutineAddressIfLibraryLoaded(char const*, char const*, char const*);
-    LoadLibraryAndGetRoutineAddress(char const*, char const*, char const*);
+    auto GetRoutineAddressIfLibraryLoaded(char const*, char const*, char const*);
+    auto LoadLibraryAndGetRoutineAddress(char const*, char const*, char const*);
 };

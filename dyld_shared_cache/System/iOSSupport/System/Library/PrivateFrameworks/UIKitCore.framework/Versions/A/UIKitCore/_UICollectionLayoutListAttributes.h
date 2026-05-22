@@ -22,29 +22,32 @@ __attribute__((visibility("hidden")))
     double _maxWidth;
 }
 
-- (void)A;
-- (void);
-- (unsigned long long);
-- (void)e=dd}56^{__CVPixelBufferPool=}72;
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id)opying;
-- (double);
 - (id);
-- (void);
-- (void)ð1¢!0@ù
-× ;
-- (id)dMenuAttachmentPoint: /* Error: Ran out of types for this method. */;
-- (id)emGateGestureRecognizersIfNeeded;
-- (id)N,VaffinityDownstream;
-- (void)ockStatus updated:(id)arg1 scene:%@; viewController:%@; preferredPointerLockStatus:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (void);
-- (id);
-- (unsigned long long)eVC;
-- (void)aviorSettings",N,&,VblurInSpring;
-- (long long)£;
-- (void)#_;
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (void)
+× ;
+- (id)±_1Â0@ù
+× ;
+- (void)
+°!GùgÐ1Â0@ù
+× ;
+- (_Bool)tting:(id)arg1;
+- (void);
+- (id)etInteractive: /* Error: Ran out of types for this method. */;
+- (long long)s: /* Error: Ran out of types for this method. */;
+- (id)ct:atPoint:linkingToURL: /* Error: Ran out of types for this method. */;
+- (_Bool)setDidHandoff:,V__didHandoff /* Error: Ran out of types for this method. */;
+- (id)serViewController;
+- (double)>",R,N;
+- (void)ested for context whose window is not in a scene. contextID:(id)arg1 %i;
+- (void)ator;
+- (void)wport;
+- (void);
+- (void)ø];
 
 // Remaining properties
 @property(nonatomic) long long appearanceStyle; // @synthesize appearanceStyle=_appearanceStyle;

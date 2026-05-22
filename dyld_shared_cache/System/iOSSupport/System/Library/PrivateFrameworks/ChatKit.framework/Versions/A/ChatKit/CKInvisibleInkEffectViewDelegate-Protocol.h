@@ -5,8 +5,5 @@
 //
 
 @protocol CKInvisibleInkEffectViewDelegate
-
-@optional
-- (void)ctorDelayer",&,N,V_updateSelectorDelayer;
 @end
 

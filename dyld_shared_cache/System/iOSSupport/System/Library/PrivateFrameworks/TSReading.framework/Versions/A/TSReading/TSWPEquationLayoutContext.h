@@ -15,14 +15,14 @@
 
 - (id);
 - (double);
-- (struct __CFString *);
-- (double);
+- (struct __CFString *);
+- (double);
 - (void);
-- (_Bool);
 - (void);
 - (double);
-- (void)PÈ;
-- (double);
+- (_Bool);
+- (double);
+- (void)TexCoordAttribute;
 
 // Remaining properties
 @property(nonatomic) double columnWidth; // @synthesize columnWidth=_columnWidth;

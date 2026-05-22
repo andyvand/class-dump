@@ -7,18 +7,10 @@
 @class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration, COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList, COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata, FCFeedPersonalizedItemScoreProfile, NSArray, NSData, NSDate, NSString;
 
 @protocol FCFeedPersonalizingItem
-- (_Bool)!;
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *)h;
-- (_Bool);
-- (NSString *)C;
-- (void)Data">24;
-- (_Bool);
-- (NSString *)}}}};
-
-@optional
-- (NSData *);
-- (long long)zeiPad;
-- (NSString *)\Ë;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *)String"16@0:8 /* Error: Ran out of types for this method. */;
+- (NSString *)biCohortMemberships;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *);
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *)0ÿÿfýþÿ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isANF) _Bool anf;

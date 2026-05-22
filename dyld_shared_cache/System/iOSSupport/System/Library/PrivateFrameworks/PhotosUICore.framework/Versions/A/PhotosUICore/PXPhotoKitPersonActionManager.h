@@ -38,10 +38,11 @@
 - (id);
 - (id);
 - (id);
+- (id)
+× ;
+- (id)ticAssetC;
 - (void);
 - (id);
-- (id)OfAssetsIndexed: /* Error: Ran out of types for this method. */;
-- (id)/O¶66;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *internalActionTypes; // @synthesize internalActionTypes=_internalActionTypes;

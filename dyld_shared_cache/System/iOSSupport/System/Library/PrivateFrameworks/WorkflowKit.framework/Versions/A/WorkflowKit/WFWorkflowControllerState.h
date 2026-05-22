@@ -26,8 +26,8 @@
     NSSet *_extensionResourceClasses;
 }
 
-+ (void)àòÌ;
-+ (_Bool)Search (WFSearchQuery);
++ (void);
++ (_Bool);
 - (_Bool);
 - (long long);
 - (id);
@@ -44,11 +44,11 @@
 - (id);
 - (id);
 - (id);
+- (id)ýÿ´Cýÿ´Cýÿ´Cýÿ´Cýÿ´Cýÿ´Cýÿ´C;
 - (void);
 - (id);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool)urce;
+- (void)edited on this device.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *allowedOnceSmartPromptStates; // @synthesize allowedOnceSmartPromptStates=_allowedOnceSmartPromptStates;

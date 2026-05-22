@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UILabel, UIToolbar;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CKTranscriptSharingFooterView
 {
-    UIToolbar *_toolbar;
     UILabel *_footerTextViewTitle;
     UILabel *_footerTextViewDesc;
 }
 
-- (void)torStateDidChange:(id)arg1;
-- (void):(id)arg1 forPageWithTitle:URL: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
 - (void);
 - (void);
-- (void)(<;
 - (id);
-- (struct CGSize)View"16;
+- (id);
+- (struct CGSize);
+- (void);
+- (void)ACEHOLDER;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *footerTextViewDesc; // @synthesize footerTextViewDesc=_footerTextViewDesc;
 @property(retain, nonatomic) UILabel *footerTextViewTitle; // @synthesize footerTextViewTitle=_footerTextViewTitle;
-@property(retain, nonatomic) UIToolbar *toolbar; // @synthesize toolbar=_toolbar;
 
 @end
 

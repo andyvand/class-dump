@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<IOGTrace, std::__1::default_delete<IOGTrace>> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](IOGTrace*);
+    auto reset[abi:nqe210106](IOGTrace*);
 };

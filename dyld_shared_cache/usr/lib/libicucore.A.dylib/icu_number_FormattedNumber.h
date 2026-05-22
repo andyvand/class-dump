@@ -5,15 +5,15 @@
 class icu::number::FormattedNumber {
 public: // (access info unavailable from symbols alone)
     FormattedNumber(icu::number::FormattedNumber&&);
-    appendTo(icu::Appendable&, UErrorCode&) const;
-    getAllFieldPositionsImpl(icu::FieldPositionIteratorHandler&, UErrorCode&) const;
-    getDecimalQuantity(icu::number::impl::DecimalQuantity&, UErrorCode&) const;
-    getNounClass(UErrorCode&) const;
-    getOutputUnit(UErrorCode&) const;
-    nextPosition(icu::ConstrainedFieldPosition&, UErrorCode&) const;
-    operator=(icu::number::FormattedNumber&&);
-    toDecimalNumber(icu::ByteSink&, UErrorCode&) const;
-    toString(UErrorCode&) const;
-    toTempString(UErrorCode&) const;
+    auto appendTo(icu::Appendable&, UErrorCode&) const;
+    auto getAllFieldPositionsImpl(icu::FieldPositionIteratorHandler&, UErrorCode&) const;
+    auto getDecimalQuantity(icu::number::impl::DecimalQuantity&, UErrorCode&) const;
+    auto getNounClass(UErrorCode&) const;
+    auto getOutputUnit(UErrorCode&) const;
+    auto nextPosition(icu::ConstrainedFieldPosition&, UErrorCode&) const;
+    auto operator=(icu::number::FormattedNumber&&);
+    auto toDecimalNumber(icu::ByteSink&, UErrorCode&) const;
+    auto toString(UErrorCode&) const;
+    auto toTempString(UErrorCode&) const;
     ~FormattedNumber();
 };

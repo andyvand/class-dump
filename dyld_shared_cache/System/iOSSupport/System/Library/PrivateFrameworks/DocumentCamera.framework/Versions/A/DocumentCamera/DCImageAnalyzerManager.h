@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id)Ð;
-- (void);
-- (void);
++ (id);
 - (void);
 - (id);
+- (void);
+- (void)DCLabelledButton",&,N,V_addLabelledButton;
 
 @end
 

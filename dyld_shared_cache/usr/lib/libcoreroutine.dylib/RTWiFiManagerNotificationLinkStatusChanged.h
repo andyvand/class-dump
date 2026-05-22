@@ -16,8 +16,8 @@
 
 - (id);
 - (unsigned long long);
-- (void);
 - (id);
+- (void)@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *accessPoints; // @synthesize accessPoints=_accessPoints;

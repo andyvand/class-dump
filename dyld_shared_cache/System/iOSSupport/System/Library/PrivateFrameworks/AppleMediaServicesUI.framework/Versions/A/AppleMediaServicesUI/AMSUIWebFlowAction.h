@@ -37,24 +37,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (id);
-- (long long);
-- (void);
 - (id);
 - (struct CGSize);
 - (void);
+- (long long);
+- (void);
 - (id);
 - (void);
 - (long long);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)ÚÆïÿ;
-- (long long)d;
-- (id)MESSAGE;
-- (void)ðÿýf [*;
+- (long long)!Bù1°1B50@ù
+× ;
+- (void)ument: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id actionData; // @synthesize actionData=_actionData;

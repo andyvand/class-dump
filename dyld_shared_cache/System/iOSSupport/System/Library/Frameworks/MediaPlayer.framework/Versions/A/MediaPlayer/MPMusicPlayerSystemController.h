@@ -13,12 +13,12 @@
 }
 
 - (void);
-- (_Bool)figuration";
+- (_Bool);
 - (id);
-- (id)48B56d60d68i76;
-- (void)24;
-- (void)tle:(CDUnknownBlockType)arg1 subtitle:badge:threadID:categoryID:sectionID:contactIDs:isGroupMessage: /* Error: Ran out of types for this method. */;
-- (long long)entifiersLookupStatement:%@ %@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (long long);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

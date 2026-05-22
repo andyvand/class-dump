@@ -14,9 +14,9 @@
 + (_Bool);
 + (id);
 - (id);
-- (void);
-- (id)Proof:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
+- (id)iewModel;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;

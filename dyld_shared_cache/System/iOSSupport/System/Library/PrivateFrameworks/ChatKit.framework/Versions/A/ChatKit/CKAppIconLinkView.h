@@ -20,20 +20,20 @@
 - (void);
 - (void);
 - (void);
-- (void)p;
-- (void)e;
-- (id).apple.mobilenotes.text;
+- (void);
+- (void);
+- (id);
 - (struct CGRect);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (void);
 - (long long);
-- (id)ý0;
+- (id);
+- (void);
+- (void)yerReusePool;
 
 // Remaining properties
 @property(nonatomic) long long appName; // @synthesize appName=_appName;

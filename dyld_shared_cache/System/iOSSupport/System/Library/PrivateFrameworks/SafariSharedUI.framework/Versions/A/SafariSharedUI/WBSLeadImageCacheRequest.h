@@ -12,7 +12,7 @@
     _Bool _allowRetries;
 }
 
-+ (id) ;
++ (id);
 - (id);
 - (_Bool);
 - (_Bool);

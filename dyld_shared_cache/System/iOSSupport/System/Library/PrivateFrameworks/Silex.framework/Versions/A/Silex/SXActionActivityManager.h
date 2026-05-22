@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)}32;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *activityProviders; // @synthesize activityProviders=_activityProviders;

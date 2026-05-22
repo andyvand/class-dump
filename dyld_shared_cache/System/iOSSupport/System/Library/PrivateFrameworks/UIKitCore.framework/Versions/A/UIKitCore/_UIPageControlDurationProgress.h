@@ -22,10 +22,10 @@
 - (double);
 - (double);
 - (id);
-- (_Bool)SSet"16B24;
-- (void)esentationAssistant";
+- (_Bool);
 - (void);
-- (void)ument creation session whilst an existing session is active;
+- (void)cceptedTextCompletion;
+- (void)×^;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIPageControlDurationProgressDelegate> delegate; // @dynamic delegate;

@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)ay"32@0:8@"UIDragInteraction"16@"<UIDragSession>"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAdvertisingSettings> debugSettings; // @synthesize debugSettings=_debugSettings;

@@ -26,22 +26,22 @@
 - (id);
 - (_Bool);
 - (void);
-- (unsigned int);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (_Bool);
+- (void);
+- (unsigned int);
 - (id);
 - (id);
+- (_Bool)t°;
+- (void)time request;
+- (void)emoteQuarantinePolicyManager cannot access the filesystem.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *folderSource; // @synthesize folderSource=_folderSource;

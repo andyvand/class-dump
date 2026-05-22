@@ -9,11 +9,14 @@
 @interface ConversationKit.SensitiveContentController
 {
     MISSING_TYPE *conversationController;
-    MISSING_TYPE *multiwayViewController;
+    MISSING_TYPE *delegate;
+    MISSING_TYPE *currentCallUniqueProxyIdentifier;
+    MISSING_TYPE *isReporting;
     MISSING_TYPE *participantAnalysisHistory;
     MISSING_TYPE *streamSettingsToRestore;
     MISSING_TYPE *analysisByParticipant;
-    MISSING_TYPE *$__lazy_storage_$_shield;
+    MISSING_TYPE *backingShieldView;
+    MISSING_TYPE *callStatusCancellable;
 }
 
 @end

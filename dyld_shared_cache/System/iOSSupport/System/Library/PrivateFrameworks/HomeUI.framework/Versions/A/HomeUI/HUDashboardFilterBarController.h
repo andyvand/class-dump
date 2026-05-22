@@ -40,15 +40,15 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id)16q24;
-- (id)e: /* Error: Ran out of types for this method. */;
-- (void)lerate:(id)arg1;
-- (void)~}ÇÞ;
-- (void)7¼×õ÷;
-- (void);
+- (void);
+- (void);
+- (void);
+- (void)tationController>",W,N,V_presentationController;
+- (id);
+- (void)larmTableViewController presentAddMobileTimerObjectViewControllerOnMainThread];
 
 // Remaining properties
 @property(nonatomic, copy) NSString *contextTypeDescriptionForAnalytics;

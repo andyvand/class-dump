@@ -51,28 +51,29 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long)Ҕ;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void)@yka;
-- (long long);
-- (double);
 - (void);
 - (long long);
 - (double);
+- (void);
+- (long long);
+- (double);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
-- (void)AudioSourceCache;
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool)SRange=QQ}16@32B40;
-- (void)e: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
+- (void)a°!CùñZ1Â0@ù
+× ;
+- (_Bool)× ;
+- (id)eftCommand;
+- (void)\¬;
+- (void)ResolverElements;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsUserInteractionInExpandedPreview; // @synthesize allowsUserInteractionInExpandedPreview=_allowsUserInteractionInExpandedPreview;

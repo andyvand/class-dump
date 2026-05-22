@@ -62,13 +62,13 @@
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
-- (id);
-- (id)Â´þÿ;
-- (void)GSgtGSgG_ADyA18_Sg_È#yAAyAAyAAyñ!yAAyl?;
-- (void)ÿÅÞ¯Þ6;
+- (void)crolling;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canStartSkimming;

@@ -41,20 +41,21 @@
 - (void);
 - (void);
 - (id);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (long long);
 - (void);
 - (void);
 - (void);
+- (long long);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) UIVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;

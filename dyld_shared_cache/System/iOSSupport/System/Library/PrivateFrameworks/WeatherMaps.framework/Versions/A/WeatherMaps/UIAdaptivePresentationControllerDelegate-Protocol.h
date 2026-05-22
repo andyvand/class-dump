@@ -5,5 +5,10 @@
 //
 
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (_Bool)gestureRecognizer;
+- (long long)ypeP;
+- (void);
 @end
 

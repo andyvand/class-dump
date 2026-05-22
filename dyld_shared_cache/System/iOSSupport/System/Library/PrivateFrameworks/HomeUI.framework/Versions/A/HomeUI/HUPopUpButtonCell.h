@@ -15,14 +15,14 @@
 }
 
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
-- (_Bool)r.fill.fill;
-- (void)âÕÿX|õI!;
+- (void);
+- (id);
+- (void)up;
+- (id);
+- (_Bool);
+- (void)ÿUý¬Ã;
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *button; // @synthesize button=_button;

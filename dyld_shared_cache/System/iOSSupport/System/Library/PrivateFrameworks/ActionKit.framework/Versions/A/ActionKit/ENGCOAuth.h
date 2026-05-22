@@ -22,8 +22,13 @@
 + (id);
 + (id);
 + (void);
-+ (void)TA;
-+ (id)Õ[}àÄ;
++ (void)hm;
++ (id)R;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -31,15 +36,10 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (id)ntryCode:completion: /* Error: Ran out of types for this method. */;
+- (void)Note;
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id)orNotification;
-- (id)Ôêµ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *HTTPMethod; // @synthesize HTTPMethod=__method;

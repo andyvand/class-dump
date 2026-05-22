@@ -49,9 +49,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)Provider;
 
 // Remaining properties
 @property(readonly, nonatomic) NSAttributedString *addressDescriptionForContact;

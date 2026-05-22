@@ -16,14 +16,14 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (_Bool);
-- (void)ontentType;
-- (id)ontentManaged;
+- (void);
+- (_Bool)gDiagnosticProperties;
+- (void)(;
 
 // Remaining properties
 @property(nonatomic, getter=isDisabled) _Bool disabled; // @synthesize disabled=_disabled;

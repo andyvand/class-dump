@@ -22,9 +22,9 @@
 }
 
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)yytG;
 
 @end
 

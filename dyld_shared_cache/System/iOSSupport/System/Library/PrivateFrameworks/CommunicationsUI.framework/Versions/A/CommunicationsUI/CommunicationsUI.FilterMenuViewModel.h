@@ -18,8 +18,9 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
 - (id);
+- (void)á!Ð!Aùñ(°1B50@ù
+× ;
 
 @end
 

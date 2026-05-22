@@ -26,8 +26,8 @@
 - (struct CGImage *);
 - (void);
 - (unsigned long long);
-- (void);
 - (id);
+- (void)eringHelper;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *badgeImage; // @synthesize badgeImage=_badgeImage;

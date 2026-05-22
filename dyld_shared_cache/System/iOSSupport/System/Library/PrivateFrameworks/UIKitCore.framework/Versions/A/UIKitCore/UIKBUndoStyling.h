@@ -27,46 +27,46 @@ __attribute__((visibility("hidden")))
     long long _appearance;
 }
 
-- (id)chatID:(id)arg1 identifier:style:account: /* Error: Ran out of types for this method. */;
-- (id)vice: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool)izedID;
-- (double)nonRetainingArray;
-- (_Bool)CSSendWithoutEncryption;
-- (void)ipientCommandForMessages:(_Bool)arg1 inChat: /* Error: Ran out of types for this method. */;
-- (void)nsHandler:(double)arg1;
-- (void)rMessage:(_Bool)arg1 chat: /* Error: Ran out of types for this method. */;
-- (void)viceForHandle;
-- (void)nt;
-- (void)managed;
-- (void)GisLoading,V_loading;
-- (void)ionBlock:(_Bool)arg1;
-- (void)ntCommandWithPipeline:(double)arg1 input:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)",R,N,V_readTimestamp;
-- (void)oveMessageWithGUID:(id)arg1 fromChat: /* Error: Ran out of types for this method. */;
-- (void),C,N;
-- (void)eForHighQualityPhotoSize:(id)arg1 commonCapabilities: /* Error: Ran out of types for this method. */;
-- (void)esForParticipants;
 - (id);
 - (id);
 - (id);
-- (_Bool)s with summaries, but there were no summaries provided.;
-- (double).;
+- (_Bool);
+- (double);
+- (_Bool);
 - (void);
-- (id)nterval %@;
-- (id)e notifications;
-- (id)Registered for cloudkit account change notifications;
-- (id)alling into acceptChatToPeerDevicesForMessageGUID:from service that doesn't support it. File a radar-------*/ /* Error: Ran out of types for this method. */;
-- (id)ing into downloadTranslationAssetsForLanguageCodes from legacy service session, please file a radar-------*/;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (double);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)
+- (long long);
+- (void)0@ù
 × ;
-- (_Bool)ew"16@"UIDropInteraction"24@"<UIDropSession>"32;
-- (long long)wingContext;
-- (void);
+- (_Bool)as called already;
+- (void)<ÉþþðÙp¼f;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *HUDShadowColor; // @synthesize HUDShadowColor=_HUDShadowColor;

@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id), %s:(id)arg1 isWorkoutOngoing, %{bool}d, activity, %lu, sessionType, %ld;
 
 @end
 

@@ -15,9 +15,9 @@
 - (long long);
 - (id);
 - (struct UIEdgeInsets);
-- (void);
-- (void);
-- (id)9¸;
+- (id);
+- (void)|ûÿ*çøÿ;
+- (void)&& %K == %d;
 
 // Remaining properties
 @property(copy, nonatomic) PXYearsLayoutMetrics *metrics; // @synthesize metrics=_metrics;

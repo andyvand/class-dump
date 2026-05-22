@@ -5,10 +5,5 @@
 //
 
 @protocol UIViewControllerPreviewingDelegate_Private
-
-@optional
-- (void);
-- (_Bool);
-- (void);
 @end
 

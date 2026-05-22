@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_candidateItems;
 }
 
-+ (_Bool)sting notification:%{public}@ /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)M>g;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -46,8 +46,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
 - (long long);
+- (void)nSection:afterEntry:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *candidateItems; // @synthesize candidateItems=_candidateItems;

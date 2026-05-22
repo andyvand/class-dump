@@ -17,19 +17,19 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void)>;
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (void);
 - (void);
 - (void);
-- (id);
 - (CDUnknownBlockType);
-- (id)corator;
+- (id);
+- (void)WithTouch:(CDUnknownBlockType)arg1 returningRep: /* Error: Ran out of types for this method. */;
+- (id)angeVisibility;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *enumeratorStack; // @synthesize enumeratorStack=_enumeratorStack;

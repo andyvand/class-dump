@@ -40,7 +40,6 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
@@ -60,16 +59,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)1B0@ù
-× ;
-- (id)TtCCC14VoiceShortcutsP33_140FF4AD5A3C9CD397475339CE5392A218DaemonTaskExecutor9TaskQueue10QueuedTask;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) WFTopHitsAppShortcutsUpdater *appShortcutsUpdater; // @synthesize appShortcutsUpdater=_appShortcutsUpdater;

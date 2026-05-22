@@ -13,11 +13,11 @@
 }
 
 - (struct CGSize);
-- (void);
-- (void);
-- (id);
 - (id);
 - (struct CGSize);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UISearchBar *searchBar; // @synthesize searchBar=_searchBar;

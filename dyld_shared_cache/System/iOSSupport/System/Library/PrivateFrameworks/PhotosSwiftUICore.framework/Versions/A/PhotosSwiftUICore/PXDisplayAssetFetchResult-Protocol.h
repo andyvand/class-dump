@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
 @protocol PXDisplayAsset;
 
 @protocol PXDisplayAssetFetchResult
+- (id <PXDisplayAsset>);
+- (NSArray *)Ï
+;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> firstObject;

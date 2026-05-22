@@ -15,13 +15,13 @@
 }
 
 - (void);
-- (id);
 - (id);
-- (long long)GLProgrammability.dylib;
 - (id);
+- (long long);
 - (void);
-- (void);
-- (id)× ;
+- (id);
+- (id)brid property animator from the ;
+- (void)w;
 
 // Remaining properties
 @property(nonatomic) long long blurStyle; // @synthesize blurStyle=_blurStyle;

@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (id);
 
 @end

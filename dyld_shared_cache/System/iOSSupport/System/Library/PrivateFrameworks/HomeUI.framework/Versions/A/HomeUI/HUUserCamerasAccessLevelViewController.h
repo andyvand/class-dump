@@ -25,8 +25,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ewFirstAppearance;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HUUserCamerasAccessLevelItemManager *camerasAccessLevelItemManager; // @synthesize camerasAccessLevelItemManager=_camerasAccessLevelItemManager;

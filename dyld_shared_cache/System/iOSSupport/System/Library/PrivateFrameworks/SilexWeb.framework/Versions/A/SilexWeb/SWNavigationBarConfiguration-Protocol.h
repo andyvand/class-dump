@@ -8,7 +8,6 @@
 @protocol SWShareConfiguration;
 
 @protocol SWNavigationBarConfiguration
-- (id <SWShareConfiguration>)8;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SWShareConfiguration> shareConfiguration;

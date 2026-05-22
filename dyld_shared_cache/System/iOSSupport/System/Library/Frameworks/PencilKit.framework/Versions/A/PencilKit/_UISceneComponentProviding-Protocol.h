@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScene;
+@class NSArray, UIScene;
 
 @protocol _UISceneComponentProviding
-- (void):(UIScene *)arg1 toLocation:knobDragMode:selectionType:touchType: /* Error: Ran out of types for this method. */;
-- (UIScene *)erViewController;
-- (id)legate>",W,N,V_delegate;
+- (id)usViewPositionConstraints;
+- (UIScene *);
 
 @optional
-- (void);
-- (void)ceneDelegateVisibilityObserver>",W,N,V_keyboardSceneDelegateVisibilityObserver;
+- (NSArray *)be available in a few minutes.;
+- (void)¨VÌÿåàbÕÌÿåàbÈÕÌÿåàb<³Ðÿ;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;

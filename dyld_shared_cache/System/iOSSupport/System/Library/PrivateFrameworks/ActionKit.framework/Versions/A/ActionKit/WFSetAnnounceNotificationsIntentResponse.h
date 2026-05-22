@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)four128;
-- (void)assword Expired, and no callback specified;
+- (long long)book:notebookGuid: /* Error: Ran out of types for this method. */;
+- (void)gVoice:(long long)arg1 rate:pitch:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

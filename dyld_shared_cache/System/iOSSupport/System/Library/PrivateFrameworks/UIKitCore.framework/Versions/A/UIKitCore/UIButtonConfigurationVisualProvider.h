@@ -30,136 +30,128 @@
     double _previousLastBaselineOffsetForAttributeLowering;
 }
 
-+ (_Bool)dAccounts: /* Error: Ran out of types for this method. */;
-+ (_Bool)onSettings;
++ (_Bool);
++ (_Bool);
 + (id);
-+ (_Bool)private}ld;
-- (id);
++ (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)code:(id)arg1;
+- (_Bool);
 - (CDStruct_b8e46c6b);
-- (struct CGRect)P;
-- (struct CGRect);
+- (CDStruct_b8e46c6b);
 - (void);
-- (double);
+- (id);
 - (_Bool);
+- (CDStruct_b8e46c6b);
 - (void);
 - (id);
-- (id);
-- (void)A;
-- (void);
-- (id);
-- (CDStruct_b8e46c6b)e-using existing key %@ for chunk %s;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void)onBuilder";
-- (id)ck:(id)arg1;
-- (void): /* Error: Ran out of types for this method. */;
-- (id)stItem;
-- (void);
-- (void)was missing mapping for MPModelPropertyPodcastEpisodeDuration;
-- (void);
-- (struct CGSize);
-- (id);
-- (void);
-- (struct CGRect);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (CDStruct_b8e46c6b)<(Âì;
-- (id)1¢!0@ù
-× ;
-- (void)AoÐ!Bù±Á1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)1Ä1¢!0@ù
+- (struct CGSize)[°1Â0@ù
 × ;
 - (_Bool);
 - (void)0@ù
 × ;
-- (_Bool)!EùÑÆÐ1¢!0@ù
-× ;
-- (void)@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (void)avð!XEù1ËÐ1¢!0@ù
-× ;
-- (_Bool)
-× ;
-- (_Bool)1Îð1¢!0@ù
-× ;
+- (_Bool)opAttributeConstant:(id)arg1;
+- (_Bool)EffectViewConstraintsIfNeeded;
+- (double)tPoint: /* Error: Ran out of types for this method. */;
+- (void)nsitionOverlayView;
+- (void)upted;
+- (struct CGRect)"8@"NSNumber"16^B24;
+- (id)e only %ld items in section %ld. Collection view:%@. /* Error: Ran out of types for this method. */;
+- (id)on.;
+- (struct CGSize)erPreferredSizesRebaseInfo *> *const __strong, _UICollectionCompositionalLayoutSolverUpdate *const __strong, BOOL)_block_invoke_4;
+- (void)ebugEnabled;
+- (double)tStyleExtraLight;
+- (id)rnalIvarStorageAllocation * _Nullable * _Nonnull, const NSUInteger);
+- (void)ert controller presenting as an alert must not have its delegate modified;
+- (void)dShadowOpacity;
+- (struct CGSize);
+- (_Bool)ontroller cannot materialize after other state mutations have occurred ð¤;
 - (void);
-- (id)_NSRange=QQ}24{_NSRange=QQ}40;
-- (void)tte"B};
-- (void)ngRTLInputMode;
-- (struct CGPoint)itCollectionWithTraitsFromCollections:(id)arg1;
-- (double)UseSelectedImage: /* Error: Ran out of types for this method. */;
-- (id)State:(id)arg1;
-- (_Bool)ithPattern:options:error: /* Error: Ran out of types for this method. */;
-- (_Bool)idth;
-- (void)ounded;
-- (void)State;
-- (void)s:(CDUnknownBlockType)arg1;
-- (void)sHDRDuringPresentation;
-- (id)iewControllerForDroppingUserActivityOfType: /* Error: Ran out of types for this method. */;
-- (id)tionContainerViewForResponder: /* Error: Ran out of types for this method. */;
-- (void)unds:(_Bool)arg1 availableBounds: /* Error: Ran out of types for this method. */;
-- (struct CGSize)hEnvironments:(struct CGSize)arg1;
-- (void):(id)arg1 rect:(unsigned long long)arg2 options:context: /* Error: Ran out of types for this method. */;
-- (_Bool)ex;
-- (void)cription:includePrivateTraits: /* Error: Ran out of types for this method. */;
-- (CDStruct_b8e46c6b)itionOnEnd;
-- (id)setSkipsLayout: /* Error: Ran out of types for this method. */;
-- (id)el:(id)arg1;
-- (_Bool)nstraint",R,N,V_minimumWidthConstraint;
-- (void)ollerDelegate>",W,N,V_browserDelegate;
-- (void)textsByIndexPath;
-- (void)port;
-- (_Bool)rSupport;
-- (void)lùûü|ü\ý;
-- (struct CGSize)´bÔc;
-- (struct CGRect)tÐ;
-- (CDStruct_c3b9c2ee)guration either has no preview or there is no current context menu presentation; configuration = %@;
-- (void)nt=%{public}d hasExternalConnected=%{public}d isCharging=%{public}d isFullyCharged=%{public}d;
-- (void)ting:(id)arg1 %@;
-- (id);
-- (void)ÿÿ)ýÿà(ýÿê)ýÿ;
-- (void)ierGroupCcG;
-- (void)arget/action pair from its built-in pan gesture recognizer.;
-- (id)to an invalid value being returned from the implementation of -tableView:editingStyleForRowAtIndexPath:of this table view's delegate:%@ /* Error: Ran out of types for this method. */;
-- (double)ard input separator;
-- (void)Bitmap orientation-adjusted size:(id)arg1 {width=%lu, height=%lu}; Orientation:(unsigned long long)arg2 %@; Scale:%.1f; Coordinate space:%@ /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)ollableContainer != nil;
-- (id)ntainerNode<_UICollectionViewRTreeElement>::commonInit() [T = _UICollectionViewRTreeElement] /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)outMarginsVisualizer;
-- (void)À;
+- (id)¼ñýÿRZþÿRZþÿøÿÿ|hþÿ&$ÿÿÞ$ÿÿjhþÿÚ$ÿÿ;
+- (void);
+- (void);
+- (void)¬þ;
+- (void)`z¾7yn¦;
+- (id)_p;
+- (id)Aê¿7}03Iegnngd_;
+- (void):(id)arg1 path:/System/Library/PrivateFrameworks/RevealCore.framework/RevealCore /* Error: Ran out of types for this method. */;
+- (struct CGRect);
+- (CDStruct_b8e46c6b)?+öÝë?ç;dîð?ç;dîð¿)\Âõ(¬?Ãõ(\Âá?;
+- (void);
+- (void)raitControlGlassStyle;
+- (void)h:(id)arg1 2h23g;
+- (double)·%;
 - (double);
+- (void)D33àþD33,þ;
+- (_Bool);
+- (_Bool)ratorState;
+- (void)ð¢;
+- (void);
+- (void)á43¤tþ;
+- (id)pÊE[;
+- (CDStruct_c3b9c2ee);
 - (void);
 - (void);
-- (_Bool)RËþd;
-- (id)BWÔb;
-- (void)ªFd;
-- (_Bool)Ì½of;
-- (void)N_Q3g;
-- (void)Ý¹ÿ6Ñßij;
-- (void)`3ÿÑWZ7k;
-- (struct CGRect),°ûþÁêØÑcn;
-- (id)(¶p;
+- (void);
+- (id);
+- (void)ÜÌ\;
+- (void);
+- (void)tq];
+- (void)ÜçÒþq;
+- (_Bool),ú];
+- (void)_;
+- (void)Øä¯^;
+- (void)P½^;
+- (void);
+- (void)æþq;
+- (void)Å_;
+- (struct CGRect);
+- (void).à4;
+- (_Bool)|ÿÅ;
+- (void)hßþ3;
+- (void)KÿE;
+- (void)`ÝIÿbí;
+- (void)Áe;
+- (id)q;
+- (void);
+- (id);
+- (id)É,Ùtc;
+- (void),NÿSÌ@;
+- (void);
+- (id)x;
+- (void)t°ÌÌèd;
+- (void)?×àõd;
+- (void)úÿ;
+- (_Bool)¸bþH);
+- (void)þ;
+- (void)äWf;
+- (id)n<U;
+- (void)|´f;
+- (void)Rëÿ°.Êà
+g;
+- (void)GÿÙÌ>h;
+- (_Bool)];
+- (struct CGRect)¼!h;
+- (struct CGPoint)®h;
+- (void)$aÆÿ;
+- (struct CGRect)1iþo¡;
+- (void)8Óx´i;
+- (id)ôÊÄ j;
+- (void);
+- (struct UIEdgeInsets)ÿC;
+- (id)ll;
+- (_Bool)ÃÙdEl;
+- (_Bool)Fÿ¹ÕÐ¹l;
+- (void)àþl;
+- (id)ÄkÿM ;
+- (id)¶m;
+- (void)7h¥;
+- (id)Ào;
+- (id)>O×äo;
+- (void);/ÿ´wpDp;
+- (_Bool)7p;
+- (id)ÑÍ¬Øp;
 
 // Remaining properties
 @property(nonatomic) _Bool avoidDefaultTitleAndImageLayout; // @synthesize avoidDefaultTitleAndImageLayout=_avoidDefaultTitleAndImageLayout;

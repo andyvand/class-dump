@@ -18,9 +18,9 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
 - (id);
-- (void)notificationCenter;
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType errorBlock; // @synthesize errorBlock=_errorBlock;

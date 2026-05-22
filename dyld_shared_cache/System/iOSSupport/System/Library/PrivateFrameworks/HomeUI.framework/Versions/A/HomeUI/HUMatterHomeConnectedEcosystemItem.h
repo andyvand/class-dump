@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)n_Title;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *accessoryUUIDs; // @synthesize accessoryUUIDs=_accessoryUUIDs;

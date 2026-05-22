@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id)SourceManager.m;
-- (struct _NSRange)±!0x;
+- (struct _NSRange);
+- (id)sourceViewScrollRequestHandler;
 
 // Remaining properties
 @property(readonly, nonatomic) long long moduleType; // @synthesize moduleType=_moduleType;

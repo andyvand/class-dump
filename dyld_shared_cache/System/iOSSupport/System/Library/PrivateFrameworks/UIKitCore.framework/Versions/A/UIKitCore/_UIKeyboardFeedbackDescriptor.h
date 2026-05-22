@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     NSString *_audioFile;
 }
 
-+ (id)falling back to iMessage maximum;
++ (id);
 - (void);
 - (void);
 - (float);
@@ -23,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (float);
+- (float);
 - (void);
 
 // Remaining properties

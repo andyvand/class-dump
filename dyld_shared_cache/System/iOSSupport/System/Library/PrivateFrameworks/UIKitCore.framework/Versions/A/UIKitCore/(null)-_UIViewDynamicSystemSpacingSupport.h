@@ -7,6 +7,6 @@
 @interface (null) (_UIViewDynamicSystemSpacingSupport)
 - (id);
 - (id);
-- (id)O;
+- (id);
 @end
 

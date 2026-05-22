@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)°0È<Hì¢ì£;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *chatGUID; // @synthesize chatGUID=_chatGUID;

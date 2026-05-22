@@ -5,6 +5,7 @@
 //
 
 @class NSString, WFSlotTemplateTextStorage;
+@protocol NSLayoutManagerDelegate, WFSlotTemplateLayoutManagerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface WFSlotTemplateLayoutManager
@@ -12,10 +13,13 @@ __attribute__((visibility("hidden")))
     _Bool _isLayoutManagerForTextView;
     _Bool _extendSlotBackgroundOffEdges;
     unsigned long long _useCase;
+    id <WFSlotTemplateLayoutManagerDelegate> _slotTemplateDelegate;
 }
 
+- (id);
 - (struct UIEdgeInsets);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -28,24 +32,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
 - (_Bool);
+- (void);
 - (void);
 - (struct CGRect);
-- (_Bool);
 - (long long);
+- (unsigned long long);
+- (_Bool);
 - (void);
-- (unsigned long long)rvices30CustomEnumerableParameterValueP;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
 
+@property(nonatomic) __weak id <NSLayoutManagerDelegate> delegate; // @dynamic delegate;
 @property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool extendSlotBackgroundOffEdges; // @synthesize extendSlotBackgroundOffEdges=_extendSlotBackgroundOffEdges;
 @property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool isLayoutManagerForTextView; // @synthesize isLayoutManagerForTextView=_isLayoutManagerForTextView;
 @property(readonly, nonatomic) unsigned long long numberOfLaidLines;
+@property(nonatomic) __weak id <WFSlotTemplateLayoutManagerDelegate> slotTemplateDelegate; // @synthesize slotTemplateDelegate=_slotTemplateDelegate;
 @property(readonly) Class superclass;
 @property(nonatomic) WFSlotTemplateTextStorage *textStorage; // @dynamic textStorage;
 @property(nonatomic) unsigned long long useCase; // @synthesize useCase=_useCase;

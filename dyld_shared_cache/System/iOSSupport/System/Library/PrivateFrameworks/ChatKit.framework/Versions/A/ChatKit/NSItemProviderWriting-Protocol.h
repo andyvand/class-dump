@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSProgress;
+@class NSArray;
 
 @protocol NSItemProviderWriting
-- (NSProgress *);
++ (NSArray *): /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSArray *)pe: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *writableTypeIdentifiersForItemProvider;

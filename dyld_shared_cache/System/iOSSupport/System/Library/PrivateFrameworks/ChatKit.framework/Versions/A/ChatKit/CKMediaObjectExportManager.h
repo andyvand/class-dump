@@ -24,17 +24,16 @@
 - (void);
 - (id);
 - (id);
-- (id)ue to missing text storage;
-- (_Bool)o get a view class for an attachment with an unknown text attachment type:%@ /* Error: Ran out of types for this method. */;
-- (void)berController15HoverController;
-- (void)sShowing;
+- (id);
+- (_Bool);
 - (void);
-- (void)ewController;
-- (void)erge;
-- (void)hide the contents of your locked notes. The notes also lock with inactivity.;
-- (id)-q
-;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void) ¼è´;
 
 // Remaining properties
 @property(nonatomic) _Bool ignoreSyndicationIdentifiers; // @synthesize ignoreSyndicationIdentifiers=_ignoreSyndicationIdentifiers;

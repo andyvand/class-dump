@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)marking pipeline component as finished.;
-- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id)iceInfo;
 
 // Remaining properties
 @property(nonatomic, readonly) _UIMagicMorphView *morphView; // @synthesize morphView;

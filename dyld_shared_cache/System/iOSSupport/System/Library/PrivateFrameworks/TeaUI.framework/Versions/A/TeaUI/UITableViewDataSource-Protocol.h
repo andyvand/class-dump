@@ -5,6 +5,5 @@
 //
 
 @protocol UITableViewDataSource
-- (long long)nterface new] unexpectedly called;
 @end
 

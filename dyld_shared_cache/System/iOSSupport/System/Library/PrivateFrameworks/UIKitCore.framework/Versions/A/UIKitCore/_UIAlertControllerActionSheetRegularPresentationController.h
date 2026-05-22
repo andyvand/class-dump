@@ -11,16 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id)hBlock: /* Error: Ran out of types for this method. */;
-- (unsigned long long)cate;
 - (id);
 - (_Bool);
-- (id)ate:(id)arg1;
-- (id)medToCount: /* Error: Ran out of types for this method. */;
+- (_Bool)"centerPlaceholder"b1"disabled"b1"reliesOnNavigationBarBackdrop"b1"drawsBackgroundInPalette"b1"hideBackground"b1"backgroundLayoutNeedsUpdate"b1"usesEmbeddedAppearance"b1"showsCancelButton"b1"autoDisableCancelButton"b1"showsDeleteButton"b1"showsSearchResultsButton"b1"searchResultsButtonSelected"b1"showsBookmarkButton"b1"isPlacedInNavigationBar"b1"isPlacedInToolbar"b1"isInNavigationPalette"b1"isHostedByNavigationBar"b1"showsScopeBar"b1"allowsInlineScopeBar"b1"isAnimatingScopeBarIn"b1"isAnimatingScopeBarOut"b1};
+- (_Bool)supportsOverflow;
+- (id)g to Redo;
+- (unsigned long long)KBTreePropertySplitMode;
+- (id)UINibKeyValuePairsKey;
+- (id)Û^;
 
 @end
 

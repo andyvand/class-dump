@@ -11,14 +11,14 @@
     id <RTManagedConfigurationObserver> _delegate;
 }
 
-+ (id)i;
++ (id)³À-T ;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (void);
-- (id)Identifier:keyData:keySize:error: /* Error: Ran out of types for this method. */;
-- (void)setCountOfWalkTraversal:(id)arg1;
+- (void)isconnected, %@;
 
 // Remaining properties
 @property(nonatomic) __weak id <RTManagedConfigurationObserver> delegate; // @synthesize delegate=_delegate;

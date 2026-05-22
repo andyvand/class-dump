@@ -44,7 +44,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (_Bool);
-- (id)_֡;
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -66,43 +66,47 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void)relay:(id)arg1 sendInitateRequest:(id *)arg2 toPerson: /* Error: Ran out of types for this method. */;
-- (void)tchMessageRecordCountForChatRecordWithGUID:(unsigned long long)arg1 filteredUsingPredicate:limit:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ssageHistorySummaryForDateInterval:chatIdentifiers:chatStyle:services:reply: /* Error: Ran out of types for this method. */;
-- (void)ssForPhoneNumber:(id)arg1 simID: /* Error: Ran out of types for this method. */;
-- (void)angesCKOperationUsingToken:zone:resultsLimit:activity: /* Error: Ran out of types for this method. */;
-- (void)light:(id)arg1 highlight:(id)arg2 completionBlock:(CDUnknownBlockType)arg3;
-- (void)redKeys:operationGroupName:activity: /* Error: Ran out of types for this method. */;
-- (void)ionUsingToken:(unsigned long long)arg1 zoneID:resultsLimit:desiredKeys:operationGroupName:activity: /* Error: Ran out of types for this method. */;
-- (void)rtialError: /* Error: Ran out of types for this method. */;
-- (_Bool)allpaperLowResDataTag:wallpaperMetadataTag:avatarRecipeDataTag:completionBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)e task because it has higher priority work;
-- (void);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool)s: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id)l: /* Error: Ran out of types for this method. */;
-- (struct CAPoint3D)inputString:searchString: /* Error: Ran out of types for this method. */;
-- (id)d Items only expected for content area.;
-- (void).UIKit.Search;
-- (unsigned int)ÔÍW^;
+- (id);
+- (void)!Bù^1Â0@ù
+× ;
+- (_Bool);
+- (void)1Â0@ù
+× ;
+- (long long)!
+ð!Cù±f1Â0@ù
+× ;
+- (void)V_displayStyle;
+- (struct CAPoint3D)(%lu) is greater than max size %d;
+- (void)43¨sþ43Ìsþ;
+- (unsigned int)¬^;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canAddItems;

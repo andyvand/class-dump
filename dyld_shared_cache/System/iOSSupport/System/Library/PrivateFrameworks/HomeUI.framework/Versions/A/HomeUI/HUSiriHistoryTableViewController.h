@@ -22,7 +22,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)u_presentNotificationAlertForNotificationCapableObjects:notificationsEnabled:mainActionBlock:notNowActionBlock:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -26,10 +26,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ÿóM*¦4;
+- (id);
+- (void)[];
 
 // Remaining properties
 @property(readonly, nonatomic) PXContentSyndicationPhotoKitDataSource *dataSource; // @dynamic dataSource;

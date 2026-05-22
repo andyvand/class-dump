@@ -17,14 +17,13 @@
 
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void)1B0@ù
-× ;
-- (void)XÂ;
+- (void);
+- (id)tShortcutResult;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CKOperation *cloudOperation; // @synthesize cloudOperation=_cloudOperation;

@@ -4,5 +4,6 @@
 
 class swift::TaskLocal::ValueItem {
 public: // (access info unavailable from symbols alone)
-    copyTo(swift::AsyncTask*);
+    auto copyTo(swift::AsyncTask*);
+    auto create(swift::AsyncTask*, swift::HeapObject const*, swift::TargetMetadata<swift::InProcess> const*, bool);
 };

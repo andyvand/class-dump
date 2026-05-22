@@ -11,18 +11,18 @@
 }
 
 + (double);
-+ (double);
-+ (_Bool);
-+ (double);
 + (long long);
 + (struct CGPoint);
 + (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
 + (id);
 + (double);
-+ (double);
-+ (double);
-+ (double);
-+ (double);
++ (_Bool);
 + (double);
 - (double);
 - (double);

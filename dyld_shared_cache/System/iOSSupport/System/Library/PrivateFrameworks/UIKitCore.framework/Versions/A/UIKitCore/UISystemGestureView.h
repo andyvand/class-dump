@@ -11,12 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (struct CGRect);
 - (_Bool);
-- (struct CGRect)ollerEnabled:(id)arg1;
-- (id)t received %@;
-- (_Bool)ment performing writeContents:andAttributes:safelyToURL:%@ /* Error: Ran out of types for this method. */;
-- (void)onItemSearchBarVisibilityWhenScrolling;
-- (_Bool)3¼;
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)col>"16@0:(id)arg1 8;
+- (id)ClickInteractionDriver;
+- (void)I¯þø;
 
 @end
 

@@ -10,9 +10,9 @@
 }
 
 - (id);
+- (id);
 - (struct CGSize);
 - (void);
-- (id);
 
 @end
 

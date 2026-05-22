@@ -17,20 +17,20 @@ __attribute__((visibility("hidden")))
     MPSectionedCollection *_unpersonalizedContentDescriptors;
 }
 
-- (id)ting accounts { error:%@}} /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 - (void);
-- (id)ts/MacOS/SearchPartyAccountNotificationPlugin;
-- (id)count:inStore: /* Error: Ran out of types for this method. */;
-- (void)public}@;
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)@ %2i %{public}@  â delegatedDeviceOSVariant:%{public}@; delegatedDeviceUserAgent:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *adamIDData; // @synthesize adamIDData=_adamIDData;

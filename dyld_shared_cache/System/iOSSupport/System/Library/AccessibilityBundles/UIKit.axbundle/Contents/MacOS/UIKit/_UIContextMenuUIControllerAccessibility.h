@@ -10,12 +10,13 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);

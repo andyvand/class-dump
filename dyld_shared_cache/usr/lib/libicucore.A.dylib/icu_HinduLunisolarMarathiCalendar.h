@@ -5,10 +5,10 @@
 class icu::HinduLunisolarMarathiCalendar {
 public: // (access info unavailable from symbols alone)
     HinduLunisolarMarathiCalendar(icu::Locale const&, UErrorCode&);
-    clone() const;
-    getDynamicClassID() const;
-    getStaticClassID();
-    getType() const;
-    getYearOffset() const;
+    auto clone() const;
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto getType() const;
+    auto getYearOffset() const;
     ~HinduLunisolarMarathiCalendar();
 };

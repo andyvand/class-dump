@@ -16,14 +16,16 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
-- (id),&,N,V_stickerPrewarmingViewController;
-- (void)ÿæÖyþ;
-- (id)dient;
-- (void)ghtMidGrayTintColor;
-- (void)ontentView22AugmentedTitleViewHost;
-- (void)_;
-- (id)|;
+- (void)
+× ;
+- (void)fð1Â0@ù
+× ;
+- (id),V_on;
+- (id)UISplitViewControllerAdaptiveImpl _toggleSplitViewControllerColumnVisibility:(id)arg1 ];
+- (id)ªªG@;
+- (void)t·ìþI|;
+- (void)ØÜàÿ`ÌÜ3`;
+- (void)þq;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -7,6 +7,6 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (_Bool)ImageAnalysisInteractionContextDelegate>",W,N,Vdelegate;
+- (_Bool);
 @end
 

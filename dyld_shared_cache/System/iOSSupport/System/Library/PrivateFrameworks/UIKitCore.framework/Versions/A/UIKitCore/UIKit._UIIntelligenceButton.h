@@ -21,16 +21,14 @@
 }
 
 - (_Bool);
-- (void);
 - (id);
-- (void)1¢!0@ù
-× ;
 - (void);
-- (unsigned long long)omRightRadius;
-- (id)this issue, check the Console app for logs in the "UICollectionViewFeedbackLoopDebugger" category.
-Collection view:(struct CGRect)arg1;
-- (void)×ÂÒ¹n;
-- (_Bool)Ø3Üÿ;
+- (id)nternal;
+- (void)ContainerNode<T>>, shared_ptr<_UIRTreeContainerNode<T>>) [T = _UICollectionViewRTreeElement];
+- (void);
+- (unsigned long long)ô6ØÄðj;
+- (void)ÔÉl;
+- (_Bool)o;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool _allowsSymbolAnimations;

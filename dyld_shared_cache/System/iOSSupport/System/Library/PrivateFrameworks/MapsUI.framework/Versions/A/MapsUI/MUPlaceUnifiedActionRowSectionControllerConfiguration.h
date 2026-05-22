@@ -62,15 +62,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
+- (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (void)nState;
 
 // Remaining properties
 @property(nonatomic) __weak MKPlaceActionManager *actionManager; // @synthesize actionManager=_actionManager;

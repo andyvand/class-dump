@@ -56,17 +56,17 @@
 - (void);
 - (id);
 - (id);
+- (unsigned long long);
+- (id);
+- (unsigned long long);
+- (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (id)edSubviews;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSLayoutConstraint *heightAnchorLayoutConstraint; // @synthesize heightAnchorLayoutConstraint=_heightAnchorLayoutConstraint;

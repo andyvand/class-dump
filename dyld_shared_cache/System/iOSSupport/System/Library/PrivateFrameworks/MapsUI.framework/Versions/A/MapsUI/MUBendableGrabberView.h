@@ -21,12 +21,12 @@
 - (id);
 - (struct CGSize);
 - (double);
+- (void);
+- (id);
 - (struct CGSize);
-- (void);
-- (id);
 - (id);
 - (void);
-- (void);
+- (void)fRows;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

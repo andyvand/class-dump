@@ -20,19 +20,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)lAxis;
-- (id)%@;
-- (void);
-- (void);
 - (id);
 - (id);
-- (id)utomaticSelectionDelegate>";
-- (id)isRunningButton:(id)arg1;
+- (id);
 - (void);
-- (id)edTintColor;
+- (id);
 - (void);
-- (void)Ð³üÿ;
-- (_Bool)TúþøaÈ°i`;
+- (void)Ô ;
+- (void)omArchiveFile:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)Ô;
+- (void)`;[;
+- (id)^;
+- (_Bool)_;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedSet *afterIdentifiers;

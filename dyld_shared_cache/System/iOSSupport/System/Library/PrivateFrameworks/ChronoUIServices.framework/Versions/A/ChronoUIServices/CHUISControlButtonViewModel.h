@@ -33,24 +33,24 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
-- (id);
 - (_Bool);
-- (_Bool);
-- (void)blic}s] State and picker option mismatch.  State=%{public}ld, picker option count:(_Bool)arg1 %{public}ld;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;

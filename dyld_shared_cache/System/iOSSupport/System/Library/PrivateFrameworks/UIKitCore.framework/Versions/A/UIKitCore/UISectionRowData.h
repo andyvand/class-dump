@@ -29,43 +29,41 @@ __attribute__((visibility("hidden")))
     double *_rowOffsets;
 }
 
-+ (int)ck off of existing request instead of starting a new one.;
-+ (int)or %@ with ID %@, found similar in-progress request with ID %@ - will piggyback off of existing request instead of starting a new one.;
-- (void);
-- (void)loadFilterExtensionPoints;
-- (double);
-- (struct CGSize)@-@E;
++ (int);
++ (int);
+- (id);
 - (double);
 - (void);
-- (int);
-- (int):(long long)arg1;
+- (double);
 - (id);
 - (void);
-- (void);
+- (double);
 - (double);
 - (void);
-- (double);
-- (void)ùÆ°1¢!0@ù
+- (long long)ù
 × ;
-- (id)!CùQÇð1¢!0@ù
+- (void)\Ð1Â0@ù
 × ;
-- (void);
-- (void)lowsInteractivePopWhenNavigationBarHidden"b1"allowsInteractivePopWhenBackButtonHidden"b1"hasCustomAbbreviatedBackButtonTitles"b1"preventSearchBarInToolbar"b1"searchBarPlacementAllowsExternalIntegration"b1};
-- (double)houldDeleteStandardItem:(long long)arg1;
+- (int)Ô ;
 - (double);
-- (double)ImageForPage:(long long)arg1;
-- (double)rity:(long long)arg1 label:(_Bool)arg2;
-- (void)orQueryRect:(unsigned long long)arg1 startRegionIndex:(long long)arg2 endRegionIndex: /* Error: Ran out of types for this method. */;
-- (struct CGSize)t;
-- (id)ionProvider;
-- (double)tomViewForTouchContinuation;
-- (long long)¸Ý;
-- (double)
-;
-- (void)©ÍÓ¿^;
-- (long long)ßÐ;
-- (void)pìþ
-;
+- (struct CGSize);
+- (double)path:(long long)arg1;
+- (void):(long long)arg1;
+- (void)tiveTextShortAudioBrightness;
+- (int)tionAdjustmentForSearchBarIcon:(long long)arg1;
+- (void)allTextDragOnView:(double)arg1;
+- (void)ressWithExecutionContext:(long long)arg1;
+- (void)berOfLines:(double)arg1 includingShadow:(long long)arg2;
+- (void)ultOriginShape;
+- (double)antiateViewControllerWithIdentifier:(long long)arg1 creator:(long long)arg2 storyboardSegueTemplate:(_Bool)arg3 sender: /* Error: Ran out of types for this method. */;
+- (double)trackingElementsNeedUpdate;
+- (double)eActionRepresentationView",W,N,S_setVisualRepresentation:(long long)arg1 ,V__visualRepresentation;
+- (struct CGSize)e;
+- (id)rReevaluation;
+- (void)OÐPSSôTdVZ;
+- (double)void _UIUpdateCompletionObservationAddObserver(_UIUpdateCompletionObservation *const _Nonnull, const id<_UIUpdateCompletionObserving>  _Nonnull const __strong, const BOOL);
+- (void)³lÜ°^;
+- (long long)4¦ÿãÉÄ\^;
 
 @end
 

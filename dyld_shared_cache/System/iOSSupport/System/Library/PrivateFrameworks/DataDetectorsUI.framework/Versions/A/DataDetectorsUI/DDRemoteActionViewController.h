@@ -31,9 +31,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _UIRemoteViewController *_containedRemoteViewController;

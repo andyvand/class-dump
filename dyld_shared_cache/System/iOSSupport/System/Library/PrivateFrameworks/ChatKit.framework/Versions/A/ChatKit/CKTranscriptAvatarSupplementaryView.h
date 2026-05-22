@@ -13,13 +13,14 @@
     CKAvatarView *_avatarView;
 }
 
-+ (id)c;
-- (void)s;
++ (id);
 - (void);
 - (void);
-- (id)&,N,V_chatItem;
-- (void);
-- (id);
+- (id);
+- (id);
+- (void)
+× ;
+- (void)H;
 
 // Remaining properties
 @property(retain, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;

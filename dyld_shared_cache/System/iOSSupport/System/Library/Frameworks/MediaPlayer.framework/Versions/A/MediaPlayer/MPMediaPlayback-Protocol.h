@@ -5,9 +5,7 @@
 //
 
 @protocol MPMediaPlayback
-- (void);
-- (double);
-- (void)nges;
+- (void)ionID = %@, stationStringID = %@>;
 
 // Remaining properties
 @property(nonatomic) float currentPlaybackRate;

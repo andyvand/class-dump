@@ -24,19 +24,19 @@
 + (void);
 + (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool) ;
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)ebSearchesController;
+- (void)è;
 
 @end
 

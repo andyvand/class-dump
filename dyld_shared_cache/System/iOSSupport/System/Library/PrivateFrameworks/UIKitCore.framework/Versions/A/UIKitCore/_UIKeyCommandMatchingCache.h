@@ -13,17 +13,17 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_reachabilityByInput;
 }
 
-+ (id)at groups;
++ (id);
 - (void);
 - (void);
 - (id);
 - (unsigned char);
 - (unsigned char);
-- (void)IDForSpotlight:(unsigned char)arg1 flag:(id)arg2 context:(id)arg3;
-- (unsigned char);
-- (id),;
 - (void);
-- (id)iews;
+- (unsigned char);
+- (id);
+- (id);
+- (void)¨,FÓ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *commandKeyPlaneConflictsByInput; // @synthesize commandKeyPlaneConflictsByInput=_commandKeyPlaneConflictsByInput;

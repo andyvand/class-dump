@@ -4,5 +4,5 @@
 
 class MipTileInfo {
 public: // (access info unavailable from symbols alone)
-    CreateMipTileInfo(axr_size_t, axr_size_t);
+    auto CreateMipTileInfo(axr_size_t, axr_size_t);
 };

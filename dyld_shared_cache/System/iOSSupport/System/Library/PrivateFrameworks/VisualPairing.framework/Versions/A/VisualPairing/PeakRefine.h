@@ -4,5 +4,5 @@
 
 class PeakRefine {
 public: // (access info unavailable from symbols alone)
-    getMedianIntQ16(int*);
+    auto getMedianIntQ16(int*);
 };

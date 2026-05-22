@@ -7,12 +7,13 @@
 @class FCHeadlineThumbnailMetadata, NSDate, NSString, NSURL;
 
 @protocol FCHeadlineMetadata
-- (NSDate *);
-- (NSString *)H]þ;
+- (NSDate *)sFeed39FormatAuxiliaryViewRequirementProvidingP;
+- (NSString *)Ýþ;
 
 @optional
-- (NSString *);
-- (NSString *)¨ÛÿÀÛÿØÛÿðÛÿÛÿÛÿPÛÿhÛÿÛÿ¤ÛÿÈÛÿÌÛÿØÛÿ´ÛÿØÛÿüÛÿ Ûÿ< Ûÿp Ûÿ ÛÿÐ Ûÿ!Ûÿ!Ûÿ4!ÛÿL!Ûÿp!Ûÿ!Ûÿì!Ûÿ"Ûÿ"Ûÿ@"Ûÿd"ÛÿÈ"Ûÿà"Ûÿø"Ûÿ#Ûÿ@#Ûÿ$Ûÿ¸$Ûÿh%Ûÿ%Ûÿ°%Ûÿì%Ûÿ&Ûÿh&Ûÿ&Ûÿ¤&Ûÿl'Ûÿ'Ûÿ¨'ÛÿÌ'Ûÿì)Ûÿ*ÛÿD*Ûÿ*Ûÿ¤*Ûÿ8+Ûÿt+Ûÿ +ÛÿL,ÛÿX.Ûÿp.Ûÿ¸.ÛÿÜ.Ûÿ/Ûÿ0/ÛÿH/Ûÿl/Ûÿ/Ûÿ/Ûÿð/Ûÿ0Ûÿ,0ÛÿP0Ûÿt0Ûÿ0Ûÿ01ÛÿT1Ûÿ1ÛÿÄ1Ûÿè1Ûÿ42ÛÿX2Ûÿ`3Ûÿ3ÛÿÀ3ÛÿØ3Ûÿä3Ûÿ4Ûÿ04ÛÿT4Ûÿ4ÛÿÌ4Ûÿð4Ûÿ$5Ûÿ`5Ûÿ5Ûÿ´5ÛÿÌ5ÛÿX8Ûÿ|8Ûÿ 8ÛÿÔ8Ûÿ9Ûÿ49Ûÿ9Ûÿ¨9Ûÿä9Ûÿü9Ûÿ:Ûÿ8:ÛÿD;Ûÿx;Ûÿ;ÛÿÀ;Ûÿä;Ûÿ<Ûÿ,<ÛÿP<Ûÿ<Ûÿ°<ÛÿÔ<Ûÿø<Ûÿ=Ûÿ@=Ûÿ,?ÛÿP?Ûÿt?Ûÿ?Ûÿ¼?Ûÿø?Ûÿ@Ûÿ@@Ûÿd@Ûÿ @ÛÿÄ@Ûÿè@ÛÿAÛÿ0AÛÿTAÛÿxAÛÿAÛÿØAÛÿüAÛÿ BÛÿDBÛÿBÛÿ¤BÛÿÈBÛÿìBÛÿCÛÿ4CÛÿpCÛÿCÛÿ¸CÛÿÜCÛÿ /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (NSString *)ÿÿÿÿ¨;
+- (NSURL *)©h=ÌÂþ©h=4Ézþ©h=|zþ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *displayDate;

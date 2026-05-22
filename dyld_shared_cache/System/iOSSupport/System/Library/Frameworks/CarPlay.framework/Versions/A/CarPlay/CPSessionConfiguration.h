@@ -9,6 +9,7 @@
 
 @interface CPSessionConfiguration
 {
+    _Bool _supportsVideoPlayback;
     unsigned long long _limitedUserInterfaces;
     unsigned long long _contentStyle;
     id <CPSessionConfigurationDelegate> _delegate;
@@ -18,9 +19,10 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
-- (id);
+- (_Bool);
 - (unsigned long long);
+- (id);
+- (void);
 - (id);
 - (void);
 
@@ -28,6 +30,7 @@
 @property(readonly, nonatomic) unsigned long long contentStyle; // @synthesize contentStyle=_contentStyle;
 @property(nonatomic) __weak id <CPSessionConfigurationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) unsigned long long limitedUserInterfaces; // @synthesize limitedUserInterfaces=_limitedUserInterfaces;
+@property(readonly, nonatomic) _Bool supportsVideoPlayback; // @synthesize supportsVideoPlayback=_supportsVideoPlayback;
 @property(nonatomic) __weak CPSTemplateEnvironment *templateEnvironment; // @synthesize templateEnvironment=_templateEnvironment;
 
 @end

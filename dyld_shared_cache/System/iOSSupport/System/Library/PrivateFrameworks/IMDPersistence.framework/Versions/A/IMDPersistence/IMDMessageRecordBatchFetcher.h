@@ -18,7 +18,8 @@
 
 - (_Bool);
 - (void);
-- (_Bool)1;
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -27,7 +28,6 @@
 - (id);
 - (id);
 - (void);
-- (id)troller",&,N,S_setTextButtonViewController:,V__textButtonViewController /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *associatedChatGUID; // @synthesize associatedChatGUID=_associatedChatGUID;

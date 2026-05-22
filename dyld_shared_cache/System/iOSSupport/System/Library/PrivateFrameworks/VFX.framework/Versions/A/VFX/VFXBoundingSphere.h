@@ -14,11 +14,11 @@
 
 - (id);
 - (void);
-- (float);
-- (void);
 - (id);
 - (void);
 - (MISSING_TYPE *);
+- (float);
+- (void);
 
 // Remaining properties
 @property(nonatomic) MISSING_TYPE *center; // @synthesize center;

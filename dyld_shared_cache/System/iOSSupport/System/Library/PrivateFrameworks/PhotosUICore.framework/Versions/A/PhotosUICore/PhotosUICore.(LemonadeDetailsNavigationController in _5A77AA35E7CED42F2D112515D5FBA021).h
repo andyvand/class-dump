@@ -15,12 +15,13 @@
 - (long long);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)sCount;
-- (id)rollerC;
+- (id)
+× ;
+- (id)onData:(id)arg1 face:voice:music:loudness:peak:audioScore: /* Error: Ran out of types for this method. */;
+- (id)#þºG]æG;
+- (id)7;
 
 // Remaining properties
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;

@@ -5,6 +5,5 @@
 //
 
 @protocol _UIKeyboardSuppressionPolicyDelegate
-- (_Bool);
 @end
 

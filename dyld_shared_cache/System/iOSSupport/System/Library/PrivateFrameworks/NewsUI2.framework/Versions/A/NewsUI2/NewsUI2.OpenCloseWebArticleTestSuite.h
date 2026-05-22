@@ -12,9 +12,9 @@
     MISSING_TYPE *tagService;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)DÙSÿ;
 
 @end
 

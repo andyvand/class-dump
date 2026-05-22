@@ -16,20 +16,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool)tworkDataSourceVisualIdenticality>",R,N;
-- (void);
 - (_Bool);
-- (_Bool)!0@ù
-× ;
-- (_Bool)0@ù
-× ;
-- (id)w: /* Error: Ran out of types for this method. */;
-- (void)latedAcceleration;
-- (_Bool)hingDisplayIdentityAssertingUISceneLifecycle(FBSDisplayIdentity *__strong, BOOL);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool)ate"16;
+- (_Bool)onGroupIdentifier;
+- (id)e:(id)arg1 state:(SEL)arg2;
+- (void)emptionHandoffData;
 - (_Bool);
 - (id);
-- (_Bool)Ëc;
-- (void);
+- (void)ô`;
+- (_Bool)Fk;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isLongPress;

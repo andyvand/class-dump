@@ -5,6 +5,5 @@
 //
 
 @protocol PKMentionViewDelegate
-- (void)k;
 @end
 

@@ -20,12 +20,12 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool)dcastActivityViewControllerDelegate>";
-+ (_Bool)ioBufferList=I[1{AudioBuffer=II^v}]};
-+ (id)astURL: /* Error: Ran out of types for this method. */;
-+ (_Bool)BundleIdentifier:(id)arg1 connectionHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
-+ (id)[;
++ (_Bool);
++ (id);
++ (_Bool);
++ (_Bool);
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) IMBalloonPluginManagerModel *model; // @synthesize model=_model;

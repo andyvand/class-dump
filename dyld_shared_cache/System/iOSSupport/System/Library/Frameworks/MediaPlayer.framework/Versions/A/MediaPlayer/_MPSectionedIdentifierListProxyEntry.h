@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)emberHandlesType;
-- (id)etionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
++ (id);
+- (id);
 - (id);
 - (long long);
-- (id)h;
 - (long long);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long branchDepth;

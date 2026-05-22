@@ -5,10 +5,5 @@
 //
 
 @protocol UITabBarControllerDelegate
-
-@optional
-- (void);
-- (long long);
-- (void)J�;
 @end
 

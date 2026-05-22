@@ -36,7 +36,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)ionModuleRecognitionCellOff;
 
 // Remaining properties
 @property(retain, nonatomic) HFAccessoryItemProvider *accessoryItemProvider; // @synthesize accessoryItemProvider=_accessoryItemProvider;

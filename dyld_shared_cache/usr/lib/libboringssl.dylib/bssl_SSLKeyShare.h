@@ -4,7 +4,7 @@
 
 class bssl::SSLKeyShare {
 public: // (access info unavailable from symbols alone)
-    Create(unsigned short);
-    DeserializePrivateKey(cbs_st*);
-    SerializePrivateKey(cbb_st*);
+    auto Create(unsigned short);
+    auto DeserializePrivateKey(cbs_st*);
+    auto SerializePrivateKey(cbb_st*);
 };

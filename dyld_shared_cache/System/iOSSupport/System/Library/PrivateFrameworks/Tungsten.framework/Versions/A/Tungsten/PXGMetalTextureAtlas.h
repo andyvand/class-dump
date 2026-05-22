@@ -93,21 +93,23 @@
 - (float);
 - (_Bool);
 - (unsigned char);
-- (float);
-- (void);
-- (struct CGImage *);
-- (void);
-- (id);
-- (id);
-- (struct CGSize);
-- (unsigned long long);
-- (unsigned int);
-- (struct CGSize);
-- (id);
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (void);
 - (unsigned int);
+- (struct CGImage *);
+- (struct CGSize);
+- (float);
+- (unsigned int);
+- (void);
+- (unsigned long long)Òð!x@ùÐ1â
+0@ù
+× ;
+- (struct CGSize)ue: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) float alpha;

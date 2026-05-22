@@ -18,11 +18,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
-- (struct CGSize);
+- (void);
+- (void);
 
 @end
 

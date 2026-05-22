@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void)ø+âÿÿÿÿÿ<;
 
 @end
 

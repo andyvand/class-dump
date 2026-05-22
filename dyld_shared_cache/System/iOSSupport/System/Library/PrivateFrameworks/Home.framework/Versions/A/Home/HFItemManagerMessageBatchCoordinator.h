@@ -26,7 +26,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ntDevice_NeedsTwoFactorAuth;
 
 // Remaining properties
 @property(nonatomic) __weak HFItemManagerBatchedDelegateAdapter *delegateAdapter; // @synthesize delegateAdapter;

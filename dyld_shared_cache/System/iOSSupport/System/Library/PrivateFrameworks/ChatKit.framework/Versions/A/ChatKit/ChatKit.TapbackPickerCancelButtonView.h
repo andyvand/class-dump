@@ -14,9 +14,9 @@
     UIHoverGestureRecognizer *hoverRecognizer;
 }
 
-- (void)Range=QQ}16;
+- (void);
 - (id);
-- (_Bool)0&;
+- (_Bool)endererViewDidBegin:(struct CGPoint)arg1;
 - (void);
 
 // Remaining properties

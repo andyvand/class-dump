@@ -11,12 +11,13 @@
     UIWindow *window;
 }
 
+- (id);
 - (void);
 - (id);
-- (void)G_SUBTITLE;
+- (void)0@ù
+× ;
+- (void);
 - (void);
-- (void);
-- (id),£ÿ;
 
 // Remaining properties
 @property(nonatomic, retain) UIWindow *window; // @synthesize window;

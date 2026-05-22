@@ -17,10 +17,11 @@
     MISSING_TYPE *highlight;
 }
 
-- (void);
 - (id);
 - (void);
-- (id)nItemC;
+- (id)1Â0@ù
+× ;
+- (void)¹0:F /* Error: Ran out of types for this method. */;
 
 @end
 

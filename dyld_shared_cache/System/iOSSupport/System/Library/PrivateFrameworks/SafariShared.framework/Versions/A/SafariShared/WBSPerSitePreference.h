@@ -12,13 +12,13 @@
 }
 
 + (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)@;
 - (id);
-- (id);
+- (void)ots/4~CN9fugB_ahFl5ik0DxNfZeSXWx425JHpA1_Rod0/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/wtf/HashTable.h;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

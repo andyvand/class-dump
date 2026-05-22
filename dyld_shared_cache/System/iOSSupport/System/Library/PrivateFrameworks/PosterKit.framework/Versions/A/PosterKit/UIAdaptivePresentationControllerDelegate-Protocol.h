@@ -5,5 +5,10 @@
 //
 
 @protocol UIAdaptivePresentationControllerDelegate
+
+@optional
+- (_Bool)ation;
+- (long long)üýýðý¸ÿ0°h<¨;
+- (void)ailNumeric-Heavy;
 @end
 

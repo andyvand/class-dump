@@ -12,9 +12,9 @@
     NSURL *_videoURL;
 }
 
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
 - (void);
 - (id);
 

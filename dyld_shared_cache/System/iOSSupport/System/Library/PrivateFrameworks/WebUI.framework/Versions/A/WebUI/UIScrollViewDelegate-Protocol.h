@@ -5,11 +5,5 @@
 //
 
 @protocol UIScrollViewDelegate
-
-@optional
-- (void)yColor;
-- (void)B;
-- (void);
-- (void)a(`b;
 @end
 

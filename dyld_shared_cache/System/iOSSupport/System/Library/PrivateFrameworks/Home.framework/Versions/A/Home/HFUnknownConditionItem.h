@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)Ôö¼ÿÿÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) HFCondition *condition; // @synthesize condition=_condition;

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     UIDebuggingIvarViewController *_vc;
 }
 
-- (void)sageSyncP2Enabled;
-- (void)ressedData:(id)arg1;
 - (void);
 - (void);
-- (id);
+- (void);
+- (id)id="bottomRight" x="%g" y="%g"/></Rectangle>;
+- (void);
 
 @end
 

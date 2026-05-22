@@ -25,9 +25,9 @@
 - (const MISSING_TYPE **);
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (void);
 - (id);
 - (void);
 

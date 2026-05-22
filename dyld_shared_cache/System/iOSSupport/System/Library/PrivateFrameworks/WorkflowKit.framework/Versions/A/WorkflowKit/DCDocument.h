@@ -16,10 +16,10 @@
 + (id);
 - (void);
 - (void);
-- (id)mon;
-- (void);
 - (id);
-- (id)mage the crop should occur.;
+- (id);
+- (void)be exported using the âFor People Who Know Meâ setting.;
+- (id)ntentPropertyC;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) id annotation; // @synthesize annotation=_annotation;

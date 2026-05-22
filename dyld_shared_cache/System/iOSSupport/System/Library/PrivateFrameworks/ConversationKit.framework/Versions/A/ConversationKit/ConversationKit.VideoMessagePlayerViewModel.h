@@ -24,8 +24,8 @@
     MISSING_TYPE *stateSink;
 }
 
-- (void);
 - (id);
+- (void)15ConversationKit35CallControlsFullScreenStatusViewingP;
 
 @end
 

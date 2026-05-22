@@ -14,7 +14,7 @@
     HFValueTransformer *_valueTransformer;
 }
 
-+ (Class)Ôôär;
++ (Class)FTriggerBuilder.m;
 - (id);
 - (id);
 - (id);
@@ -26,7 +26,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)dO;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

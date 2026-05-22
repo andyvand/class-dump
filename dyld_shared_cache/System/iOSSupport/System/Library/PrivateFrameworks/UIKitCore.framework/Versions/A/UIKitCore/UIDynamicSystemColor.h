@@ -17,17 +17,15 @@ __attribute__((visibility("hidden")))
     unsigned long long _cachedThemeKey;
 }
 
-- (unsigned long long);
-- (_Bool);
 - (id);
-- (void)
-× ;
-- (id)ù
-× ;
-- (id)th,S_setPreferredPrimaryColumnWidth:(id)arg1;
-- (id)archAtomViewVisualStyle_default;
-- (void)iew controller hierarchy before presenting from it. Will become a hard exception in a future release.;
-- (id)[;
+- (void);
+- (unsigned long long);
+- (id)ÔA;
+- (id)DueToRotation: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id)Loþÿÿÿÿp;
+- (void)üAh;
+- (id)tPn;
 
 @end
 

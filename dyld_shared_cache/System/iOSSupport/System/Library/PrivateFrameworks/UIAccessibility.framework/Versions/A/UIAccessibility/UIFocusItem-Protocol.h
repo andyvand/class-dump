@@ -9,7 +9,7 @@
 @protocol UIFocusItem
 
 @optional
-- (UIFocusEffect *)yerFocusRingColorForTintColor: /* Error: Ran out of types for this method. */;
+- (_Bool)ibilityScreenPointForSceneReferencePoint: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBecomeFocused;

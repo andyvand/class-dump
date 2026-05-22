@@ -8,10 +8,10 @@ public: // (access info unavailable from symbols alone)
     UStack(int, UErrorCode&);
     UStack(void (*)(void*), signed char (*)(UElement, UElement), UErrorCode&);
     UStack(void (*)(void*), signed char (*)(UElement, UElement), int, UErrorCode&);
-    getDynamicClassID() const;
-    getStaticClassID();
-    pop();
-    popi();
-    search(void*) const;
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto pop();
+    auto popi();
+    auto search(void*) const;
     ~UStack();
 };

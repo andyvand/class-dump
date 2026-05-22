@@ -7,8 +7,8 @@
 @protocol UISpringLoadedInteractionBehaviorDelegate;
 
 @protocol UISpringLoadedInteractionBehavior_Private
-- (id <UISpringLoadedInteractionBehaviorDelegate>)Èüÿ7}þÿ®üÿ;
-- (void);
+- (void)að1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) __weak id <UISpringLoadedInteractionBehaviorDelegate> delegate;

@@ -31,14 +31,14 @@
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (unsigned long long);
+- (const void *);
 - (unsigned long long);
 - (id);
 - (unsigned char);
-- (void);
-- (unsigned long long);
 - (unsigned char);
-- (const void *)ÉÏé=m;
+- (void)Dn;
+- (void)Îÿ¬;
 
 // Remaining properties
 @property(readonly, nonatomic) const void *bytes; // @dynamic bytes;

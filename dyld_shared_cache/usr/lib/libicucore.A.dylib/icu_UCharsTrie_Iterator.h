@@ -6,9 +6,9 @@ class icu::UCharsTrie::Iterator {
 public: // (access info unavailable from symbols alone)
     Iterator(icu::ConstChar16Ptr, int, UErrorCode&);
     Iterator(icu::UCharsTrie const&, int, UErrorCode&);
-    branchNext(char16_t const*, int, UErrorCode&);
-    hasNext() const;
-    next(UErrorCode&);
-    reset();
+    auto branchNext(char16_t const*, int, UErrorCode&);
+    auto hasNext() const;
+    auto next(UErrorCode&);
+    auto reset();
     ~Iterator();
 };

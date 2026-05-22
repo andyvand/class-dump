@@ -5,9 +5,6 @@
 //
 
 @protocol PKToolPickerSelectionContext
-- (void);
-- (unsigned long long);
-- (_Bool)session task failed with status code %lu;
 
 // Remaining properties
 @property(nonatomic) _Bool colorSwatchesVisible;

@@ -8,10 +8,10 @@
 {
 }
 
-- (struct CGRect);
 - (id);
 - (struct CGRect);
 - (id);
+- (struct CGRect);
 
 @end
 

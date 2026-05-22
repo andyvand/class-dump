@@ -8,16 +8,16 @@
 {
 }
 
-+ (id)sfer %@ to mark as unsuccessful;
-+ (id)record %@;
 + (id);
-- (void);
++ (id);
++ (id);
+- (void);
 - (double);
 - (void);
 - (void);
 - (void);
-- (void)etrics;
-- (id)elNibObjects;
+- (void);
+- (id);
 
 @end
 

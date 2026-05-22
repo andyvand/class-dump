@@ -10,8 +10,8 @@
 {
 }
 
-- (id)fetyCache,Initiator,%@,sessionID:(id)arg1 %@,%@,sending safety cache update to observers;
-- (id)$|;
+- (id);
+- (id);
 
 @end
 

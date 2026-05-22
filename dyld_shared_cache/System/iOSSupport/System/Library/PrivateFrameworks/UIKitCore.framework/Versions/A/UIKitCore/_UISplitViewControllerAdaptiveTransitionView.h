@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)String",&,N,V_lastAddressedSIMID;
 - (void);
-- (id)`*çÿ*çÿ¨*çÿä*çÿð*çÿ;
-- (void)Color;
-- (void)é;
+- (void);
+- (void):(id)arg1 atPoint: /* Error: Ran out of types for this method. */;
+- (id)verridingStatusBarHidden;
+- (void)ÃÓ+e[ÚÕÀøí¸aþf@%è/ôQõ?;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *barButtonItemContainerView; // @synthesize barButtonItemContainerView=_barButtonItemContainerView;

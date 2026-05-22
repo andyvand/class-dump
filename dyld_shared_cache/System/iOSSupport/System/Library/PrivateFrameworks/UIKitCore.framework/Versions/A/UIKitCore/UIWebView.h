@@ -17,7 +17,7 @@
 + (void);
 + (id);
 + (void);
-+ (void)¯Âÿ;
++ (void)­Ðì¹n;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsInlineMediaPlayback;

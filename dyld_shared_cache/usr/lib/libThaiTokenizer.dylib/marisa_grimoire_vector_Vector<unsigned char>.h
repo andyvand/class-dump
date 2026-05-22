@@ -4,8 +4,9 @@
 
 class marisa::grimoire::vector::Vector<unsigned char> {
 public: // (access info unavailable from symbols alone)
-    fix();
-    map(marisa::grimoire::io::Mapper&);
-    map_(marisa::grimoire::io::Mapper&);
-    swap(marisa::grimoire::vector::Vector<unsigned char>&);
+    auto fix();
+    auto fix() (.cold.1);
+    auto map(marisa::grimoire::io::Mapper&);
+    auto map_(marisa::grimoire::io::Mapper&);
+    auto swap(marisa::grimoire::vector::Vector<unsigned char>&);
 };

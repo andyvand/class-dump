@@ -15,46 +15,42 @@
     UIPress *_lastPreparedPress;
 }
 
-- (void)ser_interactive;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)
-× ;
-- (id)QÇ1¢!0@ù
-× ;
 - (void);
+- (id);
+- (id);
 - (id)0@ù
 × ;
-- (void)!,EùqÈÐ1¢!0@ù
+- (id)× ;
+- (void)ùÑbð1Â0@ù
 × ;
-- (id)@ù
+- (id)1Â0@ù
 × ;
-- (id)1¢!0@ù
-× ;
-- (void)¡vÐ!CùqËð1¢!0@ù
-× ;
-- (long long)nagerConnection";
-- (void)tConstraint:(id)arg1;
-- (void),S_setAdditionalRootLayerAffineTransform:(id)arg1 ,V_additionalRootLayerAffineTransform;
-- (id),N,G_isCaret;
-- (id)readingSession;
-- (id)r;
-- (id)iewForRemoteTextEffectsWindowMatchAnimation;
-- (void)V_selectionView;
-- (void)stComponentObserver;
+- (void);
+- (long long)0@0:8^@16^B24^B32 /* Error: Ran out of types for this method. */;
+- (id)city:(long long)arg1;
+- (_Bool)øü;
+- (id)ing preferred display mode to secondary only;
+- (id)litViewControllerDisplayModeAutomatic. This is a UIKit issue.;
+- (id)should only be called when a UITabBarAppearance has been set;
+- (long long);
+- (void)lÿà×Xid;
+- (void)f;
+- (void)¤ÿ¢i;
+- (id)|þq;
+- (void)i;
+- (void)(_i;
+- (long long)|¾i;
 - (id);
-- (long long)nexpected state while performing resolve.;
-- (void);
-- (id)¿\;
-- (id)PÿÕB+`;
-- (id);
-- (id)Hé%ÿ;
-- (id)Ó[i;
-- (_Bool);
-- (id)u;
-- (long long)j;
+- (id)¾k;
 
 // Remaining properties
 @property(retain, nonatomic) UIPress *_lastPreparedPress; // @synthesize _lastPreparedPress;

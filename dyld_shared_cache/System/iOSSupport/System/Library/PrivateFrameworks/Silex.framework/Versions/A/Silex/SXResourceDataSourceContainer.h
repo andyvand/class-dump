@@ -13,8 +13,9 @@
 }
 
 - (void);
-- (id);
-- (void);
+- (void)1Â0@ù
+× ;
+- (id)dKeyCommand: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

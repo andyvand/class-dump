@@ -21,9 +21,11 @@
 - (id);
 - (id);
 - (float);
+- (void);
 - (MISSING_TYPE *);
-- (void);
-- (void);
+- (void)ÁQ°!BùÐ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) id <MTLTexture> directionTexture; // @synthesize directionTexture=_directionTexture;

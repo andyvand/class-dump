@@ -24,53 +24,48 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (unsigned long long)com.apple.MediaPlayer.MPContentTasteController.accessQueue;
-- (void);
-- (void);
-- (void)H;
-- (void);
-- (_Bool)h: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)­;
-- (void);
-- (double);
-- (void);
-- (void)1¢!0@ù
-× ;
-- (id)tð!BùÈ1¢!0@ù
-× ;
-- (id)
-× ;
-- (id)QÉ1¢!0@ù
-× ;
-- (void)Ð!ÜBù1Ê1¢!0@ù
-× ;
-- (id)Ê°1¢!0@ù
-× ;
-- (long long)ollectionViewDataSourcePrefetching>";
-- (double)32@0:8Q16@24 /* Error: Ran out of types for this method. */;
-- (id)s:(id)arg1;
-- (id)ier:(id)arg1;
-- (id)tyActivateBlock;
-- (id)ForUserActivityManager: /* Error: Ran out of types for this method. */;
-- (double)lEffectViewEnabled;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)edNavigationController;
-- (void)e:(unsigned int)arg1;
-- (double)ingView",&,N,V_replicatingView;
-- (void);
-- (void):(id)arg1;
-- (void)Ð;
-- (long long)rs/UISplitViewController/Adaptive Impl/View/_UISplitViewControllerAdaptiveColumnView.swift;
 - (id);
-- (void)0¬ÿÕ¯À;
+- (_Bool);
+- (void);
 - (void);
 - (double);
-- (id)ñ¨ÿ¤ð;
-- (id)kj;
-- (_Bool)m;
+- (double);
+- (id);
+- (id);
+- (void);
+- (id);
+- (double);
+- (_Bool);
+- (void);
+- (void)× ;
+- (void)ù
+× ;
+- (id);
+- (long long)v28@0:8@"_UIFindNavigatorView"16B24 /* Error: Ran out of types for this method. */;
+- (id)or:(id)arg1;
+- (void)itWithSourceIdentifier:(id)arg1 destinationURL:(_Bool)arg2 reportEndpoint:sourceDescription:purchaser: /* Error: Ran out of types for this method. */;
+- (void)oscrollContentOffset;
+- (void)dUISnapshot",N,V_snapshot;
+- (void)e;
+- (void);
+- (void)lÀhà<;
+- (void)0WPXàX;
+- (id)(;
+- (double)e did update interface style to %{public}ld, %{public}@ (%{public}@);
+- (_Bool)DragInteraction_Private _setLiftDelay:(id)arg1 ] instead.;
+- (unsigned long long)ne does not support shared textures. texture=%s;
+- (void)ontainerView]|;
+- (id)ck Velocity Boost Factor;
+- (void)?Å?;
+- (long long)pX[;
+- (void);
+- (double)ÿq;
+- (void)Dùg;
+- (id)i;
+- (void);
+- (void)ÿQãØtBl;
+- (id)ÿ<¹×Üím;
+- (id)%;
 
 // Remaining properties
 @property(nonatomic, getter=_isPointerLocked, setter=_setPointerLocked:) _Bool _pointerLocked; // @synthesize _pointerLocked;

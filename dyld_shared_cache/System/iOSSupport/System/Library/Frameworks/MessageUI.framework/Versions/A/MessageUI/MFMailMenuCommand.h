@@ -20,10 +20,10 @@
 + (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
 - (long long);
-- (void);
-- (id)*);
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UICommand *command; // @synthesize command=_command;

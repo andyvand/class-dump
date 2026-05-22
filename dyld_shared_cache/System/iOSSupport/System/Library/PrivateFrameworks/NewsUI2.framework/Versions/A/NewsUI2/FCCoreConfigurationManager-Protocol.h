@@ -7,8 +7,8 @@
 @protocol FCCoreConfiguration;
 
 @protocol FCCoreConfigurationManager
-- (void)Ҹ;
-- (void);
+- (void)due to device obsoletion;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCCoreConfiguration> configuration;

@@ -15,8 +15,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)ionWorkspace",R,N,V_applicationWorkspace;
 
 @end
 

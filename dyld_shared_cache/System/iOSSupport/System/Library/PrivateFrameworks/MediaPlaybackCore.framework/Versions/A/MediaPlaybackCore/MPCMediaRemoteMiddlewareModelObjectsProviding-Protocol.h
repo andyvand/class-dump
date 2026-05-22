@@ -7,7 +7,6 @@
 @class MPSectionedCollection, NSIndexPath;
 
 @protocol MPCMediaRemoteMiddlewareModelObjectsProviding
-- (MPSectionedCollection *);
 
 // Remaining properties
 @property(readonly, nonatomic) MPSectionedCollection *modelObjects;

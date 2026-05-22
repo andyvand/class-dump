@@ -41,8 +41,8 @@
 - (id);
 - (void);
 - (void);
-- (id)on;
-- (void)24@?0@"NSData"8Q16;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,6 +4,6 @@
 
 class icu::CollationDataReader {
 public: // (access info unavailable from symbols alone)
-    isAcceptable(void*, char const*, char const*, UDataInfo const*);
-    read(icu::CollationTailoring const*, unsigned char const*, int, icu::CollationTailoring&, UErrorCode&);
+    auto isAcceptable(void*, char const*, char const*, UDataInfo const*);
+    auto read(icu::CollationTailoring const*, unsigned char const*, int, icu::CollationTailoring&, UErrorCode&);
 };

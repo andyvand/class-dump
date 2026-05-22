@@ -31,8 +31,8 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowMultipleEventsFeature; // @synthesize allowMultipleEventsFeature=_allowMultipleEventsFeature;

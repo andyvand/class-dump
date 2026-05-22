@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMTapback;
 @protocol CKTapbackViewDelegate;
 
 @protocol CKTapbackViewProtocol
-- (struct UIEdgeInsets)ordAppearanceWithUserInfo: /* Error: Ran out of types for this method. */;
-- (void)moteControlEvents;
-- (void)dSince;
-- (void)rogressQueue;
-- (double)t;
-- (void)IfSupportedForAccount:(IMTapback *)arg1 window:(_Bool)arg2 completionHandler:] /* Error: Ran out of types for this method. */;
-- (id <CKTapbackViewDelegate>)ÀDhEEÜE L;
-- (void);
-- (_Bool)ðJÿðJÿ;
-
-@optional
-- (void)nCommand;
+- (_Bool)èô;
 
 // Remaining properties
 @property(readonly, nonatomic) double attributionScaleFactor;

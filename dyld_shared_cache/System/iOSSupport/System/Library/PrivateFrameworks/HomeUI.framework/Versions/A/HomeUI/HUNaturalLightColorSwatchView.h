@@ -32,16 +32,15 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
 - (_Bool);
+- (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)nWallet;
 
 // Remaining properties
 @property(retain, nonatomic) CAGradientLayer *circleGradientLayer; // @synthesize circleGradientLayer=_circleGradientLayer;

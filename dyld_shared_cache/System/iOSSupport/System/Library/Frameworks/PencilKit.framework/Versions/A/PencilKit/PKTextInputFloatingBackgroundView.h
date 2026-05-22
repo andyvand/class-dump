@@ -12,11 +12,11 @@
     UIView *__textureView;
 }
 
-- (id)dMax;
+- (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)atingCurrentInputMode;
 
 // Remaining properties
 @property(readonly, nonatomic) UIVisualEffectView *_blurView; // @synthesize _blurView=__blurView;

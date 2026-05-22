@@ -19,17 +19,17 @@
 }
 
 - (struct UIEdgeInsets);
-- (void);
-- (double);
 - (void);
+- (double);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id){CGPoint=dd},N,V_swipeVelocity;
-- (id)¸ÿÿ;
+- (id);
 - (void);
-- (_Bool)ìò4:- /* Error: Ran out of types for this method. */;
+- (id);
+- (void) ;
+- (_Bool)jL4æÿj¤eÄÿjd4æÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;

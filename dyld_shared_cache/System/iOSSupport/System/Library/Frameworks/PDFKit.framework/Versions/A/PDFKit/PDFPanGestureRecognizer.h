@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void)bjectAtIndex:(struct CGPoint)arg1 withObject: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)cted;
-- (struct CGPoint)de: /* Error: Ran out of types for this method. */;
-- (void)efrontIdentifier:offers: /* Error: Ran out of types for this method. */;
+- (void);
+- (struct CGPoint);
+- (struct CGPoint);
+- (void);
 - (void);
 - (void);
 

@@ -32,11 +32,10 @@
 - (struct CGPoint);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
@@ -44,15 +43,16 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
 - (void);
-- (id);
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (_Bool)ller;
+- (_Bool);
+- (void)6Q24;
 
 // Remaining properties
 @property(retain, nonatomic) SXComponentView *currentComponentView; // @synthesize currentComponentView=_currentComponentView;

@@ -44,12 +44,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void)¸,;
+- (id)tsDataSourceManager init];
 
 // Remaining properties
 @property(nonatomic) long long currentUpdateGeneration; // @synthesize currentUpdateGeneration=_currentUpdateGeneration;

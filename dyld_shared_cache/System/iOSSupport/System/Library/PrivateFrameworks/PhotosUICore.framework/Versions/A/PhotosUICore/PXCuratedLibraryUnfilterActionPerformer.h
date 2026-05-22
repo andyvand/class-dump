@@ -16,7 +16,7 @@
 - (long long);
 - (void);
 - (id);
-- (id)'8;
+- (id)PXPhotoKitRemoveSharingSuggestionAssetCollectionActionPerformer;
 
 @end
 

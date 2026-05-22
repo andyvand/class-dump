@@ -44,20 +44,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (void);
 - (void);
 - (id);
-- (void)R,N,V_transactionStartDate;
-- (unsigned long long)Øô
-;
-- (id)WithPIN;
-- (void)be copyable! Child:(id)arg1 %@, parent:(id)arg2 %@;
+- (id);
+- (void);
+- (unsigned long long);
+- (void)IndexPath"24@0:(id)arg1 8@"HFItem"16;
+- (void)NaturalLightingSmall;
+- (id)requesting an update;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;

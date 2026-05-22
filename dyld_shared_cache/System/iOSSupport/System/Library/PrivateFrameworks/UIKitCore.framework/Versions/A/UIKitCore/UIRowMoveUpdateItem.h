@@ -15,11 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id)0@ù
-× ;
-- (id)alues:playFeedback: /* Error: Ran out of types for this method. */;
-- (id):(id)arg1 (<;
+- (id);
+- (id);
+- (id)STRUCTION;
+- (void)ûc;
 
 @end
 

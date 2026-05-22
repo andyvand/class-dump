@@ -13,6 +13,7 @@
     _Bool _enabled;
     _Bool _supportsResidentSelection;
     _Bool _supportsHomeActivityState;
+    _Bool _supportsDedicatedStatusChannel;
     NSUUID *_uniqueIdentifier;
     unsigned long long _status;
     HMHome *_home;
@@ -27,9 +28,9 @@
     NSUUID *_uuid;
 }
 
-+ (id)ingItemClassManager;
-+ (id),$ä'x( **ô7p8;
++ (id);
 + (_Bool);
++ (id)ProductData;
 
 @end
 

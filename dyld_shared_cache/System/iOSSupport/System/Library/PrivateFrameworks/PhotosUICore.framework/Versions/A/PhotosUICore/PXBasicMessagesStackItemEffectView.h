@@ -12,10 +12,10 @@
     UIView *contentView;
 }
 
-- (void);
-- (void);
 - (id);
-- (id)è|;
+- (void)sultHandler:(id)arg1;
+- (void);
+- (id)ôdM|ð7;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView;

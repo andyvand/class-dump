@@ -18,18 +18,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)4@"NSIndexSet"32@"NSString"40C48@"NSString"52;
-- (double)WithLocaleIdentifier:(id)arg1;
-- (void);
+- (id);
+- (double);
 - (void);
-- (void);
 - (void);
-- (void)º;
-- (void)1¢!0@ù
-× ;
-- (struct CGSize)avoidsLanguageIndicator;
-- (void)kmark;
-- (void)arVisualProviderBase;
+- (void);
+- (void)onLargeVariantSpec;
+- (void);
+- (struct CGSize)ingAnimations;
+- (void)entDescriptor init];
+- (void)Response;
+- (void)à¾];
 
 @end
 

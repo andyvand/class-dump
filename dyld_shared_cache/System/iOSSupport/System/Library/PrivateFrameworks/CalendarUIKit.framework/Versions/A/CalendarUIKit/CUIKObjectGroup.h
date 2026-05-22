@@ -23,14 +23,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)@;
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)nceRules: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSMutableDictionary *objectMap; // @synthesize objectMap=_objectMap;

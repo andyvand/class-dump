@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (_Bool)xtAlignment;
+- (void)odSectionIdentifier;
+- (_Bool)Åþÿ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated; // @synthesize animated=_animated;

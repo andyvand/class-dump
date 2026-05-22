@@ -17,11 +17,10 @@
 }
 
 - (void);
-- (void);
 - (id);
-- (id)V@A7>mP?½´¾>ð?
-=>¡A?Á´¾(µÝ?KD>Úã5?î´¾Ð'Î?ºK>3Q,?@µ¾óæÀ?úaT>Øô$?Øµ¾ºÛµ?j^>E?â®¶¾¢¬?]i>ç?¶·¾CY¤?Dku>x?ê¹¾·?!>Àx?yyº¾Ì@?6>sØ?M¼¾¸?øp>É?wÛ½¾íH?¾>B$?î¿¾ã?ep¤>M ?WÁ¾ï;
-- (id)B';
+- (id);
+- (id)bytesPerIndex;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSOperationQueue *presentedItemOperationQueue;

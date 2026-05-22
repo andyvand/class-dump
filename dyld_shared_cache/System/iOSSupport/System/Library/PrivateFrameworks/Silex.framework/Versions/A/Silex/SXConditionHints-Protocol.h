@@ -5,7 +5,7 @@
 //
 
 @protocol SXConditionHints
-- (long long);
+- (long long)eyOptions:valueOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long app;

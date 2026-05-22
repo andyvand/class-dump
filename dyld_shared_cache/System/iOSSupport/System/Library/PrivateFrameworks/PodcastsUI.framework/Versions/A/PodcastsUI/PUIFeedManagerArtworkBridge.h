@@ -8,20 +8,16 @@
 
 @interface PUIFeedManagerArtworkBridge
 {
-    MISSING_TYPE *imageProvider;
-    MISSING_TYPE *caches;
     MISSING_TYPE *imageStore;
     MISSING_TYPE *fileManager;
     MISSING_TYPE *imageDownloader;
-    MISSING_TYPE *signposter;
 }
 
-+ (void);
-+ (id)x\,yy;
++ (id);
 - (void);
-- (void)C;
 - (void);
 - (id);
+- (void);
 
 @end
 

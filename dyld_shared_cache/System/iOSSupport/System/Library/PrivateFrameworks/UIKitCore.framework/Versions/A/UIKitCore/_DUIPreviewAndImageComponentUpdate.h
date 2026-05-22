@@ -11,14 +11,14 @@
     _Bool _isFromSource;
 }
 
-+ (_Bool)à9Ûøm;
++ (_Bool)nts.error.open.title;
 - (void);
-- (_Bool)"16@"NSString"24C32B36@"IMDAccount"40;
-- (id):(id)arg1 8@16@24@32@40@48@56@64;
-- (void);
-- (unsigned long long)w: /* Error: Ran out of types for this method. */;
-- (_Bool)apsed:(id)arg1 %0.4lf cancelErr:%@ reqErr:%@ nrItems:%ld nrChunksUploaded:%ld chunking:%@ authRequests:%@ containerRequests:%@ completionRequests:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
+- (id);
+- (unsigned long long);
+- (_Bool)e:(id)arg1;
+- (void)itiatedChangeY;
 
 // Remaining properties
 @property(nonatomic) _Bool isFromSource; // @synthesize isFromSource=_isFromSource;

@@ -21,12 +21,12 @@
 + (id);
 + (id);
 + (id);
-+ (id)myl¬Ö0%EÉ;
-+ (id)øøÌ;
++ (id);
++ (id);
 + (long long);
 + (id);
 + (_Bool);
-+ (_Bool)ftsAction,DraftsActionKey,DraftsAfterSuccess;
++ (_Bool);
 + (id);
 
 // Remaining properties

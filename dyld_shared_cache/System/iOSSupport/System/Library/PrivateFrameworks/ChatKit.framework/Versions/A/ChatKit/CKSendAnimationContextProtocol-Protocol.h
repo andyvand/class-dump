@@ -7,31 +7,9 @@
 @class CABackdropLayer, NSArray, NSString, UIImageView, UIView;
 
 @protocol CKSendAnimationContextProtocol
-- (NSArray *);
-- (struct CGRect)HþL¯;
-- (_Bool)0EmÕ;
-- (void)í;
-- (void)~üì;
-- (void):(unsigned long long)arg1 showObjectBlock: /* Error: Ran out of types for this method. */;
-- (void):(struct CGRect)arg1;
-- (void)ent:(UIView *)arg1;
-- (void)cyFetchedResultsController;
-- (void)n;
-- (void)L:(NSArray *)arg1 MIMEType:expectedContentLength:textEncodingName: /* Error: Ran out of types for this method. */;
-- (void)ectID:(struct CGSize)arg1 sortableSearchableItem: /* Error: Ran out of types for this method. */;
-- (void)eForSharingSyncingObject:(_Bool)arg1;
-- (void)t:(UIImageView *)arg1;
-- (void)singBlock:(NSArray *)arg1;
-- (void)AttachmentsInContext:(NSArray *)arg1 range:options:usingBlock: /* Error: Ran out of types for this method. */;
-- (unsigned long long)ognizer:shouldReceiveTouch: /* Error: Ran out of types for this method. */;
-- (struct CGRect)URLForAttachment:withProgress:error: /* Error: Ran out of types for this method. */;
-- (UIView *)gGeneratePDFURL;
-- (UIView *);
-- (NSArray *)r;
-- (NSArray *)finishingUpRegexMatchFinder:] /* Error: Ran out of types for this method. */;
-- (UIView *)TRANSLATION_TIP_TITLE;
-- (CABackdropLayer *)p>{identifier:'%@'  guid:'%@'}%@ /* Error: Ran out of types for this method. */;
-- (void)utAttributes;
+- (NSArray *).@01;
+- (void)PLACEHOLDER;
+- (UIView *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *animatableTextViews;

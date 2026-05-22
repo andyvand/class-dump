@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void)e;
++ (void);
 + (void);
 + (void);
 

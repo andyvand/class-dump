@@ -12,15 +12,15 @@
     _Bool _available;
 }
 
-+ (id);
++ (id)ÿ¦ÿ;
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)pSgXw;
-- (_Bool)ShareCardControlsView:shareScreenEnabled:%{bool}d /* Error: Ran out of types for this method. */;
+- (_Bool)Ö,ýÿ;
+- (void)aySo27UIAccessibilityCustomActionCGAK*¢yô¢y~ú!þGGGQo_Î;
 
 // Remaining properties
 @property(readonly, getter=isAvailable) _Bool available; // @synthesize available=_available;

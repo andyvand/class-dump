@@ -17,8 +17,8 @@
 - (void);
 - (void);
 - (void);
-- (void)=C;
-- (id)eChangedNotificationWithChangeType: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 @end
 

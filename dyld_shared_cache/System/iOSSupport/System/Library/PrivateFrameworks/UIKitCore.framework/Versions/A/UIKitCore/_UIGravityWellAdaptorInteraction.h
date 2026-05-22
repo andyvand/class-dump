@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     UIView *_view;
 }
 
-- (id);
-- (void);
-- (void)oardEmojiDraggableView",R,N,V_emojiLabel;
-- (void)te>",W,N;
+- (id)eueContainer",&,N,V_latestObject;
+- (void)fîÿ;
+- (void)"NSIndexPath"16@"NSNumber"24;
+- (void)ÒÊ[;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

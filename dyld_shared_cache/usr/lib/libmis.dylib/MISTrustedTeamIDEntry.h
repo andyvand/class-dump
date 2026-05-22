@@ -14,14 +14,14 @@
 
 - (id);
 - (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id)ata",&,N,V_userDefinedValue;
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)Å";
 
 // Remaining properties
 @property(copy, nonatomic) NSData *signature; // @synthesize signature=_signature;

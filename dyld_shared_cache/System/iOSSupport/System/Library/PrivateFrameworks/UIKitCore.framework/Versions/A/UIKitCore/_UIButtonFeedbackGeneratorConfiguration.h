@@ -10,10 +10,9 @@
 {
 }
 
-+ (id)* T3 Update item [%@] chat had no cloudKitChatID!, marking it as clean and moving on.;
-+ (id)!0@ù
-× ;
-- (long long)@;
++ (id);
++ (id)filters.glassForeground.inputAberrationAmount;
+- (long long);
 
 @end
 

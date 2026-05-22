@@ -13,16 +13,16 @@
 }
 
 - (void);
-- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void)a;
 - (void);
 - (void);
-- (id)networkPrivacyConfigurationName;
-- (id);
-- (id);
-- (id)ü;
-- (id)ÎN;
+- (id)ut;
+- (void)ransition, tripSegmentVisitStatus[%ld], start/stop dates:%@, %@, Passthrough /* Error: Ran out of types for this method. */;
+- (id)efreshDate, %@, updatedLocationDate, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;

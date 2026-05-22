@@ -5,6 +5,5 @@
 //
 
 @protocol CKMacRecipientsControllerDelegate
-- (void)T@"NSFetchedResultsController",&,N,V_modernFetchedResultsController;
 @end
 

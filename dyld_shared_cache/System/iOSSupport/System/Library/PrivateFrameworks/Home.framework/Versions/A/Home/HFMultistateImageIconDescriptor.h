@@ -23,8 +23,8 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (long long);
+- (void)#¬#;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *dictionaryKeyedByPrimaryState; // @synthesize dictionaryKeyedByPrimaryState=_dictionaryKeyedByPrimaryState;

@@ -21,55 +21,48 @@ __attribute__((visibility("hidden")))
     id <_UIPassthroughScrollInteractionDelegate> _delegate;
 }
 
-+ (_Bool)Ê1¢!0@ù
-× ;
-+ (_Bool)!0@ù
-× ;
++ (_Bool);
++ (_Bool);
+- (void);
 - (void);
 - (id);
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
-- (_Bool)borationWithPersistentID:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void){public}@ undo called when not available - ignoring. lastAppliedTransactionIndex = %lu;
-- (void);
 - (id);
 - (id);
-- (void);
-- (void)Ð!xBù±Ë1¢!0@ù
-× ;
-- (void)Bù1Ì1¢!0@ù
-× ;
-- (void);
-- (_Bool)
-× ;
-- (_Bool)1¢!0@ù
-× ;
-- (void)Ð!Bù1Ï1¢!0@ù
-× ;
-- (id){CGRect={CGPoint=dd}{CGSize=dd}}72@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16@48@56@64 /* Error: Ran out of types for this method. */;
-- (_Bool)ageForCandidateAcceptedAction:(struct CGPoint)arg1;
-- (void)mAccumulation;
-- (void)iewInteractionController:(id)arg1;
-- (id)ExtremeSizingEnabled: /* Error: Ran out of types for this method. */;
-- (id)ancelGestureRecognizers: /* Error: Ran out of types for this method. */;
-- (void)yConnect:(_Bool)arg1;
-- (void)inimumHeight;
-- (void)setPrimaryTextFrameDidChangeHandler:(id)arg1 ,V_primaryTextFrameDidChangeHandler;
-- (void),G_visualStyle,S_setVisualStyle:(id)arg1 ,V_visualStyle;
-- (_Bool)rdinateSpace;
-- (void);
+- (id);
 - (_Bool);
-- (_Bool)windowScene:(struct CGPoint)arg1 %@;
-- (id)on;
-- (void)s but we're still not done yet
-%@
-%@;
-- (_Bool)Overview:(id)arg1 %@;
-- (void)nted;
-- (void);
 - (_Bool);
-- (_Bool)ÔßÈÿª§Ò;
+- (id);
+- (_Bool);
+- (void)!ÀGù±]Ð1Â0@ù
+× ;
+- (void);
+- (_Bool)0@ù
+× ;
+- (void)PinchInteractiveScale:(_Bool)arg1;
+- (void)nCollectionView: /* Error: Ran out of types for this method. */;
+- (void)iew:(unsigned long long)arg1 options: /* Error: Ran out of types for this method. */;
+- (void)meWithDismissalHandler:(_Bool)arg1;
+- (_Bool)ionElement;
+- (id)setUpdateSearchTextOnDidSelectSuggestion: /* Error: Ran out of types for this method. */;
+- (_Bool)yNavBarDidEnd:(id)arg1;
+- (_Bool):(id)arg1 toState:(id)arg2;
+- (id);
+- (_Bool);
+- (_Bool)dScrollEvent;
+- (void)yCorrectTextContainerSize:(_Bool)arg1;
+- (void)¨0ÿÿØ0ÿÿ1ÿÿ(1ÿÿH1ÿÿt1ÿÿ1ÿÿø1ÿÿ42ÿÿ2ÿÿÀ2ÿÿ3ÿÿH3ÿÿ`3ÿÿ3ÿÿ¤3ÿÿÐ3ÿÿ4ÿÿ 4ÿÿ5ÿÿ<5ÿÿd5ÿÿ¤5ÿÿ¼5ÿÿà5ÿÿ6ÿÿ$6ÿÿ<6ÿÿ\6ÿÿ6ÿÿ6ÿÿÄ6ÿÿÜ6ÿÿô6ÿÿ7ÿÿ$7ÿÿ7ÿÿ¨7ÿÿÈ7ÿÿø7ÿÿ8ÿÿT8ÿÿ8ÿÿ¼8ÿÿÔ8ÿÿì8ÿÿ9ÿÿT9ÿÿà9ÿÿø9ÿÿ:(id)arg1 ÿÿ0:ÿÿP:ÿÿÀ:ÿÿà:ÿÿp;ÿÿ°;ÿÿÈ;ÿÿè;ÿÿ0<ÿÿx<ÿÿ <ÿÿà<ÿÿ=ÿÿX=ÿÿx=ÿÿ=ÿÿ°=ÿÿÐ=ÿÿ8>ÿÿ`>ÿÿx>ÿÿ>ÿÿÈ>ÿÿ /* Error: Ran out of types for this method. */;
+- (void);
+- (void)in a binder which doesn't own it;
+- (void)t __strong, const BOOL);
+- (void);
+- (void);
+- (void)33´Èþ;
+- (_Bool)ÈR0õuÂ7lý;
+- (_Bool)¨â¹ÿq;
+- (void)&ª±;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIPassthroughGateGestureRecognizer *_gestureGate; // @synthesize _gestureGate;

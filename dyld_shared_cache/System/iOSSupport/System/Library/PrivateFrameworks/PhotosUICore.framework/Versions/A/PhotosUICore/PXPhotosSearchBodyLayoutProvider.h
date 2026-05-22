@@ -50,10 +50,10 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void)e:(id)arg1 %@>;
 - (void);
-- (id);
-- (void)·4;
-- (id)ªÇÿ;
+- (id)TLL5;
 
 // Remaining properties
 @property(retain, nonatomic) _PXPhotosSearchBodyCollectionSectionLayout *collectionSectionLayout; // @synthesize collectionSectionLayout=_collectionSectionLayout;

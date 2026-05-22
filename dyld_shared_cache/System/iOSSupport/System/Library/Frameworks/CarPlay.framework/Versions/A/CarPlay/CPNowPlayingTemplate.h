@@ -37,10 +37,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isAlbumArtistButtonEnabled) _Bool albumArtistButtonEnabled; // @synthesize albumArtistButtonEnabled=_albumArtistButtonEnabled;

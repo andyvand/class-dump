@@ -33,9 +33,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
-- (void)ÿ²O*Ò6;
+- (void);
+- (void)RÉà¸MÿRÉ¤¹MÿRÉ ¹Mÿ;
 
 // Remaining properties
 @property(retain, nonatomic) PXCuratedLibraryLayout *curatedLibraryLayout; // @synthesize curatedLibraryLayout=_curatedLibraryLayout;

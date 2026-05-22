@@ -101,7 +101,7 @@
 + (Class);
 + (id);
 + (_Bool);
-+ (struct UIEdgeInsets);
++ (struct UIEdgeInsets);
 + (_Bool);
 
 // Remaining properties

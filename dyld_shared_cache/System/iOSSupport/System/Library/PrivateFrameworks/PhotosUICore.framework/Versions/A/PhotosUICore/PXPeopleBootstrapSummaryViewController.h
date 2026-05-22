@@ -26,14 +26,13 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)ð1b0@ù
-× ;
-- (id)NotFound;
-- (id)¹JS½4;
-- (void);
+- (void)s:(id)arg1;
+- (id)LRTS)pT;
+- (void)Components *__strong _Nonnull);
+- (id)ags.isPerformingUpdate;
+- (_Bool)];
+- (void)eroPromotion;
+- (void),¼6;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXPeopleFlowViewControllerActionDelegate> actionDelegate;

@@ -10,10 +10,10 @@
 {
 }
 
-- (struct CGSize)|';
+- (struct CGSize);
 - (void);
-- (void);
-- (id)ûÈýþgäþ,;
+- (id);
+- (void);
 
 @end
 

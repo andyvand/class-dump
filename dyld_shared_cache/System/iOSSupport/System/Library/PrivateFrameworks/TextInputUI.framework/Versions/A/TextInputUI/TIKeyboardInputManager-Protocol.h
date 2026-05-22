@@ -7,8 +7,8 @@
 @class NSString;
 
 @protocol TIKeyboardInputManager
-- (void)VisibleOffset;
-- (void)N,V_closeEdges;
-- (void)<%@:(NSString *)arg1 %p> scene frame %@;
+- (void)zontalPosition:(NSString *)arg1;
+- (void);
+- (void)s;
 @end
 

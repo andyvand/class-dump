@@ -19,7 +19,7 @@
 
 - (id);
 - (void);
-- (void);
+- (void);
 
 @end
 

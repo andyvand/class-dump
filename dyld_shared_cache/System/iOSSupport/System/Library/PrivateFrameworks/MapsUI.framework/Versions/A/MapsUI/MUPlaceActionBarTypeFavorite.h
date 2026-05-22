@@ -13,9 +13,9 @@
     _Bool favorited;
 }
 
-- (void);
 - (id);
 - (_Bool);
+- (void);
 - (id);
 - (id);
 

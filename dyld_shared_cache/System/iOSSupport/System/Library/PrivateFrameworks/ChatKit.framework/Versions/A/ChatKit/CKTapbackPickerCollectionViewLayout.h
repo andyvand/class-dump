@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     MISSING_TYPE *lastPanGestureRecognizerPositionInCollectionViewCoordinates;
 }
 
-- (_Bool);
 - (id);
 - (id);
+- (_Bool)cent;
+- (id);
+- (void)yACyAAyð}[{;
 - (id);
-- (void);
-- (void);
-- (id)n4|/;
+- (void)IIk¬Î¨ÿIIk¨Î¨ÿiIk¦«ÿ;
+- (id)9Ô.1;
+- (id)2;
+- (id)YÿÏÅ3k/2;
 - (id);
-- (id))4;Ã0;
-- (id)ìÿ«wÅT@1;
-- (id)t;
 
 @end
 

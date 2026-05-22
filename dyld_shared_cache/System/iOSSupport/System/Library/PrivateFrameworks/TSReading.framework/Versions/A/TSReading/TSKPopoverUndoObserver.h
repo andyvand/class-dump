@@ -23,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSUndoManager *observedUndoManager; // @synthesize observedUndoManager=mUndoManager;

@@ -5,7 +5,5 @@
 //
 
 @protocol SMMadridMessengerProtocol
-- (void)TB;
-- (void);
 @end
 

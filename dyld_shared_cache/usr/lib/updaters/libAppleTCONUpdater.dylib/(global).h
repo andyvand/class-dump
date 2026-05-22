@@ -4,16 +4,14 @@
 
 // Global C++ functions
 
-AppleTCONPrintVersion()::version_displayed;
 AppleTCONUpdaterCreate::'block-literal'::kLibAppleTCONUpdaterClass;
 AppleTCONUpdaterCreate::only_once;
-AppleTCONUpdaterDescribe(AppleTCONUpdater*);
-AppleTCONUpdaterDestroy(AppleTCONUpdater*);
 AppleTCONUpdaterTypeID;
+auto AppleTCONPrintVersion()::version_displayed;
+auto AppleTCONUpdaterDescribe(AppleTCONUpdater*);
+auto AppleTCONUpdaterDestroy(AppleTCONUpdater*);
 logSinkContext;
 logSinkFunc;
-operator delete(void*);
-operator new(unsigned long);
 tconEEPROMMap;
 typeinfo for AppleTCONDP835Device;
 typeinfo for AppleTCONDP855Device;
@@ -21,6 +19,8 @@ typeinfo for AppleTCONDevice;
 typeinfo name for AppleTCONDP835Device;
 typeinfo name for AppleTCONDP855Device;
 typeinfo name for AppleTCONDevice;
+void * operator new(unsigned long);
+void operator delete(void*);
 vtable for AppleTCONDP835Device;
 vtable for AppleTCONDP855Device;
 vtable for AppleTCONDevice;

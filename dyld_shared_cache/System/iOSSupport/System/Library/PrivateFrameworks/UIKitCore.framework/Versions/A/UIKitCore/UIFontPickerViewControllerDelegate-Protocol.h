@@ -5,8 +5,5 @@
 //
 
 @protocol UIFontPickerViewControllerDelegate
-
-@optional
-- (void);
 @end
 

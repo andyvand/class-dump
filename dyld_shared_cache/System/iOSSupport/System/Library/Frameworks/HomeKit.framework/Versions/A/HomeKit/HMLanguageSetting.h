@@ -23,8 +23,8 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
+- (void)KÌL0MäOQØQ4S\S;
 
 // Remaining properties
 @property(readonly) HMSettingLanguageValue *languageValue; // @synthesize languageValue=_languageValue;

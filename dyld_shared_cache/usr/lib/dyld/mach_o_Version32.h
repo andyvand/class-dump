@@ -4,5 +4,5 @@
 
 class mach_o::Version32 {
 public: // (access info unavailable from symbols alone)
-    toString(char*) const;
+    auto toString(char*) const;
 };

@@ -12,13 +12,13 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)!å,;
++ (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *currentDate;

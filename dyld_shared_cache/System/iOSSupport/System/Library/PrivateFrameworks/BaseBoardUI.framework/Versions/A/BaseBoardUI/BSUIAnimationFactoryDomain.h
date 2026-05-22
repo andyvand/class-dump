@@ -9,9 +9,9 @@
 }
 
 + (id);
-+ (id);
-+ (Class)etched export table row count:%ld /* Error: Ran out of types for this method. */;
 + (id);
++ (id);
++ (Class);
 
 @end
 

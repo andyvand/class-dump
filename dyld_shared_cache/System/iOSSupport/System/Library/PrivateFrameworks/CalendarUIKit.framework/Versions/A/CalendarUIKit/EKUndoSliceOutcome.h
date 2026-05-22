@@ -20,12 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (id)4;
+- (id);
 - (id);
 - (id);
 - (void);
-- (id)P;
-- (void);
+- (id);
+- (void)ource: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy) EKSeriesDetails *createdSeriesDetails; // @synthesize createdSeriesDetails=_createdSeriesDetails;

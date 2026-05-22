@@ -11,13 +11,13 @@
     long long _index;
 }
 
-+ (_Bool)w;
++ (_Bool);
 - (id);
 - (_Bool);
+- (id);
 - (void);
-- (id);
 - (long long);
-- (void);
+- (void)¬;
 
 // Remaining properties
 @property(nonatomic) long long index; // @synthesize index=_index;

@@ -14,20 +14,20 @@
 }
 
 - (void);
-- (void);
-- (void)pToRadarURL;
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)lTriggerReporting: /* Error: Ran out of types for this method. */;
-- (id)@;
-- (void);
-- (void);
-- (void)tore:withContext:error: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)duration, %.2f, earliestStartDate, %@, latestEndDate, %@, error, %@;
+- (void)ot.;
+- (void)meter not satisfying:(double)arg1 messageGUID (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) NSString *identifier; // @synthesize identifier=_identifier;

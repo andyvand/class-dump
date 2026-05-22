@@ -5,6 +5,6 @@
 //
 
 @protocol _UITabContainerViewDelegate
-- (void)V;
+- (void)vementDecay;
 @end
 

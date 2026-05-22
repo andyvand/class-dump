@@ -22,13 +22,13 @@
 - (CDStruct_1b6d18a9);
 - (Class);
 - (id);
+- (id);
+- (CDStruct_1b6d18a9);
 - (long long);
 - (_Bool);
-- (id);
-- (void);
-- (unsigned long long);
-- (CDStruct_1b6d18a9);
-- (id)øíGëE5;
+- (id)hotoLibrary"24@"<PXActionProviderDelegate>"32;
+- (unsigned long long)ew;
+- (void)terView;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *albumTitle; // @dynamic albumTitle;

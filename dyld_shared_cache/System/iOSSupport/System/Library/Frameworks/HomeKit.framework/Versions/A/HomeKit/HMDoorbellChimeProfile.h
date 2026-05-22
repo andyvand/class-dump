@@ -15,11 +15,11 @@
     id <HMDoorbellChimeProfileDelegate> _delegate;
 }
 
-+ (id)tem;
++ (id)esses;
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

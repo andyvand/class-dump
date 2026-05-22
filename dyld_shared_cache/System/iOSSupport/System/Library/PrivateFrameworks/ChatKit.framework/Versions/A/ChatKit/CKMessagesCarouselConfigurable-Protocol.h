@@ -8,11 +8,6 @@
 @protocol CKMessagesCarouselViewDelegate;
 
 @protocol CKMessagesCarouselConfigurable
-- (void);
-- (void)vateCatalog:(PXSectionedDataSourceManager *)arg1;
-- (void)mmandPressed;
-- (_Bool)ewImages;
-- (PXSectionedDataSourceManager *)_'9;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKMessagesCarouselViewDelegate> carouselDelegate;

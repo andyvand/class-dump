@@ -5,6 +5,5 @@
 //
 
 @protocol UITextLinkInteraction
-- (void)ription:(struct CGPoint)arg1;
 @end
 

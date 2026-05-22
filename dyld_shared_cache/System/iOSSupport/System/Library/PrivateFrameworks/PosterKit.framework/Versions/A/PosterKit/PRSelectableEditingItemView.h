@@ -12,12 +12,12 @@
     PUIShapeView *_selectionView;
 }
 
-- (void);
 - (struct CGSize);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (_Bool)öXyõX_Qo_JóXy<ôXSgGGAIySiSgGGÚâXGAIy)|[GG*öXyAR_Qo_GmûXGççZG_AEyAFyAFyAyEyºAQGGAXGGÈÿÿGtGGSg_AEyAWA4_GAEyAYA4_GSgtGG;
+- (void);
+- (_Bool)nlock;
 
 // Remaining properties
 @property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;

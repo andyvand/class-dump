@@ -47,28 +47,27 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9);
-- (long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id)Ñ|Ð1b0@ù
-× ;
-- (id):8q16{CGSize=dd}24 /* Error: Ran out of types for this method. */;
-- (id)ightVectors;
-- (void)quest:photoLibrary: /* Error: Ran out of types for this method. */;
-- (float)d values:%@ %@ %@ /* Error: Ran out of types for this method. */;
-- (void)active:(float)arg1 %{public}@;
-- (CDStruct_1b6d18a9)onCustomizationCollectionTitlePlaceholderPeople;
 - (CDStruct_1b6d18a9);
 - (void);
+- (id);
+- (CDStruct_1b6d18a9);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (float);
+- (CDStruct_1b6d18a9)initWithCountBeforeChanges:anchorIndexBeforeChanges:headerIndexesBeforeChanges:countAfterChanges:anchorIndexAfterChanges:headerIndexesAfterChanges: /* Error: Ran out of types for this method. */;
+- (long long)ositePansWithDistance:threeUpComposition: /* Error: Ran out of types for this method. */;
+- (id)y;
+- (id)ory.interactiveMemoryFullscreenPlaybackStartedByUserSelectingRelated;
+- (void);
+- (_Bool)6;
+- (void)Û6;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAudioAsset> asset; // @synthesize asset=_asset;

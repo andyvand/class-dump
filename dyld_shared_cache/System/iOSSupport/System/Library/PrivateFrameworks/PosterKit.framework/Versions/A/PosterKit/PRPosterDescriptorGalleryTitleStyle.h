@@ -10,14 +10,14 @@
     double _preferredTimeMaxYLandscape;
 }
 
-+ (_Bool)yle:timeNumberingSystem:userConfigured:preferredTimeMaxY:contentsLuminance:alternateDateEnabled:groupName: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (void);
 - (void);
 - (double);
 - (double);
-- (void);
 - (id);
+- (void);
 - (id);
 
 // Remaining properties

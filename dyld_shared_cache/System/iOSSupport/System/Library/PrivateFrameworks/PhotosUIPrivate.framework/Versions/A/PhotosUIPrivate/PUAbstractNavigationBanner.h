@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
 - (double);
-- (id);
 - (void);
+- (id);
+- (void)um;
 
 // Remaining properties
 @property(nonatomic) __weak id <PUAbstractNavigationBannerDelegate> delegate; // @synthesize delegate=_delegate;

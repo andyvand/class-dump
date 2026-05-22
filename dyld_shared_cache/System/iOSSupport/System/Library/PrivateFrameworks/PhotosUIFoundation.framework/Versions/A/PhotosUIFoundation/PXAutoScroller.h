@@ -38,10 +38,10 @@
 - (struct CGRect);
 - (void);
 - (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id)(;
 
 // Remaining properties
 @property(nonatomic, setter=_setAutoscrollDirection:) struct CGPoint _autoscrollDirection; // @synthesize _autoscrollDirection=__autoscrollDirection;

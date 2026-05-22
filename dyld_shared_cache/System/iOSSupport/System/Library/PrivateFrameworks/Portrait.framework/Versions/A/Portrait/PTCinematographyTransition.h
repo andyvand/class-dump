@@ -11,9 +11,9 @@
 
 - (float);
 - (float);
-- (unsigned long long);
-- (id);
 - (void);
+- (id);
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long kind; // @synthesize kind=_kind;

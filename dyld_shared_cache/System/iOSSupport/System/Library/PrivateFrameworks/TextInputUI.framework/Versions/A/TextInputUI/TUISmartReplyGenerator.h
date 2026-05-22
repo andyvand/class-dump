@@ -28,7 +28,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (id)y;
++ (id);
 - (id);
 - (void);
 - (void);
@@ -73,8 +73,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *acceptedCandidates; // @synthesize acceptedCandidates=_acceptedCandidates;

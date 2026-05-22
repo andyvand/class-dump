@@ -12,7 +12,7 @@
     NSString *_idsTopic;
 }
 
-+ (id)Session;
++ (id)meStateUpdate:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -22,6 +22,7 @@
 - (id);
 - (id);
 - (id);
+- (void)5È60<xFôF4IJ,M;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

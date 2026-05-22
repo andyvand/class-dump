@@ -7,45 +7,23 @@
 @class FCAssetHandle, FCColor, FCColorGradient, FCContentColorMap, FCHeadlineTemplate, FCTagBanner, FCTextInfo, NSArray, NSString;
 
 @protocol FCFeedTheming
-- (FCTagBanner *)mateWithDuration:animations:completion: /* Error: Ran out of types for this method. */;
-- (FCColor *)	
-;
-- (unsigned long long)ÿÿÿÿô;
-- (NSArray *)ìh;
-- (FCColor *);
-- (FCAssetHandle *)ÿÿÿÿ;
-- (FCColorGradient *)$;
-- (struct CGSize);
-- (FCAssetHandle *)G;
-- (FCTagBanner *)ôAtD¼DøD8EDGÄGøG;
-- (FCTagBanner *)ÿ;
-- (struct CGSize)góÿ;
-- (struct CGSize);
-- (FCColorGradient *)(ùáÿdùáÿùáÿ0úáÿTúáÿxúáÿúáÿ´úáÿLûáÿpûáÿ¬ûáÿàûáÿüáÿ(üáÿ\üáÿtüáÿüáÿ¤üáÿ¼üáÿàüáÿhýáÿ¨ýáÿ$þáÿHþáÿþáÿ¸þáÿÐþáÿèþáÿ;
-- (FCColorGradient *)XlÝÿ¤lÝÿØlÝÿülÝÿHmÝÿ|mÝÿ mÝÿìmÝÿ nÝÿDnÝÿnÝÿÄnÝÿènÝÿ4oÝÿhoÝÿoÝÿ°oÝÿüoÝÿ0pÝÿTpÝÿxpÝÿÄpÝÿøpÝÿqÝÿhqÝÿqÝÿÀqÝÿrÝÿ@rÝÿdrÝÿ°rÝÿärÝÿsÝÿTsÝÿsÝÿ¬sÝÿÐsÝÿôsÝÿtÝÿdtÝÿtÝÿ¼tÝÿuÝÿ<uÝÿ`uÝÿ¬uÝÿàuÝÿvÝÿPvÝÿvÝÿ¨vÝÿôvÝÿ(wÝÿLwÝÿwÝÿÌwÝÿðwÝÿxÝÿ8xÝÿ\xÝÿ¨xÝÿÜxÝÿ;
-- (FCColor *)ey;
-- (long long)llectionViewCSgXw;
-- (NSString *)artTime_AA03endB0t;
-- (FCColor *);;Â;
-- (struct FCEdgeInsets)Sayº­üÿG;
-- (FCContentColorMap *)C;
-- (double);
-- (FCHeadlineTemplate *)P;
-- (FCColorGradient *)optionIdentifier type ;
-- (FCTextInfo *)Value;
-- (FCColor *)ommandAssembly;
-- (FCColor *)s;
-- (FCAssetHandle *)âËH¿;
-- (FCColor *)`;
-- (FCAssetHandle *)ÿ;
-- (FCColor *)ÀC;
-- (FCColor *)µ¥ÓS;
-- (_Bool)@_wÿ;
-- (FCColor *)!ë¾è;
-- (FCAssetHandle *)matCustomNodeStyle;
-- (double)(­¦þ©
-Æþ©
-Ætþ;
+- (FCColor *)ptionState;
+- (FCAssetHandle *)4;
+- (FCColor *)´;
+- (FCContentColorMap *);
+- (FCColorGradient *)Zp[;
+- (FCColor *)Ä·;
+- (FCAssetHandle *) 4;
+- (struct CGSize)&áúÿ;
+- (FCAssetHandle *)e;
+- (long long);
+- (FCColor *);
+- (FCAssetHandle *)d deferred database group %ld of %ld, kind=%{public}@, group=%{public}@;
+- (FCAssetHandle *)ading1;
+- (FCColorGradient *)/A18_V15.swift;
+- (FCTagBanner *)(þÔÿ;
+- (struct FCEdgeInsets)?ô¨þ;
+- (FCColor *)@Ñþ;
 
 // Remaining properties
 @property(readonly, nonatomic) FCColor *adBackgroundColor;

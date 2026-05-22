@@ -18,7 +18,7 @@
 
 + (unsigned long long);
 + (unsigned long long);
-+ (unsigned long long);
++ (unsigned long long);
 - (unsigned long long);
 - (void);
 

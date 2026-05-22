@@ -17,18 +17,18 @@ __attribute__((visibility("hidden")))
     id <WebAllowDenyPolicyListener> _listener;
 }
 
-- (void)nifestUniqueID;
-- (void)FDRDataSetApTicketAndGetNewestTrustObject;
+- (void);
+- (void);
 - (id);
 - (id);
-- (void)SeasonHasCleanContent__MAPPING_MISSING__;
-- (id);
-- (id)QÅð1¢!0@ù
+- (void);
+- (void);
+- (void)e°1Â0@ù
 × ;
-- (void)ctionView:(id)arg1 typeSelectStringForItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1 YES.;
-- (void)cognizer.requiresExclusiveTouchType;
-- (id)f;
+- (id)ntroller:sidebar:itemsForBeginningDragSession:tab: /* Error: Ran out of types for this method. */;
+- (void)ribute:(id)arg1;
+- (id)ForView;
+- (id)bilityPostReorderingAnnouncementForCurrentIndexPath:targetIndexPath:previousIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <WebAllowDenyPolicyListener> listener; // @synthesize listener=_listener;

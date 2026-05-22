@@ -15,13 +15,13 @@
 - (long long);
 - (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)ourceDirectory;
 
 // Remaining properties
 @property(readonly, nonatomic) NSHashTable *_changeObservers; // @synthesize _changeObservers=__changeObservers;

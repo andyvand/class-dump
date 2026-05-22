@@ -47,11 +47,11 @@
 - (long long);
 - (void);
 - (void);
-- (id)0e;
+- (id);
 - (void);
 - (id);
-- (void)cipeValid:%i /* Error: Ran out of types for this method. */;
-- (void)ÿ!7LÖØ6;
+- (void);
+- (void)¨'a;
 
 // Remaining properties
 @property(nonatomic) long long buttonStyle; // @synthesize buttonStyle=_buttonStyle;

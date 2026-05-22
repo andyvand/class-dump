@@ -54,7 +54,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ifierAddScene;
 
 // Remaining properties
 @property(nonatomic, retain) HFMediaAccessoryItem *mediaItem; // @synthesize mediaItem;

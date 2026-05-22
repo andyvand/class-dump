@@ -21,7 +21,7 @@
 }
 
 + (id);
-+ (_Bool)9××|Kbÿ;
++ (_Bool)@24;
 - (_Bool);
 - (float);
 - (void);
@@ -36,18 +36,18 @@
 - (void);
 - (long long);
 - (void);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 - (float);
 - (void);
 - (void);
-- (float);
-- (void)_ÿÇ;
-- (float)ÿxÔà¤';
-- (float)¼ûx(;
+- (id);
+- (id);
+- (float)?´?;
+- (float)Ã¾Õ<ù?hçP?k@ ÓÂ¾mtâ?Ó/Q?<W@îÁ¾M»Î?ÎnQ?]E@d\Á¾È½?Q?76@ÅÊÀ¾M»®?2ÈQ?¤Â(@&À¾;
+- (float) ½=a?Dj¸?­½xG=!?h±?}	½ {}=?ïª?½Ñ²n=?/¥?JÎ	½ÁÇ`=8¢?ÛÂ?B$½ÐR=~©?<Þ?xù¼\E=°?zm?ñî¼÷8=ª¶?B_?vÁà¼ì,=ñ½?;
+- (void)Oÿ/SÆp';
 
 // Remaining properties
 @property(nonatomic) MISSING_TYPE *colorFilter;

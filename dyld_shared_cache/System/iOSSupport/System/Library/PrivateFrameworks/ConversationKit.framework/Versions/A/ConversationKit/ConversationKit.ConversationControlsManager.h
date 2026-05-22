@@ -22,6 +22,7 @@
     MISSING_TYPE *contentExtractor;
     void presentContactCard;
     void presentAddParticipantSheet;
+    MISSING_TYPE *moreMenuViewController;
     MISSING_TYPE *isOnScreenSubscription;
     MISSING_TYPE *defaults;
     MISSING_TYPE *cnkFeatures;
@@ -125,9 +126,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (long long);
+- (void)G_Qo_æâGH¢GtGG;
+- (long long)1\;
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType presentAddParticipantSheet;

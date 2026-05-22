@@ -27,16 +27,16 @@
 - (id);
 - (_Bool);
 - (id);
+- (double);
 - (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (double);
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) double duration; // @synthesize duration=_duration;

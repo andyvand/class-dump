@@ -12,9 +12,9 @@
 }
 
 - (void);
-- (void);
-- (id);
 - (_Bool);
+- (id);
+- (void)rmed.;
 
 // Remaining properties
 @property(retain, nonatomic) HKSampleType *sampleType; // @synthesize sampleType=_sampleType;

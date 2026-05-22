@@ -7,10 +7,10 @@ public: // (access info unavailable from symbols alone)
     Measure();
     Measure(icu::Formattable const&, icu::MeasureUnit*, UErrorCode&);
     Measure(icu::Measure const&);
-    clone() const;
-    getDynamicClassID() const;
-    getStaticClassID();
-    operator=(icu::Measure const&);
-    operator==(icu::UObject const&) const;
+    auto clone() const;
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto operator=(icu::Measure const&);
+    auto operator==(icu::UObject const&) const;
     ~Measure();
 };

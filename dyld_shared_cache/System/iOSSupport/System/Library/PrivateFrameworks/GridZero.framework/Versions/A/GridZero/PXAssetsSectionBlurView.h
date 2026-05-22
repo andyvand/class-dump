@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIVisualEffectView *blurEffectView; // @synthesize blurEffectView=_blurEffectView;

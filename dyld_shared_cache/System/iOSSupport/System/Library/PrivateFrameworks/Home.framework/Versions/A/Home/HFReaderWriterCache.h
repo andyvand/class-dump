@@ -18,13 +18,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
+- (id);
+- (void)p q;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *cachedObjects; // @synthesize cachedObjects=_cachedObjects;

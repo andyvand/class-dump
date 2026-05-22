@@ -14,6 +14,7 @@
 + (void);
 + (void);
 + (void);
++ (void);
 - (struct CGRect);
 - (void);
 @end

@@ -4,5 +4,5 @@
 
 class boost::hash<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>> {
 public: // (access info unavailable from symbols alone)
-    operator()(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) const;
+    auto operator()(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) const;
 };

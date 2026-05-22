@@ -7,7 +7,8 @@
 @class FCHeadlineThumbnailMetadata, NSString;
 
 @protocol FCRecipeMetadataType
-- (NSString *)¤yÙÿÈyÙÿìyÙÿ8zÙÿ|zÙÿ zÙÿÔzÙÿ{Ùÿ°{ÙÿÔ{Ùÿ|Ùÿ4|ÙÿX|Ùÿ||Ùÿ |ÙÿÄ|Ùÿð|Ùÿ}Ùÿh}Ùÿ~Ùÿ8~Ùÿ\~Ùÿh~ÙÿÌ~Ùÿð~ÙÿÙÿPÙÿtÙÿÙÿ,ÙÿpÙÿÙÿ¸ÙÿôÙÿÙÿ ÙÿTÙÿtÙÿ¸ÙÿÐÙÿèÙÿÙÿ0ÙÿTÙÿlÙÿÙÿ¨ÙÿÌÙÿÙÿÀÙÿðÙÿÙÿ8ÙÿtÙÿÙÿäÙÿÙÿDÙÿ;
+- (NSString *);
+- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) FCHeadlineThumbnailMetadata *formatThumbnail;

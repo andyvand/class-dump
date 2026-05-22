@@ -16,17 +16,18 @@
 
 + (_Bool);
 + (id);
-+ (id)nits;
-+ (id)}0}Ê;
++ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (long long);
+- (id);
+- (id)	
+;
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

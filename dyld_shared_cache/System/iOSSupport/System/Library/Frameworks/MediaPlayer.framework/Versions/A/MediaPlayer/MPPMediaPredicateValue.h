@@ -33,8 +33,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)XT;
-- (void)o;
+- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -46,18 +46,18 @@ __attribute__((visibility("hidden")))
 - (double);
 - (id);
 - (_Bool);
-- (unsigned long long)remove alias:%@  account:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void);
+- (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)";
-- (id);
-- (id);
 - (int);
-- (void)dingUnitCount:(int)arg1;
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)NG__;
 
 // Remaining properties
 @property(nonatomic) _Bool boolPredicateValue; // @synthesize boolPredicateValue=_boolPredicateValue;

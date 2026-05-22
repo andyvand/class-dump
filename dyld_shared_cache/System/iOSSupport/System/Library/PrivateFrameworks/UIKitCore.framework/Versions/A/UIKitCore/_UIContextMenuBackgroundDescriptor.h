@@ -18,11 +18,12 @@
 - (void);
 - (id);
 - (id);
-- (void)r3ç;
-- (id)WithDuration: /* Error: Ran out of types for this method. */;
-- (void)¸7,8ì89;
 - (id);
-- (void);
+- (void)1Â0@ù
+× ;
+- (void)mContentLayoutGuideFlushTrailing;
+- (id)dentifier;
+- (void)$­Ï]];
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

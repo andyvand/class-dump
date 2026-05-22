@@ -13,15 +13,15 @@
     NSArray *_items;
 }
 
-+ (id)eryProvider.;
-+ (id)ld reparentable messages; nil pTaskQueryProvider.;
++ (id);
++ (id);
 - (_Bool);
-- (id)a;
 - (id);
-- (void);
 - (id);
-- (_Bool)olor;
-- (id)¢;
+- (id);
+- (id)ismissGrantingAccessToURL: /* Error: Ran out of types for this method. */;
+- (_Bool)ISplitViewControllerCompactColumnVC;
+- (void)µ4ÙÄ¸[;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;

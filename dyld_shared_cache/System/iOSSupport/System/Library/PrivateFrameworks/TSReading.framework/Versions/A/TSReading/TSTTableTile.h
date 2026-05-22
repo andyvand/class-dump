@@ -29,10 +29,10 @@
 - (void);
 - (unsigned short);
 - (void);
+- (id);
 - (void);
-- (id)creation date for clustering journal at URL %{public}@;
-- (void);
-- (id)with the same name in a collection!;
+- (id)NSMutableIndexSet"16@"TSDTilingLayer"24{CGRect={CGPoint=dd}{CGSize=dd}}32;
+- (void)ÄR;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char maxColumn;

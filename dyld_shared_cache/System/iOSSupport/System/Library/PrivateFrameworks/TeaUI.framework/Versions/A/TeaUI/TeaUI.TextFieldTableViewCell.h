@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void)Service:(id)arg1;
-- (id)oreCoefficient;
 - (void);
+- (id);
+- (void)JsýÿÔÿÿ;
 
 @end
 

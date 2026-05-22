@@ -29,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -37,20 +37,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool)UI:(id)arg1;
-- (float)^;
+- (_Bool);
 - (float);
-- (double)@;
+- (float);
 - (void);
 - (void);
-- (id){V;
+- (void);
+- (id);
+- (double);
+- (_Bool);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (_Bool)public}@  â° statusCode:%{public}@ /* Error: Ran out of types for this method. */;
-- (_Bool)%p>;
-- (float)P;
+- (_Bool)È;
+- (void)ffleWithTargetContentItemID:completion:| recreating data source [placeholder start item] sectionID=%{public}@ /* Error: Ran out of types for this method. */;
+- (float);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAvailable) _Bool available;

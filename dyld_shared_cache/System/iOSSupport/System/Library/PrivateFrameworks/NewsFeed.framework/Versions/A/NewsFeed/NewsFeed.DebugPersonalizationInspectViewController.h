@@ -31,15 +31,15 @@
 - (id);
 - (double);
 - (double);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (void);
-- (id);
-- (id);
 - (void);
 - (long long);
-- (void)8µùÿ;
-- (void)rÁ;;
+- (void)ayConfiguration;
+- (void)]:%÷þ /* Error: Ran out of types for this method. */;
+- (void);
 
 @end
 

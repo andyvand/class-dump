@@ -32,9 +32,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(retain, nonatomic) id <PBFDisplayContext> displayContext; // @synthesize displayContext=_displayContext;

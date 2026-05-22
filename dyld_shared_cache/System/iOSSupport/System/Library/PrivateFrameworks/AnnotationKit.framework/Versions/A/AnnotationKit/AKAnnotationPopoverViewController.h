@@ -24,7 +24,7 @@
 - (int);
 - (void);
 - (void);
-- (void)ii;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,25 +34,25 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)h;
+- (void);
 - (struct CGRect);
 - (void);
 - (void);
-- (void)@D;
 - (void);
-- (void);
-- (void);
-- (void)ailView: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (id);
-- (int)ng *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<NSString *, std::unique_ptr<SafariShared::URLCompletionEntryExtras>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}} /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
 - (id);
-- (void)r",&,V_testingGeometryHelper;
+- (id);
+- (id);
+- (void);
+- (int);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AKAnnotation *annotation; // @synthesize annotation=mAnnotation;

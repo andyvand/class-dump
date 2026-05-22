@@ -17,18 +17,20 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (void);
 - (unsigned long long);
 - (void);
+- (struct CGSize);
+- (double);
 - (double);
 - (void);
-- (struct CGSize);
 - (void);
-- (void);
-- (id);
-- (id)homeForUser;
-- (struct CGSize)history setting;
-- (void)udioSettings;
+- (struct CGSize)1â
+0@ù
+× ;
+- (id)@ó;
+- (void)orySetupReminders:]_block_invoke /* Error: Ran out of types for this method. */;
+- (id)e;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

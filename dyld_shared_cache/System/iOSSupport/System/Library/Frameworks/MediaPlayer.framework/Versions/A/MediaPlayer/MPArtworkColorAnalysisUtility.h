@@ -17,14 +17,14 @@
 - (void);
 - (void);
 - (id);
-- (void)ame;
-- (id)ByPruningPolicyMaxStreamSize;
-- (id)dDictationHistory;
 - (void);
 - (id);
-- (id);
-- (long long)edCollection:isEqualBlock:isUpdatedBlock: /* Error: Ran out of types for this method. */;
-- (void)t;
+- (id);
+- (long long);
+- (id);
+- (id);
+- (void)View;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSOperationQueue *artworkColorAnalysisOperationQueue; // @synthesize artworkColorAnalysisOperationQueue=_artworkColorAnalysisOperationQueue;

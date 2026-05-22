@@ -34,24 +34,24 @@
 - (void);
 - (_Bool);
 - (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (id);
+- (id);
+- (_Bool)ì\;
+- (void)citly disabled.;
+- (void)@ AND configuration = %@;
+- (void)onfigurationIntent;
+- (id)HÛÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;

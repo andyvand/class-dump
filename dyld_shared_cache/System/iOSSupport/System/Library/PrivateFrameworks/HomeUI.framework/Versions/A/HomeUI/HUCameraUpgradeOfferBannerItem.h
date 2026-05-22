@@ -50,9 +50,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)tegorySectionTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bannerActionText; // @synthesize bannerActionText=_bannerActionText;

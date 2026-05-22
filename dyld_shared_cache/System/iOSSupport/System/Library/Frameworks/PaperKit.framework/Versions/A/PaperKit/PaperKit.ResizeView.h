@@ -33,13 +33,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool)ence;
 
 @end
 

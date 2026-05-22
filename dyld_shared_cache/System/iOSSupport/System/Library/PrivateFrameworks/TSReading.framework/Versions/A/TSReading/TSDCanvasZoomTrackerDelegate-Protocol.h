@@ -5,6 +5,5 @@
 //
 
 @protocol TSDCanvasZoomTrackerDelegate
-- (void);
 @end
 

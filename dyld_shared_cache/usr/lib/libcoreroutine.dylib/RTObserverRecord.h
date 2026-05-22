@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
     SEL _selector;
 }
 
-- (void);
-- (void);
-- (id)`;
 - (id);
-- (SEL);
-- (void));
+- (SEL)ucketed;
+- (void)its, %lu;
+- (void), dwell time, %.2f, percentage dwell time, %.2f;
+- (id);
+- (void)N;
 
 // Remaining properties
 @property(nonatomic) __weak id observer; // @synthesize observer=_observer;

@@ -11,12 +11,12 @@
     MISSING_TYPE *_presentationViewController;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (void)ide;
 
 @end
 

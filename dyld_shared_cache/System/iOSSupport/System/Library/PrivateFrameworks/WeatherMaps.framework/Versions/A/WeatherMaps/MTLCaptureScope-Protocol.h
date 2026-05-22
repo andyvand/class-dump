@@ -8,7 +8,7 @@
 @protocol MTL4CommandQueue, MTLCommandQueue, MTLDevice;
 
 @protocol MTLCaptureScope
-- (id <MTLCommandQueue>)4ùüÿD¨;
+- (id <MTLCommandQueue>)×þÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLCommandQueue> commandQueue;

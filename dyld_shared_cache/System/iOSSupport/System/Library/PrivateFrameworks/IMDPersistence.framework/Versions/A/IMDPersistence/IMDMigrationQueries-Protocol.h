@@ -5,6 +5,5 @@
 //
 
 @protocol IMDMigrationQueries
-- (void);
 @end
 

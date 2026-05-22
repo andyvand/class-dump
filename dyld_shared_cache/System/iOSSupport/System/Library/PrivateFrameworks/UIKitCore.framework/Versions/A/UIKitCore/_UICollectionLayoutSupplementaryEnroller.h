@@ -17,27 +17,28 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
+- (id);
 - (void);
+- (id);
+- (id);
 - (long long);
 - (void);
-- (void);
-- (long long)nd %@;
 - (id);
-- (void);
 - (id);
-- (id)Ô ;
-- (void);
-- (void)1¢!0@ù
+- (void)Ô ;
+- (long long)@ùqc°1Â0@ù
 × ;
-- (id)idateToInsert;
-- (void)tLanguage;
-- (id)Font:fontSize:lineBreakMode:baselineAdjustment: /* Error: Ran out of types for this method. */;
-- (id)ursorVisible;
-- (id)llerStyle",R,N;
-- (void)xyÔy@È((ü° ;
-- (id);
-- (void)\;
-- (long long);
+- (void)
+× ;
+- (void)ToFitContent;
+- (void)ameters;
+- (void)icKeyboardViewController;
+- (id)ÿdvþÿ;
+- (void)rformanceSearchFoundProactiveResults;
+- (id)dTypeASCIICapableNumberPadStr;
+- (long long)nil;
+- (id)nd=%@; isSup=%@>;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

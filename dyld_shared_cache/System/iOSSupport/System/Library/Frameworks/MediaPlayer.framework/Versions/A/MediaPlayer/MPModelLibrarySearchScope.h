@@ -13,18 +13,18 @@
     MPPropertySet *_itemProperties;
 }
 
-+ (_Bool)issing Catalyst implementation!;
++ (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void),R,N,V_logicalLeaderOutputDevice;
 
 // Remaining properties
 @property(retain, nonatomic) MPModelKind *itemKind; // @synthesize itemKind=_itemKind;

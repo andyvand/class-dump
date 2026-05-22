@@ -4,7 +4,7 @@
 
 class std::__1::vector<double, std::__1::allocator<double>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100]();
-    __vallocate[abi:ne200100](unsigned long);
-    vector[abi:ne200100](unsigned long, double const&);
+    auto __throw_length_error[abi:nqe210106]();
+    auto __vallocate[abi:nqe210106](unsigned long);
+    auto vector[abi:nqe210106](unsigned long, double const&);
 };

@@ -33,9 +33,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)entLabel;
+- (id);
+- (void):didSelectItem:forContact:actionType: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

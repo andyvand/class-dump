@@ -12,21 +12,21 @@
 }
 
 + (id);
-+ (_Bool)secondaryBrandColorHexString;
++ (_Bool);
 - (id);
 - (id);
-- (void);
+- (double);
 - (_Bool);
 - (id);
-- (_Bool)ijh8i;
-- (double);
+- (id);
+- (_Bool);
 - (void);
 - (id);
+- (double);
 - (id);
 - (id);
 - (id);
-- (id)mponentVersion;
-- (double)^;
+- (void)SÙÿ¸[;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *backgroundColor;

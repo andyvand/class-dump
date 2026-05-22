@@ -18,6 +18,7 @@
     MISSING_TYPE *processFuture;
     MISSING_TYPE *processPromise;
     MISSING_TYPE *updates;
+    MISSING_TYPE *loadedProductSeeds;
 }
 
 @end

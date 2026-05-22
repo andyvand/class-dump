@@ -37,18 +37,18 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (CDUnknownBlockType);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType broadcastURLHandler; // @synthesize broadcastURLHandler=_broadcastURLHandler;

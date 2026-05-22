@@ -5,11 +5,11 @@
 class dyld4::RemoteNotificationResponder {
 public: // (access info unavailable from symbols alone)
     RemoteNotificationResponder(unsigned int);
-    active() const;
-    blockOnSynchronousEvent(unsigned int);
-    notifyMonitorOfDyldBeforeInitializers();
-    notifyMonitorOfImageListChanges(bool, unsigned int, mach_header const**, char const**, unsigned long long);
-    notifyMonitorOfMainCalled();
-    sendMessage(int, unsigned int, mach_msg_header_t*);
+    auto active() const;
+    auto blockOnSynchronousEvent(unsigned int);
+    auto notifyMonitorOfDyldBeforeInitializers();
+    auto notifyMonitorOfImageListChanges(bool, unsigned int, mach_header const**, char const**, unsigned long long);
+    auto notifyMonitorOfMainCalled();
+    auto sendMessage(int, unsigned int, mach_msg_header_t*);
     ~RemoteNotificationResponder();
 };

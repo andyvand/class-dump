@@ -6,8 +6,12 @@ class JetPack::BrotliDecoderStreamImpl<JetPack::AppleDecompressionInterface> {
 public: // (access info unavailable from symbols alone)
     BrotliDecoderStreamImpl(std::__1::shared_ptr<JetPack::BaseStream>, unsigned long, std::__1::unique_ptr<JetPack::AppleDecompressionInterface, std::__1::default_delete<JetPack::AppleDecompressionInterface>>);
     BrotliDecoderStreamImpl(std::__1::shared_ptr<JetPack::BaseStream>, unsigned long, std::__1::unique_ptr<JetPack::AppleDecompressionInterface, std::__1::default_delete<JetPack::AppleDecompressionInterface>>) (.cold.1);
-    isFinished();
-    position();
-    read(unsigned char*, unsigned long);
+    auto isFinished();
+    auto position();
+    auto read(unsigned char*, unsigned long);
+    auto read(unsigned char*, unsigned long) (.cold.1);
+    auto read(unsigned char*, unsigned long) (.cold.2);
+    auto read(unsigned char*, unsigned long) (.cold.3);
+    auto read(unsigned char*, unsigned long) (.cold.4);
     ~BrotliDecoderStreamImpl();
 };

@@ -22,7 +22,7 @@
     id _backgroundContentsBehindDrawable;
 }
 
-+ (id)wasInitiallyInteractive;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -42,7 +42,7 @@
 - (id);
 - (void);
 - (void);
-- (void)C;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,14 +56,14 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (void)+;
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool additiveWritesToAlpha;

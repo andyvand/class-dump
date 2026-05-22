@@ -4,8 +4,8 @@
 
 class std::__1::deque<marisa::grimoire::trie::Range, std::__1::allocator<marisa::grimoire::trie::Range>> {
 public: // (access info unavailable from symbols alone)
-    __add_back_capacity();
-    push_back(marisa::grimoire::trie::Range const&);
-    push_back(marisa::grimoire::trie::Range&&);
-    ~deque[abi:ne200100]();
+    auto __add_back_capacity();
+    auto push_back(marisa::grimoire::trie::Range const&);
+    auto push_back(marisa::grimoire::trie::Range&&);
+    auto ~deque[abi:nqe210106]();
 };

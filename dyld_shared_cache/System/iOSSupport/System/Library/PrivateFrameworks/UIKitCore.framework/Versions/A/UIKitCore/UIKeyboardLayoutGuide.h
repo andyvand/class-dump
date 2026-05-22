@@ -32,91 +32,87 @@
     struct CGSize _interactionResetSize;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void)";
+- (long long);
+- (struct UIOffset);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void)WhenCondition:(id)arg1;
-- (_Bool);
-- (void);
-- (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (void)o°!èGùQÁ°1¢!0@ù
-× ;
-- (long long)
-× ;
-- (struct CGSize)!Dù1Äð1¢!0@ù
-× ;
-- (_Bool);
-- (_Bool)0@ù
-× ;
-- (void)!Bù1È1¢!0@ù
-× ;
 - (struct CGSize);
-- (_Bool)1¢!0@ù
-× ;
-- (id)Ô ;
-- (void)!Aù±Ê°1¢!0@ù
-× ;
-- (_Bool)±Ëð1¢!0@ù
-× ;
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (void)1"isChangingOrientationForPop"b1"pretendNavBarHidden"b1"navBarWillHideAfterAnimation"b1"avoidMovingNavBarOffscreenBeforeUnhiding"b1"searchBarHidNavBar"b1"isCustomTransition"b1"isBuiltinTransition"b1"resetDidHideOnCancel"b1"delegateWillShowViewController"b1"delegateDidShowViewController"b1"delegateTransitionController"b1"delegateTransitionControllerEx"b1"delegateInteractionController"b1"delegateInteractionControllerEx"b1"delegateShouldCrossFadeNavigationBar"b1"delegateShouldCrossFadeBottomBars"b1"delegateShouldUseBuiltinInteractionController"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"delegateLayoutTransitioningClass"b1"delegateWasNonNil"b1"navigationBarHidesCompletelyOffscreen"b1"clipUnderlapWhileTransitioning"b1"isCrossfadingOutTabBar"b1"isCrossfadingInTabBar"b1"skipContentInsetCalculation"b1"useStandardStatusBarHeight"b1"allowUserInteractionDuringTransition"b1"enableBackButtonDuringTransition"b1"allowsGroupBlending"b1"allowNestedNavigationControllers"b1"allowChildSplitViewControllers"b1"nestedNavigationBarWasHidden"b1"nestedToolbarWasHidden"b1"isAnimatingExchangeBetweenInnerAndOuterToolbars"b1"isNested"b1"searchHidNavigationBar"b1"disappearingViewControllerIsBeingRemoved"b1"disappearingViewControllerNeedsToBeRemoved"b1"isWrappingDuringAdaptation"b1"cannotPerformShowViewController"b1"navigationSoundsEnabled"b1"didSetNeedsFocusInTransition"b1"layingOutTopViewController"b1"hasScheduledDeferredUpdateNavigationBarHostedRefreshControl"b1"allowsFreezeLayoutForOrientationChangeOnDismissal"b1"scrollViewObservationReasonHasVariableHeightNavigationBar"b1"scrollViewObservationReasonIsEmulatingChromelessForFixedHeightNavigationBar"b1"scrollViewObservationReasonIsAutoUpdatingManualScrollEdgeAppearance"b1"scrollViewObservationReasonIsEmulatingChromelessEverywhere"b1"suspendToolbarBackgroundUpdating"b1"isBottomBarUnhidingDuringPushOrPop"b1"hasUpdatedToolbarBackgroundAfterAppLaunch"b1"createdBySplitViewController"b1"isExecutingSplitViewControllerActions"b1"shouldInteractivePopGestureBeEnabled"b1"allowsInteractivePopWhenNavigationBarHidden"b1"clipUnderlapWhileTransitioningWasChanged"b1"requiresToolbarHiddenForFindAndReplace"b1"floatingBarNeedsUpdateInViewWillAppear"b1};
-- (void)"isCellKind"b1"isDecorationView"b1"isHidden"b1"isClone"b1"masksToBounds"b1"maskedCorners"b4"hasDefaultLayoutMargins"b1"removeMaskViewAfterAnimation"b1"pinningAlignment"b4"pinnedToVisibleBounds"b1"hasCustomAttributes"b1};
-- (_Bool)ddd}16;
 - (void);
-- (id)tton:(id)arg1 onBehalfOfSearchController: /* Error: Ran out of types for this method. */;
-- (void)MaximumAtomWidthConstraint:(_Bool)arg1;
-- (void)ionGroupEqualsContentViewWidthConstraint:(long long)arg1;
-- (void)tonItem:(_Bool)arg1 permittedArrowDirections:animated: /* Error: Ran out of types for this method. */;
-- (double)scaleFactor:deviceIdiom:deviceSubtype:displayGamut:layoutDirection:sizeClassHorizontal:sizeClassVertical:appearanceName:locale: /* Error: Ran out of types for this method. */;
-- (long long)ation:dismissalPreviewForItemWithIdentifier: /* Error: Ran out of types for this method. */;
-- (void)raintsActiveWhenAwayFromEdge:(_Bool)arg1;
-- (void)lScreen;
-- (_Bool)r;
-- (void)ataDetectorsContextMenuConfiguration;
-- (void)onPadding;
-- (struct UIOffset)ntForContextID: /* Error: Ran out of types for this method. */;
-- (void)ns: /* Error: Ran out of types for this method. */;
-- (_Bool)textID: /* Error: Ran out of types for this method. */;
-- (id)on;
+- (void);
 - (_Bool);
-- (void)ourceViewRect;
-- (_Bool)Ï	<ÐÑ;
-- (void)Èv;
+- (struct CGSize);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)lementary;
-- (struct UIOffset)jüÿ>Mýÿ.¤üÿ;
+- (void)
+× ;
+- (void)× ;
 - (void);
-- (void)stsFontForContentSizeCategory = YES;
-- (void)tWidth = YES;
-- (struct CGSize);
-- (id)Storage";
+- (void)Að!XAùÑb°1Â0@ù
+× ;
+- (id)!Eù1dð1Â0@ù
+× ;
+- (void);
+- (_Bool)!ØGùg°1Â0@ù
+× ;
+- (void)n";
+- (long long)peSelectInteractionDelegate>";
 - (_Bool);
-- (void)r;
-- (void);
-- (void)i;
-- (void)ÿM¹ÍbKe;
-- (void)í½ÿ;
-- (_Bool);
+- (void):(long long)arg1;
+- (_Bool)ardTV;
+- (void)setFrame:(long long)arg1;
+- (void)FeedbackLabel:(double)arg1;
+- (void)ionControllerClassName;
+- (_Bool)sForShortcutConversion;
+- (void)nIdentifier:(id)arg1;
+- (void)ActionForTouchUp:(id)arg1 withActions:timestamp:interval:didLongPress:prevActions:executionContext: /* Error: Ran out of types for this method. */;
+- (_Bool)actAppearance;
+- (_Bool)den;
+- (double)SeparatorForCustomHeaderView;
+- (void)AppearingFocusEnvironmentRequest;
+- (_Bool)ngWhitespace:(id)arg1;
+- (_Bool)tionUsingState:(struct UIOffset)arg1;
+- (void)esEndedOrCancelled:(id)arg1 withEvent: /* Error: Ran out of types for this method. */;
+- (struct CGSize)ewWithImage: /* Error: Ran out of types for this method. */;
+- (void)t: /* Error: Ran out of types for this method. */;
+- (void)hange:(long long)arg1 fence: /* Error: Ran out of types for this method. */;
+- (void)N;
+- (void)surface;
+- (void)T|ìÀ;
+- (struct UIOffset);
+- (id);
+- (void)%p for view %p;
+- (_Bool)fier;
+- (_Bool)ps.;
+- (_Bool);
+- (id)6;
+- (id)rtcutHUDService.m;
+- (void)pected start state;
+- (id)generator was deactivated by its client more times than it was activated:(id)arg1 %@;
+- (void)ullHeight.includingDismissDetent;
+- (void);
+- (void);
+- (void)ÕÍÈ§c;
+- (void)h/f;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIAssertionController *_assertionController; // @synthesize _assertionController;

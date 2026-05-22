@@ -8,7 +8,7 @@
 {
 }
 
-- (long long)does not exist in section snapshot:%@ /* Error: Ran out of types for this method. */;
+- (long long);
 
 @end
 

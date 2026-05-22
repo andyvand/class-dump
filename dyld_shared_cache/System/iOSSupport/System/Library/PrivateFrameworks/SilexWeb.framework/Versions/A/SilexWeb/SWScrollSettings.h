@@ -11,7 +11,7 @@
     _Bool _showsVerticalScrollIndicator;
 }
 
-- (id)=;
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);

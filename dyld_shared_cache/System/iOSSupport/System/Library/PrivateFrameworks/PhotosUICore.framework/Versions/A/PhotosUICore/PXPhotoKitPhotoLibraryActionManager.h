@@ -13,9 +13,9 @@
 
 - (id);
 - (id);
-- (void);
-- (id);
-- (id)¿46;
+- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;

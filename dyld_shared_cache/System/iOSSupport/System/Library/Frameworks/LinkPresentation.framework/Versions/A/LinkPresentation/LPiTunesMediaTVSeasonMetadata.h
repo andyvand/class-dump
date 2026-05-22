@@ -19,32 +19,32 @@
 }
 
 + (id);
-+ (_Bool)mputedPresentationProperties;
-- (id)$;
-- (void);
-- (id)C;
-- (id);
-- (id);
-- (void);
-- (_Bool)(?;
-- (void);
++ (_Bool);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
+- (_Bool);
 - (void);
-- (void)Fc;
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id)essId;
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)¬;
-- (void)iCloudDrive;
+- (void);
+- (void);
+- (void);
+- (id)ÈÇ;
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;

@@ -10,9 +10,9 @@
 {
 }
 
-+ (id)*s;
++ (id)ä;
 - (id);
-- (id)ocol;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name;

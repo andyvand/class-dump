@@ -8,6 +8,10 @@
 
 @protocol _UISceneComponentProviding
 
+@optional
+- (void)0@ù
+× ;
+
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;
 @end

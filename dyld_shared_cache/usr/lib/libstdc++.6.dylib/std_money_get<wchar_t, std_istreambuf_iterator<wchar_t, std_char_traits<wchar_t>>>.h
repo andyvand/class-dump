@@ -4,12 +4,12 @@
 
 class std::money_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>> {
 public: // (access info unavailable from symbols alone)
-    _M_extract<false>(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
-    _M_extract<true>(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
-    do_get(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, std::_Ios_Iostate&, long double&) const;
-    do_get(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, std::_Ios_Iostate&, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>&) const;
-    get(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, std::_Ios_Iostate&, long double&) const;
-    get(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, std::_Ios_Iostate&, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>&) const;
+    auto do_get(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, std::_Ios_Iostate&, long double&) const;
+    auto do_get(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, std::_Ios_Iostate&, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>&) const;
+    auto get(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, std::_Ios_Iostate&, long double&) const;
+    auto get(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, bool, std::ios_base&, std::_Ios_Iostate&, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>&) const;
     money_get(unsigned long);
+    std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>> _M_extract<false>(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
+    std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>> _M_extract<true>(std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>, std::ios_base&, std::_Ios_Iostate&, std::string&) const;
     ~money_get();
 };

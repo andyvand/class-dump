@@ -12,8 +12,8 @@
 
 - (void);
 - (void);
-- (struct CGRect)8@"CKRecord"16;
-- (struct CGRect)icknameInfoToSend;
+- (struct CGRect);
+- (struct CGRect);
 
 // Remaining properties
 @property(nonatomic) struct CGRect firstRect; // @synthesize firstRect=_firstRect;

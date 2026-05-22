@@ -12,13 +12,13 @@
 }
 
 + (_Bool);
-+ (id)Ì;
++ (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)rchivedContentCollection;
-- (id)eBehavior);
+- (id);
+- (void)es;
+- (id)O.o¡;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

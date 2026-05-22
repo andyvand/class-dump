@@ -13,19 +13,19 @@
     ICLiveLink *_liveLink;
 }
 
-+ (id)__objc_selrefs;
 + (id);
-+ (_Bool)stomData;
++ (id);
++ (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)RadioStation;
-- (id)ÿÅ¡¬Æÿµ¡¬Æÿ;
+- (id);
+- (void) SHARED SESSION BEGIN       %{public}@;
+- (id)FeederIdentifierRegistry"8;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

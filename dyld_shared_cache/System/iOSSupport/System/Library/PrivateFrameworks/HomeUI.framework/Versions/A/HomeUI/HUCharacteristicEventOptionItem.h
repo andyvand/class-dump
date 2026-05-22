@@ -36,9 +36,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)rIdentifyButtonFooterTitleShowerHead;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *characteristics; // @synthesize characteristics=_characteristics;

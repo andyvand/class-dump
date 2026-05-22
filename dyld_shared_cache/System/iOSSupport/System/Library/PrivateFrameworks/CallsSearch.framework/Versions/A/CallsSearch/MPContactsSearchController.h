@@ -47,19 +47,19 @@
 - (id);
 - (id);
 - (void);
+- (long long);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (unsigned int);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long contactSearchType; // @synthesize contactSearchType;

@@ -18,17 +18,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)ConversationManager"16;
-- (id)RLRetrievalErrorWithReason:description: /* Error: Ran out of types for this method. */;
-- (id)andleOperation: /* Error: Ran out of types for this method. */;
-- (id)ntifier:style:account:userInfo: /* Error: Ran out of types for this method. */;
-- (_Bool)hivedNicknamesKVStore;
-- (id)ityMessages: /* Error: Ran out of types for this method. */;
-- (id)_lastUpdateTime;
-- (void);
-- (id)Rotation;
-- (id)@ð$ñ°ñ;
-- (struct _NSRange)initialStretchAmount;
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (struct _NSRange)QcÐ1Â0@ù
+× ;
+- (id);
+- (void)ØL03_pGIegg_;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak _UITextInteractableItem *item; // @synthesize item=_item;

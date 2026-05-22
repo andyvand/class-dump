@@ -18,15 +18,15 @@
 - (void);
 - (void);
 - (double);
-- (double)f@<;
+- (double);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (double)ognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer: /* Error: Ran out of types for this method. */;
-- (id)oupScoringConfig;
-- (void);
+- (double);
 - (id);
+- (id);
+- (void)¨(úÿÌ(úÿ(+úÿ,úÿ@,úÿd,úÿ ,úÿÄ,úÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldAlwaysScrollToTopOnTap;

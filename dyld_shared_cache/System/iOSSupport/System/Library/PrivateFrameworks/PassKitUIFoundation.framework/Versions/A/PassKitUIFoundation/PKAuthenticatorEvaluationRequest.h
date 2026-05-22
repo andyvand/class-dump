@@ -51,21 +51,21 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (id);
 - (struct __SecAccessControl *);
-- (id);
 - (void);
 - (id);
-- (long long);
-- (unsigned long long);
-- (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

@@ -9,8 +9,6 @@
 @protocol UITraitDefinition
 
 @optional
-+ (NSString *)1¢!0@ù
-× ;
-+ (NSString *)ewDragDestinationDelegate;
++ (NSString *)33_2ED668DD1C0D8968A321F2B9D51C08016Handle;
 @end
 

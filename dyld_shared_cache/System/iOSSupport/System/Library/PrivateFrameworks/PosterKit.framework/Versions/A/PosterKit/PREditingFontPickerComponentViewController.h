@@ -65,20 +65,21 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (double);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)lorsStyle;
-- (id)eConfigurableOptions;
-- (void)arance notification from host:(double)arg1 %{public}@;
-- (void)Ê+ÿ»x;
-- (double)G;
+- (id);
+- (id);
+- (void);
+- (double);
+- (void);
+- (id);
+- (void);
+- (void)
+× ;
+- (void)msViewController:(id)arg1 didSelectColorItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *cellViews; // @synthesize cellViews=_cellViews;

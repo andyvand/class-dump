@@ -28,44 +28,44 @@
     UIFont *_font;
 }
 
-- (void)etDidKeyRollPendingCheck:(id)arg1;
-- (void)bers;
-- (void)Level;
-- (void)ionary",&,N,V_highlightURLsForChatGUID;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void)does not exist. Defaulting to %@;
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (struct CGSize)eSongsPlaylist;
-- (void);
-- (void);
-- (void)!oð!èAùÁ1¢!0@ù
-× ;
-- (id)
-× ;
-- (void)qÌÐ1¢!0@ù
-× ;
-- (id)dowSceneDragInteraction";
-- (void)eBackdropViewIfNeeded;
-- (void)dState;
-- (void);
-- (void)dÆ;
-- (id)Controller = %@; column = %ld; removing child view controller;
-- (id)üÄçÿ\¬QþàÀþÿ;
-- (id)h managed window server hosting.;
-- (void)subclass. %@ returned %@, which is not a kind of UISplitViewController.;
-- (void)ation for an already deferred invalidation context. Collection View:(id)arg1 %@, Layout:(id)arg2 %@;
-- (id)arCustomizationItem"8;
 - (void);
 - (id);
-- (void)ÔHàþ;
+- (void);
+- (void);
+- (struct CGSize);
+- (id)1Â0@ù
+× ;
+- (id)¡!LDùÑ]ð1Â0@ù
+× ;
+- (void)g"40@"NSString"48;
+- (void)olbarTintColor;
+- (id),&,N,V_configuration;
+- (void)Effect;
+- (void):(id)arg1 ;;
+- (void)ì;
+- (id)nstraints=%p;
+- (id)tWritingDirectionUITextView;
+- (id)le;
+- (void)vironment(id<UIFocusEnvironment>  _Nonnull __strong);
+- (void)sert accessory:(id)arg1 %@ into accessories array:(id)arg2 %@;
+- (void)@;
+- (void)|¡\;
+- (void)ÍL
+_;
+- (id)XÿlÜl*d;
+- (void)1;
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *attributedText; // @synthesize attributedText=_attributedText;

@@ -5,6 +5,6 @@
 //
 
 @protocol NFCopying
-- (id)tÚÿ;
+- (id)bleWithKeyOptions:valueOptions: /* Error: Ran out of types for this method. */;
 @end
 

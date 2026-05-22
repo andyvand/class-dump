@@ -29,7 +29,7 @@
 - (void);
 - (struct CGSize);
 - (CDStruct_597fa96d);
-- (CDStruct_597fa96d)u*1|î:ÿ /* Error: Ran out of types for this method. */;
+- (CDStruct_597fa96d);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_597fa96d currentRect; // @synthesize currentRect=_currentRect;

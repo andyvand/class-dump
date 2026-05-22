@@ -10,7 +10,7 @@
 {
 }
 
-- (void)ctAppearance: /* Error: Ran out of types for this method. */;
+- (void): /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

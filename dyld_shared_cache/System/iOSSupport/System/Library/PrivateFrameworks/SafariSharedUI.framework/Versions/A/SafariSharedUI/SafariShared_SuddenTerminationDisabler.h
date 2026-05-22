@@ -5,6 +5,6 @@
 class SafariShared::SuddenTerminationDisabler {
 public: // (access info unavailable from symbols alone)
     SuddenTerminationDisabler(NSString*);
-    enableSuddenTermination();
+    auto enableSuddenTermination();
     ~SuddenTerminationDisabler();
 };

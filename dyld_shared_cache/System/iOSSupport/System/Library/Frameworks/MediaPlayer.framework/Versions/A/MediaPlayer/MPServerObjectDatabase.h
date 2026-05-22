@@ -22,8 +22,8 @@
 + (id);
 + (void);
 + (void);
-+ (_Bool)0@28@36B44@48@56;
-+ (void)ForKey: /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (void);
 - (void);
 - (void);
 - (id);
@@ -46,11 +46,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id)mp:(CDUnknownBlockType)arg1 storeEvent: /* Error: Ran out of types for this method. */;
-- (void)A;
+- (id);
 - (void);
 - (void);
 - (void);
+- (void)tEntrySong__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

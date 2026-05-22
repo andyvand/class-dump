@@ -16,17 +16,18 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (void);
-- (void)avigationBar"32@0:(id)arg1 8@"UIPanelController"16@"UIViewController"24;
-- (id)ded: /* Error: Ran out of types for this method. */;
-- (id)ionWithColorRenderingMode: /* Error: Ran out of types for this method. */;
-- (id)ationsProvider: /* Error: Ran out of types for this method. */;
-- (id)NavigationBarPosition;
-- (_Bool)yActionTitle:(id)arg1 ,V_auxiliaryActionTitle;
-- (id);
-- (id)ontroller:%@ should have parent view controller:%@ but actual parent is:%@ /* Error: Ran out of types for this method. */;
-- (unsigned long long)ponse;
+- (id);
+- (id);
+- (id);
+- (_Bool)ùÑe1Â0@ù
+× ;
+- (id)nRequestedStyleFromStyle:(id)arg1;
+- (void)<;
+- (id)FF GG HH II JJ KK LL MM NN OO PP QQ RUV(WW X|X`¨`a¨ab¨bc¨cd de eff;
+- (void)that all CustomizationIdentifiers are globally unique.;
+- (id)internal inconsistency:initialSnapshot should not be nil when creating the update map /* Error: Ran out of types for this method. */;
+- (unsigned long long)aryTextColor;
+- (void)ontext;
 
 @end
 

@@ -10,16 +10,16 @@
 {
 }
 
-- (BOOL)Objects:toArrangedObjectsItemsPerSection:duration:completion: /* Error: Ran out of types for this method. */;
+- (BOOL);
 - (id);
 - (struct CGSize);
 - (id);
-- (BOOL)ystemPaperImageGenerator imageGeneratorWithPaperAttachment:useActivePaper:] /* Error: Ran out of types for this method. */;
+- (BOOL);
 - (struct CKBalloonDescriptor_t);
 - (_Bool);
 - (_Bool);
 - (BOOL);
-- (id)ñ´¯B@;
+- (id);
 
 @end
 

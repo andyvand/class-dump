@@ -23,15 +23,14 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)
+- (id);
+- (id)_ð1Â0@ù
 × ;
-- (id)ÑÃ°1¢!0@ù
-× ;
+- (void)ckgroundGradient;
+- (void)$&;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *entryIdentifier; // @synthesize entryIdentifier=_entryIdentifier;

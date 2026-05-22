@@ -85,7 +85,6 @@
 - (void);
 - (_Bool);
 - (id);
-- (long long);
 - (void);
 - (void);
 - (void);
@@ -107,18 +106,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -128,6 +123,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id)dy.style.webkitUserSelect = "none";;
 
 // Remaining properties
 @property(retain, nonatomic) HLPURLSessionItem *URLSessionItem; // @synthesize URLSessionItem=_URLSessionItem;

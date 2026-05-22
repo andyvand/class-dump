@@ -4,12 +4,12 @@
 
 class EncoderStream {
 public: // (access info unavailable from symbols alone)
-    Flush();
-    GetBytes<EXRHeader>(unsigned long);
-    GetBytes<char>(unsigned long);
-    GetBytes<int>(unsigned long);
-    GetBytes<unsigned char>(unsigned long);
-    GetBytes<unsigned long>(unsigned long);
-    GetBytes<void>(unsigned long);
+    EXRHeader* GetBytes<EXRHeader>(unsigned long);
+    auto Flush();
+    char* GetBytes<char>(unsigned long);
+    int* GetBytes<int>(unsigned long);
+    unsigned char* GetBytes<unsigned char>(unsigned long);
+    unsigned long* GetBytes<unsigned long>(unsigned long);
+    void* GetBytes<void>(unsigned long);
     ~EncoderStream();
 };

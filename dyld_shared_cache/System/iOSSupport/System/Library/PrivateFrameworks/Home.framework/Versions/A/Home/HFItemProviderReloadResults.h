@@ -22,10 +22,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)me;
+- (id);
+- (void)HA;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *addedItems; // @synthesize addedItems=_addedItems;

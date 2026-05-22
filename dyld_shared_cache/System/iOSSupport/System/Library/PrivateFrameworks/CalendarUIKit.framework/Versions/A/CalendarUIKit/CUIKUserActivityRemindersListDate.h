@@ -13,12 +13,12 @@
     NSDate *_date;
 }
 
-- (id)tIndex:(id)arg1;
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)t:style: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;

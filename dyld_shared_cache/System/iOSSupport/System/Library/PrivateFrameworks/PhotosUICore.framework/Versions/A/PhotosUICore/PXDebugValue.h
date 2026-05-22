@@ -12,9 +12,9 @@
 }
 
 - (unsigned long long);
-- (void);
 - (id);
-- (id)e;
+- (id)à7 8;
+- (void)É;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long highlightStyle;

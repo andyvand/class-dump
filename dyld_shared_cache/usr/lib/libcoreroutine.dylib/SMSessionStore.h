@@ -22,13 +22,6 @@
 - (void);
 - (void);
 - (void);
-- (void)T;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -43,19 +36,26 @@
 - (void);
 - (void);
 - (void);
-- (void)9;
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)0;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

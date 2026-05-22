@@ -17,13 +17,13 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_updatedDisplayOrderForGroup;
 }
 
-- (id)eArray is NULL;
-- (void)lable!;
-- (void)@;
-- (void)RDataCopySealingManifestProperty failed for supm;
-- (id)ataMultiMakeCallbak;
-- (id)ataCopyImg4StrippedValue;
-- (id)mbinedValueData == NULL;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -32,15 +32,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id)ncController";
-- (id)ReadyForBlastdoor:(id)arg1;
-- (id)ate;
-- (void)eManaging;
-- (void)eq.txt;
+- (id);
+- (id);
+- (id);
 - (void);
-- (_Bool)onePreference;
-- (void);
-- (void)¨*{ÿ;
+- (_Bool);
+- (void)tLocationY;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isCommitted) _Bool committed; // @synthesize committed=_committed;

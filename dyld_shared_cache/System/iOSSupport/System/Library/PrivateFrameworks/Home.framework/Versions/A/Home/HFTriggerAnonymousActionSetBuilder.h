@@ -27,10 +27,10 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (_Bool);
 - (unsigned long long);
+- (id);
+- (void)p"x"$P'¤';
 
 // Remaining properties
 @property(readonly, nonatomic) HFMutableSetDiff *actionBuilders; // @dynamic actionBuilders;

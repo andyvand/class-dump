@@ -27,27 +27,25 @@
 
 - (long long);
 - (void);
-- (void);
+- (struct CGPoint);
+- (unsigned long long);
+- (id);
+- (id);
+- (double);
 - (struct CGAffineTransform);
 - (double);
-- (void);
-- (void);
-- (id)0@ù
+- (long long)á	!$@ù1f°1Â0@ù
 × ;
-- (id)!¨GùÅ°1¢!0@ù
-× ;
-- (id)uÐ!;
-- (long long)1¢!0@ù
-× ;
-- (struct CGPoint)rchy"B"hasAtLeastOneVisibleItem"B"hasVisibleLargePalette"B};
-- (id)smissing;
-- (void)ent will be reported.;
-- (long long)Color;
-- (struct CGPoint)pÈ	õa;
-- (id)Æ+ºb;
-- (unsigned long long),;
-- (double)vûj;
-- (_Bool);
+- (void)eeded: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)Description;
+- (id)rovider;
+- (_Bool);
+- (id)ontrollerDisableTypeAndTalk;
+- (long long)deErrorDomain;
+- (void)Ôw`;
+- (void)Ôd;
+- (void)|ãd;
+- (id);
 
 // Remaining properties
 @property(readonly) unsigned long long phase;

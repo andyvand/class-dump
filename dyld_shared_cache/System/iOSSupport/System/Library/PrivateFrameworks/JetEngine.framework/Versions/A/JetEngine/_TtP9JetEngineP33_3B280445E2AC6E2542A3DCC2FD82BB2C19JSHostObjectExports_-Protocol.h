@@ -7,10 +7,7 @@
 @class NSString;
 
 @protocol _TtP9JetEngineP33_3B280445E2AC6E2542A3DCC2FD82BB2C19JSHostObjectExports_
-- (NSString *);
 - (NSString *);
-- (NSString *);
-- (NSString *)¯;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *clientIdentifier;

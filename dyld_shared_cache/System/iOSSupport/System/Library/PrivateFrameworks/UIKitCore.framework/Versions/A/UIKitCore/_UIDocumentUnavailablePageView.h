@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)ransitionContext:(struct CGRect)arg1;
 
 @end
 

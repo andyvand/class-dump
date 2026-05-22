@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
     double _initialTimestamp;
 }
 
-- (id);
-- (void);
-- (void)setAppliesOutputSettingsAnimationDuration:(const struct _UISEGestureFeatureSample *)arg1;
+- (void)OrientationLockState:(const struct _UISEGestureFeatureSample *)arg1;
+- (id)anslit;
+- (void)@;
 
 @end
 

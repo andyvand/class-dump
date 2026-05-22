@@ -17,16 +17,16 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)RLs} (Parameter Summary);
++ (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
+- (Class);
 - (id);
 - (Class);
 - (void);
-- (id);
-- (Class);
-- (Class);
+- (Class)to storage, because storage %{public}@ doesn't have it.;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *additionalRepresentationsForSerialization;

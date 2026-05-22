@@ -4,10 +4,10 @@
 
 class capabilities::programmer {
 public: // (access info unavailable from symbols alone)
-    commandTimeout();
-    commandTimeoutForVendor(TelephonyRadioVendor);
-    connectAttemptCount();
-    connectAttemptCountForVendor(TelephonyRadioVendor);
-    connectTimeout();
-    connectTimeoutForVendor(TelephonyRadioVendor);
+    auto commandTimeout();
+    auto commandTimeoutForVendor(TelephonyRadioVendor);
+    auto connectAttemptCount();
+    auto connectAttemptCountForVendor(TelephonyRadioVendor);
+    auto connectTimeout();
+    auto connectTimeoutForVendor(TelephonyRadioVendor);
 };

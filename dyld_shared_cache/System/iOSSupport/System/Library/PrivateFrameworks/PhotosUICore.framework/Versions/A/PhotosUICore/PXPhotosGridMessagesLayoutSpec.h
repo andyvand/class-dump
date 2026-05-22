@@ -21,8 +21,8 @@
 - (id);
 - (double);
 - (struct CGSize);
+- (struct UIEdgeInsets);
 - (unsigned long long);
-- (struct UIEdgeInsets)ÿ_æPZ_5;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize interItemSpacing; // @synthesize interItemSpacing=_interItemSpacing;

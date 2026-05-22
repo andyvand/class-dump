@@ -21,9 +21,7 @@
 }
 
 + (_Bool);
-+ (id)G+·;
-- (void);
-- (void);
++ (id)6;
 - (void);
 - (void);
 - (void);
@@ -36,6 +34,8 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void)Àd$e;
 
 @end
 

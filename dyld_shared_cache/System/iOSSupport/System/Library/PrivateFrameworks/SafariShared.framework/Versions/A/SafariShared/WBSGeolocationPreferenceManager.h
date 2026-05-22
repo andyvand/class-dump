@@ -39,6 +39,7 @@
 - (_Bool);
 - (void);
 - (id);
+- (void)X;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
     unsigned long long _operation;
 }
 
-- (id)aClaimInternal;
+- (id);
 - (void);
 - (id);
 - (void);
-- (void)eKeyWithRequest:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
-- (unsigned long long)ackingLoggingEnabled;
-- (void)imation can result in a corrupted navigation bar;
+- (void)ô98XÌe¤x´¥§¯Ø¯LòD-à-l/xf;
+- (void)7GSg;
+- (unsigned long long)434wþ%743wþ743wþ;
+- (void)";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

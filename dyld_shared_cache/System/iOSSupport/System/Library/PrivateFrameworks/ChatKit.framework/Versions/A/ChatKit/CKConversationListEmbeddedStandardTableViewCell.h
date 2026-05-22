@@ -17,12 +17,12 @@
 
 + (id);
 - (void);
-- (struct UIEdgeInsets)eOutlineParentItems:] is not implemented /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
+- (void);
+- (struct CGRect);
 - (void);
 - (id);
-- (struct CGRect)@;
-- (void);
-- (id);
+- (id)tionHandler:(long long)arg1;
 
 // Remaining properties
 @property(nonatomic) struct CGRect containerBounds; // @synthesize containerBounds=_containerBounds;

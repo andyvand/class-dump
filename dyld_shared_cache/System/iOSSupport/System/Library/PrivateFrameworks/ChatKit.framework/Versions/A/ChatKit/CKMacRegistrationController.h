@@ -20,9 +20,10 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (void);
 + (void);
@@ -31,32 +32,31 @@
 + (void);
 + (void);
 + (void);
-+ (id)àó_ÿÜ5¬Æ1;
-- (void)idthProviding;
-- (void);
++ (id));
 - (void);
 - (void);
 - (void);
-- (long long)x;
-- (void)gling lock for note… {note:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (long long);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct __SCNetworkReachability *);
 - (id);
-- (_Bool)«°!DùÃÐ1¢!0@ù
-× ;
+- (void);
+- (void);
+- (struct __SCNetworkReachability *)geEntryRichTextViewShouldBeDisabled: /* Error: Ran out of types for this method. */;
+- (void)\À;
+- (_Bool)lÔ»§ÿlpsGÿUlø»§ÿldsGÿl`sGÿl\sGÿElXsGÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

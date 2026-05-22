@@ -18,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
-- (id);
-- (void);
+- (double);
+- (id);
+- (void)ion:| rolling back edit [failed to find datasource] sectionID=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSProcessInfo *lowPowerModeMonitor; // @synthesize lowPowerModeMonitor=_lowPowerModeMonitor;

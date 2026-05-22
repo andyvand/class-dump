@@ -9,7 +9,7 @@
 }
 
 + (id);
-- (id)_minTrack;
+- (id);
 
 @end
 

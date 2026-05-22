@@ -15,18 +15,19 @@
 }
 
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (id);
 - (void);
-- (id)a"!ÜAùÑ;Ð1B0@ù
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)4!Aùwð1â
+0@ù
 × ;
-- (void)TransactionIfNeeded:(id)arg1 transactionIdentifier:completion: /* Error: Ran out of types for this method. */;
-- (void)ID"24@?0@"WFWorkflowReference"8Q16;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *actionType; // @synthesize actionType=_actionType;

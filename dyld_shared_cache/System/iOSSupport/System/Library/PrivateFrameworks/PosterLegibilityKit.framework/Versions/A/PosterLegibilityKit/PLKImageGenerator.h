@@ -19,7 +19,7 @@
 }
 
 + (id);
-+ (id){public}@ context:%@] /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
 - (unsigned long long);
 - (id);
@@ -31,13 +31,13 @@
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

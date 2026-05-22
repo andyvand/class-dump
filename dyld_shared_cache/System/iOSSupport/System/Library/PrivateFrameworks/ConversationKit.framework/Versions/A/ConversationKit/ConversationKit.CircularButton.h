@@ -13,8 +13,8 @@
     MISSING_TYPE *$__lazy_storage_$_squareConstraint;
 }
 
-- (id);
-- (void);
+- (id);
+- (void)gXw;
 
 @end
 

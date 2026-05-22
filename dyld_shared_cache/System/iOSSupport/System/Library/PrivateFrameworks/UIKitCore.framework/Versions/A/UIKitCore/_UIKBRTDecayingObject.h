@@ -19,18 +19,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (double);
-- (_Bool)fileModification:withAllowedGameCenterOtherPlayerTypes: /* Error: Ran out of types for this method. */;
-- (void)dValueForProperty:needsFetch: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)× ;
-- (double)òÕ[j^;
+- (_Bool)
+× ;
+- (_Bool)ßþ;
+- (void);
+- (double)Ò_;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isActive;

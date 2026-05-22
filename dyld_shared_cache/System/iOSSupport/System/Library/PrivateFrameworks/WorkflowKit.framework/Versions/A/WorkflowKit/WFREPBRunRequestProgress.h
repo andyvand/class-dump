@@ -14,18 +14,18 @@
 
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)nt;
+- (void)but run from home-resident environment;
 
 // Remaining properties
 @property(nonatomic) double progress; // @synthesize progress=_progress;

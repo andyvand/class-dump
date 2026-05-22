@@ -22,11 +22,11 @@
 - (void);
 - (double);
 - (id);
+- (id);
 - (struct CGSize);
 - (id);
 - (void);
-- (id);
-- (void);
+- (void)issal: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

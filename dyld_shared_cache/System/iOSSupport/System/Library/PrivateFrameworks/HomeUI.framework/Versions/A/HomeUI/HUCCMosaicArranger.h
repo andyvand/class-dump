@@ -21,9 +21,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)edTitle;
-- (void)våÿ"ªöÚ\;
+- (void)erButton;
+- (void)ice"8;
+- (id)ÿAþ¼¬;
 
 // Remaining properties
 @property(nonatomic) unsigned long long chosenLayoutType; // @synthesize chosenLayoutType=_chosenLayoutType;

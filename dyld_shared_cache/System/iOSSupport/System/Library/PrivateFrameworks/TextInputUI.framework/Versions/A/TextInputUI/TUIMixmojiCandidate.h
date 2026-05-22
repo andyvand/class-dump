@@ -10,16 +10,16 @@
 
 + (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (id);
 
 @end
 

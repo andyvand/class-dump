@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, UIContextMenuInteraction;
+
 @protocol UIContextMenuInteractionDelegate_ForWebKitOnly
+
+@optional
+- (void)´q;
+- (NSArray *)kes update:(UIContextMenuInteraction *)arg1 %f >= %f;
 @end
 

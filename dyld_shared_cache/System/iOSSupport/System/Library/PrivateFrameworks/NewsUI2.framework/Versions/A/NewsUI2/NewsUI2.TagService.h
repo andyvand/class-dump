@@ -14,6 +14,7 @@
     MISSING_TYPE *purchaseController;
     MISSING_TYPE *notificationConfiguration;
     MISSING_TYPE *shortcutList;
+    MISSING_TYPE *featureAvailability;
 }
 
 @end

@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)al-only local migration;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bookmarkTitle; // @synthesize bookmarkTitle=_bookmarkTitle;

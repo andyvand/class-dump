@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)tGridForTimeEventDisambiguation;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

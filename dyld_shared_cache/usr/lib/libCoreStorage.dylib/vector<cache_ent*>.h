@@ -4,7 +4,7 @@
 
 class vector<cache_ent*> {
 public: // (access info unavailable from symbols alone)
-    push_back(cache_ent* const&);
-    reserve(unsigned long);
+    auto push_back(cache_ent* const&);
+    auto reserve(unsigned long);
     ~vector();
 };

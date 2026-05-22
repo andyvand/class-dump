@@ -5,12 +5,5 @@
 //
 
 @protocol UISplitViewControllerDelegate
-
-@optional
-- (unsigned long long)?	;
-- (void)	K	;
-- (void);
-- (void)V;
-- (void)(	;
 @end
 

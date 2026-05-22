@@ -19,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGSize);
-- (void);
-- (void)nThreshold"d"confirmationThreshold"d};
-- (id): /* Error: Ran out of types for this method. */;
 - (id);
+- (struct CGSize);
+- (void)items;
+- (void)s not allowed. Check the backtrace to see what's causing this. Collection view:(id)arg1 %@;
+- (void)Xy;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *subheadLabel; // @synthesize subheadLabel=_subheadLabel;

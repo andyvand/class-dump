@@ -25,17 +25,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (double);
 - (long long);
-- (void)ChatWithFromIdentifier:toIdentifier:displayName:participants:updatingToLatestiMessageGroupID:sortedIdentifiers:serviceName: /* Error: Ran out of types for this method. */;
-- (id)ncDate:firstFullSyncCompletedDate: /* Error: Ran out of types for this method. */;
-- (void)PipelineComponent;
-- (struct CATransform3D);
-- (void)<;
 - (void);
-- (_Bool)ControllerSubject>";
-- (void)
-;
-- (_Bool)ionBarItemStackC;
-- (void)`éÿ¼EØ­^;
+- (id);
+- (void);
+- (struct CATransform3D);
+- (void);
+- (_Bool);
+- (void)lKeyboardChanged (forceKeyboardAway);
+- (_Bool)om.apple.UIKit.UICPI-beginning-drag-failure-relationship;
+- (void)aps, const NSInteger);
+- (void)i¢43ëÿ;
 
 // Remaining properties
 @property(nonatomic) long long actionLayoutAxis; // @synthesize actionLayoutAxis=_actionLayoutAxis;

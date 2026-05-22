@@ -22,9 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)icaAdvertisementComponentClassification;
+- (int);
+- (void)6@24{CGPoint=dd}32@48;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAnalyticsReportingProvider> analyticsReportingProvider; // @synthesize analyticsReportingProvider=_analyticsReportingProvider;

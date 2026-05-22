@@ -5,7 +5,6 @@
 //
 
 @protocol PXMutableNumberFilter
-- (double);
 
 // Remaining properties
 @property(nonatomic) double input;

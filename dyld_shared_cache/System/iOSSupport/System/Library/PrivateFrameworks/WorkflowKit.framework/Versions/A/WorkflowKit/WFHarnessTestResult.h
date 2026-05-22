@@ -16,20 +16,20 @@
 }
 
 + (id);
-+ (id)Ì;
-+ (id)EÉ;
-+ (_Bool)nate (WFPercentageTextX);
++ (id);
++ (id);
++ (_Bool);
 - (id);
 - (long long);
-- (id);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id)essionCount;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool failed; // @synthesize failed=_failed;

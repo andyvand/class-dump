@@ -4,8 +4,8 @@
 
 class __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t>> {
 public: // (access info unavailable from symbols alone)
-    fd();
-    file();
+    auto fd();
+    auto file();
     stdio_filebuf();
     stdio_filebuf(__sFILE*, std::_Ios_Openmode, unsigned long);
     stdio_filebuf(int, std::_Ios_Openmode, unsigned long);

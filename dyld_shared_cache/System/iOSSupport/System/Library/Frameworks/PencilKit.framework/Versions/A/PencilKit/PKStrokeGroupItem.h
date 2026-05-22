@@ -21,9 +21,9 @@
 - (id);
 - (struct CGRect);
 - (void);
+- (long long)eHeightConstraint;
 - (void);
-- (long long)draw on view %@ because it is in a hosted window;
-- (void)s;
+- (void)ø;
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;

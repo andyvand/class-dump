@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<skit::internal::IndexWriterImpl, std::__1::default_delete<skit::internal::IndexWriterImpl>> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](skit::internal::IndexWriterImpl*);
+    auto reset[abi:nqe210106](skit::internal::IndexWriterImpl*);
 };

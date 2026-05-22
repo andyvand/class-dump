@@ -158,41 +158,41 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
 - (id);
-- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (id)ü¸ ]^;
 - (id);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (long long);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
 - (_Bool);
 - (void);
+- (void);
+- (void)ì¯;
 - (_Bool);
 - (void);
-- (void)Remotes;
-- (void)HostViewController;
-- (void)onKit47ConversationControlsSecondaryPillButtonProvider;
-- (void);
-- (void);
+- (void)ÿ;
+- (void)G_ALyA23_GtGGäG;
+- (void)0Â;
+- (void)NCGImageRef;
 
 // Remaining properties
 @property(nonatomic, readonly) UIImage *audioRouteGlyphForDevice;

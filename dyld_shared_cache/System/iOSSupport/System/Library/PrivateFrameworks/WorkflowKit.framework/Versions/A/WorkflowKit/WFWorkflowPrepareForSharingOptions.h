@@ -16,8 +16,8 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void)MailboxEntity;
 
 // Remaining properties
 @property(nonatomic) _Bool clearsImportQuestionData; // @synthesize clearsImportQuestionData=_clearsImportQuestionData;

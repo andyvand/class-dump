@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)ÿY;
++ (id)ideoOverlayPlayState;
 - (double);
 - (double);
 - (double);
@@ -32,8 +32,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool applyLowAPLFilter; // @synthesize applyLowAPLFilter=_applyLowAPLFilter;

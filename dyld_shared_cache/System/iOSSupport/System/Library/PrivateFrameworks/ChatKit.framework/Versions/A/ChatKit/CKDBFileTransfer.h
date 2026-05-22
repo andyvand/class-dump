@@ -35,19 +35,19 @@
     long long _previewGenerationState;
 }
 
-- (void)ecause object is neither an ICNote or ICFolder:%@ /* Error: Ran out of types for this method. */;
-- (void)t type:%@ /* Error: Ran out of types for this method. */;
-- (_Bool).apple.notes.thumbnails;
-- (_Bool)ables;
-- (_Bool)led a checklist item;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (id)uchIDPasswordPrefs;
-- (id)et;
-- (_Bool)it doesn't exist;
-- (void)+[ICTextStyle titleForNamedStyle:(CDUnknownBlockType)arg1 ];
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (void);
+- (id);
+- (_Bool);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -68,25 +68,24 @@
 - (id);
 - (long long);
 - (void);
-- (_Bool);
 - (id);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (long long);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)q4¯ïÿ;
+- (id)d;
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long)ªý{B©ôOA©öWÃ¨ÿ#ÕÐÊP;
-- (_Bool);
-- (id)I;
-- (id)1¢!0@ù
-× ;
-- (id)rLevels;
-- (void)Delete;
-- (id);
-- (id);
-- (_Bool)4/;
-- (_Bool)W5}u0;
-- (id)Kÿ0ù¨0;
+- (void)t4;
+- (id)8*5¬/;
 
 // Remaining properties
 @property(retain, nonatomic) IMMessage *IMMessage; // @dynamic IMMessage;

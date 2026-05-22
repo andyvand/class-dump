@@ -39,11 +39,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
-- (void)½y]R½_ïD½yqP¿yV¿yACÛ÷¾W½ySay]ûGSi%öyAC_AFQo_GG_Qo_ñN½GtGG;
-- (id)ÙüD;
+- (void);
+- (void)ath"24;
+- (void)toPossible;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *createdLayerViews;

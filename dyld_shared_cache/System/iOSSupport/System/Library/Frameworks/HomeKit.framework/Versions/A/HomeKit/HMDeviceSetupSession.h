@@ -21,7 +21,7 @@
 }
 
 + (id);
-+ (id)Enumeration;
++ (id)me != nil;
 - (void);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -43,19 +43,19 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)dActionRequestKey;
-- (long long)TimeoutKey;
-- (void)É;
-- (id)¼;
+- (void);
+- (id);
+- (id);
+- (void);
+- (long long);
+- (void)\;
+- (void)tate:p:%tu s:%tu r:%tu v:%f m:%@ sw:%tu /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _HMContext *context; // @synthesize context=_context;

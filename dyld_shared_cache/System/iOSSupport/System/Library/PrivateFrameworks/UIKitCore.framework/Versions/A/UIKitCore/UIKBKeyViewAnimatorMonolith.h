@@ -16,21 +16,23 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (long long);
 - (void);
-- (long long)tes.assetUrls;
-- (void);
-- (void);
-- (Class);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void)× ;
-- (void)removeSceneForwardingLayersForOwners:(id)arg1;
-- (unsigned long long)ck:(int)arg1;
-- (id)esolvedStyle;
-- (void)"UIViewController<_UIDocumentPickerRemoteViewControllerContaining>",W,N,V_publicController;
-- (void)nfiguration, please file a radar.;
-- (_Bool)Q;
-- (_Bool)zãf;
+- (id);
+- (unsigned long long);
+- (void);
+- (Class)!BùZ1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)reRecognizer;
+- (void)ted split view controller column visibility (%ld);
+- (void)ToolbarVisualProviderLegacyIOS.m;
+- (void)¢;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

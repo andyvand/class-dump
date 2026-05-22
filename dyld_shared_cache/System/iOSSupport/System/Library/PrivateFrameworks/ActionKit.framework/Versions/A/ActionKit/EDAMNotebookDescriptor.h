@@ -26,10 +26,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)?<v@?@"NSError">24;
-- (id)m configuration files?;
-- (void)v¹;
+- (id);
+- (id)d;
+- (void)"image"; filename="%@"
+;
+- (void)@p;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *contactName; // @synthesize contactName=_contactName;

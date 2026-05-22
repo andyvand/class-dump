@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)Block: /* Error: Ran out of types for this method. */;
+- (id);
 - (double);
 - (id);
-- (id)Scheduled message:%s /* Error: Ran out of types for this method. */;
-- (id)ation id %s, elapsedMinutes:%ld < threshold:%ld /* Error: Ran out of types for this method. */;
-- (id)his breaks our ability to get FindMy friendship updates throughout the app. If you see this error, please file a radar to the FindMy team. Error:(id)arg1 %@;
-- (id)ing delete command:%@ /* Error: Ran out of types for this method. */;
-- (id)teringSettings message from %@;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 
 @end
 

@@ -26,13 +26,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (float);
+- (void);
+- (_Bool);
 - (id);
 - (CDUnknownBlockType);
-- (_Bool)me: /* Error: Ran out of types for this method. */;
-- (void)ems = %@; alpha = %.2f>;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool animatingTowardsFinalState; // @synthesize animatingTowardsFinalState=_animatingTowardsFinalState;

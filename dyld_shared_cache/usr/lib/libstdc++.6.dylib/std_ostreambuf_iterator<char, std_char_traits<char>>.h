@@ -4,6 +4,6 @@
 
 class std::ostreambuf_iterator<char, std::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    operator=(char);
-    operator=(char) (.cold.1);
+    auto operator=(char);
+    auto operator=(char) (.cold.1);
 };

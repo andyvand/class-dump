@@ -17,8 +17,8 @@
     HMSetupAccessoryDescription *_accessoryDescription;
 }
 
-+ (id)D*;
-+ (_Bool):] /* Error: Ran out of types for this method. */;
++ (id);
++ (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -26,21 +26,21 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)cationResponse;
-- (id)ngs:%@ /* Error: Ran out of types for this method. */;
-- (id)kLè{;
+- (void)Ä ;
+- (id)nabled;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessoryCategory *accessoryCategory; // @synthesize accessoryCategory=_accessoryCategory;

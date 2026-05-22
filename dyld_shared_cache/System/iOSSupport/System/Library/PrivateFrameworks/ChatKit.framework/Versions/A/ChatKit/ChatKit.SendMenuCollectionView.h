@@ -12,9 +12,9 @@
 }
 
 - (id);
+- (id);
 - (void);
-- (id);
-- (void)ummaryLabelCapFrameYOrigin;
+- (void)i9k¤­ÿ;
 
 @end
 

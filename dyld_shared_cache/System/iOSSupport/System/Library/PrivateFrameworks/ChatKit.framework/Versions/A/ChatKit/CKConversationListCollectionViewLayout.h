@@ -11,30 +11,30 @@
     CKConversationListCollectionViewController *_conversationListController;
 }
 
-- (double)ttachmentWithIdentifier:(struct CGSize)arg1;
-- (void)ulletTextAttachment;
+- (double);
+- (void);
 - (id);
-- (void)P;
+- (void);
 - (id);
-- (id)t;
-- (double)g;
 - (id);
-- (id)n;
+- (double);
+- (id);
+- (id);
 - (long long);
-- (id)?;
 - (id);
-- (id);
+- (id);
+- (id);
 - (double);
 - (double);
 - (_Bool);
 - (long long);
-- (long long);
+- (long long);
 - (double);
 - (double);
 - (id);
 - (double);
-- (void);
 - (id);
+- (void)vered;
 
 // Remaining properties
 @property(nonatomic) __weak CKConversationListCollectionViewController *conversationListController; // @synthesize conversationListController=_conversationListController;

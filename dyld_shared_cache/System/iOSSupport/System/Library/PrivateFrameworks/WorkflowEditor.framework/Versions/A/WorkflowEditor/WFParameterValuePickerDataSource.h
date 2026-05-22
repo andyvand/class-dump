@@ -36,12 +36,12 @@
 - (id);
 - (long long);
 - (id);
+- (id)Ï;
+- (unsigned long long);
+- (unsigned long long);
+- (void)¤¸¦§d§¬@­;
 - (id);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (id)ationMode;
+- (void)G;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *allowedVariableTypes; // @synthesize allowedVariableTypes=_allowedVariableTypes;

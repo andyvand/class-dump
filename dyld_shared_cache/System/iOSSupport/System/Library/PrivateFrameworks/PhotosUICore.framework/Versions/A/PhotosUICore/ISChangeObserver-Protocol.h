@@ -5,6 +5,7 @@
 //
 
 @protocol ISChangeObserver
-- (void);
+- (void)fo
+;
 @end
 

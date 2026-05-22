@@ -42,7 +42,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long)R;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
@@ -50,8 +50,8 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
-- (id);
+- (id);
+- (void)y"8@"NSError"16;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;
@@ -64,7 +64,7 @@
 @property(readonly, nonatomic) _Bool newBlankTabPositionAppliesToAllBlankTabs;
 @property(readonly, nonatomic) unsigned long long newTabPosition;
 @property(readonly, nonatomic) _Bool newTabPositionAppliesToSpawnedTabs;
-@property __weak id <WBSTabOrderPreferenceProviding> preferenceProvider; // @synthesize preferenceProvider=_preferenceProvider;
+@property(nonatomic) __weak id <WBSTabOrderPreferenceProviding> preferenceProvider; // @synthesize preferenceProvider=_preferenceProvider;
 @property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool suppressRelatingNewBlankTabs;
 @property(nonatomic) __weak id <WBSTabOrderProvider> tabOrderProvider; // @synthesize tabOrderProvider=_tabOrderProvider;

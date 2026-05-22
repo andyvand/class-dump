@@ -16,18 +16,18 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)5;
+- (id)age;
+- (void)disallowed by policy;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMessageSummaryInfo;

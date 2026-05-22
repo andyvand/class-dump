@@ -4,13 +4,13 @@
 
 class RTChannel {
 public: // (access info unavailable from symbols alone)
-    close();
-    poll_closed();
-    pop_message();
-    probe_message();
-    receive_message(unsigned int);
-    unwire();
-    wait_message(unsigned int);
-    wire();
+    auto close();
+    auto poll_closed();
+    auto pop_message();
+    auto probe_message();
+    auto receive_message(unsigned int);
+    auto unwire();
+    auto wait_message(unsigned int);
+    auto wire();
     ~RTChannel();
 };

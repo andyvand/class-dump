@@ -34,24 +34,24 @@ __attribute__((visibility("hidden")))
     _Bool _skipClientRotationCallbacks;
 }
 
-- (long long)lloonBundleID;
+- (long long);
 - (void);
 - (_Bool);
 - (void);
-- (id)}};
-- (id)rent set of participants. Updating with handleInfo:(id)arg1 %@;
-- (void)n, re-syncing chats;
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
 - (void);
 - (long long);
 - (void);
-- (id)izeV;
-- (double)Û·f;
+- (void);
+- (double);
+- (id)\pÎ4)o;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

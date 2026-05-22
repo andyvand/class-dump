@@ -13,14 +13,14 @@
     UIView *_selectedView;
 }
 
-- (void)ns:(id)arg1;
-- (id);
-- (void);
-- (id);
-- (void)NARTICLE;
 - (void);
 - (id);
-- (_Bool)`@;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)PopoverUpdating;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;

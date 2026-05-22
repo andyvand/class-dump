@@ -17,9 +17,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
-- (id)teractiveCanvasController"16@"TSDLayout"24;
+- (id);
+- (void)out"16@"SXUnitConverter"24;
+- (unsigned long long)igurationFactory>",R,N,V_feedConfigurationFactory;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak SXComponentView *componentView; // @synthesize componentView=_componentView;

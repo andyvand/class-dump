@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)s";
+- (id);
 - (void);
 - (id);
-- (void)_linedPaperLayerDelegate;
+- (void);
 
 @end
 

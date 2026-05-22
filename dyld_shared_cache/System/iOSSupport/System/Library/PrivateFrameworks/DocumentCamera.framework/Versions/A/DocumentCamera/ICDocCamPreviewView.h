@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (Class);
 - (id);
 - (void);
-- (id)BeStopped;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) AVCaptureSession *session;

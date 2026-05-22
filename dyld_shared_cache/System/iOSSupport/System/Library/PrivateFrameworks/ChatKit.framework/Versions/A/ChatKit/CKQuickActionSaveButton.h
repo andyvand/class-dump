@@ -11,12 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double)ting object to JSON:%@ /* Error: Ran out of types for this method. */;
-- (double)pt:%@
-JavaScript error:%@ /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)@}%s:(unsigned long long)arg1 %d;
-- (id)d;
-- (double)humb;
+- (double);
+- (double);
+- (struct UIEdgeInsets);
+- (id);
+- (double);
 
 @end
 

@@ -5,6 +5,5 @@
 //
 
 @protocol CKAppStripPredictiveTypeTransition
-- (void);
 @end
 

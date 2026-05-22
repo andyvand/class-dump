@@ -7,8 +7,7 @@
 @class NSArray, NSString;
 
 @protocol INSpeakable
-- (NSString *);
-- (NSArray *)À-;
+- (NSString *)vailabilityForHandle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *alternativeSpeakableMatches;

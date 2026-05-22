@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (double),V_replyToGUID;
-- (_Bool)C,N,V_biaReferenceID;
+- (double);
+- (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)på¸ÿQ0¶;
 
 @end
 

@@ -26,40 +26,40 @@ __attribute__((visibility("hidden")))
     _Bool _didPlayKeyFeedback;
 }
 
-- (id)Category: /* Error: Ran out of types for this method. */;
-- (id)myNumberString;
-- (void)loudKitAccountStatusAndUpdateEligibilityAndNeedsRepairStatusWithCompletion:(id)arg1;
-- (void)hTimeIntervalSinceNow:(unsigned long long)arg1;
-- (void)ifier;
-- (void)ivity:(int)arg1 completionBlock: /* Error: Ran out of types for this method. */;
-- (void)ortedAsJunk;
-- (void)iceDomain;
-- (void)shedIngestionContext:(_Bool)arg1;
-- (void)SMessage:(_Bool)arg1 storageContext:receivedViaRelay:serviceName:completionBlock: /* Error: Ran out of types for this method. */;
-- (void)teT3ToCloudKitWithLimit:(long long)arg1 attemptCount: /* Error: Ran out of types for this method. */;
-- (unsigned long long):onServices:messageGUID:threadIdentifier:limit: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (struct CGPoint);
 - (_Bool);
-- (void)IDs:(id)arg1 %s;
-- (_Bool);
+- (void);
 - (int);
+- (_Bool);
 - (int);
 - (long long);
 - (void);
 - (_Bool);
 - (void);
+- (int);
+- (struct CGPoint);
+- (id);
 - (void);
-- (void)0@ù
+- (id)1Â0@ù
 × ;
-- (void)64@0:(id)arg1 8@16{CGPoint=dd}24@40{CGPoint=dd}48;
-- (id)eContainerSubrangesOfAdjustedOriginalRange: /* Error: Ran out of types for this method. */;
-- (void)gBounds:(id)arg1;
-- (int)ransparencyForContentEffects: /* Error: Ran out of types for this method. */;
-- (id)ViewController:performHierarchyCheck:notifyWillMove: /* Error: Ran out of types for this method. */;
-- (id)¼CØEÈF;
-- (struct CGPoint)callyUpdateForSelection;
-- (id)(§Õþw[;
+- (void)Options:(id)arg1 duration: /* Error: Ran out of types for this method. */;
+- (void)¬Õa;
+- (void)+ýÙ´êe;
+- (id)üzþ(ß;
+- (id)ÄåîÿLÀ0;
 
 // Remaining properties
 @property(nonatomic) long long continuousPathState; // @synthesize continuousPathState=_continuousPathState;

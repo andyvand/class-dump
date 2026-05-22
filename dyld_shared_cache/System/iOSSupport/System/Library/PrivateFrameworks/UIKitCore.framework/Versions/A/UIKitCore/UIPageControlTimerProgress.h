@@ -25,35 +25,34 @@
     CADisplayLink *_displayLink;
 }
 
-- (void)mpletion:(double)arg1;
-- (void)tionManager:(id)arg1 conversation:didChangeStateForActivitySession: /* Error: Ran out of types for this method. */;
-- (void)ithError:error: /* Error: Ran out of types for this method. */;
-- (_Bool)letedRecordIDs:operationError:isLastBatchOfWrite:activity:writeCompletionBlock: /* Error: Ran out of types for this method. */;
-- (id)p@;
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (double)0IMTrackedReadReceiptCGG;
 - (id);
-- (_Bool)ges on second callback from fetch archived records;
-- (void)Started processing;
-- (void)mpt to disable MiC across all devices;
+- (_Bool);
+- (double);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)�(;
 - (void);
-- (_Bool);
-- (void)A;
-- (double)ranslator was missing mapping for MPModelPropertyPodcastEpisodeTranscriptIdentifier;
 - (void);
-- (void)¡n!äCù±Àð1¢!0@ù
-× ;
-- (void)age:(float)arg1;
-- (id)uttonConfiguration;
-- (void)ayerSecurityAnalysisSceneComponent;
-- (void)æ`;
+- (void);
+- (void);
+- (void);
+- (void)ssOverridesFrontMostAppOrientation"b1"isResigningActive"b1"receivedUnhandledMenuButton"b1"disablingBecomeFirstResponder"b1"hasMultiwindowAttributes"b1"supportedOnLockScreen"b1"inBackgroundBeforeSuspending"b1"hasPendingKeyCommandSerializationRequest"b1"hasBackgroundTaskCompletionHandler"b1"supportsTabbedWindowScenes"b1"subclassOverridesCreateStatusBarWithRequestedStyle"b1"implementsEffectiveSceneConfigurationForConnectingConfiguration"b1};
+- (double)rlay: /* Error: Ran out of types for this method. */;
+- (_Bool)board;
+- (void);
+- (void)q;
+- (id).l;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *customDurationByPage; // @synthesize customDurationByPage=_customDurationByPage;

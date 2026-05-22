@@ -107,14 +107,14 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (long long);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (void);
+- (long long);
+- (void)_setPreviousPreheatRect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool allowSelectingNonEditableAlbums; // @synthesize allowSelectingNonEditableAlbums=_allowSelectingNonEditableAlbums;

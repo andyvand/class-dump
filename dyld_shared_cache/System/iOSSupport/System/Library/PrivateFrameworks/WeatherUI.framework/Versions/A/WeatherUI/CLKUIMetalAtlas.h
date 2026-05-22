@@ -24,9 +24,9 @@
 - (id);
 - (void);
 - (void);
+- (void)?,C,N,V_currentDateBlock;
+- (void)Ðÿ`;
 - (void);
-- (void);
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLTexture> nilTexture; // @synthesize nilTexture=_nilTexture;

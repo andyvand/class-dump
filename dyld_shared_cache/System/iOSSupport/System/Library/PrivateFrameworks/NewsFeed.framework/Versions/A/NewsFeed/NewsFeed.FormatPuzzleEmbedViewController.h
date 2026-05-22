@@ -22,14 +22,14 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)jVüÿÈÁùÿ;
-- (void);
-- (void)¡Å\¥;
+- (void);
+- (void);
+- (void)ü2;
+- (void)@;
 
 @end
 

@@ -24,8 +24,8 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)view controller is not the top most, which is unexpected. Will not dismiss;
 
 @end
 

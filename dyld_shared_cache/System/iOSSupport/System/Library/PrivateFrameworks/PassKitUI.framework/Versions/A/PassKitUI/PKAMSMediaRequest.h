@@ -15,9 +15,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (unsigned long long);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) PKAMSMediaRequestArtworkConfiguration *artworkConfiguration; // @synthesize artworkConfiguration=_artworkConfiguration;

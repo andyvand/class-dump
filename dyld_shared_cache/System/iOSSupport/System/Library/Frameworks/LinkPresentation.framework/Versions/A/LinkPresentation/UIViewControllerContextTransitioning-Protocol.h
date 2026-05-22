@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView, UIViewController;
+@class UIView;
 
 @protocol UIViewControllerContextTransitioning
-- (void)ouldn't find URL UTI due to error:(double)arg1 %@;
-- (void);
-- (UIView *);
-- (struct CGRect)× ;
-- (struct CGAffineTransform);
-- (void)nderContext;
-- (long long);
-- (UIViewController *);
+- (_Bool)URL: /* Error: Ran out of types for this method. */;
+- (UIView *),N,V_endTime;
+- (void)meworks/MediaPlayer.framework/MediaPlayer;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;

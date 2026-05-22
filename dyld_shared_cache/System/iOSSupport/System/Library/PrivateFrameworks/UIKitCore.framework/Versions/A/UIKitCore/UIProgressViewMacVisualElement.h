@@ -17,23 +17,24 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (struct CGSize)Performed spam extension capabilities query request. Relaying updated sms filter settings;
++ (struct CGSize);
 + (struct CGSize);
 + (struct UIEdgeInsets);
-- (void)ssThroughLockdownHandlerForCommand:(id)arg1;
-- (void)s:(id)arg1;
-- (void)der:(long long)arg1;
-- (void)ntsWithNewMessageAcknowledgment:(id)arg1 associatedMessageGUID:sender: /* Error: Ran out of types for this method. */;
-- (void)replaceFileTransferGUIDsForMessageItem:(id)arg1 withPermanentFileTransferGUIDs: /* Error: Ran out of types for this method. */;
-- (void)nder:(id)arg1;
-- (void)StartingAtRowID:(float)arg1 limit:(_Bool)arg2 completionHandler:(double)arg3;
-- (id)rSaysToUseOldContainer;
-- (void)";
 - (void);
-- (struct UIEdgeInsets)to the number of rows contained in that section before the update (%lu), plus or minus the number of rows inserted or deleted from that section (%lu inserted, %lu deleted) and plus or minus the number of rows moved into or out of that section (%lu moved in, %lu moved out). Table view:%@ /* Error: Ran out of types for this method. */;
-- (id)oardTypeASCIICapableStr;
-- (void)ç}Ë²K\;
-- (struct CGSize)øo}ÿÔSÐh;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)ñað1Â0@ù
+× ;
+- (id)",W,N,V_keyboardStateManagerDelegate;
+- (struct CGSize)r item %@ queried for auxiliary host container without having solved the item. Using fallback behavior.;
+- (void)¼'d;
+- (struct UIEdgeInsets)Sf;
 
 // Remaining properties
 @property(nonatomic) __weak UIProgressView *progressControlView; // @synthesize progressControlView;

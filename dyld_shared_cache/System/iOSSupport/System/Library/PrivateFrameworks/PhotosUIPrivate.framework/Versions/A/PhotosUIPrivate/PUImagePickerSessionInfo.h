@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)etch:appendTo:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PHCollectionList *rootCollectionList; // @synthesize rootCollectionList=_rootCollectionList;

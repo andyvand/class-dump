@@ -14,22 +14,22 @@ __attribute__((visibility("hidden")))
     NSPointerArray *_dragItemsWithRebasableIndexPaths;
 }
 
-- (void)d;
-- (void)num texture indirections;
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (id)28@32@40@48@56B64;
-- (id)8@36@44@52B60;
-- (id)24@28@36@44@52;
 - (id);
-- (id)nscriptBackgroundVersionWithBlastDoorMessage:(id)arg1;
-- (void)ad for GUID:(id)arg1 %@;
-- (void)À(/º;
-- (_Bool)ationControllerPalette";
-- (id)edDays;
-- (id)ing;
-- (void)øûÿ¤þÿ;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableOrderedSet *dataSourceIndexPathsOfDraggingItems; // @synthesize dataSourceIndexPathsOfDraggingItems=_dataSourceIndexPathsOfDraggingItems;

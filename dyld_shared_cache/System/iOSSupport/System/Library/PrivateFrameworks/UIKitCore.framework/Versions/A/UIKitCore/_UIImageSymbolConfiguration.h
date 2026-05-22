@@ -12,15 +12,15 @@
 
 + (id);
 + (id);
-+ (id);
 + (id);
 + (id);
-+ (id)@ù
++ (id);
++ (id)ÔAð!Eùqað1Â0@ù
 × ;
-+ (id)ùQÎð1¢!0@ù
++ (id)¡ð!,Bù±d1Â0@ù
 × ;
-+ (id)rollIndicatorInsets=%@, cachedHorizontalScrollIndicatorBaseInsets=%@, contentOffset=%@, cornerAdjust=%f, _accuracy=%f, CONTENT_MINX=%f, CONTENT_WIDTH=%f, _parentAdjustment=%@, scrollView=%@;
-+ (id)ÿ;
++ (id)ooldown period for programmatic focus updates to %.2g due to %lu failed focus updates.;
++ (id)tification-2;
 
 @end
 

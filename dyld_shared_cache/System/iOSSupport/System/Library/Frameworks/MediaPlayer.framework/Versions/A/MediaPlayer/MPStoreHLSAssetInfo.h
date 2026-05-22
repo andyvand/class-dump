@@ -18,10 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (id)pe: /* Error: Ran out of types for this method. */;
-- (id)ummary info cannot be nil;
-- (void);
 - (id);
+- (id);
+- (id);
+- (void)itemType_KEY;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *alternateKeyCertificateURL;

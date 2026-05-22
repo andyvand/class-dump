@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (long long);
@@ -45,23 +45,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)6@44@52q60@68;
-- (id)kedReadWithV0: /* Error: Ran out of types for this method. */;
-- (_Bool)SIMIDString: /* Error: Ran out of types for this method. */;
-- (void)nType;
-- (id)needsDeferredIndexing;
-- (void)r:(id)arg1 style: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void)Conversation:(struct CGRect)arg1;
-- (id)bufDataForUpdateT1:(id)arg1;
-- (void)IDForRelayAccountID:(long long)arg1;
-- (void)llSyncWithCompletion:(id)arg1 activity: /* Error: Ran out of types for this method. */;
-- (id),N,V_noticeEventHistory;
-- (id)gPipelineComponent;
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void)<;
-- (void)ry;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (int);
@@ -70,35 +70,37 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (int);
+- (id);
+- (_Bool);
 - (long long);
-- (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void)±Ä°1¢!0@ù
+- (void)0@ù
 × ;
-- (id);
-- (int)0@ù
+- (_Bool)!tFù`Ð1Â0@ù
 × ;
-- (long long)PresentingScene"b1};
-- (_Bool)roposalForSession: /* Error: Ran out of types for this method. */;
-- (void)erButtonPaddingForStyle:(id)arg1;
-- (id)rationWithColorRenderingMode: /* Error: Ran out of types for this method. */;
-- (void)Öüÿ3ýÿ²üÿ;
-- (void)[_UISplitViewControllerAdaptiveImpl setPreferredDisplayMode:(_Bool)arg1 ];
-- (void)tance Matrix:(id)arg1 %@
+- (void);
+- (void)1Â0@ù
+× ;
+- (id)A°!àFùdÐ1Â0@ù
+× ;
+- (void)TemplateWithIdentifier:(_Bool)arg1;
+- (void)eadingConcentricLayoutPoint;
+- (_Bool)tSuppressesHiddenSideEffects: /* Error: Ran out of types for this method. */;
+- (void)yNames;
+- (void);
+- (id)ceHandler_block_invoke_7;
+- (void)_filetype(struct ui_archive_entry *);
+- (unsigned long long)ry"8@"_UIDefinitionDictionary"16;
+- (void)ng Tools;
+- (unsigned long long)2CAPresentationModifierCG;
+- (void)gmentView;
+- (id)pÇR0§23;
+- (id)
 ;
-- (id)uggestion:inContextID:] /* Error: Ran out of types for this method. */;
-- (void)yLightView;
-- (id);
-- (unsigned long long);
-- (void)±Û4ziþÛ4ziþÛ4pziþÛ4Üziþ;
-- (unsigned long long)@Ú$[;
-- (void)bá[;
-- (void)åõbÇ\;
-- (id);
-- (void)t ;
+- (long long)ºÿ;
+- (void)¤¸_;
 - (void);
 
 // Remaining properties

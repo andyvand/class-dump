@@ -7,6 +7,6 @@
 @class UIScrollEvent;
 
 @protocol _UIScrollEventRespondable
-- (void)wing:(UIScrollEvent *)arg1;
+- (void)rstRectForRange:(UIScrollEvent *)arg1;
 @end
 

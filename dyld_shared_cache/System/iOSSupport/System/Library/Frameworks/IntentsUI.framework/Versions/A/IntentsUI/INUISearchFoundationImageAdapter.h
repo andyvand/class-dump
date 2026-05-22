@@ -20,9 +20,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
 - (struct CGSize);
+- (void);
+- (_Bool);
 - (int);
 - (void);
 

@@ -25,7 +25,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (double);
-- (_Bool)",&,N,V_unformattedNumber;
+- (_Bool);
 - (void);
 - (id);
 - (void);

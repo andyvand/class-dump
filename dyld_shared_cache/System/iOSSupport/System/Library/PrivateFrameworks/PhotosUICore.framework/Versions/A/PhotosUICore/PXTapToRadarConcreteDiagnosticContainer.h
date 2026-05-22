@@ -26,15 +26,15 @@
 - (void);
 - (void);
 - (void);
-- (void)$	;
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)lLengthIn35mm;
-- (id)ø(ÿÕ;
+- (void)customization model;
+- (id)@%ÊÐÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *attachments;

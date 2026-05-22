@@ -21,9 +21,9 @@
 
 + (id);
 + (id);
-+ (id)gerFactory>",R,W,V_messengerFactory;
-+ (id)LÑ;
-+ (_Bool)Sg;
++ (id);
++ (_Bool);
++ (id)lletKeyToPairedWatchesWithOptions:completion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -41,30 +41,29 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (_Bool);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id)1b0@ù
-× ;
-- (id)edWhenLocked;
-- (id)ic}@<Merge> Notifying client of updated name:%@ /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)Representation:(id)arg1 home: /* Error: Ran out of types for this method. */;
+- (id)chabilityByAccessoryUniqueIdentifier;
+- (void)",W,V_dataSource;
+- (id)icipant %@ in share:%@ /* Error: Ran out of types for this method. */;
+- (id)eRules;
 
 // Remaining properties
 @property(nonatomic) __weak HMAccessorySettings *accessorySettings; // @synthesize accessorySettings=_accessorySettings;

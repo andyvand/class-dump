@@ -14,9 +14,9 @@
 + (id);
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *JSONString; // @synthesize JSONString=_JSONString;

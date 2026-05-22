@@ -8,8 +8,7 @@
 @protocol MTLDevice;
 
 @protocol MTLCommandEncoder
-- (id <MTLDevice>)À.ÿD;
-- (void);
+- (void)t;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;

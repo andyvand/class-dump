@@ -16,17 +16,17 @@
 }
 
 - (id);
-- (id)enNameKey;
-- (void)OfFile:(id)arg1;
-- (void)ctionaryWithContentsOfFile:(unsigned long long)arg1;
-- (id)erIDForRelay;
-- (double)ecoverableMessagesMetadataPendingCloudKitSaveWithLimit:filter: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
+- (id);
+- (double);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
+- (id);
 - (void);
-- (id)ew: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, setter=_setAxes:) unsigned long long _axes; // @synthesize _axes=__axes;

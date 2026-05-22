@@ -12,8 +12,8 @@
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)PlaceholderModel;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType styleConfiguration; // @synthesize styleConfiguration=_styleConfiguration;

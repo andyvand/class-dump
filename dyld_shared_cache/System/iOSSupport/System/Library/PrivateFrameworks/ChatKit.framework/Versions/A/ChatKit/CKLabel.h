@@ -15,12 +15,12 @@
     struct CGRect _textRectForAccessoryImageView;
 }
 
-- (id)er;
-- (id)oup: /* Error: Ran out of types for this method. */;
-- (_Bool)Folders;
+- (id);
+- (id);
+- (_Bool);
 - (long long);
-- (struct CGRect)pForChangePassword;
-- (struct CGSize)ICTagNewTagItemIdentifier;
+- (struct CGRect);
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
@@ -28,16 +28,17 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (_Bool)ta %@;
-- (void);
 - (_Bool);
 - (void);
-- (void);
+- (_Bool);
+- (_Bool);
 - (struct CGSize);
 - (void);
-- (void)e;
-- (_Bool)Shortlidge <tshortli@apple.com>;
-- (struct CGSize)usWithCompletion:(struct CGSize)arg1 ];
+- (struct CGSize);
+- (void)dleID:(struct CGRect)arg1;
+- (void)¼
+;
+- (void)øYGÿÝíkº©ÿ%îkìYGÿîkèYGÿ%îkäYGÿÍíkàYGÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldHaveRotatedTitleIconImage; // @synthesize shouldHaveRotatedTitleIconImage=_shouldHaveRotatedTitleIconImage;

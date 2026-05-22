@@ -30,8 +30,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (long long);
+- (void)MapItem:contactlessPaymentsRibbonItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long dataSource; // @synthesize dataSource=_dataSource;

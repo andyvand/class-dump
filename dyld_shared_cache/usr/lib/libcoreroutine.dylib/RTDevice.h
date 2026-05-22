@@ -18,14 +18,14 @@
 + (id);
 + (id);
 - (id);
-- (id)?0@"SFDevice"8I16;
-- (void);
-- (id),V_agentUUID;
 - (id);
 - (id);
 - (id);
-- (id)satisfying:visitMO.identifier /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (id)dateOfMostRecentBiometricAuthentication;
+- (void),%@,%@,messageID:%@,sendDate is nil /* Error: Ran out of types for this method. */;
+- (id)ö°-tÑ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;

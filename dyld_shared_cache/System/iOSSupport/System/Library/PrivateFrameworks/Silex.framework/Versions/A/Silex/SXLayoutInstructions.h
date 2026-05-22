@@ -15,9 +15,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (id)B;
-- (void);
 - (id);
+- (id);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *instructions; // @synthesize instructions=_instructions;

@@ -8,8 +8,6 @@
 @protocol SXComponent, SXComponentAnchor;
 
 @protocol SXBlueprintMarker
-- (NSArray *)=;
-- (struct CGPoint);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint approximateLocation;

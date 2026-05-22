@@ -51,7 +51,6 @@
     struct CGSize _adjustedDecelerationFactor;
     double _decelerationLnFactorH;
     double _decelerationLnFactorV;
-    id *_shadows;
     NSHashTable *_scrollNotificationObservers;
     double _contentOffsetAnimationDuration;
     UIScrollViewScrollAnimation *_animation;

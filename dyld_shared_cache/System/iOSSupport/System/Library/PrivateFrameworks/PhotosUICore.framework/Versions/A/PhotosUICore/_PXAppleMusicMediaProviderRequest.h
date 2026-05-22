@@ -16,14 +16,14 @@
 }
 
 - (id);
-- (CDUnknownBlockType);
-- (void)Öç;
-- (id);
 - (long long);
-- (void);
 - (id);
 - (long long);
-- (id)tsVirtualCollection;
+- (id);
+- (void)mpletionHandlerManager:(long long)arg1;
+- (id);
+- (CDUnknownBlockType)rButtonOverBackground;
+- (void)dify;
 
 // Remaining properties
 @property(readonly, nonatomic) PXAppleMusicAsset *asset; // @synthesize asset=_asset;

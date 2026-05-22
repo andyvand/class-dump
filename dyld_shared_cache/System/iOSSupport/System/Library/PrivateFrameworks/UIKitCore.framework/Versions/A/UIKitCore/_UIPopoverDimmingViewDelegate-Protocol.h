@@ -4,9 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIPopoverDimmingView;
-
 @protocol _UIPopoverDimmingViewDelegate
-- (_Bool)paratePlatter:(_UIPopoverDimmingView *)arg1;
+- (_Bool)s;
+- (_Bool)LÊ¥þ5·13HÊ¥þ·13ì¦þ·13ì¦þ·13Ê¥þ·13Ê¥þÕ¶13Ê¥þ;
 @end
 

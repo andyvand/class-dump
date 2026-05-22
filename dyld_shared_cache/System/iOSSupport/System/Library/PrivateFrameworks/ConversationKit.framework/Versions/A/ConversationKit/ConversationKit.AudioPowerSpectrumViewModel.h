@@ -31,10 +31,10 @@
 
 - (void);
 - (void);
-- (_Bool);
-- (void);
 - (void);
 - (id);
+- (_Bool);
+- (void)ÛGGAIyÇìSgGGAIyèSgGG¢yAC²îySayQäÏGAWñ¢yíyAByAC_îAGSgtGGGGïGG_Qo_æâGH¢GtGG;
 
 @end
 

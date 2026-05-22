@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (_Bool);
-- (void)ActionForSceneController: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)vigationBar:metricsForOrientation:hasPrompt: /* Error: Ran out of types for this method. */;
 
 @end
 

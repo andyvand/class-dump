@@ -16,11 +16,8 @@
 }
 
 + (id);
-- (void)P;
 - (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
@@ -28,21 +25,24 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void)0;
 - (void);
-- (id)hVJ�!;
-- (id)	;
-- (void)2(4230):(id)arg1 Error adding 4 elements to context;
+- (id);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (struct CGSize);
-- (id);
-- (void);
+- (void);
+- (id)plyingPresetOverrides:animated: /* Error: Ran out of types for this method. */;
+- (struct CGSize)'Ù;
 
 // Remaining properties
 @property(nonatomic) struct CGSize aspectRatio;

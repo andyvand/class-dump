@@ -8,8 +8,14 @@
 
 @interface PhotosUICore.LemonadePickerView.Coordinator
 {
+    MISSING_TYPE *photoLibrary;
+    MISSING_TYPE *configuration;
     MISSING_TYPE *selectionHandler;
 }
+
+- (void);
+- (id);
+- (void);
 
 @end
 

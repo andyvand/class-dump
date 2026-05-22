@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void)0e;
 - (id);
-- (id).exif.symbol.screenRecording;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PHMemory *memory; // @synthesize memory=_memory;

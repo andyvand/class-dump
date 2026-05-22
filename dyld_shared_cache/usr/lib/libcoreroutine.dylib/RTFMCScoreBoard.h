@@ -42,13 +42,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)entity from security within timeout;
-- (id)portsSpecialAppleEvent;
+- (_Bool);
+- (id);
+- (id);
 - (void);
-- (id)herEnabled;
-- (void)xÎ´ÎÏÐ	ÐÐ;
-- (void)CompoundingLeadingToLoopbackTransition,loopback visit;
-- (int)@B;
+- (void)er:(int)arg1;
+- (int)ords:%{sensitive}lf, %{sensitive}lf /* Error: Ran out of types for this method. */;
+- (void)rigger in notification, returning.;
 
 // Remaining properties
 @property(nonatomic) int assistances; // @synthesize assistances=_assistances;

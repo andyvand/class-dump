@@ -6,12 +6,12 @@ class icu::TimeZoneRule {
 public: // (access info unavailable from symbols alone)
     TimeZoneRule(icu::TimeZoneRule const&);
     TimeZoneRule(icu::UnicodeString const&, int, int);
-    getDSTSavings() const;
-    getName(icu::UnicodeString&) const;
-    getRawOffset() const;
-    isEquivalentTo(icu::TimeZoneRule const&) const;
-    operator!=(icu::TimeZoneRule const&) const;
-    operator=(icu::TimeZoneRule const&);
-    operator==(icu::TimeZoneRule const&) const;
+    auto getDSTSavings() const;
+    auto getName(icu::UnicodeString&) const;
+    auto getRawOffset() const;
+    auto isEquivalentTo(icu::TimeZoneRule const&) const;
+    auto operator!=(icu::TimeZoneRule const&) const;
+    auto operator=(icu::TimeZoneRule const&);
+    auto operator==(icu::TimeZoneRule const&) const;
     ~TimeZoneRule();
 };

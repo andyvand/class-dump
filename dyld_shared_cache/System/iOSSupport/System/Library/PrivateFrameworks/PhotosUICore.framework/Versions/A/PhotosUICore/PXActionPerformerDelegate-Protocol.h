@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUndoManager, PXActionPerformer, UIViewController;
-@protocol PXMemoryAssetsActionFactory, PXPresentationEnvironment;
+@class NSUndoManager, UIViewController;
+@protocol PXMemoryAssetsActionFactory;
 
 @protocol PXActionPerformerDelegate
-- (NSUndoManager *)redatabrowser;
+- (NSUndoManager *)pport for content mode %i not implemented;
 
 @optional
-- (id <PXMemoryAssetsActionFactory>)ThanOrEqualToAnchor: /* Error: Ran out of types for this method. */;
-- (id <PXPresentationEnvironment>)0XXHZ;
-- (double);
-- (UIViewController *)RTCUT;
-- (_Bool)tePostUpdateEntities:(PXActionPerformer *)arg1 ];
-- (_Bool)iQd3;
+- (UIViewController *);
+- (_Bool)ialPosition;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;

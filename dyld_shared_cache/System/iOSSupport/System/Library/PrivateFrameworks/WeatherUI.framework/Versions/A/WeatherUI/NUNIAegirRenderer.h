@@ -52,9 +52,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)L;
+- (void)R+;
 
 // Remaining properties
 @property(retain, nonatomic) id <NUNIRendererOptions> rendererOptions; // @synthesize rendererOptions=_rendererOptions;

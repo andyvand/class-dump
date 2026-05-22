@@ -40,8 +40,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
 - (double);
 - (void);
 - (void);
@@ -56,18 +56,16 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (id);
 - (void);
-- (void)a&ð!¬FùQ0ð1b0@ù
-× ;
-- (void)0@ù
-× ;
-- (void)urationEditing:(_Bool)arg1;
-- (_Bool)cLayoutDelegate>",N,V_delegate;
-- (void)R;
-- (void)ewcontroller` time control status to %@.;
-- (void)?äp;
+- (void);
+- (void);
+- (_Bool)isible;
+- (void)R,N,V_indexPathsByItems;
+- (void)onalPINCodeItemManager initWithDelegate:sourceItem:] /* Error: Ran out of types for this method. */;
+- (_Bool)B;
+- (void)°ßÆÿ;
+- (void)!ÐK;
+- (id)ÌX;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *clipStartDate; // @synthesize clipStartDate=_clipStartDate;

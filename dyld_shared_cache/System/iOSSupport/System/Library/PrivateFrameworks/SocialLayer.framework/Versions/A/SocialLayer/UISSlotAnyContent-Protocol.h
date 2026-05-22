@@ -5,7 +5,7 @@
 //
 
 @protocol UISSlotAnyContent
-- (_Bool)rBundleIdentifier:. /* Error: Ran out of types for this method. */;
+- (struct CGSize)icipantIdentities:withMetadata:starting _SWUpdateCollaborationParticipantsAction /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char contentScale;

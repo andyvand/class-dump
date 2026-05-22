@@ -11,12 +11,12 @@
     MISSING_TYPE *senderWindow;
 }
 
-- (void)nge=QQ}16B32B36@?40;
 - (void);
-- (void)@;
 - (void);
-- (void)<˟;
+- (void);
+- (void);
 - (id);
+- (void);
 
 @end
 

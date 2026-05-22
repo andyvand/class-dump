@@ -4,5 +4,5 @@
 
 class icu::CalendarAstronomer::Equatorial {
 public: // (access info unavailable from symbols alone)
-    toString() const;
+    auto toString() const;
 };

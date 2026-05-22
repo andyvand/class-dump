@@ -5,17 +5,17 @@
 //
 
 @class UIContextMenuConfiguration, UIContextMenuInteraction, UITargetedPreview;
-@protocol NSCopying;
 
 @protocol UIContextMenuInteractionDelegate
+- (UIContextMenuConfiguration *)ns non-default values for the following traits that cannot represent unspecified values:(UIContextMenuInteraction *)arg1 %@;
 
 @optional
-- (UITargetedPreview *);
-- (void);
-- (UITargetedPreview *)serveScrollView:(UIContextMenuInteraction *)arg1 viewController:(UIContextMenuConfiguration *)arg2 forEdges:(id <NSCopying>)arg3;
-- (UITargetedPreview *)AppearanceStorage;
-- (UITargetedPreview *)Color",?,R;
-- (void)iewSupplementaryViewPrototypeNibExternalObjects;
-- (void)";
+- (UITargetedPreview *)collapsed split view controller. Ignoring.;
+- (void)ollectionReusableView"24;
+- (void)erarchy! This is likely a framework bug. ;
+- (UITargetedPreview *)433ôsnþ5433tnþU4338tnþõ333Dtnþý333PtnþÕ333\tnþ%433htnþµ333ttnþµ333¤©rþý333tnþ5433tnþ433¤tnþ;
+- (UITargetedPreview *);
+- (void)Å43?ï;
+- (UITargetedPreview *);
 @end
 

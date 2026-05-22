@@ -20,12 +20,12 @@
     _Bool allowOverScroll;
 }
 
-- (void)efore expiry;
-- (void)t attachment:(long long)arg1 %@;
-- (void)lder;
-- (void)CrossProcessChangeCoordinator",N,R;
-- (void)rently authenticating;
-- (void)ontrollerUpdated;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -38,10 +38,10 @@
 - (void);
 - (unsigned long long);
 - (long long);
-- (void);
 - (id);
-- (_Bool)àR4é0;
-- (void)Éÿ;
+- (void);
+- (_Bool)_Qo_g]GG_bQo_Ï(]yé#]GGGSg_^6]yADyACyAAyAEyAEyAAyAHÌ]G6;]GèMGSg Ë]G_AByACyAAyAAy5]P0]ySiSgGGÄ]GSg_A9_tGGtGG_Qo_:]AEyAAyAAyAAy9]yAEyL5]yfË]yAAyA2_AJG;]ySaySG`Û\AGyAEyAAyêÎ]yA2_AHGA3_yª8]SgGGA2_GGGG_Qo_" /* Error: Ran out of types for this method. */;
+- (void)tionsInspectorView;
 
 // Remaining properties
 @property(nonatomic) _Bool allowOverScroll; // @synthesize allowOverScroll;

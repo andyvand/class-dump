@@ -16,10 +16,10 @@
     MISSING_TYPE *targetNavigationBarAppearance;
 }
 
-- (void);
-- (id);
-- (void)T;
 - (double);
+- (id);
+- (void);
+- (void);
 
 @end
 

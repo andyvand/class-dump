@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HFItem, NSArray, _TtC6HomeUI24UtilityOnboardingContext;
+@class HFItem, NSArray;
+@protocol _TtP6HomeUI31UtilityOnboardingObjCCompatible_;
 
 @interface HUUtilityOnboardingOTPSelectionItemManager
 {
-    _TtC6HomeUI24UtilityOnboardingContext *_context;
+    id <_TtP6HomeUI31UtilityOnboardingObjCCompatible_> _context;
     NSArray *_factors;
     HFItem *_selectedFactor;
 }
@@ -18,15 +19,14 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void)FùQ.ð1b0@ù
-× ;
-- (void)orDelegate:(id)arg1 contentViewControllers: /* Error: Ran out of types for this method. */;
+- (void)ic}@);
 
 // Remaining properties
-@property(retain, nonatomic) _TtC6HomeUI24UtilityOnboardingContext *context; // @synthesize context=_context;
+@property(retain, nonatomic) id <_TtP6HomeUI31UtilityOnboardingObjCCompatible_> context; // @synthesize context=_context;
 @property(retain, nonatomic) NSArray *factors; // @synthesize factors=_factors;
 @property(retain, nonatomic) HFItem *selectedFactor; // @synthesize selectedFactor=_selectedFactor;
 

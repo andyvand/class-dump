@@ -13,29 +13,28 @@
 
 - (void);
 - (_Bool);
-- (id)6@"NSArray"24;
-- (id)odelController"16@"NSArray"24;
-- (struct __CFDictionary *)oDismissalController"16B24;
-- (id)lController"16;
-- (void)t=dd}{CGSize=dd}}72@0:(id)arg1 8{_NSRange=QQ}16{CGRect={CGPoint=dd}{CGSize=dd}}32@64;
-- (void)Object<OS_dispatch_source>";
-- (void)i24@0:(long long)arg1 8@16;
-- (id)4;
+- (id);
+- (id);
+- (struct __CFDictionary *);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (long long);
+- (void);
+- (void);
+- (long long);
+- (id);
+- (id);
+- (void);
 - (struct CGPDFForm *);
-- (id)berOfRanges;
-- (void);
-- (void)ndardColorPickerController;
 - (id);
 - (id);
-- (id)dd Contact change history event;
+- (void);
 - (id);
-- (void)_authKitRequestFromAppleIDRequest:(id)arg1;
 - (void);
-- (void)ipientView;
-- (void);
-- (long long)ï	Ð!TEù1°1¢!0@ù
-× ;
+- (void)ithBoxOption_DrawAnnotations;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *appearanceCharacteristicsKeyValues;

@@ -21,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (id));
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableString *mutablePlainString; // @synthesize mutablePlainString=_mutablePlainString;

@@ -23,7 +23,7 @@
 }
 
 + (id);
-+ (id)ÛLþ)m;
++ (id)_sidebarImplementation;
 - (id);
 - (void);
 - (void);
@@ -58,15 +58,15 @@
 - (void);
 - (double);
 - (void);
+- (id);
+- (void);
+- (long long);
+- (long long);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (id);
+- (void)shazamEventInfoChanged;
 
 // Remaining properties
 @property(nonatomic) _Bool debugBackfillCompositing; // @synthesize debugBackfillCompositing=_debugBackfillCompositing;

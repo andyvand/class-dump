@@ -21,12 +21,12 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (struct CGSize);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

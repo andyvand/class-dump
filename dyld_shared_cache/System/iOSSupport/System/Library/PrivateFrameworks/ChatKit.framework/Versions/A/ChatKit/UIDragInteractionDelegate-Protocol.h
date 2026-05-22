@@ -4,29 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIDragInteraction, UITargetedDragPreview;
-@protocol UIDragSession;
+@class NSArray, UIDragInteraction, UIDragItem, UITargetedDragPreview;
 
 @protocol UIDragInteractionDelegate
-- (NSArray *)TýÿGSSAAyöñ­y8Uýÿ_ë­Qo_òO­ydï­GGGG_Rê­Qo__Qo_î=­G°J­y26­yAAyÁe­lY­yÒTýÿGGGGG´W­yAYTõ=SQ12CoreGraphicsyHCg0_GG;
+- (NSArray *)ckgroundColor;
 
 @optional
-- (void)rRecipient:(UIDragInteraction *)arg1;
-- (void)¡¬Ð!<Gù±Ä1¢!0@ù
-× ;
-- (void)
-× ;
-- (NSArray *)±Æð1¢!0@ù
-× ;
-- (UITargetedDragPreview *);
-- (void)nt=dd}{CGSize=dd}}40B72;
-- (_Bool)endAnimationContext:(UIDragInteraction *)arg1;
-- (_Bool)AtIndexPath:(UIDragInteraction *)arg1;
-- (void)ctualVEV;
-- (void)ionString;
 - (void);
-- (id <UIDragSession>)of %f to fill minimum (%@);
-- (void)Ø;
-- (_Bool)À;
+- (void)0@ù
+× ;
+- (NSArray *)!Bù1Ð1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (void)nIsPlayground:(UIDragInteraction *)arg1;
+- (UITargetedDragPreview *)tionManager:(UIDragInteraction *)arg1 didFetchSyncStatistics:(UIDragItem *)arg2 error:(UITargetedDragPreview *)arg3;
+- (void);
+- (_Bool)Ö;
+- (_Bool)p;
+- (void)GtGG;
+- (void)g account:(UIDragInteraction *)arg1 [%@];
+- (UITargetedDragPreview *)part of notification:(UIDragInteraction *)arg1 %@;
+- (_Bool);
 @end
 

@@ -59,90 +59,94 @@ __attribute__((visibility("hidden")))
     UIDropInteraction *_dropInteraction;
 }
 
-- (void);
-- (id);
-- (_Bool)T	;
 - (long long);
-- (void);
+- (long long);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id)ndexForFirstTrailingColumn;
-- (void);
-- (void);
-- (void)tifier;
-- (_Bool)",R,N,V_togglePlayPauseCommand;
-- (id);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id)0@ù
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool)!lFùQ[Ð1Â0@ù
 × ;
-- (_Bool)!Ð@ù±Ì°1¢!0@ù
+- (void);
+- (id)Ôa°!4Fù]Ð1Â0@ù
 × ;
-- (long long)ommitLoadForFrame: /* Error: Ran out of types for this method. */;
-- (void)r:insertActionsView:forItemAtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)Shadow:(unsigned long long)arg1;
-- (id)onEnd;
-- (void)enuInteraction: /* Error: Ran out of types for this method. */;
-- (_Bool)notatedText: /* Error: Ran out of types for this method. */;
-- (_Bool)mEnabledValue;
-- (id):(id)arg1 assetIdiom: /* Error: Ran out of types for this method. */;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (void)bolConfiguration: /* Error: Ran out of types for this method. */;
-- (id)eRebuild:(id)arg1 createIfNeeded:(id)arg2;
-- (void)shMaskShapeLayer;
-- (void)mentInvisibleForFloatingAssistantTransition;
+- (void)@ù
+× ;
+- (id)0@ù
+× ;
+- (_Bool)× ;
+- (id);
+- (void)0@ù
+× ;
+- (id)ð!t@ùQe°1Â0@ù
+× ;
+- (void)youtEngineHostConstraints"b1"isExpectingToFlushPendingLayoutChangeNotifications"b1"invalidatesIntrinsicContentSizeForSubviewAutoLayoutChanges"b1"systemLayoutFittingSizeNeedsUpdate"b1"systemLayoutFittingSizeNeedsUpdateInWholeSubtree"b1"isCalculatingSystemLayoutFittingSize"b1"suppressEncapsulationConstraints"b1"suppressAutoresizingMaskConstraintsUpdate"b1"isFetchingSizeForTAMIC_NOEngineHost"b1"internallyHiddenForReason"b2"stayHiddenAfterBeingInternallyHiddenForReason"b1"skippedPreLayoutWhileInternallyHiddenForReason"b1"skippedLayoutWhileInternallyHiddenForReason"b1"isPendingHiddenForAnimation"b1"hasMaskView"b1"isSettingMaskView"b1"hasVisualAltitude"b1"hasBackdropMaskViews"b1"backdropMaskViewFlags"b5"delaysTouchesForSystemGestures"b1"subclassShouldDelayTouchForSystemGestures"b1"hasMotionEffects"b1"backdropOverlayMode"b2"tintAdjustmentMode"b2"isReferenceView"b1"focusState"b2"hasUserInterfaceIdiom"b1"userInterfaceIdiom"b3"ancestorDefinesTintColor"b1"ancestorDefinesTintAdjustmentMode"b1"ancestorIgnoresInvertColors"b1"needsUpdateProperties"b1"needsTraitCollectionDidChangePropagation"b1"isRootOfTraitCollectionDidChangePropagation"b1"implementsTraitCollectionForChildEnvironment"b1"implementsBaselineOffsetsAtSize"b1"coloredViewBounds"b1"coloredAlignmentRects"b1"preservesSuperviewMargins"b4"insettingLayoutMarginsFromSafeArea"b4"safeAreaInsetsFrozen"b1"viewDelegateContentOverlayInsetsAreClean"b1"hasGeometryObservers"b1"notifyObserversForBaselineChanges"b1"notifySuperviewForBaselineChanges"b1"observingGeometryChangesForSelfCount"b4"isObservingBoundingPathRotationNotificationsForWindow"b1"hasTraitStorageList"b1"cachedTraitCollectionIsValid"b1"hasTraitOverrides"b1"dontUpdateInferredLayoutMargins"b1"areLayoutMarginsDirectional"b1"implementsViewForBaselineLayout"b1"tracksFocusedAncestors"b1"hasLayoutArrangements"b1"isHiddenManagedByLayoutArrangement"b1"hasAddedFocusGuides"b1"hasFocusSpeedBumpEdges"b1"hasFocusableContentMargins"b1"focusInteractionDisabled"b1"shouldReverseLayoutDirection"b1"cannotBeParentTraitEnvironment"b1"needsContentsFormatUpdate"b1"accessibilityIgnoresInvertColors"b1"ignoresLayerTransformForSafeAreaInsets"b1"accessibilityInterfaceStyleIntent"b2"accessibilityResolvedInterfaceStyle"b2"shouldArchiveUIAppearanceTags"b1"wantsDeepColorDrawing"b1"preferredContentsFormat"b3"sceneDraggingBehaviorOnPan"b2"tagEnabled"b1"chargeSet"b1"ignoreBackdropViewsWhenHiding"b1"hasInteractionsArray"b1"hasHitTestDirectionalInsets"b1"hasLayoutDebuggingIdentifier"b1"hasAppIntentsIntelligenceProvider"b1"hasContentSizeNotificationToken"b1"hasPresentationControllerToNotifyOnLayoutSubviews"b1"hasWritingToolsCoordinator"b1"semanticContentAttribute"b3"hasDynamicBackgroundColor"b1"forceEffectiveThemeDidChange"b1"allowsHighContrastForBackgroundColor"b1"hasPendingTraitStorageConstraints"b1"hasPendingLayoutAfterTraitStorageConstraintsUpdate"b1"hasEverBeenInAWindow"b1"hasFocusGroupIdentifier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
+- (_Bool)te>"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)UIControlEventsGestureRecognizerDelegate>";
+- (void)tsDictationHandlingMethods;
+- (void)orReordering:(unsigned long long)arg1 animator:(id)arg2 animationHandler:(id)arg3;
+- (id)te:(id)arg1 alpha: /* Error: Ran out of types for this method. */;
+- (_Bool)dItemSufficientlyIntersectsPresentedView;
+- (void)w:(unsigned long long)arg1;
+- (id)@"UITapGestureRecognizer",&,N,V_selectGestureRecognizer;
+- (void)NSString",&,N,V_keycapsFallback;
+- (id)ntainerView;
+- (id)ityHUDPositionManager;
+- (id)7CF9F242_UITextFormattingViewControllerDelegateBox;
+- (id);
+- (void)4;
+- (long long) ;
+- (void);
+- (id);
+- (id)ðîÿVóîÿ;
+- (id)tionTitleAppearanceDefaultLargeSubtitleTextAttributesWithProvider(_UINavigationBarTitleFontProvider *__strong);
+- (_Bool)ernal inconsistency:(id)arg1 the current index path of an inserted shadow update should never be nil;
+- (void)CollectionViewUpdateExpandCollapseAnimationContext> _Nonnull)_block_invoke_3;
+- (void)LightControlSymbolActiveColor;
+- (void)olor;
+- (void)>;
+- (_Bool)ontroller hierarchy.;
+- (id)nalScrollView"16^B24;
+- (id)CGRectNull is undefined. Attributes:%@; new frame:%@ /* Error: Ran out of types for this method. */;
+- (void)boardPerf.UI;
 - (void);
-- (void)Èpt;
-- (id)Ìh;
-- (id)T_P`;
-- (id)h;
+- (id)inputBlurDistance1;
+- (id)3yÂ;
+- (id)þ;
 - (void);
-- (id)oxy]  Failed to access remote service:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)target:(id)arg1 %@;
-- (id)ngInCompactHeight;
-- (_Bool)ndPass;
-- (id)ToolbarAppearance.m;
-- (void)for %@;
-- (void)ickerMode datePickerMode];
-- (id)orWildcatBarActiveGradientStart;
-- (void)mplement -%@ to handle trait updates:(id)arg1 %@;
-- (void)is requested will prevent reuse and cause created cells to remain inaccessible in memory for the lifetime of the collection view. Registrations should be created up front and reused. Registration:(_Bool)arg1 %@;
-- (void)on;
-- (void)mponentClassPredicate;
-- (long long)ControllersWithSuspendedAppearanceTransitions;
-- (id)it29_UIFlexInteractionVariantSpec;
-- (id)f4c;
-- (void);
-- (void)²ÌÑ[;
+- (void)yle;
+- (id)e[;
+- (void);
+- (void);
+- (void)­;
+- (_Bool)Ì^;
+- (void);
+- (id)y_;
+- (void)a;
+- (void)Hìÿ;
+- (long long);
+- (id)´e;
+- (long long)àm;
 - (id);
 - (void);
-- (void);
-- (long long)¸e_;
-- (id)Ô¦];
-- (void)û+;
-- (void)%<´;
-- (void)×Ýþl;
-- (id)¤Óòþ;
-- (id)×Ëþ;
-- (id)X{;ÿ*Ù¸Xc;
-- (void)ÇÿVU×á¨b;
-- (long long));
-- (void)Y(ÿ;
-- (id)´bÿá×MÕc;
-- (_Bool)¹ý×Çd;
-- (_Bool)d;
-- (_Bool)Ä^;
-- (void)dÑ	zf;
+- (id)Cr;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -11,10 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)loadUpdatePolicy;
+- (_Bool);
+- (double)Ð!ÐDùað1Â0@ù
+× ;
 - (Class);
-- (double);
-- (_Bool)ent:(int)arg1;
+- (_Bool)Tö`;
 
 @end
 

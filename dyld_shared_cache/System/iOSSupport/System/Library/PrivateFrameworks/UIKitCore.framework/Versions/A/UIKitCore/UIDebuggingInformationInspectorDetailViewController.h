@@ -16,18 +16,17 @@ __attribute__((visibility("hidden")))
     UITableView *_tableView;
 }
 
-- (void)& modify message:(id)arg1 %@, reason:%@ /* Error: Ran out of types for this method. */;
-- (void); %@;
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (long long);
-- (id);
 - (void);
-- (id);
-- (void)
-× ;
-- (void)8@16:(id)arg1 24Q32;
-- (void)Type: /* Error: Ran out of types for this method. */;
-- (void)_@;
+- (void);
+- (void);
+- (void)~8ÿ;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

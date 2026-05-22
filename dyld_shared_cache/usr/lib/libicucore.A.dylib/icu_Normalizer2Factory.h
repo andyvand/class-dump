@@ -4,12 +4,12 @@
 
 class icu::Normalizer2Factory {
 public: // (access info unavailable from symbols alone)
-    getFCCInstance(UErrorCode&);
-    getFCDInstance(UErrorCode&);
-    getImpl(icu::Normalizer2 const*);
-    getInstance(UNormalizationMode, UErrorCode&);
-    getNFCImpl(UErrorCode&);
-    getNFKCImpl(UErrorCode&);
-    getNFKC_CFImpl(UErrorCode&);
-    getNoopInstance(UErrorCode&);
+    auto getFCCInstance(UErrorCode&);
+    auto getFCDInstance(UErrorCode&);
+    auto getImpl(icu::Normalizer2 const*);
+    auto getInstance(UNormalizationMode, UErrorCode&);
+    auto getNFCImpl(UErrorCode&);
+    auto getNFKCImpl(UErrorCode&);
+    auto getNFKC_CFImpl(UErrorCode&);
+    auto getNoopInstance(UErrorCode&);
 };

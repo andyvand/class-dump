@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKShapeDetectionController;
-
 @protocol AKShapeDetectionControllerDelegate
-- (_Bool)Presentation;
-- (void);
-
-@optional
-- (void)eamingVideoView<%d> preparing video for looping, bailing (enabled:(AKShapeDetectionController *)arg1 video=%d, audio=%d);
-- (struct CGRect)reparing video for looping, bailing (count:(AKShapeDetectionController *)arg1 video=%lu, audio=%lu);
 @end
 

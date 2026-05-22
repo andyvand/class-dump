@@ -5,7 +5,6 @@
 //
 
 @protocol CKCustomMaskDuringPrint
-- (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool suppressMask;

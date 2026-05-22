@@ -4,16 +4,16 @@
 
 class icu::number::impl::AffixUtils {
 public: // (access info unavailable from symbols alone)
-    containsOnlySymbolsAndIgnorables(icu::UnicodeString const&, icu::UnicodeSet const&, UErrorCode&);
-    containsType(icu::UnicodeString const&, icu::number::impl::AffixPatternType, UErrorCode&);
-    escape(icu::UnicodeString const&);
-    estimateLength(icu::UnicodeString const&, UErrorCode&);
-    getFieldForType(icu::number::impl::AffixPatternType);
-    hasCurrencySymbols(icu::UnicodeString const&, UErrorCode&);
-    hasNext(icu::number::impl::AffixTag const&, icu::UnicodeString const&);
-    iterateWithConsumer(icu::UnicodeString const&, icu::number::impl::TokenConsumer&, UErrorCode&);
-    nextToken(icu::number::impl::AffixTag, icu::UnicodeString const&, UErrorCode&);
-    replaceType(icu::UnicodeString const&, icu::number::impl::AffixPatternType, char16_t, UErrorCode&);
-    unescape(icu::UnicodeString const&, icu::FormattedStringBuilder&, int, icu::number::impl::SymbolProvider const&, icu::FormattedStringBuilder::Field, UErrorCode&);
-    unescapedCodePointCount(icu::UnicodeString const&, icu::number::impl::SymbolProvider const&, UErrorCode&);
+    auto containsOnlySymbolsAndIgnorables(icu::UnicodeString const&, icu::UnicodeSet const&, UErrorCode&);
+    auto containsType(icu::UnicodeString const&, icu::number::impl::AffixPatternType, UErrorCode&);
+    auto escape(icu::UnicodeString const&);
+    auto estimateLength(icu::UnicodeString const&, UErrorCode&);
+    auto getFieldForType(icu::number::impl::AffixPatternType);
+    auto hasCurrencySymbols(icu::UnicodeString const&, UErrorCode&);
+    auto hasNext(icu::number::impl::AffixTag const&, icu::UnicodeString const&);
+    auto iterateWithConsumer(icu::UnicodeString const&, icu::number::impl::TokenConsumer&, UErrorCode&);
+    auto nextToken(icu::number::impl::AffixTag, icu::UnicodeString const&, UErrorCode&);
+    auto replaceType(icu::UnicodeString const&, icu::number::impl::AffixPatternType, char16_t, UErrorCode&);
+    auto unescape(icu::UnicodeString const&, icu::FormattedStringBuilder&, int, icu::number::impl::SymbolProvider const&, icu::FormattedStringBuilder::Field, UErrorCode&);
+    auto unescapedCodePointCount(icu::UnicodeString const&, icu::number::impl::SymbolProvider const&, UErrorCode&);
 };

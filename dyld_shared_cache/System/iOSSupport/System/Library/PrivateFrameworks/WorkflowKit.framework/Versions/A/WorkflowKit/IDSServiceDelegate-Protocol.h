@@ -7,9 +7,7 @@
 @protocol IDSServiceDelegate
 
 @optional
-- (void)he specified album, the photo will be duplicated.;
-- (void)fier;
-- (void);
-- (void),E;
+- (void)lemented. You must implement at least one of them;
+- (void)aceTextFind);
 @end
 

@@ -12,32 +12,32 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-+ (id)ôtêÿ;
++ (id);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
-- (id)time value is not numeric.
-;
-- (_Bool);
-- (id)Callback && completionCallback;
-- (void)actionComplete;
-- (id)iaType__MAPPING_MISSING__;
 - (void);
-- (id)nBeginTouchPosition;
-- (id)Status:(id)arg1;
-- (void)UICellAccessoryConfiguration;
-- (struct _NSRange)LvÈv;
-- (unsigned long long)Ê[;
+- (id);
+- (id);
+- (unsigned long long);
+- (id);
+- (id)ñbð1Â0@ù
+× ;
+- (id)Size=dd}32;
+- (_Bool)toredAccessibilityFrame;
+- (id)sInvertColors,S_setAncestorIgnoresInvertColors:(struct _NSZone *)arg1;
+- (id)Configuration;
+- (void)\ûÿÿ@Çêÿh¥þ¨þÿ;
+- (struct _NSRange)_UIKeyboardBackdropTransition;
+- (unsigned long long)-%p;
+- (void)F;
 
 @end
 

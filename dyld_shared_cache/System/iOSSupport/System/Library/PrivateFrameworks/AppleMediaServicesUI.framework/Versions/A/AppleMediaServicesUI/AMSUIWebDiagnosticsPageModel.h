@@ -12,12 +12,15 @@ __attribute__((visibility("hidden")))
     NSString *_backgroundColor;
     AMSMetricsEvent *_impressionEvent;
     AMSUIWebNavigationBarModel *_navigationBar;
+    long long _userInterfaceStyle;
     NSString *_sessionToken;
     NSArray *_requiredSerialNumbers;
     NSArray *_selectableSerialNumbers;
     NSNumber *_destination;
     NSString *_flowSessionID;
     NSString *_flowSerialNumber;
+    NSString *_passcode;
+    NSString *_countryCode;
     AMSUIWebClientContext *_context;
     struct CGSize _windowSize;
 }
@@ -36,20 +39,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (struct CGSize)tion: /* Error: Ran out of types for this method. */;
-- (id)window.requestAnimationFrame(() => {            setTimeout(() => {                resolve();            }, 0);        });    });});;
+- (void)ckgroundStyle: /* Error: Ran out of types for this method. */;
+- (id)D;
+- (long long)y)1yAByArZG_SSQo_AGG_Qo__Qo__Qo__Qo_GAJGAJGAJGAJGAOGtGG1yABy41AXyô)1GGGG_3y1GQo_AByACyADyAByAByAByAByAByAEyADyAH_A5_tGGAJGAJGAJGAJGAOG_A14_AByAByAByAByAByAEyADyAH_A21_tGGAJGAJGAJGAJGAOGtGGA35_G_G;
+- (id);
+- (struct CGSize)&áÿ&áÿørm;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
 @property(retain, nonatomic) AMSUIWebClientContext *context; // @synthesize context=_context;
+@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
@@ -62,6 +71,7 @@ __attribute__((visibility("hidden")))
 @property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) AMSMetricsEvent *impressionEvent; // @synthesize impressionEvent=_impressionEvent;
 @property(readonly, nonatomic) AMSUIWebNavigationBarModel *navigationBar; // @synthesize navigationBar=_navigationBar;
+@property(retain, nonatomic) NSString *passcode; // @synthesize passcode=_passcode;
 @property(retain, nonatomic) NSArray *requiredSerialNumbers; // @synthesize requiredSerialNumbers=_requiredSerialNumbers;
 @property(retain, nonatomic) NSArray *selectableSerialNumbers; // @synthesize selectableSerialNumbers=_selectableSerialNumbers;
 @property(retain, nonatomic) NSString *sessionToken; // @synthesize sessionToken=_sessionToken;
@@ -70,6 +80,7 @@ __attribute__((visibility("hidden")))
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"AMSUIWebAction",?,R,N
 
+@property(readonly, nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle=_userInterfaceStyle;
 @property(readonly, nonatomic) struct CGSize windowSize; // @synthesize windowSize=_windowSize;
 
 @end

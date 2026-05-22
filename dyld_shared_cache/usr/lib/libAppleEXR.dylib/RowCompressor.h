@@ -4,9 +4,9 @@
 
 class RowCompressor {
 public: // (access info unavailable from symbols alone)
-    ConfigureScratchBuffer(CompressionInfo&) const;
-    DoDifferencing(CompressionInfo&) const;
-    ReadData(CompressionInfo&) const;
-    ReadData(CompressionInfo&) const::FuncList;
-    WalkBackStream(CompressionInfo&) const;
+    auto ConfigureScratchBuffer(CompressionInfo&) const;
+    auto DoDifferencing(CompressionInfo&) const;
+    auto ReadData(CompressionInfo&) const;
+    auto ReadData(CompressionInfo&) const::FuncList;
+    auto WalkBackStream(CompressionInfo&) const;
 };

@@ -50,24 +50,22 @@
 - (double);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void);
+- (double);
 - (void);
 - (float);
 - (id);
-- (id)
-× ;
-- (void)o;
-- (_Bool)
-;
-- (_Bool)ent;
-- (void)(originalTexts:) started. /* Error: Ran out of types for this method. */;
-- (double)utoEditClip>"8@"<PXStoryMutableAutoEditClip>"16^B24;
+- (id);
 - (void);
-- (void)Visibility Threshold;
+- (void);
+- (void);
+- (void);
+- (_Bool)itions;
+- (id):ùÿûÿ /* Error: Ran out of types for this method. */;
+- (_Bool)nterval.m;
+- (void)ViewBufferingController>"8;
+- (void)LS_TITLE_ORIGINAL_AX_LABEL;
 - (_Bool);
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXAssetReference *assetReference; // @synthesize assetReference=_assetReference;

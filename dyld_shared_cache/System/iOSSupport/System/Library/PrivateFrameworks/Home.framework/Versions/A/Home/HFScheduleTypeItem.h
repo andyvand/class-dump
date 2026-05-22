@@ -19,10 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
 - (unsigned long long);
-- (_Bool)utableArray"8@"NSString"16;
+- (void);
+- (void)¼B;
+- (_Bool)igured by HFServiceGroupBuilder.;
 
 // Remaining properties
 @property(readonly, nonatomic) HFScheduleBuilder *scheduleBuilder; // @synthesize scheduleBuilder=_scheduleBuilder;

@@ -15,14 +15,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
+- (void);
+- (unsigned long long);
+- (void)onType:paymentButtonStyle: /* Error: Ran out of types for this method. */;
+- (id)ry",&,N,V_additionalHeaders;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityElementLabel; // @synthesize accessibilityElementLabel=_accessibilityElementLabel;

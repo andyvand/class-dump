@@ -17,7 +17,13 @@
     NSDictionary *_finalStateMetadata;
 }
 
-+ (id)õÿà+ÿÏ;
++ (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -27,12 +33,6 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)0:8@"PREditorNumberingSystemPickerController"16@"NSString"24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *currentStateMetadata; // @synthesize currentStateMetadata=_currentStateMetadata;

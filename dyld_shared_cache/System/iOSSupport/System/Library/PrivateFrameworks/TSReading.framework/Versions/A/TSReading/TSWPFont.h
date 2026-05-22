@@ -19,18 +19,18 @@
 + (id);
 + (id);
 - (void);
-- (id)5;
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (void);
 - (id);
+- (unsigned long long);
+- (id);
+- (void);
+- (_Bool);
 - (id);
 - (id);
-- (void)ge);
-- (id)*, TSDGPUDataBufferDataType, BOOL);
+- (id)leValue:forProperty:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *compatibilityName; // @synthesize compatibilityName=_compatibilityName;

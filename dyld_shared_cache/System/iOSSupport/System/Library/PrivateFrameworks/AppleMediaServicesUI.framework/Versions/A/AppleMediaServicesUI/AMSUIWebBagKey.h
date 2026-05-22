@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
 - (unsigned long long);
+- (id);
+- (void);
+- (void)questIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;

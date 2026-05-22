@@ -21,12 +21,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)sor;
+- (void);
+- (void)@¾4;
 
 @end
 

@@ -13,12 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (void)olariumStackedImageContainerModifyRotationStrength;
 - (void);
-- (void)ÙÎ@çû©ñÒí2@=
-×£pý5@Ý$Cù?B`åÐ"Û3@5^ºIó?A`åÐâ4@Å °rh@shí|_8@¸ëQ¸@=
-×£p=:(CDUnknownBlockType)arg1 @nÀ$@Âõ(\@
-×£p=ZA@¸ëQ¸@;
-- (void)¤Oÿ,&;
+- (void)=WþvÞ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -4,9 +4,9 @@
 
 // Global C++ functions
 
-operator delete(void*);
-operator delete(void*, std::__type_descriptor_t);
-operator delete[](void*, std::__type_descriptor_t);
-operator new(unsigned long, std::__type_descriptor_t);
-operator new[](unsigned long, std::__type_descriptor_t);
 typeinfo for std::bad_alloc;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void * operator new[](unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
+void operator delete(void*, std::__type_descriptor_t);
+void operator delete[](void*, std::__type_descriptor_t);

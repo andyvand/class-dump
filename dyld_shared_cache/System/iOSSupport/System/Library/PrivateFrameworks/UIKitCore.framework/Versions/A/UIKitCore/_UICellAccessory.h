@@ -15,18 +15,18 @@ __attribute__((visibility("hidden")))
     double _reservedLayoutWidth;
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void)CGVector:(id)arg1;
-- (double)BlockPanGestureWithState:withTranslation: /* Error: Ran out of types for this method. */;
-- (id)astInputIsGestureKey;
-- (id)reversesActionOrder;
-- (id)|»;
++ (id)>";
 - (struct CGSize);
+- (id);
+- (id);
+- (_Bool)nWithPoint:(id)arg1;
+- (void)hBaseRequest:(double)arg1 environmentScrollableContainer: /* Error: Ran out of types for this method. */;
+- (void)troller:(id)arg1;
+- (id)s;
+- (id);
+- (double)for invalid UIWindowSceneGeometryPreferences object;
+- (void)È Èÿ;
+- (_Bool)e;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool alwaysNeedsLayout; // @synthesize alwaysNeedsLayout=_alwaysNeedsLayout;

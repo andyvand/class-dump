@@ -55,9 +55,9 @@
 - (float);
 - (void);
 - (_Bool);
+- (struct CGRect);
 - (int);
 - (void);
-- (struct CGRect);
 - (id);
 
 // Remaining properties

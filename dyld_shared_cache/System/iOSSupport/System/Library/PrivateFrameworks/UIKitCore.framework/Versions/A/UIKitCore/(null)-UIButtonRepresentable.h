@@ -7,8 +7,8 @@
 @interface (null) (UIButtonRepresentable)
 - (void);
 - (void);
-- (void)ContextMenuInteraction"16@"UIContextMenuConfiguration"24;
-- (void)l;
-- (void)4i;
+- (void);
+- (void);
+- (void)°Iÿ¹;
 @end
 

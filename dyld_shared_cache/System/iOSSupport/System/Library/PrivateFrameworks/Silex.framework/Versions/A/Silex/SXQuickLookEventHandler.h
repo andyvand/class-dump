@@ -19,11 +19,11 @@
 - (void);
 - (void);
 - (void);
-- (id)R;
-- (void);
 - (id);
-- (id)terOrderingMode;
-- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

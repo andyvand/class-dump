@@ -22,10 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (id)e;
 - (id);
-- (void);
-- (id);
+- (id)	
+;
+- (id)atVideoPlayerViewControllerFactory;
+- (void)Èwþ=4: Ì$ÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) LPLinkMetadata *linkMetadata;

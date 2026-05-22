@@ -5,6 +5,5 @@
 //
 
 @protocol PKShapeDrawingControllerDelegate
-- (void);
 @end
 

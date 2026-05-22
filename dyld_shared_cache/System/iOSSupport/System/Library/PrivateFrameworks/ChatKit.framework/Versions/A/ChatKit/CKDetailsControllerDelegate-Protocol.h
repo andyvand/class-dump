@@ -4,18 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIViewController;
-
 @protocol CKDetailsControllerDelegate
-- (void)torWithFontAttributes:(_Bool)arg1;
-
-@optional
-- (_Bool);
-- (UIViewController *)hHue:(UIViewController *)arg1 saturation:brightness:alpha: /* Error: Ran out of types for this method. */;
-- (void)rget:selector:object: /* Error: Ran out of types for this method. */;
-- (void)applicationDidBecomeActivePublisher;
-- (void)e_$_didFinishBackgroundFetchPublisher;
-- (void)dObjectContextDidSavePublisher;
-- (void)ame;
 @end
 

@@ -23,13 +23,14 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)Ì;
-- (id)Ì;
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -39,11 +40,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)ModeConfigurationService;
-- (_Bool)mary);
+- (id)tocolMetadata;
+- (_Bool)ameterInputProvider:didAdvanceToParameter:action:defaultState:prompt:linkDialog:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)WFMeasurementConvertAction;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak WFAction *action; // @synthesize action=_action;

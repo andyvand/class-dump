@@ -41,9 +41,9 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
 - (_Bool);
-- (_Bool)yy£½SgGG_Qo_ALy©§½SgGGAAyAByAD_AGyT¨¿yAGyAGyè§½AOG¸ ½yARGGG%½GtGGtGG;
+- (void);
+- (_Bool)APER_LOOK_ORIGINAL;
 
 // Remaining properties
 @property(nonatomic) _Bool activatedDidChange; // @synthesize activatedDidChange=_activatedDidChange;

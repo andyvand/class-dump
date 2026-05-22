@@ -4,9 +4,9 @@
 
 class TileDecoder_NoCompression {
 public: // (access info unavailable from symbols alone)
-    Decompress(AXRBufferPool*, TileInfo const&, unsigned long*) const;
-    ExtractPlane(void const*, unsigned long, ChannelInfo const&, TileInfo const&, void*, unsigned long, long) const;
-    GetCompressionMethod() const;
-    Interleave(void const*, unsigned long, TileInfo const&, unsigned int, unsigned int, void*, unsigned long, long) const;
+    auto Decompress(AXRBufferPool*, TileInfo const&, unsigned long*) const;
+    auto ExtractPlane(void const*, unsigned long, ChannelInfo const&, TileInfo const&, void*, unsigned long, long) const;
+    auto GetCompressionMethod() const;
+    auto Interleave(void const*, unsigned long, TileInfo const&, unsigned int, unsigned int, void*, unsigned long, long) const;
     ~TileDecoder_NoCompression();
 };

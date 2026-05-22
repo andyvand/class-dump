@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)rrier Name;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *invitationsToUnshare; // @synthesize invitationsToUnshare=_invitationsToUnshare;

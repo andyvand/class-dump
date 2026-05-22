@@ -42,72 +42,67 @@
 
 - (void);
 - (void);
-- (_Bool);
-- (void)d:(double)arg1;
+- (void);
+- (void);
 - (id);
+- (double);
+- (long long);
+- (double);
+- (double);
+- (double);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
+- (double);
+- (double);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
-- (_Bool)ngine %p completed request %@;
-- (_Bool);
-- (long long);
-- (void);
-- (void);
-- (void)rtworkType:(_Bool)arg1;
-- (void),R,C,N,V_volumeControlLabel;
-- (void)ingMode;
-- (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (double);
-- (long long);
+- (id)@ù
+× ;
+- (_Bool)× ;
+- (void)°!¼Cùñd1Â0@ù
+× ;
+- (_Bool)!ðDùñdð1Â0@ù
+× ;
+- (long long){NSDirectionalEdgeInsets=dddd}}32@0:8@16@24 /* Error: Ran out of types for this method. */;
+- (_Bool)Session>";
+- (double)orInterfaceOrientation"b1"delegateSupportedInterfaceOrientations"b1"delegatePreferredInterfaceOrientationForPresentation"b1"dataSourceSuppliesBeforeViewController"b1"dataSourceSuppliesAfterViewController"b1"dataSourceSuppliesPageCount"b1"dataSourceSuppliesPageNumber"b1};
+- (void)8{CGPoint=dd}16@32{CGRect={CGPoint=dd}{CGSize=dd}}40;
+- (void)uldPerformAction:(double)arg1 fromSender: /* Error: Ran out of types for this method. */;
+- (void)itles:(double)arg1;
+- (void)etDropPerformer:(double)arg1;
+- (_Bool)erForTransition:(id)arg1;
+- (_Bool)Repesentable: /* Error: Ran out of types for this method. */;
+- (void)ideOtherApplications:(long long)arg1;
+- (_Bool)Views;
+- (_Bool)cusLayerForItem:forClient: /* Error: Ran out of types for this method. */;
+- (void)ame:(double)arg1;
+- (void)e:(double)arg1;
+- (double)@"_UIDatePickerContainerViewController",&,N,V_containerViewController;
+- (void)uttonRect;
+- (id)escriptor;
+- (id)|;
+- (void)(ü;
+- (void)oundAppearance;
+- (void)ightForFooterInTableView:(_Bool)arg1 methods.  Use viewForHeaderInTableView:instead. /* Error: Ran out of types for this method. */;
+- (void)viously-used email address or enter a new one. To remove one, go to Settings > General.;
+- (void)tlink:(_Bool)arg1 r:path:/System/Library/PrivateFrameworks/RemoteTextInput.framework/RemoteTextInput /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
+- (_Bool)^;
+- (void)D!6ÿúÌÜ;c;
 - (void);
-- (double);
-- (void)/º;
-- (void)uò º;
-- (_Bool)1¢!0@ù
-× ;
-- (double)¢!0@ù
-× ;
-- (void)
-× ;
-- (_Bool)Ô ;
-- (void)! @ù±Ç°1¢!0@ù
-× ;
-- (id)¢!0@ù
-× ;
-- (void)Ôáuð! BùÊ1¢!0@ù
-× ;
-- (id)ð! Aù±Ê°1¢!0@ù
-× ;
-- (void)Cù±Ì1¢!0@ù
-× ;
-- (void):(_Bool)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16^{CGRect={CGPoint=dd}{CGSize=dd}}48^Q56;
-- (_Bool)i[100c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}16i24B28;
-- (void)"NSPointerArray"16;
-- (double)lver";
-- (void)tColorBurnTintLevel:(id)arg1;
-- (void)stFocusUpdateToEnvironment:(double)arg1;
-- (void)pplyingOverridesToTraitCollection:(_Bool)arg1;
-- (double)orNestedDisplayWithNavigationController: /* Error: Ran out of types for this method. */;
-- (id)StyleForegroundView;
-- (_Bool)ngineIfPossible;
-- (id)erflow: /* Error: Ran out of types for this method. */;
-- (id)Index: /* Error: Ran out of types for this method. */;
-- (void)izer;
-- (void)0;
-- (void)óó;
-- (_Bool);
-- (double)on number.;
-- (double)s:(double)arg1 couldn't create notification port;
-- (void);
-- (void);
-- (_Bool);
-- (long long)Ú	Qd;
-- (void)L¨ÿYÀ;
 
 // Remaining properties
 @property(nonatomic, setter=_setLeadingBackgroundStyle:) long long _leadingBackgroundStyle; // @synthesize _leadingBackgroundStyle=__leadingBackgroundStyle;

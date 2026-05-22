@@ -4,3 +4,60 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#pragma mark Named Structures
+
+struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
+    struct {
+        union __rep {
+            struct __short {
+                char _field1[23];
+                unsigned int :7;
+                unsigned int :1;
+            } _field1;
+            struct __long {
+                char *_field1;
+                unsigned long long _field2;
+                unsigned int :63;
+                unsigned int :1;
+            } _field2;
+        } _field1;
+    } _field1;
+};
+
+struct vector<unsigned char, std::allocator<unsigned char>> {
+    char *_field1;
+    char *_field2;
+    struct {
+        char *_field1;
+    } _field3;
+};
+
+#pragma mark Typedef'd Structures
+
+// Template types
+typedef struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
+    struct {
+        union __rep {
+            struct __short {
+                char _field1[23];
+                unsigned int :7;
+                unsigned int :1;
+            } _field1;
+            struct __long {
+                char *_field1;
+                unsigned long long _field2;
+                unsigned int :63;
+                unsigned int :1;
+            } _field2;
+        } _field1;
+    } _field1;
+} basic_string_23c5cf75;
+
+typedef struct vector<unsigned char, std::allocator<unsigned char>> {
+    char *_field1;
+    char *_field2;
+    struct {
+        char *_field1;
+    } _field3;
+} vector_b9643762;
+

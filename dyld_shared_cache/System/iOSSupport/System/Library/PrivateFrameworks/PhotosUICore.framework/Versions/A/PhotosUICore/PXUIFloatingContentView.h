@@ -11,11 +11,10 @@
     struct CGRect _contentsRect;
 }
 
+- (_Bool);
 - (void);
-- (void)y>ZySo12PHSuggestionCGGGüm#yk#yAISo11SLHighlightCk#ACG_Qo_G;
-- (_Bool)clips:%lu /* Error: Ran out of types for this method. */;
-- (struct CGRect)e %@
-;
+- (struct CGRect);
+- (void)PÐ÷ÿ|ûÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect contentsRect; // @synthesize contentsRect=_contentsRect;

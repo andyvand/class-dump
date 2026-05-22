@@ -5,9 +5,5 @@
 //
 
 @protocol APWebProcessDelegate
-
-@optional
-- (void);
-- (void)nentIdentifier:(float)arg1;
 @end
 

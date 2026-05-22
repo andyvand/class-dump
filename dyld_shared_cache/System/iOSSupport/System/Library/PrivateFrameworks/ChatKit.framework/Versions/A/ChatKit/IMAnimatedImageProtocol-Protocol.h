@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol IMAnimatedImageProtocol
+- (NSArray *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *durations;

@@ -17,13 +17,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id)àÂÿÿÜóÿÿÃÿÿÞ¶ÿÿ;
+- (void);
+- (void);
+- (id)ew:menuConfigurationForTextItem:defaultMenu: /* Error: Ran out of types for this method. */;
+- (id)[%u];
 
 // Remaining properties
 @property(nonatomic) __weak UITextView *customLabel; // @synthesize customLabel=_customLabel;

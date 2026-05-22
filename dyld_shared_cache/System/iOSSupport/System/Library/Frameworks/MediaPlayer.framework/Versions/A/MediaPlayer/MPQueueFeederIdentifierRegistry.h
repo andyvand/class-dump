@@ -13,7 +13,7 @@
     NSMapTable *_index;
 }
 
-+ (_Bool)p> %@;
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -23,18 +23,18 @@
 - (void);
 - (void);
 - (long long);
-- (void)@;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void)em.B.dylib;
-- (id)entURL:(long long)arg1;
-- (long long)designatedGroupLeaderName;
+- (id);
+- (id);
+- (long long);
+- (id)24;
+- (void)onUncensoredName__MAPPING_MISSING__;
+- (void)ediaItemPropertyMovementCount(void);
+- (id)RestrictionsDidChangeNotification;
 
 // Remaining properties
 @property(readonly, nonatomic) long long count;

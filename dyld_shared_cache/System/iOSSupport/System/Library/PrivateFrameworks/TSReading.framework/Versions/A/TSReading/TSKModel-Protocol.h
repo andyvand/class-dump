@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSEnumerator;
-
 @protocol TSKModel
 
 @optional
-- (NSEnumerator *);
+- (void);
 @end
 

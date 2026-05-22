@@ -29,32 +29,31 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)tries;
-- (void)ging info:(id)arg1 %@;
-- (void)error %@;
 - (void);
-- (void)chat. Bailing. %@;
-- (void)upgrade of %@;
-- (_Bool)eing used or there is some severe bug!;
-- (void)me info to destinations %@;
-- (id)bout to execute block for command %ld for GUID (%@);
-- (void)ord we tried to update with GUID (%@); marking local attachment as synced, to skip to;
-- (id);
-- (id)essage GUID %@ but this device is not capable of sending junk reports;
-- (id)y...;
-- (void)junk (relay=%{bool}d);
-- (_Bool)build config issue.;
-- (void)ps;
-- (_Bool)viceSession;
-- (id)(6;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void)Ä°1¢!0@ù
-× ;
-- (id)eAsset",W,N,V_imageAsset;
-- (void)Zc;
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void)oteInputSystemRequiresDocumentStateForAutofill;
+- (void)pSl;
 
 // Remaining properties
 @property(nonatomic) _Bool cleansUpAutomatically; // @synthesize cleansUpAutomatically;

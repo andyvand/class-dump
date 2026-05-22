@@ -12,19 +12,19 @@
 }
 
 + (id);
-+ (id)Session;
-+ (id)Õ;
++ (id);
++ (id)soryFirmwareUpdateOnboarding;
+- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)itledForThirdPartyMatterSetupPayload;
-- (id)public}@Merging logged in account:%@ /* Error: Ran out of types for this method. */;
-- (id)nHandler:] /* Error: Ran out of types for this method. */;
+- (void)eSettingChangeEvent;
+- (id)queryiCloudSwitchStateWithCompletionHandler:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;

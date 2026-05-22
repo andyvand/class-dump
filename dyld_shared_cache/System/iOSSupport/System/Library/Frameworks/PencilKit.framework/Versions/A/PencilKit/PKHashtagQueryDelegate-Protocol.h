@@ -5,6 +5,5 @@
 //
 
 @protocol PKHashtagQueryDelegate
-- (void);
 @end
 

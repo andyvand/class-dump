@@ -21,8 +21,8 @@
 + (id);
 + (id);
 + (id);
-+ (int);
-- (id);
++ (int);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -31,8 +31,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id)ÿÿC;
+- (id)edLayoutForAnchoredDrawable: /* Error: Ran out of types for this method. */;
+- (id)ognizer;
 
 // Remaining properties
 @property(readonly, nonatomic) EQKitEnvironment *environment; // @synthesize environment=mEnvironment;

@@ -13,10 +13,10 @@
     id <_NSTextAnimation> animation;
 }
 
-- (void);
 - (id);
 - (id);
-- (id)playLink: /* Error: Ran out of types for this method. */;
+- (id)scriptLoadingViewTextFont;
+- (void)|Î;
 
 // Remaining properties
 @property(nonatomic, readonly) id <_NSTextAnimation> animation; // @synthesize animation;

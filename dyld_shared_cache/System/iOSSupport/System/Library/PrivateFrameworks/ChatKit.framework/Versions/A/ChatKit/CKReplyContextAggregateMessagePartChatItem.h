@@ -10,13 +10,13 @@
 {
 }
 
-- (id)iۍG;
-- (id)entIdentifier];
-- (Class)ocument;
-- (BOOL)ding;
+- (id);
+- (id);
+- (Class);
+- (BOOL);
 - (struct CKBalloonDescriptor_t);
 - (_Bool);
-- (_Bool)o;
+- (_Bool);
 - (BOOL);
 
 @end

@@ -11,10 +11,10 @@
     PDFHostViewControllerPrivate *_private;
 }
 
++ (void);
 + (id);
-+ (void);
 + (_Bool);
-+ (void)eferentialCommand>"16@"NSViewController<CRKCardViewControlling>"24;
++ (void);
 + (id);
 + (id);
 + (id);
@@ -38,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,27 +68,26 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)NSSet"32@0:8@"NSCollectionView"16@"NSSet"24 /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (long long);
-- (id);
+- (_Bool);
+- (void);
+- (void);
 - (double);
-- (void)0;
-- (double)tConfigurationForToolWithIdentifier: /* Error: Ran out of types for this method. */;
-- (void)tRect:fromCoordinateSpace: /* Error: Ran out of types for this method. */;
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (long long);
 - (_Bool);
-- (_Bool)6;
+- (_Bool);
+- (id);
 - (void);
-- (void):(id)arg1 h;
-- (_Bool)0@ù
-× ;
-- (void)ersion;
-- (void)*¦;
+- (long long)otationsForThisThread: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

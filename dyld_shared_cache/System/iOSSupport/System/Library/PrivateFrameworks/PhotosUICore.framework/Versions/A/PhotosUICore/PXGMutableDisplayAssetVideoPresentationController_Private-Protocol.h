@@ -5,7 +5,7 @@
 //
 
 @protocol PXGMutableDisplayAssetVideoPresentationController_Private
-- (_Bool)ICore/MapOptionsTypes.swift;
+- (CDStruct_1b6d18a9)x;
 
 // Remaining properties
 @property(nonatomic) long long actualPlayState;

@@ -24,9 +24,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id)yJ¶ 6;
+- (void)nSaveNumberOfVideosTitle;
+- (void);
+- (id)?lPõ4;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

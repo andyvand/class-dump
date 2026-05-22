@@ -10,7 +10,7 @@
 @protocol BCUIBatteryDeviceDisplaying
 
 @optional
-- (void)nySiGSiAAyAAyAAyÕiyçkyAAyÖiyAFyeÔõ_gÔõtGGßXG_AAyAAyZÔõALG`GtGGiRGALG;
+- (id <UIViewControllerTransitionCoordinator>);
 
 // Remaining properties
 @property(nonatomic, getter=isCharging) _Bool charging;

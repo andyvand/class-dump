@@ -16,14 +16,14 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)es;
-- (void);
++ (_Bool);
 - (id);
-- (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id)e:channel:PANID:extendedPANID:masterKey:passPhrase:PSKc:operationalDataset: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

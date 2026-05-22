@@ -35,7 +35,6 @@
 - (void);
 - (void);
 - (void);
-- (void)';
 - (void);
 - (void);
 - (void);
@@ -51,13 +50,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (double);
 - (double);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -72,25 +72,27 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)adingFromHSA2AndDisablingMOC;
-- (void)sultHandler: /* Error: Ran out of types for this method. */;
-- (void)abled;
-- (void)Map;
-- (void)ngesOptionsDictionaryUsingToken:(id)arg1 zoneID:(id)arg2 resultsLimit:(id)arg3;
-- (double)BackgroundCommand;
-- (double)viceSession_Base;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (double);
 - (double);
 - (double);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void)T9BRIEF;
-- (void);
-- (void)oller<_UISearchControllerPresenting>"16@0:(_Bool)arg1 8;
-- (void)sharedSettings;
-- (_Bool)ounds:height: /* Error: Ran out of types for this method. */;
-- (id);
+- (void);
+- (void);
+- (void);
+- (void)1Â0@ù
+× ;
+- (_Bool)ð!FùÑgÐ1Â0@ù
+× ;
+- (id)otection;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowsElasticMorph; // @synthesize allowsElasticMorph=_allowsElasticMorph;

@@ -22,44 +22,45 @@
 
 + (id);
 + (double);
-+ (double)Environment;
-+ (double)orCompletion;
++ (double)ÿ7µ ;
++ (double);
 - (double);
 - (id);
 - (_Bool);
-- (id);
-- (void);
+- (long long);
 - (double);
 - (void);
 - (void);
+- (void);
+- (double)EùQ[ð1Â0@ù
+× ;
+- (long long)Ð1Â0@ù
+× ;
+- (id)Ô!Ð!TFùñ_Ð1Â0@ù
+× ;
+- (struct CGSize)Q`1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)uration: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)esponse: /* Error: Ran out of types for this method. */;
+- (double)Hidden: /* Error: Ran out of types for this method. */;
+- (id)geCell;
+- (void)_empty;
+- (void)tePreferredFocusEnvironmentsForMovementRequest: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)_bottomAlignsPopoverIfSourceViewNotSet,S_setBottomAlignsPopoverIfSourceViewNotSet:,V__bottomAlignsPopoverIfSourceViewNotSet /* Error: Ran out of types for this method. */;
+- (void);
+- (void)ÿÿÿÿì;
+- (void)abBarAppearance has been set;
+- (void)CSo16UIViewControllerCSgIggo_;
+- (id)k/TelephonyUtilities;
+- (void)yDescendantDragging;
+- (void)úë;
 - (long long);
-- (void);
-- (struct _UIPopoverShapePathParameters);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void)$FùÁÐ1¢!0@ù
-× ;
-- (void)p!lBùñÂ1¢!0@ù
-× ;
-- (id)× ;
-- (struct CGSize)!ìAùQÈ1¢!0@ù
-× ;
-- (void)backgroundLevel;
-- (id)rTouch:keyPressed: /* Error: Ran out of types for this method. */;
-- (_Bool)rchBarNavigationItem;
-- (_Bool)Ì±
-Ø²8³;
-- (void)q;
-- (id);
-- (struct UIEdgeInsets)indowSceneMacComponentKey;
-- (double)tC5UIKitP33_BA7E8DCF32E747052AD4072137B98A3B23ContainerImplementation;
-- (long long)ableHeight;
-- (long long);
-- (void)W#;
+- (id)Ì!cÿªXÜtÃ^;
+- (struct _UIPopoverShapePathParameters)È^;
 
 @end
 

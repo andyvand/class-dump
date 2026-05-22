@@ -15,12 +15,12 @@
 }
 
 + (id);
-- (void)inflateCache;
-- (void)orChatItem:(id)arg1;
-- (void)derView;
-- (void)sStewieConversationSelected;
-- (void)(;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
+- (void);
 
 @end
 

@@ -7,9 +7,6 @@
 @class NSDate, NSDictionary, NSString;
 
 @protocol APPCPromotableAppStoreSupplementalContext
-- (NSString *);
-- (NSDictionary *);
-- (NSString *);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *adamId;

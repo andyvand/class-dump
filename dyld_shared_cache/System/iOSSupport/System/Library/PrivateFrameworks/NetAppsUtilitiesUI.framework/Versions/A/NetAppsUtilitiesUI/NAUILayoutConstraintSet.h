@@ -13,15 +13,15 @@
     NSArray *_constraints;
 }
 
-- (id)e;
+- (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (_Bool);
-- (CDUnknownBlockType);
-- (void);
-- (id);
 - (void);
 
 // Remaining properties

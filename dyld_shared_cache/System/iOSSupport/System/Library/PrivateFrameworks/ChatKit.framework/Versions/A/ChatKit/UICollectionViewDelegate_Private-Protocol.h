@@ -9,22 +9,22 @@
 @protocol UICollectionViewDelegate_Private
 
 @optional
-- (_Bool)ook:(UICollectionView *)arg1;
-- (UIContextMenuConfiguration *)ÄÞäàä¤ä;
-- (UIContextMenuConfiguration *)$;
-- (void)Q;
-- (UITargetedPreview *)|¬äÿ;
-- (_UIContextMenuStyle *);
-- (void)IÙÿ;
-- (void)r.;
-- (_UIWindowSceneActivationConfiguration *)oterFont;
-- (NSString *)inDraggingItem, should not be called with a nil image parameter;
-- (void)ple.sticker.mediaPayload;
-- (struct CGPoint) ü  ;
-- (NSIndexPath *);
-- (_Bool)S;
-- (NSIndexPath *)CKConversationListIndicatorsView;
-- (NSArray *)Item;
-- (NSIndexPath *)tChannelSnapshotControllerKey;
+- (struct CGPoint);
+- (_UIWindowSceneActivationConfiguration *)1Â0@ù
+× ;
+- (void)iceIsSMS:(UICollectionView *)arg1;
+- (NSIndexPath *)eEntryView:(UICollectionView *)arg1 touchDragExitForPlusButton:(NSIndexPath *)arg2;
+- (_Bool)ontactNameByHandle:(UICollectionView *)arg1;
+- (NSIndexPath *)on:(UICollectionView *)arg1;
+- (void)edsRepair;
+- (UIContextMenuConfiguration *)ation:(UICollectionView *)arg1;
+- (void)structionLabel;
+- (void);
+- (UITargetedPreview *)Òÿÿ;
+- (NSString *)MenuButtonEnabled;
+- (_UIContextMenuStyle *)ationDefaults;
+- (_Bool)SaySSGG;
+- (NSArray *)Always expecting only 1 primary filter mode but ;
+- (NSIndexPath *)eConversation called with:(UICollectionView *)arg1 %@;
 @end
 

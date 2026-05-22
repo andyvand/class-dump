@@ -29,16 +29,16 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (void);
+- (void)nateAnimation;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

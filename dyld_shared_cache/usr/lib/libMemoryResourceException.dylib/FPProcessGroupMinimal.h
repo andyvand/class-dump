@@ -14,12 +14,12 @@
 
 - (id);
 - (void);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

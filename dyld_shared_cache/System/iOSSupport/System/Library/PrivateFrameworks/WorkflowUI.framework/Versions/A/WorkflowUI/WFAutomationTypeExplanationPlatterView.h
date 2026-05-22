@@ -25,11 +25,11 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)HGGGG²Qy$RSgGGtGG_oUtGG;
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *button; // @synthesize button=_button;

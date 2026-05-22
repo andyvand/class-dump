@@ -15,19 +15,18 @@
 }
 
 + (id);
-+ (_Bool)gLanguageValueVoiceNameCodePayloadKey;
++ (_Bool);
 - (id);
 - (void);
 - (long long);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)0@ù
-× ;
+- (id);
+- (void);
+- (id);
+- (void)6h6;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;

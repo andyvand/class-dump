@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (int);
 - (int);
 - (void);
-- (int);
+- (void);
 
 // Remaining properties
 @property int height; // @synthesize height=_height;

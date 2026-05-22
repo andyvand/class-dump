@@ -17,8 +17,8 @@
 + (void);
 + (_Bool);
 + (void);
-+ (void)q;
-+ (_Bool);
++ (void);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (void);

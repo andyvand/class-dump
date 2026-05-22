@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (void);
 - (id);
+- (void);
 
 @end
 

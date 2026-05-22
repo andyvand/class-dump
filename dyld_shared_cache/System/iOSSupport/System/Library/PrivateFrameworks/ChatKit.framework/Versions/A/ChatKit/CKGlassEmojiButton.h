@@ -8,13 +8,13 @@
 {
 }
 
-+ (struct CGSize)¤-;
++ (struct CGSize);
+- (void);
+- (struct CGSize);
+- (id);
 - (void);
 - (_Bool);
-- (void);
 - (id);
-- (id);
-- (struct CGSize)î¼½O;
 
 @end
 

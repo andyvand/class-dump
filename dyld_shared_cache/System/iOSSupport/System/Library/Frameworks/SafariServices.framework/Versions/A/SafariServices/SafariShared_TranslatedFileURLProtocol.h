@@ -4,5 +4,5 @@
 
 class SafariShared::TranslatedFileURLProtocol {
 public: // (access info unavailable from symbols alone)
-    registerProtocol(SafariShared::TranslatedFileURLProtocol::ProtocolInfo const*);
+    auto registerProtocol(SafariShared::TranslatedFileURLProtocol::ProtocolInfo const*);
 };

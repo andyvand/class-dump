@@ -18,11 +18,11 @@
     MISSING_TYPE *removingSegmentViews;
 }
 
+- (struct CGSize);
+- (id);
 - (void);
-- (id)@;
-- (void);
-- (id)Rüÿ6CúÿCúÿ;
-- (struct CGSize)4G;
+- (id);
+- (void)XDÿXDÿ~Ù;
 
 @end
 

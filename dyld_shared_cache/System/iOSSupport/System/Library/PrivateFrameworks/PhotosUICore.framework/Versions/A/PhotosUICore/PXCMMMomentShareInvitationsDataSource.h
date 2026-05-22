@@ -13,19 +13,18 @@
     PXCMMMomentShareInvitationsDataSourceState *_state;
 }
 
-+ (id)7$: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (id);
 - (id);
 - (struct PXSimpleIndexPath);
 - (id);
-- (void);
 - (id);
 - (id);
-- (long long)!uð!DGù1y°1b0@ù
-× ;
-- (id)trollers;
-- (long long);
+- (long long)<PXStoryMutableChapter>">24;
+- (long long);
+- (void)ntrollerNextFrameObserver;
+- (id),ÁÚÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCMMMomentShareInvitationsDataSourceState *state; // @synthesize state=_state;

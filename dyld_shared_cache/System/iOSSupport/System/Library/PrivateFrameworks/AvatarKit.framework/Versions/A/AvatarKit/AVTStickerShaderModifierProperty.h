@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)6;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id effectiveValue; // @synthesize effectiveValue=_effectiveValue;

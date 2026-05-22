@@ -77,14 +77,13 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)q}ð1b0@ù
-× ;
-- (void)Suggestions;
-- (void)ÿÕIh7;
-- (void)*®ÿ;
-- (struct UIEdgeInsets);
+- (void);
+- (void)ENABLE_AI_DESCRIPTION;
+- (id)5v;
+- (void);
+- (struct UIEdgeInsets)6;
+- (void)85Êÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXNumberAnimator *alternateAppearanceMixAnimator; // @synthesize alternateAppearanceMixAnimator=_alternateAppearanceMixAnimator;

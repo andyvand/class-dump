@@ -12,23 +12,23 @@
 {
 }
 
-- (struct _UISidebarWidths)9,;
+- (struct _UISidebarWidths);
 - (id);
-- (double)eeds Deferred Indexing %@;
-- (_Bool)learing expired time sensitive messages;
-- (double)invalidation timer;
-- (double)object from result:(long long)arg1 <%@ %p>, ;
-- (double)ed to upload, as we could not update it's guid %@ (rowid %@);
-- (struct NSDirectionalEdgeInsets)NSDictionary",N,C;
-- (unsigned long long)Family;
-- (double);
-- (_Bool);
+- (double);
+- (_Bool);
+- (double);
+- (double);
+- (double);
+- (struct NSDirectionalEdgeInsets);
+- (unsigned long long);
+- (double);
+- (_Bool);
 - (id);
 - (id);
-- (id)8;
-- (id)aits;
+- (id);
 - (long long);
-- (id)ØFÿ¹.Ú÷r;
+- (id)roperties:containsAny: /* Error: Ran out of types for this method. */;
+- (id)hd;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool prefersInsetSidebar;

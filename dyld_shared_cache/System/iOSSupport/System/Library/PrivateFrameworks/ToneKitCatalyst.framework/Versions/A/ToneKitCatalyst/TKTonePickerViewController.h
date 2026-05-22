@@ -32,15 +32,15 @@
 - (id);
 - (void);
 - (long long);
-- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

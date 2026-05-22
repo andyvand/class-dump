@@ -10,7 +10,7 @@
 {
 }
 
-- (id)idForChildlessSA;
+- (id);
 
 @end
 

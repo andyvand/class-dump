@@ -5,11 +5,5 @@
 //
 
 @protocol WFUIPresenterInterface
-
-@optional
-- (void)´Ì;
-- (void)Ì;
-- (void);
-- (void);
 @end
 

@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)K;
+- (id)vent"24;
+- (void)X=\;
 
 // Remaining properties
 @property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *interactionCancelledFeedback; // @synthesize interactionCancelledFeedback=_interactionCancelledFeedback;

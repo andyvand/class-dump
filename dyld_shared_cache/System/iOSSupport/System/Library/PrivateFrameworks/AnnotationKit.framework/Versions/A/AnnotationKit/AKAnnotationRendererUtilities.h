@@ -8,11 +8,11 @@
 {
 }
 
-+ (void);
 + (void);
-+ (struct CGRect);
++ (void);
++ (struct CGRect);
 + (struct CGPath *);
-+ (void);
++ (void);
 + (_Bool);
 + (void);
 + (struct CGPoint);

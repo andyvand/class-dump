@@ -30,40 +30,40 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (void)8@16^@24;
-- (void)AskToBuyResponseHandler";
-- (void)eClasses:classification:reproducibility: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)erForTesting:(struct CGPoint)arg1;
-- (void)Relayed:(struct CGPoint)arg1;
-- (_Bool)dexes:(struct CGPoint)arg1;
-- (void)Subject;
-- (void)yInfo:(id)arg1 threadIdentifier: /* Error: Ran out of types for this method. */;
-- (void)eDebuggingInfo:(_Bool)arg1;
-- (void)yToWatch:(id)arg1;
-- (void)gsManager;
-- (void)SEnabledValue;
-- (void)_swiftImplementation;
-- (void)orageController;
-- (struct CGPoint)editedPartIndex:editType:previousMessage:updateChats: /* Error: Ran out of types for this method. */;
-- (_Bool)ingChatGUIDsInArrayOfChats:withWinner: /* Error: Ran out of types for this method. */;
-- (void)DispatchDelegate>",R,N,V_dispatchDelegate;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
+- (_Bool);
+- (void);
 - (_Bool);
 - (struct CGPoint);
 - (void);
 - (void);
 - (void);
 - (struct CGPoint);
-- (struct CGPoint)P;
+- (struct CGPoint);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id)_attachedRenamer;
-- (id)ointerRegion",R,N,V_defaultRegion;
-- (void)6Þi;
-- (_Bool)j;
+- (id);
+- (id);
+- (_Bool)¼b;
+- (void)t²Ùÿ®@,;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint adjustedPoint; // @synthesize adjustedPoint=_adjustedPoint;

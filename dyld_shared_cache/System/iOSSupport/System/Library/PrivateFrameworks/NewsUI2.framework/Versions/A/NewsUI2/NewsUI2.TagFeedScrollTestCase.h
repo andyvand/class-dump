@@ -16,16 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long);
-- (double)óÿì·óÿ<¸óÿT¸óÿ¸óÿø·óÿl¸óÿ¸óÿÔ¸óÿ¹óÿ$¹óÿ\¹óÿ¹óÿ¸¹óÿð¹óÿ(ºóÿLºóÿlºóÿºóÿ »óÿX»óÿp»óÿ»óÿà»óÿ´¼óÿø¼óÿ½óÿ`½óÿ½óÿ¼½óÿÜ½óÿü½óÿ¾óÿ@¾óÿX¾óÿp¾óÿÐ¾óÿ¿óÿx¿óÿÐ¿óÿÀóÿ4ÀóÿLÀóÿÀóÿÄÀóÿÜÀóÿüÁóÿÂóÿÃóÿpÃóÿ¨ÃóÿÔÃóÿìÃóÿÄóÿ0ÄóÿPÄóÿÅóÿPÅóÿÅóÿ¨ÅóÿàÅóÿÆóÿ0ÆóÿHÆóÿhÆóÿÆóÿ¨ÆóÿÈÆóÿàÆóÿÇóÿPÇóÿhÇóÿ ÇóÿÀÇóÿØÇóÿðÇóÿ(Èóÿ@ÈóÿdÈóÿ|ÈóÿÈóÿÌÈóÿÉóÿÉóÿ4ÉóÿLÉóÿÉóÿEngagementManager:Using directory %{private}s /* Error: Ran out of types for this method. */;
+- (void)'Ê;
 - (id);
-- (long long)8AÿTÍ
-;
+- (long long)9û;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

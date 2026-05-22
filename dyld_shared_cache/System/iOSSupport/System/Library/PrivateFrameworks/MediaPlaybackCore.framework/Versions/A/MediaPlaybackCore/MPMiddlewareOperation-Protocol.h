@@ -7,7 +7,7 @@
 @class NSArray, NSError;
 
 @protocol MPMiddlewareOperation
-- (void)";
+- (void)tionType:(void (^)(NSString *))arg1;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error;

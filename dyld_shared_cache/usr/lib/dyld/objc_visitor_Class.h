@@ -4,7 +4,7 @@
 
 class objc_visitor::Class {
 public: // (access info unavailable from symbols alone)
-    getBaseMethods(objc_visitor::Visitor const&) const;
-    getClassData(objc_visitor::Visitor const&) const;
-    getISA(objc_visitor::Visitor const&, bool&) const;
+    auto getBaseMethods(objc_visitor::Visitor const&) const;
+    auto getClassData(objc_visitor::Visitor const&) const;
+    auto getISA(objc_visitor::Visitor const&, bool&) const;
 };

@@ -5,10 +5,6 @@
 //
 
 @protocol UISeparatorDisplaying
-- (void)t;
-- (void)tableOptionsDict is NULL;
-- (void)hImplementation;
-- (double)";
 
 // Remaining properties
 @property(nonatomic) double constantAxisDimension;

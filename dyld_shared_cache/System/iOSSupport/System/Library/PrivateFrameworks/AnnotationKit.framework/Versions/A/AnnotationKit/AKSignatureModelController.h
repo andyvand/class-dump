@@ -16,7 +16,7 @@
 }
 
 - (void);
-- (id)4h;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -26,10 +26,10 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (id)N,V_defersAddingRemoteViewController;
+- (id);
 - (void);
 
 // Remaining properties

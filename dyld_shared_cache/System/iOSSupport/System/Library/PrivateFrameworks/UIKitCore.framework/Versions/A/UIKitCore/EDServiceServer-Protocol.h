@@ -5,7 +5,5 @@
 //
 
 @protocol EDServiceServer
-- (void);
-- (void)itToken: /* Error: Ran out of types for this method. */;
 @end
 

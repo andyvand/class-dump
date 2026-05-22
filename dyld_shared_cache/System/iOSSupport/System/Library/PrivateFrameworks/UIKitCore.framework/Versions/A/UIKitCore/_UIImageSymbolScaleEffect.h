@@ -12,25 +12,26 @@
     long long _scale;
 }
 
-+ (id)ersLocally conversation:%@ member:%@ /* Error: Ran out of types for this method. */;
-+ (id)o map 1x1 chat for conversation:%@ /* Error: Ran out of types for this method. */;
-+ (id)ubscription on deDupe zone for subscriptionID:(long long)arg1 %@ recordType:%@ /* Error: Ran out of types for this method. */;
 + (id);
-+ (id)thContentViewController:] must not be called with `nil`. /* Error: Ran out of types for this method. */;
-+ (_Bool)[ÿ;
++ (id);
++ (id);
++ (id);
++ (id)CGRect={CGPoint=dd}{CGSize=dd}}32;
++ (_Bool)te type:%ld
+ /* Error: Ran out of types for this method. */;
 - (void);
-- (long long)CallbackID:willSendToDestinations:skippedDestinations:registrationPropertyToDestinations: /* Error: Ran out of types for this method. */;
-- (id)storyManager;
-- (_Bool)ary",&,N,V_mutablePersistentProperties;
 - (long long);
-- (_Bool)ordIDsToDelete for DeletedChatStore.;
-- (void)PCChannelGetAccessToken:(id)arg1 invalid NULL parameter;
-- (unsigned long long);
+- (id);
+- (_Bool);
 - (long long);
 - (_Bool);
-- (id)seedItemSagaIDs:(struct _NSZone *)arg1 itemSagaIDs:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)electionNavigation;
+- (unsigned long long);
+- (long long);
+- (_Bool)dgeConstraint;
+- (void)tiffness:(id)arg1;
+- (id)B,N,V_maintainsFixedSize;
+- (void)L%')l,è.ø01L2;
 
 // Remaining properties
 @property(nonatomic) _Bool byLayer; // @synthesize byLayer=_byLayer;

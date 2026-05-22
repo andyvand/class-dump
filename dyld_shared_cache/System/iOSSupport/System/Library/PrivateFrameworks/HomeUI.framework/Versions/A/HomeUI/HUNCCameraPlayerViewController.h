@@ -30,8 +30,7 @@
     HFCameraAnalyticsCameraPlayerLaunchEvent *_launchEvent;
 }
 
-+ (_Bool)0@ù
-× ;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -40,7 +39,6 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -92,30 +90,32 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void)!,FùQ0ð1b0@ù
+- (id)qð1â
+0@ù
 × ;
-- (void)justsFontForContentSizeCategory:(_Bool)arg1;
-- (id)¸ö;
-- (id)RþÿÅÄÿÿ¤þÿ&þÿDþÿ;
-- (void)6;
-- (void)­ã;
+- (void)rolCenterMaterialView;
+- (void)tableArray",R,N,V_activityZones;
+- (void)¸<;
+- (void)ome;
+- (void)ÄO;
+- (void)ØÿZ;
 
 // Remaining properties
 @property(retain, nonatomic) HUCameraPlayerAccessoryViewController *accessoryViewController; // @synthesize accessoryViewController=_accessoryViewController;

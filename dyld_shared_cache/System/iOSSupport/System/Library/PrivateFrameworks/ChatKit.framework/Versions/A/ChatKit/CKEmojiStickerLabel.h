@@ -14,9 +14,9 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)óö;
-- (void)á0;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *stickerAccessibilityDescription; // @synthesize stickerAccessibilityDescription=_stickerAccessibilityDescription;

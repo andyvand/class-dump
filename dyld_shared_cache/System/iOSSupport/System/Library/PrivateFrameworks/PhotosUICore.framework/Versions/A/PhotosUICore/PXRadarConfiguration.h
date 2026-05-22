@@ -49,19 +49,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (id);
+- (long long);
+- (long long);
 - (CDUnknownBlockType);
-- (long long);
 - (void);
 - (id);
-- (long long);
-- (id);
-- (id)
-× ;
-- (void);
-- (void)ÿÿüÿ$üÿlgûÿ;
-- (id)àÌÿ;
+- (id)÷ºyAAyl»yÚd»yèåySo17PHAssetCollectionCGGni»ÁæGf»yAHóºyýºyþºyAl»_ýºyAMyAJ°òºGGtGGÒý;
+- (void)erOneUpFromMomentsPreparation;
+- (void)erson:(long long)arg1 %@,
+;
+- (void)Ï;
+- (id)Ü³3;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *additionalExtensionIdentifiers; // @synthesize additionalExtensionIdentifiers=_additionalExtensionIdentifiers;

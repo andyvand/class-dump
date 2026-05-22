@@ -14,9 +14,8 @@
 + (id);
 - (id);
 - (id);
-- (void);
-- (id)Fù1©1b0@ù
-× ;
+- (id);
+- (void)ÀÈÔDÈ\¬;
 
 // Remaining properties
 @property(readonly, nonatomic) HMImmutableSettingValue *settingValue; // @synthesize settingValue=_settingValue;

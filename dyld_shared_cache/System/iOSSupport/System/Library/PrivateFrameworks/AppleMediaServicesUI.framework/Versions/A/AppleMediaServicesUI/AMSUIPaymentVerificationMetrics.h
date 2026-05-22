@@ -25,11 +25,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id)round;
-- (id)gePlaybackTime (currentIconPlayCount:%{public}ld) /* Error: Ran out of types for this method. */;
-- (void)Number;
-- (void)ü«òÿ°;
+- (id)ategory:withOptions:error: /* Error: Ran out of types for this method. */;
+- (void)d: /* Error: Ran out of types for this method. */;
+- (id)alogController;
+- (void)\Ü0G;
+- (void)RCPET.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appID; // @synthesize appID=_appID;

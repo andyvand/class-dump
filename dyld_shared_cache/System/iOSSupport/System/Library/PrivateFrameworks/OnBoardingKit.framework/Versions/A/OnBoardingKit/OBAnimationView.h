@@ -27,15 +27,15 @@
 - (_Bool);
 - (id);
 - (void);
-- (void)IgnoreDidFailCallback);
 - (double);
-- (double)5;
 - (void);
+- (void);
+- (double);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
 - (id);
 
 // Remaining properties

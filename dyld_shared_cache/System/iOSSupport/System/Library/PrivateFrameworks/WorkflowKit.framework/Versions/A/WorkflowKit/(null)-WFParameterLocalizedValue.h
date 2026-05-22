@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface (null) (WFParameterLocalizedValue)
-- (id)«°myl¬Ö0%EÉ;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

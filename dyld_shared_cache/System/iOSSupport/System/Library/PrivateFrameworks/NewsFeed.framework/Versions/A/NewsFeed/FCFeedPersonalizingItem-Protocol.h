@@ -7,27 +7,23 @@
 @class COMAPPLEFELDSPARPROTOCOLLIVERPOOLArticleContentExpiration, COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList, COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats, COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata, FCFeedPersonalizedItemScoreProfile, NSArray, NSData, NSDate, NSString;
 
 @protocol FCFeedPersonalizingItem
-- (_Bool)pletion: /* Error: Ran out of types for this method. */;
-- (NSString *)vs;
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *)ÿÿÿÿ ;
-- (NSString *)pîôÿ;
-- (_Bool)Â÷ÿh|÷ÿBDõÿø~öÿ;
-- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *)_Gz_x_q_{ØÁRz|ØÁRzSQRz|§Rz2rÁR_kØÁR_ôï§R_r0_lXX;
-- (unsigned long long)TypeP;
-- (double);
-- (NSDate *)ibutesProviding conformance;
-- (NSArray *)ÑG¼ø÷;
-- (_Bool)éÁ<[;
+- (NSDate *),;
+- (NSString *)õôûÿÌ*ùÿ;
+- (_Bool)n the package don't support all required column systems;
+- (NSArray *)ed the end of the feed, group=%{public}@;
+- (void)ÿ;
+- (NSArray *)1F5¸rþ!F5,óqþF5Ä¸rþ;
+- (NSDate *);
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLTagMetadata *)ÜÂzñl:Xo /* Error: Ran out of types for this method. */;
+- (NSString *)rÿ-;rÿ;
+- (COMAPPLEFELDSPARPROTOCOLLIVERPOOLConversionStats *)Àþ=,<tÀþ-,<hÀþ;
 
 @optional
+- (_Bool)lT½þÿÿÿÿ`;
+- (NSString *);
+- (NSData *)èwöÿþúÿ;
+- (_Bool)FCAssetHandleCSg;
 - (FCFeedPersonalizedItemScoreProfile *);
-- (_Bool)ots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/utility/sf/SFUBufferedInputStream.m;
-- (_Bool)nelProviding>"16;
-- (_Bool)Îm;
-- (unsigned long long)¨yáÇÂSgG;
-- (NSArray *)ld data visualizations for request %{public}@;
-- (_Bool)ebugColors;
-- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isANF) _Bool anf;

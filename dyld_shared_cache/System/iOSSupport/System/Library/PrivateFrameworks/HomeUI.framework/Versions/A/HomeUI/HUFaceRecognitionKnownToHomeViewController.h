@@ -25,8 +25,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
-- (id)× ;
+- (id);
+- (void)ScrubberDataSource.snapshotQueue;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

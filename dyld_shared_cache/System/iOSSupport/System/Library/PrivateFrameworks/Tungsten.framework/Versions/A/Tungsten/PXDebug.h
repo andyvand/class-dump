@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGImage *);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (struct CGColor *);
+- (void);
 - (id);
 - (void);
 

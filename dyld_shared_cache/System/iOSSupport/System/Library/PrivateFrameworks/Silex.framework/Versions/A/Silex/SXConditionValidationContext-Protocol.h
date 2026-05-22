@@ -7,10 +7,8 @@
 @class NSSet, NSString, SXExperiment, SXTagSubscriptionStatus;
 
 @protocol SXConditionValidationContext
-- (SXTagSubscriptionStatus *);
-- (_Bool);
-- (SXExperiment *)y;
-- (unsigned long long)nuousRoundedRect:byRoundingCorners:cornerRadius: /* Error: Ran out of types for this method. */;
+- (long long)om;
+- (unsigned long long)actory"16@?0@"<TFResolver>"8;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isBundleSubscriber) _Bool bundleSubscriber;

@@ -14,12 +14,12 @@
     MISSING_TYPE *_cachedLatencyView;
 }
 
+- (id);
 - (void);
-- (void);
-- (void);
-- (id)sString: /* Error: Ran out of types for this method. */;
-- (void)pearanceDelegate;
-- (void)ks/LinkPresentation.framework/LinkPresentation;
+- (void)thPersistedIdentifiers:(id)arg1 preferredAnimationType:forDestroyingSession:userOriginatedRequest:callbackQueue:completion: /* Error: Ran out of types for this method. */;
+- (void)ary",&,N,V_allLineAttributes;
+- (void);
+- (void)¨l;
 
 @end
 

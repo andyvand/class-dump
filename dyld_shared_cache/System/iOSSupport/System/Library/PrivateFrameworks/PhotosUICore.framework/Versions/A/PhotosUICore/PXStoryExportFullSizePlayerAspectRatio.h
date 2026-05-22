@@ -13,13 +13,14 @@
 }
 
 - (id);
-- (id);
 - (unsigned long long);
 - (double);
-- (_Bool);
-- (id);
-- (id);
 - (struct CGSize);
+- (id);
+- (_Bool);
+- (id)
+× ;
+- (id)º:ÿ=zÊ,»:ÿ-zÊÀ»:ÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double scale; // @synthesize scale=_scale;

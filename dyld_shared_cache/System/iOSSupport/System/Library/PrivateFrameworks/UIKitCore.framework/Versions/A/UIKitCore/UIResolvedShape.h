@@ -12,19 +12,18 @@
     MISSING_TYPE *cachedShape;
 }
 
-- (id)Stamp:(struct UIEdgeInsets)arg1 withLastSeenMessageGUID:fromMe: /* Error: Ran out of types for this method. */;
-- (id)s:(double)arg1;
-- (id)der who is not a contact;
-- (id)g possible availability reply for sender who is not a contact;
-- (id);
-- (void)an°! GùqÀÐ1¢!0@ù
-× ;
-- (id)hinSafeArea: /* Error: Ran out of types for this method. */;
-- (id)_canCancelGestureRecognizer: /* Error: Ran out of types for this method. */;
-- (id)ystemMintColor;
-- (struct CGRect)tyleIgnoredOverrides;
-- (id)èpæþ;
-- (id);Öj;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)ocusRegionContainer>",R,N,V_regionContainer;
+- (id)eGeometryPreferencesMac;
+- (id);
+- (id)GV·.3y.3y:¾7GGG /* Error: Ran out of types for this method. */;
+- (struct CGRect)a;
+- (void)Û;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGRect boundingRect;

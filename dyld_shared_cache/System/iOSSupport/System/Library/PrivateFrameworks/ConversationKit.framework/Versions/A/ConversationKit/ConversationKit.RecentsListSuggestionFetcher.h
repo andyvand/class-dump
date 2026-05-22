@@ -11,9 +11,8 @@
     MISSING_TYPE *autoCompleteStoreProvider;
     MISSING_TYPE *autoCompleteStore;
     MISSING_TYPE *currentSearchRequest;
-    MISSING_TYPE *_suggestedContact;
+    MISSING_TYPE *suggestedContact;
     MISSING_TYPE *address;
-    MISSING_TYPE *timeoutTask;
     MISSING_TYPE *timingData;
     MISSING_TYPE *signposter;
     MISSING_TYPE *loadSuggestionsSignpostID;
@@ -24,8 +23,8 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)AyAAy;
 
 @end
 

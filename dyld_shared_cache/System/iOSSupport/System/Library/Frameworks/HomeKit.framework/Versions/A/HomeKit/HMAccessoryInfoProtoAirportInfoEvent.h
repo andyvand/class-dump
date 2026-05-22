@@ -14,22 +14,20 @@
 
 - (_Bool);
 - (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (id);
+- (void);
+- (id)alizedDictionaryRepresentation;
+- (void)recent event of characteristic type:%@, service type:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void)0@ù
-× ;
-- (id)!¼@ùñ¨Ð1b0@ù
-× ;
-- (void)@"NSDictionary",R,C;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *bssid; // @synthesize bssid=_bssid;

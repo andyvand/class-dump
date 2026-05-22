@@ -5,7 +5,5 @@
 //
 
 @protocol NRMutableStateObserverProtocol
-- (void)0@ù
-× ;
 @end
 

@@ -11,11 +11,11 @@
     MISSING_TYPE *paperDocumentThumbnailView;
 }
 
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)ÐNÿÿ pþÿ;
 
 @end
 

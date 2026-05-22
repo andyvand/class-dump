@@ -5,6 +5,5 @@
 //
 
 @protocol SMSessionStoreProtocol
-- (void);
 @end
 

@@ -13,11 +13,11 @@
     id <FCHeadlineProviding> _headline;
 }
 
-- (id)?;
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id)ÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCNewsAppConfigurationManager> appConfigurationManager; // @synthesize appConfigurationManager=_appConfigurationManager;

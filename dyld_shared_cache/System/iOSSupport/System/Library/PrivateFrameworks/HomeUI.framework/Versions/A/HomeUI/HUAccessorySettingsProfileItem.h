@@ -17,10 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)!,Aù0Ð1b0@ù
-× ;
-- (id)ght check for Allow HS before changing...;
+- (id);
+- (id);
+- (void)HMHome"8;
 
 // Remaining properties
 @property(readonly, nonatomic) MCProfile *profile; // @synthesize profile=_profile;

@@ -21,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (unsigned char);
 - (id);
 - (id);
-- (id)__TEXT;
+- (id);
 
 // Remaining properties
 @property(readonly) unsigned char provisioning; // @synthesize provisioning=_provisioning;

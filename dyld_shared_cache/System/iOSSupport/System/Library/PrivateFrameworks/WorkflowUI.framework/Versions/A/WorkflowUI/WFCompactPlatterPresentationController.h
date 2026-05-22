@@ -29,15 +29,15 @@
 - (long long);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (_Bool);
-- (struct CGSize);
 - (id);
-- (void)(y¢SgGGAXyAZGGtGSg;
+- (void);
+- (_Bool);
+- (void);
+- (struct CGSize);
+- (struct CGRect)pSeperator;
+- (void)$;
+- (void)0±;
+- (void)yÔeyACyAAyAAyK·gGAEGAAyôK·_fy	eGGG±]yÓlÎjGGG¾^GaG_éK·ySo10WFWorkflowCGÛK·yAZGQo_;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIViewControllerTransitionCoordinator> activeTransitionCoordinator; // @synthesize activeTransitionCoordinator=_activeTransitionCoordinator;

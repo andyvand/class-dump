@@ -33,11 +33,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)bstractPositionStatusItem oneClosingServiceDescriptionString];
+- (id);
+- (void)8FÌFØF H,H\JK;
 
 // Remaining properties
 @property(readonly, nonatomic) HMHome *home; // @synthesize home=_home;

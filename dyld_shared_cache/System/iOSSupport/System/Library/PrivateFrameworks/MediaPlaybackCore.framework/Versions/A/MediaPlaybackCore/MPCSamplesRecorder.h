@@ -30,22 +30,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id)?@"NSArray">36;
-- (id)NSArray"16@?<v@?@"NSDictionary">24;
+- (id);
+- (id);
 - (double);
 - (double);
 - (id);
-- (void);
-- (int);
-- (int);
-- (id)opying;
+- (id);
+- (id);
 - (int);
 - (id);
 - (id);
+- (int);
 - (id);
-- (id);
-- (double)Disabling vocal attenuation - _disableVocalAttenuation=%{BOOL}u;
-- (double)eAccessForLinearMoviePlayback;
+- (double);
+- (double): /* Error: Ran out of types for this method. */;
+- (void)thout processing any event;
+- (int)ÌÌÿÿÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MPCSamplesRecorderDelegate> delegate; // @synthesize delegate=_delegate;

@@ -4,9 +4,9 @@
 
 class icu::CheckedArrayByteSink {
 public: // (access info unavailable from symbols alone)
-    Append(char const*, int);
     CheckedArrayByteSink(char*, int);
-    GetAppendBuffer(int, int, char*, int, int*);
-    Reset();
+    auto Append(char const*, int);
+    auto GetAppendBuffer(int, int, char*, int, int*);
+    auto Reset();
     ~CheckedArrayByteSink();
 };

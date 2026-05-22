@@ -18,8 +18,8 @@
 
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)s not conform to NSObject. Presentation size observation will fail. %{public}s.;
 
 @end
 

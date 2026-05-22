@@ -14,10 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (long long);
 - (_Bool);
-- (long long);
+- (id);
 - (void);
-- (unsigned long long);
-- (id)guration;
+- (long long);
+- (unsigned long long)aÐ!\CùQ`1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long options; // @synthesize options=_options;

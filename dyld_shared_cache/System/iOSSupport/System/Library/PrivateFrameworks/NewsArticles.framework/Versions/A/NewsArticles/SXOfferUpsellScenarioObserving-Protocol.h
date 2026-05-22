@@ -5,6 +5,5 @@
 //
 
 @protocol SXOfferUpsellScenarioObserving
-- (void)U;
 @end
 

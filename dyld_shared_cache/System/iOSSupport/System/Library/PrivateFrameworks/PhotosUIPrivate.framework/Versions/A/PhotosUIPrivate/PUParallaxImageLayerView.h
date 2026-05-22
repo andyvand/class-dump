@@ -62,9 +62,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (_Bool)Expected:%@, Received:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)AlternateBackKeyCommand: /* Error: Ran out of types for this method. */;
+- (void)ssesHeadroomBoundary;
+- (id)yí°SG;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backfillMaskView; // @synthesize backfillMaskView=_backfillMaskView;

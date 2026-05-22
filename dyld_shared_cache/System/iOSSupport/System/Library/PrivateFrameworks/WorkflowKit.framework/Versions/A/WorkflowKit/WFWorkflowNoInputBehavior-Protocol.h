@@ -7,7 +7,7 @@
 @class NSDictionary;
 
 @protocol WFWorkflowNoInputBehavior
-- (id)ForClassName:(NSDictionary *)arg1;
-- (NSDictionary *)ote};
+- (NSDictionary *)\Ö
+;
 @end
 

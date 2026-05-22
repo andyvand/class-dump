@@ -7,14 +7,6 @@
 @class AVPlayerItem, NSString, NSURL;
 
 @protocol MFPlayerItem
-- (void);
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (_Bool)ons/A/AppleIDAuthSupport;
-- (AVPlayerItem *);
-- (NSString *);
-- (NSString *)hl;
-- (_Bool);
-- (double)c!;
 
 // Remaining properties
 @property(readonly, nonatomic) AVPlayerItem *avPlayerItem;

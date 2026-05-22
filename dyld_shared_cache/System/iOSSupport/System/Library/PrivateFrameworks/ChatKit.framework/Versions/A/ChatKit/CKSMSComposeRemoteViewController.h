@@ -16,19 +16,19 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (void)ons:(id)arg1;
-- (void)t:(id)arg1 hints:(id)arg2;
-- (void)tion;
-- (void)fterDelayIfNecessaryWithForceDelay: /* Error: Ran out of types for this method. */;
-- (void)gMergeForReason:textView: /* Error: Ran out of types for this method. */;
-- (void)sponder;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool)pÁ;
 - (id);
-- (void)erRadius;
+- (void);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

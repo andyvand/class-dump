@@ -17,7 +17,7 @@
 
 + (double);
 + (_Bool);
-+ (_Bool)s:traitCollection:targetConfig:extensionBundleURL: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (double);
 - (void);
 - (void);
@@ -34,17 +34,19 @@
 - (id);
 - (double);
 - (id);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (void);
+- (id);
 - (_Bool);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)¡¨!AùÑñ1â
+0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) PRPosterColor *activeDisplayColor; // @synthesize activeDisplayColor=_activeDisplayColor;

@@ -16,7 +16,7 @@
 }
 
 + (id);
-+ (_Bool)ð;
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -37,11 +37,11 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void)Ì;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool autoplayLooped; // @synthesize autoplayLooped=_autoplayLooped;

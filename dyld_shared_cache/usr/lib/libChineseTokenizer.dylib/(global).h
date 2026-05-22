@@ -5,11 +5,7 @@
 // Global C++ functions
 
 VTT for std::__1::basic_stringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
-operator delete(void*);
-operator delete(void*, std::__type_descriptor_t);
-operator delete[](void*, std::__type_descriptor_t);
-operator new(unsigned long, std::__type_descriptor_t);
-operator new[](unsigned long, std::__type_descriptor_t);
+std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<(unsigned int);
 std::__1::ctype<char>::id;
 typeinfo for std::bad_array_new_length;
 typeinfo for std::length_error;
@@ -21,6 +17,11 @@ typeinfo name for zhtok::ChineseLMTokenizer;
 typeinfo name for zhtok::DynamicLexiconBuilder;
 typeinfo name for zhtok::TokenizerLexicon;
 typeinfo name for zhtok::WordLatticeController;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void * operator new[](unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
+void operator delete(void*, std::__type_descriptor_t);
+void operator delete[](void*, std::__type_descriptor_t);
 vtable for __cxxabiv1::__class_type_info;
 vtable for std::__1::basic_streambuf<char, std::__1::char_traits<char>>;
 vtable for std::__1::basic_stringbuf<char, std::__1::char_traits<char>, std::__1::allocator<char>>;

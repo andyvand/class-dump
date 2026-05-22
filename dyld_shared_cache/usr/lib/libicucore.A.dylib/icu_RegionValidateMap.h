@@ -5,8 +5,8 @@
 class icu::RegionValidateMap {
 public: // (access info unavailable from symbols alone)
     RegionValidateMap();
-    equals(icu::RegionValidateMap const&) const;
-    isSet(char const*) const;
-    value(char const*) const;
+    auto equals(icu::RegionValidateMap const&) const;
+    auto isSet(char const*) const;
+    auto value(char const*) const;
     ~RegionValidateMap();
 };

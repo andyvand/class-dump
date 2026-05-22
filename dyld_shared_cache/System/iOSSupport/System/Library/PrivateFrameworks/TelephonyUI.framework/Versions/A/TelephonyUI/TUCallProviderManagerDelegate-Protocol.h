@@ -5,5 +5,6 @@
 //
 
 @protocol TUCallProviderManagerDelegate
+- (void)zeCategory;
 @end
 

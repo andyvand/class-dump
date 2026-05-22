@@ -15,11 +15,11 @@
 
 + (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)tting hasOnboardedForCleanEnergyAutomation;
 
 // Remaining properties
 @property(readonly) HMAccessory *accessory; // @synthesize accessory=_accessory;

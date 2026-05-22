@@ -16,19 +16,20 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
+- (void)°!ÈGùñ\°1Â0@ù
+× ;
+- (id);
+- (void)er;
 - (void);
-- (void)dSelectionWithExtentPoint:(id)arg1;
-- (void):(id)arg1;
-- (id)È;
-- (void)for topLayoutGuide. This is an application bug. topLayoutGuide = %@;
+- (void)yDonatedTitle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

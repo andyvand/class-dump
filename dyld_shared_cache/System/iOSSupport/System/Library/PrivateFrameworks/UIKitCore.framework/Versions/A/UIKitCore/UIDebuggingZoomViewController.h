@@ -26,44 +26,46 @@ __attribute__((visibility("hidden")))
     UIView *_lastViewSeen;
 }
 
-- (void)_participantIDSetFromHandles:(id)arg1 toIdentifier: /* Error: Ran out of types for this method. */;
-- (void)tchNumber:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)entifiers:(id)arg1 style:onServices:batchNumber:completion: /* Error: Ran out of types for this method. */;
-- (void)UpdateTransfers:(id)arg1;
-- (void)itions;
 - (void);
 - (void);
 - (void);
-- (void)ded;
 - (void);
-- (void)6IMDFilePurgeabilityMonitorCSgXwz_Xx;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct CGImage *);
 - (id);
 - (id);
 - (id);
-- (id)thInput created a detonated message for guid:(struct CGPoint)arg1 %@;
-- (id)or:(struct CGPoint)arg1 %@;
-- (id)Deleted | ********* Error while deleting recoverable messages %@;
-- (unsigned long long)ss for chat with roomname:%@ account:%@ result:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (void)L>;
-- (struct CGImage *);
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
-- (void)0@ù
+- (void)!FùñZÐ1Â0@ù
 × ;
-- (void)8@"UIKeyboardDockView"16@"UIKeyboardDockItem"24@"UIEvent"32;
-- (id)ode: /* Error: Ran out of types for this method. */;
-- (void)actionAtPoint:(id)arg1;
-- (void)eceiving;
-- (void)IRemoteViewControllerSceneContextSystemReferenceAngle;
-- (void)0Í©Êg;
-- (id)Ük;
-- (id)Ò;
+- (struct CGImage *)Ô!ð!ÔGù±^°1Â0@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (void)verGestureRecognizer";
+- (void)den;
+- (id)nge={%lu, %lu} delta=%li;
+- (id);
+- (void)§e;
+- (void)ÔRÿú4Øh;
+- (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentDirection; // @synthesize currentDirection=_currentDirection;

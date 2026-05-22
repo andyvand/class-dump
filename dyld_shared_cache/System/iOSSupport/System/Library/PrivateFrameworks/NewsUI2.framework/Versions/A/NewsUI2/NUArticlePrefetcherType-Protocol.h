@@ -4,11 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NUArticleDataProvider;
-
 @protocol NUArticlePrefetcherType
 - (void);
-- (id <NUArticleDataProvider>);
-- (void)x>ÿ;
+- (void)tsManagementDataManager;
 @end
 

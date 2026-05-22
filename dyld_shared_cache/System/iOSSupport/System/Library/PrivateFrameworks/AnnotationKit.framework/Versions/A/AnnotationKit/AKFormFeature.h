@@ -15,12 +15,12 @@
 + (id);
 - (id);
 - (id);
+- (id);
+- (struct CGRect);
+- (id);
 - (void);
-- (id)Enabled;
 - (void);
-- (id)AccountLoginChoices;
-- (void);
-- (struct CGRect);
+- (void)LineStateInContext:(id)arg1 forLineWidth: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak AKPageController *page; // @synthesize page=_page;

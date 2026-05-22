@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
     UIPDFAnnotation *_annotation;
 }
 
-- (id)erial rendering;
-- (void)èkþ!y;
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) UIPDFAnnotation *annotation; // @synthesize annotation=_annotation;

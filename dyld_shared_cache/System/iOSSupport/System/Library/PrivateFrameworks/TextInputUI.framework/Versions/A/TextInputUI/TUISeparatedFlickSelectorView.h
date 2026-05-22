@@ -10,7 +10,7 @@
 {
 }
 
-+ (long long)Ðz;
++ (long long);
 - (_Bool);
 - (id);
 - (void);
@@ -18,7 +18,7 @@
 - (_Bool);
 - (void);
 - (double);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (double);

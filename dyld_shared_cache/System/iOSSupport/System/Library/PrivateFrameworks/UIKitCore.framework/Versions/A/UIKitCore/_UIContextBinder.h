@@ -19,44 +19,41 @@
     id <_UIContextBinderContextCreationPolicyHolding> _contextCreationPolicyHolder;
 }
 
-+ (id)nsPreferredEdge:(id)arg1;
++ (id)andardSizeMenus;
 - (void);
-- (void);
-- (_Bool)V_payloadAllowList;
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id)led;
 - (void);
 - (long long);
-- (void);
-- (void)¢!0@ù
-× ;
-- (id)ÑÈ°1¢!0@ù
-× ;
-- (id)°1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (void)Gù±ÎÐ1¢!0@ù
-× ;
-- (void)tManager"16r^S24r^q32r^Q40@"UIFont"48{_NSRange=QQ}56;
-- (void)ocused;
-- (id)emStyledAsHeader;
-- (_Bool)backButtonTitleMaxWidthConstraint;
-- (void)>",&,N,S_setOverrideSpringAnimationBehavior:(id)arg1 ,V__overrideSpringAnimationBehavior;
-- (void)NSArray",C,N,V_source;
-- (id)UIStandardTextCursorView;
-- (void)ð;
-- (void)Storyboard;
-- (void)ets=<%@>; sizes=%@ >;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
+- (void);
+- (void)Ôá!ÔBù[1Â0@ù
+× ;
+- (id);
+- (_Bool);
+- (void);
+- (_Bool)
+× ;
+- (void)teractionAnimating>"32;
+- (void)setOutputMode:(id)arg1;
+- (void)isplayIdentifier;
+- (void)orAddingEffect:(id)arg1;
+- (_Bool)st:(id)arg1;
+- (id)ngAlertController;
+- (void)emUIService scene from defaultShell failed:(id)arg1 %{public}@;
+- (void)kipping layout for visible navigation bar, %@, because the top item's navigation bar doesn't match.  topItem = %@, topItem's navigation bar = %@;
+- (void)¬£þÿÄ£þÿÜ£þÿô£þÿ¤þÿ,¤þÿD¤þÿp¤þÿ¤¤þÿ¼¤þÿH¥þÿ`¥þÿx¥þÿ¥þÿÀ¥þÿØ¥þÿð¥þÿ¦þÿ ¦þÿD¦þÿ\¦þÿ¦þÿ¬¦þÿ¨þÿÈ¨þÿü¨þÿ©þÿH©þÿ¨©þÿÀ©þÿ°ªþÿøªþÿ «þÿ°«þÿ¬þÿ¨¬þÿÐ¬þÿø¬þÿ ­þÿH­þÿp­þÿ¯þÿh¯þÿ °þÿÈ°þÿð°þÿ±þÿ ±þÿ8±þÿ`±þÿ¨±þÿÈ²þÿ³þÿD³þÿl³þÿ´þÿ<´þÿT´þÿl´þÿ¨´þÿÀ´þÿ¶þÿX¶þÿ´¶þÿì¶þÿ$·þÿÜ¹þÿü¹þÿºþÿTºþÿlºþÿÔ»þÿì»þÿ¼þÿ8¼þÿ¤¼þÿ½þÿ0½þÿH½þÿ`½þÿü½þÿD¿þÿØÀþÿðÀþÿHÁþÿHÂþÿpÄþÿÄþÿ¨ÄþÿÀÄþÿØÄþÿðÄþÿÅþÿ Åþÿ8ÅþÿPÅþÿÆþÿ4Æþÿ¼ÆþÿÔÆþÿôÆþÿÇþÿ¼ÇþÿÔÇþÿìÇþÿ;
+- (void)K;
+- (void);
+- (id);
+- (void)B=Ù×I^;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *attachedBindables;

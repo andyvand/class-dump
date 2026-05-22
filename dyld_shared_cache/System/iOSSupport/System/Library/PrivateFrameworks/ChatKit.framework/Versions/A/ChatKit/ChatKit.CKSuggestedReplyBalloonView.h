@@ -14,13 +14,13 @@
     MISSING_TYPE *balloonMask;
 }
 
-- (struct CGSize)l;
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
-- (void)";
+- (void);
 - (id);
+- (void)¯ÿ;
 
 @end
 

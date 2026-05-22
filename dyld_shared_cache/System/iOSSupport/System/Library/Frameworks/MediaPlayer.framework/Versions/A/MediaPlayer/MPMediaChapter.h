@@ -26,24 +26,24 @@
 - (void);
 - (void);
 - (double);
-- (unsigned long long)t";
-- (unsigned long long)v40@0:8@16@24Q32 /* Error: Ran out of types for this method. */;
-- (long long)hUseCase:device:options: /* Error: Ran out of types for this method. */;
-- (id)on:receiveInput: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
-- (void)rrectedText;
-- (void)sSinceReferenceDate;
-- (void)utes;
+- (unsigned long long);
+- (unsigned long long);
+- (long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (double);
-- (id)ailed to remove device manifest;
 - (id);
-- (void);
-- (void);
-- (id)A;
 - (void);
 - (id);
 - (id);
-- (double)tObjectsFromRequest:options:error: /* Error: Ran out of types for this method. */;
+- (double);
+- (void);
+- (id);
+- (id);
+- (void)C,N,V_hashedPersonID;
 
 // Remaining properties
 @property(nonatomic) __weak MPMediaLibraryArtworkDataSource *artworkDataSource; // @synthesize artworkDataSource=_artworkDataSource;

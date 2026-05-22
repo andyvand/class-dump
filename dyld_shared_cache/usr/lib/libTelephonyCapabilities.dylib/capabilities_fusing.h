@@ -4,16 +4,16 @@
 
 class capabilities::fusing {
 public: // (access info unavailable from symbols alone)
-    asString(capabilities::fusing::Config);
-    asString(capabilities::fusing::State);
-    commandTimeout();
-    defaultCertID();
-    defaultCertIDForProduct(TelephonyProduct);
-    determineConfig(unsigned int, unsigned char, unsigned char);
-    getState(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>, unsigned int);
-    inferFusingStateFromCertID(unsigned int);
-    modeSetTimeout();
-    sDefaultCertID(TelephonyProduct);
-    supportsCertIDFromPublicKeyHash();
-    supportsCertIDFromPublicKeyHashForVendor(TelephonyRadioVendor);
+    auto asString(capabilities::fusing::Config);
+    auto asString(capabilities::fusing::State);
+    auto commandTimeout();
+    auto defaultCertID();
+    auto defaultCertIDForProduct(TelephonyProduct);
+    auto determineConfig(unsigned int, unsigned char, unsigned char);
+    auto getState(std::__1::vector<unsigned char, std::__1::allocator<unsigned char>>, unsigned int);
+    auto inferFusingStateFromCertID(unsigned int);
+    auto modeSetTimeout();
+    auto sDefaultCertID(TelephonyProduct);
+    auto supportsCertIDFromPublicKeyHash();
+    auto supportsCertIDFromPublicKeyHashForVendor(TelephonyRadioVendor);
 };

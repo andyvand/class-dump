@@ -5,6 +5,6 @@
 //
 
 @interface (null) (DocumentManager)
-+ (id);
++ (id);
 @end
 

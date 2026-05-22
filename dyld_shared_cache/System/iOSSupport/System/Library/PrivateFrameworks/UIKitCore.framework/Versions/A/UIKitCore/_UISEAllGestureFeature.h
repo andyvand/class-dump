@@ -15,12 +15,13 @@ __attribute__((visibility("hidden")))
     NSArray *_subfeatures;
 }
 
+- (id);
+- (id)Qeð1Â0@ù
+× ;
+- (void)ogressForBreathing:(const struct _UISEGestureFeatureSample *)arg1;
+- (void)iew:(id)arg1 %@;
+- (id)rItemDataCSg;
 - (void);
-- (id)andedTransformView:(id)arg1;
-- (void)AnimationSubranges:(const struct _UISEGestureFeatureSample *)arg1;
-- (id)ü#éÿLþð{þÿ;
-- (id)tionOrigin;
-- (void)¸;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

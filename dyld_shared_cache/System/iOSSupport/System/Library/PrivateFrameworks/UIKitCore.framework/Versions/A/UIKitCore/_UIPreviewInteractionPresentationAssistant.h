@@ -24,36 +24,35 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)`;
+- (id);
 - (CDUnknownBlockType);
 - (void);
 - (id);
-- (void)ageWithGUID:registerAttachments: /* Error: Ran out of types for this method. */;
-- (void)_service;
+- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
+- (double);
 - (id);
-- (void);
-- (id)@ù±É°1¢!0@ù
-× ;
-- (void)¸];
-- (double)%Åþ§tn^;
+- (void)ntationAndDismissal:(id)arg1;
+- (id);
+- (void)á©13eß;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

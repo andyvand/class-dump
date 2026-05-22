@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout, UITargetedPreview;
+@class NSIndexPath;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (UITargetedPreview *)!DùQnð1b0@ù
+- (_Bool)A1â
+0@ù
 × ;
-- (void);
-- (_Bool)ionOptions:(UICollectionView *)arg1;
-- (UICollectionViewTransitionLayout *)yAction:(UICollectionView *)arg1;
 - (NSIndexPath *);
-- (NSIndexPath *);
-- (_Bool)%@ [Place Card];
-- (void)_DOWNLOAD_MAPS_TIPKIT;
-- (_Bool)aceActionFeedbackEnvironment;
+- (_Bool)ebPlacecardSectionController;
+- (_Bool)veItemDelegate;
+- (void)dReferences;
+- (_Bool)orageClass;
+- (_Bool)Ùäÿ;
 @end
 

@@ -17,7 +17,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (long long);
+- (long long)PtYx/Sources/AlderShared/persistence/src/TSPLazyReferenceArray.mm;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

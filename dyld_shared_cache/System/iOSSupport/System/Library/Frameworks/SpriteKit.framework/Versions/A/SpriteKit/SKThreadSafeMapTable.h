@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_storage;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)8{CGPoint=dd}16;
 
 @end
 

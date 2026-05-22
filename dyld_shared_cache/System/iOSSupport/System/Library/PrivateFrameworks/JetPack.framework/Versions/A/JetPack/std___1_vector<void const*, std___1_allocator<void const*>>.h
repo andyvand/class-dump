@@ -4,6 +4,5 @@
 
 class std::__1::vector<void const*, std::__1::allocator<void const*>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100]();
-    push_back[abi:ne200100](void const* const&);
+    auto __throw_length_error[abi:nqe210106]();
 };

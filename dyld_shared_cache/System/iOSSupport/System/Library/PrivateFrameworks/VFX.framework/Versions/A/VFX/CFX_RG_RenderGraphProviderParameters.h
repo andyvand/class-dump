@@ -4,7 +4,7 @@
 
 class CFX::RG::RenderGraphProviderParameters {
 public: // (access info unavailable from symbols alone)
-    disablePass(unsigned long long);
-    enablePass(unsigned long long);
-    isDisabled(unsigned long long) const;
+    auto disablePass(unsigned long long);
+    auto enablePass(unsigned long long);
+    auto isDisabled(unsigned long long) const;
 };

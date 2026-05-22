@@ -23,14 +23,14 @@
 - (void);
 - (void);
 - (void);
-- (void)h7;
-- (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)er: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <AVTAvatarColorSliderContainerViewDelegate> delegate; // @synthesize delegate=_delegate;

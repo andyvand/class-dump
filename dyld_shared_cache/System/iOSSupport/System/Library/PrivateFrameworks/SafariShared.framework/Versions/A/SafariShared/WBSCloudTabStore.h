@@ -26,7 +26,7 @@
 - (long long);
 - (unsigned long long);
 - (id);
-- (_Bool)8;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -42,7 +42,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
@@ -55,12 +55,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
 - (id);
 - (void);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool atLeastOneOtherActiveDeviceIsRegistered;

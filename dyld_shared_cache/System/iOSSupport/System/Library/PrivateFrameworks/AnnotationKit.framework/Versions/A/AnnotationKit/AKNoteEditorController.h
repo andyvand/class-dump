@@ -16,22 +16,22 @@
 
 - (void);
 - (void);
-- (id)adata;
+- (id);
 - (id);
 - (long long);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)wDidChangeAdjustedContentInset: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)AlwaysDraws;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AKPopupAnnotation *annotation; // @synthesize annotation=_annotation;

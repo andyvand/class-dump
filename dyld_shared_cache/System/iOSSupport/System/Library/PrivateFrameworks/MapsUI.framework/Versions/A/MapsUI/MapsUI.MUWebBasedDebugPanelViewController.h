@@ -16,10 +16,10 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void)tationAttributionURL: /* Error: Ran out of types for this method. */;
 
 @end
 

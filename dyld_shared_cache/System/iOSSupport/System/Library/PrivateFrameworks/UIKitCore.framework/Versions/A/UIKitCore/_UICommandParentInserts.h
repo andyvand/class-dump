@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)ptionValidationTokenByHandleIDCache: /* Error: Ran out of types for this method. */;
-- (id)erIDS:deviceToSendTo: /* Error: Ran out of types for this method. */;
-- (void)tyOffGridRecipientSubscriptionValidationToken;
-- (void)ay",&,N,V_transferringTransfers;
-- (void)ge part for message %@;
-- (id)pdate as this is the same as current for %@;
-- (void)hä{¬;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)Äÿaçk;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *atEndElements; // @synthesize atEndElements=_atEndElements;

@@ -4,9 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIEventFetcher;
-
 @protocol UIEventFetcherSink
-- (void)ngRetargetImpulse:(UIEventFetcher *)arg1;
+- (void)ge;
 @end
 

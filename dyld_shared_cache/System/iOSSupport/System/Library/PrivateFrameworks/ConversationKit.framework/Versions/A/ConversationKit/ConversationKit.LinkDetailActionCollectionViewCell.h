@@ -12,10 +12,10 @@
     MISSING_TYPE *linkDetailImage;
 }
 
-- (id);
+- (id);
 - (void);
-- (void);
 - (id);
+- (void) yáÐLýG_AAy ACG y y y  Sg_AAyAJ yu yÏ _Qo_GGSgtGGÐGAfAye yAVyì,¢yþ2¢yAJG_p;
 
 @end
 

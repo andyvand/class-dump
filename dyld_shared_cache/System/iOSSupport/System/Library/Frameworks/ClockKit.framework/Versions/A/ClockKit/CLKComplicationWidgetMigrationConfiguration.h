@@ -10,9 +10,9 @@
 
 + (_Bool);
 - (id);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 

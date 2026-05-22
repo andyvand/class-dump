@@ -17,16 +17,15 @@
 
 - (void);
 - (void);
-- (_Bool)n will be posted for "%s" app in chat %@ and conversation %s;
-- (void)replication for %@, has non-plaintext or unknown attributes;
+- (_Bool);
 - (void);
 - (void);
-- (void)e;
 - (void);
-- (void)0@ù
-× ;
-- (void)"isInsideUpdateFocusIfNeeded"b1"delegateRespondsToTopEnvironment"b1"delegateRespondsToPreferredFocusEnvironments"b1"delegateRespondsToOverridingPreferredFocusEnvironment"b1"delegateRespondsToShouldRestoreFocusInContext"b1"delegateRespondsToWillUpdateFocusInContext"b1"delegateRespondsToDidUpdateFocusInContext"b1"delegateRespondsToDidFinishUpdatingFocusInContext"b1"delegateRespondsToWillMessageOldFocusNodes"b1"delegateRespondsToWillMessageNewFocusNodes"b1"delegateRespondsToEnvironmentDidUpdateFocusInContext"b1"delegateRespondsToDidCancelFocusUpdateInContext"b1"delegateRespondsToFocusItemContainer"b1"delegateRespondsToClippingRect"b1"delegateRespondsToDidUpdateDeferralTarget"b1"delegateRespondsToHandleFailedMovementRequest"b1"delegateRespondsToShouldReverseLayoutDirectionForEnvironment"b1"delegateRespondsToShouldReverseLinearWrappingForEnvironment"b1"delegateRespondsToIsScrollingScrollableContainer"b1};
-- (id):alongsideAnimations: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (void)re/PromptEntryView.swift;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *animations; // @synthesize animations=_animations;

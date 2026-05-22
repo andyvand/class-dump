@@ -35,26 +35,26 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGPoint);
-- (void)Handle:forceUpdate: /* Error: Ran out of types for this method. */;
-- (void)setCombinedPayloadAttachmentDictionary: /* Error: Ran out of types for this method. */;
-- (void)ProcessedWithDuration: /* Error: Ran out of types for this method. */;
-- (void)yncingUsingSyncData:(struct CGPath *)arg1;
-- (void)anged: /* Error: Ran out of types for this method. */;
-- (void)essageGUID:associatedMessageType:associatedMessageRange:messageSummaryInfo:threadIdentifier: /* Error: Ran out of types for this method. */;
-- (void)st:(struct CGPoint)arg1 responseHandler:(struct CGPoint)arg2;
-- (void)ount:(id)arg1;
-- (void)Code:extensionID:withCompletion: /* Error: Ran out of types for this method. */;
-- (void)ayName:groupID:originalGroupID:handleInfo:account:category:spamExtensionName: /* Error: Ran out of types for this method. */;
-- (void)holed: /* Error: Ran out of types for this method. */;
-- (void)edSIMID:handleInfo:account:isBlackholed: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)proxyType;
-- (void)ingReplayDB;
-- (void)ties;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id);
 - (struct CGPoint);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect);
 - (struct CGPoint);
 - (struct CGPoint);
 - (void);
@@ -62,12 +62,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)"16@"NSArray"24;
 - (void);
-- (void)°1¢!0@ù
-× ;
-- (id)edContentSeparatorViews;
-- (_Bool),V_currentBundleIdentifiers;
+- (id);
+- (void)ntariesInCurrentUpdate: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)áÿÉ¼Ñ8k;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

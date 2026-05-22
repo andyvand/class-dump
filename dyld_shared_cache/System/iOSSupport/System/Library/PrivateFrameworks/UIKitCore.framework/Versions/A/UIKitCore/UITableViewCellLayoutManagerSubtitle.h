@@ -11,17 +11,18 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (id)ñÆÐ1¢!0@ù
-× ;
-- (void);
-- (id)ScrubLowerBound:(id)arg1 upperBound: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ocus;
-- (id)letionBlocks;
-- (void)a menu, Substituting a dummy menu.;
-- (double)céÿ;
 - (double);
-- (double)PopoverController;
+- (double);
+- (double);
+- (void);
+- (id)Z1Â0@ù
+× ;
+- (void)tForAutocorrectionWithCompletionHandler:(struct CGRect *)arg1;
+- (id)Font;
+- (id)dopt the UIScene based lifecycle cannot safely infer an interface orientation without a visual context!;
+- (struct CGSize)tation;
+- (id)nus have unique identifiers, or ensure the existing menu is removed or replaced by the new menu.
+;
 
 @end
 

@@ -12,7 +12,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)oslogstring;
 - (void);
 - (void);
 - (void);

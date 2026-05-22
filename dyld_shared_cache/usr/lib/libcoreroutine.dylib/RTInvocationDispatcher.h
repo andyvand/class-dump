@@ -15,24 +15,22 @@
 }
 
 - (id);
-- (void);
+- (unsigned long long);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id)availability;
 - (void);
-- (id)a³(ð!ØEùÑ^,1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (unsigned long long)@16@24Q32@?40;
-- (_Bool)orEligibility checkManateeEnabledWithQueue:handler:] /* Error: Ran out of types for this method. */;
-- (_Bool)lly;
-- (void)meter not satisfying:(_Bool)arg1 keychainManager;
-- (void)error, %@;
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void)Ü0;
+- (void)%@,failed to fetch ActiveSessionDetailsRecord with error %@;
+- (void)rror, %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *pendingInvocations; // @synthesize pendingInvocations=_pendingInvocations;

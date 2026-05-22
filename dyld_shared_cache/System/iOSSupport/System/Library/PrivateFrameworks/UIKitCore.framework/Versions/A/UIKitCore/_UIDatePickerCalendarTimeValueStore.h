@@ -33,16 +33,16 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (long long);
-- (void)rCommandDictionary:(long long)arg1;
-- (void)rvice:(unsigned long long)arg1 groupID:(unsigned long long)arg2 incomingParticipants:(struct _NSRange)arg3 fromIdentifier:(_Bool)arg4 toIdentifier:receivedGroupParticipantVersion:receivedGroupProtocolVersion:messageTimeStamp:groupPhotoCreationTime: /* Error: Ran out of types for this method. */;
-- (void)ionDate;
-- (void)figuring syndication ranges;
-- (unsigned long long):(struct _NSRange)arg1 %@;
-- (void)requesting transcript background, subclass for iMessage should handle.;
-- (void)scheduled message found for chatIdentifier:(unsigned long long)arg1 %@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
 - (unsigned long long *);
 - (void);
-- (void);
+- (void)8ÏÞJ^;
 
 // Remaining properties
 @property(nonatomic) long long decrementBehaviour; // @synthesize decrementBehaviour=_decrementBehaviour;

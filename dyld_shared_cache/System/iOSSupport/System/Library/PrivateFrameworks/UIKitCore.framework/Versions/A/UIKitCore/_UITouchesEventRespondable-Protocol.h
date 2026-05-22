@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet;
+
 @protocol _UITouchesEventRespondable
-- (void)apð!Fù1ÃÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)ÑÆð1¢!0@ù
-× ;
-- (void);
-- (void)sUpdateNotification"b1};
+- (void)ActionWithInitialPoint:(NSSet *)arg1;
+- (void)KeyboardState:(NSSet *)arg1;
+- (void)ntenceRange;
+- (void)tate;
+- (void)Brightness(<=5);
 @end
 

@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
     } _storage;
 }
 
-+ (id), no need to move further;
++ (id);
 - (id);
 - (id);
 - (void);
@@ -29,16 +29,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)NSData",R,N;
+- (id);
+- (void);
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void)icitItem;
-- (_Bool)Ôq!¸GùñÃ°1¢!0@ù
-× ;
-- (unsigned long long);
+- (_Bool)ControllerDelegate>";
+- (_Bool)ession"16B24q28;
+- (id)thAnimators;
+- (unsigned long long)tationLockEntry;
+- (unsigned long long)SÈ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allTraitTokens;

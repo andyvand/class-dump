@@ -13,7 +13,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *clusterID; // @dynamic clusterID;

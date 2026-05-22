@@ -36,8 +36,8 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long)$ýÿ!ðÿpÜÿh²;
-- (void)ÿ µ<(;
+- (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly) unsigned long long alignment;

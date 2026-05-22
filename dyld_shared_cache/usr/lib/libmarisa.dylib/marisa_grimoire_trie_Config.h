@@ -4,8 +4,12 @@
 
 class marisa::grimoire::trie::Config {
 public: // (access info unavailable from symbols alone)
-    parse_(int);
-    parse_cache_level(int);
-    parse_node_order(int);
-    parse_tail_mode(int);
+    auto parse_(int);
+    auto parse_(int) (.cold.1);
+    auto parse_cache_level(int);
+    auto parse_cache_level(int) (.cold.1);
+    auto parse_node_order(int);
+    auto parse_node_order(int) (.cold.1);
+    auto parse_tail_mode(int);
+    auto parse_tail_mode(int) (.cold.1);
 };

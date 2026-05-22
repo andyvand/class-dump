@@ -20,30 +20,32 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_tapHandlers;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (void)r:(id)arg1 screen:toPixelBuffer: /* Error: Ran out of types for this method. */;
-- (id)NSArray"24;
-- (void)16@24@32B40;
-- (id)perties: /* Error: Ran out of types for this method. */;
-- (id)odifyRecordsCompletionBlock: /* Error: Ran out of types for this method. */;
-- (void)tion;
-- (void)veMessageError:(CDUnknownBlockType)arg1;
-- (void)x:(CDUnknownBlockType)arg1 previousMessage:backwardCompatibilityMessageGUID: /* Error: Ran out of types for this method. */;
-- (void)groupID %@, found SMS chat %@, with cloudKitChatID %@;
-- (void)ion state change, but has not been persisted to the database yet. It will be indexed once the message is stored.;
-- (void);
-- (id)#;
 - (void);
 - (id);
-- (void)£6"º;
-- (void)etSceneViewDisconnectedCallback: /* Error: Ran out of types for this method. */;
-- (long long)ForTouches: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)roller!;
+- (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)1Â0@ù
+× ;
+- (id)	°!tFùeÐ1Â0@ù
+× ;
+- (long long)stomTextRenderingDisplayLink>"16@0:8 /* Error: Ran out of types for this method. */;
+- (void)istoryOffset: /* Error: Ran out of types for this method. */;
+- (id)te:,V_sessionTextViewDelegate /* Error: Ran out of types for this method. */;
+- (void)þÿ¾îÿxíÿ;
+- (void)Please use PushKit for VoIP applications instead of calling this method;
+- (id)erial;
+- (void)4çþ¹Õ¼¨^;
 - (void);
 
 // Remaining properties

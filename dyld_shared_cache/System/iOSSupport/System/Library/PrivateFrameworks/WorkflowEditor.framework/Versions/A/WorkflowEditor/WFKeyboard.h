@@ -19,10 +19,10 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (double);
 - (id);
 - (long long);
-- (_Bool);
+- (double);
+- (_Bool)12CoreGraphicsyHC_HC_HCg0_GGALy¦\;
 
 // Remaining properties
 @property(readonly, nonatomic) long long animationCurve; // @synthesize animationCurve=_animationCurve;

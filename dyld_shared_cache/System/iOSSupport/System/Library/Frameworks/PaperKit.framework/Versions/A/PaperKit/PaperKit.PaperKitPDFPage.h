@@ -20,10 +20,10 @@
 - (Class);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
+- (void)\Iÿÿ;
+- (id)lÿ	Òø'Âÿ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *annotations;

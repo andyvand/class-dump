@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)bùÒ;
-- (id)ailed to clear purgeable flag for %@ %d (%s);
++ (_Bool)o block specified to bring up the keyboard - assuming the keyboard has already been shown on screen;
+- (id);
 - (_Bool);
-- (_Bool)Progress: /* Error: Ran out of types for this method. */;
-- (id)thConstraints;
-- (_Bool)e of UITouch.TouchType.indirect was set on the UIHoverGestureRecognizer %@. In a future release, this will render the gesture nonfunctional;
-- (struct CGRect):(id)arg1 `;
+- (_Bool);
+- (_Bool);
+- (struct CGRect);
+- (id)UIPanGestureRecognizer.minimumNumberOfTouches;
 
 @end
 

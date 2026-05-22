@@ -21,11 +21,11 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)@;
+- (id)L	íÿµúÈ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *characteristicType; // @synthesize characteristicType=_characteristicType;

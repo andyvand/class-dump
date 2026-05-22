@@ -4,5 +4,5 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __next_prime(unsigned long);
+    auto __next_prime(unsigned long);
 };

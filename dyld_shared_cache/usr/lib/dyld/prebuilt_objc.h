@@ -4,8 +4,8 @@
 
 class prebuilt_objc {
 public: // (access info unavailable from symbols alone)
-    findSelector(dyld4::RuntimeState*, dyld3::MapView<prebuilt_objc::ObjCStringKeyOnDisk, void, prebuilt_objc::HashObjCStringKeyOnDisk, prebuilt_objc::EqualObjCStringKeyOnDisk> const&, char const*);
-    forEachClass(dyld4::RuntimeState*, dyld3::MultiMapView<prebuilt_objc::ObjCStringKeyOnDisk, prebuilt_objc::ObjCObjectOnDiskLocation, prebuilt_objc::HashObjCStringKeyOnDisk, prebuilt_objc::EqualObjCStringKeyOnDisk> const&, char const*, void (dyld3::Array<dyld4::PrebuiltLoader::BindTargetRef const*> const&) block_pointer);
-    forEachClass(void const*, void (dyld4::PrebuiltLoader::BindTargetRef const&, dyld3::Array<dyld4::PrebuiltLoader::BindTargetRef const*> const&) block_pointer);
-    forEachProtocol(dyld4::RuntimeState*, dyld3::MultiMapView<prebuilt_objc::ObjCStringKeyOnDisk, prebuilt_objc::ObjCObjectOnDiskLocation, prebuilt_objc::HashObjCStringKeyOnDisk, prebuilt_objc::EqualObjCStringKeyOnDisk> const&, char const*, void (dyld3::Array<dyld4::PrebuiltLoader::BindTargetRef const*> const&) block_pointer);
+    auto findSelector(dyld4::RuntimeState*, dyld3::MapView<prebuilt_objc::ObjCStringKeyOnDisk, void, prebuilt_objc::HashObjCStringKeyOnDisk, prebuilt_objc::EqualObjCStringKeyOnDisk> const&, char const*);
+    auto forEachClass(dyld4::RuntimeState*, dyld3::MultiMapView<prebuilt_objc::ObjCStringKeyOnDisk, prebuilt_objc::ObjCObjectOnDiskLocation, prebuilt_objc::HashObjCStringKeyOnDisk, prebuilt_objc::EqualObjCStringKeyOnDisk> const&, char const*, void (dyld3::Array<dyld4::PrebuiltLoader::BindTargetRef const*> const&) block_pointer);
+    auto forEachClass(void const*, void (dyld4::PrebuiltLoader::BindTargetRef const&, dyld3::Array<dyld4::PrebuiltLoader::BindTargetRef const*> const&) block_pointer);
+    auto forEachProtocol(dyld4::RuntimeState*, dyld3::MultiMapView<prebuilt_objc::ObjCStringKeyOnDisk, prebuilt_objc::ObjCObjectOnDiskLocation, prebuilt_objc::HashObjCStringKeyOnDisk, prebuilt_objc::EqualObjCStringKeyOnDisk> const&, char const*, void (dyld3::Array<dyld4::PrebuiltLoader::BindTargetRef const*> const&) block_pointer);
 };

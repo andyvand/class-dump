@@ -40,10 +40,10 @@
 - (void);
 - (void);
 - (long long);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id)ShowCaptionHashtagsWidget: /* Error: Ran out of types for this method. */;
+- (void);
 - (long long);
 
 // Remaining properties

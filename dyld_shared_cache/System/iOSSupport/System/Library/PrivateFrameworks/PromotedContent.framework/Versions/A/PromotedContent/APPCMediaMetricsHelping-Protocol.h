@@ -5,22 +5,6 @@
 //
 
 @protocol APPCMediaMetricsHelping
-- (void (^)(long long, long long))er;
-- (void)Service;
-- (void)Factory;
-- (void)er to complet sports onboarding.;
-- (void);
-- (void)bershipController;
-- (void)_$_unavailableItemAlpha;
-- (void)iewerDataManager;
-- (void)les feed with error=%{public}@;
-- (void)ViewingToken;
-- (void)ded;
-- (void)is on and issue is downloaded;
-- (void)or the remove singular issue action when iCloud is on and issue is downloaded;
-- (void)iCloud devices?;
-- (long long)n_thread_identifier;
-- (void)edIndexPath;
 
 // Remaining properties
 @property(nonatomic) long long visiblePercentage;

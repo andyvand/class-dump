@@ -20,15 +20,15 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (id);
 - (CDUnknownBlockType);
-- (void)initWithFrame:style: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *alternateButtonTitle;

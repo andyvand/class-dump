@@ -14,13 +14,14 @@
     MISSING_TYPE *createMenuElementsBlock;
 }
 
-- (_Bool);
 - (id);
-- (void)nishTasksAndInvalidate;
-- (id);
-- (void)Ø ¤!,"$;
-- (id);
-- (_Bool);
+- (id)
+× ;
+- (_Bool)ÚYïÿ;
+- (void)tion;
+- (id)Bþÿÿÿÿ;
+- (void)-]:¸½wþ-]:TÆ}þ /* Error: Ran out of types for this method. */;
+- (_Bool)u;
 
 // Remaining properties
 @property(nonatomic) _Bool highlighted;

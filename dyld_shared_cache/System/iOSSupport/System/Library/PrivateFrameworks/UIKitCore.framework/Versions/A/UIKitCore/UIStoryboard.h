@@ -23,23 +23,23 @@
 - (void);
 - (void);
 - (void);
-- (id)IDsIn:(id)arg1 reply: /* Error: Ran out of types for this method. */;
-- (id)idStopSharingMyLocationWithHandle:(id)arg1;
-- (id)dReturnTransfersMarkedWithFailStatus:(id)arg1 transfersToSyncRowIDs:(CDUnknownBlockType)arg2;
-- (id)romMessage:(id)arg1 toMessage: /* Error: Ran out of types for this method. */;
-- (id)ctiveList:(CDUnknownBlockType)arg1 withRecords:broadcastUpdates: /* Error: Ran out of types for this method. */;
-- (id)untStatusToUnregistered:withAccount: /* Error: Ran out of types for this method. */;
-- (id)elete:(id)arg1;
-- (id)orLastSyncDate:firstFullSyncCompletedDate: /* Error: Ran out of types for this method. */;
-- (id)etedPeriodicSyncSinceFirstFullSyncForLastSyncDate:firstFullSyncCompletedDate: /* Error: Ran out of types for this method. */;
-- (id)adForTransfer: /* Error: Ran out of types for this method. */;
-- (id)icateChatsWithFirstChat:secondChat: /* Error: Ran out of types for this method. */;
-- (id)yServiceSession;
-- (id)ansfers;
-- (id)id;
-- (id)ith progress:(id)arg1 %@;
-- (id)@;
-- (id)to release sandbox token, %@ token:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -48,9 +48,8 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)
-× ;
-- (id)¤Äÿ/Ê2h;
+- (id);
+- (id)s = %@;
 
 // Remaining properties
 @property(nonatomic) id __currentSender; // @synthesize __currentSender=___currentSender;

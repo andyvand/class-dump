@@ -4,11 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol UIButtonArchivingVisualProvider
-- (NSArray *)
-× ;
-- (void)e chrome view class;
+- (void);
 @end
 

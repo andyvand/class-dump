@@ -10,11 +10,11 @@
 {
 }
 
-+ (id):(id)arg1;
 + (id);
 + (id);
 + (id);
-+ (id)ÿÿ;
++ (id);
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSData *destinationMapItem; // @dynamic destinationMapItem;

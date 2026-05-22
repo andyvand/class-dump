@@ -7,6 +7,7 @@
 @class NSData, UIImage;
 
 @protocol CNUILikenessBadge
+- (UIImage *)ªñÇåò0ÁÚCøáªý{B©ôOA©öWÃ¨ÿ#ÕÑÊQ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long badgeType;

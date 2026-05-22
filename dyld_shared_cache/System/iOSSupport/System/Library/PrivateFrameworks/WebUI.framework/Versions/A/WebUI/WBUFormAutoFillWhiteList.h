@@ -11,11 +11,11 @@
     NSCache *_cache;
 }
 
-+ (id)thEvent: /* Error: Ran out of types for this method. */;
++ (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

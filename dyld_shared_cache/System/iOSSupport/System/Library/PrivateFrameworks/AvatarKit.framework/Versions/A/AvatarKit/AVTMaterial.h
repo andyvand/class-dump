@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)arted:(id)arg1 %@;
-- (id)ation;
-- (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *additionalPropertyColors; // @synthesize additionalPropertyColors=_additionalPropertyColors;

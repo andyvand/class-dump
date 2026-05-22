@@ -14,28 +14,30 @@
     long long _orientation;
 }
 
-+ (struct CGRect)× ;
-+ (struct CGRect)"UISplitKeyboardSupport";
-+ (_Bool)AssociatedViewAnimationState:options: /* Error: Ran out of types for this method. */;
 + (struct CGRect);
-+ (struct CGRect)Óÿ;
-- (_Bool);
-- (_Bool);
++ (_Bool)
+× ;
++ (struct CGRect)}16;
++ (struct CGRect)ngeBlock:,V__itemsDidChangeBlock /* Error: Ran out of types for this method. */;
++ (struct CGRect)ground view that renders a UIBackgroundConfiguration. Any view set to the customView property of the UIBackgroundConfiguration will be automatically removed from the view hierarchy when necessary; never call removeFromSuperview on the customView yourself. Also ensure that the customView of each UIBackgroundConfiguration that gets applied to a different view is unique; setting the same UIView instance to the customView of configurations applied to different views is not allowed. Subview removed:(long long)arg1 %@; Background view:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)
+× ;
+- (id)qc°1Â0@ù
+× ;
+- (_Bool)unpacedFractionCompleteForAnimation:inLayer:duration: /* Error: Ran out of types for this method. */;
+- (struct CGRect)oViewControllers;
+- (long long)creen: /* Error: Ran out of types for this method. */;
+- (struct CGRect)e;
+- (id)TB,N,S_setHideSearchResultsDivider:(struct CGRect)arg1;
+- (_Bool)alView;
+- (_Bool)nt=dd}{CGSize=dd}}8;
+- (struct UIEdgeInsets);
 - (struct CGRect);
-- (void);
-- (void);
-- (void)× ;
-- (long long)GRect={CGPoint=dd}{CGSize=dd}}24{CGPoint=dd}56i72;
-- (void)_UIHostedWindowHostingHandle">16;
-- (id);
-- (_Bool)Name:accessibilityDescription: /* Error: Ran out of types for this method. */;
-- (void)straintWithItem:(long long)arg1 attribute:(id)arg2 relatedBy:toItem:attribute:constant: /* Error: Ran out of types for this method. */;
-- (struct CGRect)imates,S_setRetainExistingSizingInfoForEstimates:(long long)arg1 ,V_retainExistingSizingInfoForEstimates;
-- (id)er associated with a UIView.;
-- (struct CGRect)WithCoder:] /* Error: Ran out of types for this method. */;
-- (_Bool)îbÉ
--g;
-- (struct UIEdgeInsets)È®ÿix;;
+- (void)Ú;
+- (void)c;
+- (_Bool)ÿ¹òÍÔöh;
 
 @end
 

@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id)8B16@"NSString"20;
-- (void)ithSameReplyToGUID:(id)arg1 onChat: /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
 - (void);
+- (id);
+- (void)Å03¸¸þ;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UISceneMaskingDelegate> _sceneMaskingHost; // @synthesize _sceneMaskingHost;

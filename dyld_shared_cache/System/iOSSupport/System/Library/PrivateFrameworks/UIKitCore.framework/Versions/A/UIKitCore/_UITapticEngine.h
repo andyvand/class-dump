@@ -18,10 +18,10 @@
 - (void);
 - (void);
 - (id);
-- (void)P;
-- (id)or;
-- (id)zer",&,N,V_metricsGestureRecognizer;
-- (void)ldPopItem:(id)arg1 returned YES after manually popping a view controller (navigationController=%@);
+- (id);
+- (void)entationModifierGroupC_G;
+- (void);
+- (id)ì6mþæÐ];
 
 // Remaining properties
 @property(nonatomic) _Bool feedbackActivated; // @synthesize feedbackActivated=_feedbackActivated;

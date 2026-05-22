@@ -15,16 +15,16 @@
     CKDownloadingPendingMessagesView *_pendingMessagesContentView;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void)n retrying %@;
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
+- (id);
 - (void);
-- (id)¸K;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *pendingMessageCountAttributedText; // @synthesize pendingMessageCountAttributedText=_pendingMessageCountAttributedText;

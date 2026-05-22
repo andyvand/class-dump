@@ -16,19 +16,19 @@ __attribute__((visibility("hidden")))
     MPSectionedIdentifierListEntry *_endEntry;
 }
 
-- (void);
 - (void);
-- (id)I;
+- (void);
 - (id);
 - (id);
 - (id);
-- (id)tyState: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void)?;
 - (id);
+- (void)nSong__MAPPING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *contexts; // @synthesize contexts=_contexts;

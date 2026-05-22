@@ -42,16 +42,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (struct CGColorSpace *);
 - (id);
 - (void);
-- (id)Representation: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)@0:8^{_NSZone=}16 /* Error: Ran out of types for this method. */;
+- (id)ness: /* Error: Ran out of types for this method. */;
+- (id)%{public}@> opened readonly; cannot create snapshot bundle container url.  This will be interesting.;
+- (void)Ôýÿ!3{S;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColorSpace *colorSpace;

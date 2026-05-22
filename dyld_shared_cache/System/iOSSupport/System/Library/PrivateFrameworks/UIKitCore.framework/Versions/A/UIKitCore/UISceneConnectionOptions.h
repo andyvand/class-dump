@@ -16,7 +16,7 @@
     BSKeyedSettings *_connectionValues;
 }
 
-+ (id);
++ (id)Touch;
 
 @end
 

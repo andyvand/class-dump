@@ -33,30 +33,30 @@
 }
 
 + (id);
-- (void)e:(id)arg1 account:destinationCallerID:messageTime: /* Error: Ran out of types for this method. */;
-- (void)fromHandle:(id)arg1 unformattedNumber:countryCode:forChat:style:account:destinationCallerID:messageTime: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)edUtilitiesHelloWorld;
-- (void)acementPairCG;
-- (id)updating the in-memory transfer's guid that we will sync to CloudKit in-memory transfer:%@ newGUID:%@ /* Error: Ran out of types for this method. */;
-- (id)read receipt, no messages found for guid:%@ /* Error: Ran out of types for this method. */;
-- (void)pending flag for %@;
-- (void)error:(id)arg1 %d;
-- (void), and we're not forcing an error here (%@);
-- (void)@;
-- (void)%@;
-- (id)%@ lastAddressedHandle %@ lastAddressedSIMID %@;
-- (id)delivery receipt pipeline;
-- (id)ervicename to receive a message from:{handles:%@ serviceName:%@} /* Error: Ran out of types for this method. */;
-- (id)ckname from disk:%@ and uploading /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (id)>;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -68,31 +68,29 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void)r"b1"userPlayCount"b1};
 - (void);
-- (void)0@ù
-× ;
-- (id)!ðGùqÉ°1¢!0@ù
-× ;
-- (id)ing;
-- (id)0;
-- (id)UISolariumNewStackedImageRenderingSpecularOpacity;
-- (void),x;
-- (id)9;
-- (unsigned long long),j;
-- (void)$o;
+- (id);
+- (id);
+- (void)CaptureView;
+- (void)¼ÈÿÿìÈÿÿÍÿÿÎÿÿìÎÿÿÔÏÿÿÀÖÿÿ ×ÿÿÚÿÿ$Üÿÿ@ÜÿÿÔßÿÿüßÿÿ4àÿÿxàÿÿØåÿÿtéÿÿØêÿÿxÇçÿÇçÿ¨ÇçÿÌÇçÿðÇçÿÈçÿ$ÈçÿXÈçÿtÈçÿÈçÿÈçÿÈçÿ¤Èçÿ°Èçÿ¼ÈçÿÈÈçÿÔÈçÿàÈçÿìÈçÿøÈçÿÉçÿÉçÿÉçÿ(Éçÿ4Éçÿ@ÉçÿLÉçÿXÉçÿdÉçÿpÉçÿ|ÉçÿÉçÿÉçÿ Éçÿ¬Éçÿ¸ÉçÿÄÉçÿàçÿ¬àçÿìàçÿáçÿ<áçÿdáçÿáçÿ¼áçÿüáçÿDâçÿlâçÿâçÿ¼âçÿäâçÿãçÿ,ãçÿPãçÿãçÿ¨ãçÿàãçÿäçÿ8äçÿäçÿ¨äçÿàäçÿåçÿ(åçÿPåçÿåçÿ¸åçÿàåçÿ æçÿhæçÿæçÿÈæçÿøæçÿ ççÿhççÿççÿÈççÿøççÿ èçÿhèçÿèçÿÈèçÿøèçÿ éçÿhéçÿéçÿÈéçÿøéçÿ êçÿhêçÿêçÿÈêçÿøêçÿ ëçÿhëçÿëçÿ¸ëçÿìëçÿ°ìçÿäìçÿíçÿDíçÿpíçÿ¤íçÿhîçÿîçÿÀîçÿôîçÿ ïçÿDïçÿïçÿ°ïçÿàïçÿ ðçÿhðçÿðçÿÀðçÿ;
+- (id)w internal inconsistency exception:could not locate placeholder insertion location; this should never be nil. /* Error: Ran out of types for this method. */;
+- (void)archTextField in old-style UISearchBar;
+- (id)0U43o;
+- (id);
+- (void)ÈtÿWûu;
+- (void);
+- (id);
+- (unsigned long long)À;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *_documentTargetView; // @synthesize _documentTargetView;

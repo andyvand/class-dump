@@ -4,15 +4,15 @@
 
 class std::ios_base {
 public: // (access info unavailable from symbols alone)
-    _M_call_callbacks(std::ios_base::event);
-    _M_dispose_callbacks();
-    _M_grow_words(int, bool);
-    _M_init();
-    imbue(std::locale const&);
+    auto _M_call_callbacks(std::ios_base::event);
+    auto _M_dispose_callbacks();
+    auto _M_grow_words(int, bool);
+    auto _M_init();
+    auto imbue(std::locale const&);
+    auto register_callback(void (*)(std::ios_base::event, std::ios_base&, int), int);
+    auto sync_with_stdio(bool);
+    auto xalloc();
+    auto xalloc()::_S_top;
     ios_base();
-    register_callback(void (*)(std::ios_base::event, std::ios_base&, int), int);
-    sync_with_stdio(bool);
-    xalloc();
-    xalloc()::_S_top;
     ~ios_base();
 };

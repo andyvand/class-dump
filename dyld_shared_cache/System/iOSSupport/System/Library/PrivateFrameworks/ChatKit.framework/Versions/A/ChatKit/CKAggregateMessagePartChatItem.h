@@ -13,16 +13,16 @@
     NSArray *_subparts;
 }
 
-- (id)@** mentioned **%@**;
-- (id)scriptNotification;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (Class);
 - (void);
 - (id);
-- (void);
-- (id);
+- (id)reply overlay.;
+- (void)ÁMj;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *subparts; // @synthesize subparts=_subparts;

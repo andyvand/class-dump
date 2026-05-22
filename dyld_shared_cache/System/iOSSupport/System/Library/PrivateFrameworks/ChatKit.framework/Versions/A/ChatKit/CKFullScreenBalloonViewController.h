@@ -31,18 +31,17 @@
     struct CGRect _preservedBoundsInBalloonWindowAtAppearance;
 }
 
-- (_Bool)ngeCoalescer;
-- (_Bool)referredSize;
-- (_Bool)Clockwise;
-- (void)DoNotMatchLabel;
-- (void)hlightInfo;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)O0O;
 - (void);
 - (void);
 - (void);
@@ -50,61 +49,61 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)c;
-- (struct CGRect)t;
+- (void);
+- (void);
+- (void);
+- (struct CGRect);
 - (_Bool);
-- (void)a;
 - (void);
-- (void)n;
 - (void);
-- (id)on operations existed, not adding more for %@;
+- (void);
+- (void);
 - (id);
 - (id);
-- (void)ctivityTypeAssigned = ;
-- (_Bool)and you won’t need to remember a separate password for “%@” locked notes.;
-- (_Bool)se the passcode or Mac login password on any device signed in to your Apple Account to lock or unlock a note. 
-
-iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
-- (BOOL)AddPasswordFirstTimeMessageCompletedKey;
-- (_Bool)ore;
-- (_Bool)Prompt:result:displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
-- (id)SoBPBx7ynGU/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/SharedUI/Text/TextAttachments/ICBaseAttachmentView.m;
-- (void)FindInTranscriptNotification;
-- (void)ICAudioPlaybackPauseNotification;
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (BOOL);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void)q3
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool)!ÔAùÐ1Â0@ù
+× ;
+- (_Bool)tapbackBubbleToCountLabelSpacing;
+- (void)st is being shown on a screen), but the user is connected to CarPlay, so the notifications should never be suppressed;
+- (void)lÐñÿEhÄÐñÿ;
+- (void)$Kÿ;
+- (void)
 ;
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void)pearing;
-- (id)4¶;
-- (id)<_SSEY¬yÆ«GAFQo_AByé<<Ð«GGGAByyÑ«y^¬yAH_Qo__þ]¬yAK_Qo_tGAQG_G;
-- (void)erConfigurationCSg;
-- (void)Ã­yAEyAG_ÑÃ­AGtGG_Î­yHQ®yAHyAEyAI_AgItGGGB¹­y$Â­SgGGtG1È­G_âm>AFyAgEy6F®yAGÖm>G_AZyAGÒm>GAZyAGÏm>GAZyAGÌm>GAZyAGÉm>GAZyAGÆm>GAZyAGÃm>GtGAWGAFyAgZyAG·m>GAWGAFyAgEyAZyAGªm>G_A19_A19_A19_A19_A19_A19_tGAWGm>tGG_Qo__Qo__ÅI®y_¾I®y_ÏD®yytN®yAMyAGG_Qo_GQo_Qo_Qo__Qo_G_P®yAGÁ­GQo__µO®yAAyABêM®y´O®y.O®yM®yACyAdFyAgEyAZyAGm>G_AZyAGm>GAZyAGm>GtGAWGG_Qo__Qo__A32_Qo__Qo_G_A38_Qo_t;
-- (_Bool)j¨ÿ;
-- (_Bool)ÿE%0.;
-- (void)#2ý.;
 
 // Remaining properties
 @property(nonatomic) _Bool beganDismissing; // @synthesize beganDismissing=_beganDismissing;

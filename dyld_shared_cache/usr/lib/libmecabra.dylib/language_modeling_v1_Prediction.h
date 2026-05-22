@@ -4,7 +4,7 @@
 
 class language_modeling::v1::Prediction {
 public: // (access info unavailable from symbols alone)
-    exactPredictionString() const;
-    probability() const;
+    auto exactPredictionString() const;
+    auto probability() const;
     ~Prediction();
 };

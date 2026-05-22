@@ -19,12 +19,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)ource:characteristicOptions:displayResults:] /* Error: Ran out of types for this method. */;
+- (void)Value:(CDUnknownBlockType)arg1 settingsType: /* Error: Ran out of types for this method. */;
+- (void)aceholder;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *accessoryItems; // @synthesize accessoryItems=_accessoryItems;

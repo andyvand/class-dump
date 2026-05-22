@@ -38,18 +38,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (long long)#;
+- (long long);
 - (long long);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void)apping for MPModelPropertyPersonHasSocialPosts;
 - (id);
 - (void);
-- (id)butes: /* Error: Ran out of types for this method. */;
-- (_Bool)Büÿ üÿ;
-- (unsigned long long)ÎÞ`;
+- (_Bool)ý13xönþý13þ13põ¸þ;
+- (void)verEffect;
+- (unsigned long long)b;
+- (id)`;
 
 // Remaining properties
 @property(retain) NSSet *centeredItems; // @synthesize centeredItems=_centeredItems;

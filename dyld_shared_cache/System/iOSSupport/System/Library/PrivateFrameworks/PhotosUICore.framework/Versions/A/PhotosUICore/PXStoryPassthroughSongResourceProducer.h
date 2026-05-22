@@ -16,9 +16,9 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void)Ð s;
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long logContext; // @synthesize logContext;

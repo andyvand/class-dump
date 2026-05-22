@@ -28,56 +28,56 @@
     } _sessionFlags;
 }
 
-+ (_Bool)àÔ;
++ (_Bool)u;
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void)N,V_payloadAllowGameCenterPrivateMessaging;
+- (_Bool);
+- (id);
 - (void);
+- (_Bool);
+- (id);
 - (void);
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void)ork catalogs were found;
+- (id)ÔAÐ!4Dù\ð1Â0@ù
+× ;
+- (_Bool)Ô ;
 - (id);
+- (void)ð!°FùÑbÐ1Â0@ù
+× ;
+- (id)d}24;
+- (_Bool)ForegroundWithBlock:(id)arg1;
+- (void)geInLength:(id)arg1;
+- (_Bool)ader:forSection: /* Error: Ran out of types for this method. */;
+- (void)lorChanges;
+- (void)sSystemItemContainer",R,N,V_itemContainerProxy;
+- (id)rceSnapshot;
+- (void)½d¾;
+- (_Bool);
+- (id)ng code needs updating;
+- (id)g stateRestorationActivity for scene %@;
+- (id)Black;
+- (_Bool)Highlighted (pressed) states are the only supported states;
+- (id)elligenceElementV13AsyncLoadable_px1TAcDPRts_XP;
 - (_Bool);
 - (id);
-- (_Bool);
-- (void)Tqº;
-- (id)ù±Å1¢!0@ù
-× ;
-- (id)as!EùÇÐ1¢!0@ù
-× ;
-- (id)
-× ;
-- (_Bool)ePicker:wheelsChanged: /* Error: Ran out of types for this method. */;
-- (id)portedComponent: /* Error: Ran out of types for this method. */;
-- (id)setButtonVerticalOffset: /* Error: Ran out of types for this method. */;
-- (id)SelectMenuLeaf:(id)arg1;
-- (void)trollersForTransitionWithViewControllers:(id)arg1 animated: /* Error: Ran out of types for this method. */;
-- (_Bool)eScrollAnimatingAssertionWithReason: /* Error: Ran out of types for this method. */;
-- (id)xt:(id)arg1;
-- (id)Tq,N,S_setTintColorTransformerIdentifier:(id)arg1 ,V_tintColorTransformerIdentifier;
-- (id)atorVisualStyle>",R,N,G_visualStyle;
-- (void)nment;
-- (_Bool);
-- (void)äÌ;
-- (void)j8G;
-- (_Bool)ex path %@;
-- (id)unexpected.;
-- (id);
-- (void)diomPad;
-- (_Bool)²Ñ9?Åâ?vUånÆ@Täq3±À²ñ`Ý¾é?;
-- (id);
-- (id)Ê];
-- (void)c;
-- (void);
-- (_Bool)¶f;
-- (void)C¸;
-- (void)piþ¼þÏÝÔg;
-- (id)JwÓCh;
-- (id)éþîËÂj;
+- (id)Ê;
+- (void)
+^;
+- (void)ýc;
+- (void)d,g;
+- (void)×ì«g;
 
 // Remaining properties
 @property(nonatomic, setter=_setConfigurationIsDirty:) _Bool _configurationIsDirty;

@@ -26,24 +26,24 @@
 - (id);
 - (struct _NSRange);
 - (id);
-- (void),&,N,V_strongTarget;
-- (void)ublic}@;
-- (void)config with settings %{public}@;
-- (void)ull __strong);
-- (void)llable __strong, RCIdBlock  _Nonnull __strong);
-- (_Bool)test.news-edge.news.apple.com/v1/configs;
-- (void)@?<v@?B>8;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (id);
-- (long long);
-- (void);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void)tionFeedbackViewLeftConstraint;
+- (void);
+- (long long)øÐ;
 
 // Remaining properties
 @property(retain, nonatomic) PKTextInputGestureFeedbackView *_feedbackView; // @synthesize _feedbackView=__feedbackView;

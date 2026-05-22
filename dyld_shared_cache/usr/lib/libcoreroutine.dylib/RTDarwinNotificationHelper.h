@@ -12,17 +12,17 @@
 }
 
 - (void);
-- (void)leURL provided to figure out if it's the owner or an admin.;
+- (void);
+- (void);
 - (unsigned long long);
+- (id);
 - (void);
-- (void),N,V_lastRegistrationFailureError;
 - (void);
 - (void);
-- (id)v4Prefix;
-- (void);
-- (void)to no cached locations;
-- (id)ÿ;
-- (void)òÔ;
+- (void);
+- (id)er value (in %s:%d) /* Error: Ran out of types for this method. */;
+- (void)esulted in marking the geocoded mapItem dirty;
+- (void)o data vault, status, %d, errno, %{errno}d;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *registrations; // @synthesize registrations=_registrations;

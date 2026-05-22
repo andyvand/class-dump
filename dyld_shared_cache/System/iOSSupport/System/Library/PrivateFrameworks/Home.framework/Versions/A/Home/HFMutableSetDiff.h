@@ -15,14 +15,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)anguage options %@!;
+- (_Bool)arm (%@) mediaprofilecontainer %@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasChanges; // @synthesize hasChanges=_hasChanges;

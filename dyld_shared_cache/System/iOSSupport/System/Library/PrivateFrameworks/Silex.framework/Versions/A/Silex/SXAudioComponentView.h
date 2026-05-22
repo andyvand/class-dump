@@ -22,11 +22,11 @@
 }
 
 - (void);
-- (void)T;
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -45,22 +45,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (CDUnknownBlockType);
-- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id)!\Cù¤°1¢!0@ù
-× ;
-- (void);
+- (void)<B@?>40;
+- (void)rameIndex: /* Error: Ran out of types for this method. */;
+- (id)NSMutableDictionary",R,N,V_videoAnalyticsRouters;
+- (void)V!;
 
 // Remaining properties
 @property(nonatomic) _Bool audioHasPlayed; // @synthesize audioHasPlayed=_audioHasPlayed;

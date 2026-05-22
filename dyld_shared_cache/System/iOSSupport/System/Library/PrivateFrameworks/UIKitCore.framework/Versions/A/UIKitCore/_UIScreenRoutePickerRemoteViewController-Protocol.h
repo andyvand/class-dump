@@ -5,7 +5,5 @@
 //
 
 @protocol _UIScreenRoutePickerRemoteViewController
-- (void)e:(void (^)(struct CGSize))arg1;
-- (void)ttedID:(void (^)(void))arg1 countryCode: /* Error: Ran out of types for this method. */;
 @end
 

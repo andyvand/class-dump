@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_driverStates;
 }
 
-- (void)hA9;
 - (id);
+- (void);
 
 @end
 

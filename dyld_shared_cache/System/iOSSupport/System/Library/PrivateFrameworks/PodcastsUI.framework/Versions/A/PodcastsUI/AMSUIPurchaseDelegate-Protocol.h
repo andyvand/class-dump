@@ -4,15 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSPurchase, NSString, UIWindow;
-
 @protocol AMSUIPurchaseDelegate
-
-@optional
-- (UIWindow *)"WFMatchedAppIconColorData";
-- (void):(AMSPurchase *)arg1 8@"WFConfiguredSystemAction"16;
-- (NSString *)WidgetConfigurationCardHeaderView";
-- (void)64B72@?76;
-- (void)r">24;
 @end
 

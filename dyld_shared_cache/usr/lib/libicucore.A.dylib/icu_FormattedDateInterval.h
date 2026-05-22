@@ -5,10 +5,10 @@
 class icu::FormattedDateInterval {
 public: // (access info unavailable from symbols alone)
     FormattedDateInterval(icu::FormattedDateInterval&&);
-    appendTo(icu::Appendable&, UErrorCode&) const;
-    nextPosition(icu::ConstrainedFieldPosition&, UErrorCode&) const;
-    operator=(icu::FormattedDateInterval&&);
-    toString(UErrorCode&) const;
-    toTempString(UErrorCode&) const;
+    auto appendTo(icu::Appendable&, UErrorCode&) const;
+    auto nextPosition(icu::ConstrainedFieldPosition&, UErrorCode&) const;
+    auto operator=(icu::FormattedDateInterval&&);
+    auto toString(UErrorCode&) const;
+    auto toTempString(UErrorCode&) const;
     ~FormattedDateInterval();
 };

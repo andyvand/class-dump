@@ -10,16 +10,16 @@
     double _dY;
 }
 
-+ (id)_ց;
++ (id);
 - (id);
 - (double);
 - (double);
 - (struct CGSize);
-- (_Bool);
+- (id);
 - (id);
 - (struct CGPoint);
+- (_Bool);
 - (id);
-- (id)Processing sessions...;
 
 // Remaining properties
 @property(readonly, nonatomic) double dX; // @synthesize dX=_dX;

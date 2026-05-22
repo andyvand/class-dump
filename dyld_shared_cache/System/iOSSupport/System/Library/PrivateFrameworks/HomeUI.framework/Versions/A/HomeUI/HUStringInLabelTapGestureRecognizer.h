@@ -18,7 +18,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void)emLayoutSize superclass returned unrealistic width %f;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *hitboxString; // @synthesize hitboxString=_hitboxString;

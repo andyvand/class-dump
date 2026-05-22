@@ -20,9 +20,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isMonitoring) _Bool monitoring; // @synthesize monitoring=_monitoring;

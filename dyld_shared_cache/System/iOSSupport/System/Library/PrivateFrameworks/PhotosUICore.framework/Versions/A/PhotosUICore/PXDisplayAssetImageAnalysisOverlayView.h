@@ -14,8 +14,8 @@
 + (_Bool);
 + (_Bool);
 - (id);
-- (void);
-- (id);
+- (void)W;
+- (id)WKü6;
 
 // Remaining properties
 @property(readonly, nonatomic) PXDisplayAssetViewModel *viewModel; // @synthesize viewModel=_viewModel;

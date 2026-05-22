@@ -12,29 +12,29 @@
     NSString *_simID;
 }
 
-+ (id)’t have to create and remember a separate password, reducing the chances of losing access to your locked notes.;
++ (id);
 + (_Bool);
 + (id);
-+ (_Bool)B4;
 + (_Bool);
-+ (id)F;
++ (_Bool);
 + (id);
-- (id)nt: /* Error: Ran out of types for this method. */;
-- (id);
-- (_Bool)Sg;
++ (id);
 - (id);
 - (id);
-- (_Bool)cationTimeKey;
-- (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (_Bool);
-- (void);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (_Bool);
 - (id);
-- (_Bool)ð9Jÿ:Jÿ@:Jÿ /* Error: Ran out of types for this method. */;
-- (id)@;
+- (id);
+- (_Bool)ing weak primary apple account failed;
+- (void)<ü;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;

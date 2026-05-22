@@ -4,4 +4,4 @@
 
 // Global C++ functions
 
-simd_matrix4x4(simd_quatf);
+auto simd_matrix4x4(simd_quatf);

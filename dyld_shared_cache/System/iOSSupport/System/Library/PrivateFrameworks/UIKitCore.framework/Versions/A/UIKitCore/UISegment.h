@@ -53,140 +53,154 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (Class);
-- (id);
-- (void);
-- (void)uildRequiredOnlyWithIdentifier:(_Bool)arg1 withSecurityType:(_Bool)arg2 withAccessType: /* Error: Ran out of types for this method. */;
-- (void)lowCloudBackup;
-- (void);
-- (void);
-- (void)Hw;
-- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool)w y;
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (struct CGSize);
+- (id);
 - (void);
-- (struct UIEdgeInsets)(;
-- (void)offset from %llu to %llu;
 - (_Bool);
-- (id);
 - (void);
+- (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
-- (unsigned int);
-- (void)ArtworkURL;
-- (void)MusicPlayerControllerServerActions;
-- (void)opertyMediaClipTitle;
-- (void);
-- (struct CATransform3D);
-- (void);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (int);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (double);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool)qa;
 - (void);
-- (void);
-- (void)0@ù
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (id);
+- (void);
+- (_Bool);
+- (void)1Â0@ù
+× ;
+- (id)× ;
+- (_Bool)
+× ;
+- (void)Ô!°!4@ù^°1Â0@ù
+× ;
+- (void)FùÑ^Ð1Â0@ù
+× ;
+- (id)1Â0@ù
+× ;
+- (void)!l@ùQa°1Â0@ù
 × ;
 - (void);
-- (void);
-- (void);
+- (void)ù1b°1Â0@ù
+× ;
+- (void)Ð!èFùqbÐ1Â0@ù
+× ;
+- (id)!lEùQcð1Â0@ù
+× ;
+- (id)Ñc1Â0@ù
+× ;
+- (struct CATransform3D);
+- (CDStruct_c3b9c2ee)0@ù
+× ;
+- (void)!ÐEùdÐ1Â0@ù
+× ;
+- (unsigned int)Á	°!hFùfÐ1Â0@ù
+× ;
+- (id)!(Bù1f1Â0@ù
+× ;
+- (id)!
+ð!ìAù±f1Â0@ù
+× ;
 - (void)
 × ;
-- (void)EùQÈÐ1¢!0@ù
+- (struct CGRect)Dùqgð1Â0@ù
 × ;
-- (_Bool);
-- (id)ù
-× ;
-- (void)¢!0@ù
-× ;
-- (void)× ;
-- (id)!0@ù
-× ;
-- (double)youtControllerBase<_UITextLayoutController>"16@0:8 /* Error: Ran out of types for this method. */;
-- (void)UITextDropDelegate>"16;
-- (id)@92;
-- (id)itionEffects"24{CGSize=dd}32@"UIImageSymbolConfiguration"48@"_UIImageContentProvider"56;
-- (_Bool)8^{CGImage=}16;
-- (id)std::hash<long>, std::equal_to<long>>, std::__unordered_map_equal<long, std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, std::equal_to<long>, std::hash<long>>, std::allocator<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<long, UICollectionViewLayoutAttributes *>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (void)48Q56@64q72B80;
-- (void)pdate:(_Bool)arg1;
-- (id)ocumentState:(_Bool *)arg1;
-- (id)numerateVisibleDecorationsWithEnumerator: /* Error: Ran out of types for this method. */;
-- (id)ck: /* Error: Ran out of types for this method. */;
-- (void)ndForTextRange:origin: /* Error: Ran out of types for this method. */;
-- (id)ors;
-- (id)aterialTextColorFollowsTintColor: /* Error: Ran out of types for this method. */;
-- (void)ransactionID;
-- (void)ualStyle;
-- (void)}},N,V_avoidanceFrame;
-- (void)p;
-- (struct CGRect)hadowMaskView;
-- (double)overController;
-- (void)lor;
-- (void)Ôü;
-- (void)0<25\5È6´8;
-- (void)äð;
-- (id)t improperly recorded.%@;
-- (void)e:%@ /* Error: Ran out of types for this method. */;
-- (id)sented;
-- (id)ket;
-- (unsigned long long)25FBSSceneTransitionContextCSgIggggg_;
-- (void)GVector _UIEventGetChildScrollVector(IOHIDEventRef);
-- (void)ingView:(id)arg1 ] directly. Use -[UIView add/removeLayoutGuide:] instead /* Error: Ran out of types for this method. */;
-- (id)eItem"16;
-- (id)emoteFlagsDidChange;
-- (id)in;
-- (void)%@; number of sections before update:(_Bool)arg1 %ld; collection view:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)Layout customization SPI];
-- (void)C5UIKitP33_1224E733E1875C87E73DF2A91211E8CE36_IntelligenceLightSourceFillProvider14TransitionView;
-- (void)nceVisibleBounds;
-- (void)ßßï?À¿¿¿¿¿ï?ø÷÷÷÷÷ç?è?ÙØØØØØè?ü©Ñ>î|>¦¾;
+- (void)onstraints"b1"doesNotTranslateAutoresizingMaskIntoConstraints"b1"autolayoutIsClean"b1"autolayoutBoundsAreClean"b1"layoutFlushingDisabled"b1"layingOutFromConstraints"b1"wantsAutolayout"b1"subviewWantsAutolayout"b1"isApplyingValuesFromEngine"b1"autolayoutIsSendingSetBoundsWithNoChanges"b1"isResizingDueToParentResize"b1"isInLayoutSubviewsOrVCCallback"b1"isInUpdateProperties"b1"isInAnimatedLayout"b1"isSubviewUpdatingAutoresizingConstraints"b1"isUpdatingConstraints"b1"isReapplyingStillActiveBrokenConstraints"b1"isSuppressingUnsatisfiableConstraintsLoggingForNestedLayoutEngines"b1"isHostingUpdateConstraintsPassDuringLayout"b1"isRunningEngineLevelConstraintsPass"b1"isUpdatingLayoutEngineHostConstraints"b1"isExpectingToFlushPendingLayoutChangeNotifications"b1"invalidatesIntrinsicContentSizeForSubviewAutoLayoutChanges"b1"systemLayoutFittingSizeNeedsUpdate"b1"systemLayoutFittingSizeNeedsUpdateInWholeSubtree"b1"isCalculatingSystemLayoutFittingSize"b1"suppressEncapsulationConstraints"b1"suppressAutoresizingMaskConstraintsUpdate"b1"isFetchingSizeForTAMIC_NOEngineHost"b1"internallyHiddenForReason"b2"stayHiddenAfterBeingInternallyHiddenForReason"b1"skippedPreLayoutWhileInternallyHiddenForReason"b1"skippedLayoutWhileInternallyHiddenForReason"b1"isPendingHiddenForAnimation"b1"hasMaskView"b1"isSettingMaskView"b1"hasVisualAltitude"b1"hasBackdropMaskViews"b1"backdropMaskViewFlags"b5"delaysTouchesForSystemGestures"b1"subclassShouldDelayTouchForSystemGestures"b1"hasMotionEffects"b1"backdropOverlayMode"b2"tintAdjustmentMode"b2"isReferenceView"b1"focusState"b2"hasUserInterfaceIdiom"b1"userInterfaceIdiom"b3"ancestorDefinesTintColor"b1"ancestorDefinesTintAdjustmentMode"b1"ancestorIgnoresInvertColors"b1"needsUpdateProperties"b1"needsTraitCollectionDidChangePropagation"b1"isRootOfTraitCollectionDidChangePropagation"b1"implementsTraitCollectionForChildEnvironment"b1"implementsBaselineOffsetsAtSize"b1"coloredViewBounds"b1"coloredAlignmentRects"b1"preservesSuperviewMargins"b4"insettingLayoutMarginsFromSafeArea"b4"safeAreaInsetsFrozen"b1"viewDelegateContentOverlayInsetsAreClean"b1"hasGeometryObservers"b1"notifyObserversForBaselineChanges"b1"notifySuperviewForBaselineChanges"b1"observingGeometryChangesForSelfCount"b4"isObservingBoundingPathRotationNotificationsForWindow"b1"hasTraitStorageList"b1"cachedTraitCollectionIsValid"b1"hasTraitOverrides"b1"dontUpdateInferredLayoutMargins"b1"areLayoutMarginsDirectional"b1"implementsViewForBaselineLayout"b1"tracksFocusedAncestors"b1"hasLayoutArrangements"b1"isHiddenManagedByLayoutArrangement"b1"hasAddedFocusGuides"b1"hasFocusSpeedBumpEdges"b1"hasFocusableContentMargins"b1"focusInteractionDisabled"b1"shouldReverseLayoutDirection"b1"cannotBeParentTraitEnvironment"b1"needsContentsFormatUpdate"b1"accessibilityIgnoresInvertColors"b1"ignoresLayerTransformForSafeAreaInsets"b1"accessibilityInterfaceStyleIntent"b2"accessibilityResolvedInterfaceStyle"b2"shouldArchiveUIAppearanceTags"b1"wantsDeepColorDrawing"b1"preferredContentsFormat"b3"sceneDraggingBehaviorOnPan"b2"tagEnabled"b1"chargeSet"b1"ignoreBackdropViewsWhenHiding"b1"hasInteractionsArray"b1"hasHitTestDirectionalInsets"b1"hasLayoutDebuggingIdentifier"b1"hasAppIntentsIntelligenceProvider"b1"hasContentSizeNotificationToken"b1"hasPresentationControllerToNotifyOnLayoutSubviews"b1"hasWritingToolsCoordinator"b1"semanticContentAttribute"b3"hasDynamicBackgroundColor"b1"forceEffectiveThemeDidChange"b1"allowsHighContrastForBackgroundColor"b1"hasPendingTraitStorageConstraints"b1"hasPendingLayoutAfterTraitStorageConstraintsUpdate"b1"hasEverBeenInAWindow"b1"hasFocusGroupIdentifier"b2"hasFocusGroupPriority"b1"hasFocusEffect"b2"conformsToUIFocusItemScrollableContainer"b2"allowsSkippingLayout"b1"isResolvingTraitCollection"b1"needsLayoutAndDisplayOnTintColorChanges"b1"subviewNeedsAnimationRestorationMessage"b1"isHostingTrackingForAnimationRestoration"b1"implementsFocusItemsInRect"b1"isPrivateSubview"b1"wasPrivateSubview"b1"shouldAdaptToMaterials"b1"hasMultiLayerDelegate"b1"useMinimumSafeArea"b1"useMinimumSafeAreaFrozen"b1"minimumSafeAreaAccessed"b1"minimumSafeAreaIsClassicSafeArea"b1"minimumSafeAreaNeedsUpdate"b1"mt_hasCustomizedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
+- (void):(unsigned int)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16@"UIView"48@"UIView"56;
+- (Class)stingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
+- (void)ize:(_Bool)arg1 forNode:(_Bool)arg2 allowHorizontalScrollbar:allowVerticalScrollbar: /* Error: Ran out of types for this method. */;
+- (_Bool)ysteresisBehaviorWithBeginningVelocity:cancelingVelocity: /* Error: Ran out of types for this method. */;
+- (void)nputModesFromInputModes:(id)arg1;
+- (id)Fulfilled:(unsigned long long)arg1;
+- (id): /* Error: Ran out of types for this method. */;
+- (id)ngerAwaitingSystemGestureNotification: /* Error: Ran out of types for this method. */;
+- (void)d;
+- (void)izingChanged;
+- (_Bool)dKeystrokeStatisticForKeyPress;
+- (void)_realSceneHostViewsContainer;
+- (struct CGSize)er;
+- (void)earchPaletteForEdge:(id)arg1 size: /* Error: Ran out of types for this method. */;
+- (_Bool)ncludingAlpha: /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool);
-- (void)ið4àiþ;
-- (struct CGRect);
-- (id);
-- (void)ý[;
+- (_Bool)on;
+- (void);
+- (void)Width;
+- (id)nizer;
+- (id)wController;
+- (id)ationQueue;
+- (id)eyplaneWidthConstraint;
+- (id)egate;
+- (void)ä ØlðädôT;
+- (void)8;
+- (void)};
+- (void)r the gesture nonfunctional;
+- (void)re is no current context menu presentation; configuration = %@;
+- (struct CGRect)only;
+- (double)delegate finish for %@ with range={%lu, %lu};
+- (void)%d
+;
+- (id)UIStatusBarStyleOverrideScreenSharing;
+- (void)AttributesWithInnerView(UICollectionReusableView *__strong, UICollectionViewLayoutAttributes *__strong, UIView *__strong);
 - (id);
-- (void)é[;
-- (id)äµW-q\;
-- (struct CGSize);
-- (int)];
-- (void)ÿXÉVû];
-- (id)Â¬;
-- (_Bool)`;
-- (void)Óa;
-- (_Bool)>;
-- (id);
-- (_Bool)b;
-- (CDStruct_c3b9c2ee)Øb;
-- (void)ÿÿ÷ØVd;
-- (void)Ð;
-- (void)0téÿ,Öò×f;
-- (_Bool)Ì©#g;
-- (id).Ä3;
-- (_Bool)Ëi;
+- (void)it40UICommonTransitionComponentEventHandlingP;
+- (void)ßà©ªAÀ;
+- (void);
+- (id)ageProperties;
+- (_Bool)p9[;
+- (void)¼è¼lc;
+- (double)6d;
+- (id)rd;
+- (id)e;
+- (_Bool)POÞþq;
+- (_Bool)f;
+- (void)µñþìÕTKf;
+- (void)\M®ÿ
+V;
+- (struct CGSize)°Úi;
+- (id)^ÿ}ÚDài;
+- (void)(Pj;
+- (void);
+- (id)§%ÿÌ]ÑØÆj;
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setInfoConstraints:) NSArray *_infoConstraints; // @synthesize _infoConstraints;

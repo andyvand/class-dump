@@ -54,15 +54,15 @@
 - (struct CGRect);
 - (id);
 - (id);
-- (struct CGRect);
+- (id);
+- (id);
 - (long long);
+- (struct CGRect);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void);
 - (id);
-- (id);
-- (id)G_GSg;
 
 // Remaining properties
 @property(nonatomic) struct CGRect _canvasBounds;

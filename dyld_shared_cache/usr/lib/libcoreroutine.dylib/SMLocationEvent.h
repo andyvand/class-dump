@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void);
-- (id)ID;
-- (double)aultsManager:distanceCalculator:platform: /* Error: Ran out of types for this method. */;
+- (double);
+- (id)ersectionOverUnionUsingBoundingBoxBetweenLocations:locationsCount:otherLocations:otherLocationsCount:error: /* Error: Ran out of types for this method. */;
+- (void)ssed,%d,numTSPFailed,%d;
 
 // Remaining properties
 @property(readonly, nonatomic) double distance; // @synthesize distance=_distance;

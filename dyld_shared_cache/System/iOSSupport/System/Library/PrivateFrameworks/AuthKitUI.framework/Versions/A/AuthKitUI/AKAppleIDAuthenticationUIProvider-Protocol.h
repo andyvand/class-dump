@@ -5,10 +5,5 @@
 //
 
 @protocol AKAppleIDAuthenticationUIProvider
-- (void);
-- (void);
-
-@optional
-- (void)C;
 @end
 

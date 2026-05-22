@@ -7,10 +7,10 @@ public: // (access info unavailable from symbols alone)
     CurrencyAmount(double, icu::ConstChar16Ptr, UErrorCode&);
     CurrencyAmount(icu::CurrencyAmount const&);
     CurrencyAmount(icu::Formattable const&, icu::ConstChar16Ptr, UErrorCode&);
-    clone() const;
-    getCurrency() const;
-    getDynamicClassID() const;
-    getStaticClassID();
-    operator=(icu::CurrencyAmount const&);
+    auto clone() const;
+    auto getCurrency() const;
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
+    auto operator=(icu::CurrencyAmount const&);
     ~CurrencyAmount();
 };

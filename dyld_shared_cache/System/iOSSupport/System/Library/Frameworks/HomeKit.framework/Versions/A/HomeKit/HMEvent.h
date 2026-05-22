@@ -19,8 +19,8 @@
 
 + (_Bool);
 + (_Bool);
-+ (_Bool)ssion;
 + (id);
++ (_Bool);
 
 @end
 

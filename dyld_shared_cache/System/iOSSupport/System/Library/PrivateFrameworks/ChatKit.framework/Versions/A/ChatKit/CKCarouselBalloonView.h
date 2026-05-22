@@ -14,13 +14,13 @@
     MISSING_TYPE *dataSource;
 }
 
-+ (double);
 + (double);
-- (void);
++ (double);
 - (void);
 - (id);
 - (void);
-- (id)ÈT;
+- (id);
+- (void);
 
 @end
 

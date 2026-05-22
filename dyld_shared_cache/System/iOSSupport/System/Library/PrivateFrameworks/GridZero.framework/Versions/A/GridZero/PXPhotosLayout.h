@@ -188,11 +188,11 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void)o.|;
-- (void)/|;
-- (void);
-- (void)2|;
-- (CDUnknownBlockType)Å|;
+- (void);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
 - (id);
 - (id);
 - (id);
@@ -209,21 +209,21 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (double);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id)defaultZoomStep;
-- (void)Tq,N,V_preheatDenserZoomLevels;
-- (id)ÕNa;
+- (void);
+- (id)nce;
+- (id)&h;
 
 // Remaining properties
 @property(nonatomic) _Bool alignsHeaderTitleWithLayoutMargins; // @synthesize alignsHeaderTitleWithLayoutMargins=_alignsHeaderTitleWithLayoutMargins;

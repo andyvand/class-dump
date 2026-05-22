@@ -5,8 +5,5 @@
 //
 
 @protocol APPCMetricsViewReadyDelegate
-
-@optional
-- (void);
 @end
 

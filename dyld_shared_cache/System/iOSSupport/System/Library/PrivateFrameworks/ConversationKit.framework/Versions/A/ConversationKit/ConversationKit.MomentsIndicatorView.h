@@ -12,9 +12,9 @@
     MISSING_TYPE *bubblesByType;
 }
 
+- (id)\¨(;
 - (id);
-- (void);
-- (id);
+- (void), yAByx· y yÐGGG_AByAByq_: y y* I+ GSgGGSgALGAByAByq0_ANyAByAOyÐ+ AQG GSgGGALGtGG8# y2$ SgGGA6_yÍ# GGG /* Error: Ran out of types for this method. */;
 
 @end
 

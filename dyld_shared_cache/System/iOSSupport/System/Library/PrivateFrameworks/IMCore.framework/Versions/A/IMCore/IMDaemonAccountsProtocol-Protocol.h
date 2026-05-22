@@ -4,13 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @protocol IMDaemonAccountsProtocol
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)dMemberHandlesChangedForConversation:(NSArray *)arg1 fromOldConversation:(NSString *)arg2;
 @end
 

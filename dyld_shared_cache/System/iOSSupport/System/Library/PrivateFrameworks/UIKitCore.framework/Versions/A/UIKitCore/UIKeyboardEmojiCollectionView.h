@@ -19,26 +19,24 @@ __attribute__((visibility("hidden")))
     UIResponder *_hitTestResponder;
 }
 
-- (void)ecordZoneID:(id)arg1;
-- (void)tsRequest;
-- (void)Chat:(id)arg1 fromHandle:fromMe:date:attempts:account:completionBlock: /* Error: Ran out of types for this method. */;
-- (_Bool)lityMonitorCSgXw;
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)ble for entry type:(struct CGPoint)arg1 %s;
+- (id);
 - (double);
 - (void);
-- (void)
-× ;
-- (void)qÌÐ1¢!0@ù
-× ;
-- (void);
-- (void)objCType;
-- (void)viderWidth:(id)arg1;
-- (id)UIAppearance: /* Error: Ran out of types for this method. */;
+- (void)orrow;
+- (void)ntentViewMarginType;
+- (void)_allowedTouchTypes;
+- (id)hBarPlacementBarButtonItem is only supported in UIToolbar;
+- (void)<äËÿþ;
+- (void)h f;
 
 // Remaining properties
 @property(readonly) UIKeyboardEmojiGraphicsTraits *emojiGraphicsTraits; // @synthesize emojiGraphicsTraits=_emojiGraphicsTraits;

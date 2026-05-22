@@ -14,7 +14,9 @@
     UIView *_topBackgroundView;
 }
 
-- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -22,9 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)aRecordValueTransformerFactory";
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

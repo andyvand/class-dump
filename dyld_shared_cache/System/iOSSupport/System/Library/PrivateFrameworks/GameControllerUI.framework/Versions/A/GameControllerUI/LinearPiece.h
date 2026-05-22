@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (float);
 - (void);
-- (void);
-- (float);
 - (id);
+- (float);
+- (void);
+- (float);
 
 // Remaining properties
 @property float delta; // @synthesize delta=_delta;

@@ -7,30 +7,21 @@
 @class NSIndexSet, NSString, UIColor, UIImage, UIInputContextHistory, UITextRange, _UISupplementalLexicon;
 
 @protocol UITextInputTraits_Private
-- (void)Q¿Ð1¢!0@ù
-× ;
+- (void)";
 
 @optional
-- (_Bool);
-- (void)`;
-- (void)q;
-- (_UISupplementalLexicon *)k!@9;
-- (struct UIEdgeInsets);
-- (_Bool);
-- (void);
-- (_Bool)X;
-- (void);
-- (struct _NSRange)an;
-- (long long);
-- (void);
-- (UIColor *)× ;
-- (_Bool)0@ù
+- (void)±Ð1Â0@ù
 × ;
-- (void)ù1¿ð1¢!0@ù
+- (void)@ù
 × ;
-- (NSString *)Selectable: /* Error: Ran out of types for this method. */;
-- (void)ients:(long long)arg1;
-- (void)cipientStringMatchLastName;
+- (long long)0@ù
+× ;
+- (void)Ô ;
+- (_Bool)ù
+× ;
+- (void);
+- (_Bool)÷ð!¼@ù°1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *PINEntrySeparatorIndexes;

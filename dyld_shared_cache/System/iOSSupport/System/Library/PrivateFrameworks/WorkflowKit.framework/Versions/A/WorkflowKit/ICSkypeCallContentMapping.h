@@ -10,7 +10,7 @@
 {
 }
 
-- (void)l«°myl¬Ö0%EÉ;
+- (void);
 - (void);
 
 @end

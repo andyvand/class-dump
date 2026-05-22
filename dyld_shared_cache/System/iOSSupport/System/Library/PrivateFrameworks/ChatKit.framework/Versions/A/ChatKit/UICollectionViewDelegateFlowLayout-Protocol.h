@@ -7,10 +7,11 @@
 @protocol UICollectionViewDelegateFlowLayout
 
 @optional
-- (double)P)®yBÕýÿGG{;®y}	®GG;
-- (struct CGSize)L TEST DETECTED - Crashing;
-- (struct UIEdgeInsets)it.;
-- (struct CGSize)<;
-- (double);
+- (struct UIEdgeInsets)ð! Fù±1Â0@ù
+× ;
+- (double)Aýð!,Gù11Â0@ù
+× ;
+- (struct CGSize)kdropLayer";
+- (struct CGSize),N,R;
 @end
 

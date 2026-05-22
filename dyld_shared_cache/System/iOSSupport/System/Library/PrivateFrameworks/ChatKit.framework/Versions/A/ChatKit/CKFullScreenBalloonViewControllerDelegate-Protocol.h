@@ -4,27 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKFullScreenBalloonViewController, CKTranscriptCollectionView, UIView;
+@class CKTranscriptCollectionView;
 
 @protocol CKFullScreenBalloonViewControllerDelegate
-- (_Bool)ForMediaURL:(CKFullScreenBalloonViewController *)arg1 configuration:completion:] /* Error: Ran out of types for this method. */;
 
 @optional
-- (_Bool);
-- (struct NSDirectionalEdgeInsets)¨;
-- (_Bool)¬;
-- (void)e;
-- (void)=;
-- (void)l/;
-- (void)xL;
-- (UIView *)=;
-- (void)p0|1;
-- (UIView *)s;
-- (void)h;
-- (double)d;
-- (void)@?0@"PKDrawing"8@"NSError"16;
-- (void)usLayout:(CKTranscriptCollectionView *)arg1;
-- (CKTranscriptCollectionView *)ssagePartIndex: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CKTranscriptCollectionView *collectionView;

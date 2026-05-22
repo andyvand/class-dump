@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)DidChangeBlock;
-- (void)pl",R,N;
-- (id)eVideo(void);
-- (void)ÿÿÿÿÿÿïÿ;
-- (id);
-- (void)^;
+- (void)ateIndex;
+- (id)symbols.png;
+- (id)corner;
+- (void);
+- (void)613üf;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIScrollViewScrollObserver_Internal> controller; // @synthesize controller=_controller;

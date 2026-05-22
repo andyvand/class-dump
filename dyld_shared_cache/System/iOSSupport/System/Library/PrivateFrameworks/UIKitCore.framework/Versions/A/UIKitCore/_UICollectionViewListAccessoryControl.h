@@ -24,35 +24,33 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (id)iew;
-- (void);
-- (void)I9;
-- (id);
-- (_Bool);
-- (void)Ø½Q¬;
-- (void)Ôao°!ÄGùÑÁ°1¢!0@ù
-× ;
-- (void)!0@ù
-× ;
-- (id)dlineOffsetFromCenter: /* Error: Ran out of types for this method. */;
-- (void)chFieldLayoutFrame;
-- (CDUnknownBlockType)G_morphInsets,S_setMorphInsets: /* Error: Ran out of types for this method. */;
-- (id)_displayEntries;
-- (unsigned long long)SplitKeyboardSource;
-- (id);
-- (id)
-¤
-,ä;
-- (void)Ü½;
-- (void)nsistency:(id)arg1 UICollectionView %@ asked layout to prepare for update %@ without computing deleted sections;
-- (void)using fewer rows;
-- (long long)%@' that has the same identifier '%@' as a previously used trait named '%@' with a different defaultValue. Trait definitions with the same identifier must have the same defaultValue.;
-- (void)entingModally;
 - (struct CGSize);
-- (void)GëÚãD\;
-- (void)e;
-- (id)ðÿl$ÌÍ^d;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool)AùqZ°1Â0@ù
+× ;
+- (long long);
+- (CDUnknownBlockType)0@ù
+× ;
+- (void)teWillExpandToProposedDisplayMode"b1"delegateConstrainPrimaryColumnWidthForResizeWidth"b1"delegateConstrainSupplementaryColumnWidthForResizeWidth"b1"delegateWillBeginResizingColumn"b1"delegateDidEndResizingColumn"b1"delegateShowViewController"b1"delegateShowDetailViewController"b1"delegatePrimaryViewControllerForCollapsingSplitViewController"b1"delegatePrimaryViewControllerForExpandingSplitViewController"b1"delegateCollapseSecondaryViewControllerOntoPrimaryViewController"b1"delegateSeparateSecondaryViewControllerFromPrimaryViewController"b1"delegatePreferredSearchColumnForSplitViewController"b1"delegateInteractivePresentationGestureWillBegin"b1"delegateInteractivePresentationGestureDidEnd"b1"delegateDisplayModeButtonViewInColumn"b1"forcePrimaryEdgeBarButtonItemHidden"b1"forceSecondaryEdgeBarButtonItemHidden"b1"hasAttemptedLayoutStateRestoration"b1"hasSuspendedEnforcingColumnPreferencesForSceneResize"b1"isAutomaticGlobalSearchSplitViewControllerColumnValid"b1"isLayoutPrepared"b1"isLayoutStatePersistenceEnabled"b1"isPreparingLayout"b1"isPreparingLayoutForExpandOrCollapse"b1"isSceneResizePermitted"b1"isTogglingPrimaryEdgeColumnEnabled"b1"isTogglingSecondaryEdgeColumnEnabled"b1"isTogglingPresentedColumnEnabled"b1};
+- (void)olor;
+- (id)dgeMarginInNavBar;
+- (id): /* Error: Ran out of types for this method. */;
+- (void);
+- (void)offsetIntoAnchor:(id)arg1 %@, contentOffset:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)oller"8@"UIViewController"16;
+- (void)tSegments;
+- (void)Edited Pencil with Keyboard;
+- (id);
+- (void);
+- (unsigned long long)ðñäþîÃ;
+- (void)id;
+- (id)¬Fÿ¦¤;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *accessoryBackgroundColor; // @synthesize accessoryBackgroundColor=_accessoryBackgroundColor;

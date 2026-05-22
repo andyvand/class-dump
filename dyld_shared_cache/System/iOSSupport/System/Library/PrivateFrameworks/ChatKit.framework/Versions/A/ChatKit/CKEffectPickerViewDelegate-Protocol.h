@@ -5,6 +5,5 @@
 //
 
 @protocol CKEffectPickerViewDelegate
-- (void);
 @end
 

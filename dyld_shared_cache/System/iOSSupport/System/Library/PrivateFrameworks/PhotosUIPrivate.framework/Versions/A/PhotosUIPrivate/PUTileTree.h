@@ -13,24 +13,24 @@
     NSMutableDictionary *__objectsByTileIdentifier;
 }
 
-- (void);
-- (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)erHeadroom:(_Bool)arg1;
+- (void)thIdentifier:(id)arg1 succeeded:(id)arg2 canceled:error: /* Error: Ran out of types for this method. */;
+- (void)IncrementalChanges;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *_objectsByTileIdentifier; // @synthesize _objectsByTileIdentifier=__objectsByTileIdentifier;

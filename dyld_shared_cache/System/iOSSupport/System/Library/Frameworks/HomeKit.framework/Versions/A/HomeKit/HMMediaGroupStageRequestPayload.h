@@ -14,21 +14,21 @@
 }
 
 + (id);
-+ (id)tAction;
-+ (id)è;
++ (id);
++ (id)ad-network-credential-sharing;
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)rCommandAction;
-- (id)ÿÿ,$p;
-- (id)es (options %@) - not going to write synced metadata to cache;
+- (void)¬ÏèÏ<ÒÒ8ÔÔìÔ;
+- (id)ic}@Received event with unknown topic:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

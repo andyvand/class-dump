@@ -40,8 +40,8 @@
 - (double);
 - (id);
 - (void);
-- (long long)TitleButtonAlignmentSpacing;
-- (struct UIEdgeInsets)TØð8è4;
+- (long long);
+- (struct UIEdgeInsets)rmSelector:withObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXAssetsSectionLayoutSpecConfiguratorSource> configuratorSource; // @synthesize configuratorSource=_configuratorSource;

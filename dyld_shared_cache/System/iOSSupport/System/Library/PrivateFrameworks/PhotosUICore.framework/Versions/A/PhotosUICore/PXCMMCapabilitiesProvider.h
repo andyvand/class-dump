@@ -15,14 +15,14 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
 - (id);
-- (id)ûÿ;
+- (void);
+- (id);
+- (void);
+- (void);
+- (long long)AtIndex: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)odingKeys;
 
 // Remaining properties
 @property(readonly) long long capabilities; // @synthesize capabilities=_capabilities;

@@ -24,10 +24,10 @@
 - (double);
 - (double);
 - (double);
-- (id),;
 - (id);
-- (void);
-- (id)7;
+- (id);
+- (void)Iq}{?=qiIq}},N,V_timeRange;
+- (id)fierSetCodingKeyModelKind;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *URI;

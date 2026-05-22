@@ -4,11 +4,11 @@
 
 class icu::EraRules {
 public: // (access info unavailable from symbols alone)
-    EraRules(icu::LocalMemory<int>&, int);
-    createInstance(char const*, signed char, UErrorCode&);
-    getEraIndex(int, int, int, UErrorCode&) const;
-    getStartDate(int, int (&) [3], UErrorCode&) const;
-    getStartYear(int, UErrorCode&) const;
-    initCurrentEra();
+    EraRules(icu::LocalMemory<int>&, int, int, int);
+    auto createInstance(char const*, signed char, UErrorCode&);
+    auto getEraCode(int, int, int, UErrorCode&) const;
+    auto getStartDate(int, int (&) [3], UErrorCode&) const;
+    auto getStartYear(int, UErrorCode&) const;
+    auto initCurrentEra();
     ~EraRules();
 };

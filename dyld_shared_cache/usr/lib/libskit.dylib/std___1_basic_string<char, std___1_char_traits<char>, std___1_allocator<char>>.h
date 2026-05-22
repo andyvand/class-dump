@@ -4,12 +4,13 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
-    __init_copy_ctor_external(char const*, unsigned long);
-    __throw_length_error[abi:ne200100]();
-    append(char const*, unsigned long);
-    append[abi:ne200100]<char const*, 0>(char const*, char const*);
-    operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
-    push_back(char);
-    reserve(unsigned long);
+    auto __grow_by(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long);
+    auto __init_copy_ctor_external(char const*, unsigned long);
+    auto __throw_length_error[abi:nqe210106]();
+    auto append(char const*, unsigned long);
+    auto basic_string[abi:nqe210106]<std::__1::basic_string_view<char, std::__1::char_traits<char>>, 0>(std::__1::basic_string_view<char, std::__1::char_traits<char>> const&);
+    auto operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
+    auto push_back(char);
+    auto reserve(unsigned long);
+    std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>& append[abi:nqe210106]<char const*, 0>(char const*, char const*);
 };

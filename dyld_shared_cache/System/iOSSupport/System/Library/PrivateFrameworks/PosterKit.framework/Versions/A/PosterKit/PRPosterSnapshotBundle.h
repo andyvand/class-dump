@@ -30,18 +30,18 @@
 - (id);
 - (id);
 - (id);
+- (long long);
+- (id);
+- (id);
 - (id);
 - (long long);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (struct CGSize);
-- (long long);
-- (long long);
 - (id);
-- (id)incomingPosterConfigurationsToBeAssocatedWithExistingPosterConfigurationsUUIDs;
+- (id);
+- (void);
+- (id)ntConfigurationsForEditor: /* Error: Ran out of types for this method. */;
+- (long long)d},R,N,V_endPoint;
 
 // Remaining properties
 @property(readonly) struct CGSize assetSize;

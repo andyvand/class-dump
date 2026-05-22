@@ -32,10 +32,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)ing an update;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

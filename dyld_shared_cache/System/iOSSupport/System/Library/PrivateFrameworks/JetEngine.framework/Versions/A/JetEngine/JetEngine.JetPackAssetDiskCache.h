@@ -10,6 +10,8 @@
 {
     MISSING_TYPE *assetsURL;
     MISSING_TYPE *metadataStore;
+    MISSING_TYPE *evictionListenerLock;
+    MISSING_TYPE *evictedUUIDs;
 }
 
 @end

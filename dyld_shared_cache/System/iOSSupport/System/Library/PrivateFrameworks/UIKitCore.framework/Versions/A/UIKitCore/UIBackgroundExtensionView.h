@@ -17,19 +17,18 @@
     MISSING_TYPE *effectsView;
 }
 
-- (void)with type %ld finished;
-- (void).test.mobileBackupStateChange;
 - (void);
-- (void))E;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void)ÑÄ1¢!0@ù
-× ;
-- (void)etDimmingView:(id)arg1;
-- (id)quivalentOverride;
-- (id)erKeyServiceObserver was not removed. Make sure to remove observers before they are deallocated.;
-- (void)ýp;
+- (void);
+- (id);
+- (void)InputDestination queue_keyboardUIDidChange:(id)arg1 onComplete:]  Keyboard UI did change:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool automaticallyPlacesContentView; // @synthesize automaticallyPlacesContentView;

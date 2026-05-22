@@ -15,11 +15,11 @@
 
 - (void);
 - (void);
-- (_Bool)8q16@24q32@40;
-- (_Bool)nTitle:(id)arg1 notificationBody:draftTitle:problemDescription:attachments:deviceClasses:classification:reproducibility: /* Error: Ran out of types for this method. */;
-- (id)otAttachmentZoneIfNeededWithCompletionBlock: /* Error: Ran out of types for this method. */;
-- (id)rRequery;
-- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void)Êyþ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *_overrideLocaleIdentifier; // @synthesize _overrideLocaleIdentifier;

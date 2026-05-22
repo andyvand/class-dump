@@ -5,6 +5,5 @@
 //
 
 @protocol SXScrollObserverManager
-- (void)ngManager;
 @end
 

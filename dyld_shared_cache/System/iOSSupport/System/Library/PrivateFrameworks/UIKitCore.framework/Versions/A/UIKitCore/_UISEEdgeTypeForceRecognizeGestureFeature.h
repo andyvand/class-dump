@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)setAppearanceDelegate:(const struct _UISEGestureFeatureSample *)arg1;
+- (void)teractionPulseScalePtsY:(const struct _UISEGestureFeatureSample *)arg1;
 
 @end
 

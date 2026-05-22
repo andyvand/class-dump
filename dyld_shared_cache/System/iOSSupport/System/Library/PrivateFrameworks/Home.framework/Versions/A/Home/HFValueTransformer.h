@@ -17,9 +17,10 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (Class)Override];
+- (void)DescriptorFor:(Class)arg1;
+- (Class);
+- (void)	
+;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType reverseTransformBlock; // @synthesize reverseTransformBlock=_reverseTransformBlock;

@@ -4,5 +4,5 @@
 
 class icu::CollationCompare {
 public: // (access info unavailable from symbols alone)
-    compareUpToQuaternary(icu::CollationIterator&, icu::CollationIterator&, icu::CollationSettings const&, UErrorCode&);
+    auto compareUpToQuaternary(icu::CollationIterator&, icu::CollationIterator&, icu::CollationSettings const&, UErrorCode&);
 };

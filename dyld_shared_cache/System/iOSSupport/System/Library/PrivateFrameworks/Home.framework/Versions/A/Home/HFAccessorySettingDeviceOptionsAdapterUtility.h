@@ -37,9 +37,10 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void);
+- (void)"16@?0@"HFColorControlItem"8;
 
 // Remaining properties
 @property(nonatomic) __weak id <HFAccessorySettingDeviceOptionsAdapterUtilityDelegate> delegate; // @synthesize delegate=_delegate;

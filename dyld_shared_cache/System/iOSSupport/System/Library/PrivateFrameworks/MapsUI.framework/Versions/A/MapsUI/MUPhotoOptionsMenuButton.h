@@ -24,10 +24,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void)eGeometry;
 
 // Remaining properties
 @property(nonatomic) __weak id <MUPhotoOptionsMenuButtonDelegate> delegate; // @synthesize delegate=_delegate;

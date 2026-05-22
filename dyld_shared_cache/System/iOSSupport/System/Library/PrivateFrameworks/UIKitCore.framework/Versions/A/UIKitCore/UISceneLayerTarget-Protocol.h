@@ -4,9 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSceneLayer;
-
 @protocol UISceneLayerTarget
-- (_Bool)creenFromFBSScene:(FBSceneLayer *)arg1 %@; self:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ardPopoverContainer;
 @end
 

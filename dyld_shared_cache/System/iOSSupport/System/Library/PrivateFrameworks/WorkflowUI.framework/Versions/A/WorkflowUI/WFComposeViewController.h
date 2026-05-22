@@ -63,19 +63,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (_Bool);
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void)Xýÿ;
-- (void);
-- (void)1	;
+- (void);
+- (void)ewControllerDelegate;
+- (void)èS	;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *cachedNavigationTitle;

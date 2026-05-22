@@ -21,13 +21,13 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _additionalSafeAreaInsets;
 }
 
-- (void)ks;
-- (void)e of uint64_t;
+- (void);
+- (void);
 - (id);
 - (void);
 - (double);
 - (void);
-- (long long)intFeatureEmbeddingCustomModel;
+- (long long);
 - (struct CGRect);
 - (double);
 - (void);
@@ -39,16 +39,17 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (struct UIEdgeInsets);
-- (double);
 - (struct NSEdgeInsets);
+- (double);
 - (id);
+- (id);
+- (void)
+× ;
+- (_Bool)houldAssertCurrentKeyState: /* Error: Ran out of types for this method. */;
+- (_Bool)er_prefersPointerLocked;
+- (void)ntingViewControllerDuringAdaptation;
+- (_Bool)am-Alphabetic;
 - (void);
-- (_Bool)KeyboardStateManager",R,N,V_keyboardStateManager;
-- (_Bool)üb;
-- (id)3y1Mj8yð;
-- (void)0{CGPoint=dd}8@"UIView"24@"UIView"32;
-- (void)ÒMÒ?ClçË?Tã¥Ä ì?ClçË¿!°rhíà¿0ä.ÿ++;
-- (_Bool)ÉrJ_á?ëo	À?¥ã?;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets additionalSafeAreaInsets; // @synthesize additionalSafeAreaInsets=_additionalSafeAreaInsets;

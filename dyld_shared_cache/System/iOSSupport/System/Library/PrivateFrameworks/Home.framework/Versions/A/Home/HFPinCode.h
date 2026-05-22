@@ -31,12 +31,12 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)ÀÛÜ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *accessories;

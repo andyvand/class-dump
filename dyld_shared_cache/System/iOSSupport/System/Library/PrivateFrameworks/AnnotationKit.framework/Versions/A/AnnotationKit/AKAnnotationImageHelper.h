@@ -13,8 +13,8 @@
 + (id);
 + (id);
 + (id);
-+ (struct CGImage *)8;
-+ (id);
++ (struct CGImage *);
++ (id);
 + (void);
 + (void);
 + (void);

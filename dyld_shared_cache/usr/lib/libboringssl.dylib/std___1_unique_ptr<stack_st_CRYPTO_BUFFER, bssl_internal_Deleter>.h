@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<stack_st_CRYPTO_BUFFER, bssl::internal::Deleter> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](stack_st_CRYPTO_BUFFER*);
+    auto reset[abi:nqe210106](stack_st_CRYPTO_BUFFER*);
 };

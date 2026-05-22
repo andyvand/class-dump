@@ -32,10 +32,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (id);
+- (id)³Ð1B50@ù
+× ;
+- (void)d to open the Pocket authentication URL.;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *companyStartDate; // @synthesize companyStartDate=_companyStartDate;

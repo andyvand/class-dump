@@ -15,7 +15,7 @@
 
 - (void);
 - (id);
-- (void);
+- (void)dFinish: /* Error: Ran out of types for this method. */;
 
 @end
 

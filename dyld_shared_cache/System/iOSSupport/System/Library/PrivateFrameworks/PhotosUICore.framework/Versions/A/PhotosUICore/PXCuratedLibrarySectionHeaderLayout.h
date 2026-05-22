@@ -196,28 +196,32 @@
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (double);
-- (void);
 - (id);
-- (void)rDelegate>",R,W,N,V_filterControllerDelegate;
-- (void)MovieHighlightCuration;
-- (void)ÿ¦¤.ö6;
+- (void);
+- (void);
+- (void)1â
+0@ù
+× ;
+- (void)aúÐ!ðAù1Gð1â
+0@ù
+× ;
+- (id)ion with %tu assets;
+- (id)light;
+- (void);
+- (void)+aáÉ¬4;
+- (double)j;
+- (void)d;
 
 // Remaining properties
 @property(nonatomic) double alpha; // @dynamic alpha;

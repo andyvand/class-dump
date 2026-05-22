@@ -23,11 +23,11 @@
 }
 
 - (void);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)±ýÿüLÿÿ;
 
 @end
 

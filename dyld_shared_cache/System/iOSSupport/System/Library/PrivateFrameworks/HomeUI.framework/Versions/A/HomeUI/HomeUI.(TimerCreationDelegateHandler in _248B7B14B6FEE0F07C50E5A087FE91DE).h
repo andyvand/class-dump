@@ -13,8 +13,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)eIdentifier:tileHelper:alarmAndTimerUIViewBuilder:style:) /* Error: Ran out of types for this method. */;
 
 @end
 

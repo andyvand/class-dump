@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct CGPoint)d notes.;
+- (struct CGPoint);
 - (void);
 - (long long);
 

@@ -10,7 +10,7 @@
 {
 }
 
-+ (void)initPruneOnAccess:filterByAgeOnRead:maxAge:maxStreamSize:maxEventCount: /* Error: Ran out of types for this method. */;
++ (void);
 - (id);
 - (id);
 - (void);

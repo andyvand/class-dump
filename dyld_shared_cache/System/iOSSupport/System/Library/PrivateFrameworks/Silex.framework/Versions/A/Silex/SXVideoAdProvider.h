@@ -18,7 +18,7 @@
     SXVideoComponent *_component;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -38,19 +38,20 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (double);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (double);
-- (double);
+- (id);
 - (id);
 - (void);
-- (id));
-- (void);
-- (id)leLimit;
-- (double)§T²;
+- (id);
+- (void)1Â0@ù
+× ;
+- (double)¬;
 
 // Remaining properties
 @property(retain, nonatomic) id <SXAnalyticsReporting> analyticsReporter; // @synthesize analyticsReporter=_analyticsReporter;

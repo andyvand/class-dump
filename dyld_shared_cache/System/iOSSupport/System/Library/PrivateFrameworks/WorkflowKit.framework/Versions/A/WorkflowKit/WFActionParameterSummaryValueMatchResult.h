@@ -13,12 +13,12 @@
     unsigned long long _numberOfMatchingParameters;
 }
 
-+ (id)Ì;
++ (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)onAction;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long matchType; // @synthesize matchType=_matchType;

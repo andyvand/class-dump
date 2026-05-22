@@ -4,6 +4,6 @@
 
 class language_modeling::v1::LanguageModelSession {
 public: // (access info unavailable from symbols alone)
-    predictions(language_modeling::v1::LinguisticContext const&, unsigned long) const;
+    auto predictions(language_modeling::v1::LinguisticContext const&, unsigned long) const;
     ~LanguageModelSession();
 };

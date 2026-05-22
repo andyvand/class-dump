@@ -21,38 +21,37 @@
 }
 
 - (long long);
-- (void).;
 - (void);
-- (void)e;
-- (void)mage OCR Generation is %@;
-- (void)while other authentication is in progress — canceling;
-- (void)vice:(id)arg1 completionHandler:shareArgument is nil /* Error: Ran out of types for this method. */;
-- (void)for confirmation.;
-- (void)e;
-- (void)orange;
-- (void)d_color;
-- (void)ote.;
-- (void)is note.;
-- (void)using a previous password. Enter the previous password to view the attachment.;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id)RE;
+- (id);
 - (long long);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (double);
+- (id);
 - (void);
-- (void);
-- (id)0@ù
-× ;
-- (id)ß;
-- (double)Ø÷UÿÌº¡.;
+- (id);
+- (id)peration: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long cachedStickerReactionRandomizationSource; // @synthesize cachedStickerReactionRandomizationSource=_cachedStickerReactionRandomizationSource;

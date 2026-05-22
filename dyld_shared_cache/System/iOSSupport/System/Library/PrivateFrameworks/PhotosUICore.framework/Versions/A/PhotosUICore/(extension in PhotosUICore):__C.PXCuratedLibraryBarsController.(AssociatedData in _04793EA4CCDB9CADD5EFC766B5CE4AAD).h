@@ -15,8 +15,8 @@
     MISSING_TYPE *librarySummaryPresenter;
 }
 
-- (void);
 - (id);
+- (void)ImportSourcesItemList;
 
 @end
 

@@ -43,15 +43,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (long long);
+- (id);
+- (id);
+- (void);
+- (void);
+- (long long);
 - (double);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
 - (id);
 - (void);
-- (long long);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;

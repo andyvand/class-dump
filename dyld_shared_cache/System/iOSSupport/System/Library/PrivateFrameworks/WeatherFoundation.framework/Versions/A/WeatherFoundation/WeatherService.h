@@ -17,7 +17,7 @@
     NSMapTable *_clientDictionary;
 }
 
-+ (id)ÓþÿÝ=~·;
++ (id);
 - (void);
 - (id);
 - (void);
@@ -46,14 +46,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
 - (void);
-- (id)q­
-ð1¢!0@ù
+- (id)`Dù
+ð1Â0@ù
 × ;
+- (void);
 
 // Remaining properties
 @property(retain) NSMapTable *clientDictionary; // @synthesize clientDictionary=_clientDictionary;

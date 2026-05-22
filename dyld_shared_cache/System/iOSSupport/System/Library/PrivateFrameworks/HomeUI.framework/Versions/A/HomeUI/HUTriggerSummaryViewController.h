@@ -82,8 +82,8 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
 - (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -101,13 +101,12 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (void)! Fù/ð1b0@ù
-× ;
-- (id);
-- (void)ler"16@"NSString"24;
-- (void)Button"16;
+- (void);
+- (void);
+- (void)e is on %@. %@ is a supported voice recognition language?:%{BOOL}d, (%@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HUTriggerActionSetsModuleController *actionSetsModuleController; // @synthesize actionSetsModuleController=_actionSetsModuleController;

@@ -20,77 +20,80 @@
     long long _lastKnownDeviceOrientation;
 }
 
-- (_Bool)hedDrawingViewForPlaceView;
-- (_Bool)_attributedContentText;
-- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id)m;
 - (_Bool);
-- (long long)ked for deletion before we could attempt to update its thumbnail. Bailing out.;
-- (_Bool)array or dictionary, class:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ier is nil;
-- (id)@"NSSet",N,C;
-- (id)lazy_storage_$_contextDidDeleteObject;
-- (id)oalescingAndDelay;
 - (_Bool);
-- (_Bool)er;
-- (_Bool)e;
-- (struct CGRect)his note is too large to lock. You need to remove or reduce attachments and other content, then try again.;
-- (long long);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void)#;
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void)@;
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (long long);
-- (void)ªCøàªáªâªý{B©ôOA©öWÃ¨ÿ#ÕÐÊP;
-- (void);
-- (void)ragSessionDidEnd:(id)arg1 withOperation: /* Error: Ran out of types for this method. */;
-- (_Bool)arance;
-- (id)inishSideEffectsWithContext: /* Error: Ran out of types for this method. */;
-- (id)L¿«Gþµ«yà¾«SgGGADGGGG_Qo_]p<yAFGG;
-- (long long)÷é¬yÁV¬G_SS@b¬yAD_ADtGQo_à=GSg_ADSgt;
-- (void)¹¬GGG4¬yN¨¬GGAEyAAyAAyN¥¬yAT^Ñ¬q×¬GAMGP»¬y*²¬GGSgGG²¬GÃ¬yATGG;
-- (void)¯ÿ;
-- (_Bool)®G;
-- (id)nown;
-- (unsigned long long)ultSendMenuListItem;
-- (void)¤`ºÿ ;
 - (_Bool);
-- (void)\åÿ;
-- (id)ªóÿ;
-- (void)fÿ¯;
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (struct CGRect);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (id)áúð!TCùñÐ1Â0@ù
+× ;
+- (void)
+× ;
+- (void)q°1Â0@ù
+× ;
+- (void)xtView",W,N,V_activeView;
+- (id)GGA7_GG_ÊV\Qo__Qo_tGGAMyAOGGA7_G¸´[yrµ[GGtGG;
+- (void)d gallery found. Fetching new gallery for channel with id %@.;
+- (_Bool):in scrollToBottomAnimated - content offset change timer /* Error: Ran out of types for this method. */;
+- (unsigned long long)pshot];
+- (id);
+- (void)bugTickHUDView;
+- (void)hÐ/;
+- (long long)N0;
+- (id)°P0;
+- (long long)ÿw­6ÈC1;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *adamID;

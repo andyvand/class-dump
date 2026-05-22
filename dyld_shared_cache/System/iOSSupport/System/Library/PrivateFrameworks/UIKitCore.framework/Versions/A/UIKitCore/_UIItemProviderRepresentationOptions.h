@@ -9,8 +9,8 @@
     long long _visibility;
 }
 
-- (long long);
-- (void);
+- (long long)ain List Header/Footer;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long visibility; // @synthesize visibility=_visibility;

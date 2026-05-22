@@ -27,8 +27,8 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (void)onentStyleRendererFactory:imageViewFactory:componentActionHandler:textComponentLayoutHosting:componentController:adIgnorableViewFactory:config:textAttributionProvider:shareHandler: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)andVersion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long columnIndex; // @dynamic columnIndex;

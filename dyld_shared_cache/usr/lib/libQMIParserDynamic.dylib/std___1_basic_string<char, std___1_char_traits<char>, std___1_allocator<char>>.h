@@ -4,10 +4,10 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    __throw_length_error[abi:ne200100]();
-    append(char const*);
-    append(char const*, unsigned long);
-    assign(char const*);
-    insert(unsigned long, char const*);
-    resize(unsigned long, char);
+    auto __throw_length_error[abi:nqe210106]();
+    auto append(char const*);
+    auto append(char const*, unsigned long);
+    auto assign(char const*);
+    auto insert(unsigned long, char const*);
+    auto resize(unsigned long, char);
 };

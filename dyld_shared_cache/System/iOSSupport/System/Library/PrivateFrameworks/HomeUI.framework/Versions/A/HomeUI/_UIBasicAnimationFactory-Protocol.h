@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABasicAnimation, CAMediaTimingFunction;
+@class CABasicAnimation, CAMediaTimingFunction, UIView;
 
 @protocol _UIBasicAnimationFactory
-- (CABasicAnimation *)A'°!üBùq1°1b0@ù
-× ;
+- (CABasicAnimation *)ntrolStatusRevision;
 
 @optional
-- (CAMediaTimingFunction *)View",&,N,V_disclosureImageView;
-- (_Bool)etailsRemoteAccessAvailableButNeedsTwoFactorAuthTitle;
+- (CAMediaTimingFunction *)ardTriggerInSet:(UIView *)arg1;
+- (_Bool)anager.scheduleContext == HUScheduleContextNewUser;
 @end
 

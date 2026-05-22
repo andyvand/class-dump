@@ -16,12 +16,12 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (unsigned long long);
 + (unsigned long long);
 + (id);
-+ (long long);
-+ (double)@`;
++ (long long);
++ (double);
 + (_Bool);
 - (void);
 - (void);
@@ -31,14 +31,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id)ing:(id)arg1 withTransparentBlending: /* Error: Ran out of types for this method. */;
-- (void);
-- (id);
-- (void);
 - (unsigned long long);
 - (id);
-- (void)0@ù
-× ;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)erDefaults;
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *activityKeywords; // @synthesize activityKeywords=_activityKeywords;

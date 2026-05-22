@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id);
-- (CDUnknownBlockType)portSource"8;
+- (CDUnknownBlockType)¼Êuÿ;
+- (id)moved;
+- (void)PhotosUICore/PXSwiftUILargeNavigationTitleModifier.swift;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

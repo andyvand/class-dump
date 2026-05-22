@@ -18,12 +18,12 @@
 }
 
 - (void);
-- (void);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (_Bool)pTiles;
-- (void);
+- (void)í!:Hº$ÿ /* Error: Ran out of types for this method. */;
+- (void)PW@;
 
 @end
 

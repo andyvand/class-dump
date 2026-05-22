@@ -21,24 +21,23 @@ __attribute__((visibility("hidden")))
     id <UIKeyboardPinchGestureRecognizerDelegate> _pinchDelegate;
 }
 
-- (void)tyle:(id)arg1;
-- (void)DServiceSession",R,&;
+- (void);
+- (void);
 - (id);
 - (void);
 - (double);
 - (double);
 - (void);
-- (void)0@ù
+- (_Bool)0@ù
 × ;
-- (void)!ÐGù1Ì°1¢!0@ù
-× ;
-- (void);
-- (void);
-- (void)PresentationStyleForViewController:(id)arg1;
-- (_Bool)ming a document failed.;
-- (id);
-- (_Bool)¦>e;
-- (_Bool)Ôbâÿ+ÃÈÃ{g;
+- (id)tion:(id)arg1;
+- (_Bool)mator;
+- (void)sterNotifications;
+- (void)te;
+- (void)R,N,V_keyboardPressEventForwardingMap;
+- (_Bool)¬öµ;
+- (void)d_;
+- (void)U;
 
 // Remaining properties
 @property(readonly, nonatomic) double initialPinchSeparation; // @synthesize initialPinchSeparation=_initialPinchSeparation;

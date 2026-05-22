@@ -33,12 +33,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
 - (void);
 - (id);
 - (void);
-- (unsigned long long)m;
-- (void);
+- (void)iewController: /* Error: Ran out of types for this method. */;
+- (unsigned long long)	
+;
+- (id)Åÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) AMSUICommonBarButtonItem *backBarButtonItem; // @synthesize backBarButtonItem=_backBarButtonItem;

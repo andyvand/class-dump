@@ -18,32 +18,32 @@
     double padding;
 }
 
-+ (id);
-- (id);
-- (void)7NotesUIP33_0937A1AF2A2827E2462B0E48FD7819BC22OutlineUpdateOperation;
-- (void);
-- (id);
-- (id);
++ (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
-- (double);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)æ;ûÿ8<ûÿ;
 - (struct CGSize);
-- (void)xÿ31UW.;
-- (_Bool)öô/;
-- (void)æ]ÿB5@É1;
-- (double)ÿØ;
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void)ÀÄ¿;
+- (double)th handle %s, error:%@ /* Error: Ran out of types for this method. */;
+- (void)'t resolve for chat;
+- (void)Pj\;
+- (double)`é ÿQ!8à1;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) UIImageView *buttonImageView; // @synthesize buttonImageView;

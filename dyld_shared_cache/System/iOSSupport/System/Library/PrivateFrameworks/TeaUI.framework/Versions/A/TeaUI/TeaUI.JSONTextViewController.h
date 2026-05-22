@@ -22,19 +22,20 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)ive with another device.;
+- (id);
+- (id);
 - (void);
-- (id)ByID;
-- (id)riods;
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)(ô;
-- (void);
-- (id);
+- (id)ÿÿÿÿü;
+- (void)ä
+üÿpüÿÀüÿ$üÿüÿüÿüÿüÿ|üÿôüÿLüÿdüÿ|üÿüÿ¬üÿÄüÿ(üÿüÿ°üÿÔüÿtüÿ¬üÿLüÿüÿüÿÔüÿüüÿüÿLüÿ;
+- (void);
+- (void)9;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

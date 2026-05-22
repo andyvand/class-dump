@@ -7,10 +7,6 @@
 @class NSString;
 
 @protocol _UISceneRenderingEnvironmentSettings
-- (void);
-- (void)decode private key;
-- (void)aBlobs is NULL;
-- (_Bool)@;
 
 // Remaining properties
 @property(nonatomic) long long activeAppearance;

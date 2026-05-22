@@ -15,15 +15,16 @@
     NSDictionary *_filterAttributes;
 }
 
-+ (id)lid record passed to md5HashForRecord:(id)arg1 %@;
-+ (id)d record passed to cleanUpAssetsOnDiskForRecord:(id)arg1 %@;
++ (id);
++ (id);
 - (id);
 - (id);
-- (void)create cfdata from fileReferenceData.;
-- (void)(;
-- (id)ityExceededThreshold;
+- (id);
 - (void);
-- (id)tem:withContainer: /* Error: Ran out of types for this method. */;
+- (void)ð1Â0@ù
+× ;
+- (id)oreInsertion;
+- (void)w;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *filterAttributes; // @synthesize filterAttributes=_filterAttributes;

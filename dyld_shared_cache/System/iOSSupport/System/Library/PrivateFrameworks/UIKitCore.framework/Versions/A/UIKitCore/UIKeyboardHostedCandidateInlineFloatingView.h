@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
     id <UIKeyboardHostedCandidateInlineFloatingViewDelegate> _delegate;
 }
 
-- (_Bool)tionHandler: /* Error: Ran out of types for this method. */;
-- (void)oPlay:(id)arg1;
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (void)ord with type %@;
-- (void)>;
 - (void);
-- (void)qÁð1¢!0@ù
+- (id)ð!è@ùÑ[°1Â0@ù
 × ;
-- (id);
-- (void)T@"_TtC5UIKit33_UIFlexInteractionMenuVariantSpec",N,&,Vmenu;
+- (void)e=QQ}32q48;
+- (void)scrollerImpPair;
+- (void);
+- (void)Å¾Ñ`bf;
 
 // Remaining properties
 @property(nonatomic) __weak id <UIKeyboardHostedCandidateInlineFloatingViewDelegate> delegate; // @synthesize delegate=_delegate;

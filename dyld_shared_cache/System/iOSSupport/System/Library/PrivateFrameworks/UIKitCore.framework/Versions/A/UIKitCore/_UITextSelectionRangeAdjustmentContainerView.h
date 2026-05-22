@@ -22,33 +22,32 @@ __attribute__((visibility("hidden")))
     struct CGRect _endEdge;
 }
 
-- (id)t-destination;
-- (double)h dataInstanceArray (%ld);
+- (id);
+- (double);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id)B;
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)itedScheduledMessage:(out struct CGRect *)arg1 previousMessage:(out struct CGPoint *)arg2 retractingPartIndexes:(struct CGRect)arg3 toChatIdentifier:style:account: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void)`;
 - (void);
 - (_Bool);
-- (void);
 - (void);
 - (id);
-- (id)0@ù
-× ;
-- (struct CGRect)eaInset: /* Error: Ran out of types for this method. */;
-- (id)s currently being displayed.;
-- (id)ImagePositionAdjustment=%@;
-- (struct CGRect);
+- (struct CGRect)e;
+- (void)tView;
+- (id)leMajorDimensionThreshold;
+- (struct CGRect)_mutableMaximumIndices;
+- (void)},N,SsetX:(struct CGRect)arg1 ,Vm_x;
+- (void)ies",N,&,VshadowProperties;
+- (id);
+- (void)data:(struct CGRect)arg1 %@/%lu/%@;
+- (void)g;
+- (id);
 
 // Remaining properties
 @property(nonatomic) struct CGRect endEdge; // @synthesize endEdge=_endEdge;

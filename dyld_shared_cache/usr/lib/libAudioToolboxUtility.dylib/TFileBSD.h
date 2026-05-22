@@ -4,28 +4,28 @@
 
 class TFileBSD {
 public: // (access info unavailable from symbols alone)
-    AsyncFileIOHandler(void*);
-    Clear();
-    Close();
-    Create(unsigned int, unsigned int);
-    DeleteFile();
-    Exists() const;
-    GetFreeRequestBlock();
-    GetLength() const;
-    GetPosition();
-    Initialize();
-    InitializeAsync(int&);
-    IsOpen() const;
-    Open(int);
-    Read(void*, unsigned long);
-    ReadAsync(void*, int, TAsyncIoClient_BSD*, long);
-    Seek(long long);
-    SeekAsync(long long);
-    ShutdownAsync();
-    Skip(long long);
     TFileBSD(TFileBSD const&);
     TFileBSD(__CFURL const*);
     TFileBSD(__CFURL const*)::once;
-    Write(void*, unsigned long);
+    auto AsyncFileIOHandler(void*);
+    auto Clear();
+    auto Close();
+    auto Create(unsigned int, unsigned int);
+    auto DeleteFile();
+    auto Exists() const;
+    auto GetFreeRequestBlock();
+    auto GetLength() const;
+    auto GetPosition();
+    auto Initialize();
+    auto InitializeAsync(int&);
+    auto IsOpen() const;
+    auto Open(int);
+    auto Read(void*, unsigned long);
+    auto ReadAsync(void*, int, TAsyncIoClient_BSD*, long);
+    auto Seek(long long);
+    auto SeekAsync(long long);
+    auto ShutdownAsync();
+    auto Skip(long long);
+    auto Write(void*, unsigned long);
     ~TFileBSD();
 };

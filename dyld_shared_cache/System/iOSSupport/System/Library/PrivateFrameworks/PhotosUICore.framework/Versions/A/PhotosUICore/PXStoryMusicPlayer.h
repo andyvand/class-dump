@@ -130,29 +130,30 @@
 - (void);
 - (void);
 - (long long);
-- (void);
-- (void);
 - (long long);
 - (id);
+- (void);
+- (void);
 - (CDStruct_1b6d18a9);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (void)P'f;
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)!ØDùÑzÐ1b0@ù
+- (float);
+- (id)!4FùH°1â
+0@ù
 × ;
-- (float)electionLimit;
-- (CDStruct_1b6d18a9)mat;
-- (id)playLink cannot be created for the given DisplayRef.;
-- (void)1x;
-- (void)À;
+- (id)xtView"16;
+- (CDStruct_1b6d18a9)Transition: /* Error: Ran out of types for this method. */;
+- (id)nnerActionTitle;
+- (void)ltSlideDuration;
+- (void)uÆ	ÿ;
+- (id)3;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAudioCueSource> audioCueSource;

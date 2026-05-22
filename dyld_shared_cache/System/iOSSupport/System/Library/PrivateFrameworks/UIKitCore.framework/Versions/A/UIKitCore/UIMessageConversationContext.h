@@ -14,7 +14,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)ectViews;
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool isJunk; // @synthesize isJunk=_isJunk;

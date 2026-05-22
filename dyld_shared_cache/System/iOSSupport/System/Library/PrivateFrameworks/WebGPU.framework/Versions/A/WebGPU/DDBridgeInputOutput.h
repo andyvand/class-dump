@@ -8,19 +8,19 @@
 
 @interface DDBridgeInputOutput
 {
-    int type;
+    long long type;
     void name;
 }
 
 - (id);
+- (id);
+- (id);
+- (long long);
 - (void);
-- (id);
-- (id);
-- (int);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) int type; // @synthesize type;
+@property(nonatomic, readonly) long long type; // @synthesize type;
 
 @end
 

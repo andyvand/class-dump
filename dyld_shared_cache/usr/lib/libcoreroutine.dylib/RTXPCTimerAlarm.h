@@ -18,7 +18,7 @@
 
 - (_Bool);
 - (_Bool);
-- (void)T;
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -27,21 +27,21 @@
 - (void);
 - (void);
 - (id);
-- (void)se;
-- (void);
-- (void);
-- (void);
 - (id);
+- (_Bool);
 - (void);
-- (void)ssageConnectionIfNeeded;
+- (void);
 - (unsigned long long);
 - (void);
-- (id)C;
 - (void);
-- (id)elayedLocationRequester",&,N,V_delayedLocationRequester;
-- (void)DestinationETAUpdateStateNominalTravelTimeDifferenceKey;
-- (CDUnknownBlockType)liage;
-- (_Bool)ntManager adjusted elevation for %lu locations;
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (id);
+- (id);
+- (void)n result, %@;
+- (void)s from store, error, %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;

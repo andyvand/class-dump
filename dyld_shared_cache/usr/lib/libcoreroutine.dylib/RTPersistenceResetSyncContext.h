@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id)ountManager initWithAccountStore:lifecycleManager:defaultsManager:] /* Error: Ran out of types for this method. */;
+- (void);
+- (id)EqualityEpsilon, %.3f, confidenceThreshold, %.3f, contextCandidateAmountThreshold, %lu,             contextDistanceThreshold, %.3f, minimumConfidenceRatio, %.3f, minimumNumberPOIs, %lu, passthroughThreshold, %.3f, placeholderWeight, %.3f, revGeoConfidence, %.3f,             sigma, %.3f, weekThreshold, %lu;
+- (void)@;
+- (id)ÿÅ9;
+- (void);
 
 // Remaining properties
 @property(retain) NSUUID *currentDeviceIdentifier; // @synthesize currentDeviceIdentifier=_currentDeviceIdentifier;

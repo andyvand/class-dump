@@ -14,19 +14,19 @@
     NSArray *_participants;
 }
 
-+ (_Bool)ice;
++ (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (void)ô;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *currentAccessoryUniqueIdentifier; // @synthesize currentAccessoryUniqueIdentifier=_currentAccessoryUniqueIdentifier;

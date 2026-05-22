@@ -12,10 +12,10 @@
 
 - (double);
 - (id);
-- (double);
-- (id)pe: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)state, %lu, destination, %@;
+- (id);
+- (double);
+- (id)ter not satisfying:(id)arg1 self.queue (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double distanceThreshold; // @synthesize distanceThreshold=_distanceThreshold;

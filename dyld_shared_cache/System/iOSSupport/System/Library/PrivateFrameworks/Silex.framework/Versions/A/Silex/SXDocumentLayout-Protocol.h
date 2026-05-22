@@ -5,7 +5,8 @@
 //
 
 @protocol SXDocumentLayout
-- (unsigned long long)ple.news.webcontent;
+- (unsigned long long)ovider: /* Error: Ran out of types for this method. */;
+- (long long)s;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long columns;

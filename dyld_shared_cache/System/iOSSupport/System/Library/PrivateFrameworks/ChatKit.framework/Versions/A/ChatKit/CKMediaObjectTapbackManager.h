@@ -16,20 +16,22 @@
     id <CKPhotoGridTapbackPileDelegate> _photoGridTapbackPileDelegate;
 }
 
-- (id)t",&,N,V_leadingConstraint;
+- (id);
 - (void);
-- (void);
 - (void);
-- (void)ing;
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)countOfDrawingsNeedingConversionInNote %@;
-- (Class)ustom password while not currently authenticating;
+- (_Bool);
+- (Class);
 - (id);
-- (void)?;
-- (id)p};
-- (void);
+- (id)ý°!¼Gùñ1Â0@ù
+× ;
+- (void)ù±1Â0@ù
+× ;
+- (void)$ü;
 
 // Remaining properties
 @property(retain, nonatomic) CKAggregateAttachmentMessagePartChatItem *chatItem; // @synthesize chatItem=_chatItem;

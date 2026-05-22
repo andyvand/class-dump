@@ -16,7 +16,7 @@
 }
 
 + (id);
-+ (_Bool)s;
++ (_Bool);
 - (void);
 - (id);
 - (id);
@@ -25,15 +25,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id)rmsCommon.RotatingIdentifier;
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
 - (void);
 
 // Remaining properties

@@ -17,9 +17,9 @@
 
 + (id);
 - (id);
-- (void);
-- (id);
 - (unsigned long long);
+- (id);
+- (void)Q16@?<v@?@"NSError">24;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

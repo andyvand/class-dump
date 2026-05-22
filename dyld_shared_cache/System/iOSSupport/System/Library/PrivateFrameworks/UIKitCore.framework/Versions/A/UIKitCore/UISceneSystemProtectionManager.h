@@ -9,10 +9,9 @@
     _Bool userAuthenticationEnabled;
 }
 
-- (void)uery:(_Bool)arg1 chatID:services:finishedWithResult: /* Error: Ran out of types for this method. */;
-- (_Bool)tAndControlCharacters;
-- (id)as!FùÇÐ1¢!0@ù
-× ;
+- (void);
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(getter=isUserAuthenticationEnabled) _Bool userAuthenticationEnabled; // @synthesize userAuthenticationEnabled;

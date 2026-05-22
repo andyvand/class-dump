@@ -26,10 +26,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties
@@ -37,6 +37,8 @@
 @property long long cameraPosition; // @dynamic cameraPosition;
 @property unsigned long long captureCount; // @dynamic captureCount;
 @property(getter=isCaptureMode) _Bool captureMode; // @dynamic captureMode;
+@property _Bool continousMode; // @dynamic continousMode;
+@property _Bool continuousMode; // @dynamic continuousMode;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C

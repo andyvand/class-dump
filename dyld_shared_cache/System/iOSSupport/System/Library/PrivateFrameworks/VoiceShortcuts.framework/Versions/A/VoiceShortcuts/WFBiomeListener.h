@@ -16,7 +16,7 @@
     NSMutableDictionary *_seenTransactionIdentifiers;
 }
 
-+ (id);
++ (id)erDefaults",R,N,V_userDefaults;
 - (void);
 - (id);
 - (void);
@@ -29,11 +29,11 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id)s:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

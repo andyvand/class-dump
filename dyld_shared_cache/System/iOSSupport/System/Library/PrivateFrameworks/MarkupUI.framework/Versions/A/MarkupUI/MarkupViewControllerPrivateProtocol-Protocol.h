@@ -8,9 +8,6 @@
 @protocol MarkupViewControllerDelegate;
 
 @protocol MarkupViewControllerPrivateProtocol
-- (void);
-- (void);
-- (PDFDocument *)Express;
 
 // Remaining properties
 @property(readonly) struct CGSize adjustedSourceImageSize;

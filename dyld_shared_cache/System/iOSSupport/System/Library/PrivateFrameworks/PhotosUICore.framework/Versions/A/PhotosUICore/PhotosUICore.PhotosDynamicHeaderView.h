@@ -20,14 +20,15 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
 - (void);
 - (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (_Bool)Ùì;
+- (id)0@ù
+× ;
+- (_Bool);
+- (void)AccessibilityViewModifier;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canUnloadWhenInvisible;

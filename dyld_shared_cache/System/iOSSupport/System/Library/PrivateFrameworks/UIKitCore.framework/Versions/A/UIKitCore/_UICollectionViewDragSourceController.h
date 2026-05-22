@@ -17,72 +17,71 @@ __attribute__((visibility("hidden")))
     _UICollectionViewDragSourceControllerDragState *_dragState;
 }
 
-+ (id)release;
++ (id)Ä·þ;
+- (void);
+- (id);
+- (void);
+- (id);
+- (long long);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id)lu of %zu with byteLength %u and offset %s:%llu has signature %{public}s /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
-- (void)iceCommand;
-- (void)ingType:(id)arg1;
-- (void)ArtworkLoadingContext;
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id)q;
-- (id);
-- (void)Óº;
-- (id);
-- (long long)0º;
-- (_Bool)!ìFùQÆÐ1¢!0@ù
+- (void)!@ù1c°1Â0@ù
 × ;
-- (_Bool)¡tÐ!¸FùÑÈÐ1¢!0@ù
+- (_Bool)
 × ;
-- (_Bool)avigationController"16;
-- (id)pover: /* Error: Ran out of types for this method. */;
-- (_Bool)cene:didFailToContinueUserActivityWithType:error: /* Error: Ran out of types for this method. */;
-- (id)gingIdentifier;
-- (id)omLayoutAttributes:toLayoutAttributes:progress: /* Error: Ran out of types for this method. */;
-- (void)or;
-- (id)PreferredByItself;
-- (id),&,N,V_platterView;
-- (id)ob;
-- (void)",R,N,V_arrangedScrollableHeaderViews;
-- (void)N,G_isDimmingAlwaysVisible;
-- (id)mRotor;
-- (id)$xLTØD¨¬Ô ;
-- (void)¸4èX$ä"x#Ô#`$l(x);
-- (void)´àhØè	0
-ØT
-ü;
-- (void)4Þ0áäá(â¨âãèã<äøå;
-- (_Bool)<;
-- (id)çÇmLçÇgmdçÇ$jm çÇ¨mèÇèÄmèÇ0Úm8èÇÄámXèÇðãmlèÇ¨ëmèÇdôm èÇÈnÌèÇô~n0éÇ°n@éÇ0ìnPéÇ¤øn|éÇ ÿnéÇoPêÇo`êÇJoêÇ\oëÇäyotëÇ<o ëÇ¸GpèìÇ4píÇÀäp(íÇq\íÇ4qîÇq<îÇølr<ïÇxsrÈïÇÄÌrÜïÇDsôïÇÈs@ðÇl4sXðÇ(DsxðÇh~s°ðÇÃsÐðÇøåsäðÇ´<tdñÇÐ@tÌñÇdEtòÇ^tlòÇ¶tÐòÇîtðòÇàøtóÇàútDóÇtuóÇlQu¬óÇðuÀóÇ ±uÔóÇDÖuDôÇ<ãuöÇôçu,öÇð;vöÇPCv¨öÇ,OvèöÇÔRvüöÇÀfv÷Ç~v0÷Çìvd÷Çªv|÷Ç @w@øÇ$ÀwxøÇ¤;xøÇ4KxÜøÇÄZx;
-- (void)*;
-- (_Bool);
-- (id)ved internal userInfo file, deleting existing file if it exists:%@ /* Error: Ran out of types for this method. */;
-- (id):(id)arg1 %@;
-- (void)Jüÿ;
-- (id)ÄIþÿÂIþÿÁþÿn´þÿ|ìþÿÁþÿ;
-- (void);
-- (void)must be visible to be focusable.;
-- (void)der using fewer sections.;
-- (id)ter.png;
-- (void)ueEmoji;
-- (long long)@"_UICollectionViewPrefetchItem"16^B24;
-- (id)pplyQueue != nil;
+- (void)±e1Â0@ù
+× ;
 - (id);
-- (long long)¡;
-- (void)Ôæ[;
-- (void)Áÿ;
-- (id)¸^;
-- (void)'à_;
-- (_Bool)È;
-- (long long);
-- (void)ìúÍë&d;
+- (long long)t"b1"pagingUp"b1"pagingDown"b1"lastHorizontalDirection"b1"lastVerticalDirection"b1"dontScrollToTop"b1"scrollingToTop"b1"scrollingDirectionalPress"b1"singleFingerPan"b1"autoscrolling"b1"automaticContentOffsetAdjustmentDisabled"b1"animateAutomaticContentOffsetAdjustments"b1"skipStartOffsetAdjustment"b1"delegateScrollViewDidScroll"b1"delegateScrollViewDidZoom"b1"delegateContentSizeForZoomScale"b1"delegateScrollViewDidChangeContentSize"b1"delegateScrollViewDidChangeAdjustedContentInset"b1"delegateWasNonNil"b1"preserveCenterDuringRotation"b1"delaysTrackingWhileDecelerating"b1"avoidJumpOnInterruptedBounceWithDelayedTrackingWhileDecelerating"b1"pinnedZoomMin"b1"pinnedXMin"b1"pinnedYMin"b1"pinnedXMax"b1"pinnedYMax"b1"staysCenteredDuringPinch"b1"wasDelayingPinchForSystemGestures"b1"disableContentOffsetRounding"b1"alwaysDisableContentOffsetRounding"b1"adjustedDecelerationTargetX"b1"adjustedDecelerationTargetY"b1"hasScrolled"b1"wantsConstrainedContentSize"b1"constrainedContentSizeNeedsUpdate"b1"updateInsetBottom"b1"beingDraggedByChildScrollView"b1"adjustsTargetsOnContentOffsetChanges"b1"skipsContentOffsetAdjustmentsIfScrolling"b1"forwardsTouchesUpResponderChain"b1"firstResponderKeyboardAvoidanceDisabled"b1"hasGradientMaskView"b1"configureForObservingByTVSearchController"b1"interruptingDeceleration"b1"delegateScrollViewAdjustedOffset"b1"delegateAsynchronouslyHandleScrollEvent"b1"inSetContentOffset"b1"canSkipTraitsAndOverlayUpdatesForViewControllerToNotifyOnLayout"b1"needToIncrementScrollBounceStatistic"b1"didSetContentSizeAtLeastOnce"b1"forcingPanGestureToEndImmediately"b1"applicationHasExplicitlySetBounces"b1"applyVerticalSafeAreaInsetsToNonscrollingContent"b1"topScrollIndicatorFollowsContentOffset"b1"verticalScrollIndicatorUsesAlternativeTopSafeAreaInset"b1"systemInsetAdjustmentSumValid"b1"allowsKeyboardScrolling"b2"autoScrollDisabled"b1"contentScrollsAlongXAxis"b2"contentScrollsAlongYAxis"b2"indicatorInsetAdjustmentBehavior"b2"observingBoundingPathChanges"b1"resetsBoundingPathForSubtree"b1"scrubbing"b4"defersScrollerUpdate"b1"scrubbingKnobWithOption"b1"waitingForMacPagingScrollTimer"b1"registeredScrollviewTrackingAdapter"b1"retargetScrollDynamicsBasedDeceleration"b1"alwaysAppliesKeyboardBottomInsetAdjustment"b1"shouldAdjustLayoutToCollapseTopSpacing"b1"shouldAdjustLayoutToDrawTopSeparator"b1"focusFastScrollingDisabled"b1"supportsPointerDragScrolling"b1"needsLayoutOnVisibleBoundsChange"b1"needsUsesStaticScrollBarUpdate"b1"shouldContentOffsetAlwaysIgnoreSafeAreaInsetsChange"b1"shouldPreventFocusScrollPastContentSize"b1"wantsShadowWhenContentIsScrolled"b1"disableScrollViewTrackingRegistration"b1"allowsAsyncScrollEvent"b1"clientDidSetShowsVerticalScrollIndicator"b1"clientDidSetShowsHorizontalScrollIndicator"b1"preventsDescendentGestureInteraction"I};
+- (id)32@0:8@16B24B28 /* Error: Ran out of types for this method. */;
+- (void);
+- (void)orRightSide: /* Error: Ran out of types for this method. */;
+- (id)tyForPosition: /* Error: Ran out of types for this method. */;
+- (void)tFieldViewControllerViewLeftConstraint;
+- (id)onalSelectionInsets:(id)arg1;
+- (_Bool)tSearch;
+- (void)h;
+- (id);
+- (id)FocusSystem;
+- (_Bool)rverInteraction",&,N,V_appearanceObserverInteraction;
+- (void)mpletion;
+- (void)SwipeGestureRecognizer;
+- (void)vailableSpace:(id)arg1;
+- (id)sories:(id)arg1;
+- (void)ation2:(id)arg1;
+- (void)UIFocusEffectManager;
+- (id)0òódù;
+- (long long)¸;
+- (void)ow setDelegate:(id)arg1 ] no longer supports non-UIViewControllers. The delegate should always be the window's rootViewController. Window:(id)arg2 %@, delegate:(unsigned long long)arg3 %@;
+- (id)ted by the system. Call UIApplication.endBackgroundTask(_:(id)arg1 ) to avoid this.;
+- (id)cified flexible edge spacing along primary layout axis; flexible spacing will be ignored but any required spacing will be applied.;
+- (void)chBar in navigation palette. This is a UIKit bug.;
+- (id);
+- (id)»îÿ"þÿ;
+- (id)policy cache:Failed to find the container path for Safari. /* Error: Ran out of types for this method. */;
+- (void)(%@) that is not a windowScene;
+- (_Bool)ngInteractionEvents];
+- (id)ess_FIELD_SEARCH_TERMS;
+- (void)trolDelete;
+- (_Bool)ne;
+- (void)is unavailable.;
+- (id)LOCK call stacks;
+- (void)BehaviorOutsideWindow;
+- (_Bool)KeyWindow;
+- (id)ntentGuide;
+- (void)þ;
+- (void)istMetricsCellMetrics;
+- (id);
+- (void)Â];
+- (long long)¸JÿMê;
+- (id)îâþ;
+- (void)D.d;
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

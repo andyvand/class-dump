@@ -28,23 +28,23 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
 - (long long);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void);
 - (_Bool);
-- (void): /* Error: Ran out of types for this method. */;
-- (void)ToDescriptor:(_Bool)arg1;
+- (void);
+- (void);
+- (_Bool);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;

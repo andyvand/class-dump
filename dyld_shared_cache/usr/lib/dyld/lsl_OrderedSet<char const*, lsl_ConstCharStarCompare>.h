@@ -4,6 +4,6 @@
 
 class lsl::OrderedSet<char const*, lsl::ConstCharStarCompare> {
 public: // (access info unavailable from symbols alone)
-    insert(char const* const&);
-    insert(char const*&&);
+    auto insert(char const* const&);
+    auto insert(char const*&&);
 };

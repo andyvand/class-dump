@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#pragma mark Function Pointers
+#pragma mark Function Pointers and Blocks
 
 typedef void (*CDUnknownFunctionPointerType)(void); // return type and parameters are unknown
+
+typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
 
 #pragma mark Named Structures
 
@@ -51,6 +53,8 @@ struct UARPVersion {
     unsigned int _field3;
     unsigned int _field4;
 };
+
+struct __CFString;
 
 struct uarpDataRequestObj {
     unsigned int _field1;
@@ -172,4 +176,15 @@ struct uarpPlatformRemoteEndpoint;
 struct uarpProcessedPayloadObj;
 
 struct uarpProcessedTLV;
+
+#pragma mark Typedef'd Structures
+
+typedef struct {
+    unsigned int _field1;
+    unsigned int _field2;
+    unsigned long long _field3;
+    unsigned long long _field4;
+    struct __CFString *_field5;
+    struct __CFString *_field6;
+} CDStruct_5f936dbf;
 

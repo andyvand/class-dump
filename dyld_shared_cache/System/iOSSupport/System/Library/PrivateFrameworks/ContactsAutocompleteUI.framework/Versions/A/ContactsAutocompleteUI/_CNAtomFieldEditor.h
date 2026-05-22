@@ -14,9 +14,6 @@
 - (id);
 - (id);
 - (id);
-- (void)z;
-- (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
@@ -24,6 +21,9 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
 
 @end

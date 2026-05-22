@@ -23,14 +23,14 @@
 }
 
 + (unsigned long long);
-- (double)changed:%{public}@ /* Error: Ran out of types for this method. */;
-- (double)y:) /* Error: Ran out of types for this method. */;
-- (void)https:(double)arg1 //test.books-edge.news.apple.com/v1/configs;
+- (double);
+- (double);
 - (void);
-- (void)S_;
+- (void);
+- (void);
 - (_Bool);
 - (id);
-- (id)C@9@C;
+- (id);
 - (struct CGRect);
 - (void);
 - (_Bool);
@@ -43,16 +43,16 @@
 - (void);
 - (unsigned long long);
 - (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)reInitialDetectionItemsForStatistics:(id)arg1;
+- (void)ing;
 - (void);
-- (void);
-- (void);
-- (void)encySet>"32@0:8@"MTLResidencySetDescriptor"16^@24 /* Error: Ran out of types for this method. */;
-- (void)l;
-- (id)ing;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long activeInputProperties; // @synthesize activeInputProperties=_activeInputProperties;

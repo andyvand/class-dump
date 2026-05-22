@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id)°7¤ÿÃIwø5;
+- (id)ectionsDataSource",&,N,V_collectionsDataSource;
 
 @end
 

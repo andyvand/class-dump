@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)mpletion: /* Error: Ran out of types for this method. */;
-- (id)shEncoding;
-- (id)tedSpeculativeTransferGUID: /* Error: Ran out of types for this method. */;
-- (id)t: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)ChangeTag;
-- (void)ccountWithUniqueID: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct CGPoint);
+- (void);
 - (struct CGPoint);
 - (struct CGPoint);
 - (double);
@@ -25,24 +25,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (double)H;
+- (double);
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct UIEdgeInsets);
-- (struct CGPoint)ed:%f /* Error: Ran out of types for this method. */;
-- (struct CGPoint)r not available;
-- (id)notification or changed keys was empty:%s /* Error: Ran out of types for this method. */;
-- (id)d.;
-- (id)ddedMembersLocally conversation:%@ member:%@ /* Error: Ran out of types for this method. */;
-- (id)UUID %@ for conversation %@;
-- (struct CGPoint)eceivedRelayFailure;
-- (struct CGPoint)ciept Message;
-- (id)sages.iMessageReceivedMarkUnreadRequest;
+- (struct CGPoint);
+- (struct CGPoint);
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct CGPoint);
+- (struct CGPoint);
+- (id);
 - (void);
 - (id);
-- (double)tion: /* Error: Ran out of types for this method. */;
-- (id)nAdjustmentsFromCoder:prefix: /* Error: Ran out of types for this method. */;
-- (id)<$;
+- (id);
+- (id)0@ù
+× ;
+- (double)<_UIAlertActionMutablePropertyObservering>",S_setInterfaceActionRepresentation:,V__interfaceActionRepresentation /* Error: Ran out of types for this method. */;
 
 @end
 

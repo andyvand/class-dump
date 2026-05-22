@@ -12,15 +12,15 @@
     NSDate *_lastModificationDate;
 }
 
-+ (id)t9¸9=Ø?ADDDFdK;
-+ (_Bool)x;
++ (id);
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (_Bool)pleted a step in staged CHIP accessory pairing with response staging request UUID:%@, device credential:%@, WiFi scan results:%@, Thread scan results:%@, pairing identifier:%@, device pairing UUID:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)ð	;
 
 // Remaining properties
 @property(readonly, copy) NSData *data; // @synthesize data=_data;

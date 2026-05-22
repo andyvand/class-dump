@@ -68,30 +68,30 @@
 - (void);
 - (id);
 - (id);
+- (long long);
+- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (id);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType){ð1b0@ù
+- (long long)
 × ;
-- (long long);
-- (id)4@?32;
-- (void)hä;
-- (void);
-- (void)öêÿ;
-- (void)o playback due to play button tap;
-- (void)y asset is nil:(CDUnknownBlockType)arg1 %{public}@;
-- (long long)nadeMockBookmarksDataSource;
-- (id);
-- (void);
+- (id)XAssetCollectionActionPerformer";
+- (id)Controller";
+- (void)DetailsFromArray:(id)arg1 toArray:changedObjects:objectComparator: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)rCounts;
+- (void)FeedConfiguration;
+- (long long)lÖ7;
+- (void)X]8;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityTitle; // @synthesize accessibilityTitle=_accessibilityTitle;

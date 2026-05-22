@@ -13,11 +13,10 @@
     MISSING_TYPE *promptComposeView;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void)ÄÐ1¢!0@ù
-× ;
+- (void)çÒTzl;
 
 @end
 

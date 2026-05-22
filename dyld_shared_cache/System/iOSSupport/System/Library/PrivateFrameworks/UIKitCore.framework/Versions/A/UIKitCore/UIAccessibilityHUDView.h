@@ -20,26 +20,26 @@
     UIView *_customView;
 }
 
-+ (struct CGSize)ting, old %@ new %@;
++ (struct CGSize);
 - (void);
-- (id)a detonated message for guid:%@ /* Error: Ran out of types for this method. */;
-- (id)ng production container %@;
-- (struct UIEdgeInsets)a Tag %@;
-- (id)ignoring;
-- (void);
-- (void)/;
-- (id);
-- (void);
-- (void)A;
-- (void)!@FùÃÐ1¢!0@ù
-× ;
-- (void)Rotate:(id)arg1;
-- (id)´;
 - (id);
-- (struct CGSize)¤g;
-- (id)îj;
-- (id)´p;
-- (id)q;
+- (id);
+- (struct UIEdgeInsets);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (struct CGSize);
+- (void);
+- (void);
+- (id)Á!Aù±\°1Â0@ù
+× ;
+- (id)(Ò;
+- (void)N;
+- (id);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) UIAccessibilityHUDItem *item; // @synthesize item=_item;

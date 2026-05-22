@@ -5,6 +5,5 @@
 //
 
 @protocol _UIViewServiceProxy_ReplyAwaiting
-- (id);
 @end
 

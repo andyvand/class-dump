@@ -23,8 +23,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)eGroup;
 
 @end
 

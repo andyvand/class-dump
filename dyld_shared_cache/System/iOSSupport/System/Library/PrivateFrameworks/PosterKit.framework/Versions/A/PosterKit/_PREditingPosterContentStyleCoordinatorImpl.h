@@ -29,10 +29,12 @@
 - (void);
 - (double);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
+- (id)¨Ð!È@ù±ñ°1â
+0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) double contentsLuminance; // @synthesize contentsLuminance=_contentsLuminance;

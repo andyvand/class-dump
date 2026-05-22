@@ -7,9 +7,6 @@
 @class NSString;
 
 @protocol SXComponentAnchor
-- (NSString *);
-- (struct _NSRange)Ñ£°1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long originAnchorPosition;

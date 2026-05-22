@@ -7,14 +7,7 @@
 @class CKServerChangeToken, NSArray, NSDate;
 
 @protocol SCKZoneStore
-- (void);
-- (NSArray *);
-- (void)ssiveEventListenModeEventDelay;
-- (void)4;
-- (void)h;
-- (NSDate *)!pBù1¢!0@ù
-× ;
-- (NSDate *)eStockChartData: /* Error: Ran out of types for this method. */;
+- (CKServerChangeToken *)iew;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *lastDirtyDate;

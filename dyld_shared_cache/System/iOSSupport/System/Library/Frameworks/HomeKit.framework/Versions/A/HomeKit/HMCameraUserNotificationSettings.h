@@ -15,8 +15,8 @@
     NSPredicate *_smartBulletinBoardNotificationCondition;
 }
 
-+ (id)ðidjÔjìl müm¼oDp´ptrürXspu8vôv;
-+ (_Bool)nditions;
++ (id);
++ (_Bool);
 - (id);
 - (void);
 - (void);
@@ -25,20 +25,20 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id);
 - (long long);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
-- (id)ID",R,C,V_homeIdentifier;
-- (id)nfo:%@ delegate:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(getter=isAccessModeChangeNotificationEnabled) _Bool accessModeChangeNotificationEnabled; // @synthesize accessModeChangeNotificationEnabled=_accessModeChangeNotificationEnabled;

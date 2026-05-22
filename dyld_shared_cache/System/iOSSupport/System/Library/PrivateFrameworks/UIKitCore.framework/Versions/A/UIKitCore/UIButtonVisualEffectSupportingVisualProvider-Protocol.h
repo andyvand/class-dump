@@ -5,7 +5,6 @@
 //
 
 @protocol UIButtonVisualEffectSupportingVisualProvider
-- (void)title:(_Bool)arg1;
-- (void)nge"32;
+- (void)ViewMockPinchGestureRecognizer or UIScrollViewPanGestureRecognizer;
 @end
 

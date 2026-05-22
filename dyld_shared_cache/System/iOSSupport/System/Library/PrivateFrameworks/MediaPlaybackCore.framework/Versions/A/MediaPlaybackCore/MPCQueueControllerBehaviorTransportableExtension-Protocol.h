@@ -7,7 +7,6 @@
 @protocol MPCQueueControllerSessionTypesInvalidatable;
 
 @protocol MPCQueueControllerBehaviorTransportableExtension
-- (id <MPCQueueControllerSessionTypesInvalidatable>);
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <MPCQueueControllerSessionTypesInvalidatable> sessionTypesInvalidatable;

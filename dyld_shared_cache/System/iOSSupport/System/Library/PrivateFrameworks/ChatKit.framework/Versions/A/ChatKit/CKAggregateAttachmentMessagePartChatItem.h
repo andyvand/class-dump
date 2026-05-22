@@ -25,11 +25,11 @@
 - (struct UIEdgeInsets);
 - (void);
 - (void);
-- (void)Metadata;
-- (void)ing error:(id)arg1 %@;
-- (void)wrapper:(id)arg1 %@;
-- (id)lyticsAudioTranscriptInteractionNotificationSummaryViewedKey;
-- (id)from web archive;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (struct CGSize);
 - (id);
 - (_Bool);
@@ -44,14 +44,14 @@
 - (id);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
 - (Class);
 - (void);
-- (_Bool);
-- (_Bool);
-- (unsigned long long)rval:repeats:block: /* Error: Ran out of types for this method. */;
-- (void)sfer:(id)arg1;
-- (_Bool)®y"Ô®-Ó­y7[®yÇ­AEy¹Ì­yAEyAG_-Í­AGtGG_*­y¤Z®yAHyAEyAI_AgItGGGÂ­yË­SgGGtGÑ­G_>w>AFyAgEyO®yAG2w>G_AZyAG.w>GAZyAG+w>GAZyAG(w>GAZyAG%w>GAZyAG"w>GAZyAGw>GtGAWGAFyAgZyAGw>GAWGAFyAgEyAZyAGw>G_A19_A19_A19_A19_A19_A19_tGAWGêv>tGG_Qo__Qo__!S®y_S®y_+N®yytkW®yAMyAGG_Qo_GQo_Qo_Qo__Qo_G_{Y®yAGÛÊ­GQo_;
-- (id)TE_ATTACHMENTS;
+- (unsigned long long)plete:animated: /* Error: Ran out of types for this method. */;
+- (void)PzÂÿ ;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *aggregateChatItems; // @synthesize aggregateChatItems=_aggregateChatItems;

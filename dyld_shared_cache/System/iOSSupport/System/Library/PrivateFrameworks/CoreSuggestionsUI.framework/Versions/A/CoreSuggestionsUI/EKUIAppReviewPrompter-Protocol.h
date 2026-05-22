@@ -5,5 +5,8 @@
 //
 
 @protocol EKUIAppReviewPrompter
+
+@optional
+- (void);
 @end
 

@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (void);
 - (long long);
 - (id);
-- (void)gate;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long viewMode;

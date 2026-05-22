@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void)n.z;
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *hostNames; // @synthesize hostNames=_hostNames;

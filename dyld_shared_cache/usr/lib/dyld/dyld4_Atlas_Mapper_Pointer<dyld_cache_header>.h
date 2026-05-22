@@ -4,5 +4,5 @@
 
 class dyld4::Atlas::Mapper::Pointer<dyld_cache_header> {
 public: // (access info unavailable from symbols alone)
-    swap(dyld4::Atlas::Mapper::Pointer<dyld_cache_header>&);
+    auto swap(dyld4::Atlas::Mapper::Pointer<dyld_cache_header>&);
 };

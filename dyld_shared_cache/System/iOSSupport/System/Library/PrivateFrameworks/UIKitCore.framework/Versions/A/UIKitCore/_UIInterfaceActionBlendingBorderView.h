@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)lay from:(unsigned long long)arg1 %@ to:(double)arg2 %@, micIsOn:%@ /* Error: Ran out of types for this method. */;
-+ (_Bool)gedID siblings;
++ (id);
++ (_Bool);
 
 @end
 

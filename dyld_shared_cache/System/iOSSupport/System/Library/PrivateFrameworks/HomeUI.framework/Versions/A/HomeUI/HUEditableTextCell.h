@@ -14,12 +14,12 @@
 
 - (void);
 - (id);
+- (void);
 - (id);
+- (void)llectionViewContentSize;
+- (void)UCameraActivityZoneInclusionZoneText;
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (_Bool)fierInstructions;
-- (void)7;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

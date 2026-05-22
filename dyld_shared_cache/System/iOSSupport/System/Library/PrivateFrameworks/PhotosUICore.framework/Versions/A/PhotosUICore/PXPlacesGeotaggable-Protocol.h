@@ -5,7 +5,5 @@
 //
 
 @protocol PXPlacesGeotaggable
-- (struct CLLocationCoordinate2D)_;
-- (long long)#_TZtc;
 @end
 

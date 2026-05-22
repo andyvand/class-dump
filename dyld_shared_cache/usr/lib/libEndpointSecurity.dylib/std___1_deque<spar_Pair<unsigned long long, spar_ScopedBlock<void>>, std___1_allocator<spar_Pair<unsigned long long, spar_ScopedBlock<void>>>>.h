@@ -4,5 +4,5 @@
 
 class std::__1::deque<spar::Pair<unsigned long long, spar::ScopedBlock<void>>, std::__1::allocator<spar::Pair<unsigned long long, spar::ScopedBlock<void>>>> {
 public: // (access info unavailable from symbols alone)
-    __add_back_capacity();
+    auto __add_back_capacity();
 };

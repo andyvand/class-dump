@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (id)UpdateLibraryItems: /* Error: Ran out of types for this method. */;
++ (id)ValidatorConfiguration";
 - (id);
 
 @end

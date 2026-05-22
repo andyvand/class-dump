@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UISearchController;
-
 @protocol UISearchControllerDelegate
 
 @optional
 - (void);
-- (void)0:(UISearchController *)arg1 8@"<TSLocalDraftsDelegate>"16;
+- (void)Model;
 @end
 

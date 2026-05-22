@@ -4,14 +4,14 @@
 
 // Global C++ functions
 
-__serviceCallback(void*, unsigned int);
 acipcAERErrorTypeStrings;
 acipcBTIRegistersStrings;
 acipcDirectionStrings;
 acipcErrorTypeStrings;
 acipcLinkStateStrings;
-getACIPCAERErrorTypeString(acipcAERErrorType);
-getACIPCBTIRegistersString(acipcBTIRegisters);
-getACIPCDirectionString(acipcDirection);
-getACIPCErrorTypeString(acipcErrorType);
-getACIPCLinkStateString(acipcLinkState);
+auto __serviceCallback(void*, unsigned int);
+auto getACIPCAERErrorTypeString(acipcAERErrorType);
+auto getACIPCBTIRegistersString(acipcBTIRegisters);
+auto getACIPCDirectionString(acipcDirection);
+auto getACIPCErrorTypeString(acipcErrorType);
+auto getACIPCLinkStateString(acipcLinkState);

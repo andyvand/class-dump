@@ -12,16 +12,16 @@
     NSError *_error;
 }
 
-+ (_Bool)S;
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)4;
 
 // Remaining properties
 @property(retain, nonatomic) NSError *error; // @synthesize error=_error;

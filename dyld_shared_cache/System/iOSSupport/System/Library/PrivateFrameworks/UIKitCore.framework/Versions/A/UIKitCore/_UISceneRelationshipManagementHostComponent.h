@@ -20,12 +20,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)er"124@"NSDictionary"132@"NSDictionary"140@"NSArray"148@"NSDictionary"156@"NSString"164@"NSString"172@"NSString"180@"NSString"188@"IDSService"196@204B212B216B220B224B228q232q240@?<v@?>248;
-- (void)tensionUpdated:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void)torViewLayout";
+- (void)etURL:(id)arg1 suggestedActions: /* Error: Ran out of types for this method. */;
+- (void)gController;
+- (void)v8r^Q1624^B56;
+- (void)roughStyleAttribute;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,22 +13,22 @@
     int _version;
 }
 
-- (int);
+- (int);
+- (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void)ut settings.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

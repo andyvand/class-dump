@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIMenu;
+@class UIEditMenuConfiguration, UIEditMenuInteraction, UIMenu;
 
 @protocol UIEditMenuInteractionDelegate
 
 @optional
+- (void)formatString;
+- (void)nt1:(UIEditMenuInteraction *)arg1 controlPoint2:(UIEditMenuConfiguration *)arg2;
 - (UIMenu *);
+- (struct CGRect)´;
 @end
 

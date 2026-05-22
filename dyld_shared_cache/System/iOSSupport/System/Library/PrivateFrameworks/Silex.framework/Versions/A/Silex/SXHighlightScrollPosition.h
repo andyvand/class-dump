@@ -15,13 +15,12 @@
 
 + (_Bool);
 - (id);
-- (void);
-- (void);
-- (id)=;
 - (id);
 - (id);
-- (id)°!FùÑ£ð1¢!0@ù
-× ;
+- (id);
+- (void);
+- (id);
+- (void)erator";
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;

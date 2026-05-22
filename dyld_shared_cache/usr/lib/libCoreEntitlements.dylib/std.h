@@ -4,5 +4,5 @@
 
 class std {
 public: // (access info unavailable from symbols alone)
-    __throw_bad_array_new_length[abi:ne200100]();
+    auto __throw_bad_array_new_length[abi:nqe210106]();
 };

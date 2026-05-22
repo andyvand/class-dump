@@ -7,6 +7,7 @@
 @class GEOMapItemPhotosAttribution, NSDate, NSString, NSURL;
 
 @protocol GEOMapItemPhoto
+- (NSString *)ration;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapItemPhotosAttribution *attribution;
@@ -16,6 +17,10 @@
 @property(readonly, nonatomic) NSString *caption;
 @property(readonly, nonatomic) NSDate *dateCreated;
 @property(readonly, nonatomic) _Bool displayFullScreenPhotoGallery;
+@property(readonly, nonatomic) NSString *firstPhotoUrl;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,N
+
 @property(readonly, nonatomic) _Bool highQuality;
 @property(readonly, nonatomic) _Bool isBackgroundJoeColorCurated;
 @property(readonly, nonatomic) NSString *licenseDescription;

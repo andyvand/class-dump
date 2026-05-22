@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<err_save_state_st, bssl::internal::Deleter> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](err_save_state_st*);
+    auto reset[abi:nqe210106](err_save_state_st*);
 };

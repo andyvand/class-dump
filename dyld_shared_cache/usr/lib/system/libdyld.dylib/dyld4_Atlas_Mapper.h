@@ -4,16 +4,16 @@
 
 class dyld4::Atlas::Mapper {
 public: // (access info unavailable from symbols alone)
-    map(dyld4::Atlas::SafePointer, unsigned long long) const;
-    map(dyld4::Atlas::SafePointer, unsigned long long) const (.cold.1);
-    mapperForMachO(lsl::Allocator&, dyld4::FileRecord&, lsl::UUID const&, dyld4::Atlas::SafePointer);
-    mapperForSharedCache(lsl::Allocator&, dyld4::FileRecord&, dyld4::Atlas::SafePointer);
-    mapperForSharedCacheLocals(lsl::Allocator&, dyld4::FileRecord&);
-    pin();
-    pin() (.cold.1);
-    unmap(dyld4::Atlas::SafePointer, unsigned long long) const;
-    unpin();
-    unpin() (.cold.1);
+    auto map(dyld4::Atlas::SafePointer, unsigned long long) const;
+    auto map(dyld4::Atlas::SafePointer, unsigned long long) const (.cold.1);
+    auto mapperForMachO(lsl::Allocator&, dyld4::FileRecord&, lsl::UUID const&, dyld4::Atlas::SafePointer);
+    auto mapperForSharedCache(lsl::Allocator&, dyld4::FileRecord&, dyld4::Atlas::SafePointer);
+    auto mapperForSharedCacheLocals(lsl::Allocator&, dyld4::FileRecord&);
+    auto pin();
+    auto pin() (.cold.1);
+    auto unmap(dyld4::Atlas::SafePointer, unsigned long long) const;
+    auto unpin();
+    auto unpin() (.cold.1);
     ~Mapper();
     ~Mapper() (.cold.1);
 };

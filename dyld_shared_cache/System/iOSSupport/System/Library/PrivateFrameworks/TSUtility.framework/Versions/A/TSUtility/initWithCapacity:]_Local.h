@@ -4,5 +4,6 @@
 
 class initWithCapacity:]::Local {
 public: // (access info unavailable from symbols alone)
-    IntegerKeyDescription(void const*);
+    -[TSUIntToIntDictionary IntegerKeyDescription(void const*);
+    -[TSUIntegerKeyDictionary IntegerKeyDescription(void const*);
 };

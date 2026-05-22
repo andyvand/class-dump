@@ -40,14 +40,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGSize);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties

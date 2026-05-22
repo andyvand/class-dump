@@ -5,6 +5,6 @@
 class dyld4::DyldCacheDataConstLazyScopedWriter {
 public: // (access info unavailable from symbols alone)
     DyldCacheDataConstLazyScopedWriter(dyld4::RuntimeState&);
-    makeWriteable() const;
+    auto makeWriteable() const;
     ~DyldCacheDataConstLazyScopedWriter();
 };

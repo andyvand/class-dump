@@ -13,10 +13,9 @@
 
 - (id);
 - (id);
-- (void);
-- (id)	
-;
-- (id)Àóÿ;
+- (id);
+- (void)B_HâSÿ;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;

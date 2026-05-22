@@ -18,6 +18,7 @@
     long long _isFiltered;
     NSDictionary *_transcriptBackgroundDetails;
     NSString *_transcriptBackgroundChannelTransferGUID;
+    NSDictionary *_pendingGroupModification;
 }
 
 - (void);
@@ -30,8 +31,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (unsigned long long);
 - (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -41,9 +44,9 @@
 - (id);
 - (void);
 - (id);
-- (long long)A;
 - (id);
-- (void);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;
@@ -52,6 +55,7 @@
 @property(nonatomic) long long isFiltered; // @synthesize isFiltered=_isFiltered;
 @property(retain, nonatomic) NSString *lastAddressedLocalHandle; // @synthesize lastAddressedLocalHandle=_lastAddressedLocalHandle;
 @property(retain, nonatomic) NSString *lastAddressedSIMID; // @synthesize lastAddressedSIMID=_lastAddressedSIMID;
+@property(retain, nonatomic) NSDictionary *pendingGroupModification; // @synthesize pendingGroupModification=_pendingGroupModification;
 @property(nonatomic) unsigned long long pendingIncomingSatelliteMessageCount; // @synthesize pendingIncomingSatelliteMessageCount=_pendingIncomingSatelliteMessageCount;
 @property(retain, nonatomic) NSString *transcriptBackgroundChannelTransferGUID; // @synthesize transcriptBackgroundChannelTransferGUID=_transcriptBackgroundChannelTransferGUID;
 @property(retain, nonatomic) NSDictionary *transcriptBackgroundDetails; // @synthesize transcriptBackgroundDetails=_transcriptBackgroundDetails;

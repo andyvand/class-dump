@@ -5,7 +5,8 @@
 //
 
 @protocol VFXTransactionJSExport
-+ (void);
-+ (void)RelationComponent;
++ (double);
++ (void)leMaxN-X;
++ (void)h;
 @end
 

@@ -4,52 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIEvent, UIImage, UISlider, UISliderDataModel, UITouch, UIView;
+@class NSArray, UIImageView, UISlider, UISliderDataModel, UIView;
 
 @protocol _UISliderVisualElement
-- (struct CGRect)0x%x;
-- (void)trolTextDidEndEditing:(UISlider *)arg1;
+- (void)°!,@ù[°1Â0@ù
+× ;
+- (void)Ð1Â0@ù
+× ;
+- (void)ù1`Ð1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)¡ð!ØDùñað1Â0@ù
+× ;
+- (void)@ùñf°1Â0@ù
+× ;
+- (void)ew";
+- (UISliderDataModel *)iceConnection<BSServiceConnectionHost>"24@"<BSXPCDecoding>"32;
+- (void)@"NSSet"24;
+- (struct UIEdgeInsets)dd}48@?64;
+- (_Bool)ionsToTabBar;
+- (struct CGRect)ions:(struct CGRect)arg1 error:(struct CGRect)arg2;
+- (void)vingSideways:(unsigned long long)arg1;
+- (UIImageView *)orInset;
+- (struct CGRect)oller;
+- (void)T@"UIViewFloatAnimatableProperty",&,N,V_positionTrackingProperty;
+- (struct CGSize)erMac;
+- (void)estureRecognizer;
+- (struct CGRect)Å;
+- (_Bool)calendar:%@; locale:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (struct CGRect)êwîÿìþÿ;
+- (void)s:(float)arg1 %@>;
+- (UIView *)cumentInputMode;
+- (UIImageView *)tLandscapeLeft;
+- (void)redSize;
+- (struct CGRect)¬È;
+- (void)0ïþ;
 - (_Bool);
-- (void);
-- (void)decodeIntegerForKey: /* Error: Ran out of types for this method. */;
-- (struct CGRect)Ͻ;
-- (UIImage *);
-- (UIView *)nð! Fù±ÀÐ1¢!0@ù
-× ;
-- (void)! @ùÑÀ°1¢!0@ù
-× ;
-- (void)ñÄ°1¢!0@ù
-× ;
-- (struct CGRect);
-- (void)!FùÍÐ1¢!0@ù
-× ;
-- (void)ler"b1};
-- (_Bool)"UITextInputTraits">16B24;
-- (UISliderDataModel *)ostingHandle: /* Error: Ran out of types for this method. */;
-- (UIView *)howMultilingualDictationReplacementWithRange: /* Error: Ran out of types for this method. */;
-- (void)ContinuousDiscovery;
-- (struct CGRect)tion:(struct CGRect)arg1;
-- (void)ForSwipeActionController: /* Error: Ran out of types for this method. */;
-- (void)rredFittingAttributes: /* Error: Ran out of types for this method. */;
-- (void)licy: /* Error: Ran out of types for this method. */;
-- (void)h;
-- (UIImage *)CachedKeyListWithShape:rendering: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)yleOverridesLocally;
-- (void)animated:(UITouch *)arg1 forced:(UIEvent *)arg2;
-- (void)tentViewInset;
-- (void)ndColor:(float)arg1 ,V_overrideBackgroundColor;
-- (void)"UIView",&,N,V_floatingKeyboardMaskView;
-- (_Bool)nceColor;
-- (void)Hå;
-- (void){public}@; for scene:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)X¸ùÿH;
-- (void)key_Say=ñî3G5valuet;
-- (void)ager;
-- (void);
-- (UISlider *)$ä¨þý`ÿ3kþý`ÿ3pç¨þ;
-
-@optional
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *additionalTrackingViews;

@@ -12,7 +12,7 @@
 }
 
 - (void);
-- (id)tor: /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

@@ -25,10 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionNameLocalizationKey; // @synthesize actionNameLocalizationKey;

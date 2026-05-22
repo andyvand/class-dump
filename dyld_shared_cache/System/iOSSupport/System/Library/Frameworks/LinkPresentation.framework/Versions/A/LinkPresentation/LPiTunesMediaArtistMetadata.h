@@ -19,32 +19,33 @@
 }
 
 + (id);
-+ (_Bool)rredBackground;
-- (id)d;
++ (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)@;
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id)ent;
-- (id);
+- (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)È	;
 - (void);
+- (void);
+- (void)!pFù1ð1Â0@ù
+× ;
+- (id)àÀ;
 
 // Remaining properties
 @property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;

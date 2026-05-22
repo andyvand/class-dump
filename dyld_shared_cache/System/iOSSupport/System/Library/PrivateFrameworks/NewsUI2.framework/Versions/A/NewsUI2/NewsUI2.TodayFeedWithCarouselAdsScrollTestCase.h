@@ -16,15 +16,15 @@
     long long numberOfScreens;
 }
 
+- (long long);
 - (id);
-- (void);
+- (double);
 - (id);
 - (unsigned long long);
 - (long long);
-- (long long)¤ ,!!è!"Ì"&t&@(;
-- (double)zleContinuePlayingKnobConfiguration from puzzleContinuePlaying group.  Using defaults.;
-- (id)Êüÿ;
-- (long long);
+- (void)ý^$÷Tÿ;
+- (id)t[±	9)a ½;
+- (long long)sorType;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

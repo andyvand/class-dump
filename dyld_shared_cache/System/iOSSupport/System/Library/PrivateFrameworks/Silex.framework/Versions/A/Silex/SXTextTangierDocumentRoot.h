@@ -14,11 +14,11 @@
 
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)ingManager>",R,N,V_viewControllerPresentationManager;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) TSSStylesheet *aStylesheet; // @synthesize aStylesheet=_aStylesheet;

@@ -15,16 +15,17 @@ __attribute__((visibility("hidden")))
     double _zoom;
 }
 
-+ (Class)Ôjtk;
-- (void);
-- (_Bool);
-- (void)¡8-º;
-- (id)arget;
-- (double);
-- (void)@	Ô;
-- (id)úC;
-- (void)í3;
++ (Class);
 - (id);
+- (void);
+- (id);
+- (_Bool)!¸Bù±_1Â0@ù
+× ;
+- (id)onPrecedenceArrayFromOperationPrecedence: /* Error: Ran out of types for this method. */;
+- (void)ry;
+- (double)%@; collection view:%@; number of sections:%ld /* Error: Ran out of types for this method. */;
+- (void)ion;
+- (void)0å|ÿ]-Ò;
 
 // Remaining properties
 @property(retain, nonatomic) CABackdropLayer *backdropLayer; // @synthesize backdropLayer=_backdropLayer;

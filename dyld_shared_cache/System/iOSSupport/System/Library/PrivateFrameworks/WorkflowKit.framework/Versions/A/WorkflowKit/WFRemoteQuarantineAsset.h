@@ -15,19 +15,18 @@
     NSString *_configuration;
 }
 
-+ (id)Îÿÿýÿ;
-+ (id)ÄØï
-;
++ (id);
++ (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (long long);
 - (void);
 - (id);
-- (long long)tableShortcut: /* Error: Ran out of types for this method. */;
-- (long long)nknown;
+- (long long);
+- (void)finition:%@> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) WFFileRepresentation *assetDataFile; // @synthesize assetDataFile=_assetDataFile;

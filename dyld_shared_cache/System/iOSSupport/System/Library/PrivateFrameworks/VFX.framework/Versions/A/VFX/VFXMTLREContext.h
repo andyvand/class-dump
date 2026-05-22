@@ -42,8 +42,8 @@
 - (struct VFX_RE_C_EntityConstants_s);
 - (struct BufferSlice);
 - (struct BufferSlice);
-- (id);
 - (void);
+- (id);
 - (id);
 
 @end

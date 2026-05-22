@@ -13,12 +13,12 @@
     UIApplicationSceneSettingsDiffInspector *_sceneSettingsDisplayDiffInspector;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (void);
 
 // Remaining properties

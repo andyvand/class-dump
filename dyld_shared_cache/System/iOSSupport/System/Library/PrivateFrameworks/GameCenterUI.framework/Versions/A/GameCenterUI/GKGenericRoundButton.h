@@ -17,8 +17,7 @@
 - (void);
 - (id);
 - (void);
-- (void)0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *fillColor; // @synthesize fillColor=_fillColor;

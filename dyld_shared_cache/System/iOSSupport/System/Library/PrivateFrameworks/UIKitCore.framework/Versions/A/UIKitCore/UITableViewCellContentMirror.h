@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (id)eAudio(void);
-- (void)F;
-- (_Bool)Êìµ;
+- (id),R,N,G_estimatesHeights;
+- (void)d not be called on InlineSearchBarViewRepresentation.;
+- (_Bool)hÿ%KÏhFd;
 
 // Remaining properties
 @property(nonatomic, getter=isSelected) _Bool selected;

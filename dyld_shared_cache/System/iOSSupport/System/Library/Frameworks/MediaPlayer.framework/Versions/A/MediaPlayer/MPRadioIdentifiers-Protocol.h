@@ -7,9 +7,6 @@
 @class NSString;
 
 @protocol MPRadioIdentifiers
-- (NSString *)e.NanoMusic;
-- (NSString *)aceTime;
-- (NSString *)44@52@?60;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *stationEventID;

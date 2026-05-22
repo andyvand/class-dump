@@ -15,10 +15,10 @@
     MISSING_TYPE *activityIndicatorOffset;
 }
 
+- (id);
+- (id);
 - (void);
-- (id)onID;
-- (id)sourceRecord",&,N,V_resourceRecord;
-- (void);
+- (void)uÿÿ;
 
 @end
 

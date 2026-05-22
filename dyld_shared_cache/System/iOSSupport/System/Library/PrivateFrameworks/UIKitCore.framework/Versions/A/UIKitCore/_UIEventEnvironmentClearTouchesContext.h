@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)àdþ;
+- (id): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *view; // @synthesize view=_view;

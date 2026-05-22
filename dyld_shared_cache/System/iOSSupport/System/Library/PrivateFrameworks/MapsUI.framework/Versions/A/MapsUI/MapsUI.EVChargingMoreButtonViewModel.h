@@ -19,10 +19,10 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
 - (id);
+- (_Bool);
 - (id);
-- (_Bool)À±ÿÿDðþÿ´"ìÿ¨¥ÿÿ;
+- (void)e;
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType actionBlock;

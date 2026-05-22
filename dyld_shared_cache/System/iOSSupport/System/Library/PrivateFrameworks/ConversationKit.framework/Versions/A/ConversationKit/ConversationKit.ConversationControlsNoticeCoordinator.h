@@ -14,8 +14,8 @@
     MISSING_TYPE *$__lazy_storage_$_noticeQueue;
 }
 
-- (void);
 - (id);
+- (void)GSgt;
 
 @end
 

@@ -19,6 +19,8 @@
     MISSING_TYPE *$__lazy_storage_$_read;
     MISSING_TYPE *$__lazy_storage_$_listened;
     MISSING_TYPE *$__lazy_storage_$_seen;
+    MISSING_TYPE *$__lazy_storage_$_readClusters;
+    MISSING_TYPE *$__lazy_storage_$_seenClusters;
     MISSING_TYPE *$__lazy_storage_$_location;
     MISSING_TYPE *$__lazy_storage_$_newlySubscribed;
 }

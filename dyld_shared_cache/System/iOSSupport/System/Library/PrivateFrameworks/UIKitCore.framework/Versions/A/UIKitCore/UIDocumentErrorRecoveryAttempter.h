@@ -20,13 +20,13 @@ __attribute__((visibility("hidden")))
     } _errorRecoveryAttempterFlags;
 }
 
-- (id):(id)arg1 %@  account:(id)arg2 %@;
-- (id):(id)arg1 %@  account:(unsigned long long)arg2 %@;
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)|ÿô;
 
 @end
 

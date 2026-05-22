@@ -7,8 +7,6 @@
 @class NSURLRequest;
 
 @protocol WKURLSchemeTask
-- (void)deoCodecTypes:maxPlayableVideoDimensions:maxPlayableVideoPixelsPerFrame:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)set URL %{public}@.;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURLRequest *request;

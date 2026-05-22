@@ -18,14 +18,14 @@
 }
 
 - (void);
-- (void);
+- (struct CGSize);
 - (id);
+- (id);
+- (void);
 - (void);
 - (struct CGPoint);
-- (id);
 - (void);
-- (struct CGSize);
-- (void)OeU5valuetSg;
+- (void);
 
 @end
 

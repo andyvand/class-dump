@@ -7,7 +7,8 @@
 @class INShortcut, NSDate, NSString;
 
 @protocol VCActionDonation
-- (NSString *)IndentStyle);
+- (NSString *)initWithWorkflowReference:includeIcon:iconDrawerContext: /* Error: Ran out of types for this method. */;
+- (NSString *):d< /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *date;

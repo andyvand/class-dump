@@ -13,19 +13,19 @@
     NSDictionary *_perSceneOptions;
 }
 
-+ (id)ControllerContext";
++ (id)0^;
 - (void);
-- (_Bool)mouseLocationOutsideOfEventStream;
 - (void);
-- (void);
-- (id)t°!$FùñÇÐ1¢!0@ù
+- (_Bool)0@ù
 × ;
-- (void)T@"UIKBAutoFillTestExpectedResult",&,N,V_expectedResult;
-- (id)setting has failed in a bad way;
-- (id)È±Ìb;
-- (id)Zc;
-- (id)`[äÿº]Í[l;
-- (_Bool)¡;
+- (void)lockCallStackSymbols;
+- (id); ending suspension of enforcing column preferences for scene resize;
+- (id);
+- (_Bool)e. This is an application bug. topLayoutGuide = %@;
+- (id)ÿÿÿÿ;
+- (id)¸Òi[;
+- (id);
+- (void)àa;
 
 // Remaining properties
 @property(readonly) UIWindowScene *_intendedScene;

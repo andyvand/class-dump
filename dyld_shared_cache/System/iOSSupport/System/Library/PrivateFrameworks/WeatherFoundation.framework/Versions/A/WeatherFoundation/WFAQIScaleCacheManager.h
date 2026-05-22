@@ -21,10 +21,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
 - (id);
 - (struct os_unfair_lock_s);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *aqiScaleCache; // @synthesize aqiScaleCache=_aqiScaleCache;

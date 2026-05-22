@@ -12,10 +12,10 @@
 }
 
 - (void);
-- (_Bool)%;
+- (_Bool);
 - (_Bool);
 - (void);
-- (void)P;
+- (void);
 - (double);
 - (double);
 - (_Bool);

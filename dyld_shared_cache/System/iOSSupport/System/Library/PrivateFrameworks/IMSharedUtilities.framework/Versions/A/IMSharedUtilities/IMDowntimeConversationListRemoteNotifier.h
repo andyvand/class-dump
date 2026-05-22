@@ -11,11 +11,11 @@
     MISSING_TYPE *debounceTask;
 }
 
-+ (id)Yó;
-- (void);
++ (id)QualityLocalURL:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
+- (void)or[%s] %s;
 
 @end
 

@@ -21,28 +21,30 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (void);
-- (id)eate a user notification for Tap-to-Radar;
-- (double)cancelAllPendingDeferredUpdates;
+- (id);
+- (double);
 - (void);
 - (id);
 - (id);
+- (struct CGPoint);
+- (id);
+- (double);
 - (void);
 - (void);
-- (double)WithError:fromDataSource: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)raitCollectionWithTypesettingLanguage: /* Error: Ran out of types for this method. */;
-- (id)eginAtPoint: /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+- (void)0@ù
+× ;
+- (void)Ôa!`Aù1d°1Â0@ù
+× ;
+- (id)terization;
+- (id)utContainer",&,N,V_container;
+- (void);
+- (void)com.apple.UIKit.LoggingPreferences;
+- (SEL)state:%@> /* Error: Ran out of types for this method. */;
+- (double)ttingViewControllerSetStrikethroughToggleChange;
 - (void)tion;
-- (id)izableSize;
-- (struct CGPoint)ewFrame,V_hasMaskViewFrame;
-- (void)rchBarTextField;
-- (void)n;
-- (void)SplitViewControllerDelegate>",W,N;
-- (void)<ìt;
-- (void);
-- (id)tyleTripleColumn.;
-- (void)h Pencil;
-- (SEL)le;
-- (double);
+- (void)mStyle;
+- (void)1ÚWTu[;
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

@@ -4,6 +4,6 @@
 
 class std::__1::ios_base {
 public: // (access info unavailable from symbols alone)
-    clear(unsigned int);
-    getloc() const;
+    auto clear(unsigned int);
+    auto getloc() const;
 };

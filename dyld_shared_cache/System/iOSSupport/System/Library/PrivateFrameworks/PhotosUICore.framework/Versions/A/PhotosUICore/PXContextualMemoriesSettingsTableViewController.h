@@ -14,7 +14,7 @@
     UIView *_progressIndicatorView;
 }
 
-+ (id);
++ (id)stNow_Short;
 - (_Bool);
 - (void);
 - (void);
@@ -47,21 +47,24 @@
 - (_Bool);
 - (double);
 - (void);
-- (long long);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (long long);
+- (void);
+- (void);
 - (id);
-- (void)
+- (long long);
+- (void);
+- (void);
+- (id);
+- (void)D1â
+0@ù
 × ;
-- (id)extMenuInteraction;
-- (void);
-- (void)ÿnÎ7;
+- (void)ÀAùqGð1â
+0@ù
+× ;
+- (void)ow.down.badge.clock;
+- (void)ÑÊ8G;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

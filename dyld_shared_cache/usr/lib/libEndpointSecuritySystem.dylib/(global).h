@@ -4,9 +4,9 @@
 
 // Global C++ functions
 
-operator delete(void*);
-operator delete(void*, std::__type_descriptor_t);
-operator new(unsigned long, std::__type_descriptor_t);
+ess_auth_result_t downcallAuthAndNotify<spar::Either<int, spar::Unit> (spar::PackedDataBufferWriter&) block_pointer>(es_syscall_t, spar::Either<int, spar::Unit> (spar::PackedDataBufferWriter&) block_pointer);
+spar::sigbus_jmp_buf;
+spar::sigbus_jmp_set;
 typeinfo for spar::Iterator<spar::Slice<unsigned char const>>;
 typeinfo for spar::MappedFileIterator;
 typeinfo for std::__1::__shared_ptr_emplace<FD, std::__1::allocator<FD>>;
@@ -14,6 +14,10 @@ typeinfo for std::__1::__shared_weak_count;
 typeinfo name for spar::Iterator<spar::Slice<unsigned char const>>;
 typeinfo name for spar::MappedFileIterator;
 typeinfo name for std::__1::__shared_ptr_emplace<FD, std::__1::allocator<FD>>;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void downcallNotifyOnly<spar::Either<int, spar::Unit> (spar::PackedDataBufferWriter&) block_pointer>(es_syscall_t, spar::Either<int, spar::Unit> (spar::PackedDataBufferWriter&) block_pointer);
+void operator delete(void*);
+void operator delete(void*, std::__type_descriptor_t);
 vtable for __cxxabiv1::__class_type_info;
 vtable for __cxxabiv1::__si_class_type_info;
 vtable for spar::MappedFileIterator;

@@ -50,6 +50,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -88,15 +89,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (void);
 - (id);
-- (id);
+- (void);
 - (id);
 - (_Bool);
-- (long long)n;
-- (void);
+- (id);
+- (_Bool);
+- (void),Ü(ß¨ß;
+- (void)onTapped(_:) /* Error: Ran out of types for this method. */;
+- (long long)(NÿÿP;
 
 // Remaining properties
 @property(nonatomic) long long accessoryGroupingStyle; // @synthesize accessoryGroupingStyle;
@@ -124,6 +125,7 @@
 @property(nonatomic) _Bool shouldHideForGuests; // @synthesize shouldHideForGuests;
 @property(nonatomic) _Bool shouldHidePlaceholderService; // @synthesize shouldHidePlaceholderService;
 @property(nonatomic) _Bool shouldIncludeRoomInAccessoryNames; // @synthesize shouldIncludeRoomInAccessoryNames;
+@property(nonatomic, readonly) _Bool showsCamerasOnly;
 @property(nonatomic, readonly) NSString *typeDescriptionForAnalytics;
 
 @end

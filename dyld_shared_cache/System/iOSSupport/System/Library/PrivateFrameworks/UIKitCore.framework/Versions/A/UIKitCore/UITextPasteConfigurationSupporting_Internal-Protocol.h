@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, UITextInputController;
-@protocol UITextPasteSession;
-
 @protocol UITextPasteConfigurationSupporting_Internal
-- (void)lic}@;
-- (UITextInputController *)1Ñº;
-- (_Bool);
-- (void)arameters=qqqqBBiQ}16;
-- (NSAttributedString *)NavigationBarTitleRenamer"16@"_UINavigationBarTitleRenamerSession"24@"NSString"32;
-- (void)insert.contacts;
+- (void)À;
 
 @optional
-- (void)iresSystemGesturesToFail:(id <UITextPasteSession>)arg1;
+- (void)á	°!¬Eù1fð1Â0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) _Bool usesStandardTextScaling;

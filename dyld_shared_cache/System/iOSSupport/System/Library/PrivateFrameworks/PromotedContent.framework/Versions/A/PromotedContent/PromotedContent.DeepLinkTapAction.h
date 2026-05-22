@@ -13,7 +13,7 @@
     MISSING_TYPE *url;
 }
 
-- (id)?<v@?>16;
+- (id);
 - (void);
 
 @end

@@ -7,8 +7,6 @@
 @protocol TSWelcomeDataManagerTypeDelegate;
 
 @protocol TSWelcomeDataManagerType
-- (id <TSWelcomeDataManagerTypeDelegate>)sÏ: /* Error: Ran out of types for this method. */;
-- (void);
 
 // Remaining properties
 @property(nonatomic, retain) id <TSWelcomeDataManagerTypeDelegate> delegate;

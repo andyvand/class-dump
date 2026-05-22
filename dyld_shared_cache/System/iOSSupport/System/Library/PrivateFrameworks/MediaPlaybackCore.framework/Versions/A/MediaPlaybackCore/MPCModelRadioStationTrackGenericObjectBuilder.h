@@ -30,7 +30,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)cal control supported:%{BOOL}u configured:%{BOOL}u available:%{BOOL}u enabled:%{BOOL}u delay:%.0fms /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPPropertySet *requestedProperties; // @synthesize requestedProperties=_requestedProperties;

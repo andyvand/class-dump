@@ -25,12 +25,12 @@
 - (_Bool);
 - (void);
 - (struct CGRect);
-- (_Bool)9;
 - (_Bool);
-- (void);
 - (_Bool);
 - (double);
-- (int)mpletionBlock: /* Error: Ran out of types for this method. */;
+- (int);
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic) struct CGRect absoluteContentViewFrame; // @synthesize absoluteContentViewFrame=_absoluteContentViewFrame;

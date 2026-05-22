@@ -12,9 +12,9 @@
 
 + (id);
 - (unsigned long long);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (id);
 
 // Remaining properties

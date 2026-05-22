@@ -15,8 +15,8 @@
     MISSING_TYPE *bundleSubscriptionManager;
 }
 
+- (id);
 - (void);
-- (id);
 
 @end
 

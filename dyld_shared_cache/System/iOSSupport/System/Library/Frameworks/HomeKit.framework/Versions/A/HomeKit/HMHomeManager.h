@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessorySettingsMetricsDispatcher, HMAccessorySetupCoordinator, HMApplicationData, HMCacheManager, HMCameraClipsQuotaMessenger, HMCoreAnalyticsMetricEventDispatcher, HMCurrentMediaGroupProvider, HMELastEventStore, HMFTimer, HMHAPMetadata, HMHome, HMHomeManagerConfiguration, HMMigrationBoost, HMMutableArray, HMNetworkRouterFirewallRuleManager, HMSoftwareUpdateDocumentationManager, HMUserActionPredictionProvider, HMUserCloudShareManager, HMWidgetManager, HMXPCEventRouterClient, NSArray, NSCountedSet, NSError, NSMutableArray, NSOperationQueue, NSString, NSUUID, _HMContext;
+@class HMAccessorySettingsMetricsDispatcher, HMAccessorySetupCoordinator, HMApplicationData, HMCacheManager, HMCoreAnalyticsMetricEventDispatcher, HMCurrentMediaGroupProvider, HMELastEventStore, HMFTimer, HMHAPMetadata, HMHome, HMHomeManagerConfiguration, HMMigrationBoost, HMMutableArray, HMNetworkRouterFirewallRuleManager, HMSoftwareUpdateDocumentationManager, HMUserActionPredictionProvider, HMUserCloudShareManager, HMWidgetManager, HMXPCEventRouterClient, NSArray, NSCountedSet, NSError, NSMutableArray, NSOperationQueue, NSString, NSUUID, _HMContext;
 @protocol HMDarwinNotificationProvider, HMHomeManagerDelegate, _HMPrivacySettingsProvider;
 
 @interface HMHomeManager
 {
     struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _pendingChangeSetupModeOperation;
-    unsigned long long _pendingChangeSetupMode;
     NSMutableArray *_refreshRequests;
     NSCountedSet *_batchNotificationReasons;
     HMFTimer *_batchNotificationEndTimer;
@@ -46,7 +44,6 @@
     NSUUID *_lastRemovedCurrentAccessoryUUID;
     NSError *_hh2MigrationFailedError;
     NSArray *_sharedHomeUUIDsNotYetMigrated;
-    HMCameraClipsQuotaMessenger *_cameraClipsQuotaMessenger;
     id <_HMPrivacySettingsProvider> _privacySettingsProvider;
     HMMutableArray *_homeInvitations;
     unsigned long long _pendingSyncGenerationCounter;
@@ -65,6 +62,7 @@
     unsigned long long _generationCounterPostHomeGraphUpdate;
     unsigned long long _metadataVersion;
     double _homeManagerCreationTimeStamp;
+    id _swiftExtensions;
     HMCacheManager *_cacheManager;
     HMUserActionPredictionProvider *_predictionProvider;
     HMXPCEventRouterClient *_xpcEventRouterClient;

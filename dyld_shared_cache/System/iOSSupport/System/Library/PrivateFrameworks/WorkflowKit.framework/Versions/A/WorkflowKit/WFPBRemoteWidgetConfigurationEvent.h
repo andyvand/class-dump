@@ -20,22 +20,22 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
+- (void)d;
+- (_Bool)HxÜ;
+- (void)%s Not running location trigger due to start/end time;
+- (void)ntent>"8Q16@?<v@?@"NSArray"@"NSError">24;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;

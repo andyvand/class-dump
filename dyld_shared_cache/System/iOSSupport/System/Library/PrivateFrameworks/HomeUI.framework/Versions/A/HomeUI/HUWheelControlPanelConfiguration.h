@@ -13,7 +13,7 @@
 
 - (void);
 - (Class);
-- (id);
+- (id)%{BOOL}d, siriPhraseOptions = %lu atleastOneMediaAccessorySupportingJustSiri = %{BOOL}d;
 
 // Remaining properties
 @property(readonly, nonatomic) Class cellClass;

@@ -11,7 +11,7 @@
     NSString *_searchText;
 }
 
-+ (id)sion;
++ (id);
 - (void);
 - (void);
 - (id);
@@ -20,11 +20,11 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)FeedbackID:followupID: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)oth;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLoggingSessions;

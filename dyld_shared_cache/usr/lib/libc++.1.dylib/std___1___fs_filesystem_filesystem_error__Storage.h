@@ -4,6 +4,6 @@
 
 class std::__1::__fs::filesystem::filesystem_error::_Storage {
 public: // (access info unavailable from symbols alone)
-    _Storage[abi:ne200100](std::__1::__fs::filesystem::path const&, std::__1::__fs::filesystem::path const&);
-    _Storage[abi:ne200100](std::__1::__fs::filesystem::path const&, std::__1::__fs::filesystem::path const&) (.cold.1);
+    auto _Storage[abi:nqe210106](std::__1::__fs::filesystem::path const&, std::__1::__fs::filesystem::path const&);
+    auto _Storage[abi:nqe210106](std::__1::__fs::filesystem::path const&, std::__1::__fs::filesystem::path const&) (.cold.1);
 };

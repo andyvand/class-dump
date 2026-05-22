@@ -27,13 +27,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)OT_GET_FD_P_ASSET;
 - (long long);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsRemoval; // @synthesize allowsRemoval=_allowsRemoval;

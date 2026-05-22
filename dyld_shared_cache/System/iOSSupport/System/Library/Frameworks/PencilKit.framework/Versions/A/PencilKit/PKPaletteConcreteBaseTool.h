@@ -13,11 +13,11 @@
     NSString *_toolVariant;
 }
 
-- (id)ending;
-- (_Bool)qHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/RCFallbackOperation.m;
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -26,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)onDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) PKToolConfiguration *configuration;

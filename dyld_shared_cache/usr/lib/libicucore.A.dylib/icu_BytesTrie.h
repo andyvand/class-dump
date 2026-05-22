@@ -4,17 +4,17 @@
 
 class icu::BytesTrie {
 public: // (access info unavailable from symbols alone)
-    append(icu::ByteSink&, int);
-    branchNext(unsigned char const*, int, int);
-    current() const;
-    findUniqueValue(unsigned char const*, signed char, int&);
-    findUniqueValueFromBranch(unsigned char const*, int, signed char, int&);
-    getNextBranchBytes(unsigned char const*, int, icu::ByteSink&);
-    getNextBytes(icu::ByteSink&) const;
-    jumpByDelta(unsigned char const*);
-    next(char const*, int);
-    next(int);
-    nextImpl(unsigned char const*, int);
-    readValue(unsigned char const*, int);
+    auto append(icu::ByteSink&, int);
+    auto branchNext(unsigned char const*, int, int);
+    auto current() const;
+    auto findUniqueValue(unsigned char const*, signed char, int&);
+    auto findUniqueValueFromBranch(unsigned char const*, int, signed char, int&);
+    auto getNextBranchBytes(unsigned char const*, int, icu::ByteSink&);
+    auto getNextBytes(icu::ByteSink&) const;
+    auto jumpByDelta(unsigned char const*);
+    auto next(char const*, int);
+    auto next(int);
+    auto nextImpl(unsigned char const*, int);
+    auto readValue(unsigned char const*, int);
     ~BytesTrie();
 };

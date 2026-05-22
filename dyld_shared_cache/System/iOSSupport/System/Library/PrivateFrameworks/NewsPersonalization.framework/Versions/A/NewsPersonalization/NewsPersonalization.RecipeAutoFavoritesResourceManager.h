@@ -21,7 +21,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id)]<x;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) FCPersonalizationWhitelist *allowlist;

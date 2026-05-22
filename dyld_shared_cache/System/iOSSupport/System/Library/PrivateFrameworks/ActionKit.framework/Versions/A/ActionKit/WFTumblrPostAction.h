@@ -25,8 +25,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)There is no service available in the requested area.;
 
 // Remaining properties
 @property(readonly, nonatomic) TMAPIClient *client; // @synthesize client=_client;

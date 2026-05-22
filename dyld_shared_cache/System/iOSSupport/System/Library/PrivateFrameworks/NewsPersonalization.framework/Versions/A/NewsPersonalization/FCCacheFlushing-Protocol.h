@@ -5,5 +5,6 @@
 //
 
 @protocol FCCacheFlushing
+- (void)c}@, config %{public}@, default decay factor %{public}@, request ID %{public}@;
 @end
 

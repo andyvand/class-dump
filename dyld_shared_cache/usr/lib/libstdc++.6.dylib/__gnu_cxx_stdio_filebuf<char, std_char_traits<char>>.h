@@ -4,8 +4,8 @@
 
 class __gnu_cxx::stdio_filebuf<char, std::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    fd();
-    file();
+    auto fd();
+    auto file();
     stdio_filebuf();
     stdio_filebuf(__sFILE*, std::_Ios_Openmode, unsigned long);
     stdio_filebuf(int, std::_Ios_Openmode, unsigned long);

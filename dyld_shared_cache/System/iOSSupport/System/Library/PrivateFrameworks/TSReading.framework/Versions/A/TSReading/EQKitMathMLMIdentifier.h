@@ -10,7 +10,7 @@
 {
 }
 
-- (int);
+- (int);
 - (struct Schemata);
 
 @end

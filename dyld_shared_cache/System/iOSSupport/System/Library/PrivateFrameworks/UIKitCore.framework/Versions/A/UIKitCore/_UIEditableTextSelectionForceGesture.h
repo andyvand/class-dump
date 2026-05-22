@@ -10,8 +10,8 @@
 {
 }
 
-- (id)upe;
-- (id)tParser;
+- (id);
+- (id)sition handler with invalid event. State (@lu) is out of range for the initialized eventCount (%lu);
 
 @end
 

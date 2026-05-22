@@ -16,10 +16,11 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (void)edLocalHandle;
-- (void)eviewed command %@;
-- (void);
-- (unsigned int)documentViewController;
+- (void);
+- (void);
+- (unsigned int)
+× ;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;

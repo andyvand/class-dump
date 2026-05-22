@@ -23,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void)nType;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=_isInvalidated) _Bool _invalidated; // @synthesize _invalidated=__invalidated;

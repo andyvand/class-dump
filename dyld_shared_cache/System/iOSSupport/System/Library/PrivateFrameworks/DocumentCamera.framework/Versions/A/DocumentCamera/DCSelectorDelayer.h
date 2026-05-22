@@ -19,29 +19,29 @@ __attribute__((visibility("hidden")))
     CDUnknownBlockType _fireBlock;
 }
 
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (double);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (SEL);
-- (CDUnknownBlockType);
 - (void);
-- (void);
-- (void)victObject:(SEL)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ge_$_captureButton;
+- (void)÷ö°;
 
 // Remaining properties
 @property(nonatomic) _Bool callOnMainThread; // @synthesize callOnMainThread=_callOnMainThread;

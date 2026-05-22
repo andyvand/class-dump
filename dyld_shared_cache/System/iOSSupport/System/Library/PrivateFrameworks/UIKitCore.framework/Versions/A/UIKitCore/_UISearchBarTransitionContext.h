@@ -13,11 +13,12 @@ __attribute__((visibility("hidden")))
     _UISearchBarLayout *_fromLayout;
 }
 
-- (id);
-- (void)R,D,N;
-- (id);
 - (void);
-- (void);
+- (void)@ù
+× ;
+- (id)õ°;
+- (id);
+- (void)le;
 
 // Remaining properties
 @property(copy, nonatomic) _UISearchBarLayout *fromLayout; // @synthesize fromLayout=_fromLayout;

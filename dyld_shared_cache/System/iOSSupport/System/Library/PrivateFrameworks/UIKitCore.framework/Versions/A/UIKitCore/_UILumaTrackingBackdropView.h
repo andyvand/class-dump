@@ -17,21 +17,21 @@
     _Bool _paused;
 }
 
-+ (Class)å;
++ (Class);
 - (void);
 - (CDStruct_c3b9c2ee);
-- (void);
+- (void);
 - (id);
 - (unsigned long long);
-- (void)zationForRecipients:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (id)ifier;
-- (void)>9ÿ;
+- (id);
+- (void)rTouchInfo:(_Bool)arg1 touchStage:executionContextPassingUIKBTree: /* Error: Ran out of types for this method. */;
+- (void)<oþØNþ ;
+- (_Bool)Dkÿ¼AÕa;
 
 // Remaining properties
 @property(nonatomic, setter=_setGroupDelegate:) __weak id <_UILumaTrackingBackdropViewGroupDelegate> _groupDelegate;

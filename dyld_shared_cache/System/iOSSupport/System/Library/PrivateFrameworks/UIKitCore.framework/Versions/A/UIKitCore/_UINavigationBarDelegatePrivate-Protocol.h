@@ -4,22 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UINavigationBar, UINavigationItem, UISearchController, UIView, UIWindow;
-@protocol UIViewControllerTransitionCoordinator, _UINavigationBarDelegatePrivate;
-
 @protocol _UINavigationBarDelegatePrivate
-
-@optional
-- (void);
-- (UIWindow *);
-- (UISearchController *)eadyChanged:(UINavigationItem *)arg1;
-- (UISearchController *)und:(UINavigationItem *)arg1;
-- (id <_UINavigationBarDelegatePrivate>)orAlias:(UINavigationItem *)arg1;
-- (double)etCloudKitChatID: /* Error: Ran out of types for this method. */;
-- (UIView *)ageCount: /* Error: Ran out of types for this method. */;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (long long)GroupPhotoGUIDs: /* Error: Ran out of types for this method. */;
-- (struct NSDirectionalEdgeInsets)ID:(UINavigationBar *)arg1 handleType:updateType:isFromMessages: /* Error: Ran out of types for this method. */;
-- (id <UIViewControllerTransitionCoordinator>)tsSuppressedMask;
 @end
 

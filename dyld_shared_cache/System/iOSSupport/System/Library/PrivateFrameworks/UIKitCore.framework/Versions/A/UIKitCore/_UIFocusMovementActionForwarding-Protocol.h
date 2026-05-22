@@ -5,6 +5,5 @@
 //
 
 @protocol _UIFocusMovementActionForwarding
-- (void);
 @end
 

@@ -47,12 +47,12 @@ __attribute__((visibility("hidden")))
     double _heightForRemoteIAVPlaceholderIfNecessary;
 }
 
-+ (id)cause the registry failed it's chat load. OriginalGroupID:(id)arg1 %@ Chat:%@ /* Error: Ran out of types for this method. */;
-+ (id)tLocalPath;
-+ (id)torDragged"b1"adjustsForContentSizeCategory"b1"hovered"b1"animatingSelectionIndicator"b1"hasCustomInfoView"b1"hasMaterial"b1"useSpringBoardVibrancy"b1};
-+ (_Bool)ØJKM;
-+ (id)earchResultViewController;
-- (_Bool)4a;
++ (id);
++ (id);
++ (id);
++ (id)n;
++ (_Bool)(¬ÿaÜÐj^;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -61,13 +61,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)B;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -79,7 +79,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (long long);
-- (id)c;
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -90,8 +90,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)ot;
-- (id)objc_methtype;
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -106,112 +106,114 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)ay:(_Bool)arg1 forKey:(id)arg2;
-- (void):(id)arg1 isOutgoing: /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (double);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool)entifier:(_Bool)arg1 withApplication:withMandatory: /* Error: Ran out of types for this method. */;
-- (_Bool)ۜ;
-- (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void)@?0;
-- (void)xture_R8Uint;
-- (_Bool)atorIS2_EEFbvEEE;
-- (void);
-- (id);
-- (void)k:(_Bool)arg1;
-- (void)NG__;
-- (void)tifierSet",C,N,V_identifiers;
-- (void)der:(id)arg1;
-- (void);
-- (_Bool)tent item mutated | pushed [metadata] contentItemID=%{public}@;
-- (void)istClass(void)_block_invoke;
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id)ßfº;
-- (long long);
-- (void)L-Âì;
-- (void);
-- (void)¡oð!,Fù1ÂÐ1¢!0@ù
+- (void)A°!°@ù\°1Â0@ù
 × ;
-- (_Bool)
+- (_Bool)0@ù
 × ;
-- (void)±É°1¢!0@ù
+- (_Bool)ñ\1Â0@ù
 × ;
-- (id);
+- (void)1Â0@ù
+× ;
 - (void)0@ù
 × ;
-- (void)!tEù1ÌÐ1¢!0@ù
+- (_Bool)!¨FùQ]Ð1Â0@ù
 × ;
 - (void);
-- (void)1¢!0@ù
+- (void)1Â0@ù
 × ;
+- (_Bool)!!ÄEùÑcð1Â0@ù
+× ;
+- (unsigned long long)ate>"16;
+- (void){CGPoint=dd}{CGSize=dd}}40@0:(_Bool)arg1 8{CGPoint=dd}16^i32;
+- (void)KBMultilingualSettingIntroductionView";
+- (void)troller";
+- (void)oint=dd}{CGSize=dd}}24{CGPoint=dd}56;
+- (_Bool)B36;
+- (_Bool)48@0:8@16Q24@32@40 /* Error: Ran out of types for this method. */;
+- (_Bool)emLayoutSizeFittingSize3D:(id)arg1;
+- (id)sInRange: /* Error: Ran out of types for this method. */;
+- (void)PNGName;
 - (void);
-- (void)WritingToolsWillBegin"b1"delegateWritingToolsDidEnd"b1"delegateWritingToolsIgnoredRanges"b1"delegateWritingToolsUndoCoalescingWillBegin"b1"delegateWritingToolsUndoCoalescingDidEnd"b1"textStorageOverridesReplaceCharactersInRangeWithAttributedString"b1"didSetSupportsAdaptiveImageGlyph"b1"didCacheSupportsImagePaste"b1"supportsImagePasteCached"b1"delegateRespondsToTextViewEditMenuForTextInRangeSuggestedActions"b1"delegateRespondsToTextViewEditMenuForTextInRangesSuggestedActions"b1};
-- (_Bool)Collection"16;
-- (_Bool)aSample *>>="__first_"^^{_UIVelocityIntegratorDataSample}"__begin_"^^{_UIVelocityIntegratorDataSample}"__end_"^^{_UIVelocityIntegratorDataSample}""{?="__cap_"^^{_UIVelocityIntegratorDataSample}}}"__start_"Q""{?="__size_"Q}};
-- (_Bool)Context:completion: /* Error: Ran out of types for this method. */;
-- (void):(CDUnknownBlockType)arg1;
-- (_Bool)tainerView;
-- (id)removeBlockadeWithIdentifier:(id)arg1;
-- (_Bool)tAdjustment;
-- (void)Rates;
-- (void)owAtIndexPath:rect: /* Error: Ran out of types for this method. */;
-- (void)llTransitionWithSize:(_Bool)arg1 hostFrame:duration:interactive: /* Error: Ran out of types for this method. */;
-- (unsigned long long)DuringUpdateConstraintsPass: /* Error: Ran out of types for this method. */;
-- (id)ryBeforeIteration: /* Error: Ran out of types for this method. */;
-- (_Bool)ngImage:(id)arg1 inRect:flippedHorizontally:outOfImage:inRect:size:scale: /* Error: Ran out of types for this method. */;
-- (void)stedCornerRadii;
-- (void)ns;
-- (void)active;
-- (void)xt;
-- (void)taryClass;
-- (void);
-- (id)¤hi;
-- (_Bool)T_aèaxdÐd;
-- (_Bool)pÈ$$%;
-- (void)out to catch this in the debugger and see which API method caused this to occur. Table view:(_Bool)arg1 %{public}@;
-- (void)result in undefined behavior (%@);
-- (_Bool)ed autohiding display mode for %@ split behavior in width %g is %@;
-- (void)üÿwþÿ;
-- (void)ibPerformSegueSender;
-- (_Bool)ceResponderChainIntegrity;
-- (void)e display order for a non-group element:(CDUnknownBlockType)arg1 %@;
-- (void)@ from=%p to=%p;
-- (void)undScrollTransitionProgress;
+- (_Bool)rPosition: /* Error: Ran out of types for this method. */;
+- (void)dicator;
+- (id)orCurrentState;
+- (void)ton;
+- (_Bool)e: /* Error: Ran out of types for this method. */;
+- (void)eRecognizer;
+- (void)elocityFilter;
+- (void)"_UIHDRUsageCoordinator",R,N;
+- (id)nuousSelectionGestureRecognizer",R,N,V_selectionGestureRecognizer;
+- (void)GestureRecognizer:(_Bool)arg1 ,V__pinchGestureRecognizer;
+- (void)Shapes: /* Error: Ran out of types for this method. */;
+- (id)nDelegate;
+- (id);
+- (void)T|ìÀ;
+- (void)´;
+- (void)j;
+- (_Bool)ð;
+- (_Bool)a;
+- (long long);
+- (void):(_Bool)arg1 îÿ;
+- (_Bool)sses" array in View Service bundle "%@"'s Info.plist;
+- (void)inalRegion;
+- (void)tonCapability;
 - (void);
-- (void)hL;
-- (void)àó[;
-- (_Bool)ò\;
+- (void)IgnoreTouches;
 - (void);
+- (void)ameworks/DictionaryServices.framework/DictionaryServices;
 - (void);
+- (void)serInterfaceIdiom;
+- (void)idBecomeActiveMessage;
+- (_Bool);
+- (void)Type;
+- (void)®\;
+- (void);
+- (_Bool)5;
 
 // Remaining properties
 @property _Bool avoidDisableKeyboard; // @synthesize avoidDisableKeyboard=_avoidDisableKeyboard;

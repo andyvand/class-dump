@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)@16@24Q32;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *additionFactories; // @synthesize additionFactories=_additionFactories;

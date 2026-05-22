@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
     struct CGRect _boundingRect;
 }
 
-+ (id)ous one was finished.  Likely there is an exit path that isn't calling _noteMeticsForSyncEndedWithSuccces;
-+ (id)c:(struct CGRect)arg1 %@ (guid:%@) /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
 - (id);
-- (double);
-- (id)very;
-- (struct CGRect)nsistency:-%@ was called with a swipe direction of %@. /* Error: Ran out of types for this method. */;
+- (id);
+- (double)IndexPath"16@"NSNumber"24;
+- (struct CGRect)@);
 
 // Remaining properties
 @property(readonly, nonatomic) double alpha; // @synthesize alpha=_alpha;

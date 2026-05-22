@@ -10,8 +10,10 @@
 
 @interface WFUnionParameter : WFParameter
 {
+    _Bool _isRowParameter;
     NSArray *_subtypes;
     NSArray *_subdefinitions;
+    NSDictionary *_caseDisplayRepresentations;
     NSDictionary *_parameterMetadataByType;
     WFAction *_action;
 }

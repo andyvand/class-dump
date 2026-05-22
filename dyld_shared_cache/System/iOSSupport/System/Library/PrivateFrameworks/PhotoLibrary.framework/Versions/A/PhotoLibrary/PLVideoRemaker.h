@@ -56,18 +56,17 @@
 - (id);
 - (void);
 - (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
 - (double);
 - (void);
-- (CDUnknownBlockType)Ð1b0@ù
-× ;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (CDUnknownBlockType)Ô ;
+- (void)legate;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) PFVideoAVObjectBuilder *_videoAVObjectBuilder; // @synthesize _videoAVObjectBuilder=__videoAVObjectBuilder;

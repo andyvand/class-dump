@@ -11,18 +11,17 @@
     _Bool _boolValue;
 }
 
-+ (id)quest to fetch %@;
-+ (_Bool)´ÐÀÿ÷Ä;
++ (id);
++ (_Bool)TableViewCellReorderControl;
 - (id);
-- (void);
 - (unsigned long long);
-- (_Bool)Ğ;
-- (id);
-- (id);
-- (id)!qÐ!ÄAù1Ä1¢!0@ù
-× ;
-- (_Bool)32@0:8@"NSXPCListener"16@"NSXPCConnection"24 /* Error: Ran out of types for this method. */;
-- (void)GG;
+- (_Bool);
+- (_Bool)ntrollerDismissActionView>"16@0:(id)arg1 8;
+- (void)izeForInputViewController:(id)arg1 inputView:includeAssistantBar: /* Error: Ran out of types for this method. */;
+- (id)BatteryInsidesWithSize:capacity:style:usingTintColor: /* Error: Ran out of types for this method. */;
+- (id)_allowsInteractivePopWhenNavigationBarHidden;
+- (void)dpointInjectorConfiguring>"8;
+- (id)3yñ&¿7G;
 
 // Remaining properties
 @property(nonatomic) _Bool boolValue; // @synthesize boolValue=_boolValue;

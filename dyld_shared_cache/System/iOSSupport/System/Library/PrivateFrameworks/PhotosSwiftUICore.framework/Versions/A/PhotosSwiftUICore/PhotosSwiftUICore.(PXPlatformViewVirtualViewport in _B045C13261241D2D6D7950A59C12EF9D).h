@@ -12,8 +12,8 @@
     MISSING_TYPE *frame;
 }
 
-- (void);
 - (id);
+- (void)dentifier;
 
 @end
 

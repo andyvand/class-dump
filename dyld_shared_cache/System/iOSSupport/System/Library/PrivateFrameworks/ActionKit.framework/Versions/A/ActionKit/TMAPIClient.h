@@ -17,7 +17,7 @@
     NSURL *_baseURL;
 }
 
-+ (id)òÁ;
++ (id)ifferent key types;
 - (void);
 - (id);
 - (void);
@@ -82,17 +82,12 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (id);
@@ -102,9 +97,14 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)<B;
-- (double)hyy_;
+- (id);
+- (void)pdateSequenceNumber;
+- (void)s;
+- (void)rror;
+- (id)reement;
+- (double)g;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *OAuthConsumerKey;

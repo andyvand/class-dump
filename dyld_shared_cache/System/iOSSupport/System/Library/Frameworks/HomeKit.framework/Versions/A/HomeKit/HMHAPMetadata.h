@@ -27,12 +27,12 @@
 - (id);
 - (id);
 - (_Bool);
+- (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)Ü;
+- (id)e:(id)arg1 %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *hapCategoryMap; // @synthesize hapCategoryMap=_hapCategoryMap;

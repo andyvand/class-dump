@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIScreenEdgePanRecognizer;
-
 @protocol _UIScreenEdgePanRecognizerDelegate
 
 @optional
-- (void)izingMaskWithOldSuperviewSize:(_UIScreenEdgePanRecognizer *)arg1;
+- (void)e are only %ld sections before the update;
 @end
 

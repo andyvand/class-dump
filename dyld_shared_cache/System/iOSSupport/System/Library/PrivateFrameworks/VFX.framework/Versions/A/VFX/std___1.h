@@ -4,7 +4,8 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __next_prime(unsigned long);
-    to_string(int);
-    to_string(unsigned long);
+    auto __next_prime(unsigned long);
+    auto to_string(int);
+    auto to_string(unsigned long);
+    std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> operator+<char, std::__1::char_traits<char>, std::__1::allocator<char>>(char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
 };

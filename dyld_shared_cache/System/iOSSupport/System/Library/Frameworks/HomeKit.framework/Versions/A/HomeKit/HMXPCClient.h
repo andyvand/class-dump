@@ -23,8 +23,8 @@
 }
 
 + (id);
-+ (id),V_videoFileURLs;
-+ (id);
++ (id)ies from %@ to %@;
++ (id)cessCodeValue;
 - (void);
 - (void);
 - (void);
@@ -36,18 +36,18 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id)rySettingsDataSource"16@"NSUUID"24@"NSArray"32;
+- (void)Data";
+- (void)calization;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;

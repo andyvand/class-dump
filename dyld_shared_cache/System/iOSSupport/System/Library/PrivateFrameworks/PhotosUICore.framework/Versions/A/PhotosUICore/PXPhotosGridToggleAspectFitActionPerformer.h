@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id)1¤I4)6;
+- (id)ransition;
 
 @end
 

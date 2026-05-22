@@ -17,14 +17,14 @@
 
 + (id);
 + (id);
-+ (_Bool)Time);
-- (id);
-- (void);
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
+- (void)gRideStatusDidReceiveError:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

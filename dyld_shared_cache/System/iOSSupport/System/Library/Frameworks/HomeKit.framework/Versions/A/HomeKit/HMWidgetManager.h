@@ -12,7 +12,7 @@
     _HMContext *_context;
 }
 
-+ (id)resses;
++ (id)@.settings.%@.updated;
 - (void);
 - (void);
 - (void);
@@ -21,9 +21,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)AccessCodeValue;
+- (id);
+- (void)orySelectionSettingItem;
 
 // Remaining properties
 @property(readonly) _HMContext *context; // @synthesize context=_context;

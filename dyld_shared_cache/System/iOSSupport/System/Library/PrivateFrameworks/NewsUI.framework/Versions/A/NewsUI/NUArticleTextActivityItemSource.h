@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (void)`;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *itemTitle; // @synthesize itemTitle=_itemTitle;

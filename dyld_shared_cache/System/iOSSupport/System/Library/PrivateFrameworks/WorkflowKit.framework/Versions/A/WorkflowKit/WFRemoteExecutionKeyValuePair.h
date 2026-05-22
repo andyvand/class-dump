@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ow.actions.folder;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;

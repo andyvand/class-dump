@@ -22,15 +22,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)c;
 - (id);
-- (id)contentView:inset:convertedToCellInsetOnEdge: /* Error: Ran out of types for this method. */;
-- (id)t ;
-- (void)w or mask as expected for swipe occurrence %@.
-Collection View:(id)arg1 %@, swiped view:%@, mask:%@ /* Error: Ran out of types for this method. */;
-- (void)VisualStyle.;
-- (id)!= nil;
+- (void)ð1Â0@ù
+× ;
+- (void)!@Bù]1Â0@ù
+× ;
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)SubviewsNeedUpdateConstraintsNeedingLayout:(id)arg1;
+- (id)Hotspot;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

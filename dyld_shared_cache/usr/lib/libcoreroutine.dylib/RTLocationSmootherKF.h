@@ -16,9 +16,9 @@
 
 - (id);
 - (double);
-- (id);
-- (void);
-- (id)pendToStringAtColumnWithContent:column:content:appendAsNewLine:addNewLine: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)e not on an internal build.;
 
 @end
 

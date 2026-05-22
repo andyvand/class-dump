@@ -14,8 +14,8 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
 - (unsigned long long);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long attributes; // @synthesize attributes=_attributes;

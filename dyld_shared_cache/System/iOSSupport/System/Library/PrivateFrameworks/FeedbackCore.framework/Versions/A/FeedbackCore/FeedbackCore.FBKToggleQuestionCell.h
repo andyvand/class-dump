@@ -28,10 +28,10 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (id)ontroller is still pre-attaching answers;
 
 // Remaining properties
 @property(nonatomic, retain) FBKAnswer *answer; // @synthesize answer;

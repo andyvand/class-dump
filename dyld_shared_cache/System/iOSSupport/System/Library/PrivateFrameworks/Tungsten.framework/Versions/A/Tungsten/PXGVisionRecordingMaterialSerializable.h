@@ -27,10 +27,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (void);
 - (long long);
-- (_Bool);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *colorProgram; // @synthesize colorProgram=_colorProgram;

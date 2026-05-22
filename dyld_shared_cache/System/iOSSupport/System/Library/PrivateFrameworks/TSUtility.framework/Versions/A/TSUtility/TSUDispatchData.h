@@ -23,11 +23,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_data> *data;

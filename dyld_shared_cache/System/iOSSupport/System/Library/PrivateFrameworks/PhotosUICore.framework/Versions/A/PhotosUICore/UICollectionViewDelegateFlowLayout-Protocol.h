@@ -4,11 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UICollectionView, UICollectionViewLayout;
+
 @protocol UICollectionViewDelegateFlowLayout
 
 @optional
-- (double);
-- (struct CGSize)yTypeInternalGIFExport;
-- (struct UIEdgeInsets)Group make key photo action because the initial state is invalid.;
+- (double)0@ù
+× ;
+- (struct UIEdgeInsets)action:(UICollectionView *)arg1;
+- (double)neForSize:(UICollectionView *)arg1;
+- (struct CGSize)atio:(UICollectionView *)arg1 secondaryEdge:(UICollectionViewLayout *)arg2 splitRatio:(long long)arg3 label: /* Error: Ran out of types for this method. */;
+- (struct CGSize)Èt;
 @end
 

@@ -19,8 +19,8 @@
 }
 
 - (void);
-- (void)mCaption;
 - (id);
+- (void);
 
 @end
 

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct UIEdgeInsets)le:handleInfo:account: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
 - (struct CGPoint);
 - (_Bool);
 

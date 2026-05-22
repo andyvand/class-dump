@@ -75,8 +75,8 @@
 - (CDStruct_bb38be21);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)¹;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsIncompleteTimelines; // @synthesize allowsIncompleteTimelines=_allowsIncompleteTimelines;

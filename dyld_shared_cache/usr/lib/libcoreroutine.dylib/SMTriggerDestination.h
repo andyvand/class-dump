@@ -39,25 +39,22 @@
 + (id);
 + (void);
 + (double);
-+ (void)_;
-+ (id)h&G)
-;
++ (void);
++ (id);
 + (id);
 + (void);
-+ (double)R;
-+ (void)q;
-+ (double)`;
++ (double);
++ (void);
++ (double);
 + (id);
 + (unsigned long long);
 + (void);
-+ (void);
++ (void);
 + (id);
 + (void);
 + (_Bool);
-- (id)
-J=;
 - (id);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -69,7 +66,6 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
@@ -86,9 +82,9 @@
 - (double);
 - (id);
 - (id);
-- (double)_;
 - (double);
-- (double);
+- (double);
+- (double);
 - (double);
 - (id);
 - (id);
@@ -119,7 +115,7 @@
 - (void);
 - (void);
 - (void);
-- (void)T	;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -133,6 +129,7 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -143,15 +140,16 @@
 - (void);
 - (id);
 - (id);
-- (void)ential payload to system keychain, %@;
 - (id);
-- (id);
+- (id);
 - (void);
-- (id)#;
 - (void);
-- (void)esStoreManagerDict;
-- (id)hainItemOptionRekey;
-- (id)ndsight visit count, %lu, constant monitor visit count, %lu, output count, %lu;
+- (id);
+- (void);
+- (id)ì;
+- (void)cificPlaceType;
+- (id);
+- (void)cations.;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *cachedLocationEvents; // @synthesize cachedLocationEvents=_cachedLocationEvents;

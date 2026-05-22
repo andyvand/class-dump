@@ -19,10 +19,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
-- (void);
 - (CDUnknownBlockType);
+- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;

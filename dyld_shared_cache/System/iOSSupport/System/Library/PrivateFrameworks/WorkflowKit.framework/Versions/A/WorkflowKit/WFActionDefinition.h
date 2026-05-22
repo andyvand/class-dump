@@ -11,14 +11,16 @@
     NSDictionary *_definition;
 }
 
-- (id)à?m¬Ö0%EÉ;
-- (id)¨ßÌ;
-- (id)1µÌ;
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id)!@ù1 Ð1â
+0@ù
+× ;
+- (void)layback from. (WFSourceMediaRoute);
 
 // Remaining properties
 @property(readonly, nonatomic) WFActionDescriptionDefinition *descriptionDefinition;

@@ -10,11 +10,11 @@
 {
 }
 
-- (unsigned long long);
-- (void);
-- (id);
 - (_Bool);
 - (void);
+- (id);
+- (unsigned long long);
+- (void)MTVisualStylingProvider"@>24@?0@"MTVisualStylingProvider"8@16;
 
 @end
 

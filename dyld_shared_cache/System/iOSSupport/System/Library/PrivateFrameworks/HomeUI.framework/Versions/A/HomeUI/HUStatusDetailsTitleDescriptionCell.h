@@ -25,14 +25,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id)A%Ð!pAùÑ.°1b0@ù
-× ;
 - (struct CGSize);
+- (void);
 - (id);
+- (id);
+- (void)chive custom data:%s /* Error: Ran out of types for this method. */;
+- (id)control value %@!;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

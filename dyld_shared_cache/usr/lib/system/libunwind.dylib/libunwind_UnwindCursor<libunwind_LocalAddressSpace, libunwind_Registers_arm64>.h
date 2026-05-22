@@ -4,21 +4,21 @@
 
 class libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64> {
 public: // (access info unavailable from symbols alone)
-    getFloatReg(int);
-    getFunctionName(char*, unsigned long, unsigned long*);
-    getInfo(unw_proc_info_t*);
-    getInfoFromDwarfSection(unsigned long, libunwind::UnwindInfoSections const&, unsigned int);
-    getInfoFromFdeCie(libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info const&, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info const&, unsigned long, unsigned long);
-    getReg(int);
-    getRegisterName(int);
-    isSignalFrame();
-    jumpto();
-    setFloatReg(int, double);
-    setInfoBasedOnIPRegister(bool);
-    setReg(int, unsigned long);
-    setWalkedFrames(unsigned int);
-    step(bool);
-    validFloatReg(int);
-    validReg(int);
+    auto getFloatReg(int);
+    auto getFunctionName(char*, unsigned long, unsigned long*);
+    auto getInfo(unw_proc_info_t*);
+    auto getInfoFromDwarfSection(unsigned long long const __ptrauth<1u, true, 33537u>&, libunwind::UnwindInfoSections const&, unsigned int);
+    auto getInfoFromFdeCie(libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info const&, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info const&, unsigned long, unsigned long);
+    auto getReg(int);
+    auto getRegisterName(int);
+    auto isSignalFrame();
+    auto jumpto();
+    auto setFloatReg(int, double);
+    auto setInfoBasedOnIPRegister(bool);
+    auto setReg(int, unsigned long);
+    auto setWalkedFrames(unsigned int);
+    auto step(bool);
+    auto validFloatReg(int);
+    auto validReg(int);
     ~UnwindCursor();
 };

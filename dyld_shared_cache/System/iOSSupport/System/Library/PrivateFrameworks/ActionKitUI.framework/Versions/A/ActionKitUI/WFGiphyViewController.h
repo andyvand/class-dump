@@ -28,22 +28,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)ceView;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

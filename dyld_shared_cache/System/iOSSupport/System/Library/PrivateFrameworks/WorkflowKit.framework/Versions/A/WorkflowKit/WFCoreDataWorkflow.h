@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id)j\ýÿ;
++ (id);
 - (id);
 - (id);
 - (void);
@@ -22,15 +22,15 @@
 - (void);
 - (void);
 - (_Bool);
-- (id)ONST;
 - (id);
 - (id);
-- (id)TH_CONST;
-- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (void)l³Ì;
-- (id);
 - (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -40,10 +40,10 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ctOfClasses:forKey: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *accessResourcePerWorkflowStates;

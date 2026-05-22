@@ -26,43 +26,43 @@ __attribute__((visibility("hidden")))
     CHHapticPattern *_pattern;
 }
 
-- (double);
-- (float);
-- (id);
-- (void)xpired;
-- (_Bool);
-- (void);
-- (_Bool);
 - (void);
 - (void);
-- (void);
-- (double);
-- (void);
-- (id);
-- (unsigned long long)!AùÂ°1¢!0@ù
-× ;
-- (unsigned int);
-- (void)ØFùñÄÐ1¢!0@ù
-× ;
-- (float)QÅÐ1¢!0@ù
-× ;
-- (void)@ù
-× ;
-- (id);
-- (unsigned long long)uÐ!Aù1Ê1¢!0@ù
-× ;
-- (_Bool)DropShadowView";
-- (void)inimalUI;
-- (void):(unsigned long long)arg1;
-- (void)ifier:(unsigned long long)arg1 options:children: /* Error: Ran out of types for this method. */;
-- (void)_idleAction;
-- (void)
-|À|3¬34<4m<5n¸6oP8pè8q`9$:(unsigned int)arg1 Ð<,=;
-- (void)ÿ;
 - (void);
 - (void);
 - (unsigned long long);
+- (unsigned long long);
+- (void);
+- (void);
+- (double);
+- (_Bool);
 - (id);
+- (void)Â0@ù
+× ;
+- (void)ð!xDùq`ð1Â0@ù
+× ;
+- (void)Ôð!lFùÑcÐ1Â0@ù
+× ;
+- (float)±eÐ1Â0@ù
+× ;
+- (_Bool)Ð1Â0@ù
+× ;
+- (void)d16^d24;
+- (void)anged:(float)arg1;
+- (void)ousVelocity:(_Bool)arg1;
+- (id)ailedReferenceBoundsInPixels;
+- (unsigned long long)rectionalEdgeForLayoutAxis:preEdge: /* Error: Ran out of types for this method. */;
+- (_Bool)ler>",&,N,V_currentPresentationController;
+- (void)bSpring;
+- (void)@ì¼l ¼Ä
+t`à ;
+- (double)L$	\	;
+- (id);
+- (unsigned int)quidMorph;
+- (float)r height:%@; header offset:%g; footer offset:%g; num rows:%ld; array length:%ld; row heights:%@ row offsets:%@ /* Error: Ran out of types for this method. */;
+- (void)eTransitionContext"16;
+- (void);
+- (id)(Å_;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAudioParameters:) _UIFeedbackParameters *audioParameters; // @synthesize audioParameters=_audioParameters;

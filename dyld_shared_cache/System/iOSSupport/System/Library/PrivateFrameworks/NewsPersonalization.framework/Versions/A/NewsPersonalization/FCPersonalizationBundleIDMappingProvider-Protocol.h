@@ -7,7 +7,6 @@
 @class FCPersonalizationBundleIDMapping;
 
 @protocol FCPersonalizationBundleIDMappingProvider
-- (FCPersonalizationBundleIDMapping *);
 
 // Remaining properties
 @property(readonly, nonatomic) FCPersonalizationBundleIDMapping *bundleIDMapping;

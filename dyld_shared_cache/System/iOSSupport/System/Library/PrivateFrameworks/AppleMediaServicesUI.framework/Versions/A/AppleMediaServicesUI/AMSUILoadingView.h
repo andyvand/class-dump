@@ -16,16 +16,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
 - (struct CGSize);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)inkButton;
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *activityIndicator; // @synthesize activityIndicator=_activityIndicator;

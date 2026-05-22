@@ -29,13 +29,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *bucket; // @synthesize bucket=_bucket;

@@ -6,6 +6,6 @@ class CFX::RG::ComputePassArguments {
 public: // (access info unavailable from symbols alone)
     ComputePassArguments(CFX::RG::ComputePassArguments const&);
     ComputePassArguments(RGCachedComputeCommandEncoder*);
-    encoder() const;
+    auto encoder() const;
     ~ComputePassArguments();
 };

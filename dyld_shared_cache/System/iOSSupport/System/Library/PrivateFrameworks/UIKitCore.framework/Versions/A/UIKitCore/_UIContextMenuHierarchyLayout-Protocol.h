@@ -5,6 +5,5 @@
 //
 
 @protocol _UIContextMenuHierarchyLayout
-- (void);
 @end
 

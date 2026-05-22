@@ -17,12 +17,25 @@
     MISSING_TYPE *unfairLock;
 }
 
-- (void)TLE;
-- (void)ton. Device wasn't unlocked.;
 - (void);
-- (id)n:(struct CGRect)arg1 User interacted with the advert;
 - (void);
-- (void)R;
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -30,24 +43,11 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)P;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void)rget [edit allows item change] targetContentItemID=%{public}@;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)r;
 - (void);
 
 // Remaining properties

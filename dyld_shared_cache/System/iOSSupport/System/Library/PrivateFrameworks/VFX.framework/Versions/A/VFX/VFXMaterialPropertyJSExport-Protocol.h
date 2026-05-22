@@ -7,9 +7,8 @@
 @class NSArray;
 
 @protocol VFXMaterialPropertyJSExport
-- (void);
-- (void)Ù?Adq?;
-- (id)?ßÞ!ABí?;
+- (float)enderResourceForProgramDesc:renderPassDesc: /* Error: Ran out of types for this method. */;
+- (id)Amount;
 
 // Remaining properties
 @property(retain, nonatomic) id contents;

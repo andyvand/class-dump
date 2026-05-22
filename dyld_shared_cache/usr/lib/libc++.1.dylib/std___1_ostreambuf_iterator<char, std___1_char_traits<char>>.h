@@ -4,5 +4,5 @@
 
 class std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    operator=[abi:ne200100](char);
+    auto operator=[abi:nqe210106](char);
 };

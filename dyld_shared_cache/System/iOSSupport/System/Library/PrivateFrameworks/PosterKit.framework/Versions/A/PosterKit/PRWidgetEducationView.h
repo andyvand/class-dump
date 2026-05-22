@@ -13,11 +13,11 @@
     id <PRWidgetEducationViewDelegate> _delegate;
 }
 
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id)à$¼dä;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

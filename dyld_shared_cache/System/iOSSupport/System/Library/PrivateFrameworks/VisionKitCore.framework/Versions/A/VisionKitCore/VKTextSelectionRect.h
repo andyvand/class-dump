@@ -35,15 +35,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (_Bool);
-- (void);
-- (id);
 - (_Bool);
-- (void);
 - (id);
-- (void);
 - (id);
-- (unsigned long long)r but no elementView was found. point:%@ maxDistance:%f /* Error: Ran out of types for this method. */;
-- (struct CGRect)ôÿsI×;
+- (id);
+- (struct CGRect);
+- (void);
+- (void);
+- (void)ingLayout;
+- (unsigned long long);
 
 // Remaining properties
 @property(retain, nonatomic) VKTextSelectionRectCustomHandleInfo *_customHandleInfo; // @synthesize _customHandleInfo=__customHandleInfo;

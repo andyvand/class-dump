@@ -4,5 +4,5 @@
 
 class std::__1::unique_ptr<buf_mem_st, bssl::internal::Deleter> {
 public: // (access info unavailable from symbols alone)
-    reset[abi:ne200100](buf_mem_st*);
+    auto reset[abi:nqe210106](buf_mem_st*);
 };

@@ -14,13 +14,13 @@
     MISSING_TYPE *style;
 }
 
-- (void)_ַ;
 - (void);
 - (void);
-- (void)B;
-- (id);
+- (void);
 - (void);
 - (id);
+- (id);
+- (void)ÓÝ;
 
 @end
 

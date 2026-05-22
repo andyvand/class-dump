@@ -31,16 +31,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)1â
+0@ù
+× ;
+- (void)mory_creationStateTitle;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setRotationFilter:) PUValueFilter *_rotationFilter; // @synthesize _rotationFilter=__rotationFilter;

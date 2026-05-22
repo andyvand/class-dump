@@ -12,17 +12,16 @@ __attribute__((visibility("hidden")))
     CAShapeLayer *_bottomBorderLayer;
 }
 
-+ (id)ting the in-memory transfer's guid that we will sync to CloudKit in-memory transfer:(long long)arg1 %@ newGUID:%@ /* Error: Ran out of types for this method. */;
-+ (id)D from %@ to %@;
-+ (id), checking client groupID (%@);
-+ (id)to:(long long)arg1 %@;
-- (void)eToDeviceAndPromptForResponse:(id)arg1;
++ (id);
++ (id);
++ (id);
++ (id);
+- (void);
 - (id);
-- (void)sagingAPITargetHandler failed to find process handle for %d;
-- (void)ñÀÐ1¢!0@ù
-× ;
-- (void)Controller;
-- (id)RowAnimation: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (void)warding;
+- (void)2¨×;
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *bottomBorderLayer; // @synthesize bottomBorderLayer=_bottomBorderLayer;

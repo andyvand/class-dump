@@ -12,9 +12,9 @@
 
 + (unsigned long long);
 - (_Bool);
-- (id)tifier;
 - (id);
-- (id)ontext: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 
 @end
 

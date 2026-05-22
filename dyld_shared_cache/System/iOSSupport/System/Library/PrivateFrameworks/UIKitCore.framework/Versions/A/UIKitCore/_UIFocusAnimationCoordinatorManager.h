@@ -22,18 +22,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)�;
+- (void);
 - (id);
 - (double);
 - (id);
 - (void);
 - (void);
-- (void)utingTimerFired;
 - (void);
-- (id)corresponding IDSAccount %@;
-- (id)ached for handleID:"%@". Not fetching again /* Error: Ran out of types for this method. */;
 - (void);
-- (id)reparedViewController: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (void)§\;
 
 // Remaining properties
 @property(retain, nonatomic) UIFocusAnimationCoordinator *activeFocusAnimationCoordinator; // @synthesize activeFocusAnimationCoordinator=_activeFocusAnimationCoordinator;

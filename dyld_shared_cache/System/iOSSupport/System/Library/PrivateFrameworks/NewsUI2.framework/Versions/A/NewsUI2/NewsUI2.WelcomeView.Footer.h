@@ -15,9 +15,9 @@
     MISSING_TYPE *privacyLink;
 }
 
-- (id);
 - (id);
-- (void);
+- (id);
+- (void);
 
 @end
 

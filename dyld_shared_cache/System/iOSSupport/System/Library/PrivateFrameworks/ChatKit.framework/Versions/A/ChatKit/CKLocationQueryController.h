@@ -14,11 +14,11 @@
 - (id);
 - (id);
 - (void);
-- (id)Bx7ynGU/Library/Caches/com.apple.xbs/Sources/NotesFramework/Ironcade/SharedUI/Mac/ICMAlertSheetTouchBarController.m;
-- (id)d note with %@;
 - (id);
-- (id)Ô`h0;
-- (id)TÿF8æ«.;
+- (id);
+- (id);
+- (id)l;
+- (id);
 
 @end
 

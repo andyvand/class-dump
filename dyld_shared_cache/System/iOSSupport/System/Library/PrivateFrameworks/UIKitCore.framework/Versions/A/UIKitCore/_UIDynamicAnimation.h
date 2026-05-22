@@ -16,33 +16,31 @@
     unsigned int _usesNSTimer:1;
 }
 
-+ (id)bmit metric again.;
++ (id);
 + (void);
 + (void);
 + (void);
 - (void);
-- (_Bool)AuxVideo: /* Error: Ran out of types for this method. */;
-- (_Bool)anslation;
-- (void)mmAssetOffset;
-- (void)portingService:(_Bool)arg1;
-- (void)_service:(_Bool)arg1 account:incomingData:fromID:context:isBeingReplayed: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool)hp;
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)bundleID:(id)arg1 %{public}s protectionClass:(int)arg2 %{public}s itemIdentifier:%s typeIdentifier:%s options:%ld /* Error: Ran out of types for this method. */;
-- (_Bool)ved notification that conversation messagesGroupUUID was added:(double)arg1 %@;
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void)
-× ;
-- (void)QÂ°1¢!0@ù
-× ;
-- (int)rItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
-- (id)on:inSize: /* Error: Ran out of types for this method. */;
-- (id)ingAlignment;
-- (void)àÿÿÿ'èÿpêSþÈ·þÿ;
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (int);
+- (void)tionMutablePropertyObservering>";
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) int state;

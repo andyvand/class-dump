@@ -16,21 +16,21 @@
 }
 
 + (id);
-- (void);
-- (void)æ|;
+- (void);
+- (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id)³|;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (long long);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accentVariant; // @synthesize accentVariant=_accentVariant;

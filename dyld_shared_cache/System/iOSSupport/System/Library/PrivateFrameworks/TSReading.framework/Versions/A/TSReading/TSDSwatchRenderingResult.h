@@ -12,8 +12,8 @@
 
 + (id);
 - (void);
-- (struct CGImage *)|Ô;
-- (struct CGImage *)ø>îÿÃ¿Tñé;
+- (struct CGImage *);
+- (struct CGImage *)onst EQKit::Layout::Schemata &) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGImage *background; // @synthesize background;

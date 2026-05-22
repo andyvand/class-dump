@@ -47,7 +47,7 @@
 - (id);
 - (void);
 - (id);
-- (void).xbs/Sources/Shortcuts_iosmac/ShortcutsActions/ActionKit/External/libressl/libressl/crypto/rsa/rsa_pss.c;
+- (void)H could not connect to the SSH server.;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *canPurchaseUploadAllowance; // @synthesize canPurchaseUploadAllowance=_canPurchaseUploadAllowance;

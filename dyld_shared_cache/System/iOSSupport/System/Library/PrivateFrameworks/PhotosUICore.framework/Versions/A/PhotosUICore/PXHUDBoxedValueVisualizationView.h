@@ -15,8 +15,8 @@
 
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
+- (void)¡ÉÀ;
 
 // Remaining properties
 @property(retain, nonatomic) PXHUDBoxedValueVisualization *visualization; // @dynamic visualization;

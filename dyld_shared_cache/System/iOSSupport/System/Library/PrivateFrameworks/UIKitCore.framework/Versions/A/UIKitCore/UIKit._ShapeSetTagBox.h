@@ -11,7 +11,7 @@
     MISSING_TYPE *tag;
 }
 
-- (id)T@"UIActivityViewController",&,N,G_activityViewController,S_setActivityViewController:,V_activityViewController /* Error: Ran out of types for this method. */;
+- (id);
 
 @end
 

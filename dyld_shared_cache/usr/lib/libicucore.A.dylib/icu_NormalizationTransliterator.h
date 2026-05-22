@@ -4,5 +4,5 @@
 
 class icu::NormalizationTransliterator {
 public: // (access info unavailable from symbols alone)
-    getStaticClassID();
+    auto getStaticClassID();
 };

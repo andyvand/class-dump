@@ -19,24 +19,24 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id)<9
-;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
-- (void)_storage_$_scrollIndicatorObserver;
-- (id);
-- (_Bool);
-- (id);
 - (void);
-- (void);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void)1Â0@ù
+× ;
+- (void);
 - (void);
-- (void)tartPosition;
+- (void)@]ÿY¦7à3;
 
 // Remaining properties
 @property(readonly, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;

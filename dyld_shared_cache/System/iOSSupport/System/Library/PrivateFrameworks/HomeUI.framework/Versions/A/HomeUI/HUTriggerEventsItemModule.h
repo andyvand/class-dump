@@ -33,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)er:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *addEventButtonItem; // @synthesize addEventButtonItem=_addEventButtonItem;

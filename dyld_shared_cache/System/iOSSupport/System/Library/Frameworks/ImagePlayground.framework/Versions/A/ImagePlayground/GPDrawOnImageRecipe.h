@@ -38,8 +38,8 @@
 - (void);
 - (void);
 - (struct __CVBuffer *);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, retain) struct __CVBuffer *baseImage;

@@ -14,20 +14,20 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (unsigned long long):fromHandle:toHandles:ccHandles:bccHandles:headers:subject:htmlContent:textContent:isFullyDownloaded:securityMethod:accountHandles:replyTo:mailboxIdentifiers:listId:accountType:attachments:contentProtection: /* Error: Ran out of types for this method. */;
-- (void)tentProtection: /* Error: Ran out of types for this method. */;
-- (unsigned long long)nversationItem %@;
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
+- (void);
+- (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void)ils;
-- (void);
 - (_Bool);
+- (void);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void)rnalDevice;
+- (void)rsistentID__MAPPING_MISSING__;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *predicates; // @synthesize predicates=_predicates;

@@ -24,10 +24,10 @@
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) WFHomeScreenIcon *icon; // @synthesize icon=_icon;

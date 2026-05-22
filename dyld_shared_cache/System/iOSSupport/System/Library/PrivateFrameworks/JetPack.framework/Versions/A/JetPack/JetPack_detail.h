@@ -4,10 +4,10 @@
 
 class JetPack::detail {
 public: // (access info unavailable from symbols alone)
-    closeCallback(archive*, void*);
-    copyArchiveData(archive*, archive*);
-    openCallback(archive*, void*);
-    pathIsContainedBy(std::__1::__fs::filesystem::path, std::__1::__fs::filesystem::path);
-    readCallback(archive*, void*, void const**);
-    resolvingAllSymlinksInNonExistentPath(std::__1::__fs::filesystem::path);
+    auto closeCallback(archive*, void*);
+    auto copyArchiveData(archive*, archive*);
+    auto openCallback(archive*, void*);
+    auto pathIsContainedBy(std::__1::__fs::filesystem::path, std::__1::__fs::filesystem::path);
+    auto readCallback(archive*, void*, void const**);
+    auto resolvingAllSymlinksInNonExistentPath(std::__1::__fs::filesystem::path);
 };

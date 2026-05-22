@@ -4,5 +4,5 @@
 
 class mach_o::PlatformInfo_visionOS {
 public: // (access info unavailable from symbols alone)
-    minorVersionForSpring(unsigned short) const;
+    auto minorVersionForSpring(unsigned short) const;
 };

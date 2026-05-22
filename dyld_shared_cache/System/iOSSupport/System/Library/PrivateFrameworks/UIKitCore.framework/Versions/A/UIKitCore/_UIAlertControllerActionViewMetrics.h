@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (double)hat:filterExtensionMetadata: /* Error: Ran out of types for this method. */;
+- (double);
 
 // Remaining properties
 @property(nonatomic) double descriptiveLabelTextWidth; // @synthesize descriptiveLabelTextWidth=_descriptiveLabelTextWidth;

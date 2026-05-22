@@ -15,9 +15,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id)etectionEnabled;
+- (id);
+- (void);
 
 @end
 

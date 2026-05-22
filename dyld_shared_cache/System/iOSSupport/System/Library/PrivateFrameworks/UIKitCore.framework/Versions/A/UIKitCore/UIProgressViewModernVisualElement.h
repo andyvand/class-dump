@@ -24,7 +24,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (struct CGSize)rSMSSpam:(struct CGSize)arg1 message.guid:(id)arg2 %@ default %@ set, forcing category %ld sub category %ld;
++ (struct CGSize);
 + (id);
 + (id);
 + (id);
@@ -32,37 +32,37 @@ __attribute__((visibility("hidden")))
 + (unsigned long long);
 + (void);
 - (void);
-- (void)edMessagesTimer:(id)arg1;
-- (void)sage:(long long)arg1 chatIdentifier:chatStyle:lastKnownReplicationDate:callerID: /* Error: Ran out of types for this method. */;
-- (void)replayMessages;
-- (void)cedNicknameForHandleIDInHandledMapIfNeeded:(id)arg1 nickname: /* Error: Ran out of types for this method. */;
-- (void)nBlock:(id)arg1;
-- (void)dex:(float)arg1 withObject:(_Bool)arg2;
-- (id)orMessage: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)%ld notices;
-- (_Bool)@;
-- (_Bool)view, no filePath for transfer %@;
-- (double)'%@':(long long)arg1 '%@':'%@' /* Error: Ran out of types for this method. */;
-- (void)ees with the "from me" attribute, creating a new message ID;
-- (unsigned long long)ame, updating name;
-- (unsigned long long)t no information were provided;
-- (void)@;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (double);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)
+- (void)!Dùñað1Â0@ù
 × ;
-- (id)tingDelegate;
-- (struct UIEdgeInsets)plus or minus the number of rows moved into or out of that section (%lu moved in, %lu moved out). Table view:%@ /* Error: Ran out of types for this method. */;
-- (void)*¦ÍL\;
-- (void)ó-d;
-- (struct CGSize)è{}ÿðüh;
+- (struct CGSize)ying updates in a non-thread confined manner is dangerous and can lead to deadlocks. Please always submit updates either always on the main queue or always off the main queue - view=%@;
+- (void)¬Jð&d;
+- (struct UIEdgeInsets)»Õ@Rf;
+- (void)Îf;
+- (void)VÒÐdDk;
 
 // Remaining properties
 @property(nonatomic) __weak UIProgressView *progressControlView; // @synthesize progressControlView=_progressControlView;

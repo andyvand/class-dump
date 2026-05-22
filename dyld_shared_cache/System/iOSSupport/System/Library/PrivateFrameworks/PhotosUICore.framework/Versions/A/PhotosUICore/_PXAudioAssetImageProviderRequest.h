@@ -19,16 +19,16 @@
 }
 
 - (id);
-- (CDUnknownBlockType);
-- (void)°myl«0õ²l¬Ö0e;
-- (id);
+- (long long);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
-- (long long);
-- (id);
-- (id)x_isUserSmartAlbum;
-- (long long);
 - (struct CGSize);
+- (long long);
+- (id)yContentView33_1B50DC52D4D0467ED56FE78BF1017C39LLP;
+- (CDUnknownBlockType)rBackground;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;

@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isPassthrough; // @synthesize isPassthrough=_isPassthrough;

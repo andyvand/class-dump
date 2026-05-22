@@ -16,11 +16,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
 - (void);
-- (void);
-- (struct CGSize);
 - (id);
+- (id);
+- (struct CGSize)
+× ;
+- (void)HMHome"8@"<HFItemUpdating>"16;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

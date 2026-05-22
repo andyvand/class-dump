@@ -12,12 +12,11 @@
 
 - (_Bool);
 - (struct CGSize);
-- (id)n
-;
 - (id);
-- (Class);
 - (id);
-- (unsigned long long)CommSafetyMenu: /* Error: Ran out of types for this method. */;
+- (id);
+- (Class);
+- (unsigned long long)Offset:forAttachmentClass: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) Class cellClass;

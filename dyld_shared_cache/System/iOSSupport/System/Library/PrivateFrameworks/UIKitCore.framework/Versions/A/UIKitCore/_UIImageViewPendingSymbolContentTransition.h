@@ -18,18 +18,19 @@ __attribute__((visibility("hidden")))
     struct CGRect _initialSymbolAbsoluteRect;
 }
 
-+ (id)=;
++ (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (struct CGRect);
-- (CDUnknownBlockType);
-- (id)ary time observer block;
+- (id);
+- (id)1Â0@ù
+× ;
+- (CDUnknownBlockType)olumnNumberOffset;
+- (id)any information you have that helps reproduce this bug!;
 - (void);
-- (id);
-- (id)dArbiterState;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

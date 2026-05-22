@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCAudioPlaylist, FCIssueReadingHistory, FCKeyValueStore, FCPersonalizationData, FCPrivateChannelMembershipController, FCPuzzleHistory, FCPuzzleTypeSettings, FCReadingHistory, FCReadingList, FCRecipeUserEventHistory, FCShortcutList, FCSubscriptionList, FCTagSettings, FCUserEventHistory, FCUserInfo, NSString;
+@class FCAudioPlaylist, FCIssueReadingHistory, FCPrivateChannelMembershipController, FCPuzzleHistory, FCPuzzleTypeSettings, FCReadingHistory, FCReadingList, FCRecipeUserEventHistory, FCShortcutList, FCSubscriptionList, FCTagSettings, FCUserEventHistory, FCUserInfo, NSString;
 @protocol FCNetworkBehaviorMonitor, FCPrivateDataContextInternal, FCPushNotificationHandling;
 
 @protocol FCPrivateDataContext
-- (FCKeyValueStore *)ut;
-- (id <FCPushNotificationHandling>)!0@ù
+- (id <FCPrivateDataContextInternal>)æ!¼@ùöð1Â0@ù
 × ;
-- (FCPrivateChannelMembershipController *)Á²ð!8Eùq¼Ð1¢!0@ù
+- (id <FCPushNotificationHandling>)1Â0@ù
 × ;
-- (FCReadingHistory *)³!¨Aù±¼1¢!0@ù
-× ;
-- (FCSubscriptionList *)@16;
-- (FCUserEventHistory *)tCompletion: /* Error: Ran out of types for this method. */;
-- (FCAudioPlaylist *)mation:force: /* Error: Ran out of types for this method. */;
-- (FCPuzzleHistory *)nFromAutoFavorites;
-- (FCReadingList *)nterForeground;
-- (FCTagSettings *)ppearingViewController;
-- (FCPuzzleTypeSettings *)ider;
-- (id <FCPrivateDataContextInternal>)ister font resource %{public}@;
-- (FCPersonalizationData *);
+- (FCPuzzleTypeSettings *);
+- (FCAudioPlaylist *);
 
 // Remaining properties
 @property(readonly, nonatomic) FCAudioPlaylist *audioPlaylist;
 @property(readonly, nonatomic) id <FCPrivateDataContextInternal> internalPrivateDataContext;
 @property(readonly, nonatomic) FCIssueReadingHistory *issueReadingHistory;
 @property(readonly, nonatomic) id <FCNetworkBehaviorMonitor> networkBehaviorMonitor;
-@property(readonly, nonatomic) FCPersonalizationData *personalizationData;
 @property(readonly, nonatomic) FCPrivateChannelMembershipController *privateChannelMembershipController;
 @property(readonly, copy, nonatomic) NSString *privateDataDirectory;
 @property(readonly, nonatomic, getter=isPrivateDataSyncingEnabled) _Bool privateDataSyncingEnabled;

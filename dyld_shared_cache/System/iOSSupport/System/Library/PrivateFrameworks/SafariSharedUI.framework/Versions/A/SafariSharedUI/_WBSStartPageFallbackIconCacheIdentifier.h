@@ -16,15 +16,15 @@
 }
 
 - (id);
-- (id)A;
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id)U;
+- (id);
 - (struct CGSize);
+- (id);
+- (void)led: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImage *baseImage; // @synthesize baseImage=_baseImage;

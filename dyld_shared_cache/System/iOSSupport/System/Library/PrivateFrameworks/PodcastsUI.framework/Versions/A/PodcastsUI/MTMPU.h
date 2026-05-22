@@ -4,5 +4,5 @@
 
 class MTMPU {
 public: // (access info unavailable from symbols alone)
-    _ResolveEquationOfPlaneDefinedBy3DPoints(MTMPU::Point3D, MTMPU::Point3D, MTMPU::Point3D, double*, double*, double*);
+    auto _ResolveEquationOfPlaneDefinedBy3DPoints(MTMPU::Point3D, MTMPU::Point3D, MTMPU::Point3D, double*, double*, double*);
 };

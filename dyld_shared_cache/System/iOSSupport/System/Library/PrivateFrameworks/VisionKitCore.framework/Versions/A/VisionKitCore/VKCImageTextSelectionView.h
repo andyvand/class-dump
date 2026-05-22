@@ -72,33 +72,36 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (struct CGRect);
-- (long long);
-- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (long long);
-- (id);
-- (long long)!Gù±Mð1B0@ù
+- (long long)ÔaFð!ÄFùÐ1â
+0@ù
 × ;
-- (id);
-- (id)ighlightStrings:(id)arg1;
-- (id)ithDuration:(struct CGPoint)arg1 beginTime:animations: /* Error: Ran out of types for this method. */;
-- (id)datesSuspended;
-- (struct CGRect)) != nil);
+- (long long)ÁFð!h@ù°1â
+0@ù
+× ;
+- (struct CGRect)ligenceSaliencyStream";
+- (id)rnalEffect;
+- (id)iencyStream;
+- (struct CGRect)ice;
+- (id)edWindowContentsRect fromToolbar:(struct CGPoint)arg1 %@, windowContentsRect:%@ /* Error: Ran out of types for this method. */;
+- (id)FILE_NAME;
+- (id)ervices.data-donation;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allLineQuads; // @synthesize allLineQuads=_allLineQuads;

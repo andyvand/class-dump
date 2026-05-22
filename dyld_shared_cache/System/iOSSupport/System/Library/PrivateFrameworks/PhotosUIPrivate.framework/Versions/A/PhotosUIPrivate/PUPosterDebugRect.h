@@ -16,11 +16,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (double);
-- (void);
-- (id);
 - (id);
 - (struct CGRect);
+- (id);
+- (double)PhotoView"16q24;
+- (void)AssetCollections: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double borderWidth; // @synthesize borderWidth=_borderWidth;

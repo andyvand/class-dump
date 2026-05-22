@@ -5,8 +5,8 @@
 class FileMgr {
 public: // (access info unavailable from symbols alone)
     FileMgr(char const*, char const*);
-    fail(char const*, char const*);
-    getline();
-    getlinenum();
+    auto fail(char const*, char const*);
+    auto getline();
+    auto getlinenum();
     ~FileMgr();
 };

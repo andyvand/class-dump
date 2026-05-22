@@ -29,7 +29,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)ÿÿ;
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -47,21 +47,21 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
 - (float);
 - (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (MISSING_TYPE *);
-- (_Bool);
+- (void);
+- (void): /* Error: Ran out of types for this method. */;
+- (id)Rect(u_texture, v_tex_coord); if (color.a <= 0.05) { discard; } else { gl_FragColor = color; } };
+- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) float animationSpeed; // @synthesize animationSpeed=_animationSpeed;

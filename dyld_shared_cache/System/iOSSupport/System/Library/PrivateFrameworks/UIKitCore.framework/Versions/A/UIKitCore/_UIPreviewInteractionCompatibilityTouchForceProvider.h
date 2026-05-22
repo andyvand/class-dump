@@ -15,18 +15,20 @@ __attribute__((visibility("hidden")))
     _Bool _active;
 }
 
-- (void)Message:(id)arg1;
-- (_Bool);
-- (double)"6;
-- (void)ng did not pong];
-- (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (struct CGPoint)gnedHeight;
-- (void)int;
-- (void)@ %s%s%s%s%s%@>;
-- (id)çÀ;
+- (void);
+- (struct CGPoint);
+- (void)1Â0@ù
+× ;
+- (_Bool)°!äFùaÐ1Â0@ù
+× ;
+- (id)ntent;
+- (_Bool)ed in the list section data, which is unsupported. This is a UIKit bug.;
+- (double);
+- (void)ÔÚ;
+- (void);
+- (id),];
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

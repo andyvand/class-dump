@@ -11,19 +11,19 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)`Ú=ÿFÛÍãt;
-+ (id)%ë;
-- (_Bool)IfNeeded;
-- (void);
-- (void);
-- (void)to start monitoring with error:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)n proxy mode. Found active iMessage account signed into email %@ ;
++ (id)¼Üþq;
++ (id)§ÿ`àìk;
 - (_Bool);
 - (void);
-- (void)Error:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
 - (struct CGSize);
 - (void);
-- (id)ound(SystemSoundID, Boolean);
+- (id)Types;
 
 @end
 

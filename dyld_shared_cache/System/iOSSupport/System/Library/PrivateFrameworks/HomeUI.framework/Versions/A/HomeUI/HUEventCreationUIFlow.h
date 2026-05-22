@@ -26,8 +26,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)s:systemLayoutSize superclass returned unrealistic height %f /* Error: Ran out of types for this method. */;
+- (id);
+- (void)raFeedbackAgreeTitle;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

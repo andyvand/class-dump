@@ -13,8 +13,8 @@
 
 - (id);
 - (id);
-- (id);
 - (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic, copy) NSLocale *locale;

@@ -25,7 +25,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void), fetching calendar events between startDate, %@, endDate, %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *averageDate; // @synthesize averageDate=_averageDate;

@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMMediaGroupProtoMediaSystemRoles, HMMediaGroupProtoSurroundSystemRoles;
+@class HMMediaGroupProtoHomeTheaterSystemRoles, HMMediaGroupProtoMediaSystemRoles, HMMediaGroupProtoSurroundSystemRoles;
 
 @interface HMMediaGroupProtoMediaGroupRole
 {
+    HMMediaGroupProtoHomeTheaterSystemRoles *_homeTheaterSystem;
     HMMediaGroupProtoMediaSystemRoles *_mediaSystem;
     int _role;
     HMMediaGroupProtoSurroundSystemRoles *_surroundSystem;
@@ -18,7 +19,10 @@
 
 - (id);
 - (void);
+- (void);
 - (id);
+- (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -27,23 +31,26 @@
 - (id);
 - (_Bool);
 - (int);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
-- (void);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (int)udioDestinationControllerDataCodingKey;
+- (int)¬Ð1B50@ù
+× ;
+- (void)Ü;
+- (void)th:(int)arg1 %@;
 
 // Remaining properties
+@property(readonly, nonatomic) _Bool hasHomeTheaterSystem;
 @property(readonly, nonatomic) _Bool hasMediaSystem;
 @property(nonatomic) _Bool hasRole;
 @property(readonly, nonatomic) _Bool hasSurroundSystem;
+@property(retain, nonatomic) HMMediaGroupProtoHomeTheaterSystemRoles *homeTheaterSystem; // @synthesize homeTheaterSystem=_homeTheaterSystem;
 @property(retain, nonatomic) HMMediaGroupProtoMediaSystemRoles *mediaSystem; // @synthesize mediaSystem=_mediaSystem;
 @property(nonatomic) int role; // @synthesize role=_role;
 @property(retain, nonatomic) HMMediaGroupProtoSurroundSystemRoles *surroundSystem; // @synthesize surroundSystem=_surroundSystem;

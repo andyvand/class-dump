@@ -9,7 +9,6 @@
 @interface NewsUI2.TitleViewStyler
 {
     MISSING_TYPE *headlineFontMetrics;
-    MISSING_TYPE *subheadlineFontMetrics;
     MISSING_TYPE *actionButtonFontMetrics;
     MISSING_TYPE *baseTitleFont;
 }

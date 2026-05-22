@@ -4,3 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#pragma mark Blocks
+
+typedef void (^CDUnknownBlockType)(void); // return type and parameters are unknown
+
+#pragma mark Named Structures
+
+struct __SecKey {
+    struct __CFRuntimeBase {
+        unsigned long long _field1;
+        _Atomic unsigned long long _field2;
+    } _field1;
+    struct __SecKeyDescriptor *_field2;
+    void *_field3;
+};
+
+struct nw_frame;
+
+struct nw_frame_array_s {
+    struct nw_frame *tqh_first;
+    struct nw_frame **tqh_last;
+};
+
+struct nw_protocol {
+    unsigned char _field1[16];
+    struct nw_protocol_identifier *_field2;
+    struct nw_protocol_callbacks *_field3;
+    struct nw_protocol *_field4;
+    void *_field5;
+    struct nw_protocol *_field6;
+    void *_field7;
+};
+
+struct nw_protocol_callbacks;
+
+struct nw_protocol_identifier;
+

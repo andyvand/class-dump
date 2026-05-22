@@ -5,7 +5,8 @@
 class marisa::Trie {
 public: // (access info unavailable from symbols alone)
     Trie();
-    lookup(marisa::Agent&) const;
-    map(void const*, unsigned long);
+    auto lookup(marisa::Agent&) const;
+    auto map(void const*, unsigned long);
+    auto map(void const*, unsigned long) (.cold.1);
     ~Trie();
 };

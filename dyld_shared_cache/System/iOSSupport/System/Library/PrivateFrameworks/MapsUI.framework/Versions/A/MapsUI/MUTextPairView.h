@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (id);
+- (void)lternateArtwork;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

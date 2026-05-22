@@ -14,13 +14,13 @@
 }
 
 - (id);
+- (void);
+- (void);
+- (id);
 - (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void)ssCodeManager submitAccessCodeModificationRequests:completion:] /* Error: Ran out of types for this method. */;
-- (id)Error;
+- (void)nCondition",C,D;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;

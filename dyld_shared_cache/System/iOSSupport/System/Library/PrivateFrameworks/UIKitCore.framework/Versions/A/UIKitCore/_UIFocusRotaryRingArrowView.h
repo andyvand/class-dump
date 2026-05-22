@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)SString"40@"NSData"48@"NSString"56@"NSNumber"64@"NSNumber"72;
-- (id)aunch: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
 - (void);
+- (void);
 
 @end
 

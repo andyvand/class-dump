@@ -43,11 +43,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
 - (void);
-- (struct CGSize);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

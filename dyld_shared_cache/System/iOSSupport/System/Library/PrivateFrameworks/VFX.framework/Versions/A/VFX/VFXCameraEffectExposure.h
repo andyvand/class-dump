@@ -20,7 +20,7 @@
 }
 
 + (id);
-+ (_Bool)KeyframeAnimationRuntime;
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -39,13 +39,13 @@
 - (void);
 - (float);
 - (void);
+- (void);
+- (id);
+- (void);
+- (id);
 - (float);
-- (void);
-- (void);
-- (id);
-- (id);
-- (float)onTables;
-- (void)Á%z';
+- (void)Á;
+- (float);
 
 // Remaining properties
 @property(nonatomic) float adaptationBrighteningSpeedFactor;

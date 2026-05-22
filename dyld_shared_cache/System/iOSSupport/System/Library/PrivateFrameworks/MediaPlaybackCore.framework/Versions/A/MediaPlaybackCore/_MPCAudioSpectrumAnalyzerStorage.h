@@ -20,18 +20,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (long long)lugin;
+- (long long);
 - (long long);
 - (id);
 - (long long);
-- (void)S account security level changed, signaling primaryAccountModified;
-- (void)ount deleted;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (float)E;
+- (void);
+- (void);
+- (float);
 
 // Remaining properties
 @property(nonatomic) long long halfN; // @synthesize halfN=_halfN;

@@ -14,8 +14,8 @@
 
 - (id);
 - (id);
-- (void)*;
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCAppleAccount> appleAccount; // @synthesize appleAccount=_appleAccount;

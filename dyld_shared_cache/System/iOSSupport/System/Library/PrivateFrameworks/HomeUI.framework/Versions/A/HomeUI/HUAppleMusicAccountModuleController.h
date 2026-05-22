@@ -54,10 +54,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)ngLayoutGuide: /* Error: Ran out of types for this method. */;
-- (void)tem:(id)arg1 didUpdateComponents: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (void)ection"8;
 
 // Remaining properties
 @property(nonatomic) __weak HUButtonCell *activeAuthCell; // @synthesize activeAuthCell=_activeAuthCell;

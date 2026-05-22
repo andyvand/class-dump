@@ -7,8 +7,9 @@
 @class NSArray;
 
 @protocol UIDropInteractionContext
-- (long long)rs;
-- (NSArray *);
+- (long long)!PBù±c1Â0@ù
+× ;
+- (NSArray *)vailable;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *items;

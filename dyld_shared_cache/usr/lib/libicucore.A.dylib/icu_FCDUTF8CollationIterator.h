@@ -4,21 +4,21 @@
 
 class icu::FCDUTF8CollationIterator {
 public: // (access info unavailable from symbols alone)
-    backwardNumCodePoints(int, UErrorCode&);
-    forwardNumCodePoints(int, UErrorCode&);
-    foundNULTerminator();
-    getOffset() const;
-    handleGetTrailSurrogate();
-    handleNextCE32(int&, UErrorCode&);
-    nextCodePoint(UErrorCode&);
-    nextHasLccc() const;
-    nextSegment(UErrorCode&);
-    normalize(icu::UnicodeString const&, UErrorCode&);
-    previousCodePoint(UErrorCode&);
-    previousHasTccc() const;
-    previousSegment(UErrorCode&);
-    resetToOffset(int);
-    switchToBackward();
-    switchToForward();
+    auto backwardNumCodePoints(int, UErrorCode&);
+    auto forwardNumCodePoints(int, UErrorCode&);
+    auto foundNULTerminator();
+    auto getOffset() const;
+    auto handleGetTrailSurrogate();
+    auto handleNextCE32(int&, UErrorCode&);
+    auto nextCodePoint(UErrorCode&);
+    auto nextHasLccc() const;
+    auto nextSegment(UErrorCode&);
+    auto normalize(icu::UnicodeString const&, UErrorCode&);
+    auto previousCodePoint(UErrorCode&);
+    auto previousHasTccc() const;
+    auto previousSegment(UErrorCode&);
+    auto resetToOffset(int);
+    auto switchToBackward();
+    auto switchToForward();
     ~FCDUTF8CollationIterator();
 };

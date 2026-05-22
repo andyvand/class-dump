@@ -19,11 +19,11 @@
 - (double);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
+- (double);
 - (void);
 - (id);
-- (void)AlphaFactor;
-- (double)ingTargetContentOffset;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool RTL; // @synthesize RTL=_RTL;

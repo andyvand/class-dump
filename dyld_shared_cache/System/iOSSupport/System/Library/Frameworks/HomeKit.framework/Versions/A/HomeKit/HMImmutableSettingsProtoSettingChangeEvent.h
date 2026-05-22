@@ -47,20 +47,20 @@
 - (int);
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void)¬J;
-- (_Bool)lectionJoinMeshMS_HH2;
+- (_Bool),N,V_value;
+- (void)@%;
+- (void)nload:(_Bool)arg1 %@;
 
 // Remaining properties
 @property(retain, nonatomic) HMImmutableSettingsProtoAvailableLanguageListEvent *availableLanguages; // @synthesize availableLanguages=_availableLanguages;

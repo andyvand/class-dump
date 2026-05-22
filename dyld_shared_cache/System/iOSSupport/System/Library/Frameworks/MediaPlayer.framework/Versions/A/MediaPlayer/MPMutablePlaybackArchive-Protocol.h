@@ -5,9 +5,6 @@
 //
 
 @protocol MPMutablePlaybackArchive
-- (void);
-- (void)^@24;
-- (void)equest:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void)ý;
+- (void)x%f);
 @end
 

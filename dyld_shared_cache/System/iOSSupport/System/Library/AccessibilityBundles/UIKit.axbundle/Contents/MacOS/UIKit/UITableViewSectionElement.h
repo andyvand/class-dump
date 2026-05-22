@@ -23,11 +23,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 - (_Bool);
-- (id);
 - (struct CGRect);
+- (id);
+- (id);
+- (void);
 
 @end
 

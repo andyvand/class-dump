@@ -18,13 +18,13 @@
 + (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)É3;
 
 // Remaining properties
 @property(readonly, nonatomic) FMFHandle *fmfHandle; // @synthesize fmfHandle=_fmfHandle;

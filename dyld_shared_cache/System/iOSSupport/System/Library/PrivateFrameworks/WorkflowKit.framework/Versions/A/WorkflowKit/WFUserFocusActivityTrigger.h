@@ -23,15 +23,15 @@
 + (id);
 + (id);
 + (id);
-+ (id)Ý³Ì;
++ (id);
 + (id);
 + (id);
 + (long long);
 + (id);
 + (_Bool);
-+ (_Bool);
++ (_Bool)Ø%BÓ;
 + (id);
-+ (_Bool)library.;
++ (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *activityGlyphName; // @synthesize activityGlyphName=_activityGlyphName;

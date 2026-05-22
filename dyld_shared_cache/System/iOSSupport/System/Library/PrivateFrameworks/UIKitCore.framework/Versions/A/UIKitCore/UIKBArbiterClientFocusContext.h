@@ -14,22 +14,23 @@
 }
 
 + (id);
-+ (id)ate;
-+ (_Bool)ýfÿºÓÚ¿øm;
-- (id)ration_UpdateSchedule;
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void)! CùñÁð1¢!0@ù
++ (id)!<Cù±c1Â0@ù
 × ;
-- (id)dingEdits: /* Error: Ran out of types for this method. */;
-- (void)entDirection:(unsigned int)arg1;
-- (void)ictionariesForDictationResults;
++ (_Bool)regate;
+- (void);
 - (id);
-- (void)°À;
-- (unsigned int)ÄHà;
-- (id)çÿ;
+- (id);
+- (void);
+- (id);
+- (id)× ;
+- (unsigned int)Qg°1Â0@ù
+× ;
+- (_Bool)ex:(id)arg1;
+- (void):(id)arg1;
+- (id)ualStyle;
+- (void);
+- (void)Ï;
+- (id)Lt	;
 
 // Remaining properties
 @property(nonatomic) unsigned int contextID; // @synthesize contextID=_contextID;

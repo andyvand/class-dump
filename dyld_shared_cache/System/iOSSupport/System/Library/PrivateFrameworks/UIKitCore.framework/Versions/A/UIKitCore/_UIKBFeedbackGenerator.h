@@ -36,75 +36,69 @@ __attribute__((visibility("hidden")))
     long long __mode;
 }
 
-+ (id);
 + (_Bool);
-+ (_Bool)T@"BSSimpleAssertion",W,N,V__activeSystemInputInteraction;
-+ (_Bool)%@ does not implement -drawInBounds:, and it should! /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)pInstallation: /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void)leDictionary"32;
-- (void)orkKind:(CDUnknownBlockType)arg1;
-- (void)issing mapping for MPModelPropertyTVShowTitle;
-- (_Bool);
++ (_Bool)tCarPlayTouchpads: /* Error: Ran out of types for this method. */;
++ (id),N,V_alternativesView;
++ (_Bool)Dark;
 - (double);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (double);
+- (void);
 - (_Bool);
-- (void)º;
-- (void)ÑÂ°1¢!0@ù
-× ;
 - (void);
-- (void)0@ù
-× ;
-- (void)¢!0@ù
-× ;
-- (void)sÐ!`FùÑÇÐ1¢!0@ù
-× ;
-- (void)!;
-- (_Bool)¡v!ìBùqË1¢!0@ù
-× ;
-- (void)
-× ;
-- (double)¢!0@ù
-× ;
 - (void);
-- (void)0@ù
-× ;
-- (_Bool)Ôy°!BùQÏ1¢!0@ù
-× ;
-- (void)8^{CGPath=}16{CGRect={CGPoint=dd}{CGSize=dd}}24{CGAffineTransform=dddddd}56;
-- (long long)SView"24@0:8^{CGRect={CGPoint=dd}{CGSize=dd}}16 /* Error: Ran out of types for this method. */;
-- (double)ning>"24@0:(long long)arg1 8@"UIViewController"16;
-- (void)performSelectorForObject:(id)arg1 selector:withObject:withObject:withObject: /* Error: Ran out of types for this method. */;
-- (double)erItems;
-- (void)hadow: /* Error: Ran out of types for this method. */;
-- (id)thBuilder:appDidCustomizeMenu: /* Error: Ran out of types for this method. */;
-- (void)okenChanges:withHandler: /* Error: Ran out of types for this method. */;
-- (_Bool)atedFrameChangeForNewFrame:(long long)arg1;
-- (void):(long long)arg1;
-- (double)ainerBackgroundStyle;
-- (void)de;
-- (double)resentationViewController;
-- (void),VforceEnableDictation;
-- (void)V_layerAnimations;
-- (void)_delegate;
-- (double)te",&,N,V_startState;
-- (void)ate>",W,N,V_delegate;
+- (id);
 - (void);
-- (long long)ceUnliftTimerWithoutAnimations;
-- (void)eMessage;
+- (_Bool);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)@ù
+× ;
+- (void)× ;
+- (void);
+- (_Bool)¡ð!Dùñað1Â0@ù
+× ;
+- (double)× ;
+- (_Bool)°!Cùñb1Â0@ù
+× ;
+- (void)gAccessoryConfigurations:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (long long):bottomView: /* Error: Ran out of types for this method. */;
+- (void)tureRecognizer;
+- (void)lableComponent;
+- (void)boardAvailable;
+- (double)eratingAnimations;
+- (void)t=dd}{CGSize=dd}},N,V_pocketRectInNSWindow;
+- (_Bool)sentAutomatically;
+- (void)regular;
+- (double)ate>",W,N,V_delegate;
+- (void)gs;
+- (void)1;
+- (void)0ëÜëìÀï<ð;
+- (void)|°;
+- (void)gging:(_Bool)arg1 drag failed;
+- (double)umn"8;
+- (_Bool)nController's top view controller to check is %@;
+- (_Bool);
+- (void)figuration;
+- (void)¥43àp;
+- (void)³Ö<ð\;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _areHapticsEnabled;

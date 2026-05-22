@@ -15,24 +15,25 @@ __attribute__((visibility("hidden")))
     unsigned long long _type;
 }
 
-+ (id)(;
-+ (id)ð!Eù±ÎÐ1¢!0@ù
-× ;
-+ (id):(id)arg1;
-+ (id)jNÔd;
-- (id);
++ (id);
++ (id)Ô ;
++ (id)tableView:(id)arg1 displayStringForRowCount: /* Error: Ran out of types for this method. */;
++ (id)_symbolContentTransitionContainerViewProvider;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id)rmEntityPropertyTranslator;
+- (id)]°1Â0@ù
+× ;
 - (id);
-- (void)Åº;
-- (_Bool)yLongPressGestureRecognizerWithTarget:action:delegate: /* Error: Ran out of types for this method. */;
-- (id)GisTrackingDrag;
-- (id)<Ì0	<|´
-tLd°,0Ø, ;
-- (unsigned long long)valid trait token value:%lu /* Error: Ran out of types for this method. */;
+- (unsigned long long)0@ù
+× ;
+- (id)@ù
+× ;
+- (_Bool);
+- (_Bool)availableItems:(id)arg1;
+- (id)elButtonPlatterView;
+- (id)¬	|;
+- (void)éÒÂ];
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (void);
 - (id);
 - (void);
+- (void)bleViewCell:willChangeState: /* Error: Ran out of types for this method. */;
 
 @end
 

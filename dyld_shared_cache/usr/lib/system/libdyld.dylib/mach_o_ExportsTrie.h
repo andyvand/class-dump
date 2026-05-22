@@ -4,7 +4,7 @@
 
 class mach_o::ExportsTrie {
 public: // (access info unavailable from symbols alone)
-    forEachExportedSymbol(void (mach_o::Symbol const&, bool&) block_pointer) const;
-    terminalPayloadToSymbol(mach_o::GenericTrie::Entry const&, mach_o::Symbol&) const;
-    valid(unsigned long long, unsigned long long) const;
+    auto forEachExportedSymbol(void (mach_o::Symbol const&, bool&) block_pointer) const;
+    auto terminalPayloadToSymbol(mach_o::GenericTrie::Entry const&, mach_o::Symbol&) const;
+    auto valid(unsigned long long, unsigned long long) const;
 };

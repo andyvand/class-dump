@@ -23,15 +23,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
 - (id);
 - (id);
+- (id);
+- (unsigned long long);
 - (void);
-- (id)gLabelUpdateTimer;
+- (unsigned long long);
+- (void);
+- (void);
+- (void)rdingKey_UserInput;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HUIncomingInvitationResponseControllerDelegate> delegate; // @synthesize delegate=_delegate;

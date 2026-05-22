@@ -16,11 +16,11 @@
 - (void);
 - (id);
 - (struct CGPoint);
-- (void);
-- (void);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long action; // @synthesize action=_action;

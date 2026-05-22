@@ -20,8 +20,8 @@
 
 - (id);
 - (double);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) double totalWidth;

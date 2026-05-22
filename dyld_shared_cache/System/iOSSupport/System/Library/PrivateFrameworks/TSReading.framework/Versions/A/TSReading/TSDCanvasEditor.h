@@ -21,7 +21,7 @@
 + (CDUnknownBlockType);
 + (_Bool);
 + (id);
-+ (id);
++ (id);
 + (Class);
 - (_Bool);
 - (_Bool);
@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -77,42 +77,40 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (int);
-- (_Bool)y"A�4;
+- (_Bool);
 - (struct _NSRange);
 - (id);
 - (id);
-- (unsigned long long)d�0;
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void)_;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
+- (long long),R,N,VmDynamicSuppressingConditionalStylesCellID;
+- (id)esultComparator;
+- (id)PÈÈ¬àÄð#h$¼'	´)Ð* +,ô,-ü-;
+- (id)yRemovingCellRange:(struct _NSRange)arg1 inTable:withAnchor:cursor:selectionType:] /* Error: Ran out of types for this method. */;
+- (void)peLayout autosizedFrameForTextLayout:(id)arg1 textSize:] /* Error: Ran out of types for this method. */;
+- (struct _NSRange)tyle %@ has no identifier.;
+- (id)ibrary/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/kit/TSKBroadcast.m;
+- (struct CGRect)¨§;
+- (id)¯;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)0@ù
-× ;
-- (id)!GùS1¢!0@ù
-× ;
-- (long long)ternal/Library/BuildRoots/4~CG47ugDCQf_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/drawables/TSDStyledInfo.m;
-- (void);
-- (id);
-- (struct _NSRange)i¤;
-- (struct CGRect)+Y-;
-- (void)Ú>;
-- (id)EàU<X;
-- (void)UUY;
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) TSDCanvasEditorHelper *canvasEditorHelper;

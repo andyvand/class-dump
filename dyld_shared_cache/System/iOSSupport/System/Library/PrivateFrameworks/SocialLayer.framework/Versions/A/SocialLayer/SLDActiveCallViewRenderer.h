@@ -21,7 +21,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)PØ;
+- (void);
 
 // Remaining properties
 @property(nonatomic, getter=isRTL) _Bool RTL; // @synthesize RTL=_RTL;

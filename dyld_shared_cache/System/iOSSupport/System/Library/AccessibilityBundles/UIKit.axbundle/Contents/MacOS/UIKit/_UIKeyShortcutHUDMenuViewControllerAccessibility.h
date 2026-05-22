@@ -10,12 +10,12 @@
 {
 }
 
++ (Class);
 + (id);
 + (void);
-+ (Class);
 - (void);
 - (void);
-- (void)willMoveToWindow:(_Bool)arg1;
+- (void);
 
 @end
 

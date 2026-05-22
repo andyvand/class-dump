@@ -15,12 +15,12 @@
 - (void);
 - (void);
 - (id);
-- (void)B;
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)in;
+- (void)¢	;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <IMDaemonMultiplexedConnectionManaging> daemonConnection; // @synthesize daemonConnection=_daemonConnection;

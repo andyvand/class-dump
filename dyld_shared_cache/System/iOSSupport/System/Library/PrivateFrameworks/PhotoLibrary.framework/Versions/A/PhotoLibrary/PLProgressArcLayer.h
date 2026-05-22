@@ -16,12 +16,12 @@
 - (void);
 - (void);
 - (double);
-- (double);
-- (void);
 - (void);
 - (id);
 - (void);
-- (double)ì)È*	0,,p- .¤./0À13Ð3 < >l?°@	¸BD	K¤M@NO;
+- (double);
+- (double);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double endAngle; // @synthesize endAngle=_endAngle;

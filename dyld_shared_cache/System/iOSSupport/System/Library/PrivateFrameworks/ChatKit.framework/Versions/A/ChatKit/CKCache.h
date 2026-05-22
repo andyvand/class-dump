@@ -12,14 +12,14 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_dictionary;
 }
 
-- (void)A;
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id)ImageWithName:(id)arg1 tintColor:shouldSuppressHairline: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)aitInText: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

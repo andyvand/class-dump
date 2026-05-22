@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)UserWarningViewController.CommitOrContinueButton;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *chipAccessoryPairings; // @synthesize chipAccessoryPairings=_chipAccessoryPairings;

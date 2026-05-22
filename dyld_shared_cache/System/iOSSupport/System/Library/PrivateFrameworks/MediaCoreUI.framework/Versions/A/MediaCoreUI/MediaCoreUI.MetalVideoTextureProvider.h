@@ -25,8 +25,8 @@
 }
 
 - (void);
-- (void);
 - (id);
+- (void)ouch at %{public}s. Will expand = %{bool}d based on excluded tap areas:%{public}s. /* Error: Ran out of types for this method. */;
 
 @end
 

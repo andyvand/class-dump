@@ -8,20 +8,14 @@
 @protocol FCPuzzleTypeThumbnailDirectoryType;
 
 @protocol FCPuzzleTypeProviding
-- (NSArray *);
-- (NSArray *)h;
-- (FCColor *)(;
-- (unsigned long long)7;
-- (NSString *)	
-;
-- (FCAssetHandle *);
-- (NSString *);
-- (NSString *)read the default value and will not update.;
-- (FCAssetHandle *)Ãö;
-- (FCAssetHandle *)s;
-- (void)`mOÿ;
-- (FCAssetHandle *)criptionActivationEligibility;
-- (FCAssetHandle *)Hø¥&Æ!;
+- (NSString *);
+- (FCAssetHandle *)	
+;
+- (NSString *)n÷ÿ;
+- (FCAssetHandle *)ãIüÿ;
+- (void)ôÿÿÿ}hõÿ¾·ÿÈo;
+- (FCAssetHandle *)ft;
+- (NSString *)WebEmbedDataSourceCacheEntry;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long behaviorFlags;
@@ -31,6 +25,7 @@
 @property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
 @property(readonly, copy, nonatomic) NSString *engineResourceID;
 @property(readonly, nonatomic) FCAssetHandle *exploreTileImageAssetHandle;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
 @property(readonly, copy, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) NSString *imageResourceID;

@@ -15,20 +15,20 @@
 }
 
 + (id);
-+ (id)K,': /* Error: Ran out of types for this method. */;
-- (void);
++ (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (id);
+- (void)thReference:(id)arg1 referencingOptions:padding:visuallyStableForAttribute: /* Error: Ran out of types for this method. */;
+- (id)>",R,N,V_originalChapterCollection;
+- (void)terSet mapping for kind:(id)arg1 %d;
+- (void)v32@?0@"PHCollection"8@"PXKeyAssetsCollectionFetchOperation"16^B24;
 - (void);
-- (id)mberOfMatchesInString:options:range: /* Error: Ran out of types for this method. */;
-- (void)%@;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *backgroundQueue; // @synthesize backgroundQueue=_backgroundQueue;

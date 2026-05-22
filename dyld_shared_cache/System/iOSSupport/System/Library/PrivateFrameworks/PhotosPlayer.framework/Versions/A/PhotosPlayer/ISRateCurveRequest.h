@@ -28,14 +28,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
+- (double);
+- (void);
 - (CDStruct_1b6d18a9);
 - (void);
 - (void);
-- (void)?	;
-- (void);
-- (double);
-- (CDUnknownBlockType)@ù
-× ;
+- (CDUnknownBlockType)× ;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak ISAVPlayer *avPlayer; // @synthesize avPlayer=_avPlayer;

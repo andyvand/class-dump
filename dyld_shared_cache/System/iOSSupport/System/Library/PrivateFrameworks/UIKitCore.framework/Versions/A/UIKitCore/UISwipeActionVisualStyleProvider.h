@@ -8,9 +8,9 @@
 {
 }
 
-+ (id)A;
-+ (void)e;
-+ (id)fects: /* Error: Ran out of types for this method. */;
++ (id);
++ (id)TintAdjustmentMode:(long long)arg1;
++ (void)ontext:(Class)arg1;
 
 @end
 

@@ -16,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)4|;
 
 // Remaining properties
 @property(readonly, nonatomic) _HMCameraAudioControl *audioControl; // @synthesize audioControl=_audioControl;

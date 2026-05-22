@@ -11,14 +11,14 @@
     struct _PKStrokeID _version;
 }
 
-+ (_Bool)¸;
-- (id);
++ (_Bool);
+- (id);
 - (struct _PKStrokeID);
-- (void);
-- (unsigned long long)H;
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct _PKStrokeID version; // @synthesize version=_version;

@@ -17,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)TB,N,V_placeInBookmarks;
 
 @end
 

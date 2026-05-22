@@ -5,8 +5,5 @@
 //
 
 @protocol UIKeyboardSceneDelegateVisibilityObserver
-
-@optional
-- (void);
 @end
 

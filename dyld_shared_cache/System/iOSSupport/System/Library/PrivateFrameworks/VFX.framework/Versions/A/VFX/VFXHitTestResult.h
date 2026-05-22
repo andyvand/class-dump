@@ -27,10 +27,10 @@
 - (long long);
 - (long long);
 - (id);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id)x5Û;
 
 // Remaining properties
 @property(readonly, nonatomic) VFXNode *boneNode;

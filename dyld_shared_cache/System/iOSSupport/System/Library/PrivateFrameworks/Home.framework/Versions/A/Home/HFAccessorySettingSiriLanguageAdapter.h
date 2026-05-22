@@ -31,12 +31,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
+- (void):(id)arg1;
+- (id)rs:inHome: /* Error: Ran out of types for this method. */;
+- (void)>"8;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *availableLanguageOptions; // @synthesize availableLanguageOptions=_availableLanguageOptions;

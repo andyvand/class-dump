@@ -23,9 +23,9 @@
 }
 
 + (id);
-+ (_Bool);
 + (id);
-+ (_Bool)letionBehavior:isHidden:needsAuthentication: /* Error: Ran out of types for this method. */;
++ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -50,24 +50,26 @@
 - (long long);
 - (long long);
 - (long long);
+- (long long);
 - (void);
+- (id);
+- (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
+- (void);
+- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (long long);
 - (void);
 - (void);
 - (void);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)1â
+0@ù
+× ;
+- (_Bool):%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *attributeType;

@@ -17,8 +17,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (struct CGSize);
 - (void);
-- (struct CGSize)× ;
 
 // Remaining properties
 @property(nonatomic) _Bool includeAssets; // @synthesize includeAssets=_includeAssets;

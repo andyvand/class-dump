@@ -5,10 +5,10 @@
 //
 
 @interface (null) (TextEffects)
-- (void)R6;
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);

@@ -8,10 +8,8 @@
 @protocol PXPhotosNavigationPermission, PXStoryViewActionPerformer, PXStoryViewEnvironmentModel;
 
 @protocol PXStoryMutableViewModel
-- (void)o:(long long)arg1;
-- (void)oResSmartAlbum:(_Bool)arg1;
-- (double);
-- (void)ºüÿûÿ;
+- (_Bool)ÿ;
+- (void)ÿ;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXStoryViewActionPerformer> actionPerformer;

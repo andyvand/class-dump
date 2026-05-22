@@ -4,7 +4,7 @@
 
 class EncoderBuffer {
 public: // (access info unavailable from symbols alone)
-    GetEncoderBuffer(unsigned long);
-    HandleNonRetained();
+    auto GetEncoderBuffer(unsigned long);
+    auto HandleNonRetained();
     ~EncoderBuffer();
 };

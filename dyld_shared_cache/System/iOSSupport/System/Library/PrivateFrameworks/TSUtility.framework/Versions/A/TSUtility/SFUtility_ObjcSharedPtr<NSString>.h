@@ -4,5 +4,5 @@
 
 class SFUtility::ObjcSharedPtr<NSString> {
 public: // (access info unavailable from symbols alone)
-    reset(NSString*);
+    auto reset(NSString*);
 };

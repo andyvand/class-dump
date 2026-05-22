@@ -21,14 +21,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)ialFailure: /* Error: Ran out of types for this method. */;
-- (_Bool):options:usingBlock: /* Error: Ran out of types for this method. */;
-- (void)rWithAutoBugCapture;
 - (void);
-- (void)P;
-- (id)lipping translation;
-- (void)VisualProvider.m;
-- (void)Ã4;
+- (_Bool);
+- (void);
+- (id)ation:editingConfiguration: /* Error: Ran out of types for this method. */;
+- (void)ct:(CDUnknownBlockType)arg1 %@;
+- (void)So28_UISceneDestructionConditionCG;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *animationsBlocks; // @synthesize animationsBlocks=_animationsBlocks;

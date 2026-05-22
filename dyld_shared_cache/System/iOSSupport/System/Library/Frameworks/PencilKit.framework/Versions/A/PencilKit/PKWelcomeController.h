@@ -13,13 +13,13 @@
 
 + (void);
 - (void);
-- (void);
-- (_Bool)ks/AXRuntime.framework/Versions/A/AXRuntime;
-- (id);
-- (void)der"16;
 - (void);
-- (void)wR;
+- (_Bool);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void)nager",&,N,V__recognitionManager;
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *pencilEducationPanePresenter; // @synthesize pencilEducationPanePresenter=_pencilEducationPanePresenter;

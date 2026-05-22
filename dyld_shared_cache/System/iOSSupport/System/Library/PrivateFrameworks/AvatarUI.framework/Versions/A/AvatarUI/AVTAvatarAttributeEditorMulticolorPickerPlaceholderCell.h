@@ -13,17 +13,17 @@
     UILabel *_label;
 }
 
-+ (double);
++ (double);
 + (double);
 + (id);
 + (id);
 - (void);
-- (void)B;
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id)#;
 
 // Remaining properties
 @property(retain, nonatomic) id <AVTAvatarAttributeEditorSectionItem> item; // @synthesize item=_item;

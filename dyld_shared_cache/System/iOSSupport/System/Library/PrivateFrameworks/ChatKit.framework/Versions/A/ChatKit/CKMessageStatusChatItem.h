@@ -19,35 +19,35 @@
     struct UIEdgeInsets _labelTextAlignmentInsets;
 }
 
-+ (id)s;
-+ (id)o;
-+ (id)p;
-+ (id){;
++ (id);
++ (id);
++ (id);
++ (id);
 + (void);
 + (void);
-- (_Bool)countID: /* Error: Ran out of types for this method. */;
-- (void)CurrentUser;
-- (void)archResult:textCheckingResult: /* Error: Ran out of types for this method. */;
-- (struct UIEdgeInsets)WillEnd: /* Error: Ran out of types for this method. */;
-- (BOOL)atIndex: /* Error: Ran out of types for this method. */;
-- (id)n;
-- (_Bool)nverterQueue;
-- (_Bool)essQueue;
-- (void)_filter;
+- (_Bool);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
+- (BOOL);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id)u;
-- (struct CGSize)';
+- (id);
+- (struct CGSize);
 - (struct CGSize);
 - (struct CGSize);
 - (id);
 - (struct UIEdgeInsets);
 - (_Bool);
 - (_Bool);
-- (_Bool)n;
-- (id):(id)arg1 %@};
-- (id)or this note, move it to iCloud.;
+- (_Bool);
+- (id);
+- (id);
 - (struct UIEdgeInsets);
 - (_Bool);
 - (id);
@@ -56,17 +56,17 @@
 - (BOOL);
 - (long long);
 - (struct CGSize);
-- (Class);
-- (long long);
+- (struct CGSize);
 - (struct UIEdgeInsets);
-- (void);
-- (struct CGSize);
-- (unsigned long long)oordinator:didDetectInvalidAnimationForTextViewIdentifier: /* Error: Ran out of types for this method. */;
-- (id)¸·¹;
+- (Class);
+- (struct CGSize);
 - (long long);
-- (unsigned long long)À,;
-- (struct CGSize)[½U;
-- (id)ÿ;I7t .;
+- (unsigned long long)up"32;
+- (id)letion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)Ú[G¤J\G[yÀ/;
+- (void)¬ä;
+- (long long)4uÿ$£2Ä/0;
+- (id)ßÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsEffectAutoPlayback;

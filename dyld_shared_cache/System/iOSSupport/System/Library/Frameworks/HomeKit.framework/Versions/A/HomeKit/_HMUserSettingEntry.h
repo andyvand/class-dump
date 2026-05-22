@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void);
 - (id);
-- (id)atter;
+- (id);
+- (void)akerControl;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;

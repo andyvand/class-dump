@@ -7,10 +7,6 @@
 @class UIButton, UIView;
 
 @protocol SVVideoAdProviding
-- (double)ROUP_TYPE_MISSED_STORIES;
-
-@optional
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasAction;

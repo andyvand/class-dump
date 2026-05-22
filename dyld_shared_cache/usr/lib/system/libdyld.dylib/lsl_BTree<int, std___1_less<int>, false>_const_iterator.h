@@ -4,26 +4,25 @@
 
 class lsl::BTree<int, std::__1::less<int>, false>::const_iterator {
 public: // (access info unavailable from symbols alone)
+    auto operator++();
+    auto operator++() (.cold.1);
+    auto operator++() (.cold.2);
+    auto operator--();
+    auto operator--() (.cold.1);
+    auto operator--() (.cold.2);
+    auto prepareForInsertion();
+    auto prepareForInsertion() (.cold.1);
+    auto prepareForInsertion() (.cold.2);
+    auto prepareForInsertion() (.cold.3);
+    auto rebalanceFromErasure();
+    auto rebalanceFromErasure() (.cold.1);
+    auto rebalanceFromErasure() (.cold.2);
+    auto rebalanceFromErasure() (.cold.3);
+    auto rebalanceFromErasure() (.cold.4);
+    auto rebalanceFromErasure() (.cold.5);
+    auto rebalanceFromErasure() (.cold.6);
+    auto rebalanceFromErasure() (.cold.7);
+    auto rebalanceFromErasure() (.cold.8);
     const_iterator(lsl::BTree<int, std::__1::less<int>, false> const*, int const&, std::__1::less<int>);
     const_iterator(lsl::BTree<int, std::__1::less<int>, false> const*, int const&, std::__1::less<int>) (.cold.1);
-    operator++();
-    operator++() (.cold.1);
-    operator++() (.cold.2);
-    operator--();
-    operator--() (.cold.1);
-    operator--() (.cold.2);
-    operator<=>(lsl::BTree<int, std::__1::less<int>, false>::const_iterator const&) const;
-    prepareForInsertion();
-    prepareForInsertion() (.cold.1);
-    prepareForInsertion() (.cold.2);
-    prepareForInsertion() (.cold.3);
-    rebalanceFromErasure();
-    rebalanceFromErasure() (.cold.1);
-    rebalanceFromErasure() (.cold.2);
-    rebalanceFromErasure() (.cold.3);
-    rebalanceFromErasure() (.cold.4);
-    rebalanceFromErasure() (.cold.5);
-    rebalanceFromErasure() (.cold.6);
-    rebalanceFromErasure() (.cold.7);
-    rebalanceFromErasure() (.cold.8);
 };

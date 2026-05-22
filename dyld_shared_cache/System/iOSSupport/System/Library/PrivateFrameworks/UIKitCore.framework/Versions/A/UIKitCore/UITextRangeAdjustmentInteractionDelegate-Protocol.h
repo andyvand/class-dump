@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextRangeAdjustmentInteraction;
-@protocol UICoordinateSpace;
+@class UITextRangeAdjustmentInteraction, UIView;
+@protocol UICoordinateSpace, _UITextSelectionWidgetAnimating;
 
 @protocol UITextRangeAdjustmentInteractionDelegate
-- (void)*;
-- (void)AllowManagedAppsCloudSync:(UITextRangeAdjustmentInteraction *)arg1 withAllowManagedToWriteUnmanagedContacts:(struct CGPoint)arg2 withAllowUnmanagedToReadManagedContacts: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (unsigned long long)¢!0@ù
+- (UIView<_UITextSelectionWidgetAnimating> *)Ôá!¨EùÑ\ð1Â0@ù
 × ;
-- (_Bool)r"b1"hasProgressIndicator"b1"hasTitle"b1"hasSubtitle"b1}};
-- (id <UICoordinateSpace>)Presenter"b1"movingFile"b1"savingError"b1"inConflict"b1"needToStopAccessingSecurityScopedResource"b1"replacedDefaultUserActivity"b1};
-- (struct CGRect)he;
-- (struct CGRect)ionDelegate:(unsigned long long)arg1;
-- (_Bool)esn't have a restoration identifier and/or the presentation controller doesn't support state restoration, so skipping it and marking that we should ignore snapshot:(UITextRangeAdjustmentInteraction *)arg1 %@;
-- (void);
+- (struct CGRect);
+- (id <UICoordinateSpace>)0@ù
+× ;
+- (void)tManager:(UITextRangeAdjustmentInteraction *)arg1 willChangeFromTextSelections:(struct CGPoint)arg2 toTextSelections:(struct CGPoint)arg3;
+- (_Bool)en:(UITextRangeAdjustmentInteraction *)arg1;
+- (void)7<;
+- (void)é43v;
 @end
 

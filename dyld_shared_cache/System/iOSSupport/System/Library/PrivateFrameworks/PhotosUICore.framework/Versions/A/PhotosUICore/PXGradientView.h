@@ -11,20 +11,19 @@
     NSArray *_colors;
 }
 
-+ (Class)nAreaInsets;
++ (Class);
 - (void);
+- (struct CGPoint);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id)!ÐBùñ|ð1b0@ù
-× ;
-- (struct CGPoint)ducerKind;
-- (id);
+- (void)setsViewMode;
+- (void)eationRequestForSocialGroupWithMembers:(id)arg1 userAction: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)=]3dé6ÿ-]3,"=ÿ;
-- (struct CGPoint)Ï¨ûÊk4;
-- (void)C¨5;
-- (void)z-ûâÁ6;
+- (struct CGPoint)llection;
+- (void)AÉ`#ÿAÉø]ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *colors; // @synthesize colors=_colors;

@@ -11,9 +11,9 @@
     MISSING_TYPE *_alarmManagerServiceConnection;
 }
 
-- (void);
 - (id);
 - (id);
+- (void)gement;
 
 @end
 

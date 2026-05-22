@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)derTitleTrailingSymbolStyle;
 
 // Remaining properties
 @property(readonly, nonatomic) NUComposition *sourceComposition; // @synthesize sourceComposition=_sourceComposition;

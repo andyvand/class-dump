@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id)PLinkMetadata"24@0:8@"UIActivityViewController"16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *confirmButtonText; // @synthesize confirmButtonText=_confirmButtonText;

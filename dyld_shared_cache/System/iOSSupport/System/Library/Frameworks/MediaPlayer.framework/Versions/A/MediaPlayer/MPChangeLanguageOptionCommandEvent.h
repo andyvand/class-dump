@@ -14,7 +14,7 @@
     long long _setting;
 }
 
-- (id)@"BMStoreBookmark";
+- (id);
 - (id);
 - (long long);
 - (void);

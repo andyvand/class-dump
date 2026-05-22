@@ -19,13 +19,12 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (id)1b0@ù
-× ;
-- (struct CLLocationCoordinate2D)g presentation environment:%@ /* Error: Ran out of types for this method. */;
+- (struct CLLocationCoordinate2D);
+- (id)UIItem;
+- (void)i;
 
 // Remaining properties
 @property struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;

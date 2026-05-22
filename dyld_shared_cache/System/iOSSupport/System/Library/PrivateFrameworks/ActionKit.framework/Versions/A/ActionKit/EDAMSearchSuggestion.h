@@ -17,7 +17,7 @@
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)/1/oauth2/token;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *suggestionText; // @synthesize suggestionText=_suggestionText;

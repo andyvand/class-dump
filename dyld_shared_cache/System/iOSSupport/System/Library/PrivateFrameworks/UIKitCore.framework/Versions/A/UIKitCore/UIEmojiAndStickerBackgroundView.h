@@ -18,13 +18,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (double)art of message %@ that was recovered on %@, re-deleting on %@;
-- (id)e message qos is (%u);
-- (void)!4BùÂ1¢!0@ù
-× ;
-- (id)resign.
-First responder that was asked to resign (returned %@ from -resignFirstResponder):(struct CGRect)arg1 %@ inside containing view:%@ at index path:%@
-Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: Ran out of types for this method. */;
+- (double);
+- (id);
+- (id)SectionSnapshotState",R,N;
+- (void)h<h;
 
 // Remaining properties
 @property(nonatomic) double cutoutHeight; // @synthesize cutoutHeight=_cutoutHeight;

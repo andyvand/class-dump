@@ -22,20 +22,18 @@
 - (id);
 - (id);
 - (id);
-- (id)% ;
+- (long long);
+- (id);
+- (id);
+- (double);
 - (id);
 - (unsigned long long);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (double);
-- (id);
-- (id);
-- (void)ionFooterView;
-- (long long);
-- (id);
-- (long long);
 - (id);
 - (id);
 - (id);
@@ -43,7 +41,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (void);
+- (long long);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) BSUIVibrancyLUT *alternativeVibrancyEffectLUT; // @synthesize alternativeVibrancyEffectLUT=_alternativeVibrancyEffectLUT;

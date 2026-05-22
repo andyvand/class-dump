@@ -5,8 +5,5 @@
 //
 
 @protocol MCNearbyServiceBrowserDelegate
-
-@optional
-- (void);
 @end
 

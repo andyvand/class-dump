@@ -16,29 +16,29 @@ __attribute__((visibility("hidden")))
     UIView<_UIAtomTextViewAtomLayout> *_delegateView;
 }
 
-- (void)ta;
-- (void)oadContext is NULL;
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (struct CGRect)@;
+- (struct CGRect);
 - (struct UIEdgeInsets);
 - (struct CGRect);
+- (id);
+- (void);
+- (struct CGSize);
+- (id);
+- (id);
+- (void);
 - (_Bool);
-- (id)Library/PrivateFrameworks/AudioToolboxCore.framework/Versions/A/AudioToolboxCore;
-- (void);
-- (id);
-- (void);
-- (id);
-- (id)lPosition;
-- (void)lbacks:(_Bool)arg1;
-- (id);
-- (struct CGSize)sedSearchPresentation;
-- (id);
-- (_Bool)U²[;
+- (_Bool)esAttributedText"b1"clearingBehavior"b2"overridePasscodeStyle"b1"shouldResignWithoutUpdate"b1"blurEnabled"b1"visualEffectViewEnabled"b1"disableFocus"b1"disableRemoteTextEditing"b1"allowsAttachments"b1"isReceivingDrop"b1"contentCoverUnsecuresText"b1"forcesClearButtonHighContrastAppearance"b1"contentInsetsFromFontsValid"b1"autolayoutWantsBaselines"b1"animateNextHighlightChange"b1"backgroundProviderDraws"b1"backgroundProviderHasBackgroundView"b1"isHandlingClearButton"b1"textLayoutManagerEnabled"b1"extremeSizingEnabled"b1"sizingRule"b1"shouldDisplayDictationPlaceholderMessage"b1"supportsKeyboardNavigationForSuggestions"b1"didSetSupportsAdaptiveImageGlyph"b1"didCacheSupportsImagePaste"b1"supportsImagePasteCached"b1"shouldUpdatePlaceholderTextAlignmentWhenOverridden"b1"hasDictationButton"b1};
+- (id)illaryIndexesDict;
+- (id);
+- (id)%@);
+- (void)øÂþLR0£13,hÀ7;
 
 // Remaining properties
 @property(retain, nonatomic) UIView<_UIAtomTextViewAtomLayout> *delegateView; // @synthesize delegateView=_delegateView;

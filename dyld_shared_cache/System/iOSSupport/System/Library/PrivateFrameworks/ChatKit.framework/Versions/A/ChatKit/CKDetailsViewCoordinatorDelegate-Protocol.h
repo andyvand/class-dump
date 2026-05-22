@@ -4,13 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol CKDetailsViewCoordinatorDelegate
-- (NSArray *)Ö;
-- (void);
-- (void)lS;
-- (_Bool)q16@24@32{CGSize=dd}40d56Q64;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool shouldPresentDetailsInInspector;

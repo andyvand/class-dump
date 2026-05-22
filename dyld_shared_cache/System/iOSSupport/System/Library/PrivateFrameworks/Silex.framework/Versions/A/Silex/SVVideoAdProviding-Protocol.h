@@ -7,7 +7,6 @@
 @class UIButton, UIView;
 
 @protocol SVVideoAdProviding
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasAction;

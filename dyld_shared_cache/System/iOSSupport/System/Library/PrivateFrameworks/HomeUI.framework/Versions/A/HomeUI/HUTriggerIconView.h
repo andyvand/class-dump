@@ -18,8 +18,8 @@
 - (id);
 - (void);
 - (struct CGSize);
-- (void);
-- (id)wController.swift;
+- (id);
+- (void)feature flows %@;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;

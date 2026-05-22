@@ -15,11 +15,11 @@
 
 + (id);
 - (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)Äë;
 
 // Remaining properties
 @property(readonly, nonatomic) NSNumber *deviceType; // @synthesize deviceType=_deviceType;

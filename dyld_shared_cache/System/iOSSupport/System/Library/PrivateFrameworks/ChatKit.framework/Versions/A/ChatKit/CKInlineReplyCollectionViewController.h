@@ -20,31 +20,29 @@
 
 + (id);
 + (id);
-- (id)thNote;
-- (id)utableArray",&,N,V_nonCallNotesInSource;
+- (id);
+- (id);
 - (_Bool);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (id)d;
-- (void));
-- (void)};
-- (_Bool):%s /* Error: Ran out of types for this method. */;
-- (_Bool)orker context;
-- (id)%f to %@;
-- (id)an identifier or type for a note (%@);
-- (void)rmation is secured? ;
-- (void)to-end encryption and work with Touch ID and Face ID. No one can access your locked notes without your device passcode or password—not even Apple.
-
-Do you still want to know more about how your information is secured? ;
-- (id)ler registerForRemoteControlEvents];
-- (id)CAudioPlaybackNotificationDurationKey;
-- (void)> 0.0;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (_Bool);
 - (id);
@@ -56,7 +54,7 @@ Do you still want to know more about how your information is secured? ;
 - (void);
 - (void);
 - (void);
-- (void)ÿ9,Lt;
+- (void)`1;
 
 // Remaining properties
 @property(nonatomic, getter=isAnimatingIn) _Bool animatingIn; // @synthesize animatingIn=_animatingIn;

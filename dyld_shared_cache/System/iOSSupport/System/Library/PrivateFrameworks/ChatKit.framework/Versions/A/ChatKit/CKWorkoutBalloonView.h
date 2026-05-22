@@ -14,13 +14,13 @@
     LPLinkMetadata *_metadata;
 }
 
-- (void)y;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)gInSendMenuPopover;
+- (void)dHidePreviewSummary;
+- (void)message.fill;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKWorkoutBalloonViewDelegate> delegate; // @dynamic delegate;

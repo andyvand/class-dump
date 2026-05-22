@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
     UIImageView *_imageView;
 }
 
-- (void),V_searchString;
+- (void);
 - (id);
 - (void);
 - (void);
@@ -28,14 +28,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
-- (void);
-- (id)
-× ;
-- (void)lerDidSelectAppStore:(id)arg1 shouldRestoreAppSwitcher: /* Error: Ran out of types for this method. */;
-- (id)deTransition;
-- (id)LY_TO_PARAMETER_REQUEST_VALUE_DIALOG;
+- (id);
+- (id);
+- (void)t:(id)arg1 fitsInRect: /* Error: Ran out of types for this method. */;
+- (void)¤´;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *balloonBundleID; // @synthesize balloonBundleID=_balloonBundleID;

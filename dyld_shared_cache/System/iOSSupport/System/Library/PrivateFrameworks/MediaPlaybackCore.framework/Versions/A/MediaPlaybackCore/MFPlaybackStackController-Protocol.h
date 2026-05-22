@@ -7,10 +7,6 @@
 @protocol MFPlaybackStackControllerDelegate;
 
 @protocol MFPlaybackStackController
-- (void);
-- (void);
-- (void)tubs;
-- (_Bool)ountsDaemon.framework/Versions/A/AccountsDaemon;
 
 // Remaining properties
 @property(nonatomic) __weak id <MFPlaybackStackControllerDelegate> delegate;

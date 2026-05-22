@@ -27,9 +27,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)is shown, for home:(%p:%@), with reasons:userItem:%@ hasDismissedWelcomeBanner:%{BOOL}d, self.home.accessories.count = %ld, localeDictionary:%@ /* Error: Ran out of types for this method. */;
+- (void)CameraSmartDetectionSettingsItemProvider.m;
+- (id)erRepresentableP;
 
 // Remaining properties
 @property(retain, nonatomic) HFStaticItem *addNamesInPhotosLibraryItem; // @synthesize addNamesInPhotosLibraryItem=_addNamesInPhotosLibraryItem;

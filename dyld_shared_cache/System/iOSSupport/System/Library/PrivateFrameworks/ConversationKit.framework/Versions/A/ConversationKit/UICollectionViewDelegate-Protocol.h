@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout, UIWindowSceneActivationConfiguration;
+@class NSIndexPath, UICollectionView, UIContextMenuConfiguration;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (void)0:(UICollectionView *)arg1 8@"TURoute"16q24;
-- (void)Enabled;
-- (void)eSplitSessionTV;
-- (void)wDataSource;
-- (void)xu8x;
-- (struct CGPoint)äK L°OüOHPÀPQ¬QR;
-- (UIWindowSceneActivationConfiguration *)ôd¨;
-- (_Bool)øÈ;
-- (_Bool)d-;
-- (void);
-- (_Bool);
-- (_Bool)ContainerView;
-- (void)adding;
-- (void)/¯Qo__Î¯yAAyAVA2_yAnYGG_A6_Qo_t;
-- (_Bool)ê®GSgG;
-- (UICollectionViewTransitionLayout *)for enhancedEmergencyMediaUploadRequestDuringStreaming;
-- (NSIndexPath *)valDelegate;
-- (NSIndexPath *):(UICollectionView *)arg1 active(highlightURL:(NSIndexPath *)arg2;
-- (_Bool)istrationForSupplementalView;
-- (_Bool)äÆ!¹ü
-;
-- (NSIndexPath *)¤;
+- (void)ViewControllerDelegate>"16@0:(UICollectionView *)arg1 8;
+- (void);
+- (_Bool)xÕ;
+- (_Bool);;
+- (UIContextMenuConfiguration *)±\þÿ;
+- (struct CGPoint)entifier;
+- (_Bool);
+- (NSIndexPath *)üÿÿH,öÿòÿ;
+- (_Bool)FyAFyAFy<¢0Gì%G+GGAIGGALG`$yÊ+GGASG_AFy=yACyAFy08,G_A0_tGGALGtGG_U yADyACy«[ yA0_GSg_A8_tGG_RÎQo_tGG;
+- (_Bool)y'ADGt;
+- (void)_ç;
+- (_Bool)itialized SensitiveContentController;
 @end
 

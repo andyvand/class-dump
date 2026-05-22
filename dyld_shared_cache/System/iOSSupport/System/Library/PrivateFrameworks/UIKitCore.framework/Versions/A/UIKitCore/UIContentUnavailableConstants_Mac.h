@@ -11,30 +11,28 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)t;
+- (double);
+- (id);
+- (struct NSDirectionalEdgeInsets);
+- (double);
 - (id);
 - (long long);
 - (id);
-- (id)B;
-- (id)ionedIdentifierList:(id)arg1 options:startEntry:endEntry:withExclusiveAccessToken: /* Error: Ran out of types for this method. */;
-- (double)yback checks. Route:(id)arg1 %{public}@, playbackDataSource:%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id)!ìGùñÀ°1¢!0@ù
-× ;
-- (id)¡p!tGùqÃ°1¢!0@ù
-× ;
-- (struct NSDirectionalEdgeInsets)qÐ!dDùñÄð1¢!0@ù
-× ;
-- (id)±Ë1¢!0@ù
-× ;
 - (id);
-- (id)n: /* Error: Ran out of types for this method. */;
-- (double)mMetrics;
-- (id);
-- (double)ø2t3È34d5;
-- (double)Ø;=;
-- (double)double tap action;
-- (id);
+- (double)!ðAù1e1Â0@ù
+× ;
+- (id)@ù1f°1Â0@ù
+× ;
+- (id)uttonBar";
+- (id)ableRootPresentationAppearanceCallbacks;
+- (id)learImages;
+- (id)viewActionItems;
+- (double)aceOrientation;
+- (id)nt;
+- (id)?0@"UISActivityContinuationAction"8@"NSError"16;
+- (double)Õg;
 
 @end
 

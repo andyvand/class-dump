@@ -24,12 +24,12 @@
 - (struct CGRect);
 - (void);
 - (_Bool);
-- (double)Y;
+- (double);
+- (double);
 - (void);
 - (void);
-- (double)ts;
-- (void)ersistenceAdditions;
-- (id)awing.hasSeenHandwritingEducationPane;
+- (void)´Í;
+- (id)û +¾ÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect animatedStrokeBounds; // @synthesize animatedStrokeBounds=_animatedStrokeBounds;

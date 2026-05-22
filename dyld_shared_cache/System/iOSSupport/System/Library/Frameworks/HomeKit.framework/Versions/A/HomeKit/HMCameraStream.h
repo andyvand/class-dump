@@ -16,9 +16,10 @@
     NSNumber *_internalAudioVolume;
     long long _audioDownlinkToken;
     long long _audioUplinkToken;
+    long long _streamToken;
 }
 
-+ (id)ttingsPartialFetchFailureInformation;
++ (id)1A-C97E82ADFA33;
 - (void);
 - (void);
 - (void);
@@ -36,12 +37,13 @@
 - (void);
 - (void);
 - (void);
+- (long long);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ionDataKey;
 
 // Remaining properties
 @property(readonly) long long audioDownlinkToken; // @synthesize audioDownlinkToken=_audioDownlinkToken;
@@ -62,6 +64,7 @@
 
 @property(readonly, nonatomic) NSUUID *messageTargetUUID;
 @property(readonly, copy) NSUUID *sessionUUID; // @synthesize sessionUUID=_sessionUUID;
+@property(readonly) long long streamToken; // @synthesize streamToken=_streamToken;
 @property(readonly) Class superclass;
 
 @end

@@ -13,7 +13,10 @@
 - (id);
 
 // Remaining properties
+@property(nonatomic) _Bool certified; // @dynamic certified;
+@property(nonatomic) long long circuitScope; // @dynamic circuitScope;
 @property(nonatomic, copy) NSString *deviceIdentifier; // @dynamic deviceIdentifier;
+@property(nonatomic, copy) NSString *deviceName; // @dynamic deviceName;
 @property(nonatomic, copy) NSData *digestConsumptionData; // @dynamic digestConsumptionData;
 @property(nonatomic, copy) NSData *digestProductionData; // @dynamic digestProductionData;
 @property(nonatomic, copy) NSDate *endDate; // @dynamic endDate;

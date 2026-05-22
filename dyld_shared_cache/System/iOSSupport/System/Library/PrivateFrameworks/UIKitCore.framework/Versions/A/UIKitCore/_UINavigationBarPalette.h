@@ -24,42 +24,42 @@
     long long __layoutPriority;
 }
 
+- (void);
+- (id);
+- (long long);
 - (id);
 - (void);
-- (void)+;
-- (double)!ôAù1Æ1¢!0@ù
+- (unsigned long long);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)1Â0@ù
 × ;
-- (id)letionHandler: /* Error: Ran out of types for this method. */;
-- (id)xtAttributes;
-- (id)sionHandler;
-- (id)ering the collapse unintentional and using standard size instead. Header/footer:%@ /* Error: Ran out of types for this method. */;
-- (void)This will produce an inaccurate result. Please make sure to call this after your primary view controller has been initialized.;
-- (id);
-- (id);
-- (void)n;
-- (void)eSolariumInsetsAndCornerRadiusEnabled;
-- (void)gAJyAkLyALyALyAH{~í3Gí3GAPGGSgtGG;
-- (_Bool)Incorrect or nil NSTextStorage requested for undo operation %@, ;
-- (double)ayoutGuideFollowsUndocked;
-- (void)%s:(_Bool)arg1 Initializing with identifier path %@;
-- (_Bool)ces-credential-provider-ui;
-- (void)[_UISceneUserActivityManager _knownSceneSessionMap]_block_invoke;
-- (void)ionPadding;
-- (id)fications;
-- (void)e;
-- (void)nts;
-- (unsigned long long)itingForResume;
-- (void)%ld numItems:(id)arg1 %ld;
-- (id)?0@"UIKeyboardInputMode"8Q16^B24;
-- (void)gDestination;
-- (void)pected orphan ambiguity found;
-- (void)update:(_Bool)arg1;
-- (void)geInsets=dddd}16;
-- (long long)onOptionCoder;
-- (void)û!@-DTû!À_UIOrbitalColorView;
-- (_Bool)dÿ;
-- (void)þÃÆ;
-- (void)æÚ6ö^;
+- (void)htArrowTopEndCapView;
+- (void)ems;
+- (_Bool);
+- (void)reference to UICollectionView could not be resolved to strong reference.;
+- (id);
+- (double)B16@?0@"UIKBTree"8;
+- (id)earchField:(id)arg1 ];
+- (void)plicationShortcutIconTypeLocation;
+- (void)nentPlacementCG;
+- (id)MenuElementCSg;
+- (void);
+- (void)Hæ;
+- (void)ØF[;
+- (id)ä][;
+- (id)ô\;
+- (double)þ;
+- (void);
+- (void);
+- (id)«_;
+- (void)ô_;
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setContentViewMarginType:) unsigned long long _contentViewMarginType; // @synthesize _contentViewMarginType=__contentViewMarginType;

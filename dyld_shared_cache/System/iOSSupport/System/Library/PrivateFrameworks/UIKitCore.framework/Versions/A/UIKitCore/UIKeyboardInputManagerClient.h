@@ -12,20 +12,19 @@ __attribute__((visibility("hidden")))
     NSXPCConnection *_connection;
 }
 
-+ (_Bool)ession:(SEL)arg1 suppressAssistant: /* Error: Ran out of types for this method. */;
-- (_Bool);
++ (_Bool):(SEL)arg1 isSuspended:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
-- (void)at:(id)arg1;
-- (void);
-- (void);
-- (void)1¢!0@ù
-× ;
+- (_Bool)lectByPressGestureRequired;
+- (void)achView:(id)arg1 fromParentView: /* Error: Ran out of types for this method. */;
+- (void)ltHeightForTraitCollection:(id)arg1 size:(id)arg2;
+- (_Bool)ÿÿ2;
+- (id)entComponent>"8^B16;
 - (id);
-- (id)figuration"b1"automaticIntrinsicContentSizeInvalidationEnabled"b1};
-- (_Bool)8;
-- (void)priority=%p order=%p;
-- (_Bool)magePickerControllerAllowMutipleSelection;
+- (_Bool)p£3ÿòÛ(Q^;
+- (void)ÿj­É Ua;
+- (void)hþe;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;

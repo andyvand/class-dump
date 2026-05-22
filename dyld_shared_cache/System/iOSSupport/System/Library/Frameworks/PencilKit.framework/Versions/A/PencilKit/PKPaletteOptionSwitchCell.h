@@ -15,12 +15,12 @@
     UILabel *_subTextLabel;
 }
 
-- (void)set:(_Bool)arg1 dstOffset:appVersion:osVersion:countryCode:formatVersion:seedNumber:buildNumber: /* Error: Ran out of types for this method. */;
-- (id)BuildRoots/4~CG4tugAb8POCWQu-C8jX215VhPkqHdv-PsDAzNI/Library/Caches/com.apple.xbs/Sources/RemoteConfiguration/RemoteConfiguration/RCEndpointOperation.m;
-- (_Bool)\H;
-- (void);
 - (void);
-- (_Bool)÷ÿ;
+- (id);
+- (_Bool);
+- (_Bool);
+- (void)Coordinator"16;
+- (void)actionFeedbackHostViewDelegate;
 
 // Remaining properties
 @property(nonatomic, setter=setSwitchEnabled:) _Bool isSwitchEnabled;

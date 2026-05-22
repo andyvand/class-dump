@@ -5,6 +5,5 @@
 //
 
 @protocol CKPinnedConversationCollectionViewCellDelegate
-- (void)ååÕ;
 @end
 

@@ -4,17 +4,17 @@
 
 class std::string::_Rep {
 public: // (access info unavailable from symbols alone)
-    _M_clone(std::allocator<char> const&, unsigned long);
-    _M_destroy(std::allocator<char> const&);
-    _M_dispose(std::allocator<char> const&);
-    _M_grab(std::allocator<char> const&, std::allocator<char> const&);
-    _M_is_leaked() const;
-    _M_is_shared() const;
-    _M_refcopy();
-    _M_refdata();
-    _M_set_leaked();
-    _M_set_length_and_sharable(unsigned long);
-    _M_set_sharable();
-    _S_create(unsigned long, unsigned long, std::allocator<char> const&);
-    _S_empty_rep();
+    auto _M_clone(std::allocator<char> const&, unsigned long);
+    auto _M_destroy(std::allocator<char> const&);
+    auto _M_dispose(std::allocator<char> const&);
+    auto _M_grab(std::allocator<char> const&, std::allocator<char> const&);
+    auto _M_is_leaked() const;
+    auto _M_is_shared() const;
+    auto _M_refcopy();
+    auto _M_refdata();
+    auto _M_set_leaked();
+    auto _M_set_length_and_sharable(unsigned long);
+    auto _M_set_sharable();
+    auto _S_create(unsigned long, unsigned long, std::allocator<char> const&);
+    auto _S_empty_rep();
 };

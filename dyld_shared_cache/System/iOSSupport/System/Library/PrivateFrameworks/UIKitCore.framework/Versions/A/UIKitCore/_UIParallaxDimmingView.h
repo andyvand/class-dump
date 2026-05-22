@@ -17,23 +17,23 @@ __attribute__((visibility("hidden")))
     UIView *_addingSubview;
 }
 
+- (double);
+- (double);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id)Ð!GùQÍÐ1¢!0@ù
+- (id);
+- (id);
+- (void)!hGù±\Ð1Â0@ù
 × ;
-- (double)BackgroundImage: /* Error: Ran out of types for this method. */;
-- (id)eldContainerWillLayoutSubviewsCallback;
-- (id),&,N,V__suggestionContainerView;
-- (id)LQûÿ<þÿ;
-- (void)identifier to -[UITableView %@];
-- (id)%ld;
-- (id). It must be removed before being added to another.;
-- (void)in the debugger.;
+- (id)× ;
+- (void);
+- (void)ionWithBuilder:recursive: /* Error: Ran out of types for this method. */;
+- (id)ionToPreview;
+- (void)øð;
+- (id)t0ÄT;
+- (void)Ì;
+- (void)R0;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *addingSubview; // @synthesize addingSubview=_addingSubview;

@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     unsigned long long _curve;
 }
 
-- (id)o preallocate item %lld;
-- (unsigned long long)feAreaLayoutGuide-right;
-- (id)ngReplyErrorDomain;
-- (id)sableView"8^B16;
+- (unsigned long long);
+- (id);
+- (id)CompatibilityVersion;
+- (id)le.UIKit.shadowReuseCellIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long curve; // @synthesize curve=_curve;

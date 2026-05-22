@@ -59,10 +59,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
 - (void);
-- (unsigned long long)q8vÿ«Òì;
+- (id)´ð1B50@ù
+× ;
+- (id)20;
+- (unsigned long long)r than the current time for Do Not Disturb.;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *URLScheme; // @synthesize URLScheme;

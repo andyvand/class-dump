@@ -13,11 +13,11 @@
     CKWalletItemSearchResultsCell *_sizingCell;
 }
 
-+ (id)g;
++ (id);
 - (id);
 - (void);
-- (id)%@, error:(id)arg1 %@;
-- (void);
+- (id);
+- (void)é-;
 
 // Remaining properties
 @property(retain, nonatomic) CKWalletItemSearchResultsCell *sizingCell; // @synthesize sizingCell=_sizingCell;

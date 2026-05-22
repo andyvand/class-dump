@@ -14,10 +14,10 @@
 
 + (unsigned int);
 + (id);
-- (void)artUpdatingSimpleBeaconsWithContext:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)mpletion:(id)arg1;
+- (void);
 - (void);
 - (id);
+- (void)WHA Group ID %{public}@;
 
 @end
 

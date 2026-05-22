@@ -16,43 +16,46 @@
     long long _source;
 }
 
-+ (id)?Ù¹;
-+ (id)cë^;
 + (id);
-- (_Bool);
-- (id)owsers:withFilterSockets: /* Error: Ran out of types for this method. */;
-- (id),N,V_payloadAllowAssistantWhileLocked;
-- (id){,;
++ (id);
++ (id)!
+ð!Bù±f1Â0@ù
+× ;
 - (id);
-- (id);
-- (id)%r;
-- (id);
-- (_Bool);
-- (id)SData"32;
-- (_Bool);
-- (struct _NSRange){;
-- (_Bool);
 - (long long);
-- (id)ctionary;
+- (long long);
 - (id);
 - (id);
-- (long long)8	ë;
-- (void)!TBù±Ã1¢!0@ù
+- (id);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id)× ;
+- (struct _NSRange);
+- (id)Aù1`°1Â0@ù
 × ;
-- (id);
-- (id);
-- (long long)@ù
+- (struct _NSRange)a1Â0@ù
 × ;
-- (id)tionConductor:(id)arg1 frameForViewController:(id)arg2;
-- (long long)temDarkTealColor;
-- (long long)ToValuePadding;
-- (struct _NSRange)reviewForItem:(long long)arg1 dismissing: /* Error: Ran out of types for this method. */;
-- (id)UseUnifiedKeyView:(id)arg1 forState:(id)arg2;
-- (id)Attached;
-- (long long)ningView;
-- (id)$;
-- (long long);
-- (id)¹ÉPp;
+- (long long)ð!´Dùñdð1Â0@ù
+× ;
+- (id)String: /* Error: Ran out of types for this method. */;
+- (_Bool)nitWithSessionIdentifier:(id)arg1 systemPolicy: /* Error: Ran out of types for this method. */;
+- (_Bool)eyRectCornerRadius;
+- (id)ontainerDirectory:(id)arg1 creatingIntermediateDirectoriesIfNecessary: /* Error: Ran out of types for this method. */;
+- (id)howRotaryIndicatorAfterDelay;
+- (id)g:,V_allowOwningViewSetting /* Error: Ran out of types for this method. */;
+- (id)IViewSpringAnimationBehaviorSettings",N,&,VmainEjectSpring;
+- (id)Effect;
+- (long long)\»;
+- (id)kQueue.m;
+- (long long);
+- (id);
+- (_Bool);
+- (long long)ì%vÿÄÔjËf;
+- (_Bool)E-ÛTf;
+- (void)(j;
 
 // Remaining properties
 @property(readonly, nonatomic) NSOrderedCollectionDifference *difference; // @synthesize difference=_difference;

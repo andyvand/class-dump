@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)rray",&,N,V_indexesOfDownloadedImages;
 
 // Remaining properties
 @property(nonatomic, readonly) MUPresentationOptions *presentationOptions; // @synthesize presentationOptions;

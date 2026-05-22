@@ -59,16 +59,16 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)eshing FFU [%i] for upload tracking, attempt [%lu];
+- (id)ÿÿÿÿÿ¸;
 
 // Remaining properties
 @property(retain) NSMutableSet *_attachments; // @synthesize _attachments=__attachments;

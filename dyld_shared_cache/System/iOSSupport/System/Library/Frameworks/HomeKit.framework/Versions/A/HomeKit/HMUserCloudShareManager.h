@@ -17,7 +17,7 @@
     NSArray *_containerIDs;
 }
 
-+ (id)SetupPayload;
++ (id)tionStateDisabledNoCompatibleHomeHub;
 - (void);
 - (id);
 - (void);
@@ -28,19 +28,19 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (void)MigrationBoost;
+- (void)te;
+- (id)"8Q16^B24;
+- (_Bool)eManagerDumpLocalRulesFirmwareVersionKey;
 - (void);
-- (id)NSError">20;
-- (void)responded with error:(_Bool)arg1 %@;
-- (id)on using connection:%p /* Error: Ran out of types for this method. */;
-- (void)ateMaximumVideoResolutionQuality:completionHandler:] /* Error: Ran out of types for this method. */;
-- (_Bool)taResponse:%@, anisette-data %@] /* Error: Ran out of types for this method. */;
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *containerIDs; // @synthesize containerIDs=_containerIDs;

@@ -12,10 +12,10 @@
     MISSING_TYPE *wantsPlatterBlur;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

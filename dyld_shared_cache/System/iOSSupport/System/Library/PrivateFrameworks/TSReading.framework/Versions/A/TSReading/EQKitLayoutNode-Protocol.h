@@ -7,9 +7,6 @@
 @protocol EQKitLayoutNode;
 
 @protocol EQKitLayoutNode
-- (int);
-- (_Bool)s transferIdentifier:%{public}@ /* Error: Ran out of types for this method. */;
-- (id <EQKitLayoutNode>)Section;
 
 // Remaining properties
 @property(readonly, nonatomic) id <EQKitLayoutNode> parent;

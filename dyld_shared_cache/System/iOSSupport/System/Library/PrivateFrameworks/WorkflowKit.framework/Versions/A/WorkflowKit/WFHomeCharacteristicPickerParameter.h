@@ -22,11 +22,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (id);
 - (_Bool);
 - (id);
-- (id);
 - (void);
+- (void)t;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *homeIdentifier; // @synthesize homeIdentifier=_homeIdentifier;

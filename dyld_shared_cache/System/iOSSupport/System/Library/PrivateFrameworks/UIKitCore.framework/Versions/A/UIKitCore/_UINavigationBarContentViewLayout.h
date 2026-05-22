@@ -101,234 +101,232 @@ __attribute__((visibility("hidden")))
     CDStruct_e617d9e5 _currentButtonBarLayoutInfo;
 }
 
-- (id);
+- (void);
+- (double);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void)P;
 - (void);
 - (void);
-- (_Bool)!;
+- (void);
 - (id);
+- (void);
+- (double);
+- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)ithRange: /* Error: Ran out of types for this method. */;
-- (id)eractive;
-- (void)Cs;
-- (id)yloadMonitors;
-- (void)dAllowMusicArtistActivity;
-- (id)N,V_payloadLDAPSearchSettingDescription;
-- (void)$;
 - (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (double);
+- (void);
 - (id);
+- (void);
 - (void);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (_Bool);
 - (void);
-- (double);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
-- (void)`;
-- (id);
-- (void)!;
-- (void);
-- (void)ry put complete after error %@;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (double);
-- (void);
-- (double);
-- (id);
 - (_Bool);
 - (double);
-- (void)raryKeepLocalStatusObserverConfiguration"@"NSError">24;
-- (void)ationScale;
-- (id)t;
-- (double)SongTrackNumber__MAPPING_MISSING__;
-- (void)iderFluidInteractionDelegate;
-- (long long)yStoreAssetEndpointType;
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (double);
-- (void);
-- (void);
-- (double);
-- (double)@;
-- (void);
+- (_Bool);
 - (CDStruct_e617d9e5);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (double);
-- (void);
 - (double);
-- (void);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
+- (_Bool);
 - (void);
 - (double);
 - (void);
-- (double);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void)öº;
-- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
 - (double);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (CDStruct_e617d9e5);
+- (id)
+× ;
+- (void)^1Â0@ù
+× ;
+- (id);
+- (void)!àFù±^Ð1Â0@ù
+× ;
+- (id)@ù
+× ;
 - (long long);
-- (_Bool)ÀÐ1¢!0@ù
+- (void)!XGù±aÐ1Â0@ù
 × ;
-- (void);
-- (_Bool)!0@ù
+- (void)!ð!Bù±b1Â0@ù
 × ;
-- (id);
-- (void)°!ÜBùÑÅ1¢!0@ù
+- (double)@ù
 × ;
-- (double)1¢!0@ù
-× ;
-- (void)ù
-× ;
-- (void)
-× ;
-- (CDUnknownBlockType)1ÇÐ1¢!0@ù
-× ;
-- (void)Ð1¢!0@ù
-× ;
-- (CDStruct_e617d9e5)¢!0@ù
-× ;
-- (void)!üEù±ÊÐ1¢!0@ù
-× ;
-- (void)Ð!àBù1Ë1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (void)x°!hBùQÍ1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)ñÍÐ1¢!0@ù
-× ;
-- (void);
-- (void)48@0:8Q16Q24@?32@?40 /* Error: Ran out of types for this method. */;
-- (long long)"16@"<_UICellConfigurationStateReadonly>"24B32q36q44;
-- (void)ISearchController";
-- (id)int: /* Error: Ran out of types for this method. */;
-- (_Bool)eptingPredictiveInput: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)setMuteHapticsWhileRecordingAudio: /* Error: Ran out of types for this method. */;
-- (void)pring: /* Error: Ran out of types for this method. */;
-- (void)rRadii:(id)arg1;
-- (void)ation:inView: /* Error: Ran out of types for this method. */;
-- (id)yInPDFSpace;
-- (void)dTouch:(_Bool)arg1;
-- (double)istantItemHidden;
-- (void)ForPortrait:(id)arg1;
-- (long long)er: /* Error: Ran out of types for this method. */;
-- (void)t:(_Bool)arg1;
-- (_Bool)eBreakMode:letterSpacing:textAlignment:style:withLegibilityStyle:legibilityStrength: /* Error: Ran out of types for this method. */;
-- (void)essed:(id)arg1 withEvent: /* Error: Ran out of types for this method. */;
-- (void)se;
-- (void)ageInvocationBuffer;
-- (_Bool)ontentView;
-- (_Bool)iew:dropSessionDidUpdate:withDestinationIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ervers: /* Error: Ran out of types for this method. */;
-- (id)edRectBackgroundCornerRadius;
-- (void)us;
-- (id)WillBeginMapsTransitionMovingSideways: /* Error: Ran out of types for this method. */;
-- (id)ks;
-- (_Bool)WithTimestamp:hoverPose: /* Error: Ran out of types for this method. */;
-- (id)dexPathsToDeleteForDecorationViewOfKind: /* Error: Ran out of types for this method. */;
-- (void)ignoresSpeedBumpEdges;
-- (void)surePreReloadVisibleRowRangeIsValidWithPostReloadRowCount:(id)arg1;
-- (void);
-- (id)ButtonHandler;
-- (CDStruct_c3b9c2ee)lowLargeTitleView;
-- (void)arForCancel;
-- (void)ContentView;
-- (void)alKeyboardWillBeOrderedOut:(id)arg1;
-- (void)icatorColor;
-- (long long)&,N,V_colorMatrixColorTint;
-- (_Bool)tIdentifier;
-- (CDStruct_e617d9e5)ropSessionSystemShellPrivate;
-- (void)Storage;
 - (double);
-- (id)ì(íxî;
-- (void)hrðrPsÈstu¸vp{|Ì4Ð;
-- (void)x5L7\9¼9È:(_Bool)arg1 (;ø<	¸> ?D|EèI@QøS|U
-XW,X]Ô]_Àbtdf8f;
-- (void)und.;
-- (id)of rows for section (%ld) which is out of bounds.;
-- (void)placedContentView to catch this in the debugger.
-%@:(id)arg1 %@;
-Existing content configuration:%@;
-New content configuration:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool);
-- (id)tPûÿ;
-- (id);
-- (id)güÿþÿLzüÿxüÿ;
 - (id);
-- (struct NSDirectionalEdgeInsets);
-- (void)rMetrics;
-- (_Bool)atablePropertyC;
-- (long long)3yyÎ;
-- (void)0@"NSAdaptiveImageGlyph"8Q16^B24;
-- (double)value:%lu /* Error: Ran out of types for this method. */;
-- (void)yboardAvailabilityDidChangeNotification;
-- (void)ces for bundle at path '%@'>;
-- (void)DidSetLargeContentTitle;
-- (void)cene with a nil display configuration is not supported:(long long)arg1 %@;
-- (id)ndary supplementary item:%@ /* Error: Ran out of types for this method. */;
-- (id)determine element kind count. Enrollment issue?;
-- (id)?0Q8;
-- (double)oportional;
-- (_Bool)as called already;
-- (void)wLayoutRegion;
-- (id)24^B28;
+- (id)0@ù
+× ;
+- (long long)!<Dù1cð1Â0@ù
+× ;
+- (id);
+- (void)1Â0@ù
+× ;
+- (id)!	ð!FùQeÐ1Â0@ù
+× ;
+- (void)
+× ;
+- (_Bool)eSymbolVariant"16;
+- (void)BarButtonItem"16;
+- (void)6{_NSRange=QQ}24@"NSWritingToolsProofreadingSuggestion"40q48;
+- (void)ontainerView;
+- (_Bool)er:targetConnectionEndpoint:targetSceneIdentifier:userText: /* Error: Ran out of types for this method. */;
+- (double)Preparing;
+- (void)hostEffectEnabled;
+- (void)iew:(id)arg1;
+- (id)undExtension;
+- (id)s;
+- (id)yOrderIdentifiersDidChangeForGroup: /* Error: Ran out of types for this method. */;
+- (id)sertImageForCell: /* Error: Ran out of types for this method. */;
+- (void)sformView;
+- (id)ParentAtIndex:recursive: /* Error: Ran out of types for this method. */;
+- (void)endClass: /* Error: Ran out of types for this method. */;
+- (void)s;
+- (void)ize;
+- (double)ouchSurfaceType: /* Error: Ran out of types for this method. */;
+- (_Bool)iginalFontAttributes;
+- (id)ShiftGlyphPath;
+- (double)rollerParentage: /* Error: Ran out of types for this method. */;
+- (void)andler:(id)arg1;
+- (void)ppearance;
+- (void)onViewDuringAnimation;
+- (_Bool)OfJoggingIndicators;
+- (long long)ttings;
+- (id)lly;
+- (void)olor;
+- (void);
+- (double)lAutoresizingConstraints:: /* Error: Ran out of types for this method. */;
+- (id)sistantBarVisible;
+- (void)ateUsingSpringWithDuration:(double)arg1 delay:options:mass:stiffness:damping:initialVelocity:animations:start:completion: /* Error: Ran out of types for this method. */;
+- (void)ghting;
+- (id)tgoingPresentation;
+- (CDStruct_e617d9e5)V_outputMode;
+- (void)talView",R,N,V_portalView;
+- (double)er",R,N;
+- (void)ge",&,N,V_initialExtent;
+- (CDStruct_c3b9c2ee),&,N,Vm_touchEventWaitingForKeyInputEvent;
 - (void)r;
-- (id)y:) /* Error: Ran out of types for this method. */;
-- (void)barPaddingSpec",N,&,Vpadding;
+- (void)tionType;
+- (id)che;
+- (void)oardOnly;
+- (void)NSItemProviderDataTransferDelegate;
+- (void)gatePrivate;
+- (_Bool);
+- (void)(k;
+- (void)Ä,;
+- (double)P`HaÄa¼b;
+- (long long)#P$;
+- (double);
+- (long long);
+- (void);
+- (id)ipe actions layout for invalid decoration index path:%@ /* Error: Ran out of types for this method. */;
+- (void)scrolled to the start of layout axis (%@);
+- (void)Á;
 - (void);
-- (void)meworks/DictionaryServices.framework/DictionaryServices;
+- (void)Üêÿÿ°£éÿàx]þÔ¿þÿ;
+- (void)rÁîÿ^yþÿ:Éîÿ /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)ÿ3ã;
-- (void)assFlexInteraction;
+- (_Bool)undle;
+- (void)ide-bottom;
+- (long long)ttribute:intoExpression:withCoefficient:container:] /* Error: Ran out of types for this method. */;
+- (void)indowDidMoveToSceneNotification;
+- (void)m.apple.stickers.role.animated;
+- (double)ExtensionAllowsMixedUIKitIdiomHosting;
+- (void)agLiftEffectSpringDamping;
+- (id)ctions after update:%ld, collection view:%@ /* Error: Ran out of types for this method. */;
+- (void)s getWebEventClass(void)_block_invoke;
+- (id)onBarArrowUpSmall.png;
+- (void)ement;
+- (void)ViewController = %@, view = %@, window = %@, 
+	triggeredByPopoverDimmingView = %@, 
+	local.performActionInvoked = %@, 
+	_actionsWithInvokedHandlers = %@;
+- (void)ng"8#16^B24;
+- (struct UIOffset)nternal bug.;
+- (id)tMenuPlatformMetrics_Floating.swift;
+- (void)ters.glassBackground.inputShadowRadius;
 - (void);
+- (void);
+- (id)¿7M;
+- (id)hangeMessage;
+- (void);
+- (void)El33ÉH;
+- (void);
+- (void);
+- (struct NSDirectionalEdgeInsets);
+- (void)$];
+- (_Bool),èÁ;
+- (id)@ü^;
+- (void)d_;
+- (id)r!Ë=_;
+- (id)Óm_;
+- (void);
+- (id)´ÜåþH;
+- (void)Öé;
+- (void)ÿ#0ôõ_;
+- (CDUnknownBlockType);
+- (void);
+- (long long);
+- (void);
+- (void)ÿI«ÌÙù`;
 - (id);
-- (id)1DÓ]´[;
-- (void);
-- (void)\;
-- (id)IÎÜ\;
-- (void)ÔF@];
-- (struct UIOffset);
-- (void);
-- (id)#}c;
-- (void)fþ;
-- (long long)ZàÔ`;
-- (void))7;
-- (void).R`;
-- (void)Óx`;
+- (id)Êÿ;
+- (void)ÿ;
+- (void),a;
+- (void)¨Ma;
+- (id)ÿÀ°;
+- (void)Da;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool active; // @synthesize active=_active;

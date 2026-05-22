@@ -20,32 +20,35 @@
 
 + (id);
 - (void);
-- (void);
-- (float);
-- (void);
-- (_Bool);
-- (id);
-- (id)ricTVSeason__MAPPING_MISSING__;
 - (id);
 - (void);
+- (id);
+- (id);
 - (float);
-- (void);
-- (float);
-- (float);
-- (_Bool)0@ù
+- (id)1Â0@ù
 × ;
-- (id): /* Error: Ran out of types for this method. */;
-- (id)InputModePassingLanguageTest: /* Error: Ran out of types for this method. */;
-- (float)yerAnimations;
-- (void)ayHighlightedIndex;
-- (void)eLayer;
-- (id)ButtonItem is internally managed and not exposed for %@ style. Returning an empty, disconnected UIBarButtonItem to fulfill the non-null contract.;
-- (float)UICollectionViewListStyleFromListEnvironment(UIListEnvironment);
-- (void)st __strong, _UIMapIndex *, _UIMapIndex *, _UIMapIndex *);
-- (void)initializer - use -initWithCurrentLayout:(id)arg1 nextLayout:instead /* Error: Ran out of types for this method. */;
-- (float)-²ïï?;
-- (float);
-- (void)ØÙ;
+- (void)!Cùc1Â0@ù
+× ;
+- (float)@ù
+× ;
+- (void)1Â0@ù
+× ;
+- (float)"NSLayoutConstraint"16@"<NSLayoutItem>"24;
+- (_Bool):(id)arg1;
+- (float)maticallyShowsCancelButton: /* Error: Ran out of types for this method. */;
+- (float)inSearchFieldContainer:searchTextFieldFrame:cancelButtonFrame: /* Error: Ran out of types for this method. */;
+- (float)nputBackdropViewEdgeConstraints;
+- (void)ncelPendingFocusRestoration;
+- (void)king_insertSubview:(float)arg1 belowSubview: /* Error: Ran out of types for this method. */;
+- (id)ttomSeparatorInsetsFromCell:(struct _NSZone *)arg1 ,V_ignoreBottomSeparatorInsetsFromCell;
+- (void)taryItems;
+- (id)4;
+- (void)%@;
+- (void)tNames;
+- (float)8@"NSMutableArray"16^B24;
+- (_Bool)7y);
+- (void);
+- (float)_;
 
 // Remaining properties
 @property(nonatomic) float attackTime; // @synthesize attackTime=_attackTime;

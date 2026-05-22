@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
     double _scale;
 }
 
-- (id)lowInAppPurchases:(Class)arg1 withForceITunesStorePasswordEntry:(struct CGSize)arg2;
 - (unsigned long long);
-- (_Bool)uffer>",&,V_compactKeypointsAndResponsesBuffer;
-- (id);
-- (id);
-- (_Bool)elegate;
+- (_Bool)0;
+- (_Bool)extAlignment;
+- (id)hOverlap:(struct _NSZone *)arg1 partOne:partTwo: /* Error: Ran out of types for this method. */;
+- (id)esentationController;
+- (id)+à,´-;
 
 @end
 

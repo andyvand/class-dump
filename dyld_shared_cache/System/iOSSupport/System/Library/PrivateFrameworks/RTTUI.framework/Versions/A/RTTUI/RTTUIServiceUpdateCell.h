@@ -22,14 +22,14 @@
 - (void);
 - (double);
 - (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
+- (void);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
+- (void)WithFrame:collectionViewLayout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <RTTUIServiceCellDelegate> delegate; // @synthesize delegate=_delegate;

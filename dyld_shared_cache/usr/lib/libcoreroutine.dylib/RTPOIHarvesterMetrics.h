@@ -44,14 +44,14 @@
 - (void);
 - (void);
 - (void);
-- (void)9h;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)9h;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,10 +62,10 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long)R;
+- (unsigned long long);
 - (void);
 - (void);
-- (void){darwin.errno}d;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long fingerprintErrorCount; // @synthesize fingerprintErrorCount=_fingerprintErrorCount;

@@ -66,15 +66,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)=(%f, %f);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *allItemViews; // @synthesize allItemViews=_allItemViews;

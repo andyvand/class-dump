@@ -8,16 +8,12 @@
 @protocol UISwipeActionPullViewDelegate;
 
 @protocol UISwipeActionPullViewCommonProtocol
-- (void)viceCopySocketDict;
-- (void)MapCopyAsidMetadataParameters;
+- (void)!ìAùñZ1Â0@ù
+× ;
 - (void);
-- (void)rdEncoder;
-- (UIColor *)4;
-- (void)ventType;
-- (void)L;
-- (struct UIEdgeInsets){?=QQQ}16;
-- (unsigned long long)ainer:focusItemInfo:targetContentOffsetValue: /* Error: Ran out of types for this method. */;
-- (void)chunk;
+- (unsigned long long)1Â0@ù
+× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool autosizesButtons;

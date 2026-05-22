@@ -7,6 +7,7 @@
 @protocol SXAutoPlacementLayout;
 
 @protocol SXAdvertisingSettings
+- (unsigned long long)lique;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long bannerType;

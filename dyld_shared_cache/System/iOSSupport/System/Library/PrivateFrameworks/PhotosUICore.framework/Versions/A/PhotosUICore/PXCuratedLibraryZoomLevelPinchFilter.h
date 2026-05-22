@@ -18,8 +18,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void)Ø?Oÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isTrackingPinch; // @synthesize isTrackingPinch=_isTrackingPinch;

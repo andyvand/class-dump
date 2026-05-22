@@ -5,6 +5,5 @@
 //
 
 @protocol PKProgressAlertControllerDelegate
-- (void)@64@72;
 @end
 

@@ -14,19 +14,21 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)!;
+- (void);
 - (id);
-- (long long)=;
-- (void)=;
 - (long long);
 - (void);
+- (long long);
 - (id);
-- (id)e_cfdata_to_cstring;
 - (void);
-- (void)rivers;
+- (id);
 - (void);
-- (long long)peActionCircularButton;
-- (void)ngButtonShowsClearButtonWhenNotEmpty;
+- (void)!ÈGùÑ^°1Â0@ù
+× ;
+- (long long)@ù
+× ;
+- (void)ationInfo"8@"_UIWTCProofreadingDecorationInfo"16;
+- (void)Spacer;
 
 // Remaining properties
 @property(retain, nonatomic) UIPointerRegion *activePointerRegion; // @synthesize activePointerRegion=_activePointerRegion;

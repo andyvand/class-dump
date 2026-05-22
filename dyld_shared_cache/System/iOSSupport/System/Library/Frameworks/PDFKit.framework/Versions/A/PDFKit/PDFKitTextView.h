@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     PDFKitTextViewPrivate *_private;
 }
 
-- (void)R;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -21,30 +21,30 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool)";
-- (void);
-- (void)40;
-- (void)SString"16;
-- (void)6B20;
-- (void)@0:(id)arg1 8@"NSArray"16@"NSFont"24B32@?<v@?@"NSArray">36;
-- (void)aredUICompactViewModelController";
-- (void)eFeedbackManager";
-- (void)tion"16B24@"NSDictionary"28;
 - (_Bool);
 - (void);
-- (void);
 - (void);
 - (void);
-- (void)BitmapEraserMask: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)gate does not want interaction to begin for gesture recognizer:%@ /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void)Range=QQ}24@40;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

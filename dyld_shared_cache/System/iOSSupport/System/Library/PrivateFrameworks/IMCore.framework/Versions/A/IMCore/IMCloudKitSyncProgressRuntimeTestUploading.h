@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (void);
+- (void)to fetch high res image, filename is %@;
 
 @end
 

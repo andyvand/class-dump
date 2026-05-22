@@ -5,8 +5,8 @@
 class icu::number::impl::DecimalFormatProperties {
 public: // (access info unavailable from symbols alone)
     DecimalFormatProperties();
-    _equals(icu::number::impl::DecimalFormatProperties const&, bool) const;
-    clear();
-    equalsDefaultExceptFastFormat() const;
-    getDefault();
+    auto _equals(icu::number::impl::DecimalFormatProperties const&, bool) const;
+    auto clear();
+    auto equalsDefaultExceptFastFormat() const;
+    auto getDefault();
 };

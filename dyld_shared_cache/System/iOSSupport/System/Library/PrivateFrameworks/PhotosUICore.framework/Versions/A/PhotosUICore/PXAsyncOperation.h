@@ -14,11 +14,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool)´#û;
-- (void);
-- (_Bool)%@;
-- (void)ovider createImageLoaderForRequest:] /* Error: Ran out of types for this method. */;
-- (_Bool)pe;
+- (void);
+- (void);
+- (_Bool)mat;
+- (_Bool)ôo8;
+- (_Bool),Xðÿê	R9;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool px_shouldWaitForCancel;

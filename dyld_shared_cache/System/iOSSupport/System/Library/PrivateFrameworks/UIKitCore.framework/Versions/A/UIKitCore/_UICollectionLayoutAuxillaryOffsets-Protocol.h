@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSSet;
+@class NSSet;
 
 @protocol _UICollectionLayoutAuxillaryOffsets
-- (id)
-× ;
-- (id)gCharacterInsertionRate;
-- (_Bool)ier;
-- (NSIndexSet *)nControllerNavigationBarVisibilityWillChangeNotification;
+- (id);
+- (NSSet *)@ø;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *elementKinds;

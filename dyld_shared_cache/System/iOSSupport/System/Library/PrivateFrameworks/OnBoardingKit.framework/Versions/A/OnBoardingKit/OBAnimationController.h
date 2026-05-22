@@ -20,28 +20,28 @@
 + (id);
 - (void);
 - (unsigned long long);
-- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)feAccessTraits<uint64_t>, unsigned long long>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteDisplayListRecorder>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::RemoteDisplayListRecorderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::RemoteDisplayListRecorderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, IPC::ScopedActiveMessageReceiveQueue<WebKit::RemoteDisplayListRecorder>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::RemoteDisplayListRecorderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::RemoteDisplayListRecorderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id)=(;
+- (void);
+- (id);
+- (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *animatedStates; // @synthesize animatedStates=_animatedStates;

@@ -14,13 +14,13 @@
 }
 
 + (id);
-- (_Bool)edMessageIdentifier: /* Error: Ran out of types for this method. */;
-- (id)WithListenerID:auditToken:capabilities:replyProxy: /* Error: Ran out of types for this method. */;
-- (id)ntBased;
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id)× ;
+- (id);
+- (void)orks/AudioToolbox.framework/AudioToolbox;
 
 // Remaining properties
 @property(nonatomic, setter=_setViewController:) __weak UIViewController *_viewController; // @synthesize _viewController=__viewController;

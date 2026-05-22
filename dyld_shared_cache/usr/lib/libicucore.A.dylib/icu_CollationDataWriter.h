@@ -4,8 +4,8 @@
 
 class icu::CollationDataWriter {
 public: // (access info unavailable from symbols alone)
-    copyData(int const*, int, void const*, unsigned char*);
-    write(signed char, unsigned char const*, icu::CollationData const&, icu::CollationSettings const&, void const*, int, int*, unsigned char*, int, UErrorCode&);
-    writeBase(icu::CollationData const&, icu::CollationSettings const&, void const*, int, int*, unsigned char*, int, UErrorCode&);
-    writeTailoring(icu::CollationTailoring const&, icu::CollationSettings const&, int*, unsigned char*, int, UErrorCode&);
+    auto copyData(int const*, int, void const*, unsigned char*);
+    auto write(signed char, unsigned char const*, icu::CollationData const&, icu::CollationSettings const&, void const*, int, int*, unsigned char*, int, UErrorCode&);
+    auto writeBase(icu::CollationData const&, icu::CollationSettings const&, void const*, int, int*, unsigned char*, int, UErrorCode&);
+    auto writeTailoring(icu::CollationTailoring const&, icu::CollationSettings const&, int*, unsigned char*, int, UErrorCode&);
 };

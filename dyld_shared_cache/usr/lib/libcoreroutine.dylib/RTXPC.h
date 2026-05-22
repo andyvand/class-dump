@@ -8,10 +8,9 @@
 {
 }
 
++ (id);
 + (_Bool);
-+ (id)pplicationWillTerminateNotification;
-+ (id)°1¢!0@ù
-× ;
++ (id);
 
 @end
 

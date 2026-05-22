@@ -10,9 +10,9 @@
 {
 }
 
-+ (id)S;
++ (id);
 - (id);
-- (id)S NULL ORDER BY m.ROWID DESC LIMIT ?;
+- (id)chat where ROWID = ?;;
 
 @end
 

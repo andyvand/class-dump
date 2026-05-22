@@ -13,10 +13,10 @@
 }
 
 - (id);
-- (id)iscoveredActivities: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
-- (id)PreviousDatesFromDictGeohashToDates:referenceDate: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)imum prediction window %fs;
 
 // Remaining properties
 @property(readonly, nonatomic) RTContact *contact; // @synthesize contact=_contact;

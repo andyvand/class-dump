@@ -4,7 +4,7 @@
 
 class std::__1 {
 public: // (access info unavailable from symbols alone)
-    __libcpp_verbose_abort(char const*, ...);
-    __next_prime(unsigned long);
-    system_category();
+    auto __libcpp_verbose_abort(char const*, ...);
+    auto __next_prime(unsigned long);
+    auto system_category();
 };

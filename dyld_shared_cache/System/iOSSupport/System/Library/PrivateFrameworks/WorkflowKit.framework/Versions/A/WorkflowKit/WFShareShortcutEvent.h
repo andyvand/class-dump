@@ -20,22 +20,22 @@
 }
 
 + (id);
-+ (Class)myl¬Ö0%EÉ;
-- (id);
-- (id);
-- (void);
-- (void);
++ (Class);
 - (id);
 - (void);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
 - (unsigned int);
+- (id);
 - (void);
-- (void);
+- (id);
 - (void);
 - (int);
-- (id);
+- (void)tBõÿX"ÿ;
+- (void)Error">24^B32;
 
 // Remaining properties
 @property(nonatomic) unsigned int actionCount; // @synthesize actionCount=_actionCount;

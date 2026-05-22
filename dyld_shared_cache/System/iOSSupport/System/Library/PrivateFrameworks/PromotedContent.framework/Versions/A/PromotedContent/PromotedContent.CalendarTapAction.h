@@ -13,7 +13,7 @@
     MISSING_TYPE *eventInfo;
 }
 
-- (id)24@?0@"<CPSelectableListItem>"8@?<v@?>16;
+- (id);
 - (void);
 
 @end

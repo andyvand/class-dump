@@ -30,12 +30,11 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void)
-× ;
-- (id)AtIndexPath: /* Error: Ran out of types for this method. */;
-- (void)ConnectAccountBannerWithHome:(id)arg1;
-- (void),Óÿèø³h;
+- (void);
+- (void)tingsModule",R,N,V_photosLibrarySettingsModule;
+- (void)SectionUser - HUUserSectionRowRestrictedGuest;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

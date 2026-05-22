@@ -68,12 +68,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (unsigned long long);
-- (id);
 - (float);
-- (_Bool);
+- (void);
+- (id);
+- (void);
+- (_Bool)%f;
 
 // Remaining properties
 @property(readonly) _Bool active; // @synthesize active=_active;

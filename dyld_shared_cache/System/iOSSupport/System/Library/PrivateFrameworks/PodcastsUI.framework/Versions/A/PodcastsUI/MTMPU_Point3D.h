@@ -5,7 +5,7 @@
 class MTMPU::Point3D {
 public: // (access info unavailable from symbols alone)
     Point3D(double, double, double);
-    operator!=(MTMPU::Point3D const&) const;
-    operator==(MTMPU::Point3D const&) const;
-    resolveEquationOfPlaneDefinedByFirstThreePointsInVector(std::__1::vector<MTMPU::Point3D, std::__1::allocator<MTMPU::Point3D>>&, double*, double*, double*);
+    auto operator!=(MTMPU::Point3D const&) const;
+    auto operator==(MTMPU::Point3D const&) const;
+    auto resolveEquationOfPlaneDefinedByFirstThreePointsInVector(std::__1::vector<MTMPU::Point3D, std::__1::allocator<MTMPU::Point3D>>&, double*, double*, double*);
 };

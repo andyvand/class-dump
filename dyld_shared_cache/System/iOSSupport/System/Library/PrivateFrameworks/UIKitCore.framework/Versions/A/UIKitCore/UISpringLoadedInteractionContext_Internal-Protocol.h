@@ -7,8 +7,6 @@
 @class UIView;
 
 @protocol UISpringLoadedInteractionContext_Internal
-- (void)aAppendPermissionUpdateAsidMetadata failed;
-- (void)missions allocation failed;
 
 // Remaining properties
 @property(retain, nonatomic) id overrideTargetItem;

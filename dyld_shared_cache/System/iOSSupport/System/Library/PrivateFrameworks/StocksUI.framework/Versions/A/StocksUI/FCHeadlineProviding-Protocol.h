@@ -5,20 +5,27 @@
 //
 
 @class FCArticleAudioTrack, FCAssetHandle, FCColor, FCCoverArt, FCHeadlineExperimentalTitleMetadata, FCHeadlineThumbnail, FCIssue, FCTopStoriesStyleConfiguration, NSArray, NSData, NSDate, NSString, NSURL;
-@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding;
+@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding, FCSportsEventProviding;
 
 @protocol FCHeadlineProviding
-- (int)useIdentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)stock is coming up soon.;
-- (NSURL *);
-- (unsigned long long)endations Data;
-- (NSArray *)ce requiring OS update;
-- (NSString *);
-- (NSString *)andHandler;
-- (_Bool)derViewLayoutOptions;
+- (NSDate *)r;
+- (NSURL *)haser:servicesBundleAdamID:isAmplifyUser:startDate:expiryDate:initialPurchaseTimestamp:serviceBeginsTimestamp:vendorAdHocOfferID: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
+- (FCHeadlineThumbnail *)yCustomActions;
+- (FCTopStoriesStyleConfiguration *);
+- (NSArray *)dlerTypeDelegateP;
+- (NSURL *)atterFactoryTypeP;
+- (NSString *)H×½ÿÕj£PÞÓÿÝj£LÞÓÿ½j£ã½ÿÅj£@ÞÓÿj£<ÞÓÿÍj£xÿÿÿåj£àÓÿ;
+- (NSString *)y>;
+- (long long)Çÿ-ù¤¤éÆÿeù¤¬éÆÿ5ù¤¼éÆÿ;
+- (FCHeadlineThumbnail *)ectionHeaderViewLayoutOptions;
 
 @optional
-- (unsigned long long)and to manage Watchlists;
+- (FCColor *)e.;
+- (NSArray *)ler;
+- (FCColor *)ÿÿð-üÿtõÿ¤öþÿ;
+- (FCColor *)Stocks view when the device requires an OS update;
+- (FCColor *)mf¥á;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessoryText;
@@ -125,6 +132,8 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,C,N
 
+@property(readonly, nonatomic) _Bool liveCoverageCompleted;
+@property(readonly, copy, nonatomic) NSDate *liveCoverageModifiedDate;
 @property(readonly, copy, nonatomic) NSString *localDraftPath;
 @property(readonly, nonatomic) long long minimumNewsVersion;
 @property(readonly, copy, nonatomic) NSArray *moreFromPublisherArticleIDs;
@@ -186,6 +195,7 @@
 @property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
 @property(readonly, copy, nonatomic) NSString *sourceName;
 @property(readonly, copy, nonatomic) NSString *sponsoredBy;
+@property(readonly, copy, nonatomic) id <FCSportsEventProviding> sportsEvent;
 @property(readonly, copy, nonatomic) NSArray *sportsEventIDs;
 @property(readonly, nonatomic) id <FCHeadlineStocksFields> stocksFields;
 // Preceding property had unknown attributes: ?
@@ -195,6 +205,7 @@
 @property(readonly, nonatomic) int storyType;
 @property(readonly, copy, nonatomic) NSString *surfacedByBinID;
 @property(readonly, copy, nonatomic) NSString *surfacedByChannelID;
+@property(readonly, nonatomic) long long surfacedByFlags;
 @property(readonly, copy, nonatomic) NSString *surfacedBySectionID;
 @property(readonly, copy, nonatomic) NSString *surfacedByTopicID;
 @property(readonly, nonatomic) NSArray *tagsExpiration;

@@ -21,10 +21,10 @@
     MISSING_TYPE *buttonLabelWidthConstraints;
 }
 
-- (void);
 - (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

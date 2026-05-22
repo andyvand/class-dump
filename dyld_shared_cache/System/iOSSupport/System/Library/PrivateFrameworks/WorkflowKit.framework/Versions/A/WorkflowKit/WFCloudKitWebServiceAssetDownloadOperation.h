@@ -22,9 +22,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id)"NSDate",R,N,V_fetchDate;
-- (void)þ;
+- (void)%s;
+- (void)ile high-quality audio is returned in uncompressed WAV format. (WFRecordingCompression);
+- (id)ü;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *assetURL; // @synthesize assetURL=_assetURL;

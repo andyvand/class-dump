@@ -18,9 +18,9 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id)State+Summary.swift;
+- (void)ity;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *importDate; // @synthesize importDate=_importDate;

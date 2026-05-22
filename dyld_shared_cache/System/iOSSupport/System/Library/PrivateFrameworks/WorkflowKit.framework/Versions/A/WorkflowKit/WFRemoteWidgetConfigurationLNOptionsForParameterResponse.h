@@ -13,13 +13,13 @@
     LNDynamicOptionsResult *_result;
 }
 
-+ (_Bool)off, all metadata, such as the GPS coordinates where the photo was taken, will be stripped from the image file.;
++ (_Bool);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)CoreDataAccessResourcePermission;
+- (void)n processValueForParameter:withToolKitInvocation:completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) LNDynamicOptionsResult *result; // @synthesize result=_result;

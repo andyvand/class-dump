@@ -50,21 +50,19 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (struct CGSize);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (struct CGPoint);
-- (void);
 - (id);
-- (void)1b0@ù
-× ;
-- (void)	
-;
 - (void);
-- (void)Ôìÿ;
+- (void)ge:scale:orientation: /* Error: Ran out of types for this method. */;
+- (void)y;
 
 // Remaining properties
 @property struct CGPoint anchorPoint; // @synthesize anchorPoint=_anchorPoint;

@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
     struct CGPoint _centroid;
 }
 
-- (void);
-- (void);
-- (void);
 - (double);
-- (double);
-- (_Bool)ntColor;
-- (void)_reloadInterfaceActionsGroupViewPreferredAction;
-- (struct CGPoint)ceneOcclusionHostComponent",R,N;
+- (void);
+- (_Bool)@"UIDelayedAction";
+- (void)ationWithKeyPath:(_Bool)arg1;
+- (void)dPreviewProviderForDroppingItem:(double)arg1 previewProvider: /* Error: Ran out of types for this method. */;
+- (void)it:(struct CGPoint)arg1 commandVisit:actionVisit:deferredElementVisit: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ver.;
+- (double)÷µ;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint centroid; // @synthesize centroid=_centroid;

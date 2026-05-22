@@ -28,26 +28,25 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)T;
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id)datingCurrentInputMode;
-- (void)TB,N,V_smartSelectionQuery;
+- (void);
+- (double);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (double)¢!0@ù
-× ;
+- (id);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

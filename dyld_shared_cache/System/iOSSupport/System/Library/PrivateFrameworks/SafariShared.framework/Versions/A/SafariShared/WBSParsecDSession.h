@@ -25,7 +25,7 @@
 + (void);
 + (void);
 + (id);
-+ (void)D;
++ (void);
 - (_Bool);
 - (void);
 - (void);
@@ -39,10 +39,10 @@
 - (void);
 - (void);
 - (void);
-- (void)@;
-- (void);
 - (double);
 - (void);
+- (void);
+- (void)P;
 
 // Remaining properties
 @property unsigned long long currentQueryID; // @synthesize currentQueryID=_currentQueryID;

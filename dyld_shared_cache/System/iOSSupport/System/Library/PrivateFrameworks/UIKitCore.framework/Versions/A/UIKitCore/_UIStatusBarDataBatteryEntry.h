@@ -17,25 +17,26 @@
     NSString *_detailString;
 }
 
-+ (_Bool);
++ (_Bool)IToolbarButton;
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool)`5;
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id)1Ä1¢!0@ù
+- (void)
 × ;
-- (_Bool);
-- (void)tion;
-- (long long)der: /* Error: Ran out of types for this method. */;
-- (void);
-- (long long)´Yüÿàþÿ4üÿ;
-- (void)ice;
-- (id)utoHidesToolbarInFullscreen;
-- (void);
+- (long long)ñd1Â0@ù
+× ;
+- (_Bool)SheetCompactPresentationController"16;
+- (long long)Size=dd}}16{CGPoint=dd}48q64@72q80;
+- (void)ckingDidBegin;
+- (void)ckUpCount;
+- (id)letterSpacing:includeEmoji: /* Error: Ran out of types for this method. */;
+- (id)owsFreezeLayoutForOrientationChangeOnDismissal;
+- (_Bool)nuContainerView;
+- (id)0r;
+- (void)%03y¿'¿7G;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long capacity; // @synthesize capacity=_capacity;

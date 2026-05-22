@@ -14,11 +14,11 @@
 
 + (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
+- (id)PXBÓ;
 - (unsigned long long);
-- (id);
+- (void);
+- (id): /* Error: Ran out of types for this method. */;
+- (void)ionSummary];
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long availability; // @synthesize availability=_availability;

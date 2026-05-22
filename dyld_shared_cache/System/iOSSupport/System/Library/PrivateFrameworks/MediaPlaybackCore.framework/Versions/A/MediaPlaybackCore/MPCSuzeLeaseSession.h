@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id)tubs;
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)| restoration failed [replacing SIL data source failed] dataSourceState=%p sectionID=%{public}@ error=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) ICSuzeLeaseSession *icSuzeLeaseSession; // @synthesize icSuzeLeaseSession=_icSuzeLeaseSession;

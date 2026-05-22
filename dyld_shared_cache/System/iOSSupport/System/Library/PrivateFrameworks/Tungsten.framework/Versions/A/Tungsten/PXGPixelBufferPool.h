@@ -15,12 +15,12 @@
 + (id);
 - (id);
 - (unsigned int);
-- (id);
 - (void);
-- (struct __CVPixelBufferPool *);
 - (id);
 - (struct CGColorSpace *);
+- (id);
 - (struct CGSize);
+- (struct __CVPixelBufferPool *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;

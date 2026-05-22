@@ -5,7 +5,6 @@
 //
 
 @protocol MPLazySectionedCollectionDataSource
-- (id)C;
-- (unsigned long long)rtworkIdentifier;
+- (unsigned long long)rImplementation %p <%{public}@> - Transforming error to network unavailable instead of original:(unsigned long long)arg1 %{public}@;
 @end
 

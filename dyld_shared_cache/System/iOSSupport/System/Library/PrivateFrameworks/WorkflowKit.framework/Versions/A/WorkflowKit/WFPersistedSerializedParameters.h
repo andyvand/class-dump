@@ -10,7 +10,7 @@
 {
 }
 
-+ (id)¸Âÿ\ÍÿPïÿðûÿèpÿrÿ;
++ (id);
 
 // Remaining properties
 @property(nonatomic) int badgeType; // @dynamic badgeType;

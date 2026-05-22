@@ -4,17 +4,17 @@
 
 class dyld4::Atlas::Image {
 public: // (access info unavailable from symbols alone)
-    contentForSection(char const*, char const*, void (void const*, unsigned long long, unsigned long long) block_pointer);
-    contentForSegment(char const*, void (void const*, unsigned long long, unsigned long long) block_pointer);
-    filename() const;
-    forEachSection(void (char const*, char const*, unsigned long long, unsigned long long) block_pointer);
-    forEachSegment(void (char const*, unsigned long long, unsigned long long, int) block_pointer);
-    installname() const;
-    ml() const;
-    pointerSize();
-    sharedCache() const;
-    sharedCacheVMOffset() const;
-    swap(dyld4::Atlas::Image&);
-    uuid() const;
+    auto contentForSection(char const*, char const*, void (void const*, unsigned long long, unsigned long long) block_pointer);
+    auto contentForSegment(char const*, void (void const*, unsigned long long, unsigned long long) block_pointer);
+    auto filename() const;
+    auto forEachSection(void (char const*, char const*, unsigned long long, unsigned long long) block_pointer);
+    auto forEachSegment(void (char const*, unsigned long long, unsigned long long, int) block_pointer);
+    auto installname() const;
+    auto ml() const;
+    auto pointerSize();
+    auto sharedCache() const;
+    auto sharedCacheVMOffset() const;
+    auto swap(dyld4::Atlas::Image&);
+    auto uuid() const;
     ~Image();
 };

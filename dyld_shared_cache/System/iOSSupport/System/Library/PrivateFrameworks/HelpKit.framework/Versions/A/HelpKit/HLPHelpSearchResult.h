@@ -16,15 +16,15 @@
 
 - (void);
 - (long long);
-- (id);
 - (void);
+- (id);
 - (long long);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (void);
 - (double);
-- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

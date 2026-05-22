@@ -7,7 +7,6 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool);
-- (_Bool)Û>;
+- (_Bool)_isStandAloneBrand;
 @end
 

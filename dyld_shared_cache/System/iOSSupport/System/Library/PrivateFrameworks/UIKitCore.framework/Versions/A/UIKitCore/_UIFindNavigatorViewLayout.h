@@ -26,20 +26,20 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void)";
+- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (double);
 - (id);
 - (id);
@@ -50,19 +50,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void)rray"36q44B52;
-- (void)8@16@24;
-- (void)t;
-- (double)edMessage;
+- (void);
+- (void);
+- (void);
+- (double);
 - (void);
 - (id);
-- (struct CGSize);
-- (_Bool);
-- (long long);
-- (void);
-- (id)°1¢!0@ù
+- (struct CGSize)ù
 × ;
-- (void)j[;
+- (_Bool)eatment:(id)arg1;
+- (id)ggingDidEnd;
+- (long long)Ä;
+- (void)\;
+- (void)(v];
 
 // Remaining properties
 @property(nonatomic) long long assistantBarStyle; // @synthesize assistantBarStyle=_assistantBarStyle;

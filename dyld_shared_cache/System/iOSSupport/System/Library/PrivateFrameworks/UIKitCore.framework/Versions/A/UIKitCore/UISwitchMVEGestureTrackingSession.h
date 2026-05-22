@@ -20,34 +20,33 @@ __attribute__((visibility("hidden")))
     UIGestureRecognizer *_pendingDisplayedOnValueInitiatingGesture;
 }
 
-+ (_Bool)ic.;
-- (_Bool);
-- (void);
-- (void)4;
-- (void);
-- (id);
++ (_Bool);
 - (void);
 - (_Bool);
-- (double)etSiriRecommendationIdentifier: /* Error: Ran out of types for this method. */;
+- (void);
+- (double);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void)ê	0º;
-- (void)@ù
+- (id)0@ù
 × ;
-- (void)ù
-× ;
-- (id)InlineTextCompletionController";
-- (double)tCbrtSpeed;
-- (void)nimizedStateDidChangeHandler:(_Bool)arg1;
-- (void)IfNeeded;
-- (_Bool)nteractionActivationObserver;
-- (_Bool)¬;
-- (id)e:]_block_invoke  Keyboard destination updating keyboardPosition %@ for %@ transition using %@ /* Error: Ran out of types for this method. */;
-- (_Bool)üÿ;
-- (void)ßj_;
-- (double)£c;
+- (_Bool)sualStyling;
+- (_Bool)dateProperties;
+- (void)BeGuessed: /* Error: Ran out of types for this method. */;
+- (void)anager;
+- (id)inalOrientation:handler:reason:disablingInterfaceAutorotation: /* Error: Ran out of types for this method. */;
+- (void)idChange:(_Bool)arg1;
+- (_Bool)ffset:minimumLayoutWidth:maximumLayoutWidth:tileClippedContent: /* Error: Ran out of types for this method. */;
+- (void)thOrSectionHeader: /* Error: Ran out of types for this method. */;
+- (void)sionWillBegin: /* Error: Ran out of types for this method. */;
+- (_Bool)s:(double)arg1;
+- (void)lay;
+- (double)xtInputActionsSource=%@;
+- (void);
+- (double);
+- (void)b;
+- (id)°Ne;
 
 // Remaining properties
 @property(nonatomic) _Bool displayedOnValue; // @synthesize displayedOnValue=_displayedOnValue;

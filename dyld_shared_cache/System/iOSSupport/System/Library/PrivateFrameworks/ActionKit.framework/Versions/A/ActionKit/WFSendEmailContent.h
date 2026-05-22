@@ -17,7 +17,7 @@
     NSArray *_attachments;
 }
 
-+ (_Bool)te this event begins. Examples:âtomorrow at 2â, âJanuary 3â, â8:00pmâ /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (_Bool);
 - (id);
@@ -26,15 +26,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
+- (void)e it must already be uploaded to iCloud.;
+- (id)eenshotMainMonitorOnly);
+- (id)æ(ÿ/-Æ(ª`VX:HóªÝ¸ÛéÄ?Ôæ®3ÉüË0³³ÉÒÖcÊp3q}M /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *attachments; // @synthesize attachments=_attachments;

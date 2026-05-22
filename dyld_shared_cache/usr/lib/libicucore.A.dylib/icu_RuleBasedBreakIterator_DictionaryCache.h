@@ -5,9 +5,9 @@
 class icu::RuleBasedBreakIterator::DictionaryCache {
 public: // (access info unavailable from symbols alone)
     DictionaryCache(icu::RuleBasedBreakIterator*, UErrorCode&);
-    following(int, int*, int*);
-    populateDictionary(int, int, int, int);
-    preceding(int, int*, int*);
-    reset();
+    auto following(int, int*, int*);
+    auto populateDictionary(int, int, int, int);
+    auto preceding(int, int*, int*);
+    auto reset();
     ~DictionaryCache();
 };

@@ -19,22 +19,20 @@ __attribute__((visibility("hidden")))
     int _directionalFailureCount;
 }
 
-+ (_Bool)dd}56@0:8@16{CGRect={CGPoint=dd}{CGSize=dd}}24 /* Error: Ran out of types for this method. */;
-+ (_Bool)t þ;
++ (_Bool);
++ (_Bool);
 - (void);
+- (void)oDeactivate:(id)arg1;
+- (void)mbolImageForDisplayMode:(id)arg1;
+- (void)itionalLayoutSolverUpdate",&,N,V_currentUpdate;
+- (void)llectionInputViewDidScroll;
+- (void)reference>];
+- (id);
+- (void)Õ;
+- (void)(-:(id)arg1 ÿbí;
+- (void)øåc;
 - (void);
-- (void)º;
-- (void);
-- (void)
-× ;
-- (void)Ë°1¢!0@ù
-× ;
-- (void)KeyboardTaskExecutionContext"24;
-- (void)alyticsEnded:(id)arg1;
-- (void)ubleHeightStatusBarTapWithStyleOverride:(id)arg1;
-- (void)it18_UIReparentingView;
-- (id)T´ÿ;
-- (void);
+- (void)ÐÀ+ÿ;
 
 // Remaining properties
 @property(nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;

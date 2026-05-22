@@ -31,14 +31,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (id)n;
+- (id);
+- (void);
+- (void);
+- (void)State;
+- (id)ivityControllerDelegate;
 
 // Remaining properties
 @property(retain, nonatomic) MUBrowseCategoryItem *browseItem; // @synthesize browseItem=_browseItem;

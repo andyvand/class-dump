@@ -27,14 +27,14 @@
 - (void);
 - (void);
 - (void);
-- (void)x;
+- (void);
 - (void);
 - (_Bool);
-- (struct CGPoint);
 - (struct CGPoint);
-- (double)T;
+- (struct CGPoint);
 - (double);
-- (void):8@"NSString"16 /* Error: Ran out of types for this method. */;
+- (double);
+- (void);
 - (void);
 - (void);
 - (void);

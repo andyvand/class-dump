@@ -32,10 +32,10 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
 - (id);
-- (id)context: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)cking if flow is ready %@;
+- (unsigned long long)ourceItem:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long conditionType;

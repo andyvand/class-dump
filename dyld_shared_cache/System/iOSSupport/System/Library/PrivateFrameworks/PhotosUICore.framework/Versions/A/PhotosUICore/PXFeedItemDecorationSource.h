@@ -27,9 +27,9 @@
 - (id);
 - (void);
 - (id);
-- (long long);
-- (void);
 - (id);
+- (long long);
+- (void)ÍÈtxTÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PXSectionedDataSource *dataSource; // @synthesize dataSource=_dataSource;

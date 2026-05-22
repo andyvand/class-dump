@@ -14,8 +14,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasDialog; // @synthesize hasDialog=_hasDialog;

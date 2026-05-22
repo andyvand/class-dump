@@ -5,5 +5,8 @@
 //
 
 @protocol FCOperationThrottlerDelegate
+
+@optional
+- (void)cLeèþ;
 @end
 

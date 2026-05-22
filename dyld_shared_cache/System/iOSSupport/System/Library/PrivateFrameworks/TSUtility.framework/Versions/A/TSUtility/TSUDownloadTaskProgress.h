@@ -15,9 +15,9 @@
 - (void);
 - (long long);
 - (void);
+- (id);
 - (_Bool);
-- (void);
-- (id);
+- (void):(_Bool)arg1 8^{CGPath=}16^{CGContext=}24;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;

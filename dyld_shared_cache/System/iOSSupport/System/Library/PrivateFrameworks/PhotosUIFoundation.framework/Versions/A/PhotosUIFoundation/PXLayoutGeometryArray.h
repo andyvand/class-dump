@@ -12,8 +12,8 @@
 
 - (id);
 - (struct _PXLayoutGeometry);
-- (id);
 - (void);
+- (id);
 - (id);
 - (unsigned long long);
 

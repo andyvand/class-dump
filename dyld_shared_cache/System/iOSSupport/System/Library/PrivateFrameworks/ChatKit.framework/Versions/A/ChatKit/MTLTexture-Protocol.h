@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLSharedTextureHandle;
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
-- (unsigned long long)k;
-- (MTLSharedTextureHandle *)!DùñÅÐ1¢!0@ù
-× ;
-- (unsigned long long);
-- (unsigned long long)ttedArrowDirections;
-- (unsigned long long)rentIsOrganicLayout;
-- (id <MTLBuffer>)`w;
-- (unsigned long long)IG¹]®ySayðí>Gÿ­AFyADyAAyTê®yA4_AGGALyM[®SgGGA4_GGGG_Qo_IìýÿyA19_GGGALyY%®SgGGANGû>GALytà®GGA8_GAEGAWtGGAIGAIGAIG;
-- (unsigned long long)troller;
-- (unsigned long long)rror"16;
-- (unsigned long long)¢,;
-
-@optional
-- (_Bool);
-- (_Bool)@;
+- (struct MTLResourceID);
+- (id <MTLTexture>);
+- (unsigned long long)$
+;
+- (id <MTLBuffer>)¬<;
+- (unsigned long long)or;
+- (CDStruct_a06f635e)µÝ;
+- (unsigned long long)ÉDÿ;
+- (unsigned long long)´;
 
 // Remaining properties
 @property(readonly) _Bool allowGPUOptimizedContents;
@@ -55,7 +48,7 @@
 @property(readonly) unsigned long long sampleCount;
 @property(readonly, getter=isShareable) _Bool shareable;
 @property(readonly) long long sparseTextureTier;
-@property(readonly, nonatomic) struct swizzle;
+@property(readonly, nonatomic) CDStruct_a06f635e swizzle;
 @property(readonly) unsigned long long tailSizeInBytes;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R

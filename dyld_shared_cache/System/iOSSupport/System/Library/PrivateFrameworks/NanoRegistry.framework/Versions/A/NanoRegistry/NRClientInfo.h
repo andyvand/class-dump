@@ -12,14 +12,14 @@
 }
 
 + (_Bool);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *processName; // @synthesize processName=_processName;

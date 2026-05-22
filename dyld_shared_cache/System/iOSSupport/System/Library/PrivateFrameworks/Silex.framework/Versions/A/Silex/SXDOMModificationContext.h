@@ -13,11 +13,11 @@
     SXExperiment *_experiment;
 }
 
-- (id);
 - (id);
-- (void);
 - (id);
-- (id)wport:presentationDelegateProvider:componentStyleRendererFactory:mediaSharingPolicyProvider:interactionHandlerManager:interactionHandlerFactory:URLActionFactory:articleURLFactory: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)Size=dd}24@?40@?48;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

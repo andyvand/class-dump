@@ -23,10 +23,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
 - (void);
+- (id)¡ùÐ!`Bù1Fð1â
+0@ù
+× ;
+- (id)8@16o^@24o^@32o^@40;
 - (void);
-- (id)L¼ ;
 
 // Remaining properties
 @property(nonatomic, setter=_setSelected:) _Bool _selected; // @synthesize _selected=__selected;

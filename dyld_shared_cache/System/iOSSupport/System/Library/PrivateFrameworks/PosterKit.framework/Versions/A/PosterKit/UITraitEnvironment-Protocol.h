@@ -7,7 +7,7 @@
 @class UITraitCollection;
 
 @protocol UITraitEnvironment
-- (UITraitCollection *)llerC;
+- (UITraitCollection *)lPresentation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) UITraitCollection *traitCollection;

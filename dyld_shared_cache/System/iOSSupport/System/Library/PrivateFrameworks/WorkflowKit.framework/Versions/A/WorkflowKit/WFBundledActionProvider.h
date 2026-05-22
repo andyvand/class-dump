@@ -14,12 +14,12 @@
 
 - (id);
 - (id);
-- (id)úÌ;
-- (id)m¬Ö0%EÉ;
-- (void)T³Ì;
-- (id)%EÉ;
-- (id)EÉ;
-- (id)°myl«°myl¬Ö0%EÉ;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *identifiersOfActionsDisabledOnWatch;

@@ -15,11 +15,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (CDUnknownBlockType);
-- (void)wsUNCPath:(id)arg1 withADAllowMultiDomainAuthFlag:withADAllowMultiDomainAuth:withADDefaultUserShellFlag:withADDefaultUserShell:withADMapUIDAttributeFlag:withADMapUIDAttribute:withADMapGIDAttributeFlag:withADMapGIDAttribute:withADMapGGIDAttributeFlag:withADMapGGIDAttribute:withADPreferredDCServerFlag:withADPreferredDCServer:withADDomainAdminGroupListFlag:withADDomainAdminGroupList:withADNamespaceFlag:withADNamespace:withADPacketSignFlag:withADPacketSign:withADPacketEncryptFlag:withADPacketEncrypt:withADRestrictDDNSFlag:withADRestrictDDNS:withADTrustChangePassIntervalDaysFlag:withADTrustChangePassIntervalDays: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)	4º;
-- (id)È©rÿ;
-- (void);
+- (void)hasBegun;
+- (void)Ú;
+- (void)©zÌc;
+- (id)ngþ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;

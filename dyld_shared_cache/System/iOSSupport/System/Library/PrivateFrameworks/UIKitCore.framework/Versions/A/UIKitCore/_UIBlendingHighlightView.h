@@ -14,22 +14,22 @@
     double _cornerRadius;
 }
 
-+ (_Bool)Within Time Interval:%f) /* Error: Ran out of types for this method. */;
++ (_Bool);
 + (id);
 + (id);
 - (void);
 - (id);
 - (id);
-- (void)(%s) found in transfers.;
-- (void)uid or original guid found in transfers for guid:(CDUnknownBlockType)arg1 %s;
+- (void);
+- (void);
 - (struct UIEdgeInsets);
 - (void);
-- (double);
-- (void)îÎ	º;
 - (void);
-- (void)_;
-- (void)Ô}ÿæN;
-- (void)*÷a;
+- (void)Â;
+- (double)items in section %ld after the update;
+- (void);
+- (void)¿7G;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double cornerRadius; // @synthesize cornerRadius=_cornerRadius;

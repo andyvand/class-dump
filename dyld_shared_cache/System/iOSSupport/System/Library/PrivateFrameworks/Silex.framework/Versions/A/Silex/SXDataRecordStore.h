@@ -13,12 +13,12 @@
 }
 
 - (id);
-- (void);
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
 - (id);
-- (id);
+- (void)xtStyleFontAttributes>"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *descriptors; // @synthesize descriptors=_descriptors;

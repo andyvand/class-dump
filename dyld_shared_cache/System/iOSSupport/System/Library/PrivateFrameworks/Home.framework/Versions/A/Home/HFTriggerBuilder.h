@@ -88,19 +88,19 @@
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void)16@?0Q8;
+- (void)8tt;
+- (id)ì;
+- (void)_One;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=areActionsAffectedByEndEvents) _Bool actionsAffectedByEndEvents;

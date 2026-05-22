@@ -16,34 +16,32 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (id);
-- (id)mID;
-- (id);
 - (void);
 - (void);
-- (void)¢!0@ù
-× ;
-- (void);
-- (void)ù±Ë°1¢!0@ù
-× ;
-- (void)¢!0@ù
-× ;
-- (void)ation";
-- (void)ntimeResourceName;
-- (void)setFromBlockGenerationWithConfiguration:resolvedCatalogImage: /* Error: Ran out of types for this method. */;
-- (void)eOfReportedDisplayMode;
-- (void):(unsigned long long)arg1 ;
-- (void)o room for this NSCollectionLayoutGroup to fit into its parent group or section, or it has no room for any subitems itself. Inspect the parent and ensure the contentInsets (%@) do not result in a negative effectiveContentSize when applied to size:(id)arg1 %@.;
-- (void)];
-- (void)}_;
-- (void);
-- (void)ïÞþÞ%;
-- (void){;
-- (void)mE;
-- (void)êi;
-- (void)ÎZk;
 - (void);
 - (void);
+- (void)ct={CGPoint=dd}{CGSize=dd}}16{CGPoint=dd}48{CGPoint=dd}64B80;
+- (void)il"b1"dataSourceIsDiffableDataSource"b1"dataSourceCanEditItemAtIndexPath"b1"prefetchDataSourcePrefetchItemsAtIndexPaths"b1"prefetchDataSourceCancelPrefetchingForItemsAtIndexPaths"b1"prefetchDataSourceWasNonNil"b1"reloadSkippedDuringSuspension"b1"scheduledUpdateVisibleCells"b1"scheduledUpdateVisibleCellLayoutAttributes"b1"allowsSelection"b1"allowsMultipleSelection"b1"allowsSelectionDuringEditing"b1"allowsUserInitiatedMultipleSelection"b1"allowsMultipleSelectionDuringEditing"b1"allowsBandSelectionForMultipleSelection"b1"selectionFollowsFocus"b2"shouldBecomeFocusedOnSelection"b2"allowsFocus"b2"allowsFocusDuringEditing"b2"containsFocus"b1"displaysHorizontalIndexTitleBar"b1"fadeCellsForBoundsChange"b1"updatingLayout"b1"needsReload"b1"reloading"b1"skipLayoutDuringSnapshotting"b1"layoutInvalidatedSinceLastCellUpdate"b1"doneFirstLayout"b1"loadingOffscreenViews"b1"updating"b1"ignoreBatchUpdatesAndFallBackToReloadData"b1"updatingVisibleCells"b1"backgroundColorSet"b1"preRotationBoundsSet"b1"updateFocusAfterItemAnimations"b1"remembersLastFocusedIndexPath"b1"updateFocusAfterLoadingCells"b1"updateFocusAfterLoadingCellsScrollIfNecessary"b1"creatingViewFromPreferredFocusedView"b1"performingLayout"b1"keepsFirstResponderVisibleOnBoundsChange"b1"editing"b1"clientSetDerivesVisibleBoundsFromContainingScrollView"b1"derivesVisibleBoundsFromContainingScrollView"b1"alwaysBounceWasCustomized"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"defaultLayoutMarginsSetFromViewController"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"indexTitlesLoaded"b1"isPerformingShadowUpdates"b1"allowsVisibleCellUpdatesDuringUpdateAnimations"b1"allowsVisibleViewUpdatesDuringLayoutTransitions"b1"isCompletingInteractiveMovement"b1"isRegisteredForGeometryChanges"b1"isIdleObserverRegistered"b1"prefetchingEnabled"b1"generatingDescriptionWithDataSource"b1"isRequestingCellOrSupplementary"b1"skipAttributesApplication"b1"isPerformingInternalBatchUpdates"b1"selfSizingInvalidation"b2"shouldAnimateNextRecomputePreferredAttributesForInvalidatedElements"b1"scheduledRecomputePreferredAttributesForInvalidatedElements"b1"selfSizingInvalidationUpdateCountForCurrentCommit"b2"delaysUserInitiatedItemSelection"b1"shouldResetInitialLayoutOnDataSourceChange"b1"shouldPersistSelectionOnReloadDataWhenPossible"b1"forceRebaseContentOffsetAnchorDuringBatchUpdates"b1"skipForcedLayoutBeforeBatchUpdates"b1"clearScrollingTargetIndexPathAfterLayout"b1"isResigningFirstResponderDuringReloadData"b1"suppressPromiseRegionGeneration"b1"preserveAnchorAndScrollTargetOnBoundsChange"b1"isSelectingItemAtIndexPath"b1"adjustContentOffsetAfterLayout"b1"disableSavingContentOffsetAnchor"b1};
+- (id)Controller:(_Bool)arg1;
+- (void)setAccessibilityContainerType:(id)arg1;
+- (void)sible:(_Bool)arg1;
+- (void)abelFont:(id)arg1 ,V_visualStyleOverrideTitleLabelFont;
+- (void)pringAnimationBehavior;
+- (id)tion;
+- (void);
+- (void)T;
+- (void)collapse. Split view controller:(_Bool)arg1 %@;
+- (void)ochromeCellImageTintColor;
+- (void)ÏþÿFIþÿDIþÿ
+ÀþÿÚ±þÿ;
+- (void)ntrollerSplitBehavior;
+- (void)À];
+- (void)>è¢;
+- (void)àëpþKM;
+- (void)>ug;
+- (void)GÿÉAËÏg;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setDefaultPresentationContext:) UIScenePresentationContext *_defaultPresentationContext;

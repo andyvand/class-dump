@@ -22,13 +22,13 @@
 - (void);
 - (void);
 - (unsigned int);
-- (void)ass:(id)arg1;
-- (_Bool)];
-- (id);
 - (void);
 - (id);
-- (void)ctionDelegate;
-- (unsigned int)er;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (unsigned int);
 
 // Remaining properties
 @property(nonatomic) unsigned int clock; // @synthesize clock=_clock;

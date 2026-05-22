@@ -16,13 +16,13 @@
 
 - (void);
 - (double);
-- (void)+;
-- (void);
 - (id);
 - (struct UIEdgeInsets);
 - (void);
-- (double)licationCategoryType;
-- (void)Ì;
+- (void);
+- (double);
+- (void);
+- (void)orURLString:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

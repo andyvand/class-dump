@@ -11,77 +11,79 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool)ew;
-- (long long);
-- (_Bool);
-- (unsigned long long);
++ (id)Dyÿ;
 - (_Bool);
 - (long long);
-- (_Bool)mmcs_engine;
-- (_Bool);
-- (_Bool)!;
 - (_Bool);
 - (_Bool);
-- (_Bool)serChangeMonitor",&,N,V_activeUserChangeMonitor;
-- (_Bool);
-- (_Bool)ModelRelationshipPlaylistEntrySong;
 - (_Bool);
 - (_Bool);
-- (_Bool)n;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (long long);
-- (_Bool)t;
-- (_Bool)ÿ.º;
-- (long long)1¢!0@ù
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (_Bool);
+- (_Bool);
+- (_Bool)
 × ;
-- (_Bool)oð!ØGùÂ°1¢!0@ù
+- (_Bool)!0DùqZð1Â0@ù
+× ;
+- (_Bool);
+- (_Bool)0@ù
+× ;
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)°!lBùñ_1Â0@ù
+× ;
+- (_Bool)1Â0@ù
+× ;
+- (_Bool)Á!ÔAùb1Â0@ù
 × ;
 - (_Bool)
 × ;
-- (_Bool)¢!0@ù
-× ;
-- (_Bool)URL:readonly: /* Error: Ran out of types for this method. */;
-- (_Bool)lityViewIsModal;
-- (_Bool)ath: /* Error: Ran out of types for this method. */;
-- (_Bool)Orientation: /* Error: Ran out of types for this method. */;
-- (long long)WithCollectionView:cellProvider:dataSource: /* Error: Ran out of types for this method. */;
-- (long long)ew:fromLayout:imageFlags: /* Error: Ran out of types for this method. */;
-- (_Bool)Bar;
-- (long long)ecurityApplicationGroupIdentifier: /* Error: Ran out of types for this method. */;
-- (_Bool)ForCustomizationPanelFromPrimaryItem:(id)arg1;
-- (_Bool)dow;
-- (_Bool)setPrefersScrollingResizesWhenDetentDirectionIsDown:,V__prefersScrollingResizesWhenDetentDirectionIsDown /* Error: Ran out of types for this method. */;
-- (long long)te:,V__lastComputedPublicState /* Error: Ran out of types for this method. */;
-- (_Bool)DateComponents;
-- (long long)tionary",&,N,V_beginTouchLocations;
-- (_Bool)crollAdditions;
-- (_Bool)emSeparatorTrackingAdapter;
-- (long long);
-- (_Bool)Ü;
-- (_Bool)b;
-- (_Bool);
-- (long long)lush] is deprecated, use +[CATransaction flush] instead.;
-- (_Bool)°Âçÿ®QþÇþÿ;
-- (_Bool);
+- (_Bool)Ô ;
 - (_Bool);
-- (unsigned long long)6.0+.nib;
-- (long long)wController:] must not be called with `nil`. /* Error: Ran out of types for this method. */;
-- (_Bool)etTransform3D:requires that all members in the transform matrix are finite numbers. Attributes:%@; new transform:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)8C0D03AFC671C72C2F6A6CCF61F417StoredPayloadBase;
-- (_Bool)navigation bar (;
-- (_Bool):path:/System/Library/Frameworks/Carbon.framework/Frameworks/HIToolbox.framework/HIToolbox /* Error: Ran out of types for this method. */;
-- (_Bool)Æk>@¤p=
-×#4@ã¥Ä Ð>@=
-×£p3@Clç{:@-²ï§F/@¶óýÔxé<@nÀ+@shí|5@Ï÷Sã¥Û8@V-2@Ù? /* Error: Ran out of types for this method. */;
-- (_Bool)¸î;
+- (long long);
+- (long long)GImage=}56@64B72;
+- (long long)4@?32@?40;
+- (long long)gory"b1"hasCustomized_bounds"b1"hasCustomized_preferredMaxLayoutWidth"b1"hasCustomized_semanticContentAttribute"b1"hasCustomized_isEnabled"b1"hasCustomized_isHighlighted"b1"hasCustomized_internal"b1};
+- (_Bool)nInitialExtentToCurrentSelectionStart;
+- (long long)ry: /* Error: Ran out of types for this method. */;
+- (unsigned long long): /* Error: Ran out of types for this method. */;
+- (long long)alStringTransform: /* Error: Ran out of types for this method. */;
+- (_Bool)ndingRect:inTextContainer: /* Error: Ran out of types for this method. */;
+- (_Bool)ForMacCatalyst;
+- (_Bool)Mode;
+- (_Bool)intMaskViewMap;
+- (_Bool)@"UIViewController",W,N,V_inspectedVC;
+- (_Bool)Controller;
+- (_Bool);
+- (_Bool);
+- (unsigned long long)n = %@;
+- (_Bool)youtAlertForInvalidItemSize to catch this in the debugger. Invalid size:(id)arg1 %@; collection view:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)|þÿ;
+- (_Bool)iewControllerAdaptiveImpl _prepareTransitionToLayout:(id)arg1 ];
+- (_Bool)rvableP;
+- (unsigned long long);
+- (long long)ect_p;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

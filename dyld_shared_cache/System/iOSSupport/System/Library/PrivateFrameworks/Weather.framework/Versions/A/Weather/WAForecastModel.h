@@ -52,21 +52,24 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
 - (unsigned long long);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (int);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (int)Eù1tÐ1â
+0@ù
+× ;
+- (void)hBüÿ³â
+|;
 
 // Remaining properties
 @property(retain, nonatomic) WFAirQualityConditions *airQualityConditions; // @synthesize airQualityConditions=_airQualityConditions;

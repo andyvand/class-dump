@@ -36,26 +36,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (unsigned long long);
+- (void);
+- (void);
+- (id);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (void);
 - (double);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

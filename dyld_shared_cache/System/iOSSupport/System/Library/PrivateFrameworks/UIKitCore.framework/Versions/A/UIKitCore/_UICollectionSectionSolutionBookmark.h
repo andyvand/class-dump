@@ -20,22 +20,23 @@ __attribute__((visibility("hidden")))
     _UICollectionLayoutSectionDescriptor *_memoizedDescriptor;
 }
 
-- (unsigned long long);
 - (id);
-- (id)_statusGlobalRestrictions;
 - (id);
-- (id)H;
-- (id)item state);
-- (struct CGRect)ient;
+- (id);
+- (id);
+- (struct CGRect);
+- (id);
+- (struct CGRect);
+- (struct CGRect)0@ù
+× ;
+- (unsigned long long)ematurelyEnded"b1"automaticallyAdjustsWritingDirection"b1};
+- (id)llGesture;
+- (id)btitle: /* Error: Ran out of types for this method. */;
+- (id)eExpansionWithVelocity: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)BoxcarFilterPointFIFO;
 - (struct CGPoint);
-- (void);
-- (struct CGRect)TISupplementalLexicon: /* Error: Ran out of types for this method. */;
-- (struct CGRect)dge:size: /* Error: Ran out of types for this method. */;
-- (struct CGPoint)Level:preparationBlock: /* Error: Ran out of types for this method. */;
-- (id),G_isManualPageCurlInProgressAndUncommitted;
-- (id)ditMenuInteractionDelegate>",R,W,N,V_delegate;
-- (id)ansition;
-- (id);
+- (void);
+- (id)êÊøc;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint contentInsetsOffset;

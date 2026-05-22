@@ -12,10 +12,10 @@
 }
 
 + (id);
-+ (id)P;
 + (id);
-- (void)EventsForBackgroundURLSession: /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
+- (void);
 
 @end
 

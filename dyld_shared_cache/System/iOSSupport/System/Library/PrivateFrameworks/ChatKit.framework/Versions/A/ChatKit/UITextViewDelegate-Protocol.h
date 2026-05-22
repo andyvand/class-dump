@@ -4,14 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol UITextViewDelegate
-
-@optional
-- (void);
-- (void);
-- (_Bool);
-- (NSArray *);
 @end
 

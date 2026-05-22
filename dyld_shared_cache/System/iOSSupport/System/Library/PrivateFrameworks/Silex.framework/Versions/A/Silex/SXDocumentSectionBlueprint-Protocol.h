@@ -7,7 +7,6 @@
 @class NSArray;
 
 @protocol SXDocumentSectionBlueprint
-- (NSArray *)bouncer;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *items;

@@ -47,7 +47,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)iled to deleteNote:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;

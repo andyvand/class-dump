@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)etAdjustsTargetsOnContentOffsetChanges:(id)arg1;
+- (_Bool)Ôá;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

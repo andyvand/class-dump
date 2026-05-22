@@ -8,22 +8,22 @@
 {
 }
 
-+ (unsigned char)reakthrough;
-+ (double)send this request, lets go for it;
-+ (struct CGPoint)cause it's a typingMessage.;
-+ (double)andle:(_Bool)arg1 %@, senderName:%@, conversationID:%@ /* Error: Ran out of types for this method. */;
-+ (_Bool)Delete;
-+ (struct CGSize)sssion;
-+ (double)ong;
-+ (id);
-+ (id)e wants accounts always active, setting active:(id)arg1 %@;
-+ (id)ing:(id)arg1 %@;
-+ (unsigned char)lastDoorAttributionInfo"8;
-+ (id);
++ (unsigned char);
++ (double);
 + (struct CGPoint);
++ (double);
 + (_Bool);
-+ (id);
-- (id)InteractiveAnimationCoordinator;
++ (struct CGSize);
++ (double);
++ (id);
++ (id);
++ (id);
++ (unsigned char);
++ (struct CGPoint);
++ (id);
++ (_Bool);
++ (id)xÿdÑ¸%l;
+- (id);
 
 @end
 

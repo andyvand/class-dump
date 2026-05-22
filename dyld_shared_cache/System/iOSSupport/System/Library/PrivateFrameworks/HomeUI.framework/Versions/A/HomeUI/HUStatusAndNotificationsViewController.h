@@ -41,8 +41,8 @@
 - (double);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ting onboarding.;
 
 // Remaining properties
 @property(readonly, nonatomic) HUCameraSmartNotificationSettingsModuleController *cameraSmartSettingsModuleController; // @synthesize cameraSmartSettingsModuleController=_cameraSmartSettingsModuleController;

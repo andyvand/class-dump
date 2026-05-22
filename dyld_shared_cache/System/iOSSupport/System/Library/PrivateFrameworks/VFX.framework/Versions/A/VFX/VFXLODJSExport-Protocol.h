@@ -7,9 +7,7 @@
 @class VFXModel;
 
 @protocol VFXLODJSExport
-- (void);
-- (id)AP>î
-y?1~?%É¾>> üy?Q/? Dò½"5->âz?-|?ßþÜ½>V¶{?µNx?ÂÇ½>¼w|?rÂt?L²½`tù=$)}?q?pa½T¬Ú=øÅ}?P©n?o½+Ú¼=/P~?nl?mTg½G=TÇ~?yæi?ÑÍ>½ðü=I*?Þh?7½§ÌM=z?×gf?ðÝ¼\=þ¶?:êd?D¥¼y°Å<à?vmc?¼Á /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(readonly) VFXModel *model;

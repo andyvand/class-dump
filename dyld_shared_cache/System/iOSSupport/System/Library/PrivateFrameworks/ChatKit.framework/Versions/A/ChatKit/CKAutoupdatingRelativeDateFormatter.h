@@ -11,10 +11,10 @@
 }
 
 + (id);
-+ (id)assword to remove the lock from this note.;
-+ (id)evious password. Enter the previous password to view the attachment.;
++ (id);
++ (id);
 - (id);
-- (id);
+- (id)r completion.;
 
 @end
 

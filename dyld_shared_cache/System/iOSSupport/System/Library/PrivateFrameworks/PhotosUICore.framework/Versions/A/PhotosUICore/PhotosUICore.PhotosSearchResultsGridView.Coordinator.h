@@ -30,9 +30,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)\(^_;
+- (void)¼ÿÿÿR;
+- (void)ÍÆ;
 - (void);
 
 @end

@@ -9,25 +9,25 @@
     double _scale;
 }
 
-+ (id)nassign identifier %@ from chat record with guid %@ for domain %@;
-- (id)entifier;
++ (id);
 - (id);
-- (id)hatIdentifier:(id)arg1 guid:(struct CGPoint)arg2;
-- (id)yMode:(id)arg1 createIfNotExists:(struct CGPoint)arg2 error: /* Error: Ran out of types for this method. */;
-- (id):(id)arg1;
-- (id)essageGUID:(id)arg1 enableVerboseLogging:(id)arg2;
-- (id)gMessageContext:(id)arg1 createIfNotExists:(struct CGRect)arg2;
-- (id)tAddressedHandle:(id)arg1 lastAddressedSIMID:(struct CGRect)arg2 isBlackholed: /* Error: Ran out of types for this method. */;
-- (id)yle:(id)arg1 groupID:(struct CGRect)arg2 originalGroupID:displayName:guid:lastAddressedHandle:lastAddressedSIMID:isBlackholed: /* Error: Ran out of types for this method. */;
-- (id)ier:(id)arg1 style:(struct CGSize)arg2 account:updatingAccount: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (struct CGRect);
 - (struct CGPoint);
 - (id);
-- (struct CGRect)ageSyncZoneMetaData.db;
-- (CDStruct_c3b9c2ee)y/Messages/CloudKitMetaData/MessageSyncZoneMetaData.db;
+- (struct CGRect);
+- (CDStruct_c3b9c2ee);
 - (id);
 - (double);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) double scale; // @synthesize scale=_scale;

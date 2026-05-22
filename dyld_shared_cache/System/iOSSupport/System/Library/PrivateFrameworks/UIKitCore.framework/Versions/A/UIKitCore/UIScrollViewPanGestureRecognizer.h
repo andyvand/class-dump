@@ -30,52 +30,52 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (double);
 - (id);
 - (void);
-- (void);
-- (struct CGPoint);
-- (_Bool)h %@;
-- (_Bool);
-- (struct CGPoint);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool)ìùº;
-- (double);
-- (void)Àf	ë;
-- (struct CGPoint);
-- (_Bool)GùQÉ°1¢!0@ù
-× ;
-- (void)!¨Aù1Ë1¢!0@ù
-× ;
-- (struct CGPoint)indow";
-- (struct CGPoint)ateAttachment;
-- (void):(id)arg1;
-- (void)lementalItemsForCurrentSelection:(id)arg1;
-- (id)sTransitionProgress;
-- (void)ers:(id)arg1 withKey: /* Error: Ran out of types for this method. */;
-- (void)railingConcentricLayoutPoint;
-- (double)izeInvalidationsToSuperview;
-- (_Bool)*;
-- (void)Ä;
-- (_Bool);
-- (void)tView;
-- (_Bool)lowing issues were found that would normally prevent this environment's request from being accepted by the focus system (these will be ignored for the purposes of this test):(id)arg1;
-- (void)'%@' which is not a subclass of UICollectionViewCell;
-- (void)ontent view %@;
-- (_Bool);
-- (_Bool);
-- (void);
 - (id);
-- (_Bool)^;
-- (_Bool)DR;
-- (void)f;
-- (id)º¼g;
-- (void)áÿ;
-- (long long);
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
+- (_Bool);
+- (struct CGPoint);
+- (void)!ÄEù[ð1Â0@ù
+× ;
+- (struct CGPoint)@ù
+× ;
+- (void)torView"16q24;
+- (_Bool)"24{CGRect={CGPoint=dd}{CGSize=dd}}32;
+- (id)ration:(id)arg1;
+- (_Bool)tifier:creator: /* Error: Ran out of types for this method. */;
+- (_Bool)ithItemIdentifier:(id)arg1 uiView: /* Error: Ran out of types for this method. */;
+- (void)s:(id)arg1 forCoder:(id)arg2;
+- (_Bool)ts;
+- (_Bool)_lastForceTimestamp;
+- (void)yScale:(id)arg1;
+- (void)ded;
+- (void)ntarySolution;
+- (void)ew;
+- (_Bool)ILongPressGestureRecognizer",&,N,V_dismissActionViewGestureRecognizer;
+- (void)xtSearching>",W,N,V_searchableObject;
+- (_Bool)okenImpl;
+- (double)¨ade;
+- (_Bool)y updates must be section operations;
+- (_Bool)ditions from non-main thread is not safe!;
+- (_Bool)UIBackgroundStyleLightBlur;
+- (id)ent;
+- (void)Åð¿c;
+- (struct CGPoint)<õþ·¾Ù¸xe;
+- (void);
+- (_Bool)üá;
+- (long long)Di;
+- (void)´Z^ÿ"Ô;
+- (void)<¦ªÿdèØKJk;
+- (struct CGPoint)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_beganCaughtDeceleratingScrollViewAndMoved) _Bool beganCaughtDeceleratingScrollViewAndMoved;

@@ -21,16 +21,16 @@
 
 + (id);
 + (_Bool);
-- (void)@;
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)action:withColor: /* Error: Ran out of types for this method. */;
-- (void)ntCachePath:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void)bPtYx/Sources/AlderShared/text/TSWPSearch.mm;
 
 // Remaining properties
 @property(getter=isShuttingDown) _Bool shuttingDown; // @synthesize shuttingDown=mShuttingDown;

@@ -13,13 +13,13 @@
     id <NSSecureCoding> _defaultValue;
 }
 
-+ (_Bool)ge file. (WFImagePreserveMetadata);
++ (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id)L·ýÿ'Çÿÿ;
+- (id)t get me-contact; no access to contacts;
+- (void)ock_invoke;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSSecureCoding> defaultValue; // @synthesize defaultValue=_defaultValue;

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
-@protocol CKPinnedConversationContactItemView;
+@class NSString;
 
 @protocol CKPinnedConversationContactItem
-- (void)andler:(long long)arg1;
-- (UIView<CKPinnedConversationContactItemView> *)8@?0^{CGContext=}8{CGRect={CGPoint=dd}{CGSize=dd}}16;
 
 // Remaining properties
 @property(nonatomic) long long contactItemAlignment;

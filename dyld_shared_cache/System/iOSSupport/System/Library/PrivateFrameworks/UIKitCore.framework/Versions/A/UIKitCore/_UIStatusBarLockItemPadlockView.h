@@ -24,14 +24,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)ath"24{CGPoint=dd}32;
 - (void);
-- (id);
-- (void)àúÿÕÜe8;
-- (void)´Àüÿ;
-- (void)text storage length;
-- (CDUnknownBlockType)em set before the presentation occurs.;
-- (struct CGSize)_isForcedFullScreen;
+- (void);
+- (struct CGSize);
+- (id)ForEvent: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)ead data;
+- (void);
+- (void)Ørwþu>43ärwþ}>43ðrwþU>43ürwþ¥>43swþ5>43swþ5>43à}wþ}>43swþµ>43oþ>43swþ;
+- (void)@IËÿÇÊ;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *bodyView; // @synthesize bodyView=_bodyView;

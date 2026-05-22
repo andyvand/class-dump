@@ -4,11 +4,11 @@
 
 class TileDecoder_PXR24 {
 public: // (access info unavailable from symbols alone)
-    Decompress(AXRBufferPool*, TileInfo const&, unsigned long*) const;
-    ExtractPlane(void const*, unsigned long, ChannelInfo const&, TileInfo const&, void*, unsigned long, long) const;
-    ExtractPlane(void const*, unsigned long, ChannelInfo const&, TileInfo const&, void*, unsigned long, long) const::kFuncTable;
-    GetCompressionMethod() const;
-    Interleave(void const*, unsigned long, TileInfo const&, unsigned int, unsigned int, void*, unsigned long, long) const;
-    Interleave(void const*, unsigned long, TileInfo const&, unsigned int, unsigned int, void*, unsigned long, long) const::funcTable;
+    auto Decompress(AXRBufferPool*, TileInfo const&, unsigned long*) const;
+    auto ExtractPlane(void const*, unsigned long, ChannelInfo const&, TileInfo const&, void*, unsigned long, long) const;
+    auto ExtractPlane(void const*, unsigned long, ChannelInfo const&, TileInfo const&, void*, unsigned long, long) const::kFuncTable;
+    auto GetCompressionMethod() const;
+    auto Interleave(void const*, unsigned long, TileInfo const&, unsigned int, unsigned int, void*, unsigned long, long) const;
+    auto Interleave(void const*, unsigned long, TileInfo const&, unsigned int, unsigned int, void*, unsigned long, long) const::funcTable;
     ~TileDecoder_PXR24();
 };

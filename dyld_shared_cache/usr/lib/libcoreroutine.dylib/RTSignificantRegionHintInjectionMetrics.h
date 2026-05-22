@@ -17,18 +17,18 @@
 
 + (void);
 - (void);
-- (void)b;
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool)9h;
+- (_Bool);
 - (long long);
-- (id)�;
-- (void);
-- (id)ity: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)lable;
+- (id);
+- (void);
+- (void)%@, Couldn't cancel xpc activity %@;
+- (id)ying:bluePOITileStore /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long hintSource; // @synthesize hintSource=_hintSource;

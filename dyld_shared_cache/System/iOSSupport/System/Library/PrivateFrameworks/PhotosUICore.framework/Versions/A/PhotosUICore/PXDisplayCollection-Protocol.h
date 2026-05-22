@@ -7,8 +7,8 @@
 @class NSDate, NSString;
 
 @protocol PXDisplayCollection
-- (NSDate *)playerLayer;
-- (NSDate *)ubscribe to sync progress;
+- (NSString *)GPoint=dd},N,S_setUpdatedPreferredVisibleOrigin:,V__updatedPreferredVisibleOrigin /* Error: Ran out of types for this method. */;
+- (NSString *)CMTimeRange;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canContainAssets;

@@ -13,8 +13,8 @@
 
 - (struct CGPoint);
 - (void);
-- (unsigned long long);
 - (void);
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGPoint firstTapLocation; // @synthesize firstTapLocation=mFirstTapLocation;

@@ -19,11 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (long long)!Dù±yÐ1b0@ù
-× ;
-- (long long)¸°o1Ê;
+- (long long)troller>"32@0:8@16@"PXGLayout"24 /* Error: Ran out of types for this method. */;
+- (long long)Ì;
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) long long numberOfSections;

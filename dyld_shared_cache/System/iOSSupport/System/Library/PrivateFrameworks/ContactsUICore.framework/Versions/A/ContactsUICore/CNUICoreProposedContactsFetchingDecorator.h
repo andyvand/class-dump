@@ -22,8 +22,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)1yAAy¢ñ1yAAyAAyAAycâ1Vñ/yHò/SgGGä/GAç/G_Qo_ACyôá/GG_Qo_yï/y[ö/GG;
+- (id);
+- (void)Token;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

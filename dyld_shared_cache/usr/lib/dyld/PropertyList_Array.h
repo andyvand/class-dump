@@ -4,7 +4,8 @@
 
 class PropertyList::Array {
 public: // (access info unavailable from symbols alone)
-    Array(lsl::Allocator&);
-    deallocate();
-    emit(unsigned char, ByteStream&);
+    Array(PropertyList&);
+    PropertyList::Dictionary& addObject<PropertyList::Dictionary>();
+    auto emit(unsigned char, ByteStream&);
+    ~Array();
 };

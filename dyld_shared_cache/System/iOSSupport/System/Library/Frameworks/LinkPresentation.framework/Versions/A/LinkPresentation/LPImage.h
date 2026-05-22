@@ -43,12 +43,12 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool),N,S_setAllowsSkinnyWidth:,V_allowsSkinnyWidth /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -83,15 +83,14 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (void)=;
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (CDUnknownBlockType)n=;
+- (CDUnknownBlockType);
 - (_Bool);
-- (id)ation;
 - (id);
 - (id);
 - (id);
@@ -100,19 +99,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
 - (id);
-- (void)rTapBack;
+- (void);
 - (id);
-- (void)a;
-- (id);
-- (void)	Ð!¤Aùqµð1¢!0@ù
+- (void);
+- (void)1Â0@ù
 × ;
-- (id)ù
-× ;
-- (id)sationActivityClass(void)_block_invoke;
+- (id)Øö<÷;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *MIMEType;

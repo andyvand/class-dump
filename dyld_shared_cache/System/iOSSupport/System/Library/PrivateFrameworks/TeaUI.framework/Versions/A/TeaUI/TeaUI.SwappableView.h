@@ -12,10 +12,10 @@
     MISSING_TYPE *currentView;
 }
 
-- (void);
-- (id)dSurfacedByArticleListID2:(id)arg1;
+- (id);
 - (void);
 - (id);
+- (void)HÂúÿÌÂúÿØÂúÿäÂúÿðÂúÿüÂúÿøÅúÿÆúÿLÆúÿpÆúÿÆúÿÐÆúÿôÆúÿLÇúÿØÇúÿüÇúÿ8ÈúÿlÈúÿÈúÿ4ÊúÿpÊúÿÊúÿ¸Êúÿ´ÌúÿÍúÿ4ÍúÿÏúÿ¨ÏúÿäÏúÿÐúÿTÐúÿlÐúÿÐúÿÌÐúÿ;
 
 @end
 

@@ -29,11 +29,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (long long);
@@ -54,8 +54,9 @@
 - (void);
 - (void);
 - (void);
-- (void)mationMaskView";
-- (void);
+- (void)è
+È	;
+- (void)ñÿÿhÝÿÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

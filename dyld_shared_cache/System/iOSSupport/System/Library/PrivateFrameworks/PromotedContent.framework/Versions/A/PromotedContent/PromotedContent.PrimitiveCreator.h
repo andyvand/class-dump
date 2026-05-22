@@ -19,9 +19,9 @@
     MISSING_TYPE *placeholder;
 }
 
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

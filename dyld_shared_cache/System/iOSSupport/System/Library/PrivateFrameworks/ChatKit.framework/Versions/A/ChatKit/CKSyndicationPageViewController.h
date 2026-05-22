@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
     double _buttonTrayHeight;
 }
 
-- (id)referredDefaultFontColor;
-- (void)_attributedStringByHighlightingRegexMatches:(id)arg1 withHighlightColor:attributeName: /* Error: Ran out of types for this method. */;
-- (void)dLanguage;
+- (id);
 - (void);
-- (void)/;
-- (double)mebody** was added to the folder;
+- (void);
+- (void);
+- (void);
+- (double);
 - (void);
 - (id);
 - (void);
@@ -34,10 +34,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id)öüÿ´ÿÿ;
-- (void);
-- (void);
+- (void)ets=dddd},N,V_layoutMargins;
+- (void)¸T;
 
 // Remaining properties
 @property(nonatomic) double buttonTrayHeight; // @synthesize buttonTrayHeight=_buttonTrayHeight;

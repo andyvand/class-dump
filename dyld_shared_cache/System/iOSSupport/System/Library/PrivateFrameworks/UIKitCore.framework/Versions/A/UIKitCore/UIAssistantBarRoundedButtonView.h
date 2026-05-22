@@ -18,11 +18,11 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (void)`;
-- (id);
+- (struct CGSize);
 - (void);
-- (id)@"UIView"8{CGRect={CGPoint=dd}{CGSize=dd}}16;
-- (struct CGSize)´Ä½ÿ)Öÿ;
+- (id)ens;
+- (void)\Ñyþ|]ÚLíi;
+- (id)Ð­m;
 
 // Remaining properties
 @property(readonly, nonatomic) UIAssistantBarRoundedButtonViewButton *button; // @synthesize button=_button;

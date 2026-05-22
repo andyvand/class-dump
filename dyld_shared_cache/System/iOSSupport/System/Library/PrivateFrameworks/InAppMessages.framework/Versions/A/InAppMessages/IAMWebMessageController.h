@@ -34,17 +34,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (id);
 - (void);
+- (id)Identifier;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *contentPages; // @synthesize contentPages=_contentPages;

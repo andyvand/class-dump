@@ -5,7 +5,5 @@
 //
 
 @protocol UIViewControllerAnimatedTransitioning
-- (void)ationSettingsItemCG;
-- (double)ic}@Task finished successfully;
 @end
 

@@ -36,22 +36,22 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void)MCameraClipFetchAssetContextOperationDataSource;
+- (_Bool)r:response: /* Error: Ran out of types for this method. */;
+- (void)aracteristic type %@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIfaceName;

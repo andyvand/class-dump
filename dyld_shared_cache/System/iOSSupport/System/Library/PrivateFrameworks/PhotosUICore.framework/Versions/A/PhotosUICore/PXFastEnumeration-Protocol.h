@@ -5,8 +5,9 @@
 //
 
 @protocol PXFastEnumeration
-- (unsigned long long)oKitSocialGroupActionTypeReorderGroup;
-- (id)wModifier;
+- (id)8½;
+- (unsigned long long)erConfiguration;
+- (id)namicHeaderViewModel;
 
 // Remaining properties
 @property(readonly) unsigned long long count;

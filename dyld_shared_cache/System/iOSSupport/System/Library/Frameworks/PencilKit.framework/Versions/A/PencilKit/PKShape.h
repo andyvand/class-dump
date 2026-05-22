@@ -19,8 +19,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (long long);
+- (void)T@"NSMutableArray",&,N,V_hashtagViews;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool fillable;

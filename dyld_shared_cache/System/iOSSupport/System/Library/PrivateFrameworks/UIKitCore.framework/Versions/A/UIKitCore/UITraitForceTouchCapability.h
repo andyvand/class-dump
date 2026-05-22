@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool),VmessageContext;
-+ (_Bool)0;
++ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
-+ (id)extC0C8DelegateP;
-+ (long long)ÔAf;
++ (id). Expected:%@; Received:%@ /* Error: Ran out of types for this method. */;
++ (long long)s}Ëó7i;
 
 @end
 

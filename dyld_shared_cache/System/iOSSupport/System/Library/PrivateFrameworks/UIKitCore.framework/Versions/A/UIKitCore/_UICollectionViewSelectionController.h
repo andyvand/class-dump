@@ -16,47 +16,47 @@ __attribute__((visibility("hidden")))
     _Bool _allowsMultipleSelection;
 }
 
+- (void);
+- (void);
+- (long long);
 - (id);
-- (void)"24;
-- (void)rd;
+- (long long);
 - (void);
 - (id);
 - (id);
-- (void))(º;
-- (id);
 - (void);
-- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id)!CùqÀ1¢!0@ù
-× ;
-- (id)1ÄÐ1¢!0@ù
-× ;
-- (id)Ô ;
-- (void)Ð!@EùQËÐ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (void)40B44@48;
-- (id)mitAnimation"B"interactionEffectForTargetedPreview"B"shouldAttemptToPresentConfiguration"B"didPerformMenuLeaf"B"previewForHighlighting"B"previewForDismissing"B"_dci_secondaryHighlightPreview"B"_dci_secondaryDismissalPreview"B"willCommit"B};
-- (_Bool)adius"b1"usesSinglePixelLineWidth"b1};
-- (void)ge: /* Error: Ran out of types for this method. */;
-- (id)andler:(id)arg1;
-- (id):(id)arg1;
-- (long long)ate;
-- (_Bool)Rect:(id)arg1 selectedColor: /* Error: Ran out of types for this method. */;
-- (void)ShowingSelectedBackground;
-- (id)ibutes;
-- (void)delConfiguration;
-- (_Bool)taSourceSnapshot",R,N,V_finalSnapshot;
-- (long long)ts,V_constants;
-- (_Bool)session;
-- (void)llInteractionEnabled;
-- (void)eningAlpha;
-- (void)UIApplicationCatalystRequestViewServiceIdiomAndScaleFactor(UIUserInterfaceIdiom, CGFloat);
-- (void)nItem:%p> /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (void)ramework/SymptomDiagnosticReporter;
+- (void)°1Â0@ù
+× ;
+- (id)× ;
+- (_Bool)ÁÐ!FùqcÐ1Â0@ù
+× ;
+- (void)	ð!ØFùÑeÐ1Â0@ù
+× ;
+- (void)QgÐ1Â0@ù
+× ;
+- (void)_setAdditionalSafeAreaInsets:(id)arg1;
+- (id)iewControllerReadyForDisplay: /* Error: Ran out of types for this method. */;
+- (void)astTypedKeyTimestamp,S_setLastTypedKeyTimestamp:(id)arg1 ,V_lastTypedKeyTimestamp;
+- (void)= %@;
+- (void)dUpdateFocus(__strong id<UIFocusEnvironment> _Nonnull, UIFocusUpdateContext *__strong _Nonnull);
+- (_Bool)property is associated with a view on the same screen.;
+- (void)°þ;
+- (id);
+- (id);
+- (void)q;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsMultipleSelection; // @synthesize allowsMultipleSelection=_allowsMultipleSelection;

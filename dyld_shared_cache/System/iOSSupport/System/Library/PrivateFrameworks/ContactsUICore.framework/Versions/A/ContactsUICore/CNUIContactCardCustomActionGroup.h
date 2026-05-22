@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ionBlock;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *customActions; // @synthesize customActions=_customActions;

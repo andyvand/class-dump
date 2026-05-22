@@ -14,9 +14,9 @@
 
 + (id);
 + (id);
++ (id);
 + (_Bool);
-+ (_Bool)ntentsLuminance:alternateDateEnabled:groupName:version: /* Error: Ran out of types for this method. */;
-+ (id)Ó;
++ (_Bool);
 - (id);
 - (id);
 - (id);
@@ -24,19 +24,19 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (unsigned long long);
+- (void);
+- (id)aultManager;
+- (unsigned long long)|?;
 
 // Remaining properties
 @property(readonly) unsigned long long count;

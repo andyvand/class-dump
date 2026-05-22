@@ -23,44 +23,44 @@ __attribute__((visibility("hidden")))
     NSObject<UIRepeatedActionDelegate> *_delegate;
 }
 
-+ (id);
 + (id);
-- (void)rsation:(_Bool)arg1;
-- (void)letionHandler:(double)arg1;
-- (void)AtURL:(double)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)sCleanWithROWID:(double)arg1;
-- (void)ledWithGUID:(id)arg1 errorCode: /* Error: Ran out of types for this method. */;
-- (void)tionCancelledFromPerson:(id)arg1;
-- (double)ToFileTransfers;
-- (double)rror:completionBlock: /* Error: Ran out of types for this method. */;
-- (id)hasReceivedReadReceiptRecently;
-- (_Bool)ttachment at path:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)lineComponent> Deferring message %@;
-- (void)s:%lu, filterExtensionName:%@. Checking if we need to update filter params. /* Error: Ran out of types for this method. */;
-- (void)enter:could not set keys/values on file %@  (%@:%@) /* Error: Ran out of types for this method. */;
-- (void)tectionClass:itemIdentifier:typeIdentifier:options:completionHandler:) /* Error: Ran out of types for this method. */;
++ (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (double);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (double);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void)áÿÐ!øFùñXÐ1Â0@ù
+× ;
+- (id)
+× ;
+- (void)44@0:(id)arg1 8@"UITraitCollection"16@"<_UICellConfigurationStateReadonly>"24B32q36;
+- (id)"NSArray"24@"NSString"32B40;
+- (void)formedContainerView;
+- (void)observeActivationConditionsDataWithBlock: /* Error: Ran out of types for this method. */;
+- (void)cs: /* Error: Ran out of types for this method. */;
+- (void)\®ä³;
 - (id);
-- (void)A/;
-- (void);
-- (void)!ðFùqÀÐ1¢!0@ù
-× ;
-- (void);
-- (id)1¢!0@ù
-× ;
-- (void)serActivity:(id)arg1 options:errorHandler: /* Error: Ran out of types for this method. */;
-- (id)Source;
-- (_Bool)leTextServices;
-- (id)ive;
-- (id)onActions;
-- (void)teViewControllerSceneContextHardwareKeyboardExclusivityIdentifier;
-- (void)e;
-- (void)ÛAY;
-- (void)êBj;
+- (void)Ld;
+- (id)e;
+- (_Bool)nËÐÓg;
+- (id);
 
 // Remaining properties
 @property(nonatomic) __weak NSObject<UIRepeatedActionDelegate> *delegate; // @synthesize delegate=_delegate;

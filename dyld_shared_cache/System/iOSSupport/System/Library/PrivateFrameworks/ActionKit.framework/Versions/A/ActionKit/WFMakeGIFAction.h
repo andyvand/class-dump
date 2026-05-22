@@ -11,12 +11,10 @@
 
 + (_Bool);
 - (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void)¶
-°1b0@ù
-× ;
+- (void)t pair, or a developer token set;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;

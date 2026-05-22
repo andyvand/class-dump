@@ -38,16 +38,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (void);
 - (id);
-- (void)ApplicationDestination;
-- (id)ec;
-- (void)ÿ#}æÐ;
-- (id)æãÿÃ½}ck;
+- (void);
+- (id)ionHandler: /* Error: Ran out of types for this method. */;
+- (void)ConcurrentOperationCount:(id)arg1;
+- (id)à;
+- (void)onHandler:] /* Error: Ran out of types for this method. */;
+- (id)°BôÿáÌí;
+- (void)$F;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *businessId; // @synthesize businessId=_businessId;

@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id)^i16C24r*28B36B40;
+- (id);
+- (void)onLatency;
 
 // Remaining properties
 @property(readonly, nonatomic) SMConversation *conversation; // @synthesize conversation=_conversation;

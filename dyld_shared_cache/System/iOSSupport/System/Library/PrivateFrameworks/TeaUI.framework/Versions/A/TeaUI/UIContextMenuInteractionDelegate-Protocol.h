@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIContextMenuConfiguration, UIContextMenuInteraction, UITargetedPreview;
+@class UITargetedPreview;
 
 @protocol UIContextMenuInteractionDelegate
 
 @optional
-- (UITargetedPreview *)P;
-- (UITargetedPreview *)ltRowRange;
-- (UITargetedPreview *)tus;
-- (void)ccessory:(UIContextMenuInteraction *)arg1 animated:(UIContextMenuConfiguration *)arg2;
-- (void)Blueprint did select item at index path, model=%{public}@, item=%{public}@, indexPath=%{public}@;
+- (void)2;
+- (void)}~;
+- (UITargetedPreview *);
+- (void)er;
 @end
 

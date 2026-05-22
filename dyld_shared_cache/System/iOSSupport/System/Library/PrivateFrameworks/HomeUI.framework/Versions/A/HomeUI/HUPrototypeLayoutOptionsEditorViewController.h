@@ -21,14 +21,14 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (long long);
+- (void);
 - (long long);
 - (id);
 - (void);
-- (id);
-- (void);
-- (long long);
-- (id)ew"16@"UICollectionViewFocusUpdateContext"24;
-- (void)e;
+- (void)tactSupportOptionsCancel;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

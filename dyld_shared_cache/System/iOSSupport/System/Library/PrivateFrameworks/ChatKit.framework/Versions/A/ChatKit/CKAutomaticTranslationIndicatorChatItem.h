@@ -6,27 +6,14 @@
 
 #import <ChatKit/CKChatItem.h>
 
-@class IMAutomaticTranslationIndicatorChatItem, NSAttributedString, NSLocale;
+@class IMAutomaticTranslationIndicatorChatItem, NSAttributedString;
 
 @interface CKAutomaticTranslationIndicatorChatItem : CKChatItem
 {
-    double languageDownloadProgress;
 }
 
-- (_Bool);
-- (id)s;
-- (id);
-- (id);
-- (void)ed the note;
-- (id);
 - (id);
 - (struct CGSize);
-- (id)@
-;
-- (id);
-- (_Bool);
-- (_Bool);
-- (double);
 - (id);
 - (id);
 - (id);
@@ -34,19 +21,13 @@
 - (id);
 - (id);
 - (Class);
-- (id);
-- (unsigned long long)leID;
+- (unsigned long long)dth: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) NSAttributedString *buttonAttributedText;
 @property(nonatomic, readonly) Class cellClass;
 @property(nonatomic, readonly) IMAutomaticTranslationIndicatorChatItem *imAutomaticTranslationIndicatorChatItem;
-@property(nonatomic) double languageDownloadProgress; // @synthesize languageDownloadProgress;
-@property(nonatomic, readonly) _Bool languageNeedsDownload;
-@property(nonatomic, readonly) _Bool languagesAreDownloading;
-@property(nonatomic, readonly) NSLocale *localizedTranslationLanguage;
 @property(nonatomic, readonly) NSAttributedString *titleAttributedText;
-@property(nonatomic, readonly) _Bool userLanguageNeedsDownload;
 
 @end
 

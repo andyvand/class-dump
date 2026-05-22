@@ -4,8 +4,8 @@
 
 class AXRChunkHeader {
 public: // (access info unavailable from symbols alone)
-    GetCompressedDataPtr(ChunkLayout, unsigned long) const;
-    GetCompressedDataSize(ChunkLayout, unsigned long) const;
-    GetTilePosition(ChunkLayout);
-    Init(ChunkLayout, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int);
+    auto GetCompressedDataPtr(ChunkLayout, unsigned long) const;
+    auto GetCompressedDataSize(ChunkLayout, unsigned long) const;
+    auto GetTilePosition(ChunkLayout);
+    auto Init(ChunkLayout, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int);
 };

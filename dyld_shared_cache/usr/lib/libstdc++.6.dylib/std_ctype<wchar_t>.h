@@ -4,21 +4,21 @@
 
 class std::ctype<wchar_t> {
 public: // (access info unavailable from symbols alone)
-    _M_convert_to_wmask(unsigned long) const;
-    _M_initialize_ctype();
+    auto _M_convert_to_wmask(unsigned long) const;
+    auto _M_initialize_ctype();
+    auto do_is(unsigned long, wchar_t) const;
+    auto do_is(wchar_t const*, wchar_t const*, unsigned long*) const;
+    auto do_narrow(wchar_t const*, wchar_t const*, char, char*) const;
+    auto do_narrow(wchar_t, char) const;
+    auto do_scan_is(unsigned long, wchar_t const*, wchar_t const*) const;
+    auto do_scan_not(unsigned long, wchar_t const*, wchar_t const*) const;
+    auto do_tolower(wchar_t) const;
+    auto do_tolower(wchar_t*, wchar_t const*) const;
+    auto do_toupper(wchar_t) const;
+    auto do_toupper(wchar_t*, wchar_t const*) const;
+    auto do_widen(char const*, char const*, wchar_t*) const;
+    auto do_widen(char) const;
     ctype(int*, unsigned long);
     ctype(unsigned long);
-    do_is(unsigned long, wchar_t) const;
-    do_is(wchar_t const*, wchar_t const*, unsigned long*) const;
-    do_narrow(wchar_t const*, wchar_t const*, char, char*) const;
-    do_narrow(wchar_t, char) const;
-    do_scan_is(unsigned long, wchar_t const*, wchar_t const*) const;
-    do_scan_not(unsigned long, wchar_t const*, wchar_t const*) const;
-    do_tolower(wchar_t) const;
-    do_tolower(wchar_t*, wchar_t const*) const;
-    do_toupper(wchar_t) const;
-    do_toupper(wchar_t*, wchar_t const*) const;
-    do_widen(char const*, char const*, wchar_t*) const;
-    do_widen(char) const;
     ~ctype();
 };

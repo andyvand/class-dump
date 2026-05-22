@@ -21,9 +21,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)g:withVelocity:targetContentOffset: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCContentContext> contentContext; // @synthesize contentContext=_contentContext;

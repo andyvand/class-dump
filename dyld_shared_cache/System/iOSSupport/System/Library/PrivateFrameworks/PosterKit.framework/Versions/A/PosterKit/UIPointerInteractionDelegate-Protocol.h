@@ -7,6 +7,9 @@
 @protocol UIPointerInteractionDelegate
 
 @optional
-- (void);
+- (void)1â
+0@ù
+× ;
+- (void)figuration;
 @end
 

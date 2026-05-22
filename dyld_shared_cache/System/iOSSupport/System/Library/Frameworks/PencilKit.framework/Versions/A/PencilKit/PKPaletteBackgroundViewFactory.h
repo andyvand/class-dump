@@ -8,7 +8,7 @@
 {
 }
 
-- (id)RefreshRate;
+- (id);
 
 @end
 

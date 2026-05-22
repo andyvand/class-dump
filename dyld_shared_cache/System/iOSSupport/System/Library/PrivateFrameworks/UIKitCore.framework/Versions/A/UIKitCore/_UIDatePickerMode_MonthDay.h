@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (unsigned long long)Received notice is from an unknown sender. Dropping notice.;
++ (unsigned long long);
 + (long long);
 - (unsigned long long);
 - (unsigned long long);

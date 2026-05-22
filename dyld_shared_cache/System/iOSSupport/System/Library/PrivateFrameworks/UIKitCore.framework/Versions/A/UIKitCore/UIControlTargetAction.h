@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
     _Bool _cancelled;
 }
 
-- (void);
-- (id)enderGeometry;
-- (void)Òcl;
-- (_Bool);
+- (id);
+- (_Bool);
+- (void)d;
+- (void)î7×¬Íh;
 
 // Remaining properties
 @property(nonatomic) _Bool cancelled; // @synthesize cancelled=_cancelled;

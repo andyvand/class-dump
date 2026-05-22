@@ -5,7 +5,7 @@
 //
 
 @interface (null) (WFContentCollection)
-- (void)Ì;
+- (void);
 - (void);
 @end
 

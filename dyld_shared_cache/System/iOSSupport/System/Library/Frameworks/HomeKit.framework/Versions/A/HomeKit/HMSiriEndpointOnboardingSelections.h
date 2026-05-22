@@ -28,8 +28,8 @@
     HMSettingLanguageValue *_languageValue;
 }
 
-+ (id)iaSession;
-+ (id)ØàxãÄä¼åææèéë¬ë8íDø\ù¼ú;
++ (id);
++ (id)AnnounceOnboarding;
 - (void);
 - (void);
 - (void);
@@ -70,17 +70,17 @@
 - (id);
 - (_Bool);
 - (void);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id)account due to no delegate caller on context:%@ /* Error: Ran out of types for this method. */;
+- (void)trollerV2;
 
 // Remaining properties
 @property(getter=isAirPlayEnabled) _Bool airPlayEnabled; // @synthesize airPlayEnabled=_airPlayEnabled;

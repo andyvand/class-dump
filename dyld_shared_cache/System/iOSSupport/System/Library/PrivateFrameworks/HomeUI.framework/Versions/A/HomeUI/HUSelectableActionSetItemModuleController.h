@@ -20,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)s.fill;
 
 @end
 

@@ -62,19 +62,19 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (unsigned long long);
-- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
+- (void)h;
+- (void)À;
+- (void)HUMatterAccessoryConnectedEcosystemItemIsAppleVendor;
 - (id);
-- (void)ï¨;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView<HUQuickControlInteractiveView> *activeView;

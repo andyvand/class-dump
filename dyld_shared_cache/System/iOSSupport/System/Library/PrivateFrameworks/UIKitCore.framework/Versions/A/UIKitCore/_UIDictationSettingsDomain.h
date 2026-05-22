@@ -9,10 +9,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)fier:withNtPrincipalName: /* Error: Ran out of types for this method. */;
 + (id);
-+ (Class)View;
-+ (id)À;
++ (id)tTestingInsets;
++ (id)ationIn:withIndex: /* Error: Ran out of types for this method. */;
++ (Class)3PtnþÕ333\tnþ%433htnþµ333ttnþµ333¤©rþý333tnþ5433tnþ433¤tnþ;
 
 @end
 

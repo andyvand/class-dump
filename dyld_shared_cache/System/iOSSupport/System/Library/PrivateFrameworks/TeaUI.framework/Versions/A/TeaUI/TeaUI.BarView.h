@@ -15,9 +15,9 @@
 }
 
 - (id);
+- (id);
 - (void);
-- (id)edTopicsConfig;
-- (void);
+- (void)¼_ýÿ@`ýÿ;
 
 @end
 

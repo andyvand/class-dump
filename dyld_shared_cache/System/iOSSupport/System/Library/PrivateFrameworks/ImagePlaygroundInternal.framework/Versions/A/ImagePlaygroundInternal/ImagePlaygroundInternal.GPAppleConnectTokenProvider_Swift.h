@@ -14,8 +14,10 @@
 
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)12CoreGraphicsyHCg0_Qo__Qo__»9ÿ
+Qo__Qo_GF:ÿ
+G /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -12,11 +12,11 @@
 }
 
 + (id);
-- (void)tryAfter, last one is firing at %@;
-- (id)rk unread request fromID:%@,  /* Error: Ran out of types for this method. */;
-- (void)qð!;
-- (void)iations: /* Error: Ran out of types for this method. */;
-- (id)curve;
+- (void);
+- (id);
+- (void)layContext: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)°Êªl;
 
 // Remaining properties
 @property(nonatomic, retain) _TtC5UIKit34_UIFluidParallaxTransitionSettings *parallaxSettings; // @synthesize parallaxSettings;

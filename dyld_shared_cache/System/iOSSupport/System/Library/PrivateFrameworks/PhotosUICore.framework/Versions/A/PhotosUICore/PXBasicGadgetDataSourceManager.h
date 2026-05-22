@@ -15,9 +15,9 @@
 
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)ÿ¨JN°G7;
+- (void)'8;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *providers; // @synthesize providers=_providers;

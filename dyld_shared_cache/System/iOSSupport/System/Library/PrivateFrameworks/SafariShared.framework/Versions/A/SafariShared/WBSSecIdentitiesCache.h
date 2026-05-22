@@ -13,9 +13,9 @@
 
 - (void);
 - (struct __SecIdentity *);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void)g.plist;
 
 @end
 

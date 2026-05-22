@@ -5,6 +5,5 @@
 //
 
 @protocol AVTAvatarEditorViewControllerDelegate
-- (void);
 @end
 

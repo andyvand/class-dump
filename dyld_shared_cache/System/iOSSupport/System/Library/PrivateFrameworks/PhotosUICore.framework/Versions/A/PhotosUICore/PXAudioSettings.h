@@ -14,7 +14,7 @@
     _Bool _flexSimulateAssetFetchFailure;
 }
 
-+ (id);
++ (id))zË?;
 - (_Bool);
 - (void);
 - (void);
@@ -23,8 +23,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (void);
-- (id)rtualCollection;
 
 // Remaining properties
 @property(nonatomic) _Bool flexReturnOnlyLocalSongs; // @synthesize flexReturnOnlyLocalSongs=_flexReturnOnlyLocalSongs;

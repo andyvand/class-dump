@@ -27,9 +27,9 @@
 - (id);
 - (void);
 - (unsigned int);
-- (void);
-- (void);
 - (id);
+- (void)ionProvider customIntentMigratedActionIdentifierWithLaunchId:(id)arg1 className:] /* Error: Ran out of types for this method. */;
+- (void)Returns a list of episodes from a podcast show.;
 
 // Remaining properties
 @property(nonatomic) unsigned int actionCount; // @synthesize actionCount=_actionCount;

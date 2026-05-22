@@ -4,9 +4,9 @@
 
 class icu::StandardPlural {
 public: // (access info unavailable from symbols alone)
-    getKeyword(icu::StandardPlural::Form);
-    indexFromString(char const*, UErrorCode&);
-    indexFromString(icu::UnicodeString const&, UErrorCode&);
-    indexOrNegativeFromString(char const*);
-    indexOrNegativeFromString(icu::UnicodeString const&);
+    auto getKeyword(icu::StandardPlural::Form);
+    auto indexFromString(char const*, UErrorCode&);
+    auto indexFromString(icu::UnicodeString const&, UErrorCode&);
+    auto indexOrNegativeFromString(char const*);
+    auto indexOrNegativeFromString(icu::UnicodeString const&);
 };

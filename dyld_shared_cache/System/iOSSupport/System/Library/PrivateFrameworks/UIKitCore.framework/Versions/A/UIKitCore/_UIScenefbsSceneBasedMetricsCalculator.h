@@ -12,10 +12,11 @@ __attribute__((visibility("hidden")))
     UIWindowScene *_scene;
 }
 
-- (void);
-- (void)FromMergedActions;
-- (void)iþ!»þ;
-- (id);
+- (void)1Â0@ù
+× ;
+- (void)acity;
+- (id)Í¸Ò[;
+- (void)õÌc\;
 
 // Remaining properties
 @property(nonatomic, setter=_setScene:) __weak UIWindowScene *_scene; // @synthesize _scene;

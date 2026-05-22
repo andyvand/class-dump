@@ -4,37 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIContextMenuConfiguration, UITargetedPreview, UIWindowSceneActivationConfiguration;
+@class NSIndexPath, UICollectionViewTransitionLayout, UIContextMenuConfiguration, UITargetedPreview, UIWindowSceneActivationConfiguration;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (_Bool)´;
-- (UIContextMenuConfiguration *)ent;
-- (UITargetedPreview *)ig;
-- (void)alue;
-- (void)wz_Xx;
-- (UITargetedPreview *)þ;
-- (void);
-- (_Bool)ÿP;
-- (UITargetedPreview *)X/ýÿ,çóÿ0­ÿ<
+- (void)essColor;
+- (UITargetedPreview *)OffersEnabled;
+- (_Bool)0;
+- (UITargetedPreview *)	
+;
+- (void);
+- (void)töþÿÿÿÿ@;
+- (UICollectionViewTransitionLayout *)ìæ}þÿÿÿÿô;
+- (void)Ü÷Uþÿÿÿÿt;
+- (void);
+- (UIWindowSceneActivationConfiguration *)ïÿ0ïÿHïÿlïÿäïÿïÿ<	ïÿÄ	ïÿ
+ïÿd
+ïÿÜ
+ïÿ ïÿDïÿhïÿïÿïÿØïÿüïÿ ïÿ8ïÿPïÿïÿ ïÿ¸ïÿÐïÿèïÿ;
+- (UITargetedPreview *);
+- (void);
+- (UIContextMenuConfiguration *)theme;
+- (void)outModelSelection;
+- (NSIndexPath *)ses;
+- (_Bool)
+ÿ;
+- (_Bool)÷vY;
+- (NSIndexPath *);
+- (void)­
 ;
-- (_Bool);
-- (UIContextMenuConfiguration *);
-- (void)erty of the Article entity used in intents.;
-- (void)ed;
-- (_Bool)on. You can always change this later.;
-- (void)Ø	;
-- (void)6öÝßÌh	;
-- (void)qý;
-- (struct CGPoint)ackagesDelta;
-- (UIWindowSceneActivationConfiguration *)P;
-- (_Bool)ml¸Ë;
-- (void)üÿ;
-- (UITargetedPreview *);
-- (void)8;
-- (_Bool)³;
-- (void)8ùþÿÿÿÿ;
-- (_Bool)Ð;
+- (void)ItemTipTrait;
+- (void);
+- (_Bool)Ô|oþi
+2t·nþY
+2}oþ;
+- (_Bool)<ÿ ;
+- (UIContextMenuConfiguration *)\6;
+- (_Bool)½ô4;
+- (_Bool)Ü;
+- (NSIndexPath *)äÖg}l@ã;
+- (_Bool)ðÃg;
+- (_Bool)c@ çþ;
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol PKMetalResource
+- (_Bool)EnabledLocaleIdentifiers;
+- (void)tSupportsLassoToolEditingView: /* Error: Ran out of types for this method. */;
 @end
 

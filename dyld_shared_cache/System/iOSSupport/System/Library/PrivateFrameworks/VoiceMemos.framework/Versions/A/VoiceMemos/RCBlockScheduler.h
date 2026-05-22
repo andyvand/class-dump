@@ -23,12 +23,12 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (double);
 - (void);
 - (id);
 - (void);
-- (double);
+- (void);
+- (void);
 - (id);
 - (void);
 

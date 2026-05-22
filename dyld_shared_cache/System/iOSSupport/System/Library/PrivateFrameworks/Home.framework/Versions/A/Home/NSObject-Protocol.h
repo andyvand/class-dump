@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long);
-
-@optional
-- (NSString *)v32@0:8@"HMHome"16@"HMMediaSystem"24 /* Error: Ran out of types for this method. */;
+- (_Bool)!HCùÑá1B50@ù
+× ;
+- (struct _NSZone *)to remove all deleted users;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

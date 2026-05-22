@@ -5,6 +5,5 @@
 //
 
 @protocol DOCProtectedAppContainerCacheDelegate
-- (void);
 @end
 

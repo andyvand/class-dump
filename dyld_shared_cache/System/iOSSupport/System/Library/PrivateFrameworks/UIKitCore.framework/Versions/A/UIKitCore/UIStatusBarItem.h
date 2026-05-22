@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id)ted %@;
-+ (_Bool)enabled;
-+ (_Bool)new active list:(int)arg1 %@, against previous active list:(id *)arg2 %@;
++ (id);
++ (_Bool);
++ (_Bool);
 + (_Bool);
 - (id);
 - (long long);
 - (long long);
-- (long long)|s;
+- (long long);
 - (int);
 - (_Bool);
 - (_Bool);
@@ -30,12 +30,13 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (int);
 - (int);
-- (int)0@ù
+- (long long);
+- (id);
+- (int)¡
+ð!ÐEùQgÐ1Â0@ù
 × ;
-- (id)makeBarSwipeGestureIfNecessary;
-- (long long)${ø~TäÌ´Ä¨¼ªð¸\¹¤¹è¹Dº;
-- (int)mn:%@ /* Error: Ran out of types for this method. */;
-- (id)»iþ4ä»iþ;
+- (id);
+- (int)4(tþ{Ò©h;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *indicatorName;

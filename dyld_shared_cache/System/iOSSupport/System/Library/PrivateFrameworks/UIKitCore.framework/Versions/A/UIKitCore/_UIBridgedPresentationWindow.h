@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void)eport _PCSBackupStateDidChange;
-- (_Bool)ãÿþmÔBÏ];
+- (void);
+- (_Bool)sForFramePreferredSize(_UICollectionPreferredSize *const __strong, _UICollectionLayoutItemSolver *const __strong);
 
 // Remaining properties
 @property _Bool shouldDisableRootPresentationAppearanceCallbacks; // @synthesize shouldDisableRootPresentationAppearanceCallbacks=_shouldDisableRootPresentationAppearanceCallbacks;

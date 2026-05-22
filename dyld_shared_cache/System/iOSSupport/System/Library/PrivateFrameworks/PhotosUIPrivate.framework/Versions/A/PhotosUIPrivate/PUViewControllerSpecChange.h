@@ -26,8 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)F¨
-;
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool changed;

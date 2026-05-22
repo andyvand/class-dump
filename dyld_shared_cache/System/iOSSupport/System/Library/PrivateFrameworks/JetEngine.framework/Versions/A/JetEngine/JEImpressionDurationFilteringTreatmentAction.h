@@ -21,8 +21,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (void);
 - (id);
+- (void)^Çÿ5Ës
+4KÂÿEËs
+0KÂÿËs
+,KÂÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long durationThreshold; // @synthesize durationThreshold=_durationThreshold;

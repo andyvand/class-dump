@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     double _scale;
 }
 
-+ (id)²ÿEÎÿ=q;
-- (void);
++ (id);
 - (unsigned long long);
-- (_Bool);
-- (void)iew:(id)arg1;
-- (id);
-- (void)HÂÿ;
+- (_Bool)t:(id)arg1;
+- (void)withObject:(id)arg1 withObject: /* Error: Ran out of types for this method. */;
+- (void)"<NSObject>",&,N,V_identifier;
+- (void);
+- (id);
 
 @end
 

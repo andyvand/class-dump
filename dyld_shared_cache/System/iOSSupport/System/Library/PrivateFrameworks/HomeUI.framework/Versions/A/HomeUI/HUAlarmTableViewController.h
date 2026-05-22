@@ -51,9 +51,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id)!EùQ°1â
+0@ù
+× ;
 - (id);
-- (id);
+- (void)perThumbnail;
 
 // Remaining properties
 @property(retain, nonatomic) id addNotificationObserver; // @synthesize addNotificationObserver=_addNotificationObserver;

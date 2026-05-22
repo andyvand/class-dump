@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)ntialiasing;
-+ (id)DCBA8F7AED4F32BF8CB739573LLP;
-+ (long long);
++ (id);
++ (id)from %@ to %@ because the parent view controller of %@ could not be found.;
++ (long long)Ôf;
 
 @end
 

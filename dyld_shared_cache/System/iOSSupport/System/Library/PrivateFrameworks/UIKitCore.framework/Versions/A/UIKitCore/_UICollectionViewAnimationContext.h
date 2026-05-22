@@ -22,45 +22,47 @@ __attribute__((visibility("hidden")))
     NSArray *_currentlyVisibleItemIndexPaths;
 }
 
+- (void);
 - (id);
 - (id);
-- (struct _NSRange);
-- (id);
+- (long long);
 - (long long);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (long long);
-- (void);
 - (id);
-- (void)ìùº;
-- (id)1¢!0@ù
+- (struct _NSRange)!FùÑXÐ1Â0@ù
 × ;
-- (id)°1¢!0@ù
+- (void)ñXð1Â0@ù
 × ;
-- (void)× ;
-- (long long)Ô ;
-- (id)@ù1É°1¢!0@ù
+- (void)@ù
 × ;
-- (id)× ;
-- (id)!EùñÊð1¢!0@ù
+- (id)0@ù
 × ;
-- (id)ð1¢!0@ù
+- (id);
+- (struct _NSRange)Â0@ù
 × ;
-- (long long)1¢!0@ù
+- (long long)ù±^1Â0@ù
 × ;
-- (void)hTopCornerRadius:(id)arg1 withBottomCornerRadius: /* Error: Ran out of types for this method. */;
-- (long long)UsingScaleFactor:(long long)arg1 forTargetSize: /* Error: Ran out of types for this method. */;
-- (struct _NSRange)torStyle;
-- (void)overEnabled;
-- (id)vedContent;
-- (id)onCompletion;
-- (void)Line;
-- (long long)essTipPermittedVerticalMovement;
-- (id)lectionView.m;
+- (id)0@ù
+× ;
+- (void)
+× ;
+- (id)tion;
+- (void);
+- (id)edConfigLight;
+- (id)entHiddenManagedByLayoutArrangementCount;
+- (id)ÿÀøîÿÖúîÿ´ûîÿ;
+- (long long)ing>"8;
+- (long long)º¤þÿ¶þÿ²¤þÿRÌþÿ;
+- (id)×;
+- (void);
+- (void)TÒ];
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *animationsForOnScreenViews; // @synthesize animationsForOnScreenViews=_animationsForOnScreenViews;

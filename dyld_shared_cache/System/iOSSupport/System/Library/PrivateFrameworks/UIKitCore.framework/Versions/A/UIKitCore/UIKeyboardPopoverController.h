@@ -13,19 +13,18 @@
     UIView *_contentView;
 }
 
-- (_Bool)ndPersistIdentifier:forDomain: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long);
 - (void);
-- (void)o!Dù1Áð1¢!0@ù
-× ;
-- (void)pPath;
 - (id);
-- (id). Split view controller:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ngs.m;
+- (_Bool)ize=dd}}d@}16@0:8 /* Error: Ran out of types for this method. */;
+- (void);
+- (void)5rþ;
+- (id)ì¹(ÿêÜjk;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

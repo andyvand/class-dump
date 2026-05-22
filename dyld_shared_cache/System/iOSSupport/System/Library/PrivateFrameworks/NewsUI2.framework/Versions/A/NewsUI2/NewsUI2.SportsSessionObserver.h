@@ -14,6 +14,7 @@
     MISSING_TYPE *cloudContext;
     MISSING_TYPE *client;
     MISSING_TYPE *subscriptionController;
+    MISSING_TYPE *locationDetectionManager;
     MISSING_TYPE *syncTracker;
 }
 
@@ -22,9 +23,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 @end
 

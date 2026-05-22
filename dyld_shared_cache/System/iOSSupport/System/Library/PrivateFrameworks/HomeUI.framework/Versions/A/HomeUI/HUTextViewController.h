@@ -37,12 +37,12 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
-- (void)ìÚ¶ÿ;
+- (id);
+- (id);
+- (void)Provider;
+- (void)%@. Falling back to legacy view;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *curtainView; // @synthesize curtainView=_curtainView;

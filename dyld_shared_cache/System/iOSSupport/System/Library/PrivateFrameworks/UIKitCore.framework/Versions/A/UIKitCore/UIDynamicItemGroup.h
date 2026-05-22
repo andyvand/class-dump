@@ -13,14 +13,15 @@
     struct CGAffineTransform _transform;
 }
 
-- (struct CGRect);
-- (struct CGAffineTransform)UpdateCallback;
-- (void);
-- (void)ntBrightness;
-- (void)Ø1;
-- (id)kÍÎ·k;
-- (struct CGPoint)xDÿÊ-ËçÂl;
-- (id)âÌm;
+- (struct CGAffineTransform);
+- (id)ñ\°1Â0@ù
+× ;
+- (struct CGPoint);
+- (struct CGRect)unliftedBlurRadius;
+- (id): /* Error: Ran out of types for this method. */;
+- (void);\>ÈBWÈW|YZ;
+- (void):(struct CGPoint)arg1 unknown selectionIsKey state (;
+- (void)`h;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect bounds;

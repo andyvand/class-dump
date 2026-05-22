@@ -4,24 +4,24 @@
 
 class ctu::rest {
 public: // (access info unavailable from symbols alone)
-    asOperation(xpc::object const&);
-    asString(ctu::rest::AssertionState);
-    asString(ctu::rest::Operation);
-    convert_copy(__CFData const*&, ctu::rest::data_view const&, __CFAllocator const*);
-    createAutoReplyValue(xpc::dict const&);
-    createAutoReplyWithAction(std::__1::function<void (xpc::object)>&&);
-    createGet(xpc::object const&, xpc::object const&, xpc::object const&);
-    createNotify(xpc::object const&, xpc::object const&, xpc::object const&);
-    createPingMessage();
-    createReply(xpc::dict const&);
-    createReplyFromRequest(xpc::dict const&);
-    createReplyFromRequestWithValue(xpc::dict const&, xpc::object const&);
-    createReplyWithValue(xpc::dict const&, xpc::object const&);
-    createRestMessage(xpc::object const&, xpc::object const&, xpc::object const&, xpc::object const&);
-    getReplyValue(xpc::dict const&);
-    read_rest_value(ctu::rest::AssertionAcquireState&, xpc::object const&);
-    read_rest_value(ctu::rest::data_view&, xpc::object const&);
-    updateReplyValue(xpc::dict const&, xpc::object const&);
-    write_rest_value(ctu::rest::AssertionAcquireState const&);
-    write_rest_value(ctu::rest::data_view const&);
+    auto asOperation(xpc::object const&);
+    auto asString(ctu::rest::AssertionState);
+    auto asString(ctu::rest::Operation);
+    auto convert_copy(__CFData const*&, ctu::rest::data_view const&, __CFAllocator const*);
+    auto createAutoReplyValue(xpc::dict const&);
+    auto createAutoReplyWithAction(std::__1::function<void (xpc::object)>&&);
+    auto createGet(xpc::object const&, xpc::object const&, xpc::object const&);
+    auto createNotify(xpc::object const&, xpc::object const&, xpc::object const&);
+    auto createPingMessage();
+    auto createReply(xpc::dict const&);
+    auto createReplyFromRequest(xpc::dict const&);
+    auto createReplyFromRequestWithValue(xpc::dict const&, xpc::object const&);
+    auto createReplyWithValue(xpc::dict const&, xpc::object const&);
+    auto createRestMessage(xpc::object const&, xpc::object const&, xpc::object const&, xpc::object const&);
+    auto getReplyValue(xpc::dict const&);
+    auto read_rest_value(ctu::rest::AssertionAcquireState&, xpc::object const&);
+    auto read_rest_value(ctu::rest::data_view&, xpc::object const&);
+    auto updateReplyValue(xpc::dict const&, xpc::object const&);
+    auto write_rest_value(ctu::rest::AssertionAcquireState const&);
+    auto write_rest_value(ctu::rest::data_view const&);
 };

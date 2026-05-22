@@ -14,10 +14,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void)_isForCompany;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

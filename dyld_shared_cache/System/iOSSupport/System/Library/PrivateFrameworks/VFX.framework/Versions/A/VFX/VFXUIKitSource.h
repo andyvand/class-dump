@@ -25,8 +25,8 @@
 - (id);
 - (void);
 - (void);
-- (id);
 - (_Bool);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *uiView; // @synthesize uiView=_uiView;

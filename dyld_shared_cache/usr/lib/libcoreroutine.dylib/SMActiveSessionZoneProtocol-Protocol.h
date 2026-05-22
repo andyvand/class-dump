@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SMActiveSessionZoneObserverProtocol;
-
 @protocol SMActiveSessionZoneProtocol
 
 @optional
-- (void)tor:(id <SMActiveSessionZoneObserverProtocol>)arg1 %{public}@, uuid:%{public}@} /* Error: Ran out of types for this method. */;
+- (void)Ð¦;
 @end
 

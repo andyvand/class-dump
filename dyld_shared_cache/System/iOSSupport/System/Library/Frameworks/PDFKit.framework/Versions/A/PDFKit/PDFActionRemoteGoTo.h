@@ -14,20 +14,20 @@
 }
 
 - (id);
-- (id)@0:(unsigned long long)arg1 8@"NSCollectionView"16@"NSSet"24q32;
-- (id)ectionView"16@"NSIndexSet"24@"NSEvent"32;
-- (struct __CFDictionary *)Size=dd}}24;
-- (void)iriUINavigationController";
+- (id);
+- (id);
+- (struct __CFDictionary *);
 - (void);
-- (id)@;
-- (void);
-- (id)sURL:(struct _NSZone *)arg1;
-- (void)eraction;
 - (void);
 - (id);
-- (unsigned long long): /* Error: Ran out of types for this method. */;
-- (struct CGPoint)thProtocol: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (unsigned long long);
 - (id);
+- (id);
+- (id);
+- (struct CGPoint);
+- (void);
 - (void);
 
 // Remaining properties

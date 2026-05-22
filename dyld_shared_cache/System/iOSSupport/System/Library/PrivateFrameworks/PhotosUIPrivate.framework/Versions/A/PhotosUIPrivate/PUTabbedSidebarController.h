@@ -63,10 +63,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
 - (unsigned long long);
-- (id);
+- (id)1â
+0@ù
+× ;
+- (void)on;
+- (id)on;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXActionProviderDelegate> actionProviderDelegate; // @synthesize actionProviderDelegate=_actionProviderDelegate;

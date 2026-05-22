@@ -11,9 +11,9 @@
 
 + (_Bool);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool shouldReverseSortOrder; // @synthesize shouldReverseSortOrder;

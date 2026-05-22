@@ -109,25 +109,27 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (id)View;
-- (void)¸½þÿà`ÿÿ0uþÿ;
-- (void)nceP;
-- (struct CGPoint);
 - (struct CGSize);
 - (void);
-- (void)ÿ¼KuÿøÄo;
+- (void);
 - (id);
-- (void)W±J¿7;
-- (struct CGRect)7;
-- (void)J"6;
-- (void)ß\Oë}6;
+- (void);
+- (void);
+- (void);
+- (struct CGRect)1â
+0@ù
+× ;
+- (void);
+- (void);
+- (void)emories;
+- (struct CGPoint)oryMultipartPanoramaParameters init];
+- (void)ileTypeAXDescriptionTIFF;
+- (void)kSpecsKey;
+- (id)¥/ÊUj;
+- (id);
+- (id)ªûMT}5;
+- (long long)t7;
+- (void)H)RT?8;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType accessoryButtonAction; // @synthesize accessoryButtonAction=_accessoryButtonAction;

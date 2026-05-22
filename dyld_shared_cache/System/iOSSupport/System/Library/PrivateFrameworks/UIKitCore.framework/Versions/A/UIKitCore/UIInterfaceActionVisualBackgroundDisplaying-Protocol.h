@@ -7,14 +7,13 @@
 @class UIColor;
 
 @protocol UIInterfaceActionVisualBackgroundDisplaying
-- (void)not properly initialized, AMFDRSealingMapCopyLocalMultiCombinedDataBegin should be used;
-- (void)ions",C,N,V_options;
-- (void);
-- (void)S2;
+- (void)]¸^ `¸aÜb;
+- (void)ations;
+- (void)erStr;
 
 @optional
-- (UIColor *)handleKeyboardUIDidChange:]_block_invoke  ResignFirstResponder, due to Spotlight grab InputUI in background /* Error: Ran out of types for this method. */;
-- (void)er"8;
+- (UIColor *)ation dictionary %@;
+- (void)TFontTextStyleSubhead1;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *fillColor;

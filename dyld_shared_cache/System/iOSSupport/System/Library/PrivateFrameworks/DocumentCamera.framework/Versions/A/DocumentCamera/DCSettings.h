@@ -28,10 +28,10 @@
 - (id);
 - (_Bool);
 - (double);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool enableViewService;

@@ -5,5 +5,6 @@
 //
 
 @protocol HFCameraClipScrubbing
+- (void)x;
 @end
 

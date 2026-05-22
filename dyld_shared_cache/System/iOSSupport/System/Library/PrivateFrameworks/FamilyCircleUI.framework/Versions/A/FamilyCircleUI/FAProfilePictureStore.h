@@ -40,7 +40,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ñUð1B50@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;

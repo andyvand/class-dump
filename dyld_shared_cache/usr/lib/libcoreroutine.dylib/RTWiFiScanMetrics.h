@@ -16,9 +16,9 @@
 + (void);
 + (unsigned long long);
 + (id);
-+ (CDStruct_b8464340)andshake type:%u /* Error: Ran out of types for this method. */;
++ (CDStruct_b8464340);
 - (id);
-- (id)ayload";
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

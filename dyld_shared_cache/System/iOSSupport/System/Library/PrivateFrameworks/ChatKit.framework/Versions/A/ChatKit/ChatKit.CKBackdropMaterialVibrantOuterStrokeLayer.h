@@ -11,12 +11,12 @@
 
 - (id);
 - (id);
-- (id);
-- (long long)
-× ;
 - (void);
 - (id);
-- (void);
+- (id);
+- (void)ä
+ÿÿªäúÿ;
+- (long long)Ö1;
 
 // Remaining properties
 @property(nonatomic) long long userInterfaceStyle; // @synthesize userInterfaceStyle;

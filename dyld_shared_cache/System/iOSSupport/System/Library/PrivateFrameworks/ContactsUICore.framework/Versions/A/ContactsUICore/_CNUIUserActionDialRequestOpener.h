@@ -15,9 +15,9 @@
 + (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)ntactPropertiesByKey;
 
 // Remaining properties
 @property(readonly, nonatomic) TUCallCenter *callCenter; // @synthesize callCenter=_callCenter;

@@ -17,16 +17,17 @@ __attribute__((visibility("hidden")))
     UIView *_referenceView;
 }
 
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
+- (id);
+- (id);
 - (_Bool);
-- (void);
+- (void)Ð1Â0@ù
+× ;
+- (void)dAxesPreservingSuperviewLayoutMargins"b1"hasCustomizedDirectionalLayoutMargins"b1"hasCustomizedPrefersSideBySideTextAndSecondaryText"b1"hasCustomizedImageToTextPadding"b1"hasCustomizedTextToSecondaryTextHorizontalPadding"b1"hasCustomizedTextToSecondaryTextVerticalPadding"b1"hasCustomizedEnforcesMinimumHeight"b1"hasCustomizedAlpha"b1"isSidebarStyle"b1};
 - (_Bool);
-- (id)ipLayout: /* Error: Ran out of types for this method. */;
-- (id),N,Vm_startEdge;
+- (void)ed debug information outside block:(_Bool)arg1 %@;
+- (void)xR\;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setConfiguredFloatableView:) UIView *_configuredFloatableView; // @synthesize _configuredFloatableView;

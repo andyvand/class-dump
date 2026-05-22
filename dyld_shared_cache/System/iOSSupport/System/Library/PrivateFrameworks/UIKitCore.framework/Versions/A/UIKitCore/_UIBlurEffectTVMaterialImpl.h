@@ -11,25 +11,27 @@
 __attribute__((visibility("hidden")))
 @interface _UIBlurEffectTVMaterialImpl : _UIBlurEffectImpl
 {
+    long long _style;
     _UIBlurEffectTVRecipe *_recipe;
 }
 
-- (void);
+- (id);
+- (long long);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void)êÿ¹;
-- (long long)1¢!0@ù
+- (_Bool)
 × ;
-- (id)Appearance;
-- (void)eViewProvider:(id)arg1;
+- (_Bool)essDelay:(id)arg1;
+- (void)ansition:(id)arg1 willBeDisplayed: /* Error: Ran out of types for this method. */;
+- (id),N,V_valueLabel;
+- (void)elegate:(id)arg1 ,V__delegate;
+- (_Bool)Class %@ is missing proper implementation of drawingFindIndicator.;
+- (id)¦"°þ;
+- (void)<&;
 - (_Bool);
-- (id)irstResponder;
-- (_Bool)HostingActivationControlling>",&,N;
-- (_Bool)è8þ;
-- (id);
-- (void)ö];
-- (_Bool);
+- (void)Ha^;
+- (id)ü[Bÿ;
+- (_Bool)yÎ'd;
 
 @end
 

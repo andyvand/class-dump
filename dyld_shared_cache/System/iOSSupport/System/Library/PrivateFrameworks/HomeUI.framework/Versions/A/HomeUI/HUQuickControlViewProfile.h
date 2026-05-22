@@ -25,14 +25,14 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
-- (id);
-- (void);
 - (unsigned long long);
-- (void);
+- (unsigned long long);
+- (id);
 - (id);
 - (void);
-- (unsigned long long)r;
+- (void)vider.m;
+- (void)in selectedItems not conforming to HFActionBuilderFactory:(unsigned long long)arg1 %@;
+- (void)djÆÿfÿ03;
 
 // Remaining properties
 @property(nonatomic) unsigned long long controlSize; // @synthesize controlSize=_controlSize;

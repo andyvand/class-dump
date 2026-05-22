@@ -7,6 +7,10 @@
 @class NSDate;
 
 @protocol PXCPLMutableStatusSource
+- (void)on;
+- (void)_needsUpdateFlags;
+- (_Bool)ð
+úÿÑ;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *exitDate;

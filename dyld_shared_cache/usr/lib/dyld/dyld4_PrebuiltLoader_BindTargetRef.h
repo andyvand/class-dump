@@ -6,12 +6,12 @@ class dyld4::PrebuiltLoader::BindTargetRef {
 public: // (access info unavailable from symbols alone)
     BindTargetRef(unsigned long long);
     BindTargetRef(unsigned long long) (.cold.1);
-    absValueOrOffset() const;
-    loaderRef() const;
-    loaderRef() const (.cold.1);
-    makeAbsolute(unsigned long long);
-    offset() const;
-    value(dyld4::RuntimeState&) const;
-    value(dyld4::RuntimeState&) const (.cold.1);
-    value(dyld4::RuntimeState&) const (.cold.2);
+    auto absValueOrOffset() const;
+    auto loaderRef() const;
+    auto loaderRef() const (.cold.1);
+    auto makeAbsolute(unsigned long long);
+    auto offset() const;
+    auto value(dyld4::RuntimeState&) const;
+    auto value(dyld4::RuntimeState&) const (.cold.1);
+    auto value(dyld4::RuntimeState&) const (.cold.2);
 };

@@ -13,13 +13,13 @@
 
 - (id);
 - (void);
-- (struct CGRect);
 - (struct CGRect);
-- (void);
-- (void);
+- (struct CGRect);
 - (void);
 - (id);
 - (void);
+- (void)stItem"24B32@?<v@?B>36;
+- (void)dView;
 
 // Remaining properties
 @property(retain, nonatomic) TSDWrapPolygon *polygon; // @synthesize polygon=_polygon;

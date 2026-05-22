@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)setIsPinned: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
+- (id);
+- (void)portsPicking;
 
 @end
 

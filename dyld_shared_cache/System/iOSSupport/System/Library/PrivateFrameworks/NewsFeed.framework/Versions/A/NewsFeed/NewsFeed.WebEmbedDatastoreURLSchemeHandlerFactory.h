@@ -12,8 +12,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)á.:ðD /* Error: Ran out of types for this method. */;
 
 @end
 

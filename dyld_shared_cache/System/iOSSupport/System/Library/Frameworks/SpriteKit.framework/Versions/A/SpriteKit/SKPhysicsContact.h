@@ -15,13 +15,13 @@
     struct CGVector _contactNormal;
 }
 
-+ (id);
++ (id);
 - (struct CGVector);
 - (double);
 - (id);
 - (id);
 - (struct CGPoint);
-- (void);
+- (void)leData;
 
 // Remaining properties
 @property(readonly, nonatomic) SKPhysicsBody *bodyA; // @synthesize bodyA=_bodyA;

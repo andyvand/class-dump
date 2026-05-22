@@ -23,8 +23,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *broadcastPickerButton; // @synthesize broadcastPickerButton=_broadcastPickerButton;

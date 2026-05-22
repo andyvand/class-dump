@@ -7,7 +7,7 @@
 @protocol UIViewImplicitlyAnimating_Internal
 
 @optional
-- (_Bool)0å¨þ;
+- (_Bool)m;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _canAddAnimations;

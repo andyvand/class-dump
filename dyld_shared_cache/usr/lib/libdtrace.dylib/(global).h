@@ -5,21 +5,24 @@
 // Global C++ functions
 
 VTT for std::__1::basic_stringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
-base_dtrace_typeset();
-dt_ld_decode_string(char const*);
-dt_ld_decode_typedefs(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*);
-dt_ld_encode_string(char const*);
-dt_ld_probe_encode_typedef_iter(dt_idhash*, dt_ident*, void*);
+auto base_dtrace_typeset();
+auto dt_ld_decode_string(char const*);
+auto dt_ld_decode_typedefs(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*);
+auto dt_ld_encode_string(char const*);
+auto dt_ld_probe_encode_typedef_iter(dt_idhash*, dt_ident*, void*);
+auto is_base_dtrace_type(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>)::exclusion_types;
+auto register_offsets(dof_hdr*, int, unsigned long long*);
+auto split(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, char);
 guard variable for is_base_dtrace_type(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>)::exclusion_types;
-is_base_dtrace_type(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>)::exclusion_types;
-operator delete(void*);
-operator delete(void*, std::__type_descriptor_t);
-operator new(unsigned long, std::__type_descriptor_t);
-register_offsets(dof_hdr*, int, unsigned long long*);
-split(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, char);
+typeinfo for std::__1::__shared_ptr_pointer<char*, void (*)(void*), std::__1::allocator<char>>;
 typeinfo for std::__1::__shared_weak_count;
+typeinfo name for std::__1::__shared_ptr_pointer<char*, void (*)(void*), std::__1::allocator<char>>;
 typeinfo name for void (*)(void*);
+void * operator new(unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
+void operator delete(void*, std::__type_descriptor_t);
 vtable for __cxxabiv1::__si_class_type_info;
+vtable for std::__1::__shared_ptr_pointer<char*, void (*)(void*), std::__1::allocator<char>>;
 vtable for std::__1::basic_streambuf<char, std::__1::char_traits<char>>;
 vtable for std::__1::basic_stringbuf<char, std::__1::char_traits<char>, std::__1::allocator<char>>;
 vtable for std::__1::basic_stringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>>;

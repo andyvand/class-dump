@@ -21,14 +21,14 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (void);
 - (id);
-- (_Bool)yrvGGSyvyvGGnvG;
-- (void)|ÏÿM|ÏÿU|;
+- (void);
+- (id);
+- (void)%@;
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

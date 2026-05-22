@@ -12,13 +12,13 @@
 }
 
 + (id);
-- (void)ctsInSource;
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)èx;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *searchABPropertyTypes; // @synthesize searchABPropertyTypes=_searchABPropertyTypes;

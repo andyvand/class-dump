@@ -80,6 +80,13 @@ typedef struct {
 } CDStruct_071ac149;
 
 typedef struct {
+    long long value;
+    int timescale;
+    unsigned int flags;
+    long long epoch;
+} CDStruct_1b6d18a9;
+
+typedef struct {
     struct CLLocationCoordinate2D _field1;
     struct {
         double _field1;

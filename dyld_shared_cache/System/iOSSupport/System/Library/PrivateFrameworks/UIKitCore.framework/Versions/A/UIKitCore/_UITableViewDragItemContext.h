@@ -13,12 +13,13 @@ __attribute__((visibility("hidden")))
     NSIndexPath *_indexPath;
 }
 
-- (id):(id)arg1;
 - (id);
-- (void);
+- (id)Á°!Dù±\ð1Â0@ù
+× ;
+- (void)ButtonPressData:(id)arg1 canceled: /* Error: Ran out of types for this method. */;
+- (void)üpþ;
 - (void);
 - (id);
-- (void));
 
 // Remaining properties
 @property(retain, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;

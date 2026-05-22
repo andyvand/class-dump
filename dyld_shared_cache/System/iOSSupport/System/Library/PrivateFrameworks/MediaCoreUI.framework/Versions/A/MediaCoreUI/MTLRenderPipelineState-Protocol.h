@@ -8,13 +8,9 @@
 @protocol MTLDevice;
 
 @protocol MTLRenderPipelineState
-- (long long)ôÿ;
-- (unsigned long long)å¸ßSg;
-- (_Bool)¤
-ïÿ¤
-ïÿ­5;
-- (CDStruct_14f26992)];
-- (unsigned long long);
+- (_Bool)Ôÿ;
+- (long long)W
+8õ;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
@@ -28,9 +24,9 @@
 @property(readonly) unsigned long long meshThreadExecutionWidth;
 @property(readonly) unsigned long long objectThreadExecutionWidth;
 @property(readonly) MTLRenderPipelineReflection *reflection;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerMeshThreadgroup;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerObjectThreadgroup;
-@property(readonly) CDStruct_14f26992 requiredThreadsPerTileThreadgroup;
+@property(readonly) struct requiredThreadsPerMeshThreadgroup;
+@property(readonly) struct requiredThreadsPerObjectThreadgroup;
+@property(readonly) struct requiredThreadsPerTileThreadgroup;
 @property(readonly, nonatomic) long long shaderValidation;
 @property(readonly) _Bool supportIndirectCommandBuffers;
 @property(readonly) _Bool threadgroupSizeMatchesTileSize;

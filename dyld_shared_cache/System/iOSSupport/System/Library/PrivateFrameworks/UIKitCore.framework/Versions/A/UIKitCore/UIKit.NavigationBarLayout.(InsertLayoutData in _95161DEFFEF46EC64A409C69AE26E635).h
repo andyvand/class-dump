@@ -23,19 +23,19 @@
     MISSING_TYPE *active;
 }
 
+- (_Bool);
 - (void);
-- (void)× ;
-- (void)
+- (id);
+- (void);
+- (id);
+- (void)ñX1Â0@ù
 × ;
-- (double)0:8@"<UINamedLayerStack>"16 /* Error: Ran out of types for this method. */;
-- (id)gerIdForTouchWithIdentifier: /* Error: Ran out of types for this method. */;
-- (id)æ;
-- (_Bool);
-- (void)er as the UITargetedPreview provided with the proposedEffect when used as a custom view in a UINavigationBar or UIToolbar;
-- (_Bool)íÁ4&mþÝÁ4%mþÍÁ4`Rþ;
-- (double);
-- (void)î f;
-- (void)pï(ÿaÊØúq;
+- (void)88@0:(_Bool)arg1 8@16{CGPoint=dd}24{CGAffineTransform=dddddd}40;
+- (_Bool)entViewConfigurationForState: /* Error: Ran out of types for this method. */;
+- (double)¢Î`;
+- (void)ù»ÿ;
+- (void)äÉfþÎÎÌDÀl;
+- (double)ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool collapsible; // @synthesize collapsible=isCollapsible;

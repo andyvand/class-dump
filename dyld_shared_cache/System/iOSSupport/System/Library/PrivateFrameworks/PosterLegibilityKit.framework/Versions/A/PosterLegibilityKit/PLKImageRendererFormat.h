@@ -17,17 +17,17 @@
 + (id);
 + (id);
 + (id);
-+ (id)°!xDùq'ð1b0@ù
++ (id)0@ù
 × ;
 - (_Bool);
 - (id);
-- (id);
 - (void);
+- (id);
+- (long long);
+- (struct CGColorSpace *);
 - (id);
 - (_Bool);
 - (void);
-- (struct CGColorSpace *);
-- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;

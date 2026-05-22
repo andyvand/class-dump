@@ -15,13 +15,12 @@ __attribute__((visibility("hidden")))
     UIInputViewSetPlacement *_endPlacement;
 }
 
-+ (id)FileTransferCenter _retrieveLocalFileURLForFileTransferWithGUID:(id)arg1 options:outTransfer:outError:] /* Error: Ran out of types for this method. */;
++ (id);
+- (void);
 - (id);
-- (void)
-× ;
-- (void)er:(id)arg1;
-- (void)V_fallbackProvider;
-- (id)»ÿ,Í"l;
+- (void)kColor;
+- (id)|9_;
+- (void)h¦g;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -6,44 +6,60 @@
 
 #import <TextInputUI/TUIKeyPopupView.h>
 
+@class NSArray;
+
 @interface TUIFlickSelectorView : TUIKeyPopupView
 {
     _Bool _topRowHasTrailingAlignment;
+    _Bool _missingUpperRowVariant;
+    _Bool _is50OnLayout;
     unsigned long long _totalVariants;
     long long _flickDirection;
+    NSArray *_nonNullVariantGeometries;
 }
 
-+ (long long)æ|;
++ (long long);
 - (long long);
 - (unsigned long long);
 - (id);
 - (void);
-- (void)øPz;
-- (unsigned long long)|;
-- (_Bool){;
-- (struct UIEdgeInsets)öz;
-- (void);
 - (void);
-- (id);
 - (unsigned long long);
+- (_Bool);
+- (struct UIEdgeInsets);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (double)y;
-- (unsigned long long)Ï;
+- (id);
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (id);
+- (double);
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (double);
 - (id);
 - (id);
-- (id);
 - (id);
-- (void);
+- (id);
+- (void);
 - (_Bool);
+- (void);
 - (long long);
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long flickDirection; // @synthesize flickDirection=_flickDirection;
 @property(readonly, nonatomic) double flickPopupOffset;
+@property(nonatomic) _Bool is50OnLayout; // @synthesize is50OnLayout=_is50OnLayout;
+@property(nonatomic) _Bool missingUpperRowVariant; // @synthesize missingUpperRowVariant=_missingUpperRowVariant;
+@property(retain, nonatomic) NSArray *nonNullVariantGeometries; // @synthesize nonNullVariantGeometries=_nonNullVariantGeometries;
 @property(nonatomic) _Bool topRowHasTrailingAlignment; // @synthesize topRowHasTrailingAlignment=_topRowHasTrailingAlignment;
 @property(nonatomic) unsigned long long totalVariants; // @synthesize totalVariants=_totalVariants;
 

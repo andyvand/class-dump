@@ -16,29 +16,29 @@
     CKAvatarView *_avatarView;
 }
 
-+ (id)nversationFooterActions: /* Error: Ran out of types for this method. */;
-- (void)"<ICSectionIdentifier>",R,N,V_sectionIdentifier;
-- (void)anner;
-- (void);
-- (_Bool);
++ (id)sationList;
 - (void);
-- (double)lver;
 - (void);
-- (void)ustomPasswordButton;
-- (id);
 - (void);
 - (_Bool);
-- (void)=;
 - (void);
-- (id);
+- (double);
+- (void);
+- (void);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)SfGG;
-- (void)8Uýÿ_ë­Qo_òO­ydï­GGGG_Rê­Qo__Qo_î=­G°J­y26­yAAyÁe­lY­yÒTýÿGGGGG´W­yAYTõ=SQ12CoreGraphicsyHCg0_GG;
-- (_Bool)ð?333333ã?;
-- (id)Øæ1mÌ/;
+- (id);
+- (id)URL:(long long)arg1 options:(id)arg2;
+- (_Bool)$¨ÿ;
+- (void)xÿÿÿuh1¤ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;

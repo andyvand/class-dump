@@ -20,11 +20,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSURL *archiveBaseURL; // @synthesize archiveBaseURL=_archiveBaseURL;

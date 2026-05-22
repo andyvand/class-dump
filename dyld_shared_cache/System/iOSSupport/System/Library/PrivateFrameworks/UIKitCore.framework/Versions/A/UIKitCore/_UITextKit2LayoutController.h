@@ -21,106 +21,106 @@
     _Bool _drawsDebugBaselines;
 }
 
-+ (_Bool)leViewDidInvalidateIntrinsicContentSize: /* Error: Ran out of types for this method. */;
-- (struct _NSRange);
-- (id);
++ (_Bool);
 - (void);
 - (id);
-- (struct _NSRange)r:(unsigned long long)arg1 dynamicLinkingDescriptor:(long long)arg2 compilerTaskOptions:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (_Bool);
 - (void);
+- (void);
+- (double);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (double);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (struct CGRect);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (struct CGRect);
+- (void);
+- (void);
+- (id);
+- (struct CGRect);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)1Â0@ù
+× ;
+- (id)Q\°1Â0@ù
+× ;
+- (struct CGRect)
+× ;
+- (id)Áð!$Eùq_ð1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (id)1Â0@ù
+× ;
+- (void)vailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
+- (id)ry";
+- (id)Point=dd}{CGSize=dd}}16o^B48;
+- (void)LayoutDirection;
+- (long long)pportsEdgeAttachedForTraitCollection:(id)arg1;
+- (id)tSearchDocument;
+- (void)ant: /* Error: Ran out of types for this method. */;
+- (id)Item:(id)arg1 userInterfaceStyle:(long long)arg2;
+- (id)RemoveSelectionController;
+- (id)rHeightInOrientation:(id)arg1;
+- (struct CGRect)inerAllowsSelectionTintOnly;
+- (void)ent;
+- (void)ntainedIn:(_Bool)arg1;
+- (void)aintsForInterfaceOrientationAndStatusBarHeight;
+- (id)erHeight;
+- (void)arginsDescription;
+- (id)e,V_shadowVisible;
+- (struct _NSRange)ch",&,N,V_switchControl;
+- (struct _NSRange)me:(id)arg1 toLayerOfView:(_Bool)arg2;
+- (struct CGRect);
+- (id);
+- (id);
+- (id)assertions are disabled for this process.;
+- (id)ge while showing original. %@;
+- (struct CGRect)Responder, useKeyboard ivs:%@ /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (void)econdItemHitTestExtension;
+- (_Bool)sUITextAttribute;
+- (struct _NSRange)t - %@;
+- (void);
+- (void)e a invalidation for an already deferred invalidation context. Collection View:(_Bool)arg1 %@, Layout:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id)elegateP;
+- (id))º/3yN¾7f¾7G;
+- (void)>03yÏ¾7^â¾7G;
+- (long long)teractionCSgG;
+- (long long)meworks/CloudKit.framework/CloudKit;
+- (void);
+- (_Bool)p;
 - (long long);
-- (id);
-- (void);
-- (void)ns:(struct CGRect)arg1;
-- (id)in;
-- (double)P;
-- (void);
-- (id)ʡ;
+- (id)lîr,$oþ0oþp½R0;
+- (id)Configuration;
+- (id)@Õwþ;
 - (id);
-- (double)bytes.;
-- (struct CGRect);
+- (void)[;
+- (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void)tionQueue",R,N,V_queue;
-- (id)ons;
-- (void)ShareURL;
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id)â|¬;
-- (struct CGRect);
-- (id)¡pÐ!(EùqÃð1¢!0@ù
-× ;
-- (id)GùÈ°1¢!0@ù
-× ;
-- (void)É°1¢!0@ù
-× ;
-- (id);
-- (_Bool)0@ù
-× ;
-- (struct CGRect)ù
-× ;
-- (void)";
-- (id)MenuSystem"16@0:(id)arg1 8;
-- (id)ginEditing:(struct _NSRange)arg1 inFrame: /* Error: Ran out of types for this method. */;
-- (void)etWindowIsFullscreen:(id)arg1;
-- (void)ightSplitFrame:(id)arg1;
-- (void)validated:(id)arg1;
-- (void)xt;
-- (void)teSelectionViewHighlightState;
-- (id)ateInternalConfigurationProperties;
-- (id)orOrthogonalScrollingOffset:(id)arg1;
-- (void)ataSourceAnimated:(id)arg1;
-- (struct _NSRange)ration:(id)arg1 alignUsingBaselines:(_Bool)arg2;
-- (id)berOfRowsInComponent:(id)arg1;
-- (id)eNavigationBar;
-- (void)tContentOffset;
-- (id)ormalizedForceVelocity;
-- (struct CGRect)suppressJiggleAnimation;
-- (void)izer",&,N,V_selectionGestureRecognizer;
-- (_Bool)N,V_responseSubject;
-- (struct CGRect);
-- (id);
-- (void)Ë;
-- (long long)Ll;
-- (id)ents:(id)arg1 beginning gestureRecognizerToQuery:%@ /* Error: Ran out of types for this method. */;
-- (struct CGRect);
-- (id)l·þÿè/ûÿ;
-- (void)ÄQüÿþÿ;
-- (id);
-- (id)ct;
-- (id)em color name of a color once, but attempting to change %@ from %@ to %@;
-- (_Bool)cusAnimationCoordinatorManager.m;
-- (id)ot be called with `nil`.;
-- (long long)ets indexesForElementKind:(id)arg1 ];
-- (id)re_Internal._UITabMorphTransition;
-- (id)edAmbiguity;
-- (id)layer requested by augmented title view: /* Error: Ran out of types for this method. */;
-- (struct CGRect)0@0:(struct _NSRange)arg1 8@16{CGPoint=dd}24;
-- (long long)×£Ð?q=
-×£pÍ?ffffffÖ?Év¾/Í?ffffffÖ?¸ëQ¸¾¿¿Év¾/½?Ñ"Ûù~j¼?#Ûù~j¼´?¬Zd;¯?ªñÒMbÈ?R¸ëQ¸?;
-- (id)<fþ;
-- (void);
-- (id)|þÙ;
-- (id);
-- (void);
-- (_Bool);
-- (void)t7;
-- (id)'t;
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *beginningOfDocument;

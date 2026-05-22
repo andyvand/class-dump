@@ -6,7 +6,7 @@
 
 #import <PromotedContent/APPCBaseContext.h>
 
-@class MISSING_TYPE, NSDate, NSString;
+@class MISSING_TYPE;
 
 @interface APPCContext : APPCBaseContext
 {
@@ -20,20 +20,20 @@
     MISSING_TYPE *newsContext;
     MISSING_TYPE *appStoreContext;
     MISSING_TYPE *contextQueue;
-    void prefetchTimestamp;
+    MISSING_TYPE *prefetchTimestamp;
     MISSING_TYPE *limit;
     MISSING_TYPE *fetchingLock;
     MISSING_TYPE *fetching;
     MISSING_TYPE *waitingLock;
     MISSING_TYPE *waiting;
     MISSING_TYPE *prefetchLock;
+    MISSING_TYPE *vendedModalAd;
+    MISSING_TYPE *vendedSponsorshipAd;
     MISSING_TYPE *newContentArrivedHandlers;
 }
 
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *debugDescription;
 @property(nonatomic, readonly) long long hash;
-@property(nonatomic, copy) NSDate *prefetchTimestamp;
 @end
 

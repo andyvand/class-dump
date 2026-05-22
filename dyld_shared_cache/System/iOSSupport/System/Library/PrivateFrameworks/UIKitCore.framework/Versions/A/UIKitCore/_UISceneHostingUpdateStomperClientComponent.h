@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void)e:(id)arg1 replacementString:(id)arg2 completion: /* Error: Ran out of types for this method. */;
+- (void)ickerRemoteViewController;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

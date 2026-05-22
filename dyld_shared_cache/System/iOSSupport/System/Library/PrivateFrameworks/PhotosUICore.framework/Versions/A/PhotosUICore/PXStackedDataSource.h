@@ -16,10 +16,12 @@
 - (id);
 - (long long);
 - (id);
-- (void);
 - (id);
-- (long long);
-- (long long)ate new];
+- (long long)Áû!°AùñHð1â
+0@ù
+× ;
+- (long long)alysis;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *dataSections; // @synthesize dataSections=_dataSections;

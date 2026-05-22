@@ -14,10 +14,10 @@
 }
 
 - (void);
-- (id);
+- (long long);
 - (void);
 - (id);
-- (long long);
+- (id);
 - (void);
 - (void);
 

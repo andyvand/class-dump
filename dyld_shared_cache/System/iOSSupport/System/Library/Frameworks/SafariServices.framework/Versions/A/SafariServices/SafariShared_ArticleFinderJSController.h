@@ -4,12 +4,12 @@
 
 class SafariShared::ArticleFinderJSController {
 public: // (access info unavailable from symbols alone)
-    articleContent();
-    collectReadingListItemInformation();
-    detectAvailabilityForUIProcessDrivenCheck();
-    scriptObjectName();
-    setConfigurationForTesting(NSDictionary*);
-    staticFunctions();
-    staticJSClass();
-    staticValues();
+    auto articleContent();
+    auto collectReadingListItemInformation();
+    auto detectAvailabilityForUIProcessDrivenCheck();
+    auto scriptObjectName();
+    auto setConfigurationForTesting(NSDictionary*);
+    auto staticFunctions();
+    auto staticJSClass();
+    auto staticValues();
 };

@@ -22,9 +22,9 @@
 - (void);
 - (void);
 - (struct CGSize);
+- (struct CGSize);
 - (id);
 - (void);
-- (struct CGSize);
 
 // Remaining properties
 @property(copy, nonatomic) PXGridLayoutMetrics *metrics; // @dynamic metrics;

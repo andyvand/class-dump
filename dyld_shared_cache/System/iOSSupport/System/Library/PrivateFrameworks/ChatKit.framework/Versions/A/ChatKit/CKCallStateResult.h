@@ -18,8 +18,8 @@
 - (void);
 - (void);
 - (void);
-- (void)k;
-- (_Bool)lock_invoke;
+- (void);
+- (_Bool);
 - (long long);
 - (void);
 - (long long);

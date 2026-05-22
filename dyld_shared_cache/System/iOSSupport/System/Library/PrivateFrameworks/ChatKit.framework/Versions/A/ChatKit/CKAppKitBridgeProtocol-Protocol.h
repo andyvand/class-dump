@@ -4,27 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol CKAppKitBridgeProtocol
-+ (_Bool);
-+ (_Bool)¬;
-+ (_Bool)0-sô;
-+ (void)Cpô;
-+ (void)í;
-+ (void);
-+ (void)UpWithContentView:(_Bool)arg1;
-+ (void)ilableForAccount:(_Bool)arg1;
-+ (_Bool)ltFormattingStyle;
-+ (double)@"NSMutableArray",&,N,V_ownedSharedRootObjectsInSource;
-+ (void)lected;
-+ (void)pAfterEditing;
-+ (NSString *)ew;
-+ (void)o;
-+ (_Bool);
-+ (void)c_preferredFontForSubheadingTextWithContentSizeCategory:(NSString *)arg1 isForPrint:(_Bool)arg2 ];
-- (void);
-- (void)idth:(id)arg1;
-- (void)alue:(id)arg1;
 @end
 

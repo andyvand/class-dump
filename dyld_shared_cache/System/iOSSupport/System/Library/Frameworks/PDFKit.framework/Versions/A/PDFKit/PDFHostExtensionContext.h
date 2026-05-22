@@ -17,7 +17,7 @@
 - (oneway void);
 - (void);
 - (id);
-- (void)ing>",W,N,V_palettePopoverPresenting;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

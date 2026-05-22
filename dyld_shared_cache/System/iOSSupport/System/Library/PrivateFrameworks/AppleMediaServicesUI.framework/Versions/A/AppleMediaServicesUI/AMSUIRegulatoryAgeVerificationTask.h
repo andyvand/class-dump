@@ -12,16 +12,16 @@
     void userInfo;
 }
 
-+ (id)a¢7yAAy¨¡77yý7SgGGÔ17G>7GANG_Qo__9Qo_GGö7y7yAAy¡77yh];
-+ (id)ientInfo;
-+ (id)êÿ¬[;
++ (id);
++ (id)XpG;
++ (id)e;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)GUª9GACtGG;
+- (void)thPromiseBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, copy) NSDictionary *userInfo;

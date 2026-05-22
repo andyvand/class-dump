@@ -5,7 +5,5 @@
 //
 
 @protocol SWDocumentStateReporting
-- (void);
-- (void);
 @end
 

@@ -4,11 +4,11 @@
 
 class icu::number::impl::ConstantMultiFieldModifier {
 public: // (access info unavailable from symbols alone)
-    apply(icu::FormattedStringBuilder&, int, int, UErrorCode&) const;
-    containsField(icu::FormattedStringBuilder::Field) const;
-    getCodePointCount() const;
-    getParameters(icu::number::impl::Modifier::Parameters&) const;
-    getPrefixLength() const;
-    isStrong() const;
-    strictEquals(icu::number::impl::Modifier const&) const;
+    auto apply(icu::FormattedStringBuilder&, int, int, UErrorCode&) const;
+    auto containsField(icu::FormattedStringBuilder::Field) const;
+    auto getCodePointCount() const;
+    auto getParameters(icu::number::impl::Modifier::Parameters&) const;
+    auto getPrefixLength() const;
+    auto isStrong() const;
+    auto strictEquals(icu::number::impl::Modifier const&) const;
 };

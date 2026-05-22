@@ -20,32 +20,34 @@
     id <GEOMapItem> _geoMapItem;
 }
 
-+ (_Bool)ate,%{public}@,startDateWithoutBoundsCheck,%{public}@,startDateForFetchInterval,%{public}@,fetchInterval,%{public}@,endDate,%{public}@,endDateForFetchInterval,%{public}@;
-- (void);
-- (void);
-- (void);
-- (id)ctionOverrideNamedDelegatePort;
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id)e_SessionInfoKey - Couldn't decode NSData %@ (error:%@) /* Error: Ran out of types for this method. */;
-- (id);
-- (void);
-- (id)in;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
+- (long long);
+- (void);
 - (void);
 - (id);
-- (long long)1_,1¢!0@ù
+- (void);
+- (id);
+- (void)@ù
 × ;
-- (void)hDaemonStartDate:(id)arg1 ];
-- (void)ated;
+- (unsigned long long)Ð1Â0@ù
+× ;
+- (void)s:(id)arg1;
+- (void)essionManager:(id)arg1;
+- (id)y:store: /* Error: Ran out of types for this method. */;
+- (id)pMonitoringScenarioTriggerOfType: /* Error: Ran out of types for this method. */;
+- (id)tOfTraversal;
+- (void)onciliationModels;
+- (void)8z°{
+t|};
+- (id);
+- (unsigned long long), sessionErrorDomain, %@, sessionErrorCode, %ld;
+- (void)r not satisfying:pDate /* Error: Ran out of types for this method. */;
+- (id), %@;
+- (void)Í;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *customLabel; // @synthesize customLabel=_customLabel;

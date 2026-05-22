@@ -21,13 +21,13 @@
 - (oneway void);
 - (oneway void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)ion initWithCoder:] titleContentStyle deserialization failed with error:%{public}@, falling back to defaultTitleContentStyle for %{public}@:%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -32,11 +32,11 @@
 - (id);
 - (long long);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void)pÉÊo0ÌpØÌqèÍrtÏs Ð;
 
 // Remaining properties
 @property(copy, nonatomic) HMHomeManagerConfiguration *configuration; // @synthesize configuration=_configuration;

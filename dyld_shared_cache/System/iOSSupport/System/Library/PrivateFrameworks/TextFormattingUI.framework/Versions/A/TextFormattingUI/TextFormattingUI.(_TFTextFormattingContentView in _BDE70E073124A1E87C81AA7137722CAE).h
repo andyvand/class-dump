@@ -12,11 +12,11 @@
     MISSING_TYPE *$__lazy_storage_$_childView;
 }
 
+- (id);
 - (struct CGSize);
 - (id);
-- (void);
-- (id);
 - (struct UIEdgeInsets);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

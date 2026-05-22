@@ -25,11 +25,11 @@ __attribute__((visibility("hidden")))
     _Bool _shouldReset;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void)1IÉd3ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) FMSong *song; // @synthesize song=_song;

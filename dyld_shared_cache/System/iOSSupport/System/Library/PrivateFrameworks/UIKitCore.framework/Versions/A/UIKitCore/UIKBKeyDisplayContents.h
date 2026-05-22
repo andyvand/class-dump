@@ -25,43 +25,41 @@
     UIImage *_displayImage;
 }
 
-+ (id)oreThreshold:errorOut:verbose: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool);
-- (void)laceObjectAtIndex:(id)arg1 withObject: /* Error: Ran out of types for this method. */;
++ (id)ô©«Ô«h®ô®¯¨¶¿¬ÀÜÃÐÅ$ÇHÇ4ÌXÍÌÙìèëí¸íî0óó;
 - (_Bool);
 - (id);
-- (id) þ¹;
-- (void)1¢!0@ù
-× ;
-- (void)HEùÑÂÐ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (void)ñÆð1¢!0@ù
-× ;
-- (id)umentRect: /* Error: Ran out of types for this method. */;
-- (void)ousScrollCompatibleWithScrollInDirection:(id)arg1;
-- (id)ing;
-- (id)WithOccurrence: /* Error: Ran out of types for this method. */;
-- (long long)lutionSpacing:repeatAxis: /* Error: Ran out of types for this method. */;
-- (void)stPossiblePublicStates;
-- (id)eractionBehavior>",R,N,V_interactionBehavior;
-- (id)utton",&,N,V_deleteButton;
-- (void);
-- (void)` L!;
-- (void)es with nil engine. Affected view:(_Bool)arg1 %@;
-- (void)tageIOHIDEvent;
-- (_Bool)r provided>;
-- (_Bool)ndidateBarBlueText;
-- (void)?0@"NSProgress"8;
-- (void).png;
-- (void)t ;
-- (void);
-- (void)yàÿ;
+- (void);
 - (id);
-- (id)÷¶ÿ?Ù)¬h;
-- (id)0l;
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (_Bool)´Cù1Y1Â0@ù
+× ;
+- (_Bool)Â0@ù
+× ;
+- (void)Error"32;
+- (_Bool)tsFocusDeferralIfSupported;
+- (void)edIndexPathForItemAtGlobalIndex:(_Bool)arg1;
+- (void)rts:(id)arg1;
+- (void)resenting;
+- (long long)LForIdentifier: /* Error: Ran out of types for this method. */;
+- (void)AnimationsByDecomposingGeometricTypes:(_Bool)arg1 animations: /* Error: Ran out of types for this method. */;
+- (_Bool)lyChangesBlock: /* Error: Ran out of types for this method. */;
+- (void)orItem:(id)arg1;
+- (id);
+- (void)mation;
+- (void)o¹;
+- (void);
+- (void)þ¤L;
+- (void)*ÐÛ,!g;
+- (id);
+- (void)1ÿaÀÚ l;
+- (void)TÿiÒè"l;
+- (id)Sû;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *bundlePathOverride; // @synthesize bundlePathOverride=_bundlePathOverride;

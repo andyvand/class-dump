@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlayerCommandRequest, NSArray;
+@class NSArray;
 
 @protocol MPCPlayerResetTracklistCommand
-- (NSArray *)T#,R;
-- (MPCPlayerCommandRequest *);
-- (MPCPlayerCommandRequest *)count:inStore: /* Error: Ran out of types for this method. */;
-- (MPCPlayerCommandRequest *)e: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *specializedIntents;

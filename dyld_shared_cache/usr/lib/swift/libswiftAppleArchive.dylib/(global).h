@@ -4,11 +4,11 @@
 
 // Global C++ functions
 
-AEAContextGetChecksumMode(AEAContext_impl*);
-AEAContextGetCompressionAlgorithm(AEAContext_impl*);
-AEAContextGetCompressionBlockSize(AEAContext_impl*);
-AEAContextGetPaddingSize(AEAContext_impl*);
-AEAContextSetChecksumMode(AEAContext_impl*, unsigned int);
-AEAContextSetCompressionAlgorithm(AEAContext_impl*, unsigned int);
-AEAContextSetCompressionBlockSize(AEAContext_impl*, unsigned long);
-AEAContextSetPaddingSize(AEAContext_impl*, unsigned long long);
+auto AEAContextGetChecksumMode(AEAContext_impl*);
+auto AEAContextGetCompressionAlgorithm(AEAContext_impl*);
+auto AEAContextGetCompressionBlockSize(AEAContext_impl*);
+auto AEAContextGetPaddingSize(AEAContext_impl*);
+auto AEAContextSetChecksumMode(AEAContext_impl*, unsigned int);
+auto AEAContextSetCompressionAlgorithm(AEAContext_impl*, unsigned int);
+auto AEAContextSetCompressionBlockSize(AEAContext_impl*, unsigned long);
+auto AEAContextSetPaddingSize(AEAContext_impl*, unsigned long long);

@@ -97,9 +97,9 @@
 - (void);
 - (void);
 - (_Bool);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
 - (void);
 
 // Remaining properties

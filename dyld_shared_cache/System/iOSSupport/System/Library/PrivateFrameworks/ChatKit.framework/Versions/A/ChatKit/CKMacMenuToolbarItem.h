@@ -13,11 +13,11 @@
     UIMenu *_menu;
 }
 
-- (id)ng;
-- (id)n not needed — succeeding;
 - (id);
-- (void);
-- (void);
+- (id);
+- (void)´µ;
+- (void);
+- (id)k¸Ö;
 
 // Remaining properties
 @property(retain, nonatomic) UIMenu *menu; // @synthesize menu=_menu;

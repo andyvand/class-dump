@@ -13,7 +13,7 @@
 - (id);
 - (Class);
 - (_Bool);
-- (_Bool)=%u, synthetic=%u, events=%u, touches=%u, mode=%u, event=%s;
+- (_Bool)ÔÔÉ_;
 
 @end
 

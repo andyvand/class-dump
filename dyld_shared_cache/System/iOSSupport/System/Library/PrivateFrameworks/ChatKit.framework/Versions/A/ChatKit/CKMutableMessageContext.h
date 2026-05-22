@@ -12,8 +12,8 @@
 {
 }
 
-- (void)olor;
-- (void),&,N,V_metadata;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);

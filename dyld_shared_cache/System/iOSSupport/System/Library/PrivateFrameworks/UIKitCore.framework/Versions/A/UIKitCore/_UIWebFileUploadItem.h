@@ -13,11 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)SSING__;
-- (_Bool)usBar;
-- (id)ontinuousEvaluation:(id)arg1;
-- (id)s;
-- (id)>v(­ÍÀEïÔÓz@á)äJ=ò?;
+- (_Bool);
+- (void)
+× ;
+- (id)Qb°1Â0@ù
+× ;
+- (id)iss;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;

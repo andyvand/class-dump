@@ -15,15 +15,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (shared_ptr_adb8dc16);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ataPoints;
-- (void);
-- (void);
+- (void)2StaticLoggerEE3$_2FNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEiEEE;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

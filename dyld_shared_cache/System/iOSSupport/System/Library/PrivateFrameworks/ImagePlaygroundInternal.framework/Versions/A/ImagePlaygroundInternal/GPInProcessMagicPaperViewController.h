@@ -26,16 +26,16 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <GPInProcessMagicPaperViewControllerDelegate> delegate; // @synthesize delegate;

@@ -19,21 +19,22 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (_Bool);
-- (_Bool)ReachabilityRelayWithRequestID: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool)%@;
-- (id)e zip file for QuickSwitch;
+- (id);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (id)rebaseIndexPaths:withTranslator: /* Error: Ran out of types for this method. */;
-- (id)View;
-- (void)tring *__strong, __strong UIStateRestorationRestoreStateBeginHandler);
+- (_Bool);
 - (id);
-- (_Bool)|²þ;
+- (id);
+- (id);
+- (void)
+× ;
+- (void)#ÖTm[;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIHostedFocusSystemDelegate> delegate;

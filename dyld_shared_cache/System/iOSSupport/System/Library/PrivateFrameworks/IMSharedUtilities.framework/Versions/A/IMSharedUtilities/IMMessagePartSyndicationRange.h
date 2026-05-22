@@ -21,10 +21,9 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (id);
 + (unsigned long long);
-+ (id);
 + (id);
 + (id);
 + (id);
@@ -36,7 +35,8 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)or_Impl;
++ (id);
++ (_Bool);
 - (id);
 - (unsigned long long);
 - (id);
@@ -49,13 +49,13 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
+- (void)rror;
 
 // Remaining properties
 @property(readonly, nonatomic) IMMessagePartSyndicationAssetDescriptor *assetDescriptor; // @synthesize assetDescriptor=_assetDescriptor;

@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (int)Provider;
+- (int);
+- (void)DragSession>"24;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXLayoutInvalidator> invalidator; // @synthesize invalidator=_invalidator;

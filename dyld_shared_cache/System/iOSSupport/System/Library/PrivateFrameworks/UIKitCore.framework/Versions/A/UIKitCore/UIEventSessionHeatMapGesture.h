@@ -16,20 +16,19 @@ __attribute__((visibility("hidden")))
     long long _magicKeyboardState;
 }
 
-- (long long)rAccount: /* Error: Ran out of types for this method. */;
-- (long long)ressForTransferGUID:allowCreate:path: /* Error: Ran out of types for this method. */;
-- (void)Chat:(long long)arg1;
-- (void)idFormatSpecifiers:(long long)arg1 error: /* Error: Ran out of types for this method. */;
+- (long long);
+- (long long);
+- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (long long)not able to initialize from transfer file URL:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)the purgeable flags;
+- (long long);
+- (_Bool);
 - (void);
-- (id)�;
-- (void)0@ù
-× ;
+- (id)Locked"b1};
+- (void)`Ì$Gh;
 
 // Remaining properties
 @property(nonatomic) long long hardwareKeyboardState; // @synthesize hardwareKeyboardState=_hardwareKeyboardState;

@@ -20,12 +20,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (id)@;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)lockingPolicy:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *recentRecommendations;

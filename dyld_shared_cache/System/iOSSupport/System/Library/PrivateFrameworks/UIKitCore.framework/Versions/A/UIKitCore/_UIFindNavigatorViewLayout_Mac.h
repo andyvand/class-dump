@@ -31,11 +31,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (struct CGSize);
+- (id);
 - (void);
+- (struct CGSize)Ôa°!PDù1dð1Â0@ù
+× ;
+- (id)ck;
 - (void);
-- (id)6 ÿÿ øýÿøýÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UISegmentedControl *nextPreviousSegmentedControl; // @synthesize nextPreviousSegmentedControl=_nextPreviousSegmentedControl;

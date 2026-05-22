@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (int)SXQuickLookEventHandler>",R,N,V_eventHandler;
+- (int);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

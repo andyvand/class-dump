@@ -24,29 +24,27 @@
     long long _switchStyle;
 }
 
++ (void);
++ (id)alEdgeInsets=dddd}24{NSDirectionalEdgeInsets=dddd}56{NSDirectionalEdgeInsets=dddd}88{NSDirectionalEdgeInsets=dddd}120{NSDirectionalEdgeInsets=dddd}152;
++ (void)s;
++ (_Bool)ildMenuWithBuilder:fromResponderChain:atLocation:inCoordinateSpace: /* Error: Ran out of types for this method. */;
 + (id);
-+ (void)0@ù
-× ;
-+ (void)0@ù
-× ;
-+ (_Bool)24;
-+ (id)tingToolsAnimatedLayoutInfo;
 - (void);
 - (long long);
-- (void)@0:(_Bool)arg1 8@"TUConversationManager"16@"<TUScreenShareAttributes>"24B32;
-- (_Bool)er:(struct CGPoint)arg1 environment: /* Error: Ran out of types for this method. */;
-- (id)unch;
-- (_Bool)ubscriptionValidationTokenWithBlastDoorMessage: /* Error: Ran out of types for this method. */;
-- (unsigned long long);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
-- (void)to get full path to attachments with "/private" in path, falling back to .resolvingSymLinksInPath;
-- (void)ed:(_Bool)arg1 %@;
-- (void)messages delete date:(id)arg1 %@;
-- (void)with GUID %@: /* Error: Ran out of types for this method. */;
-- (_Bool)laboration Notices through Blastdoor;
-- (id)for hevc+alpha;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
 - (_Bool);
 - (void);
 - (void);
@@ -54,51 +52,50 @@
 - (void);
 - (id);
 - (struct CGPoint);
-- (void);
-- (id);
-- (struct CGSize);
-- (void)y:(id)arg1 withOnDemandRules:withDisconnectOnIdle:withDisconnectOnIdleTimer: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void)er:(long long)arg1;
-- (id)ownloadable__MAPPING_MISSING__;
-- (void);
-- (void);
-- (id)%;
 - (long long);
-- (void);
-- (id)árÐ! DùqÆð1¢!0@ù
-× ;
-- (void)
-× ;
-- (long long)ÑÎð1¢!0@ù
-× ;
-- (void)pDisplayCount:(id)arg1 dictationTipKey: /* Error: Ran out of types for this method. */;
-- (id)tReadonlyAndUnselectableWithFrame:textContainer: /* Error: Ran out of types for this method. */;
-- (void)imageToTextPadding:(id)arg1;
-- (id)ersistenceIdentifier: /* Error: Ran out of types for this method. */;
-- (void)ation;
-- (id)llAccessoryManager;
-- (unsigned long long)Ð­;
-- (void);
-- (id)vent:]  Request scene focus:%d; keyboardOnScreen:%d; wantsKeyboard:%d; touchIsPointer:%d; for scene identity or identifier:%@ /* Error: Ran out of types for this method. */;
-- (void)plicationLaunchEndSignpostsExtended even though we didn't opt-in to AppKit's extended app launch reporting.;
-- (struct UIEdgeInsets)distributing;
-- (id)rred:(struct CGRect)arg1 textLength:atLocation:] /* Error: Ran out of types for this method. */;
-- (void)Ö?¸ëQ¸¾¿¿Év¾/½?Ñ"Ûù~j¼?#Ûù~j¼´?¬Zd;¯?ªñÒMbÈ?R¸ëQ¸?;
 - (void);
-- (struct CGSize)I_;
-- (_Bool)BT`;
 - (void);
-- (struct CGSize)Ì¸f;
-- (void)_g;
+- (void);
+- (void);
+- (void);
+- (struct CGSize);
 - (id);
+- (long long);
+- (id);
+- (void);
+- (id)qZÐ1Â0@ù
+× ;
+- (struct CGSize)e1Â0@ù
+× ;
+- (void)=dd}48@0:(_Bool)arg1 8@16{CGPoint=dd}24@40;
+- (id)0:8@"NSString"16 /* Error: Ran out of types for this method. */;
+- (void)ups;
+- (void)fierDiffer:(id)arg1;
+- (void)te;
+- (_Bool)gAmount: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)Attached:(struct CGRect)arg1;
+- (id)nizers;
+- (void)p;
+- (void)°x;
+- (struct CGSize)debugging overlay enabled via -%s launch argument.;
+- (void)ôîÿ;
+- (id)angeNotification;
+- (id)ndGradientStart;
+- (void)_UITransitionOverlayViewCSgXw;
+- (id)SliderInteractionUpdateCSg;
+- (void)CellConfigurationDragState;
+- (id);
+- (_Bool)\^;
+- (void)O;
+- (void)d;
+- (struct UIEdgeInsets)AÓxÊd;
+- (void);
+- (unsigned long long)hf;
+- (_Bool)lah;
+- (void)èÐÌxk;
+- (id)i;
+- (void)ôÌaþ¨;
 
 // Remaining properties
 @property(nonatomic, getter=_alwaysShowOnOffLabel, setter=_setAlwaysShowsOnOffLabel:) _Bool alwaysShowOnOffLabel; // @synthesize alwaysShowOnOffLabel=_alwaysShowOnOffLabel;

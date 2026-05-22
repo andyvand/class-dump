@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (id)¨D½ÿ;
+- (id)V_people;
 
 @end
 

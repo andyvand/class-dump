@@ -15,7 +15,7 @@
 + (struct CGSize);
 + (_Bool);
 + (_Bool);
-+ (id)etDelaysContentTouches: /* Error: Ran out of types for this method. */;
++ (id);
 
 @end
 

@@ -45,13 +45,13 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (id);
 - (void);
-- (void)gQo_;
-- (id)PresentationDelegateHost_p;
+- (void)ce room section should now be hidden, select sidebar section:%ld row:%ld for selected item:%@ /* Error: Ran out of types for this method. */;
+- (id)\>øÿÙx;
 
 // Remaining properties
 @property(retain, nonatomic) UILayoutGuide *buttonGuide; // @synthesize buttonGuide=_buttonGuide;

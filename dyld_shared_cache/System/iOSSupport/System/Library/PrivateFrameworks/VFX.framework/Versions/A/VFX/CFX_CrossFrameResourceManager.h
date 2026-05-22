@@ -5,8 +5,8 @@
 class CFX::CrossFrameResourceManager {
 public: // (access info unavailable from symbols alone)
     CrossFrameResourceManager();
-    get(unsigned long long);
-    nextFrame();
-    set(unsigned long long, CFX::CrossFrameResource*);
+    auto get(unsigned long long);
+    auto nextFrame();
+    auto set(unsigned long long, CFX::CrossFrameResource*);
     ~CrossFrameResourceManager();
 };

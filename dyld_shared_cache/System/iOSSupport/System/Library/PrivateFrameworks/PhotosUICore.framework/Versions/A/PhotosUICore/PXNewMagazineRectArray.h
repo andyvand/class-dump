@@ -32,11 +32,11 @@
 - (void);
 - (void);
 - (void);
-- (struct PXMagazineRect *);
+- (struct PXMagazineRect *)ration;
+- (double)Controller;
+- (unsigned long long)to load duration from %@. Error:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
-- (void)session when already paused;
-- (unsigned long long);
+- (void)8;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

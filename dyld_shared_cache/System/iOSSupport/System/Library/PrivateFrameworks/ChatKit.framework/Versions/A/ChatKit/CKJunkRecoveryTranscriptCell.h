@@ -6,42 +6,29 @@
 
 #import <ChatKit/CKTranscriptLabelCell.h>
 
-@class NSString, UIButton, UILabel;
+@class NSString;
 @protocol CKJunkRecoveryTranscriptCellDelegate;
 
 @interface CKJunkRecoveryTranscriptCell : CKTranscriptLabelCell
 {
     id <CKJunkRecoveryTranscriptCellDelegate> _delegate;
-    UILabel *_recoverConversationLabel;
-    UIButton *_deleteConversationButton;
-    UIButton *_recoverJunkButton;
 }
 
 + (id);
-+ (id)_
-;
 + (id);
-+ (id);
-+ (id);
-- (void)nagedObjectIDs;
-- (void)$;
 - (void);
 - (void);
-- (void)tGG;
-- (id);
-- (id);
-- (void)e;
-- (void)anceAlwaysShowLightContentDidChangeNotification;
-- (id)ce;
-- (void):(id)arg1 ];
+- (void);
+- (void);
+- (void);
 - (void);
 - (struct CGSize);
-- (void);
-- (void)?;
-- (id)<;
+- (struct CGSize);
 - (id);
-- (void)ySayÎ=G@-¬#¬yACyAD_A4dEtGGGtGG;
-- (struct CGSize)ngth:(struct CGSize)arg1 %ld;
+- (void);
+- (void);
+- (id);
+- (void)üä;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;
@@ -49,11 +36,8 @@
 // Original attribute string: T@"NSString",?,R,C
 
 @property(nonatomic) __weak id <CKJunkRecoveryTranscriptCellDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIButton *deleteConversationButton; // @synthesize deleteConversationButton=_deleteConversationButton;
 @property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UILabel *recoverConversationLabel; // @synthesize recoverConversationLabel=_recoverConversationLabel;
-@property(retain, nonatomic) UIButton *recoverJunkButton; // @synthesize recoverJunkButton=_recoverJunkButton;
 @property(readonly) Class superclass;
 
 @end

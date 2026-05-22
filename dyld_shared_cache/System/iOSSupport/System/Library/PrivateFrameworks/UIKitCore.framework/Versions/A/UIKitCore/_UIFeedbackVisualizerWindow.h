@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
-- (_Bool)e0;
-- (id)}ÿ"Øö?`;
+- (id);
+- (_Bool)same index path (%@);
+- (void)FØj\;
 
 // Remaining properties
 @property(retain, nonatomic) NSMapTable *engineLayers; // @synthesize engineLayers=_engineLayers;

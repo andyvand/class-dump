@@ -8,7 +8,7 @@
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);

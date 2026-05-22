@@ -10,7 +10,6 @@
 {
     MISSING_TYPE *userInfo;
     MISSING_TYPE *notificationService;
-    MISSING_TYPE *amsPushHandler;
     MISSING_TYPE *tracker;
 }
 

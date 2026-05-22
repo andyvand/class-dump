@@ -15,8 +15,8 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
 - (struct CGRect);
+- (void);
 - (id);
 
 // Remaining properties

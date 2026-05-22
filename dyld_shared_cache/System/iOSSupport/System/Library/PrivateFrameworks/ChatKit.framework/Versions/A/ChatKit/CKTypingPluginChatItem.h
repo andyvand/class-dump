@@ -16,13 +16,13 @@
 
 + (id);
 - (id);
-- (void):(id)arg1 waitUntilFinished: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (struct CGSize);
 - (id);
-- (id)GGtGGAKtGGA6_G_G;
+- (id);
 - (Class);
-- (void);
+- (void)e image for balloon view %@;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *plugInBundleID; // @synthesize plugInBundleID=_plugInBundleID;

@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
 - (struct CGPoint);
+- (id);
 
 @end
 

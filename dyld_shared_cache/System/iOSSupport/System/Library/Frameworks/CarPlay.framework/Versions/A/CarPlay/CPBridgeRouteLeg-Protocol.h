@@ -4,6 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
 @protocol CPBridgeNavigationWaypoint;
 
 @protocol CPBridgeRouteLeg
@@ -12,6 +13,7 @@
 @property(readonly, nonatomic) CDStruct_071ac149 *coordinates3D;
 @property(readonly, nonatomic) unsigned long long coordinates3DCount;
 @property(readonly, nonatomic) id <CPBridgeNavigationWaypoint> destinationLocation;
+@property(readonly, nonatomic) NSUUID *identifier;
 @property(readonly, nonatomic) id <CPBridgeNavigationWaypoint> originLocation;
 @end
 

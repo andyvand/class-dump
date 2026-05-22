@@ -8,8 +8,6 @@
 @protocol PKMessageExtensionMessageBubbleViewControllerDelegate;
 
 @protocol PKMessageExtensionMessageBubbleViewControllerProtocol
-- (void);
-- (PKSharingMessageExtensionViewProperties *);
 
 // Remaining properties
 @property(nonatomic) __weak id <PKMessageExtensionMessageBubbleViewControllerDelegate> delegate;

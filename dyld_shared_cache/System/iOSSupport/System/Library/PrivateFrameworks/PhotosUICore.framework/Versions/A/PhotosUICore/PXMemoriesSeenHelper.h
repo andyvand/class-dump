@@ -16,9 +16,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)ionManager;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;

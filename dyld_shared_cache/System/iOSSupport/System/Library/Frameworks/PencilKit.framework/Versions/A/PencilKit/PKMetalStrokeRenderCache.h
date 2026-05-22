@@ -21,10 +21,10 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
 - (_Bool);
+- (id);
 - (void);
-- (void);
+- (void)ÿÿÿÿ´;
 - (id);
 
 // Remaining properties

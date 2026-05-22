@@ -19,7 +19,7 @@
     HFUserNameFormatter *_userNameFormatter;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (void);
@@ -41,7 +41,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)DeleteClipMessage;
 
 // Remaining properties
 @property(retain, nonatomic) HFItem *addNameItem; // @synthesize addNameItem=_addNameItem;

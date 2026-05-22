@@ -16,8 +16,8 @@
 - (void);
 - (struct _NSRange);
 - (void);
+- (id);
 - (void);
-- (id)nt=dd}@?{CGPoint=dd}@"CALayer">8;
 
 // Remaining properties
 @property(retain, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;

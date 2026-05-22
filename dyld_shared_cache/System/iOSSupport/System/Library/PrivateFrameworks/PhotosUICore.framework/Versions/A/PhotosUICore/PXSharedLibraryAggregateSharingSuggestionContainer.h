@@ -29,8 +29,10 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
+- (id)1â
+0@ù
+× ;
+- (void)9Ç`9ÿ9ÇÀ9ÿ9Ç°²!ÿ9Çdÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *aggregateBeforeDate; // @synthesize aggregateBeforeDate=_aggregateBeforeDate;

@@ -12,10 +12,10 @@
     MISSING_TYPE *domain;
 }
 
+- (id);
 - (long long);
 - (_Bool);
-- (void);
-- (id)=;
+- (void)tTimeOutError;
 
 // Remaining properties
 @property(nonatomic, readonly) long long hash;

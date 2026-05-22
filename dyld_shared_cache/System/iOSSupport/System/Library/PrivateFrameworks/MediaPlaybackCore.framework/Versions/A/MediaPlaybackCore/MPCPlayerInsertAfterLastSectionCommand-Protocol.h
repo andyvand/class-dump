@@ -4,10 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackIntent, MPCPlayerCommandRequest, MPCPlayerResponseSection;
+@class MPCPlayerResponseSection;
 
 @protocol MPCPlayerInsertAfterLastSectionCommand
-- (MPCPlayerCommandRequest *)accountStore:(MPCPlaybackIntent *)arg1 completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) MPCPlayerResponseSection *section;

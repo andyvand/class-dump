@@ -15,12 +15,12 @@
     MISSING_TYPE *cancelHandler;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void)tFactory;
-- (void)[õ4;
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) id <WKURLSchemeTask> task; // @synthesize task;

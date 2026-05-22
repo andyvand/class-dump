@@ -23,15 +23,16 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)x4;
-- (void)j%;
+- (void)0@ù
+× ;
 
 // Remaining properties
 @property(nonatomic, retain) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount;

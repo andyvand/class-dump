@@ -17,35 +17,35 @@
     struct CGRect _sendButtonFrame;
 }
 
-- (void)ntifier:(double)arg1;
-- (void)!;
 - (void);
 - (void);
 - (void);
-- (void)L;
-- (void)GG;
 - (void);
 - (void);
-- (_Bool)account is not authenticated — skipping {note:%@} /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (id);
-- (void)0I8^q12;
 - (void);
-- (void)ionQueryEnteredKey;
-- (void)esKey;
+- (void);
+- (void);
+- (void);
 - (struct CGPoint);
-- (struct CGRect)R);
+- (struct CGRect);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void)3;
-- (id)yå£<_SSn¬y×Ú«GAEQo_Ô£<GG;
-- (void)tGG_ADQo_=yAI_ADQo_GGABG;
-- (unsigned long long);
-- (void)ÍOlJÿlJÿ;
-- (void)hb}ÿÁ\0é/;
+- (id);
+- (void);
+- (void);
+- (void)chedCompactFrame;
+- (void)%@) does not allow presentation alongside Send Later. Presenting unsupported item alert and aborting.;
+- (unsigned long long)4	;
+- (void)utTemplate;
 
 // Remaining properties
 @property(nonatomic) struct CGPoint balloonViewOrigin; // @synthesize balloonViewOrigin=_balloonViewOrigin;

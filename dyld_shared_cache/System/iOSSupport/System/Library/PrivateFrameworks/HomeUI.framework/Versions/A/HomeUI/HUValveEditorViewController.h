@@ -32,7 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)me = %@ (uniqueIdentifier:%{public}@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *moduleControllers; // @synthesize moduleControllers=_moduleControllers;

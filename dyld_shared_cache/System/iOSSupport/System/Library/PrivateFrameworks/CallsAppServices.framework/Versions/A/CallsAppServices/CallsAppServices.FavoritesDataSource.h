@@ -8,11 +8,22 @@
 
 @interface CallsAppServices.FavoritesDataSource
 {
-    MISSING_TYPE *controller;
     MISSING_TYPE *_favorites;
-    MISSING_TYPE *signState;
+    MISSING_TYPE *_totalCount;
+    MISSING_TYPE *fetchLimit;
+    MISSING_TYPE *contactStore;
+    MISSING_TYPE *favoritesStore;
+    MISSING_TYPE *callProviderManager;
+    MISSING_TYPE *needsProvidersUpdates;
+    MISSING_TYPE *contactsCache;
+    MISSING_TYPE *serialQueue;
+    MISSING_TYPE *firstLoadSubject;
     MISSING_TYPE *favoriteUpdateTask;
+    MISSING_TYPE *contactStoreUpdateSink;
+    MISSING_TYPE *callProviderObserver;
 }
+
+- (void);
 
 @end
 

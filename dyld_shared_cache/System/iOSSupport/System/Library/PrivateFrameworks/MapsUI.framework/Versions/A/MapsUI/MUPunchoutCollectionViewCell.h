@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id)në-(;
+- (void)eItemsProvider;
+- (id)¿;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

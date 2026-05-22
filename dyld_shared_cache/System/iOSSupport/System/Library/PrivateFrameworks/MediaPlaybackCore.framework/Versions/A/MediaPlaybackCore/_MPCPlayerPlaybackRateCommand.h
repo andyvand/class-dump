@@ -22,8 +22,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (float);
-- (id);
-- (void);
+- (void)k edit [identifierList does not contain afterItem] afterSection=%{public}@ afterItem=%{public}@ edit=%{public}@;
+- (id)-	qnÓ
+ôó;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

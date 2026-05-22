@@ -5,6 +5,5 @@
 //
 
 @protocol WBSFluidProgressStateSource
-- (_Bool)2;
 @end
 

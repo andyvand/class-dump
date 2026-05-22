@@ -12,6 +12,7 @@
     MISSING_TYPE *revealMessage;
     MISSING_TYPE *$__lazy_storage_$_maskView;
     MISSING_TYPE *$__lazy_storage_$_contentView;
+    MISSING_TYPE *$__lazy_storage_$_textFieldSpaceGuide;
     MISSING_TYPE *$__lazy_storage_$_collectionViewTextVisibleBottomConstraint;
     MISSING_TYPE *$__lazy_storage_$_collectionViewTextHiddenBottomConstraint;
     MISSING_TYPE *$__lazy_storage_$_collectionView;
@@ -30,6 +31,7 @@
     MISSING_TYPE *cancellables;
     MISSING_TYPE *once;
     MISSING_TYPE *currentInputState;
+    MISSING_TYPE *currentKeyboardFrame;
     MISSING_TYPE *reasonForCallingIdentifier;
     MISSING_TYPE *reasonForCallingViewModel;
     MISSING_TYPE *hasUserScrolled;
@@ -39,15 +41,17 @@
 
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (_Bool);
-- (void)yRadyACyá\d_ËadÞ_fyHZfyAAy÷`fyAEyACyADyADyADyADyA2FGAFGAFGAFG_AAyn`dÑZdyÃ[dSgGGtGGG.Ydy8WdGG_ÐOfQo__\fyAAy>\fyAAyìI@YdG_AUfQo_¹YdyëWdGG_Qo_Qo_tGGAAy§Yfyù_fyë_fyYfyAEyACyAF_AglAyAAyAmXGANy¿_dGGtGGACyAHyACy|bd_ADy+`fyAFGA22_GtGG_Q`fLadySayÛnfGSSAHyADyADyA22_A21_y±_fyAfMGGGA22_GGGA26_AHyA22_GtGG_Qo__òMfQo__AZQo_AXGG_A26_A45_tGGäLdGA48_GÑYdyÃ^d6VdGG_AEyACyAAyAAyAAy¯XfyAHyAAyAAyAAyAFA48_GVOdGAVyA52_GGG_EVfQo_A59_GANyýHdSgGGANyÉNfGGSg_AAyAAyAAyAAyAAyPXfyAHyA58_G_A62_Qo_AVyWLdGGA67_GA70_GLdGWdGtGGtGGANyÉ`dSgGGA57_G_SSACyAHyAFG_A93_tGAIQo_»KfG;
 - (void);
 - (void);
+- (void);
+- (void)á!Ð!Bùñ(°1B50@ù
+× ;
 
 @end
 

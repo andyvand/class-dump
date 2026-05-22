@@ -5,385 +5,16 @@
 //
 
 @class FCArticleAudioTrack, FCAssetHandle, FCColor, FCCoverArt, FCHeadlineExperimentalTitleMetadata, FCHeadlineThumbnail, FCIssue, FCTopStoriesStyleConfiguration, NSArray, NSData, NSDate, NSString, NSURL;
-@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding;
+@protocol FCChannelProviding, FCHeadlineMetadata, FCHeadlineStocksFields, FCNativeAdProviding, FCSportsEventProviding;
 
 @protocol FCHeadlineProviding
-- (_Bool)el/topic is unfavorited from Following section with publisher name;
-- (double)ue":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/f9dc851a-1837-4795-cce1-d46ad292f5b7"
-                                    },
-                                    "type":"url"
-                                },
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.2.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/c2f2a5ab-7dc3-4af4-9f0c-75f2fc4f94c7"
-                                    },
-                                    "type":"url"
-                                }
-                            ]
-                        }
-                    ],
-                    "themes":[
-                        {
-                            "metadata":{
-                                "formatVersion":"1.3.0-beta-1.3.0"
-                            },
-                            "data":{
-                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
-                            },
-                            "type":"url"
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    "knobsConfig":{
-        "minGroups":1,
-        "maxGroups":4294967296,
-        "groupKnobs":{}
-    }
-} /* Error: Ran out of types for this method. */;
-- (NSString *)},
-                                    "type":"url"
-                                },
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.2.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/c3eac686-0469-4829-83bd-75dffeb47355"
-                                    },
-                                    "type":"url"
-                                }
-                            ]
-                        }
-                    ],
-                    "themes":[
-                        {
-                            "metadata":{
-                                "formatVersion":"1.3.0-beta-1.3.0"
-                            },
-                            "data":{
-                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
-                            },
-                            "type":"url"
-                        }
-                    ]
-                }
-            },
-            {
-                "identifier":"articleList-1",
-                "paidVisibility":"both",
-                "type":"articleList",
-                "content":{
-                    "identifier":"articleList-1",
-                    "publishDate":"2020-07-28T14:22:38.370148Z",
-                    "themeReferences":[
-                        "926c29ea-3a94-492d-82fc-e534b5ba40e5"
-                    ],
-                    "subgroups":[
-                        {
-                            "layoutReferences":[
-                                "6a308130-6348-4a49-c902-8cc6545fc759"
-                            ],
-                            "contents":[
-                                {
-                                    "items":[
-                                        {
-                                            "data":{
-                                                "identifier":"articles"
-                                            },
-                                            "type":"placeholder"
-                                        }
-                                    ],
-                                    "slot":"articles-0"
-                                }
-                            ],
-                            "layouts":[
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.3.0-beta-1.3.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/f9dc851a-1837-4795-cce1-d46ad292f5b7"
-                                    },
-                                    "type":"url"
-                                },
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.2.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/c2f2a5ab-7dc3-4af4-9f0c-75f2fc4f94c7"
-                                    },
-                                    "type":"url"
-                                }
-                            ]
-                        }
-                    ],
-                    "themes":[
-                        {
-                            "metadata":{
-                                "formatVersion":"1.3.0-beta-1.3.0"
-                            },
-                            "data":{
-                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
-                            },
-                            "type":"url"
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    "knobsConfig":{
-        "minGroups":1,
-        "maxGroups":4294967296,
-        "groupKnobs":{}
-    }
-} /* Error: Ran out of types for this method. */;
-- (_Bool)a":{
-                                        "formatVersion":"1.2.0-beta-1.6.1"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/assets/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/17d566c4-e357-4cee-8507-caa4c72d0086"
-                                    },
-                                    "type":"url"
-                                },
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.2.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/c3eac686-0469-4829-83bd-75dffeb47355"
-                                    },
-                                    "type":"url"
-                                }
-                            ]
-                        }
-                    ],
-                    "themes":[
-                        {
-                            "metadata":{
-                                "formatVersion":"1.3.0-beta-1.3.0"
-                            },
-                            "data":{
-                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
-                            },
-                            "type":"url"
-                        }
-                    ]
-                }
-            },
-            {
-                "identifier":"articleList-1",
-                "paidVisibility":"both",
-                "type":"articleList",
-                "content":{
-                    "identifier":"articleList-1",
-                    "publishDate":"2020-07-28T14:22:38.370148Z",
-                    "themeReferences":[
-                        "926c29ea-3a94-492d-82fc-e534b5ba40e5"
-                    ],
-                    "subgroups":[
-                        {
-                            "layoutReferences":[
-                                "6a308130-6348-4a49-c902-8cc6545fc759"
-                            ],
-                            "contents":[
-                                {
-                                    "items":[
-                                        {
-                                            "data":{
-                                                "identifier":"articles"
-                                            },
-                                            "type":"placeholder"
-                                        }
-                                    ],
-                                    "slot":"articles-0"
-                                }
-                            ],
-                            "layouts":[
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.3.0-beta-1.3.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/f9dc851a-1837-4795-cce1-d46ad292f5b7"
-                                    },
-                                    "type":"url"
-                                },
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.2.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/c2f2a5ab-7dc3-4af4-9f0c-75f2fc4f94c7"
-                                    },
-                                    "type":"url"
-                                }
-                            ]
-                        }
-                    ],
-                    "themes":[
-                        {
-                            "metadata":{
-                                "formatVersion":"1.3.0-beta-1.3.0"
-                            },
-                            "data":{
-                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
-                            },
-                            "type":"url"
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    "knobsConfig":{
-        "minGroups":1,
-        "maxGroups":4294967296,
-        "groupKnobs":{}
-    }
-} /* Error: Ran out of types for this method. */;
-- (_Bool)"metadata":{
-                                        "formatVersion":"1.2.0-beta-1.6.1"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/assets/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/17d566c4-e357-4cee-8507-caa4c72d0086"
-                                    },
-                                    "type":"url"
-                                },
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.2.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/a72c409c-1028-485a-b897-dbd13f554ecb/c3eac686-0469-4829-83bd-75dffeb47355"
-                                    },
-                                    "type":"url"
-                                }
-                            ]
-                        }
-                    ],
-                    "themes":[
-                        {
-                            "metadata":{
-                                "formatVersion":"1.3.0-beta-1.3.0"
-                            },
-                            "data":{
-                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
-                            },
-                            "type":"url"
-                        }
-                    ]
-                }
-            },
-            {
-                "identifier":"articleList-1",
-                "paidVisibility":"both",
-                "type":"articleList",
-                "content":{
-                    "identifier":"articleList-1",
-                    "publishDate":"2020-07-28T14:22:38.370148Z",
-                    "themeReferences":[
-                        "926c29ea-3a94-492d-82fc-e534b5ba40e5"
-                    ],
-                    "subgroups":[
-                        {
-                            "layoutReferences":[
-                                "6a308130-6348-4a49-c902-8cc6545fc759"
-                            ],
-                            "contents":[
-                                {
-                                    "items":[
-                                        {
-                                            "data":{
-                                                "identifier":"articles"
-                                            },
-                                            "type":"placeholder"
-                                        }
-                                    ],
-                                    "slot":"articles-0"
-                                }
-                            ],
-                            "layouts":[
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.3.0-beta-1.3.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/f9dc851a-1837-4795-cce1-d46ad292f5b7"
-                                    },
-                                    "type":"url"
-                                },
-                                {
-                                    "metadata":{
-                                        "formatVersion":"1.2.0"
-                                    },
-                                    "data":{
-                                        "value":"https://news-assets.apple.com/packages/layouts/6a308130-6348-4a49-c902-8cc6545fc759/c2f2a5ab-7dc3-4af4-9f0c-75f2fc4f94c7"
-                                    },
-                                    "type":"url"
-                                }
-                            ]
-                        }
-                    ],
-                    "themes":[
-                        {
-                            "metadata":{
-                                "formatVersion":"1.3.0-beta-1.3.0"
-                            },
-                            "data":{
-                                "value":"https://news-assets.apple.com/packages/themes/926c29ea-3a94-492d-82fc-e534b5ba40e5/dd3600ea-fe09-44d9-eeb2-8c44119854ae"
-                            },
-                            "type":"url"
-                        }
-                    ]
-                }
-            }
-        ]
-    },
-    "knobsConfig":{
-        "minGroups":1,
-        "maxGroups":4294967296,
-        "groupKnobs":{}
-    }
-} /* Error: Ran out of types for this method. */;
-- (NSString *)AlertsThreshold;
-- (NSString *)er;
-- (_Bool)e;
-- (_Bool)ineNoiseGenerator;
-- (unsigned long long)TtC7NewsUI229ChannelPickerHeaderViewStyler;
-- (id <FCNativeAdProviding>)ntifier=%{public}@;
-- (NSString *)s;
-- (unsigned long long)tion %fms;
-- (NSString *)time=%{public}@;
-- (NSString *)public}@, time=%{public}@;
-- (id <FCChannelProviding>)DoubleTap: /* Error: Ran out of types for this method. */;
-- (FCAssetHandle *)BoxOfHitRegionForRep:scale:] /* Error: Ran out of types for this method. */;
-- (NSArray *)H;
-- (double)`;
-- (NSString *);
-- (NSArray *)@yi;
-- (FCHeadlineThumbnail *)PrivateFrameworks/PromotedContentSupport.framework/Versions/A/PromotedContentSupport;
-- (NSArray *)or"8;
-- (int)sed from %@ to %@;
-- (unsigned long long)ificationScoringServiceConfigurationJSONData;
-- (NSArray *)ateDataEncryptionMigrationDesired;
-- (NSString *)Ì7;
-- (NSString *)ôãÿÿÜÿÿ;
-- (NSString *)int=dd}{CGSize=dd}}16;
+- (FCHeadlineThumbnail *)r:%{public}@ /* Error: Ran out of types for this method. */;
+- (NSString *)15MetricsViewTypeP;
+- (NSString *)`T÷ÿå­TT÷ÿå­DT÷ÿ;
 
 @optional
-- (_Bool);
-- (NSArray *);
-- (_Bool);
-- (FCHeadlineExperimentalTitleMetadata *)_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/tables/TSTLayout.mm;
-- (unsigned long long)ppConfigObserver: /* Error: Ran out of types for this method. */;
+- (FCColor *)ortsTagID;
+- (long long);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessoryText;
@@ -490,6 +121,8 @@
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSArray",?,R,C,N
 
+@property(readonly, nonatomic) _Bool liveCoverageCompleted;
+@property(readonly, copy, nonatomic) NSDate *liveCoverageModifiedDate;
 @property(readonly, copy, nonatomic) NSString *localDraftPath;
 @property(readonly, nonatomic) long long minimumNewsVersion;
 @property(readonly, copy, nonatomic) NSArray *moreFromPublisherArticleIDs;
@@ -551,6 +184,7 @@
 @property(readonly, copy, nonatomic) id <FCChannelProviding> sourceChannel;
 @property(readonly, copy, nonatomic) NSString *sourceName;
 @property(readonly, copy, nonatomic) NSString *sponsoredBy;
+@property(readonly, copy, nonatomic) id <FCSportsEventProviding> sportsEvent;
 @property(readonly, copy, nonatomic) NSArray *sportsEventIDs;
 @property(readonly, nonatomic) id <FCHeadlineStocksFields> stocksFields;
 // Preceding property had unknown attributes: ?
@@ -560,6 +194,7 @@
 @property(readonly, nonatomic) int storyType;
 @property(readonly, copy, nonatomic) NSString *surfacedByBinID;
 @property(readonly, copy, nonatomic) NSString *surfacedByChannelID;
+@property(readonly, nonatomic) long long surfacedByFlags;
 @property(readonly, copy, nonatomic) NSString *surfacedBySectionID;
 @property(readonly, copy, nonatomic) NSString *surfacedByTopicID;
 @property(readonly, nonatomic) NSArray *tagsExpiration;

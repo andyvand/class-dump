@@ -121,19 +121,19 @@
 - (double);
 - (void);
 - (void);
-- (_Bool);
 - (long long);
 - (void);
+- (_Bool);
 - (void);
 - (id);
 - (struct CGSize);
 - (struct CGSize);
-- (id);
 - (void);
-- (id);
 - (void);
 - (struct CGSize);
-- (void)T-¬ÿµLN&7;
+- (id)nt;
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize buildingBlockSize; // @synthesize buildingBlockSize=_buildingBlockSize;

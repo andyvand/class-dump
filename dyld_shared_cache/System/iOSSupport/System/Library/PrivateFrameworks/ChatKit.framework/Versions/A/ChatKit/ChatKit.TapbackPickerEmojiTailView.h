@@ -14,8 +14,8 @@
     MISSING_TYPE *showsContent;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)ginOverlayBalloonLayer;
+- (void)ion;
 
 @end
 

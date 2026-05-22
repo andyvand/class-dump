@@ -23,10 +23,10 @@
 - (long long);
 - (void);
 - (double);
-- (struct UIEdgeInsets);
-- (id);
 - (id);
 - (void);
+- (struct UIEdgeInsets);
+- (id);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;

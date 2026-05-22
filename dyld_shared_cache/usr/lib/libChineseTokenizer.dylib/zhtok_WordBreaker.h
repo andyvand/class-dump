@@ -5,7 +5,7 @@
 class zhtok::WordBreaker {
 public: // (access info unavailable from symbols alone)
     WordBreaker(__CFLocale const*);
-    close();
-    set(unsigned short const*, long long);
+    auto close();
+    auto set(unsigned short const*, long long);
     ~WordBreaker();
 };

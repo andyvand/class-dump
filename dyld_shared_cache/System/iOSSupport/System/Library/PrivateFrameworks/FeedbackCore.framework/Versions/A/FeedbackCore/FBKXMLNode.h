@@ -16,14 +16,14 @@
 
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id): /* Error: Ran out of types for this method. */;
-- (void)ithContentsOfURL:(id)arg1;
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(retain) NSDictionary *attributes; // @synthesize attributes=_attributes;

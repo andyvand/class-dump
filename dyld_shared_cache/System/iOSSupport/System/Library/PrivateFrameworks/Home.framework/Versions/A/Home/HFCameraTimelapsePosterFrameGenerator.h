@@ -33,9 +33,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
 - (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <HFCameraTimelapsePosterFrameGeneratorDelegate> delegate; // @synthesize delegate=_delegate;

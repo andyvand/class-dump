@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (struct CGSize);
-- (unsigned long long)or chat. Not including in chat metadata dictionary. chat:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ountOfCollectionsForQueryCriteria: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) id catalogIdentifier; // @synthesize catalogIdentifier=_catalogIdentifier;

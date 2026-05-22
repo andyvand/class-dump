@@ -4,5 +4,5 @@
 
 class std::__1::locale::facet {
 public: // (access info unavailable from symbols alone)
-    __on_zero_shared();
+    auto __on_zero_shared();
 };

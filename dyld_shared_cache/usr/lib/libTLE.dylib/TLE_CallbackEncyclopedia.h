@@ -4,8 +4,8 @@
 
 class TLE::CallbackEncyclopedia {
 public: // (access info unavailable from symbols alone)
-    getFact(CEBuffer);
-    hasFactFor(CEBuffer);
-    resolveFact(CEBuffer);
+    auto getFact(CEBuffer);
+    auto hasFactFor(CEBuffer);
+    auto resolveFact(CEBuffer);
     ~CallbackEncyclopedia();
 };

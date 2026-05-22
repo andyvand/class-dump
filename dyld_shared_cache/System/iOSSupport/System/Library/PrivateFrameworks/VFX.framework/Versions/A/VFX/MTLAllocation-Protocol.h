@@ -5,7 +5,11 @@
 //
 
 @protocol MTLAllocation
-- (unsigned long long)$®;
+- (unsigned long long)uint32_t patchArraysBufferOffset;
+    OsdFVarPrimvar colorPrimvar;
+    OsdFVarPrimvar texcoordPrimvars[8];
+};
+;
 
 // Remaining properties
 @property(readonly) unsigned long long allocatedSize;

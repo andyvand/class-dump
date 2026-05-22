@@ -11,17 +11,17 @@
     CKConversationListTipManagerSwift *_swiftManager;
 }
 
-- (void)Model;
-- (void)oteContext;
-- (void)LockManager;
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (long long);
-- (id)%@;
-- (id)tifier;
+- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)1&j}*;
 
 // Remaining properties
 @property(readonly, nonatomic) long long presentedTip;

@@ -13,10 +13,10 @@
 }
 
 - (void);
-- (id);
+- (id)n;
+- (void)cc)(?=ddc)}{?=qqfdddd}}32@"PXStoryClipLayout"800^B808;
 - (void);
 - (id);
-- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *button; // @synthesize button=_button;

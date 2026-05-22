@@ -5,6 +5,5 @@
 //
 
 @protocol OBProvidesLanguageConfiguration
-- (_Bool)H0;
 @end
 

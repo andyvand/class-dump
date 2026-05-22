@@ -18,9 +18,9 @@
 }
 
 - (_Bool);
-- (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (long long);
@@ -32,9 +32,9 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (_Bool);
 - (id);
-- (_Bool)rmat: /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long datePickerComponentType; // @synthesize datePickerComponentType=_datePickerComponentType;

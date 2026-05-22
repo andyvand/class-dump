@@ -18,19 +18,19 @@ __attribute__((visibility("hidden")))
     _Bool _needsUpdate;
 }
 
-+ (void)dPostedMessageRowID:%lld /* Error: Ran out of types for this method. */;
-- (void)_common;
++ (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void)!;
-- (void)leLabel;
 - (id);
-- (id)tionBarContentView;
+- (void);
+- (id)arNotification;
+- (void);
+- (id)erModernIOSSwift;
+- (void)apping;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

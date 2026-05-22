@@ -22,24 +22,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (id);
 - (long long);
-- (long long)d%;
+- (long long);
 - (struct CGRect);
-- (void)rviceDeduplicationMechanism;
-- (id);
-- (id);
 - (void);
 - (id);
-- (long long);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id)View;
+- (id);
+- (long long);
 - (struct CGSize);
-- (_Bool){B_;
-- (id)¢^_;
+- (void);
+- (void)dateContentLayoutGuideConstraints;
+- (id)ionAlternativesForSelectedText;
+- (id)rentFromPosition;
+- (_Bool)ÜÊ[;
+- (void),é[;
 
 // Remaining properties
 @property(nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;

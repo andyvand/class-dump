@@ -22,10 +22,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)A%°!ÐCùÑ.1b0@ù
-× ;
+- (id);
+- (void)ton;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

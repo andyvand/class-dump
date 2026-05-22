@@ -7,7 +7,6 @@
 @class NSData, NSString;
 
 @protocol MPCTrackInfoDataProvider
-- (NSData *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSData *jingleTimedMetadata;

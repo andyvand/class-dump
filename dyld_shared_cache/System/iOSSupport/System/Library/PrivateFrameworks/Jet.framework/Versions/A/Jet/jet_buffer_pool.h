@@ -4,19 +4,19 @@
 
 class jet_buffer_pool {
 public: // (access info unavailable from symbols alone)
-    commit_data(unsigned int, unsigned int);
-    get_current_buffer() const;
-    get_data();
-    get_length() const;
-    get_max_buffer_count();
-    initialize_first_buffer();
-    is_finished();
+    auto commit_data(unsigned int, unsigned int);
+    auto get_current_buffer() const;
+    auto get_data();
+    auto get_length() const;
+    auto get_max_buffer_count();
+    auto initialize_first_buffer();
+    auto is_finished();
+    auto next_buffer(bool);
+    auto resize(unsigned int);
+    auto set_data(void const*, unsigned int, unsigned int);
+    auto set_max_buffer_count(unsigned int);
+    auto set_max_buffer_count(unsigned int) (.cold.1);
+    auto wait();
     jet_buffer_pool(jet_component_type, unsigned int, unsigned int);
-    next_buffer(bool);
-    resize(unsigned int);
-    set_data(void const*, unsigned int, unsigned int);
-    set_max_buffer_count(unsigned int);
-    set_max_buffer_count(unsigned int) (.cold.1);
-    wait();
     ~jet_buffer_pool();
 };

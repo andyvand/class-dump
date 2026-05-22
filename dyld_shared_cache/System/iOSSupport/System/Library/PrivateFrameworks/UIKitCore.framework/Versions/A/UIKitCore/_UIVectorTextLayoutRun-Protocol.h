@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class UIFont;
 
 @protocol _UIVectorTextLayoutRun
-- (NSString *);
-- (double)entIdentifier;
-- (void);
+- (UIFont *)èÎ;
+- (void)Ð&;
 
 // Remaining properties
 @property(readonly, nonatomic) double baseline;

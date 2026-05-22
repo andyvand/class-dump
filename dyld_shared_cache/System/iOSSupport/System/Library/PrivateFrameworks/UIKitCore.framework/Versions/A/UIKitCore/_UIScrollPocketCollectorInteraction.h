@@ -18,12 +18,12 @@
 - (id);
 - (void);
 - (id);
+- (id)?@$A(BøC;
+- (void)ú©þÿ;
+- (id)_SS4darkSo8NSBundleCSg6bundlet;
 - (void);
-- (id)ncreteVisualStyleImpl>",&,N,V_concreteVisualStyle;
 - (void);
-- (void)Q;
-- (void)UIViewControllerC;
-- (id)ÐÓÿ;
+- (void)ÓÙCÜl;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *_ancestralModelDescription;

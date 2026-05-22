@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long proofingEligibilityStatus;

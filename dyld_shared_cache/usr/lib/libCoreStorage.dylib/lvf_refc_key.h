@@ -4,5 +4,5 @@
 
 class lvf_refc_key {
 public: // (access info unavailable from symbols alone)
-    operator--();
+    auto operator--();
 };

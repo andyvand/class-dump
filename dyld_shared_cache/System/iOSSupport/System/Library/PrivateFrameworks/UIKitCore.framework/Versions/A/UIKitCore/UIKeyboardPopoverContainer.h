@@ -19,36 +19,36 @@ __attribute__((visibility("hidden")))
     NSLayoutConstraint *_keyboardAreaHeight;
 }
 
-+ (id)ment;
-+ (id)of file at path:(struct CGRect)arg1 %@ with exception:(struct CGSize)arg2 %@ when validating attachment;
-+ (struct CGSize)state:%ld -> %ld local path:%@ transferred name:%@ -> %@ guid:%@ -> %@ error:%d -> %d total bytes:%d -> %d created:%@ -> %@ commSafety:%d -> %d update reason:%d -> %d] /* Error: Ran out of types for this method. */;
-+ (double)ating transfer:[state:%ld -> %ld sync state:%ld -> %ld local path:%@ transferred name:%@ -> %@ guid:%@ -> %@ error:%d -> %d total bytes:%d -> %d created:%@ -> %@ commSafety:%d -> %d update reason:%d -> %d] /* Error: Ran out of types for this method. */;
-+ (double)@ from imfiletransfer:%@ /* Error: Ran out of types for this method. */;
-+ (double)ivileges, not showing group collaboration banner;
-+ (double)ansfer found in thumbnail state, aborting relay %@;
-+ (double)ficationToken;
-+ (double)OmeF9edGkGuS6TSSvve4LSm3o/Library/Caches/com.apple.xbs/Sources/libressl/libressl-2.2/ssl/ssl_sess.c;
-+ (struct UIEdgeInsets)uredWidth;
-+ (struct CGRect);
++ (id);
++ (id);
++ (struct CGSize);
 + (double);
-+ (double)¢!0@ù
++ (double);
++ (double);
++ (double);
++ (double);
++ (double);
++ (struct CGRect);
++ (struct UIEdgeInsets)a°!@Dù1`ð1Â0@ù
 × ;
-+ (double)
-× ;
-+ (id)ary:inDictionary:andSet: /* Error: Ran out of types for this method. */;
-+ (double)nts;
-+ (id)scene:%d; identitiesAreDifferent:%d; levelsAreDifferent:%d /* Error: Ran out of types for this method. */;
-+ (struct CGSize)?|þÿ;
-+ (id)e=dd}}8d40;
-- (void)etRecordNameToMessageItemMap:(long long)arg1;
-- (id);
-- (id)nto PostDeliveryReceiptProcessingParameter. Bailing and passing input to next pipeline;
-- (id)No need to monitor for reparentable messages.;
-- (void)lar message:(struct CGRect)arg1 %@;
++ (double)@56@0:8@16:24@32@40@48 /* Error: Ran out of types for this method. */;
++ (id)d;
++ (id)eRenamerSession.m;
++ (id)Ä¡;
++ (double)Ü´^;
++ (double)g;
++ (struct CGSize)¥QÍ`lo;
++ (double);
 - (void);
-- (struct CGRect)oser;
-- (void)!;
-- (void)¢7ÔùÙk;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)0@ù
+× ;
+- (struct CGRect)ssingKeyboardOrientationLandscapeLeft;
+- (void)</rþ;
 
 // Remaining properties
 @property(readonly) UIView *affordance;

@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)n;
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *valueByCharacteristicUniqueIdentifier; // @synthesize valueByCharacteristicUniqueIdentifier=_valueByCharacteristicUniqueIdentifier;

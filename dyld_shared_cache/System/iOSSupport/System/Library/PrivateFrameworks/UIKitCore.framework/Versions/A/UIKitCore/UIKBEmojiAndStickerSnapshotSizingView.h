@@ -13,11 +13,10 @@ __attribute__((visibility("hidden")))
     UIView *_snapshotView;
 }
 
-- (id)D;
-- (struct CGSize)[MPMediaLibraryDataProviderMacOS setValue:forProperty:ofItemWithIdentifier:completionBlock:] /* Error: Ran out of types for this method. */;
 - (id);
-- (void)0@ù
-× ;
+- (struct CGSize);
+- (void)_;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *snapshotView; // @synthesize snapshotView=_snapshotView;

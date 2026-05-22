@@ -18,11 +18,11 @@
     MISSING_TYPE *signatureViewTrailingConstraint;
 }
 
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void)t«ýÿLÿÿ;
 
 @end
 

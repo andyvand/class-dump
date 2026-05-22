@@ -23,7 +23,7 @@
 
 + (void);
 - (_Bool);
-- (_Bool)C;
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
@@ -31,18 +31,21 @@
 - (void);
 - (int);
 - (void);
-- (double);
 - (id);
+- (void);
+- (void);
+- (double);
 - (void);
 - (void);
 - (void);
 - (struct CGPoint);
-- (void);
-- (_Bool)¬Õ;
-- (unsigned long long);
-- (void)%f);
-- (void)=±;
-- (void)ÁU=;
+- (void)Ôa}Ð!Bù±ð1Â0@ù
+× ;
+- (void)@ù
+× ;
+- (unsigned long long)1Â0@ù
+× ;
+- (_Bool)¹;
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active=mActive;

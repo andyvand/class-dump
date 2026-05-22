@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     _UIRenderingEnvironmentAttributes *_currentAttributes;
 }
 
-- (void)edTo:result: /* Error: Ran out of types for this method. */;
-- (id);
 - (void);
 - (id);
-- (id)ionInformation;
-- (id)onfigureBackgroundView:withContentShape: /* Error: Ran out of types for this method. */;
-- (void)8_UISceneConnectionOptionAsyncDelegateInvocation;
 - (id);
-- (id);
+- (id)unt: /* Error: Ran out of types for this method. */;
+- (id)CG;
+- (void);
+- (id)\\;
+- (void);
+- (id)iÿ;
 
 // Remaining properties
 @property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;

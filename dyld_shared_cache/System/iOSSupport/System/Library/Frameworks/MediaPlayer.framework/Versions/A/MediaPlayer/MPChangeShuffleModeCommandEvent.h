@@ -13,7 +13,7 @@
 }
 
 - (long long);
-- (id)er"32@"NSNumber"40@"NSNumber"48@"NSNumber"56B64B68@?<@"<BPSPublisher>"@?@"BMBookmarkablePublisher">72;
+- (id);
 - (_Bool);
 
 // Remaining properties

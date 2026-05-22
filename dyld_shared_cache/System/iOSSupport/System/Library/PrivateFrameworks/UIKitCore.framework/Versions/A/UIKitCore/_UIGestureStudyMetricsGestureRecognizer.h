@@ -21,31 +21,30 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (double)ision;
+- (double);
+- (void);
 - (void);
 - (struct CGPoint);
-- (_Bool);
-- (void)onshipTVEpisodePlaybackPosition__MAPPING_MISSING__;
-- (_Bool);
 - (void);
-- (void)
-× ;
-- (void)qÇ°1¢!0@ù
-× ;
-- (void)6@"FBSWorkspaceSceneRequestOptions"24@"<FBSceneClientProcess>"32@?<v@?@"FBScene"@"NSError">40;
-- (double)ConfirmPanelWithMessage: /* Error: Ran out of types for this method. */;
-- (id)utManager:willChangeFromTextSelections:toTextSelections: /* Error: Ran out of types for this method. */;
-- (void)dFeedback:(id)arg1;
-- (void)ters;
-- (struct CGPoint)G_ignoreBottomSeparatorInsetsFromCell,S_setIgnoreBottomSeparatorInsetsFromCell:(id)arg1 ,V_ignoreBottomSeparatorInsetsFromCell;
-- (_Bool);
-- (void)nnr_;
-- (double)UIPointerHoverStyleDriver;
-- (id);
 - (double);
-- (_Bool)ûZ;
-- (struct CGPoint)å\;
-- (_Bool)p:(id)arg1;
+- (struct CGPoint);
+- (_Bool)
+× ;
+- (_Bool)IContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32@0:(id)arg1 8{CGSize=dd}16;
+- (id)})16;
+- (_Bool)eventPaddlesForPointerTouches:(id)arg1;
+- (id)e;
+- (struct CGPoint)led;
+- (void)ntPoint;
+- (void)thsIfNecessary:(id)arg1;
+- (void)ectedUINSSceneView;
+- (void)ouchInsets;
+- (_Bool)knobImageOffset;
+- (double)ÄU;
+- (_Bool)24;
+- (double)RTTouchHistoryInfo"8Q16^B24;
+- (void)ÖÎþÿ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;

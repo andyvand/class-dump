@@ -12,9 +12,9 @@
 
 - (double);
 - (id);
-- (struct CGSize)`d;
+- (struct CGSize);
 - (id);
-- (id)ntroller;
+- (id);
 - (double);
 - (double);
 - (unsigned long long);

@@ -16,9 +16,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)plePayIcons;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *viewModels; // @synthesize viewModels=_viewModels;

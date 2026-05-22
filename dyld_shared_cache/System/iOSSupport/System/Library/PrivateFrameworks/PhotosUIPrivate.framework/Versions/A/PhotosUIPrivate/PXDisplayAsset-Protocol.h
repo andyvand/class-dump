@@ -7,12 +7,9 @@
 @class NSData, NSDate, NSNumber, NSString;
 
 @protocol PXDisplayAsset
-- (unsigned long long)pass;
 
 @optional
-- (double)e: /* Error: Ran out of types for this method. */;
-- (NSNumber *)aderHeightByVisualSection;
-- (NSNumber *)Transform.m;
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

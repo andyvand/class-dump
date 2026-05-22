@@ -19,8 +19,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)String"16@"NSError"24;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *IPv4Address;

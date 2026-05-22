@@ -8,10 +8,16 @@
 
 @interface PLKLegibilityImageRenderer : PLKImageRenderer
 {
+    _Bool _usesContentAlignmentRectInsets;
 }
 
+- (_Bool);
+- (void);
 - (id);
 - (id);
+
+// Remaining properties
+@property(nonatomic) _Bool usesContentAlignmentRectInsets; // @synthesize usesContentAlignmentRectInsets=_usesContentAlignmentRectInsets;
 
 @end
 

@@ -22,11 +22,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
 - (id);
+- (struct os_unfair_lock_s);
+- (id);
 - (void);
-- (struct os_unfair_lock_s)oxExtensionForToolKitIndexingWithCompletion:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *observers; // @synthesize observers=_observers;

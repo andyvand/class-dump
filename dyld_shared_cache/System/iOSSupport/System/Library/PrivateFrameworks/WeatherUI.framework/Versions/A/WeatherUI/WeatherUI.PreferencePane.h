@@ -49,13 +49,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id)tly %3$@; the high will be %4$@. ;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned int changeSequence; // @synthesize changeSequence;

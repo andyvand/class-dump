@@ -19,25 +19,25 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
+- (void);
 - (unsigned int);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (_Bool)V;
-- (id);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
+- (void);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void)W;
-- (id);
+- (id)Size=dd}12@"NSError"28;
+- (void)ter;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMsgid;

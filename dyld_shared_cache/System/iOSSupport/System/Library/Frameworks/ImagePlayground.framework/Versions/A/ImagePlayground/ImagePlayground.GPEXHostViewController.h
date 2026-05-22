@@ -11,7 +11,7 @@
 - (id);
 - (id);
 - (id);
-- (void)dientO16PromptCodingKeys33_8C86EF8FEC64D2072CE5687004DFC6FDLLO;
+- (void);
 
 @end
 

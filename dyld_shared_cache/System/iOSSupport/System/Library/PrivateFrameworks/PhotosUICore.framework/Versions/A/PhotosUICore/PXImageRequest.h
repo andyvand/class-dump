@@ -27,21 +27,20 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
 - (long long);
+- (void);
 - (id);
-- (id)0@ù
-× ;
-- (id)dLibraryChromeAutoAnimateSpringStiffness;
-- (void)agerErrorDomain;
-- (_Bool)Ä§;
-- (id)´o#ÿ;
-- (struct CGSize)pI3äD;
-- (void)45×ÿûMÆ6;
+- (id);
+- (id);
+- (struct CGSize);
+- (id);
+- (void);
+- (void);
+- (void)CollectionObjectID;
+- (id)HCloudIdentifier *__strong _Nonnull, PHPhotoLibrary *__strong _Nonnull);
+- (_Bool)rmer;
+- (void)tainer;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> asset; // @synthesize asset=_asset;

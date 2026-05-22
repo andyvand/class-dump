@@ -16,18 +16,16 @@
 }
 
 + (id);
-+ (id)y7y57yAAy9y69y7y:7yô7AByACyAAyAEyAGG7y
-7SgGG_AAy7ALGµ7tGGGGG_~9Qo_Y7y7GG_APtGG|7G /* Error: Ran out of types for this method. */;
-+ (id)uBarButtonItem;
++ (id)g;
++ (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id)0@ù
-× ;
+- (void)elegate: /* Error: Ran out of types for this method. */;
+- (void)Rþÿ¼tÿÿþÿ;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

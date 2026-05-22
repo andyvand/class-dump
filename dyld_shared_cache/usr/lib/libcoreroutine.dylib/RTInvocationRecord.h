@@ -17,15 +17,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)ll invitation, dropping;
-- (CDUnknownBlockType)cationDone:sessionInfo:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (void)tiator traffic selectors;
-- (void);
-- (void);
-- (CDUnknownBlockType)a³(°!àBù±^,°1¢!0@ù
+- (void)1Â0@ù
 × ;
-- (void)e;
+- (CDUnknownBlockType)(Ð!ÐCùqC,°1Â0@ù
+× ;
+- (CDUnknownBlockType)actedForConfidence: /* Error: Ran out of types for this method. */;
+- (void)fetyCache,Initiator,%@,%@,Fetched ActiveSessionDetails from CK ,sessionID,%@,activeDeviceIdentifier,%@,cacheReleasedDate,%@,scheduledSendGUID,%@,receiverHandles%@;
+- (void)itting %lu visits;
+- (id)d);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType block; // @synthesize block=_block;

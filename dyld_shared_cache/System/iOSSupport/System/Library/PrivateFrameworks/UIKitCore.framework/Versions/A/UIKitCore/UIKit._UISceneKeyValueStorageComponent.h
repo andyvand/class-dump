@@ -13,12 +13,12 @@
     MISSING_TYPE *$__lazy_storage_$_clientInterface;
 }
 
-- (void);
-- (void)
+- (id);
+- (void)@ù
 × ;
-- (id)ShadowColor: /* Error: Ran out of types for this method. */;
-- (void)icatorColorDidChangeNotification;
-- (id);
+- (void)delimiter of length 1 only;
+- (id)	k;
+- (void);
 
 @end
 

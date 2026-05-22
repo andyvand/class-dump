@@ -31,16 +31,16 @@
 - (void);
 - (long long);
 - (id);
-- (id)Å»{;
+- (id);
 - (id);
 - (double);
 - (long long);
 - (void);
-- (void);
 - (long long);
 - (void);
 - (id);
-- (void)xt;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets additionalAspectFitEdgeMargins; // @synthesize additionalAspectFitEdgeMargins=_additionalAspectFitEdgeMargins;

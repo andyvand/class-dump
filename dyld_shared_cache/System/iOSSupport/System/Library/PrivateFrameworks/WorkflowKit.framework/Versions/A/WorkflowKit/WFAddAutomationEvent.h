@@ -27,7 +27,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)Ì;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -38,15 +38,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
 - (id);
 - (id);
-- (void)allpaper;
-- (id)ãðÍ³ÿãTý³ÿãÎ³ÿã$Î³ÿ;
-- (id)Öäÿ,Á}ë;
+- (void);
+- (id);
+- (id);
+- (id);
+- (void)ionContainer;
+- (void)ageResultEntity;
+- (void)(WFGetUpcomingItemCount);
 
 // Remaining properties
 @property(nonatomic) unsigned int actionCount; // @synthesize actionCount=_actionCount;

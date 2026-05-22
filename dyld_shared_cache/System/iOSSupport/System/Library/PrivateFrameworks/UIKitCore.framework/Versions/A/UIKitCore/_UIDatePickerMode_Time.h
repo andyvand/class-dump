@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
     NSString *_minuteFormat;
 }
 
-+ (unsigned long long)wn sender. Dropping notice.;
++ (unsigned long long);
 + (long long);
 - (double);
 - (void);
@@ -28,12 +28,12 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (long long);
 - (id);
-- (void)ndChat:(id)arg1 service:containsOneTimeCode:completion: /* Error: Ran out of types for this method. */;
-- (_Bool):(long long)arg1;
-- (id);
-- (id);
 - (void);
-- (double)tFrom: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (double)@0:8@16{_NSRange=QQ}24B40 /* Error: Ran out of types for this method. */;
+- (id)is bug!;
+- (void);
 
 @end
 

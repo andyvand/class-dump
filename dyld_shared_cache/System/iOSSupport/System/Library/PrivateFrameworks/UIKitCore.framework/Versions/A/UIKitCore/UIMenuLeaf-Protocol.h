@@ -8,19 +8,21 @@
 @protocol UIPopoverPresentationControllerSourceItem;
 
 @protocol UIMenuLeaf
-- (void);
-- (NSString *)1;
-- (void)1¢!0@ù
+- (void)Ôá;
+- (void)að!ÐDùñZð1Â0@ù
 × ;
-- (long long)As! BùñÆ1¢!0@ù
+- (long long)
 × ;
-- (long long)thClient:toOrientation:duration:andWindow: /* Error: Ran out of types for this method. */;
-- (unsigned long long)tion;
-- (UIImage *)ving session:%{public}@ /* Error: Ran out of types for this method. */;
-- (id <UIPopoverPresentationControllerSourceItem>)e~þÿ;
-- (void)owsOnFailedMovement;
-- (id)class. Expected subclass of NSArray.;
-- (void)eractiveDismissPinch;
+- (unsigned long long)ñc1Â0@ù
+× ;
+- (void)6;
+- (UIImage *)Point=dd}16{CGPoint=dd}32B48B52;
+- (NSString *)dFrame: /* Error: Ran out of types for this method. */;
+- (void)ionController;
+- (void)Insets=dddd},N,V_concaveInsets;
+- (void);
+- (id);
+- (NSString *)@ column. Split view controller:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) unsigned long long attributes;

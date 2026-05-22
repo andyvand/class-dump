@@ -4,10 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIViewControllerContextTransitioning;
-
 @protocol UIViewControllerAnimatedTransitioning
-- (void)åÿÿBþÿþÿêýÿ;
-- (double):(id <UIViewControllerContextTransitioning>)arg1 update still needed at end of update pass;
 @end
 

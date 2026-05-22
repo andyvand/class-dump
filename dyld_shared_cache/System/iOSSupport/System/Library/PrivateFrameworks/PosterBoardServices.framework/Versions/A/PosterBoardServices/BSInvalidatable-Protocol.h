@@ -5,6 +5,5 @@
 //
 
 @protocol BSInvalidatable
-- (void)fleStack:photoSubtype:focus:onlyEligibleForMadeForFocusSection: /* Error: Ran out of types for this method. */;
 @end
 

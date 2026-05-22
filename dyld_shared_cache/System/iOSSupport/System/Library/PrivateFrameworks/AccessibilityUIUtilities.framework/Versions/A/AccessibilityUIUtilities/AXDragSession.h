@@ -17,20 +17,20 @@
 }
 
 - (void);
-- (id)Capabilities";
+- (id);
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (id);
-- (id)`b;
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)gressView;
 
 // Remaining properties
 @property(nonatomic) __weak id <AXDragSessionDelegate> delegate; // @synthesize delegate=_delegate;

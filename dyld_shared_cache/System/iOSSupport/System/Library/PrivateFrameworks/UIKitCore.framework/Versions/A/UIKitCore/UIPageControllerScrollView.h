@@ -13,16 +13,17 @@
     UIPageController *_pageController;
 }
 
-- (void)compatible action type %lld;
-- (void)ProtobufDataForLocationShareStatusChangeItem called on object %@ %@;
-- (void)tChangeItem called on object %@ %@;
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void)À¹;
+- (void)!!¤DùÑ_ð1Â0@ù
+× ;
+- (void)orState:(struct CGRect)arg1 traitCollection: /* Error: Ran out of types for this method. */;
+- (void)è;
 
 // Remaining properties
 @property(nonatomic) UIPageController *pageController; // @synthesize pageController=_pageController;

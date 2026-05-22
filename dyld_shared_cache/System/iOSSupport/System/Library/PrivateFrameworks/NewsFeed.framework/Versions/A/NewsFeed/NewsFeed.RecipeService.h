@@ -12,6 +12,7 @@
     MISSING_TYPE *accessChecker;
     MISSING_TYPE *contentContext;
     MISSING_TYPE *tagController;
+    MISSING_TYPE *featureAvailability;
 }
 
 @end

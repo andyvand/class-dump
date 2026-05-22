@@ -8,8 +8,10 @@
 
 @interface NewsPersonalization.ArticleUserEventHistoryFeaturesFactory
 {
-    MISSING_TYPE *dataProvider;
+    MISSING_TYPE *userEventHistory;
+    MISSING_TYPE *dislikesSupplement;
     MISSING_TYPE *isSubscribed;
+    MISSING_TYPE *aggregateStoreFactory;
 }
 
 @end

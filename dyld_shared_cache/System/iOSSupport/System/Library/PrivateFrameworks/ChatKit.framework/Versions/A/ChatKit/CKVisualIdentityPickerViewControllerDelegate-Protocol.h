@@ -5,6 +5,5 @@
 //
 
 @protocol CKVisualIdentityPickerViewControllerDelegate
-- (void);
 @end
 

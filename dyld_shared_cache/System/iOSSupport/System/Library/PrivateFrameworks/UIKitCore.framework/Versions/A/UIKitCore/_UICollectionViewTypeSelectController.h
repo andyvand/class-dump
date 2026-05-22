@@ -17,26 +17,28 @@ __attribute__((visibility("hidden")))
     UICollectionView *_collectionView;
 }
 
-- (void)stringByTrimmingCharactersInSet:(id)arg1;
-- (void)compressedProtobufDataForUpdateT1:(id)arg1;
-- (void)eUnderFirstUnlock;
-- (CDStruct_c2cb4a46)tCG;
-- (id);
-- (void)};
-- (void)defer should defer %@;
-- (void)from %@ to %@;
+- (void);
+- (void);
+- (void);
+- (CDStruct_c2cb4a46);
+- (id);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (void);
-- (void)error=%{public}@;
-- (void)Jÿ¹;
-- (void)yEntryForName:(_Bool)arg1;
-- (id)ngViewController,S_setOriginalPresentingViewController:(id)arg1 ,V_originalPresentingViewController;
-- (void)O;
-- (_Bool)0Ì;
-- (void)è ;
-- (void)private}ld;
-- (id) þÿ;
-- (_Bool)§@a;
+- (void);
+- (_Bool)!;
+- (_Bool)
+× ;
+- (id)QfÐ1Â0@ù
+× ;
+- (id);
+- (void)egroundColor;
+- (void)eground;
+- (void)ÿ;
+- (void)$];
+- (void)d;
 
 // Remaining properties
 @property(nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;

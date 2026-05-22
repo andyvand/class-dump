@@ -7,9 +7,12 @@
 @class CLLocation;
 
 @protocol TSLocationDetectionManagerType
+- (CLLocation *)udioPlaylistStore:Found all %@ playlist articles in cache /* Error: Ran out of types for this method. */;
+- (void)a topic or channel;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool authorized;
+@property(nonatomic, readonly) CLLocation *currentLocation;
 @property(nonatomic, readonly) _Bool locationServicesEnabled;
 @property(nonatomic, readonly) CLLocation *mostFrequentLocation;
 @property(nonatomic, readonly) id observableMostFrequentLocation;

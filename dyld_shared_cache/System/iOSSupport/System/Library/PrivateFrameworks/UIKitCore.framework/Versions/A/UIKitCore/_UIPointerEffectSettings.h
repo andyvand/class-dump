@@ -28,20 +28,20 @@ __attribute__((visibility("hidden")))
     struct CGPoint _plasmaRubberbandFactor;
 }
 
-+ (_Bool)essage %@ did not impact grace period. isFromMe:%ld, didNotify:%ld /* Error: Ran out of types for this method. */;
++ (_Bool);
 + (id);
 - (double);
 - (double);
 - (void);
 - (void);
-- (void)W;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -60,12 +60,12 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ollerSupportedInterfaceOrientations: /* Error: Ran out of types for this method. */;
+- (void)Selector: /* Error: Ran out of types for this method. */;
+- (void)I÷;
 
 // Remaining properties
 @property(nonatomic) double dampedAnimationDampingRatio; // @synthesize dampedAnimationDampingRatio=_dampedAnimationDampingRatio;

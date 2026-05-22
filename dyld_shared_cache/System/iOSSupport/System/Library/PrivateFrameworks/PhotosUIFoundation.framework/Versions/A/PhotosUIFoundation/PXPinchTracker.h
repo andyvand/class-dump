@@ -61,23 +61,24 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
 - (struct CGAffineTransform);
-- (double);
-- (void);
-- (void);
-- (_Bool);
-- (struct CGSize);
 - (id);
-- (void);
-- (void);
-- (void);
 - (double);
+- (struct CGSize);
+- (struct CGPoint);
+- (_Bool);
+- (void);
 - (struct PXDisplayVelocity);
 - (void);
 - (void);
+- (double);
 - (void);
-- (struct CGPoint)Ì$°;
-- (void)entifier;
+- (void);
+- (void)ù
+× ;
+- (void)T_øÿr#Â[;
 
 // Remaining properties
 @property(nonatomic, setter=_setCenter:) struct CGPoint center; // @synthesize center=_center;

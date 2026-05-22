@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
 - (void);
-- (void);
+- (id)T@"_UIShadowProperties",&,N,V_previewShadowSettings;
+- (void))U43(<;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

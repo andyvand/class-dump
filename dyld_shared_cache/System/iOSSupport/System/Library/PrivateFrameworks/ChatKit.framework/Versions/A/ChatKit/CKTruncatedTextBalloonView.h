@@ -15,19 +15,19 @@
     UIImageView *_chevron;
 }
 
-- (struct CGSize)ing:(struct CGSize)arg1 includeNotes:(struct UIEdgeInsets *)arg2 includeWebsites:(struct UIEdgeInsets *)arg3;
-- (void)Results;
-- (void)mes;
+- (struct CGSize);
 - (void);
-- (_Bool)password-protected {note:%@} /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)h>;
-- (_Bool)6@?0@"UITextSelectionRect"8;
-- (id)highlightedImage:(struct CGRect)arg1;
+- (id);
+- (_Bool)`apaPbbcØc0ete<f;
+- (void)ticationUsernameKey;
 
 // Remaining properties
 @property(nonatomic) _Bool avoidTextLineBreaks; // @synthesize avoidTextLineBreaks=_avoidTextLineBreaks;

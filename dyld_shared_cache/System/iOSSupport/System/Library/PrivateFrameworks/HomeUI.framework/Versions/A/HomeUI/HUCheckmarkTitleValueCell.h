@@ -20,7 +20,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)endedLanguage;
 
 // Remaining properties
 @property(nonatomic, getter=isChecked) _Bool checked; // @synthesize checked=_checked;

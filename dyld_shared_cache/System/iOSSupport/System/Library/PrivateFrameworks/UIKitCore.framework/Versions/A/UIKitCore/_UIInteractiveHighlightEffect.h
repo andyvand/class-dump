@@ -22,18 +22,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)lPropertyMediaClipPreviewArtwork;
-- (id);
 - (void);
-- (id)1¢!0@ù
+- (void);
+- (id)0@ù
 × ;
-- (id)ing: /* Error: Ran out of types for this method. */;
-- (void)ntrolTabStyleProvider;
+- (void)1Â0@ù
+× ;
+- (void)edIfURLsDetected;
+- (id)UIInputViewControllerState",&,N,G_controllerState,V_controllerState;
+- (id)t is not defined because: /* Error: Ran out of types for this method. */;
+- (id)t;
+- (void)RenderingMode;
+- (struct UIEdgeInsets)[;
 - (void);
-- (struct UIEdgeInsets);
-- (void)-DTû!	@;
-- (void)ÿ31ðú\;
-- (id)a;
 
 // Remaining properties
 @property(nonatomic) __weak UIVisualEffectView *effectView; // @synthesize effectView=_effectView;

@@ -17,11 +17,11 @@
 
 - (void);
 - (void);
-- (void);
-- (void);
 - (double);
 - (void);
-- (long long)houldExcludeTopAndBottomPaddingFromReferenceSize;
+- (long long);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long direction; // @synthesize direction=_direction;

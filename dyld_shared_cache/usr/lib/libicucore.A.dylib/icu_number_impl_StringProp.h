@@ -6,8 +6,8 @@ class icu::number::impl::StringProp {
 public: // (access info unavailable from symbols alone)
     StringProp(icu::number::impl::StringProp const&);
     StringProp(icu::number::impl::StringProp&&);
-    operator=(icu::number::impl::StringProp const&);
-    operator=(icu::number::impl::StringProp&&);
-    set(icu::StringPiece);
+    auto operator=(icu::number::impl::StringProp const&);
+    auto operator=(icu::number::impl::StringProp&&);
+    auto set(icu::StringPiece);
     ~StringProp();
 };

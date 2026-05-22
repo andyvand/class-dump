@@ -8,16 +8,8 @@
 @protocol _UIForcePresentationControllerDelegate;
 
 @protocol UIForcePresentationController
-- (void)y;
-- (void):(void (^)(unsigned long long))arg1 %@, allowForbidden :%@, allowUnSeal :%d, updateDataClasses :%@, updateProperties :%@, getIntraFactoryData :%d /* Error: Ran out of types for this method. */;
-- (void)DRProductType;
-- (void)gning only, drop station signature;
-- (id <_UIForcePresentationControllerDelegate>);
-- (_Bool);
-- (_Bool)ept: /* Error: Ran out of types for this method. */;
-- (_Bool)e: /* Error: Ran out of types for this method. */;
-- (_UIStatesFeedbackGenerator *)dragTearoffOccured;
-- (void)e scene has been dealloced :(_UIStatesFeedbackGenerator *)arg1 manager=%@ layerTarget=%@ identifier=%@;
+- (void)gXw;
+- (_UIStatesFeedbackGenerator *)À\;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_revealContainerView;

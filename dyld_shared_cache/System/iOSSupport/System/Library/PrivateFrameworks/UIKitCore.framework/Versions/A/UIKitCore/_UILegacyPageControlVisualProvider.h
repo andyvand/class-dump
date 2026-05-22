@@ -20,41 +20,36 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (struct CGSize);
 - (id);
 - (id);
 - (void);
-- (void)esWithL1();
-- (struct CGSize);
+- (void);
+- (struct CGRect);
 - (_Bool);
-- (void);
-- (void);
-- (void)Ð!FùÑÅÐ1¢!0@ù
-× ;
-- (void)ùÆÐ1¢!0@ù
-× ;
-- (id)
-× ;
-- (id)Ô ;
-- (struct CGRect)× ;
-- (id)ùËÐ1¢!0@ù
-× ;
-- (id)!üEùÑÌÐ1¢!0@ù
-× ;
-- (void);
-- (void)nter;
-- (double)tion;
-- (void)est: /* Error: Ran out of types for this method. */;
-- (void)tring",R,C,N,V_systemDisplayIdentifier;
-- (struct CGRect)erPlaceholder;
-- (void)Ä;
-- (void)hÞ;
-- (id)ø;
-- (void)CKER_DEFAULT_FONT_NAME;
-- (id)client requested;
+- (id);
 - (struct CGSize);
-- (void)±;
-- (double);
-- (struct CGSize)ôæ;
+- (double)× ;
+- (struct CGRect);
+- (void)Ô ;
+- (void);
+- (id)ustomItems:(long long)arg1 inMenu:afterStandardItem: /* Error: Ran out of types for this method. */;
+- (id)etion:(long long)arg1;
+- (void)ion;
+- (id)hot;
+- (void)chController;
+- (void);
+- (void)Bring All to Front;
+- (void): /* Error: Ran out of types for this method. */;
+- (id)TVMenuLight;
+- (void)ªÿÿ;
+- (id);
+- (double)þÿ¡þÿ;
+- (struct CGSize)8;
+- (void);
+- (void);
+- (void)lM`;
+- (void)è·`;
 
 @end
 

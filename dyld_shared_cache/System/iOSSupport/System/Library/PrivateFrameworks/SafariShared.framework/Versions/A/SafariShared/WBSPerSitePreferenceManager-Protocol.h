@@ -7,9 +7,6 @@
 @protocol WBSPerSitePreferenceManagerDelegate;
 
 @protocol WBSPerSitePreferenceManager
-- (void)P8;
-- (void)8;
-- (void)";
 
 // Remaining properties
 @property(nonatomic) __weak id <WBSPerSitePreferenceManagerDelegate> delegate;

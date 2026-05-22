@@ -14,15 +14,14 @@ __attribute__((visibility("hidden")))
     double _height;
 }
 
-- (id)h;
 - (id);
-- (void)$;
 - (id);
-- (void)0@ù
+- (id);
+- (double)1Â0@ù
 × ;
-- (id)!P@ùÑÈ°1¢!0@ù
-× ;
-- (double);
+- (void)Duration;
+- (id)|{[;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *headerFooterView; // @synthesize headerFooterView=_headerFooterView;

@@ -28,27 +28,26 @@
 
 - (double);
 - (double);
-- (unsigned long long)ivityAdvertiserOptionVersionKey;
-- (id);
+- (id);
+- (double);
+- (id);
+- (double);
+- (id);
+- (id);
+- (id);
+- (double);
+- (double);
+- (id);
+- (double);
+- (double);
+- (id);
+- (double);
+- (unsigned long long);
 - (_Bool);
-- (_Bool)%@, exist:%ld, enabled:%ld, userDisabled:%ld, iCloudSignedIn:%ld, doesMatchiCloud:%ld, iTunesSignedIn:%ld, error:%ld, errorReason:%d, status:%ld, accountStatus:%d, hasEverRegistered:%ld, lastFailError:%ld, timeSinceFail:%f, timeSinceSuccess:%f, securityLevel:%ld, allAliasesSelected:%ld, allSelectedAliasesRegistered:%ld, numVetted:%ld, numUnselectUnknown:%ld, numUnselectAlertDenial:%ld, numUnselectClientCall:%ld, numUnselectBadAlias:%ld, numUnselecUpdateInfo:%ld, isProd:%ld> /* Error: Ran out of types for this method. */;
-- (double)location;
-- (id)LinkEndpointRelaySessionID;
-- (void);
+- (_Bool)ance:distanceUnc:tripLocations:routeRoads: /* Error: Ran out of types for this method. */;
+- (double)gestDwellTimeFromLocationsOfInterest:dwellTimePercentageThreshold: /* Error: Ran out of types for this method. */;
+- (void)%@, predictionEventMetrics, %{sensitive}@;
 - (id);
-- (double);
-- (double)";
-- (double);
-- (double);
-- (double);
-- (id)WithClientIdentifier: /* Error: Ran out of types for this method. */;
-- (id)er;
-- (id);
-- (id);
-- (double);
-- (double)! GùQ],ð1¢!0@ù
-× ;
-- (id)ure, %@, error, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *aoiCategoriesToSuppressContainingPOIs; // @synthesize aoiCategoriesToSuppressContainingPOIs=_aoiCategoriesToSuppressContainingPOIs;

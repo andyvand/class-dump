@@ -19,12 +19,13 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (struct CLLocationCoordinate2D)
+× ;
+- (void)guration:(id)arg1 %@;
+- (id)prompt;
 - (id);
-- (struct CLLocationCoordinate2D)RCH_RESULT_COUNT_FOR_SUGGESTION;
-- (void)r;
-- (id)NO7;
+- (void)u§Êkµ;
+- (void)È9;
 
 // Remaining properties
 @property(nonatomic) struct CLLocationCoordinate2D coordinate; // @synthesize coordinate=_coordinate;

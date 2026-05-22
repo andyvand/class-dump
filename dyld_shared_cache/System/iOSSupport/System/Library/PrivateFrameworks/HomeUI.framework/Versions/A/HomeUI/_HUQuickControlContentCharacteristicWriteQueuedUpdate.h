@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)queIdentifier = %{public}@) | Bypassing HomePod software version check for HH2 because the override is enabled;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableSet *affectedCharacteristics; // @synthesize affectedCharacteristics=_affectedCharacteristics;

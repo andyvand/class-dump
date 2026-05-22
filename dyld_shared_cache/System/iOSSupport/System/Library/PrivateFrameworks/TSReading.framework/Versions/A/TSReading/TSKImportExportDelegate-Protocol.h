@@ -6,9 +6,6 @@
 
 @protocol TSKImportExportDelegate
 
-@optional
-- (void);
-
 // Remaining properties
 @property(readonly, nonatomic) _Bool importingDesignDemoDoc;
 // Preceding property had unknown attributes: ?

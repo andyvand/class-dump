@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, UICollectionView, UIContextMenuConfiguration, UITargetedPreview, UIWindowSceneActivationConfiguration;
+@class NSIndexPath, UICollectionView, UICollectionViewTransitionLayout, UIContextMenuConfiguration, UITargetedPreview, UIWindowSceneActivationConfiguration;
 
 @protocol UICollectionViewDelegate
 
 @optional
-- (void);
-- (void)I!ɚ
-;
-- (_Bool)ent;
-- (_Bool);
-- (void)1ùÿ;
-- (UITargetedPreview *)fline;
-- (void)edL2;
-- (_Bool)w;
-- (UITargetedPreview *)downloads;
-- (_Bool)pSgXw;
-- (UIContextMenuConfiguration *)G;
-- (void)gyy_;
-- (void)üðÿÿÔëÿ´Y°þÁ
-;
-- (void)inks them to sign up for the newsletter.;
-- (void)or;
-- (void)wController failed to fetch web embed data source configuration; error=%{public}@;
-- (struct CGPoint)Library/Caches/com.apple.xbs/Sources/Feldspar/Modules/news-reader/NewsUI/Trackers/SubscriptionOffersTracker.swift;
-- (UIWindowSceneActivationConfiguration *)ineligibility reason;
-- (_Bool)ouFeedGroupEmitterCursor;
-- (_Bool)d disconnect sceneSession=%{public}@;
-- (void)ltered our curation for tag %{public}@ because of dedupping:(UICollectionView *)arg1 headline count=(%d), recipe count=(%d);
-- (_Bool)ed;
-- (_Bool)ved from My Magazines;
-- (void)Type;
-- (UITargetedPreview *);;
-- (void)odel;
-- (_Bool)í;
-- (NSIndexPath *)4Ô0ÿ;
-- (NSIndexPath *)AudioPlaylistFeedRouter;
-- (_Bool)\Àþ~H»»þ~¤U»þ;
-- (void)CodingKeys;
-- (NSIndexPath *)ïeT/2;
+- (void)! Fùñ°1Â0@ù
+× ;
+- (void)nvironment"24;
+- (UICollectionViewTransitionLayout *)ntextMenuConfiguration"48@0:(UICollectionView *)arg1 8@"UICollectionView"16@"NSArray"24{CGPoint=dd}32;
+- (void)recentSearchManager;
+- (void)|;
+- (UIWindowSceneActivationConfiguration *)üe2@fXf;
+- (UITargetedPreview *)¨À;
+- (void);
+- (UITargetedPreview *)`[äÿ\äÿT\äÿx\äÿ´\äÿØ\äÿ,]äÿP]äÿ]äÿ¤]äÿÈ]äÿ^äÿ(^äÿ¨^äÿ_äÿ(_äÿÈ_äÿ,`äÿh`äÿ`äÿaäÿaäÿÄaäÿhbäÿcäÿ(cäÿTcäÿxcäÿôcäÿTdäÿxdäÿ¨däÿÌdäÿðdäÿ,eäÿPeäÿÀeäÿäeäÿfäÿ8fäÿ\fäÿfäÿ¼fäÿläÿ0läÿ<läÿ`läÿlläÿxläÿ¬läÿðläÿ$mäÿXmäÿmäÿ4näÿXnäÿToäÿxoäÿ¤oäÿÈoäÿTpäÿðpäÿ4qäÿlräÿsäÿ<säÿsäÿ´säÿÄtäÿètäÿuäÿ<uäÿ`uäÿuäÿÀuäÿHväÿlväÿväÿ¼väÿHwäÿÌxäÿüxäÿ yäÿ|yäÿ¼yäÿÈyäÿtzäÿ{äÿ8{äÿ{äÿ´{äÿä{äÿ|äÿ,|äÿh|äÿ|äÿ|}äÿ}äÿ\~äÿ¨~äÿÌ~äÿü~äÿ äÿDäÿäÿ¤äÿôäÿ8äÿ\äÿÀäÿ;
+- (UIContextMenuConfiguration *)\cÞÿcÞÿdÞÿDdÞÿ°dÞÿfÞÿpgÞÿgÞÿÈgÞÿhÞÿØhÞÿähÞÿ8iÞÿ\iÞÿiÞÿ°iÞÿÔiÞÿjÞÿ4jÞÿ¤jÞÿÈjÞÿìjÞÿxkÞÿkÞÿÀkÞÿükÞÿ lÞÿDlÞÿxlÞÿ´lÞÿØlÞÿülÞÿ0mÞÿlmÞÿmÞÿ´mÞÿ`nÞÿoÞÿlpÞÿ¨pÞÿÌpÞÿqÞÿpqÞÿ´qÞÿØqÞÿüqÞÿrÞÿ¼rÞÿèrÞÿsÞÿsÞÿltÞÿuÞÿ,uÞÿ\uÞÿuÞÿ¤uÞÿàuÞÿvÞÿ\vÞÿÈwÞÿxÞÿ(xÞÿxÞÿ°xÞÿäxÞÿ yÞÿDyÞÿhyÞÿzÞÿzÞÿ°zÞÿÔzÞÿ{Þÿ4{Þÿ{Þÿ|Þÿ<|Þÿ`|ÞÿÄ|Þÿè|Þÿ}ÞÿP}Þÿ¤}Þÿ0~Þÿl~Þÿ¨~ÞÿÌ~Þÿð~Þÿ,ÞÿPÞÿtÞÿ°ÞÿÔÞÿ¤ÞÿìÞÿÞÿ¤ÞÿØÞÿÞÿXÞÿÜÞÿ0ÞÿTÞÿÞÿ¨ÞÿÌÞÿ;
+- (void)ôËûÿ;
+- (_Bool)fetchDeduper;
+- (NSIndexPath *)nfigManager;
+- (void)ÿriÝÿ;
+- (void)Þðÿ;
+- (void)ØÇÿÿ´íÿ;
+- (_Bool)Presenting Continue Reading prompt :(UICollectionView *)arg1 %{public}@;
+- (_Bool)Manager refreshing onboarding state, done.;
+- (UIContextMenuConfiguration *)í¥X`c þý¥X´êÿ¦X¤×¬þ%¦Xô×¬þ½¥XTØ¬þm¥X´Ø¬þU¥XüØ¬þm¥XDÙ¬þ=¥XÙ¬þ-¥XÔÙ¬þÕ¥XÚ¬þÝ¥XlÚ¬þ=¥XÌÚ¬þ%¥XÛ¬þ¥XPêÿ;
+- (_Bool);
+- (_Bool)õ;
+- (_Bool)û\|¯þµû\Nnÿ;
+- (_Bool)ýÿÿ­ÎÏ±	;
 @end
 

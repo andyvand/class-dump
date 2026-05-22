@@ -4,16 +4,16 @@
 
 class HVF::Composite {
 public: // (access info unavailable from symbols alone)
-    asPart();
-    countAllAxes() const;
-    countAllSubparts() const;
-    countAxes() const;
-    countExtremes() const;
-    finalizeShim();
-    isComposite() const;
-    isEmpty() const;
-    maxmimumExtremes() const;
-    shim();
-    validate() const;
+    auto asPart();
+    auto countAllAxes() const;
+    auto countAllSubparts() const;
+    auto countAxes() const;
+    auto countExtremes() const;
+    auto finalizeShim();
+    auto isComposite() const;
+    auto isEmpty() const;
+    auto maxmimumExtremes() const;
+    auto shim();
+    auto validate() const;
     ~Composite();
 };

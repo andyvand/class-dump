@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 + (double);
 - (void);
 - (id);
-- (void)rIdentifier;
-- (void);
-- (id)SToolbarSupplementarySidebarSeparatorItem;
+- (void);
+- (id)iguringColumnNavigationController;
+- (void)®Ý;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *deleteLineColor;

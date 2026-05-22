@@ -68,13 +68,13 @@
     id <UIViewControllerInteractiveTransitioning> __interactor;
 }
 
-+ (_Bool)j;
++ (_Bool);
 + (_Bool);
 + (void);
 + (Class);
 + (_Bool);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)r:forTabBarObservedScrollView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setAccessoryView:) UIView *_accessoryView; // @synthesize _accessoryView;

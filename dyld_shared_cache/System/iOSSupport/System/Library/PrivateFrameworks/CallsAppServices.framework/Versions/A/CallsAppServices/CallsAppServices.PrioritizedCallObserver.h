@@ -14,8 +14,8 @@
     MISSING_TYPE *previousCallStates;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

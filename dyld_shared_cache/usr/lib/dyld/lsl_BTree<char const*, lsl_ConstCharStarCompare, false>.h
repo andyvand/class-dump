@@ -4,5 +4,5 @@
 
 class lsl::BTree<char const*, lsl::ConstCharStarCompare, false> {
 public: // (access info unavailable from symbols alone)
-    insert_internal(lsl::BTree<char const*, lsl::ConstCharStarCompare, false>::const_iterator&&, char const*&&);
+    auto insert_internal(lsl::BTree<char const*, lsl::ConstCharStarCompare, false>::const_iterator&&, char const*&&);
 };

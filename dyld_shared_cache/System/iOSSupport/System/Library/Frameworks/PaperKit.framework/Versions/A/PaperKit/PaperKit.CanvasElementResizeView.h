@@ -30,23 +30,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (_Bool);
-- (id);
+- (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
-- (long long)ledButtonConfiguration;
+- (id);
+- (id);
+- (id);
+- (void)Lþÿ8>ýÿ >ýÿ;
+- (long long)_Qo__ÏylÉyytAAyAAyAAyAFñµySiSgGGAUyGGãÓGG_ATyyt¦°yð=CÛyAFGGGATyytA3_yAAyÜ=çµySbGGAAyòÔyA6__ÈÒQo_A11_GGGtGQo_Gã¤Ge£yÏªGG_Qo_;
+- (id);
+- (void);
 
 @end
 

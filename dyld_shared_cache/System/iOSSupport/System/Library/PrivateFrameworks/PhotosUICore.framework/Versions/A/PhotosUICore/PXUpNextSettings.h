@@ -57,7 +57,7 @@
     NSArray *_vector4;
 }
 
-+ (id)BM}=;;
++ (id)Ègÿ;
 - (float);
 - (float);
 - (float);
@@ -154,10 +154,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (void);
-- (id)ZyqZZtZZyvZZGGAGG;
-- (void)»;
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long curationMode; // @synthesize curationMode=_curationMode;

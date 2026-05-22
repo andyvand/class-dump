@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
     double _rightMarginForDoneButton;
 }
 
-+ (Class)archInfo;
++ (Class): /* Error: Ran out of types for this method. */;
 - (void);
-- (void)<;
+- (void);
 - (double);
 - (struct CGRect);
-- (id);
-- (id)ÍBd;
+- (id)ing *getIAPayloadKeySmartRepliesSelectedIntent(void);
+- (id)$e`;
 
 // Remaining properties
 @property(nonatomic) struct CGRect frameForDoneButton;

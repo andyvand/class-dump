@@ -7,8 +7,6 @@
 @class FCArticle, NSArray, NSString;
 
 @protocol NUArticleDataProvider
-- (FCArticle *);
-- (NSString *)dImage;
 
 // Remaining properties
 @property(readonly, nonatomic) FCArticle *article;

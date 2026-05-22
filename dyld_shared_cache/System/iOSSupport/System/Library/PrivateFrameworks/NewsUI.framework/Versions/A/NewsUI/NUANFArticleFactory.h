@@ -16,12 +16,12 @@
 - (id);
 - (id);
 - (id);
+- (long long);
+- (id);
+- (long long);
 - (void);
 - (void);
-- (long long);
-- (long long);
-- (id)ler"16B24;
-- (void)à;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) FCArticleController *articleController; // @synthesize articleController=_articleController;

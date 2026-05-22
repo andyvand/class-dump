@@ -29,13 +29,13 @@
 - (void);
 - (void);
 - (void);
+- (id);
+- (_Bool);
 - (CDUnknownBlockType);
 - (void);
+- (void)¨;
+- (long long)ÝÓyD;
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (long long);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

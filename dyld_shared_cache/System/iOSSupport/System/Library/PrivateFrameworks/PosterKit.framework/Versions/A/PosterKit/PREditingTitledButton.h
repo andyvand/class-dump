@@ -26,13 +26,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
 - (struct CGSize);
-- (id);
-- (struct UIEdgeInsets);
-- (id);
 - (struct CGSize);
-- (struct PREditingTitledButtonMetrics)eAssertion"8;
+- (struct PREditingTitledButtonMetrics);
+- (id);
+- (id);
+- (id);
+- (struct UIEdgeInsets)nEnabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

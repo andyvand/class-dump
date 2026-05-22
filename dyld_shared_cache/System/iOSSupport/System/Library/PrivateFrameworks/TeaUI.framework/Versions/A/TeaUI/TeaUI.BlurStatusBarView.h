@@ -11,10 +11,10 @@
     MISSING_TYPE *barView;
 }
 
-- (void);
-- (id)hSources;
+- (id);
 - (void);
 - (id);
+- (void);
 
 @end
 

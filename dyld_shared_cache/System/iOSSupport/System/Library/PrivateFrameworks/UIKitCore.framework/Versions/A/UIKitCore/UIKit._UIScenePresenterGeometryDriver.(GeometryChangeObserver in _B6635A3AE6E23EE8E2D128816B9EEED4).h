@@ -11,7 +11,7 @@
     MISSING_TYPE *driver;
 }
 
-- (void);
+- (void);
 
 @end
 

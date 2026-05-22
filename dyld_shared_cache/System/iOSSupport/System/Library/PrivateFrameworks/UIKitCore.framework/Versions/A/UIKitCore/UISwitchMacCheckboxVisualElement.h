@@ -15,20 +15,20 @@ __attribute__((visibility("hidden")))
     NSButton *_macCheckbox;
 }
 
-+ (_Bool)Ð´¼ ¤ @¢¢Ð¥¦Ø¦§@¨à¨H©ª;
-- (void)ProcessingController;
++ (_Bool)@:%p; backgroundColor = %@ /* Error: Ran out of types for this method. */;
+- (void);
 - (struct CGPoint);
 - (void);
-- (void);
-- (void);
-- (id)qÆÐ1¢!0@ù
+- (_Bool)Ñ[1Â0@ù
 × ;
-- (void)imingCurveType;
-- (struct UIEdgeInsets)LayoutFormatOptions _alignmentOptionsForStackViewAlignment(UIStackViewAlignment);
-- (id)LongPressGestureRecognizer, you may see unexpected behaviors;
-- (_Bool)-þ;
-- (struct CGSize)Ögf;
-- (void)]g;
+- (void)0:(_Bool)arg1 8@"UITableView"16@"<UIDropSession>"24;
+- (void)ion:(id)arg1;
+- (id)nShapesEnabled:(struct CGRect)arg1;
+- (struct CGSize)mit finished for orientation transaction token:(struct CGSize)arg1 %@;
+- (void)¼þÿíîÿ¢õîÿDðîÿ;
+- (id)cribing_p;
+- (void)\b;
+- (struct UIEdgeInsets)Ø¸­d;
 
 @end
 

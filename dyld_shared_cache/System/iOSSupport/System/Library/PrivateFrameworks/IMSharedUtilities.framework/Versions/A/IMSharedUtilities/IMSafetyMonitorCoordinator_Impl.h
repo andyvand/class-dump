@@ -15,15 +15,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (long long);
-- (void);
-- (void);
+- (long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,8 +32,8 @@
 - (id);
 - (id);
 - (void);
-- (void)P;
 - (id);
+- (void)incorrect.;
 
 // Remaining properties
 @property(nonatomic, readonly) NSDictionary *appPayload;

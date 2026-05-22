@@ -13,10 +13,10 @@
     MISSING_TYPE *dismissalButton;
 }
 
-- (id);
-- (void)ty: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)èþ;
+- (id);
+- (id);
+- (void)wðþUU:èwðþUU:àµwþUU:¬í$ÿ /* Error: Ran out of types for this method. */;
 
 @end
 

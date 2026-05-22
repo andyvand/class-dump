@@ -17,33 +17,36 @@
 }
 
 + (Class);
-- (_Bool);
-- (struct CGSize);
-- (void);
-- (void);
 - (struct CGRect);
-- (_Bool)r/lib/libssl.35.dylib;
 - (void);
-- (_Bool);
-- (struct CGRect);
-- (_Bool)layer;
-- (void);
-- (_Bool);
 - (id);
-- (void);
-- (_Bool)× ;
-- (void)°1¢!0@ù
-× ;
-- (void)!y°!hBùÑÎ1¢!0@ù
-× ;
-- (void)chRoutingPolicy;
-- (id)iew:(id)arg1;
-- (void)containsZeroPoint;
-- (id);
-- (struct CGRect)nfigurationState.m;
-- (void)ÿ;
-- (struct UIEdgeInsets);
 - (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool)
+× ;
+- (void)±]Ð1Â0@ù
+× ;
+- (struct CGSize);
+- (void)f1Â0@ù
+× ;
+- (void)! AùÑg°1Â0@ù
+× ;
+- (void)ViewTraversalMark: /* Error: Ran out of types for this method. */;
+- (void)fset;
+- (_Bool)ller:sourceController: /* Error: Ran out of types for this method. */;
+- (_Bool)ler;
+- (id)eadingColumnSize:(struct CGRect)arg1 trailingColumnSize:supplementaryColumnSize: /* Error: Ran out of types for this method. */;
+- (void)playingContinuousFeedback;
+- (id)ainerStyle;
+- (void)
+;
+- (struct CGRect);
+- (struct CGRect);
+- (_Bool)^;
+- (void);
+- (struct UIEdgeInsets);
 
 // Remaining properties
 @property(nonatomic, setter=_setAdditionalSelectionInsets:) struct UIEdgeInsets _additionalSelectionInsets; // @synthesize _additionalSelectionInsets=__additionalSelectionInsets;

@@ -4,19 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIInterfaceActionGroupViewState, UIView;
-@protocol UIInterfaceActionVisualSeparatorDisplaying;
-
 @protocol UIInterfaceActionConcreteVisualStyleImpl
-- (struct UIEdgeInsets)sControllerMatchStatusDidChangeNotification;
-
-@optional
-- (UIView<UIInterfaceActionVisualSeparatorDisplaying> *)!;
-- (double);
-- (NSArray *)R;
-- (void)fersToSyncRowIDs:(UIView *)arg1;
-- (void)e:(UIView *)arg1;
-- (void)dates:(UIView *)arg1;
-- (double)NumberForSIMID:(UIInterfaceActionGroupViewState *)arg1;
 @end
 

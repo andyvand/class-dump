@@ -15,7 +15,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool):8@"MTLSamplerDescriptor"16 /* Error: Ran out of types for this method. */;
 - (void);
 - (struct __CFXCameraEffectVignetting *);
 - (float);
@@ -25,12 +25,12 @@
 - (float);
 - (void);
 - (void);
+- (id);
 - (void);
-- (id);
-- (id);
-- (float);
 - (float);
 - (void);
+- (id);
+- (float);
 
 // Remaining properties
 @property(nonatomic) float anamorphic;

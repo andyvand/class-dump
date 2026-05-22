@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id)ionPicker: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);

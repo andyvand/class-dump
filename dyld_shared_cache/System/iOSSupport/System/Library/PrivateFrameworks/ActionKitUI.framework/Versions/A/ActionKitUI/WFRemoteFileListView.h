@@ -31,16 +31,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void);
 - (id);
+- (long long);
+- (void);
 - (long long);
 - (struct UIEdgeInsets);
 - (id);
 - (void);
 - (void);
-- (long long);
-- (void);
 - (id);
-- (void);
 - (id);
 - (id);
 

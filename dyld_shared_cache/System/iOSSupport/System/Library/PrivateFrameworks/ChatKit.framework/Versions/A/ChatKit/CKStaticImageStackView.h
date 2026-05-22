@@ -14,8 +14,8 @@
     PFMessagesStackLayoutFrameSolver *_frameSolver;
 }
 
-- (double)fter:includingAttributes:usingBlock: /* Error: Ran out of types for this method. */;
-- (void)sentOptionalFeatures:(double)arg1 requiredFeaturesRequested:optionalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
+- (double);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -26,8 +26,8 @@
 - (void);
 - (void);
 - (id);
-- (void): /* Error: Ran out of types for this method. */;
 - (void);
+- (void)¼ä$Ô;
 
 // Remaining properties
 @property(retain, nonatomic) PFMessagesStackLayoutFrameSolver *frameSolver; // @synthesize frameSolver=_frameSolver;

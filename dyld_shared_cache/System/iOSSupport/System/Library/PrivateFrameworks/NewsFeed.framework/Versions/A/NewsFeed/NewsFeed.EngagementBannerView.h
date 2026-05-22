@@ -14,8 +14,9 @@
 }
 
 - (id);
-- (void)persistence: /* Error: Ran out of types for this method. */;
-- (id)eed35SportsDataServiceRequestBuilderTypeP;
+- (id)!ÈFùÿ1Â0@ù
+× ;
+- (void);
 
 @end
 

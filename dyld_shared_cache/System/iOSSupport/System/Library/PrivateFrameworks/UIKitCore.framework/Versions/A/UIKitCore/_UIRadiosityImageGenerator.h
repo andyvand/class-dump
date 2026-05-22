@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)bàq;
++ (id)`ÍÚ$9k;
 - (void);
 
 @end

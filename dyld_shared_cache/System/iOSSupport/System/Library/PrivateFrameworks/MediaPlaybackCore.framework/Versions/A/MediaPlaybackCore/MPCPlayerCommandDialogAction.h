@@ -12,12 +12,12 @@
     MPCMediaRemoteController *_controller;
 }
 
-- (id)Ds:(id)arg1 dateInterval:(id)arg2 completion: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)ȶ;
 - (id);
 - (id);
 - (long long);
+- (void)c}@ %{public}@;
+- (id)dern PIA;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *localizedTitle;

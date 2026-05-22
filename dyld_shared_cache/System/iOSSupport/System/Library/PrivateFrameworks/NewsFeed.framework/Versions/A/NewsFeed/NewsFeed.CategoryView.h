@@ -15,8 +15,8 @@
 }
 
 - (id);
-- (void)riptForResource:injectionTime: /* Error: Ran out of types for this method. */;
-- (id)ÏóÂ;
+- (id)on>"48@0:(struct CGRect)arg1 8@"UIDragInteraction"16@"NSArray"24{CGPoint=dd}32;
+- (void);
 
 @end
 

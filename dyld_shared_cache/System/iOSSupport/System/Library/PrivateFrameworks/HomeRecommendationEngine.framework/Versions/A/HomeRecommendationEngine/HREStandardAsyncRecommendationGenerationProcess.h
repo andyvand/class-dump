@@ -31,10 +31,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (unsigned long long);
+- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) HMHome *home; // @synthesize home=_home;

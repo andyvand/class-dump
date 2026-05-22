@@ -5,6 +5,5 @@
 //
 
 @protocol AVTAvatarRecordDataSource
-- (unsigned long long);
 @end
 

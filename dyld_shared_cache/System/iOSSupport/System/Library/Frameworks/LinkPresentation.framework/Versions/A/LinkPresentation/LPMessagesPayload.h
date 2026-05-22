@@ -17,21 +17,22 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)inComposeContext;
-- (void);
++ (_Bool);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id)me;
-- (void);
 - (id);
-- (void)FindMyAccessoryFamilyShareEnvelope;
+- (id);
 - (id);
 - (void);
-- (_Bool);
 - (void);
+- (void);
+- (_Bool);
+- (void)á÷!8GùQð1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;

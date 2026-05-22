@@ -13,9 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
 - (id);
-- (void)ïj8òj8yüj8GIegnn_;
+- (void)
+× ;
+- (void)entP;
 
 // Remaining properties
 @property(nonatomic) __weak id delegate; // @synthesize delegate=_delegate;

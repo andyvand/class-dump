@@ -7,10 +7,7 @@
 @class NSString;
 
 @protocol _UIGestureStudyParticipating
-- (double);
-- (NSString *)CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@"UIView<UITableConstantsCellProviding>"16@"<UITableConstantsTableProviding>"24 /* Error: Ran out of types for this method. */;
-- (struct CGPoint)undImageChangedToOrFromNil;
-- (double)_didUpdateFocusInContext:outside of a focus update. /* Error: Ran out of types for this method. */;
+- (NSString *)ecognizer;
 
 // Remaining properties
 @property(readonly, nonatomic) double duration;

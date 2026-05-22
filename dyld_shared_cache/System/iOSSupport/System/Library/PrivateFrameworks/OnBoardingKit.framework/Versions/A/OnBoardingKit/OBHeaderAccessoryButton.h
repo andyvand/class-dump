@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (void)ubFrameDomainID, topFrameDomainID );
+- (void);
 - (void);
 
 // Remaining properties

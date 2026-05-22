@@ -70,31 +70,32 @@
 - (id);
 - (void);
 - (double);
-- (void);
 - (double);
 - (void);
 - (double);
 - (id);
 - (void);
-- (id);
 - (unsigned long long);
-- (void);
+- (unsigned long long);
+- (id);
 - (void);
 - (void);
 - (struct CGSize);
-- (unsigned long long);
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
-- (struct CGRect);
+- (void);
 - (id);
-- (id);
-- (void)üÄ;
+- (void);
+- (struct CGRect)Ô ;
+- (id)0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_backgroundView; // @synthesize _backgroundView=__backgroundView;

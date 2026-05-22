@@ -37,14 +37,13 @@
 - (struct CGImage *);
 - (void);
 - (struct CGImage *);
-- (struct CGRect);
 - (void);
-- (void);
-- (long long);
 - (id);
-- (struct __CVBuffer *)1B0@ù
-× ;
-- (struct CGRect)rk;
+- (long long);
+- (struct CGRect);
+- (struct __CVBuffer *);
+- (void);
+- (struct CGRect)onTimeInterval;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *animatedStickerScore; // @synthesize animatedStickerScore=_animatedStickerScore;

@@ -8,14 +8,10 @@
 @protocol FCChannelProviding;
 
 @protocol FCFeedTransformationItem
-- (void);
-- (long long);
-- (unsigned long long)Suggestion: /* Error: Ran out of types for this method. */;
-- (NSString *)rrors ;
+- (long long);
 
 @optional
-- (int);
-- (unsigned long long)ddedDynamicViewControllerDelegateP;
+- (int)ttings8Settings19BundleSubscriptions32FreeUserEducationUpsellOverrides;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *articleID;

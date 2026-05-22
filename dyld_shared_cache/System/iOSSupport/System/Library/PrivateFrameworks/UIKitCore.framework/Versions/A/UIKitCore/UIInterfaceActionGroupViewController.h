@@ -20,20 +20,20 @@
 - (void);
 - (void);
 - (id);
-- (id)from CloudKit with operation %@;
 - (id);
 - (id);
-- (id)sage Header:msg 0x%x status 0x%x checksum 0x%x /* Error: Ran out of types for this method. */;
-- (void)٠;
+- (id);
 - (void);
-- (void);
-- (id)1¢!0@ù
+- (_Bool);
+- (id)
 × ;
-- (void)howingReplace:(_Bool)arg1;
-- (_Bool)%.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g, %.*g];
-- (void)ted class for placeholder scene:(_Bool)arg1 %@;
-- (void)¬Íl;
-- (void)5ÿ(á&;
+- (void)anguage:(_Bool)arg1;
+- (void)GisBeingDismissed;
+- (void)earching;
+- (void)Ô Íè^;
+- (void)<5êÿ;
+- (void)äig;
+- (id)þÁË^Lo;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) UIInterfaceActionGroup *actionGroup; // @synthesize actionGroup=_actionGroup;

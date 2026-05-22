@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
     NSArray *_multi;
 }
 
-+ (_Bool)faceWithProtocol: /* Error: Ran out of types for this method. */;
++ (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
 - (void);
 
 // Remaining properties

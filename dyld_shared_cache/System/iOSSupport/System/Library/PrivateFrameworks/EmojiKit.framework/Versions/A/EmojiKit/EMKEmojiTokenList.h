@@ -17,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly) unsigned long long count;

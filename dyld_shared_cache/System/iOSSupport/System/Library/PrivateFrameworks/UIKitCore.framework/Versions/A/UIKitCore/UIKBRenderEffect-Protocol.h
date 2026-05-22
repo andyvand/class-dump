@@ -7,15 +7,15 @@
 @class UIKBGradient;
 
 @protocol UIKBRenderEffect
-- (_Bool)0@ù
-× ;
 - (_Bool)0@ù
 × ;
-- (double)
+- (_Bool)× ;
+- (void)ð1Â0@ù
 × ;
-- (void)r:(double)arg1;
-- (struct CGColor *)olsForKeys;
-- (UIKBGradient *)à;
+- (UIKBGradient *)16@"NSArray"24{_NSRange=QQ}32@"WTContext"48B56;
+- (double)ed;
+- (void)<Ì>;
+- (struct CGColor *)board.onehanded.right;
 
 // Remaining properties
 @property(readonly, nonatomic) UIKBGradient *gradient;

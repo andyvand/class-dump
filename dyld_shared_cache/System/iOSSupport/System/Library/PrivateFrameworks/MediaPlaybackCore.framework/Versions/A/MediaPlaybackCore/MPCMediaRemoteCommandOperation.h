@@ -18,16 +18,16 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id)ccount's storefront ID changed from %{public}@ to %{public}@.;
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id)\;
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (id)subscription lease request for error resolution;
+- (void)ration from end event %{public}@ - start event %{public}@ = %.3fs;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;

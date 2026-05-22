@@ -16,8 +16,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)chTerm);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;

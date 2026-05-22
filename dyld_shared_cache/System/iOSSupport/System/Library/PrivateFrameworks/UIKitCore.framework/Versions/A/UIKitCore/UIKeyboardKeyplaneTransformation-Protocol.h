@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol UIKeyboardKeyplaneTransformation
-+ (NSString *)oCopy:length:deallocator: /* Error: Ran out of types for this method. */;
 @end
 

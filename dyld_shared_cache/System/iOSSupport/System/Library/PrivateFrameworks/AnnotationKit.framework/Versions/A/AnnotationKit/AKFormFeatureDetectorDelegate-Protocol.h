@@ -5,9 +5,5 @@
 //
 
 @protocol AKFormFeatureDetectorDelegate
-
-@optional
-- (_Bool)ibly transient) error status code:%ld /* Error: Ran out of types for this method. */;
-- (double)>(;
 @end
 

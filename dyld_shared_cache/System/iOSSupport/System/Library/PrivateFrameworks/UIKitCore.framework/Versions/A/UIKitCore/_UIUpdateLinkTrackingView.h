@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     _UIUpdateLinkViewInteraction *_interaction;
 }
 
-+ (id)s it is too long;
-- (void)i24@28;
-- (void)options;
++ (id);
+- (void);
+- (void);
 
 @end
 

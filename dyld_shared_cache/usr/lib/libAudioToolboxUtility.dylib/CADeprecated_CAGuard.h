@@ -5,10 +5,10 @@
 class CADeprecated::CAGuard {
 public: // (access info unavailable from symbols alone)
     CAGuard(char const*);
-    Notify();
-    NotifyAll();
-    Wait();
-    WaitFor(unsigned long long);
-    WaitUntil(unsigned long long);
+    auto Notify();
+    auto NotifyAll();
+    auto Wait();
+    auto WaitFor(unsigned long long);
+    auto WaitUntil(unsigned long long);
     ~CAGuard();
 };

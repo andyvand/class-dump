@@ -13,8 +13,8 @@
 
 - (void);
 - (void);
-- (id)leForRequest:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (id)nyAByÑÎAOG_AByABy2¢pyAFz¤nGdnGþnyAByUnyn:¡nGAXGGGSgtGGÎGGGGAFGönGA14_G /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

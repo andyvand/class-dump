@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool)â|¬;
+- (_Bool)ebBrowserView";
+- (id)ggestionController;
+- (_Bool)V__broadcaster;
+- (void)nBarTransitionAssistantCSgIegyg_;
 
 @end
 

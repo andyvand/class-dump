@@ -7,8 +7,7 @@
 @class UIColor, UIFont;
 
 @protocol PXPosterMutablePreferences
-- (UIColor *)hEnabled: /* Error: Ran out of types for this method. */;
-- (void)ck. Error:(UIColor *)arg1 %@;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long deviceMotionMode;

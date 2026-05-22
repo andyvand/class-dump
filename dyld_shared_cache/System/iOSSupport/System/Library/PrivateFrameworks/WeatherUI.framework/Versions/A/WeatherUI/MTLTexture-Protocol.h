@@ -7,9 +7,12 @@
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
+- (unsigned long long);
+- (id <MTLBuffer>)scription component for high/low temperatures in daily forecast;
+- (unsigned long long)?ÙÿÿßÓÓã?;
+- (CDStruct_a06f635e)$;
+- (unsigned long long)Ä;
 - (unsigned long long);
-- (unsigned long long)animation;
-- (unsigned long long)ö#?øý#?Õ$?¢$?$?K$?%$?õ,$?Â4$?<$?kD$?8L$?T$?Ñ[$?c$?{k$?Gs$?{$?à$?­$?y$?F$?H¥$?ß©$?±$?g¹$?3Á$?;
 
 // Remaining properties
 @property(readonly) _Bool allowGPUOptimizedContents;
@@ -42,7 +45,7 @@
 @property(readonly) unsigned long long sampleCount;
 @property(readonly, getter=isShareable) _Bool shareable;
 @property(readonly) long long sparseTextureTier;
-@property(readonly, nonatomic) struct swizzle;
+@property(readonly, nonatomic) CDStruct_a06f635e swizzle;
 @property(readonly) unsigned long long tailSizeInBytes;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TQ,?,R

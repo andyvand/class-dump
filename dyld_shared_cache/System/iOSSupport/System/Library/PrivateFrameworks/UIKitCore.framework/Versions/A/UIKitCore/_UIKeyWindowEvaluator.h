@@ -19,37 +19,37 @@ __attribute__((visibility("hidden")))
     id <BSInvalidatable> _stateCaptureToken;
 }
 
-+ (id)i28@32;
-- (void);
-- (id)payloadADMapGGIDAttributeFlag;
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long)CGSize=dd}24;
++ (id)es: /* Error: Ran out of types for this method. */;
 - (id);
-- (void)r;
 - (void);
 - (id);
-- (unsigned long long)�i;
 - (void);
-- (void)× ;
 - (id);
-- (void)@ù
+- (id);
+- (id);
+- (unsigned long long);
+- (void);
+- (id);
+- (unsigned long long)Ô ;
+- (id)¡!ð@ù1[°1Â0@ù
 × ;
-- (void);
-- (id);
-- (unsigned long long)@ù
+- (id)
 × ;
-- (id)ngEdge:(id)arg1;
-- (void)et:(long long)arg1 text:magnificationPoint:offset:animated: /* Error: Ran out of types for this method. */;
-- (id)nceImageView;
-- (id)ingTraits: /* Error: Ran out of types for this method. */;
-- (void)arySystemBackgroundColor;
-- (void);
-- (id)ðÿÿÿÊqèÿðÜoþÔ¦þÿ;
-- (id)sedDepthLevel;
-- (id)P±ôþg4Øâ a;
+- (void)nge"b1};
+- (void):(id)arg1 8^{__IOHIDEvent=}16I24;
+- (void)lock:(id)arg1;
+- (void)th:(long long)arg1 possibleTitles:withToolbarTintColor: /* Error: Ran out of types for this method. */;
+- (id)Name:(long long)arg1 size: /* Error: Ran out of types for this method. */;
+- (void)ayout;
+- (id)eAnimations;
+- (void)setSmallestUndimmedDetentIdentifierWhenFloating:(id)arg1;
+- (void)sentationControllerAccess;
+- (unsigned long long)pertyObserver;
+- (void)ranslateForReachability;
+- (id)ectsAndSymbols;
+- (void)y¿7y¿7_G;
+- (void)Alignment;
+- (void)ÿÃÁÕ 0^;
 
 // Remaining properties
 @property(readonly, nonatomic) UIWindow *applicationKeyWindow;

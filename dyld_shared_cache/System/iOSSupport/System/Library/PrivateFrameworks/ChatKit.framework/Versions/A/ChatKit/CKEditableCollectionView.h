@@ -13,16 +13,16 @@
 
 - (void);
 - (void);
-- (struct UIEdgeInsets)stem paper thumbnails updated;
-- (struct UIEdgeInsets)r access to these locked notes.;
-- (struct UIEdgeInsets)nTypeSystem;
-- (struct UIEdgeInsets)nType:] /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (struct UIEdgeInsets)4Ý1S.;
+- (struct UIEdgeInsets)Z´ZSgG_çQo_ãnZG|ZyALyALyZys-[yACyAdEGG_APSg¨-[APtGAMyAP_AqprPtGGALyAMyAP_ArPtGZGGAWGG@çGZ`ZG;
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing; // @synthesize _ck_editing=__ck_editing;

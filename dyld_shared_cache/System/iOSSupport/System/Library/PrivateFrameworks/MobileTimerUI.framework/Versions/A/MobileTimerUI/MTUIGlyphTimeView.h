@@ -14,20 +14,20 @@
     unsigned long long _style;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (unsigned long long);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *glyphImageView; // @synthesize glyphImageView=_glyphImageView;

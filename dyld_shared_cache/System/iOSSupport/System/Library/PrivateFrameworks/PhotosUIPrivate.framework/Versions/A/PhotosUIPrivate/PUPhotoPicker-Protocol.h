@@ -7,7 +7,6 @@
 @class NSArray, NSDictionary;
 
 @protocol PUPhotoPicker
-- (NSDictionary *)y¦W½SgGGAEyÚ[½SgGGG°R½yB_½GG_ªK¿Qo_;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsMultipleSelection;

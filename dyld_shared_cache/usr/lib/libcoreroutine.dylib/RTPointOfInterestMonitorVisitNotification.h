@@ -15,8 +15,8 @@
 
 - (id);
 - (id);
-- (void);
-- (id)iveWebSheet;
+- (id);
+- (void)ation data;
 
 // Remaining properties
 @property(readonly, nonatomic) RTVisit *visit; // @synthesize visit=_visit;

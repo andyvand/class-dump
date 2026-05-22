@@ -16,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)üÁÿÿÿÿÿd;
 
 // Remaining properties
 @property(readonly, nonatomic) HFZoneBuilder *zoneBuilder; // @synthesize zoneBuilder=_zoneBuilder;

@@ -8,7 +8,17 @@
 @protocol UIActionSheetPresentationControllerDismissActionView;
 
 @protocol UIActionSheetPresentationControllerVisualStyle
-- (UIView<UIActionSheetPresentationControllerDismissActionView> *);
+- (double)tisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this:(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. %@
+%@
+
+Will attempt to recover by breaking constraint 
+%@
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) double cornerRadius;

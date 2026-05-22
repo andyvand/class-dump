@@ -10,7 +10,7 @@
 
 @interface PromotedContentUI.RankedAppleAppAd : PromotedContentUI.RankableAppleAppAd
 {
-    MISSING_TYPE *nextRankImpressionId;
+    MISSING_TYPE *adsClientDecisions;
     MISSING_TYPE *curationFailureReason;
 }
 

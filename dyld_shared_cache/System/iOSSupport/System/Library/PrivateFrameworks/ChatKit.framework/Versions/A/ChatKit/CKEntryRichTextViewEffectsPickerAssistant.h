@@ -12,15 +12,15 @@
     _Bool shouldSkipNextAdjustingOfTypingAttributes;
 }
 
-- (_Bool)r;
-- (void){account:(_Bool)arg1 %@, mode:%@}%s:%d /* Error: Ran out of types for this method. */;
-- (void)base64,%@";
-- (void)g before toggling lock;
-- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ptTextColor;
+- (void)ptMessageScrollConfiguration;
 
 // Remaining properties
 @property(nonatomic) _Bool shouldSkipNextAdjustingOfTypingAttributes; // @synthesize shouldSkipNextAdjustingOfTypingAttributes;

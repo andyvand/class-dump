@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -29,12 +29,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
+- (id);
+- (void)tializer not supported for SMMessageDeletedNotification (in %s:%d) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *containerPath; // @synthesize containerPath=_containerPath;

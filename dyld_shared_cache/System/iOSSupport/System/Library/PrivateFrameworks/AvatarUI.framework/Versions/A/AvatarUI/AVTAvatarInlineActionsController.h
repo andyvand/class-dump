@@ -45,14 +45,14 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (void)$;
 - (id);
-- (void)s;
-- (id)fier;
+- (_Bool);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) AVTAvatarActionsProvider *actionsModel; // @synthesize actionsModel=_actionsModel;

@@ -12,18 +12,18 @@
     long long _color;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)to %@'s %@ ivar is prohibited. This is an application bug;
+- (_Bool);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (long long)!dFùÑÌÐ1¢!0@ù
+- (long long)e°1Â0@ù
 × ;
-- (void)r>",W,N,V_transactionHandler;
+- (_Bool)";
+- (void)hEvent:(id)arg1 delayed: /* Error: Ran out of types for this method. */;
+- (id)TextRange:origin: /* Error: Ran out of types for this method. */;
+- (void)rLoadingCellsWithFocusedView:(long long)arg1 viewType: /* Error: Ran out of types for this method. */;
+- (void)lBehavior:(_Bool)arg1;
+- (id)eUpdatesWhenEvaluatingBackgroundAppearance;
 
 // Remaining properties
 @property(nonatomic) long long color; // @synthesize color=_color;

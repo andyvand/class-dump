@@ -43,7 +43,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)vailableIconDescriptors!;
 
 // Remaining properties
 @property(retain, nonatomic) HUCameraController *cameraController; // @synthesize cameraController=_cameraController;

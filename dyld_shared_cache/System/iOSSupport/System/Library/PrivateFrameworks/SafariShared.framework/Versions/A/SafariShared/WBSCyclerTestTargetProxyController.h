@@ -16,9 +16,9 @@
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (id)RequestsMap;
 - (id);
+- (id);
+- (void)ü;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType disconnectionHandler;

@@ -14,8 +14,8 @@
     RTBackgroundInertialOdometryStore *_inertialOdometryStore;
 }
 
-+ (id);
 + (long long);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -24,11 +24,11 @@
 - (void);
 - (void);
 - (void);
-- (void)eConnectionState;
+- (id);
 - (void);
-- (id)VPN",C,V_VPN;
-- (void)jÏÿ;
-- (void)r.Ýj;
+- (void)ice:(id)arg1 account:(CDUnknownBlockType)arg2 receivedGroupSessionParticipantUpdate:context: /* Error: Ran out of types for this method. */;
+- (void)oreServiceNameKey];
+- (void));
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

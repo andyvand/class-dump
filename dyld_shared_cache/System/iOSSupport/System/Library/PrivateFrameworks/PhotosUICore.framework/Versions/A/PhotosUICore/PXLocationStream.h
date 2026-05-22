@@ -23,11 +23,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)riterDefaultTrack;
-- (void);
-- (_Bool)+5;
-- (void)è6;
+- (void)d;
+- (void)edLibraryToggleFilterActionPerformerC;
+- (void)ó°;
+- (void)Ð|14;
+- (_Bool)®ÿLQ°T5;
 
 // Remaining properties
 @property(nonatomic, getter=isClosed) _Bool closed;

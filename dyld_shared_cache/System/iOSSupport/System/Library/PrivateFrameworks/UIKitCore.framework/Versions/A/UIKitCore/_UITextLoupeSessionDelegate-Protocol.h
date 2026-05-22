@@ -4,9 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextLoupeSession;
-
 @protocol _UITextLoupeSessionDelegate
-- (void)ed:(UITextLoupeSession *)arg1;
+- (void)Â0@ù
+× ;
 @end
 

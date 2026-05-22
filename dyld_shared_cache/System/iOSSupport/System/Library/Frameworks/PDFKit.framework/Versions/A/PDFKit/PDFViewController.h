@@ -22,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id)0;
-- (void)%>;
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -45,24 +45,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool)mage"16@?<v@?@"SFImage"@"NSError">24;
-- (void)edback>"24;
-- (id)SectionEngagementFeedback>"24;
-- (_Bool)ntroller";
-- (void)ler";
-- (id)ckerViewController";
-- (void)plateView<UNNotificationOnboardingController>"24;
-- (struct CGPoint)ze=dd}}32@"NSTableColumn"40q48{CGPoint=dd}56;
-- (void)inerView";
-- (void)tionController"16@"NSViewController"24;
-- (void)QQ}40;
-- (void);
-- (void);
-- (void);
-- (void)Tokens;
+- (_Bool);
 - (void);
 - (id);
+- (_Bool);
+- (void);
 - (id);
+- (void);
+- (struct CGPoint);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)ù1vÐ1Â0@ù
+× ;
+- (id)ù
+× ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

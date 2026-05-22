@@ -11,7 +11,7 @@
     _Bool _preservesShuffleMode;
 }
 
-- (id)streamSubscriptions;
+- (id);
 - (_Bool);
 
 // Remaining properties

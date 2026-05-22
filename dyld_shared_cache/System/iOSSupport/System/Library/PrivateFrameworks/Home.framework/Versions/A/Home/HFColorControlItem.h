@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-+ (Class)Û;
++ (Class)meraSnapshotKey;
 - (id);
 - (id);
 - (id);

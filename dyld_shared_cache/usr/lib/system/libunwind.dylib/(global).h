@@ -4,7 +4,6 @@
 
 // Global C++ functions
 
-__unw_is_pointer_auth_enabled::mode;
 libunwind::DwarfFDECache<libunwind::LocalAddressSpace>::_buffer;
 libunwind::DwarfFDECache<libunwind::LocalAddressSpace>::_bufferEnd;
 libunwind::DwarfFDECache<libunwind::LocalAddressSpace>::_bufferUsed;

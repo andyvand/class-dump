@@ -18,15 +18,16 @@
 
 - (_Bool);
 - (struct UIEdgeInsets);
-- (void);
-- (CDStruct_5f1f7aa9)i;
+- (void);
+- (CDStruct_5f1f7aa9);
 - (struct CGSize);
-- (id);
 - (void);
 - (void);
 - (id);
-- (unsigned long long)ionRangeMap;
-- (CDStruct_5f1f7aa9)th:%ld /* Error: Ran out of types for this method. */;
+- (id);
+- (CDStruct_5f1f7aa9);
+- (unsigned long long)ð1Â0@ù
+× ;
 
 @end
 

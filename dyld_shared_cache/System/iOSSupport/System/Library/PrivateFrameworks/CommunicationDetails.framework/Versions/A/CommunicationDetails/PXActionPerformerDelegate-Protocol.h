@@ -8,9 +8,6 @@
 
 @protocol PXActionPerformerDelegate
 
-@optional
-- (_Bool)ookDataSourceDelegate;
-
 // Remaining properties
 @property(readonly, nonatomic) id <PXMemoryAssetsActionFactory> memoryAssetsActionFactory;
 // Preceding property had unknown attributes: ?

@@ -44,7 +44,7 @@
 - (id);
 - (id);
 - (void);
-- (struct CGRect)P;
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
@@ -74,10 +74,10 @@
 - (id);
 - (id);
 - (void);
-- (double);
+- (double);
 - (_Bool);
 - (id);
-- (_Bool)Y;
+- (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
@@ -96,7 +96,7 @@
 - (id);
 - (id);
 - (id);
-- (void)P;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -109,7 +109,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)P;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -120,10 +120,11 @@
 - (id);
 - (double);
 - (void);
-- (void);
-- (void);
 - (double);
-- (void)itRotorActions;
+- (void);
+- (void)
+× ;
+- (void)V¨è;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *accessibilityCaptions; // @synthesize accessibilityCaptions=_accessibilityCaptions;

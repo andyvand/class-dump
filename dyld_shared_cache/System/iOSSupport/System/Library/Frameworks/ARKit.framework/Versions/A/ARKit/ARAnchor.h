@@ -34,20 +34,20 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
 - (CDStruct_14d5dc5e);
+- (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;

@@ -18,7 +18,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
@@ -28,13 +28,13 @@
 - (id);
 - (void *);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id)h;
 - (id);
-- (void)ed test batch %ld of %ld;
+- (id): /* Error: Ran out of types for this method. */;
+- (void);
+- (void)t;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *address; // @synthesize address=_address;

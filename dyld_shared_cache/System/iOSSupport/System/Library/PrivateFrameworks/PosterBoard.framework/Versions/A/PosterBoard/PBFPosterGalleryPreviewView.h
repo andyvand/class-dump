@@ -39,14 +39,14 @@
 - (void);
 - (struct CGSize);
 - (void);
+- (id);
 - (void);
-- (void);
-- (unsigned long long);
 - (struct CGSize);
-- (id);
-- (id);
+- (unsigned long long);
 - (void);
-- (long long)posterCornerRadius;
+- (id)ed to update data store:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)ontrolContentView;
+- (long long)¸¶;
 
 // Remaining properties
 @property(readonly, nonatomic) PBFPosterGalleryPreviewComplicationContentView *complicationContentView; // @synthesize complicationContentView=_posterPreviewComplicationContentView;

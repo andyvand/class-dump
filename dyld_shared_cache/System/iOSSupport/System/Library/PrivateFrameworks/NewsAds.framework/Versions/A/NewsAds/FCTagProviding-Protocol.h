@@ -8,23 +8,12 @@
 @protocol FCChannelProviding, FCFeedTheming, FCPuzzleTypeProviding, FCSectionProviding, FCSportsEventProviding, FCSportsProviding, FCTagStocksFields, FCTopicProviding;
 
 @protocol FCTagProviding
-- (NSDate *)|;
-- (NSString *);
-- (long long)String"24@0:8q16 /* Error: Ran out of types for this method. */;
-- (NSString *);
-- (NSArray *)H;
-- (NSArray *)P;
-- (FCAssetHandle *);
-- (void)a;
-- (unsigned long long)/lib/swift/libswiftNaturalLanguage.dylib;
-- (_Bool)^@32;
-- (_Bool)y;
-- (NTPBPublisherPaidDescriptionStrings *)oo large.;
-- (id <FCPuzzleTypeProviding>)6@0:8 /* Error: Ran out of types for this method. */;
-- (NSString *)¸ë|ìdí¼í;
-- (_Bool)rideSponsorshipFetchStrategy;
-- (id <FCTopicProviding>)àÿÿÿüþÿÜ÷ÿ;
-- (_Bool)cement;
+- (_Bool);
+- (_Bool)¼Ã;
+- (_Bool);
+- (NSDate *)Õ­Èj;
+- (NSString *)UÞ­Ð±ûÿ;
+- (_Bool)ýb®ÀáõÿÝb®ÀáõÿÝb®0âõÿÝb®¨âõÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *adTargetingKeywords;
@@ -50,6 +39,8 @@
 @property(readonly, nonatomic) _Bool disableFollow;
 @property(readonly, copy, nonatomic) NSString *dismissingIdentifier;
 @property(readonly, copy, nonatomic) NSString *displayName;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageAssetHandle;
+@property(readonly, nonatomic) FCAssetHandle *feedNavDarkModeImageHQAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageAssetHandle;
 @property(readonly, nonatomic) FCAssetHandle *feedNavImageHQAssetHandle;
 @property(readonly, nonatomic) NSDate *fetchDate;
@@ -76,6 +67,7 @@
 @property(readonly, nonatomic) _Bool isHidden;
 @property(readonly, nonatomic) _Bool isInternal;
 @property(readonly, nonatomic) _Bool isLocal;
+@property(readonly, nonatomic) _Bool isLocalHub;
 @property(readonly, nonatomic) _Bool isMagazine;
 @property(readonly, nonatomic) _Bool isMySports;
 @property(readonly, nonatomic) _Bool isNewspaper;

@@ -12,18 +12,18 @@
     HMAccessoryOwnershipToken *_ownershipToken;
 }
 
-+ (_Bool)removeConstraint:completionHandler:] /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly) HMSetupAccessoryPayload *internalSetupPayload; // @synthesize internalSetupPayload=_internalSetupPayload;

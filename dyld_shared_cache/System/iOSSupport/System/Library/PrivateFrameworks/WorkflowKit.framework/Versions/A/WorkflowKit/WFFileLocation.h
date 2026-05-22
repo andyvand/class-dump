@@ -13,22 +13,22 @@
 
 + (Class);
 + (id);
-+ (id)list;
++ (id);
 + (_Bool);
 + (id);
-+ (_Bool)FTextPosition(Top Center),WFPercentageTextOffset;
++ (_Bool);
 - (_Bool);
 - (id);
-- (id)ßÌ;
-- (_Bool)Ì;
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id)ut (InputMode);
+- (void)${AssertionType} ${Time};
+- (id)°È;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

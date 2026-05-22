@@ -12,8 +12,6 @@
 }
 
 + (id);
-+ (id);
-+ (id);
 + (id);
 + (id);
 + (id);
@@ -28,14 +26,16 @@
 - (void);
 - (void);
 - (void);
-- (void)U;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);

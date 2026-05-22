@@ -18,28 +18,28 @@
     NUTitleViewUpdate *_update;
 }
 
-- (id)election;
-- (void)ruby;
-- (void);
-- (id)h;
-- (id);
-- (void);
-- (void);
 - (id);
-- (void);
 - (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
+- (void);
 - (id);
-- (id);
-- (id)ifier;
-- (id);
+- (void);
 - (unsigned long long);
-- (struct CGRect);
 - (id);
-- (id)@?,C,N,V_completion;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (struct CGRect);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id)r;
 
 // Remaining properties
 @property(readonly, nonatomic) NUCrossFadeViewAnimator *animator; // @synthesize animator=_animator;

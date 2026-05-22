@@ -11,10 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)0@ù
-× ;
-- (void)@ù
-× ;
+- (long long);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

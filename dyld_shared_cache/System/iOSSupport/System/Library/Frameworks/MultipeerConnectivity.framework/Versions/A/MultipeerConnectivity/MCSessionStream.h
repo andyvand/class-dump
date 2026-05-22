@@ -38,23 +38,23 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
 - (int);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (id);
 - (id);
 - (int);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

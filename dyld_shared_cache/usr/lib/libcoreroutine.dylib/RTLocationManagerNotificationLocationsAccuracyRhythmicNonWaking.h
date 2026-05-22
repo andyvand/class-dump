@@ -13,10 +13,9 @@
     NSArray *_locations;
 }
 
-- (void);
 - (id);
-- (id)0@ù
-× ;
+- (id);
+- (void)start date, %@, end date, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *locations; // @synthesize locations=_locations;

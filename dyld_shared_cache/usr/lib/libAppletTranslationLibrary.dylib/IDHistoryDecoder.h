@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (unsigned short);
-+ (id);
++ (id);
 + (id);
 + (unsigned short);
 + (id);

@@ -4,10 +4,10 @@
 
 class dyld4::Reaper {
 public: // (access info unavailable from symbols alone)
-    finalizeDeadImages();
-    garbageCollect();
-    markDependentOfInUseImages();
-    markDependentsOf(dyld4::Loader const*);
-    markDirectlyDlopenedImagesAsUsed();
-    markDynamicNeverUnloadImagesAsUsed();
+    auto finalizeDeadImages();
+    auto garbageCollect();
+    auto markDependentOfInUseImages();
+    auto markDependentsOf(dyld4::Loader const*);
+    auto markDirectlyDlopenedImagesAsUsed();
+    auto markDynamicNeverUnloadImagesAsUsed();
 };

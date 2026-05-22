@@ -18,8 +18,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)Rect={CGPoint=dd}{CGSize=dd}}32;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXActionProvider> actionProvider; // @synthesize actionProvider=_actionProvider;

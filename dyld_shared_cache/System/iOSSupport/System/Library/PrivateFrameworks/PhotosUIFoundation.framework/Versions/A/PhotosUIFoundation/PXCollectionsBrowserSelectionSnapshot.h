@@ -22,8 +22,8 @@
 - (long long);
 - (id);
 - (long long);
-- (void);
 - (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long assetCount;

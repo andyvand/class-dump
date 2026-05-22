@@ -23,24 +23,24 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)ceStyle;
-- (void)elyAddObjectsFromArray:(id)arg1;
-- (void)ype;
-- (id)ttributedString: /* Error: Ran out of types for this method. */;
-- (id){public}@ (%{public}@);
-- (id);
-- (id);
 - (void);
+- (id);
+- (id);
 - (void);
 
 // Remaining properties

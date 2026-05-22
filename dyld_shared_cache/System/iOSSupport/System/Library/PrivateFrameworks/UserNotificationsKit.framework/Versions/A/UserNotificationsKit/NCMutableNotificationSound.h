@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)¶|ÚFÈ;
 
 // Remaining properties
 @property(copy, nonatomic) TLAlertConfiguration *alertConfiguration; // @dynamic alertConfiguration;

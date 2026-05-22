@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)24@?0@"NSURL"8Q16;
 
 // Remaining properties
 @property(nonatomic) __weak WFDateAction *dateAction; // @synthesize dateAction=_dateAction;

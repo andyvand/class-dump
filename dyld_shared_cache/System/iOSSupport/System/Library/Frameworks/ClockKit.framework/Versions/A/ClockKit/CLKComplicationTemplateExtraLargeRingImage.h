@@ -25,9 +25,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) float fillFraction; // @synthesize fillFraction=_fillFraction;

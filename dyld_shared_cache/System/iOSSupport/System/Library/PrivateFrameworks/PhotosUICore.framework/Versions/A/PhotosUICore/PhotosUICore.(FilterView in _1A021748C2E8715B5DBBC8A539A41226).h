@@ -21,10 +21,10 @@
 }
 
 - (void);
-- (void);
 - (id);
 - (void);
-- (id)Q;
+- (id);
+- (void)bility;
 
 @end
 

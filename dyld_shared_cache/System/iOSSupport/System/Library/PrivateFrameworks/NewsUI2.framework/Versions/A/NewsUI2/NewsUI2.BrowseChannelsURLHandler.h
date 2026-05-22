@@ -10,6 +10,8 @@
 {
     MISSING_TYPE *patterns;
     MISSING_TYPE *navigator;
+    MISSING_TYPE *featureAvailability;
+    MISSING_TYPE *appConfigurationManager;
 }
 
 @end

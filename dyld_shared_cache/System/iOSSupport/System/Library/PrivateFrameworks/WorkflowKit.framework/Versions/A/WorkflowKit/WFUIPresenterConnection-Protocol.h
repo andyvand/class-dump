@@ -9,8 +9,7 @@
 @protocol WFUIPresenterConnection
 
 @optional
-- (id <WFUIPresenterHostInterface>)w Once;
-- (void)${WFInput} (Parameter Summary);
+- (void);
 
 // Remaining properties
 @property(nonatomic) id <WFUIPresenterHostInterface> host;

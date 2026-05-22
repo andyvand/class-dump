@@ -14,16 +14,17 @@
     id <PKPaletteInkingTool> _inkTool;
 }
 
-- (void)bTesting;
-- (void)pe;
-- (void)_develURL;
-- (id)ging-news-todayconfig-edge.newsapps.apple.com/v1/configs;
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)motedContentDaemonSubsequentAdsFetch' key from the bag in time.;
-- (void);
+- (void)1Â0@ù
+× ;
+- (void)KPaletteControllerDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) PKToolConfiguration *configuration;

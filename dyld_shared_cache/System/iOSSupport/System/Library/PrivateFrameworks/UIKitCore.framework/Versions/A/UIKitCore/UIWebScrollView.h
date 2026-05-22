@@ -11,8 +11,8 @@
 }
 
 - (_Bool);
-- (void);
-- (id)t apps in the Mac Idiom.;
+- (id)rcentDimmed;
+- (void)Ù8Ú;
 
 @end
 

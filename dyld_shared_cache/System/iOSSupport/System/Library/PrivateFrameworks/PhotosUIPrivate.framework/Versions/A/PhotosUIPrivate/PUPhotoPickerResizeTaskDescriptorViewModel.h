@@ -32,13 +32,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)yout;
+- (void);
+- (void)_maximumHeightChanged;
+- (id)resentation:Will return SIMULATED error '%{public}@', because of debug settings /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

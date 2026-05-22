@@ -15,13 +15,12 @@
     MISSING_TYPE *_textSegmentsCovered;
 }
 
-- (void);
-- (struct CGSize)sSetPreferenceForAutomaticDownloads;
+- (struct CGSize);
 - (id);
-- (void)É;
-- (id)or %@ between view and superview.
-mismatched attributes:(struct CGRect)arg1 %@;
-- (struct CGSize)ø[;
+- (void);
+- (struct CGSize);
+- (id)bilityInterfaceStyleIntent;
+- (void)ÎÝÿq;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

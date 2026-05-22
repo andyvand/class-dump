@@ -5,5 +5,6 @@
 class __gnu_cxx::__scoped_lock {
 public: // (access info unavailable from symbols alone)
     __scoped_lock(__gnu_cxx::__mutex&);
+    __scoped_lock(__gnu_cxx::__mutex&) (.cold.1);
     ~__scoped_lock();
 };

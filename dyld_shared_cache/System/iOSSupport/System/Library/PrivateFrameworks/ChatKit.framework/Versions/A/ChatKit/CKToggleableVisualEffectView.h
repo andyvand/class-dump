@@ -12,12 +12,11 @@
     _Bool isEffectActive;
 }
 
-- (void)mentioned **yourself**;
-- (_Bool)<q
-;
-- (id);
-- (id);
 - (void);
+- (_Bool);
+- (id);
+- (id);
+- (void)P;
 
 // Remaining properties
 @property(nonatomic) _Bool isEffectActive; // @synthesize isEffectActive;

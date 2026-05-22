@@ -4,5 +4,5 @@
 
 class JetPack::CFDataWrapper {
 public: // (access info unavailable from symbols alone)
-    asVector(__CFData const*);
+    auto asVector(__CFData const*);
 };

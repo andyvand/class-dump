@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSString;
+@class NSArray, NSError;
 
 @protocol MPMiddlewareOperation
-- (void (^)(NSString *))P;
-- (void)4;
-
-@optional
-- (NSString *)DsWithSchemesRemovedMapping;
 
 // Remaining properties
 @property(readonly, nonatomic) NSError *error;

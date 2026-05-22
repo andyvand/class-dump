@@ -4,7 +4,7 @@
 
 class icu::numparse::impl::SeriesMatcher {
 public: // (access info unavailable from symbols alone)
-    match(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
-    postProcess(icu::numparse::impl::ParsedNumber&) const;
-    smokeTest(icu::StringSegment const&) const;
+    auto match(icu::StringSegment&, icu::numparse::impl::ParsedNumber&, UErrorCode&) const;
+    auto postProcess(icu::numparse::impl::ParsedNumber&) const;
+    auto smokeTest(icu::StringSegment const&) const;
 };

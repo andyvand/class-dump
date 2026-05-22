@@ -4,9 +4,9 @@
 
 class __gnu_debug::_Safe_sequence_base {
 public: // (access info unavailable from symbols alone)
-    _M_detach_all();
-    _M_detach_singular();
-    _M_get_mutex();
-    _M_revalidate_singular();
-    _M_swap(__gnu_debug::_Safe_sequence_base&);
+    auto _M_detach_all();
+    auto _M_detach_singular();
+    auto _M_get_mutex();
+    auto _M_revalidate_singular();
+    auto _M_swap(__gnu_debug::_Safe_sequence_base&);
 };

@@ -10,8 +10,8 @@
 {
 }
 
-- (id)cus;
 - (id);
+- (id).x.swipeAnimationKey;
 
 // Remaining properties
 @property(nonatomic, readonly) UIResponder *nextResponder;

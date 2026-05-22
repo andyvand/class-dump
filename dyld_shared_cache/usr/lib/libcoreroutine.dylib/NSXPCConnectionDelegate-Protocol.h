@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInvocation, NSXPCConnection;
+@class NSXPCConnection;
+@protocol NSSecureCoding;
 
 @protocol NSXPCConnectionDelegate
 
 @optional
-- (void)h:(NSXPCConnection *)arg1 authenticatedHeaders:(NSInvocation *)arg2 ];
+- (id <NSSecureCoding>)tegrator,%d,setRunMapIntegrator,%d,setUseXPCService,%d,setshouldRecordDataInFileForReplay,%d,createSparseDataForOneHz,%d;
+- (void)(in %s:(NSXPCConnection *)arg1 %d);
 @end
 

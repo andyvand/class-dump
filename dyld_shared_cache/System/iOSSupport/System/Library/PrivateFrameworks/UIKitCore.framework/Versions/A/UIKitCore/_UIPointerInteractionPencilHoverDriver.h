@@ -18,20 +18,21 @@ __attribute__((visibility("hidden")))
     UIView *_view;
 }
 
-- (id);
-- (_Bool);
-- (_Bool)Size=dd},N,V_textOffset;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)Ô!tð!Gù1ÈÐ1¢!0@ù
+- (void);
+- (void);
+- (_Bool)!!¸Aù1a°1Â0@ù
 × ;
-- (void)em:(id)arg1;
-- (void)Q;
-- (long long)¬`þ;
+- (long long)
+× ;
+- (struct CAPoint3D)arkedText;
+- (id)SizingWithPredictionBar;
+- (void)ugOverlayView;
+- (_Bool)þÿxþÿ;
 - (void);
-- (struct CAPoint3D)yà40jþAà44jþà4jþéß4@jþñß4jþà4jþà4¬jþà4\jþ!à4jþÁß4jþÉß4Hjþ¡ß4Hjþñß4àjþß4Üjþß4ÌjþÉß4\jþà4¬jþÑß4`jþ;
-- (void)^;
-- (void)­à;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -13,12 +13,12 @@
 }
 
 - (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (void).UberClient;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *actionUUID; // @synthesize actionUUID=_actionUUID;

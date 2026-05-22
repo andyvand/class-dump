@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -22,8 +22,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (long long);
+- (void);
 
 // Remaining properties
 @property(retain) NSSet *bugSessions; // @dynamic bugSessions;

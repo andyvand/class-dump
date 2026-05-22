@@ -13,15 +13,14 @@ __attribute__((visibility("hidden")))
     double _maskCornerRadius;
 }
 
-+ (_Bool);
 + (struct UIEdgeInsets);
++ (_Bool)ractionDriving>"16@"UIGestureRecognizer"24;
 - (void);
-- (id)RL:(double)arg1;
+- (double);
+- (void);
 - (struct CGRect);
-- (void)±Ë1¢!0@ù
-× ;
-- (void)d}24@0:8q16 /* Error: Ran out of types for this method. */;
-- (double)8Sg;
+- (void);
+- (id)nge={%lu, %lu};
 
 // Remaining properties
 @property(readonly, nonatomic) double maskCornerRadius; // @synthesize maskCornerRadius=_maskCornerRadius;

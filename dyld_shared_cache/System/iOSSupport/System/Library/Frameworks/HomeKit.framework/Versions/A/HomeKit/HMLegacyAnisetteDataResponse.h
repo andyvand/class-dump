@@ -16,15 +16,16 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)ability.eventManager;
++ (_Bool);
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id)T;
+- (void)ØÐ
+ðÔH×Ù;
 
 // Remaining properties
 @property(copy, nonatomic) AKAnisetteData *anisetteData; // @synthesize anisetteData=_anisetteData;

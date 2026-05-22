@@ -21,9 +21,9 @@
 - (struct CGRect);
 - (id);
 - (void);
-- (long long)ncWithDecoratedLayout;
-- (void)side %@;
-- (struct UIEdgeInsets);
+- (long long);
+- (struct UIEdgeInsets)ayAsset:spriteIndex:inLayout: /* Error: Ran out of types for this method. */;
+- (void)endingThumbnailRequestInfoCapacity;
 
 // Remaining properties
 @property(nonatomic) long long axis; // @synthesize axis=_axis;

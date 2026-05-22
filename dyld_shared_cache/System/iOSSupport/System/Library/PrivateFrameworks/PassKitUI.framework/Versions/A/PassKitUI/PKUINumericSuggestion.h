@@ -12,11 +12,11 @@
 }
 
 + (id);
-+ (_Bool)undingSize: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
+- (void);
 - (id);
 - (void);
 

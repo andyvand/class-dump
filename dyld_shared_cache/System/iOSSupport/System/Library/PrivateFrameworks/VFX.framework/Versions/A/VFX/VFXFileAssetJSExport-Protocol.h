@@ -8,6 +8,7 @@
 
 @protocol VFXFileAssetJSExport
 - (NSString *);
+- (NSString *)`£ÿHó;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *absolutePath;

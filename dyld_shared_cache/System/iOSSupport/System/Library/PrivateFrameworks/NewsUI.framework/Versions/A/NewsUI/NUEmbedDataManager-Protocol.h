@@ -5,7 +5,6 @@
 //
 
 @protocol NUEmbedDataManager
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLoaded;

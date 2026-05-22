@@ -13,9 +13,9 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);
+- (void)ualEffectViewHidden;
+- (id)yAByìK3yAByÛ'1þC3GGÿ1GAJGAJGAJG 1G_AByAByAByAByAEy*H3yABy1*1y[E3yJ3y7J3yAByABy+L3yAFG%1y&1SgGGÓ#1yÕ!1GG_Qo__Qo__Qo__SSQo_AGG_Qo_GAJGAJGAJGAJGAByABy2K3M1GAJGAnByAByAByAByAByAEyG3yJ3y­I3ygD3yABy)1yAByArZG_SSQo_AGG_Qo__Qo__Qo__Qo_GAJGAJGAJGAJGAOGtGG1yABy41AXyô)1GGGG_3y1GQo_AByACyADyAByAByAByAByAByAEyADyAH_A5_tGGAJGAJGAJGAJGAOG_A14_AByAByAByAByAByAEyADyAH_A21_tGGAJGAJGAJGAJGAOGtGGA35_G_G;
 
 // Remaining properties
 @property(retain, nonatomic) UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;

@@ -14,17 +14,16 @@
     NSSet *_values;
 }
 
-+ (id)ier:(id)arg1;
-+ (_Bool)%{public}@ currentOffset=%lld, requestedLength=%ld requestedOffset=%lld;
-- (void);
++ (id);
++ (_Bool);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (id)eref__TEXT;
-- (id)³
-;
+- (id);
+- (void),N,V_revision;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *property; // @synthesize property=_property;

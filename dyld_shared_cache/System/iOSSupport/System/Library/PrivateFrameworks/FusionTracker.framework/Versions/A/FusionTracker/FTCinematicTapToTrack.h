@@ -36,8 +36,8 @@
 - (void);
 - (id);
 - (struct EspressoConfig);
-- (id);
 - (_Bool);
+- (id);
 - (void);
 
 @end

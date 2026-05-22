@@ -13,12 +13,9 @@
 }
 
 - (id);
-- (void)¡pÐ!DùqÃð1¢!0@ù
-× ;
-- (id)d for unknown context id:%i /* Error: Ran out of types for this method. */;
-- (void)¼»»»»»ë??rrrrrrâ?Ú?Ë?p?222222â?ZZZZZZê?[[[[[[ë?ÒÑÑÑÑÑÑ?uuuuuuå?»ºººººê?{{{{{{ë?ç?XXXXXXè?ttttttä?å?ÙØØØØØØ?Ö?______ï?Ó?¤??q=
-×£pÝ?×£p=
-×ã?Á?;
+- (void),V_previewPlatterMaximumSize;
+- (id)`ç;
+- (void)ÛÒ;
 
 // Remaining properties
 @property(retain, nonatomic) id __swiftTransformer; // @synthesize __swiftTransformer=___swiftTransformer;

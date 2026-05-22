@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (id)ller;
-- (void);
-- (_Bool)t the completion handler was never called.;
+- (_Bool)erviceProxy;
+- (id)ComponentPhase:(struct _NSZone *)arg1;
 
 @end
 

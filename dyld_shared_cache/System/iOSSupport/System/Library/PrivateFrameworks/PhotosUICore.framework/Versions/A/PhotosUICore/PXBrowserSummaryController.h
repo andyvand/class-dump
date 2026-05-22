@@ -160,21 +160,21 @@
 - (id);
 - (void);
 - (id);
-- (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void)opStartTime;
-- (void)etsForMovieHeader;
-- (void)ryAnimation",R,W,N,V_animation;
-- (void)PXPhotoKitSelectVariationAssetActionPerformer;
 - (_Bool);
-- (id)Not supported yet on this platform;
-- (void)2 ;
-- (void)¨ºòÿq;
+- (void);
+- (void);
+- (void);
+- (id)nSegment:viewportSize:transitionInfo: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ÊqC;
+- (void)àÔ;ÿÕ;ÿ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *attributedPrimaryFallbackTitle; // @synthesize attributedPrimaryFallbackTitle=_attributedPrimaryFallbackTitle;

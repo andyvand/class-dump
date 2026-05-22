@@ -5,6 +5,5 @@
 //
 
 @protocol CNKScreenSharingInteractionControllerProtocol
-- (void)wEffectView;
 @end
 

@@ -14,18 +14,18 @@
 
 + (_Bool);
 + (id);
-+ (id)E;
++ (id);
 - (_Bool);
-- (id)?;
-- (id)seKey:fallbackURL:requestType:additionalChangeTags:requestCacheKey:cachePolicy: /* Error: Ran out of types for this method. */;
-- (id):(id)arg1;
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (void);
+- (_Bool);
 - (id);
-- (_Bool)ì3Îÿ¼=Îÿeð3Îÿø3Îÿm4Îÿ;
+- (id);
+- (id);
+- (_Bool);
+- (void)C,N;
+- (id)ÿÿ'§ÿÿdºÏÿP4;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasContent;

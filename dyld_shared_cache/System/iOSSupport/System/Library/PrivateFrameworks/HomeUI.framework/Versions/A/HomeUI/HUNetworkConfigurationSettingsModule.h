@@ -36,9 +36,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)le;
+- (id)er:forKeyPath: /* Error: Ran out of types for this method. */;
+- (void)derSelf;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessoryNetworkProtectionGroup *group; // @synthesize group=_group;

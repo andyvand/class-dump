@@ -26,9 +26,8 @@
 - (struct CGRect);
 - (_Bool);
 - (struct CGRect);
-- (double)0
-;
 - (_Bool);
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double opacity;

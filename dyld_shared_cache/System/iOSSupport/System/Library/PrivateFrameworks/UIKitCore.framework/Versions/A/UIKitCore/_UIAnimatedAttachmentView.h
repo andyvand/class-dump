@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)n;
++ (id);
 + (id);
 - (id);
 - (id);
-- (id)d client class);
+- (id):(struct CGRect)arg1;
 
 @end
 

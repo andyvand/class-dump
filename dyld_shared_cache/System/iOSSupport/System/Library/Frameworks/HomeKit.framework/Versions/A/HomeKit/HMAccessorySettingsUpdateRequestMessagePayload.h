@@ -13,21 +13,21 @@
     HMImmutableSettingValue *_settingValue;
 }
 
-+ (id)ardingSelections;
-+ (id)®´°±¤²|³Ð³;
++ (id);
++ (id)nHandler:] /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id)regateData;
-- (id)res data version 4;
-- (id);
+- (id)ssedUserSplitMediaAccountWarning;
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryUUID; // @synthesize accessoryUUID=_accessoryUUID;

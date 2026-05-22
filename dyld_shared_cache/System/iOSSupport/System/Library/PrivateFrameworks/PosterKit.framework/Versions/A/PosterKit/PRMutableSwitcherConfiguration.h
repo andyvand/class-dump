@@ -19,21 +19,21 @@
 
 - (id);
 - (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool activeConfigurationDueToIncomingFocusModeChange; // @dynamic activeConfigurationDueToIncomingFocusModeChange;

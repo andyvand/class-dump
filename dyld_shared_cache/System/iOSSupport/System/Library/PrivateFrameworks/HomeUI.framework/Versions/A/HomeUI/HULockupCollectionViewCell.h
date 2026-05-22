@@ -29,11 +29,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)q/Ð1b0@ù
-× ;
+- (void)HUSoftwareUpdateMigrationFailedDueToNoWiFiAlertMessageWiFi;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *bottomSeparatorView; // @synthesize bottomSeparatorView=_bottomSeparatorView;

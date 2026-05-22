@@ -4,58 +4,93 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDIndexingContext, IMSpotlightClientState, NSArray, NSError, NSObject, NSString;
-@protocol IMDSpotlightIndex, OS_dispatch_group;
+#import <IMDPersistence/IMDCoreSpotlightBaseIndexingJob.h>
 
-@interface IMDCoreSpotlightIndexingJob
+@class CSDonationProgress, IMSpotlightClientState, NSArray, NSData;
+
+@interface IMDCoreSpotlightIndexingJob : IMDCoreSpotlightBaseIndexingJob
 {
-    id <IMDSpotlightIndex> _index;
-    IMSpotlightClientState *_clientState;
+    _Bool _suppressClientStateManagerPrewarm;
     NSArray *_searchableItems;
     NSArray *_rejectedItems;
-    IMDIndexingContext *_context;
-    NSString *_transactionID;
-    NSError *_error;
-    NSObject<OS_dispatch_group> *_group;
+    NSArray *_deletedItemIdentifiers;
+    IMSpotlightClientState *_updatedClientState;
+    unsigned long long _deferredIndexingDepth;
+    NSArray *_immediateSearchableItems;
+    NSArray *_deferredSearchableItems;
+    CSDonationProgress *_donationProgress;
+    NSData *_previousClientStateData;
+    NSData *_updatedClientStateData;
 }
 
++ (void);
 + (id);
-- (void);
++ (id);
++ (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void)1;
-- (void);
-- (void)P;
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)!;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (id);
 - (id);
 - (id);
-- (id);
-- (id)oudSyncAvailable;
-- (id)_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0  AND c.is_blackholed != 1  AND c.is_filtered NOT IN (?;
-- (id)e in a test;
+- (id);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (double);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void)ng %ld of %ld chats...;
 
 // Remaining properties
-@property(retain, nonatomic) IMSpotlightClientState *clientState; // @synthesize clientState=_clientState;
-@property(readonly, nonatomic) IMDIndexingContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(readonly, nonatomic) id <IMDSpotlightIndex> index; // @synthesize index=_index;
+@property(nonatomic) unsigned long long deferredIndexingDepth; // @synthesize deferredIndexingDepth=_deferredIndexingDepth;
+@property(retain, nonatomic) NSArray *deferredSearchableItems; // @synthesize deferredSearchableItems=_deferredSearchableItems;
+@property(retain, nonatomic) NSArray *deletedItemIdentifiers; // @synthesize deletedItemIdentifiers=_deletedItemIdentifiers;
+@property(retain, nonatomic) CSDonationProgress *donationProgress; // @synthesize donationProgress=_donationProgress;
+@property(retain, nonatomic) NSArray *immediateSearchableItems; // @synthesize immediateSearchableItems=_immediateSearchableItems;
+@property(retain, nonatomic) NSData *previousClientStateData; // @synthesize previousClientStateData=_previousClientStateData;
 @property(retain, nonatomic) NSArray *rejectedItems; // @synthesize rejectedItems=_rejectedItems;
 @property(retain, nonatomic) NSArray *searchableItems; // @synthesize searchableItems=_searchableItems;
-@property(readonly, nonatomic) NSString *transactionID; // @synthesize transactionID=_transactionID;
+@property(nonatomic) _Bool suppressClientStateManagerPrewarm; // @synthesize suppressClientStateManagerPrewarm=_suppressClientStateManagerPrewarm;
+@property(retain, nonatomic) IMSpotlightClientState *updatedClientState; // @synthesize updatedClientState=_updatedClientState;
+@property(retain, nonatomic) NSData *updatedClientStateData; // @synthesize updatedClientStateData=_updatedClientStateData;
 
 @end
 

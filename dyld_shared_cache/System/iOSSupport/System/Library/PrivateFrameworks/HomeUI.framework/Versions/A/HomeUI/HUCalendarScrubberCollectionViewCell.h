@@ -28,11 +28,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)1b0@ù
-× ;
-- (_Bool)Rµ;
+- (_Bool);
+- (id);
+- (void)meEdit;
+- (void)tate"8;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *circleView; // @synthesize circleView=_circleView;

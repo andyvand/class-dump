@@ -12,14 +12,15 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_effects;
 }
 
-+ (id);
-- (id)ncryption;
++ (id)3TÕ|þµ÷13PÕ|þ½÷13LÕ|þ÷13HÕ|þ;
 - (id);
-- (void)kAsSync:(id)arg1 transfersToSyncRowIDs: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)0:(id)arg1 8@"NSString"16;
-- (id)trainWidth: /* Error: Ran out of types for this method. */;
-- (void)ï`;
+- (id);
+- (void);
+- (void);
+- (id);
+- (id)1Â0@ù
+× ;
+- (void)@õ×ªb;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *effects; // @synthesize effects=_effects;

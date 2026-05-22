@@ -21,8 +21,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void)tIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak UIImageView *artwork; // @synthesize artwork=_artwork;

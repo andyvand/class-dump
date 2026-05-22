@@ -11,8 +11,8 @@
     MISSING_TYPE *serviceConnectionHandler;
 }
 
-- (void);
 - (id);
+- (void);
 - (void);
 
 @end

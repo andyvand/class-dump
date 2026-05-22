@@ -4,6 +4,6 @@
 
 class dyld4::KernelArgs {
 public: // (access info unavailable from symbols alone)
-    findApple() const;
-    findEnvp() const;
+    auto findApple() const;
+    auto findEnvp() const;
 };

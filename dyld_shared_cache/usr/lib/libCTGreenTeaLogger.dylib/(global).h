@@ -4,21 +4,14 @@
 
 // Global C++ functions
 
-(anonymous namespace)::isCarrierInstall()::__once;
-(anonymous namespace)::isCarrierInstall()::__value;
-(anonymous namespace)::isInternalInstall()::__once;
-(anonymous namespace)::isInternalInstall()::__value;
-createGreenTeaLogger(char const*);
+auto createGreenTeaLogger(char const*);
+auto getGreenTeaLogUtility();
+auto getGreenTeaLogUtility() (.cold.1);
+auto getGreenTeaLogUtility() (.cold.2);
+auto getGreenTeaLogUtility() (.cold.3);
 ct_green_tea_logger_create_static::'block-literal'::neverDestroyed;
 ct_green_tea_logger_create_static::onceToken;
-getGreenTeaLogUtility();
-getGreenTeaLogUtility() (.cold.1);
-getGreenTeaLogUtility() (.cold.2);
-getGreenTeaLogUtility() (.cold.3);
 guard variable for ct_green_tea_logger_create_static::'block-literal'::neverDestroyed;
-operator delete(void*);
-operator delete(void*, std::__type_descriptor_t);
-operator new(unsigned long, std::__type_descriptor_t);
 typeinfo for GreenTeaLogUtility;
 typeinfo for GreenTeaLogUtilityInterface;
 typeinfo for std::__1::__shared_ptr_emplace<CTGreenTeaLoggerImpl, std::__1::allocator<CTGreenTeaLoggerImpl>>;
@@ -28,6 +21,9 @@ typeinfo name for GreenTeaLogUtility;
 typeinfo name for GreenTeaLogUtilityInterface;
 typeinfo name for std::__1::__shared_ptr_emplace<CTGreenTeaLoggerImpl, std::__1::allocator<CTGreenTeaLoggerImpl>>;
 typeinfo name for std::__1::__shared_ptr_emplace<GreenTeaLogUtility, std::__1::allocator<GreenTeaLogUtility>>;
+void * operator new(unsigned long, std::__type_descriptor_t);
+void operator delete(void*);
+void operator delete(void*, std::__type_descriptor_t);
 vtable for GreenTeaLogUtility;
 vtable for __cxxabiv1::__class_type_info;
 vtable for __cxxabiv1::__si_class_type_info;

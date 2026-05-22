@@ -4,5 +4,5 @@
 
 class ConvolutionCodec1_3 {
 public: // (access info unavailable from symbols alone)
-    ConvDecodeSoft2(char*, int const*, int, int*, int*);
+    auto ConvDecodeSoft2(char*, int const*, int, int*, int*);
 };

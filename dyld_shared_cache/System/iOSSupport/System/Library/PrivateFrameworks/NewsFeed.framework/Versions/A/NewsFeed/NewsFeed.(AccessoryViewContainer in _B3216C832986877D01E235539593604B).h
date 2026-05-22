@@ -16,10 +16,10 @@
 }
 
 - (id);
+- (id);
 - (struct CGSize);
 - (id);
 - (void);
-- (id)PersonalizationGroupLayoutKeyProviderP;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize intrinsicContentSize;

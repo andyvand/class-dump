@@ -13,16 +13,16 @@
 }
 
 + (id);
-- (void)itedAtColumnID:rowID:edited:range:changeInLength: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
+- (void)ct.;
+- (void)d;
 - (void);
-- (void);
-- (void)tingPower;
-- (id)ntainerView;
 
 // Remaining properties
 @property(retain, nonatomic) CKFullScreenEffect *effect; // @synthesize effect=_effect;

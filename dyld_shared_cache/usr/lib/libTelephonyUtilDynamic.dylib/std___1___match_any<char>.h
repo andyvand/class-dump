@@ -4,6 +4,6 @@
 
 class std::__1::__match_any<char> {
 public: // (access info unavailable from symbols alone)
-    __exec(std::__1::__state<char>&) const;
+    auto __exec(std::__1::__state<char>&) const;
     ~__match_any();
 };

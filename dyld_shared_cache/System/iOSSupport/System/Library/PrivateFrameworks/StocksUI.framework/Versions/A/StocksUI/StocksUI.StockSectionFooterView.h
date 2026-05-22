@@ -15,11 +15,11 @@
     MISSING_TYPE *onTap;
 }
 
-- (id);
-- (void);
 - (void);
 - (struct CGRect);
 - (id);
+- (id);
+- (void)Húÿ¬úÿ;
 
 // Remaining properties
 @property(nonatomic) struct CGRect accessibilityFrame;

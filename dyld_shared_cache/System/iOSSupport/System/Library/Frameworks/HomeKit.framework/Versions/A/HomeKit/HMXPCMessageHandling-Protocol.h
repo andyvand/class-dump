@@ -5,6 +5,5 @@
 //
 
 @protocol HMXPCMessageHandling
-- (void)tyCreationMSHH2;
 @end
 

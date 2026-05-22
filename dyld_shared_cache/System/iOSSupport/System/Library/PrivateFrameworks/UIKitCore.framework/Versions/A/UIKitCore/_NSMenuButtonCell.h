@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
     _Bool _contextMenuIsPrimary;
 }
 
-- (_Bool)te:syncConfigurationDelegate: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (double);
-- (void)rdSupport",R,&,N,V_cachedSplitKeyboardController;
+- (void)ontroller doesn't support state restoration, so skipping it and marking that we should ignore snapshot:(_Bool)arg1 %@;
 
 // Remaining properties
 @property(nonatomic) _Bool contextMenuIsPrimary; // @synthesize contextMenuIsPrimary=_contextMenuIsPrimary;

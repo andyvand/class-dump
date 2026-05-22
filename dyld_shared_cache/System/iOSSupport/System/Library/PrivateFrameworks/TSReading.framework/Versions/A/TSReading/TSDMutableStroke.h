@@ -26,12 +26,12 @@
 - (int);
 - (void);
 - (double);
+- (double);
 - (id);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (double);
 
 // Remaining properties
 @property(nonatomic) double actualWidth;

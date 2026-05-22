@@ -28,20 +28,20 @@
     id _titleMenuProviderObserver;
 }
 
-+ (id);
-- (void)IDSetsForRemerge;
-- (void)ce:%@ /* Error: Ran out of types for this method. */;
-- (void)eived message that should only be from me (trustedData:(id)arg1 %@);
-- (void)d command blastdoor object from result:(id)arg1 <%@ %p>, ;
-- (void)n=(%@);
-- (id)n;
-- (void)e count:(id)arg1 %@;
-- (id)and output message types are not the same. input message has type %@. output message has type %@;
-- (id)MCore/IMDaemonCore/IMDServiceSession_Chat.m;
-- (void)2@?0@"NSError"8@"NSString"16q24;
-- (void)ay"8@"NSString"16@"NSError"24B32B36;
-- (id)CAndSafeForCacheDelete;
-- (id)sInternal;
++ (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -49,19 +49,17 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType)A;
+- (CDUnknownBlockType);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (id);
-- (void)
-× ;
-- (id)ÑÇ°1¢!0@ù
-× ;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void)Ë;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *_keyCommands;

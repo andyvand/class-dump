@@ -16,9 +16,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)ol: /* Error: Ran out of types for this method. */;
-- (id)wE;
-- (id);
+- (id);
+- (id)d ÷ÿ;
+- (void)0ñþ;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *executableScript;

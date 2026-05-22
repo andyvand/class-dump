@@ -10,12 +10,10 @@
 {
     MISSING_TYPE *suggestionsService;
     MISSING_TYPE *headlineService;
-    MISSING_TYPE *readingHistory;
-    MISSING_TYPE *subscriptionController;
+    MISSING_TYPE *cloudContext;
     MISSING_TYPE *lazyPersistentStore;
     MISSING_TYPE *storeQueue;
     MISSING_TYPE *refreshDeduper;
-    MISSING_TYPE *paidBundleConfigManager;
 }
 
 @end

@@ -7,10 +7,9 @@
 @class NSString;
 
 @protocol PXMutableCuratedLibraryAnalysisStatus
-- (float)	
-;
-- (void)í;
-- (NSString *)\;
+- (float);
+- (void)Element;
+- (NSString *);
 
 // Remaining properties
 @property(nonatomic) float displayProgress;

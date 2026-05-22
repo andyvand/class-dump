@@ -12,11 +12,11 @@
     NSString *_identifier;
 }
 
-- (id)ContentType:(id)arg1;
-- (void);
+- (id);
 - (void);
 - (id);
 - (id);
+- (void)imisticState;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

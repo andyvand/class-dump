@@ -7,7 +7,6 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)ns;
-- (void);
+- (void)$ ø  $8$à$ä$È% ' '´'|((`)ä)+0++à,@-;
 @end
 

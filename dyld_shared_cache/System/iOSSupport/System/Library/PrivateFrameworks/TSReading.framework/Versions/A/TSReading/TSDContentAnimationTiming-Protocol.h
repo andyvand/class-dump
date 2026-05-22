@@ -5,8 +5,5 @@
 //
 
 @protocol TSDContentAnimationTiming
-
-@optional
-- (double);
 @end
 

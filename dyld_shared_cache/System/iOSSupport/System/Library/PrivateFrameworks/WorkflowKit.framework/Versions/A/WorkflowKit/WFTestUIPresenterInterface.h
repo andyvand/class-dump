@@ -22,8 +22,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)pendToNoteIntent;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak WFBackgroundShortcutRunner *backgroundRunner; // @synthesize backgroundRunner=_backgroundRunner;

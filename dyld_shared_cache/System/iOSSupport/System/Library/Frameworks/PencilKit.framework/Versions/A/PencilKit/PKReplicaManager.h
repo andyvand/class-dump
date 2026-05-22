@@ -20,7 +20,7 @@
 }
 
 + (id);
-- (void)˿;
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -31,12 +31,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void)achedRendering:(_Bool)arg1 activeInputProperties:inputType: /* Error: Ran out of types for this method. */;
+- (void)HandwritingPrefixQueryItem;
 - (_Bool);
-- (void)nInteractionShouldBegin:(_Bool)arg1 atPoint:forEvent:orGestureRecognizer: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *replicaManagerErrors;

@@ -4,7 +4,7 @@
 
 class dyld3::OverflowSafeArray<relocation_info, 4294967295ull> {
 public: // (access info unavailable from symbols alone)
-    growTo(unsigned long long);
-    growTo(unsigned long long) (.cold.1);
-    push_back(relocation_info const&);
+    auto growTo(unsigned long long);
+    auto growTo(unsigned long long) (.cold.1);
+    auto push_back(relocation_info const&);
 };

@@ -24,13 +24,13 @@
 - (void);
 - (void);
 - (void);
-- (id)v;
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (void);
+- (void)ntifiers;
 
 // Remaining properties
 @property(nonatomic) __weak id <IMServiceForSendingTaskDelegate> delegate; // @synthesize delegate;

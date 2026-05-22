@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)ionalPropertyColors: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) VFXNode *node; // @synthesize node=_node;

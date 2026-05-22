@@ -11,10 +11,9 @@
 }
 
 - (id);
-- (struct CGSize);
 - (void);
-- (_Bool)a&°!<CùQ01b0@ù
-× ;
+- (struct CGSize);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -26,7 +26,7 @@
 + (_Bool);
 + (_Bool);
 + (id);
-+ (_Bool)ion;
++ (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool onDisable; // @synthesize onDisable=_onDisable;

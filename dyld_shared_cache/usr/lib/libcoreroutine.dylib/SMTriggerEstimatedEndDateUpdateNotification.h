@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ssPointMO managedObjectWithAccessPoint:inManagedObjectContext:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *coarseEstimatedEndDate; // @synthesize coarseEstimatedEndDate=_coarseEstimatedEndDate;

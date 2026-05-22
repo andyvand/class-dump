@@ -18,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool)x;
++ (_Bool);
 - (void);
 - (void);
 - (id);
@@ -28,14 +28,14 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
 - (id);
+- (id);
+- (void)Ø,ÙðÙüÚ`ÝpÞpâä;
 
 // Remaining properties
 @property(copy) NSUUID *leftDestinationIdentifier; // @synthesize leftDestinationIdentifier=_leftDestinationIdentifier;

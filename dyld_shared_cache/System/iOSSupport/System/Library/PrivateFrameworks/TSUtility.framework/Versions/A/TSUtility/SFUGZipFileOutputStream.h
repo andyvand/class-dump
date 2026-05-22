@@ -13,18 +13,18 @@
     NSString *_path;
 }
 
-+ (id)`;
++ (id);
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
 - (void);
-- (long long);
 - (id);
-- (_Bool)lue for '%s';
+- (id);
+- (_Bool);
+- (id);
+- (long long);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

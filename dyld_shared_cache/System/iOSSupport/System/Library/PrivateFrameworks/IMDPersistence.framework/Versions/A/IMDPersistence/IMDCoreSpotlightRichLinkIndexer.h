@@ -19,11 +19,12 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (id);
 + (id);
++ (void);
 + (id);
-- (id)?;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -43,8 +44,8 @@
 - (void);
 - (id);
 - (void);
-- (void)ntion;
-- (id)_recipient, date_retracted, date_edited, date_recovered, was_detonated, part_count, is_stewie, is_sos, is_critical, bia_reference_id, is_kt_verified, fallback_hash, associated_message_emoji, is_pending_satellite_send, needs_relay, schedule_type, schedule_state, sent_or_received_off_grid, is_time_sensitive, ck_chat_id FROM message WHERE ROWID = ? ORDER BY message.ROWID ASC;;
+- (void)roup participant recovery migration...;
+- (id)c.style = 45 ;
 
 // Remaining properties
 @property(retain, nonatomic) Class class; // @synthesize class=_class;

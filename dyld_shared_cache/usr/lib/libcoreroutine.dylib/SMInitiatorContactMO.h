@@ -15,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)¬;
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *cacheUpdateBackstopExpiryDate; // @dynamic cacheUpdateBackstopExpiryDate;

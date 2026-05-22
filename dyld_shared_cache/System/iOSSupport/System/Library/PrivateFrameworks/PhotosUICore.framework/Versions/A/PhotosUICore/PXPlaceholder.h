@@ -22,9 +22,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)WithScreenProvider: /* Error: Ran out of types for this method. */;
+- (id)»yA1_GARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GGAIyAJy93æA41_ARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GGGAHyAIyAJy3æÜ»yA1_GARHPA1_ARHPA0_ArSyHC_HC_HCg1_A1_ARHPA0_ArSyHC_HCg3_GG*»GGG]%»y4æGGA56_GGGGA57_yS»GG_Qo_$»G;
+- (void)LemonadeDragAndDropAsyncLoadHelper;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *fallbackActionTitle; // @synthesize fallbackActionTitle=_fallbackActionTitle;

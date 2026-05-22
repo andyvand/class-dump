@@ -31,11 +31,11 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (void);
 - (unsigned long long);
-- (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *activeDestinations; // @synthesize activeDestinations=_activeDestinations;

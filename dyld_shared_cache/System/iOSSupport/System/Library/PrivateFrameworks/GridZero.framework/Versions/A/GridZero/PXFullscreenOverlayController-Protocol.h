@@ -7,6 +7,8 @@
 @class UIViewController;
 
 @protocol PXFullscreenOverlayController
+- (struct CGSize)¡°!@GùQ1B50@ù
+× ;
 
 // Remaining properties
 @property(nonatomic) __weak UIViewController *containerViewController;

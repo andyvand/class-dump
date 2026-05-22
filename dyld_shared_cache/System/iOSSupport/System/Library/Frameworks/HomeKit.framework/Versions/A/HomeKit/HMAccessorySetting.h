@@ -15,8 +15,8 @@
 }
 
 + (id);
-+ (id)1B;
-+ (_Bool);
++ (_Bool)Component"8@"HMMediaSystemComponent"16;
++ (id)NSString"8;
 
 @end
 

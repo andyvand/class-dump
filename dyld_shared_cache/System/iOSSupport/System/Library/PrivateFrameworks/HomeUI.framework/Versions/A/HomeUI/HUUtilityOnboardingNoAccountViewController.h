@@ -25,10 +25,10 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)seNotesHTMLString;
-- (void)wController:(id)arg1;
-- (id)6×ÿKÖ;
+- (id)m;
+- (void)HUUtilityOnboarding_ShowAllProviders_Button;
 
 // Remaining properties
 @property(nonatomic, retain) id <HUConfigurationViewControllerDelegate> delegate; // @synthesize delegate;

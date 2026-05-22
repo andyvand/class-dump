@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void)c;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *mutableStorage; // @synthesize mutableStorage=_mutableStorage;

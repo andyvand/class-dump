@@ -16,13 +16,13 @@
 - (id);
 - (id);
 - (id);
+- (struct CGRect);
+- (id);
+- (id);
 - (unsigned long long);
 - (int);
-- (struct CGRect);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
 
 // Remaining properties
 @property(nonatomic) int index; // @synthesize index=_index;

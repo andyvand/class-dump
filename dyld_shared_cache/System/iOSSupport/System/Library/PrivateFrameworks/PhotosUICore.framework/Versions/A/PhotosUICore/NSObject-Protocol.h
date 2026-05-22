@@ -7,17 +7,13 @@
 @class NSString;
 
 @protocol NSObject
-- (NSString *)1b0@ù
-× ;
-- (_Bool)Dùñ|Ð1b0@ù
-× ;
-- (id)bleBackgroundColor;
-- (_Bool)¸;
-- (id)(s5ÿL1;
-- (unsigned long long)ler;
+- (_Bool):(Class)arg1;
+- (id)d úÿÄ;
+- (_Bool)dioRequestOptions.fadeOutDuration is not currently supported by PXFlexMusicMediaProvider;
+- (struct _NSZone *)<ÿ½uÊ`<ÿ½uÊÜî$ÿ½uÊÞ&ÿ;
 
 @optional
-- (NSString *)o, CGFloat);
+- (NSString *)Þ'ÿ¸>;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

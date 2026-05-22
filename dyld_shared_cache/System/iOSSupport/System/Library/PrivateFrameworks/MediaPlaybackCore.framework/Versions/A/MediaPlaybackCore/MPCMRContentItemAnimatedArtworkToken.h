@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id)ÿ;
+- (void)eedEventConsumer %p:_fetchField:fromTransitionEvent:inParametersDictionary:- could not find Item parameters for key=%{public}@ in ItemTransitionParameters event=%{public}@ /* Error: Ran out of types for this method. */;
+- (id)Tºáÿ§Æ\wÎ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *artworkFormat; // @synthesize artworkFormat=_artworkFormat;

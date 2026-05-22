@@ -20,7 +20,7 @@
 - (struct _NSRange);
 - (id);
 - (double);
-- (void);
+- (void)escriptor;
 
 @end
 

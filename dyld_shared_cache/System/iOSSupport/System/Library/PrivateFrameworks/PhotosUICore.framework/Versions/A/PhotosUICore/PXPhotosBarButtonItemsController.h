@@ -15,13 +15,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (id)ation:(id)arg1;
+- (id)tainerViewController;
 - (id);
-- (id)iencyProducer;
-- (id)d descriptors from LemonadeWallpaperManager.;
-- (id)4M~p6;
+- (void)Ñ`ÙÙÇØ;
+- (id)¢¶RD5;
 
 // Remaining properties
 @property(readonly, nonatomic) _PXPhotosBarButtonSpecManager *specManager; // @synthesize specManager=_specManager;

@@ -7,7 +7,7 @@
 @class NSIndexPath, NSString;
 
 @protocol UIDataSourceModelAssociation
-- (NSString *)3G;
-- (NSIndexPath *)8^B16;
+- (NSString *)lement;
+- (NSIndexPath *);
 @end
 

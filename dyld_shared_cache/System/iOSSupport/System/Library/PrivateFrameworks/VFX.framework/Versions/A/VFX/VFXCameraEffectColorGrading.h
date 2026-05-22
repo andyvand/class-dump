@@ -24,7 +24,7 @@
 }
 
 + (id);
-+ (_Bool)ÇÙ×";
++ (_Bool);
 - (void);
 - (void);
 - (void);
@@ -52,13 +52,13 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
-- (void)[ÿÿÿÿÿP;
-- (float)r;
-- (void)®;
-- (float)ÿMu¡';
+- (void);
+- (id);
+- (id);
+- (float)#?;
+- (float)2@¾hK?3Ã@h±Ì¾&@SK?ßì@yÌ¾sJ@4¾K?ç|@kË¾p@ñK?ôe@;
+- (void)Oÿ;
 
 // Remaining properties
 @property(nonatomic) float contrast;

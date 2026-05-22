@@ -12,13 +12,13 @@
     NSArray *_fieldSchemas;
 }
 
-- (id);
-- (id);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id)ion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *fieldNames;

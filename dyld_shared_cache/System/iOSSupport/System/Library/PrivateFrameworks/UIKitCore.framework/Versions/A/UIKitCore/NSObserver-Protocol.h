@@ -7,6 +7,8 @@
 @protocol NSObserver
 
 @optional
-- (void)ator:(id)arg1 v%lu;
+- (void)!°Eùað1Â0@ù
+× ;
+- (void);
 @end
 

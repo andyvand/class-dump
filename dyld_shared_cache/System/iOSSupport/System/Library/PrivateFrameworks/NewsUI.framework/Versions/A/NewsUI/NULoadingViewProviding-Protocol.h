@@ -5,8 +5,5 @@
 //
 
 @protocol NULoadingViewProviding
-
-@optional
-- (void);
 @end
 

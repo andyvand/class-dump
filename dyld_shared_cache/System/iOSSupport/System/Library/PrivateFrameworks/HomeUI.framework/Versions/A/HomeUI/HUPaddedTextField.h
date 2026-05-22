@@ -12,7 +12,7 @@
 - (struct CGRect);
 - (struct CGRect);
 - (id);
-- (struct CGRect)atedAnimations:(struct CGRect)arg1 completion: /* Error: Ran out of types for this method. */;
+- (struct CGRect);
 
 @end
 

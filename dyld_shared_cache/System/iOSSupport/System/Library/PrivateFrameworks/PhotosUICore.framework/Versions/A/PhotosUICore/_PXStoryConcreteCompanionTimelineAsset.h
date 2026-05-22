@@ -22,7 +22,7 @@
 - (long long);
 - (id);
 - (struct CGRect);
-- (void)0e;
+- (void)l state is invalid.;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXStoryClip> clip; // @synthesize clip=_clip;

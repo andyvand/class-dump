@@ -4,13 +4,13 @@
 
 class std::__1::basic_istream<char, std::__1::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
-    getline(char*, long, char);
-    operator>>(bool&);
-    operator>>(double&);
-    operator>>(int&);
-    operator>>(unsigned long&);
-    read(char*, long);
-    seekg(long long, std::__1::ios_base::seekdir);
-    tellg();
+    auto getline(char*, long, char);
+    auto operator>>(bool&);
+    auto operator>>(double&);
+    auto operator>>(int&);
+    auto operator>>(unsigned long&);
+    auto read(char*, long);
+    auto seekg(long long, std::__1::ios_base::seekdir);
+    auto tellg();
     ~basic_istream();
 };

@@ -25,9 +25,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)iveStreamURLKey;
+- (id);
+- (void)ðâ;
 
 // Remaining properties
 @property(retain, nonatomic) HFItemProvider *sourceProvider; // @synthesize sourceProvider=_sourceProvider;

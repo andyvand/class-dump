@@ -31,16 +31,16 @@
 - (id);
 - (void);
 - (id);
-- (long long);
+- (id);
+- (id);
 - (void);
-- (void);
+- (id);
 - (_Bool);
-- (id);
-- (id);
 - (void);
+- (id);
+- (long long);
 - (unsigned short);
-- (id);
-- (id);
+- (void);
 - (void);
 
 // Remaining properties

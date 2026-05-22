@@ -5,15 +5,15 @@
 class dyld4::Atlas::ProcessSnapshot {
 public: // (access info unavailable from symbols alone)
     ProcessSnapshot(lsl::Allocator&, dyld4::FileManager&, bool);
-    addImage(dyld4::Atlas::Image&&);
-    addImages(dyld4::RuntimeState*, lsl::Vector<AuthenticatedValue<dyld4::Loader const*>>&);
-    addSharedCache(dyld4::Atlas::SharedCache&&);
-    addSharedCacheImage(mach_header const*);
-    addSharedCacheImage(mach_header const*) (.cold.1);
-    addSharedCacheImage(mach_header const*) (.cold.2);
-    identityMapper();
-    serialize();
-    setDyldState(unsigned long long);
-    setInitialImageCount(unsigned long long);
-    setPlatform(unsigned long long);
+    auto addImage(dyld4::Atlas::Image&&);
+    auto addImages(dyld4::RuntimeState*, lsl::Vector<AuthenticatedValue<dyld4::Loader const*>>&);
+    auto addSharedCache(dyld4::Atlas::SharedCache&&);
+    auto addSharedCacheImage(mach_header const*);
+    auto addSharedCacheImage(mach_header const*) (.cold.1);
+    auto addSharedCacheImage(mach_header const*) (.cold.2);
+    auto identityMapper();
+    auto serialize();
+    auto setDyldState(unsigned long long);
+    auto setInitialImageCount(unsigned long long);
+    auto setPlatform(unsigned long long);
 };

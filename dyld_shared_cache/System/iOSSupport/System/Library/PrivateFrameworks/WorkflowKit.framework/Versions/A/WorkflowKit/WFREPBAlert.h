@@ -30,22 +30,22 @@
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
-- (_Bool);
 - (void);
 - (id);
 - (int);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
+- (unsigned long long);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (_Bool)endToNoteLinkAction;
+- (id)VariableActionProvidingInputToActionAtIndex:inWorkflow: /* Error: Ran out of types for this method. */;
+- (void)ntainerBundleID:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *buttons; // @synthesize buttons=_buttons;

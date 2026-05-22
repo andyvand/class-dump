@@ -24,8 +24,8 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (struct CGRect);
 - (void);
-- (void);
 - (id);
+- (void);
 - (void);
 - (id);
 

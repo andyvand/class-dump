@@ -11,10 +11,11 @@
     CKGradientReferenceView *_gradientReferenceView;
 }
 
-- (void);
 - (id);
-- (void);
-- (id)oration;
+- (id)@ù
+× ;
+- (void)× ;
+- (void)ÿÿ';
 
 // Remaining properties
 @property(retain, nonatomic) CKGradientReferenceView *gradientReferenceView; // @synthesize gradientReferenceView=_gradientReferenceView;

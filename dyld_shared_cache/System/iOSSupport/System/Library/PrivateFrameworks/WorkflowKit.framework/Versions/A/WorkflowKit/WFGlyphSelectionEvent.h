@@ -17,13 +17,12 @@
 
 + (Class);
 - (_Bool);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
-- (void)Ñfð1B0@ù
-× ;
+- (void);
+- (void)ng the entity type instead;
+- (void)e;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

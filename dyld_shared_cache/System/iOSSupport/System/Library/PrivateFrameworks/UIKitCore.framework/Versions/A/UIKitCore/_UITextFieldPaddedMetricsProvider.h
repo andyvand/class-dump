@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
     struct UIEdgeInsets _padding;
 }
 
-- (void);
-- (double);
-- (void);
-- (_Bool);
-- (id)leAttributes:(struct CGSize)arg1;
-- (id)e;
-- (id)_scrollPreferredActionRepresentationViewToVisibleAnimated:(struct UIEdgeInsets)arg1;
 - (_Bool);
-- (double)KeyDisplayTypeSpace;
-- (struct CGSize)s not provide an item container.;
-- (struct CGRect)t;
-- (void)ÇÊÞ<\;
-- (struct UIEdgeInsets);
+- (void);
+- (id);
+- (void)ndardItems:(_Bool)arg1;
+- (double)ContentSizeCategoryChange;
+- (id)ackgroundProviderDidChange;
+- (id)edIconBehavior;
+- (double);
+- (struct UIEdgeInsets)Å|43^;
+- (_Bool)5¡43Aê;
+- (void)ètþ 43\tþµ43Àtþ½43°tþ43$tþå43xtþu43ttþu43dtþ½43´tþõ43|tþÅ43¬tþ;
+- (struct CGRect)¼Ý[;
+- (struct CGSize)óàþÇWËP§];
 
 // Remaining properties
 @property(nonatomic) _Bool canIntrinsicHeightExceedContentHeight; // @synthesize canIntrinsicHeightExceedContentHeight=_canIntrinsicHeightExceedContentHeight;

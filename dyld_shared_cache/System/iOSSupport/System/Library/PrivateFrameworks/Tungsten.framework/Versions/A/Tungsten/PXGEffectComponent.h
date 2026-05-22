@@ -27,9 +27,9 @@
 - (const unsigned int *);
 - (id);
 - (unsigned int *);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
 

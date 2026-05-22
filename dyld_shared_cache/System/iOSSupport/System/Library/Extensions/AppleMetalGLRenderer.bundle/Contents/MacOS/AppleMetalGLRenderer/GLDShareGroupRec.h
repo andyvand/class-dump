@@ -4,12 +4,12 @@
 
 class GLDShareGroupRec {
 public: // (access info unavailable from symbols alone)
-    contextRetain();
-    createZeroTexture(bool, int);
-    dealloc();
-    initWithDevice(GLDDeviceRec*, GLDShareGroupStateRec const*);
-    signalUsage();
-    waitForObject(unsigned int, unsigned int, void*);
-    waitUsage(int volatile*);
+    auto contextRetain();
+    auto createZeroTexture(bool, int);
+    auto dealloc();
+    auto initWithDevice(GLDDeviceRec*, GLDShareGroupStateRec const*);
+    auto signalUsage();
+    auto waitForObject(unsigned int, unsigned int, void*);
+    auto waitUsage(int volatile*);
     ~GLDShareGroupRec();
 };

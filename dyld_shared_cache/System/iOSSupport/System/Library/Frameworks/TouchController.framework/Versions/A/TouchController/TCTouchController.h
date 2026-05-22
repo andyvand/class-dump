@@ -66,11 +66,9 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -78,6 +76,8 @@
 - (void);
 - (struct CGSize);
 - (id);
+- (void);
+- (_Bool)tleIndicatorContentsOfSize:controller: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *buttons;

@@ -8,8 +8,8 @@
 
 @interface (null) (BSXPCSecureCoding)
 + (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

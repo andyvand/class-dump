@@ -7,7 +7,6 @@
 @class NSSet;
 
 @protocol CKAlertSuppressionContextsProviding
-- (NSSet *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *alertSuppressionContexts;

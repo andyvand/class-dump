@@ -4,10 +4,11 @@
 
 class swift::TaskGroup {
 public: // (access info unavailable from symbols alone)
-    addChildTask(swift::AsyncTask*);
-    getTaskRecord();
-    isCancelled();
-    offer(swift::AsyncTask*, swift::AsyncContext*);
-    removeChildTask(swift::AsyncTask*);
-    statusCancel();
+    auto addChildTask(swift::AsyncTask*);
+    auto getTaskRecord();
+    auto isCancelled();
+    auto isDiscardingResults();
+    auto offer(swift::AsyncTask*, swift::AsyncContext*);
+    auto removeChildTask(swift::AsyncTask*);
+    auto statusCancel();
 };

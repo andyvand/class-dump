@@ -29,7 +29,7 @@
     unsigned long long _templateType;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -51,6 +51,7 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,36 +81,36 @@
 - (long long);
 - (void);
 - (void);
-- (id)R
-;
-- (void);
-- (void);
-- (_Bool);
-- (void)SafeAccessTraits<uint64_t>, unsigned long long>, WTF:(unsigned long long)arg1:WeakPtr<WebCore::IDBServer::UniqueIDBDatabaseConnection>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::IDBDatabaseConnectionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebCore::IDBServer::UniqueIDBDatabaseConnection>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::IDBDatabaseConnectionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::IDBDatabaseConnectionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebCore::IDBServer::UniqueIDBDatabaseConnection>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::IDBDatabaseConnectionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::IdentityHashTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::IDBDatabaseConnectionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebCore::IDBServer::UniqueIDBDatabaseConnection>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::IDBDatabaseConnectionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebCore::IDBDatabaseConnectionIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (void)dentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF:(id)arg1:HashMap<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::AuthenticationManager::Challenge>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, HashTranslator = WTF::HashMapTranslator<WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::AuthenticationManager::Challenge>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
-- (id)orkResourceLoader::serviceWorkerDidNotHandle(ServiceWorkerFetchTask *) /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
 - (id);
 - (void);
 - (void);
-- (long long);
-- (void);
-- (void)8;
+- (_Bool);
 - (void);
 - (unsigned long long);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id)F;
 - (void);
 - (void);
-- (id)calItemSpacing: /* Error: Ran out of types for this method. */;
-- (void)Q°1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)!DùQë1Â0@ù
 × ;
-- (void)or:(id)arg1;
-- (void)r",&,N,V_overrideDeviceSupportsGenerativeModels;
+- (id)ht;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

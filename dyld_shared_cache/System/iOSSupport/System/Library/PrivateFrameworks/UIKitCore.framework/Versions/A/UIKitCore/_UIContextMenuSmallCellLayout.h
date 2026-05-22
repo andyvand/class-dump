@@ -23,8 +23,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)O;
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -34,15 +34,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (id)Service"16@"IDSAccount"24q32@"NSString"40@"IDSMessageContext"48;
-- (id)lets rebuild with fromMessage:(_Bool)arg1 %@;
-- (void);
-- (void)0@ù
+- (id);
+- (id);
+- (void)!FùqaÐ1Â0@ù
 × ;
-- (void)All;
-- (id)e was disconnected;
-- (long long)dFocusableItemsInRect(id<UIFocusEnvironment>  _Nonnull __strong, id<UIFocusItemContainer>  _Nonnull __strong, CGRect);
-- (id)_UIViewMaterial;
+- (void),N,G_currentTouch,S_setCurrentTouch:(id)arg1 ,V_currentTouch;
+- (long long)7;
+- (id)°ò;
+- (void);
+- (id)w<;
 
 // Remaining properties
 @property(readonly, nonatomic) UIShape *contentShape;

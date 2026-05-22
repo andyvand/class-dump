@@ -20,26 +20,28 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (_Bool);
-- (void);
-- (void);
 - (_Bool);
-- (void);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool)Ùº;
-- (_Bool)t_unregisterURLForIdentifier: /* Error: Ran out of types for this method. */;
-- (id)lacement: /* Error: Ran out of types for this method. */;
-- (id)atorInputSwitcher;
-- (void)ing focus update for %.2g seconds due to too many failed focus updates.;
-- (long long)ÿüÿ;
-- (void)onfiguring a row, you must obtain the existing cell by dequeuing a cell for the index path specified, using the same reuse identifier that was used to dequeue the cell originally, and return the same cell. Index path:(id)arg1 %@; Existing cell:%@; Returned cell:%@ /* Error: Ran out of types for this method. */;
-- (void)@:(_Bool)arg1 %p; rect = %@>;
-- (id)wiþqÝ4Ôwiþ;
 - (long long);
-- (id)QË;
+- (void);
+- (void);
 - (_Bool);
-- (void)Éÿ²ýÒV$];
+- (void)Ô ;
+- (void)Ô°!@ù]°1Â0@ù
+× ;
+- (id)0@ù
+× ;
+- (void)nt=dd}{CGPoint=dd}{CGRect={CGPoint=dd}{CGSize=dd}}{CGAffineTransform=dddddd}d}16@0:(long long)arg1 8;
+- (_Bool)e>"16@0:(id)arg1 8;
+- (void)ingListAttributes;
+- (id)rEntry;
+- (_Bool)}},N,V_sourceFrame;
+- (id)¼wôxÌ~8;
+- (_Bool)aryTextHorizontalPadding;
+- (id)value;
+- (long long)@"NSString"32;
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowCustomTransition; // @synthesize allowCustomTransition=_allowCustomTransition;

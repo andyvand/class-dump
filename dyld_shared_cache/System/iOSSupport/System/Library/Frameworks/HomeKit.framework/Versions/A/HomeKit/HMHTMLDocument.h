@@ -11,21 +11,21 @@
     _HMDocument *_document;
 }
 
-+ (_Bool)rtcut;
++ (_Bool);
 - (_Bool);
-- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (id);
 - (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)ameraRecording: /* Error: Ran out of types for this method. */;
-- (id)lic}@[%{public}@] Found accessory %@;
+- (id);
+- (void);
+- (id)count data:(id)arg1 %@;
+- (id)transfer support update:%@ /* Error: Ran out of types for this method. */;
+- (id)on:(id)arg1 ];
 
 // Remaining properties
 @property(readonly, copy) NSAttributedString *attributedString;

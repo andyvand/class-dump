@@ -15,9 +15,9 @@
 }
 
 - (void);
-- (void);
-- (_Bool)ledForLatest;
+- (_Bool);
 - (id);
+- (void);
 
 @end
 

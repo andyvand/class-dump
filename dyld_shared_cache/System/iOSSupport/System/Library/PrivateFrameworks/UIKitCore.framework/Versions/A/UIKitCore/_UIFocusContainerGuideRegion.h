@@ -18,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (id)bilities;
 - (id);
-- (void)to cancel task request;
-- (void)@);
-- (_Bool)B;
+- (id);
 - (void);
+- (void);
+- (_Bool)TitleWidthForHeaderInSection:(id)arg1;
+- (void)²;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIFocusRegionContainer> contentFocusRegionContainer; // @synthesize contentFocusRegionContainer=_contentFocusRegionContainer;

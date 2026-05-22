@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer;
-
 @protocol UIGestureRecognizerDelegate
-
-@optional
-- (_Bool):(UIGestureRecognizer *)arg1 8^v16Q24Q32@?40@?48;
-- (_Bool);
 @end
 

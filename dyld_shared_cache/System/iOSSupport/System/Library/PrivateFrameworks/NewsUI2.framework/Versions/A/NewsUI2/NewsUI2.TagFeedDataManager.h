@@ -29,11 +29,14 @@
     MISSING_TYPE *offlineFeedPrimer;
     MISSING_TYPE *offlineFeatures;
     MISSING_TYPE *lastRefreshDateSetting;
+    MISSING_TYPE *channelPickerReloadState;
     MISSING_TYPE *$__lazy_storage_$_ensurePrewarmPromise;
 }
 
 - (void);
+- (void);
 - (id);
+- (void);
 
 @end
 

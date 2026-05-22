@@ -29,23 +29,23 @@
 - (void);
 - (_Bool);
 - (void);
+- (id);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
+- (void);
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool)bleParameterStateC;
+- (_Bool)ctionIdentifiers;
+- (_Bool)(a;
+- (void)Remote widget incoming connection got error receiving data %@;
+- (_Bool)onCoordinator handleUnknownRequestMessage:] /* Error: Ran out of types for this method. */;
+- (void)y/PrivateFrameworks/AppPredictionClient.framework/AppPredictionClient;
 
 // Remaining properties
 @property(nonatomic) _Bool completed; // @synthesize completed=_completed;

@@ -4,5 +4,5 @@
 
 class mach_o::LazyBindOpcodes {
 public: // (access info unavailable from symbols alone)
-    hasDoneBetweenBinds() const;
+    auto hasDoneBetweenBinds() const;
 };

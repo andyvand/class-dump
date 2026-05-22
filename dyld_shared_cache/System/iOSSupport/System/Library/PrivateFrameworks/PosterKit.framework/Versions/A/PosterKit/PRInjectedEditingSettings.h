@@ -15,24 +15,25 @@
 }
 
 + (_Bool);
-+ (_Bool)ehavior:deletionBehavior:galleryDisplayBehavior: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
 - (void);
-- (void);
+- (id);
 - (long long);
+- (_Bool);
+- (void);
+- (void);
 - (id);
-- (id);
+- (void)
+× ;
+- (id)Ðä;
 
 // Remaining properties
 @property(retain, nonatomic) PRInjectedEditingLook *currentEditingLook; // @synthesize currentEditingLook=_currentEditingLook;

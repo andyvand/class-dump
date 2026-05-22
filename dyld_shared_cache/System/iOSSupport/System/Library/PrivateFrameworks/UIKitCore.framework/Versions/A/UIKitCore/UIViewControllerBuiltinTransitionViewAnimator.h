@@ -18,31 +18,33 @@ __attribute__((visibility("hidden")))
     UIView *_fromView;
 }
 
-- (struct CGPoint);
-- (id);
 - (double);
-- (struct CGPoint);
-- (void)T	ë;
-- (void);
-- (id)32@"<UIDragSession>"40;
-- (void)";
-- (void)ze=dd}24;
-- (struct CGPoint)t={CGPoint=dd}{CGSize=dd}}16{NSDirectionalEdgeInsets=dddd}48Q80;
-- (id)UIViewControllerAnimatedTransitioning>"24@0:(int)arg1 8@"UIViewController"16;
-- (struct CGPoint)es:(id)arg1;
-- (void)torage:(_Bool)arg1 range: /* Error: Ran out of types for this method. */;
-- (void)oScrollableArea:(id)arg1;
+- (id);
 - (void);
 - (id);
-- (void)age;
-- (void)CompletionObservationAddObserver(_UIUpdateCompletionObservation *const _Nonnull, const id<_UIUpdateCompletionObserving>  _Nonnull const __strong, const BOOL);
+- (struct CGPoint);
 - (void);
-- (_Bool)þ;
-- (int);
+- (id);
 - (void);
-- (_Bool)xÿ%JÏM_;
-- (void)Ñÿ;
-- (double)åíþ{%Ø>4e;
+- (_Bool);
+- (struct CGPoint);
+- (id);
+- (double)@ù
+× ;
+- (void);
+- (void)Qg1Â0@ù
+× ;
+- (void)zer"16;
+- (struct CGPoint):(id)arg1;
+- (void):(id)arg1 forValueAtIndex: /* Error: Ran out of types for this method. */;
+- (void)_boldForAllLocales;
+- (void)"NSString",&,N,V_persistentSceneIdentifier;
+- (struct CGPoint)iterClientSpringBoard userSelectedApp:(id)arg1 onCompletion:(id)arg2 ]  Focus bundle:(int)arg3 %@, focusedSceneIdentity:(struct CGPoint)arg4 %@;
+- (_Bool)g) provided by table delegate. Value must be at least 0.0, or UITableViewAutomaticDimension.;
+- (void);
+- (void)?}ÿq;
+- (int)T´ÿ±g;
+- (void)þæÔ¬<f;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_navigationBarTransitionOverlay;

@@ -5,6 +5,5 @@
 //
 
 @protocol _UIFluidSliderFeedbackPlayer
-- (_Bool)!;
 @end
 

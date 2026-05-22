@@ -24,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (long long);
-- (void);
-- (id)_value;
-- (id)xé;
+- (id);
+- (void)dÂ[;
+- (id)X:(id)arg1 ºÿ¾F;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isFocusMovementFlippedHorizontally) _Bool focusMovementFlippedHorizontally; // @synthesize focusMovementFlippedHorizontally=_focusMovementFlippedHorizontally;

@@ -15,7 +15,7 @@
 + (id);
 - (_Bool);
 - (id);
-- (unsigned long long)P;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *accessibilityCaption; // @dynamic accessibilityCaption;

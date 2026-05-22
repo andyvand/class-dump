@@ -14,18 +14,18 @@
 
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)NSError">32;
-- (id)meter Summary);
+- (void)ng;
 
 // Remaining properties
 @property(retain, nonatomic) WFREPBAlert *alert; // @synthesize alert=_alert;

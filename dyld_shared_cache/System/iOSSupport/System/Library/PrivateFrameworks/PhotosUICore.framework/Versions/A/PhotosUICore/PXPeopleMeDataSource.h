@@ -18,7 +18,7 @@
     NSObject<OS_dispatch_queue> *_meContactIsolationQueue;
 }
 
-+ (id)Kå<;
++ (id);
 - (void);
 - (void);
 - (void);
@@ -36,11 +36,11 @@
 - (id);
 - (void);
 - (id);
-- (id)¤á0ã;
-- (id)UCHvR6;
-- (id)Ë»ûÚs6;
 - (id);
-- (void)A7;
+- (id);
+- (id);
+- (void)d;
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

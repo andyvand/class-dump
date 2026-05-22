@@ -14,10 +14,10 @@
 }
 
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
 
 @end

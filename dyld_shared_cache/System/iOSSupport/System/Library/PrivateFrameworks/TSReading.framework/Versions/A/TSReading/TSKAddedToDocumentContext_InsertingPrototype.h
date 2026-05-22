@@ -12,9 +12,9 @@
 
 - (_Bool);
 - (_Bool);
-- (_Bool)#;
 - (_Bool);
-- (id)ergreenHeadlines":1,"maxInaccessibleHeadlines":1,"maxPublisherOccurrences":2},"maxNumberOfItems":6,"minNumberOfItems":3},"hardPaywallBundleArticleLimit":100000,"orphanedClusteringKnobs":{"bundleArticleQuotas":{"value":{"defaultRatio":1.0,"slottedRatios":[]}},"groupingRules":{"maxEvergreenHeadlines":1,"maxInaccessibleHeadlines":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":5}],"value":3},"maxPublisherOccurrences":{"selectors":[{"selector":"platform-phone","value":3},{"selector":"platform-pad","value":4}],"value":2}},"maxNumberOfItems":{"selectors":[{"selector":"platform-phone","value":12},{"selector":"platform-pad","value":18}],"value":12},"minNumberOfItems":6}}} /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
 
 @end
 

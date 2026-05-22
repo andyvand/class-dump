@@ -33,31 +33,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool)_CONST;
+- (_Bool);
 - (id);
 - (void);
 - (struct CGPoint);
-- (id)Ds:toMetric:isOutgoing: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (struct CGPoint);
-- (void)start monitoring while already monitoring.;
-- (id)versation UUID %@ for conversation %@;
+- (id);
 - (void);
 - (void);
-- (id)mmon;
-- (void)of %ld;
-- (void)b;
-- (unsigned long long)!p°!pBùÑÂ1¢!0@ù
+- (void);
+- (void);
+- (id);
+- (void)1Â0@ù
 × ;
-- (id)
+- (unsigned long long)á
+°!(@ùg°1Â0@ù
 × ;
-- (id)DefaultPressTypes;
-- (void)anceTransition;
-- (unsigned long long)¤hÌhi;
-- (unsigned long long);
-- (void)upport.swift;
-- (id)T71ñµ4Ü~;
-- (void)UÝa;
+- (void)didateView;
+- (unsigned long long)enter:didReceiveNotificationResponse:withCompletionHandler:but the completion handler was never called. /* Error: Ran out of types for this method. */;
+- (unsigned long long)teger);
+- (void)áÌÏ&\;
+- (void);
+- (id)N_;
+- (id)6;
+- (id)q;
 
 // Remaining properties
 @property(retain, nonatomic) _UIDragBadge *badge; // @synthesize badge=_badge;

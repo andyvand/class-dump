@@ -23,11 +23,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
+- (void)tLocationTask;
 
 // Remaining properties
 @property(nonatomic) __weak id <FMUIAccessoryOnboardingCoordinatorDelegate> delegate; // @synthesize delegate;

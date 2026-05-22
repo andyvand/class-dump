@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
+@class NSColor, UIImage;
 
 @protocol UIButtonRepresentable
-- (void)metadata header;
-- (void)rsion failed;
+- (void)rnal inconsistency:(UIImage *)arg1 cell prefetched for %@ already stored for %@. Cell:(unsigned long long)arg2 %@; Prefetched Cells:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void)8YÌ¹;
-- (void)ses:(_Bool)arg1 forIdiom: /* Error: Ran out of types for this method. */;
-- (void)indow;
-- (void);
-- (void)is unavailable.;
+- (void)sFirstResponder;
+- (void)pPadding = %g;
+- (void)r for UIViewControllerBuiltinTransitionViewAnimator to work.;
 
 // Remaining properties
 @property(nonatomic, getter=_isSelected, setter=_setSelected:) _Bool _selected;

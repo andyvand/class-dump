@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id)W6;
+- (id)PFStoryRecipe>",&,N,V_originalPersistableRecipe;
 
 @end
 

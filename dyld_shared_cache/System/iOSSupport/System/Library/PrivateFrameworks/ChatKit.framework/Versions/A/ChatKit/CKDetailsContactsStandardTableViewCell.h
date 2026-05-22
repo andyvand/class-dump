@@ -14,16 +14,16 @@
 }
 
 + (double);
-+ (double);
-- (id)>",W,N,V_attachmentDelegate;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (double)%llu;
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)lection:(long long)arg1;
+- (void)¹ëi$é;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *visibleButtons; // @synthesize visibleButtons=_visibleButtons;

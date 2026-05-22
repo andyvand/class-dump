@@ -4,9 +4,9 @@
 
 class mach_o {
 public: // (access info unavailable from symbols alone)
-    hasWarningHandler();
-    read_sleb128(unsigned char const*&, unsigned char const*, bool&);
-    read_uleb128(unsigned char const*&, unsigned char const*, bool&);
-    stringOverflow(load_command const*, unsigned int, unsigned int);
-    warning(void const*, char const*, ...);
+    auto hasWarningHandler();
+    auto read_sleb128(unsigned char const*&, unsigned char const*, bool&);
+    auto read_uleb128(unsigned char const*&, unsigned char const*, bool&);
+    auto stringOverflow(load_command const*, unsigned int, unsigned int);
+    auto warning(void const*, char const*, ...);
 };

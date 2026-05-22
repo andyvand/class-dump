@@ -5,18 +5,16 @@
 //
 
 @protocol UICollectionViewTableAutoRowAttributes
-- (int)P;
-- (_Bool)@>;
-- (void)!ÀFùÆÐ1¢!0@ù
+- (_Bool)! @ùq^°1Â0@ù
 × ;
-- (long long)ÿºýÿÐýÿ;
+- (void)s;
+- (_Bool)N,S_setClassifierShouldRespectSystemGestureTouchFiltering: /* Error: Ran out of types for this method. */;
+- (void)È[;
 - (void);
-- (double)þ;
-- (_Bool)º~8;
-- (void)DÆiþ;
-- (void)1;
-- (void)´Ø;
-- (_Bool)\;
+- (double)ÛÔè[;
+- (double)¶0;
+- (double)\;
+- (struct UIEdgeInsets)<;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets backgroundInset;

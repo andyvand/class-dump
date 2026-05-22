@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
     id <UIWebFormControl> _control;
 }
 
-+ (id)Chat GUID did not match other identifiers.;
++ (id);
 - (void);
 - (void);
-- (id)ticipant:(id)arg1 inChat:style: /* Error: Ran out of types for this method. */;
-- (id)r %@ ;
-- (long long)s before first unlock;
+- (id);
+- (id);
+- (long long);
 - (id);
 - (void);
-- (void)_splitViewController:willBeginAnimatedTransitionToStateRequest: /* Error: Ran out of types for this method. */;
-- (void)esponder or UIStateRestoring:%@ /* Error: Ran out of types for this method. */;
-- (id)owProperties = %@;
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) id <UIWebFormControl> _control; // @synthesize _control;

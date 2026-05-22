@@ -5,10 +5,10 @@
 class DictMgr {
 public: // (access info unavailable from symbols alone)
     DictMgr(char const*, char const*);
-    get_list(dictentry**);
-    mychomp(char*);
-    mystrdup(char const*);
-    mystrsep(char**, char);
-    parse_file(char const*, char const*);
+    auto get_list(dictentry**);
+    auto mychomp(char*);
+    auto mystrdup(char const*);
+    auto mystrsep(char**, char);
+    auto parse_file(char const*, char const*);
     ~DictMgr();
 };

@@ -13,10 +13,10 @@
 }
 
 - (id);
+- (id);
 - (struct CGRect);
-- (void)vR�w*;
 - (id);
-- (id);
+- (void)n>",&,N,V_updatedLocationForRecycledViewProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect frame; // @synthesize frame=_frame;

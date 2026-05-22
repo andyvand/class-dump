@@ -4,6 +4,6 @@
 
 class dyld3::Array<dyld4::Loader::Region> {
 public: // (access info unavailable from symbols alone)
-    push_back(dyld4::Loader::Region const&);
-    push_back(dyld4::Loader::Region const&) (.cold.1);
+    auto push_back(dyld4::Loader::Region const&);
+    auto push_back(dyld4::Loader::Region const&) (.cold.1);
 };

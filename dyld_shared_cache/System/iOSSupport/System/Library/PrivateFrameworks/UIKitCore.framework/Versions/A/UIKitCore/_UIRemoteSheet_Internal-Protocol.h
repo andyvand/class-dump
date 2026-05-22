@@ -8,12 +8,6 @@
 
 @protocol _UIRemoteSheet_Internal
 
-@optional
-- (void);
-- (void)";
-- (id <_UIRemoteSheet_Internal>)er:answer:error: /* Error: Ran out of types for this method. */;
-- (void)ificationDate;
-
 // Remaining properties
 @property(readonly, nonatomic) id <_UIRemoteSheet_Internal> _containedRemoteSheet;
 // Preceding property had unknown attributes: ?

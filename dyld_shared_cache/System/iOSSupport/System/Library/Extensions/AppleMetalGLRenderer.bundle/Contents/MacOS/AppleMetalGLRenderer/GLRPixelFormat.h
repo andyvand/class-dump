@@ -5,8 +5,8 @@
 class GLRPixelFormat {
 public: // (access info unavailable from symbols alone)
     GLRPixelFormat(__GLDPixelFormatRec const&);
-    create(unsigned int*, int const*);
-    preflight(__GLDPixelFormatRec*, int const*);
-    validate() const;
+    auto create(unsigned int*, int const*);
+    auto preflight(__GLDPixelFormatRec*, int const*);
+    auto validate() const;
     ~GLRPixelFormat();
 };

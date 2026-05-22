@@ -12,12 +12,12 @@
     MISSING_TYPE *tickCounter;
 }
 
+- (struct CGSize);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (struct CGSize)¬;
+- (void)(;
 
 @end
 

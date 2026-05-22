@@ -13,6 +13,7 @@
     MISSING_TYPE *conversationManager;
     MISSING_TYPE *linkController;
     MISSING_TYPE *sensitiveContentTipViewModel;
+    MISSING_TYPE *logger;
     MISSING_TYPE *isCommunicationSafetyEnabled;
     MISSING_TYPE *$__lazy_storage_$_collator;
     MISSING_TYPE *$__lazy_storage_$_messageInboxController;

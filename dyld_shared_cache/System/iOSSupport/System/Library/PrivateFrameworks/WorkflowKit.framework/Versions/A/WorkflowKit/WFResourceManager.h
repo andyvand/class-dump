@@ -57,8 +57,8 @@
 - (void);
 - (void);
 - (void);
-- (struct os_unfair_lock_s);
-- (void);
+- (struct os_unfair_lock_s)t¼H¸;
+- (void)meters]_block_invoke;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *accessResources;

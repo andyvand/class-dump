@@ -17,8 +17,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ackground from ${WFInput} (Parameter Summary);
 
 @end
 

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (unsigned long long);
-- (id)tialSupplementaryPreferredSizes;
+- (id)å;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

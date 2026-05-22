@@ -4,8 +4,8 @@
 
 class GLDFramebufferRec {
 public: // (access info unavailable from symbols alone)
-    dealloc();
-    load();
-    updateState(unsigned char);
+    auto dealloc();
+    auto load();
+    auto updateState(unsigned char);
     ~GLDFramebufferRec();
 };

@@ -14,8 +14,8 @@
     MISSING_TYPE *shareSheetViewController;
 }
 
-- (void);
 - (id);
+- (void)yå yAByÄ y_Å yÐGi, yAByx· y yÐGGG_AByAByq_: y y* I+ GSgGGSgALGAByAByq0_ANyAByAOyÐ+ AQG GSgGGALGtGG8# y2$ SgGGA6_yÍ# GGG /* Error: Ran out of types for this method. */;
 
 @end
 

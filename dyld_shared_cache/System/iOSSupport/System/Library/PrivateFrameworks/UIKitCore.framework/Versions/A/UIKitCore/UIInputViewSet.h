@@ -38,117 +38,121 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id)omCandidateBar: /* Error: Ran out of types for this method. */;
-+ (id)ier:(id)arg1;
-+ (id)de %@ or %@ to support reading files;
-+ (id)\;
-+ (id)¥G;
-- (struct CGRect);
++ (id)lectSelectedImageForCellStyle:(id)arg1 traitCollection:(_Bool)arg2 checkmarkColor:(_Bool)arg3 backgroundColor:(_Bool)arg4;
++ (id)ionBarHidingEnabled;
++ (id)de;
++ (id)roundColorIsOpaque;
++ (id),¬e;
++ (id)ÈÿW÷ÚÛe;
 - (double);
-- (void);
-- (double);
-- (struct CGRect);
 - (_Bool);
-- (_Bool);
-- (double);
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
+- (void);
+- (void);
 - (id);
-- (_Bool)ionContext>"32;
-- (_Bool)MPAVRoute",&,N;
-- (id)arUpNextCommand;
-- (void)yObjectDatabase;
-- (_Bool)ng the SDK;
-- (_Bool):L /* Error: Ran out of types for this method. */;
-- (void)aryAdded;
-- (void)ification;
-- (void)ME;
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
+- (void);
 - (double);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
+- (void);
+- (struct CGSize);
 - (void);
 - (struct CGRect);
+- (id);
 - (_Bool);
-- (_Bool)$º;
-- (_Bool);
 - (_Bool);
-- (id)1¢!0@ù
+- (id)× ;
+- (struct CGRect)!XGù1\Ð1Â0@ù
+× ;
+- (_Bool);
+- (void)DùQ\ð1Â0@ù
+× ;
+- (id)!°!TAù^°1Â0@ù
+× ;
+- (void)
+× ;
+- (_Bool)b1Â0@ù
+× ;
+- (void)±c°1Â0@ù
 × ;
 - (id)ù
 × ;
-- (void)!EùñÁð1¢!0@ù
+- (_Bool);
+- (void)Ô ;
+- (_Bool)1Â0@ù
 × ;
-- (void);
-- (void)1¢!0@ù
-× ;
-- (void)DùñÄð1¢!0@ù
+- (_Bool)°!Dù±gð1Â0@ù
 × ;
 - (_Bool)
 × ;
-- (_Bool)t={CGPoint=dd}{CGSize=dd}}40@0:8q16{_NSRange=QQ}24 /* Error: Ran out of types for this method. */;
-- (_Bool)GPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48;
-- (void)ViewControllerTransitionCoordinatorContext>">16@?<v@?@"<UIViewControllerTransitionCoordinatorContext>">24;
-- (void)itDisabled:(_Bool)arg1;
-- (id):firstPersonIDs:primaryRecipients:secondaryRecipients:infoDict: /* Error: Ran out of types for this method. */;
-- (long long):(id)arg1;
-- (id)ntalLineLeadingInset;
-- (void)rientation;
-- (struct CGRect)WithPoint: /* Error: Ran out of types for this method. */;
-- (void)perCase:(id)arg1 language: /* Error: Ran out of types for this method. */;
-- (id)sIsInvalid;
-- (_Bool)nteraction: /* Error: Ran out of types for this method. */;
-- (void)PointerTouchEnabled;
-- (id)mojiTitle;
-- (struct CGRect)eCreateIfNecessary: /* Error: Ran out of types for this method. */;
-- (struct CGSize)yle;
-- (_Bool)e;
-- (id)ckTextBaselineFromBottom: /* Error: Ran out of types for this method. */;
-- (_Bool)nalURI;
-- (id)VisualStyle_tvOS;
-- (id)geCellLayout;
-- (void)eIndicatorProgressView;
-- (id)a;
-- (_Bool)0æôæðè;
-- (id)ion should return the desired top column instead.;
-- (_Bool)idated;
-- (_Bool)ainText:%d
- /* Error: Ran out of types for this method. */;
-- (_Bool)on:handleActionWithIdentifier:forLocalNotification:completionHandler:but the completion handler was never called. /* Error: Ran out of types for this method. */;
-- (void)nel;
-- (_Bool);
-- (id):8{UIEdgeInsets=dddd}16{UIEdgeInsets=dddd}48{UIEdgeInsets=dddd}80{UIEdgeInsets=dddd}112 /* Error: Ran out of types for this method. */;
-- (id)nifiedLayout;
+- (_Bool)16;
+- (struct CGRect)e"b1"selectionIndicatorDragged"b1"adjustsForContentSizeCategory"b1"hovered"b1"animatingSelectionIndicator"b1"hasCustomInfoView"b1"hasMaterial"b1"useSpringBoardVibrancy"b1};
+- (double)@40@0:8@16@24N^{_NSRange=QQ}32 /* Error: Ran out of types for this method. */;
+- (void)eters=Qq{CGRect={CGPoint=dd}{CGSize=dd}}d{CACornerRadii={CGSize=dd}{CGSize=dd}{CGSize=dd}{CGSize=dd}}dddd}16;
+- (_Bool)tical;
+- (_Bool)bleFrameInRemoteKeyboardWindow: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool)h:withSelectionGrouping:considerNextCellGrouping:interactionState: /* Error: Ran out of types for this method. */;
+- (id)teVisibleChildControllers:includePresentedChildren:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)erViewUpdateToFocusUpdate;
+- (_Bool)Edge;
+- (void)gress;
+- (struct CGRect)wController;
+- (_Bool)putMode",&,N,V_inputMode;
+- (void),&,VzoomIn;
+- (id)onstraint;
+- (_Bool)viceViewControllerOperator;
+- (id)G	¼G
+ÄHäIäJXMìO;
+- (void)¤þ;
+- (void)@H¸;
+- (id)¨ ø;
+- (_Bool)ts. Ignoring. angle=%.0f; mode=%@;
+- (void)X`¥þDþÿ;
+- (double)Da]þ´Éþÿ;
+- (_Bool)hidden;
+- (_Bool)temViewPerformButtonActionNotification;
+- (void)mapDataCorner _createCornerWithRadius(const _UIBoundingPathBitmapDataCornerLocation, const NSInteger);
+- (id)d or use a child class.;
+- (long long)onent.m;
+- (_Bool)kSubtype;
+- (struct CGRect)cannot animate the effects property alongside the contentEffects property. Switch to using contentEffects exclusively.;
 - (id);
-- (id) Ì÷he;
-- (id)²;
-- (id)aÔ ?c;
+- (_Bool)ySo27UIListContentTextPropertiesCG;
 - (_Bool);
-- (void)ïàc;
-- (void)n$ÿ_Q;
-- (_Bool);
-- (id)ÈPÿPa;
-- (_Bool)Àf;
-- (void)Vh;
-- (void)þ}HÏbji;
-- (_Bool)ìQÓ&j;
-- (_Bool)ü;
-- (void)$ÿPÉ÷8k;
-- (_Bool)ÿAö;
-- (_Bool)Âk;
 - (id);
-- (_Bool)Sm;
-- (id)øém;
-- (void)ß×cn;
+- (_Bool)O_;
+- (_Bool)ÑXq_;
+- (_Bool)Ûæþ;
+- (id)ð[æþ£g;
+- (id)(Lÿ+Ø;
+- (_Bool)õ¯ÑD`;
+- (void)¡-ÜÐc;
+- (void)ÐÊÓÿÑÚè­d;
+- (id)âÿ²fËÔßd;
+- (_Bool)þ#|;
+- (_Bool);
+- (id)HcØÿN;
+- (void)0f;
+- (void)øÄbþm;
+- (id)|Õ¿'o;
+- (id)ï¡ÿÕ¬Mj;
+- (_Bool)ÿ;
+- (_Bool)(ìÊäÌm;
+- (_Bool)vÿ?Ï@ám;
+- (void)\Án;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _inputViewIsSplit;

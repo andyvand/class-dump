@@ -8,6 +8,7 @@
 
 @interface IMDSpotlightIndexerTimingProfiler
 {
+    struct os_unfair_lock_s _lock;
     IMTimingCollection *_timingCollection;
     double _timeout;
     NSMutableSet *_runningTimers;
@@ -24,18 +25,29 @@
 - (void);
 - (void);
 - (void);
-- (id)5;
+- (id);
+- (id);
+- (double);
+- (double);
 - (id);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)2{Quad=[4]}64@96q104;
+- (void);
 - (void);
 - (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (double);
+- (void);
+- (void)d to add column is_archived to the chat table.;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *abortedTimers; // @synthesize abortedTimers=_abortedTimers;

@@ -7,7 +7,8 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)redCardView;
-- (_Bool)GGÖÇ\G_Qo_G;
+- (_Bool)Ñø°1â
+0@ù
+× ;
 @end
 

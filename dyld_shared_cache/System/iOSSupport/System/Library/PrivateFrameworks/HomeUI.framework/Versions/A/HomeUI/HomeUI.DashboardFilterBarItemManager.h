@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)tableView(_:didSelectRowAt:) /* Error: Ran out of types for this method. */;
 
 @end
 

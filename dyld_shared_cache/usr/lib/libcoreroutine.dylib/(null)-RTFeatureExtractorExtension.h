@@ -11,6 +11,6 @@
 - (id);
 - (id);
 - (id);
-- (id)tineAttributes:(id)arg1;
+- (id);
 @end
 

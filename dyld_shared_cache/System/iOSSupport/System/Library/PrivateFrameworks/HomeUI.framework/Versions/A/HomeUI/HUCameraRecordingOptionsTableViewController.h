@@ -25,9 +25,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (void)tle;
-- (void)ÿuÌ}¼­ÿuÌ}Ø­ÿ;
+- (void);
+- (unsigned long long)anelConfiguration;
+- (void)ntroller.m;
 
 // Remaining properties
 @property(retain, nonatomic) HUCameraSettingsModuleController *cameraSettingsModuleController; // @synthesize cameraSettingsModuleController=_cameraSettingsModuleController;

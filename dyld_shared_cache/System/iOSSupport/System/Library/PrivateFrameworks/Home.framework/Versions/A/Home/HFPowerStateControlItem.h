@@ -16,7 +16,7 @@
 
 + (id);
 + (id);
-+ (Class);
++ (Class)tage constraints without a provided range!;
 - (id);
 - (id);
 - (id);
@@ -31,7 +31,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)1;
 
 // Remaining properties
 @property(readonly) NSSet *allTargetValues; // @synthesize allTargetValues=_allTargetValues;

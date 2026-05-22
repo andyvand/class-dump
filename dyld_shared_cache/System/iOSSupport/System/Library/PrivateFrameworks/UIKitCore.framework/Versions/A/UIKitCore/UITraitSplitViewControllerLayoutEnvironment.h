@@ -8,12 +8,12 @@
 {
 }
 
-+ (_Bool)eLocalization;
 + (_Bool);
 + (_Bool);
-+ (id)teGuideForOffscreenRotationWithDuration: /* Error: Ran out of types for this method. */;
-+ (id)29_UIViewAlphaOverrideAssertionCSg;
-+ (long long)@ÿ;
++ (_Bool);
++ (id);
++ (id)6B20;
++ (long long)µg;
 
 @end
 

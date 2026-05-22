@@ -19,23 +19,22 @@ __attribute__((visibility("hidden")))
     UIKBTutorialConversationBubble *_bubble2;
 }
 
-+ (id)got an error loading the unknown sender payload data store %@;
 + (id);
 + (id);
-- (void)V_isSyncing;
-- (void)N,V_isStewieActive;
-- (void)4;
++ (id);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void)eneration set for:(id)arg1 %@   success:(id)arg2 %@;
-- (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void)0@ù
-× ;
+- (id);
+- (id);
+- (void)Àóf;
 
 // Remaining properties
 @property(retain, nonatomic) UIKBTutorialConversationBubble *bubble1; // @synthesize bubble1=_bubble1;

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id);
 - (unsigned long long);
-- (_Bool)(;
-- (id)artworkImageURL;
-- (void);
-- (id)Count;
+- (_Bool)nager:(id)arg1;
+- (id)PickerRemoteViewController",R,&,N,G_remoteViewController;
+- (void)ï×ÿi`;
 
 @end
 

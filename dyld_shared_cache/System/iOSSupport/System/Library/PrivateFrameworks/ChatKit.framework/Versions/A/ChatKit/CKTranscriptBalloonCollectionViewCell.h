@@ -15,19 +15,19 @@
 }
 
 + (id);
-- (void)WithMetadata:(long long)arg1 managedObjectContext:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)t;
-- (id)d **%lld people**;
+- (void);
+- (void);
+- (id);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void)ndAttachmentsInText: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ÜÐ<;
 
 // Remaining properties
 @property(nonatomic) long long animationPauseReasons; // @synthesize animationPauseReasons=_animationPauseReasons;

@@ -5,7 +5,5 @@
 //
 
 @protocol PKHashtagViewDelegate
-- (void)th_stubs;
-- (void);
 @end
 

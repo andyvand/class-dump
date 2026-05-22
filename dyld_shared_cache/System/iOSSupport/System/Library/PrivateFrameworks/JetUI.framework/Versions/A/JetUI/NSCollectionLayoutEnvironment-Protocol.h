@@ -8,7 +8,6 @@
 @protocol NSCollectionLayoutContainer;
 
 @protocol NSCollectionLayoutEnvironment
-- (UITraitCollection *)tAlignment;
 
 // Remaining properties
 @property(readonly, nonatomic) id <NSCollectionLayoutContainer> container;

@@ -15,23 +15,22 @@
     id <CKMessagesCarouselViewDelegate> _carouselDelegate;
 }
 
-+ (id)imeObserver;
-- (id)View:(unsigned int)arg1 fromParentView:(id)arg2;
-- (id)onUrl;
-- (id)scendantsForUUID:(long long)arg1;
-- (Class)defaultCenter;
-- (Class)ght;
-- (_Bool)R,C,N,V_associatedObjectIdentifier;
-- (void)V_modernSourceObjects;
++ (id);
+- (id);
+- (id);
+- (id);
+- (Class);
+- (Class);
+- (_Bool);
 - (void);
-- (void)FyyACyAD_AFyAgNGtGG]9@yAXGG_AEtGG_G;
-- (id)ieFooterBackground;
+- (void);
+- (void);
+- (id);
 - (double);
 - (double);
+- (id);
 - (void);
-- (id)hBL9;
-- (void)0@ù
-× ;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <CKMessagesCarouselViewDelegate> carouselDelegate; // @synthesize carouselDelegate=_carouselDelegate;

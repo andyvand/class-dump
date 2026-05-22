@@ -22,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (id)yHA*;
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -30,12 +30,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (int);
-- (_Bool);
-- (_Bool);
+- (id);
 - (void);
-- (id)ionMinimumWordLength;
+- (_Bool);
+- (_Bool);
+- (int);
+- (id)sterLayout"16;
 
 // Remaining properties
 @property(retain, nonatomic) TSWPStorage *containedStorage; // @synthesize containedStorage=_containedStorage;

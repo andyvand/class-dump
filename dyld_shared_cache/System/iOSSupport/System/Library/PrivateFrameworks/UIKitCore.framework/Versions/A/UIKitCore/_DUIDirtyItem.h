@@ -9,13 +9,12 @@
     unsigned long long _index;
 }
 
-+ (_Bool)×«nm;
-- (void);
++ (_Bool)e imported.;
 - (id);
-- (unsigned long long)ÑÎ1¢!0@ù
-× ;
-- (id)abled:,V_iOSMacScrollingEnabled /* Error: Ran out of types for this method. */;
-- (void)e_Alpha30;
+- (id);
+- (void)y:(id)arg1 inStorageDirection:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)UIKBTreePropertyRepresentedString;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long index; // @synthesize index=_index;

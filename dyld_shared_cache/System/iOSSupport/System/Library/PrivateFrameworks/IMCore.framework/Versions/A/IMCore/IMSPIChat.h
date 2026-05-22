@@ -23,19 +23,19 @@
 - (void);
 - (_Bool);
 - (void);
-- (id)world;
-- (void);
-- (void);
-- (id);
-- (id));
+- (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)p;
-- (id)accounts changed;
-- (void)NicknameDidChangeNotification;
 - (_Bool);
-- (void),¹çÿÍYÎÿm YÎÿu8¹çÿMD¹çÿP¹çÿ-\¹çÿ-tÃçÿu`¹çÿ­h¹çÿ}x¹çÿ;
+- (id);
+- (void);
+- (id);
+- (void);
+- (id)ngChatForPersonID: /* Error: Ran out of types for this method. */;
+- (void)àÁÈÈàÝÌÞÐäæLçè;
+- (void);
 
 // Remaining properties
 @property(retain) NSString *chatIdentifier; // @synthesize chatIdentifier=_chatIdentifier;

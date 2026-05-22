@@ -14,21 +14,24 @@
 }
 
 - (void);
+- (struct UIEdgeInsets);
 - (double);
+- (double);
+- (double);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
+- (id);
 - (void);
-- (double);
 - (void);
-- (double);
-- (void);
-- (struct UIEdgeInsets);
-- (void);
-- (void)itWithImmutablePhotosDataSource:(double)arg1 withChange: /* Error: Ran out of types for this method. */;
-- (unsigned long long)|;
-- (void)uratedLibraryStatistics numberOfAssetsWithPlaybackStyle:(unsigned long long)arg1 displayProminence:autoPlaybackEligibility:] /* Error: Ran out of types for this method. */;
-- (id)eroSide);
+- (void)!dFùÑF°1â
+0@ù
+× ;
+- (void);
+- (void)or testing:(unsigned long long)arg1 %@;
+- (unsigned long long)×£p=
+Ç?{®GázÄ?ffffffò?Ãõ(\Âå?;
 
 // Remaining properties
 @property(nonatomic) struct UIEdgeInsets edgeAllowances; // @synthesize edgeAllowances=_edgeAllowances;

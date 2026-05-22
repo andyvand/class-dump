@@ -5,5 +5,6 @@
 //
 
 @protocol NSFastEnumeration
+- (unsigned long long)PXAssetCollectionActionPerformer initWithActionType:(CDStruct_70511ce9 *)arg1 ];
 @end
 

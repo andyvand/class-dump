@@ -15,17 +15,17 @@
     NSDateInterval *_dateInterval;
 }
 
-+ (_Bool)error no need to process further;
++ (_Bool);
 - (_Bool);
-- (id)o;
-- (void);
 - (id);
-- (id)toDisconnectBagValue set to YES, don't set the channel binding bit;
-- (void);
+- (id);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long)s;
+- (void);
+- (id);
+- (void)oreRoutine;
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool ascending; // @synthesize ascending=_ascending;

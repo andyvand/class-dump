@@ -21,11 +21,11 @@
     MISSING_TYPE *pendingRunningStateValueTimeoutWorkItem;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
 - (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (void);
 
 @end
 

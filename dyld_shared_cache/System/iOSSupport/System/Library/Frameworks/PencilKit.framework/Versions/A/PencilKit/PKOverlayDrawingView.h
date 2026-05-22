@@ -15,17 +15,17 @@
     struct CGRect _currentContentReferenceRectangle;
 }
 
-- (void)dObjectsUsingBlock:(id)arg1;
-- (void)ed:(struct CGRect)arg1 CloudKit;
-- (void)iguration source override enabled:(id)arg1 CloudKit;
+- (void);
+- (void);
+- (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
+- (void)Êÿÿÿÿÿ`;
 
 // Remaining properties
 @property(copy, nonatomic) NSObject<NSCopying> *currentContent; // @synthesize currentContent=_currentContent;

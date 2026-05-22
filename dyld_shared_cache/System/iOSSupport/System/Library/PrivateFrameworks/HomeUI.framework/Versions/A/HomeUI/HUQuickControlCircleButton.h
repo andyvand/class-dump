@@ -19,16 +19,15 @@
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
+- (double);
 - (void);
-- (void);
-- (void);
-- (id)¡%!¸Eù1/ð1b0@ù
-× ;
-- (void);
-- (double)Àzõ¶º;
+- (id)ray",&,N,V_wheelValues;
+- (void);
+- (void)	;
+- (void)ctionSection_Header;
+- (void)Dÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *backgroundView; // @synthesize backgroundView=_backgroundView;

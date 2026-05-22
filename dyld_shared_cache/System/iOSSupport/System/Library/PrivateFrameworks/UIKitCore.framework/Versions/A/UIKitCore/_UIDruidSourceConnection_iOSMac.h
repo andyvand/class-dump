@@ -38,11 +38,11 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType)16@24C32@36q44@52@?60;
-- (void)ckgroundMessage"16@"IMBackgroundMessageRecipient"24@?<v@?@"NSError">32;
+- (CDUnknownBlockType);
 - (void);
-- (void)%;
-- (id)ng up output path:(id)arg1 %@  error:(id)arg2 %@;
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -55,8 +55,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
-- (_Bool)animationFrames=%@;
+- (_Bool);
+- (void)âÕ\;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType canHandOffCancelledItemsBlock; // @synthesize canHandOffCancelledItemsBlock=_canHandOffCancelledItemsBlock;

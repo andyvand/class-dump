@@ -4,24 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioEngine, AVAudioEnvironmentNode, MTLRenderPassDescriptor, NSArray, SCNNode, SCNScene, SKScene;
+@class AVAudioEngine, AVAudioEnvironmentNode, MTLRenderPassDescriptor, SCNNode, SCNScene, SKScene;
 @protocol MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder, SCNSceneRendererDelegate;
 
 @protocol SCNSceneRenderer
-- (void)⠀R;
-- (void);
-- (void)C;
-- (void);
-- (struct SCNVector3);
-- (NSArray *)castRTSOverRxCtrlFrmsPercentage;
-- (void)_z;
-- (_Bool)tType CKDPShareParticipantTypeForCKShareParticipantRole(CKShareParticipantRole);
-- (SCNScene *);
-- (void)magePadding:(unsigned long long)arg1;
-- (id <MTLDevice>)N;
-- (id <MTLCommandQueue>)ndingAccordingToBehavior: /* Error: Ran out of types for this method. */;
-- (_Bool)k;
-- (unsigned long long)mLower0OutfitLooseEnd_JNT;
+- (id <MTLCommandQueue>)guration:duration:avatar:avatarNode:oldReversionContext:completionHandler:simultaneousAnimationsBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)e: /* Error: Ran out of types for this method. */;
+- (void)endencies[dependencyCategoryString] == nil;
 
 // Remaining properties
 @property(readonly, nonatomic) AVAudioEngine *audioEngine;

@@ -21,10 +21,10 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id)deleting items for priority migration for default index:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) CDUnknownBlockType numRecorderProvider; // @synthesize numRecorderProvider=_numRecorderProvider;

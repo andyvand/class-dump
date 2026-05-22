@@ -5,10 +5,5 @@
 //
 
 @protocol SXDarkModePolicyException
-
-@optional
-- (long long);
-- (long long);
-- (long long)R;
 @end
 

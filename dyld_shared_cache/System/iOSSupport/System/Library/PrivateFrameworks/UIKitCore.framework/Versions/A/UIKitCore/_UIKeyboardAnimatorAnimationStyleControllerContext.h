@@ -18,14 +18,14 @@ __attribute__((visibility("hidden")))
     _Bool _hidden;
 }
 
-- (struct CGRect);
+- (struct CGRect);
 - (_Bool);
-- (id)A;
 - (id);
-- (struct CGRect)C;
+- (id);
+- (void)CS¾7So17UITraitCollectionCACIeyByyyya_;
 - (void);
-- (void)[_UISplitViewControllerAdaptiveImpl _updatePreferredColumnsPrimaryEdgeSplitViewControllerColumn:] /* Error: Ran out of types for this method. */;
-- (void)þ};
+- (struct CGRect)¤¦^;
+- (void);
 
 // Remaining properties
 @property(readonly, retain, nonatomic) UIView *animatingView;

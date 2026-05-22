@@ -4,6 +4,6 @@
 
 class std::__1::basic_ostringstream<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    str[abi:ne200100]() const &;
+    auto str[abi:nqe210106]() const &;
     ~basic_ostringstream();
 };

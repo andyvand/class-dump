@@ -5,6 +5,5 @@
 //
 
 @protocol _UILumaTrackingBackdropViewDelegate
-- (void)_tvInterfaceStyleDarkContentColor;
 @end
 

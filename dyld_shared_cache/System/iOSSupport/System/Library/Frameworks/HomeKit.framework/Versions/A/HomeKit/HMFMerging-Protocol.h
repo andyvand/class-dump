@@ -5,5 +5,6 @@
 //
 
 @protocol HMFMerging
+- (_Bool)error:(id)arg1;
 @end
 

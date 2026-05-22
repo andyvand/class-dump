@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (void);
+- (void);
+- (void)pringLoadedInteractionContext_Private;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)­\;
 
 @end
 

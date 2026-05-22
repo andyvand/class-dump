@@ -30,23 +30,23 @@
 - (id);
 - (struct CGRect);
 - (long long);
-- (void);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (id);
+- (id);
 - (unsigned long long);
+- (long long);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (long long);
-- (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (struct CGRect);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (long long);
-- (id);
+- (void);
+- (long long)UIGestureRecognizer"16@"UIGestureRecognizer"24;
 
 // Remaining properties
 @property(readonly, nonatomic) long long accessibilityContrast; // @synthesize accessibilityContrast=_accessibilityContrast;

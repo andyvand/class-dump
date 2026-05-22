@@ -7,8 +7,8 @@
 @class DOMNode;
 
 @protocol UIWebSelectedItemPrivate
-- (DOMNode *)pported;
-- (_Bool)ctView;
-- (_Bool)?íµ ÷Æ°>¼Ø²Ò<ÍÌÌÌÌÌì?;
+- (void)Effects;
+- (DOMNode *);
+- (_Bool)Ã23Ð ;
 @end
 

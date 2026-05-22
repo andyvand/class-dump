@@ -26,9 +26,9 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (long long);
 - (id);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *activitiesByUUID; // @synthesize activitiesByUUID=_activitiesByUUID;

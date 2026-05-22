@@ -29,7 +29,7 @@
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,7 +41,7 @@
 - (CDStruct_0441cfb5);
 - (CDStruct_5f1f7aa9);
 - (int);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -55,15 +55,15 @@
 - (void);
 - (void);
 - (id);
-- (void)@;
 - (void);
 - (void);
-- (unsigned long long);
+- (void);
 - (id);
-- (struct CGSize);
-- (struct CGSize)be called from iPhone (or non-iPad);
 - (_Bool);
-- (void)é;
+- (struct CGSize)ternal/Library/BuildRoots/4~CNqXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/text/TSWPHyperlinkUIController.mm;
+- (void)SDImageProvider initWithImageData:(struct CGSize)arg1 ];
+- (unsigned long long)mentRoot uniqueDocumentCachePathForProposedPath:] /* Error: Ran out of types for this method. */;
+- (struct CGSize)ðÿYé[´²;
 
 // Remaining properties
 @property(copy, nonatomic) TSTCell *cell; // @synthesize cell=mCell;

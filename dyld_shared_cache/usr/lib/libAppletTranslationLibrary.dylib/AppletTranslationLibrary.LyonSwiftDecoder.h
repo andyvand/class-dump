@@ -25,11 +25,11 @@
 - (id);
 - (id);
 - (long long);
+- (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)edSerialNumber;
 
 // Remaining properties
 @property(nonatomic, readonly) long long stateNumber;

@@ -6,7 +6,7 @@
 
 #import <coreroutine/RTCloudManagedObject.h>
 
-@class NSData, NSNumber, NSString, NSUUID, RTAddressMO, RTLearnedPlaceMO, RTMapItemExtendedAttributesMO, RTUserCurationMO;
+@class NSArray, NSData, NSNumber, NSString, NSUUID, RTAddressMO, RTLearnedPlaceMO, RTMapItemExtendedAttributesMO, RTUserCurationMO;
 
 @interface RTMapItemMO : RTCloudManagedObject
 {
@@ -14,21 +14,22 @@
 }
 
 + (id);
++ (id);
 + (void);
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id)etTraining: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)tion submitted on %@;
 
 // Remaining properties
 @property(retain, nonatomic) RTAddressMO *address; // @dynamic address;
+@property(copy, nonatomic) NSArray *businessHours; // @dynamic businessHours;
 @property(retain, nonatomic) RTMapItemExtendedAttributesMO *cachedExtendedAttributes; // @synthesize cachedExtendedAttributes;
 @property(copy, nonatomic) NSString *category; // @dynamic category;
 @property(copy, nonatomic) NSNumber *categoryMUID; // @dynamic categoryMUID;

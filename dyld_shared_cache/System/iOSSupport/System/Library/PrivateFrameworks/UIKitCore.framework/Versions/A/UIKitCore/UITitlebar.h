@@ -25,11 +25,11 @@ __attribute__((visibility("hidden")))
     long long _separatorStyle;
 }
 
-+ (void)actionResponse:%ld, subActionResponse:%ld /* Error: Ran out of types for this method. */;
++ (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,8 +39,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id)backInterval %@;
-- (void)error %@;
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -48,21 +48,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (long long);
 - (void);
 - (long long);
 - (void);
-- (id)@ù
-× ;
-- (void)nimationsInflight;
-- (long long)",&,N,V_transformationIdentifiers;
-- (void)gePickerControllerShowsFileSizePicker;
-- (void)ó;
-- (id)xC|ÿ;
-- (id)\Ýßÿ;
-- (long long)ÿ;
+- (id)ViewControllerAfterTransition: /* Error: Ran out of types for this method. */;
+- (void)\Q;
+- (id)wÿF;
+- (void)È¨b;
+- (id)à·ÿ%ÔTÿc;
+- (void)$û	ÿÖZÛ0yd;
+- (long long)Æ¾ÿ"ÐÜ8e;
+- (long long)E¥ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _UINavigationBarNSToolbarProxy *_navigationBarProxy;

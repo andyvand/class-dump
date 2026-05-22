@@ -19,31 +19,33 @@ __attribute__((visibility("hidden")))
     NSString *_name;
 }
 
-+ (void)ve existing file at %@ to replace with version from CKRecord, sucess %@ error %@;
++ (void);
+- (void);
+- (id);
 - (void);
 - (void);
-- (_Bool)houldRememberBookmarkTime;
-- (id)dRepresentationForCatalog:(id)arg1;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id)Æ°1¢!0@ù
+- (id)!,Aù1[°1Â0@ù
 × ;
-- (id);
-- (void)× ;
-- (void)gContentSizePreferenceHostReceiving>";
-- (id)lumeMin:(id)arg1;
-- (id)iew;
-- (id)ws;
-- (id)indow;
-- (id)rKeyboardInfo: /* Error: Ran out of types for this method. */;
-- (id);
-- (id);
-- (id)ue = %0.3f, targetValue = %0.3f, speed = %f, steady = %@};
-- (id)verted;
-- (unsigned long long);
-- (id)çûÙ|ºa;
+- (id)Ô ;
+- (id)!pGù±`Ð1Â0@ù
+× ;
+- (_Bool)Ô ;
+- (id)
+× ;
+- (void)aryViewControllerForExpandingPanelController:(_Bool)arg1;
+- (id)ft;
+- (void)PreviewParameters",&,N,V_previewParameters;
+- (void)Name;
+- (id)MFEmojiCategoryTravelAndPlaces(void);
+- (unsigned long long)tsInPortrait;
+- (void)rSectionPlacement;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool affectsApplicationKeyWindow;

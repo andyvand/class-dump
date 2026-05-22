@@ -41,10 +41,10 @@
 - (struct CGSize);
 - (const struct __CTLine *);
 - (const struct __CTLine *);
-- (void);
 - (id);
 - (long long);
-- (struct NSEdgeInsets)s;
+- (struct NSEdgeInsets);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) double avatarContainerWidth;

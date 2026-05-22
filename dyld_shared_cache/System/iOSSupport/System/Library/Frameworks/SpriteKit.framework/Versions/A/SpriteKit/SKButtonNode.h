@@ -32,15 +32,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)tEnabled: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak NSObject<SKButtonNodeDelegate> *delegate; // @synthesize delegate=_delegate;

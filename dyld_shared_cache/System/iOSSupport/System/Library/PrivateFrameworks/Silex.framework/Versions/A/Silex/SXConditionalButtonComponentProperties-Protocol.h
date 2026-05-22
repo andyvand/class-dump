@@ -8,7 +8,7 @@
 @protocol SXAction;
 
 @protocol SXConditionalButtonComponentProperties
-- (NSString *)<;
+- (NSString *)VideoComponentAnalyticsReporter: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXAction> action;

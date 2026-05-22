@@ -13,9 +13,9 @@
 }
 
 - (id);
-- (void)¸é;
-- (id)insAnyDisplayAsset: /* Error: Ran out of types for this method. */;
-- (id)0ìg!ÿ!&0èg!ÿ;
+- (id);
+- (id)Sg;
+- (void)InteractiveMemoryActionMenuItemChangeMovieTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXVKImageAnalysis> analysis; // @synthesize analysis=_analysis;

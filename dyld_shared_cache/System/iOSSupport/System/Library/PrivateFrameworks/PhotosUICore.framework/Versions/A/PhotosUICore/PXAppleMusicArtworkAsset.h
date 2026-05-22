@@ -28,19 +28,21 @@
 - (struct CGRect);
 - (_Bool);
 - (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
 - (long long);
 - (id);
-- (unsigned long long)rce:beforeIndexPath:afterDataSource:afterIndexPath: /* Error: Ran out of types for this method. */;
-- (unsigned long long)êÖ7;
+- (unsigned long long);
+- (_Bool);
+- (unsigned long long);
+- (_Bool);
+- (_Bool)!\FùI°1â
+0@ù
+× ;
+- (id)ntrollerDelegate>"16@0:(struct _NSZone *)arg1 8;
+- (_Bool)sDegradedImagesToReturnFromPHImageRequestOptionsDegradedImagesToReturn: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)raryObservation;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect acceptableCropRect;

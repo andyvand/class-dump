@@ -4,23 +4,23 @@
 
 class lvg {
 public: // (access info unavailable from symbols alone)
-    close(int);
+    auto close(int);
+    auto lvg_add_to_deny_list(unsigned long long, unsigned long long);
+    auto lvg_advertise_cs_info(void*);
+    auto lvg_chunk_size(unsigned long, unsigned long) const;
+    auto lvg_clear_deny_list();
+    auto lvg_commitment_acquire(unsigned long long, unsigned long);
+    auto lvg_commitment_update(char const*, long long, long long, unsigned long long*);
+    auto lvg_deactivate_deny_list();
+    auto lvg_deny_listed(unsigned long long, unsigned long long);
+    auto lvg_downgrade_writability(CoreStorageWritabilityOptions);
+    auto lvg_freeze();
+    auto lvg_grow_label(unsigned long);
+    auto lvg_stats_load();
+    auto lvg_stats_store();
+    auto lvg_thaw(bool);
+    auto open(int);
+    auto punch_hole_on_trim();
     lvg();
-    lvg_add_to_deny_list(unsigned long long, unsigned long long);
-    lvg_advertise_cs_info(void*);
-    lvg_chunk_size(unsigned long, unsigned long) const;
-    lvg_clear_deny_list();
-    lvg_commitment_acquire(unsigned long long, unsigned long);
-    lvg_commitment_update(char const*, long long, long long, unsigned long long*);
-    lvg_deactivate_deny_list();
-    lvg_deny_listed(unsigned long long, unsigned long long);
-    lvg_downgrade_writability(CoreStorageWritabilityOptions);
-    lvg_freeze();
-    lvg_grow_label(unsigned long);
-    lvg_stats_load();
-    lvg_stats_store();
-    lvg_thaw(bool);
-    open(int);
-    punch_hole_on_trim();
     ~lvg();
 };

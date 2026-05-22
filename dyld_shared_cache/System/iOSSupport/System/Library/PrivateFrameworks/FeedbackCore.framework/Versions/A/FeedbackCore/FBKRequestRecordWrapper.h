@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
+- (_Bool);
 - (void);
-- (_Bool)howError;
 
 // Remaining properties
 @property(nonatomic) _Bool isFailure; // @synthesize isFailure=_isFailure;

@@ -18,14 +18,14 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void)_ַ;
+- (void);
 - (void);
 - (struct CGSize);
 - (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (id)blic}@;
+- (id);
+- (void)bject;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

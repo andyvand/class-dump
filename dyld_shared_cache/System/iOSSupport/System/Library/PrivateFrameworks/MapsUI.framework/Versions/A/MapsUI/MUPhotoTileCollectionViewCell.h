@@ -20,9 +20,9 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (id);
 - (void);
-- (void);
 - (id);
-- (id);ÒF	;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *contentImageView;

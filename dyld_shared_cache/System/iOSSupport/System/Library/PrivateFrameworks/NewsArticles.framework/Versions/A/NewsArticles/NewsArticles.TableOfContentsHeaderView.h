@@ -15,8 +15,8 @@
 }
 
 - (id);
-- (void);
 - (id);
+- (void)LayoutDescriptor;
 
 @end
 

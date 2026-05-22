@@ -4,7 +4,7 @@
 
 class std::__1::mutex {
 public: // (access info unavailable from symbols alone)
-    lock();
-    unlock();
+    auto lock();
+    auto unlock();
     ~mutex();
 };

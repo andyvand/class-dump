@@ -17,12 +17,12 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
-- (id)om Left Quarter;
-- (id)or">28;
+- (void)tities;
+- (id)Ðñ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *containedVariables;

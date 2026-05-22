@@ -4,42 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDBridgeChainedFloat4x4, NSArray, NSData;
+@class DDBridgeChainedFloat4x4, DDBridgeMeshDescriptor, NSArray, NSData, NSString;
 
 @interface DDBridgeUpdateMesh
 {
-    long long partCount;
+    void identifier;
+    unsigned char updateType;
+    DDBridgeMeshDescriptor *descriptor;
     void parts;
-    void renderFlags;
-    void vertices;
-    void indices;
-    CDStruct_f1db2b5e transform;
+    void indexData;
+    void vertexData;
     DDBridgeChainedFloat4x4 *instanceTransforms;
-    void materialIds;
+    long long instanceTransformsCount;
+    void materialPrims;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
 - (long long);
 - (id);
 - (id);
-- (CDStruct_f1db2b5e);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (unsigned char);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
-@property(nonatomic, readonly) NSData *indices;
+@property(nonatomic, readonly) DDBridgeMeshDescriptor *descriptor; // @synthesize descriptor;
+@property(nonatomic, readonly) NSString *identifier;
+@property(nonatomic, readonly) NSData *indexData;
 @property(nonatomic, retain) DDBridgeChainedFloat4x4 *instanceTransforms; // @synthesize instanceTransforms;
-@property(nonatomic, readonly) NSArray *materialIds;
-@property(nonatomic, readonly) long long partCount; // @synthesize partCount;
+@property(nonatomic, readonly) long long instanceTransformsCount; // @synthesize instanceTransformsCount;
+@property(nonatomic, readonly) NSArray *materialPrims;
 @property(nonatomic, readonly) NSArray *parts;
-@property(nonatomic, readonly) NSArray *renderFlags;
-@property(nonatomic, readonly) CDStruct_f1db2b5e transform; // @synthesize transform;
-@property(nonatomic, readonly) NSArray *vertices;
+@property(nonatomic, readonly) unsigned char updateType; // @synthesize updateType;
+@property(nonatomic, readonly) NSArray *vertexData;
 
 @end
 

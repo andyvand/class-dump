@@ -39,15 +39,15 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (struct CGPoint);
 - (void);
 - (_Bool);
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, setter=_setPerformingChanges:) _Bool _isPerformingChanges; // @synthesize _isPerformingChanges=__isPerformingChanges;

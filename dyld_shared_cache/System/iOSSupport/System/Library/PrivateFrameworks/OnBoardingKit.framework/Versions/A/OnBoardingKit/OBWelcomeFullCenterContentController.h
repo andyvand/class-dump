@@ -18,11 +18,11 @@
 }
 
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -31,10 +31,10 @@
 - (double);
 - (id);
 - (void);
-- (void)nticationManager:(id)arg1:Challenge>>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)idth: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *centerContentView; // @synthesize centerContentView=_centerContentView;

@@ -24,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void)ildDayRowViewModels;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType moreAction; // @synthesize moreAction=_moreAction;

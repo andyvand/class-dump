@@ -23,8 +23,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id)) hf_updateValue:forContextType:] /* Error: Ran out of types for this method. */;
+- (id);
+- (void)q;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *alarmIDToItemMap; // @synthesize alarmIDToItemMap=_alarmIDToItemMap;

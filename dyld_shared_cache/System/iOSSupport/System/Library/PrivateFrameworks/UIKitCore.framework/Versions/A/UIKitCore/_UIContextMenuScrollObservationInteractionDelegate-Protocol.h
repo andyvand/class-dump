@@ -5,7 +5,5 @@
 //
 
 @protocol _UIContextMenuScrollObservationInteractionDelegate
-- (void)Attestation;
-- (void)s NULL;
 @end
 

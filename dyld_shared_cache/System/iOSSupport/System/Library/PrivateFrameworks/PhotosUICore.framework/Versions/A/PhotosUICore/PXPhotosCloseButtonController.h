@@ -18,10 +18,10 @@
 - (void);
 - (id);
 - (void);
-- (id)×ûÿÈ×ûÿÊ×ûÿ;
-- (void)ext;
-- (id)i safeAreaInsets=%@ interitemSpacing=%f largeHeroDensity=%li allowHeaders=%i allowSpecialPanoHeaders=%i;
-- (void)e;
+- (void);
+- (id)è)#ÿ;
+- (void)àÄ5;
+- (id)5;
 
 // Remaining properties
 @property(readonly, nonatomic) UIButton *button; // @synthesize button=_button;

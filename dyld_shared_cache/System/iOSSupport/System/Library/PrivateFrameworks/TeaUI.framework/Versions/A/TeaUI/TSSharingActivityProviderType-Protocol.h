@@ -7,8 +7,6 @@
 @class NSArray;
 
 @protocol TSSharingActivityProviderType
-- (NSArray *);
-- (NSArray *);
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *activities;

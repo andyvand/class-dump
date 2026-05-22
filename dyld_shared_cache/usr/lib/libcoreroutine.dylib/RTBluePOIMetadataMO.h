@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id)ô+;
++ (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *categoryDenyList; // @dynamic categoryDenyList;

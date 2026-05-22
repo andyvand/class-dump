@@ -28,10 +28,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (void);
-- (_Bool)CustomAttributedText;
+- (void)ÝÄÊ¬;
+- (_Bool)~Qà%7;
 
 // Remaining properties
 @property(nonatomic) _Bool active; // @synthesize active=_active;

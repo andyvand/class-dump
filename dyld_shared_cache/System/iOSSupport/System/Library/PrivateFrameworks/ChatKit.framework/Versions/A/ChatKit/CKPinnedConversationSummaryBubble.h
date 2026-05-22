@@ -14,13 +14,13 @@
     UILabel *_summaryLabel;
 }
 
-- (_Bool)r;
-- (_Bool)t;
-- (id)tions;
-- (id)oteHTMLEditorView: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (void);
 - (id);
-- (long long)eedsDocumentUpdate;
+- (long long);
 - (void);
 - (id);
 - (id);
@@ -30,8 +30,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)eStringValue;
+- (void)v32@0:(id)arg1 8@"CNVisualIdentityPickerViewController"16@"UIPresentationController"24;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CKPinnedConversationSummaryBubbleActivityItem *summaryBubbleActivityItem; // @synthesize summaryBubbleActivityItem=_summaryBubbleActivityItem;

@@ -7,7 +7,7 @@
 @protocol CKActionMenuItemView
 
 @optional
-- (void)ñÂ°1¢!0@ù
-× ;
+- (void)cherFooterViewDataSource>",W,N,V_dataSource;
+- (void)8¥îÿôÊÿÀ®;
 @end
 

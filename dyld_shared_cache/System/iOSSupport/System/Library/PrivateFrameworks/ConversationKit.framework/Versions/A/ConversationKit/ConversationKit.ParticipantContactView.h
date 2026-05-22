@@ -14,11 +14,11 @@
     MISSING_TYPE *contactDetails;
 }
 
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)o32UICollectionViewLayoutAttributesCG;
 
 @end
 

@@ -26,9 +26,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
+- (id)
+× ;
+- (void)çæyù¢_;ÒyAEyAEygý¡y¢yãßG_ö¡Qo_ôÝy^ËGG×ËyùäGG"Üy$ÚGGtGG;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *debugDescription;

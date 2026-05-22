@@ -7,7 +7,6 @@
 @protocol _UIContentContainerInternal
 
 @optional
-- (struct CGRect)ÑÈ1¢!0@ù
-× ;
+- (struct CGRect)X82;
 @end
 

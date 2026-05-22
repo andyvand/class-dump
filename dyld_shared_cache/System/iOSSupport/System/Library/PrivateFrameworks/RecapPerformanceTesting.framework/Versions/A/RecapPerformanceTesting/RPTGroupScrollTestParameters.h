@@ -16,13 +16,13 @@
 + (id);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (void);
 - (CDUnknownBlockType);
 - (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;

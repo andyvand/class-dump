@@ -18,7 +18,7 @@
 }
 
 + (id);
-+ (id)ration;
++ (id)Onboarding;
 
 @end
 

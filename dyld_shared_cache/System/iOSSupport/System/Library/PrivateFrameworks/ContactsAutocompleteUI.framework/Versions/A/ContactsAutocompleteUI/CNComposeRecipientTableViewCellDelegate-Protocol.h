@@ -5,6 +5,5 @@
 //
 
 @protocol CNComposeRecipientTableViewCellDelegate
-- (void);
 @end
 

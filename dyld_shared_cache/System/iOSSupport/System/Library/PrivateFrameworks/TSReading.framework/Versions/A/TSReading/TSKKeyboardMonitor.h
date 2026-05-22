@@ -35,14 +35,14 @@
 + (void);
 + (id);
 + (void);
-+ (id)ÿ;
++ (id)§[ V;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)!;
+- (void);
 - (void);
 - (void);
 - (id);
@@ -63,13 +63,13 @@
 - (struct CGRect);
 - (void);
 - (id);
+- (unsigned long long);
+- (void);
 - (oneway void);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long)aque;
 
 // Remaining properties
 @property(readonly) double keyboardAnimationDuration; // @synthesize keyboardAnimationDuration=_keyboardAnimationDuration;

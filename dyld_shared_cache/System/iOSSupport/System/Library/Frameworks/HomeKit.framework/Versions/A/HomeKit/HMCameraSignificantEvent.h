@@ -16,8 +16,8 @@
     HMFaceClassification *_faceClassification;
 }
 
-+ (id)d¸;
-+ (_Bool)D;
++ (id);
++ (_Bool);
 
 @end
 

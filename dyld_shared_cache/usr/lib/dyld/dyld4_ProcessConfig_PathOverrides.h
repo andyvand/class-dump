@@ -5,19 +5,19 @@
 class dyld4::ProcessConfig::PathOverrides {
 public: // (access info unavailable from symbols alone)
     PathOverrides(dyld4::ProcessConfig::Process const&, dyld4::ProcessConfig::Security const&, dyld4::ProcessConfig::Logging const&, dyld4::ProcessConfig::DyldCache const&, dyld4::SyscallDelegate&, lsl::Allocator&);
-    addEnvVar(dyld4::ProcessConfig::Process const&, dyld4::ProcessConfig::Security const&, lsl::Allocator&, char const*, bool, char*);
-    addPathOverride(lsl::Allocator&, char const*, char const*);
-    addSuffix(char const*, char const*, char*) const;
-    checkVersionedPath(dyld4::SyscallDelegate&, dyld4::ProcessConfig::DyldCache const&, lsl::Allocator&, char const*, mach_o::Platform, mach_o::GradedArchitectures const&);
-    dontUsePrebuiltForApp() const;
-    forEachDylibFallback(mach_o::Platform, bool, bool&, void (char const*, dyld4::ProcessConfig::PathOverrides::Type, bool&) block_pointer) const;
-    forEachFrameworkFallback(mach_o::Platform, bool, bool&, void (char const*, dyld4::ProcessConfig::PathOverrides::Type, bool&) block_pointer) const;
-    forEachImageSuffix(char const*, dyld4::ProcessConfig::PathOverrides::Type, bool&, void (char const*, dyld4::ProcessConfig::PathOverrides::Type, bool&) block_pointer) const;
-    forEachInColonList(char const*, char const*, bool&, void (char const*, bool&) block_pointer);
-    forEachInsertedDylib(void (char const*, bool&) block_pointer) const;
-    forEachPathVariant(char const*, mach_o::Platform, bool, bool, bool&, void (char const*, dyld4::ProcessConfig::PathOverrides::Type, bool&) block_pointer) const;
-    getFrameworkPartialPath(char const*) const;
-    processVersionedPaths(dyld4::ProcessConfig::Process const&, dyld4::SyscallDelegate&, dyld4::ProcessConfig::DyldCache const&, mach_o::Platform, mach_o::GradedArchitectures const&, lsl::Allocator&);
-    setString(lsl::Allocator&, char const*&, char const*);
-    typeName(dyld4::ProcessConfig::PathOverrides::Type);
+    auto addEnvVar(dyld4::ProcessConfig::Process const&, dyld4::ProcessConfig::Security const&, lsl::Allocator&, char const*, bool, char*);
+    auto addPathOverride(lsl::Allocator&, char const*, char const*);
+    auto addSuffix(char const*, char const*, char*) const;
+    auto checkVersionedPath(dyld4::SyscallDelegate&, dyld4::ProcessConfig::DyldCache const&, lsl::Allocator&, char const*, mach_o::Platform, mach_o::GradedArchitectures const&);
+    auto dontUsePrebuiltForApp() const;
+    auto forEachDylibFallback(mach_o::Platform, bool, bool&, void (char const*, dyld4::ProcessConfig::PathOverrides::Type, bool&) block_pointer) const;
+    auto forEachFrameworkFallback(mach_o::Platform, bool, bool&, void (char const*, dyld4::ProcessConfig::PathOverrides::Type, bool&) block_pointer) const;
+    auto forEachImageSuffix(char const*, dyld4::ProcessConfig::PathOverrides::Type, bool&, void (char const*, dyld4::ProcessConfig::PathOverrides::Type, bool&) block_pointer) const;
+    auto forEachInColonList(char const*, char const*, bool&, void (char const*, bool&) block_pointer);
+    auto forEachInsertedDylib(void (char const*, bool&) block_pointer) const;
+    auto forEachPathVariant(char const*, mach_o::Platform, bool, bool, bool&, void (char const*, dyld4::ProcessConfig::PathOverrides::Type, bool&) block_pointer) const;
+    auto getFrameworkPartialPath(char const*) const;
+    auto processVersionedPaths(dyld4::ProcessConfig::Process const&, dyld4::SyscallDelegate&, dyld4::ProcessConfig::DyldCache const&, mach_o::Platform, mach_o::GradedArchitectures const&, lsl::Allocator&);
+    auto setString(lsl::Allocator&, char const*&, char const*);
+    auto typeName(dyld4::ProcessConfig::PathOverrides::Type);
 };

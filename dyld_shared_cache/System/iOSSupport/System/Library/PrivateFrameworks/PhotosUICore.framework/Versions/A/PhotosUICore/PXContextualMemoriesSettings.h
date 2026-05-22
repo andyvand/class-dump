@@ -21,11 +21,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id),R,N,V_playerBackgroundColor;
-- (id)¤¯{ÿR;
+- (id);
+- (id)ration =-;
+- (void)iew;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *date;

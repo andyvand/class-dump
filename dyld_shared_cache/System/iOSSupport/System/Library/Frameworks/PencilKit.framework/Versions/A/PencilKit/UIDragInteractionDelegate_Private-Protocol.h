@@ -7,10 +7,6 @@
 @protocol UIDragInteractionDelegate_Private
 
 @optional
-- (_Bool);
-- (long long)qÁÐ1¢!0@ù
-× ;
-- (long long)EducationPaneCell;
-- (_Bool)°;
+- (long long)pÛ;
 @end
 

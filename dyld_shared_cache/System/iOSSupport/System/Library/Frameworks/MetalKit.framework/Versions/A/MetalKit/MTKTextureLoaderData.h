@@ -28,19 +28,19 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
-- (void)laybackInformationWithAudio: /* Error: Ran out of types for this method. */;
-- (void);
 - (unsigned long long);
 - (void);
-- (id)rmatted_address;
+- (void);
+- (id);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long)orAddressAtIndex:lengthValidationBlock: /* Error: Ran out of types for this method. */;
 - (void);
-- (unsigned long long)arColor;
+- (void);
+- (void);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long depth; // @synthesize depth=_depth;

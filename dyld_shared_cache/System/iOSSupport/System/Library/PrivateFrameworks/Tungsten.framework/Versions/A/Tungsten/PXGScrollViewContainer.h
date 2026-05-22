@@ -49,20 +49,20 @@
 - (void);
 - (void);
 - (struct CGRect);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)Ày;
+- (id)StartEvent;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canUnloadWhenInvisible;

@@ -15,12 +15,13 @@ __attribute__((visibility("hidden")))
     id <UIViewControllerInteractiveTransitioning> _interactionController;
 }
 
-- (_Bool);
 - (id);
-- (id);
-- (void);
-- (void)nd:(id)arg1 %{public}@;
-- (void);
+- (void)@ù
+× ;
+- (_Bool)ldPresent"B"shouldAllowDragAfterDismiss"B"shouldAllowSwipeToDismiss"B"shouldDeferCommitAnimation"B"interactionEffectForTargetedPreview"B"shouldAttemptToPresentConfiguration"B"didPerformMenuLeaf"B"previewForHighlighting"B"previewForDismissing"B"_dci_secondaryHighlightPreview"B"_dci_secondaryDismissalPreview"B"willCommit"B};
+- (void)lyPresentedGroupViews;
+- (id)om the CUIImage.;
+- (void)ÉA33Øwþ;
 
 @end
 

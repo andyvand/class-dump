@@ -14,14 +14,14 @@
 }
 
 - (id);
-- (void)`P;
-- (void)FileArchive:(id)arg1 options:(id)arg2 error:(CDUnknownBlockType)arg3;
+- (void);
+- (void);
 - (id);
-- (void)ArrayUsingDescriptors: /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void):completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isFetching) _Bool fetching;

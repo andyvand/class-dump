@@ -15,10 +15,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)¯;
 
 // Remaining properties
 @property(copy) NSSet *rules; // @synthesize rules=_rules;

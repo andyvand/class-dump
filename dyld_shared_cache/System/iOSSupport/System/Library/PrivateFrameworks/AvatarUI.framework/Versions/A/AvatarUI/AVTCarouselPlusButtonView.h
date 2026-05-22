@@ -21,11 +21,11 @@
 - (struct CGSize);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
-- (id)t;
-- (void)dleIdentifierOverrideForNetworkAttribution:(_Bool)arg1;
-- (_Bool);
+- (_Bool)× ;
+- (id)tScrollIndicatorInsets: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool allowHighlight; // @synthesize allowHighlight=_allowHighlight;

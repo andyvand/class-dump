@@ -17,7 +17,7 @@
 
 + (void);
 + (void);
-+ (id)¾©ÿðäT$9;
++ (id);
 - (void);
 - (id);
 - (CDStruct_4bbd3430);
@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)|Ïiÿ¤Ïiÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *measurementsDictionaryRepresentation;

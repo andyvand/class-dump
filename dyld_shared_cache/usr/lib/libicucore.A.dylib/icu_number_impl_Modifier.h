@@ -4,6 +4,6 @@
 
 class icu::number::impl::Modifier {
 public: // (access info unavailable from symbols alone)
-    semanticallyEquivalent(icu::number::impl::Modifier const&) const;
+    auto semanticallyEquivalent(icu::number::impl::Modifier const&) const;
     ~Modifier();
 };

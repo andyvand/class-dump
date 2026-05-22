@@ -18,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)ed:inBundle:compatibleWithTraitCollection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) AMSAuthenticateRequest *authRequest; // @synthesize authRequest=_authRequest;

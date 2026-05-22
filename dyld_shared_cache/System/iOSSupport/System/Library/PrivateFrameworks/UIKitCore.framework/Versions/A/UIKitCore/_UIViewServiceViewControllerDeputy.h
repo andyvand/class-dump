@@ -13,10 +13,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)d Fail %@;
 + (id);
-- (void)ndler:(CDUnknownBlockType)arg1;
-- (id):] /* Error: Ran out of types for this method. */;
++ (id)!$@ù±Z°1Â0@ù
+× ;
+- (void);
+- (id);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

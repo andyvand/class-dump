@@ -119,18 +119,18 @@
 + (_Bool);
 + (void);
 + (void);
-+ (id)%@;
-+ (void *)enderFiles(for:useOriginalOnFailure:) /* Error: Ran out of types for this method. */;
-+ (void *)and if it was not spam, click Recover and send a report to Apple;
-+ (void *);
-+ (void *)apper;
-+ (void *)q16@24;
-+ (void *)PersistentTaskCriticalLaneShouldHang;
-+ (void *)s:(id)arg1 _:) /* Error: Ran out of types for this method. */;
-+ (void *)lid Chat Identifier [v2];
-+ (struct CGRect)itical text messages.;
 + (id);
-+ (id)H2yN;
++ (void *);
++ (void *);
++ (void *);
++ (void *);
++ (void *);
++ (void *);
++ (void *);
++ (void *);
++ (struct CGRect);
++ (id);
++ (id);
 + (void);
 + (id);
 + (void);
@@ -152,8 +152,8 @@
 + (long long);
 + (void);
 + (void);
-+ (id);
-+ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -170,10 +170,10 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool)tation;
-+ (_Bool)d,N,S_setMinimumWidth:,V_minimumWidth /* Error: Ran out of types for this method. */;
-+ (Class)v w;
-+ (void)Ä8Ñÿfk;
++ (Class);
++ (_Bool);
++ (_Bool)ectionForSectionIndex: /* Error: Ran out of types for this method. */;
++ (void)ôqÞþÑ¹n;
 
 @end
 

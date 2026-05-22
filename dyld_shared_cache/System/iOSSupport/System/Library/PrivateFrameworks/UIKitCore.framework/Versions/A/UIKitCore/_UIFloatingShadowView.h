@@ -24,7 +24,7 @@
     struct CGRect _shadowContentsCenter;
 }
 
-+ (Class)H;
++ (Class);
 - (double);
 - (struct CGRect);
 - (void);
@@ -32,29 +32,27 @@
 - (void);
 - (void);
 - (void);
-- (struct CGPath *)ExistWithCompletion:(struct CGSize)arg1 forceFetch:(double)arg2;
-- (void)rror: /* Error: Ran out of types for this method. */;
+- (struct CGPath *);
+- (void);
 - (void);
 - (_Bool);
-- (double):%ld, wasAlreadyInvited:%ld, didShare:%ld Error:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)isCMM %@ aux Video %@, calling completion directly;
+- (double);
+- (_Bool);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (double);
 - (void);
-- (void)!0@ù
+- (double)@ù
 × ;
-- (double);
-- (double)!ðEù±ÁÐ1¢!0@ù
-× ;
-- (void)0@ù
-× ;
-- (void);
-- (id)wValue;
-- (id)!n[;
-- (void);
+- (void)d;
+- (id)en:(struct CGRect)arg1;
+- (id)ÿÿì;
+- (double)ne;
+- (void)imations;
+- (void){:ÜÌ\ /* Error: Ran out of types for this method. */;
+- (void)üæ_;
+- (double)þ;
 
 // Remaining properties
 @property(nonatomic) _Bool _disableOutsetShadowPath; // @synthesize _disableOutsetShadowPath=__disableOutsetShadowPath;

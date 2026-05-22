@@ -16,16 +16,16 @@
 
 + (id);
 - (_Bool);
-- (BOOL)p¥mô;
-- (void)ion;
+- (BOOL);
+- (void);
 - (struct CGSize);
 - (id);
 - (_Bool);
 - (id);
-- (Class);
 - (struct UIEdgeInsets);
-- (void)P;
-- (unsigned long long)"24;
+- (Class);
+- (unsigned long long)@"CKComposition"24@"NSArray"32B40@"NSDictionary"44@"NSString"52@"NSDictionary"60@?<v@?>68;
+- (void)///third_party/;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer<CKTypingIndicatorLayerProtocol> *defaultIndicatorLayerImpl; // @synthesize defaultIndicatorLayerImpl=_defaultIndicatorLayerImpl;

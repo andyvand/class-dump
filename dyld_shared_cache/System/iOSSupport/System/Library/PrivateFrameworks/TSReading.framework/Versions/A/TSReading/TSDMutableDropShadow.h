@@ -12,12 +12,12 @@
 
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)jc_data;
-- (void);
-- (void)nTitle:(double)arg1 otherButtonTitle:targetView: /* Error: Ran out of types for this method. */;
-- (void)ZÜV»Á;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double angle; // @dynamic angle;

@@ -7,6 +7,6 @@
 @class NSSet;
 
 @protocol _UIApplicationBSActionHandler
-- (NSSet *);
+- (NSSet *)arget:(NSSet *)arg1;
 @end
 

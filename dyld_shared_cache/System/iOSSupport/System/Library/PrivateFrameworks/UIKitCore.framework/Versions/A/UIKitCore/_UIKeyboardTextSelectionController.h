@@ -22,83 +22,86 @@ __attribute__((visibility("hidden")))
     struct CGRect _caretRectForCursorPosition;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (void)ifiers:(struct CGPoint)arg1;
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void)letionBlock:(long long)arg1;
-- (void)pTranslator: /* Error: Ran out of types for this method. */;
-- (struct CGRect)RemoteAssets;
-- (void)oser;
 - (void);
-- (_Bool)Cn;
 - (void);
 - (void);
 - (struct CGRect);
 - (void);
 - (void);
 - (void);
+- (_Bool);
+- (struct CGRect);
 - (void);
-- (void)`;
+- (struct CGRect);
+- (_Bool);
 - (void);
-- (_Bool)As°!Ä@ùñÆ°1¢!0@ù
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)ñX1Â0@ù
 × ;
-- (void)
+- (struct CGPoint);
+- (void)0@ù
 × ;
-- (void)±Ê°1¢!0@ù
+- (struct CGRect)!Bù1_1Â0@ù
 × ;
-- (id)cingRange: /* Error: Ran out of types for this method. */;
-- (void)on;
-- (struct CGPoint)onsForTransitionActions:(struct CGPoint)arg1 forFBSScene:(struct CGPoint)arg2 fromTransitionContext: /* Error: Ran out of types for this method. */;
-- (void)itionState",&,N,V_endState;
-- (void),N,V_stashedLayoutVariableObservations;
-- (id)dies;
-- (void)ragAndDropPlatformMetrics;
-- (void)lÕìÕÈ×;
-- (_Bool);
-- (void);
-- (void)²·üÿ;
-- (void)scroller, informing scroller.;
-- (void)rStyle);
-- (struct CGRect)Consider using fewer rows;
-- (void)tom instantiated view controller must call -[super initWithCoder:(struct CGPoint)arg1 ] when created from -[%@ %@];
-- (id)AppleInternal/Library/BuildRoots/4~CG94ugAUd-kT2TJnGjOjc0LwVs5qDWKGsb8Xl_0/Library/Caches/com.apple.xbs/Sources/UIKitCore/Sources/Gestures/Force Level Classifiers/_UIForceLevelClassifier.m;
 - (void);
-- (void)E[;
-- (void)À;
-- (void)ã;
-- (id).ÿ°Ør];
+- (void)AÐ!`Eù`ð1Â0@ù
+× ;
+- (void)!Ð!ÌBùQa1Â0@ù
+× ;
+- (id)
+× ;
+- (void)rViewController"16;
+- (void)View"16;
+- (void)troller<UIForcePresentationController>";
+- (void)"UIKeyboardStickerEditorViewController";
 - (void);
+- (long long)r;
+- (void)alSnapshot:(struct CGPoint)arg1 batchUpdateItems: /* Error: Ran out of types for this method. */;
+- (struct CGRect)ForValue: /* Error: Ran out of types for this method. */;
+- (void)ring",R,N,G_identifier;
+- (void)fectView",R,W,N,V_captureSource;
+- (void);
+- (void)üÙôÜ;
+- (void)index for item in layout arrangement is out of bounds;
+- (void)itWithCGColor:(long long)arg1 ] must be a pattern color.;
+- (void)ÿÎµþ;
 - (void);
-- (void)Ô^;
-- (void)ÿ;
-- (struct CGRect)^;
-- (void)G^^;
-- (struct CGRect)(ÿ;
-- (long long)Þ¤^;
-- (void)ÿaÕ¬L_;
-- (id)0;
-- (id),gàþ;
-- (void)c;
+- (void)Øm\;
+- (void);
+- (void)Ð§×þq;
+- (id)/ÿÎ;
+- (id)t×þ,à^;
 - (id);
-- (void)Îê%`;
-- (void);`;
-- (void)í`;
-- (void)X;
-- (void)£;
-- (void);
+- (void)À`;
+- (void)`;
 - (void);
-- (id);
-- (id)Ka;
-- (void)a;
+- (id)B`;
+- (void)]v	;
+- (id)g`;
+- (void)Ü½`;
+- (id)´`;
+- (id)Ð@`;
+- (void)ty`;
+- (id)Öµ`;
+- (void)±`;
+- (void)þäb;
+- (struct CGRect)þ/¥;
+- (void)Ua;
+- (void){;
+- (void)%;
+- (void)-;
+- (void);
+- (void)@»Iÿ´|­;
+- (void)Úa;
 
 // Remaining properties
 @property(nonatomic) struct CGRect caretRectForCursorPosition; // @synthesize caretRectForCursorPosition=_caretRectForCursorPosition;

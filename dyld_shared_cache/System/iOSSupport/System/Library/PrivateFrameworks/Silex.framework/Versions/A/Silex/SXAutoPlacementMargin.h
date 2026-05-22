@@ -16,7 +16,7 @@
 
 - (id);
 - (struct _SXConvertibleValue);
-- (struct _SXConvertibleValue)5;
+- (struct _SXConvertibleValue);
 - (struct _SXConvertibleValue);
 - (struct _SXConvertibleValue);
 

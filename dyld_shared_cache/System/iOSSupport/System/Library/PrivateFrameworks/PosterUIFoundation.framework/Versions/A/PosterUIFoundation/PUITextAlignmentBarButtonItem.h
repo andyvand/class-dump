@@ -16,12 +16,12 @@
 + (id);
 - (id);
 - (unsigned long long);
+- (void);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long)ithSceneSettings:snapshotDescriptor: /* Error: Ran out of types for this method. */;
-- (void)xtformat.numbers.mni;
+- (unsigned long long);
+- (void)onRectSet;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *button; // @synthesize button=_button;

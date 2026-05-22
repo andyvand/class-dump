@@ -16,8 +16,8 @@
 
 - (struct CGSize);
 - (id);
-- (void);
 - (id);
+- (void)Pe\;
 
 // Remaining properties
 @property(nonatomic, readonly) struct CGSize pilePositioningSize;

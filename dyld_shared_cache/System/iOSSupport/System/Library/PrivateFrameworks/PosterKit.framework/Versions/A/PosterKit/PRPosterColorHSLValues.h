@@ -11,11 +11,12 @@
     double _luminance;
 }
 
+- (id);
 - (double);
 - (id);
-- (id);
-- (double)on.plist;
 - (double);
+- (double)yAFyAEyAEyAEyAEyqUéyóTé_Qo_
+Téy|TéSgGGAIySiSgGGºJéGAIyÑ;
 
 // Remaining properties
 @property(readonly, nonatomic) double hue; // @synthesize hue=_hue;

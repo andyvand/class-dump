@@ -4,6 +4,7 @@
 
 class marisa::grimoire::trie::Header {
 public: // (access info unavailable from symbols alone)
-    get_header()::buf;
-    map(marisa::grimoire::io::Mapper&);
+    auto get_header()::buf;
+    auto map(marisa::grimoire::io::Mapper&);
+    auto map(marisa::grimoire::io::Mapper&) (.cold.1);
 };

@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)y %.2f;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *data; // @synthesize data=_data;

@@ -23,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool)rmation:(id)arg1;
+- (_Bool)ayload;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *existingFileSources; // @synthesize existingFileSources=_existingFileSources;

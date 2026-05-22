@@ -21,18 +21,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id)L.framework/Versions/A/Libraries/libGLProgrammability.dylib;
-- (struct CGSize)essage:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
-- (void)ier:style: /* Error: Ran out of types for this method. */;
-- (id)gurationBag:phoneNumber:simID: /* Error: Ran out of types for this method. */;
-- (void)`;
-- (void);
-- (void)leLength(fileDigestResults);
-- (void)on;
 - (id);
-- (void)c;
+- (struct CGSize);
 - (void);
-- (id)à»8;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)IndexBarInsets,S_setCachedSectionIndexBarInsets:,V_cachedSectionIndexBarInsets /* Error: Ran out of types for this method. */;
+- (id)ickPresentationAssistant"8Q16Q24;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) UIInterfaceAction *action; // @synthesize action=_action;

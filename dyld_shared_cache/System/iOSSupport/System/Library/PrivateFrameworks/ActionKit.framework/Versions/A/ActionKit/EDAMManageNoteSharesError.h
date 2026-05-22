@@ -25,8 +25,8 @@
 - (id);
 - (id);
 - (void);
-- (void)D:(id)arg1 feedURL:kind: /* Error: Ran out of types for this method. */;
-- (id);
+- (id);
+- (void)ail;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *identityID; // @synthesize identityID=_identityID;

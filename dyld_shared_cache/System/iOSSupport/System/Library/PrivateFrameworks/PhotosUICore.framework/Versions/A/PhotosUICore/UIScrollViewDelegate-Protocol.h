@@ -4,12 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView, UIView;
+
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)eActivityAlwaysAppearUnread;
-- (void)HÎ;
-- (void)ionGestureSchema;
-- (void)`c;
+- (void)!Fù1G°1â
+0@ù
+× ;
+- (void);
+- (UIView *)(value:(UIScrollView *)arg1 %lld, timescale:%d))
+ /* Error: Ran out of types for this method. */;
+- (void)pPaddingKind;
 @end
 

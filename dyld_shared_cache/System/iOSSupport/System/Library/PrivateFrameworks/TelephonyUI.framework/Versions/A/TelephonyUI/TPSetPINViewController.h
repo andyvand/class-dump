@@ -68,16 +68,16 @@
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (int);
-- (id);
+- (void);
 - (int);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property _Bool confirmPIN; // @synthesize confirmPIN=_confirmPIN;

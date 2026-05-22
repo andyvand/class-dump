@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)d session UUID %{public,uuid_t}.16P does not match the current one %{public,uuid_t}.16P;
 
 // Remaining properties
 @property(readonly, copy) NSString *messageName; // @synthesize messageName=_messageName;

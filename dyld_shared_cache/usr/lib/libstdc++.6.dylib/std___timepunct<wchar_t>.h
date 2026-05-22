@@ -4,19 +4,19 @@
 
 class std::__timepunct<wchar_t> {
 public: // (access info unavailable from symbols alone)
-    _M_am_pm(wchar_t const**) const;
-    _M_am_pm_format(wchar_t const*) const;
-    _M_date_formats(wchar_t const**) const;
-    _M_date_time_formats(wchar_t const**) const;
-    _M_days(wchar_t const**) const;
-    _M_days_abbreviated(wchar_t const**) const;
-    _M_initialize_timepunct(int*);
-    _M_months(wchar_t const**) const;
-    _M_months_abbreviated(wchar_t const**) const;
-    _M_put(wchar_t*, unsigned long, wchar_t const*, tm const*) const;
-    _M_time_formats(wchar_t const**) const;
     __timepunct(int*, char const*, unsigned long);
     __timepunct(std::__timepunct_cache<wchar_t>*, unsigned long);
     __timepunct(unsigned long);
+    auto _M_am_pm(wchar_t const**) const;
+    auto _M_am_pm_format(wchar_t const*) const;
+    auto _M_date_formats(wchar_t const**) const;
+    auto _M_date_time_formats(wchar_t const**) const;
+    auto _M_days(wchar_t const**) const;
+    auto _M_days_abbreviated(wchar_t const**) const;
+    auto _M_initialize_timepunct(int*);
+    auto _M_months(wchar_t const**) const;
+    auto _M_months_abbreviated(wchar_t const**) const;
+    auto _M_put(wchar_t*, unsigned long, wchar_t const*, tm const*) const;
+    auto _M_time_formats(wchar_t const**) const;
     ~__timepunct();
 };

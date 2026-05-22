@@ -27,7 +27,7 @@
     long long _overriddenCentralizedFeedbackMode;
 }
 
-+ (id)0ãÿ;
++ (id)¸b ÿ¥3ËTÿí3Ë¼b ÿ%4ËÄb ÿõ3ËÔb ÿ;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -58,9 +58,9 @@
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
+- (id);
 - (void);
-- (void);
-- (id)missing cube info for %@;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long batchedSearchResultInitialBatchSize; // @synthesize batchedSearchResultInitialBatchSize=_batchedSearchResultInitialBatchSize;

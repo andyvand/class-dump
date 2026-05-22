@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
+- (struct CGSize);
 - (void);
 - (id);
-- (struct CGSize)rResponder:(struct CGSize)arg1;
+- (void)perTexture;
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *knobImageView; // @synthesize knobImageView=_knobImageView;

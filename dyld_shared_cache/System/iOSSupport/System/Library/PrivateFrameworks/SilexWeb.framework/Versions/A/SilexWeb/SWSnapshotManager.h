@@ -15,10 +15,9 @@
 
 - (id);
 - (void);
-- (void);
 - (id);
-- (id)«°1¢!0@ù
-× ;
+- (void);
+- (id)p;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SWConfigurationManager> configurationManager; // @synthesize configurationManager=_configurationManager;

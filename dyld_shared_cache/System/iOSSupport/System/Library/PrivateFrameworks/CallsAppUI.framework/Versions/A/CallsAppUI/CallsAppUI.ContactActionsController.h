@@ -10,16 +10,16 @@
 {
     MISSING_TYPE *contacts;
     MISSING_TYPE *controller;
-    MISSING_TYPE *presentingViewController;
-    MISSING_TYPE *_menuElements;
-    MISSING_TYPE *deferredElementCompletion;
-    MISSING_TYPE *cancellable;
+    MISSING_TYPE *_presentingViewController;
+    MISSING_TYPE *menuElementsSubject;
+    MISSING_TYPE *_cancellable;
+    MISSING_TYPE *_$observationRegistrar;
 }
 
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 @end
 

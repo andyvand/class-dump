@@ -16,15 +16,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
+- (unsigned long long);
 - (id);
-- (void)ñÁÐ1¢!0@ù
-× ;
-- (id)DestinationVisualStyle;
-- (unsigned long long)ViewMaterial>",C,N,V_preferredMenuMaterial;
-- (id)trollerSessionState",&,N,V_sessionState;
-- (id)ÿ$ÆgþD²þÿ;
-- (void)@0:(id)arg1 8{_UISplitViewControllerAdaptiveLayoutPreferredColumns=qqqqqBqQQ}16q88;
-- (void)¢ý`;
+- (id);
+- (void);
+- (id)wantsReapplicationOfAutoLayoutWithLayoutDirtyOnEntry:(id)arg1;
+- (void)B,N,V_fadesOut;
+- (id)»33Ñþ;
+- (void)À7g;
 
 // Remaining properties
 @property(nonatomic) unsigned long long focusHeading; // @synthesize focusHeading;

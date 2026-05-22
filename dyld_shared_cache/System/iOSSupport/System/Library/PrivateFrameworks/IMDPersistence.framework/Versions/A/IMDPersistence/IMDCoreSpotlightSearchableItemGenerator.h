@@ -12,15 +12,15 @@
     id <IMDCoreSpotlightSearchableItemGeneratorDelegate> _delegate;
 }
 
++ (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)Persistence service ready %{bool}d after %ld attempt(s);
 
 // Remaining properties
 @property(readonly, nonatomic) id <IMDCoreSpotlightSearchableItemGeneratorDelegate> delegate; // @synthesize delegate=_delegate;

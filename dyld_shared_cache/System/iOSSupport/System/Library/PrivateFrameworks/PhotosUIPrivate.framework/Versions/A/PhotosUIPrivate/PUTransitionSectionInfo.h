@@ -29,9 +29,9 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (struct PUGridCoordinates);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)topGradientAlpha;
 
 // Remaining properties
 @property(retain, nonatomic) NSIndexPath *anchorRealPath; // @synthesize anchorRealPath=_anchorRealPath;

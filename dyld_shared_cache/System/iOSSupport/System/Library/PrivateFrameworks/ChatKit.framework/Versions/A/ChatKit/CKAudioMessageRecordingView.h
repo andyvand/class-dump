@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMService, MISSING_TYPE, NSArray, UIButton, UIView;
+@class CKGlassSendButton, IMService, MISSING_TYPE, NSArray, UIButton, UIView;
 @protocol CKAudioMessageRecordingViewDelegate;
 
 @interface CKAudioMessageRecordingView
@@ -28,54 +28,53 @@
     UIView *backgroundView;
     IMService *service;
     MISSING_TYPE *durationAppendButton;
-    MISSING_TYPE *closeButton;
     UIButton *stopButton;
     MISSING_TYPE *playButton;
-    UIButton *sendButton;
+    CKGlassSendButton *sendButton;
     MISSING_TYPE *waveformView;
     MISSING_TYPE *displayLink;
 }
 
 + (id);
-- (void)_p_G;
+- (void);
 - (id);
 - (void);
-- (void)n;
-- (void)e;
 - (void);
-- (void)ded OCR Generation:(id)arg1 %@;
-- (void)usly after %@s for:(id)arg1 %@.;
-- (void)STextAttachment with no corresponding ICAttachment:(id)arg1 %{private}@ at %@;
-- (double)e the password you use for your notes from now on.;
-- (void)ut Creating a Password;
-- (_Bool);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (void);
 - (void);
 - (_Bool);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (id);
+- (_Bool);
+- (id);
+- (struct CGSize);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (long long);
-- (id)meIndex:externalURI: /* Error: Ran out of types for this method. */;
-- (void)taskingDragExclusionRects;
-- (void)"<CKConversationListCellIntroductionsDelegate>",W,N,V_introductionsDelegate;
-- (id)pÓ;
-- (id)>Ii­Gq­G­G_AByAByà.®y¡­y|®ySayÃ1>GGSSB ­yABy¹-®y;­y­y'O>_Qo__ål­y7c­GQo__Qo_I>GSSGGG'q­GA4_GtGGGÑ)®G_Qo__Sayû@­GQo__Qo_G;
-- (void)F?_{®yAEyAEyAEy¼­®÷¨®yY­®GGAGySiSgGGAGyÖ~®GGG£®GtGG;
-- (struct CGSize)(Ô*;
-- (void)8Z-;
+- (void);
+- (id);
+- (double)op]tGG¿@]Gñ]]yÛn]GG45]y>E]GG;
+- (id)ingSecurityScopedResource:%@ /* Error: Ran out of types for this method. */;
+- (void)xt;
+- (void)kerReactionLayoutHelper;
+- (void)>;
 
 // Remaining properties
 @property(nonatomic, readonly) UIView *backgroundView; // @synthesize backgroundView;
@@ -85,7 +84,7 @@
 @property(nonatomic) _Bool isStopButtonHighlighted; // @synthesize isStopButtonHighlighted;
 @property(nonatomic) double playbackCurrentTime; // @synthesize playbackCurrentTime;
 @property(nonatomic) double playbackDuration; // @synthesize playbackDuration;
-@property(nonatomic, retain) UIButton *sendButton; // @synthesize sendButton;
+@property(nonatomic, retain) CKGlassSendButton *sendButton; // @synthesize sendButton;
 @property(nonatomic, retain) IMService *service; // @synthesize service;
 @property(nonatomic) long long state; // @synthesize state;
 @property(nonatomic, readonly) UIButton *stopButton; // @synthesize stopButton;

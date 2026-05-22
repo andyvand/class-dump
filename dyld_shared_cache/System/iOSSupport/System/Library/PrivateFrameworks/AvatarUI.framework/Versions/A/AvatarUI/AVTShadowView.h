@@ -13,11 +13,11 @@
 
 + (double);
 - (void);
-- (void);
-- (void);
-- (void)eKeysAndObjectsWithOptions:(id)arg1 usingBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
+- (void);
+- (void);
+- (void)del;
 
 // Remaining properties
 @property(retain, nonatomic) CALayer *separator; // @synthesize separator=_separator;

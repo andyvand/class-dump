@@ -18,10 +18,10 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id);
 - (void);
-- (id)visionSettingsItemModule";
-- (void)itionCoordinator>"32;
+- (_Bool);
+- (void)etails view because forceNewAccessoryDetails is true;
 
 // Remaining properties
 @property(nonatomic) __weak id <HUTableViewDiffableDataSourceDelegate> delegate; // @synthesize delegate=_delegate;

@@ -16,8 +16,8 @@
     MISSING_TYPE *_$observationRegistrar;
 }
 
-- (id)Xk;
-- (void)Zé`;
+- (id);
+- (void)that isn't a subclass of _UINavigationControllerPalette. Requested class = %@. Making a _UINavigationControllerPalette instead on release builds of UIKit.;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class LNUserIdentity, NSString;
 
 @interface WFToolInvocationOptions
 {
@@ -12,18 +12,27 @@
     void locale;
     void requestIdentifier;
     void lnInterfaceIdiom;
+    long long lnConfirmationConditions;
+    long long lnAssistantDismissalPolicy;
+    LNUserIdentity *lnUserIdentity;
 }
 
-- (id)«ðê?m¬Ö0%EÉ;
-- (long long)0%EÉ;
-- (id);
-- (void);
 - (id);
 - (id);
+- (long long);
+- (long long);
+- (long long);
+- (id);
+- (id);
+- (id);
+- (void)rom Menu (Action Name);
 
 // Remaining properties
+@property(nonatomic, readonly) long long lnAssistantDismissalPolicy; // @synthesize lnAssistantDismissalPolicy;
+@property(nonatomic, readonly) long long lnConfirmationConditions; // @synthesize lnConfirmationConditions;
 @property(nonatomic, readonly) long long lnInteractionMode; // @synthesize lnInteractionMode;
 @property(nonatomic, readonly) NSString *lnInterfaceIdiom;
+@property(nonatomic, readonly) LNUserIdentity *lnUserIdentity; // @synthesize lnUserIdentity;
 @property(nonatomic, readonly) NSString *locale;
 @property(nonatomic, readonly) NSString *requestIdentifier;
 

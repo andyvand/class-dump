@@ -17,9 +17,9 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void)UserSmartAlbum;
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long logContext; // @synthesize logContext;

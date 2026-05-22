@@ -18,11 +18,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id)!ÈAù1zð1b0@ù
-× ;
-- (id)Set",R,N,V_includedOids;
+- (id);
+- (id);
+- (void)ions] Hookup/Use PH-Level Shared Collections API once available);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *loggingIdentifier; // @synthesize loggingIdentifier;

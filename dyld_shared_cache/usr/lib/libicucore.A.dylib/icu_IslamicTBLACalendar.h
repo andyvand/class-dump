@@ -5,10 +5,10 @@
 class icu::IslamicTBLACalendar {
 public: // (access info unavailable from symbols alone)
     IslamicTBLACalendar(icu::Locale const&, UErrorCode&);
-    clone() const;
-    getDynamicClassID() const;
-    getEpoc() const;
-    getStaticClassID();
-    getType() const;
+    auto clone() const;
+    auto getDynamicClassID() const;
+    auto getEpoc() const;
+    auto getStaticClassID();
+    auto getType() const;
     ~IslamicTBLACalendar();
 };

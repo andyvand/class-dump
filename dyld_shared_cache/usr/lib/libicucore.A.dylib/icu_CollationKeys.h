@@ -4,5 +4,5 @@
 
 class icu::CollationKeys {
 public: // (access info unavailable from symbols alone)
-    writeSortKeyUpToQuaternary(icu::CollationIterator&, signed char const*, icu::CollationSettings const&, icu::SortKeyByteSink&, icu::Collation::Level, icu::CollationKeys::LevelCallback&, signed char, UErrorCode&);
+    auto writeSortKeyUpToQuaternary(icu::CollationIterator&, signed char const*, icu::CollationSettings const&, icu::SortKeyByteSink&, icu::Collation::Level, icu::CollationKeys::LevelCallback&, signed char, UErrorCode&);
 };

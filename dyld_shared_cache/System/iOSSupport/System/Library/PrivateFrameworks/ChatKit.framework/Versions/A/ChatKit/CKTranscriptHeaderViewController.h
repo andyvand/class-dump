@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     CKConversation *_conversation;
 }
 
-- (_Bool)ation:completion: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)izeEdges;
 
 // Remaining properties
 @property(retain, nonatomic) CKConversation *conversation; // @synthesize conversation=_conversation;

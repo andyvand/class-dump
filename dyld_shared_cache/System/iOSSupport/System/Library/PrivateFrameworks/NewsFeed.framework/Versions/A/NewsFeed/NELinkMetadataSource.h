@@ -15,8 +15,8 @@
 - (id);
 - (id);
 - (id);
-- (id)Join;
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) LPLinkMetadata *linkMetadata; // @synthesize linkMetadata=_linkMetadata;

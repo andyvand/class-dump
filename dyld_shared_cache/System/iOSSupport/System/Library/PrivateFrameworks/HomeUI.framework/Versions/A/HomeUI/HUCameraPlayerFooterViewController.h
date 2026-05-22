@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)e;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *liveButton; // @synthesize liveButton=_liveButton;

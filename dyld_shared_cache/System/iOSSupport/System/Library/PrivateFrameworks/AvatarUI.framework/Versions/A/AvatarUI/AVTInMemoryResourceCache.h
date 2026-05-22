@@ -29,13 +29,12 @@
 - (void);
 - (id);
 - (id);
-- (void)	;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)Ð!¤AùQÉ1¢!0@ù
-× ;
+- (void);
+- (id)AvatarConfiguration"8@"AVTAvatarConfiguration"16;
+- (void)ÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

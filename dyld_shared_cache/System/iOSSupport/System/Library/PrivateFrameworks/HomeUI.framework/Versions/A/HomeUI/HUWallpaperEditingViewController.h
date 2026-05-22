@@ -44,24 +44,22 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
-- (void)
-× ;
-- (id)11ð1b0@ù
-× ;
-- (void)HREActionSetRecommendationItemProvider";
-- (_Bool)<à=;
-- (id)InnerHorizontalMargin;
 - (void);
 - (void);
-- (void)9;
+- (id)lBackgroundColor;
+- (void)k:(_Bool)arg1;
+- (id)eTVUpdateWarningViewController;
+- (void)ze = (%f, %f) | prevSizeThatFits = (%f, %f);
+- (void)SentHomeEnergyAnalytics;
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *blurButton; // @synthesize blurButton=_blurButton;

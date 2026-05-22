@@ -22,7 +22,7 @@
 
 - (void);
 - (void);
-- (double);
+- (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -44,7 +44,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool)˟;
+- (_Bool);
 - (struct CGRect);
 - (struct CGPoint);
 - (void);
@@ -63,9 +63,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (struct CGPoint)-;
+- (struct CGPoint);
 - (double);
 
 // Remaining properties

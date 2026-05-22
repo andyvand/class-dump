@@ -22,12 +22,12 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (void)!: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void)l$ìÿ;
+- (void);
+- (void)need update;
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool isConnected;

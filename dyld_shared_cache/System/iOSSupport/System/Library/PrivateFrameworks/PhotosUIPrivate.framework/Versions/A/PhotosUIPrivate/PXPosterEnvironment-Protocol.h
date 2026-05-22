@@ -7,8 +7,6 @@
 @class UITraitCollection;
 
 @protocol PXPosterEnvironment
-- (unsigned long long)BùW°1b0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_5a829b29 deviceAttitude;

@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

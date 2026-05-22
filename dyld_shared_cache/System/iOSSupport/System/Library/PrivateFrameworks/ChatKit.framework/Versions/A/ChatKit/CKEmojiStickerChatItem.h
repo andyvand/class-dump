@@ -13,13 +13,13 @@
     IMEmojiSticker *_emojiSticker;
 }
 
-- (struct CGSize){objectID:(struct CGSize)arg1 %@};
+- (struct CGSize);
 - (id);
 - (id);
 - (id);
 - (Class);
-- (void)@;
 - (struct CGSize);
+- (void)Dðÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) IMEmojiSticker *emojiSticker; // @synthesize emojiSticker=_emojiSticker;

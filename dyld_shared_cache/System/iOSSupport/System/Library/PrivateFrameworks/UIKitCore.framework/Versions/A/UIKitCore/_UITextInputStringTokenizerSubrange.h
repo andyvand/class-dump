@@ -16,14 +16,15 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (void)unspecified reason;
-- (struct _NSRange)der;
-- (long long);
+- (struct _NSRange);
 - (void);
-- (id)_enableWithoutFocusRestoration;
-- (void)À6ü9à:(long long)arg1 TA;
-- (id);
+- (id);
+- (long long)Â0@ù
+× ;
+- (void)Ô ;
+- (id)@32@?40;
+- (id)ÿ;
+- (void)þ;
 
 // Remaining properties
 @property(readonly, nonatomic) UITextPosition *basePosition; // @synthesize basePosition=_basePosition;

@@ -7,10 +7,9 @@
 @class NSLayoutDimension, _UIButtonBarLayoutMetrics;
 
 @protocol _UIButtonBarLayoutMetricsData
-- (NSLayoutDimension *)ontrollerCanShowCloudTracksDidChangeNotification;
-- (_UIButtonBarLayoutMetrics *);
-- (_Bool)onalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}{UIContentUnavailableViewElementLayoutInfo={CGSize=dd}B{NSDirectionalEdgeInsets=dddd}}BBBq{NSDirectionalEdgeInsets=dddd}{CGSize=dd}{CGSize=dd}}32;
-- (NSLayoutDimension *)eplacement;
+- (NSLayoutDimension *)× ;
+- (_Bool)Point=dd}32{CGPoint=dd}48q64@72@80@?88@?96;
+- (_UIButtonBarLayoutMetrics *)terfaceActionRepresentation;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsViewWrappers;

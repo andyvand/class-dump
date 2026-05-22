@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     NSData *content;
 }
 
-- (unsigned char);
+- (unsigned char);
 - (void);
-- (void)!;
 - (id);
-- (unsigned char)�;
-- (id)=h�<H;
 - (void);
+- (unsigned char);
+- (id);
 - (void);
+- (void)uleIdentifier;
 
 // Remaining properties
 @property(retain) NSData *content; // @synthesize content;

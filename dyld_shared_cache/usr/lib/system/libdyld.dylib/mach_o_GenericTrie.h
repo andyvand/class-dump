@@ -5,6 +5,6 @@
 class mach_o::GenericTrie {
 public: // (access info unavailable from symbols alone)
     GenericTrie(unsigned char const*, unsigned long);
-    forEachEntry(void (mach_o::GenericTrie::Entry const&, bool&) block_pointer) const;
-    recurseTrie(unsigned char const*, dyld3::OverflowSafeArray<char, 4294967295ull>&, int, bool&, void (char const*, std::__1::span<unsigned char const, 18446744073709551615ul>, bool&) block_pointer) const;
+    auto forEachEntry(void (mach_o::GenericTrie::Entry const&, bool&) block_pointer) const;
+    auto recurseTrie(unsigned char const*, dyld3::OverflowSafeArray<char, 4294967295ull>&, int, bool&, void (char const*, std::__1::span<unsigned char const, 18446744073709551615ul>, bool&) block_pointer) const;
 };

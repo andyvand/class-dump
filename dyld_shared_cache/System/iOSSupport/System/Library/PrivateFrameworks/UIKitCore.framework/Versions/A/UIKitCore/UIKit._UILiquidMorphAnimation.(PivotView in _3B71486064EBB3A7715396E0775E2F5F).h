@@ -13,12 +13,11 @@
     MISSING_TYPE *viewForMatchingAlpha;
 }
 
-- (double);
-- (id)P;
-- (void)q!<EùÄÐ1¢!0@ù
-× ;
-- (id)IMenuSystem",N,&,V_system;
-- (void)gÉa;
+- (id);
+- (void);
+- (id)ckInteractionDriver;
+- (double),^;
+- (void)ÓÎtl;
 
 // Remaining properties
 @property(nonatomic) double alpha;

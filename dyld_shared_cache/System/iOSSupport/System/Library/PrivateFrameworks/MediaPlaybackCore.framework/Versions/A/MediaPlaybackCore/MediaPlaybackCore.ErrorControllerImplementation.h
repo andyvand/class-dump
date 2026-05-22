@@ -14,7 +14,7 @@
 }
 
 - (void);
-- (void)h=;
+- (void);
 - (void);
 
 @end

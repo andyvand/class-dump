@@ -25,12 +25,11 @@
 - (double);
 - (double);
 - (id);
-- (void)PY;
 - (void);
 - (void);
-- (id)AùË1¢!0@ù
-× ;
-- (id)te instead on release builds of UIKit.;
+- (id)mponent"b1"showsSelectionBar"b1"allowsMultipleSelection"b1"allowSelectingCells"b1"soundsDisabled"b1"usesCheckedSelection"b1"skipsBackground"b1"isInLayoutSubviews"b1"usesDynamicRowHeight"b1"selectionBarIgnoresInset"b1};
+- (id)bleMaximumIndices;
+- (void)S;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setSelectionBorderColor:) UIColor *_selectionBorderColor; // @dynamic _selectionBorderColor;

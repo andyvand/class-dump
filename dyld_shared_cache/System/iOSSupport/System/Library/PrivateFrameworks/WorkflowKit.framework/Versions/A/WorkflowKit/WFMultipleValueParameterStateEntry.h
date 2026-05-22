@@ -13,12 +13,12 @@
     id <WFParameterState> _parameterState;
 }
 
-- (id)_AUTH_CONST;
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
 - (id);
+- (void)mberMobile(void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identity; // @synthesize identity=_identity;

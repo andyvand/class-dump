@@ -17,32 +17,32 @@
     unsigned long long _state;
 }
 
-+ (id);
-- (_Bool)_	;
++ (id);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id)r;
-- (_Bool);
-- (void);
-- (void);
-- (void)	3;
-- (_Bool);
-- (void);
+- (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long)!;
-- (void);
+- (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (unsigned long long);
 - (float);
-- (void)[;
-- (void);
+- (_Bool);
 - (void);
 - (_Bool);
-- (_Bool)8;
+- (void);
+- (void);
+- (void)N;
+- (void)enter;
+- (void)SString"8q16@"NSString"24;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active;

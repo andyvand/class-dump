@@ -14,9 +14,9 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *maxDuration; // @synthesize maxDuration=_maxDuration;

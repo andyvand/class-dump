@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol FCLocalAreasProvider;
+
 @protocol FCLocalAreasManager
-- (void)SPlatformUnavailableObject;
+- (void)zationService;
+
+// Remaining properties
+@property(readonly, nonatomic) id <FCLocalAreasProvider> cachedLocalAreasProvider;
 @end
 

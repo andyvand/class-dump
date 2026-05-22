@@ -23,12 +23,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)ð!ÐAù±/°1b0@ù
-× ;
-- (id)¶
-õ;
+- (id);
+- (id);
+- (void)tle;
 
 // Remaining properties
 @property(readonly, nonatomic) HUCameraUpgradeOfferBannerItem *cameraUpgradeOfferBannerItem; // @synthesize cameraUpgradeOfferBannerItem=_cameraUpgradeOfferBannerItem;

@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id)16@0:8 /* Error: Ran out of types for this method. */;
-- (void);
++ (id);
+- (void);
 
 @end
 

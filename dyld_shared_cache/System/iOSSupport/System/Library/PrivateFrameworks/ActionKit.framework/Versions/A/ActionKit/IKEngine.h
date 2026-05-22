@@ -47,13 +47,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void)res the Health app, which this device does not have.;
-- (void)°;ÿÉ:(id)arg1;
-- (void);
-- (void)Ö(;
+- (void);
+- (void);
+- (id)1And2-KeyTripleDES-CBC;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *OAuthToken; // @synthesize OAuthToken=_OAuthToken;

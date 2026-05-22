@@ -15,11 +15,11 @@
     MISSING_TYPE *panDelegate;
 }
 
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void)LýÿVJÿÿ;
 
 @end
 

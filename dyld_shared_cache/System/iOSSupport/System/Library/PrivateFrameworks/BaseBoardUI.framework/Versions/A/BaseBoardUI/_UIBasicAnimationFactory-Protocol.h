@@ -4,12 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CABasicAnimation;
-
 @protocol _UIBasicAnimationFactory
-- (CABasicAnimation *)@;
-
-@optional
-- (_Bool)C;
 @end
 

@@ -14,12 +14,12 @@
 }
 
 - (id);
-- (id))%ښ);
-- (void);
-- (id)J;
 - (id);
 - (id);
-- (CDUnknownBlockType)%lu, visits ending yesterday count, %lu, visits before that, %lu;
+- (id);
+- (id);
+- (CDUnknownBlockType);
+- (void)tDateIntervals count, %lu;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;

@@ -33,31 +33,32 @@
 - (void);
 - (int);
 - (double);
+- (int);
+- (int);
 - (unsigned long long);
+- (id);
 - (void);
-- (int);
+- (_Bool);
+- (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
 - (int);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (int);
-- (id);
 - (void);
 - (id);
-- (void)ýÿ¡´¢Cé;
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id)°!TDùq¬ð1B50@ù
+× ;
+- (void)4x¼xüy;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *connectedClients; // @synthesize connectedClients=_connectedClients;

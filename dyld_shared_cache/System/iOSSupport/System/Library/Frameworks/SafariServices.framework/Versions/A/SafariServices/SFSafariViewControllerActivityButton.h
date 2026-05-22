@@ -16,11 +16,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
-- (id)!;
 - (id);
-- (void)ems with an empty title;
-- (id)onWithFeatures:colorFormat:depthFormat:completionHandler: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool _fieldsAreValid;

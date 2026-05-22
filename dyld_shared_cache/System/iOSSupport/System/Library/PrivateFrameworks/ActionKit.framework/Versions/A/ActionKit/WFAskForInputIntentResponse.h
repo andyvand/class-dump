@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)to call? (WFFaceTimeContact);
-- (void)ersonal Hotspot Password;
+- (long long)or: /* Error: Ran out of types for this method. */;
+- (void)peration.m;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

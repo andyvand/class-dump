@@ -18,10 +18,10 @@
 
 - (void);
 - (id);
-- (void)%;
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)dStringKey;
 
 // Remaining properties
 @property(copy, nonatomic) UIColor *resolvedColor; // @synthesize resolvedColor=_resolvedColor;

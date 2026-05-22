@@ -20,25 +20,25 @@
 }
 
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)guage: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (void);
-- (_Bool)overs;
-- (CDStruct_3b09cf25)trokePath;
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (_Bool);
+- (CDStruct_3b09cf25);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_3b09cf25 currentScrollContext;

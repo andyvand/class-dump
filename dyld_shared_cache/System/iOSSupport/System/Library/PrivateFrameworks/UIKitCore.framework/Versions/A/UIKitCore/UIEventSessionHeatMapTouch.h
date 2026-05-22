@@ -15,35 +15,35 @@ __attribute__((visibility("hidden")))
     NSDate *_touchDownTime;
     NSDate *_touchUpTime;
     struct CGPoint _lastLocation;
-    CDStruct_24322269 _lastVisitedCoordinate;
+    CDStruct_3f566597 _lastVisitedCoordinate;
 }
 
-- (long long)amp;
-- (id)ubscription;
-- (id)dSMSMessage:storageContext:receivedViaRelay:serviceName:completionBlock: /* Error: Ran out of types for this method. */;
-- (long long)essage:deviceID: /* Error: Ran out of types for this method. */;
-- (double)sReceivedSMSFilteringSettingsMessage:deviceID: /* Error: Ran out of types for this method. */;
-- (long long)eychainError;
-- (void);
-- (void)veTransfers;
-- (void);
-- (void)=;
-- (CDStruct_24322269);
-- (long long)lastDoorRelayReachabilityHandleResult for %@ does not support encryption.;
-- (double)d to storage controller;
+- (long long);
+- (id);
+- (id);
+- (long long);
+- (double);
+- (long long);
 - (void);
 - (void);
-- (struct CGPoint);
-- (void)0@ù
-× ;
-- (void)ayoutSublayersOfLayer:(struct CGPoint)arg1;
-- (id)_axes;
+- (void);
+- (void);
+- (CDStruct_3f566597);
+- (long long);
+- (double);
+- (void);
+- (void);
+- (id);
+- (struct CGPoint)entOffsetOrDeferredContentOffset;
+- (void)P	°
+Ø¼È(h;
+- (void)½¨ÌüQh;
 
 // Remaining properties
 @property(nonatomic) double dragDistance; // @synthesize dragDistance=_dragDistance;
 @property(readonly, nonatomic) long long dragDistanceForAnalytics;
 @property(nonatomic) struct CGPoint lastLocation; // @synthesize lastLocation=_lastLocation;
-@property(nonatomic) CDStruct_24322269 lastVisitedCoordinate; // @synthesize lastVisitedCoordinate=_lastVisitedCoordinate;
+@property(nonatomic) CDStruct_3f566597 lastVisitedCoordinate; // @synthesize lastVisitedCoordinate=_lastVisitedCoordinate;
 @property(nonatomic) long long tapDragState; // @synthesize tapDragState=_tapDragState;
 @property(readonly, nonatomic) double touchDownDuration;
 @property(readonly, nonatomic) long long touchDownDurationMS;

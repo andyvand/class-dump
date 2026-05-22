@@ -13,10 +13,10 @@
 
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
 - (id);
+- (void);
+- (id);
+- (void)}};
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;

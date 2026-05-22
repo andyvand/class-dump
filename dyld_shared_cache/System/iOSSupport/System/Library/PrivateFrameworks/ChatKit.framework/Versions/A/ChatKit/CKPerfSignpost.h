@@ -8,10 +8,6 @@
 {
 }
 
-+ (void)r;
-+ (void);
-+ (void)ZE];
-+ (void)P];
 + (void);
 + (void);
 + (void);
@@ -22,8 +18,46 @@
 + (void);
 + (void);
 + (void);
-- (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
++ (void);
 - (id);
+- (void)Action;
 
 @end
 

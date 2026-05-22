@@ -16,13 +16,12 @@
 + (id);
 - (void);
 - (unsigned long long);
+- (void);
 - (id);
 - (void);
 - (id);
 - (double);
-- (unsigned long long)
-× ;
-- (void);
+- (unsigned long long)Delegate>",W,N,V_delegate;
 
 // Remaining properties
 @property(nonatomic) unsigned long long contentColorStyle; // @synthesize contentColorStyle=_contentColorStyle;

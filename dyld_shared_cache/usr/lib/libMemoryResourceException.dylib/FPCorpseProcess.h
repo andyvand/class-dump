@@ -11,8 +11,8 @@
 }
 
 - (_Bool);
-- (_Bool);
 - (void);
+- (_Bool);
 
 @end
 

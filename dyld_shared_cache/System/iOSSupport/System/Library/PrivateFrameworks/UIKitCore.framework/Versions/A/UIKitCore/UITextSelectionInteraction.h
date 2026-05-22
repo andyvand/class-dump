@@ -26,48 +26,53 @@ __attribute__((visibility("hidden")))
     id <_UIInvalidatable> _grabberSuppressionAssertion;
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (id);
+- (id);
 - (_Bool);
-- (_Bool)c;
+- (void);
+- (void);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void)(;
-- (void);
-- (void)CùQÄð1¢!0@ù
+- (long long);
+- (_Bool);
+- (_Bool)@ù
+× ;
+- (_Bool)@ù
+× ;
+- (void)!Bù_1Â0@ù
+× ;
+- (void)Â0@ù
+× ;
+- (_Bool)1Â0@ù
+× ;
+- (void)Áð! Eùqcð1Â0@ù
 × ;
 - (void)
 × ;
-- (void)QË1¢!0@ù
+- (_Bool)d1Â0@ù
 × ;
-- (_Bool);
-- (_Bool)nNotification"b1};
-- (void)tMode:(id)arg1;
-- (_Bool)enURLOptions:(id)arg1 workspaceOriginatingProcess:responder: /* Error: Ran out of types for this method. */;
-- (void)Style:(id)arg1 usesVerticalLayout: /* Error: Ran out of types for this method. */;
-- (_Bool)AllowsTransparentBlurring;
-- (id)Responders;
-- (void)askLayer;
-- (void)BlurEnabled:(id)arg1;
+- (_Bool)arButton:(id)arg1;
+- (void)lText;
+- (void)ForInsertedItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (_Bool)extEffectsWindowSafeAreaInsets;
+- (void)essoryContainer;
+- (void)nDidRecieveDidBeginDictationNotification:(id)arg1;
+- (void)rBackgroundColor;
+- (_Bool)LensViewSmallVariantSpec",N,&,Vsmall;
 - (void);
-- (void),V_item;
-- (void)`ÂÂ;
-- (long long);
-- (_Bool)ü*;
-- (void);
-- (_Bool)iner != nil;
-- (_Bool);
-- (_Bool)dF71`ÿ3Ø;
-- (_Bool){c;
-- (void);
+- (_Bool)SLocationInRange(splitIndex, range);
+- (_Bool)dSectionHeaderHeight;
+- (void)nactive;
+- (id)cene with a nil display configuration is not supported:(long long)arg1 %@;
+- (void)¸þ;
+- (void)\1a;
+- (_Bool)£ÂÄÀa;
+- (void)ÆÿÃëÌ$Od;
+- (void)XÖöþ±È;
+- (_Bool)Óe;
+- (_Bool)Û4+f;
 
 @end
 

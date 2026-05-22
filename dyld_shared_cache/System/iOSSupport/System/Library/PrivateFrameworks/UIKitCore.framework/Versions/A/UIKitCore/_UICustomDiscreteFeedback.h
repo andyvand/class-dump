@@ -13,16 +13,17 @@ __attribute__((visibility("hidden")))
     unsigned long long _eventType;
 }
 
-+ (id);
-+ (id)GroupLayout;
++ (id)";
++ (id)MetricsImageMetrics=@}{_UIListMetricsLabelMetrics=@@}{_UIListMetricsLabelMetrics=@@}}56@0:8q16q24q32@40@48 /* Error: Ran out of types for this method. */;
+- (unsigned int);
+- (unsigned long long);
 - (unsigned int);
 - (unsigned long long);
 - (_Bool);
-- (unsigned int);
-- (id)eNowPlayingInfo;
-- (id);
-- (id)nil. Behavior of caller is undefined.;
-- (unsigned long long);
+- (id)V_currentDismissTransition;
+- (id)$?
+@Ô@¨D3¼F¼G`H(J¸J;
+- (id)cPowerUsage;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;

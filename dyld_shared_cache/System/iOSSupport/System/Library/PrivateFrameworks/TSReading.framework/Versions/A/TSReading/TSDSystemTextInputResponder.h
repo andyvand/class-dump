@@ -11,9 +11,9 @@
 }
 
 - (void);
-- (void)nmathspace;
-- (void)øÐU;
-- (void)c®;
+- (void)õà?  ;
+- (void);
+- (void);
 
 @end
 

@@ -23,11 +23,11 @@
     MISSING_TYPE *systemRootLayerTransform;
 }
 
-- (void);
-- (id);
-- (void);
 - (struct CGRect);
 - (id);
+- (void);
+- (id);
+- (void)ationsP;
 
 @end
 

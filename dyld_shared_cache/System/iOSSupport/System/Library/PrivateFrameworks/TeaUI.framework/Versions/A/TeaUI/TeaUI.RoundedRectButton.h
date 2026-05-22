@@ -13,7 +13,7 @@
     MISSING_TYPE *cornerRadius;
 }
 
-- (id)hlightsTagID;
+- (id);
 - (id);
 
 @end

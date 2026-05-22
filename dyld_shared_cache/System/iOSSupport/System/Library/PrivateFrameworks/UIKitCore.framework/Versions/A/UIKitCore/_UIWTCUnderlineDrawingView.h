@@ -14,15 +14,15 @@ __attribute__((visibility("hidden")))
     UIColor *_color;
 }
 
-+ (Class)¶;
++ (Class);
 - (id);
-- (void);
-- (id)Ì1¢!0@ù
+- (struct CGSize);
+- (id)±dð1Â0@ù
 × ;
-- (id);
-- (void)leVisibility:(id)arg1;
-- (void)didate:(id)arg1;
-- (struct CGSize)utSession;
+- (void)izedCaptureGroup"b1"mt_backgroundMergeBehavior"b2"shouldContinueRemovingFromSuperview"b1"isMaskingIntermediateLayer"b1"hasLayoutRules"b1"needsCornersUpdate"b1"invalidatesCornersForGeometryChange"b1"suppressesBackground"b1"glassBackgroundNeedsUpdate"b1"hasChildrenRequestingSubduing"b1"safeAreaCornerAdaptation"b3"isRenderedHorizontallyFlipped"b1"needsLayoutDuringTransactionCommitting"b1"selfOrDescendantNeedsToBeNotifiedOfVisibilityChange"b1"isInHiddenAncestor"b1};
+- (void)uateFeedback:(id)arg1;
+- (id)UIPreviewInteractionClickImpl;
+- (void)nfigurationStateCIeggg_;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;

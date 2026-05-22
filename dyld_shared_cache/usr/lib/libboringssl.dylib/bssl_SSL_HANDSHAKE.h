@@ -4,7 +4,7 @@
 
 class bssl::SSL_HANDSHAKE {
 public: // (access info unavailable from symbols alone)
-    GetClientHello(bssl::SSLMessage*, ssl_early_callback_ctx*);
     SSL_HANDSHAKE(ssl_st*);
+    auto GetClientHello(bssl::SSLMessage*, ssl_early_callback_ctx*);
     ~SSL_HANDSHAKE();
 };

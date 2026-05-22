@@ -21,13 +21,13 @@
 - (void);
 - (long long);
 - (void);
-- (void)f_fC3_YETQ_yy4HAgij0NOJE2d8MJw/Library/Caches/com.apple.xbs/Sources/AlderShared/utility/sf/SFUMemoryOutputStream.m;
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void)Module;
 
 // Remaining properties
 @property(nonatomic) long long bundleSubscriptionStatus; // @synthesize bundleSubscriptionStatus;

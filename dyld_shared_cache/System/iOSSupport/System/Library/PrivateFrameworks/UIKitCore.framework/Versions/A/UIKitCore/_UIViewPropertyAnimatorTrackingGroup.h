@@ -12,23 +12,24 @@ __attribute__((visibility("hidden")))
     NSArray *_trackingAnimators;
 }
 
-- (_Bool);
 - (id);
-- (void);
-- (long long)yboardWindow;
-- (void)Q;
-- (double)g;
-- (void);
-- (void)cumentView"24@"UIWebElementActionInfo"32;
-- (void)ponder:(id)arg1 %@, from responder:(double)arg2 %@;
-- (id)lock;
-- (void)undColorIsDefault;
-- (void);
-- (void);
-- (void)ightEffectProxiedEdgeSurface;
-- (void)ableProperty;
-- (_Bool)¦þ;
-- (void)êº;
+- (long long)!Aù1d°1Â0@ù
+× ;
+- (_Bool)iple observers implementing %@. Scroll view %@, new observer %@, removing old observer %@;
+- (void)c}@:(long long)arg1 Set materialized view controller:%{public}@ /* Error: Ran out of types for this method. */;
+- (void)abilities. status=%d;
+- (void)assert in a future version.;
+- (void);
+- (void)m;
+- (void)catorInsets;
+- (void)mesFirstResponderOnClearButtonTap;
+- (void)ette(void);
+- (double)tionLayoutItem"8^B16;
+- (void)key_#D¾75valuetSg;
+- (_Bool)_UIColorPaletteC;
+- (id);
+- (void)13T±þí13l¯uþí13Ôt°þ;
+- (void)úwþ5543húwþ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

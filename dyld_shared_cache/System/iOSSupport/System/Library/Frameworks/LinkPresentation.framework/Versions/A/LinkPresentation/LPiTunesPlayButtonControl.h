@@ -29,12 +29,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id)work/Versions/C/AppKit;
 - (void);
+- (id);
 - (void);
-- (void)es;
+- (_Bool);
 - (void);
-- (_Bool)¨°èÿ;
+- (void)t has been laid out.;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -11,17 +11,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (struct UIEdgeInsets)t we can delete transfer with guid:(id)arg1 %@;
-- (void);
++ (struct UIEdgeInsets);
+- (struct CGRect);
 - (void);
-- (void);
-- (_Bool)árð!@GùÆ°1¢!0@ù
+- (void);
+- (struct UIEdgeInsets);
+- (_Bool);
+- (void)0@ù
 × ;
-- (void)Done;
-- (struct UIEdgeInsets)ationItemUpdatedCenterBarButtonItems:animated: /* Error: Ran out of types for this method. */;
-- (struct CGRect)bDocumentView.;
-- (void)Lè^ÿzÎ
-m;
+- (void)UITextCheckingController;
+- (void)o UIWindowScene!;
 
 @end
 

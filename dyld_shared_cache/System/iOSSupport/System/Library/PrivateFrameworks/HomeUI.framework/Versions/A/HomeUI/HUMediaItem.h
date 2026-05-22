@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)irdParty_Off_Footer;
 
 // Remaining properties
 @property(retain, nonatomic) MPPlaybackArchiveDisplayProperties *playbackArchiveDisplayProperties; // @synthesize playbackArchiveDisplayProperties=_playbackArchiveDisplayProperties;

@@ -6,12 +6,13 @@
 
 #import <CarPlay/CPTemplate.h>
 
-@class NAFuture, NSArray, NSString;
+@class CPBarButton, NAFuture, NSArray, NSString, UIImage;
 
 @interface CPVoiceControlTemplate : CPTemplate
 {
     NSArray *_voiceControlStates;
     NSString *_activeStateIdentifier;
+    UIImage *_backgroundImage;
 }
 
 + (_Bool);
@@ -20,23 +21,30 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *activeStateIdentifier; // @synthesize activeStateIdentifier=_activeStateIdentifier;
+@property(retain, nonatomic) CPBarButton *backButton; // @dynamic backButton;
+@property(retain, nonatomic) UIImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSString",?,R,C
 
 @property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
+@property(retain, nonatomic) NSArray *leadingNavigationBarButtons;
 @property(readonly) Class superclass;
 @property(retain, nonatomic) NAFuture *templateProviderFuture; // @dynamic templateProviderFuture;
+@property(retain, nonatomic) NSArray *trailingNavigationBarButtons;
 @property(readonly, copy, nonatomic) NSArray *voiceControlStates; // @synthesize voiceControlStates=_voiceControlStates;
 
 @end

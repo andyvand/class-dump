@@ -12,10 +12,10 @@
 }
 
 + (id);
-- (unsigned long long);
-- (_Bool);
 - (void);
 - (id);
+- (unsigned long long);
+- (_Bool);
 
 @end
 

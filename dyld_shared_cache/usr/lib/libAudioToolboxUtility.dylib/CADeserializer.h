@@ -6,9 +6,9 @@ class CADeserializer {
 public: // (access info unavailable from symbols alone)
     CADeserializer(__CFData const*);
     CADeserializer(void const*, unsigned long);
-    GetAndAdvanceReadPtr(unsigned int, unsigned int);
-    Read(void*, unsigned int, unsigned int);
-    ReadAllData();
-    ReadPlist();
+    auto GetAndAdvanceReadPtr(unsigned int, unsigned int);
+    auto Read(void*, unsigned int, unsigned int);
+    auto ReadAllData();
+    auto ReadPlist();
     ~CADeserializer();
 };

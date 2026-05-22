@@ -18,8 +18,8 @@
     MISSING_TYPE *decoder;
 }
 
-- (void)mForKey: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)(ÊüþX:¸wþX:\ð$ÿ /* Error: Ran out of types for this method. */;
 
 @end
 

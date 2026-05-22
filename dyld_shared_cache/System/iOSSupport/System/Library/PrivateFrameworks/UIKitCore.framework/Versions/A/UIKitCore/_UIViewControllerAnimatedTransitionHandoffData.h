@@ -16,14 +16,14 @@ __attribute__((visibility("hidden")))
     _UIVisualEffectBackdropView *_captureBackdropView;
 }
 
-- (id)L;
+- (id);
 - (_Bool);
-- (id)xb;
-- (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)7yQ¬;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIVisualEffectBackdropView *captureBackdropView; // @synthesize captureBackdropView=_captureBackdropView;

@@ -18,20 +18,20 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (_Bool);
 - (void);
-- (void)enge"32@?<v@?q@"NSURLCredential">40;
+- (void);
+- (struct CGRect);
+- (id);
+- (void);
 - (id);
 - (unsigned long long);
-- (_Bool)_personalized_ads_on_next_launch;
+- (void)ÀóÀô¨õö÷¤øùlü\ý<ÿD;
+- (void)ScaleY;
+- (id)áå,,­àÿáå,lFjþáå,Liþ;
 - (void);
-- (id);
-- (void);
-- (void)L;
-- (struct CGRect);
-- (id)óÿ;
-- (void);
-- (id);
-- (id);
+- (id);ûþ;
 
 // Remaining properties
 @property(nonatomic, copy) NSArray *accessibilityCustomActions;

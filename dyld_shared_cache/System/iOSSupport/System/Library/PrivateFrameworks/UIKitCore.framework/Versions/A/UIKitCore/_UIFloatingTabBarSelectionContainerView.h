@@ -20,17 +20,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint);
 - (struct CGRect);
-- (struct CGRect)8	;
+- (struct CGRect);
 - (id);
-- (id);
-- (void)eplaceBlock:shouldStoreBlock:didStoreBlock:block: /* Error: Ran out of types for this method. */;
-- (_Bool)ype:serviceType:recipients:receivingHandle: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)ingItemsSupplementBackItem;
-- (id)elf.cachedItemAttributes[indexPath] == nil;
+- (_Bool);
+- (id);
+- (id)Name;
+- (id)Unclippable;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIView *liftedContentView;

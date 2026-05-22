@@ -16,22 +16,22 @@ __attribute__((visibility("hidden")))
 }
 
 + (unsigned int);
-+ (id).;
 + (id);
 + (id);
 + (id);
-- (void)/AuthKit;
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)r;
 - (void);
-- (void)Kj;
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (id)hard queue;
+- (id);
+- (void)â remote playlist:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

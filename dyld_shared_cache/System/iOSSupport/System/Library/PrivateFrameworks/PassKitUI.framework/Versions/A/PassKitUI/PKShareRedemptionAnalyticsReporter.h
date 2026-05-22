@@ -20,7 +20,7 @@
 - (void);
 - (long long);
 - (id);
-- (void)±·^y>;
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long accessPassType; // @synthesize accessPassType=_accessPassType;

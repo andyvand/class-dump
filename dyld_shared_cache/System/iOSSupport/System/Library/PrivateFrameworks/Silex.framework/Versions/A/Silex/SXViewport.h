@@ -32,11 +32,11 @@
 - (void);
 - (void);
 - (void);
-- (void)0;
 - (void);
 - (void);
 - (void);
-- (void)Y;
+- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -61,24 +61,24 @@
 - (struct CGSize);
 - (void);
 - (void);
+- (void);
+- (id);
+- (long long);
+- (void);
 - (struct CGRect);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (void);
 - (_Bool);
-- (long long)T;
-- (struct CGRect)@ù
-× ;
+- (id);
 - (struct CGRect);
-- (id)torDelegate>";
-- (struct CGPoint)eraction:(struct CGPoint)arg1 sessionAllowsMoveOperation:(id)arg2;
-- (struct CGPoint)_visibleImageViewIndex;
-- (struct CGRect)pRect;
+- (struct CGRect);
+- (void)ÁÝÐ!|Gùñîð1Â0@ù
+× ;
+- (struct CGPoint)lattenedBlueprint;
+- (id)sToConditionsMap;
+- (struct CGRect)cation;
+- (struct CGPoint);
 
 // Remaining properties
 @property(nonatomic) unsigned long long appearState; // @synthesize appearState=_appearState;

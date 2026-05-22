@@ -13,8 +13,9 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
 - (long long);
+- (void)á÷Ð!GùqÐ1Â0@ù
+× ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;

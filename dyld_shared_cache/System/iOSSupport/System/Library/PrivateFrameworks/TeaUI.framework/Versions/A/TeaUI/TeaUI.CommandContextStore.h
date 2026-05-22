@@ -8,7 +8,7 @@
 
 @interface TeaUI.CommandContextStore
 {
-    MISSING_TYPE *onChange;
+    MISSING_TYPE *_onChange;
     MISSING_TYPE *contexts;
 }
 

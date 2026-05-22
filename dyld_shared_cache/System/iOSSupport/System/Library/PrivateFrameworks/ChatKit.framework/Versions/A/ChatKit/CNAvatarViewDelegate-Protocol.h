@@ -5,8 +5,5 @@
 //
 
 @protocol CNAvatarViewDelegate
-
-@optional
-- (void);
 @end
 

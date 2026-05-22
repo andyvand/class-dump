@@ -12,8 +12,8 @@
 - (CDStruct_14d5dc5e);
 - (CDStruct_14d5dc5e);
 - (void);
+- (void);
 - (id);
-- (void)ðZ;
 - (void);
 
 // Remaining properties

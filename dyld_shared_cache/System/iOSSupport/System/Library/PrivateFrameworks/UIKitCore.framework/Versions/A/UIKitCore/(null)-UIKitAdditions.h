@@ -7,7 +7,7 @@
 @class UIScene;
 
 @interface (null) (UIKitAdditions)
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIScene *targetScene;

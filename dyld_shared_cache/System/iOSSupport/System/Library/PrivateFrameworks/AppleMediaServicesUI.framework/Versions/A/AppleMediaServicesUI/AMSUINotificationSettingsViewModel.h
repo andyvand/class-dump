@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (id);
+- (long long);
 - (long long);
 - (id);
 - (void);
 - (id);
-- (long long);
 - (void);
-- (id);
-- (void);
+- (void)passcodeEnablementTask;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

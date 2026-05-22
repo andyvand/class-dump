@@ -13,9 +13,9 @@
 
 - (id);
 - (_Bool);
-- (void);
 - (CDUnknownBlockType);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;

@@ -46,12 +46,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
-- (id)°1¢!0@ù
-× ;
-- (void);
-- (id)wed per button bar;
-- (id)KeyWindow;
+- (id)r;
+- (void)N134;
 
 // Remaining properties
 @property(retain, nonatomic) id <_UIPreviewInteractionViewControllerTransition> appearanceTransition; // @synthesize appearanceTransition=_appearanceTransition;

@@ -18,10 +18,10 @@
 }
 
 - (CDStruct_912cb5d2);
-- (id)_submitAndOpenTapToRadarForInvalidFeatureFlagConfiguration;
-- (CDStruct_f9662865)tchZoneChangesOperation:(unsigned long long)arg1;
-- (unsigned long long)NSDate",R,N;
-- (_Bool)l;
+- (id);
+- (CDStruct_f9662865);
+- (unsigned long long);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -33,24 +33,25 @@
 - (id);
 - (double);
 - (id);
-- (id);
-- (struct CGPDFSelection *)A;
 - (void);
-- (id)IsNotHandle;
+- (id);
+- (struct CGPDFSelection *);
+- (id);
 - (_Bool);
 - (CDStruct_912cb5d2);
-- (id);
 - (unsigned long long);
-- (struct CGRect);
+- (void);
+- (id);
 - (id);
 - (struct CGAffineTransform);
-- (id)}8;
-- (void);
-- (id)ompletion: /* Error: Ran out of types for this method. */;
-- (id)V_pinchGR;
-- (unsigned long long);
-- (_Bool)CSgz_Xx;
-- (id)[´^;
+- (id);
+- (id);
+- (id)±aÐ1Â0@ù
+× ;
+- (struct CGRect)0:8@16^d24^d32 /* Error: Ran out of types for this method. */;
+- (unsigned long long)TransientHaptic;
+- (_Bool)kipping scene restoration;
+- (id)xXþ;
 
 // Remaining properties
 @property(nonatomic) CDStruct_912cb5d2 stringRange; // @synthesize stringRange;

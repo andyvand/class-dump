@@ -15,25 +15,22 @@ __attribute__((visibility("hidden")))
     UIContentSizeCategoryPreference *_overridePreferences;
 }
 
-- (void)OHandleWithURL:(_Bool)arg1 compressionMethod:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)(U3ç;
-- (void)Ôás!4Cù±Çð1¢!0@ù
-× ;
-- (void)ÉÐ1¢!0@ù
-× ;
-- (void)
-× ;
-- (id)dd}24;
-- (id)ursorMovementCounter;
-- (void);
-- (void)µ	Ìµ·ø·¹;
-- (id)è;
-- (void)l result in incorrect positioning of the text input. This message will only be logged once.;
-- (void)6þÿ;
-- (void)BackgroundViewConfigurationStyleToString(_UIBackgroundViewConfigurationStyle);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void)xt:withText: /* Error: Ran out of types for this method. */;
+- (void)ter: /* Error: Ran out of types for this method. */;
+- (void)youtsConfiguredForEntry:(id)arg1;
+- (id)SizeWithContext: /* Error: Ran out of types for this method. */;
+- (void)inconsistency:(id)arg1 the insertion index path for a placeholder cannot be nil;
+- (void)h°];
+- (id)ôó`;
+- (void)ÿ¤¤Î¸a;
 
 // Remaining properties
 @property(retain, nonatomic) UIContentSizeCategoryPreference *overridePreferences; // @synthesize overridePreferences=_overridePreferences;

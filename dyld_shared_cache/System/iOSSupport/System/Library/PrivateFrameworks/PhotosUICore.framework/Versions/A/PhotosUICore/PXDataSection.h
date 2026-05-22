@@ -18,20 +18,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id)
-× ;
-- (id)q|°1b0@ù
-× ;
-- (long long)Animation:withAnimationInfo: /* Error: Ran out of types for this method. */;
-- (id)ayDataSection initWithOutlineObject:] /* Error: Ran out of types for this method. */;
-- (id)htsBodyLayout;
-- (long long)ð`!ÿUò20a!ÿEò2Ta!ÿ;
+- (id)_PXGSpriteIndexRange="location"I"length"I};
+- (long long)StoryExportVideoOptions",R,N,V_videoOptions;
+- (id)ñeûÿ;
+- (id)ÿ9ÿ;
+- (long long)tosActionController] Handling Final User Decision Should Delete:%@. /* Error: Ran out of types for this method. */;
+- (id).PhotosZoomableOverlayController;
+- (void)ÀaOÿ;
+- (unsigned long long)ó¶PÛ.8;
+- (id)Ð÷ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool containsAnyObjects;

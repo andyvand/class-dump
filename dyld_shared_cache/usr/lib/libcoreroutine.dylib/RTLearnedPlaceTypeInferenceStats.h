@@ -20,15 +20,15 @@
 
 - (long long);
 - (double);
-- (id);
+- (id);
 - (double);
 - (double);
 - (double);
 - (long long);
 - (double);
 - (id);
-- (void);
 - (id);
+- (void)ropping ploi, %{sensitive}@, too close to current location;
 
 // Remaining properties
 @property(readonly, nonatomic) double topMedianDwellTime; // @synthesize topMedianDwellTime=_topMedianDwellTime;

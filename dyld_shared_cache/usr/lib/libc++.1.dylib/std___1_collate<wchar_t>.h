@@ -4,8 +4,8 @@
 
 class std::__1::collate<wchar_t> {
 public: // (access info unavailable from symbols alone)
-    do_compare(wchar_t const*, wchar_t const*, wchar_t const*, wchar_t const*) const;
-    do_hash(wchar_t const*, wchar_t const*) const;
-    do_transform(wchar_t const*, wchar_t const*) const;
+    auto do_compare(wchar_t const*, wchar_t const*, wchar_t const*, wchar_t const*) const;
+    auto do_hash(wchar_t const*, wchar_t const*) const;
+    auto do_transform(wchar_t const*, wchar_t const*) const;
     ~collate();
 };

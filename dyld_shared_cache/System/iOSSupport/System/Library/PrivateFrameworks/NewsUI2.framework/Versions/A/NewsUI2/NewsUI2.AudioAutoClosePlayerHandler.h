@@ -19,8 +19,8 @@
     MISSING_TYPE *logDateFormatter;
 }
 
-- (void);
 - (id);
+- (void);
 
 @end
 

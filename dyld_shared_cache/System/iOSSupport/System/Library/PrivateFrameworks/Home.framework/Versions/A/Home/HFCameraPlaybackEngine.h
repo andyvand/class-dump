@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, HFCameraAnalyticsCameraClipPlaybackSessionEvent, HFCameraEventDebugLogger, HFCameraPlaybackEngineEventCache, HFCameraPlaybackPosition, HMCameraClip, HMCameraClipManager, HMCameraProfile, HMCameraSource, HMFTimer, HMHome, NADelegateDispatcher, NSArray, NSDate, NSDictionary, NSError, NSMapTable, NSObject, NSString, NSUUID;
+@class AVPlayer, HFCameraAnalyticsCameraClipPlaybackSessionEvent, HFCameraEventDebugLogger, HFCameraPlaybackEngineEventCache, HFCameraPlaybackEngineEventPrefetcher, HFCameraPlaybackPosition, HMCameraClip, HMCameraClipManager, HMCameraProfile, HMCameraSource, HMFTimer, HMHome, NADelegateDispatcher, NSArray, NSDate, NSDictionary, NSError, NSMapTable, NSObject, NSString, NSUUID;
 @protocol HFCameraClipPlaying, HFCameraClipScrubbing, HFCameraLiveStreamControlling, OS_dispatch_queue;
 
 @interface HFCameraPlaybackEngine
@@ -47,9 +47,13 @@
     HMCameraClipManager *_clipManager;
     NSObject<OS_dispatch_queue> *_workQueue;
     HMFTimer *_batchedRecordingEventsTimer;
+    unsigned long long _initialFetchLimit;
+    unsigned long long _incrementalFetchLimit;
+    HFCameraPlaybackEngineEventPrefetcher *_eventPrefetcher;
     HFCameraEventDebugLogger *_debugLogger;
     id <HFCameraClipPlaying> _clipPlayer;
     id <HFCameraClipPlaying> _overrideClipPlayer;
+    HMFTimer *_recurringEventFetchTimer;
 }
 
 + (unsigned long long);
@@ -89,7 +93,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (unsigned long long);
+- (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -109,10 +118,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -131,6 +146,8 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -148,51 +165,57 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (unsigned long long)|;
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id)treamAudioEnabled;
-- (void)er;
+- (id);
+- (id);
+- (void);
+- (id);
+- (_Bool);
+- (unsigned long long)ÁÞ°!0Cùá1B50@ù
+× ;
+- (void)
+× ;
+- (void)etion:receiveInput: /* Error: Ran out of types for this method. */;
+- (void)ä¨;
+- (void)´£Êÿ ªÊÿä¬ÊÿÈ­Êÿh­Áÿ¨½ÿ½ÿH½ÿè½ÿä½ÿ|Ö½ÿ¼Ø½ÿ¸Ø½ÿÌZ¾ÿàÙ¾ÿ¨ì¾ÿ¤ÿ¾ÿ4¾¿ÿ\Ã¿ÿôÇ¿ÿT
+Áÿ°Áÿ!Áÿl&Áÿh,ÁÿÔ1Áÿ\:ÁÿPAÁÿèSÁÿ¼dÁÿ|qÁÿ¤Áÿ4©Áÿì­ÁÿPòÁÿLòÁÿHòÁÿÐÁÿDIÃÿOÃÿ¤­Ãÿì¿ÃÿTÙÃÿ(SÄÿXZÄÿcÄÿjÄÿhkÄÿ`&Åÿ(Åÿ¼-Åÿ¬TÅÿ\hÅÿ(vÅÿ¼Åÿ<ÎÅÿdÓÅÿãÅÿ8`Æÿ\dÆÿ4~Çÿ8ÇÿÐÇÿDÌÇÿÍÇÿÕÇÿ ÙÇÿpçÇÿ(Èÿh5ÈÿtÕÇÿXÈÿ\çÇÿ(uÈÿTçÇÿXÈÿHÉÿ¨ÉÿÀÉÿxÉÿdÕ½ÿd ÉÿècÁÿ¼%ÉÿOÉÿXÉÿtbÉÿàÉÿÌÉÿ4ÍÉÿ(ÒÉÿpãÉÿåÉÿéÉÿïÉÿ@õÉÿd÷Éÿ¸üÉÿäÿÉÿ(Êÿ¬ÊÿàÊÿdÕÊÿ"Êÿ,$ÊÿXÕÊÿ0Êÿ7ÊÿÀ=Êÿ@KÊÿ0QÊÿUÊÿYÊÿ8ÕÊÿPbÊÿgÊÿ¤uÊÿìÊÿHÊÿ¼¿ÿØÊÿÊÿÊÿÊÿÔ£ÊÿÌ©Êÿÿ½ÿÒ¼ÿp¬Áÿd±úÿ¸±úÿä±úÿD²úÿ,¸úÿ¸úÿ¹úÿÈ¹úÿºúÿHºúÿh¼úÿô½úÿÁúÿ ÄúÿÛúÿ /* Error: Ran out of types for this method. */;
+- (void)g to see if we already have setting for keyPath '%@'...;
+- (void)y5ÓCÖG;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *batchedRecordingEventsByUUID; // @synthesize batchedRecordingEventsByUUID=_batchedRecordingEventsByUUID;
@@ -213,9 +236,12 @@
 @property(readonly, copy) NSString *description;
 @property(nonatomic) unsigned long long engineMode; // @synthesize engineMode=_engineMode;
 @property(retain, nonatomic) HFCameraPlaybackEngineEventCache *eventCache; // @synthesize eventCache=_eventCache;
+@property(retain, nonatomic) HFCameraPlaybackEngineEventPrefetcher *eventPrefetcher; // @synthesize eventPrefetcher=_eventPrefetcher;
 @property(readonly, nonatomic) _Bool hasRecordingEvents;
 @property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HMHome *home; // @synthesize home=_home;
+@property(nonatomic) unsigned long long incrementalFetchLimit; // @synthesize incrementalFetchLimit=_incrementalFetchLimit;
+@property(nonatomic) unsigned long long initialFetchLimit; // @synthesize initialFetchLimit=_initialFetchLimit;
 @property(readonly, nonatomic) _Bool isCameraPortraitMode;
 @property(nonatomic) _Bool isDeallocating; // @synthesize isDeallocating=_isDeallocating;
 @property(nonatomic) long long lastPlayerTimeControlStatus; // @synthesize lastPlayerTimeControlStatus=_lastPlayerTimeControlStatus;
@@ -237,6 +263,7 @@
 @property(retain, nonatomic) HFCameraAnalyticsCameraClipPlaybackSessionEvent *playbackSessionEvent; // @synthesize playbackSessionEvent=_playbackSessionEvent;
 @property(readonly, nonatomic) AVPlayer *player;
 @property(nonatomic) _Bool prefersAudioEnabled; // @synthesize prefersAudioEnabled=_prefersAudioEnabled;
+@property(retain, nonatomic) HMFTimer *recurringEventFetchTimer; // @synthesize recurringEventFetchTimer=_recurringEventFetchTimer;
 @property(nonatomic, getter=isScrubbing) _Bool scrubbing; // @synthesize scrubbing=_scrubbing;
 @property(nonatomic) unsigned long long scrubbingInProgressCount; // @synthesize scrubbingInProgressCount=_scrubbingInProgressCount;
 @property(nonatomic) unsigned long long scrubbingSpeed; // @synthesize scrubbingSpeed=_scrubbingSpeed;

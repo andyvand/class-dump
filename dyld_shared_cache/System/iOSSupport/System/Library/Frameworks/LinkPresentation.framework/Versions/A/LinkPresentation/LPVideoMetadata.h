@@ -15,23 +15,24 @@
     struct CGSize _size;
 }
 
-+ (_Bool)V_startsPlayingAutomatically;
-- (void)_;
-- (id);
++ (_Bool);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
 - (unsigned int);
-- (void)	;
+- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
 - (struct CGSize);
-- (id);
-- (id);
 - (void);
 - (id);
+- (_Bool);
 - (void);
+- (void);
+- (void)Q1Â0@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;

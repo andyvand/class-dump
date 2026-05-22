@@ -15,7 +15,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)ration due to %{public}s;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *metricsQueue; // @synthesize metricsQueue=_metricsQueue;

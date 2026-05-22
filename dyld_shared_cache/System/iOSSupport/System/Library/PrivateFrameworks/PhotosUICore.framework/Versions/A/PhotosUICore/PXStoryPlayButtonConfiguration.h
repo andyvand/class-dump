@@ -17,19 +17,16 @@
 - (void);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
+- (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)0@ù
+× ;
+- (SEL)d-;
+- (void)ÿÿ;
 - (void);
-- (void);
-- (void)ll assets. The could be expected if an asset was deleted. 
-UUIDs count:(SEL)arg1 %ld 
-Assets returned count:%ld 
-UUIDs:%s, 
-Assets returned:%@ /* Error: Ran out of types for this method. */;
-- (SEL)RemoveAssetActionPerformer_CancelButtonTitle;
-- (id)å4;
+- (id);
 
 // Remaining properties
 @property(nonatomic) SEL action; // @synthesize action=_action;

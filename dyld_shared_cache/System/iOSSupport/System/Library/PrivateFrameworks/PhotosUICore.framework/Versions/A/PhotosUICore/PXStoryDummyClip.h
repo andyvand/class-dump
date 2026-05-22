@@ -27,13 +27,13 @@
 - (id);
 - (id);
 - (_Bool);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (CDStruct_c8120fa9)uration: /* Error: Ran out of types for this method. */;
-- (long long)itTestResultAtPoint: /* Error: Ran out of types for this method. */;
+- (long long)rcesForItemProviders: /* Error: Ran out of types for this method. */;
+- (CDStruct_c8120fa9)bleTypes;
+- (void)Ùÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) PFStoryRecipeDisplayAssetNormalization *colorNormalization; // @synthesize colorNormalization=_colorNormalization;

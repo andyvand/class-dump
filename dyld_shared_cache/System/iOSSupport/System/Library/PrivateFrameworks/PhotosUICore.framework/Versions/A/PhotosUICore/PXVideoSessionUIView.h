@@ -38,20 +38,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (void);
+- (void);
 - (void);
 - (id);
+- (struct CGRect);
 - (void);
 - (void);
-- (void)È;
+- (id)1Eð1â
+0@ù
+× ;
+- (id)0@ù
+× ;
+- (void)´ï`ð4ò;
+- (void)erSublayouts];
+- (void)yReceiptsTitle;
+- (id);
 - (void);
-- (void)nsWithOptions:(id)arg1;
-- (id)À7¤8°90:(struct CGRect)arg1 ;ð;P<Ð<=¼=;
-- (id);
-- (void);
-- (struct CGRect)erence.assetCollection;
-- (void)cher;
-- (void)erverProxy;
 
 // Remaining properties
 @property(readonly, nonatomic) AVPlayerLayer *activePlayerLayer;

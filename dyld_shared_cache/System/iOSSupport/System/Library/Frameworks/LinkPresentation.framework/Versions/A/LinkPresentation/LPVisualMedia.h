@@ -14,29 +14,29 @@
     LPVisualMediaProperties *_properties;
 }
 
-+ (_Bool)ally;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id)qK;
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id)× ;
-- (id)titleButtonContainer>"8@?0;
-- (id)E Type;
+- (void);
+- (id)ompatibleCaptionBarItemChild;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;

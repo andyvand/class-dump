@@ -8,6 +8,7 @@
 @protocol PXAudioAsset;
 
 @protocol PXStoryAutoEditDecisionList
+- (NSString *)playAssetPlaybackStyleKey;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsNUp;

@@ -15,10 +15,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
+- (id);
+- (void)xGøG JKÀM	lOØQ\S°STLU´W|X;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak IMDaemonController *daemonController; // @synthesize daemonController=_daemonController;

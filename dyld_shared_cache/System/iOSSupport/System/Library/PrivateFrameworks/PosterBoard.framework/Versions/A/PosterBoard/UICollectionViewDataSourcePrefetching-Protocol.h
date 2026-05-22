@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UICollectionView;
-
 @protocol UICollectionViewDataSourcePrefetching
-- (void)e! Error:(UICollectionView *)arg1 %{public}@;
 @end
 

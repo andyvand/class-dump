@@ -11,10 +11,10 @@
     UIApplicationSceneSettingsDiffInspector *_sceneSettingsAccessibilityContrastDiffInspector;
 }
 
-- (void)bined failed;
-- (id);
-- (void)loudKitChatIDForServiceName:(id)arg1;
 - (void);
+- (id);
+- (void);
+- (void)TextLegibilitySetting;
 - (void);
 
 // Remaining properties

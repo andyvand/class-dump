@@ -15,8 +15,9 @@
 - (_Bool);
 - (void);
 - (void);
-- (id)N,V_providerIdentifier;
-- (id)gConfiguration;
+- (id)0@ù
+× ;
+- (id)jectPassingTest: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAmbientPresented) _Bool ambientPresented;

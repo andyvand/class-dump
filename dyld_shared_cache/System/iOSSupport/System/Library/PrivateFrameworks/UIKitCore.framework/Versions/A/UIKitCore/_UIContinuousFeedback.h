@@ -14,23 +14,24 @@
     long long _type;
 }
 
-+ (id)0@0:(long long)arg1 8@16@24@?32;
 + (id);
-+ (_Bool)®tÿÓ;
++ (id)numeratedKeyboardShortcut"8^B16;
++ (_Bool)in order to be focusable.;
 - (void);
 - (double);
-- (unsigned long long)6m 8 ;
-- (_Bool);
-- (id)ArtworkRequestToken",R,N;
+- (id);
+- (unsigned long long);
+- (double);
 - (void);
-- (id);
-- (id)EngineOptimizationDisabledIfEngineExists: /* Error: Ran out of types for this method. */;
-- (id)epeatableKeyCommand;
-- (id);
-- (id)nputViewsIfNecessary useLocal %d;
-- (long long)erInfoKey;
-- (double)Åu4¨Emþµu4°Emþ;
-- (void)j[;
+- (id);
+- (id);
+- (long long)!LFùqdÐ1Â0@ù
+× ;
+- (_Bool)ActionWithInitialPoint:(id)arg1;
+- (id)IndicatorStore",&,N,V_indicatorStore;
+- (void)rfaceActionConcreteVisualStyle_iOSMacSheet;
+- (id)°a;
+- (id)teCommit;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

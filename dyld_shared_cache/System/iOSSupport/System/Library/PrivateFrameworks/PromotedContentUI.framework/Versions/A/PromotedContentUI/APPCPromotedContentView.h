@@ -34,20 +34,19 @@
 }
 
 - (void);
+- (id);
+- (id);
 - (void);
-- (void)";
 - (void);
-- (void)6;
 - (struct CGRect);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (long long);
-- (id)ion;
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;

@@ -8,13 +8,12 @@
 {
 }
 
-+ (id)x;
 + (id);
 + (id);
 + (id);
-- (void)1¢!0@ù
-× ;
-- (id)berInWithCompletion: /* Error: Ran out of types for this method. */;
++ (id);
+- (id);
+- (void)\ÿèÌXÀl;
 
 @end
 

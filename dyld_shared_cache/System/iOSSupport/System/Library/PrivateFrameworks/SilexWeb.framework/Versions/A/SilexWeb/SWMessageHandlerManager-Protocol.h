@@ -5,6 +5,5 @@
 //
 
 @protocol SWMessageHandlerManager
-- (void)n;
 @end
 

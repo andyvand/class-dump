@@ -7,11 +7,8 @@
 @class NSString, UIView, UIViewSpringAnimationBehavior, UIVisualEffectView, _UIShadowProperties;
 
 @protocol _UITabMorphing
-- (struct CACornerRadii);
-- (void)atedChatZones:deletedZones: /* Error: Ran out of types for this method. */;
-- (UIVisualEffectView *)spondsToMaximumNumberOfMovesDuringIteration"b1"dataSourceRespondsToDelayBeforeMoveDuringIteration"b1"dataSourceRespondsToHeadingForMoveDuringIteration"b1"dataSourceRespondsToShouldResetFocusBeforeIteration"b1};
-- (_UIShadowProperties *)ent: /* Error: Ran out of types for this method. */;
-- (UIView *)Ü';
+- (UIVisualEffectView *)scene=%p;
+- (UIView *);
 
 // Remaining properties
 @property(readonly, nonatomic) UIVisualEffectView *backgroundView;

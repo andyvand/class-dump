@@ -25,7 +25,7 @@
 - (CDStruct_e83c9415);
 - (id);
 - (id);
-- (id);
+- (id)edForChromeText;
 
 // Remaining properties
 @property(nonatomic) CDStruct_1b6d18a9 crossfadeDuration; // @synthesize crossfadeDuration=_crossfadeDuration;

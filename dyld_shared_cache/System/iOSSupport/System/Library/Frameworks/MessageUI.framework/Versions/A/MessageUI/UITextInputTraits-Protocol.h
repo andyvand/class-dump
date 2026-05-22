@@ -9,12 +9,12 @@
 @protocol UITextInputTraits
 
 @optional
-- (void)P#;
-- (long long);
-- (long long);
-- (void)@ù
-× ;
-- (long long)q24@"NSArray"32;
+- (void)4@0:(_Bool)arg1 8@"UITextSuggestion"16;
+- (long long)dAttribute:value:range: /* Error: Ran out of types for this method. */;
+- (long long)e;
+- (unsigned long long)ContainerView;
+- (_Bool);
+- (void)nleft;
 
 // Remaining properties
 @property unsigned long long allowedWritingToolsResultOptions;

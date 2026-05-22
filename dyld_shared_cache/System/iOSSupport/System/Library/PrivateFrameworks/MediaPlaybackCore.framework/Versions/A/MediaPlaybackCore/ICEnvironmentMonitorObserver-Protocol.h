@@ -5,8 +5,5 @@
 //
 
 @protocol ICEnvironmentMonitorObserver
-
-@optional
-- (void);
 @end
 

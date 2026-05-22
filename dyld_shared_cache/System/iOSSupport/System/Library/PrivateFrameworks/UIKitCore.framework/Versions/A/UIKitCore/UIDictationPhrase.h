@@ -13,21 +13,20 @@
     long long _style;
 }
 
-+ (id)red device for messages:(id)arg1 %@;
-+ (id)Ignoring priority message command not from my local paired device for messages:(id)arg1 %@;
-+ (_Bool){ÿ;
-- (id)s typeIdentifier:(id)arg1 %s options:(id)arg2 %ld;
++ (id);
++ (id);
++ (_Bool)t must not be negative - height for index path (%@) is %g;
 - (id);
-- (void);
-- (_Bool);
 - (id);
-- (void)pð!`@ù±Â°1¢!0@ù
+- (long long);
+- (id);
+- (id);
+- (id)_1Â0@ù
 × ;
-- (id)
-× ;
-- (long long):8 /* Error: Ran out of types for this method. */;
-- (id)ttings;
-- (void)$ñ;
+- (void)32r*36r*44r*52I60I64i68i72i76B80;
+- (_Bool)torActivationCountWithSuffix:(id)arg1;
+- (void)t:(id)arg1 inView: /* Error: Ran out of types for this method. */;
+- (void)N;;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *alternativeInterpretations; // @synthesize alternativeInterpretations=_alternativeInterpretations;

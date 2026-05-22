@@ -11,11 +11,11 @@
     UIApplicationSceneSettingsDiffInspector *_sceneSettingsUserInterfaceStyleDiffInspector;
 }
 
+- (id);
 - (void);
-- (void)rioritizeArtistHeroImageForPersistentID:(id)arg1;
-- (void);
-- (id): /* Error: Ran out of types for this method. */;
-- (void)ver _solveWithParameters:(id)arg1 ]_block_invoke_6;
+- (void)butesMaskingToBackgroundConfiguration;
+- (void)lbar;
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

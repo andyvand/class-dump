@@ -5,6 +5,5 @@
 //
 
 @protocol IMDaemonListenerAccountsProtocol
-- (void);
 @end
 

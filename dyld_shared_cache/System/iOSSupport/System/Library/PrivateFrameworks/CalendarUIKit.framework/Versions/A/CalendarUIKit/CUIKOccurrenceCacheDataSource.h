@@ -24,9 +24,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (void);
-- (id);
+- (void);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
@@ -39,7 +39,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

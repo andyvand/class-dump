@@ -24,22 +24,21 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (float);
 - (float);
 - (_Bool);
+- (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
+- (id);
+- (unsigned long long);
+- (id);
 - (void);
-- (id);
-- (id)$;
-- (id)avepoint migration;;
-- (id);
-- (unsigned long long)°!<Cù1Éð1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) AVTColorPreset *baseColorPreset; // @synthesize baseColorPreset=_baseColorPreset;

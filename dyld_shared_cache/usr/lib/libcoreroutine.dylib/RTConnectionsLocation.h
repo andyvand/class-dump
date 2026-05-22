@@ -23,13 +23,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id)lready have an active device %@;
 - (id);
-- (id)",&;
 - (id);
+- (id)ationEnforcer;
+- (void)d], Passthrough;
+- (id)v¢ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
     NSObject<OS_dispatch_queue> *_deferredDeallocQueue;
 }
 
-+ (id)mpletion: /* Error: Ran out of types for this method. */;
++ (id);
 - (void);
 - (void);
 - (void);

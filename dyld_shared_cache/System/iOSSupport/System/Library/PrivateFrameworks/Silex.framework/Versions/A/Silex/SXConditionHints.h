@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id)eatableImageFillViewFactory;
 - (long long);
 - (long long);
 - (long long);

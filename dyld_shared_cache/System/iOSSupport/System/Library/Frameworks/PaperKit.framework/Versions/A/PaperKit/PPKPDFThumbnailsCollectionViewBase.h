@@ -52,23 +52,23 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ðÕ<Ö¢Ö;
-- (id)ì©üÿTÞ¶ÿð;
-- (long long)Ü`;
+- (id);
+- (id);
+- (void);
+- (long long)hÄýÿ;
+- (id);
+- (id)ä";
 
 // Remaining properties
 @property(nonatomic) _Bool allowsPageReordering;

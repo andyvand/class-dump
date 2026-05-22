@@ -25,10 +25,10 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)Fi 6E;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType availabilityCompletion; // @synthesize availabilityCompletion=_availabilityCompletion;

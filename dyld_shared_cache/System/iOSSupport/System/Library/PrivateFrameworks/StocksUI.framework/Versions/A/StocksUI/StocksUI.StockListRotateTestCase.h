@@ -15,13 +15,13 @@
     long long rotateOrientation;
 }
 
-- (void);
+- (id);
 - (long long);
-- (id);
-- (id);
-- (unsigned long long);
 - (double);
-- (id);
+- (unsigned long long);
+- (void)h³þÿÌ³þÿ ´þÿ´µþÿ ¶þÿ4¸þÿ¹þÿü¹þÿÔºþÿô»þÿL¼þÿ¼þÿx½þÿì½þÿX¾þÿd¿þÿÀÀþÿ8ÁþÿÀÁþÿÌÂþÿPÃþÿÃþÿ¼ÈþÿHÊþÿ°ËþÿÌþÿ<ÎþÿøÏþÿÐþÿdÑþÿXÒþÿÓþÿøÓþÿ@Õþÿ Öþÿ`Öþÿ¼Öþÿl×þÿ\ØþÿÚþÿtÚþÿhÜþÿdÝþÿÞþÿ@ßþÿßþÿàþÿ$áþÿ;
+- (id)´ÚxÌ~ÀÿC;
+- (id)dToolbarViewProviderType;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long aggregate; // @synthesize aggregate;

@@ -27,8 +27,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)%@ Fetched selectedLanguageOption language option for mediaProfile [%@] = %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

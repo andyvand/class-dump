@@ -18,9 +18,9 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
-- (long long);
 - (id);
+- (long long);
+- (void)ublic}@;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType autoPlayEnabled; // @synthesize autoPlayEnabled=_autoPlayEnabled;

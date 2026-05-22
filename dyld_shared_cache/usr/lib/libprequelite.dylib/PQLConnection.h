@@ -64,6 +64,7 @@
 @property(readonly, nonatomic) struct sqlite3 *dbHandle; // @synthesize dbHandle=_db;
 @property(readonly, copy) NSString *debugDescription;
 @property(copy, nonatomic) CDUnknownBlockType didFinishBatchingHook; // @synthesize didFinishBatchingHook=_didFinishBatchingHook;
+@property(readonly, nonatomic) unsigned long long distinctCachedStatementsCount;
 @property(readonly, nonatomic) _Bool isBatchSuspended;
 @property(readonly, nonatomic) _Bool isInBatch;
 @property(readonly, nonatomic) _Bool isInTransaction;

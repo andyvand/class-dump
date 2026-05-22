@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     long long _insertionIndex;
 }
 
-+ (id)ccess saving enabling for kAccountDataclassMessages.;
++ (id);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)itP;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UITabGroup *activeTabGroup; // @synthesize activeTabGroup=_activeTabGroup;

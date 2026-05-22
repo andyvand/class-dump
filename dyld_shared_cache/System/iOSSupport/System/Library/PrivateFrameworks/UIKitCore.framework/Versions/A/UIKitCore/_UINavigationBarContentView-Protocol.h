@@ -7,7 +7,7 @@
 @class UIView;
 
 @protocol _UINavigationBarContentView
-- (UIView *)uthorizeSimulcastResponse;
+- (UIView *)qqqB},N,V_lastVisitedCoordinate;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *_effectiveTitleView;

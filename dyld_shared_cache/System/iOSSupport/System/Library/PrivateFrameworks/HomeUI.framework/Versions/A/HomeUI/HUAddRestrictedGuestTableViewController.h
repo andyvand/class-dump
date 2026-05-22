@@ -33,12 +33,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
+- (id);
 - (_Bool);
-- (id)on: /* Error: Ran out of types for this method. */;
-- (void)ew:(id)arg1 didChangeDisplayedFloorOrdinal:forVenue: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)lowedHostGroup"8@"HFNetworkConfigurationAllowedHostGroup"16;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *accessoriesToAllow; // @synthesize accessoriesToAllow=_accessoriesToAllow;

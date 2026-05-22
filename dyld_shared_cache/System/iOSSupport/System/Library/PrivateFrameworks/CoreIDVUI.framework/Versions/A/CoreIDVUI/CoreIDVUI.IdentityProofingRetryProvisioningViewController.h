@@ -13,10 +13,10 @@
     MISSING_TYPE *viewConfig;
 }
 
-- (void);
 - (id);
 - (void);
-- (void)ChipPulsingEffectLayer;
+- (void);
+- (void);
 
 @end
 

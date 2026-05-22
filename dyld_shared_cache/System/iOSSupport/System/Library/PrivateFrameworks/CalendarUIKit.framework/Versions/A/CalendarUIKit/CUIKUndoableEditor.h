@@ -5,12 +5,13 @@
 //
 
 @class CUIKEditingManager, NSString;
-@protocol CUIKCommitDelegate, CUIKDecisionDelegate, CUIKUndoDelegate;
+@protocol CUIKActionDelegate, CUIKCommitDelegate, CUIKDecisionDelegate, CUIKUndoDelegate;
 
 @interface CUIKUndoableEditor
 {
     CUIKEditingManager *_editingManager;
     id <CUIKDecisionDelegate> _decisionDelegate;
+    id <CUIKActionDelegate> _actionDelegate;
     id <CUIKUndoDelegate> _undoDelegate;
     id <CUIKCommitDelegate> _commitDelegate;
 }
@@ -20,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -39,15 +40,18 @@
 - (id);
 - (id);
 - (void);
-- (void));
+- (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (void);
 - (_Bool);
+- (id);
 - (void);
 
 // Remaining properties
+@property(nonatomic) __weak id <CUIKActionDelegate> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
 @property(nonatomic) __weak id <CUIKCommitDelegate> commitDelegate; // @synthesize commitDelegate=_commitDelegate;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?

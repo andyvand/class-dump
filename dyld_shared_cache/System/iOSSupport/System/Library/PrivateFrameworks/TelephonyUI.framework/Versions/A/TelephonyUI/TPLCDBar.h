@@ -17,10 +17,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) UIImageView *shadowView; // @synthesize shadowView=_shadowView;

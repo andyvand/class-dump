@@ -116,17 +116,17 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (float);
-- (struct CGAffineTransform);
-- (void);
-- (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (float);
+- (struct CGAffineTransform);
 - (id);
 - (float);
+- (float);
+- (void);
+- (void);
+- (float);
+- (void);
+- (id)ÿ1ïÿ:ïÿBïÿJïÿRïÿZïÿcïÿkïÿsïÿ{ïÿïÿïÿïÿïÿ¥ïÿ­ïÿµïÿ¾ïÿÆïÿÏðÿ×ðÿßðÿèñÿññÿúòÿÿóÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property MISSING_TYPE *alsColor; // @synthesize alsColor=_alsColor;

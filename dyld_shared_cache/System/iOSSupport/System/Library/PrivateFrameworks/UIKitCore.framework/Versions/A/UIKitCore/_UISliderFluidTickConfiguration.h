@@ -18,23 +18,22 @@
     float snappingDistance;
 }
 
-- (_Bool)H;
+- (_Bool);
 - (id);
 - (long long);
 - (float);
 - (void);
 - (void);
-- (void)xt tapback %s but could not find original message using infix string;
-- (id)IMFindChatProcessingPipelineComponent> Started processing;
+- (void);
+- (id);
 - (_Bool);
 - (double);
-- (id)6;
-- (_Bool)allocator<std:(id)arg1:__hash_value_type<unsigned long long, id>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, id>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"_mutex"{shared_mutex="__base_"{__shared_mutex_base="__mut_"{mutex="__m_"{_opaque_pthread_mutex_t="__sig"q"__opaque"[56c]}}"__gate1_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__gate2_"{condition_variable="__cv_"{_opaque_pthread_cond_t="__sig"q"__opaque"[40c]}}"__state_"I}}} /* Error: Ran out of types for this method. */;
 - (id);
-- (void)aqÐ! CùqÄð1¢!0@ù
-× ;
-- (id)t;
-- (long long)LÂÔÿ;
+- (id);
+- (long long);
+- (_Bool)nitialPositionFromTopOfCaret:(id)arg1 distanceFromCaret: /* Error: Ran out of types for this method. */;
+- (id)àTÈ<°$ôhÜPÄ8¬  ,¡ ¡°;
+- (void)@Ó¤ÿ¯;
 
 // Remaining properties
 @property(nonatomic, readonly) long long behavior;

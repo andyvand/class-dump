@@ -16,8 +16,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIButton *editButton; // @synthesize editButton=_editButton;

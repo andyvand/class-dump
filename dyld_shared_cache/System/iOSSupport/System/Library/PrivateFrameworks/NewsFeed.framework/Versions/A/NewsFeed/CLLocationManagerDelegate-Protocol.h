@@ -7,15 +7,8 @@
 @protocol CLLocationManagerDelegate
 
 @optional
-- (void)C;
+- (void)oup splitting disabled, returning ordered clusters unmodified;
+- (void)y;
 - (void);
-- (void)"24;
-- (void),;
-- (void)Ð§4¨¨ì¨;
-- (void);
-- (void)ÂGG;
-- (void)$òÿÕÿ°Y
-;
-- (void)_·0é;
 @end
 

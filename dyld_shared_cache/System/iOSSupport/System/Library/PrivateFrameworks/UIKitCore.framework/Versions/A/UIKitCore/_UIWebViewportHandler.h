@@ -22,9 +22,9 @@
     struct CGRect _documentBounds;
 }
 
-- (_Bool)rray for %@, array count is zero;
-- (_Bool)tance for %@;
-- (_Bool)erify subCC integrity for %@-%@;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (struct _UIWebViewportConfiguration);
@@ -38,18 +38,19 @@
 - (struct CGSize);
 - (void);
 - (_Bool);
-- (void)ate: /* Error: Ran out of types for this method. */;
-- (unsigned int)leTransfer:acceptedWithPath:autoRename:overwrite:options:postNotification: /* Error: Ran out of types for this method. */;
+- (unsigned int);
+- (void);
 - (float);
 - (float);
-- (struct CGRect),V_gridArrangement;
 - (float);
 - (void);
-- (id)upplementary;
-- (void);
-- (float)<ûeþ;
-- (void)4iþ;
-- (float)4àÔiþu¥4Giþu¥4ÌÔiþ½¥4TÕiþõ¥4Ì°eþÅ¥4XÔiþ;
+- (id);
+- (void)að!Bù±a1Â0@ù
+× ;
+- (float)sentationController"16;
+- (struct CGRect)w;
+- (float);
+- (void)p;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsUserScaling;

@@ -4,7 +4,7 @@
 
 class std::__1::__shared_ptr_pointer<TSUStringChunk*, std::__1::shared_ptr<TSUStringChunk>::__shared_ptr_default_delete<TSUStringChunk, TSUStringChunk>, std::__1::allocator<TSUStringChunk>> {
 public: // (access info unavailable from symbols alone)
-    __on_zero_shared();
-    __on_zero_shared_weak();
+    auto __on_zero_shared();
+    auto __on_zero_shared_weak();
     ~__shared_ptr_pointer();
 };

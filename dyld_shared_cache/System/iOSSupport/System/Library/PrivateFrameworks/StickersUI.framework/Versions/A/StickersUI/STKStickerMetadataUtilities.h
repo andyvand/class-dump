@@ -18,8 +18,8 @@
 + (id);
 + (id);
 + (void);
-+ (unsigned long long);
 + (long long);
++ (unsigned long long);
 
 @end
 

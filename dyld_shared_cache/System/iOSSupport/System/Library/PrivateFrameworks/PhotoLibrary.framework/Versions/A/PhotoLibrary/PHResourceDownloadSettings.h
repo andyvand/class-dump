@@ -17,8 +17,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool simulateDownload; // @synthesize simulateDownload=_simulateDownload;

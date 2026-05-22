@@ -5,7 +5,9 @@
 //
 
 @protocol _UICollectionViewUpdateItemApplying
-- (void)t!|BùñÇ1¢!0@ù
+- (void)Ôáÿ°!CùñX1Â0@ù
 × ;
+- (long long);
+- (void)orphView.swift;
 @end
 

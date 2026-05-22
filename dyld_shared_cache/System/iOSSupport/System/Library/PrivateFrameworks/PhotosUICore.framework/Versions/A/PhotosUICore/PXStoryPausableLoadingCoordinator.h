@@ -19,9 +19,9 @@
 - (void);
 - (void);
 - (void);
-- (void)h;
 - (id);
-- (id);
+- (id)?ã;
+- (void)ðÿÈðÿØ`;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;

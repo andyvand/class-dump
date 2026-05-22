@@ -18,26 +18,27 @@
     id <UIPasteConfigurationSupporting> _target;
 }
 
-- (_Bool)esult: /* Error: Ran out of types for this method. */;
-- (_Bool)IDSDictionaryLogging;
-- (unsigned int)on for category:%ld. Resetting subCategory to None /* Error: Ran out of types for this method. */;
-- (id)a;
+- (_Bool);
+- (_Bool);
+- (unsigned int);
+- (id);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)dCommand;
-- (struct CGSize)public}@ - _initializeUpdateInProgressState - Setting up Saga update progress handler;
+- (struct CGSize);
 - (id);
 - (id);
-- (void);
 - (void);
-- (void)boldForAllLocales;
-- (void)rProvider;
-- (void)pshot target is nil;
-- (id)action while one already exists;
-- (id)reviews;
-- (struct CGSize)a;
-- (id)4S(ÿ/;
+- (struct CGSize);
+- (void)1Â0@ù
+× ;
+- (void)cationInWindow:(id)arg1 withWindowBounds: /* Error: Ran out of types for this method. */;
+- (id)"_UIContentUnavailableWrapperView",&,N,V_contentUnavailableWrapperView;
+- (void)rdui;
+- (id)ntWhiteColor;
+- (void)Gÿ×\d;
+- (id)Ó¬If;
+- (void)ø9g;
 
 // Remaining properties
 @property(readonly, nonatomic) UIPasteControlConfiguration *configuration; // @synthesize configuration=_configuration;

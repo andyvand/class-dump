@@ -4,5 +4,5 @@
 
 class spar::Pack<es_tcc_authorization_reason_t> {
 public: // (access info unavailable from symbols alone)
-    pack(spar::PackedDataBufferWriter&, es_tcc_authorization_reason_t const&);
+    auto pack(spar::PackedDataBufferWriter&, es_tcc_authorization_reason_t const&);
 };

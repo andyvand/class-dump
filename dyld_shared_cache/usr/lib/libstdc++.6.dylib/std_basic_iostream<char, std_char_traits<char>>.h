@@ -6,5 +6,7 @@ class std::basic_iostream<char, std::char_traits<char>> {
 public: // (access info unavailable from symbols alone)
     basic_iostream();
     basic_iostream(std::basic_streambuf<char, std::char_traits<char>>*);
+    non-virtual thunk to ~basic_iostream();
+    virtual thunk to ~basic_iostream();
     ~basic_iostream();
 };

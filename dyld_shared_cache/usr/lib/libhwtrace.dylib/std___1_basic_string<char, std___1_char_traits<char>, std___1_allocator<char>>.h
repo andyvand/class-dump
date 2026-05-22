@@ -4,16 +4,11 @@
 
 class std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> {
 public: // (access info unavailable from symbols alone)
-    __init(char const*, unsigned long);
-    append(char const*);
-    append(char const*, unsigned long);
-    assign(char const*);
-    assign(char const*, unsigned long);
-    erase(unsigned long, unsigned long);
-    insert(unsigned long, char const*);
-    operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
-    push_back(char);
-    reserve(unsigned long);
-    resize(unsigned long, char);
+    auto append(char const*, unsigned long);
+    auto append(unsigned long, char);
+    auto insert(unsigned long, char const*, unsigned long);
+    auto operator=(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&);
+    auto push_back(char);
+    auto reserve(unsigned long);
     ~basic_string();
 };

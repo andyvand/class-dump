@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
+- (id);
+- (void)ionID not in SIL/AutoPlay-SIL] sectionID=%{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelGenericObject *item; // @synthesize item=_item;

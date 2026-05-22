@@ -21,12 +21,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool);
 - (id);
-- (id)ayerViewController"16@"NSDate"24@"NSDate"32;
-- (void)ns;
-- (void)onBlockingItemProvider:(_Bool)arg1;
+- (id);
+- (void);
+- (void)olorOff;
+- (_Bool)er init];
+- (void)G1GGAC_G;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView<HUQuickControlControllableView> *controlView; // @synthesize controlView=_controlView;

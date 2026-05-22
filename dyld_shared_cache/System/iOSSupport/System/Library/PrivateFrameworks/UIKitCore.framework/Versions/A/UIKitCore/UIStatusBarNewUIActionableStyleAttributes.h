@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (id);
 - (_Bool);
-- (id)nditionallyThen:(id)arg1;
 
 @end
 

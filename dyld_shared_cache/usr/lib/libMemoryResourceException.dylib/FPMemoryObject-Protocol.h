@@ -7,8 +7,6 @@
 @class NSDictionary, NSString;
 
 @protocol FPMemoryObject
-- (NSDictionary *)e;
-- (NSString *)aI9h;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *auxData;
@@ -21,6 +19,7 @@
 @property(readonly, nonatomic) NSString *detailedName;
 @property(readonly, nonatomic) unsigned long long dirtySize;
 @property(readonly, nonatomic) NSString *fullName;
+@property(readonly, nonatomic) _Bool hasNoFootprint;
 @property(readonly, nonatomic) NSString *name;
 @property(readonly, nonatomic) int ownerPid;
 @property(readonly, nonatomic) unsigned long long reclaimableSize;

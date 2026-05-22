@@ -14,20 +14,20 @@
 }
 
 + (_Bool);
-+ (_Bool)ccess;
++ (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id)ent;
-- (_Bool)XÀÜÿ;
+- (void);
+- (void);
+- (_Bool)üt³ÿÿÿÿÿ8;
+- (id)RunDescriptor loadTestCaseWithError:] /* Error: Ran out of types for this method. */;
+- (void)ension;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

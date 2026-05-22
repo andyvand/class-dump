@@ -7,7 +7,6 @@
 @protocol MTLBlitCommandEncoder, MTLDevice;
 
 @protocol VFXModelDeformerInitComputeContext
-- (id <MTLDevice>)Ä¯1ïÿðÿìG;
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTLBlitCommandEncoder> currentBlitEncoder;

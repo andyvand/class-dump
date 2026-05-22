@@ -4,25 +4,25 @@
 
 class icu::number::Precision {
 public: // (access info unavailable from symbols alone)
-    constructCurrency(UCurrencyUsage);
-    constructFraction(int, int);
-    constructFractionSignificant(icu::number::FractionPrecision const&, int, int, UNumberRoundingPriority, bool);
-    constructIncrement(unsigned long long, short);
-    constructIncrementSignificant(double, int, int);
-    constructSignificant(int, int);
-    currency(UCurrencyUsage);
-    fixedFraction(int);
-    fixedSignificantDigits(int);
-    increment(double);
-    incrementExact(unsigned long long, short);
-    integer();
-    maxFraction(int);
-    maxSignificantDigits(int);
-    minFraction(int);
-    minMaxFraction(int, int);
-    minMaxSignificantDigits(int, int);
-    minSignificantDigits(int);
-    trailingZeroDisplay(UNumberTrailingZeroDisplay) const;
-    unlimited();
-    withCurrency(icu::CurrencyUnit const&, UErrorCode&) const;
+    auto constructCurrency(UCurrencyUsage);
+    auto constructFraction(int, int);
+    auto constructFractionSignificant(icu::number::FractionPrecision const&, int, int, UNumberRoundingPriority, bool);
+    auto constructIncrement(unsigned long long, short);
+    auto constructIncrementSignificant(double, int, int);
+    auto constructSignificant(int, int);
+    auto currency(UCurrencyUsage);
+    auto fixedFraction(int);
+    auto fixedSignificantDigits(int);
+    auto increment(double);
+    auto incrementExact(unsigned long long, short);
+    auto integer();
+    auto maxFraction(int);
+    auto maxSignificantDigits(int);
+    auto minFraction(int);
+    auto minMaxFraction(int, int);
+    auto minMaxSignificantDigits(int, int);
+    auto minSignificantDigits(int);
+    auto trailingZeroDisplay(UNumberTrailingZeroDisplay) const;
+    auto unlimited();
+    auto withCurrency(icu::CurrencyUnit const&, UErrorCode&) const;
 };

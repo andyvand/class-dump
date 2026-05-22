@@ -20,8 +20,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)ons:attributes:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *bridgeVersion; // @synthesize bridgeVersion=_bridgeVersion;

@@ -7,7 +7,6 @@
 @protocol TSEditorialItemChangeDelegate;
 
 @protocol TSEditorialItemProvider
-- (id <TSEditorialItemChangeDelegate>)";
 
 // Remaining properties
 @property(nonatomic, retain) id <TSEditorialItemChangeDelegate> itemChangeDelegate;

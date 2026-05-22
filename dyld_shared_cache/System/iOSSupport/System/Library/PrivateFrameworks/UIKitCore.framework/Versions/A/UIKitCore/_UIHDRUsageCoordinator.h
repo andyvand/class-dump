@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (_Bool)opy of file URLs:%@, error:%@ /* Error: Ran out of types for this method. */;
-+ (id)ageDateTS;
-+ (id)sq;
++ (_Bool);
++ (id);
++ (id)èáÿ;
 - (void);
 - (id);
 - (void);
@@ -29,9 +29,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (void)0[[;
 
 @end
 

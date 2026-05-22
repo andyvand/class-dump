@@ -72,21 +72,20 @@
 - (void);
 - (id);
 - (void);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
 - (void);
 - (long long);
-- (void)ithDeletedChapterIdentifier:(struct CGRect)arg1;
-- (id)ÍøÿÔfûÿ;
-- (void)eASP:(id)arg1 %.2f, MaxTiles:%@, MaxASP:%.2f, MinASP:%.2f} /* Error: Ran out of types for this method. */;
 - (void);
-- (void)Èëÿ;
-- (_Bool)|
-ªÿ;
+- (void)terActionPerformer;
+- (void)ùÿcûÿ;
+- (id)26PXRearrangeBookmarksActionC;
+- (void)onDateKey;
+- (void);
+- (id)0h6;
 
 // Remaining properties
 @property(nonatomic) double bottomSpacing; // @synthesize bottomSpacing=_bottomSpacing;

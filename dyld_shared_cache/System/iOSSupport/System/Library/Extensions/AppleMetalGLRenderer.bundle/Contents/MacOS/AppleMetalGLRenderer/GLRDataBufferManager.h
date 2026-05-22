@@ -4,10 +4,10 @@
 
 class GLRDataBufferManager {
 public: // (access info unavailable from symbols alone)
-    allocDataBuffer(unsigned long, unsigned long*);
-    dealloc();
-    getDataBufferSpace(id<MTLCommandBuffer>, unsigned long, unsigned long*, void**);
-    init(GLDContextRec*, unsigned long, unsigned long, unsigned long);
-    releaseDataBuffer(id<MTLBuffer>);
-    reset();
+    auto allocDataBuffer(unsigned long, unsigned long*);
+    auto dealloc();
+    auto getDataBufferSpace(id<MTLCommandBuffer>, unsigned long, unsigned long*, void**);
+    auto init(GLDContextRec*, unsigned long, unsigned long, unsigned long);
+    auto releaseDataBuffer(id<MTLBuffer>);
+    auto reset();
 };

@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (void);
 - (id);
-- (id)$;
+- (id);
+- (void);
+- (void)rsor:- could not find queueSectionIdentifier/itemIdentifier event=%{public}@ - cursor:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MPCFuture *future; // @synthesize future=_future;

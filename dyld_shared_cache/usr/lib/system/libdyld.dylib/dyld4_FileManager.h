@@ -5,12 +5,12 @@
 class dyld4::FileManager {
 public: // (access info unavailable from symbols alone)
     FileManager(lsl::Allocator&, dyld4::SyscallDelegate const*);
-    fileRecordForPath(lsl::Allocator&, char const*);
-    fileRecordForVolumeUUIDAndObjID(lsl::UUID const&, unsigned long long);
-    fsidForUUID(lsl::UUID const&) const;
-    getPath(lsl::UUID const&, unsigned long long);
-    getPath(unsigned long long, unsigned long long);
-    reloadFSInfos() const;
-    uuidForFileSystem(unsigned long long) const;
-    uuidForFileSystem(unsigned long long) const (.cold.1);
+    auto fileRecordForPath(lsl::Allocator&, char const*);
+    auto fileRecordForVolumeUUIDAndObjID(lsl::UUID const&, unsigned long long);
+    auto fsidForUUID(lsl::UUID const&) const;
+    auto getPath(lsl::UUID const&, unsigned long long);
+    auto getPath(unsigned long long, unsigned long long);
+    auto reloadFSInfos() const;
+    auto uuidForFileSystem(unsigned long long) const;
+    auto uuidForFileSystem(unsigned long long) const (.cold.1);
 };

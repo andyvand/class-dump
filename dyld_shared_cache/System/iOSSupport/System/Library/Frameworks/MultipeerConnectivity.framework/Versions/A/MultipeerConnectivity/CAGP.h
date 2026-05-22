@@ -5,8 +5,8 @@
 class CAGP {
 public: // (access info unavailable from symbols alone)
     CAGP();
-    current_timestamp();
-    receiveSetElement(int);
-    sendingSetElement(int);
+    auto current_timestamp();
+    auto receiveSetElement(int);
+    auto sendingSetElement(int);
     ~CAGP();
 };

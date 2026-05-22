@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
-- (id)_invoke;
+- (id);
+- (void)sterPlaylist;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *libraryID; // @synthesize libraryID=_libraryID;

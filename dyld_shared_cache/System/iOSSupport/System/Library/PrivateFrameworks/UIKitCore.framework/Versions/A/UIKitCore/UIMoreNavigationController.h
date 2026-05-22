@@ -16,29 +16,28 @@
 }
 
 + (Class);
-- (void)ed:(_Bool)arg1;
-- (void)l;
-- (void)ictionaryWithPendingNicknameUpdates:(id)arg1;
-- (void)knamePhotoAsUpdated:(_Bool)arg1;
-- (void)articipants;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (_Bool)record %@, ignoring;
-- (void)from IMDCKRecordSaltManager could not create CKRecord!;
-- (id)%@;
-- (void)ng it, setting shouldForceToSMS on chat %@ to NO;
-- (id)is on the blockList, sending back a failure;
-- (void)ion %@;
-- (id)o %s;
+- (_Bool);
 - (void);
-- (void)@;
-- (void)1¢!0@ù
-× ;
+- (id);
 - (void);
-- (void)tAccessoryViews:(id)arg1;
-- (id)actableItem: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)ithURL:(id)arg1;
+- (void)ÄÒ;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsCustomizing;

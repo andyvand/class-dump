@@ -13,7 +13,7 @@
     NSMutableDictionary *_bundleIDsDisplayingAttribution;
 }
 
-+ (id)ìaÖÿG~Þk²;
++ (id)Ìÿÿ§r;
 - (void);
 - (_Bool);
 - (void);
@@ -26,10 +26,10 @@
 - (void);
 - (void);
 - (double);
-- (void)ror:(id)arg1;
-- (id)adAccessTraits<uint64_t>, unsigned long long>, WTF::String>::KeyValuePairTraits, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, shouldValidateKey = WTF::ShouldValidateKey::Yes, T = WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>] /* Error: Ran out of types for this method. */;
 - (void);
-- (id)(;
+- (id);
+- (id);
+- (void)tedEmptyAccountParticipant;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *bundleIDsDisplayingAttribution; // @synthesize bundleIDsDisplayingAttribution=_bundleIDsDisplayingAttribution;

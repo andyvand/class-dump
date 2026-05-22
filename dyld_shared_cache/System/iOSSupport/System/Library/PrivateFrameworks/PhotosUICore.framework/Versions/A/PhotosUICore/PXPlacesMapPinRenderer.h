@@ -19,7 +19,7 @@
 - (struct UIEdgeInsets);
 - (id);
 - (void);
-- (void);
+- (void)X;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

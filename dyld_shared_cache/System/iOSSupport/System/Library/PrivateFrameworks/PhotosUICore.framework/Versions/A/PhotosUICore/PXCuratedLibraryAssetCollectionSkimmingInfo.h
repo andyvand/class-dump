@@ -29,7 +29,7 @@
 - (long long);
 - (id);
 - (struct PXSimpleIndexPath);
-- (void);
+- (void)(;
 
 // Remaining properties
 @property(retain, nonatomic) PXIndexPathSet *childCollectionsIndexes; // @synthesize childCollectionsIndexes=_childCollectionsIndexes;

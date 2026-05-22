@@ -14,9 +14,8 @@
 }
 
 - (id);
-- (void)!ÌEùÂÐ1¢!0@ù
-× ;
-- (void);
+- (void)ferenceLocation;
+- (void)ä¾¬ÿö;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setShadowProperties:) _UIDragPreviewShadowProperties *_shadowProperties; // @synthesize _shadowProperties=__shadowProperties;

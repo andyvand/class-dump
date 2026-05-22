@@ -20,7 +20,7 @@
     struct CGSize _preferredContentSize;
 }
 
-- (_Bool)y;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -29,24 +29,25 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (struct CGSize);
 - (_Bool);
-- (struct CGRect)hUnsignedChar:(struct CGRect)arg1;
+- (struct CGRect);
 - (void);
-- (struct CGSize);
 - (void);
-- (void)ce:(id)arg1 section:sequentially:beforeTailOfSection: /* Error: Ran out of types for this method. */;
-- (double);
 - (void);
-- (void)eTemplate:(id)arg1;
-- (id)´;
-- (id);
-- (id);
+- (struct CGSize)Ð1Â0@ù
+× ;
+- (double)ffset;
+- (void)ight:(id)arg1;
+- (id)hildren;
+- (void)"_UIContextMenuSelectionDelayGestureRecognizer",&,N,V_selectionDelayGestureRecognizer;
+- (double)decode SceneSession for identifier %@, skipping;
+- (void)Unhandled update item action for update:(double)arg1 %@;
+- (id)Ê¾7So6UIMenuCG;
 - (void);
-- (void)Ì[;
-- (double)¬\;
+- (id)ý^;
 
 // Remaining properties
 @property(nonatomic) double blurRadius; // @dynamic blurRadius;

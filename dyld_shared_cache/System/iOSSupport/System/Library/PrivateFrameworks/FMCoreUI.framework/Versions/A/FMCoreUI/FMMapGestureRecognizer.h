@@ -56,17 +56,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
+- (_Bool);
 - (double);
 - (_Bool);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSTimer *doubleTapTimer; // @synthesize doubleTapTimer=_doubleTapTimer;

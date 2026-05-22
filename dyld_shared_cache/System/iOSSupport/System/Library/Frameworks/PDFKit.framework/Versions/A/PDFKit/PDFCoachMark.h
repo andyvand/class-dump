@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     PDFPageLayerEffect *layerEffect;
 }
 
-- (void)2@0:(id)arg1 8f16f20q24;
-- (double)zer"16@"NSTouch"24;
-- (void)ionError;
-- (id)%@:(struct CGRect)arg1 %p; name = %@, isFinished = %@; isReady = %@; isCancelled = %@; isExecuting = %@ >;
+- (void);
+- (double);
+- (id);
+- (void);
 
 @end
 

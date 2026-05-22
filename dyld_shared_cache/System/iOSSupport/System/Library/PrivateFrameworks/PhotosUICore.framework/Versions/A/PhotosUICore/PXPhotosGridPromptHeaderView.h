@@ -16,12 +16,14 @@
 + (struct CGSize);
 + (id);
 + (struct CGSize);
+- (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id)P;
-- (struct CGSize)UTTON_TITLE_THIS_;
+- (id)áù!CùqFð1â
+0@ù
+× ;
+- (id)Core19SpriteConfigurationP;
+- (void)\°tÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;

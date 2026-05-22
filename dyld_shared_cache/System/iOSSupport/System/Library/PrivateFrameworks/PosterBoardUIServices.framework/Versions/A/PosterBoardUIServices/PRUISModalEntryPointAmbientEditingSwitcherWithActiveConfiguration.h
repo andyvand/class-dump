@@ -20,11 +20,11 @@
 - (unsigned int);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -7,13 +7,158 @@
 @class NSString, VFXMaterial, VFXMaterialProperty, VFXProgram;
 
 @protocol VFXMaterialJSExport
-- (VFXMaterialProperty *)ü;
-- (VFXMaterialProperty *);
-- (void)ÊAAî@q?;
-- (id)9ôÖC®¾Æ¹(C·Ô]?V?C}®¾¿úB·Ô]?_öÖB:®¾!»(BØÔ]?îBq®¾³÷×AúÔ]?P?Be®¾ÇùA,Õ]?t`BL®¾a_\A¢Õ]?óÖA&®¾ß¸(A9Ö]?-Ò©Aõ®¾ÎKA4×]?Aª®¾½ð×@Ø]?$ZcA«®¾Ër²@IÚ]?ã?Aû­¾ï@Ü]?!Ã"Aí­¾}@vß]?UAÛÛ­¾F\@Cã]?Ïwô@nÂ­¾sÚ?@Äè]?ºéÖ@g~­¾v¥(@Ëö]?Ñ½¾@¬¬¾¦@K>^?®Sª@­M«¾¦@Mh^?@´ª¾µÿï?^?û?@¢Aª¾ÂÃØ?¥¡^?®.{@ÃÕ©¾×Ä?º^?e@ ý¨¾Î³?âè^?¿R@Xç¨¾]û¤?ªñ^?¶MB@HO©¾1
-?&á^?3@|Ô§¾\?5_?<&@>=¦¾Nò?´_?.@Þw¤¾×lq?±ú_?³Ò@ç¢¾aü`?o`?\Ê@~¬ ¾±MR?å`?¯ÿ?RÓ¾M/E?æ]a?çpñ?Cÿ¾e9?Üa?´ä?òì¾Ô.?mb?ÛNÙ?î¾$?!;c?BÏ?9î¾ÊR?ùd?·
-Æ?­ù¾>ç?öíd?à½?Jð¾Dý
-?×e?T¶?ÖS¾?æf?Óô¯?it¾PÆø>h?úª?¾fë>Á;i?ü¨¤?Ùî~¾UÞ>Äwj?»¶?ÄÑu¾ÇÑ>þÑk?jK?ê®l¾Å>í-m?ÿ#?ÿb¾~§¹>£n?z?RÑX¾ã®>Ú /* Error: Ran out of types for this method. */;
+- (void)ata>>>="__table_"{__hash_table<std:(long long)arg1:__hash_value_type<unsigned long long, VFXMTLLightSetData>, std::__unordered_map_hasher<unsigned long long, std::pair<const unsigned long long, VFXMTLLightSetData>, std::hash<unsigned long long>, std::equal_to<unsigned long long>>, std::__unordered_map_equal<unsigned long long, std::pair<const unsigned long long, VFXMTLLightSetData>, std::equal_to<unsigned long long>, std::hash<unsigned long long>>, std::allocator<std::pair<const unsigned long long, VFXMTLLightSetData>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, VFXMTLLightSetData>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, VFXMTLLightSetData>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, VFXMTLLightSetData>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<unsigned long long, VFXMTLLightSetData>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"currentLightingHashKey"Q"currentLightingDesc"{?="count"q"lights"[8^{__CFXLight}]"lightsData"[8^{__CFXLightRuntimeData}]}"currentLightingSpace"{?="columns"[4]}"currentLightingSpaceShadow"{?="columns"[4]}"needLightingSpaceTransformation"B"clusterSystem"{VFXMTLClusterSystem="clustersCount""tileSize""selectedDebugClusterIndex""_debugClusterTilesPipeline"@"VFXMTLRenderPipeline""_debugLightIndicesBufferPipeline"@"VFXMTLRenderPipeline""_debugClusterSlicesPipeline"@"VFXMTLRenderPipeline""_debugProgram"[7^{__CFXProgram}]"_debugShapes"[7^{__CFXMesh}]}"clusterInfo"{Info="clusterBuffer"{BufferSlice="impl"{?="_buffer"^v"_offset"I"_length"I}}"clusterTexture"@"<MTLTexture>""lightIndicesTexture"@"<MTLTexture>""cellSize""clusterScale""cellPixelSize""omniLightsRange""spotLightsRange""probeLightsRange""lightsBuffer"{BufferSlice="impl"{?="_buffer"^v"_offset"I"_length"I}}"lightsBufferLightCount"I"shadowTexture"@"<MTLTexture>""iesOrGoboTextures"[8@"<MTLTexture>"]"samplerStates"[8@"<MTLSamplerState>"]"areaBuffer"@"<MTLBuffer>""areaBufferOffset"Q"areaBufferOffsets"[8Q]}"reflectionProbesTextureArray"@"<MTLTexture>"} /* Error: Ran out of types for this method. */;
+- (VFXProgram *). Position sources must use the 'vertex' interpolation mode;
+- (void)to size = sizes[current];
+
+    for(auto stencil = 0; stencil < size; stencil++)
+    {
+        auto vindex = offset + stencil;
+        addWithWeight(dst, readVertex(indices[vindex], srcVertices, args), weights[vindex]);
+    }
+
+    writeVertex(current, dst, dstVertexBuffer, args);
+
+#if OPENSUBDIV_MTL_COMPUTE_USE_DERIVATIVES
+    Vertex du, dv;
+    clear(du);
+    clear(dv);
+
+
+    for(auto i = 0; i < size; i++)
+    {
+        auto src = readVertex(indices[offset + i], srcVertices, args);
+        addWithWeight(du, src, duWeights[offset + i]);
+        addWithWeight(dv, src, dvWeights[offset + i]);
+    }
+
+    writeDu(current, du, duDerivativeBuffer, args);
+    writeDv(current, dv, dvDerivativeBuffer, args);
+#endif
+}
+
+
+// ---------------------------------------------------------------------------
+
+// PERFORMANCE:(NSString *)arg1 stride could be constant, but not as significant as length
+
+//struct PatchArray {
+//    int patchType;
+//    int numPatches;
+//    int indexBase;        // an offset within the index buffer
+//    int primitiveIdBase;  // an offset within the patch param buffer
+//};
+// # of patcharrays is 1 or 2.
+
+uint getDepth(uint patchBits) {
+    return (patchBits & 0xf);
+}
+
+float getParamFraction(uint patchBits) {
+    uint nonQuadRoot = (patchBits >> 4) & 0x1;
+    uint depth = getDepth(patchBits);
+    if (nonQuadRoot == 1) {
+        return 1.0f / float( 1 << (depth-1) );
+    } else {
+        return 1.0f / float( 1 << depth );
+    }
+}
+
+float2 normalizePatchCoord(uint patchBits, float2 uv) {
+    float frac = getParamFraction(patchBits);
+
+    uint iu = (patchBits >> 22) & 0x3ff;
+    uint iv = (patchBits >> 12) & 0x3ff;
+
+    // top left corner
+    float pu = float(iu*frac);
+    float pv = float(iv*frac);
+
+    // normalize u,v coordinates
+    return float2((uv.x - pu) / frac, (uv.y - pv) / frac);
+}
+
+bool isRegular(uint patchBits) {
+    return (((patchBits >> 5) & 0x1u) != 0);
+}
+
+int getNumControlVertices(int patchType) {
+    switch(patchType) {
+        case 3:return 4;
+        case 6:return 16;
+        case 9:return 20;
+        default:return 0;
+    }
+}
+
+// ---------------------------------------------------------------------------
+
+kernel void eval_patches(
+                         uint thread_position_in_grid [[thread_position_in_grid]],
+                         const constant uint4* patchArrays [[buffer(PATCH_ARRAYS_BUFFER_INDEX)]],
+                         device PatchCoord* patchCoords [[buffer(PATCH_COORDS_BUFFER_INDEX)]],
+                         device int* patchIndices [[buffer(PATCH_INDICES_BUFFER_INDEX)]],
+                         device PatchParam* patchParams [[buffer(PATCH_PARAMS_BUFFER_INDEX)]],
+                         device float* srcVertexBuffer [[buffer(SRC_VERTEX_BUFFER_INDEX)]],
+                         device float* dstVertexBuffer [[buffer(DST_VERTEX_BUFFER_INDEX)]],
+                         device float* duDerivativeBuffer [[buffer(DU_DERIVATIVE_BUFFER_INDEX)]],
+                         device float* dvDerivativeBuffer [[buffer(DV_DERIVATIVE_BUFFER_INDEX)]],
+                         const constant KernelUniformArgs& args [[buffer(PARAMETER_BUFFER_INDEX)]]
+                         )
+{
+    auto current = thread_position_in_grid;
+    auto patchCoord = patchCoords[current];
+    auto patchIndex = patchIndices[patchCoord.patchIndex];
+    auto patchArray = patchArrays[patchCoord.arrayIndex];
+    auto patchBits = patchParams[patchIndex].field1; 
+    auto patchType = select(patchArray.x, uint(6), isRegular(patchBits));
+    auto numControlVertices = getNumControlVertices(patchType);
+    auto uv = normalizePatchCoord(patchBits, float2(patchCoord.s, patchCoord.t));
+    auto dScale = float(1 << getDepth(patchBits));
+    auto boundaryMask = int((patchBits >> 8) & 0xFU);
+
+    float wP[20], wDs[20], wDt[20], wDss[20], wDst[20], wDtt[20];
+
+
+    if(patchType == 3) {
+        OsdGetBilinearPatchWeights(uv.x, uv.y, dScale, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if(patchType == 6) {
+        OsdGetBSplinePatchWeights(uv.x, uv.y, dScale, boundaryMask, wP, wDs, wDt, wDss, wDst, wDtt);
+    } else if(patchType == 9) {
+        OsdGetGregoryPatchWeights(uv.x, uv.y, dScale, wP, wDs, wDt, wDss, wDst, wDtt);
+    }
+
+    Vertex dst, du, dv;
+    clear(dst);
+    clear(du);
+    clear(dv);
+
+
+    auto indexBase = patchArray.z + numControlVertices * (patchCoord.patchIndex - patchArray.w);
+    for(auto cv = 0; cv < numControlVertices; cv++)
+    {
+        auto index = patchIndices[indexBase + cv];
+        auto src = readVertex(index, srcVertexBuffer, args);
+        addWithWeight(dst, src, wP[cv]);
+        addWithWeight(du, src, wDs[cv]);
+        addWithWeight(dv, src, wDt[cv]);
+    }
+
+    writeVertex(current, dst, dstVertexBuffer, args);
+
+#if OPENSUBDIV_MTL_COMPUTE_USE_DERIVATIVES
+    if(args.duDesc.y > 0)
+        writeDu(current, du, duDerivativeBuffer, args);
+
+    if(args.dvDesc.y > 0)
+        writeDv(current, dv, dvDerivativeBuffer, args);
+#endif
+
+
+}
+
+ /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic) float alphaCutoff;

@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (id)OverQR;
 - (id);
+- (id)¥Å;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

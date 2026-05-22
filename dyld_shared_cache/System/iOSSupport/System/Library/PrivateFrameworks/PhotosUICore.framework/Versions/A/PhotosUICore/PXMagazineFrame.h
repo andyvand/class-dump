@@ -19,14 +19,13 @@
 - (long long);
 - (double);
 - (id);
-- (void);
+- (id);
+- (long long);
 - (long long);
 - (void);
-- (id)1b0@ù
-× ;
-- (long long)tatePerCollection;
-- (double);
-- (void)4f7;
+- (void);
+- (void)denShelves;
+- (double)c7;
 
 // Remaining properties
 @property(nonatomic) double aspectRatio; // @synthesize aspectRatio=_aspectRatio;

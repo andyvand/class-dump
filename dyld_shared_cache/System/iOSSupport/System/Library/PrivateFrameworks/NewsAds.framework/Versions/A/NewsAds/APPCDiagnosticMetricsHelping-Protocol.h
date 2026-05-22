@@ -5,8 +5,6 @@
 //
 
 @protocol APPCDiagnosticMetricsHelping
-- (void);
-- (void)rrect associated screen scale;
 
 // Remaining properties
 @property(nonatomic) unsigned long long networkType;

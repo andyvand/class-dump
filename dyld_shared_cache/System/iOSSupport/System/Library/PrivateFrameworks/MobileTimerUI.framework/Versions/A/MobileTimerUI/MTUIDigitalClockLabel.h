@@ -20,10 +20,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
 
 @end
 

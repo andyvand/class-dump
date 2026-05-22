@@ -4,9 +4,9 @@
 
 class icu::SharedObject {
 public: // (access info unavailable from symbols alone)
-    addRef() const;
-    deleteIfZeroRefCount() const;
-    getRefCount() const;
-    removeRef() const;
+    auto addRef() const;
+    auto deleteIfZeroRefCount() const;
+    auto getRefCount() const;
+    auto removeRef() const;
     ~SharedObject();
 };

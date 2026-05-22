@@ -12,11 +12,11 @@
     void reason;
 }
 
-- (id)²Ì;
-- (id);
-- (void);
 - (id);
-- (unsigned long long)\þÿ=ÙÂ;
+- (id);
+- (id);
+- (unsigned long long);
+- (void)put Name);
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long operationType; // @synthesize operationType;

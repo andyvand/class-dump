@@ -14,7 +14,7 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (id)0';
+- (id);
 
 @end
 

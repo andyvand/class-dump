@@ -27,18 +27,18 @@ __attribute__((visibility("hidden")))
     _UIAsyncInvocation *_requestCancellationInvocation;
 }
 
-+ (id)No background for chat:(id)arg1 %@;
-+ (id)a server error last time(%@) so fetching from server;
 + (id);
-- (void)ice";
-- (void)0:8Q16@24 /* Error: Ran out of types for this method. */;
-- (void)r: /* Error: Ran out of types for this method. */;
-- (void)equestWithPerson:properties:conference:reason:account: /* Error: Ran out of types for this method. */;
-- (void)viceSession",R,N,V_replicationProxy;
-- (void)ss: /* Error: Ran out of types for this method. */;
-- (void)tus;
-- (void)V_baseAttachmentController;
-- (void),N,V_service;
++ (id);
++ (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);

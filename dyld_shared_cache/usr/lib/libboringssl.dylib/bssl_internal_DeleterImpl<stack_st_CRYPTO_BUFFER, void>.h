@@ -4,5 +4,5 @@
 
 class bssl::internal::DeleterImpl<stack_st_CRYPTO_BUFFER, void> {
 public: // (access info unavailable from symbols alone)
-    Free(stack_st_CRYPTO_BUFFER*)::'lambda'(void (*)(void*), void*)::__invoke(void (*)(void*), void*);
+    auto Free(stack_st_CRYPTO_BUFFER*)::'lambda'(void (*)(void*), void*)::__invoke(void (*)(void*), void*);
 };

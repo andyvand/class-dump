@@ -8,7 +8,7 @@
 {
 }
 
-+ (struct UIEdgeInsets)C;
++ (struct UIEdgeInsets);
 + (id);
 + (id);
 + (struct CGPoint);

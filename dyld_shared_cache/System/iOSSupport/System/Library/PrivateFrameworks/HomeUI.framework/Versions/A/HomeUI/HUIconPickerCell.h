@@ -22,11 +22,10 @@
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id)á%°! @ù/Ð1b0@ù
-× ;
+- (void)nProgress:(_Bool)arg1;
+- (void)UNaturalLightingSetup_UseLightsButton;
 
 // Remaining properties
 @property(retain, nonatomic) HFImageIconDescriptor *iconDescriptor;

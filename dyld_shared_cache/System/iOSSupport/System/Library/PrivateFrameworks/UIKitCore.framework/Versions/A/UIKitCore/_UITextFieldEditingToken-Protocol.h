@@ -5,6 +5,5 @@
 //
 
 @protocol _UITextFieldEditingToken
-- (_Bool)enableSiriAnimationDictationStyle;
 @end
 

@@ -14,10 +14,10 @@
     MISSING_TYPE *previousViewModelHash;
 }
 
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)_y_SayytGê}¢G\y_ÅyytAEGGGSo9NSRunLoopCG;
 
 @end
 

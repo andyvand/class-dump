@@ -19,7 +19,7 @@
     double _transitionDuration;
 }
 
-+ (id)ØLðD9;
++ (id)ì;
 - (_Bool);
 - (void);
 - (void);
@@ -37,8 +37,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (void);
-- (id)ut.m;
 - (double);
 
 // Remaining properties

@@ -5,6 +5,6 @@
 class metadata_visitor::ResolvedValue {
 public: // (access info unavailable from symbols alone)
     ResolvedValue(void const*, VMAddress);
-    value() const;
-    vmAddress() const;
+    auto value() const;
+    auto vmAddress() const;
 };

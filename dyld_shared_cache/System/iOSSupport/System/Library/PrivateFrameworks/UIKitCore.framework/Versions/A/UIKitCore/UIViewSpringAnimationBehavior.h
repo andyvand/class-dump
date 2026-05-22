@@ -16,19 +16,20 @@
     double _inertialProjectionDeceleration;
 }
 
-+ (id)rovider more than once!;
-- (void);
-- (void);
-- (CDStruct_aa45ca86)stentID:(int)arg1 timeStamp:(int)arg2 completion: /* Error: Ran out of types for this method. */;
++ (id);
 - (double);
+- (id);
+- (double);
+- (double)0@ù
+× ;
+- (void)ive:(double)arg1;
+- (void)zer;
+- (CDStruct_aa45ca86)lContext;
+- (void)B,R,N,V_overlapsSectionHeaderViews;
 - (void);
-- (double)set: /* Error: Ran out of types for this method. */;
-- (void)tInset;
-- (id)hideForKeyboardAppearance;
-- (void)ad:(double)arg1 %@;
-- (void)rizontalInsertionIndicator;
-- (double)4p\;
-- (double)i\;
+- (double)ng>",R,D,N;
+- (void)dBumpRegion;
+- (void);
 
 // Remaining properties
 @property(nonatomic) double dampingRatio; // @synthesize dampingRatio=_dampingRatio;

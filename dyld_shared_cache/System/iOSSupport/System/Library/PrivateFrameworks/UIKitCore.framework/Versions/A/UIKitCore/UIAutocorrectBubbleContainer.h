@@ -24,31 +24,31 @@ __attribute__((visibility("hidden")))
     struct CGRect _referenceRect;
 }
 
-- (id)Queue;
-- (id),V_timestamp;
-- (void)NSDictionary",R,N,V_nicknamesForParticipants;
-- (void)neResources;
-- (void)leMessageRecordZone;
-- (void)Size:(id)arg1 serverConfigurationBag:(struct CGRect)arg2 phoneNumber:simID: /* Error: Ran out of types for this method. */;
-- (id)Hubble;
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
-- (void)dentifier:%s, participantId:%s /* Error: Ran out of types for this method. */;
-- (id)d on participants and display name:%@ /* Error: Ran out of types for this method. */;
-- (id)an error trying to remove %@ from the handled map %@;
-- (void)geCreationComponent created for %@;
-- (void)led to upload, as we could not find an associated message;
-- (id)@ as failing preview generation;
-- (id)moving message with OTP code (guid:%@) to recently deleted. /* Error: Ran out of types for this method. */;
-- (id)Delete Verification Codes | Finished moving message with OTP code (guid:%@) to recently deleted. /* Error: Ran out of types for this method. */;
-- (void)ces:%@ (First load:%@) /* Error: Ran out of types for this method. */;
 - (void);
-- (_Bool)b;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -57,8 +57,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (id)isLookToDictateEnabled;
 
 // Remaining properties
 @property(retain, nonatomic) UIAutocorrectBubble *bubble; // @synthesize bubble=_bubble;

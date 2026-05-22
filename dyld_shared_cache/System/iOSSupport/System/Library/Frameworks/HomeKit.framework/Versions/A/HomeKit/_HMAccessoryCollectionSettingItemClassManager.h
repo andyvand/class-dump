@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
 - (id);
+- (void),N,V_setupAuthToken;
 
 @end
 

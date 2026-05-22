@@ -19,11 +19,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
 - (void);
-- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool extendedCuratedAssetsOnly; // @synthesize extendedCuratedAssetsOnly;

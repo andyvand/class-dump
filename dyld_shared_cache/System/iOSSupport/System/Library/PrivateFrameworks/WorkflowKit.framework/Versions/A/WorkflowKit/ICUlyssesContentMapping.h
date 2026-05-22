@@ -10,9 +10,9 @@
 {
 }
 
-- (void)Ì;
-- (void)Ì;
-- (void)Ì;
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);

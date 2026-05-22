@@ -11,10 +11,11 @@
     _Bool _shouldAnimateVariantWeight;
 }
 
-+ (Class)¨ ;
-- (_Bool);
-- (void);
-- (void)À8;
++ (Class);
+- (_Bool)0@ù
+× ;
+- (void)ntedObject for item %@;
+- (void)howingMasterView;
 
 @end
 

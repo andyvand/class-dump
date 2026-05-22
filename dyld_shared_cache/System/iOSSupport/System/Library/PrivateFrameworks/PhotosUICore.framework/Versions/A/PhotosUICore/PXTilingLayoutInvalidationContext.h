@@ -33,11 +33,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id)QzÐ1b0@ù
-× ;
-- (void)sientIdentifier ;
-- (id)P¡oe.ä;
+- (id);
+- (id);
+- (void)ResetViewNotification.;
+- (void)Q@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool invalidatedAllTiles; // @synthesize invalidatedAllTiles=_invalidatedAllTiles;

@@ -16,13 +16,13 @@
 + (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
 - (id);
-- (id);
+- (void);
+- (id)WidthFollowsPreferredContentSizeWhenEdgeAttached: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

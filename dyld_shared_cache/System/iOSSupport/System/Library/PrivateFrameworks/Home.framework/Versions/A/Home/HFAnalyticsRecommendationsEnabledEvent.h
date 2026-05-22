@@ -33,18 +33,18 @@
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (double);
+- (_Bool)adge;
+- (double)sticsSymptomForAccessory: /* Error: Ran out of types for this method. */;
+- (void)iceItem.m;
+- (void)rigger"8;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accessoryCategory; // @synthesize accessoryCategory=_accessoryCategory;

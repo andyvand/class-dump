@@ -14,14 +14,13 @@
     MISSING_TYPE *deleteButtonDimension;
 }
 
-- (void);
 - (id);
 - (void);
 - (void);
+- (void);
 - (id);
-- (void)0@ù
-× ;
-- (id)tors;
+- (void);
+- (id)iceClass;
 
 // Remaining properties
 @property(nonatomic, retain) UIButton *deleteButton; // @synthesize deleteButton;

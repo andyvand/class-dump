@@ -14,9 +14,9 @@
 
 + (unsigned long long);
 - (id);
-- (void);
 - (id);
-- (unsigned long long)dBehavior;
+- (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) AVTAvatarAttributeEditorPreviewModeOptions *options; // @synthesize options=_options;

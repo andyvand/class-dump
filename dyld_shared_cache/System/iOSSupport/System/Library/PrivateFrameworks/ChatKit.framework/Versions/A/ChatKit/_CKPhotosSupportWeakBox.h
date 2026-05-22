@@ -10,10 +10,10 @@ __attribute__((visibility("hidden")))
     id _object;
 }
 
+- (id);
 - (void);
-- (void);
-- (id)d,N,V_contentAlpha;
-- (id)RecipientSelectionView;
+- (id)on:(id)arg1 %p;
+- (void)th error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id object; // @synthesize object=_object;

@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)aceOrientationWithBlock: /* Error: Ran out of types for this method. */;
+- (id)|Ë;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

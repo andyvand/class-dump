@@ -19,11 +19,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (id)ectProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
+- (id)× ;
+- (void)ForApp:cacheKey:version: /* Error: Ran out of types for this method. */;
+- (id);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *app;

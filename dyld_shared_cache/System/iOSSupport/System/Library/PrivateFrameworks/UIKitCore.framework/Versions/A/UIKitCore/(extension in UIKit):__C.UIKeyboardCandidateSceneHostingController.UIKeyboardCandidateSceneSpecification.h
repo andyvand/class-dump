@@ -10,8 +10,8 @@
 {
 }
 
-- (id)rdinator",&,N,V_lastFocusingItemAnimationCoordinator;
-- (id);
+- (id);
+- (id)ertControllerPhoneTVMacView or UIAlertController have a visual style yet, which means it impossible to correctly determine the vibrancy effect.;
 
 @end
 

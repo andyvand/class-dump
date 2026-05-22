@@ -23,7 +23,7 @@
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)ènxr{;
 
 // Remaining properties
 @property(nonatomic) double predictionTimeInterval; // @synthesize predictionTimeInterval=_predictionTimeInterval;

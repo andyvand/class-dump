@@ -14,16 +14,14 @@ __attribute__((visibility("hidden")))
     UIImage *_maxTrack;
 }
 
+- (void);
 - (id);
 - (void);
-- (void)disableAudioProcessing;
+- (id);
 - (void);
-- (id)Ôp°!4CùÂð1¢!0@ù
-× ;
-- (id)Aw°!4GùQÌ°1¢!0@ù
-× ;
-- (_Bool)P;
-- (void);
+- (id)× ;
+- (_Bool)mulator] Reset accumulator;
+- (void)______ß?ÑÐÐÐÐÐà?qqqqqqá?Û?Ü?YYYYYYÙ?ZZZZZZÚ?;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool isEmpty;

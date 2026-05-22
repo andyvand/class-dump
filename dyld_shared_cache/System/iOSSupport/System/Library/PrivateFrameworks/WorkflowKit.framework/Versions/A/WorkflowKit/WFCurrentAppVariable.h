@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)WFMaskCornerRadius;
+- (_Bool)gedNotification;
 
 @end
 

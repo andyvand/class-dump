@@ -12,13 +12,13 @@ __attribute__((visibility("hidden")))
     UIImageView *_imageView;
 }
 
+- (void);
 - (struct CGSize);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void)nStyle: /* Error: Ran out of types for this method. */;
+- (void)9;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;

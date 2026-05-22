@@ -25,7 +25,7 @@
 + (id);
 + (id);
 + (void);
-+ (id): /* Error: Ran out of types for this method. */;
++ (id);
 - (id);
 - (id);
 - (void);
@@ -47,16 +47,15 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id)Ñ|°1b0@ù
-× ;
-- (id)V_presentedKenBurnsAnimationContentSize;
-- (id)e;
 - (id);
-- (unsigned long long);
+- (id)"PXGItemsLayout"16q24d32;
+- (id)ntifier;
+- (unsigned long long)ndedTokens:) ended. /* Error: Ran out of types for this method. */;
+- (id)le;
+- (void)ùO;
 
 // Remaining properties
 @property(readonly, nonatomic) long long aggregateMediaType; // @dynamic aggregateMediaType;

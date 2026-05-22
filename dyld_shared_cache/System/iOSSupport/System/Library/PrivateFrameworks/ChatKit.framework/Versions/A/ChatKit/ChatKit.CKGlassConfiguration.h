@@ -17,21 +17,21 @@
     MISSING_TYPE *identifier;
 }
 
-+ (id)r;
-+ (id)o;
-+ (id);
-+ (id);
-+ (_Bool)a;
-+ (_Bool)r;
 + (id);
 + (id);
 + (id);
 + (id);
++ (_Bool);
++ (_Bool);
 + (id);
 + (id);
-- (void);
++ (id);
++ (id);
++ (id);
++ (id);
 - (void);
 - (id);
+- (void)¶;
 
 @end
 

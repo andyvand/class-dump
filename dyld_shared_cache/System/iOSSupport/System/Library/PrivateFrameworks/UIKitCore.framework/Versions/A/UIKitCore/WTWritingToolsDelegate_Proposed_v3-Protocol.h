@@ -5,14 +5,15 @@
 //
 
 @protocol WTWritingToolsDelegate_Proposed_v3
-- (void),,;
-- (void)sectionHeadEntry;
-- (void)1¢!0@ù
+- (void)1Â0@ù
 × ;
+- (void)A!PGù±bÐ1Â0@ù
+× ;
+- (void)Movement;
+- (void)ent;
 
 @optional
-- (void);
-- (_Bool)null);
+- (_Bool)kana_multitap_complete_arrow-163r.png;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool includesTextListMarkers;

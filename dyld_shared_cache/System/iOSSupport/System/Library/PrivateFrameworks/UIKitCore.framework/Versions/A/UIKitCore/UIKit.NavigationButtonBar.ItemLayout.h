@@ -16,6 +16,7 @@
     MISSING_TYPE *itemViewWrapper;
     MISSING_TYPE *targetAction;
     MISSING_TYPE *isOnlyItemInSection;
+    MISSING_TYPE *systemItemWhenLastUpdated;
 }
 
 @end

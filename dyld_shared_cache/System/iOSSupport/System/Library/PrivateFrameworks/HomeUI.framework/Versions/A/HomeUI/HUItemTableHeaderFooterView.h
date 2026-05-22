@@ -27,12 +27,12 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)ÿï½;
+- (void)mmaryDeleteProgrammableButtonActionTitle;
+- (void)ansform.rotation.z;
+- (unsigned long long)yýÜÀ;
 
 // Remaining properties
 @property(copy, nonatomic) NSAttributedString *attributedMessage;

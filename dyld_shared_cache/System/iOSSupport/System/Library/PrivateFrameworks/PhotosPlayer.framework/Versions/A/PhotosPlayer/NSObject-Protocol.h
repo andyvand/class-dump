@@ -7,12 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (unsigned long long);
-- (_Bool)S/Suggestions/MapsSuggestionsUnknownFilter.m;
-- (unsigned long long);
-
-@optional
-- (NSString *)bundle at %@;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

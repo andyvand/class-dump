@@ -14,6 +14,7 @@
     MISSING_TYPE *pageDelegate;
     MISSING_TYPE *contentBackgroundColor;
     MISSING_TYPE *headline;
+    MISSING_TYPE *mastheadPluginProvider;
     MISSING_TYPE *styler;
     MISSING_TYPE *eventHandler;
     MISSING_TYPE *articleViewController;
@@ -46,26 +47,16 @@
     MISSING_TYPE *appConfigurationManager;
     MISSING_TYPE *scrollViewProxyManager;
     MISSING_TYPE *tagMastheadProvider;
-    MISSING_TYPE *mastheadPluginProvider;
     MISSING_TYPE *endOfArticleSectionDidLayout;
+    MISSING_TYPE *liveCoverageState;
     MISSING_TYPE *parallaxX;
     MISSING_TYPE *lastSafeAreaInsets;
 }
 
 - (void);
-- (_Bool);
-- (void);
-- (void);
 - (void);
 - (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -74,34 +65,46 @@
 - (void);
 - (void);
 - (void);
-- (_Bool)group does not allow ads to be inserted before group, kind=%{public}@;
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)<ϗ;
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (id);
-- (_Bool)=;
 - (void);
 - (void);
-- (void)B;
-- (void);
-- (_Bool)(;
 - (_Bool);
-- (void)omponentViews: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void)` `%;
+- (void);
+- (void);
 - (_Bool);
-- (void)cles31InterstitialAdPreviewStylerTypeP;
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)ly;
+- (void)wStyle;
+- (void);
+- (void)ú];
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool canBecomeFirstResponder;

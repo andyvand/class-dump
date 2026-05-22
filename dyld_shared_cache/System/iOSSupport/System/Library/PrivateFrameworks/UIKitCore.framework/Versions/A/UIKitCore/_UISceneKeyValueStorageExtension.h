@@ -12,7 +12,7 @@
 + (id);
 + (id);
 + (id);
-- (id)ViewController",R,N;
+- (id);
 
 @end
 

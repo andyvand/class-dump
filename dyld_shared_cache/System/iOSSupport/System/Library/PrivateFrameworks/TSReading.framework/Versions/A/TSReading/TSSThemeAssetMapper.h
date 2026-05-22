@@ -18,13 +18,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)@;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) TSSTheme *fromTheme; // @synthesize fromTheme=mFromTheme;

@@ -5,6 +5,5 @@
 //
 
 @protocol MPEntityPropertyTranslator
-- (id)microsoft.Office.Excel;
 @end
 

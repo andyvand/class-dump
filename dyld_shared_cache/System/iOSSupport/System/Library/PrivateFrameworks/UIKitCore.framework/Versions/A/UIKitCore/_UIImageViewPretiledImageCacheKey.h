@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
     struct CGSize _pretiledSize;
 }
 
-+ (id)edMessageRowID;
++ (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ttingLanguage:(id)arg1;
 - (void);
-- (id)BackdropConstraints;
 
 @end
 

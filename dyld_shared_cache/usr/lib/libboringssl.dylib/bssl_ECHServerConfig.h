@@ -4,6 +4,6 @@
 
 class bssl::ECHServerConfig {
 public: // (access info unavailable from symbols alone)
-    SetupContext(evp_hpke_ctx_st*, unsigned short, unsigned short, bssl::Span<unsigned char const>) const;
-    SetupContext(evp_hpke_ctx_st*, unsigned short, unsigned short, bssl::Span<unsigned char const>) const::kInfoLabel;
+    auto SetupContext(evp_hpke_ctx_st*, unsigned short, unsigned short, bssl::Span<unsigned char const>) const;
+    auto SetupContext(evp_hpke_ctx_st*, unsigned short, unsigned short, bssl::Span<unsigned char const>) const::kInfoLabel;
 };

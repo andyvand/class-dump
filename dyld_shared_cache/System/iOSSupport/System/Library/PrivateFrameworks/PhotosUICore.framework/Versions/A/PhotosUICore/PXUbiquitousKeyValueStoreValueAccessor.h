@@ -18,7 +18,7 @@
     NSObject<OS_dispatch_queue> *_storeQueue;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (id);
@@ -28,15 +28,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
 - (id);
-- (void);
 - (id);
-- (id)!ÀGùQz1b0@ù
-× ;
-- (id)PXAssetdestinationAssetCopyProperties>"16@0:8 /* Error: Ran out of types for this method. */;
-- (id)xt: /* Error: Ran out of types for this method. */;
-- (id)Song: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)Left;
+- (void)_image;
 
 // Remaining properties
 @property(retain) id cachedValue; // @synthesize cachedValue=_cachedValue;

@@ -19,19 +19,19 @@
 + (id);
 + (id);
 + (id);
-- (struct _NSRange);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (double);
-- (void)Hr;
-- (void);
-- (void);
 - (struct _NSRange);
 - (void);
-- (id)hallenge"24@?<v@?B>32;
+- (void);
+- (long long);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
+- (id);
+- (struct _NSRange)hDict:maskDict:shouldUseStrokeDataUUID: /* Error: Ran out of types for this method. */;
+- (void)tÁ,Â;
 
 // Remaining properties
 @property(nonatomic) struct _NSRange characterRange; // @synthesize characterRange=_characterRange;

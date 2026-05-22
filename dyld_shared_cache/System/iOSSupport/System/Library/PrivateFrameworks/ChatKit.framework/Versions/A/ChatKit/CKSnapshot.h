@@ -16,30 +16,30 @@
 }
 
 + (id);
-+ (id)a;
 + (id);
-+ (id)dNotesModeMigrator presentLockedNotesSwitchMigrationPromptIfSupportedForAccount:(id)arg1 window:(long long)arg2 completionHandler:(id)arg3 ];
-+ (id)upportedForAccount:(id)arg1 window:(long long)arg2 completionHandler:] /* Error: Ran out of types for this method. */;
++ (id);
++ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (struct IMColorComponents);
 + (struct IMColorComponents);
-- (void)displayingTitle;
-- (void)AttachmentView;
+- (void);
+- (void);
 - (struct IMColorComponents);
 - (_Bool);
 - (id);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
+- (void);
 - (long long);
-- (id);
-- (void)«AAyAAyÜ¬yÆ«AMGö¬yÐ¬yAMG_Qo_GAAyß¬yÁ«yAP_SbQo__Qo_SgAMGGtGGG_Qo_GG;
-- (id)¤ô;
-- (void)ÿ£P2äï-;
+- (void)í/;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *guid; // @synthesize guid=_guid;

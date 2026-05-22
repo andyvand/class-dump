@@ -6,9 +6,6 @@
 
 @protocol MPCModelPlaybackRequest
 
-@optional
-- (_Bool);
-
 // Remaining properties
 @property(nonatomic) _Bool disableImplicitSectioning;
 // Preceding property had unknown attributes: ?

@@ -15,7 +15,7 @@
     VFXStateManager *_stateManager;
 }
 
-+ (_Bool)Â×Pcÿ;
++ (_Bool)CGPoint=dd}{CGSize=dd}}16;
 - (id);
 - (void);
 - (id);
@@ -27,16 +27,16 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id)$£þÿ(ïÿDÿ¤;
+- (id)"16;
+- (void)als.radiance;
+- (id)hSource;
 
 // Remaining properties
 @property(retain, nonatomic) VFXState *baseState;

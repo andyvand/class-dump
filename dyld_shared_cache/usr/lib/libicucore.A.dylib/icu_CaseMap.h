@@ -4,16 +4,16 @@
 
 class icu::CaseMap {
 public: // (access info unavailable from symbols alone)
-    fold(unsigned int, char16_t const*, int, char16_t*, int, icu::Edits*, UErrorCode&);
-    toLower(char const*, unsigned int, char16_t const*, int, char16_t*, int, icu::Edits*, UErrorCode&);
-    toTitle(char const*, unsigned int, icu::BreakIterator*, char16_t const*, int, char16_t*, int, icu::Edits*, UErrorCode&);
-    toUpper(char const*, unsigned int, char16_t const*, int, char16_t*, int, icu::Edits*, UErrorCode&);
-    utf8Fold(unsigned int, char const*, int, char*, int, icu::Edits*, UErrorCode&);
-    utf8Fold(unsigned int, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&);
-    utf8ToLower(char const*, unsigned int, char const*, int, char*, int, icu::Edits*, UErrorCode&);
-    utf8ToLower(char const*, unsigned int, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&);
-    utf8ToTitle(char const*, unsigned int, icu::BreakIterator*, char const*, int, char*, int, icu::Edits*, UErrorCode&);
-    utf8ToTitle(char const*, unsigned int, icu::BreakIterator*, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&);
-    utf8ToUpper(char const*, unsigned int, char const*, int, char*, int, icu::Edits*, UErrorCode&);
-    utf8ToUpper(char const*, unsigned int, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&);
+    auto fold(unsigned int, char16_t const*, int, char16_t*, int, icu::Edits*, UErrorCode&);
+    auto toLower(char const*, unsigned int, char16_t const*, int, char16_t*, int, icu::Edits*, UErrorCode&);
+    auto toTitle(char const*, unsigned int, icu::BreakIterator*, char16_t const*, int, char16_t*, int, icu::Edits*, UErrorCode&);
+    auto toUpper(char const*, unsigned int, char16_t const*, int, char16_t*, int, icu::Edits*, UErrorCode&);
+    auto utf8Fold(unsigned int, char const*, int, char*, int, icu::Edits*, UErrorCode&);
+    auto utf8Fold(unsigned int, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&);
+    auto utf8ToLower(char const*, unsigned int, char const*, int, char*, int, icu::Edits*, UErrorCode&);
+    auto utf8ToLower(char const*, unsigned int, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&);
+    auto utf8ToTitle(char const*, unsigned int, icu::BreakIterator*, char const*, int, char*, int, icu::Edits*, UErrorCode&);
+    auto utf8ToTitle(char const*, unsigned int, icu::BreakIterator*, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&);
+    auto utf8ToUpper(char const*, unsigned int, char const*, int, char*, int, icu::Edits*, UErrorCode&);
+    auto utf8ToUpper(char const*, unsigned int, icu::StringPiece, icu::ByteSink&, icu::Edits*, UErrorCode&);
 };

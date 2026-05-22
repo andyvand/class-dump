@@ -28,8 +28,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)
+× ;
+- (id)ntationController;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *availableDataStoreVersions;

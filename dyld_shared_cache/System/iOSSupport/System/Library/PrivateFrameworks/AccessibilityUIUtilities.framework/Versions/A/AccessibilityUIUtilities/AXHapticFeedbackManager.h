@@ -10,9 +10,9 @@
 
 + (id);
 - (void);
-- (void)lanManagerCameraScanAction"@"NSError">;
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 

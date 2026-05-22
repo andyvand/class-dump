@@ -7,8 +7,6 @@
 @class UIDragItem;
 
 @protocol UICollectionViewDropPlaceholderContext
-- (void)DR Trust Object is NULL;
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) UIDragItem *dragItem;

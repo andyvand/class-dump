@@ -22,19 +22,19 @@
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool)(WFPodcastShow);
+- (void)Possible Value);
+- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) WFREPBError *error; // @synthesize error=_error;

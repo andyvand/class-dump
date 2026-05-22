@@ -16,29 +16,29 @@
     NSString *_stickerAccessibilityDescription;
 }
 
-- (void)I;
 - (void);
 - (void);
-- (void)n;
+- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (struct CGSize);
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (_Bool);
+- (void);
 - (id);
+- (void)ntactCardForEntity:(struct CGRect)arg1 fromView: /* Error: Ran out of types for this method. */;
 - (long long);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void)B;
-- (void);
-- (id);
-- (void)@0:(struct CGRect)arg1 8@16@24{IMColorComponents=dddd}32B64;
-- (struct UIEdgeInsets)ount;
-- (id)¢¤|¥x§;
-- (struct CGSize)ÈÒÿ]Q;
+- (void)rapperView;
+- (struct UIEdgeInsets).;
 
 // Remaining properties
 @property(nonatomic, getter=isContentsTransformAnimationEnabled) _Bool contentsTransformAnimationEnabled; // @synthesize contentsTransformAnimationEnabled=_contentsTransformAnimationEnabled;

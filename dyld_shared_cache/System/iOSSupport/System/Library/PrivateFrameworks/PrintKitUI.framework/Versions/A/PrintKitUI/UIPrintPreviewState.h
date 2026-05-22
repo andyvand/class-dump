@@ -9,8 +9,8 @@
     _Bool _cancelled;
 }
 
-- (void);
 - (_Bool);
+- (void);
 
 // Remaining properties
 @property _Bool cancelled; // @synthesize cancelled=_cancelled;

@@ -23,9 +23,9 @@
 + (void);
 + (void);
 + (void);
-+ (id);
 + (void);
 + (id);
++ (id)tUnknownError;
 
 @end
 

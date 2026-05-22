@@ -17,12 +17,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
-- (void)@;
-- (void);
+- (id);
 - (void);
 - (void);
-- (id)ithFrame:(id)arg1 pixelFormat:(SEL)arg2;
+- (void);
+- (void):(id)arg1;
+- (void)¬u7;
 
 @end
 

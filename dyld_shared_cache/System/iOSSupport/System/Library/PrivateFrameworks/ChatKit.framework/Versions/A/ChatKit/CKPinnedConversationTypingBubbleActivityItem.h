@@ -13,16 +13,15 @@
     IMMessage *_message;
 }
 
-- (id)";
-- (id)lView;
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (double);
 - (_Bool);
+- (id)tem:messageSummaryInfo: /* Error: Ran out of types for this method. */;
 - (void);
-- (id)1Äð1¢!0@ù
-× ;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool activityItemAppearsWithAnimation;

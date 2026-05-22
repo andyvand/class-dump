@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)Ax!8FùÍÐ1¢!0@ù
-× ;
-- (_Bool);
-- (_Bool);
++ (id)creen:(id)arg1 traverseHierarchy:(id)arg2;
+- (struct CGSize);
 - (void);
-- (long long)ãõþ¹;
-- (void)³j8Iegy_;
-- (struct CGSize)ºq;
+- (void);
+- (long long)0@ù
+× ;
+- (_Bool)Handle:(id)arg1;
+- (_Bool)e;
 
 // Remaining properties
 @property(nonatomic) long long options; // @synthesize options=_options;

@@ -53,7 +53,7 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
@@ -64,13 +64,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (void)uz;
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool);
 - (void);
-- (_Bool);
+- (void);
 - (void);
 
 // Remaining properties

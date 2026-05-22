@@ -20,11 +20,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,12 +34,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id)gDimensions: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (void);
 - (void);
 - (id);
 - (id);
+- (void)0@ù
+× ;
 
 @end
 

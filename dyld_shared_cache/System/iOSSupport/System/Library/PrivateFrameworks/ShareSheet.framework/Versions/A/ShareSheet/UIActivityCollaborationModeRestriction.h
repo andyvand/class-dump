@@ -31,12 +31,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *alertDismissButtonTitle; // @synthesize alertDismissButtonTitle=_alertDismissButtonTitle;

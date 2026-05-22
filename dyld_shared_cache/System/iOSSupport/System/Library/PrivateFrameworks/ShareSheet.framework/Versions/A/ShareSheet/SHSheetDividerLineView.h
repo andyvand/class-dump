@@ -9,8 +9,8 @@
     double _progress;
 }
 
-- (double);
 - (id);
+- (double);
 - (void);
 
 // Remaining properties

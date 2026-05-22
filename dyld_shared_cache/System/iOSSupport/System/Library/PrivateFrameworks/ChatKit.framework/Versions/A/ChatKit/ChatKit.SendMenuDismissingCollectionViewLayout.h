@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (id)RecentContact";
-- (id)%@ into chatItems (count):(id)arg1 %@;
-- (id)5ìt2;
+- (id);
+- (id);
+- (id);
 
 @end
 

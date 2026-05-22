@@ -4,26 +4,26 @@
 
 class move_work_queue {
 public: // (access info unavailable from symbols alone)
-    cancel_all_requests();
-    debugcheck();
-    debugcheck_scantree(splay_tree*, splay_tree*, unsigned int, unsigned int, long long*);
-    dequeue_find_tree(cpdk_data_move_info&, splay_tree**, long long**, int*, unsigned long long**);
-    dequeue_move_work(cpdk_data_move_info&, int**, bool*, vector<ioreq_ent*>&);
-    empty();
-    enque(ioreq_ent*, bool);
-    get_next_ioreq(splay_tree*, ioreq_tree_node*, ioreq_tree_node*, int, bool*, ioreq_tree_node**, ioreq_tree_node**, unsigned long long*);
-    insert_request(splay_tree*, long long*, ioreq_ent*, long long*);
-    lower_bound_search(splay_tree*, ioreq_tree_node*);
-    merge_neighbor(splay_tree*, ioreq_tree_node*, ioreq_ent*);
+    auto cancel_all_requests();
+    auto debugcheck();
+    auto debugcheck_scantree(splay_tree*, splay_tree*, unsigned int, unsigned int, long long*);
+    auto dequeue_find_tree(cpdk_data_move_info&, splay_tree**, long long**, int*, unsigned long long**);
+    auto dequeue_move_work(cpdk_data_move_info&, int**, bool*, vector<ioreq_ent*>&);
+    auto empty();
+    auto enque(ioreq_ent*, bool);
+    auto get_next_ioreq(splay_tree*, ioreq_tree_node*, ioreq_tree_node*, int, bool*, ioreq_tree_node**, ioreq_tree_node**, unsigned long long*);
+    auto insert_request(splay_tree*, long long*, ioreq_ent*, long long*);
+    auto lower_bound_search(splay_tree*, ioreq_tree_node*);
+    auto merge_neighbor(splay_tree*, ioreq_tree_node*, ioreq_ent*);
+    auto num_demote_units();
+    auto num_move_extents();
+    auto num_net_promote_units();
+    auto num_net_promote_units_in_flight();
+    auto num_promote_units();
+    auto print();
+    auto remove_requests(splay_tree*, long long*, ioreq_ent const*, vector<ioreq_ent*>*, unsigned long long, unsigned int);
+    auto restore_clipped_neighbor(splay_tree*, ioreq_tree_node**);
+    auto update_counter(long long*, int, long long);
     move_work_queue(compositedisk_manager*);
-    num_demote_units();
-    num_move_extents();
-    num_net_promote_units();
-    num_net_promote_units_in_flight();
-    num_promote_units();
-    print();
-    remove_requests(splay_tree*, long long*, ioreq_ent const*, vector<ioreq_ent*>*, unsigned long long, unsigned int);
-    restore_clipped_neighbor(splay_tree*, ioreq_tree_node**);
-    update_counter(long long*, int, long long);
     ~move_work_queue();
 };

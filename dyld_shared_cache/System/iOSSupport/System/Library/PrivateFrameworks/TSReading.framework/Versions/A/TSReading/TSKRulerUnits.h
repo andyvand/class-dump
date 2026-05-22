@@ -19,7 +19,7 @@
 }
 
 + (id);
-+ (id)wables/TSDSmartStroke.mm;
++ (id);
 - (_Bool);
 - (void);
 - (void);

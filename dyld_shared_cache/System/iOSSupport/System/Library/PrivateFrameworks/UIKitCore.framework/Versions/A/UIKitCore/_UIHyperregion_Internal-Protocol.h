@@ -5,8 +5,5 @@
 //
 
 @protocol _UIHyperregion_Internal
-
-@optional
-- (_Bool)tForTableViewStyle:(const double *)arg1 screen:(const double *)arg2;
 @end
 

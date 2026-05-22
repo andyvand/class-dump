@@ -5,8 +5,6 @@
 //
 
 @protocol SXFeatures
-- (_Bool)P;
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool limitTextSelectionEnabled;

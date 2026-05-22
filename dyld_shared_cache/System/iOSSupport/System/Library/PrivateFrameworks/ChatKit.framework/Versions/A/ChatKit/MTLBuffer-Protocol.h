@@ -7,8 +7,9 @@
 @protocol MTLBuffer;
 
 @protocol MTLBuffer
-- (void);
-- (void *)@9´Èv¾¿?@ëQ¸ñ?_LU@®Gáz®·?õ?ÍÌÌÌÌÌø?½R!9@Âõ(\ú?TapbackMediumTail;
+- (void)fier;
+- (void)ddleName;
+- (void *)oredBalloonView;
 
 // Remaining properties
 @property(readonly) unsigned long long gpuAddress;

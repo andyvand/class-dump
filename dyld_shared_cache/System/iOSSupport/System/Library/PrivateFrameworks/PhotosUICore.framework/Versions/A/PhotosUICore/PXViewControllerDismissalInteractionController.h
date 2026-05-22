@@ -45,10 +45,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id);
+- (void)¸¤!ÿ¼¤!ÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool screenEdgeSwipeAllowed; // @synthesize screenEdgeSwipeAllowed;

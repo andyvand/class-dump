@@ -8,8 +8,11 @@
 @protocol PXGTextureAtlasManagerDelegate, PXGTextureConverter;
 
 @protocol PXGTextureAtlasManager
-- (NSArray *)cð!¨Dù1`°1b0@ù
+- (unsigned long long)áÑ!øGùQÐ1â
+0@ù
 × ;
+- (struct CGSize)yChangeDetails"16@"PXGLayout"24;
+- (NSArray *)rSnapshotHandler;
 
 // Remaining properties
 @property(nonatomic) __weak id <PXGTextureAtlasManagerDelegate> delegate;

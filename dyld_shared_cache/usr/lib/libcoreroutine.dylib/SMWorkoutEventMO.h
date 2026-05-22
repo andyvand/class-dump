@@ -14,7 +14,7 @@
 + (id);
 + (id);
 + (id);
-+ (id)T¸;
++ (id);
 
 // Remaining properties
 @property(nonatomic) short activityType; // @dynamic activityType;

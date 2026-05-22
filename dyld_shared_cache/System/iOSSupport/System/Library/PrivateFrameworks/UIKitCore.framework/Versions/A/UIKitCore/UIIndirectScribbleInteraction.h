@@ -16,20 +16,21 @@
     UIView *_view;
 }
 
-- (_Bool)`;
-- (id);
-- (long long);
-- (void)Ô ;
-- (void)0@ù
-× ;
-- (void)actionDidFinish:(_Bool)arg1;
-- (id)P;
-- (void)L;
 - (void);
-- (void)ndow:(_Bool)arg1 %@; isPrimaryHostedWindow:%d; sessionIdentifier:%@ /* Error: Ran out of types for this method. */;
-- (void)primaryAction;
-- (id)BarFrame;
-- (_Bool)Àüÿ;
+- (_Bool);
+- (id)0@ù
+× ;
+- (void)!HDù]ð1Â0@ù
+× ;
+- (long long)ing;
+- (_Bool)tion;
+- (id)eysForDisplayRowHint:(id)arg1;
+- (id)°;;
+- (void)earOffThreshold;
+- (void).inputShadowVibrancyContribution;
+- (void)îþ5©Òïb;
+- (void)Lö^þîÍÆg;
+- (void)´²ÿèþÌÐ¼i;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_isDefaultSystemInteraction) _Bool _defaultSystemInteraction; // @synthesize _defaultSystemInteraction=__defaultSystemInteraction;

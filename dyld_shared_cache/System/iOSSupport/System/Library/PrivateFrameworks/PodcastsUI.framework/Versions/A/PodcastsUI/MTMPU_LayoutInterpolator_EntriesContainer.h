@@ -5,9 +5,10 @@
 class MTMPU::LayoutInterpolator::EntriesContainer {
 public: // (access info unavailable from symbols alone)
     EntriesContainer(double);
-    copyEntriesVector() const;
-    entriesCount() const;
-    insertEntry(MTMPU::LayoutInterpolator::Entry);
-    primaryReferenceMetric() const;
-    valueForSecondaryReferenceMetric(double) const;
+    auto copyEntriesVector() const;
+    auto entriesCount() const;
+    auto insertEntry(MTMPU::LayoutInterpolator::Entry);
+    auto primaryReferenceMetric() const;
+    auto valueForSecondaryReferenceMetric(double) const;
+    auto valueForSecondaryReferenceMetric(double) const (.cold.1);
 };

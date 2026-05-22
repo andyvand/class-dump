@@ -21,9 +21,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXAVResourceReclamationEvent> mostRecentReclamationEvent; // @synthesize mostRecentReclamationEvent=_mostRecentReclamationEvent;

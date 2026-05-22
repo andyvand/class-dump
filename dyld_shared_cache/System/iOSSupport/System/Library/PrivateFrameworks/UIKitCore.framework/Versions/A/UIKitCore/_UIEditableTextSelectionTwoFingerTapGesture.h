@@ -10,8 +10,8 @@
 {
 }
 
-- (id)temFontSize;
-- (id)ning;
+- (id);
+- (id)or the initialized eventCount (%lu);
 
 @end
 

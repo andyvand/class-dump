@@ -12,15 +12,15 @@
     struct CGAffineTransform _transform;
 }
 
+- (double);
+- (void);
 - (void);
 - (struct CGAffineTransform);
-- (struct CGPoint);
-- (void);
-- (void)× ;
-- (double)t"^{_UIUpdateInputSet}"_setEntry"{?="le_next"^{_UIUpdateInputInternal}"le_prev"^^{_UIUpdateInputInternal}}"_readyForModelTimeCallback"^?"_context"^v"_name"*};
-- (void)tOffset;
-- (id)erScrollTest;
-- (_Bool)®þÿ;
+- (id);
+- (_Bool);
+- (void)n;
+- (void)w",&,N,V_initialDropSnapshotView;
+- (struct CGPoint)$ÿ;
 
 // Remaining properties
 @property(nonatomic) double alphaOffset; // @synthesize alphaOffset=_alphaOffset;

@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (_Bool)/Versions/A/WorkflowKit;
++ (_Bool);
 + (id);
 + (id);
 + (long long);

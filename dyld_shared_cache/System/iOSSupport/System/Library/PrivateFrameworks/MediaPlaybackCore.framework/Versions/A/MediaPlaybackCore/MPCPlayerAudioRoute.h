@@ -21,25 +21,25 @@
 
 + (id);
 - (id);
-- (long long)NST;
+- (long long);
 - (id);
-- (id)tedBeaconsWithCompletion:(id)arg1;
-- (id)Beacon:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (_Bool)c_methname;
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void)ic}@ %2i %{public}@ô SHARED SESSION SYNC END    %{public}@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canRenderSpatial; // @synthesize canRenderSpatial=_canRenderSpatial;

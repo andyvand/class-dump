@@ -35,20 +35,19 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool)kUpdated: /* Error: Ran out of types for this method. */;
-- (void)tificationIDSTokenURI;
-- (void)could not be converted to CKRecord, marking it as clean and moving on.;
-- (id)@  on transfer:%@ /* Error: Ran out of types for this method. */;
-- (void);
-- (void)ssage;
+- (_Bool);
 - (void);
 - (void);
-- (double)0@ù
-× ;
 - (id);
-- (void)vigationControllerManagedSearchPalette",R,&,N,V_managedPalette;
-- (id)(Ð;
-- (id);
+- (void);
+- (void);
+- (void)gationController;
+- (id)orDisplay:(struct CGRect)arg1 withIndexPath:layoutAttributesToUpdate: /* Error: Ran out of types for this method. */;
+- (double)nOffLabel;
+- (void)¸X¢¸¢	t£¤l¦¤¬|¯,²\²È³´;
+- (id).pîÿ;
+- (id)ontrollers;
+- (void)X\,Ç\;
 
 // Remaining properties
 @property(nonatomic) _Bool actionsEnabled; // @synthesize actionsEnabled=_actionsEnabled;

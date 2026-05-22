@@ -14,9 +14,9 @@
 - (id);
 - (id);
 - (id);
-- (id)sion: /* Error: Ran out of types for this method. */;
-- (void);
 - (id);
+- (id);
+- (void)ÿÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

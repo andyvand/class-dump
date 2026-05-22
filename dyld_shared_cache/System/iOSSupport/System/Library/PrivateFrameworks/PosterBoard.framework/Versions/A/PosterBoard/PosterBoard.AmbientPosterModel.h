@@ -15,8 +15,9 @@
     MISSING_TYPE *localizedTitle;
 }
 
-- (void);
 - (id);
+- (void)0@ù
+× ;
 
 @end
 

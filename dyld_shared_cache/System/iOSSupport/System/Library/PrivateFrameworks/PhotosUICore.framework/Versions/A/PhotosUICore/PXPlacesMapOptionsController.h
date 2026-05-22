@@ -28,10 +28,10 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
-- (void)photosViewController;
+- (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <PXPlacesMapOptionsControllerDelegate> delegate; // @synthesize delegate;

@@ -16,20 +16,20 @@
 + (_Bool);
 - (id);
 - (id);
-- (_Bool);
 - (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
 - (_Bool);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) BSAction *action; // @synthesize action=_action;

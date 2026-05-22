@@ -29,11 +29,11 @@
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (void)bool}d;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

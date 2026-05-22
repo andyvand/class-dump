@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (struct CGSize);
-- (double)name of %@, requested display name was zero length, chat:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (struct CGSize);
 - (double);
-- (struct UIEdgeInsets);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (double);
 
 @end
 

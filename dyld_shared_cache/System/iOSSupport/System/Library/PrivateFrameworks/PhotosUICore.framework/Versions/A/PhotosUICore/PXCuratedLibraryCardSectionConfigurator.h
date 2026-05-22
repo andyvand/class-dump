@@ -18,7 +18,7 @@
 - (void);
 - (id);
 - (struct UIEdgeInsets);
-- (void);
+- (void)1[ÉeG;
 
 // Remaining properties
 @property(readonly, nonatomic) PXCuratedLibraryCardSectionBodyLayoutSpec *cardSpec; // @synthesize cardSpec=_cardSpec;

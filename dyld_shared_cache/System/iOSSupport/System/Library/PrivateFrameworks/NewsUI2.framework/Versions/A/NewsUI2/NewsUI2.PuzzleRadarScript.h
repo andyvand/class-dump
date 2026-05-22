@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id)8:Ü= /* Error: Ran out of types for this method. */;
+- (id)hæÀèé¸éê8ê;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *executableScript;

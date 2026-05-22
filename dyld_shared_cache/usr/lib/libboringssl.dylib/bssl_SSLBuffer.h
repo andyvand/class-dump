@@ -4,9 +4,9 @@
 
 class bssl::SSLBuffer {
 public: // (access info unavailable from symbols alone)
-    Clear();
-    DidWrite(unsigned long);
-    DiscardConsumed();
-    EnsureCap(unsigned long, unsigned long);
+    auto Clear();
+    auto DidWrite(unsigned long);
+    auto DiscardConsumed();
+    auto EnsureCap(unsigned long, unsigned long);
     ~SSLBuffer();
 };

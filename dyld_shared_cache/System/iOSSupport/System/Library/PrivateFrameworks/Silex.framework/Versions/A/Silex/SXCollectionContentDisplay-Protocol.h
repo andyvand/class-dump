@@ -5,8 +5,6 @@
 //
 
 @protocol SXCollectionContentDisplay
-- (struct _SXConvertibleValue);
-- (unsigned long long)°;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long alignment;

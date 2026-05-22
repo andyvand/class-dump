@@ -22,15 +22,17 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (struct CGSize);
+- (id);
 - (id);
 - (void);
-- (id)10ð1b0@ù
+- (void);
+- (id);
+- (void)0@ù
 × ;
-- (id)mageView: /* Error: Ran out of types for this method. */;
-- (void)ences:(id)arg1;
+- (struct CGSize)!üAùÑð1â
+0@ù
+× ;
+- (void)eActivationWarningFooterSomeUsersNeedSoftwareUpdate;
 
 // Remaining properties
 @property(readonly, nonatomic) HUBannerView *bannerView; // @synthesize bannerView=_bannerView;

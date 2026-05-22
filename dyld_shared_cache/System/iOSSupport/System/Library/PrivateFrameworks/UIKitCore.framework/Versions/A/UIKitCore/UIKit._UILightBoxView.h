@@ -13,10 +13,10 @@
     MISSING_TYPE *lightSourceView;
 }
 
-- (void);
 - (id);
 - (void);
-- (void)2 p;
+- (void)ø%ÿ!ÓË\¾l;
+- (void)»¼§s;
 
 @end
 

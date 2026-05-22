@@ -4,10 +4,10 @@
 
 class DyldSharedCache {
 public: // (access info unavailable from symbols alone)
-    forEachCache(void (DyldSharedCache const*, bool&) block_pointer) const;
-    forEachRange(void (char const*, unsigned long long, unsigned long long, unsigned int, unsigned long long, unsigned int, unsigned int, bool&) block_pointer, void (DyldSharedCache const*, unsigned int) block_pointer) const;
-    forEachRegion(void (void const*, unsigned long long, unsigned long long, unsigned int, unsigned int, unsigned long long, unsigned long long, bool&) block_pointer) const;
-    inCache(void const*, unsigned long, bool&) const;
-    isSubCachePath(char const*);
-    mappingName(unsigned int, unsigned long long);
+    auto forEachCache(void (DyldSharedCache const*, bool&) block_pointer) const;
+    auto forEachRange(void (char const*, unsigned long long, unsigned long long, unsigned int, unsigned long long, unsigned int, unsigned int, bool&) block_pointer, void (DyldSharedCache const*, unsigned int) block_pointer) const;
+    auto forEachRegion(void (void const*, unsigned long long, unsigned long long, unsigned int, unsigned int, unsigned long long, unsigned long long, bool&) block_pointer) const;
+    auto inCache(void const*, unsigned long, bool&) const;
+    auto isSubCachePath(char const*);
+    auto mappingName(unsigned int, unsigned long long);
 };

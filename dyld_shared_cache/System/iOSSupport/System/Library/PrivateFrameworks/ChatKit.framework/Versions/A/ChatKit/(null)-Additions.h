@@ -5,16 +5,17 @@
 //
 
 @interface (null) (Additions)
-- (void)e edits;
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
 - (id);
 - (struct __CFPhoneNumber *);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (id);
+- (_Bool)!ôFù1Â0@ù
+× ;
+- (_Bool)óæ7(%3;
 @end
 

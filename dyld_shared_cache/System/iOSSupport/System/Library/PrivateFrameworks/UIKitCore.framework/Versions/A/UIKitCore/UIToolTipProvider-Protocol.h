@@ -4,11 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol UIToolTipProvider
-- (NSString *);
-- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEnabled) _Bool enabled;

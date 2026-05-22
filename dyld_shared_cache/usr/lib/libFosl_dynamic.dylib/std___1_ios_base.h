@@ -4,5 +4,5 @@
 
 class std::__1::ios_base {
 public: // (access info unavailable from symbols alone)
-    init(void*);
+    auto init(void*);
 };

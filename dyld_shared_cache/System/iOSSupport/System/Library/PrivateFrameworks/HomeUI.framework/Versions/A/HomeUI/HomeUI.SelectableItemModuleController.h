@@ -17,7 +17,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)ity.Error.DetailsLabel;
 
 @end
 

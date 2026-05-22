@@ -4,5 +4,5 @@
 
 class lsl::OrderedMap<unsigned long long, lsl::UUID, std::__1::less<unsigned long long>> {
 public: // (access info unavailable from symbols alone)
-    insert(std::__1::pair<unsigned long long const, lsl::UUID>&&);
+    auto insert(std::__1::pair<unsigned long long const, lsl::UUID>&&);
 };

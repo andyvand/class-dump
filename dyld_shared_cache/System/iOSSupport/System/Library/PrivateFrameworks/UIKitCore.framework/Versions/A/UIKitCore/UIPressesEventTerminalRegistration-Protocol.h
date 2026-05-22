@@ -4,10 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIPressesEvent;
+@class NSArray;
 
 @protocol UIPressesEventTerminalRegistration
-- (void)eceiveError:(UIPressesEvent *)arg1 forMessageID:forceError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allowedPressTypes;

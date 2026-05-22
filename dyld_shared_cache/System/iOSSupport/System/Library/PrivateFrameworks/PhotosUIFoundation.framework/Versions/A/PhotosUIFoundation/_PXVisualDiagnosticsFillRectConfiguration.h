@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     UIColor *_fillColor;
 }
 
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 - (void);
 
 // Remaining properties

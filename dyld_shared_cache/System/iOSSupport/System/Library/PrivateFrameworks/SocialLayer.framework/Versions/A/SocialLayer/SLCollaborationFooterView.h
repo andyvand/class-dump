@@ -22,11 +22,11 @@
 - (id);
 - (double);
 - (struct CGSize);
-- (void);
-- (id);
-- (id);
-- (void);
 - (struct CGSize);
+- (id);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <SLCollaborationFooterViewDelegate> delegate; // @synthesize delegate=_delegate;

@@ -15,29 +15,29 @@
     id _representedObject;
 }
 
-+ (id)h;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id)±e8±e8L¢ÿý°e8±e8¤è{þñ°e8±e8lî{þå°e8±e8tî{þÑ;
-- (id)eferredUnreadCountRefreshIfNeeded;
-- (id)yticSyncDatesDictionary:(id)arg1;
-- (id)et",&,N,V_registrationProperties;
-- (id)er;
-- (id)_noticeDataQueue;
-- (id)alNetworkHandshake:(id)arg1 fromID:(id)arg2 context: /* Error: Ran out of types for this method. */;
-- (id)NoticeDispatcherQueue;
++ (id);
++ (id);
 - (id);
-- (id)U;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id)Ì¤ÿFn;
 - (id);
-- (id)/uþ;
+- (unsigned long long);
+- (id);
+- (_Bool)tion:(id)arg1;
+- (id);
+- (void)þ½c;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

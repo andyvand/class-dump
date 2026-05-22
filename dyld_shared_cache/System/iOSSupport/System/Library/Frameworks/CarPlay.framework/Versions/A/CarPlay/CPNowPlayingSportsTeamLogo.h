@@ -17,12 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
 - (id);
+- (_Bool);
 - (void);
 - (id);
 - (unsigned long long);
+- (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *initials; // @synthesize initials=_initials;

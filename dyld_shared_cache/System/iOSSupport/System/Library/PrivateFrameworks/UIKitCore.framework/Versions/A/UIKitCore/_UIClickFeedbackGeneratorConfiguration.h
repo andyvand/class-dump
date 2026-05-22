@@ -18,22 +18,21 @@ __attribute__((visibility("hidden")))
     _UIFeedback<_UIFeedbackDiscretePlayable> *_clickUpAudioFeedback;
 }
 
-+ (id)EùqÍÐ1¢!0@ù
-× ;
++ (id)Transform;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id)le:forChat:isJunk: /* Error: Ran out of types for this method. */;
-- (id)son: /* Error: Ran out of types for this method. */;
-- (id)ror: /* Error: Ran out of types for this method. */;
-- (id)rSyncType:syncStep:response:error: /* Error: Ran out of types for this method. */;
-- (id)sSuccessful:duration: /* Error: Ran out of types for this method. */;
-- (id)ion number (%lu, old:%lu), dropping ignored list update /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (long long);
-- (void);
-- (id)ÿ;
+- (id)ionMenuTimer;
+- (void)±ÅÔ¼$^;
 
 // Remaining properties
 @property(retain, nonatomic) _UIFeedback<_UIFeedbackDiscretePlayable> *clickDownAudioFeedback; // @synthesize clickDownAudioFeedback=_clickDownAudioFeedback;

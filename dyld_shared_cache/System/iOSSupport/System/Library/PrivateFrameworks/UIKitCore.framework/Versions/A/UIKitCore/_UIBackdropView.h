@@ -84,245 +84,250 @@
     double __saturationDeltaFactor;
 }
 
-+ (void);
-+ (id);
-+ (void);
-+ (void)imaryColumnWidthAffectingPropertyDidChange;
-+ (Class)lushing;
-+ (Class)ìrDs¼s;
-+ (void)0;
-- (void);
-- (id);
-- (void);
-- (void)@;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id)T;
-- (void);
-- (id)t;
-- (void)";
-- (void));
-- (void)OrganizationalUnit:(_Bool)arg1 withADMountStyle:withADCreateMobileAccountAtLoginFlag:withADCreateMobileAccountAtLogin:withADWarnUserBeforeCreatingMAFlag:withADWarnUserBeforeCreatingMA:withADForceHomeLocalFlag:withADForceHomeLocal:withADUseWindowsUNCPathFlag:withADUseWindowsUNCPath:withADAllowMultiDomainAuthFlag:withADAllowMultiDomainAuth:withADDefaultUserShellFlag:withADDefaultUserShell:withADMapUIDAttributeFlag:withADMapUIDAttribute:withADMapGIDAttributeFlag:withADMapGIDAttribute:withADMapGGIDAttributeFlag:withADMapGGIDAttribute:withADPreferredDCServerFlag:withADPreferredDCServer:withADDomainAdminGroupListFlag:withADDomainAdminGroupList:withADNamespaceFlag:withADNamespace:withADPacketSignFlag:withADPacketSign:withADPacketEncryptFlag:withADPacketEncrypt:withADRestrictDDNSFlag:withADRestrictDDNS:withADTrustChangePassIntervalDaysFlag:withADTrustChangePassIntervalDays: /* Error: Ran out of types for this method. */;
-- (void)hPages: /* Error: Ran out of types for this method. */;
-- (void)RL;
-- (_Bool)dAllowBluetoothModification;
-- (void)formation;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
++ (Class);
++ (Class);
++ (void)ÌFù]Ð1Â0@ù
+× ;
++ (void)ù
+× ;
++ (void)\;
++ (id)]Nÿg;
++ (void)t·=ÿT¿Ð³i;
 - (_Bool);
 - (void);
-- (void):(double)arg1;
-- (void)terTrailingTitleLabel;
 - (void);
+- (id);
+- (double);
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (long long);
+- (void);
+- (double);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (long long);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (double);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
 - (id);
 - (void);
-- (void)$;
-- (double)andle_callback_downloadDerivativeDataBuffer;
-- (void);
+- (id);
+- (_Bool);
+- (double);
+- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
-- (id);
+- (void);
+- (void);
+- (_Bool);
 - (double);
 - (id);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void)xcludeFromShuffle;
-- (id)e reference item in change %{public}@;
-- (long long)ifiers.count=0];
 - (void);
-- (id);
+- (void);
+- (void);
+- (_Bool)!TFùqYÐ1Â0@ù
+× ;
+- (_Bool);
+- (id)1Â0@ù
+× ;
+- (void)°!p@ù[°1Â0@ù
+× ;
+- (id)
+× ;
+- (_Bool)1\1Â0@ù
+× ;
 - (double);
-- (id);
-- (id);
-- (id)P;
-- (id);
+- (void)0@ù
+× ;
+- (void)@ùÑ_°1Â0@ù
+× ;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)1Â0@ù
+× ;
+- (void)á°!ôAùñ`1Â0@ù
+× ;
+- (void)ùaÐ1Â0@ù
+× ;
+- (id)qað1Â0@ù
+× ;
+- (double);
+- (void)0@ù
+× ;
+- (id)!ìBùQc1Â0@ù
+× ;
+- (void)× ;
+- (void)1Â0@ù
+× ;
+- (id)Ð! BùQd1Â0@ù
+× ;
+- (void)°1Â0@ù
+× ;
+- (id)qe°1Â0@ù
+× ;
+- (id)ñe1Â0@ù
+× ;
+- (void)0@ù
+× ;
+- (void)!Cùñg1Â0@ù
+× ;
+- (double);
+- (void)oFlashOverlayScrollers"b1"windowIsVisible"b1"inScrollGesture"b1"scrollerKnobStyle"b2"scrollerFlashPending"b1"overlayScrollerStateLocked"b1"inVertScroller"b1"inHorzScroller"b1"areScrollersCatchable"b1"shouldFadeCaughtScroller"b1};
+- (double)28@36;
+- (_Bool)16q32q40;
+- (void)@"<_UIViewServiceHostSceneComponentDelegate>";
+- (void)4B28;
+- (_Bool)8;
+- (void)ionFenceHandle"24@?<v@?>32;
+- (void)IDragSetDownAnimationTarget>";
+- (id)"NSCountedSet";
+- (double)isualSeparatorDisplaying><UIInterfaceActionVisualSectionSeparatorDisplaying>";
+- (void)ingerTap:(_Bool)arg1;
+- (void)ntText:(double)arg1;
+- (id)showsGridOnly: /* Error: Ran out of types for this method. */;
+- (id): /* Error: Ran out of types for this method. */;
+- (id)exPath: /* Error: Ran out of types for this method. */;
+- (_Bool)anguageIndicatorOnly: /* Error: Ran out of types for this method. */;
+- (void)Time:(id)arg1;
+- (double)aqueBackground: /* Error: Ran out of types for this method. */;
+- (void)tGestureCoordinateSpace:(id)arg1;
+- (void)sIfNeeded;
+- (double)ysConstrainsScale: /* Error: Ran out of types for this method. */;
+- (id)DropSessions: /* Error: Ran out of types for this method. */;
+- (id)rdBlock:(struct CGRect)arg1 withHideKeyboardBlock:(long long)arg2 withExtraResultsBlock:withCleanupBlock: /* Error: Ran out of types for this method. */;
+- (void)orIdentifier:(id)arg1;
+- (void)ssViewController:(_Bool)arg1;
+- (void)nfoList;
+- (void)ockOverlayScrollerState:(id)arg1;
+- (id)eepsZoomedOutTiles;
+- (void)ent: /* Error: Ran out of types for this method. */;
+- (void)FocusUpdateInContext:(id)arg1;
+- (id)x: /* Error: Ran out of types for this method. */;
+- (_Bool)assertCheckpointForCoding;
+- (void)pes:(id)arg1;
+- (void)Effect:(id)arg1 toVisualEffect:(double)arg2 oldGroupName:newGroupName:oldblurClippingMode:newblurClippingMode: /* Error: Ran out of types for this method. */;
+- (void)tion:(id)arg1;
+- (void)wportArguments:(id)arg1;
+- (void)SheetPresentationController;
+- (void)_resolvedUsesSimpleTextEffects;
+- (void)andler:(id)arg1;
+- (void)veTouchForce;
+- (id)nizer:withPhase: /* Error: Ran out of types for this method. */;
+- (id)deMenu: /* Error: Ran out of types for this method. */;
+- (void)ffset:(id)arg1;
+- (void)edChildViewControllerColumn;
+- (void)nTracking:(double)arg1;
+- (void)roundColorForTraitCollection:(id)arg1;
+- (void)ent;
+- (void)captureTouchesRecognizer;
+- (void)ue:(_Bool)arg1 alpha:fillRed:green:blue:alpha:drawShadow: /* Error: Ran out of types for this method. */;
+- (void)lient;
+- (id)tionalSlideHeight;
+- (void)ress;
+- (double)emReferenceAngleModeFromHost;
+- (void)tableArray",&,N,S_setInternalConstraints:(_Bool)arg1 ,V_internalConstraints;
+- (void)traint;
+- (void)extEffectsOperatorProxy;
+- (void)nary",R,N,V_avoidanceRects;
+- (_Bool)_UISceneLayoutGestureAction;
+- (void)entationControllerAppearance;
+- (void)UIFocusTest;
+- (_Bool)_UIAlertControllerActionSheetRegularPresentationController;
+- (void)¤;
+- (void)ì;
+- (id)Üíî;
+- (void)pouØu`vlzü{|}Ø}	\~¼~,L@  ø0;
+- (void)Ì^Ä_;
+- (_Bool);
+- (id)%@;
+- (void)n. Please file a radar on UIKit if you have repro steps;
+- (void)ctionLayoutGroup has specified flexible edge spacing along primary layout axis; flexible spacing will be ignored but any required spacing will be applied.;
+- (void)ar;
+- (_Bool)rong);
+- (void)pliedToInternalScenesKey;
+- (id)is not selectable. Text views must return YES from -isSelectable in order to be focusable.;
+- (void)ells for the same index path, which is not allowed. If you really need to dequeue more cells than the table view is requesting, use the -dequeueReusableCellWithIdentifier:(id)arg1 method (without an index path). Cell identifier:%@, index path:%@ /* Error: Ran out of types for this method. */;
+- (id)sume active event with reason %d, which is not supported;
+- (void)languages on the same keyboard. Customize in Settings.;
+- (void)p;
+- (void)ceived layout attributes with an empty size. This happens when a reusable view has incorrectly configured constraints, or an incorrect override of -sizeThatFits:, -systemLayoutSizeFittingSize:withHorizontalFittingPriority:verticalFittingPriority:, or -preferredLayoutAttributesFittingAttributes:. Ensure that your view generates a valid preferred size.
+Original attributes:%@. Preferred attributes:%@.
+Collection View:%@ /* Error: Ran out of types for this method. */;
+- (id)llectionView dataSource returned a different cell from -collectionView:cellForItemAtIndexPath:than the cell being reconfigured, which is not allowed. When reconfiguring an item, you must obtain the existing cell by dequeuing a cell for the index path specified, using the same registration or reuse identifier that was used to dequeue the cell originally, and return the same cell. Index path:%@; Existing cell:%@; Returned cell:%@ /* Error: Ran out of types for this method. */;
+- (void)ry for _UICellAccessorySystemType:(_Bool)arg1 %ld;
+- (void)boardCandidate"8;
+- (_Bool)6@?0@8;
+- (id).inputFaceColorMatrixSaturation;
 - (void);
 - (void);
-- (void)÷6ÿ¹;
-- (void);
+- (void)¸.3G;
+- (id)É?>;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool)1¢!0@ù
-× ;
-- (id)AqÐ!°@ùQÄ°1¢!0@ù
-× ;
-- (id)
-× ;
-- (void)Å1¢!0@ù
-× ;
+- (id)ù;
 - (id);
-- (void)0@ù
-× ;
-- (id)!X@ùÅ°1¢!0@ù
-× ;
 - (void);
-- (void)1¢!0@ù
-× ;
-- (id)AsÐ!dCùñÆð1¢!0@ù
-× ;
-- (void)
-× ;
-- (void)QÈð1¢!0@ù
-× ;
-- (void);
-- (void)0@ù
-× ;
-- (id)!üGùÑÊ°1¢!0@ù
-× ;
-- (id)DùËð1¢!0@ù
-× ;
-- (void)1¢!0@ù
-× ;
-- (long long)Áw°!¸@ùñÌ°1¢!0@ù
-× ;
-- (id)
-× ;
-- (void)Î1¢!0@ù
-× ;
-- (void)1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1Ib1b1b1b1b1b1b1b1{?=[46B][64c][64c][256c]iiii[100c][100c][100c][100c][2[100c]][1024c]IIb1b1iib1IIiI[150c]iib1b1b1[256c]b1b1b1b2b2b1Ib1b1b1[256c][256c][100c]b1b1b1b1b1db1b1b1[100c][100c][256c][256c]}};
-- (_Bool)ent=}16I24;
-- (void)v32@0:8^@16^{CGRect={CGPoint=dd}{CGSize=dd}}24 /* Error: Ran out of types for this method. */;
-- (void)wBelowText"b1"activeSelection"b1"obtainBlinkSuppressionAssertion"b1"obtainGhostCursorAssertion"b1"convertPointToRenderSpace"b1"convertPointToRenderSpaceUsingTextPosition"b1};
-- (void)cityIntegrator:(id)arg1;
-- (void)withTextView:(id)arg1;
-- (double)ollingEnabled: /* Error: Ran out of types for this method. */;
-- (void)elector:(_Bool)arg1;
-- (id)resFixingAttributes: /* Error: Ran out of types for this method. */;
-- (_Bool)bleSliderRubberbandTransform: /* Error: Ran out of types for this method. */;
-- (id)olorQueue:(struct CGRect)arg1;
-- (void)hKeywordSet;
-- (void)iorFeedback;
-- (void)onsExpiration:(id)arg1;
-- (void)ssionCompletionType;
-- (id)tionGranularity;
-- (void)tializeConnections;
-- (double)iner:layoutAxis:traitCollection:maxFrameCount:layoutRTL:preferredSizes:solverResult:solutionRecursionDepth: /* Error: Ran out of types for this method. */;
-- (void)ationEndpoint:(id)arg1;
-- (void)FromTraitCollection:(_Bool)arg1;
-- (void)idDecodeRestorableStateWithCoder:(double)arg1;
-- (void)OverridesForTransitionFromDisplayMode:(_Bool)arg1 toDisplayMode:shouldResizeIfNecessary: /* Error: Ran out of types for this method. */;
-- (double)eringAppearance: /* Error: Ran out of types for this method. */;
-- (_Bool)rainedPointGetter: /* Error: Ran out of types for this method. */;
-- (id)bBarFocused: /* Error: Ran out of types for this method. */;
-- (_Bool)Animation:contextID: /* Error: Ran out of types for this method. */;
-- (double)rOfStreamingContexts;
-- (void):(double)arg1 appDidCustomizeMenu: /* Error: Ran out of types for this method. */;
-- (id)ty;
-- (double)_didEvaluateMultilineHeightForView: /* Error: Ran out of types for this method. */;
-- (void)dSectionControllerForSectionIdentifier:(id)arg1;
-- (void)ferringScopeBar;
-- (void)gaxTrampoline_endSessionWithCompletion:(id)arg1;
-- (void)tation,S_setChangedPresentingViewControllerDuringAdaptation:,V_changedPresentingViewControllerDuringAdaptation /* Error: Ran out of types for this method. */;
-- (_Bool)N,S_setShouldArchiveUIAppearanceTags: /* Error: Ran out of types for this method. */;
-- (double)pplicationSceneSettingsDiffInspector",&,N,V_sceneSettingsStatusBarDiffInspector;
-- (void)",C,N,V_actionName;
-- (id)HighlighterDelegate>",N,V_delegate;
-- (id)ributesClass;
-- (_Bool)ng;
-- (void)IFocusGuide",&,N,V_keyboardToSearchResultsFocusGuide;
-- (_Bool)",&,N,V_indexPath;
-- (void)ontrollerDelegate;
-- (void)Mode_Time;
-- (void);
-- (void)#($;
-- (_Bool)ð;
-- (id)tThH	¤xÜ`@¤lxxL'0(;
-- (double)ì
-;
-- (void)àM;
-- (void)T;
-- (id)°,±;
-- (void)ÿÿ;
-- (void)tViewController setViewControllers:(id)arg1 ] is not supported by %@ style. Extra view controllers are ignored. Dummy view controllers are inserted for missing ones.;
-- (void)sentingViewController:(double)arg1 %@;
-- (void)nterpreted as UIControlStateHighlighted.;
-- (id)8dúÿ<ÿÿÿÐ;
+- (void)o^;
+- (id);
+- (void)HNhþ;
+- (void)h^;
+- (void)Ì¬ÿq;
+- (id)_;
+- (_Bool)ø@sÿËñÔÄ-_;
+- (double)dÿÿØÓ`;
+- (void)·a;
+- (void)b;
+- (void)°7ÿ;
+- (id)ÿêÔ0d;
 - (id);
-- (void);
-- (void);
-- (_Bool)ï3yQ°j8ìÀj8G;
-- (id)geRenderingInnerParallaxFocusedAdditionalScaleAmount;
-- (id)ection;
-- (id)serious bug, likely caused by accessing properties or methods on the view before calling a UIView initializer. View:(struct CGRect)arg1 %@;
-- (void)RTRecogizerActiveTouchesQueue;
-- (void)ta;
-- (void)block_invoke;
-- (void)okup;
-- (void)ntation of -viewDidUnload caused the view to be reloaded. This will adversely impact system performance.;
-- (void)plates;
-- (id)%@ is trying to set %@ view controllers when only %@ view controllers are supported on this platform. Any additional view controllers will not be shown.;
-- (_Bool)nnelWritingTools;
-- (void)ingToolsCoordinator does not support changing or rejecting the replacement text for noninteractive text replacement;
-- (double)=%@_act=%@;
-- (id)ew lifecycle.;
-- (void)archContainer;
-- (double)genceLightHandle;
-- (_Bool)gestureTrackingSession;
-- (void)ationBar;
-- (id);
 - (void);
-- (id)²öx;
-- (void)|Íÿ)YÙ;
-- (void);
-- (void)"(;
-- (double)j_;
-- (void)Ã_;
-- (void);
-- (id);
-- (void)À¤ÿ;Â½;
-- (void)ºqÿ;
-- (double):Fe /* Error: Ran out of types for this method. */;
-- (id)b;
-- (void)ú
-;
-- (void)4Bd;
-- (id);
-- (id)ô;
-- (id)BÒ¶¸e;
 
 // Remaining properties
 @property(nonatomic) _Bool _backdropVisible; // @synthesize _backdropVisible=__backdropVisible;

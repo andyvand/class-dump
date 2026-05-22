@@ -18,8 +18,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
 - (id);
+- (void)ßöþ
+y_àöþ
+³ÿ
+y%ýþ
+yi;
 
 // Remaining properties
 @property(retain, nonatomic) id <GPAppleConnectAuthenticating> authenticatingProtocol; // @synthesize authenticatingProtocol=_authenticatingProtocol;

@@ -17,7 +17,7 @@
     double _detailsViewOverlayAlpha;
 }
 
-+ (id)|ªÿ		N,19;
++ (id);
 - (double);
 - (long long);
 - (void);
@@ -32,8 +32,8 @@
 - (double);
 - (double);
 - (long long);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) long long daysFocusAnimationStyle; // @synthesize daysFocusAnimationStyle=_daysFocusAnimationStyle;

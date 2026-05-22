@@ -36,17 +36,17 @@
 - (long long);
 - (double);
 - (void);
-- (void);
-- (long long);
+- (id);
 - (id);
 - (struct CGSize);
-- (id);
+- (void);
+- (long long);
+- (void);
 - (void);
 - (void);
 - (void);
 - (long long);
 - (struct CGPoint);
-- (void);
 - (void);
 
 // Remaining properties

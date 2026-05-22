@@ -14,19 +14,19 @@
 }
 
 + (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (id)dler: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)1¢!0@ù
+- (float)0@ù
 × ;
-- (float)umanPresenceStatusIfNeeded;
+- (_Bool)NSIndexPath"40@0:(id)arg1 8@"UISwipeActionController"16{CGPoint=dd}24;
+- (void)ewWithKey:(id)arg1;
+- (void)on:(id)arg1;
+- (id)sourceApplication:(struct _NSZone *)arg1 originatingProcess: /* Error: Ran out of types for this method. */;
+- (id)g restoration user info:%@ /* Error: Ran out of types for this method. */;
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) UIImage *image; // @synthesize image=_image;

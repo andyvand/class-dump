@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, _UITextContainerView;
 @protocol NSCustomTextRendering;
 
 @protocol _UITextContainerViewDelegate
-- (struct _NSRange)aLength must be non 0;
-- (NSDictionary *)A;
-- (_Bool)edDelegatePort:(_UITextContainerView *)arg1 queue: /* Error: Ran out of types for this method. */;
-- (id <NSCustomTextRendering>)k;
+- (id <NSCustomTextRendering>);
 @end
 

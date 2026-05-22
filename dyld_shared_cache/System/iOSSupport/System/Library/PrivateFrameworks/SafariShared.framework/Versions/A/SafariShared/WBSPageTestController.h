@@ -24,9 +24,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
 - (id);
 - (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsContentJavaScript; // @synthesize allowsContentJavaScript=_allowsContentJavaScript;

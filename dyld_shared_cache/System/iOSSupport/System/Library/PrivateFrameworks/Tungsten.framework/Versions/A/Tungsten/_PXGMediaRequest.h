@@ -25,9 +25,9 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (id);
+- (id);
 - (void);
-- (id);
-- (id);
+- (id)ComponentObserver>",W,N,V_observer;
 
 // Remaining properties
 @property(retain, nonatomic) id <PXGDisplayAssetAdjustment> adjustment; // @synthesize adjustment=_adjustment;

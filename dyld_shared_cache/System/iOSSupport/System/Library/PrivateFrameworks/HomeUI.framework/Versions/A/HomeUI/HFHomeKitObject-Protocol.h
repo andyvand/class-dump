@@ -7,7 +7,6 @@
 @class NSUUID;
 
 @protocol HFHomeKitObject
-- (NSUUID *)Item;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *uniqueIdentifier;

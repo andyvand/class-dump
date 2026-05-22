@@ -32,8 +32,8 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (id)8Éüÿ¹òtª;
++ (id)dateLicenseVersionsFromHomeKey;
++ (_Bool)nsactionsToExecute should always be non-empty on the next run loop;
 - (void);
 - (void);
 - (_Bool);
@@ -51,15 +51,15 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (void);
 - (id);
-- (long long);
+- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
+- (void):(id)arg1;
+- (void)´ø;
+- (long long)ild service (%@) have a rotation speed characteristic. This is not a valid configuration. Arbitrarily choosing to use the child fan's characteristic,;
 
 // Remaining properties
 @property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;

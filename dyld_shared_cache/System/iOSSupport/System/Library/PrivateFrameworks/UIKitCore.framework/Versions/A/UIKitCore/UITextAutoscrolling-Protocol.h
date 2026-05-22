@@ -5,8 +5,7 @@
 //
 
 @protocol UITextAutoscrolling
-- (void)ild;
-- (void)Ì¿71éJ4|»;
-- (void)+44Úpþ+4<Úpþ;
+- (void)wþ;
+- (void);
 @end
 

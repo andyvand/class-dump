@@ -4,11 +4,11 @@
 
 class zhtok::HypothesisLogger {
 public: // (access info unavailable from symbols alone)
-    logConnectionAttempt(zhtok::Word const*, zhtok::Word const*, bool);
-    logDroppedLeftHypothesisDueToExistingBetterCost(zhtok::Hypothesis const*, double);
-    logDroppedLowPotentialLeftHypothesis(zhtok::Hypothesis const*, double, double);
-    logDroppedRightHypothesisDueToExistingBetterCost(zhtok::Hypothesis const*, zhtok::Hypothesis const*);
-    logNewHypothesis(zhtok::Hypothesis const*, zhtok::Hypothesis const*);
-    logPrunedHypothesis(zhtok::Hypothesis const*, bool);
-    printString(__CFString const*);
+    auto logConnectionAttempt(zhtok::Word const*, zhtok::Word const*, bool);
+    auto logDroppedLeftHypothesisDueToExistingBetterCost(zhtok::Hypothesis const*, double);
+    auto logDroppedLowPotentialLeftHypothesis(zhtok::Hypothesis const*, double, double);
+    auto logDroppedRightHypothesisDueToExistingBetterCost(zhtok::Hypothesis const*, zhtok::Hypothesis const*);
+    auto logNewHypothesis(zhtok::Hypothesis const*, zhtok::Hypothesis const*);
+    auto logPrunedHypothesis(zhtok::Hypothesis const*, bool);
+    auto printString(__CFString const*);
 };

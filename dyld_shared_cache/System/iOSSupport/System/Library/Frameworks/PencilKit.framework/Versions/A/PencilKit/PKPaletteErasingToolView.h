@@ -16,9 +16,9 @@
 }
 
 - (void);
-- (void)endpointURLString;
 - (void);
-- (_Bool):] /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -26,8 +26,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (double);
+- (double);
+- (void)eSelectionController;
 
 // Remaining properties
 @property(nonatomic, getter=isBitmapEraser) _Bool bitmapEraser; // @synthesize bitmapEraser=_bitmapEraser;

@@ -24,12 +24,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (void);
 - (id);
-- (id)N<üÿ£ûÿ;
-- (void)irements;
 - (void);
+- (void)16@?0d8;
+- (void)lÈtÿ;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

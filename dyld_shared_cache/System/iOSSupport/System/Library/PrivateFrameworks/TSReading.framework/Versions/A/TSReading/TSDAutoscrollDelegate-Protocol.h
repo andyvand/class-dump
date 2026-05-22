@@ -7,11 +7,6 @@
 @class TSDAutoscroll, TSDInteractiveCanvasController;
 
 @protocol TSDAutoscrollDelegate
-- (TSDInteractiveCanvasController *);
-
-@optional
-- (double);
-- (_Bool);
 
 // Remaining properties
 @property(retain, nonatomic) TSDAutoscroll *autoscroll;

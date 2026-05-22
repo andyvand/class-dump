@@ -15,16 +15,16 @@
 }
 
 - (id);
-- (id);
 - (void);
+- (id);
 - (_Bool);
-- (void);
-- (id);
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void)etQuestionLabel:(_Bool)arg1;
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic, copy) CDUnknownBlockType actionHandler;

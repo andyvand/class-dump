@@ -16,10 +16,9 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)!;
-- (void)1"hasCredits"b1"isPinned"b1"immersiveDeepLinkURL"b1"dateReleased"b1"classicalWork"b1"classicalMovement"b1"classicalMovementCount"b1"classicalMovementNumber"b1"album"{?="identifiers"b1"title"b1"releaseDate"b1"year"b1"artist"b1"trackCount"b1}"artist"{?="identifiers"b1"name"b1}"composer"{?="identifiers"b1"name"b1}"genre"{?="identifiers"b1"name"b1}"homeSharingAsset"{?="identifiers"b1}"lyrics"{?="identifiers"b1"text"b1"hasStoreLyrics"b1"hasTimeSyncedLyrics"b1"hasDownloadedCatalogLyrics"b1}};
-- (void)ñÂ1¢!0@ù
-× ;
+- (void);
+- (void)etedPreview;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) _UITableViewCellSeparatorView *separatorView; // @synthesize separatorView=_separatorView;

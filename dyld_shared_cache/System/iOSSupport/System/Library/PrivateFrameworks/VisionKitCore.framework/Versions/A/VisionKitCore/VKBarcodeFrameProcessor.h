@@ -30,11 +30,12 @@
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (id);
-- (void)~;
+- (void)@ù
+× ;
 
 // Remaining properties
 @property(copy, nonatomic) VKBarcodeFrameProcessorConfiguration *configuration;

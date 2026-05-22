@@ -77,9 +77,9 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
 - (id);
 - (id);
+- (void)datePersonalDeviceWarningDescription;
 
 // Remaining properties
 @property(nonatomic) _Bool canShowOverlayContent; // @synthesize canShowOverlayContent=_canShowOverlayContent;

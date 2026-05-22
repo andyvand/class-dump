@@ -34,11 +34,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)encies;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *announceEnabledForHomePod; // @synthesize announceEnabledForHomePod=_announceEnabledForHomePod;

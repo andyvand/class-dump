@@ -13,7 +13,7 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)tingGroup;
++ (id)F-1C21-4D0B-9383-9B65F64DBF0E;
 - (void);
 - (id);
 - (id);

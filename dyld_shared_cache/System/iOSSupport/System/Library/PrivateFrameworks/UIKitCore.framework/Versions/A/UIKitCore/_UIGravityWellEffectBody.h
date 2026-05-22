@@ -24,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
+- (id)BadgeStyle:,V_preferredBadgeStyle /* Error: Ran out of types for this method. */;
+- (id)NSIndexPath"8@"UICollectionReusableView"16^B24;
 - (void);
-- (id)showProgressWhenFetchingUserActivityForTypes: /* Error: Ran out of types for this method. */;
-- (id)ionGetter;
-- (id)b;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *anchorView; // @synthesize anchorView=_anchorView;

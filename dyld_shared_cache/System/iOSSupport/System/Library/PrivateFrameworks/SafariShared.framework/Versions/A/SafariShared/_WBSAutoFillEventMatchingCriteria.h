@@ -25,9 +25,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (double);
+- (id)@ù
+× ;
+- (void)InstantMessageSkypeInstant;
+- (double)P;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *currentURL; // @synthesize currentURL=_currentURL;

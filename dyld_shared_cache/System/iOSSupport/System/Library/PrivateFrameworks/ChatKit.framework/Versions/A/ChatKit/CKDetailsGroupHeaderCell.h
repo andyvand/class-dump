@@ -20,24 +20,24 @@ __attribute__((visibility("hidden")))
 + (id);
 - (id);
 - (id);
-- (id)* added a note;
+- (id);
 - (id);
 - (void);
-- (id)a
-;
+- (id);
 - (void);
 - (double);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (struct CGSize);
 - (void);
 - (void);
-- (void);
-- (struct CGSize)øÜ;
-- (void)Æ;
-- (id)6p/;
-- (id)ú/;
+- (void)ý°!¨Gùq1Â0@ù
+× ;
+- (void)ÅhôÊëÿ;
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) CKDetailsAvatarPancakeView *avatarView; // @synthesize avatarView=_avatarView;

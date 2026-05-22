@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     id _proxy;
 }
 
-- (id);
 - (void);
+- (id);
 - (void);
 
 @end

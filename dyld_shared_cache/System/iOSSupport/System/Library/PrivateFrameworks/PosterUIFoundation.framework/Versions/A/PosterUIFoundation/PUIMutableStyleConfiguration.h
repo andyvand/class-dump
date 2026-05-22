@@ -14,8 +14,8 @@
 }
 
 + (_Bool);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(nonatomic) unsigned long long colorWellDisplayMode; // @dynamic colorWellDisplayMode;

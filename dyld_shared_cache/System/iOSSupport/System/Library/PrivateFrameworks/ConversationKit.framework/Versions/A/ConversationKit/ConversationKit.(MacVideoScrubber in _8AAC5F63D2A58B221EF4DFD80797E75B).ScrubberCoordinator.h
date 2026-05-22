@@ -20,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
+- (void)G;
 
 @end
 

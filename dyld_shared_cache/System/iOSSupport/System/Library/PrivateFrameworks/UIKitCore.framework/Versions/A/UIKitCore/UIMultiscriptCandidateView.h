@@ -17,19 +17,18 @@ __attribute__((visibility("hidden")))
     UIAlternativeCandidatesButton *_alternativeCandidatesButton;
 }
 
-- (void)PhotoBundleIfNecessary;
-- (void)TML;
-- (_Bool)kAndUpdateSMSSpamFilterExtensionForUnregisteredOrUpdatedPlugins:arePluginsRegistered: /* Error: Ran out of types for this method. */;
-- (void)object:(id)arg1 userInfo: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)ÁnÐ!CùñÀð1¢!0@ù
-× ;
 - (id);
-- (id)eWithPossiblyObstructedContent;
+- (id)Þ13UqþuÞ13TqþÅÞ13XTqþUÞ13TTqþUÞ13DTqþÞ13TqþÕÞ13\Uqþ¥Þ13Tqþ;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) UIAction *alternativeCandidateAction; // @synthesize alternativeCandidateAction=_alternativeCandidateAction;

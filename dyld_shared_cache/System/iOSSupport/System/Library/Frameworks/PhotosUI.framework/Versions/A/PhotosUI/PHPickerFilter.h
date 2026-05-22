@@ -33,11 +33,11 @@
 + (id);
 - (id);
 - (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
-- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PUPickerFilter> _puPickerFilter; // @synthesize _puPickerFilter=__puPickerFilter;

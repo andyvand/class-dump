@@ -14,8 +14,8 @@
     RTTripSegmentInertialDataStore *_inertialDataStore;
 }
 
-+ (id);
 + (long long);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -27,9 +27,9 @@
 - (void);
 - (void);
 - (void);
-- (id)llationBlock: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)}.pª;
+- (id);
+- (void), %{sensitive}@;
+- (void)¢;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

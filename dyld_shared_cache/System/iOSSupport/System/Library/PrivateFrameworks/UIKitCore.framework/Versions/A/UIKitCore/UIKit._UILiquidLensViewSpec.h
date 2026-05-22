@@ -13,13 +13,12 @@
 }
 
 + (id);
-- (void)on chat %@;
 - (void);
-- (void)1¢!0@ù
-× ;
-- (id)splitHeightDelta;
-- (id)ornerRadius;
-- (id),S_setFocusHeading:,V_focusHeading /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id)anged;
+- (id);
+- (void)¸Vÿ	Ó;
 
 // Remaining properties
 @property(nonatomic, retain) _TtC5UIKit33_UILiquidLensViewLargeVariantSpec *large; // @synthesize large;

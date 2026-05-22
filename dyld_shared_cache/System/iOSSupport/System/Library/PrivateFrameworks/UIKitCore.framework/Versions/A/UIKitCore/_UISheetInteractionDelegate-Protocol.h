@@ -4,16 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UISheetInteraction;
-
 @protocol _UISheetInteractionDelegate
-
-@optional
-- (_Bool)em failed for propertyItem;
-- (_Bool)FDRDiagnosticCopySealDate;
-- (_Bool)%@, error:(_UISheetInteraction *)arg1 %@;
-- (void)data dir enumerator is NULL;
-- (void);
-- (void)ssMergedChatsIfNecessary:(_UISheetInteraction *)arg1;
 @end
 

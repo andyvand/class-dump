@@ -26,20 +26,20 @@
 
 + (id);
 - (id);
-- (void);
 - (void);
-- (void)$æ|;
 - (void);
-- (void)§z;
 - (void);
-- (id)*2æ|;
-- (id)|;
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void) ;
+- (id);
+- (id);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (struct CGSize);
@@ -49,20 +49,19 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (struct CGSize);
-- (void)0@ù
-× ;
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allVariants; // @synthesize allVariants=_allVariants;

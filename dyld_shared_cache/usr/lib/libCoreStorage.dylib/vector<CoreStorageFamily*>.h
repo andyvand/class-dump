@@ -4,7 +4,7 @@
 
 class vector<CoreStorageFamily*> {
 public: // (access info unavailable from symbols alone)
-    push_back(CoreStorageFamily* const&);
-    reserve(unsigned long);
+    auto push_back(CoreStorageFamily* const&);
+    auto reserve(unsigned long);
     ~vector();
 };

@@ -20,10 +20,10 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void)LAN_AlertMessage_iOS;
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSTimer *imageLoadInvalidationTimer; // @synthesize imageLoadInvalidationTimer=_imageLoadInvalidationTimer;

@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)SYTY;
 - (void);
+- (void)doesn't support loading more];
 
 // Remaining properties
 @property(retain, nonatomic) NSIndexPath *startItemIndexPath; // @synthesize startItemIndexPath=_startItemIndexPath;

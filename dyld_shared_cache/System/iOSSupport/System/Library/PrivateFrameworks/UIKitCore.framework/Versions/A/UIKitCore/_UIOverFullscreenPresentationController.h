@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (long long)ÞM%5^;
+- (long long)Item:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

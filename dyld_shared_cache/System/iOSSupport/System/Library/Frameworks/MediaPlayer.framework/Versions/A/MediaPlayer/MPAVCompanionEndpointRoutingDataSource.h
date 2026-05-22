@@ -10,9 +10,9 @@
 {
 }
 
-- (id)tifier:(id)arg1 client: /* Error: Ran out of types for this method. */;
-- (id)sVectorType;
-- (void)l.serial.queue;
+- (id);
+- (id);
+- (void);
 
 @end
 

@@ -23,7 +23,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)laybackDate_KEY;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool addToCloudLibrary; // @synthesize addToCloudLibrary=_addToCloudLibrary;

@@ -15,9 +15,9 @@
 - (id);
 - (id);
 - (CDUnknownBlockType);
-- (void);
-- (long long);
 - (id);
+- (long long);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType chapterConfiguration; // @synthesize chapterConfiguration=_chapterConfiguration;

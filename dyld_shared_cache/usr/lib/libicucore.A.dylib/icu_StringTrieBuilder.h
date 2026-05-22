@@ -5,16 +5,16 @@
 class icu::StringTrieBuilder {
 public: // (access info unavailable from symbols alone)
     StringTrieBuilder();
-    build(UStringTrieBuildOption, int, UErrorCode&);
-    createCompactBuilder(int, UErrorCode&);
-    deleteCompactBuilder();
-    equalNodes(void const*, void const*);
-    hashNode(void const*);
-    makeBranchSubNode(int, int, int, int, UErrorCode&);
-    makeNode(int, int, int, UErrorCode&);
-    registerFinalValue(int, UErrorCode&);
-    registerNode(icu::StringTrieBuilder::Node*, UErrorCode&);
-    writeBranchSubNode(int, int, int, int);
-    writeNode(int, int, int);
+    auto build(UStringTrieBuildOption, int, UErrorCode&);
+    auto createCompactBuilder(int, UErrorCode&);
+    auto deleteCompactBuilder();
+    auto equalNodes(void const*, void const*);
+    auto hashNode(void const*);
+    auto makeBranchSubNode(int, int, int, int, UErrorCode&);
+    auto makeNode(int, int, int, UErrorCode&);
+    auto registerFinalValue(int, UErrorCode&);
+    auto registerNode(icu::StringTrieBuilder::Node*, UErrorCode&);
+    auto writeBranchSubNode(int, int, int, int);
+    auto writeNode(int, int, int);
     ~StringTrieBuilder();
 };

@@ -28,56 +28,54 @@ __attribute__((visibility("hidden")))
     NSString *category;
 }
 
-+ (_Bool);
++ (_Bool)ableViewHeadersFootersUseModernConfiguration;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (id)!;
-- (_Bool)ing message %@;
-- (_Bool)now %s;
-- (long long)ing this chat as dirty so we send a nickname on the next message send;
-- (long long)keys %@ %@ from analyticDict.;
-- (id)ind chat using SMS chat fallback search.;
+- (id);
+- (_Bool);
+- (_Bool);
+- (long long);
+- (long long);
+- (id);
 - (void);
 - (void);
-- (void)?0^@8;
+- (void);
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (_Bool)NSColor",R,V_backgroundColor;
-- (void);
-- (void);
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void)! EùÑÂÐ1¢!0@ù
+- (_Bool)1Â0@ù
 × ;
+- (_Bool)icksWhenVisible;
+- (void)roller:(id)arg1;
+- (void)ploadURL;
+- (id)yphenationFactorIgnoredIfURLsDetected;
+- (void)imationResponse;
+- (void)ormatting;
+- (id)À;
 - (id);
-- (id)rð!Gù1ÆÐ1¢!0@ù
-× ;
-- (id)UINavigationBarTitleFontProvider";
-- (id)SIndexPath"24@"UIView"32Q40;
-- (id)ticScrollBar;
-- (id)V_ignoringKeyplaneChange;
-- (id)UIContextMenuSmallFloatingPaletteCellLayout;
-- (void)ÿÿ9;
-- (id);
-- (void);
-- (void)ock is already being executed while ignoring scroll callbacks. This guard is not reentrant safe.;
-- (void)ers.glassBackground.inputBleedColorMatrixWhite;
+- (void)bol;
 - (id);
-- (void)pj;
-- (void)÷×Ê
-j;
-- (void)+×;l;
-- (id)ÑK@l;
+- (void)¯ÊÿIR\;
+- (void);
+- (void)Lëtþ;
+- (void)·(¦i;
+- (void)óÿ@r;
+- (id);
+- (id);
+- (id)\ÿo;
+- (void);
 
 @end
 

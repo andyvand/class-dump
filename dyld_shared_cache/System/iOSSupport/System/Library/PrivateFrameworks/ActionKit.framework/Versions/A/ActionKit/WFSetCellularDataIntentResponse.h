@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long)nvalid response from SCP server, malformed mtime;
-- (void)alize private key from file;
+- (long long)nguage;
+- (void)ion;
 
 // Remaining properties
 @property(nonatomic) long long code; // @synthesize code=_code;

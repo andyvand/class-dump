@@ -29,19 +29,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id)"eventTime"b1"starRating"b1"status"b1"isActionUserDevice"b1};
-- (_Bool)ssChat"b1"isFromMe"b1"isGroupThread"b1"isJunk"b1"isKnownSender"b1"isNew"b1"isPinned"b1"isRead"b1"isTwoFactorCode"b1};
-- (_Bool)1"messageEffect"b1"isBusinessChat"b1"isFromMe"b1"isGroupThread"b1"isJunk"b1"isKnownSender"b1"isNew"b1"isPinned"b1"isRead"b1"isTwoFactorCode"b1};
-- (_Bool)soluteTimestamp"b1"tapbackType"b1"messageEffect"b1"isBusinessChat"b1"isFromMe"b1"isGroupThread"b1"isJunk"b1"isKnownSender"b1"isNew"b1"isPinned"b1"isRead"b1"isTwoFactorCode"b1};
-- (id)or:(id)arg1;
-- (void)scription: /* Error: Ran out of types for this method. */;
-- (void)remoteObjectProxyWithErrorHandler: /* Error: Ran out of types for this method. */;
-- (void)rankingSecondsSinceReferenceDate;
-- (void)ccountType:attachments: /* Error: Ran out of types for this method. */;
-- (void)Handles:ccHandles:bccHandles:headers:subject:htmlContent:textContent:isFullyDownloaded:securityMethod:accountHandles:replyTo:mailboxIdentifiers:listId:accountType:attachments: /* Error: Ran out of types for this method. */;
-- (id)statementScore;
-- (void)arkedUnread;
-- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -52,15 +44,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (id);
-- (id)et file failed, vendor request failed.;
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void)Number",C,N,V_timeoutInterval;
-- (void)base;
-- (id)Ú
-;
-- (id)ÿyr;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id)ÿLî;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAccessory *currentAccessory;

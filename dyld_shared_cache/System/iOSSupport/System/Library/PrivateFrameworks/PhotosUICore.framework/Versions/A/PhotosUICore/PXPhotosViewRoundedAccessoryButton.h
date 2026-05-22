@@ -15,14 +15,15 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (struct CGPoint);
-- (void);
+- (struct CGSize);
 - (id);
 - (void);
-- (struct CGPoint);
-- (id)~ÿ;
-- (void)µ-;
-- (struct CGSize);
-- (void)==PöÈ7;
+- (id)0@ù
+× ;
+- (void)½Çp5ÿ;
+- (struct CGPoint);
+- (void)U;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGPoint menuOffset; // @synthesize menuOffset;

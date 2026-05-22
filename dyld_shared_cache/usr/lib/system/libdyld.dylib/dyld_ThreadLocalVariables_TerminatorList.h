@@ -4,5 +4,5 @@
 
 class dyld::ThreadLocalVariables::TerminatorList {
 public: // (access info unavailable from symbols alone)
-    reverseWalkChain(void (dyld::ThreadLocalVariables::TerminatorList*) block_pointer);
+    auto reverseWalkChain(void (dyld::ThreadLocalVariables::TerminatorList*) block_pointer);
 };

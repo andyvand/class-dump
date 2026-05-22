@@ -14,9 +14,9 @@
     MISSING_TYPE *isSelected;
 }
 
+- (id);
 - (void);
-- (id)h2;
-- (id);
+- (id);
 
 @end
 

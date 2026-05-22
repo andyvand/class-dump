@@ -25,10 +25,10 @@
 - (void);
 - (double);
 - (id);
-- (void);
-- (id);
 - (id);
 - (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(nonatomic) double contentsLuminance; // @synthesize contentsLuminance=_contentsLuminance;

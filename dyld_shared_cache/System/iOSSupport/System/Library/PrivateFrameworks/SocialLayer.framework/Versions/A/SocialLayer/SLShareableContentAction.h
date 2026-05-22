@@ -19,14 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
 - (CDUnknownBlockType);
 - (id);
 - (id);
-- (void)ariant;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;

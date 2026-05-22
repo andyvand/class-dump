@@ -15,21 +15,21 @@
     NSString *_detailString;
 }
 
-+ (_Bool);
++ (_Bool)rButton;
+- (id);
+- (double);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id)1Ä1¢!0@ù
+- (long long)±a°1Â0@ù
 × ;
-- (double)× ;
-- (void)× ;
-- (void);
-- (long long);
-- (id)pected separately.;
-- (void)tingsDomain;
+- (_Bool)w<UIActionSheetPresentationControllerDismissActionView>";
+- (void)eExternalTouchPathIndex;
+- (id)tment:includeEmoji: /* Error: Ran out of types for this method. */;
+- (id)k:(struct _NSZone *)arg1;
+- (void)reAccessoryViewConstraints;
+- (id)äG;
+- (void)Í03ySo7UITouchCG;
+- (void)*\Âõ(¼?;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *detailString; // @synthesize detailString=_detailString;

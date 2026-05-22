@@ -23,18 +23,18 @@
     MISSING_TYPE *originalVideoURL;
 }
 
-- (id)ng async;
+- (id);
 - (CDStruct_c3b9c2ee);
 - (_Bool);
 - (double);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (void);
-- (long long);
 - (double);
+- (unsigned long long);
 - (long long);
-- (id)te;
+- (id);
+- (void);
+- (long long)cÓ;
 
 // Remaining properties
 @property(nonatomic, readonly) double bitrate; // @synthesize bitrate;

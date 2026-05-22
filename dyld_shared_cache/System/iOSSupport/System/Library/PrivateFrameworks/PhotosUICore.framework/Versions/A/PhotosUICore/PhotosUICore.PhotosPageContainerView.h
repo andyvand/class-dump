@@ -18,12 +18,12 @@
 - (void);
 - (void);
 - (struct CGRect);
+- (void);
 - (id);
 - (id);
 - (void);
+- (id);
 - (void);
-- (void);
-- (id)PZúÿÝNÈëúÿìúÿP;
 
 // Remaining properties
 @property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect;

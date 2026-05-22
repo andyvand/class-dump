@@ -30,55 +30,55 @@
     UICollectionViewCell *_lastUserSelectedCell;
 }
 
-- (_Bool)s;
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void)ltitaskingOccurred;
-- (void)<;
 - (void);
 - (void);
-- (void)tG;
 - (void);
 - (void);
-- (void)ManagedObjectIDCG;
-- (void)AFGGAHG;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void)2eFtGGAFtGGG;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)i;
 - (void);
-- (id)s;
-- (void)s;
 - (void);
-- (id)r;
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id)b;
+- (id);
 - (void);
 - (struct UIEdgeInsets);
-- (id)nded OCR Generation Early due to no image url for Attachment:(id)arg1 %@;
-- (id)der to place imported note, no legacy context available.;
-- (id)NeedingConversionInNote %@;
-- (id)* deleted %lld notes;
-- (id)ou want to reset your password?;
-- (void)sWithPrompt:error:displayWindow:completionHandler:] /* Error: Ran out of types for this method. */;
-- (id)macOS.;
-- (id)?0@"ICEvernoteNote"8;
 - (id);
-- (id)Modification Date;
-- (void)ionary"8{_NSRange=QQ}16^B32;
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -93,37 +93,41 @@
 - (id);
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id)	;
-- (id);
-- (void);
-- (id);
-- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void));
+- (struct CGSize);
 - (void);
 - (void);
 - (void);
-- (void)ibrationIdentifier;
-- (id)mageBackdropBalloonDescriptor;
-- (void)ðÖä×TÙDÜàÜ<ÞÄÞ¼âLãä¤ä¸å;
-- (_Bool),Á;
-- (void)ð¯9;
-- (void)lPocketInteractionsIfNeeded called. Transitioning from scrollViews %p to %p.;
-- (struct CGSize)¤ Ôô;
-- (void);
-- (void);
-- (void)5`6Ü'/;
-- (id)ÿ¨úÕ·¡/;
-- (void)v0;
+- (void);
+- (id)1Â0@ù
+× ;
+- (void)!û!ÀEù1°1Â0@ù
+× ;
+- (void)
+× ;
+- (void)ÑÐ1Â0@ù
+× ;
+- (void)e;
+- (void)llerDelegate>",W,N,V_delegate;
+- (_Bool)X4H5 8;
+- (void)identifier %@, indexPath:(_Bool)arg1 %@;
+- (id)gister existing chats;
+- (void)Ihi;
+- (id);
+- (void)hÿ~W:ä2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CKSearchController *associatedDetailsSubsectionSearchController; // @synthesize associatedDetailsSubsectionSearchController=_associatedDetailsSubsectionSearchController;

@@ -19,12 +19,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id)veStateControlItem.m;
+- (void)upOptions;
+- (void)¬;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType filter; // @synthesize filter=_filter;

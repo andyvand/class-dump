@@ -7,16 +7,6 @@
 @class NSString;
 
 @protocol NSObject
-- (Class)lassName:@kIOTimeSyncClockManagerClass] /* Error: Ran out of types for this method. */;
-- (id)ice conformsToIOClassName:@kIOTimeSyncClockManagerClass] /* Error: Ran out of types for this method. */;
-- (id)vice;
-- (id)Manager.shared;
-- (id)m;
-- (Class)rnal/Library/BuildRoots/4~CG4pugDzYqK29QlUQRFR0oXxWJCpYh02CNDaiIY/Library/Caches/com.apple.xbs/Sources/TimeSync/clocksyncd/IOKit/TSDClockManager.mm;
-- (_Bool)b;
-- (_Bool)!;
-- (_Bool);
-- (_Bool)Dy;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

@@ -14,9 +14,9 @@
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
 
 // Remaining properties
 @property _Bool enforcesChildRestrictions; // @synthesize enforcesChildRestrictions=_enforcesChildRestrictions;

@@ -4,11 +4,12 @@
 
 class std::istrstream {
 public: // (access info unavailable from symbols alone)
+    auto rdbuf() const;
+    auto str();
     istrstream(char const*);
     istrstream(char const*, long);
     istrstream(char*);
     istrstream(char*, long);
-    rdbuf() const;
-    str();
+    virtual thunk to ~istrstream();
     ~istrstream();
 };

@@ -16,8 +16,8 @@
     NSString *_status;
 }
 
-+ (id)rýÿXÌÿÿ;
-+ (id).à;
++ (id);
++ (id);
 - (void);
 - (void);
 - (id);
@@ -26,11 +26,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void)utableDictionary",R,N,V_attributionSets;
+- (void)name:(id)arg1 typeIdentifier: /* Error: Ran out of types for this method. */;
+- (id)ase;
+- (void)%@;
+- (void)BRepeatedKeyValuePair.m;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

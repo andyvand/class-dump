@@ -23,15 +23,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
 - (CDUnknownBlockType);
-- (id);
 - (void);
 - (void);
-- (id);
 - (void);
 
 // Remaining properties

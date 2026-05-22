@@ -20,23 +20,23 @@
     UIView *_colorBulletView;
 }
 
-- (_Bool)@64@72;
-- (_Bool)ity>";
-- (_Bool)y:fromVersion: /* Error: Ran out of types for this method. */;
-- (void)ictionary;
-- (void)reAllConfigurationResourcesInvalid:(id)arg1 configurationSettings:allowedToReachEndpoint:requestKeys: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (void)total time:(id)arg1 %f;
-- (void)figuration %{public}@ with size:(id)arg1 %@, total time:%f /* Error: Ran out of types for this method. */;
-- (id)oundURLSessionHandler networkSessionDidFinish, id:%{public}@, taskCount:%lu /* Error: Ran out of types for this method. */;
-- (id)y(RCAdditions) rc_dictionaryByTransformingKeysWithKeyAndValueBlock:] /* Error: Ran out of types for this method. */;
-- (id)nager cancelAllTasksOnBackgroundSessionWithSettings:completion:] /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
-- (long long);
+- (id);
+- (id);
+- (id);
+- (long long);
 - (id);
 - (double);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
@@ -44,18 +44,19 @@
 - (void);
 - (id);
 - (void);
-- (id)te:completion: /* Error: Ran out of types for this method. */;
-- (double)oteDarwinVoiceTrigger;
+- (id);
+- (double);
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool)É;
+- (void)0@ù
+× ;
+- (id)g:(id)arg1 alternateContainerView:(id)arg2 alternateDrawingTransform:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)Locating;
+- (_Bool)ð0;
+- (void)er with the full drawing %@ with %lu strokes with manager %@;
 
 // Remaining properties
 @property(readonly, nonatomic) double bulletInset; // @synthesize bulletInset=_bulletInset;

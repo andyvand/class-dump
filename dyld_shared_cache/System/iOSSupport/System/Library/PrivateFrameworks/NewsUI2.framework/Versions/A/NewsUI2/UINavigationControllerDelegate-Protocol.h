@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIViewControllerAnimatedTransitioning;
+@protocol UIViewControllerInteractiveTransitioning;
 
 @protocol UINavigationControllerDelegate
 
 @optional
-- (id <UIViewControllerAnimatedTransitioning>);
-- (void)yñÿyñÿèyñÿ zñÿ8zñÿpzñÿzñÿ´zñÿÌzñÿøzñÿ{ñÿT{ñÿl{ñÿ¸{ñÿÜ{ñÿ<}ñÿt}ñÿ}ñÿ¬}ñÿÄ}ñÿü}ñÿ4~ñÿL~ñÿp~ñÿ~ñÿ´~ñÿì~ñÿñÿ0ñÿHñÿlñÿÄñÿüñÿñÿ,ñÿXñÿpñÿ¨ñÿÌñÿñÿñÿ4ñÿñÿ¨ñÿèñÿ ñÿ8ñÿdñÿ|ñÿ¤ñÿÜñÿôñÿLñÿñÿ¨ñÿÌñÿøñÿñÿ4ñÿ`ñÿxñÿ°ñÿèñÿ;
+- (void)onfigFetcher;
+- (id <UIViewControllerInteractiveTransitioning>).most_recent_feed_identifier;
 @end
 

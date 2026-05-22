@@ -5,7 +5,5 @@
 //
 
 @protocol SXVisibilityReporting
-- (void);
-- (void)U[;
 @end
 

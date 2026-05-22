@@ -8,9 +8,6 @@
 
 @protocol NSFilePresenter
 
-@optional
-- (void);
-
 // Remaining properties
 @property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
 // Preceding property had unknown attributes: ?

@@ -13,13 +13,13 @@
 
 + (id);
 + (_Bool);
-- (void);
-- (unsigned long long)ype %ld;
+- (id);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (id);
 - (void);
 - (void);
-- (id);
+- (void)q,N,V_storePurchasedAdamID;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *keyPath; // @synthesize keyPath=_keyPath;

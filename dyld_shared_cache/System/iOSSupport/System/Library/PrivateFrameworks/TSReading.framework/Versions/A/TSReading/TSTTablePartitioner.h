@@ -17,7 +17,7 @@
     NSMutableDictionary *mPartitioningPassCache;
 }
 
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);

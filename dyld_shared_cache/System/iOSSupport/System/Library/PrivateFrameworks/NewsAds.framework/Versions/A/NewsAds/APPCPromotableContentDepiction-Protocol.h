@@ -7,7 +7,7 @@
 @class NSArray, NSString;
 
 @protocol APPCPromotableContentDepiction
-- (unsigned long long);
+- (long long)erformPrimaryActionForRowAtIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long adjacentPosition;

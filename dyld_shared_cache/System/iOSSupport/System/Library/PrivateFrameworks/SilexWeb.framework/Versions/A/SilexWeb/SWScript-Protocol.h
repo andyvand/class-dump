@@ -7,9 +7,6 @@
 @class NSString, WKUserScript;
 
 @protocol SWScript
-- (_Bool);
-- (WKUserScript *);
-- (NSString *)f=*i}^{__sFILEX}i[3C][1C]{__sbuf=*i}iq};
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *executableScript;

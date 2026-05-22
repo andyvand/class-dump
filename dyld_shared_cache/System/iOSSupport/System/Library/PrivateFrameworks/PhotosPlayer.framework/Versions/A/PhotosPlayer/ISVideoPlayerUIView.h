@@ -15,18 +15,18 @@
 }
 
 - (id);
+- (void);
+- (void);
+- (void);
+- (struct CGRect);
+- (void);
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
-- (void);
 - (id);
-- (void);
 - (_Bool);
-- (void)tableTileAtIndex: /* Error: Ran out of types for this method. */;
-- (void)oreProvider.mm;
+- (void);
 - (id);
-- (struct CGRect);
 - (void);
 
 // Remaining properties

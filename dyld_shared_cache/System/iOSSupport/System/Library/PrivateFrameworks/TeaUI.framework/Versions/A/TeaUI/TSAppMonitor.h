@@ -15,14 +15,14 @@
 }
 
 - (void);
-- (id)<;
+- (id);
 - (id);
 - (void);
+- (id);
 - (_Bool);
-- (void)W ;
+- (_Bool)tCardItem;
 - (void);
-- (id)InsertedText:inputFrame:isSecureText: /* Error: Ran out of types for this method. */;
-- (_Bool)àÿÿÿÿÿ;
+- (void)ÉÿbxÊÿbìêÉÿUbtÊÿbT Çÿ]blÊÿ;
 
 // Remaining properties
 @property(nonatomic) _Bool isActive; // @synthesize isActive;

@@ -14,9 +14,9 @@
 
 + (id);
 - (id);
-- (id);
-- (void);
-- (id)or;
+- (id)SongPick;
+- (void);
+- (id)5;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) AVAsset *asset; // @synthesize asset=_asset;

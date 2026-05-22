@@ -14,28 +14,29 @@
 + (id);
 + (id);
 - (_Bool);
-- (id)@;
+- (id);
 - (long long);
-- (float);
-- (void)o transfer, storing instead;
-- (id)m appLink:(id)arg1 %@ for URL:(long long)arg2 %@;
+- (float);
+- (void);
+- (id);
 - (_Bool);
 - (_Bool);
 - (double);
 - (void);
 - (float);
-- (float);
 - (void);
-- (long long)MutableURLRequest";
-- (_Bool)talogBlock:(id)arg1;
+- (id);
 - (float);
 - (id);
-- (id);
 - (void);
-- (id)ransform;
-- (void)",&,N,S_setAssociatedScalingLabel:(float)arg1;
-- (void)dedList;
-- (long long)Zg;
+- (long long);
+- (long long)!(Fùñ]Ð1Â0@ù
+× ;
+- (_Bool)ighted;
+- (void)ed:(id)arg1;
+- (id)8I;
+- (float)ticDimension.;
+- (void)ßl;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsTickValuesOnly;

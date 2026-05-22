@@ -19,16 +19,16 @@
     TUIGradientView *_lightEffectsContainer;
 }
 
-- (id)ióz;
+- (id);
 - (void);
 - (void);
-- (void)æ|;
-- (void)3æ|;
-- (void)z;
-- (void)Ü2æ|;
-- (void)z;
 - (void);
-- (void)Ø;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -37,16 +37,16 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (unsigned long long);
+- (id);
 - (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (void):(id)arg1 8@16;
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *captionLabel; // @synthesize captionLabel=_captionLabel;

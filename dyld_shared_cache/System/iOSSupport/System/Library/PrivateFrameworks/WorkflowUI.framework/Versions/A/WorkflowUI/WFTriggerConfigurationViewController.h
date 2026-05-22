@@ -37,21 +37,21 @@
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
 - (_Bool);
+- (unsigned long long);
 - (id);
+- (long long);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void)nURL: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (void)roller;
+- (void)spectorPaneSegmentedControlHostingView;
+- (id);
+- (void)2Ùýÿ(ýÿ;
+- (id)GGAUy¹"SgGGHËG_ÁSQo_AQGSgtGG;
 
 // Remaining properties
 @property(readonly, copy) NSString *debugDescription;

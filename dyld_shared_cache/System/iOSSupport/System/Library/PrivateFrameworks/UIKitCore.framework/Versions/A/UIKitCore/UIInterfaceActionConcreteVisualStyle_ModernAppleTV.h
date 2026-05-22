@@ -12,20 +12,20 @@ __attribute__((visibility("hidden")))
 }
 
 + (Class);
-- (_Bool)initWithIDSTrustedData:messageContext:idsService:filteringContext: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (id);
-- (struct CGSize)}};
-- (double):%@  on transfer:%@ /* Error: Ran out of types for this method. */;
-- (void)age controller;
-- (_Bool)upload asset for %@;
-- (id)h toIdentifier:(id)arg1 %@ fromIdentifier:%@ displayName:%@ participants:%@ sortedIdentifiers:%@ /* Error: Ran out of types for this method. */;
-- (id)Migrating siblings to new groupID if needed:(id)arg1 %@;
-- (id)newer chat based on participants and display name:(id)arg1 %@;
-- (id)lay name was zero length, chat:(id)arg1 %@;
-- (struct UIEdgeInsets)%@ account:%@ result:%@ /* Error: Ran out of types for this method. */;
-- (double)have changed due to inconsistent properties;
-- (id)last published status, not attempting to recover;
+- (struct CGSize);
+- (double);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (struct UIEdgeInsets);
+- (double);
+- (id);
 - (double);
 - (double);
 - (struct UIEdgeInsets);

@@ -13,9 +13,9 @@
 
 - (id);
 - (id);
-- (void);
 - (id);
 - (id);
+- (void)e;
 
 // Remaining properties
 @property(readonly) NSString *assetID;

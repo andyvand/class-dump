@@ -12,12 +12,12 @@
     UIView *_view;
 }
 
-- (void)ain:(id)arg1;
-- (id);
-- (id);
 - (void);
-- (id)teIfNecessary;
-- (id)eLightSourceView.swift;
+- (id);
+- (id);
+- (id)DisplayingPopover: /* Error: Ran out of types for this method. */;
+- (void)°;
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *updates; // @synthesize updates=_updates;

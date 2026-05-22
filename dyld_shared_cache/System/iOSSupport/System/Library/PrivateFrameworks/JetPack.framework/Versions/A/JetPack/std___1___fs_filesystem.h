@@ -4,7 +4,7 @@
 
 class std::__1::__fs::filesystem {
 public: // (access info unavailable from symbols alone)
-    __read_symlink(std::__1::__fs::filesystem::path const&, std::__1::error_code*);
-    __symlink_status(std::__1::__fs::filesystem::path const&, std::__1::error_code*);
-    operator/[abi:ne200100](std::__1::__fs::filesystem::path const&, std::__1::__fs::filesystem::path const&);
+    auto __read_symlink(std::__1::__fs::filesystem::path const&, std::__1::error_code*);
+    auto __symlink_status(std::__1::__fs::filesystem::path const&, std::__1::error_code*);
+    auto operator/[abi:nqe210106](std::__1::__fs::filesystem::path const&, std::__1::__fs::filesystem::path const&);
 };

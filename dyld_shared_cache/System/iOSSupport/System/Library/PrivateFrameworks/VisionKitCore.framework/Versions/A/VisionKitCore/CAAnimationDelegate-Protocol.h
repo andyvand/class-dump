@@ -5,5 +5,10 @@
 //
 
 @protocol CAAnimationDelegate
+
+@optional
+- (void)utton;
+- (void)´²Ô²l´
+Ð´	¶;
 @end
 

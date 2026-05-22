@@ -14,14 +14,14 @@ __attribute__((visibility("hidden")))
     UIWebDateTimePopoverViewController *_webDateTimeViewController;
 }
 
-- (void)D9_;
-- (id)nDiskSpace:(id)arg1;
-- (void)eForFromID: /* Error: Ran out of types for this method. */;
-- (void)tionCallerID;
-- (id)egate;
 - (void);
-- (void)_UISheetPresentationControllerAppearance"16@0:(id)arg1 8;
-- (id)ewPrivateDelegate;
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) UIWebDateTimePopoverViewController *_webDateTimeViewController; // @synthesize _webDateTimeViewController;

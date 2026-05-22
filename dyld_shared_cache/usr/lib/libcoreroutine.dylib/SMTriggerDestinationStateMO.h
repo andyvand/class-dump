@@ -12,7 +12,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 
 // Remaining properties
 @property(nonatomic) short currentStatus; // @dynamic currentStatus;

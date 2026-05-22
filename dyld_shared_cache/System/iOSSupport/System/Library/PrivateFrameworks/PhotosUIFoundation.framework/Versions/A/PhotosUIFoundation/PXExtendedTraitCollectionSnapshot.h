@@ -34,15 +34,17 @@
 - (struct CGRect);
 - (long long);
 - (long long);
+- (long long);
+- (long long);
+- (struct UIEdgeInsets);
 - (double);
-- (long long);
-- (long long);
 - (struct UIEdgeInsets);
-- (struct UIEdgeInsets);
-- (long long);
-- (struct UIEdgeInsets)Sg;
-- (long long)= PXActionPerformerStateUserInteractive;
-- (long long)0;
+- (struct UIEdgeInsets)Bùñ9ð1â
+0@ù
+× ;
+- (long long);
+- (long long)á;
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentSizeCategory; // @synthesize contentSizeCategory=_contentSizeCategory;

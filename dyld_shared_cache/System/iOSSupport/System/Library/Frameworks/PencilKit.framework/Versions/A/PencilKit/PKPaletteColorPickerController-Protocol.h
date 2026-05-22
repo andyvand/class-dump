@@ -8,8 +8,6 @@
 @protocol PKPaletteColorPicker, PKPaletteColorPickerControllerDelegate;
 
 @protocol PKPaletteColorPickerController
-- (id <PKPaletteColorPicker>)-[AFUISpeechSynthesisElement _setEligibleForSynthesis:] /* Error: Ran out of types for this method. */;
-- (UIViewController *)ion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double colorMaximumLinearExposure;

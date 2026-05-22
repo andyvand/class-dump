@@ -20,8 +20,8 @@
 - (id);
 - (id);
 - (void);
-- (void)(;
 - (id);
+- (void)¸½;
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *inks; // @synthesize inks=_inks;

@@ -4,8 +4,8 @@
 
 class icu::ParsePosition {
 public: // (access info unavailable from symbols alone)
-    clone() const;
-    getDynamicClassID() const;
-    getStaticClassID();
+    auto clone() const;
+    auto getDynamicClassID() const;
+    auto getStaticClassID();
     ~ParsePosition();
 };

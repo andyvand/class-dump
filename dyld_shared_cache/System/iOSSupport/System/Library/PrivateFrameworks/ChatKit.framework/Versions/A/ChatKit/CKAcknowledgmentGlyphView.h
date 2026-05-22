@@ -13,16 +13,16 @@
     struct CGPoint _glyphOffset;
 }
 
-+ (id)TextEditCG5valuet;
++ (id);
 + (id);
 - (struct CGPoint);
 - (void);
 - (long long);
-- (id);
 - (id);
 - (void);
-- (double);
-- (void)tes;
+- (id);
+- (double)P;
+- (void)¤Fÿ=jxÿÿÿujÝÀÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long acknowledgmentType; // @dynamic acknowledgmentType;

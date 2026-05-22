@@ -16,11 +16,11 @@
     _Bool _rangesExcludeSelection;
 }
 
-- (void)rsistent;
-- (void)tus %d;
-- (void)failed to load file %@, status %d;
-- (void)rsistent;
-- (void)tStatistic;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -33,15 +33,15 @@
 - (id);
 - (void);
 - (id);
-- (id)gBatchMessageContext";
-- (_Bool)rID:forIDSAccount: /* Error: Ran out of types for this method. */;
-- (void)ce:(id)arg1;
-- (struct CGRect)ForRecordIDs:(id)arg1;
-- (id)count:nearbyDevicesChanged: /* Error: Ran out of types for this method. */;
-- (void)er;
-- (id)(	;
-- (void)raryDataProviderMacOS removeItemsAtIndexes:inPlaylistWithIdentifier:completionBlock:] /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
 - (void);
+- (struct CGRect);
+- (id);
+- (void);
+- (id);
+- (void)¤W;
+- (void)G;
 
 // Remaining properties
 @property(nonatomic) _Bool rangesExcludeSelection; // @synthesize rangesExcludeSelection=_rangesExcludeSelection;

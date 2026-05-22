@@ -4,8 +4,6 @@
 
 class icu::LocaleBased {
 public: // (access info unavailable from symbols alone)
-    getLocale(ULocDataLocaleType, UErrorCode&) const;
-    getLocaleID(ULocDataLocaleType, UErrorCode&) const;
-    setLocaleIDs(char const*, char const*);
-    setLocaleIDs(icu::Locale const&, icu::Locale const&);
+    auto getLocale(icu::Locale const&, icu::Locale const&, ULocDataLocaleType, UErrorCode&);
+    auto getLocaleID(icu::Locale const&, icu::Locale const&, ULocDataLocaleType, UErrorCode&);
 };

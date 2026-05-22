@@ -4,7 +4,7 @@
 
 class ExtendedInline {
 public: // (access info unavailable from symbols alone)
-    getNextOpcodeAndCount();
-    getNextOpcodeAndCount() (.cold.1);
-    initState(Block_layout*);
+    auto getNextOpcodeAndCount();
+    auto getNextOpcodeAndCount() (.cold.1);
+    auto initState(Block_layout*);
 };

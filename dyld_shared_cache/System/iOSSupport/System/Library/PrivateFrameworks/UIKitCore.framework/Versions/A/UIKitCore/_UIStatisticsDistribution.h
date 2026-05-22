@@ -11,13 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)ations:(id)arg1;
-- (void)kageHashMD5;
 - (void);
 - (void);
-- (void)`¬;
-- (void);
 - (void);
+- (void)!,GùñXÐ1Â0@ù
+× ;
+- (void)ùÑ`1Â0@ù
+× ;
+- (_Bool)bEnabled;
+- (void)dropEffectView:(id)arg1;
 
 @end
 

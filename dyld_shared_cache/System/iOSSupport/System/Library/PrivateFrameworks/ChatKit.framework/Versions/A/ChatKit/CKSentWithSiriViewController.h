@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
     UILabel *_detailLabel;
 }
 
-- (void):(id)arg1 withOptions: /* Error: Ran out of types for this method. */;
-- (void)V_accessQueue;
+- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -32,18 +32,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (void);
 - (id);
-- (void)?;
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool)ion: /* Error: Ran out of types for this method. */;
-- (id)aitOrientationForPlugin: /* Error: Ran out of types for this method. */;
-- (id)t URL:%@. Preview NOT persisted. /* Error: Ran out of types for this method. */;
+- (void)!$Dù°1Â0@ù
+× ;
+- (void)ortedConversationList;
+- (id)G_AAyAhRGSgÇSgAWÇAByACyAXSg_A2YtGGAyxAyAAyS[ycÇGµN[GARGAEyj[yA6_yA6_yAEyh[ySay¡GSS7ÇGSgGAEyA7_ySay,ÇGSSAEyA11_GGGSgGA6_yAEyACyA10_Sg_A7_ySayß Ga'[AEyACyA10__A10_A10_A10_A10_A21_tGGGtGGSgAEyA7_ySay GA24_AByACyAAyß["N[G_AEyACyA10__A10_A10_A10_A10_A10_tGGtGGGGSgGGA6_yA6_yA13_A6_yAhFGG[[GGGtGGtGGARGâ[[GÌh[y>H[yZ[[GGG;
+- (id)CollectionViewController _resizingEnd;
+- (void)×#ÿ1";
 - (id);
-- (id)ì-;
-- (void)µ£ÿ;
+- (void)ÌnGÿ=qkàB¨ÿ;
+- (id)@ï4ì.;
 
 // Remaining properties
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;

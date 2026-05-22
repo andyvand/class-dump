@@ -18,7 +18,7 @@
 - (id);
 - (void);
 - (void);
-- (id)leObjectP;
+- (id)ic}@];
 
 // Remaining properties
 @property(retain, nonatomic) FBKQuestionChoice *choice; // @synthesize choice=_choice;

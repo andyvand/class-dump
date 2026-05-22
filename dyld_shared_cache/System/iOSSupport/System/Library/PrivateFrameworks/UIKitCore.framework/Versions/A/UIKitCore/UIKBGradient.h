@@ -20,28 +20,28 @@
     _Bool _didQueryRGBColors;
 }
 
-+ (id)data length:(id)arg1 %d;
-+ (id)e:(id)arg1 %@;
-+ (id)tension:(id)arg1 %@;
-+ (id)*** Filename has no extension:(id)arg1 %@;
-+ (id)is is an attachment part;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (struct CGGradient *);
+- (struct CGGradient *);
 - (_Bool);
-- (_Bool);
 - (id);
-- (void)o°!ÄFùñÁÐ1¢!0@ù
+- (id);
+- (void)Gù1d°1Â0@ù
 × ;
-- (_Bool)× ;
-- (id)_scrollPocketRegistrationInteractionDidInvalidatePosition:(id)arg1;
-- (double)CbrtSpeed;
-- (id)yboardLoader>",N,V_additionalKeyboardLoader;
-- (void)Æ;
-- (void)ÿ;
+- (_Bool)fier:(id)arg1 designatedMenuIdentifier: /* Error: Ran out of types for this method. */;
+- (double)originalFromValueForKey:inLayer: /* Error: Ran out of types for this method. */;
+- (id)ricsCalculating;
+- (void)imateTrackAlphaTo:(double)arg1 0;
+- (_Bool)nd released or never created for %@;
+- (void)è{êÿq;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *flatColorName;

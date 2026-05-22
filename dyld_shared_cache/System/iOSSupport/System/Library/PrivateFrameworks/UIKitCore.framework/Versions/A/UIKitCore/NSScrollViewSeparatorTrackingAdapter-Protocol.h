@@ -6,10 +6,6 @@
 
 @protocol NSScrollViewSeparatorTrackingAdapter
 
-@optional
-- (void)cessibilitySoundActions;
-- (_Bool);
-
 // Remaining properties
 @property(readonly) _Bool hasHeader;
 // Preceding property had unknown attributes: ?

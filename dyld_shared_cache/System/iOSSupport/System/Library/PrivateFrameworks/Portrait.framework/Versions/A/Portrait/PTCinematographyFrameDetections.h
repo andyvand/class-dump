@@ -51,8 +51,8 @@
 - (id);
 - (id);
 - (CDStruct_1b6d18a9);
-- (void);
 - (id);
+- (void);
 
 // Remaining properties
 @property(readonly) NSArray *allFocusIdentifiers;

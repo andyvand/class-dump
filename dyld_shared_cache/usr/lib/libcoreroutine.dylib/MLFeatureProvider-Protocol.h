@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
+@class MLFeatureValue, NSSet;
 
 @protocol MLFeatureProvider
+- (NSSet *)hasSprLandmarkIcon;
+- (MLFeatureValue *)or, %@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSSet *featureNames;

@@ -7,7 +7,6 @@
 @class NSString;
 
 @protocol SXComponentLayoutProperties
-- (NSString *);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier;

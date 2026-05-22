@@ -12,8 +12,8 @@
 
 - (struct lruEntry *);
 - (void);
-- (void);
 - (id);
+- (void);
 
 @end
 

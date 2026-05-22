@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIGestureRecognizer, UIView;
+@class NSArray, UIView;
 
 @protocol UIInputViewSetPlacementApplicator
-- (struct UIEdgeInsets)tionIndex: /* Error: Ran out of types for this method. */;
-- (_Bool)anceForView:(UIGestureRecognizer *)arg1;
-- (void);
-- (struct UIEdgeInsets)ù
+- (NSArray *)ð!ÜAù1\1Â0@ù
 × ;
-- (_Bool)0@ù
-× ;
-- (struct CGPoint)!lCùqÍð1¢!0@ù
-× ;
-- (struct UIEdgeInsets)Cù±Îð1¢!0@ù
-× ;
-- (UIView *)psURLWithSourceAddress:destinationAddress: /* Error: Ran out of types for this method. */;
-- (UIView *)oundDuringPresentation;
-- (struct CGRect);
-- (UIView *)geControl] Page out-of-bounds. Requested %ld but the page control only has %ld pages.;
-- (NSArray *);
-- (void)#;
+- (_Bool);
+- (void)emoval;
+- (void)rToPopToForNavigationItem:(_Bool)arg1;
+- (UIView *)tatisticsForUserInteractionDuration;
+- (_Bool)wHierarchy,V_sourceViewIsInViewHierarchy;
+- (struct CGPoint)micShadow;
+- (UIView *)ntsEdgeAttachedInCompactHeight;
+- (void)xpectedResult;
+- (UIView *)ted %@;
 
 // Remaining properties
 @property(readonly) UIView *backdropContainer;

@@ -21,18 +21,18 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool)IRTY;
-- (_Bool);
 - (id);
-- (id)dingRequests]_block_invoke;
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (id);
-- (id);
-- (id);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long)locity] %s (%s:%u) <%{public}@> END%{public}@ - '%{public}@ %{public}@' /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) unsigned long long buildVersion; // @synthesize buildVersion=_buildVersion;

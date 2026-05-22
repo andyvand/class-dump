@@ -5,16 +5,7 @@
 //
 
 @protocol CKMessageEntryTextViewMentionsDelegate
-- (void)uô;
-- (void);
-- (_Bool)ô;
-- (void)canZoomOut;
-- (void)neDrawingAttachment: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (_Bool)u;
-- (struct _NSRange)%@;
-- (void)64,%@" type="image/x-apple-adaptive-glyph">;
+- (_Bool)wDelegate;
 
 // Remaining properties
 @property(nonatomic) unsigned long long currentTappedCharacterIndex;

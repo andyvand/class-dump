@@ -21,9 +21,9 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (void);
-- (void);
 - (id);
+- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CAShapeLayer *circularBackgroundLayer; // @synthesize circularBackgroundLayer=_circularBackgroundLayer;

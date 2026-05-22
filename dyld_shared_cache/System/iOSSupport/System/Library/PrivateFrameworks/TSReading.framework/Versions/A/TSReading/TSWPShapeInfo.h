@@ -21,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (struct CGPoint)qJ;
+- (struct CGPoint);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -42,7 +42,7 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long)=;
+- (unsigned long long);
 - (double);
 - (double);
 - (id);
@@ -69,21 +69,21 @@
 - (_Bool);
 - (Class);
 - (unsigned int);
-- (id)#;
-- (id)9);
+- (id);
+- (id);
 - (_Bool);
-- (_Bool)T		;
+- (_Bool);
 - (id);
 - (id);
 - (void);
 - (unsigned int);
 - (void);
 - (void);
-- (void);
 - (Class);
-- (void);
-- (id)(À;
-- (id)?;
+- (void)ArrayGetCoordinate(TSTCoordinateArray *, TSTGridIndex);
+- (id)tureGeneration;
+- (id)region;
+- (void)ting:(id)arg1 %@;
 
 // Remaining properties
 @property(nonatomic) _Bool allowsLastLineTruncation;

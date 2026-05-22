@@ -10,16 +10,16 @@
 {
 }
 
-+ (id)ransportService;
-- (id)dr-metadata-asid;
-- (unsigned int)station;
++ (id);
+- (id);
+- (unsigned int);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (id):withModulePath:withIdleTime: /* Error: Ran out of types for this method. */;
-- (_Bool)ForTogglingSidebarWithLayout: /* Error: Ran out of types for this method. */;
+- (id)t;
+- (_Bool)ncrete subclass;
+- (id)l constraint (%@);
 - (long long);
-- (id)_reverse_arrow.png;
+- (_Bool)½;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long deparentingPortalAlphaSourceLayerRenderId;

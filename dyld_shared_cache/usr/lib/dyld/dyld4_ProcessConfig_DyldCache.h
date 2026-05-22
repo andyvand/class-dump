@@ -5,17 +5,17 @@
 class dyld4::ProcessConfig::DyldCache {
 public: // (access info unavailable from symbols alone)
     DyldCache(dyld4::ProcessConfig::Process&, dyld4::ProcessConfig::Security const&, dyld4::ProcessConfig::Logging const&, dyld4::SyscallDelegate&, lsl::Allocator&, dyld4::ProcessConfig const&);
-    findMachHeaderImageIndex(mach_header const*, unsigned int&) const;
-    getCanonicalPath(char const*) const;
-    getIndexedImageEntry(unsigned int, unsigned long long&, unsigned long long&) const;
-    getIndexedImagePath(unsigned int) const;
-    indexOfPath(char const*, unsigned int&) const;
-    isAlwaysOverridablePath(char const*);
-    isOverridablePath(char const*) const;
-    isProtectedLibSystemPath(char const*);
-    isProtectedLibSystemPath(char const*)::protectedPaths;
-    makeDataConstWritable(dyld4::ProcessConfig::Logging const&, dyld4::SyscallDelegate const&, bool) const;
-    setPlatformOSVersion(dyld4::ProcessConfig::Process const&);
-    setupDyldCommPage(dyld4::ProcessConfig::Process&, dyld4::ProcessConfig::Security const&, dyld4::SyscallDelegate&);
-    uuidOfFileMatchesDyldCache(dyld4::ProcessConfig::Process const&, dyld4::SyscallDelegate const&, char const*) const;
+    auto findMachHeaderImageIndex(mach_header const*, unsigned int&) const;
+    auto getCanonicalPath(char const*) const;
+    auto getIndexedImageEntry(unsigned int, unsigned long long&, unsigned long long&) const;
+    auto getIndexedImagePath(unsigned int) const;
+    auto indexOfPath(char const*, unsigned int&) const;
+    auto isAlwaysOverridablePath(char const*);
+    auto isOverridablePath(char const*) const;
+    auto isProtectedLibSystemPath(char const*);
+    auto isProtectedLibSystemPath(char const*)::protectedPaths;
+    auto makeDataConstWritable(dyld4::ProcessConfig::Logging const&, dyld4::SyscallDelegate const&, bool) const;
+    auto setPlatformOSVersion(dyld4::ProcessConfig::Process const&);
+    auto setupDyldCommPage(dyld4::ProcessConfig::Process&, dyld4::ProcessConfig::Security const&, dyld4::SyscallDelegate&);
+    auto uuidOfFileMatchesDyldCache(dyld4::ProcessConfig::Process const&, dyld4::SyscallDelegate const&, char const*) const;
 };

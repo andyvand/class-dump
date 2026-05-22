@@ -14,8 +14,8 @@
 - (Class);
 - (_Bool);
 - (id);
-- (void);
 - (id);
+- (void)SError"16;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *possibleStates; // @synthesize possibleStates=_possibleStates;

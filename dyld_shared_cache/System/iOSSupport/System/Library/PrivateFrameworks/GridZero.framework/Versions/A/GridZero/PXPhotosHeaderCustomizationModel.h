@@ -22,9 +22,9 @@
 - (void);
 - (long long);
 - (long long);
-- (double);
-- (id);
 - (void);
+- (id);
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) double alpha; // @synthesize alpha=_alpha;

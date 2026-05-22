@@ -4,6 +4,6 @@
 
 class dyld3::Array<mach_o::SegmentRanges::SegmentRange> {
 public: // (access info unavailable from symbols alone)
-    push_back(mach_o::SegmentRanges::SegmentRange const&);
-    push_back(mach_o::SegmentRanges::SegmentRange const&) (.cold.1);
+    auto push_back(mach_o::SegmentRanges::SegmentRange const&);
+    auto push_back(mach_o::SegmentRanges::SegmentRange const&) (.cold.1);
 };

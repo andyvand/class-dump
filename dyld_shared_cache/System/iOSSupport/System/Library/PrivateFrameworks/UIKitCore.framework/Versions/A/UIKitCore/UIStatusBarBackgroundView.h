@@ -18,18 +18,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void)resh:(_Bool)arg1;
-- (id)estoringAttachments:(struct CGRect)arg1 retryCount:(id)arg2 numAttachmentsDownloaded:(id)arg3 completion: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (void)L;
 - (void);
-- (void)subscription validation tokens "%@" for handle handleID:(_Bool)arg1 %@;
-- (id)aller ID %@;
+- (id);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (id);
-- (void);
-- (id)0@ù
-× ;
+- (id);
+- (id);
+- (void)¸úb;
 
 @end
 

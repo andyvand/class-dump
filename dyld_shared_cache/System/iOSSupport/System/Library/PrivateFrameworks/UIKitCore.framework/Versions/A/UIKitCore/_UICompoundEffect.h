@@ -14,19 +14,19 @@ __attribute__((visibility("hidden")))
     NSArray *_effects;
 }
 
-+ (_Bool)t¤ÿ0ÕYm;
++ (_Bool)WritingToolsAllowedInputOptions;
 - (id);
+- (long long);
 - (void);
+- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id)NG_MISSING__;
-- (id);
+- (_Bool)Value:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
 - (void);
-- (void)èC3ç;
-- (_Bool)RenderingAttributes:(id)arg1 includeFullDocument:(id)arg2;
-- (id)oSkip;
-- (_Bool)ible;
-- (long long)Bar",N,R,VtabBar;
+- (_Bool)n;
+- (void)ñG×#`;
 
 @end
 

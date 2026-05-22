@@ -4,7 +4,7 @@
 
 class btree<lvf_refc_key>::iterator {
 public: // (access info unavailable from symbols alone)
-    moveto(lvf_refc_key const&);
-    operator==(btree<lvf_refc_key>::iterator const&) const;
+    auto moveto(lvf_refc_key const&);
+    auto operator==(btree<lvf_refc_key>::iterator const&) const;
     ~iterator();
 };

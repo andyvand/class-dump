@@ -16,21 +16,23 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (void);
-- (void)s;
-- (void)dGetInteger;
+- (void);
+- (void);
 - (double);
 - (long long);
 - (id);
 - (void);
-- (void)AttachmentInfo";
-- (long long)er;
 - (void);
-- (_Bool);
-- (double)!TDùÅð1¢!0@ù
+- (long long);
+- (id);
+- (double)qcÐ1Â0@ù
 × ;
-- (id)rMatrix;
-- (double)¨ÂìÂtÃ;
-- (struct _NSRange)º¡WVñ[;
+- (double)qdð1Â0@ù
+× ;
+- (struct _NSRange)0@ù
+× ;
+- (_Bool);
+- (void)play:(double)arg1 target:selector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) double itemSpacing; // @synthesize itemSpacing=_itemSpacing;

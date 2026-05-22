@@ -50,7 +50,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -59,8 +59,13 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (long long)utten;
+- (void);
+- (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGSize);
@@ -68,22 +73,17 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (double);
-- (_Bool);
-- (void)AlbumSyncedStateDisposition:(id)arg1 params: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (void);
-- (id)EUtilities;
-- (void);
-- (void);
+- (id);
 - (long long);
 - (struct UIEdgeInsets);
-- (id)nt:(id)arg1 itemOffsetProvider:(id)arg2 ratio: /* Error: Ran out of types for this method. */;
+- (long long);
+- (void);
+- (double);
+- (void);
+- (_Bool);
+- (void);
+- (id)ayer:(id)arg1 atIndex:(id)arg2;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowsPeel; // @synthesize allowsPeel=_allowsPeel;
