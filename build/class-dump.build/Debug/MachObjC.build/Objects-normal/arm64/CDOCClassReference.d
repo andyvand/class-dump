@@ -11,4 +11,5 @@ dependencies: /Users/andyvand/Downloads/class-dump/MachObjC-Prefix.pch \
   /Users/andyvand/Downloads/class-dump/Source/CDOCClassReference.h \
   /Users/andyvand/Downloads/class-dump/Source/CDOCClass.h \
   /Users/andyvand/Downloads/class-dump/Source/CDOCProtocol.h \
-  /Users/andyvand/Downloads/class-dump/Source/CDSymbol.h
+  /Users/andyvand/Downloads/class-dump/Source/CDSymbol.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDSwiftDemangler.h

@@ -39,6 +39,19 @@
 // Read a 64-bit pointer slot at a cache vmaddr.
 - (BOOL)readPointerAtAddress:(uint64_t)address into:(uint64_t *)outValue;
 
+// Read a 64-bit pointer slot at a cache vmaddr and decode it as a
+// DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE chain pointer (the on-disk
+// representation used by modern arm64e dyld_shared_caches). The returned
+// value is the target VM address (`cacheBase + runtimeOffset`). Use this when
+// chasing protocol/class descriptor pointers that live inside the cache —
+// `readPointerAtAddress:` gives back the raw chain bits and is not directly
+// dereferenceable.
+- (BOOL)readResolvedPointerAtAddress:(uint64_t)address into:(uint64_t *)outValue;
+
+// VM address of the cache's lowest mapping (i.e. the cache base). 0 if the
+// mapping table is empty.
+@property (nonatomic, readonly) uint64_t cacheBaseAddress;
+
 // YES if the cache has a mapping covering this vmaddr.
 - (BOOL)containsAddress:(uint64_t)address;
 

@@ -137,6 +137,44 @@ struct cd_dsc_mapping_info {
     return [self _fileOffsetForVMAddr:address outFileOff:&off outRemaining:&rem];
 }
 
+- (uint64_t)cacheBaseAddress;
+{
+    uint64_t base = UINT64_MAX;
+    for (NSData *e in _mappings) {
+        struct cd_dsc_mapping_info mi;
+        memcpy(&mi, [e bytes], sizeof(mi));
+        if (mi.address < base) base = mi.address;
+    }
+    return base == UINT64_MAX ? 0 : base;
+}
+
+- (BOOL)readResolvedPointerAtAddress:(uint64_t)address into:(uint64_t *)outValue;
+{
+    uint64_t raw = 0;
+    if (![self readPointerAtAddress:address into:&raw]) return NO;
+    if (raw == 0) {
+        if (outValue) *outValue = 0;
+        return YES;
+    }
+    uint64_t base = [self cacheBaseAddress];
+    // If the top 16 bits are clear, the slot is either already-applied (rare
+    // when reading a cache file from disk, but possible for caches that have
+    // been pre-processed) or simply a small constant. Decide by checking
+    // whether the raw value already lies inside a cache mapping.
+    if ((raw >> 48) == 0 && [self containsAddress:raw]) {
+        if (outValue) *outValue = raw;
+        return YES;
+    }
+    // Decode as DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE (format 13). For both the
+    // auth and non-auth shapes, bits 0..33 hold runtimeOffset. Other bits
+    // (high8 / diversity / addrDiv / keyIsData / next / auth) are runtime
+    // hints we don't need to follow the pointer.
+    uint64_t target = base + (raw & 0x3FFFFFFFFULL);
+    if (![self containsAddress:target]) return NO;
+    if (outValue) *outValue = target;
+    return YES;
+}
+
 - (NSString *)magic
 {
     char buf[17] = {0};

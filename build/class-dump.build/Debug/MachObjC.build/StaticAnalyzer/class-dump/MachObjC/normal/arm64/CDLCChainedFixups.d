@@ -14,4 +14,5 @@ dependencies: /Users/andyvand/Downloads/class-dump/MachObjC-Prefix.pch \
   /Users/andyvand/Downloads/class-dump/Source/CDMachOFileDataCursor.h \
   /Users/andyvand/Downloads/class-dump/Source/CDDataCursor.h \
   /Users/andyvand/Downloads/class-dump/Source/CDMachOFile.h \
-  /Users/andyvand/Downloads/class-dump/Source/CDFile.h
+  /Users/andyvand/Downloads/class-dump/Source/CDFile.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDLCSegment.h

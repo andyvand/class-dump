@@ -21,6 +21,7 @@
 #import "CDProtocolUniquer.h"
 #import "CDOCClassReference.h"
 #import "CDSwiftDemangler.h"
+#import "CDDyldCache.h"
 
 @implementation CDObjectiveC2Processor
 {
@@ -64,14 +65,34 @@
 {
     if (address == 0)
         return nil;
-    
+
     CDOCProtocol *protocol = [self.protocolUniquer protocolWithAddress:address];
     if (protocol == nil) {
         protocol = [[CDOCProtocol alloc] init];
         [self.protocolUniquer setProtocol:protocol withAddress:address];
-        
+
         CDMachOFileDataCursor *cursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:address];
-        if ([cursor offset] == 0) return nil;
+        if ([cursor offset] == 0) {
+            // Address isn't backed by any segment of the dumped image. If the
+            // image has a backing dyld_shared_cache, the descriptor may live
+            // there — read just enough (the name field) to record adoption.
+            // Without this, adopted protocols defined in other cache images
+            // (NSCoding from CoreFoundation, etc.) get logged as "unresolved".
+            CDDyldCache *cache = self.machOFile.backingCache;
+            if (cache && [cache containsAddress:address]) {
+                uint64_t nameAddr = 0;
+                // Layout: isa(8), name(8), ... — read the name slot via the
+                // cache's chain-decoded pointer read so it lands on a valid VM.
+                if ([cache readResolvedPointerAtAddress:address + 8 into:&nameAddr] && nameAddr != 0) {
+                    NSString *cacheName = [cache stringAtAddress:nameAddr];
+                    if ([cacheName length] > 0) {
+                        [protocol setName:[CDSwiftDemangler cleanClassName:cacheName]];
+                        return protocol;
+                    }
+                }
+            }
+            return nil;
+        }
         
         struct cd_objc2_protocol objc2Protocol;
         objc2Protocol.isa                     = [cursor readPtr];

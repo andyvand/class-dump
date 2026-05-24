@@ -29,4 +29,5 @@ dependencies: /Users/andyvand/Downloads/class-dump/MachObjC-Prefix.pch \
   /Users/andyvand/Downloads/class-dump/Source/cd_objc2.h \
   /Users/andyvand/Downloads/class-dump/Source/CDProtocolUniquer.h \
   /Users/andyvand/Downloads/class-dump/Source/CDOCClassReference.h \
-  /Users/andyvand/Downloads/class-dump/Source/CDSwiftDemangler.h
+  /Users/andyvand/Downloads/class-dump/Source/CDSwiftDemangler.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDDyldCache.h

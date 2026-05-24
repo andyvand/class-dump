@@ -198,9 +198,13 @@ static NSString *ImportsFormatName(uint32_t fmt)
 
 // Resolve a raw 64-bit chain entry into (resolvedAddress, nextStrideUnits, isBind, ordinal).
 // `outOrdinal` is set to the import-table ordinal for binds, 0 for rebases.
+// `cacheBase` is the dyld_shared_cache base VM address (only used for the
+// SHARED_CACHE pointer formats whose target is cache-relative). 0 disables
+// SHARED_CACHE decoding.
 // Returns YES if the slot represents a valid entry; NO to stop the chain
 // (e.g. corrupt/unsupported).
 static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase,
+                               uint64_t cacheBase,
                                uint64_t *outResolved, uint32_t *outNextStrideUnits,
                                BOOL *outIsBind, uint32_t *outStrideBytes,
                                uint32_t *outOrdinal)
@@ -300,6 +304,32 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
             // Bits: bind:1, next:5, target:26 (or similar). Skip for now.
             return NO;
         }
+        case 13 /* DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE */: {
+            // dyld_chained_ptr_arm64e_shared_cache_rebase:
+            //   runtimeOffset:34, high8:8, unused:10, next:11, auth:1
+            // dyld_chained_ptr_arm64e_shared_cache_auth_rebase:
+            //   runtimeOffset:34, diversity:16, addrDiv:1, keyIsData:1, next:11, auth:1
+            // No bind variant for this format — every slot is a rebase whose
+            // target is cache-relative.
+            if (cacheBase == 0) {
+                // Caller didn't (or couldn't) supply a cache base. Refuse to
+                // decode rather than zero out the slot, which would corrupt
+                // data the caller may still want to inspect raw.
+                return NO;
+            }
+            isBind = NO;
+            next   = (uint32_t)((raw >> 52) & 0x7FF);
+            stride = 8;
+            uint64_t runtimeOffset = raw & 0x3FFFFFFFFULL; // 34 bits
+            BOOL auth = (raw >> 63) & 1;
+            if (auth) {
+                resolved = cacheBase + runtimeOffset;
+            } else {
+                uint64_t high8 = (raw >> 34) & 0xFFULL;
+                resolved = (cacheBase + runtimeOffset) | (high8 << 56);
+            }
+            break;
+        }
         default:
             return NO;
     }
@@ -332,6 +362,16 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
     // ask self.machOFile.segments inside the inner loop because that triggers
     // weak-reference loads on every bind slot; cache once up front.
     NSArray<CDLCSegment *> *machoSegments = [self.machOFile segments];
+
+    // For DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE, the rebase target is encoded
+    // as a 34-bit offset from the shared cache's base VM. We don't have an
+    // explicit cache-base field in the chained-fixups payload; derive it by
+    // rounding the image's __TEXT vmaddr down to a 2 GB boundary (modern
+    // shared caches load at fixed 2 GB-aligned bases — 0x180000000 on macOS
+    // arm64). Without this, format-13 slots would be left raw and downstream
+    // readers would report "unresolved adopted protocol" notes for every
+    // cache-resident protocol the image references.
+    uint64_t cacheBase = imageBase & 0xFFFFFFFF80000000ULL;
 
     if (_bindNameByAddress == nil)
         _bindNameByAddress = [[NSMutableDictionary alloc] init];
@@ -369,7 +409,7 @@ static BOOL CDDecodeChainEntry(uint64_t raw, uint16_t format, uint64_t imageBase
                 uint32_t nextUnits = 0;
                 BOOL isBind = NO;
                 uint32_t ordinal = 0;
-                if (!CDDecodeChainEntry(raw, fmt, imageBase, &resolved, &nextUnits, &isBind, &strideBytes, &ordinal)) {
+                if (!CDDecodeChainEntry(raw, fmt, imageBase, cacheBase, &resolved, &nextUnits, &isBind, &strideBytes, &ordinal)) {
                     break;
                 }
 
