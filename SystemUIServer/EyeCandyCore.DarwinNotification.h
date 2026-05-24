@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
+#import "Swift._SwiftObject.h"
 
-@interface EyeCandyCore.DarwinNotification
+@interface EyeCandyCore.DarwinNotification : Swift._SwiftObject
 {
-    MISSING_TYPE *name;
-    MISSING_TYPE *token;
-    MISSING_TYPE *handler;
-    MISSING_TYPE *_state;
+    id name;
+    id token;
+    id handler;
+    id _state;
 }
 
 @end

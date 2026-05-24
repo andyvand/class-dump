@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSObject;
+#import <objc/NSObject.h>
+
+@class NSDictionary, NSMutableArray, NSMutableDictionary;
 @protocol OS_dispatch_queue, OS_dispatch_source;
 
-@interface DigiHub
+@interface DigiHub : NSObject
 {
     NSDictionary *_defaultActions;
     NSDictionary *_bundleIDMapper;

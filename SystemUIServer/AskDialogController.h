@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#import <objc/NSObject.h>
+
 @class DigiHubEvent, NSArray, NSButton, NSDictionary, NSImageView, NSPopUpButton, NSTextField, NSWindow;
 
-@interface AskDialogController
+@interface AskDialogController : NSObject
 {
     DigiHubEvent *_event;
     NSDictionary *_dataDict;

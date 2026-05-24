@@ -4,11 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
+#import "Swift._SwiftObject.h"
 
-@interface EyeCandySwift.Finally
+@interface EyeCandySwift.Finally : Swift._SwiftObject
 {
-    MISSING_TYPE *closure;
+    id closure;
 }
 
 @end

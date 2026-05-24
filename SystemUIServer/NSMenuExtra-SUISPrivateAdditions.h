@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface (null) (SUISPrivateAdditions)
+#import <SystemUIPlugin/NSMenuExtra.h>
+
+@interface NSMenuExtra (SUISPrivateAdditions)
 @property(nonatomic) unsigned int identifier;
 @end
 

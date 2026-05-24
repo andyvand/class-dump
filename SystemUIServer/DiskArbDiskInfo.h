@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#import <objc/NSObject.h>
+
 @class NSString;
 
-@interface DiskArbDiskInfo
+@interface DiskArbDiskInfo : NSObject
 {
     _Bool _blankBD;
     _Bool _blankCD;

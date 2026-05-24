@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#import <objc/NSObject.h>
+
 @class NSNumber, NSString;
 
-@interface iPodInfo
+@interface iPodInfo : NSObject
 {
     _Bool _diskMode;
     _Bool _mounted;

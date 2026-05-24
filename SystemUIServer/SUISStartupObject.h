@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#import <objc/NSObject.h>
+
 #import "NSApplicationDelegate-Protocol.h"
 #import "NSFileManagerDelegate-Protocol.h"
 #import "SUISDocklingServerController-Protocol.h"
 
 @class DigiHub, NSArray, NSMutableArray, NSString, SUISDocklingServer, ScreenCapture;
 
-@interface SUISStartupObject <SUISDocklingServerController, NSApplicationDelegate, NSFileManagerDelegate>
+@interface SUISStartupObject : NSObject <SUISDocklingServerController, NSApplicationDelegate, NSFileManagerDelegate>
 {
     _Bool _allowDupMenuExtras;
     _Bool _preferencesLoaded;

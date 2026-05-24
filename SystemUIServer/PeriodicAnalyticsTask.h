@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+#import <objc/NSObject.h>
+
+@class NSMutableArray;
 @protocol OS_dispatch_source;
 
-@interface PeriodicAnalyticsTask
+@interface PeriodicAnalyticsTask : NSObject
 {
     NSMutableArray *_blocks;
     NSObject<OS_dispatch_source> *_timer;

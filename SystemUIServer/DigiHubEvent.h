@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#import <objc/NSObject.h>
+
 @class NSDictionary, NSString, NSURL;
 
-@interface DigiHubEvent
+@interface DigiHubEvent : NSObject
 {
     _Bool _performAtLogin;
     int _defaultAction;

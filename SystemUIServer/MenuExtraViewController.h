@@ -4,12 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#import <AppKit/NSViewController.h>
+
 #import "NSMenuExtraController-Protocol.h"
 #import "NSStatusItemDelegate-Protocol.h"
 
 @class NSMenuExtra, NSStatusItem, NSString, NSView, SUISStartupObject, _MenuExtraView;
 
-@interface MenuExtraViewController <NSMenuExtraController, NSStatusItemDelegate>
+@interface MenuExtraViewController : NSViewController <NSMenuExtraController, NSStatusItemDelegate>
 {
     char *_popupMenuCrashReporterStr;
     SUISStartupObject *_delegate;

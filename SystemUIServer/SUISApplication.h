@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface SUISApplication
+#import <AppKit/NSApplication.h>
+
+@interface SUISApplication : NSApplication
 {
 }
 

@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
+#import "Swift._SwiftObject.h"
 
-@interface EyeCandyCore.LimitQueue
+@interface EyeCandyCore.LimitQueue : Swift._SwiftObject
 {
-    MISSING_TYPE *_workQueue;
-    MISSING_TYPE *_serialQueue;
-    MISSING_TYPE *_activeWork;
-    MISSING_TYPE *_work;
+    id _workQueue;
+    id _serialQueue;
+    id _activeWork;
+    id _work;
 }
 
 @end

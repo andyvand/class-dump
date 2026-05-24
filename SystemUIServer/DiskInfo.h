@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#import <objc/NSObject.h>
+
 @class NSString;
 
-@interface DiskInfo
+@interface DiskInfo : NSObject
 {
     _Bool _isDisc;
     int _blankDiskType;

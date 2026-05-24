@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#import <objc/NSObject.h>
+
 @class NSArray, NSImage, NSImageView, NSPanel, NSString, NSTextField;
 
-@interface EjectFailedController
+@interface EjectFailedController : NSObject
 {
     NSArray *_topLevelObjects;
     NSString *_text;

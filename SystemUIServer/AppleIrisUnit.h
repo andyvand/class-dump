@@ -4,7 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@interface AppleIrisUnit
+#import <objc/NSObject.h>
+
+@interface AppleIrisUnit : NSObject
 {
     unsigned char _state;
     unsigned int _iris;

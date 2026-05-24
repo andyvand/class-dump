@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#import <objc/NSObject.h>
+
 #import "SUISDocklingServerController-Protocol.h"
 
 @protocol SUISDocklingServerController;
 
-@interface SystemUIServer.VaporDocklingController <SUISDocklingServerController>
+@interface SystemUIServer.VaporDocklingController : NSObject <SUISDocklingServerController>
 {
     void defaultController;
 }

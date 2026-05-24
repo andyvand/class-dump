@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+#import <AppKit/NSView.h>
+
 @class NSMenuExtra;
 
-@interface _MenuExtraView
+@interface _MenuExtraView : NSView
 {
     NSMenuExtra *_menuExtra;
 }

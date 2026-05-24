@@ -4,15 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISSING_TYPE;
+#import "Swift._SwiftObject.h"
 
-@interface EyeCandyCore.MIGServer
+@interface EyeCandyCore.MIGServer : Swift._SwiftObject
 {
-    MISSING_TYPE *maxMessageSize;
-    MISSING_TYPE *serverRoutine;
-    MISSING_TYPE *receive;
-    MISSING_TYPE *server;
-    MISSING_TYPE *noSendersHandler;
+    id maxMessageSize;
+    id serverRoutine;
+    id receive;
+    id server;
+    id noSendersHandler;
 }
 
 @end

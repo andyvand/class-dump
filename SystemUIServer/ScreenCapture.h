@@ -4,10 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
+#import <objc/NSObject.h>
+
 @protocol OS_dispatch_queue, OS_xpc_object;
 
-@interface ScreenCapture
+@interface ScreenCapture : NSObject
 {
     _Bool _registeredForTouchbarHotKeys;
     int _videoCapturePID;
