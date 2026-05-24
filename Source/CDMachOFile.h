@@ -83,6 +83,14 @@ typedef enum : NSUInteger {
 // Returns 0 if the address can't be resolved.
 - (uint64_t)pointerAtAddress:(uint64_t)address;
 
+// If `raw` already lies inside one of this image's segments or inside the
+// backing dyld_shared_cache, returns it unchanged. Otherwise tries to decode
+// it as a chained-fixup pointer encoding (the chain pass may have missed it —
+// e.g. multi-chain start pages, or LC_DYLD_CHAINED_FIXUPS stripped by
+// dsc_extractor) and returns the recovered VM address, or 0 if no plausible
+// interpretation lands in a known segment / mapping.
+- (uint64_t)resolvedAddressForRawValue:(uint64_t)raw;
+
 - (NSUInteger)dataOffsetForAddress:(NSUInteger)address;
 
 - (const void *)bytes;

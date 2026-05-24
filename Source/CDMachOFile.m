@@ -357,6 +357,20 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
           (unsigned long)rewroteToImage, (unsigned long)rewroteToCache);
 }
 
+- (uint64_t)resolvedAddressForRawValue:(uint64_t)raw;
+{
+    if (raw == 0) return 0;
+    if ([self segmentContainingAddress:(NSUInteger)raw]) return raw;
+    if (self.backingCache && [self.backingCache containsAddress:raw]) return raw;
+
+    uint64_t imageBase = 0;
+    for (CDLCSegment *seg in _segments) {
+        if ([seg.name isEqualToString:@"__TEXT"]) { imageBase = (uint64_t)seg.vmaddr; break; }
+    }
+    uint64_t cacheBase = imageBase & 0xFFFFFFFF80000000ULL;
+    return [self _resolveChainSlot:raw imageBase:imageBase cacheBase:cacheBase];
+}
+
 - (void)setBackingCache:(CDDyldCache *)cache;
 {
     Ivar ivar = class_getInstanceVariable([CDMachOFile class], "_backingCache");

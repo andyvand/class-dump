@@ -132,6 +132,13 @@
                 for (uint64_t index = 0; index < count; index++) {
                     uint64_t val = [cursor readPtr];
                     if (val == 0) continue; // empty slot — no diagnostic
+                    // The chained-fixup pass may have missed this slot (multi-
+                    // chain start page, or LC stripped by dsc_extractor), in
+                    // which case `val` is still the raw chain encoding. Try to
+                    // decode it back to a real VM address before treating it
+                    // as one.
+                    uint64_t resolved = [self.machOFile resolvedAddressForRawValue:val];
+                    if (resolved != 0) val = resolved;
                     CDOCProtocol *anotherProtocol = [self protocolAtAddress:val];
                     if (anotherProtocol != nil) {
                         [protocol addProtocol:anotherProtocol];
