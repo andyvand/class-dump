@@ -5,7 +5,6 @@
 //
 
 @protocol HMResidentCapabilities
-- (_Bool)È$!;
 - (_Bool)
 × ;
 - (_Bool)ests;

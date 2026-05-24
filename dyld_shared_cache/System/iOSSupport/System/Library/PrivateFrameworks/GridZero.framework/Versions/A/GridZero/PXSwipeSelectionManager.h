@@ -96,7 +96,9 @@
 - (_Bool)ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) PXUIAutoScroller *_autoScroller; // @synthesize _autoScroller=__autoScroller;
+// Error: Property attributes should begin with the type ('T') attribute, property name: _autoScroller
+// Property attributes: (null)
+
 @property(nonatomic, setter=_setCurrentDataSourceIdentifier:) long long _currentDataSourceIdentifier; // @synthesize _currentDataSourceIdentifier=__currentDataSourceIdentifier;
 @property(nonatomic, setter=_setCurrentIndexPath:) struct PXSimpleIndexPath _currentIndexPath; // @synthesize _currentIndexPath=__currentIndexPath;
 @property(retain, nonatomic, setter=_setPausingChangesToken:) id _pausingChangesToken; // @synthesize _pausingChangesToken=__pausingChangesToken;

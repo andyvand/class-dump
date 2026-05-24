@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableOrderedSet, NSOrderedSet, NSString, PKDrawing, PKHandwritingTranscriptionCache;
+@class NSArray, NSMutableDictionary, NSMutableOrderedSet, NSString, PKDrawing, PKHandwritingTranscriptionCache;
 @protocol CHStrokeProviderVersion;
 
 @interface PKStrokeProvider
@@ -64,9 +64,8 @@
 @property(readonly, copy) NSArray *orderedStrokes;
 @property(readonly) id <CHStrokeProviderVersion> strokeProviderVersion;
 @property(readonly) Class superclass;
-@property(readonly, copy) NSOrderedSet *visibleStrokeEncodedIdentifiers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSOrderedSet",?,R,C
+// Error: Property attributes should begin with the type ('T') attribute, property name: visibleStrokeEncodedIdentifiers
+// Property attributes: (null)
 
 
 @end

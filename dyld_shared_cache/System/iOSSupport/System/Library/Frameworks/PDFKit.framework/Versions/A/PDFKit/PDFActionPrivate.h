@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PDFActionPrivate
 {
     NSString *type;
-    NSArray *nextActions;
+    id nextActions;
 }
 
 - (void);

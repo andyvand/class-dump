@@ -26,7 +26,9 @@ __attribute__((visibility("hidden")))
 // Remaining properties
 @property unsigned long long seed; // @synthesize seed;
 @property unsigned long long textureTarget; // @synthesize textureTarget;
-@property(retain) SKUniform *uniform; // @synthesize uniform;
+// Error: Property attributes should begin with the type ('T') attribute, property name: uniform
+// Property attributes: (null)
+
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPQueryCollection, NSTimer;
+@class NSTimer;
 
 @interface DOCSBRecentItemsList
 {
@@ -33,12 +33,6 @@
 - (void);
 - (void);
 - (void);
-
-// Remaining properties
-@property(nonatomic) _Bool _isObserving; // @synthesize _isObserving;
-@property(nonatomic, readonly) double _recentsCollectionExpirationInterval; // @synthesize _recentsCollectionExpirationInterval;
-@property(nonatomic, retain) NSTimer *_recentsCollectionExpirationTimer; // @synthesize _recentsCollectionExpirationTimer;
-@property(nonatomic, retain) FPQueryCollection *_recentsQueryCollection;
 
 @end
 

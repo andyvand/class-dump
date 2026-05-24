@@ -10,7 +10,6 @@
 
 @interface PTTextureRGBAFromYUV : PTTextureRGBA
 {
-    PTTextureYUV *_textureAsYUV;
 }
 
 - (id);

@@ -20,7 +20,7 @@
     unsigned long long _shieldType;
     NSMutableDictionary *_pointToFeatureDict;
     NSMutableArray *_hitTestPaths;
-    NSString *_shieldText;
+    NSString *;
     CLLocation *_locationCoordinate;
 }
 

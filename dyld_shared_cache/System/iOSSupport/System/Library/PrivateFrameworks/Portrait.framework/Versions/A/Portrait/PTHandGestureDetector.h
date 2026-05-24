@@ -17,7 +17,7 @@
     struct __CVPixelBufferPool *_pixelBufferPool;
     _Bool _externalCamera;
     id <PTHandGestureDelegate> _delegate;
-    VCPHandGestureVideoRequest *_vcpHandGestureRequest;
+    id _vcpHandGestureRequest;
 }
 
 - (id);

@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)HMMutableCameraUserSettings;
 - (id)move nil home;

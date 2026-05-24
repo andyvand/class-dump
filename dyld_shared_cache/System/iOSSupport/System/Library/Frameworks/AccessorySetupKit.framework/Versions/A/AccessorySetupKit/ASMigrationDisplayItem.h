@@ -14,7 +14,7 @@
     NSUUID *_peripheralIdentifier;
     NSString *_hotspotSSID;
     unsigned long long _wifiAwarePairedDeviceID;
-    NSString *_accessoryIdentifier;
+    id _accessoryIdentifier;
 }
 
 + (_Bool);

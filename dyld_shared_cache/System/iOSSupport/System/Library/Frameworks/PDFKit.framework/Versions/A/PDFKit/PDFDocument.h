@@ -23,7 +23,7 @@
     id _delegate;
     _Bool _respondsToDidUnlock;
     _Bool _respondsToDidFindMatch;
-    _Bool _respondsToDidBeginDocumentFind;
+    id _respondsToDidBeginDocumentFind;
     _Bool _respondsToDidEndDocumentFind;
     _Bool _respondsToDidBeginPageFind;
     _Bool _respondsToDidEndPageFind;

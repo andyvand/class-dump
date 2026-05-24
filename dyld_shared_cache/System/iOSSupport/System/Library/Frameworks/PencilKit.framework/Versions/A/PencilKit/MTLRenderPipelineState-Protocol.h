@@ -16,7 +16,6 @@
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
 @property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long imageblockSampleLength;
 @property(readonly) NSString *label;
 @property(readonly) unsigned long long maxTotalThreadgroupsPerMeshGrid;
 @property(readonly) unsigned long long maxTotalThreadsPerMeshThreadgroup;

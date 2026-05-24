@@ -8,9 +8,6 @@
 
 @interface TSUFlushableCachedImage : TSUFlushableObject
 {
-    struct CGImage *_image;
-    id _delegate;
-    SEL _delegateCreateImageSelector;
 }
 
 - (struct CGImage *);

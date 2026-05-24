@@ -11,7 +11,7 @@
 {
     UIMenu *_cachedKeyboardMenu;
     _Bool _updatingCurrentInputMode;
-    _Bool _processingReloadInputViews;
+    _Bool;
     id <PKPaletteFloatingKeyboardControllerDelegate> _delegate;
     UIKeyboardInputMode *_emojiInputMode;
     double _latestUserInitiatedInputModeChangeTimestamp;

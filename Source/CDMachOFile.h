@@ -93,6 +93,19 @@ typedef enum : NSUInteger {
 
 - (NSUInteger)dataOffsetForAddress:(NSUInteger)address;
 
+// Returns YES when `name` was read at `address` but doesn't appear to be the
+// start of a complete selector — e.g. it's nil/empty, or `address` is in the
+// middle of a printable C string whose true start is a few bytes earlier.
+// Used by the small-method-list path in cache-extracted dylibs, where the
+// stored relative offset can point a few bytes past the actual selector.
+- (BOOL)nameLooksTruncated:(NSString *)name address:(uint64_t)address;
+
+// Walk backward up to `maxBack` bytes from `address` looking for a NUL byte,
+// then read a NUL-terminated string starting at the next position. Returns
+// nil if `address` isn't inside a section/mapping that holds C strings, or
+// if the bytes immediately before `address` aren't a plausible selector tail.
+- (NSString *)selectorBySearchingBackwardFrom:(uint64_t)address maxBack:(NSUInteger)maxBack;
+
 - (const void *)bytes;
 - (const void *)bytesAtOffset:(NSUInteger)offset;
 

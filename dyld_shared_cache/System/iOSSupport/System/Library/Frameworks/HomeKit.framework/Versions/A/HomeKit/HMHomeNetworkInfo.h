@@ -14,7 +14,7 @@
     NSString *_ipv6NetworkSignature;
     NSData *_binaryIPv4NetworkSignature;
     NSData *_binaryIPv6NetworkSignature;
-    NSString *_routerIPV4;
+    id _routerIPV4;
     NSString *_routerIPV6;
     HMHomeWiFiInfo *_wiFiInfo;
 }

@@ -206,7 +206,9 @@
 
 // Remaining properties
 @property(nonatomic) _Bool _blockDidReceiveAnimation; // @synthesize _blockDidReceiveAnimation=__blockDidReceiveAnimation;
-@property(retain, nonatomic) NSSet *_internalHandlesShowingLocations; // @synthesize _internalHandlesShowingLocations=__internalHandlesShowingLocations;
+// Error: Property attributes should begin with the type ('T') attribute, property name: _internalHandlesShowingLocations
+// Property attributes: (null)
+
 @property(nonatomic) _Bool _isRenderingInitialMap; // @synthesize _isRenderingInitialMap=__isRenderingInitialMap;
 @property(retain, nonatomic) NSSet *_preloadedHandles; // @synthesize _preloadedHandles=__preloadedHandles;
 @property(nonatomic) _Bool _refreshingIsPaused; // @synthesize _refreshingIsPaused=__refreshingIsPaused;

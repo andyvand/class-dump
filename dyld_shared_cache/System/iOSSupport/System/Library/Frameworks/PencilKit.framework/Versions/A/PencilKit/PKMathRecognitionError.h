@@ -8,7 +8,7 @@
 
 @interface PKMathRecognitionError
 {
-    NSString *_errorString;
+    id _errorString;
     NSString *_errorReasonString;
 }
 

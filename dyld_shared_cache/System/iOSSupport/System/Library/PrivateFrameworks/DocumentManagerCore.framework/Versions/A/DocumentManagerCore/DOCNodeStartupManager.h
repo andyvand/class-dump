@@ -16,7 +16,9 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool isStarted; // @synthesize isStarted=_isStarted;
+// Error: Property attributes should begin with the type ('T') attribute, property name: isStarted
+// Property attributes: (null)
+
 
 @end
 

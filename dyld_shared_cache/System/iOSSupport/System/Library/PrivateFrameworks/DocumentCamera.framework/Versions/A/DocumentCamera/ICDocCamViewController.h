@@ -134,7 +134,7 @@
     ICDocCamProcessingBlocker *_snapStillImageBlocker;
     long long _snapStillImageMode;
     ICDocCamImageQuad *_backupQuad;
-    VNRectangleObservation *_lastHighConfidenceRectangle;
+    VNRectangleObservation *;
     NSMutableArray *_filterButtons;
     UIView *_filterView;
     UIButton *_filterViewButton;

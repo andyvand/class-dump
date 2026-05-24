@@ -21,7 +21,7 @@
     MTLRenderPipelineDescriptor *_sharedPipelineDescriptor;
     unsigned long long _numColorAttachments;
     PKMetalShader *_noBlendModeShader;
-    PKMetalShader *_addBlendModeShader;
+    id _addBlendModeShader;
     PKMetalShader *_addNoAlphaBlendModeShader;
     PKMetalShader *_linearDodgeBlendModeShader;
     PKMetalShader *_multiplyBlendModeShader;

@@ -17,6 +17,14 @@
 // Returns nil if `data` is not a recognizable dyld_shared_cache.
 - (instancetype)initWithData:(NSData *)data;
 
+// Convenience: open the main cache file at `path`, then walk its subcache
+// table and mmap each subcache sibling (`.01`, `.02.dylddata`, etc.) so
+// `stringAtAddress:` and friends can resolve VM addresses that live in
+// the split-out subcache files. Returns nil if `path` is unreadable or
+// not a dyld_shared_cache; falls back to single-file behaviour when the
+// header has no subcache table.
+- (instancetype)initWithPath:(NSString *)path;
+
 // First 16 bytes, NUL-trimmed (e.g. "dyld_v1   arm64e").
 @property (nonatomic, readonly) NSString *magic;
 
@@ -35,6 +43,12 @@
 // Read a NUL-terminated UTF-8 string from a cache vmaddr, walking the
 // mapping table to translate vmaddr → file offset.
 - (NSString *)stringAtAddress:(uint64_t)address;
+
+// Read up to `length` raw bytes at a cache vmaddr. Returns nil when the
+// vmaddr isn't in any cache mapping or the read would run off the end of
+// the backing slice. Useful for walk-back lookups where we need to inspect
+// bytes immediately before a possibly-misaligned selector pointer.
+- (NSData *)bytesAtAddress:(uint64_t)address length:(NSUInteger)length;
 
 // Read a 64-bit pointer slot at a cache vmaddr.
 - (BOOL)readPointerAtAddress:(uint64_t)address into:(uint64_t *)outValue;

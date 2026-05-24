@@ -8,7 +8,7 @@
 
 @interface PTEffectRingLightOutput
 {
-    float _screenNitsFloor;
+    id _screenNitsFloor;
     float _recommendedColorTemperatureNormalized;
     float _ringLightWidth;
     NSData *_ringLightAdaptiveSettings;

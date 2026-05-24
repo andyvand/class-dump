@@ -16,7 +16,7 @@
     PKPaletteToolPickerClippingEdgeView *_bottomEdgeView;
     NSArray *_edgeViews;
     NSArray *_edgeViewThicknessConstraints;
-    NSLayoutConstraint *_leadingEdgeViewTopConstraint;
+    id _leadingEdgeViewTopConstraint;
     NSLayoutConstraint *_trailingEdgeViewTopConstraint;
     NSLayoutConstraint *_topEdgeViewLeadingConstraint;
     NSLayoutConstraint *_topEdgeViewTrailingConstraint;

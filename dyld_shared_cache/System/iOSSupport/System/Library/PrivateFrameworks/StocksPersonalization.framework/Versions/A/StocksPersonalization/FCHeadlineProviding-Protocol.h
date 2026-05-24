@@ -158,7 +158,6 @@
 @property(readonly, copy, nonatomic) NSString *primaryAudience;
 @property(readonly, copy, nonatomic) NSDate *publishDate;
 @property(readonly, nonatomic) NSArray *publisherSpecifiedArticleIDs;
-@property(readonly, copy, nonatomic) NSArray *recipeIDs;
 @property(readonly, nonatomic) _Bool reduceVisibility;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,R,N

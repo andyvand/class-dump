@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMTrigger.h>
 
-@class HMMutableArray, NSArray, NSPredicate;
+@class NSArray, NSPredicate;
 
 @interface HMEventTrigger : HMTrigger
 {
@@ -14,7 +14,7 @@
     NSPredicate *_internalPredicate;
     NSArray *_recurrences;
     unsigned long long _activationState;
-    HMMutableArray *_currentEvents;
+    id _currentEvents;
 }
 
 @end

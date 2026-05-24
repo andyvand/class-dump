@@ -11,7 +11,7 @@
 {
     _Bool _imageblocksSupported;
     FigMetalContext *_figMetalContext;
-    _Bool _allowCommandbufferAllocation;
+    _Bool;
     id <MTLDevice> _device;
     id <MTLCommandQueue> _commandQueue;
     id <MTLLibrary> _library;

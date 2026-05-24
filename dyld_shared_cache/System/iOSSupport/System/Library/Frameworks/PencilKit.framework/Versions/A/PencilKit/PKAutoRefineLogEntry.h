@@ -14,7 +14,7 @@
     NSArray *_refinedStrokes;
     NSArray *_unchangedStrokes;
     _Bool _isAutoRefined;
-    long long _refinedWordCount;
+    long long;
     double _tokenDeviation;
     double _tokenTranslation;
 }

@@ -12,7 +12,6 @@
 // Remaining properties
 @property(retain, nonatomic) UIView *accessoryView;
 @property(nonatomic) _Bool enabled;
-@property(retain, nonatomic) NSString *text;
 @property(copy, nonatomic) UIColor *textColor;
 @property(copy) NSString *title;
 @property(copy) UIColor *titleColor;

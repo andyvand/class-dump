@@ -12,10 +12,10 @@
     id <BCNetworkProviderProtocol> _networkProvider;
 }
 
-- (id);
-- (void);
+- (id);
 - (void);
-- (id)Ï;
+- (void);
+- (id);
 - (void);
 - (void);
 - (id);

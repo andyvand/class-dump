@@ -33,7 +33,9 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool detectorDidRun; // @synthesize detectorDidRun=_detectorDidRun;
+// Error: Property attributes should begin with the type ('T') attribute, property name: detectorDidRun
+// Property attributes: (null)
+
 @property(nonatomic) long long highPriorityTrackId; // @synthesize highPriorityTrackId=_highPriorityTrackId;
 @property(retain, nonatomic) NSArray *observations; // @synthesize observations=_observations;
 @property(nonatomic) CDStruct_1b6d18a9 sourceFrameTimestamp; // @synthesize sourceFrameTimestamp=_sourceFrameTimestamp;

@@ -22,7 +22,7 @@
     NSObject<OS_dispatch_group> *_dismissingAnimationGroup;
     _Bool _okButtonAlwaysHidden;
     _Bool _mainButtonAlwaysHidden;
-    _Bool _shouldHideStoryboardViews;
+    id _shouldHideStoryboardViews;
     _Bool _forSnapshot;
     _Bool _didFinishDismissing;
     id <STCommunicationLimitsLockoutViewControllerDelegate> _communicationLimitsDelegate;

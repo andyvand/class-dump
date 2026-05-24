@@ -10,7 +10,7 @@
 @interface PXGComponent
 {
     long long _nestedChanges;
-    PXGMutableComponentDataStore *_mutableDataStore;
+    PXGMutableComponentDataStore *;
     id <PXGComponentObserver> _observer;
     PXGMutableComponentDataStore *_previousDataStore;
 }

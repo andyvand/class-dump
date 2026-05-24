@@ -5,6 +5,5 @@
 //
 
 @protocol HMFMessageTransportDelegate
-- (void)";
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKMetalBuffer;
 @protocol MTLBuffer;
 
 @interface PKMetalStrokeRenderCacheBuffer
 {
-    PKMetalBuffer *_buffer;
+    id _buffer;
     unsigned long long _offset;
     unsigned long long _numVertices;
     unsigned long long _vertexSize;

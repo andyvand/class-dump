@@ -187,7 +187,9 @@
 @property(retain, nonatomic) PXSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot=_selectionSnapshot;
 @property(readonly) Class superclass;
 @property(retain, nonatomic) id <PXTapbackStatusManager> tapbackStatusManager; // @synthesize tapbackStatusManager=_tapbackStatusManager;
-@property(nonatomic) _Bool wantsAssetIndexBadge; // @synthesize wantsAssetIndexBadge=_wantsAssetIndexBadge;
+// Error: Property attributes should begin with the type ('T') attribute, property name: wantsAssetIndexBadge
+// Property attributes: (null)
+
 @property(nonatomic) _Bool wantsDecorationSpritesHostedInDecoratedSprite; // @synthesize wantsDecorationSpritesHostedInDecoratedSprite=_wantsDecorationSpritesHostedInDecoratedSprite;
 @property(nonatomic) _Bool wantsDimmedSelectionStyle; // @synthesize wantsDimmedSelectionStyle=_wantsDimmedSelectionStyle;
 @property(nonatomic) _Bool wantsFileSizeBadge; // @synthesize wantsFileSizeBadge=_wantsFileSizeBadge;

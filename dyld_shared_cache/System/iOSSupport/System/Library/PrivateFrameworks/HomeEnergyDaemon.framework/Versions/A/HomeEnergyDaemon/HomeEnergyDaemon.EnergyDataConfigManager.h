@@ -6,9 +6,6 @@
 
 @interface HomeEnergyDaemon.EnergyDataConfigManager
 {
-    id $defaultActor;
-    id energyDatConfigModel;
-    id sharedContext;
 }
 
 @end

@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionListener, NSMutableArray, NSObject, NSString;
+@class NSMutableArray, NSObject, NSString;
 @protocol OS_dispatch_queue, PRSServerDelegate;
 
 @interface PRSServer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    BSServiceConnectionListener *_connectionListener;
+    id _connectionListener;
     NSMutableArray *_connections;
     id <PRSServerDelegate> _delegate;
 }

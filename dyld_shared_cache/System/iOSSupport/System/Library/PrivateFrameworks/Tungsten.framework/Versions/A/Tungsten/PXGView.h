@@ -5,7 +5,7 @@
 //
 
 @class MTKView, NSDictionary, PXGAXCoalescingResponder, PXGAnchor, PXGDebugHUDLayer, PXGEngine, PXGMetalRenderer, PXGRectDiagnosticsLayer, PXGViewRenderer, PXScrollViewController, PXScrollViewSpeedometer, PXUpdater, UIColor, UIView;
-@protocol PXGAXResponder, PXGViewDiagnosticsSource;
+@protocol PXGViewDiagnosticsSource;
 
 @interface PXGView
 {
@@ -36,7 +36,7 @@
     _Bool _avoidSnapshotOnHeightChanges;
     _Bool _managesScrollableAxisExternally;
     float _displayScaleMultiplier;
-    id <PXGAXResponder> axNextResponder;
+    id axNextResponder;
     Class _customAssetImageViewClass;
     CDUnknownBlockType _customAssetImageViewClassConfigurator;
     PXScrollViewController *_scrollViewController;

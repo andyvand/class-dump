@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface UnknownClass (RPUIViewExtensions)
 - (id);
 - (void);
@@ -13,10 +11,5 @@
 - (id);
 - (double);
 - (void);
-
-// Remaining properties
-@property(retain, nonatomic) UIColor *borderColor;
-@property(nonatomic) double borderWidth;
-@property(retain, nonatomic) UIColor *shadowUIColor;
 @end
 

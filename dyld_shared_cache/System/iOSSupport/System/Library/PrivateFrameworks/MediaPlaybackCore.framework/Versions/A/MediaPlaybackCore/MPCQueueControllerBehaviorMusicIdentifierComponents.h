@@ -59,7 +59,9 @@
 @property(readonly, nonatomic) long long repeatIteration; // @synthesize repeatIteration=_repeatIteration;
 @property(readonly, copy, nonatomic) NSString *sectionID; // @synthesize sectionID=_sectionID;
 @property(readonly) Class superclass;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
+// Error: Property attributes should begin with the type ('T') attribute, property name: type
+// Property attributes: (null)
+
 @property(readonly, nonatomic) unsigned long long uid;
 
 @end

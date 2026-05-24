@@ -16,16 +16,16 @@
     UIView *_centeredView;
 }
 
-- (void)Ô;
-- (void);
-- (id);
-- (void)Ð;
 - (void);
 - (void);
-- (void);
-- (void)ò;
 - (id);
-- (struct CGSize);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (struct CGSize);
 - (void);
 - (_Bool);
 - (void);

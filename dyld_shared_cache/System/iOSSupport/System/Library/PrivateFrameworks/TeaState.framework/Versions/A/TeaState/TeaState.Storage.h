@@ -6,16 +6,6 @@
 
 @interface TeaState.Storage
 {
-    id graphLock;
-    id dependencyContainer;
-    id rootDependencyContainer;
-    id scopedDependencyContainers;
-    id dependencyGraph;
-    id scopeRuleSets;
-    id currentlyUpdatingVertices;
-    id inflightExplicitUpdates;
-    id pendingScopeDefinitions;
-    id pendingScopeTeardowns;
 }
 
 @end

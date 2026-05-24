@@ -34,9 +34,8 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+// Error: Property attributes should begin with the type ('T') attribute, property name: debugDescription
+// Property attributes: (null)
 
 @property id <TPDialerKeypadDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, copy) NSString *description;

@@ -112,8 +112,18 @@
         if (hasExtendedMethodTypesField) {
             objc2Protocol.extendedMethodTypes = [cursor readPtr];
             if (objc2Protocol.extendedMethodTypes != 0) {
-                extendedMethodTypesCursor = [[CDMachOFileDataCursor alloc] initWithFile:self.machOFile address:objc2Protocol.extendedMethodTypes];
-                NSParameterAssert([extendedMethodTypesCursor offset] != 0);
+                // The extendedMethodTypes pointer may target a different image
+                // in the dyld_shared_cache; for cache-extracted dylibs with
+                // chain bits still in the slot, the value can also be raw
+                // chain encoding. Build a cursor only when the address
+                // resolves to data we can actually read; otherwise skip the
+                // extension and use the inline `types` strings instead of
+                // asserting.
+                CDMachOFileDataCursor *trial = [[CDMachOFileDataCursor alloc]
+                    initWithFile:self.machOFile address:objc2Protocol.extendedMethodTypes];
+                if ([trial offset] != 0) {
+                    extendedMethodTypesCursor = trial;
+                }
             }
         }
         
@@ -494,7 +504,6 @@
     BOOL isSmall        = (rawEntsize & 0x80000000) != 0;
     BOOL directSelector = (rawEntsize & 0x40000000) != 0;
     uint32_t count      = [cursor readInt32];
-    static int dbg = 0; if (dbg < 5) { NSLog(@"loadMethodsAtAddress(0x%llx) rawEntsize=0x%x entsize=%u count=%u small=%d direct=%d", address, rawEntsize, entsize, count, isSmall, directSelector); dbg++; }
     if (count > 0x10000) return methods;
 
     if (isSmall) {
@@ -507,7 +516,6 @@
             int32_t  typeOff = (int32_t)[cursor readInt32];
             int32_t  impOff  = (int32_t)[cursor readInt32];
             (void)entryOffset;
-            static int dbg2 = 0; if (dbg2 < 8) { NSLog(@"  entry[%u] nameOff=%d typeOff=%d impOff=%d", index, nameOff, typeOff, impOff); dbg2++; }
 
             uint64_t nameSlotAddr  = address + (entryOffset - [self firstByteOffsetOf:cursor address:address]) + 0;
             // Simpler: convert entryOffset (file offset) back to a vmaddr by
@@ -533,10 +541,34 @@
             NSString *name = nil;
             if (directSelector) {
                 name = [self.machOFile stringAtAddress:nameTargetVMAddr];
-                static int dn = 0; if (dn < 5) { NSLog(@"    directSel name @ 0x%llx -> %@", nameTargetVMAddr, name); dn++; }
+                // Cache-extracted dylibs frequently emit small method lists
+                // whose direct-selector nameOff lands a few bytes *inside* the
+                // selector instead of at its first byte. Use the canonical
+                // string-pool lookup: walk back to the previous NUL and
+                // re-read from there. This recovers the real selector for
+                // both local __objc_methname strings and cache-shared pool
+                // strings. If the bytes around nameTargetVMAddr don't look
+                // like a printable C string (e.g. nameOff resolved into
+                // executable code), the walk gives up and the method ends up
+                // unnamed — same as before.
+                if ([self.machOFile nameLooksTruncated:name address:nameTargetVMAddr]) {
+                    NSString *recovered = [self.machOFile selectorBySearchingBackwardFrom:nameTargetVMAddr maxBack:64];
+                    if (recovered.length > 0) name = recovered;
+                }
             } else {
                 uint64_t selPtr = [self.machOFile pointerAtAddress:nameTargetVMAddr];
                 name = [self.machOFile stringAtAddress:(NSUInteger)selPtr];
+                // Fallbacks for cache-extracted dylibs whose small method
+                // lists may have been pre-fixed up to point at the selector
+                // string directly (the `relativeMethodSelectorsAreDirect`
+                // flag wasn't always set historically, and some caches use
+                // a mix). If the selref-style read produced nothing, try
+                // treating the slot value or the target itself as the
+                // string address.
+                if ([name length] == 0) {
+                    NSString *alt = [self.machOFile stringAtAddress:nameTargetVMAddr];
+                    if ([alt length] > 0) name = alt;
+                }
             }
             NSString *types = [self.machOFile stringAtAddress:typeTargetVMAddr];
 

@@ -253,10 +253,21 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
 
 - (BOOL)_looksLikeUnappliedChainData;
 {
-    // Sample the first 8-byte slot of every __DATA*/__AUTH* segment. If any
-    // contains a value with the upper 16 bits non-zero AND the value is not
-    // itself a valid VM address inside the image, treat the image as having
-    // unresolved chain bits.
+    // Walk the first few hundred bytes of every __DATA*/__AUTH* segment looking
+    // for a slot that is plainly a chain-fixup encoding rather than a clean VM
+    // address. The historical test "top 16 bits set" misses
+    // DYLD_CHAINED_PTR_ARM64E_SHARED_CACHE (format 13) non-auth rebases — those
+    // pack runtimeOffset in bits 0..33 and high8 in bits 34..41, leaving the
+    // upper bits clear. We instead probe each slot through the same candidate
+    // decoder used by the rewriter; a slot that doesn't resolve as-is but
+    // decodes into a real segment is conclusive chain bits.
+    uint64_t imageBase = 0;
+    for (CDLCSegment *s in _segments) {
+        if ([s.name isEqualToString:@"__TEXT"]) { imageBase = (uint64_t)s.vmaddr; break; }
+    }
+    uint64_t cacheBase = self.backingCache ? [self.backingCache cacheBaseAddress]
+                                           : (imageBase & 0xFFFFFFFF80000000ULL);
+
     const uint8_t *bytes = (const uint8_t *)[self.data bytes];
     NSUInteger len = [self.data length];
     for (CDLCSegment *seg in _segments) {
@@ -267,15 +278,20 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
             && ![n isEqualToString:@"__AUTH"]
             && ![n isEqualToString:@"__AUTH_CONST"]) continue;
         NSUInteger off = seg.fileoff;
-        NSUInteger end = off + MIN(seg.filesize, (NSUInteger)0x100);
+        NSUInteger end = off + MIN(seg.filesize, (NSUInteger)0x400);
         if (end > len) end = len;
         for (NSUInteger i = off; i + 8 <= end; i += 8) {
             uint64_t v;
             memcpy(&v, bytes + i, 8);
             if (v == 0) continue;
-            if ((v >> 48) == 0) continue; // top 16 clear → not chain-encoded
+            // Already-applied vmaddr — either in this image or the cache.
             if ([self segmentContainingAddress:(NSUInteger)v]) continue;
-            return YES;
+            if (self.backingCache && [self.backingCache containsAddress:v]) continue;
+            // Either chain-encoded or junk. Probe the decoder; success means
+            // chain bits are still present in this segment.
+            if ((v >> 48) != 0) return YES; // legacy fast path
+            uint64_t resolved = [self _resolveChainSlot:v imageBase:imageBase cacheBase:cacheBase];
+            if (resolved != 0) return YES;
         }
     }
     return NO;
@@ -322,10 +338,13 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
 
 - (void)_heuristicallyRewriteChainSlotsIn:(NSMutableData *)mutable imageBase:(uint64_t)imageBase;
 {
-    uint64_t cacheBase = imageBase & 0xFFFFFFFF80000000ULL;
+    // Prefer the backing cache's real base when we have one — guessing via a
+    // 2 GB round-down works for arm64 system caches but won't on caches that
+    // sit at non-standard bases.
+    uint64_t cacheBase = self.backingCache ? [self.backingCache cacheBaseAddress]
+                                           : (imageBase & 0xFFFFFFFF80000000ULL);
     uint8_t *bytes = (uint8_t *)[mutable mutableBytes];
     NSUInteger len = [mutable length];
-    NSUInteger rewroteToImage = 0, rewroteToCache = 0;
 
     for (CDLCSegment *seg in _segments) {
         NSString *n = seg.name;
@@ -342,19 +361,97 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
             uint64_t v;
             memcpy(&v, bytes + i, 8);
             if (v == 0) continue;
-            if ((v >> 48) == 0) {
-                // Already looks like a clean VM address — leave alone.
-                continue;
-            }
+            // Slot already resolves to a real address in this image or the
+            // backing cache — nothing to rewrite. Note: we can't use the
+            // "(v >> 48) == 0" shortcut here because format-13 SHARED_CACHE
+            // non-auth rebases leave the upper bits clear while still being
+            // chain bits.
+            if ([self segmentContainingAddress:(NSUInteger)v]) continue;
+            if (self.backingCache && [self.backingCache containsAddress:v]) continue;
             uint64_t resolved = [self _resolveChainSlot:v imageBase:imageBase cacheBase:cacheBase];
             if (resolved == 0) continue;
             memcpy(bytes + i, &resolved, 8);
-            if ([self segmentContainingAddress:(NSUInteger)resolved]) rewroteToImage++;
-            else rewroteToCache++;
         }
     }
-    NSLog(@"chain-heuristic: rewrote %lu slots to image, %lu to cache",
-          (unsigned long)rewroteToImage, (unsigned long)rewroteToCache);
+}
+
+// ObjC selectors are restricted to a small character set: letters, digits,
+// underscore, and `:` (for keyword arguments). The runtime allows more in
+// principle (e.g. `+` `-` `.` show up in some Foundation selectors), but
+// `.` and `%` and spaces are strong signals we walked into a log-format
+// string instead of a selector.
+static BOOL CDIsSelectorByte(uint8_t c)
+{
+    return (c >= 'A' && c <= 'Z')
+        || (c >= 'a' && c <= 'z')
+        || (c >= '0' && c <= '9')
+        || c == '_' || c == ':';
+}
+
+- (BOOL)nameLooksTruncated:(NSString *)name address:(uint64_t)address;
+{
+    // Empty / nil reads are always worth retrying via walk-back: nameOff
+    // either pointed past the actual selector start or at a NUL byte.
+    if (name.length == 0) return YES;
+
+    // If the byte immediately before `address` is a printable character (not
+    // a NUL terminator), we landed in the middle of a longer string. That's
+    // the typical small-method-list miss in cache-extracted dylibs.
+    uint8_t prev = 0;
+    if (![self _readByteAtAddress:(address - 1) into:&prev]) return NO;
+    if (prev != 0 && prev >= 0x20 && prev < 0x7f) return YES;
+    return NO;
+}
+
+- (NSString *)selectorBySearchingBackwardFrom:(uint64_t)address maxBack:(NSUInteger)maxBack;
+{
+    // Walk back from `address` looking for a NUL byte. Each byte must be a
+    // plausible *selector* character (letters / digits / `_` / `:`) — that
+    // rejects log-format strings ("%@", spaces) and machine code that just
+    // happens to be printable. Bound by `maxBack` so we don't slide all the
+    // way through __cstring.
+    NSUInteger back = 0;
+    while (back < maxBack) {
+        uint8_t c = 0;
+        if (![self _readByteAtAddress:(address - back - 1) into:&c]) return nil;
+        if (c == 0) break;
+        if (!CDIsSelectorByte(c)) return nil;
+        back++;
+    }
+    if (back >= maxBack) return nil; // ran off without hitting a NUL
+    NSString *cand = (back == 0)
+        ? [self stringAtAddress:(NSUInteger)address]
+        : [self stringAtAddress:(NSUInteger)(address - back)];
+    // Final sanity: the read string must also be all selector-byte. The
+    // tail beyond `address` lives in cstring/methname territory and could
+    // include log specifiers that the prefix sweep missed.
+    const char *u = [cand UTF8String];
+    if (u == NULL || u[0] == 0) return nil;
+    for (const char *p = u; *p; p++) {
+        if (!CDIsSelectorByte((uint8_t)*p)) return nil;
+    }
+    return cand;
+}
+
+// Read a single byte at `address`, honoring backing-cache lookups so the
+// walk-back works for cache-shared selector strings, not just local ones.
+- (BOOL)_readByteAtAddress:(uint64_t)address into:(uint8_t *)outByte;
+{
+    if ([self segmentContainingAddress:(NSUInteger)address]) {
+        NSUInteger off = [self dataOffsetForAddress:(NSUInteger)address];
+        if (off != 0 && off < [self.data length]) {
+            *outByte = ((const uint8_t *)[self.data bytes])[off];
+            return YES;
+        }
+    }
+    if (self.backingCache && [self.backingCache containsAddress:address]) {
+        NSData *b = [self.backingCache bytesAtAddress:address length:1];
+        if (b.length == 1) {
+            *outByte = ((const uint8_t *)[b bytes])[0];
+            return YES;
+        }
+    }
+    return NO;
 }
 
 - (uint64_t)resolvedAddressForRawValue:(uint64_t)raw;
@@ -367,7 +464,8 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
     for (CDLCSegment *seg in _segments) {
         if ([seg.name isEqualToString:@"__TEXT"]) { imageBase = (uint64_t)seg.vmaddr; break; }
     }
-    uint64_t cacheBase = imageBase & 0xFFFFFFFF80000000ULL;
+    uint64_t cacheBase = self.backingCache ? [self.backingCache cacheBaseAddress]
+                                           : (imageBase & 0xFFFFFFFF80000000ULL);
     return [self _resolveChainSlot:raw imageBase:imageBase cacheBase:cacheBase];
 }
 
@@ -377,7 +475,6 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
     if (ivar) object_setIvar(self, ivar, cache);
     // Re-run chain resolution now that more candidate-address pools exist.
     if (cache) {
-        NSLog(@"CDMachOFile: re-running chain fixups with cache backing");
         [self applyChainedFixupsIfAny];
     }
 }
@@ -538,13 +635,25 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
     if (off != 0 && off + 8 <= [self.data length]) {
         uint64_t v;
         memcpy(&v, (const uint8_t *)[self.data bytes] + off, 8);
-        static int n = 0; if (n < 5) { NSLog(@"pointerAtAddress(0x%llx) [self] -> 0x%llx", address, v); n++; }
+        if (v == 0) return 0;
+        // If the slot didn't get rewritten in-place (e.g. the heuristic
+        // couldn't decide what to do with it, or LC_DYLD_CHAINED_FIXUPS was
+        // stripped by dsc_extractor without leaving a coherent chain header),
+        // try to decode it as a chained-pointer fixup on the read path. This
+        // is harmless for already-resolved slots — those return as-is.
+        if ([self segmentContainingAddress:(NSUInteger)v]) return v;
+        if (self.backingCache && [self.backingCache containsAddress:v]) return v;
+        uint64_t resolved = [self resolvedAddressForRawValue:v];
+        if (resolved != 0) return resolved;
         return v;
     }
     if (self.backingCache) {
         uint64_t v = 0;
         if ([self.backingCache readPointerAtAddress:address into:&v]) {
-            static int n = 0; if (n < 5) { NSLog(@"pointerAtAddress(0x%llx) [cache] -> 0x%llx", address, v); n++; }
+            if (v == 0) return 0;
+            if (self.backingCache && [self.backingCache containsAddress:v]) return v;
+            uint64_t resolved = [self resolvedAddressForRawValue:v];
+            if (resolved != 0) return resolved;
             return v;
         }
     }
@@ -561,15 +670,23 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
     CDLCSegment *segment = [self segmentContainingAddress:address];
     if (segment == nil) {
         // Resolve via the same chain-pointer heuristics used in
-        // dataOffsetForAddress: (cache-base + 36/43-bit target, etc.).
+        // dataOffsetForAddress: (cache-base + 30..43-bit target, etc.).
         NSUInteger resolved = [self dataOffsetForAddress:address];
         if (resolved == 0) {
             // Last resort: ask the backing dyld_shared_cache. Selectors and
             // type strings for cache-extracted dylibs frequently live in the
-            // cache's shared selector pool.
+            // cache's shared selector pool. Pass the raw value first (in case
+            // it's already a clean cache VM address) and, if that misses, the
+            // chain-decoded value (so e.g. an unrewritten format-13 slot still
+            // resolves to the right selector in the cache).
             if (self.backingCache) {
                 NSString *s = [self.backingCache stringAtAddress:(uint64_t)address];
                 if (s) return s;
+                uint64_t decoded = [self resolvedAddressForRawValue:(uint64_t)address];
+                if (decoded != 0 && decoded != (uint64_t)address) {
+                    s = [self.backingCache stringAtAddress:decoded];
+                    if (s) return s;
+                }
             }
             return nil;
         }
@@ -603,46 +720,61 @@ static NSString *CDMachOFileMagicNumberDescription(uint32_t magic)
 
     CDLCSegment *segment = [self segmentContainingAddress:address];
     if (segment == nil) {
-        // dsc_extractor leaves raw arm64e USERLAND chained-fixup bits in
-        // __DATA* without preserving an LC_DYLD_CHAINED_FIXUPS to describe
-        // them. The pointer formats use a 36- or 43-bit target encoded against
-        // a base address (image __TEXT vmaddr or shared-cache base). Probe a
-        // small set of likely interpretations; first hit that lands in a
-        // segment wins.
+        // If the address is already a clean VM address that lives in the
+        // backing dyld_shared_cache, defer to the cache and stop here so we
+        // don't synthesise a near-miss candidate inside this image.
+        if (((uint64_t)address >> 48) == 0
+            && self.backingCache && [self.backingCache containsAddress:(uint64_t)address]) {
+            return 0;
+        }
+
+        // Otherwise the value may be raw chained-fixup bits. dsc_extractor
+        // leaves raw chained-fixup bits in __DATA* without preserving an
+        // LC_DYLD_CHAINED_FIXUPS to describe them. The pointer formats use a
+        // 30- to 43-bit target encoded against a base address (image __TEXT
+        // vmaddr or shared-cache base). Probe a small set of likely
+        // interpretations; first hit that lands in a segment wins.
+        //
+        // We probe even when bits 48..63 are clear — DYLD_CHAINED_PTR_ARM64E_-
+        // SHARED_CACHE non-auth rebases keep runtimeOffset in bits 0..33 and
+        // high8 in bits 34..41, so an unrewritten slot can look like a clean
+        // (but invalid) VM address.
         uint64_t imageBase = 0;
         for (CDLCSegment *seg in self.segments) {
             if ([seg.name isEqualToString:@"__TEXT"]) { imageBase = (uint64_t)seg.vmaddr; break; }
         }
-        // Round __TEXT vmaddr down to a 2 GB boundary — modern shared caches
-        // are loaded at fixed 2 GB-aligned bases, e.g. 0x180000000 on arm64
-        // macOS. Each cached image's __TEXT lives within `cacheBase + 2 GB`.
-        uint64_t cacheBase = imageBase & 0xFFFFFFFF80000000ULL;
+        // Prefer the backing cache's real base if available; otherwise round
+        // __TEXT down to a 2 GB boundary (system caches sit at fixed 2 GB-
+        // aligned bases, e.g. 0x180000000 on arm64 macOS).
+        uint64_t cacheBase = self.backingCache ? [self.backingCache cacheBaseAddress]
+                                               : (imageBase & 0xFFFFFFFF80000000ULL);
 
         const uint64_t kTarget30 = 0x3FFFFFFFULL;
         const uint64_t kTarget32 = 0xFFFFFFFFULL;
+        const uint64_t kTarget34 = 0x3FFFFFFFFULL;       // arm64e SHARED_CACHE
         const uint64_t kTarget36 = 0xFFFFFFFFFULL;
         const uint64_t kTarget43 = 0x7FFFFFFFFFFULL;
         const uint64_t kAddr47   = 0x7FFFFFFFFFFFULL;
 
-        NSUInteger candidates[10];
-        candidates[0] = (NSUInteger)(cacheBase + (address & kTarget30));
-        candidates[1] = (NSUInteger)(imageBase + (address & kTarget30));
-        candidates[2] = (NSUInteger)(cacheBase + (address & kTarget32));
-        candidates[3] = (NSUInteger)(imageBase + (address & kTarget32));
-        candidates[4] = (NSUInteger)(cacheBase + (address & kTarget36));
-        candidates[5] = (NSUInteger)(imageBase + (address & kTarget36));
-        candidates[6] = (NSUInteger)(cacheBase + (address & kTarget43));
-        candidates[7] = (NSUInteger)(imageBase + (address & kTarget43));
-        candidates[8] = (NSUInteger)(address & kAddr47);
-        candidates[9] = (NSUInteger)(address & 0x0000FFFFFFFFFFFFULL);
+        NSUInteger candidates[12];
+        candidates[0]  = (NSUInteger)(cacheBase + (address & kTarget30));
+        candidates[1]  = (NSUInteger)(imageBase + (address & kTarget30));
+        candidates[2]  = (NSUInteger)(cacheBase + (address & kTarget32));
+        candidates[3]  = (NSUInteger)(imageBase + (address & kTarget32));
+        candidates[4]  = (NSUInteger)(cacheBase + (address & kTarget34));
+        candidates[5]  = (NSUInteger)(imageBase + (address & kTarget34));
+        candidates[6]  = (NSUInteger)(cacheBase + (address & kTarget36));
+        candidates[7]  = (NSUInteger)(imageBase + (address & kTarget36));
+        candidates[8]  = (NSUInteger)(cacheBase + (address & kTarget43));
+        candidates[9]  = (NSUInteger)(imageBase + (address & kTarget43));
+        candidates[10] = (NSUInteger)(address & kAddr47);
+        candidates[11] = (NSUInteger)(address & 0x0000FFFFFFFFFFFFULL);
 
         for (size_t i = 0; i < sizeof(candidates)/sizeof(candidates[0]); i++) {
             if (candidates[i] == 0 || candidates[i] == address) continue;
             CDLCSegment *cand = [self segmentContainingAddress:candidates[i]];
             if (cand) { segment = cand; address = candidates[i]; goto found; }
         }
-        // Hush — the printed error before exit was making valid invocations
-        // look broken. Callers handle a 0 return gracefully.
         return 0;
     }
 found:

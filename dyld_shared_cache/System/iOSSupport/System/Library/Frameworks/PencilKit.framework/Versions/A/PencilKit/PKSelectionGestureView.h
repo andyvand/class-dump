@@ -8,7 +8,7 @@
 
 @interface PKSelectionGestureView
 {
-    PKSelectionInteraction *_selectionInteraction;
+    id _selectionInteraction;
     PKSelectionController *_selectionController;
 }
 

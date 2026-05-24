@@ -31,7 +31,9 @@
 @property(readonly, copy) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
 @property(readonly) _Bool expectsResponse; // @synthesize expectsResponse=_expectsResponse;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSObject<OS_dispatch_source> *timeoutTimer; // @synthesize timeoutTimer=_timeoutTimer;
+// Error: Property attributes should begin with the type ('T') attribute, property name: timeoutTimer
+// Property attributes: (null)
+
 
 @end
 

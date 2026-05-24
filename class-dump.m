@@ -703,15 +703,12 @@ int main(int argc, char *argv[])
 
                 case CD_OPT_WITH_CACHE: {
                     NSString *cachePath = [NSString stringWithUTF8String:optarg];
-                    NSData *cacheData = [NSData dataWithContentsOfFile:cachePath
-                                                               options:NSDataReadingMappedAlways
-                                                                 error:NULL];
-                    if (cacheData == nil) {
-                        fprintf(stderr, "class-dump: cannot read cache %s\n", optarg);
-                        errorFlag = YES;
-                        break;
-                    }
-                    CDDyldCache *cache = [[CDDyldCache alloc] initWithData:cacheData];
+                    // Use initWithPath: so subcache siblings (`.01`,
+                    // `.02.dylddata`, etc.) get mapped too — modern shared
+                    // caches are split, and the actual __TEXT/__DATA pages
+                    // (including the shared selector pool) live in the
+                    // subcaches, not the main file.
+                    CDDyldCache *cache = [[CDDyldCache alloc] initWithPath:cachePath];
                     if (cache == nil) {
                         fprintf(stderr, "class-dump: %s is not a dyld_shared_cache\n", optarg);
                         errorFlag = YES;
@@ -911,10 +908,7 @@ int main(int argc, char *argv[])
                 // resolution. In subprocess mode each worker loads its own
                 // copy via --with-cache, so skip the parent-side load.
                 if (dscInProcess && bulkCache == nil) {
-                    NSData *cdata = [NSData dataWithContentsOfFile:dscDumpAllInput
-                                                           options:NSDataReadingMappedAlways
-                                                             error:NULL];
-                    if (cdata) bulkCache = [[CDDyldCache alloc] initWithData:cdata];
+                    bulkCache = [[CDDyldCache alloc] initWithPath:dscDumpAllInput];
                 }
             }
 
@@ -1278,14 +1272,7 @@ int main(int argc, char *argv[])
 
         if (optind < argc && (shouldDscInfo || shouldDscListImages)) {
             NSString *arg = [NSString stringWithFileSystemRepresentation:argv[optind]];
-            NSData *fileData = [NSData dataWithContentsOfFile:arg
-                                                      options:NSDataReadingMappedAlways
-                                                        error:NULL];
-            if (fileData == nil) {
-                fprintf(stderr, "class-dump: cannot read %s\n", [arg UTF8String]);
-                exit(1);
-            }
-            CDDyldCache *cache = [[CDDyldCache alloc] initWithData:fileData];
+            CDDyldCache *cache = [[CDDyldCache alloc] initWithPath:arg];
             if (cache == nil) {
                 fprintf(stderr, "class-dump: %s is not a dyld_shared_cache\n", [arg UTF8String]);
                 exit(1);

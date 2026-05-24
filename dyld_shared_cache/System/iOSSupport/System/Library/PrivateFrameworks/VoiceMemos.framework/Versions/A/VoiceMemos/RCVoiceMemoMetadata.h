@@ -61,7 +61,9 @@
 @property(retain, nonatomic) NSArray *codecs; // @synthesize codecs=_codecs;
 @property(retain, nonatomic) NSNumber *creationTimeMillis; // @synthesize creationTimeMillis=_creationTimeMillis;
 @property(retain, nonatomic) NSNumber *deletionTimeMillis; // @synthesize deletionTimeMillis=_deletionTimeMillis;
-@property(retain, nonatomic) NSNumber *durationMillis; // @synthesize durationMillis=_durationMillis;
+// Error: Property attributes should begin with the type ('T') attribute, property name: durationMillis
+// Property attributes: (null)
+
 @property(retain, nonatomic) NSNumber *enhanced; // @synthesize enhanced=_enhanced;
 @property(retain, nonatomic) NSString *exportCleanupToken; // @synthesize exportCleanupToken=_exportCleanupToken;
 @property(retain, nonatomic) NSNumber *favorite; // @synthesize favorite=_favorite;

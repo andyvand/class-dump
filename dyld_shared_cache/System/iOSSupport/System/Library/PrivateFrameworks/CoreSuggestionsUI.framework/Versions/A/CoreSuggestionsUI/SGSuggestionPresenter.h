@@ -16,7 +16,7 @@
     SGSuggestionStore *_suggestionStore;
     NSMutableArray *_filteredSuggestions;
     SGSuggestionCategoryList *_suggestionCategoryList;
-    unsigned long long _currentSuggestionsCount;
+    unsigned long long;
     _Bool _forceUpdate;
     EKICSPreviewController *_icsPreviewController;
     _Bool _wantsToShowBanner;

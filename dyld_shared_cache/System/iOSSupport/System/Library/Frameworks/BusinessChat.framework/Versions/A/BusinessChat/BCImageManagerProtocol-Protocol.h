@@ -5,7 +5,5 @@
 //
 
 @protocol BCImageManagerProtocol
-- (void)øa#z;
-- (void)£v{;
 @end
 

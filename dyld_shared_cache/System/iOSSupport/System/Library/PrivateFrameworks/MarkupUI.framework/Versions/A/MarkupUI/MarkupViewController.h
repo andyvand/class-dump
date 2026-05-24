@@ -28,7 +28,7 @@
     _Bool _needToPerformFullTeardown;
     _Bool _needToPerformDocumentClosedTeardown;
     _Bool _observingAKCurrentPageIndex;
-    _Bool _alreadyLoggedSavingForThisDocument;
+    id _alreadyLoggedSavingForThisDocument;
     _Bool _useFancyTransition;
     _Bool _isAnimatingMarkupExtensionTransition;
     _Bool _userDidCancel;

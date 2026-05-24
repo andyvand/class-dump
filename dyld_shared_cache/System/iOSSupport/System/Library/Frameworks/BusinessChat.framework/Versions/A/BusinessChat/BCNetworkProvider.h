@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSURLSession *_session;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

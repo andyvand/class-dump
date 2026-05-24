@@ -6,52 +6,6 @@
 
 @interface XavierNews.Classic.HeadlineScoreProfile
 {
-    id articleCohorts;
-    id audioMultiplier;
-    id autofavoritedScore;
-    id bundleFreeMultiplier;
-    id bundlePaidMultiplier;
-    id conversionCoefficient;
-    id conversionCohorts;
-    id conversionMultiplier;
-    id conversionScore;
-    id dampenedStaticMultiplier;
-    id serverScoreDemocratizationFactor;
-    id evergreenMultiplier;
-    id featuredMultiplier;
-    id halfLifeCoefficient;
-    id multiplierDampener;
-    id mutedVoteDampener;
-    id contentTriggerDampener;
-    id nicheContentScores;
-    id personalizedScore;
-    id qualitativeMultiplier;
-    id rawPersonalizedScore;
-    id readPenalty;
-    id listenedPenalty;
-    id seenPenalty;
-    id serverScore;
-    id rawServerScore;
-    id serverScoreCoefficient;
-    id sparseTagsPenalty;
-    id staticMultiplier;
-    id subscribedChannelScore;
-    id subscribedTopicScore;
-    id timeDecayPenalty;
-    id userFeedbackTimeDecayPenalty;
-    id timeDecayedScore;
-    id userCohortMemberships;
-    id publisherDampener;
-    id tabiScore;
-    id publisherFavorability;
-    id autofavoritedScoreCoefficient;
-    id subscribedTopicScoreCoefficient;
-    id subscribedChannelScoreCoefficent;
-    id tabiScoreCoefficient;
-    id multiplier;
-    id dampener;
-    id shadowTabiScore;
-    id shadowTimeDecayedScore;
 }
 
 @end

@@ -88,27 +88,5 @@
 - (void);
 - (id);
 
-// Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) UILabel *bodyLabel; // @synthesize bodyLabel=_bodyLabel;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(retain, nonatomic) NSString *customBodyText; // @synthesize customBodyText=_customBodyText;
-@property(retain, nonatomic) NSString *customButtonTitle; // @synthesize customButtonTitle=_customButtonTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hideTitle; // @synthesize hideTitle=_hideTitle;
-@property(retain, nonatomic) UIButton *iForgotButton; // @synthesize iForgotButton=_iForgotButton;
-@property _Bool isSolariumEnabled; // @synthesize isSolariumEnabled=_isSolariumEnabled;
-@property(retain, nonatomic) UITextField *passwordField; // @synthesize passwordField=_passwordField;
-@property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
-@property(retain, nonatomic) AKRoundedButton *signInButton; // @synthesize signInButton=_signInButton;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
-@property(retain, nonatomic) UITextField *usernameField; // @synthesize usernameField=_usernameField;
-
 @end
 

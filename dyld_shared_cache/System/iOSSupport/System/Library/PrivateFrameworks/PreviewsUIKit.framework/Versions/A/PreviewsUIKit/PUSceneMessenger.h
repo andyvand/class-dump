@@ -4,13 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _PUSceneToHandlerMap;
-
 @interface PUSceneMessenger
 {
-    _PUSceneToHandlerMap *_keyStatusHandlerRegistry;
-    _PUSceneToHandlerMap *_unsupportedFeatureHandlerRegistry;
-    _PUSceneToHandlerMap *_zoomHandlerRegistry;
 }
 
 + (id);

@@ -166,7 +166,9 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *attributeValues; // @dynamic attributeValues;
-@property(nonatomic) double emissionAngle;
+// Error: Property attributes should begin with the type ('T') attribute, property name: emissionAngle
+// Property attributes: (null)
+
 @property(nonatomic) double emissionAngleRange;
 @property(nonatomic) unsigned int fieldBitMask;
 @property(nonatomic) unsigned long long numParticlesToEmit;

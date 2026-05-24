@@ -21,7 +21,7 @@
     long long _forceTouchCapability;
     NSString *_preferredContentSizeCategory;
     unsigned long long _specificity;
-    NSArray *_preferredContentSizeCategories;
+    NSArray *;
 }
 
 + (id);

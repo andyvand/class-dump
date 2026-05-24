@@ -129,7 +129,9 @@
 
 // Remaining properties
 @property(retain, nonatomic) UIStackView *_buttonStackView; // @synthesize _buttonStackView=__buttonStackView;
-@property(retain, nonatomic) NSLayoutConstraint *_buttonStackViewBottomConstraint; // @synthesize _buttonStackViewBottomConstraint=__buttonStackViewBottomConstraint;
+// Error: Property attributes should begin with the type ('T') attribute, property name: _buttonStackViewBottomConstraint
+// Property attributes: (null)
+
 @property(retain, nonatomic) NSLayoutConstraint *_buttonStackViewHeightConstraint; // @synthesize _buttonStackViewHeightConstraint=__buttonStackViewHeightConstraint;
 @property(retain, nonatomic) PKPaletteButtonGroupView *_centeredButtonGroupView; // @synthesize _centeredButtonGroupView=__centeredButtonGroupView;
 @property(retain, nonatomic) UIView *_contentView; // @synthesize _contentView=__contentView;

@@ -4,9 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#import <HomeUI/__HUTimerTableViewCellAccessibility_super.h>
-
-@interface HUTimerTableViewCellAccessibility : __HUTimerTableViewCellAccessibility_super
+@interface HUTimerTableViewCellAccessibility
 {
 }
 

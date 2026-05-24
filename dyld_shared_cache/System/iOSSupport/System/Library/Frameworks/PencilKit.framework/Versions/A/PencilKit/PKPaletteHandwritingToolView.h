@@ -11,7 +11,7 @@
 
 @interface PKPaletteHandwritingToolView : PKPaletteToolView
 {
-    _Bool _needsUpdateTitleLabel;
+    id _needsUpdateTitleLabel;
     NSString *_localeIdentifier;
     UILabel *_toolLabel;
     NSLayoutConstraint *_toolLabelCenterXConstraint;

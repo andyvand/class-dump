@@ -86,7 +86,9 @@
 @property(readonly, nonatomic) MPCPlayerAudioFormat *activeFormat; // @synthesize activeFormat=_activeFormat;
 @property(readonly, nonatomic) long long activeFormatJustification; // @synthesize activeFormatJustification=_activeFormatJustification;
 @property(readonly, nonatomic) NSArray *alternateFormats; // @synthesize alternateFormats=_alternateFormats;
-@property(readonly, nonatomic) MPCPlayerAudioRoute *audioRoute; // @synthesize audioRoute=_audioRoute;
+// Error: Property attributes should begin with the type ('T') attribute, property name: audioRoute
+// Property attributes: (null)
+
 @property(readonly, nonatomic, getter=isAutoPlay) _Bool autoPlay; // @synthesize autoPlay=_autoPlay;
 @property(readonly, copy, nonatomic) NSString *contentItemIdentifier; // @synthesize contentItemIdentifier=_contentItemIdentifier;
 @property(readonly, copy) NSString *debugDescription;

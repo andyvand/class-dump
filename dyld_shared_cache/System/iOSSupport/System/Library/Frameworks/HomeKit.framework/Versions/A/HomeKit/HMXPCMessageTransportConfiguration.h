@@ -57,7 +57,9 @@
 @property _Bool requiresHomeDataAccess; // @synthesize requiresHomeDataAccess=_requiresHomeDataAccess;
 @property(readonly, copy) NSString *serverStartNotification;
 @property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
+// Error: Property attributes should begin with the type ('T') attribute, property name: superclass
+// Property attributes: (null)
+
 
 @end
 

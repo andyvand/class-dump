@@ -9,7 +9,7 @@
 @interface PXGAnchorConstraint
 {
     _Bool _visiblePortionOnly;
-    unsigned int _spriteEdge;
+    unsigned int;
     unsigned int _visibleRectEdge;
     PXGSpriteReference *_spriteReference;
     unsigned long long _referencingOptions;

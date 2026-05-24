@@ -32,7 +32,7 @@
     id <MTLTexture> _disparityEdgesTemp;
     id <MTLTexture> _disparityDiff;
     id <MTLTexture> _disparityDiffUpscaled;
-    id <MTLTexture> _focusEdgeMask;
+    id _focusEdgeMask;
     id <MTLTexture> _raytracedRGBWeight;
     id <MTLTexture> _raytracedRGBWeightUpscaled;
     id <MTLTexture> _guideRGBACoefficients;

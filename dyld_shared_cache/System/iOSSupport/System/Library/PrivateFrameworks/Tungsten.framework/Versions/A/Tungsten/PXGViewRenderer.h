@@ -32,7 +32,7 @@
     UIView *_rootView;
     Class _customAssetImageViewClass;
     CDUnknownBlockType _customAssetImageViewClassConfigurator;
-    struct CGRect _visibleRect;
+    id _visibleRect;
     CDStruct_6fbdf7c2 _interactionState;
 }
 

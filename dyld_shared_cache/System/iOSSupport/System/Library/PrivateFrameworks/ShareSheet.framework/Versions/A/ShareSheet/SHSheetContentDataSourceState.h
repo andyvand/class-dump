@@ -25,7 +25,7 @@
     NSArray *_systemActionIdentifiers;
     NSArray *_extensionActionIdentifiers;
     NSUUID *_moreActionIdentifier;
-    NSUUID *_moreActionExpandedIdentifier;
+    NSUUID *;
     NSDictionary *_customActionIdentifiersByCustomSectionIdentifier;
     NSOrderedSet *_customSectionIdentifiers;
     NSDictionary *_activitiesByUUID;

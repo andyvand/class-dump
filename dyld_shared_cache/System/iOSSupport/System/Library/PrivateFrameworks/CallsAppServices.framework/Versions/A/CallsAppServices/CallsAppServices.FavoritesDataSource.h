@@ -17,7 +17,7 @@
     id serialQueue;
     id firstLoadSubject;
     id favoriteUpdateTask;
-    id contactStoreUpdateSink;
+    id;
     id callProviderObserver;
 }
 

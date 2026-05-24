@@ -18,7 +18,7 @@
     id audioSessionController;
     id applicationMusicPlayerTransitionOptions;
     id coordinatedPlaybackSuspension;
-    id videoPlayerViewController;
+    id;
     id playbackStartSubscription;
     id behavior;
     id queue;

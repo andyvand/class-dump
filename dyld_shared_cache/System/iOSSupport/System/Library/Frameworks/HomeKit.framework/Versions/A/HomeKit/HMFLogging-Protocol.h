@@ -4,9 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-
 @protocol HMFLogging
-+ (NSObject *)ifier = %@, Name = %@, Value = %@>;
++ (id)ifier = %@, Name = %@, Value = %@>;
 @end
 

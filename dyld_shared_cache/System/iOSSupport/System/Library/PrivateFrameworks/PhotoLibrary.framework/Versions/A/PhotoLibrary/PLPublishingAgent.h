@@ -31,7 +31,7 @@
     double _startTime;
     double _endTime;
     long long _approximateHDUploadSize;
-    long long _approximateSDUploadSize;
+    long long;
     _Bool _mediaIsHDVideo;
     _Bool _enableHDUpload;
     _Bool _needsTrimming;

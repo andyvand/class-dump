@@ -10,7 +10,7 @@
 __attribute__((visibility("hidden")))
 @interface WFDefaultFavoritesProvider
 {
-    id <WFFavoriteLocationProviderDelegate> _delegate;
+    id _delegate;
 }
 
 - (id);

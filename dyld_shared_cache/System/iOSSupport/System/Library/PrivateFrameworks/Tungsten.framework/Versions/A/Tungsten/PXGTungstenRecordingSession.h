@@ -34,14 +34,5 @@
 - (void);
 - (void);
 
-// Remaining properties
-@property(readonly, nonatomic) long long frameNumber; // @synthesize frameNumber=_frameNumber;
-@property(readonly, nonatomic) PXGTungstenRecordingFrameState *frameState; // @synthesize frameState=_frameState;
-@property(readonly, nonatomic) _Bool isStopped;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *outputQueue; // @synthesize outputQueue=_outputQueue;
-@property(retain, nonatomic) NSOutputStream *outputStream; // @synthesize outputStream=_outputStream;
-@property(readonly, nonatomic) NSURL *recordingURL; // @synthesize recordingURL=_recordingURL;
-@property(retain, nonatomic) id <PXGTungstenRecordingSerializer> serializer; // @synthesize serializer=_serializer;
-
 @end
 

@@ -259,7 +259,9 @@
 @property(nonatomic) _Bool debugExtendedColorRange; // @synthesize debugExtendedColorRange;
 @property(nonatomic) _Bool debugMipmaps; // @synthesize debugMipmaps;
 @property(nonatomic) _Bool debugOpaque; // @synthesize debugOpaque;
-@property(nonatomic) _Bool debugResolution; // @synthesize debugResolution;
+// Error: Property attributes should begin with the type ('T') attribute, property name: debugResolution
+// Property attributes: (null)
+
 @property(nonatomic) _Bool debugSharedTextures; // @synthesize debugSharedTextures;
 @property(nonatomic) _Bool disableLowResThumbnails; // @synthesize disableLowResThumbnails;
 @property(nonatomic) _Bool enableAnchoringRectDiagnostics; // @synthesize enableAnchoringRectDiagnostics;

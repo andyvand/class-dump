@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#import <HomeUI/__HUWallpaperPhotoCellAccessibility_super.h>
+#import "__HUWallpaperPhotoCellAccessibility_super.h"
 
 @interface HUWallpaperPhotoCellAccessibility : __HUWallpaperPhotoCellAccessibility_super
 {

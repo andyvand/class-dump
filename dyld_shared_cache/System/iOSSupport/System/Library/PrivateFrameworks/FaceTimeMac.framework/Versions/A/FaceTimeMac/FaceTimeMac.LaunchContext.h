@@ -8,7 +8,7 @@
 {
     id openUrl;
     id launchedByNotification;
-    id launchedByUserActivity;
+    id;
     id launchedToTest;
 }
 

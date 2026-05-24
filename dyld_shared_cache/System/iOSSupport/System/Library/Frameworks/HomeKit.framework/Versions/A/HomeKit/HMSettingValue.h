@@ -8,7 +8,7 @@
 
 @interface HMSettingValue
 {
-    long long _type;
+    id _type;
     NSNumber *_numberValue;
     NSString *_stringValue;
     NSData *_dataValue;

@@ -27,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (void)H;
+- (void);
 - (void);
 - (void);
 - (unsigned long long);

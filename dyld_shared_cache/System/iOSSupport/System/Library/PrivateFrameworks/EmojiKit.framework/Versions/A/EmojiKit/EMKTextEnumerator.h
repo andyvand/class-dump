@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMFEmojiPreferences, NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface EMKTextEnumerator
 {
-    NSMutableDictionary *_emojiDatasByLanguage;
-    EMFEmojiPreferences *_emojiPreferences;
 }
 
 - (id);

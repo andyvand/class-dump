@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#import <ChatKitFramework/__CKDetailsControllerAccessibility_super.h>
+#import "__CKDetailsControllerAccessibility_super.h"
 
 @interface CKDetailsControllerAccessibility : __CKDetailsControllerAccessibility_super
 {

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSRemoteViewController, NSViewController;
+@class NSRemoteViewController;
 
 @interface AKAuthorizationRVSBootstrapper
 {
@@ -19,10 +19,6 @@
 - (id);
 - (id);
 - (void);
-
-// Remaining properties
-@property(retain, nonatomic) NSRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(readonly) NSViewController *viewController;
 
 @end
 

@@ -19,7 +19,7 @@
     _Bool _isPreventingMapUpdates;
     _Bool _isPreviewing;
     _Bool _isUserLocationUpdated;
-    _Bool _canChangeUserTrackingMode;
+    id _canChangeUserTrackingMode;
     _Bool _isGoingBackToAllAnnotation;
     _Bool _isSwitchingTrackingMode;
     _Bool _shouldDisplayOverlay;

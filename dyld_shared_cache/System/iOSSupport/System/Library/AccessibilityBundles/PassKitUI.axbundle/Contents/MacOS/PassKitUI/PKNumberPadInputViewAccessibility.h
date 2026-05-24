@@ -4,9 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-#import <PassKitUI/__PKNumberPadInputViewAccessibility_super.h>
-
-@interface PKNumberPadInputViewAccessibility : __PKNumberPadInputViewAccessibility_super
+@interface PKNumberPadInputViewAccessibility
 {
 }
 

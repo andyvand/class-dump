@@ -15,7 +15,7 @@
     _Bool _needsSwitch;
     _Bool _switchedOn;
     _Bool _needsDownloadProgress;
-    float _downloadProgress;
+    id _downloadProgress;
     unsigned long long _itemKind;
     TKTonePickerSectionItem *_parentSectionItem;
     NSArray *_childrenToneClassicsPickerItems;

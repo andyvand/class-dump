@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
     float *_intermediateBuffer;
     struct DSPSplitComplex _fftBuffer;
-    struct OpaqueFFTSetup *_fftSetup;
+    id _fftSetup;
     _Bool _processing;
     float _sampleRate;
     long long _maxNumberOfFrames;

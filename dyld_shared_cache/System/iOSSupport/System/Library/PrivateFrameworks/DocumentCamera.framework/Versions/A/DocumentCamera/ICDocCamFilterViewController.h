@@ -85,7 +85,9 @@
 @property(nonatomic) __weak UIView *backgroundView; // @synthesize backgroundView=_backgroundView;
 @property(nonatomic) double bottomContentInset; // @synthesize bottomContentInset=_bottomContentInset;
 @property(nonatomic) double bottomOffset; // @synthesize bottomOffset=_bottomOffset;
-@property(readonly, nonatomic) struct CGSize contentSize;
+// Error: Property attributes should begin with the type ('T') attribute, property name: contentSize
+// Property attributes: (null)
+
 @property(nonatomic) short currentFilterType; // @synthesize currentFilterType=_currentFilterType;
 @property(readonly, copy) NSString *debugDescription;
 // Preceding property had unknown attributes: ?

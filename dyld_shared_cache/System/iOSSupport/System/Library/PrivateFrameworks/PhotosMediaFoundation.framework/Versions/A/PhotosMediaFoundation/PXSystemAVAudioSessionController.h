@@ -37,7 +37,9 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_audioSessionQueue_setAudioSession:) id <PXAVAudioSession> audioSession; // @synthesize audioSession=_audioSession;
-@property(readonly) long long currentCategory;
+// Error: Property attributes should begin with the type ('T') attribute, property name: currentCategory
+// Property attributes: (null)
+
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) unsigned long long signpostID; // @synthesize signpostID=_signpostID;
 

@@ -29,7 +29,9 @@
 @property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *messageName;
 @property(readonly, nonatomic) NSDictionary *messagePayload;
-@property(readonly) Class superclass;
+// Error: Property attributes should begin with the type ('T') attribute, property name: superclass
+// Property attributes: (null)
+
 
 @end
 

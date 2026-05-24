@@ -8,8 +8,6 @@
 
 @interface HMHomeAccessCodeValue
 {
-    HMAccessCodeValue *_accessCodeValue;
-    HMAccessCodeUserInformationValue *_userInformationValue;
 }
 
 + (id);

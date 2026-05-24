@@ -25,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (struct __DDResult *)objc_stubs;
+- (struct __DDResult *);
 - (unsigned long long);
 - (id);
 - (void);

@@ -260,7 +260,9 @@
 @property(nonatomic) __weak DOCDocBrowserVC_UIActivityViewController *activityViewController; // @synthesize activityViewController=_activityViewController;
 @property(retain, nonatomic) NSArray *additionalLeadingNavigationBarButtonItems; // @synthesize additionalLeadingNavigationBarButtonItems=_additionalLeadingNavigationBarButtonItems;
 @property(retain, nonatomic) NSArray *additionalTrailingNavigationBarButtonItems; // @synthesize additionalTrailingNavigationBarButtonItems=_additionalTrailingNavigationBarButtonItems;
-@property(readonly, copy, nonatomic) NSArray *allowedContentTypes;
+// Error: Property attributes should begin with the type ('T') attribute, property name: allowedContentTypes
+// Property attributes: (null)
+
 @property(nonatomic) _Bool allowsDocumentCreation; // @synthesize allowsDocumentCreation=_allowsDocumentCreation;
 @property(nonatomic) _Bool allowsPickingMultipleItems; // @synthesize allowsPickingMultipleItems=_allowsPickingMultipleItems;
 @property(copy, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;

@@ -11,7 +11,7 @@
     NSMutableArray *_viewCache;
     _Bool _sentenceHighlight;
     NSArray *_highlightSelectionRects;
-    UIColor *_selectionColor;
+    UIColor *;
     UIColor *_underlineColor;
 }
 

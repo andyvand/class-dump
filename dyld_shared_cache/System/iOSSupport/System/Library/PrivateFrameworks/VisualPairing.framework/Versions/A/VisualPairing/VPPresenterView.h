@@ -42,7 +42,9 @@
 // Remaining properties
 @property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
 @property(copy, nonatomic) NSString *verificationCode; // @synthesize verificationCode=_verificationCode;
-@property(nonatomic) float watermarkOpacityMultiplier; // @synthesize watermarkOpacityMultiplier=_watermarkOpacityMultiplier;
+// Error: Property attributes should begin with the type ('T') attribute, property name: watermarkOpacityMultiplier
+// Property attributes: (null)
+
 @property(nonatomic) unsigned long long watermarkScaleFactor; // @synthesize watermarkScaleFactor=_watermarkScaleFactor;
 
 @end

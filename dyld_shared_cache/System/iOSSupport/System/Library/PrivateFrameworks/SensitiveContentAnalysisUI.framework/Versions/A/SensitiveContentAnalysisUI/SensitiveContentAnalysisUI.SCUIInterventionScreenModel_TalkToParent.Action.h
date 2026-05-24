@@ -8,10 +8,6 @@
 
 @interface SensitiveContentAnalysisUI.SCUIInterventionScreenModel_TalkToParent.Action
 {
-    id titleKey;
-    _Bool primary;
-    long long actionID;
-    _Bool isLinkStyle;
 }
 
 - (_Bool);

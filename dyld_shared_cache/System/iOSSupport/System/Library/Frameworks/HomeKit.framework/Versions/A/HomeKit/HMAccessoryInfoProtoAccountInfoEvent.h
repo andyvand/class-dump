@@ -11,7 +11,7 @@
     NSString *_aaAltDSID;
     NSString *_amsAltDSID;
     NSString *_username;
-    _Bool _signedIn;
+    _Bool;
     struct {
         unsigned int signedIn:1;
     } _has;

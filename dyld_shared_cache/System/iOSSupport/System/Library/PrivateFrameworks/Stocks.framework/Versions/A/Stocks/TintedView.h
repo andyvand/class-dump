@@ -8,7 +8,7 @@
 
 @interface TintedView
 {
-    UIImage *_image;
+    id _image;
     UIColor *_tintColor;
 }
 

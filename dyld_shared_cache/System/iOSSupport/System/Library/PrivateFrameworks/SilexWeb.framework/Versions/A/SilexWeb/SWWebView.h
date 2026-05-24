@@ -10,7 +10,7 @@
 {
     UIView *_accessoryView;
     UITextInputTraits *_overridenTraits;
-    NSArray *_removedMenuIdentifiers;
+    id _removedMenuIdentifiers;
 }
 
 - (void);
